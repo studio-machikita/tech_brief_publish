@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-30",
+  "episode_date_local": "2026-03-30",
+  "content_snapshot_date": "2026-03-30",
+  "show_length_sec": 790,
+  "generated_at": "2026-03-29T21:11:16.998291+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-65500079",
+      "title": "C++26 is done! — Trip report: March 2026 ISO C++ standards meeting (London Croydon, UK)",
+      "fingerprint": "65500079e3a6c0507faf11624d2eef91",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f7c55343",
+      "title": "The Cognitive Dark Forest",
+      "fingerprint": "f7c55343b537132313b4e72cc77d8988",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c0df4531",
+      "title": "GitHub - DavidHavoc/ayaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust.",
+      "fingerprint": "c0df453110162751763fce8f36e8cafd",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8def5de0",
+      "title": "Announcing the RISE RISC-V Runners: free, native RISC-V CI on GitHub &#8211; Rise: RISC",
+      "fingerprint": "8def5de0405fdbc404d097e44cd50072",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-53e0a530",
+      "title": "Release Nvim 0.12.0 · neovim/neovim",
+      "fingerprint": "53e0a5306c7b83689f05a05a2affbd62",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3b99b606",
+      "title": "GitHub - alonsovm44/glupe: Glupe 🙏🌹. A simple intent oriented programming language for the AI era.",
+      "fingerprint": "3b99b60659cef0295c03194e74d586bf",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f64e2adf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ChatGPT Won&#x27;t Let You Type Until Cloudflare Reads Your React State. I Decrypted the Program That Does It."
+    },
+    {
+      "item_id": "item-8dc8c802",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Voyager 1 runs on 69 KB of memory and an 8-track tape recorder"
+    },
+    {
+      "item_id": "item-455bb5d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Vibe Coding Failures: Documented AI Code Incidents"
+    },
+    {
+      "item_id": "item-43f071d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - chenglou/pretext"
+    },
+    {
+      "item_id": "item-63007ed9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More on Version Control"
+    },
+    {
+      "item_id": "item-50ca76b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The rise and fall of IBM&#39;s 4 Pi aerospace computers: an illustrated history"
+    },
+    {
+      "item_id": "item-260026ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Midnight train from Georgia: A view of America from the tracks as airports struggle in the shutdown"
+    },
+    {
+      "item_id": "item-8ab23100",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Creating West Coast Buddhism"
+    },
+    {
+      "item_id": "item-24c8ba04",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Train Varieties｜JR KYUSHU RAILWAY COMPANY"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-03-30/blog.md",
+    "show_notes_path": "out/2026-03-30/show_notes.md",
+    "script_path": "out/2026-03-30/script_2hosts.md",
+    "audio_path": "out/2026-03-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-03-30/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18870,
+        "output_tokens": 7112,
+        "cost_usd": 0.05443
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38495,
+        "output_tokens": 7533,
+        "cost_usd": 0.22848
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4277,
+        "cost_usd": 0.05132400000000001
+      }
+    ],
+    "total_cost_usd": 0.334234
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>Tech News Radio</title>
+    <link>https://studio-machikita.github.io/tech_brief_publish</link>
+    <description>エンジニアの朝に。AIが厳選した最新テックニュースを毎朝10分、全ニュースに出典リンク付きでお届けします。AI・LLM・クラウド・DevOps・セキュリティなど幅広いトピックをケンとミホの掛け合いで解説。</description>
+    <language>ja</language>
+    <copyright>© 2026 Studio Machikita</copyright>
+    <generator>Studio Machikita Podcast Pipeline</generator>
+    <atom:link href="https://studio-machikita.github.io/tech_brief_publish/podcast_feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Studio Machikita</itunes:author>
+    <itunes:owner>
+      <itunes:name>Studio Machikita</itunes:name>
+      <itunes:email>studiomachikita@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://studio-machikita.github.io/tech_brief_publish/artwork.jpg" />
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    <itunes:category text="News">
+      <itunes:category text="Daily News" />
+    </itunes:category>
+    <itunes:keywords>テックニュース,AI,LLM,エンジニア,朝のニュース,テクノロジー,クラウド,DevOps,出典付き,ポッドキャスト,Tech News,podcast</itunes:keywords>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
+  </channel>
+</rss>

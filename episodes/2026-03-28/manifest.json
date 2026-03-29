@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-28",
+  "episode_date_local": "2026-03-28",
+  "content_snapshot_date": "2026-03-28",
+  "show_length_sec": 430,
+  "generated_at": "2026-03-28T02:24:12.091208+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-723ea0ba",
+      "title": "The Future of SCIP | Sourcegraph Blog",
+      "fingerprint": "723ea0ba9cc4cfb5cb51c36af33b23b9",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b5392509",
+      "title": "Improving Composer through real-time RL · Cursor",
+      "fingerprint": "b5392509ce5852a558c6f28f08029522",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f42f91e9",
+      "title": "GitHub - davidmonterocrespo24/velxio: Emulate Arduino, ESP32 &amp; Raspberry Pi. in your browser. Write code, compile, and run on 19 real boards — Arduino Uno, ESP32, ESP32-C3, Raspberry Pi Pico, Raspberry Pi 3, and more. No hardware, no cloud, no limits.. Discord: https://discord.gg/rCScB9cG",
+      "fingerprint": "f42f91e9e24dbb42069cf8d9ee305ed5",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8af4d77c",
+      "title": "Anatomy of the .claude/ Folder",
+      "fingerprint": "8af4d77ceea23230b69167e091f3c8f6",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3ebb169d",
+      "title": "Telnyx package compromised on PyPI",
+      "fingerprint": "3ebb169df61455a292aa8f1396294cbc",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-53693052",
+      "title": "Colorado House passes bill to limit surveillance pricing and wage setting",
+      "fingerprint": "5369305214d3f2ac3d955138ca73ade9",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d75c166c",
+      "reason": "LINK_ONLY: Source intent uncertain: 1Hzディスプレイという極めて低いリフレッシュレートは技術的に非現実的であり、風刺またはジョークの可能性が高いが、PCWorldは信頼できるメディアであり、スニペットが不完全なため完全な判定が困難。",
+      "title": "LG&#039;s new 1Hz display is the secret behind a new laptop&#039;s battery life"
+    },
+    {
+      "item_id": "item-ff64b337",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Make MacOS 26 consistently bad (unironically)"
+    },
+    {
+      "item_id": "item-815cbc6f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ISBN Visualization"
+    },
+    {
+      "item_id": "item-849a4c39",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "DOJ confirms FBI Director Kash Patel’s personal email was hacked"
+    },
+    {
+      "item_id": "item-3a4ffe6f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Installing a Let's Encrypt TLS certificate on a Brother printer automatically with Certbot (&amp; Cloudflare)"
+    },
+    {
+      "item_id": "item-723f8a0c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Silicon Valley reeling from social media addiction trial verdict"
+    },
+    {
+      "item_id": "item-1639de06",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nashville library launches Memory Lab for digitizing home movies"
+    },
+    {
+      "item_id": "item-421493fa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "jai"
+    },
+    {
+      "item_id": "item-ee95435b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Twitch Roulette"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-03-28/blog.md",
+    "show_notes_path": "out/2026-03-28/show_notes.md",
+    "script_path": "out/2026-03-28/script_2hosts.md",
+    "audio_path": "out/2026-03-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-03-28/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19963,
+        "output_tokens": 7707,
+        "cost_usd": 0.058498
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38050,
+        "output_tokens": 7973,
+        "cost_usd": 0.233745
+      }
+    ],
+    "tts": {
+      "chars": 4844,
+      "audio_sec": 398.7,
+      "cost_usd": 0.128185
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.420428
+  }
+}

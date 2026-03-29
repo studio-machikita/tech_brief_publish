@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-26",
+  "episode_date_local": "2026-03-26",
+  "content_snapshot_date": "2026-03-26",
+  "show_length_sec": 789,
+  "generated_at": "2026-03-26T09:45:58.728476+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8dd22fc4",
+      "title": "A little-known Croatian startup is coming for the robotaxi market with help from Uber",
+      "fingerprint": "8dd22fc4224d43b515cb93858629861c",
+      "score": 88,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-bd5ba9ac",
+      "title": "ARC-AGI-3",
+      "fingerprint": "bd5ba9ac793eab2d9a72f5989ae75f6a",
+      "score": 85,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4a5a3ac8",
+      "title": "My DIY FPGA board can run Quake II (part 4)",
+      "fingerprint": "4a5a3ac87d8b92082e8139adfbfa84bf",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-12e51529",
+      "title": "Two studies in compiler optimisations &middot; hmpc",
+      "fingerprint": "12e51529af133e06f747800d77e14faf",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8793906c",
+      "title": "Claude&#x27;s Code",
+      "fingerprint": "8793906cff4092fa65350d84f5d3af45",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ad271e03",
+      "title": "The Cassandra of ‘The Machine’",
+      "fingerprint": "ad271e03695209482c0db27ed7be40b9",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-871399cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shell Tricks That Actually Make Life Easier (And Save Your Sanity)"
+    },
+    {
+      "item_id": "item-4d3cb6ed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GraphHopper Gets More Precise Elevation Data - GraphHopper Directions API"
+    },
+    {
+      "item_id": "item-d758e797",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fight Chat Control"
+    },
+    {
+      "item_id": "item-9592f292",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "whoami.wiki"
+    },
+    {
+      "item_id": "item-6c81e42f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Last Contract"
+    },
+    {
+      "item_id": "item-df7fe568",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Obsolete Sounds"
+    },
+    {
+      "item_id": "item-15f7a92d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Running Tesla Model 3"
+    },
+    {
+      "item_id": "item-659caa59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Earthquake scientists reveal how overplowing weakens soil at experimental farm"
+    },
+    {
+      "item_id": "item-f22c0e1d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The uncomfortable truth that will always haunt the Ramones: ‘They sold more T-shirts than records’"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-03-26/blog.md",
+    "show_notes_path": "out/2026-03-26/show_notes.md",
+    "script_path": "out/2026-03-26/script_2hosts.md",
+    "audio_path": "out/2026-03-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-03-26/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18753,
+        "output_tokens": 7174,
+        "cost_usd": 0.054623
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37646,
+        "output_tokens": 7375,
+        "cost_usd": 0.223563
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4262,
+        "cost_usd": 0.051144
+      }
+    ],
+    "total_cost_usd": 0.32933
+  }
+}

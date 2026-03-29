@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-25",
+  "episode_date_local": "2026-03-25",
+  "content_snapshot_date": "2026-03-25",
+  "show_length_sec": 773,
+  "generated_at": "2026-03-24T23:23:20.931502+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-0b2166b4",
+      "title": "GitHub - t8/hypura: Run models too big for your Mac&#39;s memory",
+      "fingerprint": "0b2166b4d040422aefc2fd7db397cc76",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6ab95793",
+      "title": "GitHub - ssrajadh/sentrysearch: Semantic search over videos using Gemini Embedding 2.",
+      "fingerprint": "6ab95793f53b5a243f82cce2f2069a0d",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-856fdf1d",
+      "title": "Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era",
+      "fingerprint": "856fdf1d0e72a48eecdb5a3d589cc6cb",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2236fea3",
+      "title": "Thoughts on LLMs - Psychological complications",
+      "fingerprint": "2236fea3220ed1e8ebae7b8ba2d9ab6e",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cf169fcc",
+      "title": "Video.js v10 Beta: Hello, World (again) | Blog | Video.js | Open Source Video Player",
+      "fingerprint": "cf169fccb410a78148b93c1db337ab31",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-85f8d35f",
+      "title": "[Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer · Issue #24512 · BerriAI/litellm",
+      "fingerprint": "85f8d35f24346a9f4dd5769cf7523f4b",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7446f9c1",
+      "reason": "LINK_ONLY: Source intent uncertain: XDA Developersは信頼できるテック媒体ですが、提供されたスニペットはメニュー要素のみで記事本文がなく、タイトルの「kernel level」での書き換えと「massive speed gains」という表現が過度に楽観的に見える。実際の記事内容を確認できないため判定が困難です。",
+      "title": "Wine 11 rewrites how Linux runs Windows games at the kernel level, and the speed gains are massive"
+    },
+    {
+      "item_id": "item-7bd2c9b5",
+      "reason": "LINK_ONLY: Source intent uncertain: Hollywood Reporterは信頼できるメディアですが、Soraの独立アプリが実際に立ち上がったかどうか、および6ヶ月後の廃止計画が事実かどうかを確認できません。2026年3月時点でのSoraの実際の状況が不明確であり、この記事の真偽を判定するには追加の検証が必要です。",
+      "title": "OpenAI Shutting Down Sora Video App"
+    },
+    {
+      "item_id": "item-30292fef",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Hypothesis, Antithesis, synthesis」はヘーゲル弁証法の用語を使用しており、URLに「hegel」が含まれることから風刺的な可能性がある。しかし、スニペットは標準的な技術ブログのナビゲーション要素のみで、実際の記事内容が不明確なため判定が困難。",
+      "title": "Hypothesis, Antithesis, synthesis"
+    },
+    {
+      "item_id": "item-eae28bff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I wanted to build vertical SaaS for pest control, so I took a technician job"
+    },
+    {
+      "item_id": "item-1ad5951a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Apple Business — a new all-in-one platform for businesses of all sizes"
+    },
+    {
+      "item_id": "item-8cbe6fda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Email.md"
+    },
+    {
+      "item_id": "item-ab977a09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What happened to GEM?"
+    },
+    {
+      "item_id": "item-5272d26b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jury finds Meta liable in case over child sexual exploitation on its platforms"
+    },
+    {
+      "item_id": "item-08f7be6c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the world&#x27;s first electric grid was built - Works in Progress Magazine"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-03-25/blog.md",
+    "show_notes_path": "out/2026-03-25/show_notes.md",
+    "script_path": "out/2026-03-25/script_2hosts.md",
+    "audio_path": "out/2026-03-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-03-25/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 20914,
+        "output_tokens": 7656,
+        "cost_usd": 0.059194
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38608,
+        "output_tokens": 7669,
+        "cost_usd": 0.230859
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4278,
+        "cost_usd": 0.05133599999999999
+      }
+    ],
+    "total_cost_usd": 0.341389
+  }
+}

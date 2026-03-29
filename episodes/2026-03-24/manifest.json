@@ -1,0 +1,167 @@
+{
+  "date": "2026-03-24",
+  "episode_date_local": "2026-03-24",
+  "content_snapshot_date": "2026-03-24",
+  "show_length_sec": 793,
+  "generated_at": "2026-03-24T09:08:08.114056+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-bd913772",
+      "title": "cq: Stack Overflow for Agents",
+      "fingerprint": "bd913772aae16409cca9a8ef1842a190",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6de49dcc",
+      "title": "BIO - The Bao I/O Co-Processor",
+      "fingerprint": "6de49dcc7b12a28b2085f59d2491825e",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e1381949",
+      "title": "ProofShot — Visual proof for AI-built code",
+      "fingerprint": "e13819492cfbf6fdd5ffdd598799ccd5",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fd1036bb",
+      "title": "Claude Code Cheat Sheet",
+      "fingerprint": "fd1036bbbe97a247e089fdfcce6391f1",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3b8866a3",
+      "title": "GitHub - dune3d/dune3d: 3D CAD application",
+      "fingerprint": "3b8866a3e698ada3c3e7b51cc7d8a249",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-876b2ee6",
+      "title": "The Logfile Navigator",
+      "fingerprint": "876b2ee63a7bbdfd49ffba11d9a4ca7c",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0a56df20",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事スニペットがJavaScript無効エラーメッセージのみで実際の内容が確認できず、タイトルの「iPhone 17 Pro」が2026年時点で実在するかどうか、また400B LLM実行が技術的に現実的かどうかを判断できない。Twitterソースであることと内容不明確さから判定困難。",
+      "title": "iPhone 17 Pro Demonstrated Running a 400B LLM"
+    },
+    {
+      "item_id": "item-063909b4",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは技術ブログの標準的な形式だが、スニペットがなく、URLのドメイン(ykumar.me)は個人ブログであり、内容の詳細が不明なため判定が困難。タイトルの「old research idea」という表現は学術的な文脈として妥当だが、実際の記事内容を確認できない。",
+      "title": "Autoresearch on an old research idea"
+    },
+    {
+      "item_id": "item-9f040e31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - ricardoquesada/regenerator2000: An interactive disassembler for the CPU 6502, focused mostly on Commodore 8-bit computers. Features a TUI with modern features like x-ref, undo/redo, arrows, keyboard-driven, mcp server, VICE debugger and more!"
+    },
+    {
+      "item_id": "item-753c42b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Web Rewind"
+    },
+    {
+      "item_id": "item-dc557190",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Free Background Noise Remover Online - AI Voice Cleaner"
+    },
+    {
+      "item_id": "item-e2f54e1e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Ramsey-style Problem on Hypergraphs"
+    },
+    {
+      "item_id": "item-af9c6982",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Box of Secrets"
+    },
+    {
+      "item_id": "item-bc02391d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FCC updates covered list to include foreign-made consumer routers"
+    },
+    {
+      "item_id": "item-ef5da505",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gerd Faltings, mathematician who proved the Mordell conjecture, wins the Abel Prize at age 71"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-03-24/blog.md",
+    "show_notes_path": "out/2026-03-24/show_notes.md",
+    "script_path": "out/2026-03-24/script_2hosts.md",
+    "audio_path": "out/2026-03-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-03-24/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 43,
+        "input_tokens": 34941,
+        "output_tokens": 15964,
+        "cost_usd": 0.114761
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37697,
+        "output_tokens": 7107,
+        "cost_usd": 0.219696
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4395,
+        "cost_usd": 0.052739999999999995
+      }
+    ],
+    "total_cost_usd": 0.387197
+  }
+}

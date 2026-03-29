@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-03-27</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Chats where you truly own your data. / OpenTelemetry Profiles Enters Public Alpha / GitHub - russellromney/turbolite: SQLite VFS with sub-50ms cold queries from S3 + page-level compression and encryption">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/eyecatch.png">
+<meta property="og:url" content="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/">
+<meta property="og:description" content="2026-03-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Chats where you truly own your data. / OpenTelemetry Profiles Enters Public Alpha / GitHub - russellromney/turbolite: SQLite VFS with sub-50ms cold queries from S3 + page-level compression and encryption",
+    "datePublished": "2026-03-27",
+    "image": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/eyecatch.png",
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Chats where you truly own your data. / OpenTelemetry Profiles Enters Public Alpha / GitHub - russellromney/turbolite: SQLite VFS with sub-50ms cold queries from S3 + page-level compression and encryption",
+    "datePublished": "2026-03-27",
+    "url": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/",
+    "duration": "PT13M13S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/episode_audio.mp3"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-03-27%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//studio-machikita.github.io/tech_brief_publish/episodes/2026-03-27/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-03-27"
+subtitle: "データを完全に自分で管理できるチャット。 / OpenTelemetryプロファイルがパブリックアルファ版に突入 / GitHub - russellro..."
+date: "2026-03-27"
+vol: 4
+topics:
+  - OSS
+  - Web
+  - DevOps
+  - Cloud
+  - Data
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-03-27
+
+*📖 約11分で読めます ｜ 🏷️ OSS, Web, DevOps, Cloud, Data*
+
+---
+
+## 📌 今日のハイライト
+- 📦 **データを完全に自分で管理できるチャット。** — AT Protocolベースのオープンソースチャット基盤「Colibri」
+- 📦 **OpenTelemetryプロファイルがパブリックアルファ版に突入** — OpenTelemetryのプロファイリング機能がパブリックアルファに到達
+- 📦 **GitHub - russellromney/turbolite: S3からの50ms未満のコールドクエリを実現するSQLite VFS（ページレベルの圧縮・暗号化対応）** — S3からSQLiteをサブ50msで読み出すVFS実装
+- 🔬 **テーブルからどれだけの精度を引き出せるか？** — テーブル参照で数値精度をどこまで高められるか
+- 🔒 **LiteLLMマルウェア攻撃への私の分刻みの対応記録** — LiteLLMマルウェア攻撃をエンジニアがリアルタイムで封じ込めた
+- 🔧 **RaspberryPiでFireWireを使用する** — Raspberry PiでFireWireデバイスを動かす試み
+
+---
+
+## 📦 データを完全に自分で管理できるチャット。
+\`OSS\` \`Web\`
+
+<details>
+<summary>📄 原題: Chats where you truly own your data.</summary>
+</details>
+
+> **一言で**: AT Protocolベースのオープンソースチャット基盤「Colibri」
+
+- 要点1: ColibriはAT Protocol（分散型SNSの基盤技術）を使ったオープンソースのチャットプラットフォーム
+- 要点2: 大小さまざまなコミュニティ向けに設計されており、データの完全な所有権をユーザに保証
+- 要点3: ソースコードはGitHubで公開済み。関連プロジェクト「Leaflet.pub」も展開中
+
+💡 **なぜ重要か**
+中央集権型のチャットサービスではプラットフォーム側がデータを管理するため、ユーザはデータの移行や削除を自由に行えません。AT Protocol（Blueskyが開発した分散型プロトコル）を使うことで、データの主権をユーザ自身が持てる仕組みを実現しようとする動きが広がっています。Colibriはその流れに乗ったチャット特化の実装例です。 AT Protocolを軸にしたコミュニケーションツールが増えると、特定企業に依存しない分散型インターネットの実用化が加速します。チャット領域でもデータポータビリティ（データを持ち運べる自由）が標準的な要件になる可能性があります。
+
+🎯 **今日のアクション**
+分散型プロトコルへの関心があるエンジニアは、ColibriのGitHubリポジトリを確認し、AT Protocolの実装パターンを学ぶ出発点として活用してみてください。コミュニティ運営者は自前ホスティングの選択肢として検討する価値があります。
+
+🔗 [原文を読む](https://colibri.social/)
+
+---
+
+## 📦 OpenTelemetryプロファイルがパブリックアルファ版に突入
+\`OSS\` \`DevOps\` \`Cloud\`
+
+<details>
+<summary>📄 原題: OpenTelemetry Profiles Enters Public Alpha</summary>
+</details>
+
+> **一言で**: OpenTelemetryのプロファイリング機能がパブリックアルファに到達
+
+- Profiling SIGが、Profilesシグナルのパブリックアルファ移行を正式発表
+- トレース・メトリクス・ログに並ぶ第4の柱として、継続的プロファイリングを標準化
+- 本番環境でのプロファイリング統一規格を目指し、コミュニティからのフィードバックを募集中
+
+💡 **なぜ重要か**
+OpenTelemetryはオブザーバビリティ（システム観測可能性）の業界標準として広く普及しています。これまでトレース・メトリクス・ログの3シグナルが中心でしたが、本番環境でのパフォーマンス分析に欠かせないプロファイリング（CPU使用率やメモリ消費などの詳細計測）は標準化が遅れていました。各社がバラバラなツールを使う状況を解消するため、統一仕様の策定が進められてきました。 プロファイリングがOpenTelemetryに統合されることで、オブザーバビリティのデータが一元管理できるようになります。ベンダー依存を減らし、異なるツール間でのプロファイルデータの互換性が高まるため、パフォーマンス改善の作業効率が上がると見られています。長期的にはクラウドネイティブ環境での標準的な計測手法として定着する可能性があります。
+
+🎯 **今日のアクション**
+OpenTelemetryを既に導入しているチームは、Profiles機能のアルファ版を検証環境で試し、フィードバックをコミュニティに提供するのが有益です。新規導入を検討しているチームは、4シグナル対応を見据えた設計を今から意識しておくとよいでしょう。
+
+🔗 [原文を読む](https://opentelemetry.io/blog/2026/profiles-alpha/)
+
+---
+
+## 📦 GitHub - russellromney/turbolite: S3からの50ms未満のコールドクエリを実現するSQLite VFS（ページレベルの圧縮・暗号化対応）
+\`OSS\` \`Cloud\` \`Data\`
+
+<details>
+<summary>📄 原題: GitHub - russellromney/turbolite: SQLite VFS with sub-50ms cold queries from S3 + page-level compression and encryption</summary>
+</details>
+
+> **一言で**: S3からSQLiteをサブ50msで読み出すVFS実装
+
+- turboliteはSQLiteのVFS（仮想ファイルシステム）層をS3向けに実装したOSSライブラリ
+- コールドクエリ（キャッシュなし初回読み出し）でも50ms未満のレイテンシ（遅延）を実現
+- ページ単位の圧縮と暗号化をサポートし、ストレージ効率とセキュリティを両立
+- S3上のSQLiteファイルをそのまま活用できるため、サーバーレス構成との親和性が高い
+
+💡 **なぜ重要か**
+SQLiteはシンプルで軽量なため広く使われていますが、S3などのオブジェクトストレージ上で直接クエリを実行するには遅延が課題でした。サーバーレスやエッジコンピューティングの普及で、データベースをオブジェクトストレージに置きたいニーズが高まっており、turboliteはその解決策の一つです。 S3をバックエンドにしたSQLiteの実用化が進むと、RDSなどのマネージドDBを使わずに済むユースケースが増えます。インフラコストの削減やアーキテクチャの簡素化につながる可能性があり、特にリードヘビーな小〜中規模アプリへの影響は大きいと見られています。
+
+🎯 **今日のアクション**
+サーバーレス構成やエッジ環境でSQLiteを使っているチームは、turboliteのベンチマークを自社ワークロードで検証してみる価値があります。特にコールドスタート時の遅延が問題になっているケースでは、導入効果を測定してみてください。
+
+🔗 [原文を読む](https://github.com/russellromney/turbolite)
+
+---
+
+## 🔬 テーブルからどれだけの精度を引き出せるか？
+\`Science\` \`Data\`
+
+<details>
+<summary>📄 原題: How much precision can you squeeze out of a table?</summary>
+</details>
+
+> **一言で**: テーブル参照で数値精度をどこまで高められるか
+
+- 要点1: Feynmanの言葉を引用しつつ、テーブル（表）から引き出せる数値精度の限界を探る内容
+- 要点2: 数学・信号処理・確率論を専門とするサイトの記事で、精度とトレードオフの議論と見られる
+- 要点3: スニペットが短く詳細は不明だが、数値計算における近似手法の考察記事だそうです
+
+💡 **なぜ重要か**
+数値計算でテーブル参照（ルックアップテーブル）を使う手法は、計算コストを下げる古典的な技術です。しかし精度の限界については見落とされがちで、改めて問い直す意義があります。 組み込みシステムやDSP（デジタル信号処理）など、リソースが限られた環境では今もテーブル参照が現役です。精度の理論的な上限を理解することは、設計判断の質を高めます。
+
+🎯 **今日のアクション**
+数値計算や信号処理を扱うエンジニアは、テーブル参照の精度限界を定量的に把握し、用途に応じた手法選択の基準を見直してみましょう。
+
+🔗 [原文を読む](https://www.johndcook.com/blog/2026/03/26/table-precision/)
+
+---
+
+## 🔒 LiteLLMマルウェア攻撃への私の分刻みの対応記録
+\`Security\` \`OSS\` \`AI\`
+
+<details>
+<summary>📄 原題: My minute-by-minute response to the LiteLLM malware attack</summary>
+</details>
+
+> **一言で**: LiteLLMマルウェア攻撃をエンジニアがリアルタイムで封じ込めた
+
+- PyPIのLiteLLMパッケージにマルウェアが混入、エンジニアが発見し隔離申請
+- 発見から対応までの一分一秒を記録した詳細なレポートを公開
+- AIツールの普及で、セキュリティ専門家でなくても脅威を素早く検知できる時代に
+
+💡 **なぜ重要か**
+LiteLLMはLLM（大規模言語モデル）のAPIを統一的に扱えるOSSライブラリで、多くのAI開発者が利用しています。PyPI（Pythonの公式パッケージ配布サービス）への不正なパッケージ混入は、サプライチェーン攻撃と呼ばれる手口で、近年増加傾向にあります。今回は一般のエンジニアが自力で問題を発見し、PyPIに隔離を求めた点が注目されています。 AIツールの活用により、セキュリティの専門訓練を受けていないエンジニアでも脅威を迅速に発見・報告できるようになりつつあります。OSSのサプライチェーンセキュリティへの関心がさらに高まり、パッケージ配布基盤の監視体制強化が業界全体で求められるようになるでしょう。
+
+🎯 **今日のアクション**
+利用中のOSSパッケージのバージョンを定期的に確認し、PyPIなどの配布元からのセキュリティアラートを購読してください。また、AIツールを活用した脅威検知のワークフローを自チームに取り入れることを検討する価値があります。
+
+🔗 [原文を読む](https://futuresearch.ai/blog/litellm-attack-transcript/)
+
+---
+
+## 🔧 RaspberryPiでFireWireを使用する
+\`Hardware\` \`OSS\`
+
+<details>
+<summary>📄 原題: Using FireWire on a Raspberry Pi</summary>
+</details>
+
+> **一言で**: Raspberry PiでFireWireデバイスを動かす試み
+
+- AppleがmacOS 26 TahoeでFireWire（IEEE 1394）サポートを廃止
+- 古いDVカメラやHDDなどFireWire機器の代替接続先としてRaspberry Piが候補に
+- Jeff Geerling氏が旧Canon GL1カメラをRaspberry Piで使う方法を模索
+
+💡 **なぜ重要か**
+FireWireはかつてビデオ編集や外付けストレージで広く使われたインターフェース規格です。Appleが長年サポートを続けてきましたが、macOS 26 Tahoeでついに廃止される見通しとなりました。古いDVカメラやA/V機器を持つユーザーにとって、接続手段の確保が急務になっています。 Macから切り捨てられたFireWire機器の受け皿として、Raspberry Piのような安価なシングルボードコンピュータが注目される可能性があります。レガシー機器の延命手段としてLinuxベースの自作環境への関心が高まるかもしれません。
+
+🎯 **今日のアクション**
+FireWire機器を業務や趣味で使っているエンジニアは、macOSへの依存を早めに見直しましょう。Raspberry PiへのFireWireカード接続や、Linux上でのドライバ対応状況を事前に調査しておくと安心です。
+
+🔗 [原文を読む](https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、**インフラの透明性・可観測性・自己管理性を開発者自身の手に取り戻そうとする潮流**である。ColibriがAT Protocolを採用してデータ主権をユーザーに返そうとし、TurboliteがS3上のSQLiteを低レイテンシで直接操作できるようにする設計思想は、いずれも中央集権的なプラットフォームへの依存を減らし、シンプルで制御可能なスタックを志向している。OpenTelemetryのプロファイリング機能の成熟もまた、ブラックボックス化しがちな分散システムの内部挙動を開発者が自ら観測・診断できる基盤を整えるものであり、同じ文脈に位置づけられる。こうした動きは、クラウドネイティブ時代の反動として「自分のデータ・自分のインフラ・自分の計測」を標準化しようとするオープンソースコミュニティの意志を反映しており、巨大SaaSへのロックインを嫌う開発者層の需要が着実に技術的な具体物として結実しつつあることを示している。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **データを完全に自分で管理できるチャット。**: 分散型プロトコルへの関心があるエンジニアは、ColibriのGitHubリポジトリを確認し、AT Protocolの実装パターンを学ぶ出発点として活用してみてください。コミュニティ運営者は自前ホスティングの選択肢として検討する価値があります。
+2. **OpenTelemetryプロファイルがパブリックアルファ版に突入**: OpenTelemetryを既に導入しているチームは、Profiles機能のアルファ版を検証環境で試し、フィードバックをコミュニティに提供するのが有益です。新規導入を検討しているチームは、4シグナル対応を見据えた設計を今から意識しておくとよいでしょう。
+3. **GitHub - russellromney/turbolite: S3からの50ms未満のコールドクエリを実現するSQLite VFS（ページレベルの圧縮・暗号化対応）**: サーバーレス構成やエッジ環境でSQLiteを使っているチームは、turboliteのベンチマークを自社ワークロードで検証してみる価値があります。特にコールドスタート時の遅延が問題になっているケースでは、導入効果を測定してみてください。
+
+---
+
+## 🔗 出典一覧
+- [データを完全に自分で管理できるチャット。](https://colibri.social/)
+- [OpenTelemetryプロファイルがパブリックアルファ版に突入](https://opentelemetry.io/blog/2026/profiles-alpha/)
+- [GitHub - russellromney/turbolite: S3からの50ms未満のコールドクエリを実現するSQLite VFS（ページレベルの圧縮・暗号化対応）](https://github.com/russellromney/turbolite)
+- [テーブルからどれだけの精度を引き出せるか？](https://www.johndcook.com/blog/2026/03/26/table-precision/)
+- [LiteLLMマルウェア攻撃への私の分刻みの対応記録](https://futuresearch.ai/blog/litellm-attack-transcript/)
+- [RaspberryPiでFireWireを使用する](https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/)`;
+const notesMd = `# Tech News Radio Show Notes - #004 (2026-03-27)
+
+## エピソード情報
+- **エピソード**: #004
+- **日付**: 2026-03-27
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Chats where you truly own your data.](https://colibri.social/)
+- [OpenTelemetry Profiles Enters Public Alpha](https://opentelemetry.io/blog/2026/profiles-alpha/)
+- [GitHub - russellromney/turbolite: SQLite VFS with sub-50ms cold queries from S3 + page-level compression and encryption](https://github.com/russellromney/turbolite)
+
+### 注目の深掘り
+- [How much precision can you squeeze out of a table?](https://www.johndcook.com/blog/2026/03/26/table-precision/)
+
+### 小ネタ・その他
+- [My minute-by-minute response to the LiteLLM malware attack](https://futuresearch.ai/blog/litellm-attack-transcript/)
+- [Using FireWire on a Raspberry Pi](https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

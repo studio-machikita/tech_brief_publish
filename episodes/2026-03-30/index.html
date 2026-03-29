@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-03-30</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — C++26 is done! — Trip report: March 2026 ISO C++ standards meeting (London Croydon, UK) / The Cognitive Dark Forest / GitHub - DavidHavoc/ayaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/eyecatch.png">
+<meta property="og:url" content="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/">
+<meta property="og:description" content="2026-03-30 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — C++26 is done! — Trip report: March 2026 ISO C++ standards meeting (London Croydon, UK) / The Cognitive Dark Forest / GitHub - DavidHavoc/ayaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust.",
+    "datePublished": "2026-03-30",
+    "image": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/eyecatch.png",
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — C++26 is done! — Trip report: March 2026 ISO C++ standards meeting (London Croydon, UK) / The Cognitive Dark Forest / GitHub - DavidHavoc/ayaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust.",
+    "datePublished": "2026-03-30",
+    "url": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/",
+    "duration": "PT13M10S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/episode_audio.mp3"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-03-30/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-03-30/episode_audio.mp3" type="audio/mpeg"></audio>
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-03-30%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//studio-machikita.github.io/tech_brief_publish/episodes/2026-03-30/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-03-30"
+subtitle: "C++26が完成！ — 2026年3月ISOのC++標準化会議（英国ロンドン・クロイドン）出張報告 / 認知的暗黒森林 / GitHub - DavidH..."
+date: "2026-03-30"
+vol: 7
+topics:
+  - OSS
+  - AI
+  - LLM
+  - Web
+  - Security
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-03-30
+
+*📖 約11分で読めます ｜ 🏷️ OSS, AI, LLM, Web, Security*
+
+---
+
+## 📌 今日のハイライト
+- 📦 **C++26が完成！ — 2026年3月ISOのC++標準化会議（英国ロンドン・クロイドン）出張報告** — C++26の技術仕様が正式に完成
+- 🤖 **認知的暗黒森林** — AIが蔓延する「認知の暗い森」という概念を提唱
+- 📦 **GitHub - DavidHavoc/ayaFlow: Rustで書かれた、eBPFベースの高性能ネットワークトラフィックアナライザー** — RustとeBPFで高性能なネットワーク解析ツールを公開
+- 📦 **RISE RISC-Vランナー発表：GitHub上で無料のネイティブRISC-V継続的インテグレーションが利用可能に** — GitHub上でRISC-Vネイティブな無料CIが利用可能に
+- 📦 **Neovim 0.12.0 をリリース · neovim/neovim** — Neovim 0.12.0が正式リリース
+- 🤖 **GitHub - alonsovm44/glupe: Glupe 🙏🌹 - AI時代のためのシンプルな意図指向プログラミング言語** — AI時代向けの意図指向プログラミング言語「Glupe」が公開
+
+---
+
+## 📦 C++26が完成！ — 2026年3月ISOのC++標準化会議（英国ロンドン・クロイドン）出張報告
+\`OSS\`
+
+<details>
+<summary>📄 原題: C++26 is done! — Trip report: March 2026 ISO C++ standards meeting (London Croydon, UK)</summary>
+</details>
+
+> **一言で**: C++26の技術仕様が正式に完成
+
+- 2026年3月、英国ロンドン・クロイドンでのISO C++委員会会議でC++26の技術作業が完了
+- 国際コメントへの対応を終え、標準化プロセスの技術フェーズが締め括られた
+- Herb Sutterによる現地レポートとして公式ブログ「Sutter's Mill」で発表
+
+💡 **なぜ重要か**
+C++はシステムプログラミングやゲーム開発、組み込み系など幅広い分野で使われる主要言語です。ISOによる標準化は3年ごとのサイクルで進められており、C++23に続くC++26は次世代の機能セットを定義します。技術作業の完了は、正式なISO出版に向けた最終段階への移行を意味します。 C++26の完成により、コンパイラベンダー（GCC、Clang、MSVCなど）が新機能の実装を本格化させます。開発者は新しい言語機能や標準ライブラリの改善を段階的に利用できるようになり、特にシステム開発や高性能コンピューティングの現場に影響が及ぶと見られています。
+
+🎯 **今日のアクション**
+C++を使うエンジニアは、Herb SutterのブログでC++26の変更点を確認しておくと良いでしょう。チームリーダーはコンパイラのC++26対応状況を追跡し、採用時期の計画を立て始めることをお勧めします。
+
+🔗 [原文を読む](https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/)
+
+---
+
+## 🤖 認知的暗黒森林
+\`AI\` \`LLM\` \`Web\`
+
+<details>
+<summary>📄 原題: The Cognitive Dark Forest</summary>
+</details>
+
+> **一言で**: AIが蔓延する「認知の暗い森」という概念を提唱
+
+- 要点1: 「Cognitive Dark Forest（認知の暗い森）」という概念を論じた記事
+- 要点2: AIが生成するコンテンツが増え、ネット空間の信頼性が低下しつつあると見られる
+- 要点3: Rye言語のブログ上で公開された、思想・考察系の投稿だそうです
+
+💡 **なぜ重要か**
+「暗い森理論」はもともと宇宙文明の沈黙を説明するSF的概念です。それをAI生成コンテンツが氾濫するネット空間に応用し、人々が本物の知性や信頼できる情報を見つけにくくなっている状況を表現しようとしていると見られます。 AIが大量のコンテンツを生成できる時代に、人間の書いた文章や思考の価値をどう担保するかは、メディア・教育・コミュニティ設計に長期的な影響を与えます。信頼の仕組みそのものの再設計が求められるでしょう。
+
+🎯 **今日のアクション**
+自分の発信するコンテンツに人間らしい文脈や一次情報を積極的に盛り込み、AI生成との差別化を意識することが重要です。また、情報源の信頼性を評価する習慣をチームや組織に根付かせましょう。
+
+🔗 [原文を読む](https://ryelang.org/blog/posts/cognitive-dark-forest/)
+
+---
+
+## 📦 GitHub - DavidHavoc/ayaFlow: Rustで書かれた、eBPFベースの高性能ネットワークトラフィックアナライザー
+\`OSS\` \`Security\` \`DevOps\`
+
+<details>
+<summary>📄 原題: GitHub - DavidHavoc/ayaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust.</summary>
+</details>
+
+> **一言で**: RustとeBPFで高性能なネットワーク解析ツールを公開
+
+- ayaFlow: RustとeBPF（Linuxカーネル内でプログラムを安全に実行する仕組み）を組み合わせた高性能ネットワークトラフィック解析ツール
+- GitHubでOSSとして公開。作者はDavidHavoc氏
+- eBPFを使うことでカーネル改変なしに高速なパケット解析が可能になる設計
+
+💡 **なぜ重要か**
+eBPFはLinuxカーネルを拡張する技術として近年急速に普及しており、ネットワーク監視やセキュリティ分野で注目されています。一方、Rustはメモリ安全性の高さからシステムプログラミングの新標準として採用が広がっています。この2つを組み合わせたツールは、安全性と性能を両立できる点で開発者コミュニティの関心を集めやすい領域です。 eBPFとRustの組み合わせによるネットワークツールの事例が増えることで、従来のC言語ベースのツールからの移行が加速する可能性があります。特にクラウドネイティブ環境でのオブザーバビリティ（可観測性）ツールの選択肢が広がり、OSSエコシステム全体の底上げにつながると見られています。
+
+🎯 **今日のアクション**
+ネットワーク監視やセキュリティ担当のエンジニアはリポジトリを確認し、既存ツールとの性能比較を試みる価値があります。RustやeBPFの学習を検討しているエンジニアにとっても、実装の参考事例として活用できます。
+
+🔗 [原文を読む](https://github.com/DavidHavoc/ayaFlow)
+
+---
+
+## 📦 RISE RISC-Vランナー発表：GitHub上で無料のネイティブRISC-V継続的インテグレーションが利用可能に
+\`OSS\` \`Hardware\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Announcing the RISE RISC-V Runners: free, native RISC-V CI on GitHub &amp;#8211; Rise: RISC</summary>
+</details>
+
+> **一言で**: GitHub上でRISC-Vネイティブな無料CIが利用可能に
+
+- RISEプロジェクトがGitHub向けの無料RISC-Vネイティブ実行環境「RISE RISC-V Runners」を発表
+- エミュレーションではなく、ネイティブなRISC-Vハードウェア上でCI（継続的インテグレーション）を実行できる
+- RISC-Vソフトウェアエコシステムの拡充を目的とした取り組みの一環
+
+💡 **なぜ重要か**
+RISC-Vはオープンな命令セットアーキテクチャ（ISA）として注目を集めていますが、ソフトウェアの動作検証環境が整っていないことが普及の障壁でした。GitHubのCI環境でネイティブ実行できるランナーが無料提供されることで、開発者がRISC-V向けソフトウェアをより手軽にテスト・検証できるようになります。 RISC-V向けソフトウェアの品質向上と開発サイクルの短縮が期待できます。エコシステムの成熟が加速し、組み込み機器やサーバー向けRISC-V採用の拡大につながる可能性があります。OSSコミュニティがRISC-Vを標準的なターゲットとして扱いやすくなる点も大きいです。
+
+🎯 **今日のアクション**
+RISC-V対応を検討しているプロジェクトの開発者は、RISE RISC-V Runnersを使ったCIパイプラインの構築を試してみる価値があります。特にクロスコンパイルやエミュレーションで対応していたチームは、ネイティブ実行への移行を検討してください。
+
+🔗 [原文を読む](https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/)
+
+---
+
+## 📦 Neovim 0.12.0 をリリース · neovim/neovim
+\`OSS\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Release Nvim 0.12.0 · neovim/neovim</summary>
+</details>
+
+> **一言で**: Neovim 0.12.0が正式リリース
+
+- 要点1: Neovim（Vimベースのテキストエディタ）のv0.12.0が正式リリース
+- 要点2: Windows向けにZipパッケージ（x64・ARM64）が提供される
+- 要点3: リリースノートにはバグ修正と新機能の変更履歴が含まれる
+- 要点4: Nvim内で\`:help news\`コマンドから新機能の詳細を確認できる
+
+💡 **なぜ重要か**
+Neovimはオープンソースのモダンなテキストエディタで、開発者コミュニティに広く使われています。定期的なメジャーリリースはエコシステム全体のプラグインや設定に影響するため、多くのエンジニアが注目します。 Neovimはエディタ市場でVS Codeと並ぶ人気を持ち、特にターミナル中心の開発者に支持されています。0.12.0の機能追加や修正は、関連プラグインの更新を促し、開発ワークフロー全体に波及する可能性があります。
+
+🎯 **今日のアクション**
+現在Neovimを使っているエンジニアは\`:help news\`で変更点を確認し、プラグインとの互換性を検証した上でアップデートを検討してください。
+
+🔗 [原文を読む](https://github.com/neovim/neovim/releases/tag/v0.12.0)
+
+---
+
+## 🤖 GitHub - alonsovm44/glupe: Glupe 🙏🌹 - AI時代のためのシンプルな意図指向プログラミング言語
+\`AI\` \`OSS\` \`LLM\`
+
+<details>
+<summary>📄 原題: GitHub - alonsovm44/glupe: Glupe 🙏🌹. A simple intent oriented programming language for the AI era.</summary>
+</details>
+
+> **一言で**: AI時代向けの意図指向プログラミング言語「Glupe」が公開
+
+- Glupeは「意図指向（intent oriented）」を掲げる新しいプログラミング言語
+- AI時代を意識した設計思想で、シンプルさを重視している
+- GitHubでOSSとして公開され、フィードバックを募集中
+
+💡 **なぜ重要か**
+LLMの普及により、人間の「意図」をそのままコードに落とし込む新しいプログラミングパラダイムへの関心が高まっています。Glupeはその流れに乗り、従来の命令型や宣言型とは異なるアプローチを模索しているようです。 AIがコードを生成・解釈する時代において、プログラミング言語自体の設計思想が問い直されています。意図を中心に据えた言語が普及すれば、開発者とAIの協働スタイルが大きく変わる可能性があります。ただし現時点では個人プロジェクトの段階であり、実用化には多くの検証が必要です。
+
+🎯 **今日のアクション**
+GitHubリポジトリを確認し、言語設計の思想やサンプルコードを読んでみましょう。新しいプログラミングパラダイムの動向を把握する意味でも、フィードバックを送ることで議論に参加できます。
+
+🔗 [原文を読む](https://github.com/alonsovm44/glupe)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、**現代のソフトウェア開発における「信頼性・安全性・透明性」への強い志向**という底流です。C++26の標準化完成は、長年にわたるシステムプログラミングの基盤を更新し続ける業界の継続的な努力を示しており、RustとeBPFを組み合わせたネットワークアナライザーの登場は、メモリ安全性を言語レベルで保証しながら高性能を追求するという、C++の後継世代的なアプローチの台頭を象徴しています。一方で「認知的暗黒森林」という概念は、AIが生成するコンテンツや情報が氾濫する環境において、何が信頼できる情報・コードなのかを見極めることがますます困難になるという問題提起であり、これはまさにC++26やRustが取り組む「安全な基盤づくり」の必要性と表裏一体の課題といえます。つまり業界全体として、低レイヤーの技術的堅牢性を高める動きと、情報・認知レイヤーでの不確実性の拡大という二つの力が同時進行しており、開発者はコードの品質だけでなく「知識の真正性」とも戦わなければならない時代に入りつつあると読み取れます。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **C++26が完成！ — 2026年3月ISOのC++標準化会議（英国ロンドン・クロイドン）出張報告**: C++を使うエンジニアは、Herb SutterのブログでC++26の変更点を確認しておくと良いでしょう。チームリーダーはコンパイラのC++26対応状況を追跡し、採用時期の計画を立て始めることをお勧めします。
+2. **認知的暗黒森林**: 自分の発信するコンテンツに人間らしい文脈や一次情報を積極的に盛り込み、AI生成との差別化を意識することが重要です。また、情報源の信頼性を評価する習慣をチームや組織に根付かせましょう。
+3. **GitHub - DavidHavoc/ayaFlow: Rustで書かれた、eBPFベースの高性能ネットワークトラフィックアナライザー**: ネットワーク監視やセキュリティ担当のエンジニアはリポジトリを確認し、既存ツールとの性能比較を試みる価値があります。RustやeBPFの学習を検討しているエンジニアにとっても、実装の参考事例として活用できます。
+
+---
+
+## 🔗 出典一覧
+- [C++26が完成！ — 2026年3月ISOのC++標準化会議（英国ロンドン・クロイドン）出張報告](https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/)
+- [認知的暗黒森林](https://ryelang.org/blog/posts/cognitive-dark-forest/)
+- [GitHub - DavidHavoc/ayaFlow: Rustで書かれた、eBPFベースの高性能ネットワークトラフィックアナライザー](https://github.com/DavidHavoc/ayaFlow)
+- [RISE RISC-Vランナー発表：GitHub上で無料のネイティブRISC-V継続的インテグレーションが利用可能に](https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/)
+- [Neovim 0.12.0 をリリース · neovim/neovim](https://github.com/neovim/neovim/releases/tag/v0.12.0)
+- [GitHub - alonsovm44/glupe: Glupe 🙏🌹 - AI時代のためのシンプルな意図指向プログラミング言語](https://github.com/alonsovm44/glupe)`;
+const notesMd = `# Tech News Radio Show Notes - #007 (2026-03-30)
+
+## エピソード情報
+- **エピソード**: #007
+- **日付**: 2026-03-30
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [C++26 is done! — Trip report: March 2026 ISO C++ standards meeting (London Croydon, UK)](https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/)
+- [The Cognitive Dark Forest](https://ryelang.org/blog/posts/cognitive-dark-forest/)
+- [GitHub - DavidHavoc/ayaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust.](https://github.com/DavidHavoc/ayaFlow)
+
+### 注目の深掘り
+- [Announcing the RISE RISC-V Runners: free, native RISC-V CI on GitHub &#8211; Rise: RISC](https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/)
+
+### 小ネタ・その他
+- [Release Nvim 0.12.0 · neovim/neovim](https://github.com/neovim/neovim/releases/tag/v0.12.0)
+- [GitHub - alonsovm44/glupe: Glupe 🙏🌹. A simple intent oriented programming language for the AI era.](https://github.com/alonsovm44/glupe)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

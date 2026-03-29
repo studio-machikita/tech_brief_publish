@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-03-25</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — GitHub - t8/hypura: Run models too big for your Mac&amp;#39;s memory / GitHub - ssrajadh/sentrysearch: Semantic search over videos using Gemini Embedding 2. / Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/eyecatch.png">
+<meta property="og:url" content="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/">
+<meta property="og:description" content="2026-03-25 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — GitHub - t8/hypura: Run models too big for your Mac&#39;s memory / GitHub - ssrajadh/sentrysearch: Semantic search over videos using Gemini Embedding 2. / Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era",
+    "datePublished": "2026-03-25",
+    "image": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/eyecatch.png",
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — GitHub - t8/hypura: Run models too big for your Mac&#39;s memory / GitHub - ssrajadh/sentrysearch: Semantic search over videos using Gemini Embedding 2. / Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era",
+    "datePublished": "2026-03-25",
+    "url": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/",
+    "duration": "PT12M53S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/episode_audio.mp3"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-03-25%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//studio-machikita.github.io/tech_brief_publish/episodes/2026-03-25/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-03-25"
+subtitle: "GitHub - t8/hypura: Macのメモリに収まらない大きなモデルを実行する / GitHub - ssrajadh/sentrysearch..."
+date: "2026-03-25"
+vol: 2
+topics:
+  - AI
+  - LLM
+  - OSS
+  - Hardware
+  - Cloud
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-03-25
+
+*📖 約12分で読めます ｜ 🏷️ AI, LLM, OSS, Hardware, Cloud*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **GitHub - t8/hypura: Macのメモリに収まらない大きなモデルを実行する** — Macのメモリに収まらない大型AIモデルをローカル実行するツール
+- 🤖 **GitHub - ssrajadh/sentrysearch: Gemini Embedding 2を使用した動画のセマンティック検索** — Gemini Embedding 2を使った動画セマンティック検索OSS
+- 🤖 **Arm AGI CPUを発表：エージェント型AIクラウド時代を支えるシリコンの基盤** — ArmがエージェントAI時代向け新CPUを発表
+- 🤖 **LLMに関する考察 ― 心理的な複雑性** — LLMを正確に評価できない心理的・言語的な落とし穴
+- 📦 **Video.js v10 ベータ版リリース：新たな始まり | ブログ | Video.js | オープンソース動画プレーヤー** — Video.js v10ベータ版が公開、大規模な書き直しを実施
+- 🔒 **【セキュリティ】重大：litellm 1.82.8 に悪意ある litellm\\_init.pth が混入 — 認証情報窃取の恐れ · Issue #24512 · BerriAI/litellm** — litellm 1.82.8に認証情報を盗む悪意あるファイルが混入
+
+---
+
+## 🤖 GitHub - t8/hypura: Macのメモリに収まらない大きなモデルを実行する
+\`AI\` \`LLM\` \`OSS\`
+
+<details>
+<summary>📄 原題: GitHub - t8/hypura: Run models too big for your Mac&amp;#39;s memory</summary>
+</details>
+
+> **一言で**: Macのメモリに収まらない大型AIモデルをローカル実行するツール
+
+- hypura: Macのメモリ容量を超えるAIモデルをローカルで動かせるOSSツール
+- Apple Silicon（AppleのM系チップ）向けに設計されたと見られる
+- GitHubで公開中。大型モデルのローカル実行の敷居を下げることが狙いと思われる
+
+💡 **なぜ重要か**
+ローカルでAIモデルを動かすニーズは高まっていますが、最新の大型モデルはメモリ要件が厳しく、一般的なMacでは動作が難しいケースが増えています。hypuraはそのボトルネックを解消しようとするツールだと見られます。 メモリ制約を気にせず大型モデルをローカル実行できるようになれば、クラウドAPIへの依存を減らせます。プライバシーやコストの面でも、ローカルAI推論の選択肢が広がる可能性があります。
+
+🎯 **今日のアクション**
+Apple Siliconを搭載したMacを使っているエンジニアは、GitHubのhypuraリポジトリを確認し、自分の環境で動かしたいモデルが対応しているか試してみる価値があります。
+
+🔗 [原文を読む](https://github.com/t8/hypura)
+
+---
+
+## 🤖 GitHub - ssrajadh/sentrysearch: Gemini Embedding 2を使用した動画のセマンティック検索
+\`AI\` \`OSS\` \`LLM\`
+
+<details>
+<summary>📄 原題: GitHub - ssrajadh/sentrysearch: Semantic search over videos using Gemini Embedding 2.</summary>
+</details>
+
+> **一言で**: Gemini Embedding 2を使った動画セマンティック検索OSS
+
+- 要点1: Google の Gemini Embedding 2 を使い、動画をセマンティック検索（意味的な類似検索）できるOSSプロジェクト
+- 要点2: リポジトリ名は「sentrysearch」で、GitHubで公開されている
+- 要点3: 動画コンテンツを埋め込みベクトル化し、テキストクエリで検索する仕組みと見られる
+
+💡 **なぜ重要か**
+動画検索はこれまでメタデータや字幕に頼るケースが多く、映像の内容そのものを意味的に検索するのは難しい課題でした。Gemini Embedding 2 が動画を直接ベクトル化できるようになったことで、こうしたアプローチが現実的になりつつあります。 動画コンテンツの意味的な検索が手軽に実装できるようになれば、監視カメラ映像の解析や動画アーカイブ検索など、幅広い用途への応用が広がる可能性があります。OSSとして公開されることで、知見の蓄積と改善も加速しそうです。
+
+🎯 **今日のアクション**
+Gemini Embedding 2 の動画対応機能に関心があるエンジニアは、このリポジトリのコードを読んで実装パターンを把握しておくと良いでしょう。自社の動画資産の検索改善に応用できるか検討する価値があります。
+
+🔗 [原文を読む](https://github.com/ssrajadh/sentrysearch)
+
+---
+
+## 🤖 Arm AGI CPUを発表：エージェント型AIクラウド時代を支えるシリコンの基盤
+\`AI\` \`Hardware\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era</summary>
+</details>
+
+> **一言で**: ArmがエージェントAI時代向け新CPUを発表
+
+- Armが「AGI CPU」と名付けた新しいプロセッサを2026年3月に発表
+- エージェント型AI（自律的にタスクをこなすAI）のクラウド基盤を想定した設計
+- Armのニュースルームによる公式発表で、シリコンレベルからAI時代を支える狙い
+
+💡 **なぜ重要か**
+AIがクラウド上で自律的にタスクをこなす「エージェントAI」の需要が急増しています。既存のCPUはこうしたワークロードに最適化されておらず、専用設計のシリコンが求められていました。Armはスマートフォンからサーバまで幅広くCPUアーキテクチャを提供しており、クラウド向けにも影響力を持つ企業です。 ArmがAIエージェント向けCPUを明示的に打ち出すことで、クラウドインフラの設計思想が変わる可能性があります。IntelやAMDとの競争が激化し、データセンター向けチップ市場でArmアーキテクチャの採用がさらに進むと見られています。
+
+🎯 **今日のアクション**
+スニペットの情報が限られているため、Armの公式ニュースルームで全文を確認し、具体的なスペックや対応クラウドサービスを把握した上で自社インフラ戦略に組み込むか検討してください。
+
+🔗 [原文を読む](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)
+
+---
+
+## 🤖 LLMに関する考察 ― 心理的な複雑性
+\`AI\` \`LLM\`
+
+<details>
+<summary>📄 原題: Thoughts on LLMs - Psychological complications</summary>
+</details>
+
+> **一言で**: LLMを正確に評価できない心理的・言語的な落とし穴
+
+- 要点1: LLMは機械でも知性でもなく、既存の概念が当てはまらない新種の存在
+- 要点2: 評価に使う言語自体が不適切で、議論が混乱しやすい
+- 要点3: 技術的・社会的どちらの文脈でも、LLMを正確に語る枠組みが欠けている
+
+💡 **なぜ重要か**
+LLM（大規模言語モデル）は急速に普及していますが、その本質を正確に捉える言葉や概念がまだ整備されていません。人間は新しいものを既存の枠組みで理解しようとするため、LLMを「賢いシステム」や「考える機械」と見なしがちです。この認知的なズレが、評価や議論の質を下げる原因になっています。 LLMの能力や限界を誤って伝える言説が広まると、過大評価や過小評価が繰り返されます。業界全体の意思決定や規制議論にも歪みが生じる恐れがあります。適切な語彙と評価軸を早期に確立することが、健全なAI活用の前提になるでしょう。
+
+🎯 **今日のアクション**
+LLMについて話す際は「理解した」「考えた」などの擬人化表現を避け、動作を具体的に記述する習慣をつけましょう。評価基準を設ける際も、人間や従来のソフトウェアとの比較ではなく、LLM固有の特性に基づいた指標を使うことが重要です。
+
+🔗 [原文を読む](https://parsingphase.dev/tech/LLMs/psychologicalFactors.html)
+
+---
+
+## 📦 Video.js v10 ベータ版リリース：新たな始まり | ブログ | Video.js | オープンソース動画プレーヤー
+\`OSS\` \`Web\`
+
+<details>
+<summary>📄 原題: Video.js v10 Beta: Hello, World (again) | Blog | Video.js | Open Source Video Player</summary>
+</details>
+
+> **一言で**: Video.js v10ベータ版が公開、大規模な書き直しを実施
+
+- Video.js v10.0.0のベータ版をリリース
+- Plyr、Vidstack、Media Chromeとの異例のOSSコラボによる大規模な再設計
+- 単なるアップデートではなく、ゼロからの書き直し（ground-up rewrite）
+
+💡 **なぜ重要か**
+Video.jsはWebブラウザ向けのオープンソース動画プレイヤーとして長年使われてきました。今回のv10は、競合するOSSプレイヤーのチームが協力して再設計した点が異例です。複数プロジェクトが連携してコアを刷新するのは、Webの動画再生基盤を共通化しようという動きとも読めます。 主要なOSS動画プレイヤーが共同で基盤を再設計したことで、Web上の動画再生の標準的な実装が整理される可能性があります。各プロジェクトが独自に抱えていた技術的負債を一掃できれば、今後のメンテナンスコストも下がり、エコシステム全体の健全化につながるでしょう。
+
+🎯 **今日のアクション**
+Video.jsを使っているプロジェクトでは、v10ベータの変更内容を早めに確認し、移行コストを見積もっておくことをお勧めします。また、Plyrや Vidstackを使っている場合も同様に影響を受ける可能性があるため、各プロジェクトの公式情報を追うべきです。
+
+🔗 [原文を読む](https://videojs.org/blog/videojs-v10-beta-hello-world-again)
+
+---
+
+## 🔒 【セキュリティ】重大：litellm 1.82.8 に悪意ある litellm\\_init.pth が混入 — 認証情報窃取の恐れ · Issue #24512 · BerriAI/litellm
+\`Security\` \`AI\` \`OSS\`
+
+<details>
+<summary>📄 原題: [Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer · Issue #24512 · BerriAI/litellm</summary>
+</details>
+
+> **一言で**: litellm 1.82.8に認証情報を盗む悪意あるファイルが混入
+
+- litellm 1.82.8のPyPIパッケージに悪意ある\`litellm_init.pth\`ファイルが含まれていた
+- このファイルはクレデンシャル（認証情報）を窃取するマルウェアとして機能する
+- GitHubのIssue #24512でCRITICAL（最高深刻度）として報告された
+- LiteLLMはLLM（大規模言語モデル）のAPIを統合管理する広く使われるOSSライブラリ
+
+💡 **なぜ重要か**
+LiteLLMはOpenAIやAnthropicなど複数のLLM APIを一元管理できるPythonライブラリで、AI開発者に広く使われています。\`.pth\`ファイルはPythonの起動時に自動実行される仕組みを持つため、インストールするだけで悪意あるコードが動いてしまいます。サプライチェーン攻撃（ソフトウェアの配布経路を狙った攻撃）の典型的な手口であり、AI開発ツールが標的になった点で注目されています。 AI開発の現場ではLiteLLMのような統合ライブラリが広く使われており、クレデンシャルが盗まれると複数のLLMサービスへの不正アクセスにつながります。OSSのサプライチェーンセキュリティへの信頼が揺らぎ、PyPI経由のパッケージ管理全体の見直しを迫る契機になる可能性があります。
+
+🎯 **今日のアクション**
+litellm 1.82.8（および1.82.7）を使っている場合は即座にアンインストールし、安全が確認されたバージョンへ移行してください。また、環境内のAPIキーやクレデンシャルをすべてローテーション（再発行）することを強く推奨します。今後はpip installの際にパッケージのハッシュ検証や依存関係の監査ツール導入を検討してください。
+
+🔗 [原文を読む](https://github.com/BerriAI/litellm/issues/24512)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、**AIの実行環境をいかに現実的・実用的なインフラへと落とし込むか**という課題への取り組みです。大規模モデルをMacのローカル環境で動かすHypuraも、Gemini Embeddingを活用した動画検索も、そしてArmの新CPUも、いずれも「AIを動かすこと自体」ではなく「どこで・どのように効率よく動かすか」に焦点を当てています。特に、クラウドとエッジ・ローカルの両軸でAI処理の最適化が進んでいる点は注目に値し、メモリ制約を超えるローカル推論とエージェント向けクラウドシリコンという一見対照的なアプローチが、実は同じ「AIの民主化と実用化」という潮流の両面を表しています。また、セマンティック検索のOSS化は、高度な埋め込みモデルをアプリケーション層で誰でも活用できる時代が来たことを示しており、ハードウェアからミドルウェア、アプリケーションまでAIインフラのスタック全体が同時並行で成熟しつつあることが、これら3つのニュースを横断して見えてくる最大のトレンドと言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **GitHub - t8/hypura: Macのメモリに収まらない大きなモデルを実行する**: Apple Siliconを搭載したMacを使っているエンジニアは、GitHubのhypuraリポジトリを確認し、自分の環境で動かしたいモデルが対応しているか試してみる価値があります。
+2. **GitHub - ssrajadh/sentrysearch: Gemini Embedding 2を使用した動画のセマンティック検索**: Gemini Embedding 2 の動画対応機能に関心があるエンジニアは、このリポジトリのコードを読んで実装パターンを把握しておくと良いでしょう。自社の動画資産の検索改善に応用できるか検討する価値があります。
+3. **Arm AGI CPUを発表：エージェント型AIクラウド時代を支えるシリコンの基盤**: スニペットの情報が限られているため、Armの公式ニュースルームで全文を確認し、具体的なスペックや対応クラウドサービスを把握した上で自社インフラ戦略に組み込むか検討してください。
+
+---
+
+## 🔗 出典一覧
+- [GitHub - t8/hypura: Macのメモリに収まらない大きなモデルを実行する](https://github.com/t8/hypura)
+- [GitHub - ssrajadh/sentrysearch: Gemini Embedding 2を使用した動画のセマンティック検索](https://github.com/ssrajadh/sentrysearch)
+- [Arm AGI CPUを発表：エージェント型AIクラウド時代を支えるシリコンの基盤](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)
+- [LLMに関する考察 ― 心理的な複雑性](https://parsingphase.dev/tech/LLMs/psychologicalFactors.html)
+- [Video.js v10 ベータ版リリース：新たな始まり | ブログ | Video.js | オープンソース動画プレーヤー](https://videojs.org/blog/videojs-v10-beta-hello-world-again)
+- [【セキュリティ】重大：litellm 1.82.8 に悪意ある litellm\\_init.pth が混入 — 認証情報窃取の恐れ · Issue #24512 · BerriAI/litellm](https://github.com/BerriAI/litellm/issues/24512)`;
+const notesMd = `# Tech News Radio Show Notes - #002 (2026-03-25)
+
+## エピソード情報
+- **エピソード**: #002
+- **日付**: 2026-03-25
+- **尺**: 約 12 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [GitHub - t8/hypura: Run models too big for your Mac&#39;s memory](https://github.com/t8/hypura)
+- [GitHub - ssrajadh/sentrysearch: Semantic search over videos using Gemini Embedding 2.](https://github.com/ssrajadh/sentrysearch)
+- [Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)
+
+### 注目の深掘り
+- [Thoughts on LLMs - Psychological complications](https://parsingphase.dev/tech/LLMs/psychologicalFactors.html)
+
+### 小ネタ・その他
+- [Video.js v10 Beta: Hello, World (again) | Blog | Video.js | Open Source Video Player](https://videojs.org/blog/videojs-v10-beta-hello-world-again)
+- [[Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer · Issue #24512 · BerriAI/litellm](https://github.com/BerriAI/litellm/issues/24512)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

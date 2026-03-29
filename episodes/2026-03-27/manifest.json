@@ -1,0 +1,167 @@
+{
+  "date": "2026-03-27",
+  "episode_date_local": "2026-03-27",
+  "content_snapshot_date": "2026-03-27",
+  "show_length_sec": 793,
+  "generated_at": "2026-03-26T21:54:46.542085+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a251b447",
+      "title": "Chats where you truly own your data.",
+      "fingerprint": "a251b4477f9722ff94c6584787ce0043",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-34e313c1",
+      "title": "OpenTelemetry Profiles Enters Public Alpha",
+      "fingerprint": "34e313c1d840101d5cb8f336069596e4",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f4a8bcac",
+      "title": "GitHub - russellromney/turbolite: SQLite VFS with sub-50ms cold queries from S3 + page-level compression and encryption",
+      "fingerprint": "f4a8bcac544aad25c96961035b4ba52d",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7c738a2e",
+      "title": "How much precision can you squeeze out of a table?",
+      "fingerprint": "7c738a2e80ded2cae898f3510b8fe4bd",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e92a3f8e",
+      "title": "My minute-by-minute response to the LiteLLM malware attack",
+      "fingerprint": "e92a3f8e64c13db960580bcf6aa84742",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7de5e26f",
+      "title": "Using FireWire on a Raspberry Pi",
+      "fingerprint": "7de5e26f94cc8f906b5acc1df637208a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-6d432828",
+      "reason": "LINK_ONLY: Source classified as joke: DNS records を使用して Doom をプレイするというコンセプトは、技術的には実装可能だが、実用性に欠ける遊び心のあるプロジェクトであり、GitHub上の多くのユーモア系リポジトリの典型的な例である。プロジェクト名自体が技術的なユーモアを意図している。",
+      "title": "GitHub - resumex/doom-over-dns: Play Doom entirely from DNS records. (PowerShell 7+)"
+    },
+    {
+      "item_id": "item-d1b1e800",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New York City hospitals drop Palantir as controversial AI firm expands in UK"
+    },
+    {
+      "item_id": "item-79e07f5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CERN to host Europe’s flagship open access publishing platform"
+    },
+    {
+      "item_id": "item-d95e1347",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Culture Shift"
+    },
+    {
+      "item_id": "item-e5cb366d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "We Haven’t Seen the Worst of What Gambling and Prediction Markets Will Do to America"
+    },
+    {
+      "item_id": "item-520f770f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Book"
+    },
+    {
+      "item_id": "item-de8b539e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Cards Await — Deploy Tarot"
+    },
+    {
+      "item_id": "item-f26e9ddf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why so many control rooms were seafoam green (2025)"
+    },
+    {
+      "item_id": "item-14994175",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RIP John Bradley - Vox Popoli"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-03-27/blog.md",
+    "show_notes_path": "out/2026-03-27/show_notes.md",
+    "script_path": "out/2026-03-27/script_2hosts.md",
+    "audio_path": "out/2026-03-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-03-27/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19677,
+        "output_tokens": 7310,
+        "cost_usd": 0.056227
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37756,
+        "output_tokens": 7671,
+        "cost_usd": 0.228333
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4450,
+        "cost_usd": 0.0534
+      }
+    ],
+    "total_cost_usd": 0.33796
+  }
+}
