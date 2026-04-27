@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-11",
+  "episode_date_local": "2026-04-11",
+  "content_snapshot_date": "2026-04-11",
+  "show_length_sec": 782,
+  "audio_size": 75098924,
+  "generated_at": "2026-04-10T22:05:52.013951+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d65c90c8",
+      "title": "watgo - a WebAssembly Toolkit for Go",
+      "fingerprint": "d65c90c83e89fd0d24a182150f35f0e1",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-474b7964",
+      "title": "Parametric CAD for everyone",
+      "fingerprint": "474b796494c0d21ee9478827448ea3fd",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ad891b83",
+      "title": "RISC-V 101 &#8211; what is it and what does it mean for Canonical? | Ubuntu",
+      "fingerprint": "ad891b831ecb91967d08fa207ea7a015",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-42369a53",
+      "title": "Twill - Coding Agents That Ship While You Sleep",
+      "fingerprint": "42369a5345f28e6a20c1f7d58020dee1",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-81953c9e",
+      "title": "[ANNOUNCE] WireGuardNT v0.11 and WireGuard for Windows v0.6 Released",
+      "fingerprint": "81953c9ecb71ee4459d4bb2f70294d49",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1189b1b5",
+      "title": "Helium Is Hard to Replace",
+      "fingerprint": "1189b1b53d9e150870405553728f39b6",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-40329206",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Steve Blank Nowhere Is Safe"
+    },
+    {
+      "item_id": "item-b19cdb67",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 2026 Outage Post-Mortem - Jim&#039;s Pckt"
+    },
+    {
+      "item_id": "item-5176b121",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - PwnKit-Labs/foxguard: Linter-fast security scanning and policy checks for catching regressions before deploy."
+    },
+    {
+      "item_id": "item-413aec8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CPU-Z and HWMonitor compromised"
+    },
+    {
+      "item_id": "item-910166a8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why you can&#8217;t trust Privacy &amp; Security"
+    },
+    {
+      "item_id": "item-29e29a14",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - Keychron/Keychron-Keyboards-Hardware-Design: Industrial design files for Keychron keyboards and mice. 100+ models with CAD assets in STEP, DXF, DWG, and PDF. Source-available, with commercial use allowed for original compatible accessories within the license terms."
+    },
+    {
+      "item_id": "item-3d4deb89",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - callumlocke/json-formatter: Makes JSON easy to read."
+    },
+    {
+      "item_id": "item-c609f357",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chimpanzees in Uganda locked in vicious &#x27;civil war&#x27;, say researchers"
+    },
+    {
+      "item_id": "item-cc7a1e79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "1D"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-11/blog.md",
+    "show_notes_path": "out/2026-04-11/show_notes.md",
+    "script_path": "out/2026-04-11/script_2hosts.md",
+    "audio_path": "out/2026-04-11/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-11/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-11/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19096,
+        "output_tokens": 7142,
+        "cost_usd": 0.054806
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38358,
+        "output_tokens": 7712,
+        "cost_usd": 0.230754
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4341,
+        "cost_usd": 0.052092
+      }
+    ],
+    "total_cost_usd": 0.337652
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "date": "2026-04-28",
+  "episode_date_local": "2026-04-28",
+  "content_snapshot_date": "2026-04-28",
+  "show_length_sec": 797,
+  "audio_size": 76526444,
+  "generated_at": "2026-04-27T21:19:51.887730+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-dc872d03",
+      "title": "ORAVYS - AI Voice Intelligence Platform",
+      "fingerprint": "dc872d038e7b4198f9de48feeab33af8",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-aa3c33e0",
+      "title": "GitHub - dirac-run/dirac: Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations.  https://dirac.run/",
+      "fingerprint": "aa3c33e018e69fdc8339107698f269ea",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2be6b26b",
+      "title": "China blocks Meta's acquisition of AI startup Manus",
+      "fingerprint": "2be6b26b75e1f62756f14e36f6334270",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-1497339b",
+      "title": "GitHub Copilot is moving to usage-based billing",
+      "fingerprint": "1497339b4890d91682af96a9effec9dd",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-07efaf41",
+      "title": "\"Why not just use Lean?\"",
+      "fingerprint": "07efaf419337c42ebd65787674059b46",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ca5e6989",
+      "title": "The Quiet Resurgence of RF Engineering",
+      "fingerprint": "ca5e698919adf47d3116bf0b14db2863",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-341cafca",
+      "reason": "LINK_ONLY: Source intent uncertain: BloombergはBloombergは信頼できるニュースソースですが、2026年4月27日は未来の日付であり、このタイトルは重大な業界ニュースを示唆しているため、実際の記事内容を確認できない状況では判定が困難です。タイトルのみでは風刺やジョークの可能性も排除できません。",
+      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal"
+    },
+    {
+      "item_id": "item-fe7780d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - Hanqaqa/Easyduino: Easily dive into different PCB KiCad designs of the most popular microcontroller devboards"
+    },
+    {
+      "item_id": "item-c999f207",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Networking changes coming in macOS 27"
+    },
+    {
+      "item_id": "item-456d413f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - duane1024/l123"
+    },
+    {
+      "item_id": "item-bb8ad02b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The woes of sanitizing SVGs"
+    },
+    {
+      "item_id": "item-a379836e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "U.S. companies back Sam Altman’s World ID even as much of the world pushes back"
+    },
+    {
+      "item_id": "item-39130115",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SUPER ZSNES"
+    },
+    {
+      "item_id": "item-682a2626",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Staring at walls to improve focus and productivity"
+    },
+    {
+      "item_id": "item-39ed546b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hidden treasures: Spanish archaeologists discover trove of ancient shipwrecks in Bay of Gibraltar"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-28/blog.md",
+    "show_notes_path": "out/2026-04-28/show_notes.md",
+    "script_path": "out/2026-04-28/script_2hosts.md",
+    "audio_path": "out/2026-04-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19727,
+        "output_tokens": 7626,
+        "cost_usd": 0.057857
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38167,
+        "output_tokens": 7736,
+        "cost_usd": 0.230541
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4311,
+        "cost_usd": 0.051732
+      }
+    ],
+    "total_cost_usd": 0.34013
+  }
+}

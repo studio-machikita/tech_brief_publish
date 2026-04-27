@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-08",
+  "episode_date_local": "2026-04-08",
+  "content_snapshot_date": "2026-04-08",
+  "show_length_sec": 797,
+  "audio_size": 76515884,
+  "generated_at": "2026-04-08T00:42:19.556419+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f13048dc",
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "fingerprint": "f13048dcb45a027b9466e05132ada12c",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bd7f798e",
+      "title": "GLM-5.1: Towards Long-Horizon Tasks",
+      "fingerprint": "bd7f798e04ade7093ebb1aae51493ab5",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f1781a13",
+      "title": "Cloudflare targets 2029 for full post-quantum security",
+      "fingerprint": "f1781a136c80411f01d90a42af7a7e17",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b1b5edaf",
+      "title": "S3 Files and the changing face of S3",
+      "fingerprint": "b1b5edaf2572e8bf044ebc3f39eac98d",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f4ae8135",
+      "title": "GitHub - mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.",
+      "fingerprint": "f4ae8135a048f24ed334d5d0ce2e5434",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3ac71944",
+      "title": "Endbot &#x2013; 256b DOS Intro",
+      "fingerprint": "3ac71944ef68e2ba688d451585934022",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-58eb2d4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Project Glasswing: Securing critical software for the AI era"
+    },
+    {
+      "item_id": "item-daa32d1f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lunar Flyby - NASA"
+    },
+    {
+      "item_id": "item-1b420faf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "printervention: the backstory"
+    },
+    {
+      "item_id": "item-127c9391",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Middle-earth"
+    },
+    {
+      "item_id": "item-caa6e0d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to Get Better at Guitar"
+    },
+    {
+      "item_id": "item-9d48a1e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cambodia unveils a statue of famous landmine-sniffing rat Magawa"
+    },
+    {
+      "item_id": "item-28e439a8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump announces two-week ceasefire as Iran says talks to begin"
+    },
+    {
+      "item_id": "item-2bfb2a16",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Truck Driver Spent 20 Years Making This Astonishing Scale Model of Every Single Building in New York City"
+    },
+    {
+      "item_id": "item-b4d7caf5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Concrete Laptop Stand"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-08/blog.md",
+    "show_notes_path": "out/2026-04-08/show_notes.md",
+    "script_path": "out/2026-04-08/script_2hosts.md",
+    "audio_path": "out/2026-04-08/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-08/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-08/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18584,
+        "output_tokens": 7006,
+        "cost_usd": 0.053614
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37960,
+        "output_tokens": 7753,
+        "cost_usd": 0.230175
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4444,
+        "cost_usd": 0.053328
+      }
+    ],
+    "total_cost_usd": 0.337117
+  }
+}

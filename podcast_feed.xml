@@ -1,0 +1,1642 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>Tech News Radio</title>
+    <link>https://technewsradio.tokyo</link>
+    <description>エンジニアの朝に。AIが厳選した最新テックニュースを毎朝10分、全ニュースに出典リンク付きでお届けします。AI・LLM・クラウド・DevOps・セキュリティなど幅広いトピックをケンとミホの掛け合いで解説。</description>
+    <language>ja</language>
+    <copyright>© 2026 Studio Machikita</copyright>
+    <generator>Studio Machikita Podcast Pipeline</generator>
+    <atom:link href="https://technewsradio.tokyo/podcast_feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Studio Machikita</itunes:author>
+    <itunes:owner>
+      <itunes:name>Studio Machikita</itunes:name>
+      <itunes:email>studiomachikita@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://technewsradio.tokyo/artwork.jpg" />
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News" />
+    </itunes:category>
+    <itunes:category text="News">
+      <itunes:category text="Daily News" />
+    </itunes:category>
+    <itunes:keywords>テックニュース,AI,LLM,エンジニア,朝のニュース,テクノロジー,クラウド,DevOps,出典付き,ポッドキャスト,Tech News,podcast</itunes:keywords>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
+    <item>
+      <title>Tech News Radio - 2026-04-28</title>
+      <description>Tech News Radio Show Notes - #028 (2026-04-28)
+
+エピソード情報
+• エピソード: #028
+• 日付: 2026-04-28
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• ORAVYS - AI Voice Intelligence Platform (https://app.oravys.com/blog/mercor-breach-2026)
+• GitHub - dirac-run/dirac: Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations.  https://dirac.run/ (https://github.com/dirac-run/dirac)
+• China blocks Meta's acquisition of AI startup Manus (https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html)
+• China blocks Meta's acquisition of AI startup Manus (https://the-decoder.com/china-blocks-metas-2-billion-acquisition-of-ai-startup-manus/)
+
+注目の深掘り
+• GitHub Copilot is moving to usage-based billing (https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)
+
+小ネタ・その他
+• "Why not just use Lean?" (https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html)
+• The Quiet Resurgence of RF Engineering (https://atempleton.bearblog.dev/quiet-resurgence-of-rf-engineering/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-28/episode_audio.mp3" length="76526444" type="audio/mpeg" />
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-28</guid>
+      <itunes:duration>13:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-28</itunes:title>
+      <itunes:episode>28</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #028 (2026-04-28)
+
+エピソード情報
+• エピソード: #028
+• 日付: 2026-04-28
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• ORAVYS - AI Voice Intelligence Platform (https://app.oravys.com/blog/mercor-breach-2026)
+• GitHub - dirac-run/dirac: Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations.  https://dirac.run/ (https://github.com/dirac-run/dirac)
+• China blocks Meta's acquisition of AI startup Manus (https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html)
+• China blocks Meta's acquisition of AI startup Manus (https://the-decoder.com/china-blocks-metas-2-billion-acquisition-of-ai-startup-manus/)
+
+注目の深掘り
+• GitHub Copilot is moving to usage-based billing (https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/)
+
+小ネタ・その他
+• "Why not just use Lean?" (https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html)
+• The Quiet Resurgence of RF Engineering (https://atempleton.bearblog.dev/quiet-resurgence-of-rf-engineering/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-28/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-28/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-27</title>
+      <description>Tech News Radio Show Notes - #027 (2026-04-27)
+
+エピソード情報
+• エピソード: #027
+• 日付: 2026-04-27
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Welcome to the world of Statecharts (https://statecharts.dev/)
+• Progress Report: Linux 7.0 - Asahi Linux (https://asahilinux.org/2026/04/progress-report-7-0/)
+• Orinoco: young generation garbage collection · V8 (https://v8.dev/blog/orinoco-parallel-scavenger)
+
+注目の深掘り
+• SWE-bench Verified no longer measures frontier coding capabilities (https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/)
+
+小ネタ・その他
+• Clay PCB Tutorial (https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial)
+• If You Stop Hiring Juniors, Your Senior Engineers Own You (https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-27/episode_audio.mp3" length="70531244" type="audio/mpeg" />
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-27</guid>
+      <itunes:duration>12:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-27</itunes:title>
+      <itunes:episode>27</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #027 (2026-04-27)
+
+エピソード情報
+• エピソード: #027
+• 日付: 2026-04-27
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Welcome to the world of Statecharts (https://statecharts.dev/)
+• Progress Report: Linux 7.0 - Asahi Linux (https://asahilinux.org/2026/04/progress-report-7-0/)
+• Orinoco: young generation garbage collection · V8 (https://v8.dev/blog/orinoco-parallel-scavenger)
+
+注目の深掘り
+• SWE-bench Verified no longer measures frontier coding capabilities (https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/)
+
+小ネタ・その他
+• Clay PCB Tutorial (https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial)
+• If You Stop Hiring Juniors, Your Senior Engineers Own You (https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-27/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-27/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-26</title>
+      <description>Tech News Radio Show Notes - #026 (2026-04-26)
+
+エピソード情報
+• エピソード: #026
+• 日付: 2026-04-26
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Params Vs Compute (https://parl.ai/projects/params_vs_compute/)
+• The Coalton Programming Language (https://coalton-lang.github.io/mine/)
+• What Async Promised and What it Delivered — Causality (https://causality.blog/essays/what-async-promised/)
+
+注目の深掘り
+• The Free Universal Construction Kit (https://fffff.at/free-universal-construction-kit/)
+
+小ネタ・その他
+• It&amp;#x27;s OK to Use Coding Assistance Tools To Revive The Projects You Never Were Going To Finish (https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/)
+• Kloak (https://getkloak.io/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-26/episode_audio.mp3" length="72285164" type="audio/mpeg" />
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-26</guid>
+      <itunes:duration>12:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-26</itunes:title>
+      <itunes:episode>26</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #026 (2026-04-26)
+
+エピソード情報
+• エピソード: #026
+• 日付: 2026-04-26
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Params Vs Compute (https://parl.ai/projects/params_vs_compute/)
+• The Coalton Programming Language (https://coalton-lang.github.io/mine/)
+• What Async Promised and What it Delivered — Causality (https://causality.blog/essays/what-async-promised/)
+
+注目の深掘り
+• The Free Universal Construction Kit (https://fffff.at/free-universal-construction-kit/)
+
+小ネタ・その他
+• It&amp;#x27;s OK to Use Coding Assistance Tools To Revive The Projects You Never Were Going To Finish (https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/)
+• Kloak (https://getkloak.io/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-26/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-26/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-25</title>
+      <description>Tech News Radio Show Notes - #025 (2026-04-25)
+
+エピソード情報
+• エピソード: #025
+• 日付: 2026-04-25
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Changelog | OpenAI API (https://developers.openai.com/api/docs/changelog)
+• Could a Claude Code routine watch my finances? | Driggsby (https://driggsby.com/blog/claude-code-routine-watch-my-finances)
+• Why I&amp;#8217;m Done Making Desktop Applications (https://www.kalzumeus.com/2009/09/05/desktop-aps-versus-web-apps/)
+
+注目の深掘り
+• On sabotaging projects by overthinking, scope creep, and structural diffing (https://kevinlynagh.com/newsletter/2026_04_overthinking/)
+
+小ネタ・その他
+• Why I Cancelled Claude: Token Issues, Declining Quality, and Poor Support (https://nickyreinert.de/en/2026/2026-04-24-claude-critics/)
+• GitHub - delta-hq/cc-canary (https://github.com/delta-hq/cc-canary)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-25/episode_audio.mp3" length="73434284" type="audio/mpeg" />
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-25</guid>
+      <itunes:duration>12:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-25</itunes:title>
+      <itunes:episode>25</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #025 (2026-04-25)
+
+エピソード情報
+• エピソード: #025
+• 日付: 2026-04-25
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Changelog | OpenAI API (https://developers.openai.com/api/docs/changelog)
+• Could a Claude Code routine watch my finances? | Driggsby (https://driggsby.com/blog/claude-code-routine-watch-my-finances)
+• Why I&amp;#8217;m Done Making Desktop Applications (https://www.kalzumeus.com/2009/09/05/desktop-aps-versus-web-apps/)
+
+注目の深掘り
+• On sabotaging projects by overthinking, scope creep, and structural diffing (https://kevinlynagh.com/newsletter/2026_04_overthinking/)
+
+小ネタ・その他
+• Why I Cancelled Claude: Token Issues, Declining Quality, and Poor Support (https://nickyreinert.de/en/2026/2026-04-24-claude-critics/)
+• GitHub - delta-hq/cc-canary (https://github.com/delta-hq/cc-canary)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-25/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-25/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-24</title>
+      <description>Tech News Radio Show Notes - #024 (2026-04-24)
+
+エピソード情報
+• エピソード: #024
+• 日付: 2026-04-24
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• TorchTPU: Running PyTorch Natively on TPUs at Google Scale- Google Developers Blog (https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/)
+• GPT-5.5 (https://openai.com/index/introducing-gpt-5-5/)
+• GPT-5.5 (https://openai.com/index/gpt-5-5-system-card)
+• GPT-5.5 (https://openai.com/index/introducing-gpt-5-5)
+• An update on recent Claude Code quality reports (https://www.anthropic.com/engineering/april-23-postmortem)
+
+注目の深掘り
+• GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents (https://github.com/Infisical/agent-vault)
+
+小ネタ・その他
+• GitHub - refactoringhq/tolaria (https://github.com/refactoringhq/tolaria)
+• Meshcore.io - Why The Split? - MeshCore Blog (https://blog.meshcore.io/2026/04/23/the-split)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-24/episode_audio.mp3" length="73798124" type="audio/mpeg" />
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-24</guid>
+      <itunes:duration>12:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-24</itunes:title>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #024 (2026-04-24)
+
+エピソード情報
+• エピソード: #024
+• 日付: 2026-04-24
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• TorchTPU: Running PyTorch Natively on TPUs at Google Scale- Google Developers Blog (https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/)
+• GPT-5.5 (https://openai.com/index/introducing-gpt-5-5/)
+• GPT-5.5 (https://openai.com/index/gpt-5-5-system-card)
+• GPT-5.5 (https://openai.com/index/introducing-gpt-5-5)
+• An update on recent Claude Code quality reports (https://www.anthropic.com/engineering/april-23-postmortem)
+
+注目の深掘り
+• GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents (https://github.com/Infisical/agent-vault)
+
+小ネタ・その他
+• GitHub - refactoringhq/tolaria (https://github.com/refactoringhq/tolaria)
+• Meshcore.io - Why The Split? - MeshCore Blog (https://blog.meshcore.io/2026/04/23/the-split)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-24/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-24/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-23</title>
+      <description>Tech News Radio Show Notes - #023 (2026-04-23)
+
+エピソード情報
+• エピソード: #023
+• 日付: 2026-04-23
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Our eighth generation TPUs: two chips for the agentic era (https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/)
+• Coding Models Are Doing Too Much (https://nrehiew.github.io/blog/minimal_editing/)
+• Fragments: April  2 (https://martinfowler.com/fragments/2026-04-02.html)
+
+注目の深掘り
+• Show HN submissions tripled and now mostly share the same vibe-coded look (https://www.adriankrebs.ch/blog/design-slop/)
+
+小ネタ・その他
+• We Found a Stable Firefox Identifier Linking All Your Private Tor Identities (https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/)
+• Apple fixes bug that cops used to extract deleted chat messages from iPhones | TechCrunch (https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-23/episode_audio.mp3" length="66028844" type="audio/mpeg" />
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-23</guid>
+      <itunes:duration>11:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-23</itunes:title>
+      <itunes:episode>23</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #023 (2026-04-23)
+
+エピソード情報
+• エピソード: #023
+• 日付: 2026-04-23
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Our eighth generation TPUs: two chips for the agentic era (https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/)
+• Coding Models Are Doing Too Much (https://nrehiew.github.io/blog/minimal_editing/)
+• Fragments: April  2 (https://martinfowler.com/fragments/2026-04-02.html)
+
+注目の深掘り
+• Show HN submissions tripled and now mostly share the same vibe-coded look (https://www.adriankrebs.ch/blog/design-slop/)
+
+小ネタ・その他
+• We Found a Stable Firefox Identifier Linking All Your Private Tor Identities (https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/)
+• Apple fixes bug that cops used to extract deleted chat messages from iPhones | TechCrunch (https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-23/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-23/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-22</title>
+      <description>Tech News Radio Show Notes - #022 (2026-04-22)
+
+エピソード情報
+• エピソード: #022
+• 日付: 2026-04-22
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• zindex - diagram infrastructure for agents (https://zindex.ai/)
+• CrabTrap: Secure Agents in Production (https://www.brex.com/crabtrap)
+• Tech Notes: Theseus, a static Windows emulator (https://neugierig.org/software/blog/2026/04/theseus.html)
+
+注目の深掘り
+• ChatGPT Images 2.0 (https://openai.com/index/introducing-chatgpt-images-2-0/)
+• ChatGPT Images 2.0 (https://openai.com/academy/image-generation)
+• ChatGPT Images 2.0 (https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/)
+
+小ネタ・その他
+• Changes to GitHub Copilot Individual plans (https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/)
+• Changes to GitHub Copilot Individual plans (https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals)
+• Laws of Software Engineering (https://lawsofsoftwareengineering.com)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-22/episode_audio.mp3" length="71640044" type="audio/mpeg" />
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-22</guid>
+      <itunes:duration>12:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-22</itunes:title>
+      <itunes:episode>22</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #022 (2026-04-22)
+
+エピソード情報
+• エピソード: #022
+• 日付: 2026-04-22
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• zindex - diagram infrastructure for agents (https://zindex.ai/)
+• CrabTrap: Secure Agents in Production (https://www.brex.com/crabtrap)
+• Tech Notes: Theseus, a static Windows emulator (https://neugierig.org/software/blog/2026/04/theseus.html)
+
+注目の深掘り
+• ChatGPT Images 2.0 (https://openai.com/index/introducing-chatgpt-images-2-0/)
+• ChatGPT Images 2.0 (https://openai.com/academy/image-generation)
+• ChatGPT Images 2.0 (https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/)
+
+小ネタ・その他
+• Changes to GitHub Copilot Individual plans (https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/)
+• Changes to GitHub Copilot Individual plans (https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals)
+• Laws of Software Engineering (https://lawsofsoftwareengineering.com)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-22/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-22/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-21</title>
+      <description>Tech News Radio Show Notes - #021 (2026-04-21)
+
+エピソード情報
+• エピソード: #021
+• 日付: 2026-04-21
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• kefir: Independent C17/C23 compiler (https://sr.ht/~jprotopopov/kefir/)
+• Quantum Computers Are Not a Threat to 128 (https://words.filippo.io/128-bits/)
+• GitHub - gizmo64k/soulplayer-c64: A real 25k-parameter transformer running on a Commodore 64! (https://github.com/gizmo64k/soulplayer-c64)
+
+注目の深掘り
+• ggsql: A grammar of graphics for SQL (https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/)
+
+小ネタ・その他
+• GitHub - Luce-Org/lucebox-hub: Lucebox optimization hub: hand-tuned LLM inference, built for specific consumer hardware. (https://github.com/Luce-Org/lucebox-hub)
+• Jujutsu megamerges for fun and profit (https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-21/episode_audio.mp3" length="73564844" type="audio/mpeg" />
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-21</guid>
+      <itunes:duration>12:46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-21</itunes:title>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #021 (2026-04-21)
+
+エピソード情報
+• エピソード: #021
+• 日付: 2026-04-21
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• kefir: Independent C17/C23 compiler (https://sr.ht/~jprotopopov/kefir/)
+• Quantum Computers Are Not a Threat to 128 (https://words.filippo.io/128-bits/)
+• GitHub - gizmo64k/soulplayer-c64: A real 25k-parameter transformer running on a Commodore 64! (https://github.com/gizmo64k/soulplayer-c64)
+
+注目の深掘り
+• ggsql: A grammar of graphics for SQL (https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/)
+
+小ネタ・その他
+• GitHub - Luce-Org/lucebox-hub: Lucebox optimization hub: hand-tuned LLM inference, built for specific consumer hardware. (https://github.com/Luce-Org/lucebox-hub)
+• Jujutsu megamerges for fun and profit (https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-21/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-21/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-20</title>
+      <description>Tech News Radio Show Notes - #020 (2026-04-20)
+
+エピソード情報
+• エピソード: #020
+• 日付: 2026-04-20
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• madhadron  - The seven programming ur (https://madhadron.com/programming/seven_ur_languages.html)
+• Prove You Are a Robot: CAPTCHAs for Agents (https://browser-use.com/posts/prove-you-are-a-robot)
+• The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World’s Memory Chips (https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/)
+
+注目の深掘り
+• Swiss authorities want to reduce dependency on Microsoft (https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532)
+
+小ネタ・その他
+• faceoff (https://www.vincentgregoire.com/faceoff/)
+• GitHub - navid-m/chip8emu: Chip8 Emulator (https://github.com/navid-m/chip8emu)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-20/episode_audio.mp3" length="78381164" type="audio/mpeg" />
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-20</guid>
+      <itunes:duration>13:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-20</itunes:title>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #020 (2026-04-20)
+
+エピソード情報
+• エピソード: #020
+• 日付: 2026-04-20
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• madhadron  - The seven programming ur (https://madhadron.com/programming/seven_ur_languages.html)
+• Prove You Are a Robot: CAPTCHAs for Agents (https://browser-use.com/posts/prove-you-are-a-robot)
+• The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World’s Memory Chips (https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/)
+
+注目の深掘り
+• Swiss authorities want to reduce dependency on Microsoft (https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532)
+
+小ネタ・その他
+• faceoff (https://www.vincentgregoire.com/faceoff/)
+• GitHub - navid-m/chip8emu: Chip8 Emulator (https://github.com/navid-m/chip8emu)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-20/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-20/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-19</title>
+      <description>Tech News Radio Show Notes - #019 (2026-04-19)
+
+エピソード情報
+• エピソード: #019
+• 日付: 2026-04-19
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light (https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits)
+• Tokenomics (https://tokens.billchambers.me/leaderboard)
+• AI Subroutines: Automation Script That Run Inside Your Tab (https://www.rtrvr.ai/blog/ai-subroutines-zero-token-deterministic-automation)
+
+注目の深掘り
+• Optimizing Ruby Path Methods (https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html)
+
+小ネタ・その他
+• Floating Point Fun on Cortex-M Processors (https://danielmangum.com/posts/floating-point-cortex-m/)
+• Top (Modern Common Lisp with FSet) (https://fset.common-lisp.dev/Modern-CL/Top_html/index.html)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-19/episode_audio.mp3" length="75642284" type="audio/mpeg" />
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-19</guid>
+      <itunes:duration>13:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-19</itunes:title>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #019 (2026-04-19)
+
+エピソード情報
+• エピソード: #019
+• 日付: 2026-04-19
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light (https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits)
+• Tokenomics (https://tokens.billchambers.me/leaderboard)
+• AI Subroutines: Automation Script That Run Inside Your Tab (https://www.rtrvr.ai/blog/ai-subroutines-zero-token-deterministic-automation)
+
+注目の深掘り
+• Optimizing Ruby Path Methods (https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html)
+
+小ネタ・その他
+• Floating Point Fun on Cortex-M Processors (https://danielmangum.com/posts/floating-point-cortex-m/)
+• Top (Modern Common Lisp with FSet) (https://fset.common-lisp.dev/Modern-CL/Top_html/index.html)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-19/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-19/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-18</title>
+      <description>Tech News Radio Show Notes - #018 (2026-04-18)
+
+エピソード情報
+• エピソード: #018
+• 日付: 2026-04-18
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Introducing: ShaderPad · Riley J. Shaw (https://rileyjshaw.com/blog/introducing-shaderpad/)
+• Claude Design (https://www.anthropic.com/news/claude-design-anthropic-labs)
+• Claude Design (https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/)
+• I'm spending 3 months coding the old way (https://miguelconner.substack.com/p/im-coding-by-hand)
+
+注目の深掘り
+• A simplified model of Fil-C (https://www.corsix.org/content/simplified-model-of-fil-c)
+
+小ネタ・その他
+• GitHub - smol-machines/smolvm: Tool to build &amp;amp; run portable, lightweight, self-contained virtual machines. (https://github.com/smol-machines/smolvm)
+• NASA Force (https://nasaforce.gov/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-18/episode_audio.mp3" length="67307564" type="audio/mpeg" />
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-18</guid>
+      <itunes:duration>11:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-18</itunes:title>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #018 (2026-04-18)
+
+エピソード情報
+• エピソード: #018
+• 日付: 2026-04-18
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Introducing: ShaderPad · Riley J. Shaw (https://rileyjshaw.com/blog/introducing-shaderpad/)
+• Claude Design (https://www.anthropic.com/news/claude-design-anthropic-labs)
+• Claude Design (https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/)
+• I'm spending 3 months coding the old way (https://miguelconner.substack.com/p/im-coding-by-hand)
+
+注目の深掘り
+• A simplified model of Fil-C (https://www.corsix.org/content/simplified-model-of-fil-c)
+
+小ネタ・その他
+• GitHub - smol-machines/smolvm: Tool to build &amp;amp; run portable, lightweight, self-contained virtual machines. (https://github.com/smol-machines/smolvm)
+• NASA Force (https://nasaforce.gov/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-18/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-18/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-17</title>
+      <description>Tech News Radio Show Notes - #017 (2026-04-17)
+
+エピソード情報
+• エピソード: #017
+• 日付: 2026-04-17
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• The Beginning of Scarcity in AI (https://tomtunguz.com/ai-compute-crisis-2026/)
+• Circuit Transformations, Loop Fusion, and Inductive Proof (https://natetyoung.github.io/carry_save_fusion/)
+• Cloudflare’s AI Platform: an inference layer designed for agents (https://blog.cloudflare.com/ai-platform/)
+
+注目の深掘り
+• Zatanna — Turn software workflows into reliable APIs for AI agents (https://www.zatanna.ai/kampala)
+
+小ネタ・その他
+• Luma launches AI-powered production studio with faith-focused Wonder Project (https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/)
+• GitHub - GainSec/AutoProber: Hardware hacker’s flying probe automation stack for agent-driven   target discovery, microscope mapping, safety-monitored CNC motion, probe review, and   controlled pin probing. (https://github.com/gainsec/autoprober)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-17/episode_audio.mp3" length="74353964" type="audio/mpeg" />
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-17</guid>
+      <itunes:duration>12:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-17</itunes:title>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #017 (2026-04-17)
+
+エピソード情報
+• エピソード: #017
+• 日付: 2026-04-17
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• The Beginning of Scarcity in AI (https://tomtunguz.com/ai-compute-crisis-2026/)
+• Circuit Transformations, Loop Fusion, and Inductive Proof (https://natetyoung.github.io/carry_save_fusion/)
+• Cloudflare’s AI Platform: an inference layer designed for agents (https://blog.cloudflare.com/ai-platform/)
+
+注目の深掘り
+• Zatanna — Turn software workflows into reliable APIs for AI agents (https://www.zatanna.ai/kampala)
+
+小ネタ・その他
+• Luma launches AI-powered production studio with faith-focused Wonder Project (https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/)
+• GitHub - GainSec/AutoProber: Hardware hacker’s flying probe automation stack for agent-driven   target discovery, microscope mapping, safety-monitored CNC motion, probe review, and   controlled pin probing. (https://github.com/gainsec/autoprober)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-17/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-17/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-16</title>
+      <description>Tech News Radio Show Notes - #016 (2026-04-16)
+
+エピソード情報
+• エピソード: #016
+• 日付: 2026-04-16
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Do You Even Need a Database? - DB Pro Blog (https://www.dbpro.app/blog/do-you-even-need-a-database)
+• PiCore - Raspberry Pi Port of Tiny Core Linux (http://tinycorelinux.net/5.x/armv6/releases/README)
+• Does Gas Town &amp;#39;steal&amp;#39; usage from users&amp;#39; LLM credits &amp;amp; paid services to improve itself? · Issue #3649 · gastownhall/gastown (https://github.com/gastownhall/gastown/issues/3649)
+
+注目の深掘り
+• ChatGPT for Excel (https://chatgpt.com/apps/spreadsheets/)
+
+小ネタ・その他
+• Google Broke Its Promise to Me. Now ICE Has My Data. (https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data)
+• God sleeps in the minerals (https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-16/episode_audio.mp3" length="77140844" type="audio/mpeg" />
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-16</guid>
+      <itunes:duration>13:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-16</itunes:title>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #016 (2026-04-16)
+
+エピソード情報
+• エピソード: #016
+• 日付: 2026-04-16
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Do You Even Need a Database? - DB Pro Blog (https://www.dbpro.app/blog/do-you-even-need-a-database)
+• PiCore - Raspberry Pi Port of Tiny Core Linux (http://tinycorelinux.net/5.x/armv6/releases/README)
+• Does Gas Town &amp;#39;steal&amp;#39; usage from users&amp;#39; LLM credits &amp;amp; paid services to improve itself? · Issue #3649 · gastownhall/gastown (https://github.com/gastownhall/gastown/issues/3649)
+
+注目の深掘り
+• ChatGPT for Excel (https://chatgpt.com/apps/spreadsheets/)
+
+小ネタ・その他
+• Google Broke Its Promise to Me. Now ICE Has My Data. (https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data)
+• God sleeps in the minerals (https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-16/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-16/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-15</title>
+      <description>Tech News Radio Show Notes - #015 (2026-04-15)
+
+エピソード情報
+• エピソード: #015
+• 日付: 2026-04-15
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Automate work with routines - Claude Code Docs (https://code.claude.com/docs/en/routines)
+• GitHub - ginlix-ai/LangAlpha: Claude Code for Finance (https://github.com/ginlix-ai/langalpha)
+• 5NF and Database Design (https://kb.databasedesignbook.com/posts/5nf/)
+
+注目の深掘り
+• GitHub - dropseed/plain: A web framework for building products with Python. (https://github.com/dropseed/plain)
+
+小ネタ・その他
+• Turn your best AI prompts into one-click tools in Chrome (https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/)
+• Getting the Flock out (https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-15/episode_audio.mp3" length="67164524" type="audio/mpeg" />
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-15</guid>
+      <itunes:duration>11:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-15</itunes:title>
+      <itunes:episode>15</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #015 (2026-04-15)
+
+エピソード情報
+• エピソード: #015
+• 日付: 2026-04-15
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Automate work with routines - Claude Code Docs (https://code.claude.com/docs/en/routines)
+• GitHub - ginlix-ai/LangAlpha: Claude Code for Finance (https://github.com/ginlix-ai/langalpha)
+• 5NF and Database Design (https://kb.databasedesignbook.com/posts/5nf/)
+
+注目の深掘り
+• GitHub - dropseed/plain: A web framework for building products with Python. (https://github.com/dropseed/plain)
+
+小ネタ・その他
+• Turn your best AI prompts into one-click tools in Chrome (https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/)
+• Getting the Flock out (https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-15/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-15/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-14</title>
+      <description>Tech News Radio Show Notes - #014 (2026-04-14)
+
+エピソード情報
+• エピソード: #014
+• 日付: 2026-04-14
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Welcome - GAIA SDK (https://amd-gaia.ai/docs)
+• Building a CLI for all of Cloudflare (https://blog.cloudflare.com/cf-cli-local-explorer/)
+• What We Learned Building a Rust Runtime for TypeScript – Encore Blog (https://encore.dev/blog/rust-runtime)
+
+注目の深掘り
+• Visualizing CPU Pipelining (https://timmastny.com/blog/visualizing-cpu-pipelining/)
+
+小ネタ・その他
+• Servo is now available on crates.io - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications. (https://servo.org/blog/2026/04/13/servo-0.1.0-release/)
+• GitHub Stacked PRs (https://github.github.com/gh-stack/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-14/episode_audio.mp3" length="80056364" type="audio/mpeg" />
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-14</guid>
+      <itunes:duration>13:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-14</itunes:title>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #014 (2026-04-14)
+
+エピソード情報
+• エピソード: #014
+• 日付: 2026-04-14
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Welcome - GAIA SDK (https://amd-gaia.ai/docs)
+• Building a CLI for all of Cloudflare (https://blog.cloudflare.com/cf-cli-local-explorer/)
+• What We Learned Building a Rust Runtime for TypeScript – Encore Blog (https://encore.dev/blog/rust-runtime)
+
+注目の深掘り
+• Visualizing CPU Pipelining (https://timmastny.com/blog/visualizing-cpu-pipelining/)
+
+小ネタ・その他
+• Servo is now available on crates.io - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications. (https://servo.org/blog/2026/04/13/servo-0.1.0-release/)
+• GitHub Stacked PRs (https://github.github.com/gh-stack/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-14/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-14/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-13</title>
+      <description>Tech News Radio Show Notes - #013 (2026-04-13)
+
+エピソード情報
+• エピソード: #013
+• 日付: 2026-04-13
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• #4: Bring Back Idiomatic Design (https://essays.johnloeber.com/p/4-bring-back-idiomatic-design)
+• JVM Options Explorer (https://chriswhocodes.com/vm-options-explorer.html)
+• Cache TTL silently regressed from 1h to 5m around early March 2026, causing quota and cost inflation · Issue #46829 · anthropics/claude-code (https://github.com/anthropics/claude-code/issues/46829)
+
+注目の深掘り
+• Apple reportedly testing four designs for upcoming smart glasses (https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/)
+
+小ネタ・その他
+• The peril of laziness lost | The Observation Deck (https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/)
+• Releases · rochus-keller/OberonSystem3Native (https://github.com/rochus-keller/OberonSystem3Native/releases)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-13/episode_audio.mp3" length="70862444" type="audio/mpeg" />
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-13</guid>
+      <itunes:duration>12:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-13</itunes:title>
+      <itunes:episode>13</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #013 (2026-04-13)
+
+エピソード情報
+• エピソード: #013
+• 日付: 2026-04-13
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• #4: Bring Back Idiomatic Design (https://essays.johnloeber.com/p/4-bring-back-idiomatic-design)
+• JVM Options Explorer (https://chriswhocodes.com/vm-options-explorer.html)
+• Cache TTL silently regressed from 1h to 5m around early March 2026, causing quota and cost inflation · Issue #46829 · anthropics/claude-code (https://github.com/anthropics/claude-code/issues/46829)
+
+注目の深掘り
+• Apple reportedly testing four designs for upcoming smart glasses (https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/)
+
+小ネタ・その他
+• The peril of laziness lost | The Observation Deck (https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/)
+• Releases · rochus-keller/OberonSystem3Native (https://github.com/rochus-keller/OberonSystem3Native/releases)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-13/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-13/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-12</title>
+      <description>Tech News Radio Show Notes - #012 (2026-04-12)
+
+エピソード情報
+• エピソード: #012
+• 日付: 2026-04-12
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Cirrus Labs to join OpenAI (https://cirruslabs.org/)
+• Apple Silicon and Virtual Machines: Beating the 2 VM Limit (https://khronokernel.com/macos/2023/08/08/AS-VM.html)
+• Center for Responsible, Decentralized Intelligence at Berkeley (https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/)
+
+注目の深掘り
+• AI Cybersecurity After Mythos: The Jagged Frontier (https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier)
+
+小ネタ・その他
+• How to build a git diff driver &amp;#183; Jamie Tanna | Software Engineer (https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/)
+• Keeping a Postgres queue healthy — PlanetScale (https://planetscale.com/blog/keeping-a-postgres-queue-healthy)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-12/episode_audio.mp3" length="68576684" type="audio/mpeg" />
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-12</guid>
+      <itunes:duration>11:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-12</itunes:title>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #012 (2026-04-12)
+
+エピソード情報
+• エピソード: #012
+• 日付: 2026-04-12
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Cirrus Labs to join OpenAI (https://cirruslabs.org/)
+• Apple Silicon and Virtual Machines: Beating the 2 VM Limit (https://khronokernel.com/macos/2023/08/08/AS-VM.html)
+• Center for Responsible, Decentralized Intelligence at Berkeley (https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/)
+
+注目の深掘り
+• AI Cybersecurity After Mythos: The Jagged Frontier (https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier)
+
+小ネタ・その他
+• How to build a git diff driver &amp;#183; Jamie Tanna | Software Engineer (https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/)
+• Keeping a Postgres queue healthy — PlanetScale (https://planetscale.com/blog/keeping-a-postgres-queue-healthy)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-12/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-12/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-11</title>
+      <description>Tech News Radio Show Notes - #011 (2026-04-11)
+
+エピソード情報
+• エピソード: #011
+• 日付: 2026-04-11
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• watgo - a WebAssembly Toolkit for Go (https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/)
+• Parametric CAD for everyone (https://fluidcad.io/)
+• RISC-V 101 &amp;#8211; what is it and what does it mean for Canonical? | Ubuntu (https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical)
+
+注目の深掘り
+• Twill - Coding Agents That Ship While You Sleep (https://twill.ai)
+
+小ネタ・その他
+• [[ANNOUNCE] WireGuardNT v0.11 and WireGuard for Windows v0.6 Released](https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html)
+• Helium Is Hard to Replace (https://www.construction-physics.com/p/helium-is-hard-to-replace)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-11/episode_audio.mp3" length="75098924" type="audio/mpeg" />
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-11</guid>
+      <itunes:duration>13:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-11</itunes:title>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #011 (2026-04-11)
+
+エピソード情報
+• エピソード: #011
+• 日付: 2026-04-11
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• watgo - a WebAssembly Toolkit for Go (https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/)
+• Parametric CAD for everyone (https://fluidcad.io/)
+• RISC-V 101 &amp;#8211; what is it and what does it mean for Canonical? | Ubuntu (https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical)
+
+注目の深掘り
+• Twill - Coding Agents That Ship While You Sleep (https://twill.ai)
+
+小ネタ・その他
+• [[ANNOUNCE] WireGuardNT v0.11 and WireGuard for Windows v0.6 Released](https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html)
+• Helium Is Hard to Replace (https://www.construction-physics.com/p/helium-is-hard-to-replace)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-11/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-11/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-10</title>
+      <description>Tech News Radio Show Notes - #010 (2026-04-10)
+
+エピソード情報
+• エピソード: #010
+• 日付: 2026-04-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Research-Driven Agents: What Happens When Your Agent Reads Before It Codes (https://blog.skypilot.co/research-driven-agents/)
+• picoZ80 (https://eaw.app/picoz80/)
+• How NASA Built Artemis II’s Fault-Tolerant Computer (https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/)
+
+注目の深掘り
+• Will I ever own a zettaflop? (https://geohot.github.io//blog/jekyll/update/2026/01/26/own-a-zettaflop.html)
+
+小ネタ・その他
+• A backend for AI-coded apps (https://www.instantdb.com/essays/architecture)
+• FreeBSD Laptop Compatibility (https://freebsdfoundation.github.io/freebsd-laptop-testing/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-10/episode_audio.mp3" length="73456364" type="audio/mpeg" />
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-10</guid>
+      <itunes:duration>12:45</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-10</itunes:title>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #010 (2026-04-10)
+
+エピソード情報
+• エピソード: #010
+• 日付: 2026-04-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Research-Driven Agents: What Happens When Your Agent Reads Before It Codes (https://blog.skypilot.co/research-driven-agents/)
+• picoZ80 (https://eaw.app/picoz80/)
+• How NASA Built Artemis II’s Fault-Tolerant Computer (https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/)
+
+注目の深掘り
+• Will I ever own a zettaflop? (https://geohot.github.io//blog/jekyll/update/2026/01/26/own-a-zettaflop.html)
+
+小ネタ・その他
+• A backend for AI-coded apps (https://www.instantdb.com/essays/architecture)
+• FreeBSD Laptop Compatibility (https://freebsdfoundation.github.io/freebsd-laptop-testing/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-10/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-10/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-09</title>
+      <description>Tech News Radio Show Notes - #009 (2026-04-09)
+
+エピソード情報
+• エピソード: #009
+• 日付: 2026-04-09
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• botctl — Process Manager for Autonomous AI Agents (https://botctl.dev/)
+• Introducing Muse Spark: Scaling Towards Personal Superintelligence (https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1)
+• Little Snitch for Linux (https://obdev.at/products/littlesnitch-linux/index.html)
+
+注目の深掘り
+• Open source security at Astral (https://astral.sh/blog/open-source-security-at-astral)
+
+小ネタ・その他
+• The Importance of Being Idle (https://theamericanscholar.org/the-importance-of-being-idle/)
+• USB for Software Developers: An introduction to writing userspace USB drivers (https://werwolv.net/posts/usb_for_sw_devs/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-09/episode_audio.mp3" length="64122284" type="audio/mpeg" />
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-09</guid>
+      <itunes:duration>11:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-09</itunes:title>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #009 (2026-04-09)
+
+エピソード情報
+• エピソード: #009
+• 日付: 2026-04-09
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• botctl — Process Manager for Autonomous AI Agents (https://botctl.dev/)
+• Introducing Muse Spark: Scaling Towards Personal Superintelligence (https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1)
+• Little Snitch for Linux (https://obdev.at/products/littlesnitch-linux/index.html)
+
+注目の深掘り
+• Open source security at Astral (https://astral.sh/blog/open-source-security-at-astral)
+
+小ネタ・その他
+• The Importance of Being Idle (https://theamericanscholar.org/the-importance-of-being-idle/)
+• USB for Software Developers: An introduction to writing userspace USB drivers (https://werwolv.net/posts/usb_for_sw_devs/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-09/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-09/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-08</title>
+      <description>Tech News Radio Show Notes - #008 (2026-04-08)
+
+エピソード情報
+• エピソード: #008
+• 日付: 2026-04-08
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
+• GLM-5.1: Towards Long-Horizon Tasks (https://z.ai/blog/glm-5.1)
+• Cloudflare targets 2029 for full post-quantum security (https://blog.cloudflare.com/post-quantum-roadmap/)
+
+注目の深掘り
+• S3 Files and the changing face of S3 (https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html)
+
+小ネタ・その他
+• GitHub - mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders. (https://github.com/mattmireles/gemma-tuner-multimodal)
+• Endbot &amp;#x2013; 256b DOS Intro (https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-08/episode_audio.mp3" length="76515884" type="audio/mpeg" />
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-08</guid>
+      <itunes:duration>13:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-08</itunes:title>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #008 (2026-04-08)
+
+エピソード情報
+• エピソード: #008
+• 日付: 2026-04-08
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
+• GLM-5.1: Towards Long-Horizon Tasks (https://z.ai/blog/glm-5.1)
+• Cloudflare targets 2029 for full post-quantum security (https://blog.cloudflare.com/post-quantum-roadmap/)
+
+注目の深掘り
+• S3 Files and the changing face of S3 (https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html)
+
+小ネタ・その他
+• GitHub - mattmireles/gemma-tuner-multimodal: Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders. (https://github.com/mattmireles/gemma-tuner-multimodal)
+• Endbot &amp;#x2013; 256b DOS Intro (https://hellmood.111mb.de//A_whole_boss_fight_in_256_bytes.html)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-08/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-08/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-07</title>
+      <description>Tech News Radio Show Notes - #007 (2026-04-07)
+
+エピソード情報
+• エピソード: #007
+• 日付: 2026-04-07
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• A Cryptography Engineer’s Perspective on Quantum Computing Timelines (https://words.filippo.io/crqc-timeline/)
+• OpenAI alums have been quietly investing from a new, potentially $100M fund (https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+• GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste. (https://github.com/matthartman/ghost-pepper)
+
+注目の深掘り
+• Freestyle - Manage AI-Generated Code (https://www.freestyle.sh/)
+
+小ネタ・その他
+• The Cult Of Vibe Coding Is Insane (https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane)
+• GitHub - anzellai/sky: Sky — an Elm-inspired language that compiles to Go. Hindley-Milner types, server-driven UI (Sky.Live), single binary output. (https://github.com/anzellai/sky)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-07/episode_audio.mp3" length="79801004" type="audio/mpeg" />
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-07</guid>
+      <itunes:duration>13:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-07</itunes:title>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #007 (2026-04-07)
+
+エピソード情報
+• エピソード: #007
+• 日付: 2026-04-07
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• A Cryptography Engineer’s Perspective on Quantum Computing Timelines (https://words.filippo.io/crqc-timeline/)
+• OpenAI alums have been quietly investing from a new, potentially $100M fund (https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+• GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste. (https://github.com/matthartman/ghost-pepper)
+
+注目の深掘り
+• Freestyle - Manage AI-Generated Code (https://www.freestyle.sh/)
+
+小ネタ・その他
+• The Cult Of Vibe Coding Is Insane (https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane)
+• GitHub - anzellai/sky: Sky — an Elm-inspired language that compiles to Go. Hindley-Milner types, server-driven UI (Sky.Live), single binary output. (https://github.com/anzellai/sky)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-07/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-07/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-06</title>
+      <description>Tech News Radio Show Notes - #006 (2026-04-06)
+
+エピソード情報
+• エピソード: #006
+• 日付: 2026-04-06
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Eight years of wanting, three months of building with AI (https://lalitm.com/post/building-syntaqlite-ai/)
+• Running Google Gemma 4 Locally With LM Studio’s New Headless CLI &amp;amp; Claude Code (https://ai.georgeliu.com/p/running-google-gemma-4-locally-with)
+• Lisette — Rust syntax, Go runtime (https://lisette.run/)
+
+注目の深掘り
+• Google AI Edge Gallery-app - App Store (https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337)
+
+小ネタ・その他
+• Baby’s Second Garbage Collector (https://www.matheusmoreira.com/articles/babys-second-garbage-collector)
+• A tail-call interpreter in (nightly) Rust (https://www.mattkeeter.com/blog/2026-04-05-tailcall/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-06/episode_audio.mp3" length="67902764" type="audio/mpeg" />
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-06</guid>
+      <itunes:duration>11:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-06</itunes:title>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #006 (2026-04-06)
+
+エピソード情報
+• エピソード: #006
+• 日付: 2026-04-06
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Eight years of wanting, three months of building with AI (https://lalitm.com/post/building-syntaqlite-ai/)
+• Running Google Gemma 4 Locally With LM Studio’s New Headless CLI &amp;amp; Claude Code (https://ai.georgeliu.com/p/running-google-gemma-4-locally-with)
+• Lisette — Rust syntax, Go runtime (https://lisette.run/)
+
+注目の深掘り
+• Google AI Edge Gallery-app - App Store (https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337)
+
+小ネタ・その他
+• Baby’s Second Garbage Collector (https://www.matheusmoreira.com/articles/babys-second-garbage-collector)
+• A tail-call interpreter in (nightly) Rust (https://www.mattkeeter.com/blog/2026-04-05-tailcall/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-06/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-06/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-05</title>
+      <description>Tech News Radio Show Notes - #005 (2026-04-05)
+
+エピソード情報
+• エピソード: #005
+• 日付: 2026-04-05
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Emotion concepts and their function in a large language model (https://www.anthropic.com/research/emotion-concepts-function)
+• Emotion concepts and their function in a large language model (https://arxiv.org/abs/2604.01538)
+• Components of A Coding Agent (https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+• GitHub - teamchong/turboquant-wasm: TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+) (https://github.com/teamchong/turboquant-wasm)
+
+注目の深掘り
+• How many products does Microsoft have named ‘Copilot’? I mapped every one (https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html)
+
+小ネタ・その他
+• Meta stole Sarah Wynn (https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf)
+• Embattled startup Delve has ‘parted ways’ with Y Combinator (https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-05/episode_audio.mp3" length="74234924" type="audio/mpeg" />
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-05</guid>
+      <itunes:duration>12:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-05</itunes:title>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #005 (2026-04-05)
+
+エピソード情報
+• エピソード: #005
+• 日付: 2026-04-05
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Emotion concepts and their function in a large language model (https://www.anthropic.com/research/emotion-concepts-function)
+• Emotion concepts and their function in a large language model (https://arxiv.org/abs/2604.01538)
+• Components of A Coding Agent (https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+• GitHub - teamchong/turboquant-wasm: TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+) (https://github.com/teamchong/turboquant-wasm)
+
+注目の深掘り
+• How many products does Microsoft have named ‘Copilot’? I mapped every one (https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html)
+
+小ネタ・その他
+• Meta stole Sarah Wynn (https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf)
+• Embattled startup Delve has ‘parted ways’ with Y Combinator (https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-05/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-05/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-04</title>
+      <description>Tech News Radio JP Show Notes - #004 (2026-04-04)
+
+エピソード情報
+• エピソード: #004
+• 日付: 2026-04-04
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Claude Code Found a Linux Vulnerability Hidden for 23 Years (https://mtlynch.io/claude-code-found-linux-vulnerability/)
+• Claude Code Found a Linux Vulnerability Hidden for 23 Years (https://zenn.dev/sprix_it/articles/2470286c5ca1e9)
+• Embarrassingly Simple Self-Distillation Improves Code Generation (https://arxiv.org/abs/2604.01193)
+• GitHub - ExTV/Podroid: Rootless Podman for Android — run Linux containers on your phone (https://github.com/ExTV/Podroid)
+
+注目の深掘り
+• The CMS is dead. Long live the CMS. (https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms)
+
+小ネタ・その他
+• Herbie Tutorial (https://herbie.uwplse.org/doc/latest/tutorial.html)
+• The Cathedral, the Bazaar, and the Winchester Mystery House (https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-04/episode_audio.mp3" length="67678124" type="audio/mpeg" />
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-04</guid>
+      <itunes:duration>11:44</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-04</itunes:title>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio JP Show Notes - #004 (2026-04-04)
+
+エピソード情報
+• エピソード: #004
+• 日付: 2026-04-04
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Claude Code Found a Linux Vulnerability Hidden for 23 Years (https://mtlynch.io/claude-code-found-linux-vulnerability/)
+• Claude Code Found a Linux Vulnerability Hidden for 23 Years (https://zenn.dev/sprix_it/articles/2470286c5ca1e9)
+• Embarrassingly Simple Self-Distillation Improves Code Generation (https://arxiv.org/abs/2604.01193)
+• GitHub - ExTV/Podroid: Rootless Podman for Android — run Linux containers on your phone (https://github.com/ExTV/Podroid)
+
+注目の深掘り
+• The CMS is dead. Long live the CMS. (https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms)
+
+小ネタ・その他
+• Herbie Tutorial (https://herbie.uwplse.org/doc/latest/tutorial.html)
+• The Cathedral, the Bazaar, and the Winchester Mystery House (https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-04/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-04/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-03</title>
+      <description>Tech News Radio Show Notes - #003 (2026-04-03)
+
+エピソード情報
+• エピソード: #003
+• 日付: 2026-04-03
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Gemma 4 (https://deepmind.google/models/gemma/gemma-4/)
+• Meet the new Cursor · Cursor (https://cursor.com/blog/cursor-3)
+• c89cc.sh - standalone C89/ELF64 compiler in pure portable shell (https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19)
+
+注目の深掘り
+• LinkedIn Is Illegally Searching Your Computer (https://browsergate.eu/)
+
+小ネタ・その他
+• Post Mortem: axios npm supply chain compromise · Issue #10636 · axios/axios (https://github.com/axios/axios/issues/10636)
+• Telehealth giant Hims &amp; Hers says its customer support system was hacked (https://techcrunch.com/2026/04/02/telehealth-giant-hims-hers-says-its-customer-support-system-was-hacked/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-03/episode_audio.mp3" length="73806764" type="audio/mpeg" />
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-03</guid>
+      <itunes:duration>12:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-03</itunes:title>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #003 (2026-04-03)
+
+エピソード情報
+• エピソード: #003
+• 日付: 2026-04-03
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Gemma 4 (https://deepmind.google/models/gemma/gemma-4/)
+• Meet the new Cursor · Cursor (https://cursor.com/blog/cursor-3)
+• c89cc.sh - standalone C89/ELF64 compiler in pure portable shell (https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19)
+
+注目の深掘り
+• LinkedIn Is Illegally Searching Your Computer (https://browsergate.eu/)
+
+小ネタ・その他
+• Post Mortem: axios npm supply chain compromise · Issue #10636 · axios/axios (https://github.com/axios/axios/issues/10636)
+• Telehealth giant Hims &amp; Hers says its customer support system was hacked (https://techcrunch.com/2026/04/02/telehealth-giant-hims-hers-says-its-customer-support-system-was-hacked/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-03/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-03/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-02</title>
+      <description>Tech News Radio Show Notes - #002 (2026-04-02)
+
+エピソード情報
+• エピソード: #002
+• 日付: 2026-04-02
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Quantum computing bombshells that are not April Fools (https://scottaaronson.blog/?p=9665)
+• IBM Announces Strategic Collaboration with Arm to Shape the Future of Enterprise Computing (https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing)
+• Lemonade: Local AI for Text, Images, and Speech (https://lemonade-server.ai)
+
+注目の深掘り
+• Bringing Clojure programming to Enterprise (https://blogit.michelin.io/clojure-programming/)
+
+小ネタ・その他
+• GitHub - rwc9u/emacs-libgterm: Terminal emulator for Emacs using libghostty-vt (Ghostty&amp;#39;s terminal engine) (https://github.com/rwc9u/emacs-libgterm)
+• Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project | TechCrunch (https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-02/episode_audio.mp3" length="0" type="audio/mpeg" />
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-02</guid>
+      <itunes:duration>12:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-02</itunes:title>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #002 (2026-04-02)
+
+エピソード情報
+• エピソード: #002
+• 日付: 2026-04-02
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Quantum computing bombshells that are not April Fools (https://scottaaronson.blog/?p=9665)
+• IBM Announces Strategic Collaboration with Arm to Shape the Future of Enterprise Computing (https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing)
+• Lemonade: Local AI for Text, Images, and Speech (https://lemonade-server.ai)
+
+注目の深掘り
+• Bringing Clojure programming to Enterprise (https://blogit.michelin.io/clojure-programming/)
+
+小ネタ・その他
+• GitHub - rwc9u/emacs-libgterm: Terminal emulator for Emacs using libghostty-vt (Ghostty&amp;#39;s terminal engine) (https://github.com/rwc9u/emacs-libgterm)
+• Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project | TechCrunch (https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-02/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-02/eyecatch.webp" />
+    </item>
+    <item>
+      <title>Tech News Radio - 2026-04-01</title>
+      <description>Tech News Radio Show Notes - #001 (2026-04-01)
+
+エピソード情報
+• エピソード: #001
+• 日付: 2026-04-01
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• PrismML — Concentrating intelligence (https://prismml.com/)
+• Cohere Transcribe: state-of-the-art speech recognition (https://cohere.com/blog/transcribe)
+• MiniStack — Free Local AWS Emulator (https://ministack.org/)
+
+注目の深掘り
+• Slop Is Not Necessarily The Future | Greptile Blog (https://www.greptile.com/blog/ai-slopware-future)
+
+小ネタ・その他
+• SolveSpace (https://solvespace.com/webver.pl)
+• I Traced My Traffic Through a Home Tailscale Exit Node (https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-01/episode_audio.mp3" length="0" type="audio/mpeg" />
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-04-01</guid>
+      <itunes:duration>12:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Tech News Radio - 2026-04-01</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #001 (2026-04-01)
+
+エピソード情報
+• エピソード: #001
+• 日付: 2026-04-01
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• PrismML — Concentrating intelligence (https://prismml.com/)
+• Cohere Transcribe: state-of-the-art speech recognition (https://cohere.com/blog/transcribe)
+• MiniStack — Free Local AWS Emulator (https://ministack.org/)
+
+注目の深掘り
+• Slop Is Not Necessarily The Future | Greptile Blog (https://www.greptile.com/blog/ai-slopware-future)
+
+小ネタ・その他
+• SolveSpace (https://solvespace.com/webver.pl)
+• I Traced My Traffic Through a Home Tailscale Exit Node (https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-04-01/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-01/eyecatch.webp" />
+    </item>
+  </channel>
+</rss>
