@@ -1,0 +1,173 @@
+{
+  "date": "2026-04-01",
+  "episode_date_local": "2026-04-01",
+  "content_snapshot_date": "2026-04-01",
+  "show_length_sec": 739,
+  "generated_at": "2026-04-01T00:06:21.098374+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-35616ac2",
+      "title": "PrismML — Concentrating intelligence",
+      "fingerprint": "35616ac2fd9cd52e735a930214844923",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e73313a7",
+      "title": "Cohere Transcribe: state-of-the-art speech recognition",
+      "fingerprint": "e73313a784871296949f1820c5a309a2",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ab3236a1",
+      "title": "MiniStack — Free Local AWS Emulator",
+      "fingerprint": "ab3236a15dd8cda5f52186758202990b",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-235a7693",
+      "title": "Slop Is Not Necessarily The Future | Greptile Blog",
+      "fingerprint": "235a76939452c03da038e067ac9994cc",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a3c0f816",
+      "title": "SolveSpace",
+      "fingerprint": "a3c0f816215d58c040ed4c2462f079d5",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5cfe2ada",
+      "title": "I Traced My Traffic Through a Home Tailscale Exit Node",
+      "fingerprint": "5cfe2ada0f4b9563c55036f75dc2abc9",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-a6a893d9",
+      "reason": "LINK_ONLY: Source intent uncertain: CNBCは信頼できるニュースソースですが、スニペットがなく、$852B評価額という具体的な数字のみでは、実際のニュース記事か推測記事かの判断が困難です。2026年3月31日という日付設定も検証不可能です。",
+      "title": "OpenAI closes funding round at an $852B valuation"
+    },
+    {
+      "item_id": "item-c5dabff8",
+      "reason": "LINK_ONLY: Source classified as joke: タイトルの「Source Leak」は実際のセキュリティ侵害を示唆する言葉だが、スニペットは単なる個人的な使用体験の不満であり、実際のコード漏洩やセキュリティ事件ではない。タイトルと内容のギャップがジョーク/釣り記事の特徴を示している。",
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode, and more"
+    },
+    {
+      "item_id": "item-a27ab728",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Back to FreeBSD – Part 2 – Jails"
+    },
+    {
+      "item_id": "item-971b21ce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Learn Something Old Every Day, Part XVIII: How Does FPU Detection Work?"
+    },
+    {
+      "item_id": "item-40dcb7fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - danieldugas/HYPERHELL: Welcome to HYPERHELL, the first 4-Dimensional DOOM-Like of its kind."
+    },
+    {
+      "item_id": "item-cdb5d532",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - ericlewis/libpo32: C99 library for PO-32 acoustic transfers and drum synthesis."
+    },
+    {
+      "item_id": "item-bc6e3064",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OkCupid gave 3 million dating-app photos to facial recognition firm, FTC says"
+    },
+    {
+      "item_id": "item-0cdf0637",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Dot a Day Keeps the Clutter Away &mdash; Scott Lawson"
+    },
+    {
+      "item_id": "item-a578590f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ordinary Lab Gloves May Have Skewed Microplastic Data"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-01/blog.md",
+    "show_notes_path": "out/2026-04-01/show_notes.md",
+    "script_path": "out/2026-04-01/script_2hosts.md",
+    "audio_path": "out/2026-04-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-01/note_draft.md",
+    "eyecatch_path": null
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 17933,
+        "output_tokens": 7316,
+        "cost_usd": 0.054513
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37785,
+        "output_tokens": 7136,
+        "cost_usd": 0.220395
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4119,
+        "cost_usd": 0.049428
+      }
+    ],
+    "total_cost_usd": 0.324336
+  }
+}

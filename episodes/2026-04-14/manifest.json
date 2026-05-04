@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-14",
+  "episode_date_local": "2026-04-14",
+  "content_snapshot_date": "2026-04-14",
+  "show_length_sec": 833,
+  "audio_size": 80056364,
+  "generated_at": "2026-04-13T22:39:53.005650+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a72cc3e9",
+      "title": "Welcome - GAIA SDK",
+      "fingerprint": "a72cc3e91c0f38aaaaa3c2050ba7b1d4",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-eb920df6",
+      "title": "Building a CLI for all of Cloudflare",
+      "fingerprint": "eb920df6451aaa3ff0d093b29ebe9e9a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-75e01d88",
+      "title": "What We Learned Building a Rust Runtime for TypeScript – Encore Blog",
+      "fingerprint": "75e01d88bcb6d681bb4a07c11a722379",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-753dc176",
+      "title": "Visualizing CPU Pipelining",
+      "fingerprint": "753dc1767b21979282f20b66ba102f6b",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-502ac900",
+      "title": "Servo is now available on crates.io - Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "fingerprint": "502ac9006b61e97839f7d01bc3043eca",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-39318240",
+      "title": "GitHub Stacked PRs",
+      "fingerprint": "39318240ca0b7fe7402468386a49cfa8",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-941ef96e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to make Firefox builds1 17% faster2"
+    },
+    {
+      "item_id": "item-dd8853af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Just Enough Chimera Linux &#9775; Daniel Wayne Armstrong"
+    },
+    {
+      "item_id": "item-9bd80e6f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Someone Bought 30 WordPress Plugins and Planted a Backdoor in All of Them."
+    },
+    {
+      "item_id": "item-85d121cf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stanford report highlights growing disconnect between AI insiders and everyone else | TechCrunch"
+    },
+    {
+      "item_id": "item-40cc241d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "N-Day"
+    },
+    {
+      "item_id": "item-0833e0ba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - sterlingcrispin/nothing-ever-happens"
+    },
+    {
+      "item_id": "item-2af42ed9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introduction to Obsidian"
+    },
+    {
+      "item_id": "item-8c0c8bad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ithihasas — Hindu Epics Character Explorer"
+    },
+    {
+      "item_id": "item-23691a00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tax Wrapped"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-14/blog.md",
+    "show_notes_path": "out/2026-04-14/show_notes.md",
+    "script_path": "out/2026-04-14/script_2hosts.md",
+    "audio_path": "out/2026-04-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18921,
+        "output_tokens": 7429,
+        "cost_usd": 0.056066
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37865,
+        "output_tokens": 7814,
+        "cost_usd": 0.230805
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4618,
+        "cost_usd": 0.05541599999999999
+      }
+    ],
+    "total_cost_usd": 0.342287
+  }
+}

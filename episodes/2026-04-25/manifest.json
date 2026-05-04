@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-25",
+  "episode_date_local": "2026-04-25",
+  "content_snapshot_date": "2026-04-25",
+  "show_length_sec": 764,
+  "audio_size": 73434284,
+  "generated_at": "2026-04-24T21:05:44.177108+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-e496a4a1",
+      "title": "Changelog | OpenAI API",
+      "fingerprint": "e496a4a13d3c5806281eb5961d13247b",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bb246a76",
+      "title": "Could a Claude Code routine watch my finances? | Driggsby",
+      "fingerprint": "bb246a767fdef3e1fe2a2a9ac9deb743",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3c0b02f2",
+      "title": "Why I&#8217;m Done Making Desktop Applications",
+      "fingerprint": "3c0b02f242cb95222f57a645572dbd21",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-687dd8e8",
+      "title": "On sabotaging projects by overthinking, scope creep, and structural diffing",
+      "fingerprint": "687dd8e89f81baf79e41aace9fd7058b",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3a58efb7",
+      "title": "Why I Cancelled Claude: Token Issues, Declining Quality, and Poor Support",
+      "fingerprint": "3a58efb7953bac94d69a99ec5e91d17a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-225a4d81",
+      "title": "GitHub - delta-hq/cc-canary",
+      "fingerprint": "225a4d81626e668933ec1cdc58bcd956",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-4c3f1f40",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、記事内容に不自然な点があります。特に「Mythos」という「cybersecurity-focused」モデルの存在が確認できず、また2026年4月時点での大規模投資発表としては詳細情報が不足しており、実在のニュースか創作かの判定が困難です。",
+      "title": "Google to invest up to $40B in Anthropic in cash and compute | TechCrunch"
+    },
+    {
+      "item_id": "item-a099b54e",
+      "reason": "LINK_ONLY: Source classified as satirical: 記事は「なぜCSS（スタイルシート言語）をクエリ言語として使うのか」という非現実的な提案を、ユーモアを交えて扱っており、「God's good name」や「SQL famously doesn't have problems」といった皮肉的な表現が風刺的なトーンを示唆している。",
+      "title": "CSS As A Query Language · evdc.me"
+    },
+    {
+      "item_id": "item-a9291157",
+      "reason": "LINK_ONLY: Source classified as satirical: タイトルと内容が「反社会的になる方法」というガイドを装いながら、実際には有害で非論理的な思考パターン（悪意を仮定する、直感を盲信するなど）を風刺的に列挙しており、明らかにユーモアと批判を意図した風刺記事である。",
+      "title": "how to be anti-social - n8"
+    },
+    {
+      "item_id": "item-d15d2b50",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - matz/spinel"
+    },
+    {
+      "item_id": "item-2cfb8b59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "My audio interface has ssh enabled by default"
+    },
+    {
+      "item_id": "item-1b5434e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add DOS platform support (DJGPP) by AJenbo · Pull Request #15377 · libsdl-org/SDL"
+    },
+    {
+      "item_id": "item-896a3d13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Diatec, known for its mechanical keyboard brand FILCO, has ceased operations."
+    },
+    {
+      "item_id": "item-13ca45ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Classic American Diner | Picture This"
+    },
+    {
+      "item_id": "item-7c60dbd9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SFO Quiet Airport (2025)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-25/blog.md",
+    "show_notes_path": "out/2026-04-25/show_notes.md",
+    "script_path": "out/2026-04-25/script_2hosts.md",
+    "audio_path": "out/2026-04-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 20718,
+        "output_tokens": 7524,
+        "cost_usd": 0.058338
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37912,
+        "output_tokens": 7213,
+        "cost_usd": 0.221931
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4237,
+        "cost_usd": 0.050844
+      }
+    ],
+    "total_cost_usd": 0.331113
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-30",
+  "episode_date_local": "2026-04-30",
+  "content_snapshot_date": "2026-04-30",
+  "show_length_sec": 744,
+  "audio_size": 71500844,
+  "generated_at": "2026-04-29T21:20:58.425085+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f2bd92aa",
+      "title": "Zed is 1.0 - Zed Blog",
+      "fingerprint": "f2bd92aabba130866cb102b599f3cc2b",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cc5b756c",
+      "title": "OpenTrafficMap",
+      "fingerprint": "cc5b756c2c90caddbb0c6a2ca523ff75",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-16b30ca7",
+      "title": "FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies",
+      "fingerprint": "16b30ca7515f62d3e629e9a03a7ec3ba",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1ae625c0",
+      "title": "Ramp’s Sheets AI Exfiltrates Financials",
+      "fingerprint": "1ae625c005142712091cc0667050beb8",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b130521a",
+      "title": "Why I Still Reach for Scheme and Lisp Instead of Haskell",
+      "fingerprint": "b130521a8017df5ff45cb8103d09f122",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fff7eb9e",
+      "title": "we need a federation of forges",
+      "fingerprint": "fff7eb9e73e778dd22c6b0bfb1a2d85f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-69772f98",
+      "reason": "LINK_ONLY: Source classified as joke: neal.fun は既知のジョーク・ユーモアサイトであり、「Cursor Camp」というタイトルは AI コーディングツール Cursor に関する風刺的なコンテンツである可能性が高い。スニペットがないため完全な確認はできないが、ドメインの性質から判定。",
+      "title": "Cursor Camp"
+    },
+    {
+      "item_id": "item-e1f460e0",
+      "reason": "LINK_ONLY: Source classified as joke: ドメイン名「copy.fail」自体がユーモアを含み、CVE番号が未来の日付（2026年）であること、また「732 bytes to root」というキャッチーな表現と視覚的な説明（破線の円と実線の円）がジョーク記事の特徴を示している。技術的な信頼性よりもユーモアと風刺性が優先されている。",
+      "title": "Copy Fail — 732 Bytes to Root"
+    },
+    {
+      "item_id": "item-7fe27e65",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - GliaX/Stethoscope: A research-validated stethoscope whose plans are available Freely and openly. The cost of the entire stethoscope is between $2.5 to $5 to produce"
+    },
+    {
+      "item_id": "item-bc6d6a5f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "HERMES.md in git commit messages causes requests to route to extra usage billing instead of plan quota · Issue #53262 · anthropics/claude-code"
+    },
+    {
+      "item_id": "item-8eae5566",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alphabet Announces First Quarter 2026 Results"
+    },
+    {
+      "item_id": "item-f4a7986f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Home | Laws of UX"
+    },
+    {
+      "item_id": "item-15336bb4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Third Editor Fired in Elsevier&#x27;s Citation Cartel Crackdown; Hundreds of Papers At Risk of Retraction"
+    },
+    {
+      "item_id": "item-cf74da3a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "California high-speed rail price tag jumps to $231B, nearly seven times 2008 estimate"
+    },
+    {
+      "item_id": "item-651deabb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kyoto cherry blossoms now bloom earlier than at any point in 1,200 years"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-30/blog.md",
+    "show_notes_path": "out/2026-04-30/show_notes.md",
+    "script_path": "out/2026-04-30/script_2hosts.md",
+    "audio_path": "out/2026-04-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 20016,
+        "output_tokens": 7421,
+        "cost_usd": 0.057121
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37861,
+        "output_tokens": 7291,
+        "cost_usd": 0.222948
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4130,
+        "cost_usd": 0.04956
+      }
+    ],
+    "total_cost_usd": 0.329629
+  }
+}

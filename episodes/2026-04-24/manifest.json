@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-24",
+  "episode_date_local": "2026-04-24",
+  "content_snapshot_date": "2026-04-24",
+  "show_length_sec": 768,
+  "audio_size": 73798124,
+  "generated_at": "2026-04-24T00:00:20.758680+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8e9dabd4",
+      "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale- Google Developers Blog",
+      "fingerprint": "8e9dabd43fc1d64c43e929563a918635",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b9577148",
+      "title": "GPT-5.5",
+      "fingerprint": "b9577148033ef4a3100a4fad67012541",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-540ce0ac",
+      "title": "An update on recent Claude Code quality reports",
+      "fingerprint": "540ce0ac119863e2d3461a075e83798d",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-50ff6425",
+      "title": "GitHub - Infisical/agent-vault: A HTTP credential proxy and vault for AI agents",
+      "fingerprint": "50ff6425ccd5058bc52417b641014e77",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e6e101aa",
+      "title": "GitHub - refactoringhq/tolaria",
+      "fingerprint": "e6e101aa41c0e8795b3ed2a7c23e900c",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a897ea3f",
+      "title": "Meshcore.io - Why The Split? - MeshCore Blog",
+      "fingerprint": "a897ea3f06c2c3006d442d69d0da6f61",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e08b697b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "crawshaw - 2026-04"
+    },
+    {
+      "item_id": "item-d29bfe95",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UK Biobank health data keeps ending up on GitHub"
+    },
+    {
+      "item_id": "item-30a65f2d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "your hex editor should color"
+    },
+    {
+      "item_id": "item-09378be4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain ..."
+    },
+    {
+      "item_id": "item-0439928d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Incident with multiple GitHub services"
+    },
+    {
+      "item_id": "item-0d858946",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Palantir Employees Are Starting to Wonder if They&#x27;re the Bad Guys"
+    },
+    {
+      "item_id": "item-171439e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "My Phone Replaced a Brass Plug"
+    },
+    {
+      "item_id": "item-8349f1d0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "U.S. Soldier Charged With Using Classified Information To Profit From Prediction Market Bets"
+    },
+    {
+      "item_id": "item-0f20ef61",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Endangered Mexican axolotl discovered by girl, 10, under a bridge in Wales"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-24/blog.md",
+    "show_notes_path": "out/2026-04-24/show_notes.md",
+    "script_path": "out/2026-04-24/script_2hosts.md",
+    "audio_path": "out/2026-04-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-24/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-24/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18512,
+        "output_tokens": 6924,
+        "cost_usd": 0.053132
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37596,
+        "output_tokens": 7224,
+        "cost_usd": 0.221148
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4326,
+        "cost_usd": 0.051912
+      }
+    ],
+    "total_cost_usd": 0.326192
+  }
+}

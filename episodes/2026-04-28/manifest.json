@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-28",
+  "episode_date_local": "2026-04-28",
+  "content_snapshot_date": "2026-04-28",
+  "show_length_sec": 765,
+  "audio_size": 73446764,
+  "generated_at": "2026-04-28T07:22:28.636401+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-afc9fa65",
+      "title": "Robbyant - Exploring the Frontiers of Embodied Intelligence | 蚂蚁灵波科技 - 探索具身智能的上限，打造物理世界的 AGI 平台",
+      "fingerprint": "afc9fa65f4981bd2fcf59e3dc0a19b2a",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-dc872d03",
+      "title": "ORAVYS - AI Voice Intelligence Platform",
+      "fingerprint": "dc872d038e7b4198f9de48feeab33af8",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fecf4851",
+      "title": "GitHub - pgcentralfoundation/pgrx: Build Postgres Extensions with Rust!",
+      "fingerprint": "fecf48516f84e2552ffebffd46b9d67c",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f7953ddd",
+      "title": "Mo RAM, Mo Problems (2025)",
+      "fingerprint": "f7953ddd834e2d115d1370d449e9c312",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a4aaaf77",
+      "title": "High Performance Git",
+      "fingerprint": "a4aaaf77a502fddd3dc9c7b755a3b37d",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ca5e6989",
+      "title": "The Quiet Resurgence of RF Engineering",
+      "fingerprint": "ca5e698919adf47d3116bf0b14db2863",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-341cafca",
+      "reason": "LINK_ONLY: Source intent uncertain: Bloombergは信頼できるニュースソースですが、スニペットが不完全で記事の詳細内容が確認できません。タイトルの内容自体は2026年4月時点では未来の出来事であり、実際のニュース報道か推測記事かの判断が困難です。",
+      "title": "Microsoft and OpenAI end their exclusive and revenue-sharing deal"
+    },
+    {
+      "item_id": "item-ded55cb1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GTFOBins"
+    },
+    {
+      "item_id": "item-b08f85c0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing talkie: a 13B vintage language model from 1930"
+    },
+    {
+      "item_id": "item-cc5f835d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How I leared what a decoupling capacitor is for, the hard way"
+    },
+    {
+      "item_id": "item-fe7780d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - Hanqaqa/Easyduino: Easily dive into different PCB KiCad designs of the most popular microcontroller devboards"
+    },
+    {
+      "item_id": "item-3d2d062a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is my blue your blue?"
+    },
+    {
+      "item_id": "item-5f3d6b0e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Three men are facing charges in Toronto SMS Blaster arrests"
+    },
+    {
+      "item_id": "item-682a2626",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Staring at walls to improve focus and productivity"
+    },
+    {
+      "item_id": "item-e109985c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "First G-SHOCK with a heart rate monitor, also featuring Smartphone Link"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-28/blog.md",
+    "show_notes_path": "out/2026-04-28/show_notes.md",
+    "script_path": "out/2026-04-28/script_2hosts.md",
+    "audio_path": "out/2026-04-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18937,
+        "output_tokens": 7241,
+        "cost_usd": 0.055142
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37492,
+        "output_tokens": 7106,
+        "cost_usd": 0.219066
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4194,
+        "cost_usd": 0.050328
+      }
+    ],
+    "total_cost_usd": 0.324536
+  }
+}

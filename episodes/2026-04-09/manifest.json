@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-09",
+  "episode_date_local": "2026-04-09",
+  "content_snapshot_date": "2026-04-09",
+  "show_length_sec": 667,
+  "audio_size": 64122284,
+  "generated_at": "2026-04-09T07:34:16.423751+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-bf191e32",
+      "title": "botctl — Process Manager for Autonomous AI Agents",
+      "fingerprint": "bf191e32ebce488765078b52f4c5db62",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-dc658fb6",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "fingerprint": "dc658fb6d68024419f2030b483111116",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9d3fa1cc",
+      "title": "Little Snitch for Linux",
+      "fingerprint": "9d3fa1ccf11107b07f8f28fddcd435da",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-73bc9e39",
+      "title": "Open source security at Astral",
+      "fingerprint": "73bc9e39783c7f457d1048f62015a792",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3f33a847",
+      "title": "The Importance of Being Idle",
+      "fingerprint": "3f33a847c642b1cd87d04b67de789bb9",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6f827027",
+      "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+      "fingerprint": "6f8270276f57ce4c0c619034564cba86",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2dcecb96",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kalman Filter Explained Through Examples"
+    },
+    {
+      "item_id": "item-5772b8fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "pgit: I Imported the Linux Kernel into PostgreSQL"
+    },
+    {
+      "item_id": "item-afe9e3ca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Porting Mac OS X to the Nintendo Wii"
+    },
+    {
+      "item_id": "item-637e9e68",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Git Commands I Run Before Reading Any Code"
+    },
+    {
+      "item_id": "item-ddfb4445",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Who is Satoshi Nakamoto? My quest to unmask Bitcoin's creator"
+    },
+    {
+      "item_id": "item-e4e11c4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Future of Everything is Lies, I Guess"
+    },
+    {
+      "item_id": "item-a5e52589",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Perfectly Normal"
+    },
+    {
+      "item_id": "item-9d1612b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Haunted Paper Toys"
+    },
+    {
+      "item_id": "item-8ab21277",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "They're made out of meat (1991)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-09/blog.md",
+    "show_notes_path": "out/2026-04-09/show_notes.md",
+    "script_path": "out/2026-04-09/script_2hosts.md",
+    "audio_path": "out/2026-04-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 26,
+        "input_tokens": 17277,
+        "output_tokens": 6372,
+        "cost_usd": 0.049137
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37353,
+        "output_tokens": 7039,
+        "cost_usd": 0.217644
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3686,
+        "cost_usd": 0.044232
+      }
+    ],
+    "total_cost_usd": 0.311013
+  }
+}

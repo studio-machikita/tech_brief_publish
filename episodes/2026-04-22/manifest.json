@@ -1,0 +1,174 @@
+{
+  "date": "2026-04-22",
+  "episode_date_local": "2026-04-22",
+  "content_snapshot_date": "2026-04-22",
+  "show_length_sec": 746,
+  "audio_size": 71640044,
+  "generated_at": "2026-04-22T00:48:01.810408+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9eb0a40e",
+      "title": "zindex - diagram infrastructure for agents",
+      "fingerprint": "9eb0a40e78ea7101ed512a671cb09a97",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fa7aedcc",
+      "title": "CrabTrap: Secure Agents in Production",
+      "fingerprint": "fa7aedcc18807502c6cb283630f6ecfb",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1b756a28",
+      "title": "Tech Notes: Theseus, a static Windows emulator",
+      "fingerprint": "1b756a28173b47af7e417d8af812e5f5",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3315920f",
+      "title": "ChatGPT Images 2.0",
+      "fingerprint": "3315920f6493063a9929b5add0e97760",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-60428b60",
+      "title": "Changes to GitHub Copilot Individual plans",
+      "fingerprint": "60428b60d6d13cccc602b473cc684ffd",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-c092fca4",
+      "title": "Laws of Software Engineering",
+      "fingerprint": "c092fca4518a4d2f52e00a0255cd4e17",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0c67eb41",
+      "reason": "LINK_ONLY: Source intent uncertain: SpaceXがCursorを買収する可能性は技術的に信じられるが、$60Bという金額とTwitterソースの組み合わせ、および2026年4月という未来日付での記事発表という点で、実際のニュースか推測記事かの判断が困難。Cursorは実在するAIコーディングツールだが、この買収発表の信憑性を確認できない。",
+      "title": "SpaceX says it has agreement to acquire Cursor for $60B"
+    },
+    {
+      "item_id": "item-ca67697f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Vercel Breach: OAuth Supply Chain Attack Exposes the Hidden Risk in Platform Environment Variables"
+    },
+    {
+      "item_id": "item-325e362f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - calcom/cal.diy: Scheduling infrastructure for absolutely everyone."
+    },
+    {
+      "item_id": "item-4b03333a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training"
+    },
+    {
+      "item_id": "item-d83ac04c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - i12bp8/TagTinker: Flipper Zero app for ESL research using IR. All based on https://www.furrtek.org/?a=esl"
+    },
+    {
+      "item_id": "item-d46a28e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fields Medal Video: Maryna Viazovska"
+    },
+    {
+      "item_id": "item-a7c6e990",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Framework Laptop 13 Pro: Intel Core Ultra 3 &amp; LPCAMM2"
+    },
+    {
+      "item_id": "item-175d7400",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stephen's Sausage Roll remains one of the most influential puzzle games"
+    },
+    {
+      "item_id": "item-9bed6ffc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Encyclop&aelig;dia Britannica, 11th Edition (1910&ndash;1911)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-22/blog.md",
+    "show_notes_path": "out/2026-04-22/show_notes.md",
+    "script_path": "out/2026-04-22/script_2hosts.md",
+    "audio_path": "out/2026-04-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19194,
+        "output_tokens": 7353,
+        "cost_usd": 0.055959
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37105,
+        "output_tokens": 6964,
+        "cost_usd": 0.215775
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4116,
+        "cost_usd": 0.049392
+      }
+    ],
+    "total_cost_usd": 0.321126
+  }
+}

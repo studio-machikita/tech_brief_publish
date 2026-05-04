@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-10",
+  "episode_date_local": "2026-04-10",
+  "content_snapshot_date": "2026-04-10",
+  "show_length_sec": 765,
+  "audio_size": 73456364,
+  "generated_at": "2026-04-10T00:23:31.796104+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-032f3666",
+      "title": "Research-Driven Agents: What Happens When Your Agent Reads Before It Codes",
+      "fingerprint": "032f3666b5f04129d240a90ad1563eb2",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-61cb466e",
+      "title": "picoZ80",
+      "fingerprint": "61cb466e909c5c73ce839d0bab538893",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-16dd79b8",
+      "title": "How NASA Built Artemis II’s Fault-Tolerant Computer",
+      "fingerprint": "16dd79b8b3b14edf878bfb2ced18081c",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b3750564",
+      "title": "Will I ever own a zettaflop?",
+      "fingerprint": "b37505646af4f502f40bc403a71c680a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6db17d64",
+      "title": "A backend for AI-coded apps",
+      "fingerprint": "6db17d64d54c4b70177ea3fca1cabf2c",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e5788487",
+      "title": "FreeBSD Laptop Compatibility",
+      "fingerprint": "e5788487b96b61efd6b9970eeab72ae7",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2beb1526",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Robots Eat Cars」は非現実的で風刺的に見えるが、スニペットがないため実際の記事内容が不明。URLドメイン「telemetry.endeff.com」は技術ブログのような構造だが、タイトルだけでは風刺か技術記事かの判定が困難。",
+      "title": "Robots Eat Cars"
+    },
+    {
+      "item_id": "item-974cea46",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Native Instant Space Switching on MacOS"
+    },
+    {
+      "item_id": "item-81c1c0f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - aloshdenny/reverse-SynthID: reverse engineering Gemini&#39;s SynthID detection"
+    },
+    {
+      "item_id": "item-440d9d36",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Moving from WordPress to Jekyll (and static site generators in general)"
+    },
+    {
+      "item_id": "item-03c39bab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hegel"
+    },
+    {
+      "item_id": "item-1ff9ea49",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "BunnyCDN has been silently losing our production files for 15 months"
+    },
+    {
+      "item_id": "item-c442c7a1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Charcuterie"
+    },
+    {
+      "item_id": "item-44a3c039",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Unfolder - Create papercraft easily"
+    },
+    {
+      "item_id": "item-501c4840",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How funerals keep Africa poor"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-10/blog.md",
+    "show_notes_path": "out/2026-04-10/show_notes.md",
+    "script_path": "out/2026-04-10/script_2hosts.md",
+    "audio_path": "out/2026-04-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18917,
+        "output_tokens": 6948,
+        "cost_usd": 0.053657
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37677,
+        "output_tokens": 7212,
+        "cost_usd": 0.221211
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4220,
+        "cost_usd": 0.05064
+      }
+    ],
+    "total_cost_usd": 0.325508
+  }
+}

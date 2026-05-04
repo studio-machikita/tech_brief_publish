@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-04-07</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — A Cryptography Engineer’s Perspective on Quantum Computing Timelines / OpenAI alums have been quietly investing from a new, potentially $100M fund / GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-04-07/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-04-07/">
+<meta property="og:description" content="2026-04-07 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-04-07/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — A Cryptography Engineer’s Perspective on Quantum Computing Timelines / OpenAI alums have been quietly investing from a new, potentially $100M fund / GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.",
+    "description": "2026-04-07 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-04-07",
+    "image": "https://technewsradio.tokyo/episodes/2026-04-07/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-04-07/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — A Cryptography Engineer’s Perspective on Quantum Computing Timelines / OpenAI alums have been quietly investing from a new, potentially $100M fund / GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.",
+    "description": "2026-04-07 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-04-07",
+    "url": "https://technewsradio.tokyo/episodes/2026-04-07/",
+    "duration": "PT13M51S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-04-07/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-04-07%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-04-07/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-04-07/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-04-07"
+subtitle: "量子コンピューティングの実現時期に関する暗号エンジニアの視点 / OpenAIの元社員たち、最大1億ドル規模の新ファンドから密かに投資活動 / GitHu..."
+date: "2026-04-07"
+vol: 7
+topics:
+  - Security
+  - Quantum
+  - AI
+  - Startup
+  - Business
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-04-07
+
+*📖 約12分で読めます ｜ 🏷️ Security, Quantum, AI, Startup, Business*
+
+---
+
+## 📌 今日のハイライト
+- 🔒 **量子コンピューティングの実現時期に関する暗号エンジニアの視点** — 量子耐性暗号の導入urgencyが高まっている
+- 🤖 **OpenAIの元社員たち、最大1億ドル規模の新ファンドから密かに投資活動** — OpenAI出身者が最大100億円規模のVCファンドを設立
+- 🤖 **GitHub - matthartman/ghost-pepper：macOS向けのホールドトーク音声テキスト変換ツール。WhisperKitとローカルLLMを活用した完全ローカル処理。Controlキーを押しながら録音し、離すと文字起こし＆貼り付け。** — macOSで動くローカル完結の音声文字起こしツール
+- 🤖 **フリースタイル - AIが生成したコードを管理する** — AIコーディングエージェント向けサンドボックス基盤「Freestyle」登場
+- 🤖 **バイブコーディング崇拝は狂気だ** — Claudeのソースコード流出が示すバイブコーディングの危うさ
+- 📦 **GitHub - anzellai/sky: Sky — ElmにインスパイアされたGoにコンパイルされる言語。Hindley-Milner型システム、サーバー駆動UI（Sky.Live）、単一バイナリ出力。** — ElmにインスパイアされたGoコンパイル言語「Sky」が登場
+
+---
+
+## 🔒 量子コンピューティングの実現時期に関する暗号エンジニアの視点
+\`Security\` \`Quantum\`
+
+<details>
+<summary>📄 原題: A Cryptography Engineer’s Perspective on Quantum Computing Timelines</summary>
+</details>
+
+> **一言で**: 量子耐性暗号の導入urgencyが高まっている
+
+- 著者は量子耐性暗号（量子コンピュータに対抗できる暗号方式）の普及urgencyについて、数ヶ月前から考えを改めた
+- 暗号学的に意味のある量子コンピュータ実現に向けた、予期せぬ進展の噂が以前からあったと言及
+- 考えの変化を公に表明し、その根拠を説明することにしたと著者は述べている
+
+💡 **なぜ重要か**
+量子コンピュータが十分な性能を持つようになると、現在広く使われているRSAや楕円曲線暗号が解読されるリスクがあります。これまで「まだ先の話」とされてきたタイムラインが、現場の暗号エンジニアの目線でも見直されつつあるようです。 量子耐性暗号への移行は、TLSや認証基盤など広範なシステムに影響します。移行には数年単位の時間がかかるため、タイムラインの前倒しは業界全体の対応計画を根本から変える可能性があります。
+
+🎯 **今日のアクション**
+自社システムで使っている暗号アルゴリズムを棚卸しし、NISTが標準化を進める量子耐性アルゴリズム（ML-KEM、ML-DSAなど）への移行計画を今から検討しておくことが望ましいです。
+
+🔗 [原文を読む](https://words.filippo.io/crqc-timeline/)
+
+---
+
+## 🤖 OpenAIの元社員たち、最大1億ドル規模の新ファンドから密かに投資活動
+\`AI\` \`Startup\` \`Business\`
+
+<details>
+<summary>📄 原題: OpenAI alums have been quietly investing from a new, potentially $100M fund</summary>
+</details>
+
+> **一言で**: OpenAI出身者が最大100億円規模のVCファンドを設立
+
+- ファンド名は「Zero Shot」、OpenAIと深いつながりを持つ
+- 目標調達額は1億ドル（約100億円）規模の第1号ファンド
+- すでに一部の投資先への出資を開始している
+
+💡 **なぜ重要か**
+OpenAIの急成長に伴い、同社の元スタッフがAI業界の知見を活かして独立する動きが加速しています。「Zero Shot」という名称はAI分野の用語で、事前例示なしに推論する能力を指します。OpenAI人脈を持つ投資家が集まることで、次世代AIスタートアップへの資金供給ルートが新たに生まれつつあります。 OpenAI出身者によるVCが増えると、AI系スタートアップへの投資判断の質が上がる可能性があります。技術の目利きができる投資家が増えることで、実力のあるチームへ資金が集まりやすくなり、AI業界全体の成熟が早まると見られています。
+
+🎯 **今日のアクション**
+AIスタートアップを立ち上げている、または検討しているエンジニアやリーダーは、Zero Shotのような技術背景を持つVCの動向を注視し、資金調達先の選択肢として把握しておくとよいでしょう。
+
+🔗 [原文を読む](https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+
+---
+
+## 🤖 GitHub - matthartman/ghost-pepper：macOS向けのホールドトーク音声テキスト変換ツール。WhisperKitとローカルLLMを活用した完全ローカル処理。Controlキーを押しながら録音し、離すと文字起こし＆貼り付け。
+\`AI\` \`OSS\`
+
+<details>
+<summary>📄 原題: GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.</summary>
+</details>
+
+> **一言で**: macOSで動くローカル完結の音声文字起こしツール
+
+- Controlキーを押している間だけ録音し、離すと即座に文字起こしとペーストを実行
+- 音声認識にWhisperKit、テキスト整形にローカルLLMを使用し、完全オフライン動作
+- クラウド送信なしのため、プライバシーリスクがゼロ
+- macOS専用のOSSプロジェクトとして公開
+
+💡 **なぜ重要か**
+音声文字起こしツールの多くはクラウドAPIに依存しており、音声データが外部サーバに送信されます。機密情報を扱うエンジニアや企業にとって、データの外部送信は大きなリスクです。WhisperKit（Appleシリコン向けに最適化されたWhisperの実装）とローカルLLMの組み合わせにより、性能を保ちながら完全ローカルで動かせる環境が整いつつあります。 ローカルで完結するAI音声入力ツールの登場は、クラウド依存からの脱却を加速させます。特にAppleシリコンの高い推論性能を活かしたオンデバイスAIの実用性が示されることで、プライバシー重視のAIツール開発が今後さらに広がると見られます。
+
+🎯 **今日のアクション**
+macOSユーザーのエンジニアはGitHubリポジトリを確認し、日常の音声入力ワークフローへの導入を検討してみてください。また、社内ツール開発においてもクラウド不要のローカルAI構成を選択肢に加える価値があります。
+
+🔗 [原文を読む](https://github.com/matthartman/ghost-pepper)
+
+---
+
+## 🤖 フリースタイル - AIが生成したコードを管理する
+\`AI\` \`DevOps\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Freestyle - Manage AI-Generated Code</summary>
+</details>
+
+> **一言で**: AIコーディングエージェント向けサンドボックス基盤「Freestyle」登場
+
+- FreestyleはAIが生成したコードを安全に実行・管理するサンドボックス環境を提供
+- Lovable・Bolt・V0のようなAIアプリビルダーと同様の用途を想定した設計
+- GitリポジトリをテンプレートからAPIで作成し、VM（仮想マシン）上で実行できる
+- Bun（JavaScriptランタイム）や開発サーバーとの統合モジュールも用意されている
+
+💡 **なぜ重要か**
+AIがコードを自動生成するツールが急増する中、生成されたコードを安全に実行・検証する環境の整備が課題になっています。Freestyleはその需要に応えるインフラ層として位置づけられています。 AIコーディングエージェントの普及に伴い、コード実行環境の抽象化・自動化が進むと見られます。開発者がインフラ管理を意識せずにAI生成コードを扱えるようになれば、開発サイクルがさらに短縮されるでしょう。
+
+🎯 **今日のアクション**
+AIを使ったアプリ開発ツールを構築・評価しているエンジニアは、Freestyleのサンドボックス機能を試し、既存のコード実行基盤と比較検討してみる価値があります。
+
+🔗 [原文を読む](https://www.freestyle.sh/)
+
+---
+
+## 🤖 バイブコーディング崇拝は狂気だ
+\`AI\` \`LLM\` \`DevOps\`
+
+<details>
+<summary>📄 原題: The Cult Of Vibe Coding Is Insane</summary>
+</details>
+
+> **一言で**: Claudeのソースコード流出が示すバイブコーディングの危うさ
+
+- ClaudeのソースコードがリークされAIが書いたコードの品質の低さが話題に
+- 原因はドッグフーディング（自社製品を自ら使う慣行）の行き過ぎだと著者は指摘
+- AIに任せきりのコーディングは「悪いソフトウェアを選んでいる」と批判
+- バイブコーディングとはAIの感覚に乗っかって深く考えずにコードを生成する手法
+
+💡 **なぜ重要か**
+AIによるコード生成が普及する中、開発者がコードの品質や意図を十分に検証しないまま採用するケースが増えています。Anthropicが自社のAIツールを使って開発した結果、品質の低いコードが生まれたとすれば、AI開発企業自身がAIの限界を示す皮肉な事例です。 AIコード生成への過度な依存が業界全体に広がると、技術的負債（将来の開発を圧迫するコードの問題）が蓄積しやすくなります。長期的にはコードレビューや品質基準の見直しが求められ、AIツールの使い方に関する規範づくりが重要な課題になるでしょう。
+
+🎯 **今日のアクション**
+AIが生成したコードをそのまま採用せず、必ず人間がレビューして意図と品質を確認する習慣を徹底してください。ドッグフーディングは有益ですが、批判的思考を失わないよう注意が必要です。
+
+🔗 [原文を読む](https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane)
+
+---
+
+## 📦 GitHub - anzellai/sky: Sky — ElmにインスパイアされたGoにコンパイルされる言語。Hindley-Milner型システム、サーバー駆動UI（Sky.Live）、単一バイナリ出力。
+\`OSS\` \`Web\` \`DevOps\`
+
+<details>
+<summary>📄 原題: GitHub - anzellai/sky: Sky — an Elm-inspired language that compiles to Go. Hindley-Milner types, server-driven UI (Sky.Live), single binary output.</summary>
+</details>
+
+> **一言で**: ElmにインスパイアされたGoコンパイル言語「Sky」が登場
+
+- SkyはElmの設計思想を受け継ぎ、Goのコードにコンパイルされる新言語
+- Hindley-Milner型推論（型を明示せずとも自動推論する仕組み）を採用
+- Sky.Liveというサーバー駆動UIの仕組みを内蔵
+- ビルド成果物はシングルバイナリ（単一実行ファイル）として出力される
+
+💡 **なぜ重要か**
+関数型言語Elmはフロントエンド開発で高い安全性と予測可能性を持つ設計で知られています。一方、Goはシンプルさと高いパフォーマンスでバックエンド開発に広く使われています。SkyはこのElmの型安全な設計思想をGoのエコシステムに持ち込もうとする試みで、両者の長所を組み合わせることを目指しているようです。 型推論や関数型パラダイムをGoの実行環境で活用できるようになれば、バックエンド開発における安全性と生産性が向上する可能性があります。また、サーバー駆動UIの仕組みを標準で持つ点は、フルスタック開発の新しいアプローチとして注目されるかもしれません。
+
+🎯 **今日のアクション**
+GoやElmに慣れ親しんだエンジニアはGitHubリポジトリ（anzellai/sky）を確認し、型システムやSky.Liveの設計を評価してみると良いでしょう。プロダクション採用は時期尚早ですが、設計思想の把握は今後の言語選定に役立つはずです。
+
+🔗 [原文を読む](https://github.com/anzellai/sky)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースを横断的に見ると、**AIと暗号技術の進化が「信頼とセキュリティ」の再定義を迫っている**という共通の緊張感が浮かび上がる。量子コンピューティングの脅威が現実味を帯びる中で既存の暗号インフラの脆弱性が問われる一方、Ghost Pepperのようなローカル完結型のAIツールが台頭している背景には、クラウドへのデータ送信そのものへの不信感や、プライバシーへの意識の高まりがある。OpenAI出身者たちが独立してVCを立ち上げる動きは、巨大AI企業への人材・資本の集中が臨界点を迎えつつあることを示しており、業界の重心が「中央集権的なプラットフォーム」から「分散・独立した主体」へとシフトし始めているサインとも読める。総じてこれらのニュースは、AI技術の急速な普及が生み出す利便性と引き換えに、セキュリティ・プライバシー・権力集中という三つのリスクがいよいよ無視できない段階に入ったことを、異なる角度から照らし出している。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **量子コンピューティングの実現時期に関する暗号エンジニアの視点**: 自社システムで使っている暗号アルゴリズムを棚卸しし、NISTが標準化を進める量子耐性アルゴリズム（ML-KEM、ML-DSAなど）への移行計画を今から検討しておくことが望ましいです。
+2. **OpenAIの元社員たち、最大1億ドル規模の新ファンドから密かに投資活動**: AIスタートアップを立ち上げている、または検討しているエンジニアやリーダーは、Zero Shotのような技術背景を持つVCの動向を注視し、資金調達先の選択肢として把握しておくとよいでしょう。
+3. **GitHub - matthartman/ghost-pepper：macOS向けのホールドトーク音声テキスト変換ツール。WhisperKitとローカルLLMを活用した完全ローカル処理。Controlキーを押しながら録音し、離すと文字起こし＆貼り付け。**: macOSユーザーのエンジニアはGitHubリポジトリを確認し、日常の音声入力ワークフローへの導入を検討してみてください。また、社内ツール開発においてもクラウド不要のローカルAI構成を選択肢に加える価値があります。
+
+---
+
+## 🔗 出典一覧
+- [量子コンピューティングの実現時期に関する暗号エンジニアの視点](https://words.filippo.io/crqc-timeline/)
+- [OpenAIの元社員たち、最大1億ドル規模の新ファンドから密かに投資活動](https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+- [GitHub - matthartman/ghost-pepper：macOS向けのホールドトーク音声テキスト変換ツール。WhisperKitとローカルLLMを活用した完全ローカル処理。Controlキーを押しながら録音し、離すと文字起こし＆貼り付け。](https://github.com/matthartman/ghost-pepper)
+- [フリースタイル - AIが生成したコードを管理する](https://www.freestyle.sh/)
+- [バイブコーディング崇拝は狂気だ](https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane)
+- [GitHub - anzellai/sky: Sky — ElmにインスパイアされたGoにコンパイルされる言語。Hindley-Milner型システム、サーバー駆動UI（Sky.Live）、単一バイナリ出力。](https://github.com/anzellai/sky)`;
+const notesMd = `# Tech News Radio Show Notes - #007 (2026-04-07)
+
+## エピソード情報
+- **エピソード**: #007
+- **日付**: 2026-04-07
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [A Cryptography Engineer’s Perspective on Quantum Computing Timelines](https://words.filippo.io/crqc-timeline/)
+- [OpenAI alums have been quietly investing from a new, potentially $100M fund](https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+- [GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.](https://github.com/matthartman/ghost-pepper)
+
+### 注目の深掘り
+- [Freestyle - Manage AI-Generated Code](https://www.freestyle.sh/)
+
+### 小ネタ・その他
+- [The Cult Of Vibe Coding Is Insane](https://bramcohen.com/p/the-cult-of-vibe-coding-is-insane)
+- [GitHub - anzellai/sky: Sky — an Elm-inspired language that compiles to Go. Hindley-Milner types, server-driven UI (Sky.Live), single binary output.](https://github.com/anzellai/sky)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

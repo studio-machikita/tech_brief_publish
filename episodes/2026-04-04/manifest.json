@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-04",
+  "episode_date_local": "2026-04-04",
+  "content_snapshot_date": "2026-04-04",
+  "show_length_sec": 704,
+  "audio_size": 67678124,
+  "generated_at": "2026-04-04T14:08:20.936887+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-fd80282d",
+      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "fingerprint": "fd80282dcac944b9383ae563c3f33eff",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-20d16373",
+      "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+      "fingerprint": "20d1637355d6e7d4fd4a77065ce214ae",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-024d645c",
+      "title": "GitHub - ExTV/Podroid: Rootless Podman for Android — run Linux containers on your phone",
+      "fingerprint": "024d645c71e4787c37db27afcdd1f89e",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a1b70655",
+      "title": "The CMS is dead. Long live the CMS.",
+      "fingerprint": "a1b70655bf39ba52f00a3efcafc37735",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a971ef1f",
+      "title": "Herbie Tutorial",
+      "fingerprint": "a971ef1f70eaa6389059dcbd9b7835df",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-764ea022",
+      "title": "The Cathedral, the Bazaar, and the Winchester Mystery House",
+      "fingerprint": "764ea022dbba7a6d95804e412155192a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-39693c37",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "iNaturalist"
+    },
+    {
+      "item_id": "item-38baa5c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jack Dorsey says Block employees now bring prototypes — not slide decks — to meetings"
+    },
+    {
+      "item_id": "item-7c08c70b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "After fighting malware for decades, this cybersecurity veteran is now hacking drones"
+    },
+    {
+      "item_id": "item-b253b99e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party"
+    },
+    {
+      "item_id": "item-351a7b89",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenClaw privilege escalation vulnerability"
+    },
+    {
+      "item_id": "item-bb2aa704",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Artemis II crew now halfway to Moon as they take &#x27;spectacular&#x27; image of Earth"
+    },
+    {
+      "item_id": "item-f68fd599",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Some unusual trees"
+    },
+    {
+      "item_id": "item-e6619e15",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The most-disliked people in the publishing industry"
+    },
+    {
+      "item_id": "item-37aaa7f1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Inventing Color TV Was So Difficult [video]"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-04/blog.md",
+    "show_notes_path": "out/2026-04-04/show_notes.md",
+    "script_path": "out/2026-04-04/script_2hosts.md",
+    "audio_path": "out/2026-04-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18637,
+        "output_tokens": 6986,
+        "cost_usd": 0.053567
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37685,
+        "output_tokens": 6761,
+        "cost_usd": 0.21447
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3843,
+        "cost_usd": 0.046116000000000004
+      }
+    ],
+    "total_cost_usd": 0.314153
+  }
+}

@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - Studio Machikita</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tech News Radio",
+    "url": "https://technewsradio.tokyo",
+    "description": "最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "inLanguage": "ja"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "Tech News Radio",
+    "description": "最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "url": "https://technewsradio.tokyo",
+    "image": "https://technewsradio.tokyo/artwork.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "Studio Machikita"
+    },
+    "inLanguage": "ja",
+    "webFeed": "https://technewsradio.tokyo/podcast_feed.xml"
+  }
+]
+</script>
+
+</head>
+<body>
+  <header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Episodes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <section id="home-intro" class="hero-card"></section>
+
+    <a href="podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+
+    <h2 class="section-subtitle">Episodes</h2>
+    <div class="episodes-list">
+    
+      <a href="episodes/2026-05-05/index.html" class="episode-card">
+        <div class="episode-date">2026-05-05</div>
+        <h3 class="episode-title">Tech News Radio - 2026-05-05</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>8 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-05-04/index.html" class="episode-card">
+        <div class="episode-date">2026-05-04</div>
+        <h3 class="episode-title">Tech News Radio - 2026-05-04</h3>
+        <div class="episode-meta">
+          <span>13 min</span>
+          <span>7 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-05-03/index.html" class="episode-card">
+        <div class="episode-date">2026-05-03</div>
+        <h3 class="episode-title">Tech News Radio - 2026-05-03</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-05-02/index.html" class="episode-card">
+        <div class="episode-date">2026-05-02</div>
+        <h3 class="episode-title">Tech News Radio - 2026-05-02</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>8 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-05-01/index.html" class="episode-card">
+        <div class="episode-date">2026-05-01</div>
+        <h3 class="episode-title">Tech News Radio - 2026-05-01</h3>
+        <div class="episode-meta">
+          <span>13 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-04-30/index.html" class="episode-card">
+        <div class="episode-date">2026-04-30</div>
+        <h3 class="episode-title">Tech News Radio - 2026-04-30</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-04-29/index.html" class="episode-card">
+        <div class="episode-date">2026-04-29</div>
+        <h3 class="episode-title">Tech News Radio - 2026-04-29</h3>
+        <div class="episode-meta">
+          <span>13 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-04-28/index.html" class="episode-card">
+        <div class="episode-date">2026-04-28</div>
+        <h3 class="episode-title">Tech News Radio - 2026-04-28</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-04-27/index.html" class="episode-card">
+        <div class="episode-date">2026-04-27</div>
+        <h3 class="episode-title">Tech News Radio - 2026-04-27</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+
+      <a href="episodes/2026-04-26/index.html" class="episode-card">
+        <div class="episode-date">2026-04-26</div>
+        <h3 class="episode-title">Tech News Radio - 2026-04-26</h3>
+        <div class="episode-meta">
+          <span>12 min</span>
+          <span>6 topics</span>
+        </div>
+      </a>
+    </div>
+    <nav class="pagination" aria-label="Episodes pagination"><span class="current">1</span><a href="page/2/index.html">2</a><a href="page/3/index.html">3</a><a href="page/4/index.html">4</a><a href="page/2/index.html">次へ</a><span class="summary">Page 1 / 4</span></nav>
+
+    <section id="home-notice" class="notice-card"></section>
+  </main>
+  <footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="about.html">About</a>
+      <a href="policy.html">ポリシー</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+  
+  <script>
+(function() {
+  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+
+最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
+
+各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
+
+- 出典リンクを明示
+- AI生成コンテンツを含む
+- 実務に活かせるアクションを重視`;
+  const renderMode = "hero-pills";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('home-intro');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+  <script>
+(function() {
+  const markdownContent = `### ご利用上のご確認
+
+- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
+- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
+- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('home-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+  </body>
+  </html>
