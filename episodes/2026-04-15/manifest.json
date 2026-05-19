@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-15",
+  "episode_date_local": "2026-04-15",
+  "content_snapshot_date": "2026-04-15",
+  "show_length_sec": 699,
+  "audio_size": 67164524,
+  "generated_at": "2026-04-14T22:39:51.121755+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ee7371d7",
+      "title": "Automate work with routines - Claude Code Docs",
+      "fingerprint": "ee7371d79436e78ca450a0bcd264584b",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f3fc97d5",
+      "title": "GitHub - ginlix-ai/LangAlpha: Claude Code for Finance",
+      "fingerprint": "f3fc97d58da1598e7817c4002899550b",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c8dd9374",
+      "title": "5NF and Database Design",
+      "fingerprint": "c8dd9374148a9480ef898e9bef2c3a7f",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-507a64d0",
+      "title": "GitHub - dropseed/plain: A web framework for building products with Python.",
+      "fingerprint": "507a64d08cb9b8d08506435ea8337c61",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e39e5f24",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "fingerprint": "e39e5f24bf199a5dfd7b2e6c12c636d1",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-090ba78d",
+      "title": "Getting the Flock out",
+      "fingerprint": "090ba78d6d7d8f5f954a536f43f38223",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1a35e2e9",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、記事の内容に矛盾があります。数ヶ月前に$7.5B評価額だったのが$18B、さらに$50B規模のAnthropic契約という急速な成長は非現実的に見えます。ただしAI業界の急速な資金調達は実際に起こっているため、完全な風刺とも言い切れません。",
+      "title": "AI data center startup Fluidstack in talks for $1B round at $18B valuation months after hitting $7.5B, says report"
+    },
+    {
+      "item_id": "item-8af9b2d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Release OpenSSL 4.0.0 · openssl/openssl"
+    },
+    {
+      "item_id": "item-7244411e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trusted access for the next era of cyber defense"
+    },
+    {
+      "item_id": "item-9db0a4a5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thousands of rare concert recordings are landing on the Internet Archive -- listen now | TechCrunch"
+    },
+    {
+      "item_id": "item-fd8771d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "guide.world"
+    },
+    {
+      "item_id": "item-dbbc79cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Dangers of California’s Legislation to Censor 3D Printing"
+    },
+    {
+      "item_id": "item-8cea4eb6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Troubleshooting Email Delivery to Microsoft Users"
+    },
+    {
+      "item_id": "item-00c9ef02",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Orange Pi 6 Plus"
+    },
+    {
+      "item_id": "item-c0f14f0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Let's talk space toilets"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-15/blog.md",
+    "show_notes_path": "out/2026-04-15/show_notes.md",
+    "script_path": "out/2026-04-15/script_2hosts.md",
+    "audio_path": "out/2026-04-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18671,
+        "output_tokens": 7004,
+        "cost_usd": 0.053691
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37505,
+        "output_tokens": 6636,
+        "cost_usd": 0.212055
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3862,
+        "cost_usd": 0.046343999999999996
+      }
+    ],
+    "total_cost_usd": 0.31209
+  }
+}

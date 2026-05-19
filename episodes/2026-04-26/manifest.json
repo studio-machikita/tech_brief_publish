@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-26",
+  "episode_date_local": "2026-04-26",
+  "content_snapshot_date": "2026-04-26",
+  "show_length_sec": 752,
+  "audio_size": 72285164,
+  "generated_at": "2026-04-25T20:57:31.011287+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-3cb31e40",
+      "title": "Params Vs Compute",
+      "fingerprint": "3cb31e40d05ed126c364af3784a1c7c0",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-84b8bc88",
+      "title": "The Coalton Programming Language",
+      "fingerprint": "84b8bc881448cf2e6847bc1c9918e8ed",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9d51067d",
+      "title": "What Async Promised and What it Delivered — Causality",
+      "fingerprint": "9d51067d885ca3609c2f609975d272b8",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e6de4ef4",
+      "title": "The Free Universal Construction Kit",
+      "fingerprint": "e6de4ef43ebf6c6868cd29036ae87008",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4750f4a9",
+      "title": "It&#x27;s OK to Use Coding Assistance Tools To Revive The Projects You Never Were Going To Finish",
+      "fingerprint": "4750f4a970abce32b2cedd1ba1c54f7d",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9066b457",
+      "title": "Kloak",
+      "fingerprint": "9066b457398f95b8e476021dcd61c128",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ebf896cb",
+      "reason": "LINK_ONLY: Source intent uncertain: OpenAIの公式ドメインからのプレスリリース形式だが、「GPT-5.5」というバージョン番号と「Bio Bug Bounty」という組み合わせが現時点（2026年4月）で実在するかどうか確認できず、スニペットがないため内容の真偽を判定できない。",
+      "title": "GPT‑5.5 Bio Bug Bounty"
+    },
+    {
+      "item_id": "item-1e68cdbd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - nakagami/grdpwasm"
+    },
+    {
+      "item_id": "item-a2307e0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "On commenting and approving pull requests"
+    },
+    {
+      "item_id": "item-97a93741",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "国立国会図書館デジタルコレクション"
+    },
+    {
+      "item_id": "item-dbbd7c2e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New 10 GbE USB adapters are cooler, smaller, cheaper"
+    },
+    {
+      "item_id": "item-dbe79bce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Discret 11, the French TV encryption of the 80s"
+    },
+    {
+      "item_id": "item-9184e902",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Zoologist and author Desmond Morris dies aged 98"
+    },
+    {
+      "item_id": "item-2fb649c0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - MartinGalway/C64_music: Music source files from 1980&#39;s Commodore 64 games"
+    },
+    {
+      "item_id": "item-c4ca4238",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "1"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-26/blog.md",
+    "show_notes_path": "out/2026-04-26/show_notes.md",
+    "script_path": "out/2026-04-26/script_2hosts.md",
+    "audio_path": "out/2026-04-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19147,
+        "output_tokens": 7031,
+        "cost_usd": 0.054302
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37670,
+        "output_tokens": 7246,
+        "cost_usd": 0.2217
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4188,
+        "cost_usd": 0.050255999999999995
+      }
+    ],
+    "total_cost_usd": 0.326258
+  }
+}

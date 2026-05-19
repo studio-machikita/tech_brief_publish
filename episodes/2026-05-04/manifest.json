@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-04",
+  "episode_date_local": "2026-05-04",
+  "content_snapshot_date": "2026-05-04",
+  "show_length_sec": 788,
+  "audio_size": 75697004,
+  "generated_at": "2026-05-03T21:03:32.331149+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1bf69ee3",
+      "title": "GitHub - earthtojake/text-to-cad: An open source harness for generating CAD models",
+      "fingerprint": "1bf69ee3ed9f0fec4dd0cf79a1bb3ad8",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c05582ff",
+      "title": "AI outperforms doctors in Harvard trial of emergency triage diagnoses",
+      "fingerprint": "c05582ffe84008e04a1f3779bfecf52a",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-6b86d15a",
+      "title": "Chromium Drift",
+      "fingerprint": "6b86d15aba031465de5aab66e2ca5e9a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-78b087e5",
+      "title": "Why TUIs are back  by Alcides Fonseca",
+      "fingerprint": "78b087e5a8d5b7de99592c09febb814b",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b17d77d0",
+      "title": "I recreated the Apple Lisa computer inside an FPGA [video]",
+      "fingerprint": "b17d77d03622496ce9b6ac6cc2337fea",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-77cfb3cd",
+      "title": "GitHub - bschoepke/ableton-live-mcp: General-purpose MCP bridge for Ableton Live",
+      "fingerprint": "77cfb3cd2a64d4e3dd5e5eb96c794d76",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b0ad2846",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US–Indian space mission maps extreme subsidence in Mexico City"
+    },
+    {
+      "item_id": "item-ad89852c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Citizen Lab Bad Connection: Uncovering Global Telecom Exploitation by Covert Surveillance Actors"
+    },
+    {
+      "item_id": "item-024846f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security Through Obscurity Is NOT Bad"
+    },
+    {
+      "item_id": "item-2ccbaa66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A desktop made for one"
+    },
+    {
+      "item_id": "item-a9272ebc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "nullagent (@nullagent@partyon.xyz)"
+    },
+    {
+      "item_id": "item-2a5f9d51",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Make Your Own Microforest"
+    },
+    {
+      "item_id": "item-b1a2c947",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mercedes-Benz join the list of manufacturers admitting that touch-sensitive controls were a mistake"
+    },
+    {
+      "item_id": "item-5497f7b6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Southwest Headquarters Tour"
+    },
+    {
+      "item_id": "item-eb119c37",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Attributed to Banksy, a New Statue of a Suited Man, Blinded by a Flag and Walking Off a Ledge, Appeared in Central London"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-04/blog.md",
+    "show_notes_path": "out/2026-05-04/show_notes.md",
+    "script_path": "out/2026-05-04/script_2hosts.md",
+    "audio_path": "out/2026-05-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18485,
+        "output_tokens": 7086,
+        "cost_usd": 0.053915
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37817,
+        "output_tokens": 7478,
+        "cost_usd": 0.225621
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4373,
+        "cost_usd": 0.052476
+      }
+    ],
+    "total_cost_usd": 0.332012
+  }
+}
