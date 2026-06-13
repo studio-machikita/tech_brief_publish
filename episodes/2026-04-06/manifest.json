@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-06",
+  "episode_date_local": "2026-04-06",
+  "content_snapshot_date": "2026-04-06",
+  "show_length_sec": 707,
+  "audio_size": 67902764,
+  "generated_at": "2026-04-05T21:11:24.474934+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-e61781a6",
+      "title": "Eight years of wanting, three months of building with AI",
+      "fingerprint": "e61781a6bb76e6eef8f9d0f695637c46",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f56eed4a",
+      "title": "Running Google Gemma 4 Locally With LM Studio’s New Headless CLI &amp; Claude Code",
+      "fingerprint": "f56eed4a54236c1ee608de3d3f0d2ffb",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-28d01b1b",
+      "title": "Lisette — Rust syntax, Go runtime",
+      "fingerprint": "28d01b1bf6dd45e171e993f715b6e79a",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-00718ee0",
+      "title": "Google AI Edge Gallery-app - App Store",
+      "fingerprint": "00718ee02857e12a761095ec199987e5",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b2a4746d",
+      "title": "Baby’s Second Garbage Collector",
+      "fingerprint": "b2a4746d4b8834507c5eb00483e288ae",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-76fcd437",
+      "title": "A tail-call interpreter in (nightly) Rust",
+      "fingerprint": "76fcd43708cb00fb420bece63963dcb6",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-56e54daa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing nanocode: The best Claude Code that $200 can buy. · salmanmohammadi/nanocode · Discussion #1"
+    },
+    {
+      "item_id": "item-10388d29",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - JuliusBrussee/caveman: 🪨 why use many token when few token do trick — Claude Code skill that cuts 75% of tokens by talking like caveman"
+    },
+    {
+      "item_id": "item-6b9e2a63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Computational Physics &ndash; Online resources"
+    },
+    {
+      "item_id": "item-40e0dd1e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Let&#039;s put an end to the speculation - TDF Community Blog"
+    },
+    {
+      "item_id": "item-7bea7633",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Friendica – A Decentralized Social Network"
+    },
+    {
+      "item_id": "item-a04c7097",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - love2d/love: LÖVE is an awesome 2D game framework for Lua."
+    },
+    {
+      "item_id": "item-e09961e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nancy Kanwisher life story"
+    },
+    {
+      "item_id": "item-5e8f936f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Contrapunk"
+    },
+    {
+      "item_id": "item-1c7cef1e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&#x27;Absolutely spectacular&#x27;: Artemis II crew see first glimpse of far side of Moon"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-06/blog.md",
+    "show_notes_path": "out/2026-04-06/show_notes.md",
+    "script_path": "out/2026-04-06/script_2hosts.md",
+    "audio_path": "out/2026-04-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18512,
+        "output_tokens": 6945,
+        "cost_usd": 0.053237
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37476,
+        "output_tokens": 6858,
+        "cost_usd": 0.215298
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3932,
+        "cost_usd": 0.047184
+      }
+    ],
+    "total_cost_usd": 0.315719
+  }
+}

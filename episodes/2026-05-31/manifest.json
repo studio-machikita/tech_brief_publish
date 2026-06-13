@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-31",
+  "episode_date_local": "2026-05-31",
+  "content_snapshot_date": "2026-05-31",
+  "show_length_sec": 845,
+  "audio_size": 81190124,
+  "generated_at": "2026-05-30T21:17:04.257184+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2645affc",
+      "title": "Devlog\n      ⚡\n      Zig Programming Language",
+      "fingerprint": "2645affc7eaeb2f82e925fff05f34b20",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9516ce2d",
+      "title": "OpenRouter Raises $113M Series B | OpenRouter",
+      "fingerprint": "9516ce2d7c1a765e6f23a271bd48585c",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-2d6302b4",
+      "title": "Accenture to Acquire Ookla to Strengthen Network Intelligence and Experience with Data and AI For Enterprises",
+      "fingerprint": "2d6302b41ccc815f8b606b17dbccd1c5",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d12a2048",
+      "title": "Microcode inside the Intel 8087 floating-point chip: register exchange",
+      "fingerprint": "d12a2048e5dbbe117e345375aad04d90",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-44f62fd8",
+      "title": "Domain Expertise Has Always Been the Real Moat",
+      "fingerprint": "44f62fd83483bfca540952a06325e661",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-dc0d4c64",
+      "title": "pandoc",
+      "fingerprint": "dc0d4c64e263e031acac0a967bb4b81e",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e0509e78",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - arunkatherashala/Kore"
+    },
+    {
+      "item_id": "item-cf51cd4e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Voxel Space"
+    },
+    {
+      "item_id": "item-6e83c21d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - kristapsdz/openrsync: BSD-licensed implementation of rsync"
+    },
+    {
+      "item_id": "item-12e88104",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Parallel Reconstruction of Lawful TLS Wiretapping"
+    },
+    {
+      "item_id": "item-222ef891",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "omen.ops"
+    },
+    {
+      "item_id": "item-64b39192",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jef Raskin, the Visionary Behind the Mac - Low End Mac"
+    },
+    {
+      "item_id": "item-f04b4289",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hormuz crisis side effect: a sharp rise in container shipping rates"
+    },
+    {
+      "item_id": "item-be6e32d4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dusklight • Restoring light to a classic adventure"
+    },
+    {
+      "item_id": "item-d712c1b1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - Hawzen/I-found-a-seashell-in-the-middle-of-the-desert"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-31/blog.md",
+    "show_notes_path": "out/2026-05-31/show_notes.md",
+    "script_path": "out/2026-05-31/script_2hosts.md",
+    "audio_path": "out/2026-05-31/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-31/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-31/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19042,
+        "output_tokens": 7575,
+        "cost_usd": 0.056917
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37801,
+        "output_tokens": 7713,
+        "cost_usd": 0.229098
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4624,
+        "cost_usd": 0.055487999999999996
+      }
+    ],
+    "total_cost_usd": 0.341503
+  }
+}

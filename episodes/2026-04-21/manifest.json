@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-21",
+  "episode_date_local": "2026-04-21",
+  "content_snapshot_date": "2026-04-21",
+  "show_length_sec": 766,
+  "audio_size": 73564844,
+  "generated_at": "2026-04-20T22:38:00.169614+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2efcf2fa",
+      "title": "kefir: Independent C17/C23 compiler",
+      "fingerprint": "2efcf2faa70b83f4ff943892bfa06a87",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cbaae6f7",
+      "title": "Quantum Computers Are Not a Threat to 128",
+      "fingerprint": "cbaae6f7c1c502d12351c1561a7104e8",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-53dcb907",
+      "title": "GitHub - gizmo64k/soulplayer-c64: A real 25k-parameter transformer running on a Commodore 64!",
+      "fingerprint": "53dcb907337d0602253a4632056cbab7",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f9d4321a",
+      "title": "ggsql: A grammar of graphics for SQL",
+      "fingerprint": "f9d4321a74732290e353fd5382c3a5fb",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7abdd05c",
+      "title": "GitHub - Luce-Org/lucebox-hub: Lucebox optimization hub: hand-tuned LLM inference, built for specific consumer hardware.",
+      "fingerprint": "7abdd05cf300bbab2cac8e9498c5476c",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-26712daa",
+      "title": "Jujutsu megamerges for fun and profit",
+      "fingerprint": "26712daa087b6533db5d2a3b783c549f",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-966f07d8",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Qwen Studio」とスニペット「Qwen」のみでは、正当な技術ブログ記事か宣伝記事かの判定が困難です。Qwen（阿里巴巴のAIモデル）の公式ブログであることは確認できますが、具体的な記事内容がないため、実際の分類を判定できません。",
+      "title": "Qwen Studio"
+    },
+    {
+      "item_id": "item-b770d5d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inside GitHub"
+    },
+    {
+      "item_id": "item-33c1890f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kimi Vendor Verifier"
+    },
+    {
+      "item_id": "item-016380a8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated | TechCrunch"
+    },
+    {
+      "item_id": "item-f822b3c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "EXCLUSIVE: Leaked Deck Reveals StackAdapt’s Playbook for ChatGPT Ads"
+    },
+    {
+      "item_id": "item-1175cabf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Resistance: some recent anti-AI stuff that’s worth discussing"
+    },
+    {
+      "item_id": "item-26696da1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "All phones sold in the EU to have replaceable batteries from 2027"
+    },
+    {
+      "item_id": "item-7a5e6645",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tim Cook to become Apple Executive Chairman John Ternus to become Apple CEO"
+    },
+    {
+      "item_id": "item-6d9828d0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The F-35 Is a Masterpiece Built for the Wrong War"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-21/blog.md",
+    "show_notes_path": "out/2026-04-21/show_notes.md",
+    "script_path": "out/2026-04-21/script_2hosts.md",
+    "audio_path": "out/2026-04-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19275,
+        "output_tokens": 7479,
+        "cost_usd": 0.05667
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37944,
+        "output_tokens": 7352,
+        "cost_usd": 0.224112
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4225,
+        "cost_usd": 0.050699999999999995
+      }
+    ],
+    "total_cost_usd": 0.331482
+  }
+}

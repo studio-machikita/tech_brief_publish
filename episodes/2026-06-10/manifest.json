@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-10",
+  "episode_date_local": "2026-06-10",
+  "content_snapshot_date": "2026-06-10",
+  "show_length_sec": 804,
+  "audio_size": 77236844,
+  "generated_at": "2026-06-09T22:02:33.080601+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b44b117e",
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "fingerprint": "b44b117e7d93ab721c538509b065119c",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-72d1de39",
+      "title": "Flat Datacenter Networks at Scale &#8211; Perspectives",
+      "fingerprint": "72d1de3988e831c393f361e5e40c5752",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ee5280ef",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "fingerprint": "ee5280ef132a7a65ac2fb6e864dd7cab",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-a04c4e19",
+      "title": "OpenCV 5 Is Here: The Biggest Leap in Years for Computer Vision",
+      "fingerprint": "a04c4e19cefd0ea2fb0bf5bcf808b142",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f2fd9652",
+      "title": "Upcoming breaking changes for npm v12 - GitHub Changelog",
+      "fingerprint": "f2fd9652f4b1113ae2979c656cca2ff3",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-da7bbc80",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "fingerprint": "da7bbc8031643ef7bd53dbab9f518f69",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-93b35951",
+      "reason": "LINK_ONLY: Source intent uncertain: プロダクト名「Claude Fable 5」と「Claude Mythos 5」は実在しないモデル名であり、Anthropicの実際のモデル命名規則（Claude 3など）と異なる。ただしURLドメインは正当で、スニペットは通常のプレスリリース文体であるため、完全な風刺とは判定しがたい。",
+      "title": "Claude Fable 5 and Claude Mythos 5"
+    },
+    {
+      "item_id": "item-48dfd976",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alpine 3.24.0 released"
+    },
+    {
+      "item_id": "item-e4ee98a0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Catlantean 3D - Making Graphics Like It"
+    },
+    {
+      "item_id": "item-adc0026d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The LD_DEBUG environment variable"
+    },
+    {
+      "item_id": "item-aec91abf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft&#039;s open source tools were hacked to steal passwords of AI developers | TechCrunch"
+    },
+    {
+      "item_id": "item-afc7fe01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Laurence Tratt: Test"
+    },
+    {
+      "item_id": "item-a5661756",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - signalblur/exifsmugglingpoc: A Proof-of-Concept using Cache Smuggling + Exif data to passively download a second stage payload"
+    },
+    {
+      "item_id": "item-7afc7ec7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs"
+    },
+    {
+      "item_id": "item-a5310d75",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A giant star may have destroyed itself in one of the rarest explosions"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-10/blog.md",
+    "show_notes_path": "out/2026-06-10/show_notes.md",
+    "script_path": "out/2026-06-10/script_2hosts.md",
+    "audio_path": "out/2026-06-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19303,
+        "output_tokens": 7564,
+        "cost_usd": 0.057123
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37298,
+        "output_tokens": 7432,
+        "cost_usd": 0.223374
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4407,
+        "cost_usd": 0.052884
+      }
+    ],
+    "total_cost_usd": 0.333381
+  }
+}

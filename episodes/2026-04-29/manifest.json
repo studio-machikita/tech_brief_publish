@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-29",
+  "episode_date_local": "2026-04-29",
+  "content_snapshot_date": "2026-04-29",
+  "show_length_sec": 799,
+  "audio_size": 76721324,
+  "generated_at": "2026-04-28T21:21:35.555601+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9ddffa87",
+      "title": "GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal.",
+      "fingerprint": "9ddffa874898c9074380608c7fd75222",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2792a742",
+      "title": "OpenAI available at FedRAMP Moderate",
+      "fingerprint": "2792a742e89bb3c60e9458aa5347c1cd",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-1a211644",
+      "title": "Keep Android Open",
+      "fingerprint": "1a211644bc8ab3bf1176934a54501455",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cdb05beb",
+      "title": "DOOM runs in ChatGPT and Claude / Blog",
+      "fingerprint": "cdb05bebe1e331337432ed0cfbde62f1",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a7de4558",
+      "title": "Ghostty Is Leaving GitHub",
+      "fingerprint": "a7de4558d078bb52f6fdd62bd336977f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-213e46a3",
+      "title": "CJIT",
+      "fingerprint": "213e46a3c0abbb844b640deb015216ae",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-a2b0fb07",
+      "reason": "LINK_ONLY: Source intent uncertain: Stratechery は信頼できるテック分析ブログですが、OpenAI CEO と AWS CEO の直接インタビューという形式は異例であり、2026年4月という未来日付の記事が現在提示されている点で検証不可能です。プロダクト内容自体は現実的ですが、真正性を確認できません。",
+      "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents &#8211; Stratechery by Ben Thompson"
+    },
+    {
+      "item_id": "item-ed06e2d7",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは「Waymo」(自動運転企業)を示唆していますが、スニペット内容は「Google Vertex AI」の生成AI機能に関する技術ドキュメントであり、内容の不一致が顕著です。URLはWaymoのブログを指していますが、提供されたコンテンツがそれと一致していない可能性があります。",
+      "title": "April 28, 2026 - From the road - Waymo"
+    },
+    {
+      "item_id": "item-b50e398c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I have officially retired from Emacs"
+    },
+    {
+      "item_id": "item-b0e0b51d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude.ai unavailable and elevated errors on the API"
+    },
+    {
+      "item_id": "item-f8349f3f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown | Wiz Blog"
+    },
+    {
+      "item_id": "item-2ccd16e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intel Arc Pro B70 Review"
+    },
+    {
+      "item_id": "item-9a280f29",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Phantom Patch"
+    },
+    {
+      "item_id": "item-5785b367",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How I Won a Championship That Doesn’t Exist"
+    },
+    {
+      "item_id": "item-b2c952dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "BP profits more than double as Iran war sends oil prices higher"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-29/blog.md",
+    "show_notes_path": "out/2026-04-29/show_notes.md",
+    "script_path": "out/2026-04-29/script_2hosts.md",
+    "audio_path": "out/2026-04-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 20807,
+        "output_tokens": 7709,
+        "cost_usd": 0.059352
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38534,
+        "output_tokens": 7506,
+        "cost_usd": 0.228192
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4483,
+        "cost_usd": 0.053796
+      }
+    ],
+    "total_cost_usd": 0.34134
+  }
+}

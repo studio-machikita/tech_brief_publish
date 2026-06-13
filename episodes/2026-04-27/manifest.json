@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-27",
+  "episode_date_local": "2026-04-27",
+  "content_snapshot_date": "2026-04-27",
+  "show_length_sec": 734,
+  "audio_size": 70531244,
+  "generated_at": "2026-04-26T20:57:25.454044+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9b57f376",
+      "title": "Welcome to the world of Statecharts",
+      "fingerprint": "9b57f376b95ea5d721b48f37d812423a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-49dedb5f",
+      "title": "Progress Report: Linux 7.0 - Asahi Linux",
+      "fingerprint": "49dedb5f07b1c4f7806ca811289b22fd",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5374600e",
+      "title": "Orinoco: young generation garbage collection · V8",
+      "fingerprint": "5374600eaf84c14bdaf94bf2809bf035",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-68607ffd",
+      "title": "SWE-bench Verified no longer measures frontier coding capabilities",
+      "fingerprint": "68607ffd68bd61daac463253180f1675",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3006b5a6",
+      "title": "Clay PCB Tutorial",
+      "fingerprint": "3006b5a68fb646be49c2cc4d6275195c",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e62edf9d",
+      "title": "If You Stop Hiring Juniors, Your Senior Engineers Own You",
+      "fingerprint": "e62edf9d30af4191a0c220ab982ca618",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-acd6d340",
+      "reason": "LINK_ONLY: Source classified as satirical: 「vibe-mathing」という造語と「vibe-maths」という非標準用語が記事全体で使用されており、これは数学的厳密性を欠いた風刺的表現です。また、AIが直感的な方法で60年来の難問を解くという非現実的な主張も風刺の特徴を示しています。",
+      "title": "Even experts are surprised by AI’s latest ‘vibe-mathing’ advance"
+    },
+    {
+      "item_id": "item-394a0b65",
+      "reason": "LINK_ONLY: Source classified as joke: タイトルは「AIエージェントが本番データベースを削除した。エージェントの告白は以下の通り」という劇的な主張ですが、スニペットはTwitterのJavaScript無効化エラーメッセージのみで、実際の記事内容が全く表示されていません。タイトルの過度に劇的な内容と、実際には読めないコンテンツという矛盾から、ジョークまたはネタ記事の可能性が高いです。",
+      "title": "An AI agent deleted our production database. The agent's confession is below"
+    },
+    {
+      "item_id": "item-3269ce45",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GoDaddy Gave a Domain to a Stranger Without Any Documentation"
+    },
+    {
+      "item_id": "item-268e1c8b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fast16: The Cyberweapon That Predates Stuxnet by Five Years"
+    },
+    {
+      "item_id": "item-18a0e29b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Visible Zorker: Zork 1"
+    },
+    {
+      "item_id": "item-efb865ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dillo release 3.3.0"
+    },
+    {
+      "item_id": "item-31eb3d17",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Plants can sense the sound of rain, a new study finds"
+    },
+    {
+      "item_id": "item-84ebb48b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Free Thermodynamics Textbook by Olivier Cleynen"
+    },
+    {
+      "item_id": "item-b70fae63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Magic: The Gathering took me from N2 to Japanese fluency"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-27/blog.md",
+    "show_notes_path": "out/2026-04-27/show_notes.md",
+    "script_path": "out/2026-04-27/script_2hosts.md",
+    "audio_path": "out/2026-04-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 19398,
+        "output_tokens": 7134,
+        "cost_usd": 0.055068
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37067,
+        "output_tokens": 6625,
+        "cost_usd": 0.210576
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4010,
+        "cost_usd": 0.048119999999999996
+      }
+    ],
+    "total_cost_usd": 0.313764
+  }
+}

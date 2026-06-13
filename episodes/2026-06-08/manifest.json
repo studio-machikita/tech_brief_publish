@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-08",
+  "episode_date_local": "2026-06-08",
+  "content_snapshot_date": "2026-06-08",
+  "show_length_sec": 801,
+  "audio_size": 76914284,
+  "generated_at": "2026-06-07T21:28:45.597459+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6ee3e673",
+      "title": "How&#39;s Linear so fast? A technical breakdown",
+      "fingerprint": "6ee3e6730005977854457743b1298146",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a8dd2a69",
+      "title": "Do we fear the serializable isolation level more than we fear subtle bugs?",
+      "fingerprint": "a8dd2a693573f9e562ae1f524536af2a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-141a2bca",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "fingerprint": "141a2bca2c9c317f76d0a9f873238855",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-bbc86922",
+      "title": "My Automated Doubt Development Process",
+      "fingerprint": "bbc869222729473d457b3e75ed7df29f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-863244c4",
+      "title": "Leiden Declaration on Artificial Intelligence and Mathematics",
+      "fingerprint": "863244c47259c87828f50e40fdccd089",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-702759d3",
+      "title": "The architecture of the internet creates risks for democracy",
+      "fingerprint": "702759d38fdd9af13d57defb148ad667",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7f10d3a6",
+      "reason": "LINK_ONLY: Source classified as satirical: タイトルが「LLMが人間的属性を持つなら、Age of Empires IIも持つ」という明らかに皮肉的・風刺的な主張をしており、LLMの擬人化議論を批判するメタ的なジョークと考えられます。arXivの論文形式を装いながらも、このタイトルの論理的矛盾と皮肉性から、学術的な真摯な主張ではなく風刺的な論評である可能性が高い。",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II"
+    },
+    {
+      "item_id": "item-0c89742f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Flock license plate reader linked a San Diego man to a violent crime. He was five miles away."
+    },
+    {
+      "item_id": "item-ad21b08d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Powering up a module from the IBM 604: an electronic calculator from 1948"
+    },
+    {
+      "item_id": "item-25c0c4bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What is the purpose of the lost&#x2B;found folder in Linux and Unix?"
+    },
+    {
+      "item_id": "item-21ef257f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - yukiyokotani/office-open-xml-viewer"
+    },
+    {
+      "item_id": "item-ddae38f8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cloning a Sennheiser BA2015 battery pack"
+    },
+    {
+      "item_id": "item-0cc4b0e8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building from Zero After Addiction, Prison, and a Felony"
+    },
+    {
+      "item_id": "item-20d14776",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Making Peace With Your Unlived Dreams | nik.art"
+    },
+    {
+      "item_id": "item-312351bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2025"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-08/blog.md",
+    "show_notes_path": "out/2026-06-08/show_notes.md",
+    "script_path": "out/2026-06-08/script_2hosts.md",
+    "audio_path": "out/2026-06-08/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-08/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-08/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19180,
+        "output_tokens": 7407,
+        "cost_usd": 0.056215
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 36888,
+        "output_tokens": 7185,
+        "cost_usd": 0.218439
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4366,
+        "cost_usd": 0.052392
+      }
+    ],
+    "total_cost_usd": 0.327046
+  }
+}

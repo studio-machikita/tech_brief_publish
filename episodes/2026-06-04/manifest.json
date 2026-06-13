@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-04",
+  "episode_date_local": "2026-06-04",
+  "content_snapshot_date": "2026-06-04",
+  "show_length_sec": 811,
+  "audio_size": 77912684,
+  "generated_at": "2026-06-03T22:39:19.892697+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-77c5ebce",
+      "title": "Elixir v1.20 released: now a gradually typed language",
+      "fingerprint": "77c5ebce6f52f4d713e2ee61cfd17d6e",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d6890776",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "fingerprint": "d6890776b3b4af45edbe0731e6ddefa1",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7a5788fc",
+      "title": "GitHub - zaydmulani09/mnemo: Local-first AI memory layer for any LLM. Persistent knowledge graph, entity extraction, semantic retrieval. Works with Ollama, OpenAI, Anthropic, or any OpenAI-compatible backend.",
+      "fingerprint": "7a5788fcab91d85597dbe29a63171a3e",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-0dc1ac0a",
+      "title": "ESP32-S31 Dual-Core RISC-V + Multi-Protocol SoC",
+      "fingerprint": "0dc1ac0adb5b0a93296ecd20afae7d8e",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ff4e9d7d",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "fingerprint": "ff4e9d7d3188e595e484242f68d33fb6",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-a1f70409",
+      "title": "GitHub - duanebester/gooey: Gooey is a hybrid immediate/retained mode UI framework designed for building fast, GPU-rendered applications on macOS/Metal, WebAssembly/WebGPU, and Wayland/Vulkan",
+      "fingerprint": "a1f70409a97bbf26039b168939390068",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-47adc76e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it"
+    },
+    {
+      "item_id": "item-ffedaf68",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs"
+    },
+    {
+      "item_id": "item-09430792",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Post-Quantum Future for Let&#39;s Encrypt"
+    },
+    {
+      "item_id": "item-2c3c1ae6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Extensions SDK"
+    },
+    {
+      "item_id": "item-374493d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - tastyeffectco/sandboxes: Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding ag"
+    },
+    {
+      "item_id": "item-ac16d35f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "DaVinci Resolve – What’s New"
+    },
+    {
+      "item_id": "item-3aebf84c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Brume — desktop multi-timbral instrument"
+    },
+    {
+      "item_id": "item-064d7ad5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Encephalitis"
+    },
+    {
+      "item_id": "item-bbf0af0c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Man Who Reads Books For a Living (One Every Two Days)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-04/blog.md",
+    "show_notes_path": "out/2026-06-04/show_notes.md",
+    "script_path": "out/2026-06-04/script_2hosts.md",
+    "audio_path": "out/2026-06-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19029,
+        "output_tokens": 7616,
+        "cost_usd": 0.057109
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38466,
+        "output_tokens": 7841,
+        "cost_usd": 0.233013
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4416,
+        "cost_usd": 0.052992
+      }
+    ],
+    "total_cost_usd": 0.343114
+  }
+}

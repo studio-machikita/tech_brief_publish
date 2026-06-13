@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-24",
+  "episode_date_local": "2026-05-24",
+  "content_snapshot_date": "2026-05-24",
+  "show_length_sec": 758,
+  "audio_size": 72804524,
+  "generated_at": "2026-05-23T21:09:18.653607+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d2c7d774",
+      "title": "z386: An Open-Source 80386 Built Around Original Microcode",
+      "fingerprint": "d2c7d77447993ddfbfdfe9d9086a2151",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-45215ffb",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "fingerprint": "45215ffb77e983826de81e5ebddb046d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-8efb489d",
+      "title": ".NET (OK, C#) finally gets union types🎉: Exploring the .NET 11 preview - Part 2",
+      "fingerprint": "8efb489df305df09138e7a9585913688",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c17d3d81",
+      "title": "Making Deep Learning go Brrrr From First Principles",
+      "fingerprint": "c17d3d816aef987a1d34273f4f456dd6",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5bb6c4b1",
+      "title": "PHP&#39;s Oddities",
+      "fingerprint": "5bb6c4b1f90d4402418d0547e04701dc",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e45673f9",
+      "title": "SpaceX just launched Starship V3 &mdash; its most powerful megarocket yet &mdash; into space for the 1st time in spectacular Flight 12 test (video)",
+      "fingerprint": "e45673f97cfb54c6e5c54bdceb8e1527",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-9a21f739",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980"
+    },
+    {
+      "item_id": "item-336e3a83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hengefinder: Finding When the Sun Aligns With Your Street"
+    },
+    {
+      "item_id": "item-591ad707",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "It&#x27;s time to talk about my writerdeck"
+    },
+    {
+      "item_id": "item-5e66595e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pardon MIE?"
+    },
+    {
+      "item_id": "item-2154098a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "On the ‹dl›"
+    },
+    {
+      "item_id": "item-5f6fbf1f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Texas woman arrested for Facebook post about town water quality"
+    },
+    {
+      "item_id": "item-2b22f0ba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Book Freak #210: The Art of Money Getting &#8211; Cool Tools"
+    },
+    {
+      "item_id": "item-e9400fe7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Green card seekers must leave U.S. to apply, Trump administration says"
+    },
+    {
+      "item_id": "item-3f0c2f96",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "My two-part desk setup"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-24/blog.md",
+    "show_notes_path": "out/2026-05-24/show_notes.md",
+    "script_path": "out/2026-05-24/script_2hosts.md",
+    "audio_path": "out/2026-05-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-24/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-24/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18819,
+        "output_tokens": 7053,
+        "cost_usd": 0.054084
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37535,
+        "output_tokens": 7214,
+        "cost_usd": 0.220815
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4263,
+        "cost_usd": 0.05115600000000001
+      }
+    ],
+    "total_cost_usd": 0.326055
+  }
+}

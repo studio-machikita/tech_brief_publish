@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-09",
+  "episode_date_local": "2026-05-09",
+  "content_snapshot_date": "2026-05-09",
+  "show_length_sec": 854,
+  "audio_size": 81989804,
+  "generated_at": "2026-05-08T21:19:18.181651+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-95f2bea9",
+      "title": "Running Codex safely at OpenAI",
+      "fingerprint": "95f2bea910213bd3a67ad71f16d1ddc2",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-7a9ef3d4",
+      "title": "Introduction | Meshtastic",
+      "fingerprint": "7a9ef3d4c23f53a3aa1f858c61ae4dba",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f2db05c0",
+      "title": "Google Cloud Fraud Defence is just WEI repackaged",
+      "fingerprint": "f2db05c01f40f8660137744252f2e72a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-040075a2",
+      "title": "Serving a Website on a Raspberry Pi Zero Running Entirely in RAM",
+      "fingerprint": "040075a2a79ca41d726e76bf79748c24",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4d261b8a",
+      "title": "AI is Breaking Two Vulnerability Cultures",
+      "fingerprint": "4d261b8ad3de890209ff63a4e52cce10",
+      "score": 33,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-69c72321",
+      "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE) · ze3ter",
+      "fingerprint": "69c723215360e4b418fd8903e9f4860d",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-706a741d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google Broke reCAPTCHA for De-Googled Android Users"
+    },
+    {
+      "item_id": "item-50bd4e02",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "My first corrupted hard drive problem"
+    },
+    {
+      "item_id": "item-a01dbe4a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "PC Engine CPU"
+    },
+    {
+      "item_id": "item-bb00c1f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Discord Status"
+    },
+    {
+      "item_id": "item-2c9a2210",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Roadside Attraction"
+    },
+    {
+      "item_id": "item-112d82e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cartoon Network Flash Games"
+    },
+    {
+      "item_id": "item-cf0d18cb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Man Finds $1 Million Worth of Yu-Gi-Oh Cards in a Dumpster"
+    },
+    {
+      "item_id": "item-0f4bc1ba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "David Attenborough: King and Queen lead tributes for 100th birthday"
+    },
+    {
+      "item_id": "item-0ed46bc3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "taken."
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-09/blog.md",
+    "show_notes_path": "out/2026-05-09/show_notes.md",
+    "script_path": "out/2026-05-09/script_2hosts.md",
+    "audio_path": "out/2026-05-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18795,
+        "output_tokens": 7566,
+        "cost_usd": 0.056625
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37595,
+        "output_tokens": 7974,
+        "cost_usd": 0.232395
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4686,
+        "cost_usd": 0.056232000000000004
+      }
+    ],
+    "total_cost_usd": 0.345252
+  }
+}

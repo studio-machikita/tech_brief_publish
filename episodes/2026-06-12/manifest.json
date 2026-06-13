@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-12",
+  "episode_date_local": "2026-06-12",
+  "content_snapshot_date": "2026-06-12",
+  "show_length_sec": 796,
+  "audio_size": 76495724,
+  "generated_at": "2026-06-11T22:14:22.896131+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5d7cbd29",
+      "title": "The RCE that AMD wouldn’t fix!",
+      "fingerprint": "5d7cbd29475697d8a6ff0f2e1c8f46bd",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b59d0d6c",
+      "title": "Shall we play a game?",
+      "fingerprint": "b59d0d6c379d0bda829882b0f717b6a7",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f6fb4a81",
+      "title": "Software Is Made Between Commits - Zed Blog",
+      "fingerprint": "f6fb4a81de45dd3715edde921e5c144c",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e2ce2831",
+      "title": "GitHub - coder/boo: A GNU screen style terminal multiplexer built on libghostty.",
+      "fingerprint": "e2ce2831dd383b87ce50e2599f4753aa",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-31837c08",
+      "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
+      "fingerprint": "31837c08095897b568a2baff9cc67e8d",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-60861a8d",
+      "title": "macOS 27 Beta Breaks The Ability To Boot Asahi Linux",
+      "fingerprint": "60861a8d920faeddb284da35e4a3fe99",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-90542500",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事タイトルは「MiMo Code is now released」だが、スニペット内容は「NousCoder-14B」についての詳細な技術記事であり、タイトルと本文の内容が一致していない。URLはXiaomiのドメインを指しているが、記事内容はNous Researchについてのもので、矛盾が生じている。",
+      "title": "MiMo Code is now released and open-source"
+    },
+    {
+      "item_id": "item-52f9ccd5",
+      "reason": "LINK_ONLY: Source intent uncertain: Pokémon Goのスキャン機能が軍事ドローンの航法技術に利用されたという主張は、技術的には可能性がある一方で、実際の軍事応用の詳細が不明であり、また「Vantor」という企業名が確認できないため、事実と風刺の境界が曖昧である。",
+      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones"
+    },
+    {
+      "item_id": "item-e3049bc7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Petition to Withdraw Canada's Bill C-22"
+    },
+    {
+      "item_id": "item-0e5604f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "6.0.0"
+    },
+    {
+      "item_id": "item-79bd2b6b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Discover"
+    },
+    {
+      "item_id": "item-d8083fa6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Travel Locally, Where You Are"
+    },
+    {
+      "item_id": "item-cad7c3d7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Waymo Premier, an elevated rider experience"
+    },
+    {
+      "item_id": "item-aff4db8f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Emacs Appearances in Pop Culture"
+    },
+    {
+      "item_id": "item-6fb39caa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ear Training"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-12/blog.md",
+    "show_notes_path": "out/2026-06-12/show_notes.md",
+    "script_path": "out/2026-06-12/script_2hosts.md",
+    "audio_path": "out/2026-06-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 27220,
+        "output_tokens": 7392,
+        "cost_usd": 0.06418
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37807,
+        "output_tokens": 7567,
+        "cost_usd": 0.226926
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4373,
+        "cost_usd": 0.052476
+      }
+    ],
+    "total_cost_usd": 0.343582
+  }
+}

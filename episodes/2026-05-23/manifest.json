@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-23",
+  "episode_date_local": "2026-05-23",
+  "content_snapshot_date": "2026-05-23",
+  "show_length_sec": 765,
+  "audio_size": 73444844,
+  "generated_at": "2026-05-22T21:26:01.637167+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-622383ff",
+      "title": "KanBots — a kanban that runs parallel agents",
+      "fingerprint": "622383ff3546074d32773ffacd08e934",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a500fc1c",
+      "title": "Deno 2.8 | Deno",
+      "fingerprint": "a500fc1cb10c47f8cbf58f0031787148",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ac5a0500",
+      "title": "Wi-Wi Is Wireless Time Sync at 1 nanosecond",
+      "fingerprint": "ac5a05001ccdb8f491c34ff897131563",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f4d4ff13",
+      "title": "GitHub - superset-sh/superset: Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
+      "fingerprint": "f4d4ff13b4659d28dadad2746608335e",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bf33399f",
+      "title": "GitHub - anomalyco/models.dev: An open-source database of AI models.",
+      "fingerprint": "bf33399ff0f99762c661c1fec7fd134f",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-7bbc50d8",
+      "title": "Project Glasswing: An Initial Update",
+      "fingerprint": "7bbc50d8520ccac38803869d873addb4",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-5c93218f",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術ベンチマークの正当な内容に見えるが、「Google Antigravity」という存在しない製品名が含まれており、これは風刺またはジョークの可能性を示唆している。ただし、ModelRiftは実在するCADツールであり、他の製品名は実在するため、完全な判定が困難である。",
+      "title": "OpenSCAD LLM Benchmark: Building the Pantheon | ModelRift Blog"
+    },
+    {
+      "item_id": "item-97e95790",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Forth"
+    },
+    {
+      "item_id": "item-420b4139",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ngn-k-tutorial/12-thinking-in-k.md at main · razetime/ngn-k-tutorial"
+    },
+    {
+      "item_id": "item-dcaeb60e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "U.S. researchers face new restrictions on publishing with foreign collaborators"
+    },
+    {
+      "item_id": "item-ac2a94be",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak"
+    },
+    {
+      "item_id": "item-8b936bf7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "[Announcement] Bun support is now limited and deprecated · Issue #16766 · yt-dlp/yt-dlp"
+    },
+    {
+      "item_id": "item-420d66fd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Japanese companies do so many different things"
+    },
+    {
+      "item_id": "item-3fa9fd0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Robert X Cringely is back to blogging"
+    },
+    {
+      "item_id": "item-7299a097",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Liquidation of simulators &mdash; 1940 Air Terminal Museum and Special Event Venue"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-23/blog.md",
+    "show_notes_path": "out/2026-05-23/show_notes.md",
+    "script_path": "out/2026-05-23/script_2hosts.md",
+    "audio_path": "out/2026-05-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19580,
+        "output_tokens": 7351,
+        "cost_usd": 0.056335
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37758,
+        "output_tokens": 7342,
+        "cost_usd": 0.223404
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4310,
+        "cost_usd": 0.051719999999999995
+      }
+    ],
+    "total_cost_usd": 0.331459
+  }
+}

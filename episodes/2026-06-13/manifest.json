@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-13",
+  "episode_date_local": "2026-06-13",
+  "content_snapshot_date": "2026-06-13",
+  "show_length_sec": 753,
+  "audio_size": 72364844,
+  "generated_at": "2026-06-12T22:04:47.830395+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-54763a34",
+      "title": "Can I Buy Your KV Cache?",
+      "fingerprint": "54763a34950dd5f7d72267f8351bebe7",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0c9fe24b",
+      "title": "How to Setup a Local Coding Agent on macOS",
+      "fingerprint": "0c9fe24bb3ea4cd744cf9a5c9e84e8e8",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-34f8392f",
+      "title": "Slightly reducing the sloppiness of AI generated frontend",
+      "fingerprint": "34f8392f59a6a75f4223230970f9e2b8",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-650c5971",
+      "title": "BitBoard — dashboards built with your favorite AI tools",
+      "fingerprint": "650c5971553e71f342020080f239d284",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9446895f",
+      "title": "Swift at Apple: Migrating the TrueType Hinting Interpreter",
+      "fingerprint": "9446895f63fc2a46f1d8dd5158c1eb79",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8b0bf7a8",
+      "title": "Introduction to UEFI HTTP(S) boot with Qemu/OVMF",
+      "fingerprint": "8b0bf7a8f9fa434576b732f5247a6f75",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-a433060f",
+      "reason": "LINK_ONLY: Source classified as joke: タイトル「World of Claudecraft」はBlizzardの「World of Warcraft」とAnthropicのAI「Claude」を組み合わせたパロディであり、スニペットはMMORPGのゲーム画面を模したジョークコンテンツです。実在するゲームではなく、AIをテーマにしたエイプリルフール的なネタ記事と判断されます。",
+      "title": "World of Claudecraft"
+    },
+    {
+      "item_id": "item-a699eb14",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "\"Don't You Just Upload It to ChatGPT?\""
+    },
+    {
+      "item_id": "item-b12ee879",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Am Not a Reverse Centaur"
+    },
+    {
+      "item_id": "item-2f9a1f73",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cosmodial Sky Atlas"
+    },
+    {
+      "item_id": "item-fc1b0cd3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New CRISPR Technique Selectively Shreds Cancer Cells, Including “Undruggable” Cancers"
+    },
+    {
+      "item_id": "item-027879eb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Palantir loses legal challenge against Swiss investigative magazine"
+    },
+    {
+      "item_id": "item-70d6e807",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "John Scott-Railton (@jsrailton) on X"
+    },
+    {
+      "item_id": "item-d5e35e7d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pirates: Naval Combat"
+    },
+    {
+      "item_id": "item-c07c1a74",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself. | Quanta Magazine"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-13/blog.md",
+    "show_notes_path": "out/2026-06-13/show_notes.md",
+    "script_path": "out/2026-06-13/script_2hosts.md",
+    "audio_path": "out/2026-06-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19363,
+        "output_tokens": 7055,
+        "cost_usd": 0.054638
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37415,
+        "output_tokens": 7276,
+        "cost_usd": 0.221385
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4189,
+        "cost_usd": 0.050268
+      }
+    ],
+    "total_cost_usd": 0.326291
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-05",
+  "episode_date_local": "2026-05-05",
+  "content_snapshot_date": "2026-05-05",
+  "show_length_sec": 755,
+  "audio_size": 72559724,
+  "generated_at": "2026-05-04T21:22:31.635603+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1b225512",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "fingerprint": "1b225512d3a20927677e6ac78901924b",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-d0a6bfc7",
+      "title": "I am worried about Bun",
+      "fingerprint": "d0a6bfc7f756e4fde83fcc987d3d2ada",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4e083b04",
+      "title": "Redis array type: short story of a long development",
+      "fingerprint": "4e083b04d4cece90e54729c5bcbc538d",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b279afc9",
+      "title": "Formatting an entire 25 million line codebase overnight: the rubyfmt story",
+      "fingerprint": "b279afc9e3b9ef3ee5dbd61c11d624bc",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-452fa2e5",
+      "title": "Let’s talk about LLMs",
+      "fingerprint": "452fa2e5f7b29f012ab598a88a52642d",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-69fac29a",
+      "title": "How Monero’s proof of work works",
+      "fingerprint": "69fac29a64904cf0ac44dd04128bee18",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-352ca8c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused"
+    },
+    {
+      "item_id": "item-62c90c5f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Securing a DoD Contractor: Finding a Multi-Tenant Authorization Vulnerability - Strix"
+    },
+    {
+      "item_id": "item-513557d4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US healthcare marketplaces shared citizenship and race data with ad tech giants | TechCrunch"
+    },
+    {
+      "item_id": "item-cc4cc891",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stop big tech from making users behave in ways they don't want to"
+    },
+    {
+      "item_id": "item-1b7ff6e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thienan Tran"
+    },
+    {
+      "item_id": "item-03eaa3e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GameStop makes $55.5bn takeover offer for eBay"
+    },
+    {
+      "item_id": "item-aefb4105",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks"
+    },
+    {
+      "item_id": "item-debb6b7e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UK Fuel Price Intelligence"
+    },
+    {
+      "item_id": "item-e9eabacd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pomiferous home"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-05/blog.md",
+    "show_notes_path": "out/2026-05-05/show_notes.md",
+    "script_path": "out/2026-05-05/script_2hosts.md",
+    "audio_path": "out/2026-05-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18609,
+        "output_tokens": 7074,
+        "cost_usd": 0.053979
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37232,
+        "output_tokens": 7034,
+        "cost_usd": 0.217206
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4142,
+        "cost_usd": 0.049704
+      }
+    ],
+    "total_cost_usd": 0.320889
+  }
+}
