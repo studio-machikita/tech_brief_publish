@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-03",
+  "episode_date_local": "2026-04-03",
+  "content_snapshot_date": "2026-04-03",
+  "show_length_sec": 768,
+  "audio_size": 73806764,
+  "generated_at": "2026-04-03T02:57:28.728190+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d1fc5ed2",
+      "title": "Gemma 4",
+      "fingerprint": "d1fc5ed220c268283006493c23c86219",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4a71bc3c",
+      "title": "Meet the new Cursor · Cursor",
+      "fingerprint": "4a71bc3caba0737b8d4a4c62ed54f0b2",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e3795ca0",
+      "title": "c89cc.sh - standalone C89/ELF64 compiler in pure portable shell",
+      "fingerprint": "e3795ca0fe9a5314c1501b8318ea3b8f",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d95ee988",
+      "title": "LinkedIn Is Illegally Searching Your Computer",
+      "fingerprint": "d95ee988eb9c7ebd8cef7167e0c76604",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-71da7405",
+      "title": "Post Mortem: axios npm supply chain compromise · Issue #10636 · axios/axios",
+      "fingerprint": "71da74057e1b4c0aa5c95a7fdb9e37e8",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ae5e24cb",
+      "title": "Telehealth giant Hims & Hers says its customer support system was hacked",
+      "fingerprint": "ae5e24cb2878573f797854c35ea63bfa",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-273652f4",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルとスニペットが同じ「Qwen」という単語のみで、具体的な記事内容が不明であるため判定困難。Qwenはアリババの言語モデルであり、公式ブログの可能性が高いが、提供情報が不十分。",
+      "title": "Qwen"
+    },
+    {
+      "item_id": "item-f314e39b",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは正当な技術批評を示唆していますが、「vaporized a trillion」という表現は誇張的であり、Substackの個人ブログという形式とスニペット欠落により、実際の内容が真摯な技術分析か風刺的批評かが判断困難です。",
+      "title": "Decisions that eroded trust in Azure – by a former Azure Core engineer"
+    },
+    {
+      "item_id": "item-f4d94fce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How notch traversal works on MacBooks"
+    },
+    {
+      "item_id": "item-abb7be31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "D-squared Digest -"
+    },
+    {
+      "item_id": "item-7573a2d5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Artemis II’s toilet is a moon mission milestone"
+    },
+    {
+      "item_id": "item-f80372ed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon hits sellers with ‘fuel surcharge’ as Iran war roils global energy markets"
+    },
+    {
+      "item_id": "item-9b8caad7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "George Goble has died"
+    },
+    {
+      "item_id": "item-5ab587cf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Joy of Numbered Streets"
+    },
+    {
+      "item_id": "item-9c97a25f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Few Good Magazines from the 70s and 80s"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-03/blog.md",
+    "show_notes_path": "out/2026-04-03/show_notes.md",
+    "script_path": "out/2026-04-03/script_2hosts.md",
+    "audio_path": "out/2026-04-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 19699,
+        "output_tokens": 7490,
+        "cost_usd": 0.057149
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37771,
+        "output_tokens": 7476,
+        "cost_usd": 0.225453
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4301,
+        "cost_usd": 0.051612000000000005
+      }
+    ],
+    "total_cost_usd": 0.334214
+  }
+}

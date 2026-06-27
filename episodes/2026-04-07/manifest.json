@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-07",
+  "episode_date_local": "2026-04-07",
+  "content_snapshot_date": "2026-04-07",
+  "show_length_sec": 831,
+  "audio_size": 79801004,
+  "generated_at": "2026-04-06T22:01:49.550753+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8c305ec5",
+      "title": "A Cryptography Engineer’s Perspective on Quantum Computing Timelines",
+      "fingerprint": "8c305ec53677176bf5f5965b6ee01303",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-80fda5f5",
+      "title": "OpenAI alums have been quietly investing from a new, potentially $100M fund",
+      "fingerprint": "80fda5f5effa68225db796ca09446925",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-42dc436d",
+      "title": "GitHub - matthartman/ghost-pepper: Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.",
+      "fingerprint": "42dc436d333414f8ac1ae504d1e6135b",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3b565b8a",
+      "title": "Freestyle - Manage AI-Generated Code",
+      "fingerprint": "3b565b8ab15e980d103d3245a3c35afc",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e9f24791",
+      "title": "The Cult Of Vibe Coding Is Insane",
+      "fingerprint": "e9f2479144935151036ff8e64d75531e",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-77b34b26",
+      "title": "GitHub - anzellai/sky: Sky — an Elm-inspired language that compiles to Go. Hindley-Milner types, server-driven UI (Sky.Live), single binary output.",
+      "fingerprint": "77b34b267165d00e129c71cb46fb024a",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-42d7dd9e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tusk — PostgreSQL Client"
+    },
+    {
+      "item_id": "item-efdd2752",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "[MODEL] Claude Code is unusable for complex engineering tasks with the Feb updates · Issue #42796 · anthropics/claude-code"
+    },
+    {
+      "item_id": "item-4e8e2c99",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agent Reading Test"
+    },
+    {
+      "item_id": "item-dba84423",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Germany Doxes &#8220;UNKN,&#8221; Head of RU Ransomware Gangs REvil, GandCrab"
+    },
+    {
+      "item_id": "item-58494dfe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Battle for Wesnoth"
+    },
+    {
+      "item_id": "item-263ac9fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "iitsocial"
+    },
+    {
+      "item_id": "item-fde48023",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Being Ripped Off for $35k Taught Me | Belief Horse"
+    },
+    {
+      "item_id": "item-7975aba4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Book Review: There Is No Antimemetics Division - Stephen Diehl"
+    },
+    {
+      "item_id": "item-830f658f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GovAuctions — Government Surplus Auctions, Deals &amp; More"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-07/blog.md",
+    "show_notes_path": "out/2026-04-07/show_notes.md",
+    "script_path": "out/2026-04-07/script_2hosts.md",
+    "audio_path": "out/2026-04-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19041,
+        "output_tokens": 7461,
+        "cost_usd": 0.056346
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38199,
+        "output_tokens": 7908,
+        "cost_usd": 0.233217
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4634,
+        "cost_usd": 0.055608000000000005
+      }
+    ],
+    "total_cost_usd": 0.345171
+  }
+}

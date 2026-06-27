@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-18",
+  "episode_date_local": "2026-06-18",
+  "content_snapshot_date": "2026-06-18",
+  "show_length_sec": 764,
+  "audio_size": 73375724,
+  "generated_at": "2026-06-17T22:15:37.554542+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6244a1b4",
+      "title": "The Return of Rigorous Full-System Timing Simulation",
+      "fingerprint": "6244a1b4465cb26ba6927f321479b30a",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1fcfee1e",
+      "title": "How We Made Cloud Browsers 3x Cheaper and Faster",
+      "fingerprint": "1fcfee1e0a9f37ec5206d2a5b154a76f",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-334732bf",
+      "title": "A Robot is Sprinting Towards You: Do You Want it Running on Claude or Grok?",
+      "fingerprint": "334732bf10ec326f2ae23b5f12c1ec86",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2d5dbbe6",
+      "title": "GitHub - Adam-CAD/CADAM: CADAM is the open source text-to-CAD web application",
+      "fingerprint": "2d5dbbe638c3ca90744415a9b110edb9",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d1950513",
+      "title": "GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index",
+      "fingerprint": "d1950513cb5793e4b84c76c09da4daea",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-820bdacc",
+      "title": "Learn about Lore: next-generation open source version control",
+      "fingerprint": "820bdacccd78644aa7ba786bfa13f356",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ca357816",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Intelligence may become mandatory in iOS and macOS 27"
+    },
+    {
+      "item_id": "item-c387593d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RFC 10008: The HTTP QUERY Method | RFC Editor"
+    },
+    {
+      "item_id": "item-b98eafa7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Leaked financial docs show OpenAI is losing billions of dollars a year"
+    },
+    {
+      "item_id": "item-3fa1964f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks"
+    },
+    {
+      "item_id": "item-cd0a11d8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Show HN: An 8-bit live gamecast for baseball"
+    },
+    {
+      "item_id": "item-7352374e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "America’s compact between science and politics is broken, and we’re all going to pay"
+    },
+    {
+      "item_id": "item-ff321123",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Storied Colors"
+    },
+    {
+      "item_id": "item-90a4d2b1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Can&#8217;t Walnut Creek Build 3 Bedroom Apartments with a Playground?"
+    },
+    {
+      "item_id": "item-0e6705f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Volkswagen App: Page 3"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-18/blog.md",
+    "show_notes_path": "out/2026-06-18/show_notes.md",
+    "script_path": "out/2026-06-18/script_2hosts.md",
+    "audio_path": "out/2026-06-18/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-18/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-18/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18589,
+        "output_tokens": 6901,
+        "cost_usd": 0.053094
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38135,
+        "output_tokens": 7456,
+        "cost_usd": 0.226245
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4227,
+        "cost_usd": 0.050724
+      }
+    ],
+    "total_cost_usd": 0.330063
+  }
+}

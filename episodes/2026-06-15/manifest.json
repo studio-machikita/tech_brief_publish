@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-15",
+  "episode_date_local": "2026-06-15",
+  "content_snapshot_date": "2026-06-15",
+  "show_length_sec": 791,
+  "audio_size": 76002284,
+  "generated_at": "2026-06-14T21:29:01.278051+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-4f40cb0d",
+      "title": "Inverse Rubric Optimization: A testbed for agent science",
+      "fingerprint": "4f40cb0dfb0f06a0f388be7836bf85e1",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8bfe1175",
+      "title": "Lucky Robots — Infinite Data Generation for Robotic AI",
+      "fingerprint": "8bfe1175baf53538dfe7641be075889c",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3d980272",
+      "title": "Formal methods and the future of programming",
+      "fingerprint": "3d98027210a0bcaa9ac41e0d225cadbe",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-457b26d6",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "fingerprint": "457b26d6d8dd44d5d92ddb0988b35aea",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-a17e85aa",
+      "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
+      "fingerprint": "a17e85aa591d23e2b6769113c0fa580b",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0058ef9d",
+      "title": "The only scalable delete in Postgres is DROP TABLE — PlanetScale",
+      "fingerprint": "0058ef9ddee6fc826ec8918c6949dbfb",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-eb9728c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - joske/yserver: A modern X11 server written from scratch in Rust."
+    },
+    {
+      "item_id": "item-1ec21f80",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rio-3.5-Open-397B ≈ 0.6 x Nex-N2_pro + 0.4 x Qwen · Issue #4 · nex-agi/Nex-N2"
+    },
+    {
+      "item_id": "item-c7cc9d0d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chaosnet"
+    },
+    {
+      "item_id": "item-0305b6d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - tamnd/kage: Shadow any website for offline viewing, with the JavaScript stripped out"
+    },
+    {
+      "item_id": "item-40feb23a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "zinnia"
+    },
+    {
+      "item_id": "item-450c71ed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trace: Meeting transcripts that never leave your Mac"
+    },
+    {
+      "item_id": "item-c1d9e2b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Perlisisms"
+    },
+    {
+      "item_id": "item-44203cba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Segmented type appreciation corner"
+    },
+    {
+      "item_id": "item-408eaba5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Firewood Splitting Simulator"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-15/blog.md",
+    "show_notes_path": "out/2026-06-15/show_notes.md",
+    "script_path": "out/2026-06-15/script_2hosts.md",
+    "audio_path": "out/2026-06-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18786,
+        "output_tokens": 7322,
+        "cost_usd": 0.055396
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37379,
+        "output_tokens": 7511,
+        "cost_usd": 0.224802
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4392,
+        "cost_usd": 0.052704
+      }
+    ],
+    "total_cost_usd": 0.332902
+  }
+}

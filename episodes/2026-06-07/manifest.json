@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-07",
+  "episode_date_local": "2026-06-07",
+  "content_snapshot_date": "2026-06-07",
+  "show_length_sec": 789,
+  "audio_size": 75819884,
+  "generated_at": "2026-06-06T21:21:02.142651+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5113ed6c",
+      "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet? – EE Times",
+      "fingerprint": "5113ed6c09f4b4129536f68132499978",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e1a9862a",
+      "title": "Universal Memory Protocol",
+      "fingerprint": "e1a9862a49fb0c76c36bf3cfd417af6f",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bc8839e8",
+      "title": "How LLMs Actually Work",
+      "fingerprint": "bc8839e80e468c1d79791c16dd4ca3e6",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-349b7467",
+      "title": "ntsc-rs",
+      "fingerprint": "349b7467cb084b01158d877da3283ca6",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-57d517b3",
+      "title": "Meta confirms thousands of Instagram accounts were hacked by abusing its AI chatbot",
+      "fingerprint": "57d517b30d2d3f8f516ee94f1a200bfb",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-94b63400",
+      "title": "Benchmarks in Leipzig",
+      "fingerprint": "94b6340099d7e2183a932a6a1e0759cf",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-df37039c",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、月額920M米ドルという極めて高額な金額設定と、SpaceXがコンピュート提供企業として機能するという非典型的なビジネスモデルが現実的でない可能性があります。記事の詳細内容を確認できないため、風刺か実報道かの判定が困難です。",
+      "title": "Google will pay SpaceX $920M per month for compute | TechCrunch"
+    },
+    {
+      "item_id": "item-e5ac6014",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事のスニペットがJavaScript無効エラーメッセージのみで、実際の記事内容が確認できないため判定不可。タイトルは一般的な技術ニュースのように見えるが、コンテンツの詳細がないため真偽を判断できない。",
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs"
+    },
+    {
+      "item_id": "item-6c6bde0f",
+      "reason": "LINK_ONLY: Source intent uncertain: 技術的には実現可能な内容だが、「GPT-5.5」「Claude Opus 4.8」という2026年時点で存在しない/不確実なAIモデル名の記載、および「zero-config」「eBPF scripting」の組み合わせの実用性に疑問があり、ジョークまたは実験的なコンセプト記事の可能性がある。",
+      "title": "zeroserve: a zero"
+    },
+    {
+      "item_id": "item-a66bd8fd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "pokeemerald"
+    },
+    {
+      "item_id": "item-949f96d9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Poincake"
+    },
+    {
+      "item_id": "item-0ae5a650",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Patrick Stevens"
+    },
+    {
+      "item_id": "item-2d92c4b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Home alone: Remote work, isolation, and mental health"
+    },
+    {
+      "item_id": "item-c96eca9c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say"
+    },
+    {
+      "item_id": "item-78cafc24",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Fugitive Childhood of a Cocaine Smuggler&#039;s Daughters"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-07/blog.md",
+    "show_notes_path": "out/2026-06-07/show_notes.md",
+    "script_path": "out/2026-06-07/script_2hosts.md",
+    "audio_path": "out/2026-06-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 20439,
+        "output_tokens": 7523,
+        "cost_usd": 0.058054
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37357,
+        "output_tokens": 7168,
+        "cost_usd": 0.219591
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4332,
+        "cost_usd": 0.051984
+      }
+    ],
+    "total_cost_usd": 0.329629
+  }
+}

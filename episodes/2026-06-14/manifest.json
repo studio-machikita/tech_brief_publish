@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-14",
+  "episode_date_local": "2026-06-14",
+  "content_snapshot_date": "2026-06-14",
+  "show_length_sec": 869,
+  "audio_size": 83495084,
+  "generated_at": "2026-06-13T21:30:49.284111+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a43eda99",
+      "title": "Codex for Open Source",
+      "fingerprint": "a43eda9985ae2d1ed1b1d45c37f8d1fd",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "VentureBeat AI"
+      ]
+    },
+    {
+      "item_id": "item-ac712d55",
+      "title": "RTX 5080 &#43; RTX 3090 Setup: 80&#43; Tok/s on Qwen 3.6 27B Q8",
+      "fingerprint": "ac712d5595fac35eebf7a7162a9c1f83",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c11e6970",
+      "title": "The adder at the heart of Intel&#39;s 8087 floating-point chip",
+      "fingerprint": "c11e6970c2ccea1a374b7e99e2352d81",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fb6815a5",
+      "title": "Orthodox C&#43;&#43; | Branimir Karadžić&#39;s Home Page",
+      "fingerprint": "fb6815a508027b2919f91fa977b9c52c",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-210e490c",
+      "title": "An interactive introduction to the terrific experience of rendering Arabic typography and its technical debt",
+      "fingerprint": "210e490ccc2f3fad16409cbb9ddb3eb9",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-98ae3b58",
+      "title": "Every Frame Perfect",
+      "fingerprint": "98ae3b58cd6ed769e5ab4fa2f7564ea7",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-26d6617e",
+      "reason": "LINK_ONLY: Source intent uncertain: WSJ は信頼できるメディアですが、スニペットがなく、タイトルの内容（Amazon CEO の談話が Anthropic への規制を引き起こした）が事実か風刺かを判断するには不十分です。実際のコンテンツを確認する必要があります。",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
+    },
+    {
+      "item_id": "item-85dcc859",
+      "reason": "LINK_ONLY: Source classified as satirical: 記事は「ノイズ注入の禁止」が統計データ製品に悪影響を及ぼすという非現実的な主張をしており、差分プライバシーの重要性を風刺的に論じているものと考えられます。ドメイン「desfontain.es」は差分プライバシー研究者Damien Desfontainesの個人ブログであり、技術的な風刺・ユーモアを含むコンテンツを発表する傾向があります。",
+      "title": "Banning noise will be a disaster for statistical data products - Ted is writing things"
+    },
+    {
+      "item_id": "item-0b5eaaf1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Running DOS on Behringers DDX3216 with a DIY x86"
+    },
+    {
+      "item_id": "item-3564abdb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Appreciating Exif | Brent Fitzgerald"
+    },
+    {
+      "item_id": "item-e4f81af4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A low-carbon computing platform from your retired phones"
+    },
+    {
+      "item_id": "item-4df13399",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases"
+    },
+    {
+      "item_id": "item-cb2536fa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "jietang (@jietang) on X"
+    },
+    {
+      "item_id": "item-bd10b779",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GameBoy Workboy"
+    },
+    {
+      "item_id": "item-0b84b706",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Treating pancreatic tumours may have revealed cancer's master switch"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-14/blog.md",
+    "show_notes_path": "out/2026-06-14/show_notes.md",
+    "script_path": "out/2026-06-14/script_2hosts.md",
+    "audio_path": "out/2026-06-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 27938,
+        "output_tokens": 8162,
+        "cost_usd": 0.068748
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 40474,
+        "output_tokens": 8163,
+        "cost_usd": 0.243867
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4778,
+        "cost_usd": 0.057336
+      }
+    ],
+    "total_cost_usd": 0.369951
+  }
+}

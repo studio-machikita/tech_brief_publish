@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-05",
+  "episode_date_local": "2026-06-05",
+  "content_snapshot_date": "2026-06-05",
+  "show_length_sec": 810,
+  "audio_size": 77774444,
+  "generated_at": "2026-06-04T21:57:09.814738+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-13da9760",
+      "title": "When AI builds itself",
+      "fingerprint": "13da976016399c595246b685628a9b31",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f97017a2",
+      "title": "Alexander Gromnitsky&#39;s Blog\n   :: 2026-05",
+      "fingerprint": "f97017a2af8aa5092ddb8a8f5d681976",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-a06ae80b",
+      "title": "GitHub - huawei-csl/KVarN: KVarN is a native vLLM KV-cache quantization backend for your agents: 3-5x more context, throughput above FP16, and FP16-level accuracy. Calibration-free, one flag.",
+      "fingerprint": "a06ae80b4a11d09100416074b2154ba4",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ac96500d",
+      "title": "GitHub - tejaswigowda/ffmpeg-webCLI: A browser-based video editor powered by ffmpeg.wasm. No uploads, no servers -- all processing happens locally in your browser using WebAssembly.",
+      "fingerprint": "ac96500d64b7303944e2d70e35a84ef6",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f29193a0",
+      "title": "Meta&#x27;s smart glasses companion app ships a complete, dormant face-recognition pipeline on a stock account.",
+      "fingerprint": "f29193a091b3437179c1657d22686ffb",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cc8f82e2",
+      "title": "GitHub - anthropics/defending-code-reference-harness: Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+      "fingerprint": "cc8f82e251bbcce80b1917483dce3908",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d1553688",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事スニペットが不完全で、VoidZeroという企業名が実在するか、Vitという製品が実在するかが確認できない。Cloudflareの公式ブログドメインであることは信頼性を示すが、スニペットの途中で切れており、内容の詳細が判断できない。",
+      "title": "VoidZero is joining Cloudflare"
+    },
+    {
+      "item_id": "item-d0c2e3d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Failing grades soar as professors see greater AI usage, dwindling math skills in UC Berkeley computer science classes"
+    },
+    {
+      "item_id": "item-a7e4b4af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Haven Blog: Retro"
+    },
+    {
+      "item_id": "item-382eba13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "JLink JTAG Access on the Pinecil"
+    },
+    {
+      "item_id": "item-4b2ea676",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Samurai city - Works in Progress Magazine"
+    },
+    {
+      "item_id": "item-b12e2e4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Blog - Sum-product, unit distances, and number fields | Erdős Problems"
+    },
+    {
+      "item_id": "item-8b2e8df9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Iran Shock Jolts Asia and Europe to Speed Up Energy Transition"
+    },
+    {
+      "item_id": "item-106a6c24",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Home"
+    },
+    {
+      "item_id": "item-a71a448d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ian"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-05/blog.md",
+    "show_notes_path": "out/2026-06-05/show_notes.md",
+    "script_path": "out/2026-06-05/script_2hosts.md",
+    "audio_path": "out/2026-06-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 20246,
+        "output_tokens": 7210,
+        "cost_usd": 0.056296
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38940,
+        "output_tokens": 8118,
+        "cost_usd": 0.23859
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4461,
+        "cost_usd": 0.053531999999999996
+      }
+    ],
+    "total_cost_usd": 0.348418
+  }
+}

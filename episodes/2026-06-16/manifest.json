@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-16",
+  "episode_date_local": "2026-06-16",
+  "content_snapshot_date": "2026-06-16",
+  "show_length_sec": 755,
+  "audio_size": 72553964,
+  "generated_at": "2026-06-15T22:32:01.895034+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-570d3476",
+      "title": "Introducing the OpenAI Partner Network",
+      "fingerprint": "570d3476dfb26edf9c6539126d825ba2",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-12dac3c9",
+      "title": "Iroh 1.0 - Dial Keys, not IPs",
+      "fingerprint": "12dac3c9b11089645809f651bd71858a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b270a51a",
+      "title": "TimescaleDB Compression: Hypercore and Columnar Storage with up to 98% Ratio in PostgreSQL",
+      "fingerprint": "b270a51afc675b53540c429e2a24dccc",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a6a1c024",
+      "title": "My Homelab AI Dev Platform",
+      "fingerprint": "a6a1c0249c91904b32ad562ee47fcfbf",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1fc2b830",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "fingerprint": "1fc2b830b7d7863aa9f585bf10273a0a",
+      "score": 59,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-46333100",
+      "title": "Hetzner Price Adjustment",
+      "fingerprint": "46333100d93dd2149e32b6f89990677e",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-38a157d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What every coder should know about gamma"
+    },
+    {
+      "item_id": "item-36e0ffa0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A backdoor in a LinkedIn job offer"
+    },
+    {
+      "item_id": "item-4f1cc50f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Game Engine White Papers Commander Keen"
+    },
+    {
+      "item_id": "item-b5602673",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GrassDx"
+    },
+    {
+      "item_id": "item-93b79255",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Industrial Production: Manufacturing: Durable Goods: Battery (NAICS = 33591)"
+    },
+    {
+      "item_id": "item-bd72fce9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Factoring"
+    },
+    {
+      "item_id": "item-db027537",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Love the Computer"
+    },
+    {
+      "item_id": "item-874a9354",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Dead Economy Theory"
+    },
+    {
+      "item_id": "item-6c43e117",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tinywind — Pixel Pirate Sailing Game"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-16/blog.md",
+    "show_notes_path": "out/2026-06-16/show_notes.md",
+    "script_path": "out/2026-06-16/script_2hosts.md",
+    "audio_path": "out/2026-06-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18445,
+        "output_tokens": 6973,
+        "cost_usd": 0.05331
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37404,
+        "output_tokens": 7415,
+        "cost_usd": 0.223437
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4187,
+        "cost_usd": 0.050244
+      }
+    ],
+    "total_cost_usd": 0.326991
+  }
+}

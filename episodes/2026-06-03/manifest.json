@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-03",
+  "episode_date_local": "2026-06-03",
+  "content_snapshot_date": "2026-06-03",
+  "show_length_sec": 712,
+  "audio_size": 68445164,
+  "generated_at": "2026-06-02T22:34:43.939006+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ae7cb5a8",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "fingerprint": "ae7cb5a8ca2275f268004e1550202ede",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-95ef4f30",
+      "title": "GitHub - shiihaa-app/shiihaa-breath-detection: Live breath detection and biofeedback using a phone microphone. On-device, no speech analysis, no raw audio upload.",
+      "fingerprint": "95ef4f304f97a60c9630d1bc9bb5a01a",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-41e6f0aa",
+      "title": "How we index images for RAG - kapa.ai - Instant AI answers to technical questions",
+      "fingerprint": "41e6f0aabf61bdfd91fb66384ec37ba3",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8f3c5802",
+      "title": "My thoughts after using Clojure for about a month",
+      "fingerprint": "8f3c5802f5b72d189ad30ca14a0be8c1",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6c8eec50",
+      "title": "Trump signs downsized AI order after weeks of reversals",
+      "fingerprint": "6c8eec5058aa089c85dff44082d50e85",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "TechCrunch",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-a98af529",
+      "title": "Open Repair Data Standard - Open Repair Alliance",
+      "fingerprint": "a98af5298da1cad6c8730cff8d87e9b0",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-3d4116e9",
+      "reason": "LINK_ONLY: Source intent uncertain: URLとタイトルは正当なMicrosoftの技術発表に見えるが、提供されたスニペットは不完全でナビゲーション要素のみで実際の記事内容が不明。プロダクト名「MAI-Code-1-Flash」の真正性を確認できない。",
+      "title": "Introducing MAI-Code-1-Flash  | Microsoft AI"
+    },
+    {
+      "item_id": "item-2a623de6",
+      "reason": "LINK_ONLY: Source intent uncertain: 「OpenClaw」というプロダクト名が実在するかどうか不明であり、Microsoftの公式発表として確認できない。スニペットは技術ニュースの形式を取っているが、架空のプロダクト名の可能性があるため判定が困難。",
+      "title": "Microsoft unveils Scout, an autonomous AI agent built on OpenClaw"
+    },
+    {
+      "item_id": "item-da8fe768",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The advertising cartel coming to your web browser"
+    },
+    {
+      "item_id": "item-6753df0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inside BYD: CT Scans of a Battery Cell, Switch Panel, Charger, and Key Fob from the EV Banned in America"
+    },
+    {
+      "item_id": "item-bd052188",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A walking tour of surveillance infrastructure in Seattle"
+    },
+    {
+      "item_id": "item-b55a6f46",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "HP re-releases classic computer science calculator: The HP-16C"
+    },
+    {
+      "item_id": "item-a0f3568b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Adafruit Industries - Makers, hackers, artists, designers and engineers!"
+    },
+    {
+      "item_id": "item-d4a270da",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gmail Thinks I&#39;m Stupid, So I Left"
+    },
+    {
+      "item_id": "item-d2d20a0c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "fascinating Plain DOS 2 Core Demo. \\\n\t\t\t\t\t\t\t\t\tVOGONS"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-03/blog.md",
+    "show_notes_path": "out/2026-06-03/show_notes.md",
+    "script_path": "out/2026-06-03/script_2hosts.md",
+    "audio_path": "out/2026-06-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 19617,
+        "output_tokens": 7066,
+        "cost_usd": 0.054947
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37381,
+        "output_tokens": 6931,
+        "cost_usd": 0.216108
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3847,
+        "cost_usd": 0.046164000000000004
+      }
+    ],
+    "total_cost_usd": 0.317219
+  }
+}

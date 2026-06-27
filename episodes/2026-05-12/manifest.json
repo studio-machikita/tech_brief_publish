@@ -1,0 +1,171 @@
+{
+  "date": "2026-05-12",
+  "episode_date_local": "2026-05-12",
+  "content_snapshot_date": "2026-05-12",
+  "show_length_sec": 838,
+  "audio_size": 80457644,
+  "generated_at": "2026-05-11T21:31:56.110904+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-4ac2a407",
+      "title": "Interfaze: A new model architecture built for high accuracy at scale - Interfaze",
+      "fingerprint": "4ac2a4076133f2ec8cf15814023ca243",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bc07fcfd",
+      "title": "How enterprises are scaling AI",
+      "fingerprint": "bc07fcfdef977f06f761feb2cf0d64f8",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-826378f7",
+      "title": "The cuda-oxide Book &#8212; cuda",
+      "fingerprint": "826378f7e52fbda84aa4e50342e3a2d7",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-01e0bf43",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s | Cocoa with Love",
+      "fingerprint": "01e0bf4349deabe4e445ac7cc3d02b41",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7c58ebeb",
+      "title": "If AI Writes Your Code, Why Use Python?",
+      "fingerprint": "7c58ebeb15e4c3f42e9a3dabbd18dbce",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8e804d8e",
+      "title": "AMÁLIA and the future of European Portuguese LLMs",
+      "fingerprint": "8e804d8e0723d58846c9309612892366",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ad177891",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - mamba-studio/TypedMemory: A Java 25 library for mapping records to strongly typed off-heap memory using the FFM API."
+    },
+    {
+      "item_id": "item-d9f5ce87",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ratty — A GPU-rendered terminal emulator with inline 3D graphics 🐀🧀"
+    },
+    {
+      "item_id": "item-497782ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Counting Fast in Erlang with :counters and :atomics"
+    },
+    {
+      "item_id": "item-0d1857fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The death of the last maverick tech company."
+    },
+    {
+      "item_id": "item-1a113316",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Can Someone Please Explain Whether Cloudflare Blackmailed Canonical?"
+    },
+    {
+      "item_id": "item-4fac65b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google account registration now requires sending an SMS via phone instead of receiving an SMS"
+    },
+    {
+      "item_id": "item-48b820c1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage"
+    },
+    {
+      "item_id": "item-673c0dd8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Venom and Hot Peppers Offer a Key to Killing Resistant Bacteria"
+    },
+    {
+      "item_id": "item-e7dfe8b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Boston library where you still can borrow a giant puppet"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-12/blog.md",
+    "show_notes_path": "out/2026-05-12/show_notes.md",
+    "script_path": "out/2026-05-12/script_2hosts.md",
+    "audio_path": "out/2026-05-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19090,
+        "output_tokens": 7450,
+        "cost_usd": 0.05634
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37736,
+        "output_tokens": 7924,
+        "cost_usd": 0.232068
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4608,
+        "cost_usd": 0.055296
+      }
+    ],
+    "total_cost_usd": 0.343704
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-16",
+  "episode_date_local": "2026-04-16",
+  "content_snapshot_date": "2026-04-16",
+  "show_length_sec": 803,
+  "audio_size": 77140844,
+  "generated_at": "2026-04-15T22:36:00.447423+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-55d15f99",
+      "title": "Do You Even Need a Database? - DB Pro Blog",
+      "fingerprint": "55d15f9933a2e0091be4de044879b234",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-32832350",
+      "title": "PiCore - Raspberry Pi Port of Tiny Core Linux",
+      "fingerprint": "3283235031a0472386996f3292716211",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1bc5c62b",
+      "title": "Does Gas Town &#39;steal&#39; usage from users&#39; LLM credits &amp; paid services to improve itself? · Issue #3649 · gastownhall/gastown",
+      "fingerprint": "1bc5c62b12d6b41b1bdebd385a9f512f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8d99def7",
+      "title": "ChatGPT for Excel",
+      "fingerprint": "8d99def70695ef6b024f82fb504a0c2d",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cc27502b",
+      "title": "Google Broke Its Promise to Me. Now ICE Has My Data.",
+      "fingerprint": "cc27502bcd0f845c52e73bce0b258290",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2a097fe7",
+      "title": "God sleeps in the minerals",
+      "fingerprint": "2a097fe7a7931cfed3eece36d2f10061",
+      "score": 15,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-db6a9575",
+      "reason": "LINK_ONLY: Source classified as satirical: タイトルの「Just Read These Two Papers」という過度に単純化された主張と、スニペットで「Knute or something」という曖昧な著者名言及、さらに「The Art of Computer Programming」という実在する複雑な書籍を初心者向けの解決策として提示する皮肉的なトーンが、風刺的なテック批評であることを示唆している。",
+      "title": "Want to Write a Compiler? Just Read These Two Papers."
+    },
+    {
+      "item_id": "item-ee89e39f",
+      "reason": "LINK_ONLY: Source classified as satirical: タイトルの「Proof of Work」はブロックチェーン用語との言葉遊びであり、「Mythos」という架空のLLM名、セキュリティ支出を「トークン」で測定するという非現実的な比喩が風刺的である。記事の論調が技術的な真摯さより皮肉とユーモアを優先している。",
+      "title": "Cybersecurity Looks Like Proof of Work Now"
+    },
+    {
+      "item_id": "item-5fcfb82c",
+      "reason": "LINK_ONLY: Source intent uncertain: Cal.comは実在するオープンソースのスケジューリングソフトウェアですが、「AI Securityを理由にクローズドソース化」という主張は、オープンソースコミュニティの価値観と矛盾しており、風刺またはジョーク記事の可能性があります。スニペットがないため、記事の実際の内容と意図を確認できません。",
+      "title": "Cal.com Goes Closed Source: Why AI Security Is Forcing Our Decision | Cal.com - Scheduling Software for Online Bookings"
+    },
+    {
+      "item_id": "item-654eb41f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Live Nation illegally monopolized ticketing market, jury finds"
+    },
+    {
+      "item_id": "item-4a958e3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Good sleep, good learning, good life"
+    },
+    {
+      "item_id": "item-e15b996f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ford EV and tech chief leaving automaker"
+    },
+    {
+      "item_id": "item-9c6b4ff6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to fix monitor that goes black, off or blinks due to static electricity in chair (and others)"
+    },
+    {
+      "item_id": "item-7a4ac742",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Government backs permanent return of golden eagles to England"
+    },
+    {
+      "item_id": "item-b401baed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Burgers | マクドナルド公式"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-16/blog.md",
+    "show_notes_path": "out/2026-04-16/show_notes.md",
+    "script_path": "out/2026-04-16/script_2hosts.md",
+    "audio_path": "out/2026-04-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 20515,
+        "output_tokens": 7620,
+        "cost_usd": 0.058615
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37275,
+        "output_tokens": 7132,
+        "cost_usd": 0.218805
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4490,
+        "cost_usd": 0.05388
+      }
+    ],
+    "total_cost_usd": 0.3313
+  }
+}

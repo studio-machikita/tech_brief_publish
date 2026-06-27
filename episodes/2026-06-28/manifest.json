@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-28",
+  "episode_date_local": "2026-06-28",
+  "content_snapshot_date": "2026-06-28",
+  "show_length_sec": 796,
+  "audio_size": 76479404,
+  "generated_at": "2026-06-27T21:20:45.332708+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d11ffb98",
+      "title": "AI Learns the &quot;Dark Art&quot; of RF Chip Design",
+      "fingerprint": "d11ffb98a70d50e6b1079321eeccd76f",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-729347f1",
+      "title": "DeepSpec/DSpark_paper.pdf at main · deepseek-ai/DeepSpec",
+      "fingerprint": "729347f194838ea35efb7e9648641f0c",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2a4ec0eb",
+      "title": "One man, two kernels, and a lot of RISC-V",
+      "fingerprint": "2a4ec0eb1129fae87398e2c8f05f6e16",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-da28bac3",
+      "title": "GitHub - kageroumado/adrafinil: Keep your Mac awake only while AI coding agents are working",
+      "fingerprint": "da28bac30d58a55f17bd3543872ea4a5",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3922eba4",
+      "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
+      "fingerprint": "3922eba4ec3fa7f02c2d364137d4e438",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5ee9b38b",
+      "title": "OpenRA",
+      "fingerprint": "5ee9b38b2be3c6910b1fbfe470917c61",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-c567ad03",
+      "reason": "LINK_ONLY: Source intent uncertain: プロダクト名『Jalapeño』がユーモアを含む可能性があり、OpenAIとBroadcomの実際の協業内容が不明確であるため。ただしURLドメインが公式であり、技術的な内容は現実的であることから完全な風刺とは言い難い。",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip"
+    },
+    {
+      "item_id": "item-d49a5f91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Turn your site into a place people can bump into each other"
+    },
+    {
+      "item_id": "item-a1ea44e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fintech Engineering Handbook"
+    },
+    {
+      "item_id": "item-888301b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Suspicious discontinuities"
+    },
+    {
+      "item_id": "item-18ec2d99",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - bikini/exploitarium: A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I&#39;ve always found this is the most efficient way."
+    },
+    {
+      "item_id": "item-09e4802d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cybersecurity in the post-mythos era: Keep calm and carry on!"
+    },
+    {
+      "item_id": "item-7fe12552",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Case for Physical Media Ownership | Cem Dervis"
+    },
+    {
+      "item_id": "item-787ca4a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&#039;Arrest Him!&#039; The Moment Police Handcuffed A Farmer For Going 5 Seconds Over His Time Limit at Data Center Meeting"
+    },
+    {
+      "item_id": "item-4b3aaf71",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Underarm bowling incident of 1981"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-28/blog.md",
+    "show_notes_path": "out/2026-06-28/show_notes.md",
+    "script_path": "out/2026-06-28/script_2hosts.md",
+    "audio_path": "out/2026-06-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19377,
+        "output_tokens": 7435,
+        "cost_usd": 0.056552
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38003,
+        "output_tokens": 7710,
+        "cost_usd": 0.229659
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4426,
+        "cost_usd": 0.053112000000000006
+      }
+    ],
+    "total_cost_usd": 0.339323
+  }
+}

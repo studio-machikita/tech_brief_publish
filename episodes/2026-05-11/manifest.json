@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-11",
+  "episode_date_local": "2026-05-11",
+  "content_snapshot_date": "2026-05-11",
+  "show_length_sec": 807,
+  "audio_size": 77508524,
+  "generated_at": "2026-05-10T21:04:54.596513+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6d3926b9",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "fingerprint": "6d3926b9aadfc1f5ebb8b47f048ee30d",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-de54420d",
+      "title": "Local AI Needs to be the Norm",
+      "fingerprint": "de54420db7d96d71773286f282e66ec4",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0dbe6f5e",
+      "title": "How lakebase architecture delivers 5x faster Postgres writes",
+      "fingerprint": "0dbe6f5efafcfadba6c858b4914bb204",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e7903d17",
+      "title": "Idempotency is easy until the second request is different",
+      "fingerprint": "e7903d17b4a2d4c9f855b45ebeb055a6",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8fd74a0e",
+      "title": "I returned to AWS and was reminded why I left",
+      "fingerprint": "8fd74a0ea6e980cf04863c148a877d05",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0180bd23",
+      "title": "Stop MITM on the first SSH connection, on any VPS or cloud provider | Cryptography, Technology",
+      "fingerprint": "0180bd235163f5c166cbfc7e1df1f2ee",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-3756bd4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "YCOMBINATOR.FYI — The Unofficial YC Record"
+    },
+    {
+      "item_id": "item-2c015a00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What&#x27;s a mathematician to do?"
+    },
+    {
+      "item_id": "item-a465d7c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The indie web index directory | theindex.fyi"
+    },
+    {
+      "item_id": "item-bfbc8845",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Louis Rossmann offers to pay legal fees for a threatened OrcaSlicer developer"
+    },
+    {
+      "item_id": "item-d057d38c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GrapheneOS (@GrapheneOS@grapheneos.social)"
+    },
+    {
+      "item_id": "item-642fe0e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Incident Report: CVE-2024-YIKES"
+    },
+    {
+      "item_id": "item-32b6324a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Space Cadet Pinball on Linux - Stephen Brennan"
+    },
+    {
+      "item_id": "item-731d2444",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Eight More 8-bit Era Microprocessors (2024)"
+    },
+    {
+      "item_id": "item-3adbbad1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hello, World!"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-11/blog.md",
+    "show_notes_path": "out/2026-05-11/show_notes.md",
+    "script_path": "out/2026-05-11/script_2hosts.md",
+    "audio_path": "out/2026-05-11/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-11/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-11/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18294,
+        "output_tokens": 7115,
+        "cost_usd": 0.053869
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37282,
+        "output_tokens": 7642,
+        "cost_usd": 0.226476
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4424,
+        "cost_usd": 0.053087999999999996
+      }
+    ],
+    "total_cost_usd": 0.333433
+  }
+}

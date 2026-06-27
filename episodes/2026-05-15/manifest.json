@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-15",
+  "episode_date_local": "2026-05-15",
+  "content_snapshot_date": "2026-05-15",
+  "show_length_sec": 767,
+  "audio_size": 73715564,
+  "generated_at": "2026-05-14T21:23:41.987324+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-98375b54",
+      "title": "Daniel's Blog · You Don’t Align An AI, You Align With It",
+      "fingerprint": "98375b54e9a5406be5aa80bf5cb6a405",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c5c65e42",
+      "title": "WinUI 3 Performance: A Leap Forward · microsoft/microsoft-ui-xaml · Discussion #11096",
+      "fingerprint": "c5c65e429b105270a2718a5c221942b8",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e5e02a8d",
+      "title": "Work with Codex from anywhere",
+      "fingerprint": "e5e02a8d113bc9145c5f1a9b212c726f",
+      "score": 41,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-029c7b0e",
+      "title": "Amazonbot is finally respecting robots.txt",
+      "fingerprint": "029c7b0e21087ad75d072ff9cf929493",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6d0a6e5d",
+      "title": "The Great Zombification",
+      "fingerprint": "6d0a6e5dd07b5ca18e4b522fdef52b52",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8729c63b",
+      "title": "Porting 3D Movie Maker to Linux - Ben Stone Online",
+      "fingerprint": "8729c63bf2fa40ae839dec5bbc308996",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d0914fcf",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「HDD Firmware Hacking」は技術的に正当な内容にも風刺にもなり得るが、スニペットがなく、ドメイン「icode4.coffee」は非標準的で、具体的な記事内容が不明なため判定が困難。",
+      "title": "HDD Firmware Hacking"
+    },
+    {
+      "item_id": "item-b92d9172",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "First public macOS kernel memory corruption exploit on Apple M5"
+    },
+    {
+      "item_id": "item-43e5be04",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Video transcript: A message from President Kornbluth about funding and the talent pipeline | MIT Office of the President | MIT"
+    },
+    {
+      "item_id": "item-0aec7735",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "int a = 5; a = a++ + ++a; a = ?"
+    },
+    {
+      "item_id": "item-16ef53b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - DepthFirstDisclosures/Nginx-Rift: exploit for CVE-2026-42945"
+    },
+    {
+      "item_id": "item-0121b518",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Power of a Free Popsicle"
+    },
+    {
+      "item_id": "item-c1469a9c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RTX 5090 + M4 MacBook Air: Can it Game?"
+    },
+    {
+      "item_id": "item-3d3e9228",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Computer Hobby Movement in Canada &middot; Computer Hobby Movement in Canada &middot; York University Computer Museum Canada"
+    },
+    {
+      "item_id": "item-0f7b2cae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Removing the Modem and GPS from my 2024 RAV4 Hybrid"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-15/blog.md",
+    "show_notes_path": "out/2026-05-15/show_notes.md",
+    "script_path": "out/2026-05-15/script_2hosts.md",
+    "audio_path": "out/2026-05-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19033,
+        "output_tokens": 7371,
+        "cost_usd": 0.055888
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37604,
+        "output_tokens": 7194,
+        "cost_usd": 0.220722
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4259,
+        "cost_usd": 0.051108
+      }
+    ],
+    "total_cost_usd": 0.327718
+  }
+}

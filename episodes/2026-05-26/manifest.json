@@ -1,0 +1,167 @@
+{
+  "date": "2026-05-26",
+  "episode_date_local": "2026-05-26",
+  "content_snapshot_date": "2026-05-26",
+  "show_length_sec": 862,
+  "audio_size": 82805804,
+  "generated_at": "2026-05-25T21:25:58.532016+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8dd65b51",
+      "title": "$2 Billion CHIPS Act Investment in Quantum Bets on IBM&#039;s 300mm Superconducting Silicon",
+      "fingerprint": "8dd65b51ade8433a8737585eb819fde8",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-48fc0286",
+      "title": "Norway’s 2 petabytes of Huawei flash storage and LLM training",
+      "fingerprint": "48fc028615864deb172964a333ed1295",
+      "score": 57,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6f26331e",
+      "title": "On C extensions, portability, and alternative compilers",
+      "fingerprint": "6f26331ea49b4b29dd2fbb9e5b6d3cca",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-18fe89d7",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "fingerprint": "18fe89d7d9ff8f993d1f606e3bc6f791",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-65d8eb3c",
+      "title": "The bootstrapper&#x27;s EU stack for under €10 per month",
+      "fingerprint": "65d8eb3c3f4f1e1ca7cfc9e620a7f6cd",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5e44f1f9",
+      "title": "Jensen–Shannon Divergence",
+      "fingerprint": "5e44f1f90a898e2b94910991c9fdce98",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e594458d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chert | iMessage Infrastructure for Reaching People at Scale"
+    },
+    {
+      "item_id": "item-11c7e1df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "California moves to exempt Linux from its age-verification law after backlash"
+    },
+    {
+      "item_id": "item-6af0da90",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exit IP VPN servers mitigation rollout"
+    },
+    {
+      "item_id": "item-44c9d0f0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks"
+    },
+    {
+      "item_id": "item-578ed5a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Japan"
+    },
+    {
+      "item_id": "item-342aaf63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Everyone Against Us (2023)"
+    },
+    {
+      "item_id": "item-d7002195",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jony Ive's Ferrari"
+    },
+    {
+      "item_id": "item-0242d470",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Encyclical Letter of His Holiness Leo XIV Magnifica Humanitas (15 May 2026)"
+    },
+    {
+      "item_id": "item-548b149a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Toshifumi Suzuki 1932— Biography"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-26/blog.md",
+    "show_notes_path": "out/2026-05-26/show_notes.md",
+    "script_path": "out/2026-05-26/script_2hosts.md",
+    "audio_path": "out/2026-05-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18853,
+        "output_tokens": 7384,
+        "cost_usd": 0.055773
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37834,
+        "output_tokens": 7826,
+        "cost_usd": 0.230892
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4679,
+        "cost_usd": 0.056148
+      }
+    ],
+    "total_cost_usd": 0.342813
+  }
+}

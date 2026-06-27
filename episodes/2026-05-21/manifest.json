@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-21",
+  "episode_date_local": "2026-05-21",
+  "content_snapshot_date": "2026-05-21",
+  "show_length_sec": 710,
+  "audio_size": 68206124,
+  "generated_at": "2026-05-20T22:09:48.841834+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-951a1e58",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "fingerprint": "951a1e58788a891b8daf22c3ecdea219",
+      "score": 89,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-58d6fa46",
+      "title": "PopuLoRA: Co-Evolving LLM Populations for Reasoning Self-⁠Play",
+      "fingerprint": "58d6fa46cd66ed4968031eaf3d1b8584",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1cd3f739",
+      "title": "tokenspeed — feel LLM tokens-per",
+      "fingerprint": "1cd3f739cbe54df60d5fc5e3d9e537d1",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-47a51a19",
+      "title": "On Google declaring war on the Web",
+      "fingerprint": "47a51a19177b229ef3fd4a3525dde9c1",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-399855f5",
+      "title": "SBCL: the ultimate assembly code breadboard",
+      "fingerprint": "399855f58682f1ef1baef76fb11ae790",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f6cc571f",
+      "title": "Saying goodbye to asm.js",
+      "fingerprint": "f6cc571f5de589ff8d7a62cc2dbbaeeb",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-966f07d8",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Qwen Studio」とスニペット「Qwen」のみでは、正当な技術ブログ記事なのか宣伝なのか判定が困難。Qwen（阿里巴巴のAIモデル）の公式ブログであることは確認できるが、具体的な記事内容がないため分類できない。",
+      "title": "Qwen Studio"
+    },
+    {
+      "item_id": "item-8f0ff813",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SpaceX"
+    },
+    {
+      "item_id": "item-f747cf77",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Map of Metal"
+    },
+    {
+      "item_id": "item-4bcd6e33",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The programmer whose code underpins the Internet"
+    },
+    {
+      "item_id": "item-2ce141ec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension"
+    },
+    {
+      "item_id": "item-9a620c39",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tech specs - Flipper One Documentation"
+    },
+    {
+      "item_id": "item-d859870f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Not alive, but not dead: disembodied human brains used for drug testing"
+    },
+    {
+      "item_id": "item-921ace3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Manton Reece - Why is Inkwell stuck in review"
+    },
+    {
+      "item_id": "item-39532bf1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Qian Xuesen: The missile genius America lost and China gained (2025)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-21/blog.md",
+    "show_notes_path": "out/2026-05-21/show_notes.md",
+    "script_path": "out/2026-05-21/script_2hosts.md",
+    "audio_path": "out/2026-05-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18882,
+        "output_tokens": 6875,
+        "cost_usd": 0.053257
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38004,
+        "output_tokens": 7067,
+        "cost_usd": 0.220017
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3812,
+        "cost_usd": 0.045744
+      }
+    ],
+    "total_cost_usd": 0.319018
+  }
+}

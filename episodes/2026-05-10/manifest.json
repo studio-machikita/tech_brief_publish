@@ -1,0 +1,167 @@
+{
+  "date": "2026-05-10",
+  "episode_date_local": "2026-05-10",
+  "content_snapshot_date": "2026-05-10",
+  "show_length_sec": 818,
+  "audio_size": 78603884,
+  "generated_at": "2026-05-09T21:02:47.760649+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-feab9b33",
+      "title": "LLMs Corrupt Your Documents When You Delegate",
+      "fingerprint": "feab9b3346525d0d60230b980662d7f0",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3b4b36a1",
+      "title": "I’ve banned query strings",
+      "fingerprint": "3b4b36a1d627ee6761d88ba99f81bbad",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9bfb581b",
+      "title": "Theme Builder",
+      "fingerprint": "9bfb581b04e2cb3a3aad0d117269e492",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-706a741d",
+      "title": "Google Broke reCAPTCHA for De-Googled Android Users",
+      "fingerprint": "706a741d1b19f492457400fce8f13b4f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2aba21c1",
+      "title": "I caught the car | undecidability",
+      "fingerprint": "2aba21c1d223f7e1cafee793f97add3a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f5c8c608",
+      "title": "cPanel&#039;s Black Week: Three New Vulnerabilities Patched After Ransomware Attack on 44,000 Servers - Copahost",
+      "fingerprint": "f5c8c608a84364596fd1454b5ba286f6",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-c7a9434d",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事タイトルは技術的で信頼できそうだが、スニペットはTwitterのエラーメッセージのみで実際の記事内容が確認できない。タイトルの具体的な数字（99.8%）は信頼性を示唆するが、コンテンツ不在のため判定が困難。",
+      "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc"
+    },
+    {
+      "item_id": "item-68e82eaf",
+      "reason": "LINK_ONLY: Source intent uncertain: YouTubeビデオへのリンクのみで、スニペットがなく、タイトルだけでは正当な技術講演か宣伝か判断できない。金融取引システムのエンジニアリングは実在する真摯なテーマだが、詳細な内容がないため分類困難。",
+      "title": "Production engineering when trading billions of dollars a day [video]"
+    },
+    {
+      "item_id": "item-547f46a7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&quot;Dirty Frag&quot; (CVE-2026-43284): The Second Linux Root Exploit in Eight Days — Patch Your Server Now - Copahost"
+    },
+    {
+      "item_id": "item-eb3bf203",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FreeBSD: Local Privilege Escalation via Execve()"
+    },
+    {
+      "item_id": "item-988e2173",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Internet Archive Switzerland: Expanding a Global Mission to Preserve Knowledge"
+    },
+    {
+      "item_id": "item-c0930fd2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - navid-m/flightsim: Simple flight simulator"
+    },
+    {
+      "item_id": "item-b93db216",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta's Embrace of A.I. Is Making Its Employees Miserable"
+    },
+    {
+      "item_id": "item-f0dcdf8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "PipeDream on the Acorn Archimedes"
+    },
+    {
+      "item_id": "item-5cc18644",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple is increasing my cortisol levels"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-10/blog.md",
+    "show_notes_path": "out/2026-05-10/show_notes.md",
+    "script_path": "out/2026-05-10/script_2hosts.md",
+    "audio_path": "out/2026-05-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 19889,
+        "output_tokens": 7635,
+        "cost_usd": 0.058064
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37493,
+        "output_tokens": 7613,
+        "cost_usd": 0.226674
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4512,
+        "cost_usd": 0.054144000000000005
+      }
+    ],
+    "total_cost_usd": 0.338882
+  }
+}

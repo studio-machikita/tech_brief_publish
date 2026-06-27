@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-26",
+  "episode_date_local": "2026-06-26",
+  "content_snapshot_date": "2026-06-26",
+  "show_length_sec": 731,
+  "audio_size": 70187564,
+  "generated_at": "2026-06-25T21:58:37.450916+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5029e679",
+      "title": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology",
+      "fingerprint": "5029e6791a2ff4192739a1676fe568af",
+      "score": 82,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e05bdbb2",
+      "title": "Introducing Un-0: Generating Images with Coupled Oscillators",
+      "fingerprint": "e05bdbb2fdc3c472b7359a4c53b109fa",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5bc67538",
+      "title": "Oxide 3D Explorer",
+      "fingerprint": "5bc67538eb96951660d183f9dba07593",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2645affc",
+      "title": "Devlog\n      ⚡\n      Zig Programming Language",
+      "fingerprint": "2645affc7eaeb2f82e925fff05f34b20",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8be19e1b",
+      "title": "GitHub - inkeep/open-knowledge: Beautiful, AI-native markdown editor and LLM Wiki",
+      "fingerprint": "8be19e1bdaec7d913336d98c83025058",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fea86719",
+      "title": "The annotated PyTorch training loop — idlemachines",
+      "fingerprint": "fea867191b1765b4c98fdc05a9aee374",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b02aeaae",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは技術的なテーマ（括弧のマッチング）を示唆していますが、スニペットがなく、URLのみでは内容が不明確です。個人ブログであり、実装解説か風刺的な技術ネタかの判別ができません。",
+      "title": "Parallel Parentheses Matching"
+    },
+    {
+      "item_id": "item-495981a0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An entire Herculaneum scroll has been read for the first time"
+    },
+    {
+      "item_id": "item-430e8f60",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Doorman"
+    },
+    {
+      "item_id": "item-124af6e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OS9Map"
+    },
+    {
+      "item_id": "item-f7765967",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Release GE-Proton11-1 Released · GloriousEggroll/proton-ge-custom"
+    },
+    {
+      "item_id": "item-f25256d0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Show HN: Chess-Inspired Roguelike"
+    },
+    {
+      "item_id": "item-2a9c63c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The last Romans are still around"
+    },
+    {
+      "item_id": "item-6078cabe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Om Malik, 1966-2026"
+    },
+    {
+      "item_id": "item-25af0eff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple raises prices of MacBooks, iPads"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-26/blog.md",
+    "show_notes_path": "out/2026-06-26/show_notes.md",
+    "script_path": "out/2026-06-26/script_2hosts.md",
+    "audio_path": "out/2026-06-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18851,
+        "output_tokens": 6959,
+        "cost_usd": 0.053646
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38140,
+        "output_tokens": 7128,
+        "cost_usd": 0.22134
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4014,
+        "cost_usd": 0.048168
+      }
+    ],
+    "total_cost_usd": 0.323154
+  }
+}

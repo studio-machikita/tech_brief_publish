@@ -1,0 +1,171 @@
+{
+  "date": "2026-05-13",
+  "episode_date_local": "2026-05-13",
+  "content_snapshot_date": "2026-05-13",
+  "show_length_sec": 734,
+  "audio_size": 70551404,
+  "generated_at": "2026-05-12T21:32:38.634327+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-718b9bbc",
+      "title": "GitHub - cactus-compute/needle: 26m function call model that runs on incredibly small devices",
+      "fingerprint": "718b9bbcbfc9635b4fe625f6f345ca62",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f2dd914a",
+      "title": "Quack: The DuckDB Client-Server Protocol",
+      "fingerprint": "f2dd914af68c722920f38ef62c91c912",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a9eaafe4",
+      "title": "Voker | Analytics for AI Agents",
+      "fingerprint": "a9eaafe4d0802b8080b3fbbc026e5203",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "AWS Machine Learning",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6329f085",
+      "title": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+      "fingerprint": "6329f08554519da2415309379114e0ec",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-62e13435",
+      "title": "Learning Software Architecture",
+      "fingerprint": "62e13435f2a4d7f65d3d84d644fe55d8",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c36fac72",
+      "title": "The future of Obsidian plugins",
+      "fingerprint": "c36fac72b89854af54b721f9b1f3f66b",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0f342a33",
+      "reason": "LINK_ONLY: Source intent uncertain: URLドメインが「googlebook.google」という非標準的な形式であり、公式Googleドメイン構造と異なる点が疑わしい。ただし、プロダクト発表の形式自体は正当に見えるため、完全な判定は困難。",
+      "title": "Googlebook: Designed for Gemini Intelligence | Coming Fall 2026"
+    },
+    {
+      "item_id": "item-43855172",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "On Rendering the Sky, Sunsets, and Planets - The Blog of Maxime Heckel"
+    },
+    {
+      "item_id": "item-746b520d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shaping the future of AI interaction by reimagining the mouse pointer"
+    },
+    {
+      "item_id": "item-8b69937e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "[Dnsmasq-discuss] Security"
+    },
+    {
+      "item_id": "item-b1449c43",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "XBOW - Dead.Letter (CVE-2026-45185) How XBOW Found an Unauthenticated RCE on Exim"
+    },
+    {
+      "item_id": "item-78151a28",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bambu Lab is abusing the open source social contract"
+    },
+    {
+      "item_id": "item-ac0cf50f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why senior developers fail to communicate their expertise"
+    },
+    {
+      "item_id": "item-72030880",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is This Why Science Advances One Funeral at a Time?"
+    },
+    {
+      "item_id": "item-c9aae80c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How To Make Your Text Look Futuristic"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-13/blog.md",
+    "show_notes_path": "out/2026-05-13/show_notes.md",
+    "script_path": "out/2026-05-13/script_2hosts.md",
+    "audio_path": "out/2026-05-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19046,
+        "output_tokens": 7252,
+        "cost_usd": 0.055306
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37401,
+        "output_tokens": 7043,
+        "cost_usd": 0.217848
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4080,
+        "cost_usd": 0.048960000000000004
+      }
+    ],
+    "total_cost_usd": 0.322114
+  }
+}

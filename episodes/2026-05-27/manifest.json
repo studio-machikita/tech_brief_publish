@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-27",
+  "episode_date_local": "2026-05-27",
+  "content_snapshot_date": "2026-05-27",
+  "show_length_sec": 800,
+  "audio_size": 76881644,
+  "generated_at": "2026-05-26T22:01:11.201997+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-acf65bf6",
+      "title": "Outsourcing plus local AI will soon become more economical vs. frontier labs",
+      "fingerprint": "acf65bf66630588aee7c968124c1e4af",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-1f8c6312",
+      "title": "GitHub - logannye/rosalind: A deterministic genomics engine with a compact memory footprint. Run whole-genome workloads in as little as 100 MB RAM. Built in Rust.",
+      "fingerprint": "1f8c63128e5aa1a08e3b74b2f016ba30",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b9df3187",
+      "title": "How I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
+      "fingerprint": "b9df318760d53bd6f4d12792d16092a3",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-91256b00",
+      "title": "Minicor | Scalable Desktop Automations",
+      "fingerprint": "91256b00f9622aecccf57e1451729dd6",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d84e0df3",
+      "title": "DynIP — Dynamic DNS that actually works",
+      "fingerprint": "d84e0df3adcc3ca5bb6ac68e8b96afdc",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-400e3732",
+      "title": "Spain blocks prediction markets Polymarket, Kalshi over lack of gambling licence",
+      "fingerprint": "400e3732175a557215de8cac41397826",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2ff47364",
+      "reason": "LINK_ONLY: Source intent uncertain: OpenAIの公式ドメインとRampという実在する企業の組み合わせは信頼性を示唆するが、『GPT-5.5』というモデル名は2026年5月時点で確認できない架空のバージョン番号であり、記事の真正性が疑わしい。ただしOpenAIが将来のモデルについて発表している可能性も完全には否定できない。",
+      "title": "How Ramp engineers accelerate code review with Codex"
+    },
+    {
+      "item_id": "item-2aa857b5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "C64 Basic: Game Map Overhead “Camera View”"
+    },
+    {
+      "item_id": "item-bc702779",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Big Tech’s Anti-Labor Playbook Has Come for Wikipedia"
+    },
+    {
+      "item_id": "item-507af3c1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The ballad of TIGIT"
+    },
+    {
+      "item_id": "item-8bd48e20",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dropbox CEO Drew Houston to step down"
+    },
+    {
+      "item_id": "item-59110a9e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chemistry behind the Garden Grove chemical tank"
+    },
+    {
+      "item_id": "item-e5b4a83d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Forgotten Steinwinter Supercargo Is Unlike Anything on the Road Today"
+    },
+    {
+      "item_id": "item-172cf34c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A few interesting modern pixel fonts – Unsung"
+    },
+    {
+      "item_id": "item-cb98fc71",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Real Cost of Owning a Home"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-27/blog.md",
+    "show_notes_path": "out/2026-05-27/show_notes.md",
+    "script_path": "out/2026-05-27/script_2hosts.md",
+    "audio_path": "out/2026-05-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19138,
+        "output_tokens": 7081,
+        "cost_usd": 0.054543
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37796,
+        "output_tokens": 7377,
+        "cost_usd": 0.224043
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4348,
+        "cost_usd": 0.052176
+      }
+    ],
+    "total_cost_usd": 0.330762
+  }
+}

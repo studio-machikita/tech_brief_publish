@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-06-27</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Previewing GPT-5.6 Sol: a next-generation model / How agents are transforming work / Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | Amazon Web Services">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-06-27/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-06-27/">
+<meta property="og:description" content="2026-06-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-06-27/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Previewing GPT-5.6 Sol: a next-generation model / How agents are transforming work / Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | Amazon Web Services",
+    "description": "2026-06-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-06-27",
+    "image": "https://technewsradio.tokyo/episodes/2026-06-27/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-06-27/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Previewing GPT-5.6 Sol: a next-generation model / How agents are transforming work / Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | Amazon Web Services",
+    "description": "2026-06-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-06-27",
+    "url": "https://technewsradio.tokyo/episodes/2026-06-27/",
+    "duration": "PT13M7S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-06-27/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-06-27%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-06-27/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-06-27/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-06-27"
+subtitle: "GPT-5.6 Sol プレビュー：次世代モデルの紹介 / エージェントが仕事を変革する方法 / 完全なライフサイクル管理が可能な独立したサンドボックスを..."
+date: "2026-06-27"
+vol: 88
+topics:
+  - AI
+  - LLM
+  - Security
+  - Business
+  - Cloud
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-06-27
+
+*📖 約11分で読めます ｜ 🏷️ AI, LLM, Security, Business, Cloud*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **GPT-5.6 Sol プレビュー：次世代モデルの紹介** — OpenAIが次世代モデルGPT-5.6 Solをプレビュー公開
+- 🤖 **エージェントが仕事を変革する方法** — AIエージェントが仕事のあり方を根本から変える
+- ☁️ **完全なライフサイクル管理が可能な独立したサンドボックスを実行：AWS LambdaがマイクロVMを導入 | Amazon Web Services** — AWS LambdaがMicroVMで独立した仮想マシン環境を提供
+- 🤖 **米政府がGPT-5.6の利用者を決定へ** — GPT-5.6の利用は米政府が承認した企業に限定
+- 🤖 **MLSysのための現代的なGPUプログラミング** — MLSys向けGPUプログラミングの解説書が公開
+- 🤖 **GitHub - workweave/router: エージェントシステム向けモデルルーター。50ms以内にすべてのプロンプトを最適なモデルへルーティング。エンドポイントを変更するだけでコストを40〜70%削減。** — AIエージェント向けモデルルーターでコストを最大70%削減
+
+---
+
+## 🤖 GPT-5.6 Sol プレビュー：次世代モデルの紹介
+\`AI\` \`LLM\` \`Security\`
+
+<details>
+<summary>📄 原題: Previewing GPT-5.6 Sol: a next-generation model</summary>
+</details>
+
+> **一言で**: OpenAIが次世代モデルGPT-5.6 Solをプレビュー公開
+
+- 要点1: OpenAIがGPT-5.6 Solを次世代モデルとして発表
+- 要点2: コーディング・科学・サイバーセキュリティ分野で能力が向上
+- 要点3: これまでで最も高度な安全対策スタックを搭載
+
+💡 **なぜ重要か**
+AIモデルの能力向上と安全性の両立は、業界全体の課題です。OpenAIがサイバーセキュリティやコーディング支援に特化した強化を行ったことは、企業や開発者の実務ニーズに応える動きと見られています。 高度なコーディング支援や科学的推論の強化は、ソフトウェア開発や研究の現場を大きく変える可能性があります。また、安全対策の強化は、AIの企業導入を後押しする要因になると見られています。
+
+🎯 **今日のアクション**
+GPT-5.6 Solのプレビューを早期に試し、自社のコーディングやセキュリティ業務への適用可能性を評価しておくことをお勧めします。特にサイバーセキュリティ担当者は、AIを使った脅威分析の活用を検討する価値があります。
+
+🔗 [原文を読む](https://openai.com/index/previewing-gpt-5-6-sol/)
+
+🔗 [原文を読む](https://openai.com/index/previewing-gpt-5-6-sol)
+
+---
+
+## 🤖 エージェントが仕事を変革する方法
+\`AI\` \`LLM\` \`Business\`
+
+<details>
+<summary>📄 原題: How agents are transforming work</summary>
+</details>
+
+> **一言で**: AIエージェントが仕事のあり方を根本から変える
+
+- OpenAIの新研究論文がAIエージェントの業務変革効果を報告
+- より長く複雑なタスクをエージェントが自律的にこなせるように
+- 職種を問わず生産性向上の恩恵が広がりつつある
+
+💡 **なぜ重要か**
+これまでのAIは単発の質問応答が中心でした。しかし最近のAIエージェント（自律的に複数ステップのタスクを実行するAI）は、計画・実行・修正を繰り返せるようになっています。OpenAIがこの変化を研究論文として発表したことで、現場での活用が本格化するフェーズに入ったと見られています。 単純作業の自動化にとどまらず、知識労働の中核部分までエージェントが担う時代が近づいています。エンジニアの役割はコードを書くことから、エージェントの設計・監督・評価へとシフトしていく可能性があります。採用や組織設計にも長期的な影響が出るでしょう。
+
+🎯 **今日のアクション**
+自社業務の中で「繰り返し発生する複数ステップの作業」を洗い出し、エージェント化できるか検討してみましょう。まずは小さなパイロット実験から始め、精度と安全性を確認しながら段階的に拡張するアプローチが現実的です。
+
+🔗 [原文を読む](https://openai.com/index/how-agents-are-transforming-work)
+
+---
+
+## ☁️ 完全なライフサイクル管理が可能な独立したサンドボックスを実行：AWS LambdaがマイクロVMを導入 | Amazon Web Services
+\`Cloud\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | Amazon Web Services</summary>
+</details>
+
+> **一言で**: AWS LambdaがMicroVMで独立した仮想マシン環境を提供
+
+- カーネルやリソースを共有しないVM（仮想マシン）レベルの完全分離を実現
+- 起動・再開が高速で、状態を最大8時間保持できる
+- インフラ管理不要のサーバーレスとして提供される新しい実行単位
+- ライフサイクル（起動から終了まで）を開発者が完全制御できる
+
+💡 **なぜ重要か**
+従来のAWS Lambdaは関数単位の短命な実行環境で、セッション間でカーネルが共有される設計でした。AIエージェントやコード実行サンドボックスなど、より強い分離と状態保持を必要とするユースケースが増えており、VM単位の分離が求められていました。 サーバーレスの適用範囲が広がり、セキュリティ要件の厳しいマルチテナント環境やAIエージェントの実行基盤としての採用が進むと見られます。コンテナとVMの中間的な選択肢が整うことで、クラウドの実行モデルの多様化が加速するでしょう。
+
+🎯 **今日のアクション**
+AIエージェントや外部コード実行が必要なサービスを開発しているチームは、MicroVMsのプレビューを早期に試し、既存のコンテナやLambda関数との使い分けを検討してください。特にセキュリティ分離が重要な用途では優先的に評価する価値があります。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/)
+
+---
+
+## 🤖 米政府がGPT-5.6の利用者を決定へ
+\`AI\` \`LLM\` \`Business\`
+
+<details>
+<summary>📄 原題: U.S. government will decide who gets to use GPT-5.6</summary>
+</details>
+
+> **一言で**: GPT-5.6の利用は米政府が承認した企業に限定
+
+- OpenAIはGPT-5.6を、米政府が審査・承認したパートナー企業に限定公開
+- 政府関与による利用制限は、AIモデルの普及に新たな規制の枠組みを示す
+- The Informationが前日に報じた内容をOpenAIが公式に確認した形
+
+💡 **なぜ重要か**
+強力なAIモデルの拡散リスクを懸念する米政府が、利用者の審査に関与する前例のない動きです。国家安全保障や輸出規制の観点から、AIを「管理すべき技術」として扱う方向性が鮮明になっています。 政府がAIモデルの利用許可に介入するモデルが定着すれば、企業はAIサービスの導入に政府審査を経る必要が生じる可能性があります。競合他社や海外のAI開発にも規制圧力が波及し、業界全体の競争環境が大きく変わりそうです。
+
+🎯 **今日のアクション**
+自社がGPT-5.6の対象パートナーになれるか確認し、米政府の審査基準や輸出規制の動向を継続的に追うことが重要です。規制対応の専門家と連携し、AI調達戦略を見直す準備を始めましょう。
+
+🔗 [原文を読む](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/)
+
+🔗 [原文を読む](https://www.theinformation.com/briefings/openai-releases-gpt-5-6-u-s-government-approved-customers)
+
+---
+
+## 🤖 MLSysのための現代的なGPUプログラミング
+\`AI\` \`Hardware\` \`LLM\`
+
+<details>
+<summary>📄 原題: Modern GPU Programming For MLSys &amp;#8212; Modern GPU Programming For MLSys</summary>
+</details>
+
+> **一言で**: MLSys向けGPUプログラミングの解説書が公開
+
+- 機械学習システム（MLSys）向けに、GPUプログラミングを体系的に解説するコンテンツ
+- 「Part I: Understanding the GPU」という章立てから、基礎から順を追う構成と見られる
+- Web上で検索・ナビゲーション機能を備えた、読みやすいドキュメントサイト形式で公開
+
+💡 **なぜ重要か**
+LLMをはじめとする大規模モデルの普及で、GPUを効率よく使いこなすスキルの需要が急増しています。しかし、MLSysの文脈でGPUプログラミングを体系的に学べる日本語・英語の資料はまだ少なく、こうした教材の登場は歓迎されています。 GPUの低レイヤー（ハードウェアに近い層）を理解するエンジニアが増えれば、モデルの推論速度や学習効率の改善が加速します。クラウドコストの削減にも直結するため、AI開発全体の生産性向上につながると考えられます。
+
+🎯 **今日のアクション**
+AIモデルの開発・運用に携わるエンジニアは、このドキュメントでGPUアーキテクチャの基礎を学ぶ機会として活用を検討してみてください。特にMLSysの最適化に取り組むチームにとって、体系的な知識整理に役立つ可能性があります。
+
+🔗 [原文を読む](https://mlc.ai/modern-gpu-programming-for-mlsys/)
+
+---
+
+## 🤖 GitHub - workweave/router: エージェントシステム向けモデルルーター。50ms以内にすべてのプロンプトを最適なモデルへルーティング。エンドポイントを変更するだけでコストを40〜70%削減。
+\`AI\` \`LLM\` \`OSS\`
+
+<details>
+<summary>📄 原題: GitHub - workweave/router: Model router for agentic systems. Routes every prompt to the right model in &amp;lt;50ms. Cut costs 40-70% with just an endpoint change.</summary>
+</details>
+
+> **一言で**: AIエージェント向けモデルルーターでコストを最大70%削減
+
+- workweave/routerは、各プロンプトを最適なAIモデルへ50ms未満で振り分けるOSSツール
+- エンドポイントを変更するだけで導入でき、コストを40〜70%削減できるとされる
+- エージェント型システム（自律的にタスクをこなすAIシステム）向けに設計されている
+
+💡 **なぜ重要か**
+LLMの利用コストは企業にとって無視できない課題になっています。タスクの複雑さに関わらず高性能モデルを使い続けると費用がかさむため、プロンプトの内容に応じてモデルを自動選択するルーティング技術への注目が高まっています。 モデルルーティングが普及すれば、AIシステムの運用コスト構造が変わります。高性能モデルと軽量モデルを使い分ける設計が標準化され、コスト最適化がインフラ設計の重要な要素になるでしょう。
+
+🎯 **今日のアクション**
+AIエージェントを運用しているチームは、workweave/routerのリポジトリを確認し、既存のエンドポイントと置き換えた場合のコスト削減効果を検証してみる価値があります。
+
+🔗 [原文を読む](https://github.com/workweave/router)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、**AIと実行基盤の両面で「自律性」と「独立性」が高まっている**というトレンドです。OpenAIの次世代モデルやAIエージェントの台頭は、人間の介入を最小化しながら複雑なタスクを自律的にこなす方向へAIが急速に進化していることを示しています。一方、AWS LambdaのMicroVM導入は、そうした自律的なAIワークロードを安全かつ効率的に動かすためのインフラ側の対応とも読み取れ、AIの高度化とクラウド基盤の進化が相互に牽引し合っている構図が浮かび上がります。さらに、AIエージェントが仕事のあり方を根本から変えるという文脈では、単なるモデルの性能向上にとどまらず、実際のビジネスプロセスへの組み込みが本格化する段階に入っており、それを支える堅牢な実行環境の整備が業界全体の喫緊の課題となっていると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **GPT-5.6 Sol プレビュー：次世代モデルの紹介**: GPT-5.6 Solのプレビューを早期に試し、自社のコーディングやセキュリティ業務への適用可能性を評価しておくことをお勧めします。特にサイバーセキュリティ担当者は、AIを使った脅威分析の活用を検討する価値があります。
+2. **エージェントが仕事を変革する方法**: 自社業務の中で「繰り返し発生する複数ステップの作業」を洗い出し、エージェント化できるか検討してみましょう。まずは小さなパイロット実験から始め、精度と安全性を確認しながら段階的に拡張するアプローチが現実的です。
+3. **完全なライフサイクル管理が可能な独立したサンドボックスを実行：AWS LambdaがマイクロVMを導入 | Amazon Web Services**: AIエージェントや外部コード実行が必要なサービスを開発しているチームは、MicroVMsのプレビューを早期に試し、既存のコンテナやLambda関数との使い分けを検討してください。特にセキュリティ分離が重要な用途では優先的に評価する価値があります。
+
+---
+
+## 🔗 出典一覧
+- [GPT-5.6 Sol プレビュー：次世代モデルの紹介](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [GPT-5.6 Sol プレビュー：次世代モデルの紹介](https://openai.com/index/previewing-gpt-5-6-sol)
+- [エージェントが仕事を変革する方法](https://openai.com/index/how-agents-are-transforming-work)
+- [完全なライフサイクル管理が可能な独立したサンドボックスを実行：AWS LambdaがマイクロVMを導入 | Amazon Web Services](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/)
+- [米政府がGPT-5.6の利用者を決定へ](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/)
+- [米政府がGPT-5.6の利用者を決定へ](https://www.theinformation.com/briefings/openai-releases-gpt-5-6-u-s-government-approved-customers)
+- [MLSysのための現代的なGPUプログラミング](https://mlc.ai/modern-gpu-programming-for-mlsys/)
+- [GitHub - workweave/router: エージェントシステム向けモデルルーター。50ms以内にすべてのプロンプトを最適なモデルへルーティング。エンドポイントを変更するだけでコストを40〜70%削減。](https://github.com/workweave/router)`;
+const notesMd = `# Tech News Radio Show Notes - #088 (2026-06-27)
+
+## エピソード情報
+- **エピソード**: #088
+- **日付**: 2026-06-27
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol)
+- [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work)
+- [Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | Amazon Web Services](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/)
+
+### 注目の深掘り
+- [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/)
+- [U.S. government will decide who gets to use GPT-5.6](https://www.theinformation.com/briefings/openai-releases-gpt-5-6-u-s-government-approved-customers)
+
+### 小ネタ・その他
+- [Modern GPU Programming For MLSys &#8212; Modern GPU Programming For MLSys](https://mlc.ai/modern-gpu-programming-for-mlsys/)
+- [GitHub - workweave/router: Model router for agentic systems. Routes every prompt to the right model in &lt;50ms. Cut costs 40-70% with just an endpoint change.](https://github.com/workweave/router)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
