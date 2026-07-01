@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-17",
+  "episode_date_local": "2026-06-17",
+  "content_snapshot_date": "2026-06-17",
+  "show_length_sec": 745,
+  "audio_size": 71548844,
+  "generated_at": "2026-06-16T22:28:11.522918+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1413a7b6",
+      "title": "Running local models is good now",
+      "fingerprint": "1413a7b6739e7163510aa3aa4870d7dd",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1ed460d1",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "fingerprint": "1ed460d14e6daf5dc1ae07d13a909e46",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-8256a511",
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "fingerprint": "8256a511f12908018943b6d514395d45",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-867678cc",
+      "title": "GrapheneOS has been ported to Android 17 and official releases are coming soon",
+      "fingerprint": "867678ccbf22bdbd0c34a99ff9eff9d4",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-363ab01d",
+      "title": "Stop using JWTs",
+      "fingerprint": "363ab01da543d6a95a6700b876c068fe",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9033afec",
+      "title": "10Gb/s Ethernet: switching to a Broadcom SFP+ module",
+      "fingerprint": "9033afec62a14da7afb4fb79cbcf6904",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-85b86ff1",
+      "reason": "LINK_ONLY: Source intent uncertain: URLに「anysphere」と記載されているが、タイトルでは「Cursor」と異なる企業名が使用されており、この矛盾と$60B規模の大型買収という非現実的な金額設定から、風刺またはジョーク記事の可能性がある。ただしReutersドメインを使用しているため完全には判定できない。",
+      "title": "SpaceX to buy Cursor for $60B"
+    },
+    {
+      "item_id": "item-6f0a571d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Has AI Already Killed How-To Nonfiction? Sales Trends, My Personal Data, and What It Might Mean for the Future - The Blog of Author Tim Ferriss"
+    },
+    {
+      "item_id": "item-67582f68",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Making HTTP requests from a container that has no curl, using bash /dev/tcp"
+    },
+    {
+      "item_id": "item-adc73335",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "frood, an Alpine initramfs NAS"
+    },
+    {
+      "item_id": "item-6f343896",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple is about to make Hide My Email useless"
+    },
+    {
+      "item_id": "item-6a0082bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Calvin and Hobbes and the price of integrity"
+    },
+    {
+      "item_id": "item-479c496c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "But yak shaving is fun"
+    },
+    {
+      "item_id": "item-c1417344",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple's weird anti-nausea dots cured my car sickness"
+    },
+    {
+      "item_id": "item-ccc334f3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mechanical Watch – Bartosz Ciechanowski"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-17/blog.md",
+    "show_notes_path": "out/2026-06-17/show_notes.md",
+    "script_path": "out/2026-06-17/script_2hosts.md",
+    "audio_path": "out/2026-06-17/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-17/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-17/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19365,
+        "output_tokens": 7265,
+        "cost_usd": 0.05569
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 36993,
+        "output_tokens": 7192,
+        "cost_usd": 0.218859
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4180,
+        "cost_usd": 0.050159999999999996
+      }
+    ],
+    "total_cost_usd": 0.324709
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-25",
+  "episode_date_local": "2026-05-25",
+  "content_snapshot_date": "2026-05-25",
+  "show_length_sec": 758,
+  "audio_size": 72789164,
+  "generated_at": "2026-05-24T21:12:07.894311+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1b532ae0",
+      "title": "AI Chip Component Costs: Memory at 63% | Epoch AI",
+      "fingerprint": "1b532ae0c58f623fd4386803e1cd1a89",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-99a74756",
+      "title": "Reasonix — DeepSeek-native AI coding agent",
+      "fingerprint": "99a747563a750f11c5784f33380dfa7e",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bc338fb2",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Backend Code Generation",
+      "fingerprint": "bc338fb27c28a45e57d9264e87963bbe",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8ab0a23c",
+      "title": "Migrating from Go to Rust | corrode Rust Consulting",
+      "fingerprint": "8ab0a23c68140d2cf60a460fb4b9e234",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5f9aa485",
+      "title": "defeating git rigour fatigue with jujutsu",
+      "fingerprint": "5f9aa4853760679faec053a90cdbb74c",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1c024e55",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "fingerprint": "1c024e5512ce945a541add0c96613afa",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-fd97f651",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Configuring a Go HTTP Server for Unencrypted HTTP/2 (h2c) | ClarityBoss Blog"
+    },
+    {
+      "item_id": "item-3b88a358",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend."
+    },
+    {
+      "item_id": "item-f2ebf908",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "50 Hours to Draw Some Lines - Doug MacDowell"
+    },
+    {
+      "item_id": "item-6d183fbf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mastering Dyalog APL &#8212; Mastering Dyalog APL"
+    },
+    {
+      "item_id": "item-3e704859",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tritium"
+    },
+    {
+      "item_id": "item-23d5cc1f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft open-sources &quot;the earliest DOS source code discovered to date&quot;"
+    },
+    {
+      "item_id": "item-794b6877",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build adafruit projects right from Firefox"
+    },
+    {
+      "item_id": "item-da40d024",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CBP Directive No. 3340-049B: Border Search of Electronic Devices"
+    },
+    {
+      "item_id": "item-5735dc32",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Australia Four-Day Work Week Study Data Shows Boosted Productivity"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-25/blog.md",
+    "show_notes_path": "out/2026-05-25/show_notes.md",
+    "script_path": "out/2026-05-25/script_2hosts.md",
+    "audio_path": "out/2026-05-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18406,
+        "output_tokens": 7139,
+        "cost_usd": 0.054101
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37708,
+        "output_tokens": 7378,
+        "cost_usd": 0.223794
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4183,
+        "cost_usd": 0.050196000000000005
+      }
+    ],
+    "total_cost_usd": 0.328091
+  }
+}

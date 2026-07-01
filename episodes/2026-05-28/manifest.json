@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-28",
+  "episode_date_local": "2026-05-28",
+  "content_snapshot_date": "2026-05-28",
+  "show_length_sec": 765,
+  "audio_size": 73470764,
+  "generated_at": "2026-05-27T22:11:46.409015+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2297f89d",
+      "title": "TR | 2026-05",
+      "fingerprint": "2297f89d84a66701342d10d6350b3573",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-f0407b54",
+      "title": "spec: generic methods for Go · Issue #77273 · golang/go",
+      "fingerprint": "f0407b54a86d92ea10d91b1a4e451292",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5c0a5156",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "fingerprint": "5c0a5156406edd30b5892d66a2e8c098",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-53282001",
+      "title": "Rust (and Slint) on a jailbroken Kindle.",
+      "fingerprint": "53282001aaf2073b1ed665892d27c1b0",
+      "score": 42,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3e939db6",
+      "title": "Improving AI labels for viewers and creators",
+      "fingerprint": "3e939db6c7568a124c85bff133c856a6",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-96898bb8",
+      "title": "DuckDuckGo",
+      "fingerprint": "96898bb8544fa56b03c08cdc09886c6c",
+      "score": 25,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-24c738a8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Apple and Google are doing to your push notifications | Jacques Corby"
+    },
+    {
+      "item_id": "item-f132212b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Last.fm is now independent"
+    },
+    {
+      "item_id": "item-390d31ed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Incident with Pull Requests, Issues, Git Operations and API Requests"
+    },
+    {
+      "item_id": "item-068567df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stress disrupts hippocampal integration of overlapping events, memory inference"
+    },
+    {
+      "item_id": "item-22f7e3e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mini Micro"
+    },
+    {
+      "item_id": "item-063c0633",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "iPhones Running iOS 26 Are Freezing FaceTime Calls When They Detect Nudity"
+    },
+    {
+      "item_id": "item-4119fe43",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thranpages :: How Did I Do :: SimCity 3k in 4k"
+    },
+    {
+      "item_id": "item-c2b4d20c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Canada to order military plane fleet from Sweden in shift from US suppliers"
+    },
+    {
+      "item_id": "item-b6433f2e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Freediving, Embodiment and Humanity"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-28/blog.md",
+    "show_notes_path": "out/2026-05-28/show_notes.md",
+    "script_path": "out/2026-05-28/script_2hosts.md",
+    "audio_path": "out/2026-05-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19007,
+        "output_tokens": 6989,
+        "cost_usd": 0.053952
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38037,
+        "output_tokens": 7617,
+        "cost_usd": 0.228366
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4246,
+        "cost_usd": 0.050952
+      }
+    ],
+    "total_cost_usd": 0.33327
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-02",
+  "episode_date_local": "2026-05-02",
+  "content_snapshot_date": "2026-05-02",
+  "show_length_sec": 731,
+  "audio_size": 70260524,
+  "generated_at": "2026-05-01T21:08:21.735138+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-23fe3658",
+      "title": "I&#x27;ve Covered Robots for Years. This One Is Different",
+      "fingerprint": "23fe3658a1baf46a38cde9b7dc41274e",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2cf04233",
+      "title": "GitHub - Lum1104/Understand-Anything: Graphs that teach &gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "fingerprint": "2cf04233f7cc2238210698e10e6efec7",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "GitHub AI and ML",
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-b0160d2d",
+      "title": "Artemis II fault tolerance",
+      "fingerprint": "b0160d2d760718acf48e95adfc59a058",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-77a060c7",
+      "title": "GitHub - xodn348/destiny: 오늘의 운세 — daily fortune Claude Code plugin (/destiny)",
+      "fingerprint": "77a060c7fdd6f2e4f2495de049a01bd5",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fe7f7d76",
+      "title": "Spotify adds &#x27;Verified&#x27; badge to distinguish human acts from AI",
+      "fingerprint": "fe7f7d76791ead6db3ffea3b9b094053",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0ee7e1e9",
+      "title": "AI Water Use Distractions and Lessons for California - California WaterBlog",
+      "fingerprint": "0ee7e1e92da487ed87e24b46301f82b0",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-fd518861",
+      "reason": "LINK_ONLY: Source classified as joke: 「goblins」（ゴブリン）という非技術的で幻想的な用語を使用してAIの動作を説明することは、実在しない現象を風刺的に描写しており、エイプリルフールやネタ記事の典型的な手法である。技術的な信頼性を損なう表現である。",
+      "title": "Where the goblins came from"
+    },
+    {
+      "item_id": "item-cc5a9dea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - whohas/whohas: Cross-platform software search"
+    },
+    {
+      "item_id": "item-2dda9fb7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Advanced Account Security"
+    },
+    {
+      "item_id": "item-e67aa456",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Credit Cards Are Vulnerable To Brute Force Kind Attacks"
+    },
+    {
+      "item_id": "item-ad3c04d7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "City Learns Flock Accessed Cameras in Children&#x27;s Gymnastics Room as a Sales Pitch Demo, Renews Contract Anyway"
+    },
+    {
+      "item_id": "item-c19f6591",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "It’s Possible to Learn in Our Sleep. Should We?"
+    },
+    {
+      "item_id": "item-e25fd29d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introduction • Whimsical Animations"
+    },
+    {
+      "item_id": "item-7a5c6c32",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TI-84 Evo Graphing Calculator | Texas Instruments"
+    },
+    {
+      "item_id": "item-0fd1efc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sally Anne McKee | 1963 - 2025 | Online-Tribute.com"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-02/blog.md",
+    "show_notes_path": "out/2026-05-02/show_notes.md",
+    "script_path": "out/2026-05-02/script_2hosts.md",
+    "audio_path": "out/2026-05-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19286,
+        "output_tokens": 7098,
+        "cost_usd": 0.054776
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38068,
+        "output_tokens": 7251,
+        "cost_usd": 0.222969
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4047,
+        "cost_usd": 0.048564
+      }
+    ],
+    "total_cost_usd": 0.326309
+  }
+}

@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-05-11</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber / Local AI Needs to be the Norm / How lakebase architecture delivers 5x faster Postgres writes">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-05-11/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-05-11/">
+<meta property="og:description" content="2026-05-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-05-11/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber / Local AI Needs to be the Norm / How lakebase architecture delivers 5x faster Postgres writes",
+    "description": "2026-05-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-05-11",
+    "image": "https://technewsradio.tokyo/episodes/2026-05-11/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-05-11/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber / Local AI Needs to be the Norm / How lakebase architecture delivers 5x faster Postgres writes",
+    "description": "2026-05-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-05-11",
+    "url": "https://technewsradio.tokyo/episodes/2026-05-11/",
+    "duration": "PT13M27S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-05-11/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-05-11%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-05-11/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-05-11/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-05-11"
+subtitle: "GPT-5.5およびGPT-5.5-Cyberによるサイバーセキュリティ向け信頼アクセスの拡張 / ローカルAIを標準に / レイクベースアーキテクチャが..."
+date: "2026-05-11"
+vol: 41
+topics:
+  - AI
+  - Security
+  - LLM
+  - Cloud
+  - OSS
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-05-11
+
+*📖 約12分で読めます ｜ 🏷️ AI, Security, LLM, Cloud, OSS*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **GPT-5.5およびGPT-5.5-Cyberによるサイバーセキュリティ向け信頼アクセスの拡張** — OpenAIがサイバー防衛者向けにGPT-5.5を開放
+- 🤖 **ローカルAIを標準に** — クラウドAI依存を脱し、ローカルAIを標準にすべき
+- 📊 **レイクベースアーキテクチャがPostgresの書き込みを5倍高速化する仕組み** — LakebaseアーキテクチャでPostgreSQLの書き込みが5倍高速化
+- 🌐 **冪等性は、2回目のリクエストが異なるまでは簡単だ** — 冪等性は「2回目のリクエストが異なる」ときに崩れる
+- ☁️ **AWSに出戻りして、なぜ去ったかを改めて思い知らされた** — AWSに出戻った開発者が複雑さに再び直面
+- 🔒 **どのVPSやクラウドプロバイダーでも、初回SSH接続時のMITM攻撃を防ぐ方法 | 暗号技術・テクノロジー** — SSH初回接続時のMITM攻撃をVPSで防ぐ手法
+
+---
+
+## 🤖 GPT-5.5およびGPT-5.5-Cyberによるサイバーセキュリティ向け信頼アクセスの拡張
+\`AI\` \`Security\` \`LLM\`
+
+<details>
+<summary>📄 原題: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber</summary>
+</details>
+
+> **一言で**: OpenAIがサイバー防衛者向けにGPT-5.5を開放
+
+- OpenAIが「Trusted Access for Cyber」プログラムをGPT-5.5とGPT-5.5-Cyberに拡大
+- 対象は審査済みの防衛者（セキュリティ研究者など）に限定
+- 脆弱性調査の加速と重要インフラ保護が主な目的
+
+💡 **なぜ重要か**
+AIの高度化に伴い、攻撃者がAIを悪用するリスクが高まっています。一方で、防衛側の研究者がAIを使えない状況では非対称な不利が生じます。OpenAIはこの非対称性を解消するため、審査を通過した正規の防衛者にのみ強力なモデルへのアクセスを認める仕組みを整えてきました。今回のGPT-5.5系列への拡大は、その取り組みをさらに前進させるものです。 セキュリティ分野でのAI活用が「信頼できる組織だけが使える高性能モデル」という形で標準化されていく可能性があります。他のAIベンダーも同様の審査付きアクセス制度を導入する流れが加速し、セキュリティ研究者の資格認定や組織審査の重要性が増すと見られます。
+
+🎯 **今日のアクション**
+セキュリティ研究者や防衛系組織のリーダーは、OpenAIのTrusted Access for Cyberプログラムへの参加資格を確認し、申請プロセスを早めに把握しておくことをお勧めします。
+
+🔗 [原文を読む](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber)
+
+---
+
+## 🤖 ローカルAIを標準に
+\`AI\` \`Cloud\` \`OSS\`
+
+<details>
+<summary>📄 原題: Local AI Needs to be the Norm</summary>
+</details>
+
+> **一言で**: クラウドAI依存を脱し、ローカルAIを標準にすべき
+
+- 開発者がOpenAIやAnthropicのAPIを安易に組み込む傾向が広がっている
+- クラウド上のAIモデルへの依存は、アプリの設計として根本的な問題をはらむ
+- この「手抜き」な実装が、次世代のソフトウェアの質を下げる恐れがある
+- ローカルで動くAIモデルを標準的な選択肢にすべきだという主張
+
+💡 **なぜ重要か**
+生成AIの普及により、多くの開発者がクラウドAPIを呼び出すだけでAI機能を実装するようになっています。手軽な反面、外部サービスへの依存度が高まり、プライバシーやコスト、可用性のリスクが見過ごされがちです。ローカルで動作する小型AIモデルの性能が向上している今、この問題は改めて議論されるべき段階に来ています。 クラウドAI依存が常態化すると、特定ベンダーへのロックインが業界全体に広がります。障害時の影響範囲拡大やデータの外部送信リスクも増します。一方でローカルAIが普及すれば、オフライン動作やプライバシー保護の面で新たな設計の選択肢が生まれます。
+
+🎯 **今日のアクション**
+新機能にAIを組み込む際は、クラウドAPIが本当に必要かを最初に問い直しましょう。ローカルで動くモデルで代替できないか検討し、外部依存を意図的な設計判断として記録する習慣をつけることが重要です。
+
+🔗 [原文を読む](https://unix.foo/posts/local-ai-needs-to-be-norm/)
+
+---
+
+## 📊 レイクベースアーキテクチャがPostgresの書き込みを5倍高速化する仕組み
+\`Data\` \`Cloud\` \`OSS\`
+
+> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
+
+<details>
+<summary>📄 原題: How lakebase architecture delivers 5x faster Postgres writes</summary>
+</details>
+
+> **一言で**: LakebaseアーキテクチャでPostgreSQLの書き込みが5倍高速化
+
+- 要点1: Lakebaseアーキテクチャを採用することでPostgreSQLの書き込み速度が最大5倍向上
+- 要点2: 記事タイトルから、従来のPostgreSQLの書き込みボトルネックを解消する設計と見られる
+- 要点3: データレイク（大規模データ保管基盤）とデータベースを組み合わせた新しいアプローチ
+
+💡 **なぜ重要か**
+PostgreSQLは世界中で広く使われるオープンソースのデータベースですが、大量書き込み時のパフォーマンスは長年の課題です。Lakebaseはデータレイクの設計思想をデータベースに取り込むアーキテクチャで、この課題を解決しようとする動きが注目されています。 PostgreSQLの書き込み性能が大幅に改善されれば、リアルタイム処理や大規模データ基盤の設計が変わる可能性があります。既存のRDBMS（リレーショナルデータベース）の置き換えや補完として、Lakebaseアーキテクチャの採用が広がるかもしれません。
+
+🎯 **今日のアクション**
+PostgreSQLの書き込みパフォーマンスに課題を感じているチームは、Lakebaseアーキテクチャの詳細を確認し、自社のワークロードへの適用可能性を検討してみてください。
+
+🔗 [原文を読む](https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes)
+
+---
+
+## 🌐 冪等性は、2回目のリクエストが異なるまでは簡単だ
+\`Web\` \`DevOps\` \`Cloud\`
+
+> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
+
+<details>
+<summary>📄 原題: Idempotency is easy until the second request is different</summary>
+</details>
+
+> **一言で**: 冪等性は「2回目のリクエストが異なる」ときに崩れる
+
+- 冪等性（べきとうせい）とは、同じ操作を何度繰り返しても結果が変わらない性質のこと
+- 問題の本質は「2回目のリクエストが最初と異なる内容だった場合」の扱いにある
+- 単純なキャッシュや重複排除だけでは、この状況に対応しきれない
+- APIやシステム設計において、冪等性の実装は想定外のケースで破綻しやすい
+
+💡 **なぜ重要か**
+冪等性はAPIやマイクロサービス設計の基本概念です。ネットワーク障害やリトライ処理が当たり前の分散システムでは、同じリクエストが複数回届くことがあります。そのため「何度呼んでも安全」な設計が求められます。しかし、リクエストの内容が変わった場合の挙動は見落とされがちで、実装上の落とし穴になりやすいテーマです。 分散システムやクラウドネイティブな環境が普及するにつれ、冪等性の正確な実装はより重要になります。特に決済や在庫管理など、データの整合性が求められる領域では、設計ミスが深刻な障害につながります。このテーマへの理解が深まることで、より堅牢なAPI設計の標準化が進むと見られています。
+
+🎯 **今日のアクション**
+APIを設計する際は「同じキーで異なる内容のリクエストが来たらどう扱うか」を明示的に仕様化しましょう。エラーを返すのか、最初のリクエストを優先するのか、ポリシーをチームで合意しておくことが重要です。
+
+🔗 [原文を読む](https://blog.dochia.dev/blog/idempotency/)
+
+---
+
+## ☁️ AWSに出戻りして、なぜ去ったかを改めて思い知らされた
+\`Cloud\` \`DevOps\`
+
+> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
+
+<details>
+<summary>📄 原題: I returned to AWS and was reminded why I left</summary>
+</details>
+
+> **一言で**: AWSに出戻った開発者が複雑さに再び直面
+
+- 要点1: AWSを一度離れた開発者が戻り、以前と同じ課題に気づいた体験談
+- 要点2: AWSの複雑な設計や運用コストが、離脱の根本原因だったと再確認
+- 要点3: クラウド選定は技術力だけでなく、運用負荷の現実も考慮が必要
+
+💡 **なぜ重要か**
+AWSはクラウド市場のリーダーですが、サービス数の多さや設定の複雑さへの批判は根強くあります。開発者がシンプルさを求めて他社クラウドやオンプレミスへ移行するケースは珍しくなく、この記事はその実体験を語るものだと見られています。 クラウド大手への依存リスクや複雑性の問題は、業界全体で議論が続いています。開発者体験（DX）を重視する動きが強まる中、AWSも含めた各社はシンプルさの改善を迫られるでしょう。
+
+🎯 **今日のアクション**
+クラウド選定時は機能の豊富さだけでなく、自チームの運用能力と学習コストを事前に評価することが重要です。出戻りや乗り換えのコストも含めて、長期視点で判断しましょう。
+
+🔗 [原文を読む](http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html)
+
+---
+
+## 🔒 どのVPSやクラウドプロバイダーでも、初回SSH接続時のMITM攻撃を防ぐ方法 | 暗号技術・テクノロジー
+\`Security\` \`Cloud\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Stop MITM on the first SSH connection, on any VPS or cloud provider | Cryptography, Technology</summary>
+</details>
+
+> **一言で**: SSH初回接続時のMITM攻撃をVPSで防ぐ手法
+
+- 要点1: VPSやクラウド環境でのSSH初回接続はMITM（中間者攻撃）のリスクがある
+- 要点2: 筆者はssh-init-vmというツール設計でこの問題への対策を提案している
+- 要点3: 暗号技術の専門家（修士論文も暗号分野）による技術的アプローチ
+
+💡 **なぜ重要か**
+SSHで新しいサーバに初めて接続する際、ホスト鍵の正当性を確認する手段がなく、MITM攻撃を受けても気づきにくいという古くからの課題があります。VPSやクラウドが普及した現代では、この問題が特に顕在化しています。 クラウドインフラの利用が当たり前になる中、SSH初回接続時のセキュリティ強化は運用の基本として広く認識される可能性があります。ssh-init-vmのようなアプローチが標準的なツールチェーンに組み込まれれば、インフラ管理全体のセキュリティ水準が上がると見られています。
+
+🎯 **今日のアクション**
+新規VPSやクラウドインスタンスへのSSH初回接続時は、ホスト鍵のフィンガープリントをコンソールや帯域外（別経路）で事前確認する習慣をつけましょう。ssh-init-vmの設計も参考に、自動化スクリプトへの組み込みを検討してください。
+
+🔗 [原文を読む](https://www.joachimschipper.nl/Stop%20MITM%20on%20the%20first%20SSH%20connection,%20on%20any%20VPS%20or%20cloud%20provider.html)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通して流れているのは、「AIやデータ基盤をいかに現場の要件に最適化するか」という実用化フェーズへの移行という潮流である。OpenAIがサイバー防衛という特定用途に向けてGPT-5.5へのアクセスを拡張した動きは、汎用モデルをドメイン特化で活用する方向性を示しており、AIが「実際の業務課題を解く道具」として成熟しつつあることを象徴している。一方でローカルAI推進論は、クラウド依存がもたらすレイテンシ・プライバシー・コストの問題を直視し、インフラの主導権を利用者側に取り戻そうとする動きであり、AI活用の「分散化」という対抗軸が台頭していることを示す。そしてLakebaseによるPostgreSQLの書き込み高速化は、AIワークロードの増大に伴って従来のデータベースアーキテクチャが限界を迎えつつある現実への応答であり、AI時代のデータ処理需要を支えるインフラ層そのものの再設計が急務になっていることを物語っている。全体として、AIの普及が単なるモデルの進化にとどまらず、セキュリティ・プライバシー・パフォーマンスといった根幹的な課題をスタック全体で解き直す段階に入ったことが、これらのニュースから読み取れる。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **GPT-5.5およびGPT-5.5-Cyberによるサイバーセキュリティ向け信頼アクセスの拡張**: セキュリティ研究者や防衛系組織のリーダーは、OpenAIのTrusted Access for Cyberプログラムへの参加資格を確認し、申請プロセスを早めに把握しておくことをお勧めします。
+2. **ローカルAIを標準に**: 新機能にAIを組み込む際は、クラウドAPIが本当に必要かを最初に問い直しましょう。ローカルで動くモデルで代替できないか検討し、外部依存を意図的な設計判断として記録する習慣をつけることが重要です。
+3. **レイクベースアーキテクチャがPostgresの書き込みを5倍高速化する仕組み**: PostgreSQLの書き込みパフォーマンスに課題を感じているチームは、Lakebaseアーキテクチャの詳細を確認し、自社のワークロードへの適用可能性を検討してみてください。
+
+---
+
+## 🔗 出典一覧
+- [GPT-5.5およびGPT-5.5-Cyberによるサイバーセキュリティ向け信頼アクセスの拡張](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber)
+- [ローカルAIを標準に](https://unix.foo/posts/local-ai-needs-to-be-norm/)
+- [レイクベースアーキテクチャがPostgresの書き込みを5倍高速化する仕組み](https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes)
+- [冪等性は、2回目のリクエストが異なるまでは簡単だ](https://blog.dochia.dev/blog/idempotency/)
+- [AWSに出戻りして、なぜ去ったかを改めて思い知らされた](http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html)
+- [どのVPSやクラウドプロバイダーでも、初回SSH接続時のMITM攻撃を防ぐ方法 | 暗号技術・テクノロジー](https://www.joachimschipper.nl/Stop%20MITM%20on%20the%20first%20SSH%20connection,%20on%20any%20VPS%20or%20cloud%20provider.html)`;
+const notesMd = `# Tech News Radio Show Notes - #041 (2026-05-11)
+
+## エピソード情報
+- **エピソード**: #041
+- **日付**: 2026-05-11
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber](https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber)
+- [Local AI Needs to be the Norm](https://unix.foo/posts/local-ai-needs-to-be-norm/)
+- [How lakebase architecture delivers 5x faster Postgres writes](https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes)
+
+### 注目の深掘り
+- [Idempotency is easy until the second request is different](https://blog.dochia.dev/blog/idempotency/)
+
+### 小ネタ・その他
+- [I returned to AWS and was reminded why I left](http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html)
+- [Stop MITM on the first SSH connection, on any VPS or cloud provider | Cryptography, Technology](https://www.joachimschipper.nl/Stop%20MITM%20on%20the%20first%20SSH%20connection,%20on%20any%20VPS%20or%20cloud%20provider.html)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

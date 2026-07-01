@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-12",
+  "episode_date_local": "2026-04-12",
+  "content_snapshot_date": "2026-04-12",
+  "show_length_sec": 714,
+  "audio_size": 68576684,
+  "generated_at": "2026-04-11T21:37:08.780900+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-c4d209e9",
+      "title": "Cirrus Labs to join OpenAI",
+      "fingerprint": "c4d209e9a8d96b1df2365eee928a7a30",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-963d442f",
+      "title": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit",
+      "fingerprint": "963d442ff4f02ba9e74406b2661f61e6",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-eb85eee1",
+      "title": "Center for Responsible, Decentralized Intelligence at Berkeley",
+      "fingerprint": "eb85eee1f2554838657734a058d743eb",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8acf7081",
+      "title": "AI Cybersecurity After Mythos: The Jagged Frontier",
+      "fingerprint": "8acf7081b1d88e5a9b9890cb8830cf8f",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1c22bea4",
+      "title": "How to build a `git diff` driver &#183; Jamie Tanna | Software Engineer",
+      "fingerprint": "1c22bea44e740f2e6e3e9119cdf9e85d",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-36b1d603",
+      "title": "Keeping a Postgres queue healthy — PlanetScale",
+      "fingerprint": "36b1d603b4f23cb0af7b547bc5d98e6a",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-5fa97a34",
+      "reason": "LINK_ONLY: Source intent uncertain: Zenodo は正当な学術リポジトリですが、447TB/cm²という数値は物理的に非現実的であり、フローログラフェンでの原子スケール不揮発性メモリという主張も検証が困難です。タイトルの過度な主張と正当なプラットフォームの組み合わせにより判定が曖昧です。",
+      "title": "447 Terabytes per Square Centimetre at Zero Retention Energy: Non-Volatile Memory at the Atomic Scale on Fluorographane"
+    },
+    {
+      "item_id": "item-b9a9142a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Advanced Mac Substitute"
+    },
+    {
+      "item_id": "item-c725a580",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What is a property?"
+    },
+    {
+      "item_id": "item-7fd2ffbb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flight Viz"
+    },
+    {
+      "item_id": "item-06b503da",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Mexican surveillance giant you’ve never heard of is now watching the U.S. border"
+    },
+    {
+      "item_id": "item-afda2631",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Surelock"
+    },
+    {
+      "item_id": "item-3c58857a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kalshi wins temporary pause in Arizona criminal case"
+    },
+    {
+      "item_id": "item-2431ea13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "On filing the corners off my MacBooks"
+    },
+    {
+      "item_id": "item-106a6c24",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Home"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-12/blog.md",
+    "show_notes_path": "out/2026-04-12/show_notes.md",
+    "script_path": "out/2026-04-12/script_2hosts.md",
+    "audio_path": "out/2026-04-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19089,
+        "output_tokens": 6902,
+        "cost_usd": 0.053599
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37739,
+        "output_tokens": 7105,
+        "cost_usd": 0.219792
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3962,
+        "cost_usd": 0.047544
+      }
+    ],
+    "total_cost_usd": 0.320935
+  }
+}

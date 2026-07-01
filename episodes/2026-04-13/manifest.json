@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-13",
+  "episode_date_local": "2026-04-13",
+  "content_snapshot_date": "2026-04-13",
+  "show_length_sec": 738,
+  "audio_size": 70862444,
+  "generated_at": "2026-04-12T22:01:22.448370+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-e5d7474f",
+      "title": "#4: Bring Back Idiomatic Design",
+      "fingerprint": "e5d7474f37d5a9d94928630c502dc851",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4d861797",
+      "title": "JVM Options Explorer",
+      "fingerprint": "4d86179728f8fad8980eb2c9d79235f3",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4debe82d",
+      "title": "Cache TTL silently regressed from 1h to 5m around early March 2026, causing quota and cost inflation · Issue #46829 · anthropics/claude-code",
+      "fingerprint": "4debe82d67520bd3231ca037ebcbdf72",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0e0dd938",
+      "title": "Apple reportedly testing four designs for upcoming smart glasses",
+      "fingerprint": "0e0dd938cabd0aca489bb3845ae475c0",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-2d417b4a",
+      "title": "The peril of laziness lost | The Observation Deck",
+      "fingerprint": "2d417b4a9dc9cd865484bc2dcc2ac7d8",
+      "score": 25,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6fa6fa0d",
+      "title": "Releases · rochus-keller/OberonSystem3Native",
+      "fingerprint": "6fa6fa0dd6ea2c069bb1071992524b97",
+      "score": 25,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e102852d",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、「Mythos model」というプロダクト名が実在するか不明であり、矛盾した政策（供給チェーンリスク指定と同時に推奨）の記述が風刺的である可能性があります。",
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model"
+    },
+    {
+      "item_id": "item-7c3d0dff",
+      "reason": "LINK_ONLY: Source intent uncertain: GitHubリポジトリのタイトルは技術的に見えるが、スニペットの「テレポート」という表現やカジュアルな関西弁調の説明が、実際の機能説明なのか誇張・ジョークなのか判断が難しい。プロダクト名「claudraband」も造語で、実在するClaude Code機能との関係が不明確。",
+      "title": "GitHub - halfwhey/claudraband: Control Claude Code programmatically"
+    },
+    {
+      "item_id": "item-7c5a3689",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Seven countries now generate 100% of their electricity from renewable energy"
+    },
+    {
+      "item_id": "item-27e87e6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Every train, a note."
+    },
+    {
+      "item_id": "item-819289a5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "boringBar - A taskbar-style Dock replacement for macOS"
+    },
+    {
+      "item_id": "item-ba6cdd38",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Most people can't juggle one ball"
+    },
+    {
+      "item_id": "item-337e69e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "DIY soft drinks"
+    },
+    {
+      "item_id": "item-3bd2b143",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hungary's Viktor Orbán Concedes Defeat in Election"
+    },
+    {
+      "item_id": "item-216fc281",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Serenity Forge (@serenityforge.com)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-13/blog.md",
+    "show_notes_path": "out/2026-04-13/show_notes.md",
+    "script_path": "out/2026-04-13/script_2hosts.md",
+    "audio_path": "out/2026-04-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 19660,
+        "output_tokens": 7142,
+        "cost_usd": 0.05537
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37815,
+        "output_tokens": 7334,
+        "cost_usd": 0.223455
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4093,
+        "cost_usd": 0.04911600000000001
+      }
+    ],
+    "total_cost_usd": 0.327941
+  }
+}

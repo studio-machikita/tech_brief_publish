@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-02",
+  "episode_date_local": "2026-04-02",
+  "content_snapshot_date": "2026-04-02",
+  "show_length_sec": 735,
+  "generated_at": "2026-04-02T14:42:14.148902+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-c4563195",
+      "title": "Quantum computing bombshells that are not April Fools",
+      "fingerprint": "c45631959f7ce52458efb676ef4a3e0d",
+      "score": 82,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7fceaa5f",
+      "title": "IBM Announces Strategic Collaboration with Arm to Shape the Future of Enterprise Computing",
+      "fingerprint": "7fceaa5fa92af52a8a5969d4ff79301e",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-aae14814",
+      "title": "Lemonade: Local AI for Text, Images, and Speech",
+      "fingerprint": "aae1481444bf03ad930af657eaf62a9d",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-27d6aa9b",
+      "title": "Bringing Clojure programming to Enterprise",
+      "fingerprint": "27d6aa9bc92123bf9271b940a71a5444",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-395b4db1",
+      "title": "GitHub - rwc9u/emacs-libgterm: Terminal emulator for Emacs using libghostty-vt (Ghostty&#39;s terminal engine)",
+      "fingerprint": "395b4db1e5faaee7845b22d8fdf208ad",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d3368b2b",
+      "title": "Mercor says it was hit by cyberattack tied to compromise of open source LiteLLM project | TechCrunch",
+      "fingerprint": "d3368b2b56a93641dc042191c0b94ad3",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8401d714",
+      "reason": "LINK_ONLY: Source classified as joke: 本日の日付が2026年4月2日（エイプリルフール翌日）であり、「Pull Requestの再発明」というタイトルは開発者向けのエイプリルフール企画の典型的なテーマです。スニペットが極めて簡潔で内容が不明確な点も、ジョーク記事の特徴と一致します。",
+      "title": "Reinventing the Pull Request"
+    },
+    {
+      "item_id": "item-d95ee988",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LinkedIn Is Illegally Searching Your Computer"
+    },
+    {
+      "item_id": "item-a154b326",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gone (Almost) Phishin&#8217;"
+    },
+    {
+      "item_id": "item-1ddcebd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Significant raise of reports [LWN.net]"
+    },
+    {
+      "item_id": "item-67b43631",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Email obfuscation: What works in 2026?"
+    },
+    {
+      "item_id": "item-e89cc972",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Modolap"
+    },
+    {
+      "item_id": "item-6e26e0b9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "'Backrooms' and the Rise of the Institutional Gothic"
+    },
+    {
+      "item_id": "item-03e8c39d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inside Nepal’s fake rescue racket"
+    },
+    {
+      "item_id": "item-0082dd58",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Swedish Schools Are Bringing Back Books"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-02/blog.md",
+    "show_notes_path": "out/2026-04-02/show_notes.md",
+    "script_path": "out/2026-04-02/script_2hosts.md",
+    "audio_path": "out/2026-04-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19295,
+        "output_tokens": 7138,
+        "cost_usd": 0.054985
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38191,
+        "output_tokens": 7353,
+        "cost_usd": 0.224868
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4066,
+        "cost_usd": 0.048792
+      }
+    ],
+    "total_cost_usd": 0.328645
+  }
+}

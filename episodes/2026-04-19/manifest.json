@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-19",
+  "episode_date_local": "2026-04-19",
+  "content_snapshot_date": "2026-04-19",
+  "show_length_sec": 787,
+  "audio_size": 75642284,
+  "generated_at": "2026-04-18T22:00:48.214421+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d4d535d8",
+      "title": "Any Color You Like: NIST Scientists Create ‘Any Wavelength’ Lasers in Tiny Circuits for Light",
+      "fingerprint": "d4d535d8366fb15a24e3c6d186badb83",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fb046789",
+      "title": "Tokenomics",
+      "fingerprint": "fb046789801b72f29912e2820cd01d55",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-411d7040",
+      "title": "AI Subroutines: Automation Script That Run Inside Your Tab",
+      "fingerprint": "411d7040cdb3a9b975881ca900147b3d",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b449186f",
+      "title": "Optimizing Ruby Path Methods",
+      "fingerprint": "b449186f7cf5b26cda0cd8da63038a2b",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-33e7e4a2",
+      "title": "Floating Point Fun on Cortex-M Processors",
+      "fingerprint": "33e7e4a2e73158eeb64154a9a18e9509",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-24ad0840",
+      "title": "Top (Modern Common Lisp with FSet)",
+      "fingerprint": "24ad08405de4e2c68646d31be53b0962",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d5ab4c6c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The electromechanical angle computer inside the B-52 bomber&#39;s star tracker"
+    },
+    {
+      "item_id": "item-003f8185",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Migrating from DigitalOcean to Hetzner: From $1,432 to $233/month With Zero Downtime"
+    },
+    {
+      "item_id": "item-b9c1fb0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "State of Kdenlive - 2026"
+    },
+    {
+      "item_id": "item-b615bc0c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - drasimwagan/mdv: MDV — a Markdown superset for documents, dashboards, and slides with embedded data and visualizations. HTML + PDF export, live preview, VS Code extension."
+    },
+    {
+      "item_id": "item-25318970",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thoughts and Feelings around Claude Design · Sam Henri Gold"
+    },
+    {
+      "item_id": "item-44c29aa7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Michael Rabin has died"
+    },
+    {
+      "item_id": "item-96b0c220",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A college instructor turns to typewriters to curb AI-written work and teach life lessons - Sentinel Colorado"
+    },
+    {
+      "item_id": "item-c2a95ba6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scientists discover “cleaner ants” that groom giant ants in Arizona desert"
+    },
+    {
+      "item_id": "item-68a5eb51",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sumida Penguins Relationship Chart 2026｜Sumida Aquarium"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-19/blog.md",
+    "show_notes_path": "out/2026-04-19/show_notes.md",
+    "script_path": "out/2026-04-19/script_2hosts.md",
+    "audio_path": "out/2026-04-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18699,
+        "output_tokens": 7278,
+        "cost_usd": 0.055089
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37667,
+        "output_tokens": 7327,
+        "cost_usd": 0.222906
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4347,
+        "cost_usd": 0.052164
+      }
+    ],
+    "total_cost_usd": 0.330159
+  }
+}

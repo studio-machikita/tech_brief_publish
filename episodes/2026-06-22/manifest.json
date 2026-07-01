@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-22",
+  "episode_date_local": "2026-06-22",
+  "content_snapshot_date": "2026-06-22",
+  "show_length_sec": 761,
+  "audio_size": 73102124,
+  "generated_at": "2026-06-21T21:30:09.832788+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-572d9284",
+      "title": "CleverCrow · Community-funded coding agents for maintainers",
+      "fingerprint": "572d9284e81d3fc0c25753270c66e5a9",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bbc14b79",
+      "title": "Occupancy Math on the AMD MI355X (CDNA4): A From-First-Principles Guide · Shekhar Pandey",
+      "fingerprint": "bbc14b7924e839abeb26475540f24967",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2f3c98a3",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "fingerprint": "2f3c98a3571e6d926f0bb2f917da0e23",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-07085532",
+      "title": "The Wrong Abstraction &mdash; Sandi Metz",
+      "fingerprint": "070855321ef41ed259bb805891ddaa9b",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3e9dbd69",
+      "title": "(How to Write a (Lisp) Interpreter (in Python))",
+      "fingerprint": "3e9dbd690bad592ebe48438c236ddd0c",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7aad7d50",
+      "title": "The Minimum Viable Unit of Saleable Software",
+      "fingerprint": "7aad7d5039e110b91c1e573d0348d452",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7bf8e9ed",
+      "reason": "LINK_ONLY: Source intent uncertain: GPT-5.5というモデル名が2026年6月時点で実在するかどうか確認できず、OpenAIの公式ドメインであるが架空のプロダクト名の可能性がある。ただしopenai.comは信頼できるソースであり、内容自体は医療AIの改善という現実的なテーマであるため、完全な風刺とは判定しがたい。",
+      "title": "Improving health intelligence in ChatGPT"
+    },
+    {
+      "item_id": "item-422bd798",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Identity verification on Claude | Claude Help Center"
+    },
+    {
+      "item_id": "item-c924a61d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ask for no, don&#8217;t ask for yes &#8211; Dan Moore!"
+    },
+    {
+      "item_id": "item-97edf5e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond All Reason ★ RTS"
+    },
+    {
+      "item_id": "item-5fffb19d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - namgyaaal/avoxelgame: Voxel Game written in Dyalog APL and SDL3"
+    },
+    {
+      "item_id": "item-cd408e92",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cocktail Optimization, an Integer Programming Problem"
+    },
+    {
+      "item_id": "item-3b6eb985",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "JSON-LD Explained for Personal Websites"
+    },
+    {
+      "item_id": "item-126a14de",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - w84death/floppinux: An Embedded 🐧Linux on a Single 💾Floppy"
+    },
+    {
+      "item_id": "item-30f1bc88",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bitten by a tick? This 15-minute home test can tell you if it carries Lyme disease. - The Boston Globe"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-22/blog.md",
+    "show_notes_path": "out/2026-06-22/show_notes.md",
+    "script_path": "out/2026-06-22/script_2hosts.md",
+    "audio_path": "out/2026-06-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19174,
+        "output_tokens": 7436,
+        "cost_usd": 0.056354
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37653,
+        "output_tokens": 7197,
+        "cost_usd": 0.220914
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4205,
+        "cost_usd": 0.050460000000000005
+      }
+    ],
+    "total_cost_usd": 0.327728
+  }
+}

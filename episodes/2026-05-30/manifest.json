@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-30",
+  "episode_date_local": "2026-05-30",
+  "content_snapshot_date": "2026-05-30",
+  "show_length_sec": 783,
+  "audio_size": 75180524,
+  "generated_at": "2026-05-29T22:06:04.575948+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8f9d3ebf",
+      "title": "Shift will clean homes for free to train future robots",
+      "fingerprint": "8f9d3ebf67fa05ef0e9581603b1a733e",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9dd65c59",
+      "title": "Notes from the AI Now Summit by Mistral",
+      "fingerprint": "9dd65c591c8af7924df0f9ce249dd5e3",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fb08d5b8",
+      "title": "LFM2.5-8B-A1B: an Even Better on-Device Mixture-of-Experts | Liquid AI",
+      "fingerprint": "fb08d5b87c663574b77801a46a6367c5",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bc9001bf",
+      "title": "SQLite is all you need for durable workflows",
+      "fingerprint": "bc9001bf899d55fee785020310a49128",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ccb02df1",
+      "title": "On Rendering Diffs",
+      "fingerprint": "ccb02df1bc4d0a46ff57d33a3da5a822",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d008e58f",
+      "title": "GitHub - jmaczan/tiny-vllm: Build your own high performance LLM inference engine in C++ and CUDA - a smaller version of vLLM",
+      "fingerprint": "d008e58fb585b1988ed94459e586376b",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-edfff3c7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "zot. Yet another coding agent harness."
+    },
+    {
+      "item_id": "item-029c6de9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The DLES.gg Manifesto"
+    },
+    {
+      "item_id": "item-874a9354",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Dead Economy Theory"
+    },
+    {
+      "item_id": "item-22548d4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "bijou64"
+    },
+    {
+      "item_id": "item-26213551",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Current Rothko"
+    },
+    {
+      "item_id": "item-2b6709bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&#039;Stop Killing Games&#039; Movement Gains Momentum: California Assembly Passes Game Protection Bill"
+    },
+    {
+      "item_id": "item-6f4543fd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GTA 6 Developers Announce Rockstar Games Union - RockstarINTEL"
+    },
+    {
+      "item_id": "item-2c1f5487",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TV Explorer — 10,000 Free TV Channels"
+    },
+    {
+      "item_id": "item-0d149b90",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "It"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-30/blog.md",
+    "show_notes_path": "out/2026-05-30/show_notes.md",
+    "script_path": "out/2026-05-30/script_2hosts.md",
+    "audio_path": "out/2026-05-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18493,
+        "output_tokens": 6764,
+        "cost_usd": 0.052313
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37538,
+        "output_tokens": 7483,
+        "cost_usd": 0.224859
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4331,
+        "cost_usd": 0.051972
+      }
+    ],
+    "total_cost_usd": 0.329144
+  }
+}

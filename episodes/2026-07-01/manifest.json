@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-01",
+  "episode_date_local": "2026-07-01",
+  "content_snapshot_date": "2026-07-01",
+  "show_length_sec": 744,
+  "audio_size": 71493164,
+  "generated_at": "2026-06-30T21:50:31.441900+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b6a7dd3e",
+      "title": "From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery",
+      "fingerprint": "b6a7dd3eafb6b6b68fb6ab138e24ea55",
+      "score": 82,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5ebf6c30",
+      "title": "Introducing Claude Sonnet 5",
+      "fingerprint": "5ebf6c3040dacd0fcdf4ef4db03da12b",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Anthropic News",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-9c9e2ca0",
+      "title": "Claude Science beta | Claude by Anthropic",
+      "fingerprint": "9c9e2ca05fafaf01d5c94a89f748557d",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Anthropic News",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-4ab33dda",
+      "title": "I built a mmWave material classification radar (2025)",
+      "fingerprint": "4ab33ddaeafac8e851a012fd54b3a77e",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-efe6b98a",
+      "title": "Stroustrup",
+      "fingerprint": "efe6b98a9ca01a362b08683d38a13c55",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-588588d6",
+      "title": "Building a custom octocopter from scratch with no prior hardware experience",
+      "fingerprint": "588588d6d0b646113b2ace5db11878a5",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b8cee158",
+      "reason": "LINK_ONLY: Source intent uncertain: プロダクト名「Nano Banana 2 Lite」がユーモアを含む可能性があり、実在するGoogleの公式プロダクト名としては不自然だが、deepmind.google公式ドメインであることと、スニペットの内容は技術的に妥当であるため判定が困難。",
+      "title": "Gemini 3.1 Flash-Lite Image – Nano Banana 2 Lite"
+    },
+    {
+      "item_id": "item-c1caaf94",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Matrix URIs"
+    },
+    {
+      "item_id": "item-d717334c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I ported Kubernetes to the browser | ngrok blog"
+    },
+    {
+      "item_id": "item-eccb8b24",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude Code is steganographically marking requests"
+    },
+    {
+      "item_id": "item-4c957089",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "KNOPPIX"
+    },
+    {
+      "item_id": "item-2adeaff0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Set up your own DoH (DNS over HTTPS) service"
+    },
+    {
+      "item_id": "item-ca7e6b65",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Have You Restarted Your Computer This Week?"
+    },
+    {
+      "item_id": "item-6b05eb37",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds by Mackay"
+    },
+    {
+      "item_id": "item-fe255768",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mechanical Pencil"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-01/blog.md",
+    "show_notes_path": "out/2026-07-01/show_notes.md",
+    "script_path": "out/2026-07-01/script_2hosts.md",
+    "audio_path": "out/2026-07-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19011,
+        "output_tokens": 7125,
+        "cost_usd": 0.054636
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37497,
+        "output_tokens": 7334,
+        "cost_usd": 0.222501
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4135,
+        "cost_usd": 0.04962
+      }
+    ],
+    "total_cost_usd": 0.326757
+  }
+}

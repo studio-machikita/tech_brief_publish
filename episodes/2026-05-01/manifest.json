@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-01",
+  "episode_date_local": "2026-05-01",
+  "content_snapshot_date": "2026-05-01",
+  "show_length_sec": 804,
+  "audio_size": 77235884,
+  "generated_at": "2026-04-30T21:17:18.239238+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-16a4fba9",
+      "title": "Full-Text Search with DuckDB",
+      "fingerprint": "16a4fba9dcd186d9804e3f21c8a92d46",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3f173113",
+      "title": "You can beat the binary search",
+      "fingerprint": "3f173113afff5104146ad9eb7c41b933",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c8326ecc",
+      "title": "Benchmarking How Workflow Execution Scales on Postgres | DBOS",
+      "fingerprint": "c8326eccec3b186f7fd56b212e48b65f",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b1aa1196",
+      "title": "I built a Game Boy emulator in F#",
+      "fingerprint": "b1aa119686746b836deb1fcc350ce114",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-820b8e26",
+      "title": "Reverse Engineering SimTower",
+      "fingerprint": "820b8e26e8fee4f10379fc56aa21c3b7",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a63b1971",
+      "title": "LinkedIn Is Scanning Your Browser Extensions. This Is How They Use the Data. — 404",
+      "fingerprint": "a63b1971f0382371b75b5510c5cc5f1c",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-187c265f",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルに「Shai-Hulud」（フランク・ハーバートのSF小説『デューン』の架空生物）という虚構の要素が含まれており、実在のマルウェア名としては不自然である。ただしSemgrepは実在のセキュリティ企業であり、PyTorch Lightningも実在のライブラリであるため、完全な風刺とも判定しがたい。",
+      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library"
+    },
+    {
+      "item_id": "item-43c87f91",
+      "reason": "LINK_ONLY: Source classified as joke: 記事タイトルは「Claude Code」が「OpenClaw」というライバル製品名を検出すると追加料金を請求するという非現実的で風刺的な主張をしており、実際のスニペットはTwitterのエラーページのため内容確認不可だが、タイトル自体がジョークまたは風刺的なネタ記事の特徴を示している。",
+      "title": "Claude Code refuses requests or charges extra if your commits mention \"OpenClaw\""
+    },
+    {
+      "item_id": "item-73ac472d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Mark Klein told the EFF about Room 641A [book excerpt]"
+    },
+    {
+      "item_id": "item-cf49a13f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "oss-security - Re: CVE-2026"
+    },
+    {
+      "item_id": "item-c5ac0ac0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Honker"
+    },
+    {
+      "item_id": "item-46c3cd29",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "U.S. Senators Vote to Ban Themselves from Trading on Prediction Markets"
+    },
+    {
+      "item_id": "item-718ebad8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rivian Support - Support Center - Rivian"
+    },
+    {
+      "item_id": "item-26a1f5f0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Belgium stops decommissioning nuclear power plants"
+    },
+    {
+      "item_id": "item-fedcc03d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How an Oil Refinery Works"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-01/blog.md",
+    "show_notes_path": "out/2026-05-01/show_notes.md",
+    "script_path": "out/2026-05-01/script_2hosts.md",
+    "audio_path": "out/2026-05-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 20024,
+        "output_tokens": 7504,
+        "cost_usd": 0.057544
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37493,
+        "output_tokens": 7586,
+        "cost_usd": 0.226269
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4458,
+        "cost_usd": 0.053496
+      }
+    ],
+    "total_cost_usd": 0.337309
+  }
+}

@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-06-02</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Building the infrastructure for the Intelligence Age in Michigan / Stanford CS336 | Language Modeling from Scratch / Stealing from Biologists to Compile Haskell Faster - Ian Duncan">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-06-02/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-06-02/">
+<meta property="og:description" content="2026-06-02 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-06-02/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Building the infrastructure for the Intelligence Age in Michigan / Stanford CS336 | Language Modeling from Scratch / Stealing from Biologists to Compile Haskell Faster - Ian Duncan",
+    "description": "2026-06-02 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-06-02",
+    "image": "https://technewsradio.tokyo/episodes/2026-06-02/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-06-02/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Building the infrastructure for the Intelligence Age in Michigan / Stanford CS336 | Language Modeling from Scratch / Stealing from Biologists to Compile Haskell Faster - Ian Duncan",
+    "description": "2026-06-02 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-06-02",
+    "url": "https://technewsradio.tokyo/episodes/2026-06-02/",
+    "duration": "PT11M42S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-06-02/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-06-02%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-06-02/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-06-02/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-06-02"
+subtitle: "ミシガン州でインテリジェンス時代のインフラを構築 / スタンフォード CS336 | 言語モデルをゼロから学ぶ / 生物学からヒントを得てHaskellの..."
+date: "2026-06-02"
+vol: 63
+topics:
+  - AI
+  - Cloud
+  - Hardware
+  - LLM
+  - Science
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-06-02
+
+*📖 約10分で読めます ｜ 🏷️ AI, Cloud, Hardware, LLM, Science*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **ミシガン州でインテリジェンス時代のインフラを構築** — OpenAIがミシガン州で1GWのデータセンター着工
+- 🤖 **スタンフォード CS336 | 言語モデルをゼロから学ぶ** — Stanfordが言語モデルをゼロから学ぶ講座CS336を公開
+- 📦 **生物学からヒントを得てHaskellのコンパイルを高速化する — イアン・ダンカン** — 生物学のアルゴリズムでHaskellのコンパイルを高速化
+- 🤖 **10年前のXeonで十分** — 10年前のXeonサーバーでGemma 4を動かす実験
+- 🔬 **デバッグプロジェクト** — 技術で「良い蚊」を大量育成・放出し感染症を抑制
+- 🔬 **死なない土壌の謎 | クォンタ・マガジン** — 土壌の「生命的」反応が地質現象である可能性
+
+---
+
+## 🤖 ミシガン州でインテリジェンス時代のインフラを構築
+\`AI\` \`Cloud\` \`Hardware\`
+
+<details>
+<summary>📄 原題: Building the infrastructure for the Intelligence Age in Michigan</summary>
+</details>
+
+> **一言で**: OpenAIがミシガン州で1GWのデータセンター着工
+
+- 要点1: OpenAIがStargateの一環として、ミシガン州で1GW規模のデータセンターを着工
+- 要点2: AIインフラの拡充により、地域雇用の創出とコミュニティ支援を目指す
+- 要点3: AIへのアクセス拡大を目的とした大規模インフラ投資
+
+💡 **なぜ重要か**
+AIの需要急増に伴い、大規模な計算基盤の整備が急務になっています。Stargateは米国内でのAIインフラ強化を目的とした国家規模のプロジェクトで、OpenAIはその中核を担っています。ミシガン州への投資は、AIの恩恵を特定地域に集中させず、広く分散させる狙いもあると見られています。 1GWという電力規模は、これまでのデータセンターの常識を超えています。AI向けインフラへの投資競争が加速する中、電力調達・冷却技術・地域との共存が業界全体の課題になりそうです。また、AIインフラの地方分散は、クラウド事業者や通信キャリアの戦略にも影響を与えるでしょう。
+
+🎯 **今日のアクション**
+エンジニアはAI推論基盤の電力効率や冷却設計に関する知識を深めておくと良いでしょう。リーダーは自社のAIインフラ戦略を見直し、大規模投資の波に乗り遅れないよう、中長期の計画を今から検討すべきです。
+
+🔗 [原文を読む](https://openai.com/index/stargate-michigan-data-center)
+
+---
+
+## 🤖 スタンフォード CS336 | 言語モデルをゼロから学ぶ
+\`AI\` \`LLM\` \`Science\`
+
+<details>
+<summary>📄 原題: Stanford CS336 | Language Modeling from Scratch</summary>
+</details>
+
+> **一言で**: Stanfordが言語モデルをゼロから学ぶ講座CS336を公開
+
+- Stanford大学が「CS336: Language Modeling from Scratch」を2026年春学期向けに開講
+- 講義スケジュール・課題・教材など公式コースサイトで公開中
+- 言語モデル（LLM）の仕組みを基礎から体系的に学べる内容と見られる
+
+💡 **なぜ重要か**
+大規模言語モデルの開発競争が激化する中、その内部構造を深く理解できるエンジニアの需要が高まっています。既存の多くの講座はAPIの使い方止まりですが、本講座はモデルそのものをゼロから構築する視点で設計されている点が特徴的です。 Stanford発の体系的なカリキュラムが公開されることで、世界中のエンジニアや研究者が言語モデルの内部構造を学ぶ標準的な教材として活用される可能性があります。AI開発の裾野が広がり、独自モデルを構築できる人材の増加につながるでしょう。
+
+🎯 **今日のアクション**
+公式コースサイトで公開されている教材やスケジュールを確認し、言語モデルの基礎から学び直す機会として活用を検討してください。特にLLM開発に携わるエンジニアは、課題や講義資料を自己学習に役立てられます。
+
+🔗 [原文を読む](https://cs336.stanford.edu/)
+
+---
+
+## 📦 生物学からヒントを得てHaskellのコンパイルを高速化する — イアン・ダンカン
+\`OSS\` \`Science\`
+
+<details>
+<summary>📄 原題: Stealing from Biologists to Compile Haskell Faster - Ian Duncan</summary>
+</details>
+
+> **一言で**: 生物学のアルゴリズムでHaskellのコンパイルを高速化
+
+- GHCのApplicativeDo最適化フラグ \`-foptimal-applicative-do\` はアルゴリズムが遅すぎてデフォルト無効
+- 著者はこの「遅すぎる」問題をバグと捉え、改善に取り組んだ
+- 生物学分野のアルゴリズムを転用してコンパイル速度の改善を試みた
+
+💡 **なぜ重要か**
+Haskellのコンパイラ GHC には、並列処理の最適化に関わる ApplicativeDo という機能があります。その最適解を求めるフラグが存在しながら、処理が重すぎて実用上オフのままになっているのは、長年放置されてきた課題です。異分野のアルゴリズムを応用してこれを解決しようとする試みは、コンパイラ研究の観点から注目に値します。 異分野のアルゴリズムをコンパイラ最適化に応用するアプローチが広まれば、他の言語処理系でも同様の「無効化された最適化」を見直す動きが生まれる可能性があります。OSSコンパイラの実用性向上につながる取り組みとして、長期的な影響が期待できます。
+
+🎯 **今日のアクション**
+Haskellを使っているエンジニアは \`-foptimal-applicative-do\` フラグの現状を把握しておくと良いでしょう。また、自分が使う言語処理系にも「遅すぎて無効化された最適化」が潜んでいないか調べてみる価値があります。
+
+🔗 [原文を読む](https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/)
+
+---
+
+## 🤖 10年前のXeonで十分
+\`AI\` \`LLM\` \`Hardware\`
+
+<details>
+<summary>📄 原題: A 10 year old Xeon is all you need</summary>
+</details>
+
+> **一言で**: 10年前のXeonサーバーでGemma 4を動かす実験
+
+- 著者は128GB DDR3メモリ搭載の古いリサイクルサーバーでAI推論を試みた
+- DDR3メモリは現行の最新ラップトップ用メモリより5〜6倍遅い
+- 前回記事で量子化したGemma 4のMTPドラフターを、本来動かせないはずの環境で検証
+
+💡 **なぜ重要か**
+大規模言語モデル（LLM）の推論には高性能GPUや最新ハードウェアが必要とされがちです。しかし量子化（モデルを軽量化する技術）の進歩により、古いサーバー機材でも実用的な推論ができる可能性が出てきました。廃棄・再利用されるサーバーを活用できるなら、AI活用のコストを大幅に下げられます。 高価なGPUクラスターを持てない個人や中小企業でも、手元の古いハードウェアでLLMを動かせる道が広がる可能性があります。ハードウェアの民主化という観点で、AI推論の裾野が広がる動きを象徴する事例だと言えます。
+
+🎯 **今日のアクション**
+自社や手元に眠る旧世代サーバーのスペックを棚卸しし、量子化モデルの動作要件と照らし合わせてみましょう。まずはメモリ容量と帯域幅を確認するところから始めると良いです。
+
+🔗 [原文を読む](https://point.free/blog/gemma-4-on-a-2016-xeon/)
+
+---
+
+## 🔬 デバッグプロジェクト
+\`Science\` \`Hardware\` \`Startup\`
+
+<details>
+<summary>📄 原題: Debug Project</summary>
+</details>
+
+> **一言で**: 技術で「良い蚊」を大量育成・放出し感染症を抑制
+
+- 要点1: 病気を媒介する「悪い蚊」を、無害な「良い蚊」で駆逐するアプローチ
+- 要点2: テクノロジーを使って良い蚊を大規模に育て、野外に放出する仕組みを構築
+- 要点3: 蚊が媒介する感染症の拡大を、化学薬品に頼らず生物学的に抑える試み
+
+💡 **なぜ重要か**
+デング熱やマラリアなど蚊が媒介する感染症は、世界で年間数十万人の命を奪います。殺虫剤への耐性問題もあり、生物学的な防除手段への関心が高まっています。Debug Projectはその文脈で注目されるプロジェクトです。 生物学的害虫防除にテクノロジーを組み合わせる手法が確立されれば、農業や公衆衛生の分野で化学薬品依存を減らす新たな選択肢になり得ます。スケーラブルな育成・放出システムの知見は、他の害虫対策にも応用できる可能性があります。
+
+🎯 **今日のアクション**
+公衆衛生や農業テックに関わるエンジニアは、生物学的防除と自動化技術の組み合わせ事例として本プロジェクトの動向を注視しておくと参考になるでしょう。
+
+🔗 [原文を読む](https://debug.com/)
+
+---
+
+## 🔬 死なない土壌の謎 | クォンタ・マガジン
+\`Science\`
+
+<details>
+<summary>📄 原題: The Dirt That Refused To Die | Quanta Magazine</summary>
+</details>
+
+> **一言で**: 土壌の「生命的」反応が地質現象である可能性
+
+- 要点1: 生化学的プロセスと見られていた土壌の挙動が、地質学的な自然現象かもしれない
+- 要点2: Quanta Magazineが生物学と地質学の境界領域を取り上げた科学記事
+- 要点3: 生命の定義や起源に関わる根本的な問いを提起している可能性
+
+💡 **なぜ重要か**
+生命と無生物の境界は科学の根本的なテーマです。土壌や岩石が示す複雑な化学反応が、これまで生物由来と思われていた場合、生命の定義や地球初期の環境理解に大きな影響を与えます。Quanta Magazineは数学・物理・生物・コンピュータ科学の最前線を扱う信頼性の高いメディアで、この種の境界領域の研究をよく特集します。 もし地質学的プロセスが生化学的挙動を模倣できるなら、生命の起源研究や地球外生命探査の基準が見直される可能性があります。IT分野でも、生体模倣アルゴリズムや自己組織化システムの設計思想に影響を与えるかもしれません。
+
+🎯 **今日のアクション**
+科学的な前提を疑う姿勢はエンジニアリングにも通じます。自分のシステム設計で「当然」と思っている仮定を定期的に見直す習慣を持ちましょう。
+
+🔗 [原文を読む](https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、AIおよびソフトウェア技術の「基盤」を根本から再構築・強化しようとする動きである。OpenAIによる1GWという超大規模データセンターの建設は、AIの推論・学習を支える物理インフラへの投資が新たな次元に突入したことを示しており、知能化社会を支えるハードウェア基盤の整備が急務となっていることを象徴している。一方、StanfordのCS336は言語モデルをゼロから理解させるという教育的アプローチを通じて、ブラックボックス化しがちなAI技術の基礎知識を次世代エンジニアに根付かせようとする試みであり、インフラ投資と並行して「人的基盤」の底上げも加速していることがわかる。さらにHaskellのコンパイル高速化に生物学的アルゴリズムを応用した事例は、AI時代の計算需要の増大に対応すべく、コンパイラや言語処理系といったソフトウェアの最下層レイヤーにまで最適化の波が及んでいることを示唆している。全体として、AIの社会実装が本格化するにつれ、物理・教育・ソフトウェアのあらゆる層で「土台の再設計」が同時並行で進んでいるという時代的潮流が浮かび上がる。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **ミシガン州でインテリジェンス時代のインフラを構築**: エンジニアはAI推論基盤の電力効率や冷却設計に関する知識を深めておくと良いでしょう。リーダーは自社のAIインフラ戦略を見直し、大規模投資の波に乗り遅れないよう、中長期の計画を今から検討すべきです。
+2. **スタンフォード CS336 | 言語モデルをゼロから学ぶ**: 公式コースサイトで公開されている教材やスケジュールを確認し、言語モデルの基礎から学び直す機会として活用を検討してください。特にLLM開発に携わるエンジニアは、課題や講義資料を自己学習に役立てられます。
+3. **生物学からヒントを得てHaskellのコンパイルを高速化する — イアン・ダンカン**: Haskellを使っているエンジニアは \`-foptimal-applicative-do\` フラグの現状を把握しておくと良いでしょう。また、自分が使う言語処理系にも「遅すぎて無効化された最適化」が潜んでいないか調べてみる価値があります。
+
+---
+
+## 🔗 出典一覧
+- [ミシガン州でインテリジェンス時代のインフラを構築](https://openai.com/index/stargate-michigan-data-center)
+- [スタンフォード CS336 | 言語モデルをゼロから学ぶ](https://cs336.stanford.edu/)
+- [生物学からヒントを得てHaskellのコンパイルを高速化する — イアン・ダンカン](https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/)
+- [10年前のXeonで十分](https://point.free/blog/gemma-4-on-a-2016-xeon/)
+- [デバッグプロジェクト](https://debug.com/)
+- [死なない土壌の謎 | クォンタ・マガジン](https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/)`;
+const notesMd = `# Tech News Radio Show Notes - #063 (2026-06-02)
+
+## エピソード情報
+- **エピソード**: #063
+- **日付**: 2026-06-02
+- **尺**: 約 11 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Building the infrastructure for the Intelligence Age in Michigan](https://openai.com/index/stargate-michigan-data-center)
+- [Stanford CS336 | Language Modeling from Scratch](https://cs336.stanford.edu/)
+- [Stealing from Biologists to Compile Haskell Faster - Ian Duncan](https://www.iankduncan.com/engineering/2026-05-30-stealing-from-biologists-to-compile-haskell-faster/)
+
+### 注目の深掘り
+- [A 10 year old Xeon is all you need](https://point.free/blog/gemma-4-on-a-2016-xeon/)
+
+### 小ネタ・その他
+- [Debug Project](https://debug.com/)
+- [The Dirt That Refused To Die | Quanta Magazine](https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

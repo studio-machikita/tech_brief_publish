@@ -1,0 +1,177 @@
+{
+  "date": "2026-06-09",
+  "episode_date_local": "2026-06-09",
+  "content_snapshot_date": "2026-06-09",
+  "show_length_sec": 789,
+  "audio_size": 75816044,
+  "generated_at": "2026-06-08T22:04:13.297499+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-73812595",
+      "title": "Apple Intelligence and Siri",
+      "fingerprint": "7381259551ecf572992f36a5c9ae6424",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "TechCrunch",
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-35517373",
+      "title": "Core AI | Apple Developer Documentation",
+      "fingerprint": "35517373fea533c2518adb2dc63e20f2",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-adca174b",
+      "title": "Built to benefit everyone: our plan",
+      "fingerprint": "adca174be3096ef87f7a555c40545a87",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-c7d4a436",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "fingerprint": "c7d4a436b1089118feea1647f9aaf4d9",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-8aee3a53",
+      "title": "gitdot",
+      "fingerprint": "8aee3a53c69239d92a86c1ef3a13a7ab",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-21ca9c5a",
+      "title": "Fooling Go&#39;s X.509 Certificate Verification",
+      "fingerprint": "21ca9c5a3fd0a3fb649d08f00f694ea7",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-74ada2a8",
+      "reason": "LINK_ONLY: Source classified as satirical: AppleがGoogleのGeminiモデルを中心にAIアーキテクチャを構築するという主張は、両社の競争関係と企業戦略の観点から非現実的です。また、スニペットが不完全で、MacRumorsの標準的な記事フォーマットとは異なる構造を示しており、風刺またはパロディの可能性が高いです。",
+      "title": "Apple Reveals New AI Architecture Built Around Google Gemini Models"
+    },
+    {
+      "item_id": "item-eaa50305",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術分析的な論調を持つが、xAIとAnthropicおよびGoogleの『パートナーシップ』やxAIとSpaceXの『合併』といった2026年6月時点での事実確認が不可能であり、実在しない未来シナリオの可能性がある。ただし風刺的な表現は明確ではなく、著者の分析ブログとしての体裁を保っている。",
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab"
+    },
+    {
+      "item_id": "item-d5815191",
+      "reason": "LINK_ONLY: Source intent uncertain: プロダクト名『performative-ui』は『パフォーマティブ（見せかけの）UI』という皮肉的なニュアンスを含んでおり、風刺的な意図の可能性があるが、実際のReactコンポーネントライブラリとしての技術的な実装が存在する可能性も否定できない。スニペットだけでは実際の内容が判断困難。",
+      "title": "performative-ui | AI"
+    },
+    {
+      "item_id": "item-618a4d1c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Surveillance Is Not Safety: A statement on the UK's latest threat to privacy [pdf]"
+    },
+    {
+      "item_id": "item-db170bb7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anti-social: It&#x27;s fads, not friends, which now dominate our feeds"
+    },
+    {
+      "item_id": "item-cf6a813e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intuned"
+    },
+    {
+      "item_id": "item-00ed22a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Xiaomi MiMo, Explore and Love"
+    },
+    {
+      "item_id": "item-acc5f5e8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Are Cells Small?"
+    },
+    {
+      "item_id": "item-1f0cb118",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "EU-banned pesticides found in rice, tea and spices"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-09/blog.md",
+    "show_notes_path": "out/2026-06-09/show_notes.md",
+    "script_path": "out/2026-06-09/script_2hosts.md",
+    "audio_path": "out/2026-06-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 20483,
+        "output_tokens": 7553,
+        "cost_usd": 0.058248
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37256,
+        "output_tokens": 7228,
+        "cost_usd": 0.220188
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4390,
+        "cost_usd": 0.05268
+      }
+    ],
+    "total_cost_usd": 0.331116
+  }
+}

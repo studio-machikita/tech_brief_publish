@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-29",
+  "episode_date_local": "2026-06-29",
+  "content_snapshot_date": "2026-06-29",
+  "show_length_sec": 846,
+  "audio_size": 81300524,
+  "generated_at": "2026-06-28T21:19:16.259437+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b6acf69f",
+      "title": "TOP500 at ISC’26: We have a New Number 1",
+      "fingerprint": "b6acf69fe12a2a5d92c45fee9188cc40",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2e847fd6",
+      "title": "Agentics / Tech Things: Tokenmaxxing is dead, long live tokenmaxxing",
+      "fingerprint": "2e847fd6cf069fad23f0035be125d232",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fcb72fba",
+      "title": "Using Opus 4.8 to get a second opinion on an MRI and where it leaves me",
+      "fingerprint": "fcb72fba573f0c97d52d466db4a85150",
+      "score": 64,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-7fd0d026",
+      "title": "GitHub - JustVugg/nanoeuler: GPT-2-style LLM built from scratch in C/CUDA with hand-written backprop, BPE tokenizer, FlashAttention, pretraining, and SFT.",
+      "fingerprint": "7fd0d0268942aeeca9047d1a8190dcd0",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2e70d1d9",
+      "title": "GitHub - kamaludu/bash4llm: Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly.",
+      "fingerprint": "2e70d1d96ad43ecc8ddc5d637c6276cf",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c986b368",
+      "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "fingerprint": "c986b368edf81a132e50c2668cf5972f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-5b2058d5",
+      "reason": "LINK_ONLY: Source classified as satirical: タイトルの「We have Mythos at Home」は「We have X at Home」というミームパターンで、風刺的なユーモアを含んでいます。また、実在しない「GLM 5.2」と「Mythos」というプロダクト名が使用されており、既存のAIモデル比較ベンチマークを皮肉った記事と考えられます。",
+      "title": "We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks"
+    },
+    {
+      "item_id": "item-57d8e42c",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、タイトルの「gray beard engineers」という表現と、AIが失敗して経験豊富なエンジニアを再雇用するという設定は、現実的な可能性がある一方で、風刺的なトーンも含んでいます。スニペットの引用文は説得力がありますが、記事全体の文脈なしには判定が困難です。",
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short | TechCrunch"
+    },
+    {
+      "item_id": "item-70101722",
+      "reason": "LINK_ONLY: Source intent uncertain: GitHubリポジトリのスニペットのみで、実際のプロジェクト内容が不明確。タイトルの「liberated from Apple's ecosystem」は皮肉的だが、実在するオープンソースプロジェクトの可能性と風刺の可能性の両方が考えられる。",
+      "title": "GitHub - librepods-org/librepods: AirPods liberated from Apple&#39;s ecosystem."
+    },
+    {
+      "item_id": "item-b5472773",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Examining circuit boards from the Space Shuttle&#39;s I/O Processor"
+    },
+    {
+      "item_id": "item-2ea07b0d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A History of Menus is a Menu of History"
+    },
+    {
+      "item_id": "item-8f9f0f5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Boeing 747 Begins Its Final Descent"
+    },
+    {
+      "item_id": "item-7ae31c9a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Zanagrams - free daily word puzzle"
+    },
+    {
+      "item_id": "item-14e66c49",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Daisugi, the 600-Year-Old Japanese Technique of Growing Trees Out of Other Trees, Creating Perfectly Straight Lumber"
+    },
+    {
+      "item_id": "item-d3319760",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Memory Prices"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-29/blog.md",
+    "show_notes_path": "out/2026-06-29/show_notes.md",
+    "script_path": "out/2026-06-29/script_2hosts.md",
+    "audio_path": "out/2026-06-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 21382,
+        "output_tokens": 8106,
+        "cost_usd": 0.061912
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38355,
+        "output_tokens": 8052,
+        "cost_usd": 0.235845
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4710,
+        "cost_usd": 0.05652
+      }
+    ],
+    "total_cost_usd": 0.354277
+  }
+}

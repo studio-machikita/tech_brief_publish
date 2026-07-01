@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-27",
+  "episode_date_local": "2026-06-27",
+  "content_snapshot_date": "2026-06-27",
+  "show_length_sec": 787,
+  "audio_size": 75563564,
+  "generated_at": "2026-06-26T21:33:12.710266+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-dbaf4088",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "fingerprint": "dbaf408861c6deda6b5e751910c9a7ba",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-a43af5ac",
+      "title": "How agents are transforming work",
+      "fingerprint": "a43af5acb039bb3defaf648932cc0df0",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-d0d6f12c",
+      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs | Amazon Web Services",
+      "fingerprint": "d0d6f12ca05045b865493b61f81c5b53",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f0909e56",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "fingerprint": "f0909e560cf5c2b870d3167e2582f4c5",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-1d01cb0c",
+      "title": "Modern GPU Programming For MLSys &#8212; Modern GPU Programming For MLSys",
+      "fingerprint": "1d01cb0cddb8dd6e3cb5da2b5cfa96c1",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-59fbedfa",
+      "title": "GitHub - workweave/router: Model router for agentic systems. Routes every prompt to the right model in &lt;50ms. Cut costs 40-70% with just an endpoint change.",
+      "fingerprint": "59fbedfa0c7643c188198f502e4d4059",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b24cd19f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gossamer"
+    },
+    {
+      "item_id": "item-d8951527",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ultrasound imaging of the brain"
+    },
+    {
+      "item_id": "item-5226a44d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What is a Lithium-ion capacitor?｜Lithium-ion capacitor｜JTEKT CORPORATION"
+    },
+    {
+      "item_id": "item-97144c33",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&quot;Cost me the election&quot;: Data centers trigger voter backlash"
+    },
+    {
+      "item_id": "item-1d483ddf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introduction &#8212; pyNomo Documentation 0.3.2.2 documentation"
+    },
+    {
+      "item_id": "item-f07a2b9c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Long Wave radio era set to end with Droitwich switch-off"
+    },
+    {
+      "item_id": "item-4f42047b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The &#8220;Bizarre Headgear&#8221; exhibit at the Sam Noble Museum is incredible"
+    },
+    {
+      "item_id": "item-96dfc8f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Collections: Pre-Modern Armies for Worldbuilders, Part III: Paying For It"
+    },
+    {
+      "item_id": "item-dc4dac95",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Art of Kite Flying (1430–1929)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-27/blog.md",
+    "show_notes_path": "out/2026-06-27/show_notes.md",
+    "script_path": "out/2026-06-27/script_2hosts.md",
+    "audio_path": "out/2026-06-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18783,
+        "output_tokens": 7174,
+        "cost_usd": 0.054653
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37493,
+        "output_tokens": 7380,
+        "cost_usd": 0.223179
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4380,
+        "cost_usd": 0.05256
+      }
+    ],
+    "total_cost_usd": 0.330392
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-21",
+  "episode_date_local": "2026-06-21",
+  "content_snapshot_date": "2026-06-21",
+  "show_length_sec": 790,
+  "audio_size": 75880364,
+  "generated_at": "2026-06-20T21:31:37.025320+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-fd3acdcf",
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "fingerprint": "fd3acdcf4e2900759cea3dedd742d75a",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f2fa9b48",
+      "title": "Shared-memory threads for JavaScriptCore (experimental, not working yet) by Jarred-Sumner · Pull Request #249 · oven-sh/WebKit",
+      "fingerprint": "f2fa9b488d06b1e6d3b2a069b2572765",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a52a0b9b",
+      "title": "PostgresBench: A Reproducible Benchmark for Postgres Services",
+      "fingerprint": "a52a0b9b28f8c7c8244cf8bf7f8df0e8",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-02cc1557",
+      "title": "Linux Finally Eliminates The strncpy API After Six Years Of Work, 360+ Patches",
+      "fingerprint": "02cc1557c0c6fd598468463139121ffd",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2bdd5477",
+      "title": "UK Home Office launches £75M 'PoliceAI' to capitalise on artificial intelligence",
+      "fingerprint": "2bdd54777c8b412b1a437e5815995c82",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a11965ec",
+      "title": "SMPTE Makes Its Standards Freely Accessible, Opening Standards Library to the Global Media Technology Community",
+      "fingerprint": "a11965ecb4fbedac877851ad9df92fe2",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1064ee7d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - overflowy/make-look-scanned: Makes PDFs look scanned (CLI or in the browser via WASM)"
+    },
+    {
+      "item_id": "item-8b9d0c00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "StartupWiki - AI Startup Research Directory"
+    },
+    {
+      "item_id": "item-fc8b5306",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Unauthorized alert sent to cell phones across Brazil"
+    },
+    {
+      "item_id": "item-cf06dde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "argusred — security scan and pen test · ArgusRed"
+    },
+    {
+      "item_id": "item-e6a79eb4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Wholesale Plagiarism of Obscure Sorrows - Waxy.org"
+    },
+    {
+      "item_id": "item-eda10f41",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Air Force needs YOU!"
+    },
+    {
+      "item_id": "item-bf1a3e01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "cssQuake - Play Quake in Your Browser"
+    },
+    {
+      "item_id": "item-6ce7234c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UHF X11"
+    },
+    {
+      "item_id": "item-01455209",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The rise of South Korea’s weapons business"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-21/blog.md",
+    "show_notes_path": "out/2026-06-21/show_notes.md",
+    "script_path": "out/2026-06-21/script_2hosts.md",
+    "audio_path": "out/2026-06-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18447,
+        "output_tokens": 6903,
+        "cost_usd": 0.052962
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37624,
+        "output_tokens": 7363,
+        "cost_usd": 0.223317
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4268,
+        "cost_usd": 0.051216
+      }
+    ],
+    "total_cost_usd": 0.327495
+  }
+}

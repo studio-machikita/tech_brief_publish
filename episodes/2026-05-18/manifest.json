@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-18",
+  "episode_date_local": "2026-05-18",
+  "content_snapshot_date": "2026-05-18",
+  "show_length_sec": 764,
+  "audio_size": 73385324,
+  "generated_at": "2026-05-17T21:10:16.335237+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-002734cf",
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "fingerprint": "002734cf3e5cf1a03e33acfa7cb65096",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-31bd0d48",
+      "title": "How business operations teams use Codex",
+      "fingerprint": "31bd0d48105bb64a0ef2e551cea663de",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-0110691d",
+      "title": "GitHub - MinishLab/semble: Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read",
+      "fingerprint": "0110691d67bf3150a6edcbe6043eca81",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-f9d8bab3",
+      "title": "FOSDEM 2026 - Mercurial, 20 years and counting: how are we still alive and kicking?",
+      "fingerprint": "f9d8bab3dad776f1666a3a5ba5a49caa",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ad29128e",
+      "title": "GitHub - tech4bot/rk3562deb",
+      "fingerprint": "ad29128e3d79a7b4645e81dcfcbd760f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-51641931",
+      "title": "The occasional `ECONNRESET` (part 1/2)",
+      "fingerprint": "51641931c1dd577487817ed3254a230a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-389605bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - alternbits/awesome-cuda-books: A curated list of best cuda programming books"
+    },
+    {
+      "item_id": "item-d2c7b694",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Schanuel&#8217;s conjecture and the semantics of FPSan"
+    },
+    {
+      "item_id": "item-57b6804a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Prolog Basics Explained with Pokémon"
+    },
+    {
+      "item_id": "item-d747a322",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VoIP Brings Back Old-Fashioned Payphones to Rural Vermont"
+    },
+    {
+      "item_id": "item-f603e78d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "High-Entropy Alloy"
+    },
+    {
+      "item_id": "item-55b5ae99",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Multi-Species Canopy Latrines in Costa Rican Cloud Forests"
+    },
+    {
+      "item_id": "item-3bac1403",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hindenburg&#039;s Smoking Room | Airships.net"
+    },
+    {
+      "item_id": "item-5c67f426",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Magical Realism: “Northern Exposure” 25 Years Later (2015)"
+    },
+    {
+      "item_id": "item-c92be5d5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I don"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-18/blog.md",
+    "show_notes_path": "out/2026-05-18/show_notes.md",
+    "script_path": "out/2026-05-18/script_2hosts.md",
+    "audio_path": "out/2026-05-18/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-18/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-18/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18606,
+        "output_tokens": 7081,
+        "cost_usd": 0.054011
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37802,
+        "output_tokens": 7313,
+        "cost_usd": 0.223101
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4248,
+        "cost_usd": 0.050976
+      }
+    ],
+    "total_cost_usd": 0.328088
+  }
+}

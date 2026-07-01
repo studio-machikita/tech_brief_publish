@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-05-16</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — GitHub - neilsonnn/image-blaster: An image-to-world skillset for Claude. / The Sigmoids Won&amp;#x27;t Save You / GitHub - gdevic/FPGA-Calculator: From FPGA Gates to Scientific Calculator">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-05-16/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-05-16/">
+<meta property="og:description" content="2026-05-16 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-05-16/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — GitHub - neilsonnn/image-blaster: An image-to-world skillset for Claude. / The Sigmoids Won&#x27;t Save You / GitHub - gdevic/FPGA-Calculator: From FPGA Gates to Scientific Calculator",
+    "description": "2026-05-16 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-05-16",
+    "image": "https://technewsradio.tokyo/episodes/2026-05-16/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-05-16/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — GitHub - neilsonnn/image-blaster: An image-to-world skillset for Claude. / The Sigmoids Won&#x27;t Save You / GitHub - gdevic/FPGA-Calculator: From FPGA Gates to Scientific Calculator",
+    "description": "2026-05-16 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-05-16",
+    "url": "https://technewsradio.tokyo/episodes/2026-05-16/",
+    "duration": "PT13M22S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-05-16/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-05-16%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-05-16/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-05-16/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-05-16"
+subtitle: "GitHub - neilsonnn/image-blaster: Claudeのための画像からワールドへのスキルセット / シグモイド関数はあなたを救わ..."
+date: "2026-05-16"
+vol: 46
+topics:
+  - AI
+  - OSS
+  - LLM
+  - Science
+  - Hardware
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-05-16
+
+*📖 約11分で読めます ｜ 🏷️ AI, OSS, LLM, Science, Hardware*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **GitHub - neilsonnn/image-blaster: Claudeのための画像からワールドへのスキルセット** — Claude向け画像からワールド生成スキルセット「image-blaster」公開
+- 🤖 **シグモイド関数はあなたを救わない** — 「指数曲線はいずれS字に収束する」論への反論
+- 📦 **GitHub - FPGAゲートから科学電卓へ：FPGA計算機プロジェクト** — FPGAのゲートから科学計算機を自作するOSSプロジェクト
+- 🤖 **ChatGPTに新しい個人財務管理機能が登場** — ChatGPTが金融口座と連携しAIで家計管理を支援
+- 📦 **Zulip財団の設立発表** — ZulipがNPO財団へ移行、創設者はAnthropicへ
+- 🦾 **ウェイモ、「水たまりに進入」した自動運転タクシー3800台をアップデート** — Waymoが3,800台のロボタクシーをソフトウェア更新
+
+---
+
+## 🤖 GitHub - neilsonnn/image-blaster: Claudeのための画像からワールドへのスキルセット
+\`AI\` \`OSS\` \`LLM\`
+
+<details>
+<summary>📄 原題: GitHub - neilsonnn/image-blaster: An image-to-world skillset for Claude.</summary>
+</details>
+
+> **一言で**: Claude向け画像からワールド生成スキルセット「image-blaster」公開
+
+- GitHubで公開されたOSSプロジェクト「image-blaster」は、Claude向けの画像処理スキルセット
+- 単一の画像から3D環境や効果音、メッシュを生成する機能を持つと見られる
+- AnthropicのAIアシスタントClaudeに新たな能力を追加する設計とみられる
+
+💡 **なぜ重要か**
+生成AIの活用範囲が広がる中、テキストだけでなく画像を起点に3Dコンテンツを生成する需要が高まっています。ClaudeなどのLLM（大規模言語モデル）にスキルセットとして機能を追加するアプローチは、AIの応用範囲を手軽に拡張できる手法として注目されています。 画像一枚から3D空間やアセットを生成できるツールが普及すれば、ゲーム開発やXR（拡張・仮想現実）コンテンツ制作のコストが大幅に下がる可能性があります。AIへのスキル追加という設計思想は、今後のAIエコシステム構築の参考事例になりそうです。
+
+🎯 **今日のアクション**
+GitHubリポジトリ「neilsonnn/image-blaster」を確認し、Claudeとの連携方法や対応する生成機能の詳細を把握した上で、自社の3Dコンテンツ制作ワークフローへの応用可能性を検討してみてください。
+
+🔗 [原文を読む](https://github.com/neilsonnn/image-blaster)
+
+---
+
+## 🤖 シグモイド関数はあなたを救わない
+\`AI\` \`LLM\` \`Science\`
+
+<details>
+<summary>📄 原題: The Sigmoids Won&amp;#x27;t Save You</summary>
+</details>
+
+> **一言で**: 「指数曲線はいずれS字に収束する」論への反論
+
+- 「指数的成長は必ずシグモイド曲線に変わる」はAI懐疑論の定番の主張
+- 能力グラフが高水準に近づいても、シグモイド収束を根拠に楽観視するのは危険
+- 収束がいつ・どこで起きるかを示せない限り、この主張は反論として機能しない
+
+💡 **なぜ重要か**
+AIの能力曲線が急成長を示すグラフに対し、「どんな指数成長もいずれS字型に鈍化する」という反論がよく使われます。Scott Alexanderはこの論法の論理的な弱点を指摘しています。収束の根拠を示さずに安心材料として使うのは、議論として不誠実だという問題提起です。 AIリスク評価の議論において、楽観的な「収束論」が批判的思考を妨げる可能性があります。技術的な限界を示す具体的な根拠なしに成長鈍化を前提にすると、政策や投資判断を誤るリスクがあります。
+
+🎯 **今日のアクション**
+AIの能力予測を議論する際は「収束はいつ・なぜ起きるか」を具体的に問い直す習慣を持ちましょう。根拠のない楽観論に流されず、シナリオごとにリスクを評価することが重要です。
+
+🔗 [原文を読む](https://www.astralcodexten.com/p/the-sigmoids-wont-save-you)
+
+---
+
+## 📦 GitHub - FPGAゲートから科学電卓へ：FPGA計算機プロジェクト
+\`OSS\` \`Hardware\` \`Science\`
+
+<details>
+<summary>📄 原題: GitHub - gdevic/FPGA-Calculator: From FPGA Gates to Scientific Calculator</summary>
+</details>
+
+> **一言で**: FPGAのゲートから科学計算機を自作するOSSプロジェクト
+
+- 要点1: FPGAの論理ゲートレベルから科学計算機を構築するプロジェクト
+- 要点2: Verilogを使ってCPUを設計し、ハードウェアの基礎を学べる教材的な内容
+- 要点3: GitHubで公開されたOSSプロジェクトで、ソースコードを参照・学習できる
+
+💡 **なぜ重要か**
+FPGAは論理回路を自由に書き換えられる半導体デバイスで、CPUやカスタム回路の学習に広く使われています。本プロジェクトは、抽象度の高いソフトウェアではなく、ハードウェアの最も基礎的な構成要素であるゲート回路から計算機を作り上げるという、教育的価値の高い取り組みです。ハードウェア設計の入門として注目を集めています。 ソフトウェアエンジニアがハードウェア設計に触れる機会が増える中、このようなOSSプロジェクトはFPGAやVerilogの学習コストを下げる効果があります。CPUアーキテクチャへの理解が深まることで、ソフトウェア最適化やセキュリティ分野にも好影響が期待されます。
+
+🎯 **今日のアクション**
+FPGAやハードウェア設計に興味があるエンジニアは、このリポジトリを参照して回路設計の基礎を学ぶ出発点にするとよいでしょう。Verilogの入門教材としても活用できます。
+
+🔗 [原文を読む](https://github.com/gdevic/FPGA-Calculator)
+
+---
+
+## 🤖 ChatGPTに新しい個人財務管理機能が登場
+\`AI\` \`LLM\` \`Business\`
+
+<details>
+<summary>📄 原題: A new personal finance experience in ChatGPT</summary>
+</details>
+
+> **一言で**: ChatGPTが金融口座と連携しAIで家計管理を支援
+
+- 米国のPro（有料上位プラン）ユーザー向けに個人財務機能をプレビュー公開
+- 金融口座を安全に接続し、AIが資産状況に基づいたアドバイスを提供
+- ユーザーの目標や優先事項を踏まえた、文脈のある財務インサイトを生成
+
+💡 **なぜ重要か**
+家計管理アプリは以前からありましたが、AIが自然言語で文脈を理解しながら助言できる点が新しいです。ChatGPTはすでに多くのユーザーの日常ツールになっており、そこに金融データを統合することで、専門家に相談するような体験を一般に広げる狙いがあると見られています。 AIアシスタントが金融という高感度な領域に踏み込むことで、フィンテック（金融×テクノロジー）業界との競合が本格化しそうです。銀行やマネー管理アプリはAI連携の強化を迫られる可能性があります。また、金融データを扱うAIへのセキュリティや規制面での議論も活発になるでしょう。
+
+🎯 **今日のアクション**
+金融系サービスを開発・運営するエンジニアやプロダクトリーダーは、AIによる文脈理解を活かした体験設計を今から検討すべきです。また、ユーザーデータの取り扱いや同意フローの設計を改めて見直す好機でもあります。
+
+🔗 [原文を読む](https://openai.com/index/personal-finance-chatgpt)
+
+🔗 [原文を読む](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/)
+
+---
+
+## 📦 Zulip財団の設立発表
+\`OSS\` \`AI\` \`Business\`
+
+<details>
+<summary>📄 原題: Announcing the Zulip Foundation</summary>
+</details>
+
+> **一言で**: ZulipがNPO財団へ移行、創設者はAnthropicへ
+
+- 創設者Tim Abbottが10年以上率いたZulipのフルタイムリーダーを退き、Anthropicに参加
+- 上級メンバー3名も同様にAnthropicへ移籍
+- 運営会社Kandra Labsを新設の独立NPO「Zulip Foundation」に寄付・移管
+- OSSプロジェクトとしてのZulipは継続される見通し
+
+💡 **なぜ重要か**
+Zulipはオープンソースのチームチャットツールで、SlackやDiscordの代替として根強い支持を持ちます。創業者自らがAI企業Anthropicへ移籍しつつ、プロジェクトをNPO財団に託すという判断は、OSSの持続可能性とAIブームの人材吸引力を同時に示す出来事です。 有力OSSプロジェクトの中核開発者がAI企業に流れる動きは今後も続くと見られます。一方、NPO財団化はコミュニティ主導の運営モデルとして注目され、他のOSSプロジェクトの参考事例になる可能性があります。
+
+🎯 **今日のアクション**
+Zulipを業務で使っているチームは、財団移行後のサポート体制やロードマップを公式ブログで確認しておきましょう。OSSプロジェクトの運営者は、NPO財団化という持続可能性モデルを自プロジェクトの将来設計の選択肢として検討する価値があります。
+
+🔗 [原文を読む](https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/)
+
+---
+
+## 🦾 ウェイモ、「水たまりに進入」した自動運転タクシー3800台をアップデート
+\`Robotics\` \`AI\` \`Hardware\`
+
+> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
+
+<details>
+<summary>📄 原題: Waymo updates 3,800 robotaxis after they &#x27;drive into standing water&#x27;</summary>
+</details>
+
+> **一言で**: Waymoが3,800台のロボタクシーをソフトウェア更新
+
+- 要点1: Waymoのロボタクシーが水たまりに進入する不具合が発生
+- 要点2: 対象台数は3,800台と大規模なリモートアップデートを実施
+- 要点3: 自動運転車の安全性確保にソフトウェア更新が有効な手段と示す
+
+💡 **なぜ重要か**
+自動運転車は悪天候や路面状況への対応が課題とされています。水たまりへの進入は車両故障や周囲への水はねなど安全上のリスクを伴います。Waymoはこうした実運用で発覚した問題を迅速にソフトウェアで修正できる体制を持っており、今回の対応はその仕組みが実際に機能した事例と見られています。 自動運転業界全体にとって、リモートでの大規模ソフトウェア更新が安全管理の主要手段として定着しつつあります。一方で、実道路での予期しない挙動がいかに多いかも改めて示されており、規制当局や競合他社の開発方針にも影響を与えそうです。
+
+🎯 **今日のアクション**
+自動運転や自律システムを開発するエンジニアは、エッジケース（想定外の状況）への対応をテスト設計に組み込むことが重要です。また、問題発生時に迅速なリモート更新ができるアーキテクチャを事前に整えておくことが求められます。
+
+🔗 [原文を読む](https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、**「基礎から積み上げる自作・自律的な技術探求」**というエトスである。FPGAのゲートレベルから電卓を構築するプロジェクトも、ClaudeのためにゼロからWorld生成スキルセットを設計する試みも、いずれも既製のブラックボックスに頼らず、原理から手を動かして技術を理解・拡張しようとする姿勢を体現している。シグモイド関数をめぐる議論もまた、AIの能力曲線に関する通説を数学的・概念的な基礎に立ち返って問い直すものであり、同じ「前提を疑い、自ら検証する」精神と地続きだ。こうした動きは、AIツールや高レベルフレームワークの普及によって抽象化が進む一方で、その抽象の下にある仕組みを自分の手で掌握したいというエンジニアや研究者の反動的・探究的欲求が高まっていることを示唆している。技術の民主化が進む時代だからこそ、「与えられた道具を使う」だけでなく「道具そのものを理解・再構築する」層の存在感が、コミュニティ全体の知的深度を支えるトレンドとして浮かび上がっている。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **GitHub - neilsonnn/image-blaster: Claudeのための画像からワールドへのスキルセット**: GitHubリポジトリ「neilsonnn/image-blaster」を確認し、Claudeとの連携方法や対応する生成機能の詳細を把握した上で、自社の3Dコンテンツ制作ワークフローへの応用可能性を検討してみてください。
+2. **シグモイド関数はあなたを救わない**: AIの能力予測を議論する際は「収束はいつ・なぜ起きるか」を具体的に問い直す習慣を持ちましょう。根拠のない楽観論に流されず、シナリオごとにリスクを評価することが重要です。
+3. **GitHub - FPGAゲートから科学電卓へ：FPGA計算機プロジェクト**: FPGAやハードウェア設計に興味があるエンジニアは、このリポジトリを参照して回路設計の基礎を学ぶ出発点にするとよいでしょう。Verilogの入門教材としても活用できます。
+
+---
+
+## 🔗 出典一覧
+- [GitHub - neilsonnn/image-blaster: Claudeのための画像からワールドへのスキルセット](https://github.com/neilsonnn/image-blaster)
+- [シグモイド関数はあなたを救わない](https://www.astralcodexten.com/p/the-sigmoids-wont-save-you)
+- [GitHub - FPGAゲートから科学電卓へ：FPGA計算機プロジェクト](https://github.com/gdevic/FPGA-Calculator)
+- [ChatGPTに新しい個人財務管理機能が登場](https://openai.com/index/personal-finance-chatgpt)
+- [ChatGPTに新しい個人財務管理機能が登場](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/)
+- [Zulip財団の設立発表](https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/)
+- [ウェイモ、「水たまりに進入」した自動運転タクシー3800台をアップデート](https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html)`;
+const notesMd = `# Tech News Radio Show Notes - #046 (2026-05-16)
+
+## エピソード情報
+- **エピソード**: #046
+- **日付**: 2026-05-16
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [GitHub - neilsonnn/image-blaster: An image-to-world skillset for Claude.](https://github.com/neilsonnn/image-blaster)
+- [The Sigmoids Won&#x27;t Save You](https://www.astralcodexten.com/p/the-sigmoids-wont-save-you)
+- [GitHub - gdevic/FPGA-Calculator: From FPGA Gates to Scientific Calculator](https://github.com/gdevic/FPGA-Calculator)
+
+### 注目の深掘り
+- [A new personal finance experience in ChatGPT](https://openai.com/index/personal-finance-chatgpt)
+- [A new personal finance experience in ChatGPT](https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/)
+
+### 小ネタ・その他
+- [Announcing the Zulip Foundation](https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/)
+- [Waymo updates 3,800 robotaxis after they 'drive into standing water'](https://www.cnbc.com/2026/05/12/waymo-recalls-3800-robotaxis-after-able-drive-into-standing-water.html)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

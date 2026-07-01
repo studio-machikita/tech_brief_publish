@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-20",
+  "episode_date_local": "2026-05-20",
+  "content_snapshot_date": "2026-05-20",
+  "show_length_sec": 736,
+  "audio_size": 70725164,
+  "generated_at": "2026-05-19T21:33:58.770466+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d9da9d6a",
+      "title": "Mistral AI Acquires Emmi AI to Create the Leading AI Stack",
+      "fingerprint": "d9da9d6a4564b1609237ff8414a75a1d",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-f2aeeaac",
+      "title": "Strawberry - SuperSplat",
+      "fingerprint": "f2aeeaac7abbca6311bfc150d878e324",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-65c9746c",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "fingerprint": "65c9746c125a54a93529a4190b0c7dec",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-18a9825b",
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "fingerprint": "18a9825b8116b3de5fac7a760b5a69e1",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-8aa04eb7",
+      "title": "A new era for AI Search",
+      "fingerprint": "8aa04eb7c8e79bbc21feec09340d1377",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-82faa506",
+      "title": "GitHub - antoinezambelli/forge: A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
+      "fingerprint": "82faa506170b529767979e6a751ec9b5",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-550e73f1",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは実在の人物（Andrej Karpathy）がAnthropicに参加したことを示唆していますが、スニペットはJavaScript無効エラーメッセージのみで、実際の記事内容が確認できません。URLは有効に見えますが、コンテンツが取得できないため判定困難です。",
+      "title": "I’ve joined Anthropic"
+    },
+    {
+      "item_id": "item-9b9ce94b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Virtual OS Museum"
+    },
+    {
+      "item_id": "item-f5f78419",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dumb Ways for an Open Source Project to Die"
+    },
+    {
+      "item_id": "item-e8523ff6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lisp in Web-Based Applications (2001)"
+    },
+    {
+      "item_id": "item-b52c687f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple unveils new accessibility features, and updates with Apple Intelligence"
+    },
+    {
+      "item_id": "item-93321c31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities – Gentoo Linux"
+    },
+    {
+      "item_id": "item-b77aeaee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Texas Drainage District Walked Its Ditch on a Routine Inspection. They Found a Pipe They Didn&#039;t Recognize Discharging Black Liquid From Tesla&#039;s $1 Billion Lithium Refinery"
+    },
+    {
+      "item_id": "item-648814ad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Minnesota becomes first state to ban prediction markets"
+    },
+    {
+      "item_id": "item-90b4740e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Disney erased FiveThirtyEight"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-20/blog.md",
+    "show_notes_path": "out/2026-05-20/show_notes.md",
+    "script_path": "out/2026-05-20/script_2hosts.md",
+    "audio_path": "out/2026-05-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19524,
+        "output_tokens": 7068,
+        "cost_usd": 0.054864
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37857,
+        "output_tokens": 7319,
+        "cost_usd": 0.223356
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4021,
+        "cost_usd": 0.048252
+      }
+    ],
+    "total_cost_usd": 0.326472
+  }
+}

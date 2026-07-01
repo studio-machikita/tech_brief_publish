@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-05",
+  "episode_date_local": "2026-04-05",
+  "content_snapshot_date": "2026-04-05",
+  "show_length_sec": 773,
+  "audio_size": 74234924,
+  "generated_at": "2026-04-04T21:11:23.622537+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-13be8bd3",
+      "title": "Emotion concepts and their function in a large language model",
+      "fingerprint": "13be8bd3a9ed5c2965b2fff5528cd00f",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-19300757",
+      "title": "Components of A Coding Agent",
+      "fingerprint": "19300757cfbc5749c586200fef8415cb",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-64a9c192",
+      "title": "GitHub - teamchong/turboquant-wasm: TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)",
+      "fingerprint": "64a9c192634cc2e8bf606bb59ac8b144",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6210ecff",
+      "title": "How many products does Microsoft have named ‘Copilot’? I mapped every one",
+      "fingerprint": "6210ecffb039266ad46295822b6a34ae",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-105ebea6",
+      "title": "Meta stole Sarah Wynn",
+      "fingerprint": "105ebea6edf50b3237938f0e93f3304c",
+      "score": 25,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-199e83f6",
+      "title": "Embattled startup Delve has ‘parted ways’ with Y Combinator",
+      "fingerprint": "199e83f6976a246bfeae01ddf5d7895e",
+      "score": 25,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-211c13a5",
+      "reason": "LINK_ONLY: Source classified as joke: AppleがNvidiaのeGPUドライバーをArm Macで承認することは、両社の長年の対立関係と技術的な非互換性を考えると極めて非現実的です。2026年4月4日はエイプリルフール直後であり、The Vergeが公開したこのようなタイトルは典型的なテック業界のジョーク記事の特徴を持っています。",
+      "title": "Apple approves driver that lets Nvidia eGPUs work with Arm Macs"
+    },
+    {
+      "item_id": "item-d4b3cf60",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、「OpenClaw」というプロダクト名が実在するかどうか不明であり、2026年4月4日という未来の日付で記事が存在することが不自然です。実在しないプロダクト名の可能性があるため、風刺またはジョークの可能性も否定できません。",
+      "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage"
+    },
+    {
+      "item_id": "item-c068ba20",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルとスニペットが同一で具体的な内容情報がなく、ドメイン名『iii.social』は独立系インターネット関連の指標を示唆するが、記事の実体が不明であるため判定困難。",
+      "title": "Indie Internet Index"
+    },
+    {
+      "item_id": "item-29c6b28a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mvidia"
+    },
+    {
+      "item_id": "item-bc2e78e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "sllm"
+    },
+    {
+      "item_id": "item-3045dfa5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scientists observe an immune signaling complex forming inside cells"
+    },
+    {
+      "item_id": "item-f68fd599",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Some unusual trees"
+    },
+    {
+      "item_id": "item-18ed7654",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sopwith – 1984 Game (2000)"
+    },
+    {
+      "item_id": "item-ea65e133",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Plague Ships - Afloat Magazine"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-05/blog.md",
+    "show_notes_path": "out/2026-04-05/show_notes.md",
+    "script_path": "out/2026-04-05/script_2hosts.md",
+    "audio_path": "out/2026-04-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 20556,
+        "output_tokens": 7435,
+        "cost_usd": 0.057731
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37682,
+        "output_tokens": 7368,
+        "cost_usd": 0.223566
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4220,
+        "cost_usd": 0.05064
+      }
+    ],
+    "total_cost_usd": 0.331937
+  }
+}

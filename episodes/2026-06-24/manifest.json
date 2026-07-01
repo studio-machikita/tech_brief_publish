@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-24",
+  "episode_date_local": "2026-06-24",
+  "content_snapshot_date": "2026-06-24",
+  "show_length_sec": 813,
+  "audio_size": 78132524,
+  "generated_at": "2026-06-23T21:54:34.925438+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d259a822",
+      "title": "Printing Gaussian Splats",
+      "fingerprint": "d259a8223125e4fcd51c3af72af7ea46",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a41eeaa9",
+      "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "fingerprint": "a41eeaa95fe74eb67cb3b74f9369469a",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1e3a5ac3",
+      "title": "Swift Package Index joins Apple",
+      "fingerprint": "1e3a5ac3f6c1998c3776d9ca5a4c9edf",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-23a53de3",
+      "title": "GitHub - future-file-format/F3: [SIGMOD 2026] F3: The Open-Source Data File Format for the Future",
+      "fingerprint": "23a53de33a627a3f7ccc5cd2f242d59f",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-45d279bd",
+      "title": "I automated my job (and it made me a better leader)",
+      "fingerprint": "45d279bd6eb70ffa2d3f07709c01f8f2",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-990bd5ef",
+      "title": "The Coming Loop",
+      "fingerprint": "990bd5ef904fb013eef23235a1c22dea",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d69f6c3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FUTO Swipe"
+    },
+    {
+      "item_id": "item-b61f052b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TikZ Editor"
+    },
+    {
+      "item_id": "item-e8494742",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Don't verify email addresses by sending spam to them"
+    },
+    {
+      "item_id": "item-becf06e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jerry's Map"
+    },
+    {
+      "item_id": "item-e438c958",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "German Rail Service Suspended Due to Radio Interference"
+    },
+    {
+      "item_id": "item-1b1b372a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flash: All train services in Germany halted after train radio communications disruption: media"
+    },
+    {
+      "item_id": "item-ed5869f2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Five monitors on a Commodore 128 [video]"
+    },
+    {
+      "item_id": "item-5109c696",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The worthlessness of vitamin D is mildly exaggerated"
+    },
+    {
+      "item_id": "item-df0f373b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Deadly Rise of Giant Trucks and S.U.V.s"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-24/blog.md",
+    "show_notes_path": "out/2026-06-24/show_notes.md",
+    "script_path": "out/2026-06-24/script_2hosts.md",
+    "audio_path": "out/2026-06-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-24/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-24/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18540,
+        "output_tokens": 7044,
+        "cost_usd": 0.05376
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37185,
+        "output_tokens": 7230,
+        "cost_usd": 0.220005
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4478,
+        "cost_usd": 0.053736000000000006
+      }
+    ],
+    "total_cost_usd": 0.327501
+  }
+}

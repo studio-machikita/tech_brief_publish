@@ -1,0 +1,174 @@
+{
+  "date": "2026-06-25",
+  "episode_date_local": "2026-06-25",
+  "content_snapshot_date": "2026-06-25",
+  "show_length_sec": 780,
+  "audio_size": 74908844,
+  "generated_at": "2026-06-24T21:48:17.893901+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-3e7c22f6",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "fingerprint": "3e7c22f631535b56cae8f59f79e2a640",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8a668053",
+      "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+      "fingerprint": "8a668053f99830b45543c434f2663767",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-68dfebe6",
+      "title": "RubyLLM",
+      "fingerprint": "68dfebe6a4c73930d551ff4c8d9c2f99",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-768b975c",
+      "title": "Qualcomm to Acquire Modular",
+      "fingerprint": "768b975c5792f44ef5c5b5141dce4a4d",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-89605eba",
+      "title": "Krea 2 Technical Report",
+      "fingerprint": "89605eba0aa3a4f6fd42a2dc00b21502",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b07e21d2",
+      "title": "We’re making Bunny DNS free",
+      "fingerprint": "b07e21d206cfebf9f048a3c05a431786",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e62b4295",
+      "reason": "LINK_ONLY: Source intent uncertain: チップ名「Jalapeño」がユーモアを含む可能性があり、OpenAIが実際にカスタムチップを開発している事実と風刺的な命名の境界が曖昧。TechCrunchは信頼できるソースだが、スニペットだけでは記事の真偽を完全には判定できない。",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom | TechCrunch"
+    },
+    {
+      "item_id": "item-9b02bd5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Crawling BitTorrent DHTs for Fun and Profit [pdf]"
+    },
+    {
+      "item_id": "item-de620301",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I can haz smoller NixOS ISOs? | natkr"
+    },
+    {
+      "item_id": "item-49491350",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "John Carmack (@ID_AA_Carmack) on X"
+    },
+    {
+      "item_id": "item-fc9c9796",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - nubjs/nub: The fast all-in-one Node.js toolkit"
+    },
+    {
+      "item_id": "item-994b2835",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stealing is a Skill"
+    },
+    {
+      "item_id": "item-63248f4f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A statistical study of PRs opened on openclaw/openclaw | Greptile Blog"
+    },
+    {
+      "item_id": "item-f2e5fc85",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Xteink X4 E-Ink Reader — Max Glenister"
+    },
+    {
+      "item_id": "item-d0d58773",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LookAway - Smart Screen Breaks, Blink &amp; Posture Reminders for Mac"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-25/blog.md",
+    "show_notes_path": "out/2026-06-25/show_notes.md",
+    "script_path": "out/2026-06-25/script_2hosts.md",
+    "audio_path": "out/2026-06-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19252,
+        "output_tokens": 7387,
+        "cost_usd": 0.056187
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37604,
+        "output_tokens": 7408,
+        "cost_usd": 0.223932
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4279,
+        "cost_usd": 0.051348
+      }
+    ],
+    "total_cost_usd": 0.331467
+  }
+}

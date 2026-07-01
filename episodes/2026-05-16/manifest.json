@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-16",
+  "episode_date_local": "2026-05-16",
+  "content_snapshot_date": "2026-05-16",
+  "show_length_sec": 802,
+  "audio_size": 77069804,
+  "generated_at": "2026-05-15T21:23:00.222340+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-fd9486c2",
+      "title": "GitHub - neilsonnn/image-blaster: An image-to-world skillset for Claude.",
+      "fingerprint": "fd9486c2a0a805f18ea4fcea593dca6c",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d51ccaa3",
+      "title": "The Sigmoids Won&#x27;t Save You",
+      "fingerprint": "d51ccaa31f30c9cbfa1282e2b00a0efc",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d4397d95",
+      "title": "GitHub - gdevic/FPGA-Calculator: From FPGA Gates to Scientific Calculator",
+      "fingerprint": "d4397d95e7447097700fdff3fba260cf",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-efb76f51",
+      "title": "A new personal finance experience in ChatGPT",
+      "fingerprint": "efb76f518cbf526afaf58396834c9791",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-c7a1c106",
+      "title": "Announcing the Zulip Foundation",
+      "fingerprint": "c7a1c1061015e093177450bdb317545c",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d3d12013",
+      "title": "Waymo updates 3,800 robotaxis after they 'drive into standing water'",
+      "fingerprint": "d3d12013a5dd8dc2db2d52e37cb8c6c5",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1febdd45",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは実在のツイッターユーザー(Mitchell Hashimoto)による真摯な技術的主張に見えるが、スニペットはJavaScript無効エラーページのみで記事の実際の内容が確認できないため、判定が困難である。",
+      "title": "Mitchellh – I strongly believe there are entire companies now under AI psychosis"
+    },
+    {
+      "item_id": "item-9275b9a2",
+      "reason": "LINK_ONLY: Source classified as joke: Windows CE 2.11をNintendo 64に移植するというプロジェクトは技術的に非現実的であり、ユーザー名「ThroatyMumbo」やプロジェクト名の組み合わせはユーモアを意図している。GitHubのスニペットが不完全で実際のプロジェクト内容が確認できないが、このような組み合わせは典型的なジョークプロジェクトの特徴である。",
+      "title": "GitHub - ThroatyMumbo/WinCE64: Windows CE 2.11 for N64!"
+    },
+    {
+      "item_id": "item-177471e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta&#x27;s $10 billion Louisiana data center is getting $3.3 billion in tax breaks—more than seven years of the state&#x27;s entire police budget | Fortune"
+    },
+    {
+      "item_id": "item-518bfb2b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bill to block publishers from killing online games advances in California"
+    },
+    {
+      "item_id": "item-88ec3b34",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Concerns over Palantir hiring more than 30 senior UK Government officials"
+    },
+    {
+      "item_id": "item-7a786fad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "U.S. DOJ demands Apple and Google unmask over 100,000 users of popular car-tinkering app in emissions crackdown"
+    },
+    {
+      "item_id": "item-4be4f6ac",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens"
+    },
+    {
+      "item_id": "item-208ef77b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Project Gutenberg"
+    },
+    {
+      "item_id": "item-3730ed9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microscale Thermite Reaction"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-16/blog.md",
+    "show_notes_path": "out/2026-05-16/show_notes.md",
+    "script_path": "out/2026-05-16/script_2hosts.md",
+    "audio_path": "out/2026-05-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 20068,
+        "output_tokens": 7460,
+        "cost_usd": 0.057368
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37796,
+        "output_tokens": 7628,
+        "cost_usd": 0.227808
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4419,
+        "cost_usd": 0.053028000000000006
+      }
+    ],
+    "total_cost_usd": 0.338204
+  }
+}

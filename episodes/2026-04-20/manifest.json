@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-20",
+  "episode_date_local": "2026-04-20",
+  "content_snapshot_date": "2026-04-20",
+  "show_length_sec": 816,
+  "audio_size": 78381164,
+  "generated_at": "2026-04-19T23:18:51.974347+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-7bb446b5",
+      "title": "madhadron  - The seven programming ur",
+      "fingerprint": "7bb446b5274ca9e4eb75d9934aaf8a8e",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9695a7c3",
+      "title": "Prove You Are a Robot: CAPTCHAs for Agents",
+      "fingerprint": "9695a7c3a3dbf9957e08937a0a533dff",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7538f89c",
+      "title": "The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World’s Memory Chips",
+      "fingerprint": "7538f89c9cef26a81a07701024730859",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e094a95e",
+      "title": "Swiss authorities want to reduce dependency on Microsoft",
+      "fingerprint": "e094a95e7cfbb29d8d944e4626eaf20c",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-343d9857",
+      "title": "faceoff",
+      "fingerprint": "343d9857ba5584ef3d8d81153f893dae",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d2d6e530",
+      "title": "GitHub - navid-m/chip8emu: Chip8 Emulator",
+      "fingerprint": "d2d6e5303f1ea8b37842bfc5cefc5660",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7e8d6a91",
+      "reason": "LINK_ONLY: Source intent uncertain: Simon Willison is a legitimate tech blogger known for factual reporting, but Claude Opus 4.7 does not exist as of the knowledge cutoff (April 2024), and the article date (April 18, 2026) is in the future relative to current reality, making verification impossible. The content appears structured like genuine technical analysis but references non-existent products.",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7"
+    },
+    {
+      "item_id": "item-d5b6c757",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは「Vercel April 2026 security incident」とセキュリティ侵害を示唆していますが、スニペットはGoogle Vertex AIの生成AI機能に関する技術ドキュメントであり、内容が完全に一致していません。タイトルとコンテンツの不一致により、実際のセキュリティ侵害報道か、エイプリルフール関連のジョークか、あるいはスクレイピングエラーの可能性があります。",
+      "title": "Vercel April 2026 security incident"
+    },
+    {
+      "item_id": "item-80212bfd",
+      "reason": "LINK_ONLY: Source intent uncertain: The Vergeは信頼できるテック媒体ですが、スニペットがなく、タイトルのみでは「RAM不足が数年続く可能性」という主張が現実的なニュースか風刺かを判断できません。AIカテゴリのURLパスは関連性が不明確です。",
+      "title": "The RAM shortage could last years"
+    },
+    {
+      "item_id": "item-f59cbd00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Game Devs Explain The Tricks Involved With Letting You Pause"
+    },
+    {
+      "item_id": "item-e7e4849b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Six levels of dark mode"
+    },
+    {
+      "item_id": "item-0ef51d86",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MXmap — Email Providers of Swiss Municipalities"
+    },
+    {
+      "item_id": "item-71dfa8d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Byte Magazine Volume 00 Number 01 - The Worlds Greatest Toy : Free Download, Borrow, and Streaming : Internet Archive"
+    },
+    {
+      "item_id": "item-f9653d19",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A. J. Ayer – ‘What I Saw When I Was Dead’ (1988)"
+    },
+    {
+      "item_id": "item-fad58de7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Main"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-20/blog.md",
+    "show_notes_path": "out/2026-04-20/show_notes.md",
+    "script_path": "out/2026-04-20/script_2hosts.md",
+    "audio_path": "out/2026-04-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 21063,
+        "output_tokens": 7657,
+        "cost_usd": 0.059348
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37559,
+        "output_tokens": 7471,
+        "cost_usd": 0.224742
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4493,
+        "cost_usd": 0.05391599999999999
+      }
+    ],
+    "total_cost_usd": 0.338006
+  }
+}
