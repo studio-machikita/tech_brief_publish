@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-23",
+  "episode_date_local": "2026-04-23",
+  "content_snapshot_date": "2026-04-23",
+  "show_length_sec": 687,
+  "audio_size": 66028844,
+  "generated_at": "2026-04-22T22:42:21.073628+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-70252cd4",
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "fingerprint": "70252cd46d6df688da4c703d390742df",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a19e83e4",
+      "title": "Coding Models Are Doing Too Much",
+      "fingerprint": "a19e83e445e2803bb3c71f277e184484",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0ffa2f65",
+      "title": "Fragments: April  2",
+      "fingerprint": "0ffa2f65ede206a0f9b7368a01edeecd",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-cd4eb949",
+      "title": "Show HN submissions tripled and now mostly share the same vibe-coded look",
+      "fingerprint": "cd4eb949b6142803b1f54bbaa337ea24",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2d50c804",
+      "title": "We Found a Stable Firefox Identifier Linking All Your Private Tor Identities",
+      "fingerprint": "2d50c80441e908f0be8bb6a9dfe7fb22",
+      "score": 32,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4ff6d09f",
+      "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones | TechCrunch",
+      "fingerprint": "4ff6d09f1b23b587646027abfd1540b4",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-966f07d8",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Qwen Studio」とスニペット「Qwen」のみでは、正当な技術ブログ記事か宣伝記事かの判定が困難。Qwen（阿里巴巴のAIモデル）の公式ブログであることは確認できるが、具体的な記事内容がないため分類できない。",
+      "title": "Qwen Studio"
+    },
+    {
+      "item_id": "item-34f923c8",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルとスニペットが同じ「Flipbook」という単語のみで、具体的な記事内容が不明であるため判定困難。URLドメインだけでは、正当なサービス紹介か宣伝かを区別できない。",
+      "title": "Flipbook"
+    },
+    {
+      "item_id": "item-66c7d3bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "3.4M Solar Panels"
+    },
+    {
+      "item_id": "item-76603889",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "5x5 Pixel font for tiny screens (Maurycy's blog)"
+    },
+    {
+      "item_id": "item-d0c5b9e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hailey (@hailey@hails.org)"
+    },
+    {
+      "item_id": "item-985a437c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alberta startup sells no-tech tractors for half price"
+    },
+    {
+      "item_id": "item-a24c7500",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Illuminated Man by Christopher Priest and Nina Allan review – an unconventional portrait of JG Ballard"
+    },
+    {
+      "item_id": "item-5be2ac34",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meet the Neon King of New Orleans"
+    },
+    {
+      "item_id": "item-7453c7f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The great Scouse pasty war"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-23/blog.md",
+    "show_notes_path": "out/2026-04-23/show_notes.md",
+    "script_path": "out/2026-04-23/script_2hosts.md",
+    "audio_path": "out/2026-04-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18730,
+        "output_tokens": 6629,
+        "cost_usd": 0.051875
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37778,
+        "output_tokens": 7393,
+        "cost_usd": 0.224229
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3826,
+        "cost_usd": 0.045912
+      }
+    ],
+    "total_cost_usd": 0.322016
+  }
+}

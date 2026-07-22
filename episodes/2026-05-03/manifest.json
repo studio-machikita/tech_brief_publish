@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-03",
+  "episode_date_local": "2026-05-03",
+  "content_snapshot_date": "2026-05-03",
+  "show_length_sec": 755,
+  "audio_size": 72511724,
+  "generated_at": "2026-05-02T20:59:13.951548+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-378f10a7",
+      "title": "Flue — The Agent Harness Framework",
+      "fingerprint": "378f10a79923bdea57e65cccc121187a",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b94984f5",
+      "title": "Uber wants to turn its millions of drivers into a sensor grid for self-driving companies | TechCrunch",
+      "fingerprint": "b94984f5dd69571d0123effdbd44edf8",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e99e6e50",
+      "title": "Enabling ai co author by default by cwebster-99 · Pull Request #310226 · microsoft/vscode",
+      "fingerprint": "e99e6e503c1c474dbe44b34b2b8943ed",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1d575972",
+      "title": "VideoLAN / dav2d · GitLab",
+      "fingerprint": "1d575972d842936716a83bdbba5e43e8",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e4e2bb0c",
+      "title": "Inventions for battery reuse and recycling increase more than seven-fold in last decade",
+      "fingerprint": "e4e2bb0cfd8076f9335c8e6c044d9189",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5c875d8a",
+      "title": "DO_NOT_TRACK",
+      "fingerprint": "5c875d8ae28a446cc7b0b4f83a4b836b",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8944bfcb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How fast is a macOS VM, and how small could it be?"
+    },
+    {
+      "item_id": "item-5b6d0a58",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - EnterpriseDB/barman: Barman - Backup and Recovery Manager for PostgreSQL"
+    },
+    {
+      "item_id": "item-4af9412a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "C3 | Blog"
+    },
+    {
+      "item_id": "item-53b3f32d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How a Broken Bike Sync Led Me to Reverse Engineering My Wahoo’s Hidden Debug Mode"
+    },
+    {
+      "item_id": "item-9a42d8f4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "California to begin ticketing driverless cars that violate traffic laws"
+    },
+    {
+      "item_id": "item-95d1a912",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Roblox shares plummet 18% as child safety measures weigh on bookings"
+    },
+    {
+      "item_id": "item-260d5dca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NetHack 5.0.0: Release Notes"
+    },
+    {
+      "item_id": "item-ecbb1457",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Little Magazines Are Back"
+    },
+    {
+      "item_id": "item-4b367dfa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why does it take so long to release black fan versions?"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-03/blog.md",
+    "show_notes_path": "out/2026-05-03/show_notes.md",
+    "script_path": "out/2026-05-03/script_2hosts.md",
+    "audio_path": "out/2026-05-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18533,
+        "output_tokens": 7038,
+        "cost_usd": 0.053723
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37939,
+        "output_tokens": 7375,
+        "cost_usd": 0.224442
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4182,
+        "cost_usd": 0.050184
+      }
+    ],
+    "total_cost_usd": 0.328349
+  }
+}

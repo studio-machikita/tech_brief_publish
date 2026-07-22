@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-29",
+  "episode_date_local": "2026-05-29",
+  "content_snapshot_date": "2026-05-29",
+  "show_length_sec": 772,
+  "audio_size": 74162924,
+  "generated_at": "2026-05-28T22:09:20.401306+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-169387d8",
+      "title": "Claude Opus 4.8",
+      "fingerprint": "169387d8a2e5ef42ee6d3e4204d70e33",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "AWS Machine Learning",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-c0fe17a2",
+      "title": "Postgres-backed Durable Workflow Execution | DBOS",
+      "fingerprint": "c0fe17a23ee6ce72199729cfe41603ca",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-86a5860c",
+      "title": "Various LLM smells",
+      "fingerprint": "86a5860cfc479224fc3d07e659d16278",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bcd431e2",
+      "title": "GitHub - Kaelio/ktx: ktx is the context layer for analytics agents",
+      "fingerprint": "bcd431e2ab780079be2bd3ca4e4d3868",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-57d5f814",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "fingerprint": "57d5f8142b15803fdc3750131b02c973",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-f2826f6a",
+      "title": "I Made a Million Dollar Product from My Dorm Room - Nick Winans",
+      "fingerprint": "f2826f6ab1c353b84efc321f6063329b",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-9ba9200e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bitburner"
+    },
+    {
+      "item_id": "item-b2998fa4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Indoor Wi-Fi Roaming with OpenWRT"
+    },
+    {
+      "item_id": "item-fe14b5cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I hated writing–until I learned there's a science to it(2024)"
+    },
+    {
+      "item_id": "item-bf9febe1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Continue? Y/N"
+    },
+    {
+      "item_id": "item-84028d86",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Permanent Upper Crow"
+    },
+    {
+      "item_id": "item-0d3dcb62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "News about Raspberry Pi 6 and Microcontroller Development"
+    },
+    {
+      "item_id": "item-174d5b69",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MyBrickLog – Free LEGO® Collection Tracker & Price Guide"
+    },
+    {
+      "item_id": "item-d7439d3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nitpicking the shell history scene in ‘Tron: Legacy’"
+    },
+    {
+      "item_id": "item-970c38bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Tale of the World&#039;s Most Unlikely School Bag"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-29/blog.md",
+    "show_notes_path": "out/2026-05-29/show_notes.md",
+    "script_path": "out/2026-05-29/script_2hosts.md",
+    "audio_path": "out/2026-05-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18322,
+        "output_tokens": 6926,
+        "cost_usd": 0.052952
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37297,
+        "output_tokens": 7183,
+        "cost_usd": 0.219636
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4212,
+        "cost_usd": 0.05054399999999999
+      }
+    ],
+    "total_cost_usd": 0.323132
+  }
+}

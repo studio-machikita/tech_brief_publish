@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-09",
+  "episode_date_local": "2026-07-09",
+  "content_snapshot_date": "2026-07-09",
+  "show_length_sec": 843,
+  "audio_size": 80933804,
+  "generated_at": "2026-07-08T21:25:00.226192+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5eeca0b3",
+      "title": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
+      "title_ja": "科学的発見を加速する：インテリジェントな製薬研究のためのBYOKGとGraphRAG",
+      "one_liner": "GraphRAGが製薬研究の知識探索を加速",
+      "fingerprint": "5eeca0b3cd4a93c4c1316fa2529dc579",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-a1ad4cae",
+      "title": "Statistically Meaningful Geometry and Gauge Symmetry Breaking: A Geometric Foundation for Scientific Discovery and Intelligence Emergence",
+      "title_ja": "統計的に意味のある幾何学とゲージ対称性の破れ：科学的発見と知性の出現のための幾何学的基盤",
+      "one_liner": "LLMの「真の知性」を幾何学で検証する新理論",
+      "fingerprint": "a1ad4cae539d3b75fbc9b390faf779e2",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-d53dacf9",
+      "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+      "title_ja": "プロンプトから論文へ：バイオインフォマティクスのためのエージェント型AIシステム",
+      "one_liner": "AIが論文を自動生成するシステムの課題と評価基準を提案",
+      "fingerprint": "d53dacf98f9ce31cf6f844a1ee717c5e",
+      "score": 70,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-491b684c",
+      "title": "March 03, 2026",
+      "title_ja": "Vertex AIの動画生成エンドポイントが刷新、新モデルも登場",
+      "one_liner": "Vertex AIの動画生成エンドポイントが刷新、新モデルも登場",
+      "fingerprint": "491b684c3bee8ca0c9aade0aaba16c3b",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-63c761e8",
+      "title": "How Personas Can Influence Agents to Play Split or Steal",
+      "title_ja": "ペルソナがエージェントに「スプリット・オア・スティール」の選択を影響する仕組み",
+      "one_liner": "ペルソナ設定がAIエージェントの戦略的行動に与える影響を検証",
+      "fingerprint": "63c761e85ed5312869999f5b697f2f34",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-2c8ae93c",
+      "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+      "title_ja": "GitHubエージェントワークフローでリポジトリ横断ドキュメントを自動化",
+      "one_liner": "GitHub AIでドキュメント更新を自動化",
+      "fingerprint": "2c8ae93c7b27443037231c678143ad17",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ee787240",
+      "reason": "LINK_ONLY: Source intent uncertain: Anthropicは実在する企業だが、記事で言及されている「Fable 5」というプロダクト名が確認できず、また「jailbreak framework」という用語が通常のセキュリティ文脈では矛盾している可能性がある。スニペットが不完全で全文が提示されていないため、正当な技術記事か風刺かの判定が困難。",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-91e7c396",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術ニュースサイト「The Decoder」からのものであり、具体的な技術仕様（トークン効率、価格設定、GPU数）を含む一見信頼できる内容だが、2026年7月という未来の日付設定と、実在しない可能性のあるモデル名（Fable 5、GPT 5.5、Opus 4.8）が混在しており、事実と虚構の判別が困難である。",
+      "title": "Grok 4.5 is so cheap compared to Fable 5 and GPT 5.5 that benchmark gaps may not matter much"
+    },
+    {
+      "item_id": "item-b22f6e00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise-managed OpenTelemetry export for VS Code and CLI"
+    },
+    {
+      "item_id": "item-9a868341",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "EmTech AI 2026: The Rise of the AI Platform"
+    },
+    {
+      "item_id": "item-d4e2213a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic"
+    },
+    {
+      "item_id": "item-45bf0da3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Separating signal from noise in coding evaluations"
+    },
+    {
+      "item_id": "item-e1fefe3a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets"
+    },
+    {
+      "item_id": "item-6de61fb8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automatically sort and prioritize your mailboxes by using Amazon Bedrock"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-1c8cd3ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio Code, June 2026 releases"
+    },
+    {
+      "item_id": "item-adda13eb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude codeと論文書いたら良い論文“は”できた"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-0cabb73f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our approach to government and national security partnerships"
+    },
+    {
+      "item_id": "item-85e0e2bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Helping K–12 educators build practical AI skills"
+    },
+    {
+      "item_id": "item-05193039",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "COMBINE-lab - Fable is not a useful model"
+    },
+    {
+      "item_id": "item-adb7588a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When Andreessen Horowitz Has a Sticky Situation to Solve, It Calls ‘The Wolf’"
+    },
+    {
+      "item_id": "item-888b01fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Messi and Ronaldo Are Building Tech Portfolios. Mo Salah Is Playing a Different Game"
+    },
+    {
+      "item_id": "item-19c9842f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bloomberg Deals 7/8/2026"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-09/blog.md",
+    "show_notes_path": "out/2026-07-09/show_notes.md",
+    "script_path": "out/2026-07-09/script_2hosts.md",
+    "audio_path": "out/2026-07-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 38,
+        "input_tokens": 29215,
+        "output_tokens": 9559,
+        "cost_usd": 0.07701
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37505,
+        "output_tokens": 8139,
+        "cost_usd": 0.2346
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4558,
+        "cost_usd": 0.05469600000000001
+      }
+    ],
+    "total_cost_usd": 0.366306
+  }
+}

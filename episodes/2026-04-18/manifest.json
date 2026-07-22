@@ -1,0 +1,170 @@
+{
+  "date": "2026-04-18",
+  "episode_date_local": "2026-04-18",
+  "content_snapshot_date": "2026-04-18",
+  "show_length_sec": 701,
+  "audio_size": 67307564,
+  "generated_at": "2026-04-17T22:13:55.085448+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-57c4aed7",
+      "title": "Introducing: ShaderPad · Riley J. Shaw",
+      "fingerprint": "57c4aed7805a03fac05ad0be5c13f633",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f138f489",
+      "title": "Claude Design",
+      "fingerprint": "f138f4899f80e9c11b0ab60ab734b53c",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-8926c776",
+      "title": "I'm spending 3 months coding the old way",
+      "fingerprint": "8926c776ad3b1edba613237507ff139d",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-df4103da",
+      "title": "A simplified model of Fil-C",
+      "fingerprint": "df4103dac3f90ff72c24daa874117cdb",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c95c8ed2",
+      "title": "GitHub - smol-machines/smolvm: Tool to build &amp; run portable, lightweight, self-contained virtual machines.",
+      "fingerprint": "c95c8ed22203c5d27e5570e89d18c635",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9f0e26ec",
+      "title": "NASA Force",
+      "fingerprint": "9f0e26ec4929f8b59d00adc66252db45",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-62854d5b",
+      "reason": "LINK_ONLY: Source intent uncertain: TechCrunchは信頼できるテック系メディアですが、記事内容が2026年4月という未来の日付であり、Soraの廃止やOpenAIの大規模な方針転換という重大な主張が含まれているため、実在する記事か架空の記事かを確認できません。タイトルの『side quests』という表現はゲーム用語で若干ユーモアを含みますが、これだけでは風刺と判定できません。",
+      "title": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed ‘side quests’"
+    },
+    {
+      "item_id": "item-7b5301af",
+      "reason": "LINK_ONLY: Source intent uncertain: Claude 4.7は2026年4月時点で実在しない可能性が高く、トークナイザーコストの測定記事として技術的には妥当だが、架空のプロダクトバージョンについての記事である可能性がある。ドメイン「claudecodecamp.com」は公式ではなく、スニペットがないため内容の真偽を判定困難。",
+      "title": "Measuring Claude 4.7's tokenizer costs"
+    },
+    {
+      "item_id": "item-88e31e9c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The GNU libc atanh is correctly rounded"
+    },
+    {
+      "item_id": "item-f21d49a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hyperscalers have already outspent most famous US megaprojects"
+    },
+    {
+      "item_id": "item-ad9f3f53",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Risky Bulletin: NIST gives up enriching most CVEs"
+    },
+    {
+      "item_id": "item-16bc4d36",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The toxic side of the Moon"
+    },
+    {
+      "item_id": "item-7c884218",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How I built a 3D printing business and ran it for 8 months"
+    },
+    {
+      "item_id": "item-d8c1fe28",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Isaac Asimov: The Last Question"
+    },
+    {
+      "item_id": "item-97e36501",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Middle schooler finds coin from Troy in Berlin"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-18/blog.md",
+    "show_notes_path": "out/2026-04-18/show_notes.md",
+    "script_path": "out/2026-04-18/script_2hosts.md",
+    "audio_path": "out/2026-04-18/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-18/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-18/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 19218,
+        "output_tokens": 6975,
+        "cost_usd": 0.054093
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37053,
+        "output_tokens": 6767,
+        "cost_usd": 0.212664
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3845,
+        "cost_usd": 0.04614
+      }
+    ],
+    "total_cost_usd": 0.312897
+  }
+}

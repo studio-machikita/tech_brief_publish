@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-13",
+  "episode_date_local": "2026-07-13",
+  "content_snapshot_date": "2026-07-13",
+  "show_length_sec": 802,
+  "audio_size": 76994924,
+  "generated_at": "2026-07-12T21:07:40.997662+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d16ae2a0",
+      "title": "TechCrunch Mobility: A robotaxi ultimatum",
+      "title_ja": "テッククランチ・モビリティ：ロボタクシーへの最後通牒",
+      "one_liner": "ロボタクシー業界に転換点が迫っている",
+      "fingerprint": "d16ae2a0b2a24ac2821a0b7508ac779d",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-2a53e628",
+      "title": "Reed Jobs would rather talk about curing cancer than his last name",
+      "title_ja": "リード・ジョブズ、自分の苗字よりもがん治療について語りたい",
+      "one_liner": "Reed JobsのYosemiteがAIでバイオ投資を加速",
+      "fingerprint": "2a53e628e89366483a0c1f34ede15ed8",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-eb1277ca",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "title_ja": "GPT-5.5バイオ・バグバウンティ",
+      "one_liner": "OpenAIがGPT-5.5のバイオリスク脱獄テストを公募",
+      "fingerprint": "eb1277ca8070e5d29e8f796d9f744383",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-ff0f89ea",
+      "title": "Claude Code now has a built-in browser that lets the AI read, click, and type on external websites",
+      "title_ja": "ClaudeCodeにAIが外部サイトの閲覧・クリック・入力を可能にする内蔵ブラウザが搭載",
+      "one_liner": "Claude Codeにブラウザ操作機能が追加",
+      "fingerprint": "ff0f89ea448504d2d5cb795bf20643b9",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-f18246ed",
+      "title": "Codex as agent provider and agentic enhancements in JetBrains IDEs",
+      "title_ja": "Codexのエージェントプロバイダーとしての活用およびJetBrains IDEにおけるエージェント機能の強化",
+      "one_liner": "CodexがJetBrains IDEの新エージェントに",
+      "fingerprint": "f18246edcc2bfbc9a531bacc6ee74475",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-648a5b5f",
+      "title": "Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integration",
+      "title_ja": "Amazon SageMaker HyperPodにおけるエンタープライズ推論の強化：データキャプチャ、Hugging Face、NVMe、Route 53との統合",
+      "one_liner": "SageMaker HyperPodの推論機能が5つ強化",
+      "fingerprint": "648a5b5f42b553e1277753d4c240844c",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-10f2fffa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "March 12, 2026"
+    },
+    {
+      "item_id": "item-f3f17e8d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple’s M6, M7 and M8 Chips Show How AI Is Reshaping the Company"
+    },
+    {
+      "item_id": "item-73fa79d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod"
+    },
+    {
+      "item_id": "item-b59c51a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-5c3b0856",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms"
+    },
+    {
+      "item_id": "item-e1fefe3a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets"
+    },
+    {
+      "item_id": "item-3892d680",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tiny Emulators"
+    },
+    {
+      "item_id": "item-f7ec4d1c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Uber’s Autonomous Vehicle Strategy: Slow Their Adoption"
+    },
+    {
+      "item_id": "item-b51af2ee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話"
+    },
+    {
+      "item_id": "item-25279e66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%"
+    },
+    {
+      "item_id": "item-89389865",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add review cycles and time to adoption phases in the usage API"
+    },
+    {
+      "item_id": "item-08e957b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Irish datacenters now guzzle 23% of the country"
+    },
+    {
+      "item_id": "item-9208249f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust"
+    },
+    {
+      "item_id": "item-6858cb83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sperm donors need limits, says a European fertility group"
+    },
+    {
+      "item_id": "item-14a6c894",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Coinbase Chief Legal Officer Paul Grewal to Step Down"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-13/blog.md",
+    "show_notes_path": "out/2026-07-13/show_notes.md",
+    "script_path": "out/2026-07-13/script_2hosts.md",
+    "audio_path": "out/2026-07-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26196,
+        "output_tokens": 9003,
+        "cost_usd": 0.071211
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37063,
+        "output_tokens": 7615,
+        "cost_usd": 0.225414
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4372,
+        "cost_usd": 0.052464
+      }
+    ],
+    "total_cost_usd": 0.349089
+  }
+}

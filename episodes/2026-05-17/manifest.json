@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-17",
+  "episode_date_local": "2026-05-17",
+  "content_snapshot_date": "2026-05-17",
+  "show_length_sec": 827,
+  "audio_size": 79416044,
+  "generated_at": "2026-05-16T21:06:26.737082+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a49f284c",
+      "title": "Kioxia and Dell cram 10 PB into slim 2RU server",
+      "fingerprint": "a49f284c67b2255cf2ccf40da70235cd",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2a4399ca",
+      "title": "SANA-WM | Efficient Minute",
+      "fingerprint": "2a4399cacc7e60be3f7872e276029ef8",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4fe9edeb",
+      "title": "$δ$-mem: Efficient Online Memory for Large Language Models",
+      "fingerprint": "4fe9edebbae940ef7d0f7d490b7beac0",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-e786d9c8",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "fingerprint": "e786d9c8ccf51ea38de0a1909b56c770",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-ba7182db",
+      "title": "Aranya",
+      "fingerprint": "ba7182dbd2469e037b5d7af18b7ff4dd",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ebaf6976",
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "fingerprint": "ebaf697608f9c6d62ee3efaad875e07a",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2bb148e5",
+      "reason": "LINK_ONLY: Source classified as joke: Windows 9xはMicrosoft製の1990年代のOSであり、現代のLinuxサブシステム技術と組み合わせるのは技術的に非現実的でユーモアを意図したプロジェクト名。Codebergのリポジトリ構造は本物だが、プロジェクト自体はレトロOSへのオマージュとして作られたジョークプロジェクトと考えられる。",
+      "title": "wsl9x"
+    },
+    {
+      "item_id": "item-a8451fe9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The CTF scene is dead"
+    },
+    {
+      "item_id": "item-498fc073",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Japan’s robot wolf sells out as record bear attacks drive demand"
+    },
+    {
+      "item_id": "item-4a7e8b96",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A molecule with half-Möbius topology"
+    },
+    {
+      "item_id": "item-094c30a2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Accelerando (2005)"
+    },
+    {
+      "item_id": "item-33d5a866",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "rocksky.app/rocksky"
+    },
+    {
+      "item_id": "item-208ef77b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Project Gutenberg"
+    },
+    {
+      "item_id": "item-f50749dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "HTML Lists"
+    },
+    {
+      "item_id": "item-f3fa92b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fame! A Misunderstanding | Los Angeles Review of Books"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-17/blog.md",
+    "show_notes_path": "out/2026-05-17/show_notes.md",
+    "script_path": "out/2026-05-17/script_2hosts.md",
+    "audio_path": "out/2026-05-17/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-17/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-17/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19466,
+        "output_tokens": 7268,
+        "cost_usd": 0.055806
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37593,
+        "output_tokens": 7529,
+        "cost_usd": 0.225714
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4475,
+        "cost_usd": 0.0537
+      }
+    ],
+    "total_cost_usd": 0.33522
+  }
+}

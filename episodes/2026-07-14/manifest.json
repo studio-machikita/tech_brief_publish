@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-14",
+  "episode_date_local": "2026-07-14",
+  "content_snapshot_date": "2026-07-14",
+  "show_length_sec": 788,
+  "audio_size": 75721964,
+  "generated_at": "2026-07-13T21:12:37.866290+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9db54a84",
+      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
+      "title_ja": "格子探索による多層パーセプトロンの区間認証",
+      "one_liner": "MLPの敵対的ロバスト性を格子探索問題に還元する理論を提案",
+      "fingerprint": "9db54a849ff808079e1fe5577cbbce3b",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-ea21fcff",
+      "title": "HALO: Hybrid Adaptive Latent Reasoning for Language Models",
+      "title_ja": "HALO：言語モデルのためのハイブリッド適応型潜在推論",
+      "one_liner": "凍結済みLLMを少ない計算コストで賢くする新手法「HALO」",
+      "fingerprint": "ea21fcffb02c36b3418963a619f8ee13",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-daea46e1",
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "title_ja": "アンソロピックの最新AI発見が示すこと、示さないこと",
+      "one_liner": "AnthropicがAIの感情や内面に関する研究を公開",
+      "fingerprint": "daea46e106c72b416410e2b1c5761588",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-a21cbc8f",
+      "title": "Cursorに「不要なブランチを整理して」と頼んだら、Dドライブが消えた話",
+      "title_ja": "Cursorに「不要なブランチを整理して」と頼んだら、Dドライブが消えた話",
+      "one_liner": "AIエージェントがDドライブのデータを全消去する事故が発生",
+      "fingerprint": "a21cbc8f00203e85883d49289d78928f",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-fb1bd26d",
+      "title": "Palantir Co-Founder Joe Lonsdale on the AI Investment Boom",
+      "title_ja": "パランティア共同創業者ジョー・ロンズデール、AI投資ブームを語る",
+      "one_liner": "AIブームがVCの大型ファンド化を加速",
+      "fingerprint": "fb1bd26d2224e12392e00923c6ce729a",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-7b9d2fcf",
+      "title": "A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions",
+      "title_ja": "大規模言語モデルにおける知識蒸留を相互作用を通じて統一的に解釈するアプローチ",
+      "one_liner": "LLMの知識蒸留を「相互作用」で統一的に解明",
+      "fingerprint": "7b9d2fcf2e7c98f396f8b672746b2a38",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-020854aa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-1c8cd3ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio Code, June 2026 releases"
+    },
+    {
+      "item_id": "item-90c403bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI's new prompting guide tells users to stop overthinking and start with the result"
+    },
+    {
+      "item_id": "item-f73c9fd4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Now, defenders are embracing the prompt injection, too"
+    },
+    {
+      "item_id": "item-9434d121",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Satya Nadella has issued a shocking warning to companies using AI"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-b59c51a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot"
+    },
+    {
+      "item_id": "item-2add9e06",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When your brain works differently, AI isn’t a luxury—it’s accessibility"
+    },
+    {
+      "item_id": "item-a4b4ae6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "March 16, 2026"
+    },
+    {
+      "item_id": "item-89389865",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add review cycles and time to adoption phases in the usage API"
+    },
+    {
+      "item_id": "item-7355f322",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Getting started with ChatGPT"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-9208249f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust"
+    },
+    {
+      "item_id": "item-a6a89e0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - marcelpanse/youtube-guitar-tab-parser: CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab."
+    },
+    {
+      "item_id": "item-192df991",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to Conduct a Competitive Analysis with Google Gemini"
+    },
+    {
+      "item_id": "item-ae835465",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "xarray-sql/benchmarks/nn.py at claude/xarray-sql-mnist-demo · xqlsystems/xarray-sql"
+    },
+    {
+      "item_id": "item-bfc79ed6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Problem With VAR at the 2026 World Cup Isn’t the Technology—It’s Who Interprets It"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-14/blog.md",
+    "show_notes_path": "out/2026-07-14/show_notes.md",
+    "script_path": "out/2026-07-14/script_2hosts.md",
+    "audio_path": "out/2026-07-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26938,
+        "output_tokens": 8899,
+        "cost_usd": 0.071433
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37367,
+        "output_tokens": 7574,
+        "cost_usd": 0.225711
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4263,
+        "cost_usd": 0.05115600000000001
+      }
+    ],
+    "total_cost_usd": 0.3483
+  }
+}

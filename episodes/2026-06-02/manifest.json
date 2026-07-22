@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-02",
+  "episode_date_local": "2026-06-02",
+  "content_snapshot_date": "2026-06-02",
+  "show_length_sec": 702,
+  "audio_size": 67420844,
+  "generated_at": "2026-06-01T22:42:48.245041+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-43be83a6",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "fingerprint": "43be83a6bf5dad8cb7c250319d4efcc9",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-d6e6334f",
+      "title": "Stanford CS336 | Language Modeling from Scratch",
+      "fingerprint": "d6e6334f1fc903a5a06be776bc00f8b9",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-37d9c361",
+      "title": "Stealing from Biologists to Compile Haskell Faster - Ian Duncan",
+      "fingerprint": "37d9c361eb3b81d6b4f522e4ea71dc06",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1122303b",
+      "title": "A 10 year old Xeon is all you need",
+      "fingerprint": "1122303bbed514df894df22c1ed08bb9",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-92da58df",
+      "title": "Debug Project",
+      "fingerprint": "92da58df89d2c15f818b2232ce1609ee",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-907ccc12",
+      "title": "The Dirt That Refused To Die | Quanta Magazine",
+      "fingerprint": "907ccc123f8c95d9302cea0c0199f9ee",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-5a0ef4c0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GrapheneOS Speech Services version 2 released"
+    },
+    {
+      "item_id": "item-ba6fcb01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NVIDIA RTX Spark — Slim Laptops &amp; Small Desktops"
+    },
+    {
+      "item_id": "item-edd37cec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "githubbad.html"
+    },
+    {
+      "item_id": "item-fc49006e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Florida sues OpenAI and Sam Altman over AI risks"
+    },
+    {
+      "item_id": "item-3427f6bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "assignment1-basics/CLAUDE.md at main · stanford-cs336/assignment1-basics"
+    },
+    {
+      "item_id": "item-b9154299",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Should you normalize RGB values by 255 or 256?"
+    },
+    {
+      "item_id": "item-d5cec597",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Newest Instagram \"Exploit\" is the Goofiest I've Seen"
+    },
+    {
+      "item_id": "item-f0176103",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I made my phone slow on purpose — VineWall Notes"
+    },
+    {
+      "item_id": "item-ccf96a0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft builds its ultimate MacBook Pro rival with the NVIDIA powered Surface Laptop Ultra"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-02/blog.md",
+    "show_notes_path": "out/2026-06-02/show_notes.md",
+    "script_path": "out/2026-06-02/script_2hosts.md",
+    "audio_path": "out/2026-06-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18248,
+        "output_tokens": 6797,
+        "cost_usd": 0.052233
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37547,
+        "output_tokens": 7068,
+        "cost_usd": 0.218661
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3799,
+        "cost_usd": 0.045588
+      }
+    ],
+    "total_cost_usd": 0.316482
+  }
+}

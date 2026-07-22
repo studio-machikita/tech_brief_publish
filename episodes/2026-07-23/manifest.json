@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-23",
+  "episode_date_local": "2026-07-23",
+  "content_snapshot_date": "2026-07-23",
+  "show_length_sec": 838,
+  "audio_size": 80491244,
+  "generated_at": "2026-07-22T21:30:00.500045+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5d107bf6",
+      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
+      "title_ja": "NASAの新宇宙望遠鏡とOpenAIの自律型ハッカー",
+      "one_liner": "NASAの新望遠鏡とOpenAIの自律型ハッキングAIが登場",
+      "fingerprint": "5d107bf677bdba33c384c52d2ec978a3",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-768aa41e",
+      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
+      "title_ja": "フロンティアAIにおける道具的な権力追求の測定：システム管理者の視点から",
+      "one_liner": "AIの権力志向をLinux環境で定量測定するベンチマーク登場",
+      "fingerprint": "768aa41ea70ef3476e4ab4dd13d24f37",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-db7d25f1",
+      "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
+      "title_ja": "AIチームメイト：monday.comがAmazon Bedrockで本番AIエージェントを運用する方法",
+      "one_liner": "monday.comがAmazon BedrockでAIエージェントを本番運用",
+      "fingerprint": "db7d25f16daaa1d34189d22018faa314",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-1739da9d",
+      "title": "Rust に書き直さなくても C 言語をメモリ安全にできる Fil-C を試した",
+      "title_ja": "Rust に書き直さなくても C 言語をメモリ安全にできる Fil-C を試した",
+      "one_liner": "CコードをRust移植なしでメモリ安全にするFil-Cを検証",
+      "fingerprint": "1739da9d47b8f7645a056baee8ff1688",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-2e04af55",
+      "title": "Decoding EEG Signals to Explore Next-Word Predictability in the Human Brain",
+      "title_ja": "脳波信号を解読し、人間の脳における次の単語の予測可能性を探る",
+      "one_liner": "脳波でヒトの次単語予測メカニズムを解明",
+      "fingerprint": "2e04af55095d9a7caaedae06d2efbe8c",
+      "score": 65,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-132cb134",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "title_ja": "エファンガム郡コミュニティとともにAIインフラを構築する",
+      "one_liner": "OpenAIがジョージア州でAIインフラ整備を発表",
+      "fingerprint": "132cb134629b4a2ce28f14950eb6ba9c",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7a1e826c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FALCON-Discover: Discovering Concentrated False-Confidence Regions for Calibration"
+    },
+    {
+      "item_id": "item-3429f51c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Mania to Fuel Australia Deals, Top Underwriter Macquarie Says"
+    },
+    {
+      "item_id": "item-a173a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials"
+    },
+    {
+      "item_id": "item-dfbde3a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova"
+    },
+    {
+      "item_id": "item-7a9b5081",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Copilot usage metrics impact dashboard"
+    },
+    {
+      "item_id": "item-b0590f4e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ask Claude about the Anthropic Economic Index"
+    },
+    {
+      "item_id": "item-385480f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How news organizations are using AI to advance their vital missions"
+    },
+    {
+      "item_id": "item-def682fd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The White House Is Trying to Figure Out What to Do About Chinese AI"
+    },
+    {
+      "item_id": "item-b9b1cd83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot vs. raw API access: What are you actually paying for?"
+    },
+    {
+      "item_id": "item-dd584036",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic's $1.5B piracy settlement with book authors is a record loss that hands AI labs their biggest legal win"
+    },
+    {
+      "item_id": "item-d7acde5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI credit pools for cost centers in the billing UI"
+    },
+    {
+      "item_id": "item-05e7229e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Malleable Computing, Emacs, and You"
+    },
+    {
+      "item_id": "item-4c50f73e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable"
+    },
+    {
+      "item_id": "item-8849d106",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Server Maker Supermicro Surged 17% After Announcing New Orders"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-f73d883d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Release Notes for Safari Technology Preview 248"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-23/blog.md",
+    "show_notes_path": "out/2026-07-23/show_notes.md",
+    "script_path": "out/2026-07-23/script_2hosts.md",
+    "audio_path": "out/2026-07-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 30067,
+        "output_tokens": 9263,
+        "cost_usd": 0.076382
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37276,
+        "output_tokens": 7854,
+        "cost_usd": 0.229638
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4584,
+        "cost_usd": 0.055008
+      }
+    ],
+    "total_cost_usd": 0.361028
+  }
+}

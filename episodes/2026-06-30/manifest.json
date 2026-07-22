@@ -1,0 +1,172 @@
+{
+  "date": "2026-06-30",
+  "episode_date_local": "2026-06-30",
+  "content_snapshot_date": "2026-06-30",
+  "show_length_sec": 774,
+  "audio_size": 74312684,
+  "generated_at": "2026-06-29T21:47:38.260530+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b13013ea",
+      "title": "Micro-Agent: Beat Frontier Models with Collaboration inside Model API",
+      "fingerprint": "b13013eaab75a8881c6399b1e67353be",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-d7c279ed",
+      "title": "WATaBoy: JIT",
+      "fingerprint": "d7c279ed44fa9b3b16bad2b162a8e868",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7c4b5035",
+      "title": "What happens when you run a CUDA kernel",
+      "fingerprint": "7c4b50352943118cd5ae08bcf5a176cb",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-390c0ab3",
+      "title": "Qwen 3.6 27B is the sweet spot for local development - Quesma Blog",
+      "fingerprint": "390c0ab3c3c10f2d7410ec955245b99a",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c4f9f14e",
+      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+      "fingerprint": "c4f9f14e755522afc9818aebc4e1b569",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7c6b7b7f",
+      "title": "Apple Neural Engine: Architecture, Programming, and Performance",
+      "fingerprint": "7c6b7b7f3d489f6ed34d661dfc68644e",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-14f96511",
+      "reason": "LINK_ONLY: Source intent uncertain: GitHubリポジトリのスニペットのみで、プロジェクト「Ornith-1」の実際の内容や目的が不明確です。タイトルとスニペットだけではプロジェクトの性質（正当な技術プロジェクト、風刺、宣伝など）を判定できません。",
+      "title": "GitHub - deepreinforce-ai/Ornith-1"
+    },
+    {
+      "item_id": "item-3cd5bc5d",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルはRocket LabによるIridium買収という重大なニュースを示唆していますが、スニペットはGoogle Vertex AIの技術ドキュメント（RAG Engine機能）であり、内容が完全に一致していません。タイトルとスニペットの不一致により、記事の真正性が判定困難です。",
+      "title": "Rocket Lab to Acquire Iridium in Historic Deal, Creating A Fully Vertically Integrated Space Powerhouse Primed for Growth | Mon, 06/29/2026 - 07:00"
+    },
+    {
+      "item_id": "item-2bfe2b4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&lt;/&gt; htmx ~ Working With AI: A Concrete Example"
+    },
+    {
+      "item_id": "item-6223de27",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A native graphical shell for SSH"
+    },
+    {
+      "item_id": "item-48388141",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reclaiming Our Digital Selves: HCCF’s Vision for a Human-Centered Top-Level Domain &#8211; Human"
+    },
+    {
+      "item_id": "item-f670a30a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - jumpserver/jumpserver: JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser."
+    },
+    {
+      "item_id": "item-4f96c75e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US supreme court rules geofence warrants require constitutional privacy protections"
+    },
+    {
+      "item_id": "item-118490d5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "European ISPs Want Rightsholders Held Accountable for Overblocking Damage * TorrentFreak"
+    },
+    {
+      "item_id": "item-296af6ac",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lucas Sifoni - Wallace the 6 inch f/2.8 telescope, building it, and hiking with it"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-30/blog.md",
+    "show_notes_path": "out/2026-06-30/show_notes.md",
+    "script_path": "out/2026-06-30/script_2hosts.md",
+    "audio_path": "out/2026-06-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 29,
+        "input_tokens": 20753,
+        "output_tokens": 7687,
+        "cost_usd": 0.059188
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37710,
+        "output_tokens": 7508,
+        "cost_usd": 0.22575
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4313,
+        "cost_usd": 0.051755999999999996
+      }
+    ],
+    "total_cost_usd": 0.336694
+  }
+}

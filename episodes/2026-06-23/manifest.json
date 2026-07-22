@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-23",
+  "episode_date_local": "2026-06-23",
+  "content_snapshot_date": "2026-06-23",
+  "show_length_sec": 736,
+  "audio_size": 70712684,
+  "generated_at": "2026-06-22T22:18:33.466583+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1184dc87",
+      "title": "British Columbia, Time Zones, and Postgres | Crunchy Data Blog",
+      "fingerprint": "1184dc87329372f0ee4b352da400cc01",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c2baf85c",
+      "title": "PivCo-Huffman &#8220;merge&#8221; operations",
+      "fingerprint": "c2baf85cc38811650d309549f12a0c52",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-8cc39291",
+      "title": "Codex SQLite feedback logs can write ~640 TB/year and rapidly consume SSD endurance · Issue #28224 · openai/codex",
+      "fingerprint": "8cc39291672436efcda4c3604decec6e",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c0751d06",
+      "title": "My Mathematical Regression",
+      "fingerprint": "c0751d066962581f9645ffae42bee68f",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0ae4cc1d",
+      "title": "Moebius Project Page",
+      "fingerprint": "0ae4cc1d822d55bb1f10e209f4d70b17",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1d8650fa",
+      "title": "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+      "fingerprint": "1d8650fae24da2a470f5f7ac9ad5fb2f",
+      "score": 28,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b9c9c6e8",
+      "reason": "LINK_ONLY: Source intent uncertain: OpenAI.comは公式ドメインで信頼性が高いが、「Daybreak」「GPT-5.5-Cyber」といったプロダクト名が実在するか確認できず、2026年6月という未来日付の記事が現在存在することは矛盾している。正当な発表か宣伝的な仮想シナリオかの判断が困難。",
+      "title": "Daybreak: Tools for securing every organization in the world"
+    },
+    {
+      "item_id": "item-3deb7f37",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs"
+    },
+    {
+      "item_id": "item-1667de51",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - dorukkumkumoglu/optocamzero: Optocam Zero is a Raspberry Pi Zero based compact digital camera made using off the shelf components."
+    },
+    {
+      "item_id": "item-814b02d7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Japanese symbols that speak without words"
+    },
+    {
+      "item_id": "item-65582fed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Canada is looking to build up to 10 new nuclear reactors over the next 15 years"
+    },
+    {
+      "item_id": "item-0767a0df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Steam Hardware - Steam Machine launches today! - Steam News"
+    },
+    {
+      "item_id": "item-0d14d8e8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "oak"
+    },
+    {
+      "item_id": "item-5d046481",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Job application asked for my SAT scores"
+    },
+    {
+      "item_id": "item-a3a19510",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "These tacky men with ridiculous glasses want you to wear them too"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-23/blog.md",
+    "show_notes_path": "out/2026-06-23/show_notes.md",
+    "script_path": "out/2026-06-23/script_2hosts.md",
+    "audio_path": "out/2026-06-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19021,
+        "output_tokens": 7102,
+        "cost_usd": 0.054531
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38091,
+        "output_tokens": 7413,
+        "cost_usd": 0.225468
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4077,
+        "cost_usd": 0.048923999999999995
+      }
+    ],
+    "total_cost_usd": 0.328923
+  }
+}

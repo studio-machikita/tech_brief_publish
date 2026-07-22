@@ -1,0 +1,171 @@
+{
+  "date": "2026-05-14",
+  "episode_date_local": "2026-05-14",
+  "content_snapshot_date": "2026-05-14",
+  "show_length_sec": 728,
+  "audio_size": 69929324,
+  "generated_at": "2026-05-13T21:49:00.463289+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-552d793d",
+      "title": "The US Is Winning the AI Race",
+      "fingerprint": "552d793d9dccfdd28c272bdc76590178",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-5f92f593",
+      "title": "Ardent — Database branching for coding agents",
+      "fingerprint": "5f92f5930a3b36434d989a08d84d5e38",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-dc2bb4af",
+      "title": "Linux gaming is getting faster because Windows APIs are becoming Linux kernel features",
+      "fingerprint": "dc2bb4af0441ada87e1619b6012f21ec",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-78320c52",
+      "title": "The great memory panic of 2026",
+      "fingerprint": "78320c5249f1110c143ca8526136b911",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b3bd1a25",
+      "title": "rars in Rust, bro",
+      "fingerprint": "b3bd1a25fec55f10f0c29f8514280073",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e4c2d0a4",
+      "title": "A History of IDEs at Google",
+      "fingerprint": "e4c2d0a498242e5c853e55e5b0796141",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-3813deba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Emacsification of Software &mdash; Quarrelsome"
+    },
+    {
+      "item_id": "item-d25576e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - nooga/xsofy: Roguelike that names itself each run. WIP"
+    },
+    {
+      "item_id": "item-06957c2a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Github Actions issued GITHUB_TOKEN disclosure in GitHub Actions logs"
+    },
+    {
+      "item_id": "item-42b09df3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Setting up a free *.city.state.us locality domain"
+    },
+    {
+      "item_id": "item-2df2ac7a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MacBook Neo Processor Benchmarks: A18 Pro CPU vs M1 and M4"
+    },
+    {
+      "item_id": "item-b85c531b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "In-person examinations at Princeton will be proctored starting July 1"
+    },
+    {
+      "item_id": "item-e0b61487",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chess puzzle I found in my dad's old book"
+    },
+    {
+      "item_id": "item-03c7c0ac",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "S"
+    },
+    {
+      "item_id": "item-50de72aa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Front Page"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-14/blog.md",
+    "show_notes_path": "out/2026-05-14/show_notes.md",
+    "script_path": "out/2026-05-14/script_2hosts.md",
+    "audio_path": "out/2026-05-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18387,
+        "output_tokens": 6740,
+        "cost_usd": 0.052087
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37899,
+        "output_tokens": 7226,
+        "cost_usd": 0.222087
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4074,
+        "cost_usd": 0.048888
+      }
+    ],
+    "total_cost_usd": 0.323062
+  }
+}

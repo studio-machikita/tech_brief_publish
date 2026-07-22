@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-12",
+  "episode_date_local": "2026-07-12",
+  "content_snapshot_date": "2026-07-12",
+  "show_length_sec": 843,
+  "audio_size": 80952044,
+  "generated_at": "2026-07-11T21:08:01.326224+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9fa2d5d7",
+      "title": "The Download: Claude’s inner workings and OpenAI’s “super app”",
+      "title_ja": "ダウンロード：Claudeの内部構造とOpenAIの「スーパーアプリ」",
+      "one_liner": "AnthropicがClaudeの内部思考空間を発見",
+      "fingerprint": "9fa2d5d71b2500023cce23703e10cb57",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-c2b9169c",
+      "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
+      "title_ja": "カメラなしのスマートグラス？ Even Realitiesが「全員を録画するより生産性重視」に賭ける",
+      "one_liner": "カメラなしスマートグラスで生産性を追求",
+      "fingerprint": "c2b9169c2baab07ef951e8db613158de",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-3532459d",
+      "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
+      "title_ja": "AWS上でStardogとAmazon Bedrock AgentCoreを活用したエージェントAI向けセマンティックレイヤーの構築",
+      "one_liner": "ETL不要でAIエージェントがDBを横断検索",
+      "fingerprint": "3532459dff45fe3a8611e5444cfbea72",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-0b02fea0",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "title_ja": "GPT-5.6：あなたの野心に応じてスケールするフロンティアインテリジェンス",
+      "one_liner": "GPT-5.6がコスト効率と性能を両立して登場",
+      "fingerprint": "0b02fea05d1efd15a270b36666156905",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-443cf150",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "title_ja": "より良いツールがCopilotのコードレビューを悪化させた。実際にどう改善したか。",
+      "one_liner": "ツール強化がCopilotのコードレビューを悪化させた教訓",
+      "fingerprint": "443cf150191fac3cecaf34d573236326",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-d17526d2",
+      "title": "Scaling agentic workflows with native case management in Amazon Quick Automate",
+      "title_ja": "Amazonクイックオートメートのネイティブケースマネジメントでエージェントワークフローを拡張",
+      "one_liner": "Amazon Quick AutomateにAIエージェント向けケース管理機能が登場",
+      "fingerprint": "d17526d2201c54b6a0864fe758bea3fd",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e5c5a927",
+      "reason": "LINK_ONLY: Source intent uncertain: The Decoder is a legitimate AI news source, but the product name 'GPT-5.6 Sol Ultra' with 'Sol' appears potentially humorous, and the claim of solving a 50-year conjecture in under an hour is extraordinarily ambitious. The measured tone and mention of mathematician criticism suggests genuine reporting, but the extraordinary nature of the claim warrants caution.",
+      "title": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour"
+    },
+    {
+      "item_id": "item-72dc081b",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルとスニペットが同一で詳細情報が不足しており、実在するプロダクトか宣伝・ジョークかの判定が困難。URLドメインは正当に見えるが、コンテンツ内容の確認が必要。",
+      "title": "Ant, a lightweight JavaScript runtime"
+    },
+    {
+      "item_id": "item-d5d8d2f3",
+      "reason": "LINK_ONLY: Source intent uncertain: Metaが実際に「Muse Spark 1.1」という名称のAIモデルを発表したかどうかが確認できず、プロダクト名が架空である可能性がある。ただしThe Informationは信頼できるテック媒体であり、記事の構造は正当なニュース形式であるため、完全な風刺とも判定しがたい。",
+      "title": "Meta Courts Developers With New Muse Spark 1.1 Model"
+    },
+    {
+      "item_id": "item-b59c51a4",
+      "reason": "LINK_ONLY: Source intent uncertain: GPT-5.6は2026年7月時点で実在しないモデル名であり、OpenAIの公式ドメインを使用しながら架空のプロダクト情報を提示している点が矛盾している。正当な技術ニュースか宣伝目的のコンテンツか、あるいは架空シナリオかの判定が困難。",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-1c8cd3ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio Code, June 2026 releases"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-a4b4ae6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "March 16, 2026"
+    },
+    {
+      "item_id": "item-969e07a1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI Engineer’s ‘LOL’ Moment Set Stage for Legal Fight With Apple"
+    },
+    {
+      "item_id": "item-9617e7b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI bets on families as ChatGPT goes deeper into households"
+    },
+    {
+      "item_id": "item-25279e66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%"
+    },
+    {
+      "item_id": "item-89389865",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add review cycles and time to adoption phases in the usage API"
+    },
+    {
+      "item_id": "item-9208249f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust"
+    },
+    {
+      "item_id": "item-18e73c9f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models"
+    },
+    {
+      "item_id": "item-8e1f887e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - openai/git: &quot;the information manager from hell&quot; - linus torvalds [e83c516, 7 Apr 2005]"
+    },
+    {
+      "item_id": "item-388d726c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ボードゲーム「ナショナルエコノミー」をブラウザで遊べる非公式サービスを作った"
+    },
+    {
+      "item_id": "item-b2810852",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beatbot AquaSense X Review: A Pool Robot That Cleans Itself"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-12/blog.md",
+    "show_notes_path": "out/2026-07-12/show_notes.md",
+    "script_path": "out/2026-07-12/script_2hosts.md",
+    "audio_path": "out/2026-07-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 40,
+        "input_tokens": 29134,
+        "output_tokens": 9897,
+        "cost_usd": 0.078619
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37168,
+        "output_tokens": 8171,
+        "cost_usd": 0.234069
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4660,
+        "cost_usd": 0.05592
+      }
+    ],
+    "total_cost_usd": 0.368608
+  }
+}

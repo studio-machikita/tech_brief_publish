@@ -1,0 +1,225 @@
+{
+  "date": "2026-07-15",
+  "episode_date_local": "2026-07-15",
+  "content_snapshot_date": "2026-07-15",
+  "show_length_sec": 746,
+  "audio_size": 71705324,
+  "generated_at": "2026-07-14T21:15:32.501491+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f73c9fd4",
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "title_ja": "今度は防御側もプロンプトインジェクションを活用し始めた",
+      "one_liner": "防御側もプロンプトインジェクションを武器に転用",
+      "fingerprint": "f73c9fd46bc516a07654858d4db4870a",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-ca594109",
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "title_ja": "ダウンロード：クロードの内部構造と、ワールドモデルの未来",
+      "one_liner": "AnthropicがAIモデルの「内部思考」を可視化する新手法を発表",
+      "fingerprint": "ca59410948cf7db2a9d494aa59cec34a",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-ddd0f705",
+      "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
+      "title_ja": "トゥールミン論証モデルを用いた機械学習予測から根拠ある診断支援へ",
+      "one_liner": "論証モデルでAI診断を構造化・説明可能にする研究",
+      "fingerprint": "ddd0f705944ec288799d51a06fac5c2d",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-376e2ca0",
+      "title": "How to manage AI investments in the agentic era",
+      "title_ja": "エージェント型AI時代における投資管理の方法",
+      "one_liner": "AIエージェント時代の投資対効果を最大化する方法",
+      "fingerprint": "376e2ca0b15e14620226716749bdd341",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-23242ceb",
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "title_ja": "アンソロピック、カナダのAI研究に1000万ドルを拠出",
+      "one_liner": "AnthropicがカナダのAI研究に1000万ドルを投資",
+      "fingerprint": "23242ceb54b53a87ac65fe81e5344e20",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-e00711df",
+      "title": "Knowledge Graphs Meet Graph Neural Networks: A Comprehensive Survey",
+      "title_ja": "ナレッジグラフとグラフニューラルネットワークの融合：包括的サーベイ",
+      "one_liner": "GNNとKGを統合する体系的サーベイ論文が登場",
+      "fingerprint": "e00711dff2d1a405f1b3adc8e92c7b4e",
+      "score": 64,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-474186dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock"
+    },
+    {
+      "item_id": "item-4a3695fd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CLIR-Bench: Benchmarking Multimodal Question Answering over Irregular Clinical Time Series"
+    },
+    {
+      "item_id": "item-d94bf9be",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agentic autofix for code scanning alerts in public preview"
+    },
+    {
+      "item_id": "item-070c211c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 2"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-92b28989",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta"
+    },
+    {
+      "item_id": "item-e0f2d347",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ローカル LLM を構築した"
+    },
+    {
+      "item_id": "item-ddd8457f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security reviews now available in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-e048fd89",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic opens Claude for Teachers with a promise not to train models on student data"
+    },
+    {
+      "item_id": "item-fedef032",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How sales teams use ChatGPT Work"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-e1057d9e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left - Mindgard"
+    },
+    {
+      "item_id": "item-cb04e752",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "PrismML — Announcing Bonsai 27B: The First 27B-Class Model to Run on a Phone"
+    },
+    {
+      "item_id": "item-40419512",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic’s newest ad is creeping people out"
+    },
+    {
+      "item_id": "item-a4b4ae6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "March 16, 2026"
+    },
+    {
+      "item_id": "item-2c49e409",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Netflix’s Q2 Earnings This Week Spotlights Growth Concerns"
+    },
+    {
+      "item_id": "item-5ab87821",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How To Watch the 2026 FIFA World Cup Semifinals: France vs Spain"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-15/blog.md",
+    "show_notes_path": "out/2026-07-15/show_notes.md",
+    "script_path": "out/2026-07-15/script_2hosts.md",
+    "audio_path": "out/2026-07-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 25427,
+        "output_tokens": 8652,
+        "cost_usd": 0.068687
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 36915,
+        "output_tokens": 7171,
+        "cost_usd": 0.21831
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4051,
+        "cost_usd": 0.048612
+      }
+    ],
+    "total_cost_usd": 0.335609
+  }
+}

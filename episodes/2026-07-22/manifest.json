@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-22",
+  "episode_date_local": "2026-07-22",
+  "content_snapshot_date": "2026-07-22",
+  "show_length_sec": 715,
+  "audio_size": 68702444,
+  "generated_at": "2026-07-21T21:26:52.627406+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ed62c189",
+      "title": "How to build interactive experiences with canvases",
+      "title_ja": "キャンバスを使ったインタラクティブな体験の作り方",
+      "one_liner": "GitHubがAIをインタラクティブな作業空間に変えるCanvas機能を解説",
+      "fingerprint": "ed62c1893ffc276899ad41e6dbcd2152",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-7ad75766",
+      "title": "An AI system helped Pakistani judges clear massive backlogs at $38.50 return per dollar invested",
+      "title_ja": "AIシステムがパキスタンの裁判官の大量訴訟積滞解消を支援、投資1ドルあたり38.50ドルの費用対効果",
+      "one_liner": "AIで裁判官の案件処理が6.3%向上、ROIは38.5倍",
+      "fingerprint": "7ad7576622864d3ce5ceaae08f6e4021",
+      "score": 71,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-f7be5539",
+      "title": "Apply for Anthropic’s AI for Science rare disease research grants",
+      "title_ja": "AnthropicのAI for Science希少疾患研究助成金への申請受付中",
+      "one_liner": "AnthropicがAIで難病研究を支援する助成金を公募",
+      "fingerprint": "f7be5539747b243a9fd0ca58c7292cdb",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-399c2dec",
+      "title": "Gemini 3.6 Flash is now available in GitHub Copilot",
+      "title_ja": "Gemini 3.6 FlashがGitHub Copilotで利用可能に",
+      "one_liner": "Google製AIモデルがGitHub Copilotに追加",
+      "fingerprint": "399c2decc7756ef040d81b3f53a2cd47",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-03054e8d",
+      "title": "Beyond grep: The case for a context-rich AI coding harness",
+      "title_ja": "grepを超えて：文脈豊かなAIコーディング基盤の必要性",
+      "one_liner": "AIコーディング支援にはコンテキストの質が鍵",
+      "fingerprint": "03054e8d284a1bf4a85ac30a423fd854",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-1c6a62bf",
+      "title": "Async React時代の宣言的UI 3: useActionStateでユーザーの操作を妨げないUXを作る",
+      "title_ja": "Async React時代の宣言的UI 3: useActionStateでユーザーの操作を妨げないUXを作る",
+      "one_liner": "useActionStateでUXを損なわない非同期UI設計を実現",
+      "fingerprint": "1c6a62bf11d80d959dbffd6ac857284c",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f38aa8dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rater State Bias in RLHF Preference Data: An Audit Framework"
+    },
+    {
+      "item_id": "item-b6d6caad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts"
+    },
+    {
+      "item_id": "item-a173a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials"
+    },
+    {
+      "item_id": "item-dfbde3a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exploring self-distilled reasoning for supervised fine-tuning with Amazon Nova"
+    },
+    {
+      "item_id": "item-9fce299a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation"
+    },
+    {
+      "item_id": "item-746d8717",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the ChatGPT for small business program"
+    },
+    {
+      "item_id": "item-09aca78b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Custom OS installation now available on AWS DeepRacer devices"
+    },
+    {
+      "item_id": "item-0c777937",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
+    },
+    {
+      "item_id": "item-d7acde5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI credit pools for cost centers in the billing UI"
+    },
+    {
+      "item_id": "item-cde557bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reinforcement Learning-Guided NSGA-II Enhanced with Gray Relational Coefficient for Multi-Objective Optimization: Application to NASDAQ Portfolio Optimization"
+    },
+    {
+      "item_id": "item-8ac88857",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Chinese AI divides the White House, and a record copyright payout"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-01a5854e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alphabet, SpaceX Spur Record U.S. Equity Sales"
+    },
+    {
+      "item_id": "item-bad9bd74",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark Anne Frank copyright ruling"
+    },
+    {
+      "item_id": "item-d6478037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "These are the countries moving to ban social media for children"
+    },
+    {
+      "item_id": "item-2a5983be",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nintendo Scores Hit With Tomodachi Life as Gamers Seek Escape With Life Sims"
+    },
+    {
+      "item_id": "item-dc4a9793",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shop Best Buy’s Black Friday in July Sale 2026 Before Fall Chaos"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-22/blog.md",
+    "show_notes_path": "out/2026-07-22/show_notes.md",
+    "script_path": "out/2026-07-22/script_2hosts.md",
+    "audio_path": "out/2026-07-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 29898,
+        "output_tokens": 8386,
+        "cost_usd": 0.071828
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 36972,
+        "output_tokens": 7066,
+        "cost_usd": 0.216906
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3879,
+        "cost_usd": 0.046548
+      }
+    ],
+    "total_cost_usd": 0.335282
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-20",
+  "episode_date_local": "2026-06-20",
+  "content_snapshot_date": "2026-06-20",
+  "show_length_sec": 846,
+  "audio_size": 81220844,
+  "generated_at": "2026-06-19T21:23:06.569289+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-706ff4ff",
+      "title": "John Jumper (@JohnJumperSci) on X",
+      "fingerprint": "706ff4ff9b5974914149d0f0f8df26b0",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Decoder",
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-b6d2f702",
+      "title": "Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28 - JVM Weekly vol. 180",
+      "fingerprint": "b6d2f7027cf766f0301c0a404eb64bc5",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0a72134b",
+      "title": "DuckDB Internals: Why is DuckDB Fast?",
+      "fingerprint": "0a72134bc0498c9b6510d9011ffca4eb",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f6576050",
+      "title": "Hyundai takes full control of Boston Dynamics as SoftBank exits for $325 million - Startup Fortune",
+      "fingerprint": "f6576050a6c4c1e67957a53ef567d090",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a558a578",
+      "title": "There Are No Instances in atproto — overreacted",
+      "fingerprint": "a558a578b37280b76cabd1f40f7c429d",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-202e2443",
+      "title": "Norway imposes near ban on AI in elementary school",
+      "fingerprint": "202e24435e0eb1bb7d57a1f45c0b9575",
+      "score": 33,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-c8ceaabc",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は一見すると真摯な技術ニュースのように見えるが、ドメイン「aiclambake.com」がユーモアを含む名称であり、著者が対象者と社会的に知り合いであることを明かしている点が客観性を損なっている。また、Linear Aの解読という極めて困難な主張が専門家レビュー中という段階での報道であり、確認が取れていない。",
+      "title": "AI Engineer Claims to Have Cracked Linear A"
+    },
+    {
+      "item_id": "item-9216c913",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事の内容は一見すると信頼できるニュースのように見えますが、映画タイトル「Artificial」、Luca Guadagninoの関与、Andrew Garfieldのキャスティング、そして$50億のパートナーシップ直後の映画中止という劇的なストーリーラインは、実在する可能性と風刺的な創作の可能性の両方が考えられます。URLドメインの不一致（スニペットはthe-decoder.comだがURLはthe-independent.com）も信頼性を低下させています。",
+      "title": "Amazon drops Sam Altman movie after announcing OpenAI partnership"
+    },
+    {
+      "item_id": "item-a514cc0f",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「VocabOwl - Scientific Word Count」は正当な技術ツールのように見えるが、提供されたスニペットが極めて限定的であり、実際のコンテンツ内容が不明確なため判定困難。URLはGoogle Cloud Runのアプリケーションを示唆しており、実在するプロダクトの可能性があるが、詳細情報がないため確実な判定ができない。",
+      "title": "VocabOwl"
+    },
+    {
+      "item_id": "item-067a9f05",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google workspace threatening to block firefox access"
+    },
+    {
+      "item_id": "item-f8162740",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I used sound waves to make espresso. It could cut coffee-brewing energy use by 75%"
+    },
+    {
+      "item_id": "item-4f6bf27c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Tiny Turbine That Kick-Started the U.S. Wind Industry"
+    },
+    {
+      "item_id": "item-fbac89b6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Telescope Ranchers"
+    },
+    {
+      "item_id": "item-8fc747c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A New Bill Takes Aim at Government Pressure to Silence Lawful Online Speech"
+    },
+    {
+      "item_id": "item-a3a99949",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Big Banana Car"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-20/blog.md",
+    "show_notes_path": "out/2026-06-20/show_notes.md",
+    "script_path": "out/2026-06-20/script_2hosts.md",
+    "audio_path": "out/2026-06-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 30,
+        "input_tokens": 21674,
+        "output_tokens": 8005,
+        "cost_usd": 0.061699
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38167,
+        "output_tokens": 7910,
+        "cost_usd": 0.233151
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4628,
+        "cost_usd": 0.055536
+      }
+    ],
+    "total_cost_usd": 0.350386
+  }
+}

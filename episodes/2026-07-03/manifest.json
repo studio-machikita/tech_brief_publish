@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-03",
+  "episode_date_local": "2026-07-03",
+  "content_snapshot_date": "2026-07-03",
+  "show_length_sec": 800,
+  "audio_size": 76830764,
+  "generated_at": "2026-07-03T09:22:20.842799+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6559752b",
+      "title": "Chinese AI video maker Kling raises $2 billion as it gears up for Hong Kong IPO",
+      "title_ja": "中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達",
+      "one_liner": "中国AI動画サービスKlingが約3000億円を調達",
+      "fingerprint": "6559752b47ff395c2fdacfe12e4c2f44",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2b027442",
+      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+      "title_ja": "PACE：妥当で実行可能な反事実的説明のための神経記号フレームワーク",
+      "one_liner": "AIの説明可能性を高める神経記号的手法PACEを提案",
+      "fingerprint": "2b02744267f175f087351cb89c29adec",
+      "score": 73,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-b54d92aa",
+      "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+      "title_ja": "Amazonの SageMaker AIにおけるマルチターン強化学習のベストプラクティス",
+      "one_liner": "Amazon SageMaker AIでマルチターンRLを安全に訓練するベストプラクティス",
+      "fingerprint": "b54d92aac9338d49eb1f405bfebc954d",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6b75fc43",
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "title_ja": "AIブラウザがなぜ危険なのか、新たな攻撃手法がまた一つの理由を示す",
+      "one_liner": "「2+2=5」でAIブラウザの安全制限を突破できる",
+      "fingerprint": "6b75fc43b517c94064953ce569390004",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-10f2fffa",
+      "title": "March 12, 2026",
+      "title_ja": "Vertex AIの評価サービスがパートナーモデルに対応",
+      "one_liner": "Vertex AIの評価サービスがパートナーモデルに対応",
+      "fingerprint": "10f2fffabe7ec809dd0617761a0f49e6",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-23286fd1",
+      "title": "14× faster embeddings: how we rebuilt the ONNX path in Manticore",
+      "title_ja": "ONNXパスを再構築してエンベディングを14倍高速化：Manticoreでの取り組み",
+      "one_liner": "ManticoreのONNX処理を刷新し、埋め込み生成を14倍高速化",
+      "fingerprint": "23286fd1e991ad15873ec6854e260148",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ee787240",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事タイトルに「jailbreak framework」という通常は悪意的な文脈で使われる用語が含まれており、正当な技術記事とするには違和感がある。ただしAnthropicの公式ドメインであり、セキュリティ研究の文脈では「jailbreak」は防御側の研究対象として使用される可能性もあるため、完全には判定できない。",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-e9087037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models"
+    },
+    {
+      "item_id": "item-dd5b3063",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash"
+    },
+    {
+      "item_id": "item-6ce9c12c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT adoption has expanded"
+    },
+    {
+      "item_id": "item-ffca3fec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Amazon Bedrock catches AI-generated phishing"
+    },
+    {
+      "item_id": "item-3747f102",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improved accuracy and coverage in Copilot usage metrics reports"
+    },
+    {
+      "item_id": "item-1564d1b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mapping Europe’s AI Workforce Opportunity"
+    },
+    {
+      "item_id": "item-29c2a0af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Multilayer Q-Matrix-Embedded Neural Network for Cognitive Diagnosis (M-QCDNet): Structure-Aware Deep Learning Architecture for Psychometric Interpretability"
+    },
+    {
+      "item_id": "item-46603049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redeploying Fable 5"
+    },
+    {
+      "item_id": "item-0aac8170",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says"
+    },
+    {
+      "item_id": "item-dcd33add",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Achieving operational excellence with AI"
+    },
+    {
+      "item_id": "item-d8df87ed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Productivity Hopes Show ‘Exuberance,’ Allianz’s Subran Says"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-1baa79b1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "私が今DGX Sparkを購入した理由"
+    },
+    {
+      "item_id": "item-6997a9ae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Uber Shakes Up Data Labelling Business"
+    },
+    {
+      "item_id": "item-966152db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware"
+    },
+    {
+      "item_id": "item-59dd0f4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Last chance to apply — Startup Battlefield Australia applications close July 6"
+    },
+    {
+      "item_id": "item-701d4262",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The 11 Best TV Shows to Stream This Month (July 2026)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-03/blog.md",
+    "show_notes_path": "out/2026-07-03/show_notes.md",
+    "script_path": "out/2026-07-03/script_2hosts.md",
+    "audio_path": "out/2026-07-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 26686,
+        "output_tokens": 9095,
+        "cost_usd": 0.072161
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 36843,
+        "output_tokens": 7521,
+        "cost_usd": 0.223344
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4290,
+        "cost_usd": 0.051480000000000005
+      }
+    ],
+    "total_cost_usd": 0.346985
+  }
+}

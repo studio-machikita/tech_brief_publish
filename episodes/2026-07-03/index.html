@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — 中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-07-03/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-07-03/">
+<meta property="og:description" content="2026-07-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-07-03/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — 中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達 ほか",
+    "description": "2026-07-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-07-03",
+    "image": "https://technewsradio.tokyo/episodes/2026-07-03/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-07-03/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — 中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達 ほか",
+    "description": "2026-07-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-07-03",
+    "url": "https://technewsradio.tokyo/episodes/2026-07-03/",
+    "duration": "PT13M20S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-07-03/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=%E4%B8%AD%E5%9B%BD%E3%81%AEAI%E5%8B%95%E7%94%BB%E7%94%9F%E6%88%90%E3%83%84%E3%83%BC%E3%83%AB%E3%80%8CKling%E3%80%8D%E3%80%81%E9%A6%99%E6%B8%AF%E4%B8%8A%E5%A0%B4%E3%81%AB%E5%90%91%E3%81%9120%E5%84%84%E3%83%89%E3%83%AB%E3%82%92%E8%AA%BF%E9%81%94%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-07-03/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-07-03/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-07-03"
+subtitle: "中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達 / PACE：妥当で実行可能な反事実的説明のための神経記号フレームワーク / Am..."
+date: "2026-07-03"
+vol: 94
+topics:
+  - AI
+  - Business
+  - Startup
+  - Science
+  - LLM
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-07-03
+
+*📖 約12分で読めます ｜ 🏷️ AI, Business, Startup, Science, LLM*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達** — 中国AI動画サービスKlingが約3000億円を調達
+- 🤖 **PACE：妥当で実行可能な反事実的説明のための神経記号フレームワーク** — AIの説明可能性を高める神経記号的手法PACEを提案
+- 🤖 **Amazonの SageMaker AIにおけるマルチターン強化学習のベストプラクティス** — Amazon SageMaker AIでマルチターンRLを安全に訓練するベストプラクティス
+- 🤖 **AIブラウザがなぜ危険なのか、新たな攻撃手法がまた一つの理由を示す** — 「2+2=5」でAIブラウザの安全制限を突破できる
+- 🤖 **Vertex AIの評価サービスがパートナーモデルに対応** — Vertex AIの評価サービスがパートナーモデルに対応
+- 🤖 **ONNXパスを再構築してエンベディングを14倍高速化：Manticoreでの取り組み** — ManticoreのONNX処理を刷新し、埋め込み生成を14倍高速化
+
+---
+
+## 🤖 中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達
+\`AI\` \`Business\` \`Startup\`
+
+<details>
+<summary>📄 原題: Chinese AI video maker Kling raises $2 billion as it gears up for Hong Kong IPO</summary>
+</details>
+
+> **一言で**: 中国AI動画サービスKlingが約3000億円を調達
+
+- Kuaishouが傘下のAI動画部門Kling向けに約20億ドルを調達
+- 香港での株式上場（IPO）に向けた準備が本格化
+- 中国発のAI動画生成サービスが大規模資金を獲得
+
+💡 **なぜ重要か**
+AI動画生成ツールは世界的に競争が激化しています。OpenAIのSoraなど欧米勢が注目される中、中国のKlingも高品質な動画生成で存在感を示してきました。今回の大型調達は、中国発AIサービスがグローバル市場での競争力を高めようとしている流れを象徴しています。 AI動画生成市場への投資が加速し、競合他社も資金調達や機能強化を迫られる可能性があります。また、香港IPOが実現すれば、中国のAI企業が国際資本市場へアクセスする新たな事例となり、他社の上場戦略にも影響を与えそうです。
+
+🎯 **今日のアクション**
+AI動画生成ツールの選定や導入を検討しているチームは、Klingを含む複数サービスの品質・コスト・利用規約を比較しておくと良いでしょう。また、中国発AIサービスの利用にはデータ管理やコンプライアンス上のリスク確認も欠かせません。
+
+🔗 [原文を読む](https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/)
+
+---
+
+## 🤖 PACE：妥当で実行可能な反事実的説明のための神経記号フレームワーク
+\`AI\` \`Science\`
+
+<details>
+<summary>📄 原題: PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations</summary>
+</details>
+
+> **一言で**: AIの説明可能性を高める神経記号的手法PACEを提案
+
+- 機械学習モデルの予測を「最小限の入力変更」で説明する反事実的説明の新手法
+- 既存手法は非現実的な提案になりがちで、ドメイン知識を組み込む仕組みが不足
+- ニューロシンボリックAI（データ駆動と論理推論を組み合わせる手法）でこの課題に対処
+- PACEは実現可能で行動に移せる説明の生成を目指すフレームワーク
+
+💡 **なぜ重要か**
+AIモデルの判断根拠を人間が理解できる形で示す「説明可能なAI」は、医療・金融・法律など高リスク分野で特に重要です。反事実的説明（Counterfactual Explanation）は「こう変えれば結果が変わった」と示す手法ですが、現実的に実行不可能な提案が多いという課題がありました。 AIの意思決定に対する規制が世界的に強まる中、実用的な説明可能性ツールの需要は高まっています。PACEのようなアプローチが普及すれば、AIシステムの監査や利用者への説明責任を果たしやすくなると見られています。
+
+🎯 **今日のアクション**
+説明可能なAIの導入を検討しているエンジニアは、既存の反事実的説明ライブラリの限界を把握した上で、PACEの論文（arXiv:2607.01306）を確認し、ドメイン制約の組み込み方を自社ユースケースと照らし合わせてみてください。
+
+🔗 [原文を読む](https://arxiv.org/abs/2607.01306)
+
+---
+
+## 🤖 Amazonの SageMaker AIにおけるマルチターン強化学習のベストプラクティス
+\`AI\` \`LLM\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Best practices for multi-turn reinforcement learning in Amazon SageMaker AI</summary>
+</details>
+
+> **一言で**: Amazon SageMaker AIでマルチターンRLを安全に訓練するベストプラクティス
+
+- 信頼できる訓練環境の構築方法を解説
+- 外部評価の設定と、エンドタスクに合った報酬設計が重要
+- エージェントが複数ターン動作する際の状態管理に注意が必要
+- 適切なメトリクス監視で、改善タイミングを見極める
+
+💡 **なぜ重要か**
+強化学習（RL）をLLMに適用する際、単一ターンではなく複数回のやり取りを経て目標を達成するマルチターン設定は難易度が高いです。Amazon SageMaker AIはそのインフラを提供しますが、訓練の安定性や報酬設計の難しさから、実践的なガイドラインへの需要が高まっています。 マルチターンRLの標準的な手法が普及すれば、より複雑なタスクをこなせるAIエージェントの開発が加速します。クラウド上での再現性ある訓練基盤が整うことで、研究から本番運用までのハードルが下がると見られています。
+
+🎯 **今日のアクション**
+Amazon SageMaker AIでRLを試みるエンジニアは、まず訓練環境の再現性確保と外部評価の仕組みを先に設計し、報酬関数をエンドタスクの目標と一致させることを優先してください。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/)
+
+---
+
+## 🤖 AIブラウザがなぜ危険なのか、新たな攻撃手法がまた一つの理由を示す
+\`AI\` \`Security\` \`LLM\`
+
+<details>
+<summary>📄 原題: New attack provides one more reason why AI browsers are a bad idea</summary>
+</details>
+
+> **一言で**: 「2+2=5」でAIブラウザの安全制限を突破できる
+
+- LLMに誤った前提を与えるだけで、禁止命令を無視させられる
+- AIを組み込んだブラウザは、この種の攻撃に特に脆弱だと指摘
+- 単純な論理操作が、AIの安全機構を回避する手段になりうる
+
+💡 **なぜ重要か**
+AIをブラウザに統合する動きが各社で加速しています。しかしLLM（大規模言語モデル）は、誤った前提を「事実」として受け入れてしまう弱点があります。今回の攻撃手法はその弱点を突くもので、技術的に高度な知識がなくても実行できる点が深刻です。 AIブラウザの普及が進むほど、ユーザーのデータや操作が攻撃にさらされるリスクが高まります。LLMの安全制限をソフトウェア的な「壁」として頼ることの限界が改めて示されており、AI搭載製品の設計思想そのものが問われる局面です。
+
+🎯 **今日のアクション**
+AIをブラウザや重要システムに組み込む際は、LLMの判断だけに安全を依存しない設計が必要です。入力値の検証や権限制御など、従来のセキュリティ手法との組み合わせを必ず検討してください。
+
+🔗 [原文を読む](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/)
+
+---
+
+## 🤖 Vertex AIの評価サービスがパートナーモデルに対応
+\`AI\` \`LLM\` \`Cloud\`
+
+<details>
+<summary>📄 原題: March 12, 2026</summary>
+</details>
+
+> **一言で**: Vertex AIの評価サービスがパートナーモデルに対応
+
+- Google CloudのVertex AIで、AnthropicやLlamaなどのパートナーモデルを評価できるように
+- Gen AI評価サービスがサードパーティ製モデルにも正式対応
+- コンソールから評価を実行できる手順が公式ドキュメントで案内済み
+
+💡 **なぜ重要か**
+企業がAIモデルを選定する際、複数のモデルを同一基準で比較評価したいニーズが高まっています。これまでVertex AIの評価サービスはGoogle製モデルが中心でしたが、AnthropicのClaudeやMetaのLlamaといった有力なパートナーモデルにも対応することで、マルチモデル戦略を取る企業の評価作業が一元化できます。 クラウド上でのAIモデル評価が標準化されると、特定ベンダーへの依存を避けながらモデルを選べる環境が整います。結果として、企業はコストや精度に応じてモデルを柔軟に切り替えやすくなり、AIプラットフォーム間の競争も活発になると見られます。
+
+🎯 **今日のアクション**
+Vertex AIを使っているチームは、コンソールからパートナーモデルの評価機能を試し、自社ユースケースに最適なモデルを比較検討してみましょう。既存のGoogle製モデルとの性能・コスト比較を行うことで、モデル選定の根拠を定量的に示せます。
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_12_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_03_2026)
+
+---
+
+## 🤖 ONNXパスを再構築してエンベディングを14倍高速化：Manticoreでの取り組み
+\`AI\` \`OSS\` \`Data\`
+
+<details>
+<summary>📄 原題: 14× faster embeddings: how we rebuilt the ONNX path in Manticore</summary>
+</details>
+
+> **一言で**: ManticoreのONNX処理を刷新し、埋め込み生成を14倍高速化
+
+- Manticore SearchのONNXランタイム処理を根本から作り直し、14倍の高速化を達成
+- 埋め込み（embedding）生成のボトルネックを特定し、パイプライン全体を最適化
+- OSS検索エンジンでのAIベクトル検索の実用性が大きく向上する見込み
+
+💡 **なぜ重要か**
+ベクトル検索の普及に伴い、テキストを数値ベクトルに変換する埋め込み生成の速度が検索システム全体のパフォーマンスを左右するようになっています。ONNX（Open Neural Network Exchange）はAIモデルを効率的に実行するための共通フォーマットで、Manticore SearchはこのONNXを使って検索時の埋め込み生成をエンジン内部で処理しています。今回の改善はその核心部分に手を入れたものです。 OSSの検索エンジンがAI推論を内部で高速処理できるようになると、外部の推論サーバーへの依存を減らせます。インフラ構成がシンプルになり、レイテンシ（遅延）削減とコスト削減を同時に狙えるため、中小規模のプロダクトでもベクトル検索を導入しやすくなるでしょう。
+
+🎯 **今日のアクション**
+Manticore Searchを使っているチームは最新バージョンへのアップグレードを検討してください。また、外部の埋め込みAPIに依存している構成を見直し、エンジン内処理への移行コストと効果を比較評価する価値があります。
+
+🔗 [原文を読む](https://manticoresearch.com/blog/onnx-embeddings-speedup/)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するテーマは、**AIの実用化・産業化の加速**と、それに伴う**信頼性・制御性への需要の高まり**である。KlingへのAI動画生成分野への巨額投資は、生成AIがエンターテインメントやコンテンツ産業において本格的なビジネス価値を持ち始めたことを象徴しており、AI技術が研究段階から資本市場を動かす産業インフラへと移行しつつあることを示している。一方でPACEの神経記号フレームワークやSageMakerにおけるマルチターン強化学習のベストプラクティスは、AIが実社会に深く組み込まれるにつれて「なぜそのような出力をするのか」「どう安全に学習させるか」という説明可能性と制御性の問題が技術的急務となっていることを反映している。つまり業界全体として、AIの能力拡張と商業展開を猛スピードで進めながら、同時にその挙動を人間が理解・管理できる仕組みを整備するという、いわば**アクセルとブレーキを同時に踏む**段階に差し掛かっているといえる。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達**: AI動画生成ツールの選定や導入を検討しているチームは、Klingを含む複数サービスの品質・コスト・利用規約を比較しておくと良いでしょう。また、中国発AIサービスの利用にはデータ管理やコンプライアンス上のリスク確認も欠かせません。
+2. **PACE：妥当で実行可能な反事実的説明のための神経記号フレームワーク**: 説明可能なAIの導入を検討しているエンジニアは、既存の反事実的説明ライブラリの限界を把握した上で、PACEの論文（arXiv:2607.01306）を確認し、ドメイン制約の組み込み方を自社ユースケースと照らし合わせてみてください。
+3. **Amazonの SageMaker AIにおけるマルチターン強化学習のベストプラクティス**: Amazon SageMaker AIでRLを試みるエンジニアは、まず訓練環境の再現性確保と外部評価の仕組みを先に設計し、報酬関数をエンドタスクの目標と一致させることを優先してください。
+
+---
+
+## 🔗 出典一覧
+- [中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達](https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/)
+- [PACE：妥当で実行可能な反事実的説明のための神経記号フレームワーク](https://arxiv.org/abs/2607.01306)
+- [Amazonの SageMaker AIにおけるマルチターン強化学習のベストプラクティス](https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/)
+- [AIブラウザがなぜ危険なのか、新たな攻撃手法がまた一つの理由を示す](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/)
+- [Vertex AIの評価サービスがパートナーモデルに対応](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_12_2026)
+- [Vertex AIの評価サービスがパートナーモデルに対応](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026)
+- [Vertex AIの評価サービスがパートナーモデルに対応](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_03_2026)
+- [ONNXパスを再構築してエンベディングを14倍高速化：Manticoreでの取り組み](https://manticoresearch.com/blog/onnx-embeddings-speedup/)`;
+const notesMd = `# Tech News Radio Show Notes - #094 (2026-07-03)
+
+## エピソード情報
+- **エピソード**: #094
+- **日付**: 2026-07-03
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Chinese AI video maker Kling raises $2 billion as it gears up for Hong Kong IPO](https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/)
+- [PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations](https://arxiv.org/abs/2607.01306)
+- [Best practices for multi-turn reinforcement learning in Amazon SageMaker AI](https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/)
+
+### 注目の深掘り
+- [New attack provides one more reason why AI browsers are a bad idea](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/)
+
+### 小ネタ・その他
+- [March 12, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_12_2026)
+- [March 12, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_05_2026)
+- [March 12, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#March_03_2026)
+- [14× faster embeddings: how we rebuilt the ONNX path in Manticore](https://manticoresearch.com/blog/onnx-embeddings-speedup/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

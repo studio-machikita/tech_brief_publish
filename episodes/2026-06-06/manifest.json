@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-06",
+  "episode_date_local": "2026-06-06",
+  "content_snapshot_date": "2026-06-06",
+  "show_length_sec": 716,
+  "audio_size": 68791724,
+  "generated_at": "2026-06-05T21:47:55.231237+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a8122771",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "fingerprint": "a8122771d53db24a5736176dbd3eb890",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-d3aa3469",
+      "title": "Gemma 4 QAT models: Optimizing model compression for mobile and laptop efficiency",
+      "fingerprint": "d3aa3469442f5874d89729cbcc2d6a42",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-eefa13e2",
+      "title": "GitHub - microsoft/pg_durable: PostgreSQL in-database durable execution",
+      "fingerprint": "eefa13e2dce6524c710aea2f64054fd5",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1551d87a",
+      "title": "My Agent Skill for Test-Driven Development - SaturnCI - Continuous Integration for Ruby on Rails",
+      "fingerprint": "1551d87ac6e3c772fe99ea8d713a3f24",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e1c10c53",
+      "title": "mouseless",
+      "fingerprint": "e1c10c537aee74328f5254d7664c8d17",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-26eeb570",
+      "title": "Did Claude Increase Bugs in rsync?",
+      "fingerprint": "26eeb5701acc9ceaf3c97cbabcb4a443",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-fe818452",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Transformers Are Inherently Succinct」は学術的に見えるが、スニペットがなく、openreview.netのPDFリンクのみでは内容が不明。タイトルが皮肉的である可能性もあり、実際の論文か風刺かの判定が困難。",
+      "title": "Transformers Are Inherently Succinct"
+    },
+    {
+      "item_id": "item-52909149",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stop Using Conventional Commits"
+    },
+    {
+      "item_id": "item-dd0dc3d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I tested every IP KVM in my Homelab"
+    },
+    {
+      "item_id": "item-ca1b1431",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&#34;maybe later&#34; was a feature - arnorhs.dev"
+    },
+    {
+      "item_id": "item-92d417fb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hacker News, Sans AI"
+    },
+    {
+      "item_id": "item-17ac5db0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Three of our worst VC stories"
+    },
+    {
+      "item_id": "item-60eaa8ca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GOV.UK goes Dutch on payments as it dumps Stripe"
+    },
+    {
+      "item_id": "item-2d598586",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New method turns ocean water into drinking water, without waste"
+    },
+    {
+      "item_id": "item-1775751a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Astronauts told to return to International Space Station after sheltering over air leak repairs"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-06/blog.md",
+    "show_notes_path": "out/2026-06-06/show_notes.md",
+    "script_path": "out/2026-06-06/script_2hosts.md",
+    "audio_path": "out/2026-06-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 18772,
+        "output_tokens": 6979,
+        "cost_usd": 0.053667
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37602,
+        "output_tokens": 6973,
+        "cost_usd": 0.217401
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3996,
+        "cost_usd": 0.04795200000000001
+      }
+    ],
+    "total_cost_usd": 0.31902
+  }
+}

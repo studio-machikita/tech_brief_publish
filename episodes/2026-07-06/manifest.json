@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-06",
+  "episode_date_local": "2026-07-06",
+  "content_snapshot_date": "2026-07-06",
+  "show_length_sec": 746,
+  "audio_size": 71628524,
+  "generated_at": "2026-07-05T21:17:55.256834+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-319dd740",
+      "title": "Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
+      "title_ja": "Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理",
+      "one_liner": "BaiduのOCRが数十ページを一括処理できる技術を開発",
+      "fingerprint": "319dd740584f03616c173d4b165d3328",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2fcd6f28",
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "title_ja": "ダートマス大学の講義で新しいAIチューターが0.71〜1.30SDの効果量を達成",
+      "one_liner": "AIチューターがDartmouth大学で大きな学習効果を実証",
+      "fingerprint": "2fcd6f2833baa1f8e8895f1eec96f02e",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b1971f45",
+      "title": "Structured memory filtering with metadata in AgentCore Memory",
+      "title_ja": "AgentCore Memoryにおけるメタデータを用いた構造化メモリフィルタリング",
+      "one_liner": "AgentCore Memoryでメタデータを使った構造的なメモリ管理が可能に",
+      "fingerprint": "b1971f457eedbda18ff42d594666c421",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-aac640ae",
+      "title": "AIに外部脳を持たせて1ヶ月運用した全記録",
+      "title_ja": "AIに外部脳を持たせて1ヶ月運用した全記録",
+      "one_liner": "AIの記憶をObsidianで自作した1ヶ月の実録",
+      "fingerprint": "aac640aef5c75697384c6c3d7c9e5c31",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-dab0b873",
+      "title": "April 10, 2026",
+      "title_ja": "Colab EnterpriseでSQLセルが正式提供開始",
+      "one_liner": "Colab EnterpriseでSQLセルが正式提供開始",
+      "fingerprint": "dab0b873b0623d45ef54fdb5e2a1c76b",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-dd5b3063",
+      "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
+      "title_ja": "Gemini 2.5 ProとGemini 3 Flashの廃止予定",
+      "one_liner": "GitHub CopilotでGeminiモデルが7月末に廃止",
+      "fingerprint": "dd5b306388b5e1e845338c29f537c167",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-a04d66a9",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術的に実現可能な内容（AI支援によるゲーム移植）を扱っているが、タイトルの「a few hours」と本文の「40 minutes」の矛盾、および2026年という未来の日付設定が信頼性を損なっている。ただし、The Decoderは実在する技術メディアであり、完全な風刺とも言い切れない。",
+      "title": "Claude Code and Fable 5 ported the 2003 PC game Command & Conquer to native iOS in \"a few hours\""
+    },
+    {
+      "item_id": "item-6ce9c12c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT adoption has expanded"
+    },
+    {
+      "item_id": "item-3747f102",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improved accuracy and coverage in Copilot usage metrics reports"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-1564d1b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mapping Europe’s AI Workforce Opportunity"
+    },
+    {
+      "item_id": "item-ffca3fec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Amazon Bedrock catches AI-generated phishing"
+    },
+    {
+      "item_id": "item-ee787240",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-46603049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redeploying Fable 5"
+    },
+    {
+      "item_id": "item-9a1e9477",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Prediction Markets Let You Bet on Whether a Wildfire Will Burn Down Your Town"
+    },
+    {
+      "item_id": "item-89e3cf67",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Microsoft’s Real Value Is Close to $3.8 Trillion, or $500 a Share"
+    },
+    {
+      "item_id": "item-ae63432a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Small Penis Rule"
+    },
+    {
+      "item_id": "item-69ef6823",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alibaba Gets Reprieve on Lobbying Ban Tied to DoD Blacklist"
+    },
+    {
+      "item_id": "item-edad2132",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk"
+    },
+    {
+      "item_id": "item-2fe81a5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a smoking “endgame” and a new Elizabeth Bear story"
+    },
+    {
+      "item_id": "item-6878a2fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway."
+    },
+    {
+      "item_id": "item-d51881d7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump memecoin investors lost $3.8 billion, analysis finds"
+    },
+    {
+      "item_id": "item-1ebf0262",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 40+"
+    },
+    {
+      "item_id": "item-8da6dfe9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Universal’s Latest ‘Minions’ Delivers $61 Million in Debut"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-06/blog.md",
+    "show_notes_path": "out/2026-07-06/show_notes.md",
+    "script_path": "out/2026-07-06/script_2hosts.md",
+    "audio_path": "out/2026-07-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 26874,
+        "output_tokens": 8582,
+        "cost_usd": 0.069784
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 17,
+        "input_tokens": 36989,
+        "output_tokens": 7116,
+        "cost_usd": 0.217707
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4023,
+        "cost_usd": 0.048276
+      }
+    ],
+    "total_cost_usd": 0.335767
+  }
+}

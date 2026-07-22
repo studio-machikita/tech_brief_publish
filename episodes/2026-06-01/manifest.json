@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-01",
+  "episode_date_local": "2026-06-01",
+  "content_snapshot_date": "2026-06-01",
+  "show_length_sec": 786,
+  "audio_size": 75522284,
+  "generated_at": "2026-05-31T21:16:50.870534+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9b955e47",
+      "title": "PrismML — Introducing 1-bit and Ternary Bonsai Image 4B: Image Generation for Local Devices",
+      "fingerprint": "9b955e4724bf0574f2800f10e32d6dd9",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-02b4b496",
+      "title": "Restartable Sequences",
+      "fingerprint": "02b4b49642e138d6e9afe581b3545ad4",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d8297808",
+      "title": "The Speed of Prototyping in the Age of AI",
+      "fingerprint": "d8297808289cd44ed0058357f64aa04e",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-3b801a7a",
+      "title": "GitHub - viggy28/streambed: Stream Postgres to Apache Iceberg on S3 via logical replication, queryable over the Postgres wire protocol.",
+      "fingerprint": "3b801a7af088179547dc16b781181aa4",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-49f7e965",
+      "title": "Linux/M68k",
+      "fingerprint": "49f7e965f74eafd45a6130094f61975a",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-986afe5b",
+      "title": "The Website Specification",
+      "fingerprint": "986afe5bb8ce22dd6f9041400d8b9f80",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-00f55e68",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル「Dav2d」のみでは内容が不明確であり、スニペットがないため記事の実質的な内容を判断できません。jbkempf.comは技術ブログとして知られていますが、提供情報不足のため確実な分類ができません。",
+      "title": "Dav2d"
+    },
+    {
+      "item_id": "item-730c572c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans | TechCrunch"
+    },
+    {
+      "item_id": "item-b2ba4bfa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cloudflare Turnstile requiring fingerprintable WebGL"
+    },
+    {
+      "item_id": "item-ccb96614",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Codex just found a \"workaround\" of not having sudo on my PC"
+    },
+    {
+      "item_id": "item-f5382ad5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Re: [PATCH] oom_pardon, aka don"
+    },
+    {
+      "item_id": "item-672246ad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scientists found that the creatine supplement millions take for muscle gains is quietly raising brain energy levels and slowing early Alzheimer&#039;s cognitive decline by 30% - thesciverse"
+    },
+    {
+      "item_id": "item-6e8dedf5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "&quot;Four-Letter Word&quot;: United Airlines 767 Returns To Newark After Bluetooth Name Sparks Alert"
+    },
+    {
+      "item_id": "item-0bad49e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Box Office: 'Backrooms' Stuns, 'Obsession' Stays Strong, 'Mandalorian and Grogu' Craters"
+    },
+    {
+      "item_id": "item-2dcddf54",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "diamond geezer"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-01/blog.md",
+    "show_notes_path": "out/2026-06-01/show_notes.md",
+    "script_path": "out/2026-06-01/script_2hosts.md",
+    "audio_path": "out/2026-06-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19197,
+        "output_tokens": 7253,
+        "cost_usd": 0.055462
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37652,
+        "output_tokens": 7492,
+        "cost_usd": 0.225336
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4300,
+        "cost_usd": 0.0516
+      }
+    ],
+    "total_cost_usd": 0.332398
+  }
+}

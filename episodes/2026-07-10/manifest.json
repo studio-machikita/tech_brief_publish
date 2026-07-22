@@ -1,0 +1,227 @@
+{
+  "date": "2026-07-10",
+  "episode_date_local": "2026-07-10",
+  "content_snapshot_date": "2026-07-10",
+  "show_length_sec": 752,
+  "audio_size": 72246764,
+  "generated_at": "2026-07-09T21:45:21.112090+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d916d4bd",
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "title_ja": "アンソロピック、クロードが概念を思索する隠れた空間を発見",
+      "one_liner": "AnthropicがClaudeの思考過程を可視化する技術を開発",
+      "fingerprint": "d916d4bd906dc6ba4361d661781b55ca",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-7366af51",
+      "title": "TriRoute: Unified Learned Routing for Joint Adaptive Attention, Experts, and KV-Cache Allocation",
+      "title_ja": "TriRoute：適応的アテンション、エキスパート、KVキャッシュ割り当てを統合した学習型ルーティング",
+      "one_liner": "LLMの推論コストを3軸同時最適化する新手法",
+      "fingerprint": "7366af515c279dc31837c2a1f55fa7bb",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-07c0c289",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "title_ja": "ChatGPTが、あなたの最も野心的な仕事のパートナーに",
+      "one_liner": "ChatGPTが長時間作業をこなすAIエージェントに進化",
+      "fingerprint": "07c0c2899b65aaa8c31b3c6a722387de",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-55ccaed9",
+      "title": "MCP tool design: Practical approaches and tradeoffs",
+      "title_ja": "MCPツール設計：実践的なアプローチとトレードオフ",
+      "one_liner": "MCPツール設計の失敗パターンと改善策を解説",
+      "fingerprint": "55ccaed94abdcfae28bb31757a370516",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6095201d",
+      "title": "GLM 5.2 is (nearly) as accurate as a human book-keeper at less than 1% of the cost",
+      "title_ja": "GLM 5.2、人間の簿記担当者とほぼ同等の精度をコストの1%未満で実現",
+      "one_liner": "AIが人間の経理担当者の1%未満のコストで同等精度を実現",
+      "fingerprint": "6095201d539a990b76857b33b8b0d77b",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b22f6e00",
+      "title": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
+      "title_ja": "エンタープライズ管理されたOpenTelemetryエクスポート機能がVS CodeとCLIに対応",
+      "one_liner": "企業がCopilotのOTelデータ送信先を一元管理できるように",
+      "fingerprint": "b22f6e003b7c85ba02015ae689616bea",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-eb4a5d8c",
+      "reason": "LINK_ONLY: Source intent uncertain: The Informationは信頼できるテック媒体ですが、記事内容に複数の疑わしい要素があります。GPT-5.6というモデル名が2026年7月時点で実在するか不明確であり、Noam Brownの引用やSam Altmanの2028年タイムラインの言及も検証が必要です。ただしThe Informationの信頼性とURLの正当性から完全な風刺とは判定できません。",
+      "title": "OpenAI Researcher Says GPT-5.6 is Better at AI Research Than Most Human Interns"
+    },
+    {
+      "item_id": "item-b3c32bfd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1"
+    },
+    {
+      "item_id": "item-1b8adab4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation"
+    },
+    {
+      "item_id": "item-648a5b5f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integration"
+    },
+    {
+      "item_id": "item-ee13cab3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "HTML即公開！Cloudflare Drop が面白そう"
+    },
+    {
+      "item_id": "item-0b02fea0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition"
+    },
+    {
+      "item_id": "item-1b558904",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic Wants You to Pay Up for Claude Fable 5"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-1c8cd3ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio Code, June 2026 releases"
+    },
+    {
+      "item_id": "item-1dcd3415",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Audio Sentiment Analysis via Distillation and Cross-Modal Integration of Generated Multilingual Transcripts"
+    },
+    {
+      "item_id": "item-b59c51a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-a4b4ae6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "March 16, 2026"
+    },
+    {
+      "item_id": "item-25279e66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%"
+    },
+    {
+      "item_id": "item-9208249f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust"
+    },
+    {
+      "item_id": "item-59241543",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Charles Hudson shares the common mistakes he’s seen after investing in 500+ startups"
+    },
+    {
+      "item_id": "item-59ff3871",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Robinhood CIO Discusses Market Trends as Magnificent 7 Underperform"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-10/blog.md",
+    "show_notes_path": "out/2026-07-10/show_notes.md",
+    "script_path": "out/2026-07-10/script_2hosts.md",
+    "audio_path": "out/2026-07-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 26657,
+        "output_tokens": 9087,
+        "cost_usd": 0.072092
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37251,
+        "output_tokens": 7555,
+        "cost_usd": 0.225078
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4116,
+        "cost_usd": 0.049392
+      }
+    ],
+    "total_cost_usd": 0.346562
+  }
+}

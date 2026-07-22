@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-22",
+  "episode_date_local": "2026-05-22",
+  "content_snapshot_date": "2026-05-22",
+  "show_length_sec": 714,
+  "audio_size": 68556524,
+  "generated_at": "2026-05-21T21:50:34.317577+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1f0489c9",
+      "title": "Runtime - The runtime for all your team&#x27;s agents",
+      "fingerprint": "1f0489c9df0b4faff4df02ea8b081f14",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a7801292",
+      "title": "Indexing a year of video locally on a 5-year-old M1 Max with Gemma 4 31B",
+      "fingerprint": "a7801292acb05879cecf10c68af8eec3",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-67d79521",
+      "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods | TechCrunch",
+      "fingerprint": "67d79521d78ecd3df2ea6882302b5425",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-db2fa316",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "fingerprint": "db2fa316609e875c2e7ebef7a54f81c7",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-f7e314e3",
+      "title": "This blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
+      "fingerprint": "f7e314e3f84e23e8881c2ecd099d6b38",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c8443c10",
+      "title": "A new generation of ads for the AI era of Search",
+      "fingerprint": "c8443c10fc965c6108e5652999025c9c",
+      "score": 40,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e50aa922",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術ブログの体裁をしているが、「tachyon profiler」という実在しない機能が言及されており、風刺またはジョークの可能性がある。ただし、スニペットが不完全で全体的な文脈が不明確なため、確実な判定が困難。",
+      "title": "Python 3.15: features that didn't make the headlines"
+    },
+    {
+      "item_id": "item-c55267fa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flipper One — we need your help"
+    },
+    {
+      "item_id": "item-fe87994a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Freenet"
+    },
+    {
+      "item_id": "item-1d01373e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Was my $48K GPU server worth it?"
+    },
+    {
+      "item_id": "item-eb460f28",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "BBEdit 16 is here!"
+    },
+    {
+      "item_id": "item-0ae95ef0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon, Facebook, ICE have access to Seattle police intelligence-sharing network"
+    },
+    {
+      "item_id": "item-3aa4e89f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hail Mary - Star Map"
+    },
+    {
+      "item_id": "item-fb34ba02",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Using Kagi Search With Low Vision | Veronica With Four Eyes"
+    },
+    {
+      "item_id": "item-ceab939d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Spotify Will Reserve Concert Tickets for Superfans"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-22/blog.md",
+    "show_notes_path": "out/2026-05-22/show_notes.md",
+    "script_path": "out/2026-05-22/script_2hosts.md",
+    "audio_path": "out/2026-05-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19046,
+        "output_tokens": 6998,
+        "cost_usd": 0.054036
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38086,
+        "output_tokens": 7227,
+        "cost_usd": 0.222663
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3920,
+        "cost_usd": 0.04704
+      }
+    ],
+    "total_cost_usd": 0.323739
+  }
+}

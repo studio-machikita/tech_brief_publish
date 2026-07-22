@@ -1,0 +1,231 @@
+{
+  "date": "2026-07-11",
+  "episode_date_local": "2026-07-11",
+  "content_snapshot_date": "2026-07-11",
+  "show_length_sec": 809,
+  "audio_size": 77682284,
+  "generated_at": "2026-07-10T21:22:56.938529+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-25e4012d",
+      "title": "UST is bringing Claude to physical AI",
+      "title_ja": "USTがClaudeを物理AIに導入",
+      "one_liner": "USTがClaudeを製造現場のAIに統合",
+      "fingerprint": "25e4012df9f663d446a4fbec7de05dc1",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-d612dce8",
+      "title": "Tencent moves to buy majority stake in Manus after Beijing forced Meta to unwind its $2 billion deal",
+      "title_ja": "テンセント、北京がメタの20億ドル契約解消を強制後、マナスの過半数株式取得へ",
+      "one_liner": "TencentがManusの過半数株取得へ交渉中",
+      "fingerprint": "d612dce8ade29fe846fda20519472fff",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6d5fa37c",
+      "title": "Context Graphs for Proactive Enterprise Agents",
+      "title_ja": "エンタープライズエージェントのプロアクティブ化に向けたコンテキストグラフ",
+      "one_liner": "AIエージェントを受動型から能動型へ転換する新手法を提案",
+      "fingerprint": "6d5fa37c827f4071d14bf6185a8d2639",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-699176e4",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "title_ja": "ドイツテレコム、AIで通信業界を再構築する取り組みとは",
+      "one_liner": "Deutsche TelekomがOpenAIと組みAIネイティブな通信会社へ転換",
+      "fingerprint": "699176e479ba75937f6092b8f78cad1e",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-04a2663d",
+      "title": "Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization",
+      "title_ja": "NVIDIAのNemotron 3モデルをAmazon SageMaker AIのサーバーレスモデルカスタマイズでファインチューニング",
+      "one_liner": "SageMakerでNemotron 3をサーバーレス微調整できる",
+      "fingerprint": "04a2663d03c1609179036c5f1bab5e36",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-ebb0151c",
+      "title": "Real-time dental image verification with Amazon SageMaker AI at Henry Schein One",
+      "title_ja": "AmazonSageMaker AIを活用したHenry Schein Oneにおけるリアルタイム歯科画像検証",
+      "one_liner": "歯科X線をAIでリアルタイム品質検証、1100万枚超を処理",
+      "fingerprint": "ebb0151c94f0a359e1df34c0651037d4",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-eb935d01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lumen Completes Acquisition of Cloud Networking Firm Alkira"
+    },
+    {
+      "item_id": "item-e01e638f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた"
+    },
+    {
+      "item_id": "item-aac3fefc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Towards the Explainability of Temporal Graph Networks via Memory Backtracking and Topological Attribution"
+    },
+    {
+      "item_id": "item-9fa2d5d7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Claude’s inner workings and OpenAI’s “super app”"
+    },
+    {
+      "item_id": "item-7e6e57f8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Please don&#39;t discontinue Gemini 2.5 Flash"
+    },
+    {
+      "item_id": "item-1c8cd3ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio Code, June 2026 releases"
+    },
+    {
+      "item_id": "item-b59c51a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot"
+    },
+    {
+      "item_id": "item-abd3a13d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages"
+    },
+    {
+      "item_id": "item-443cf150",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it."
+    },
+    {
+      "item_id": "item-59f5b4f2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-25279e66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Suspecting AI cheating, Ivy League prof ordered an in-person final; scores fell 50%"
+    },
+    {
+      "item_id": "item-18e73c9f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models"
+    },
+    {
+      "item_id": "item-d07de4bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple sues OpenAI over alleged trade secret theft"
+    },
+    {
+      "item_id": "item-89389865",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add review cycles and time to adoption phases in the usage API"
+    },
+    {
+      "item_id": "item-023a17d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets"
+    },
+    {
+      "item_id": "item-eadf7e8b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Universities Fret as Anthropic, OpenAI, Meta and DeepMind Lure Their Professors"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-11/blog.md",
+    "show_notes_path": "out/2026-07-11/show_notes.md",
+    "script_path": "out/2026-07-11/script_2hosts.md",
+    "audio_path": "out/2026-07-11/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-11/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-11/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26571,
+        "output_tokens": 9109,
+        "cost_usd": 0.072116
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37073,
+        "output_tokens": 7804,
+        "cost_usd": 0.228279
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4422,
+        "cost_usd": 0.053064
+      }
+    ],
+    "total_cost_usd": 0.353459
+  }
+}

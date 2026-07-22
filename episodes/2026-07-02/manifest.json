@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-02",
+  "episode_date_local": "2026-07-02",
+  "content_snapshot_date": "2026-07-02",
+  "show_length_sec": 734,
+  "audio_size": 70539884,
+  "generated_at": "2026-07-01T21:50:20.679766+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f509f6cc",
+      "title": "For the First Time, a Cell Built From Scratch Grows and Divides | Quanta Magazine",
+      "fingerprint": "f509f6cc59540adfe8493bec7b99ec11",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-2478e67e",
+      "title": "Inside Genebench-Pro",
+      "fingerprint": "2478e67e3fb7e11646ea73a14e6b82bc",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-cf9e9960",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "fingerprint": "cf9e9960ca4629cebb12d763c60247d3",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-fddb7f30",
+      "title": "Announcing Box3D",
+      "fingerprint": "fddb7f301573e364e6ecc12e3eda2959",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-00638adc",
+      "title": "What To Learn To Be A Real Time Graphics Programmer",
+      "fingerprint": "00638adc7225f8bf70b3ed564287836d",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-bd36a32a",
+      "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+      "fingerprint": "bd36a32a1479c0a4787e02a03d0f966e",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b0c4fb62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ZCode - 简单、迅捷、氛围十足 | GLM-5.2 官方适配开发工具"
+    },
+    {
+      "item_id": "item-d12b0aaa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Optimistic Provide: How We Made IPFS Content Publishing 10x Faster"
+    },
+    {
+      "item_id": "item-15200deb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude (@claudeai) on X"
+    },
+    {
+      "item_id": "item-6ce9c12c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT adoption has expanded"
+    },
+    {
+      "item_id": "item-4e7d4ae5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FFmpeg 9.1's new AAC encoder"
+    },
+    {
+      "item_id": "item-9fe4ab22",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Wind To Watt - Innovative Wind Turbine for Sustainable and Green Energy"
+    },
+    {
+      "item_id": "item-efd048c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Internal Combustion Engine – Bartosz Ciechanowski"
+    },
+    {
+      "item_id": "item-12a5e5aa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Worker Owned — Find Worker-Owned Coffee Shops & Restaurants"
+    },
+    {
+      "item_id": "item-cc761a0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Physical disc production ending in January 2028 for new games releasing on PlayStation consoles"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-02/blog.md",
+    "show_notes_path": "out/2026-07-02/show_notes.md",
+    "script_path": "out/2026-07-02/script_2hosts.md",
+    "audio_path": "out/2026-07-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18356,
+        "output_tokens": 6997,
+        "cost_usd": 0.053341
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37567,
+        "output_tokens": 7198,
+        "cost_usd": 0.220671
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3997,
+        "cost_usd": 0.04796399999999999
+      }
+    ],
+    "total_cost_usd": 0.321976
+  }
+}

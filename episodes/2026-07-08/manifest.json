@@ -1,0 +1,229 @@
+{
+  "date": "2026-07-08",
+  "episode_date_local": "2026-07-08",
+  "content_snapshot_date": "2026-07-08",
+  "show_length_sec": 749,
+  "audio_size": 71907884,
+  "generated_at": "2026-07-07T21:43:48.519965+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8654b377",
+      "title": "iFLYTEK-Embodied-Omni Technical Report",
+      "title_ja": "iFLYTEK具身オムニ技術報告書",
+      "one_liner": "科技訊飛が汎用ロボットエージェント向け統合AIを発表",
+      "fingerprint": "8654b377fe8f8809ffd73e0287757ff7",
+      "score": 83,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI",
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-2939e9b7",
+      "title": "Copilot goes cheap as Microsoft phases out OpenAI and Anthropic models to cut costs",
+      "title_ja": "Microsoftがコスト削減でOpenAIとAnthropicのモデルを廃止、Copilotを低価格化",
+      "one_liner": "MicrosoftがCopilotをOpenAI製から自社製AIモデルへ切り替え",
+      "fingerprint": "2939e9b72aab18b75ee5b662f280b149",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0a86fd0b",
+      "title": "GitHub Copilot app available to all",
+      "title_ja": "GitHub Copilotアプリ、全ユーザーに提供開始",
+      "one_liner": "GitHub Copilotアプリが全プランで利用可能に",
+      "fingerprint": "0a86fd0b3e695abfe32399ae793d5648",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-4d462e19",
+      "title": "May 26, 2026",
+      "title_ja": "Google CloudのAIエージェント機能が刷新",
+      "one_liner": "Google CloudのAIエージェント機能が刷新",
+      "fingerprint": "4d462e19f6cefdec9d2003ef145bafaa",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-6f7bab01",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+      "title_ja": "アルバータ州政府、クロードを活用して政府システム全体のサイバーセキュリティ脆弱性を発見・修正",
+      "one_liner": "アルバータ州政府がClaudeでサイバー脆弱性を自動修正",
+      "fingerprint": "6f7bab01d90d88a9ac087cebe1377300",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-4345f2fb",
+      "title": "Cohere Transcribe Arabic is an open-source model built for Arabic's toughest transcription problems",
+      "title_ja": "CohereのTranscribe Arabicは、アラビア語の難解な文字起こし問題に対応したオープンソースモデル",
+      "one_liner": "CohereがアラビアAR音声認識モデルをOSS公開",
+      "fingerprint": "4345f2fb2b984409128ae468c3b403ab",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d9b22f07",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet"
+    },
+    {
+      "item_id": "item-8c8d6abd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving LLMs via Validator-to-Generator Alignment"
+    },
+    {
+      "item_id": "item-fb047e3b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Data modeling best practices for Amazon Quick Sight multi-dataset relationships"
+    },
+    {
+      "item_id": "item-56b5001e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TeraWulf CEO Excited About Anthropic Data Center Agreement"
+    },
+    {
+      "item_id": "item-21fc9208",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Auditing the Audit: Five Failure Modes in Benchmark-Validity Audits"
+    },
+    {
+      "item_id": "item-89a67877",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models"
+    },
+    {
+      "item_id": "item-49ca08c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fable時代のAI活用法を、Anthropicの開発者が公開"
+    },
+    {
+      "item_id": "item-174a4246",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex"
+    },
+    {
+      "item_id": "item-330b3900",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enrich your datasets with business context: Migrating from legacy Topics to semantic datasets in Amazon Quick"
+    },
+    {
+      "item_id": "item-d6ef5392",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Per-user budgets for cost centers in the billing UI"
+    },
+    {
+      "item_id": "item-ee787240",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-13fb721c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s Chief Futurist Is Leaving the Company"
+    },
+    {
+      "item_id": "item-8911dff0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-9449e01b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Davit — a native macOS UI for Apple containers"
+    },
+    {
+      "item_id": "item-fb8cee6e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "All Cars Sold in the EU Now Require a Camera Aimed at Your Face"
+    },
+    {
+      "item_id": "item-70703c52",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Singapore Files New Charges in Nvidia Chip Fraud Case"
+    },
+    {
+      "item_id": "item-432c3a16",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mysterious Compound Detected on Pluto and Titan"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-08/blog.md",
+    "show_notes_path": "out/2026-07-08/show_notes.md",
+    "script_path": "out/2026-07-08/script_2hosts.md",
+    "audio_path": "out/2026-07-08/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-08/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-08/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26392,
+        "output_tokens": 8864,
+        "cost_usd": 0.070712
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37276,
+        "output_tokens": 7714,
+        "cost_usd": 0.227538
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4153,
+        "cost_usd": 0.04983599999999999
+      }
+    ],
+    "total_cost_usd": 0.348086
+  }
+}

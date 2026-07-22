@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-19",
+  "episode_date_local": "2026-05-19",
+  "content_snapshot_date": "2026-05-19",
+  "show_length_sec": 833,
+  "audio_size": 79993004,
+  "generated_at": "2026-05-18T21:29:49.180016+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-4ebb3eb2",
+      "title": "Anthropic acquires Stainless",
+      "fingerprint": "4ebb3eb279e79af3cc95725ad1925a20",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-d0bdfaef",
+      "title": "Agora-1: The Multi-Agent World Model",
+      "fingerprint": "d0bdfaef616eed28c16d6be4a3df5ecf",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b111c8ae",
+      "title": "Cutting inference cold starts by 40x with LP, FUSE, C/R, and cuda-checkpoint",
+      "fingerprint": "b111c8ae48648c5323e70c3ba3474328",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-932029fe",
+      "title": "We let four AIs run radio stations. Here",
+      "fingerprint": "932029fe0cf81bf5e855c38e5bcfee4f",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-97f0eafd",
+      "title": "Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
+      "fingerprint": "97f0eafd98858d42b7de6a2cf21d1eca",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fa95c023",
+      "title": "My Haiku arm64 Progress",
+      "fingerprint": "fa95c023511d78d5db8618a8041761bb",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-3f19c6a0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Understanding Singleflight in Go: A Solution for Eliminating Redundant Work &mdash; Coding Explorations"
+    },
+    {
+      "item_id": "item-a9a7e013",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Let&#x27;s talk about AI slop"
+    },
+    {
+      "item_id": "item-006ae540",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI | TechCrunch"
+    },
+    {
+      "item_id": "item-994c8541",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Quiet Renovation at Bitwarden - ByteHaven - Where I ramble about bytes"
+    },
+    {
+      "item_id": "item-09c622bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Two computers, one monitor, zero fiddling (2025)"
+    },
+    {
+      "item_id": "item-8b0a5ce8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "No More JetBrains Products for Me"
+    },
+    {
+      "item_id": "item-75083c95",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - zakirullin/files.md: 🌱 Your life in plain .md files"
+    },
+    {
+      "item_id": "item-04857c7c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The FBI Wants to Buy Nationwide Access to License Plate Readers"
+    },
+    {
+      "item_id": "item-699e23de",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Fil"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-19/blog.md",
+    "show_notes_path": "out/2026-05-19/show_notes.md",
+    "script_path": "out/2026-05-19/script_2hosts.md",
+    "audio_path": "out/2026-05-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 19214,
+        "output_tokens": 7528,
+        "cost_usd": 0.056854
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37656,
+        "output_tokens": 7856,
+        "cost_usd": 0.230808
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4579,
+        "cost_usd": 0.054948
+      }
+    ],
+    "total_cost_usd": 0.34261
+  }
+}

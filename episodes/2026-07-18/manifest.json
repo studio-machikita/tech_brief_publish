@@ -1,0 +1,225 @@
+{
+  "date": "2026-07-18",
+  "episode_date_local": "2026-07-18",
+  "content_snapshot_date": "2026-07-18",
+  "show_length_sec": 815,
+  "audio_size": 78292844,
+  "generated_at": "2026-07-17T21:11:59.612022+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-4c378ec3",
+      "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+      "title_ja": "捜索救助における自律型UAV群のための3階層インテリジェント学習アーキテクチャ",
+      "one_liner": "UAV群に3階層の学習構造を導入した自律捜索救助システム",
+      "fingerprint": "4c378ec3cc9d64aa3840795726f138e0",
+      "score": 78,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-9a00d4d0",
+      "title": "GitHub Copilot for JetBrains expands BYOK capabilities",
+      "title_ja": "GitHub CopilotのJetBrains版、BYOK機能を拡充",
+      "one_liner": "JetBrains版CopilotがBYOK対応を拡充",
+      "fingerprint": "9a00d4d0a13f21e9df20065176121bbf",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-859accb8",
+      "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+      "title_ja": "AIのコンテキストギャップ：エンタープライズAI組織が抱えるのは検索の問題ではなく信頼の問題――そして多くはいまだ解決策を模索中",
+      "one_liner": "企業AIは「取得量」より「文脈の信頼性」が課題",
+      "fingerprint": "859accb8d9467d91169429747d361b2c",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "VentureBeat AI",
+        "VentureBeat AI"
+      ]
+    },
+    {
+      "item_id": "item-14eb379c",
+      "title": "Just like Deepseek, China's Kimi K3 is forcing Western AI labs to question their compute advantage",
+      "title_ja": "中国のKimi K3、DeepSeekに続き西側AIラボに計算資源の優位性を再考させる",
+      "one_liner": "中国Kimi K3がAI計算資源優位論を揺るがす",
+      "fingerprint": "14eb379c662182382c16127185987ed3",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2eb45360",
+      "title": "Agility Robotics plants its flag in Tesla’s backyard",
+      "title_ja": "アジリティ・ロボティクス、テスラのお膝元に進出",
+      "one_liner": "Agility RoboticsがTeslaの地元に訓練施設を開設",
+      "fingerprint": "2eb453603db48a2b7fb07f5c39afc678",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-9864657c",
+      "title": "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
+      "title_ja": "立場表明：説明可能性研究はその場しのぎの手法より基礎的研究を優先すべき",
+      "one_liner": "XAI研究は場当たり手法より基礎固めを優先すべき",
+      "fingerprint": "9864657c8c27fb38aa739511e31d54cf",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8b12d952",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Transform your sales organization with Amazon Quick: your new agentic AI teammate"
+    },
+    {
+      "item_id": "item-4bb0512c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio — June update"
+    },
+    {
+      "item_id": "item-52841847",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Just Keep Prompting: Evaluating Repetitive Socratic Prompting in VLMs"
+    },
+    {
+      "item_id": "item-3c1415eb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AIに「レビューして」はもう古い？「敵対的検証」のすすめ"
+    },
+    {
+      "item_id": "item-a173a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials"
+    },
+    {
+      "item_id": "item-c85204a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A scorecard for the AI age"
+    },
+    {
+      "item_id": "item-945ff4e8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-5.6 is deleting user files when given full access, and OpenAI says it shouldn't but did"
+    },
+    {
+      "item_id": "item-061cb2f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why teens deserve access to safe AI"
+    },
+    {
+      "item_id": "item-1a5da491",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Mobile Layout for Amazon Quick dashboards"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-0f5d9ddf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AWS Billing Glitch Hits Customers With Billion-Dollar Fees"
+    },
+    {
+      "item_id": "item-f309cb23",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Diena - The timeline of everything"
+    },
+    {
+      "item_id": "item-2d0c56ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI-driven memory crunch jolts India’s smartphone market"
+    },
+    {
+      "item_id": "item-dd708f8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: perimenopause misinformation and China’s latest AI leap"
+    },
+    {
+      "item_id": "item-2cb375d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Uber to Buy Germany’s Delivery Hero For Around $14 Billion"
+    },
+    {
+      "item_id": "item-0c8bf006",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "IPhone Hacking Firm Sues Ex-Worker Over Alleged Theft of Secrets"
+    },
+    {
+      "item_id": "item-368f263f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "goliath32.com"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-18/blog.md",
+    "show_notes_path": "out/2026-07-18/show_notes.md",
+    "script_path": "out/2026-07-18/script_2hosts.md",
+    "audio_path": "out/2026-07-18/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-18/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-18/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 37817,
+        "output_tokens": 9132,
+        "cost_usd": 0.083477
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 40790,
+        "output_tokens": 8109,
+        "cost_usd": 0.244005
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4439,
+        "cost_usd": 0.053268
+      }
+    ],
+    "total_cost_usd": 0.38075
+  }
+}

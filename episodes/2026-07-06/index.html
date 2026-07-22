@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-07-06/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-07-06/">
+<meta property="og:description" content="2026-07-06 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-07-06/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理 ほか",
+    "description": "2026-07-06 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-07-06",
+    "image": "https://technewsradio.tokyo/episodes/2026-07-06/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-07-06/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理 ほか",
+    "description": "2026-07-06 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-07-06",
+    "url": "https://technewsradio.tokyo/episodes/2026-07-06/",
+    "duration": "PT12M26S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-07-06/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Baidu%E3%81%AE%E3%80%8C%E7%84%A1%E5%88%B6%E9%99%90OCR%E3%80%8D%E3%80%81%E4%BA%BA%E9%96%93%E3%81%AE%E5%BF%98%E5%8D%B4%E3%81%AB%E4%BC%BC%E3%81%9F%E3%83%A1%E3%83%A2%E3%83%AA%E7%AE%A1%E7%90%86%E3%81%A7%E6%95%B0%E5%8D%81%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%96%87%E6%9B%B8%E3%82%92%E4%B8%80%E6%8B%AC%E5%87%A6%E7%90%86%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-07-06/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-07-06/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-07-06"
+subtitle: "Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理 / ダートマス大学の講義で新しいAIチューターが0.71〜1.30S..."
+date: "2026-07-06"
+vol: 97
+topics:
+  - AI
+  - LLM
+  - Data
+  - Science
+  - Cloud
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-07-06
+
+*📖 約12分で読めます ｜ 🏷️ AI, LLM, Data, Science, Cloud*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理** — BaiduのOCRが数十ページを一括処理できる技術を開発
+- 🤖 **ダートマス大学の講義で新しいAIチューターが0.71〜1.30SDの効果量を達成** — AIチューターがDartmouth大学で大きな学習効果を実証
+- 🤖 **AgentCore Memoryにおけるメタデータを用いた構造化メモリフィルタリング** — AgentCore Memoryでメタデータを使った構造的なメモリ管理が可能に
+- 🤖 **AIに外部脳を持たせて1ヶ月運用した全記録** — AIの記憶をObsidianで自作した1ヶ月の実録
+- ☁️ **Colab EnterpriseでSQLセルが正式提供開始** — Colab EnterpriseでSQLセルが正式提供開始
+- 🤖 **Gemini 2.5 ProとGemini 3 Flashの廃止予定** — GitHub CopilotでGeminiモデルが7月末に廃止
+
+---
+
+## 🤖 Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理
+\`AI\` \`LLM\` \`Data\`
+
+<details>
+<summary>📄 原題: Baidu&#x27;s &quot;Unlimited OCR&quot; processes dozens of document pages in one pass by treating memory like human forgetting</summary>
+</details>
+
+> **一言で**: BaiduのOCRが数十ページを一括処理できる技術を開発
+
+- Baiduの「Unlimited OCR」は数十ページを一度に処理できる
+- 従来システムの上限は約10ページ程度だった
+- 人間の忘却に着想を得た注意機構（アテンション）でメモリ使用量を一定に保つ
+- 主要なOCRベンチマークで現在トップの成績を記録
+
+💡 **なぜ重要か**
+OCR（光学文字認識）技術は、紙の書類や画像からテキストを抽出する基盤技術です。従来のAIベースのOCRはページ数が増えるとメモリ消費が急増し、処理できる量に限界がありました。Baiduはこの制約を、人間の記憶の「忘却」を模した注意機構の改良で克服しました。大量の文書を扱う企業や行政のデジタル化需要が高まる中、この技術的突破は実用上の意義が大きいです。 メモリ効率の高いOCR技術が普及すれば、大量の紙文書を扱う金融・法務・医療などの分野でデジタル化が加速します。また、この「忘却型」の注意機構は他のAIモデルにも応用できる可能性があり、長文処理全般の効率改善につながると見られています。
+
+🎯 **今日のアクション**
+文書処理パイプラインを構築・運用しているエンジニアは、Baiduのこの手法を注視し、自社のOCRや長文処理モデルの置き換え候補として評価を始めるとよいでしょう。ベンチマーク結果の詳細が公開され次第、実際のユースケースで検証することをお勧めします。
+
+🔗 [原文を読む](https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/)
+
+---
+
+## 🤖 ダートマス大学の講義で新しいAIチューターが0.71〜1.30SDの効果量を達成
+\`AI\` \`LLM\` \`Science\`
+
+> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
+
+<details>
+<summary>📄 原題: New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]</summary>
+</details>
+
+> **一言で**: AIチューターがDartmouth大学で大きな学習効果を実証
+
+- 新しいAIチューターが0.71〜1.30 SD（標準偏差）という高い学習効果を達成
+- Dartmouth大学の実際のコースで効果を検証した点が注目される
+- 1.0 SDを超える効果量は、教育介入としては非常に大きな水準とされる
+
+💡 **なぜ重要か**
+教育分野でのAI活用は注目されていますが、実際の大学授業での効果を定量的に示した研究はまだ少ないです。標準偏差（SD）を使った効果量の測定は、教育心理学で広く使われる客観的な指標です。今回のDartmouthでの実証は、AIチューターの有効性を示す具体的なデータとして意義があります。 AIチューターの学習効果が科学的に裏付けられると、大学や企業研修での導入が加速する可能性があります。個別最適化された学習支援が普及すれば、教育コストの削減や学習格差の縮小にもつながると見られています。
+
+🎯 **今日のアクション**
+教育系プロダクトを開発するエンジニアやリーダーは、この研究の詳細（PDFが公開されている模様）を確認し、AIチューター設計の参考にすることを検討してみてください。
+
+🔗 [原文を読む](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf)
+
+---
+
+## 🤖 AgentCore Memoryにおけるメタデータを用いた構造化メモリフィルタリング
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Structured memory filtering with metadata in AgentCore Memory</summary>
+</details>
+
+> **一言で**: AgentCore Memoryでメタデータを使った構造的なメモリ管理が可能に
+
+- AgentCore Memoryはメタデータを使ってメモリの設定・取り込み・検索を制御できる
+- マルチエージェントやマルチテナント構成など、企業向けユースケースにも対応
+- メタデータフィルタリングにより、必要な情報だけを精度よく取り出せる
+- 実装のベストプラクティスも紹介されており、現場への導入指針として活用できる
+
+💡 **なぜ重要か**
+AIエージェントが複数のユーザーやタスクを同時に扱う場面が増えています。そこで問題になるのが、誰のどの情報をいつ参照するかという「メモリ管理」です。メタデータを使ったフィルタリングは、この課題を構造的に解決するアプローチとして注目されています。 エンタープライズ向けAIエージェントの信頼性と安全性が高まります。特にマルチテナント環境では、テナント間のデータ混在リスクを減らせるため、業務システムへのAI導入が加速する可能性があります。
+
+🎯 **今日のアクション**
+AgentCore Memoryのメタデータ設計を早めに検討し、テナントやエージェントの識別子をメタデータとして付与する設計パターンを自社のアーキテクチャに組み込むことを検討してください。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/)
+
+---
+
+## 🤖 AIに外部脳を持たせて1ヶ月運用した全記録
+\`AI\` \`LLM\` \`OSS\`
+
+> **一言で**: AIの記憶をObsidianで自作した1ヶ月の実録
+
+- セッションをまたぐとAIの記憶がリセットされる問題を自作の外部記憶で解決
+- 公式メモリ機能は中身が見えず、プロジェクト別管理もできないと指摘
+- Obsidianをベースに、自分でルールを決められる外部脳を構築して運用
+
+💡 **なぜ重要か**
+LLM（大規模言語モデル）はセッションをまたいで文脈を保持できません。公式のメモリ機能は存在しますが、何を記憶するかをAI任せにせざるを得ず、複数プロジェクトの使い分けも難しい状況です。この課題は、AIを日常業務に組み込もうとするエンジニアや知識労働者が広く直面しています。 AIの記憶管理を自前で設計する動きが広がれば、特定のAIサービスへの依存度が下がります。ツールをまたいで文脈を持ち運べる仕組みが普及すると、AIの使い方そのものが「会話」から「継続的な協働」へと変わっていく可能性があります。
+
+🎯 **今日のアクション**
+まず自分のAI利用で何が毎回リセットされているかを書き出してみましょう。その上で、ObsidianなどのローカルノートツールをAIの外部記憶として試験運用し、プロジェクト別に文脈を管理する仕組みを小さく始めるのが現実的です。
+
+🔗 [原文を読む](https://zenn.dev/nobu666/articles/ai-external-brain-digest)
+
+---
+
+## ☁️ Colab EnterpriseでSQLセルが正式提供開始
+\`Cloud\` \`Data\` \`DevOps\`
+
+<details>
+<summary>📄 原題: April 10, 2026</summary>
+</details>
+
+> **一言で**: Colab EnterpriseでSQLセルが正式提供開始
+
+- Colab EnterpriseのSQLセルがGA（一般提供）に昇格
+- ノートブック上でSQLクエリの記述・編集・実行が直接できる
+- Pythonコードと同じ画面でデータ操作が完結する環境が整った
+
+💡 **なぜ重要か**
+Colab Enterpriseは、Google CloudのマネージドなJupyterノートブック環境です。これまでSQLを実行するには外部ツールや別画面への切り替えが必要でした。SQLセルのGA化により、データエンジニアやアナリストがノートブック内でシームレスにデータ操作できるようになります。 ノートブック環境でのSQL対応は、データ分析ワークフローの統合を加速させます。PythonとSQLを行き来する手間が減り、分析から可視化までの作業を一つの画面で完結できる流れが業界標準になっていく可能性があります。
+
+🎯 **今日のアクション**
+Colab Enterpriseを利用中のチームは、SQLセルの公式ドキュメントを確認し、既存のデータ分析ワークフローへの組み込みを検討してみてください。特にBigQueryなどのデータソースとの連携方法を早めに把握しておくと良いでしょう。
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+
+---
+
+## 🤖 Gemini 2.5 ProとGemini 3 Flashの廃止予定
+\`AI\` \`DevOps\` \`LLM\`
+
+<details>
+<summary>📄 原題: Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash</summary>
+</details>
+
+> **一言で**: GitHub CopilotでGeminiモデルが7月末に廃止
+
+- Gemini 2.5 ProとGemini 3 Flashが7月31日に廃止予定
+- 対象はCopilot Chat、インライン編集、エージェントモード、コード補完など全機能
+- GitHub Copilotで利用できるAIモデルの選択肢が変わる可能性あり
+
+💡 **なぜ重要か**
+GitHub CopilotはOpenAIモデルだけでなく、GoogleのGeminiシリーズも選択肢として提供してきました。複数のAIモデルを使い分けられる点がCopilotの強みの一つでしたが、今回の廃止はそのラインナップ見直しを意味します。AIモデルの世代交代が速い現在、開発ツールも対応モデルを頻繁に更新する必要があり、こうした廃止アナウンスは今後も続くと見られています。 AIコーディング支援ツールでは、利用できるモデルが定期的に入れ替わる運用が当たり前になりつつあります。エンジニアは特定モデルへの依存を避け、複数モデルを柔軟に切り替えられるワークフローを整える必要が出てきます。また、モデル廃止のたびに出力品質や挙動が変わるリスクへの備えも重要になるでしょう。
+
+🎯 **今日のアクション**
+7月31日までに、Gemini 2.5 ProやGemini 3 Flashを使っているチームは代替モデルへの移行計画を立てましょう。GitHub Copilotの設定でどのモデルを使っているか確認し、廃止後も業務が止まらないよう事前に切り替えテストを行うことをお勧めします。
+
+🔗 [原文を読む](https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、**AIシステムにおける「記憶・情報管理」の高度化**というテーマです。BaiduのOCR技術が人間の忘却メカニズムを模倣してメモリを効率的に管理し、AgentCore Memoryがメタデータによる構造化フィルタリングを実現しているように、AIが扱う情報量の爆発的な増大に対して、いかに賢く情報を取捨選択・整理するかが業界全体の重要課題となっています。一方でDartmouthのAIチューター実証研究は、そうした情報処理能力の向上が教育という具体的な応用領域で人間に対して測定可能な効果をもたらし始めていることを示しており、技術の成熟が実社会への展開フェーズに入りつつあることを示唆しています。全体として、AIの「認知能力」——記憶・検索・文脈理解——を人間の知的活動に近づける取り組みが加速しており、単なる処理性能の向上を超えて、AIが長期的かつ構造的に知識を扱えるエージェントへと進化しようとする大きなトレンドが読み取れます。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理**: 文書処理パイプラインを構築・運用しているエンジニアは、Baiduのこの手法を注視し、自社のOCRや長文処理モデルの置き換え候補として評価を始めるとよいでしょう。ベンチマーク結果の詳細が公開され次第、実際のユースケースで検証することをお勧めします。
+2. **ダートマス大学の講義で新しいAIチューターが0.71〜1.30SDの効果量を達成**: 教育系プロダクトを開発するエンジニアやリーダーは、この研究の詳細（PDFが公開されている模様）を確認し、AIチューター設計の参考にすることを検討してみてください。
+3. **AgentCore Memoryにおけるメタデータを用いた構造化メモリフィルタリング**: AgentCore Memoryのメタデータ設計を早めに検討し、テナントやエージェントの識別子をメタデータとして付与する設計パターンを自社のアーキテクチャに組み込むことを検討してください。
+
+---
+
+## 🔗 出典一覧
+- [Baiduの「無制限OCR」、人間の忘却に似たメモリ管理で数十ページの文書を一括処理](https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/)
+- [ダートマス大学の講義で新しいAIチューターが0.71〜1.30SDの効果量を達成](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf)
+- [AgentCore Memoryにおけるメタデータを用いた構造化メモリフィルタリング](https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/)
+- [AIに外部脳を持たせて1ヶ月運用した全記録](https://zenn.dev/nobu666/articles/ai-external-brain-digest)
+- [Colab EnterpriseでSQLセルが正式提供開始](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+- [Colab EnterpriseでSQLセルが正式提供開始](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+- [Colab EnterpriseでSQLセルが正式提供開始](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+- [Gemini 2.5 ProとGemini 3 Flashの廃止予定](https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash)`;
+const notesMd = `# Tech News Radio Show Notes - #097 (2026-07-06)
+
+## エピソード情報
+- **エピソード**: #097
+- **日付**: 2026-07-06
+- **尺**: 約 12 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Baidu's "Unlimited OCR" processes dozens of document pages in one pass by treating memory like human forgetting](https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/)
+- [New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf)
+- [Structured memory filtering with metadata in AgentCore Memory](https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/)
+
+### 注目の深掘り
+- [AIに外部脳を持たせて1ヶ月運用した全記録](https://zenn.dev/nobu666/articles/ai-external-brain-digest)
+
+### 小ネタ・その他
+- [April 10, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+- [April 10, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+- [April 10, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+- [Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash](https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

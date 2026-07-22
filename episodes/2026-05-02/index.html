@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech News Radio - 2026-05-02</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — I&amp;#x27;ve Covered Robots for Years. This One Is Different / GitHub - Lum1104/Understand-Anything: Graphs that teach &amp;gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. / Artemis II fault tolerance">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-05-02/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-05-02/">
+<meta property="og:description" content="2026-05-02 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-05-02/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — I&#x27;ve Covered Robots for Years. This One Is Different / GitHub - Lum1104/Understand-Anything: Graphs that teach &gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. / Artemis II fault tolerance",
+    "description": "2026-05-02 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-05-02",
+    "image": "https://technewsradio.tokyo/episodes/2026-05-02/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-05-02/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — I&#x27;ve Covered Robots for Years. This One Is Different / GitHub - Lum1104/Understand-Anything: Graphs that teach &gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more. / Artemis II fault tolerance",
+    "description": "2026-05-02 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-05-02",
+    "url": "https://technewsradio.tokyo/episodes/2026-05-02/",
+    "duration": "PT12M11S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-05-02/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Tech%20News%20Radio%20-%202026-05-02%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-05-02/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-05-02/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-05-02"
+subtitle: "私はロボットを長年取材してきた。でも、これは違う / GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重..."
+date: "2026-05-02"
+vol: 32
+topics:
+  - AI
+  - Robotics
+  - Hardware
+  - OSS
+  - DevOps
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-05-02
+
+*📖 約12分で読めます ｜ 🏷️ AI, Robotics, Hardware, OSS, DevOps*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **私はロボットを長年取材してきた。でも、これは違う** — Ekaのロボットアームが物理世界のAI革命を予感させる
+- 📦 **GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重視したグラフ。あらゆるコードやナレッジベース（Karpathy LLM wiki）を、探索・検索・質問できるインタラクティブな知識グラフに変換。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどに対応。** — コードや知識ベースを対話型グラフに変換するOSSツール
+- 🔧 **アルテミスIIの耐障害性** — NASAがArtemis IIに採用した耐障害性コンピュータの設計
+- 🤖 **GitHub - xodn348/destiny: 今日の運勢 — デイリーフォーチュン Claude Codeプラグイン（/destiny）** — Claude Code向けの日替わり運勢プラグイン「destiny」が公開
+- 🤖 **Spotifyが人間のアーティストとAIを区別する「認証」バッジを導入** — Spotifyが人間アーティストにVerifiedバッジを導入
+- 🤖 **AIの水使用量をめぐる議論とカリフォルニアへの教訓** — AIの水使用量議論はカリフォルニアの水問題を見誤らせる
+
+---
+
+## 🤖 私はロボットを長年取材してきた。でも、これは違う
+\`AI\` \`Robotics\` \`Hardware\`
+
+<details>
+<summary>📄 原題: I&amp;#x27;ve Covered Robots for Years. This One Is Different</summary>
+</details>
+
+> **一言で**: Ekaのロボットアームが物理世界のAI革命を予感させる
+
+- Ekaが開発したロボットの爪（クロー）が、チキンナゲットの仕分けや電球の取り付けなど多様な作業をこなす
+- その汎用性は、AIチャットの転換点となったChatGPTの登場に匹敵すると筆者は表現
+- 長年ロボットを取材してきた記者が「これは違う」と感じた、質的な変化の兆し
+
+💡 **なぜ重要か**
+これまでの産業用ロボットは特定の作業に特化しており、環境が変わると対応できませんでした。AIの進化により、物理的な作業でも汎用的に動けるロボットが現実味を帯びてきています。ChatGPTがソフトウェアの世界を変えたように、物理世界でも同様の転換点が近づいている可能性があります。 製造・物流・小売など、これまで自動化が難しかった現場での活用が広がると見られています。汎用ロボットが普及すれば、労働市場や製造業のコスト構造に大きな変化をもたらす可能性があります。
+
+🎯 **今日のアクション**
+ロボティクスや物理AIの動向を注視し、自社の製造・物流プロセスへの応用可能性を今から検討しておくことが有益です。
+
+🔗 [原文を読む](https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/)
+
+---
+
+## 📦 GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重視したグラフ。あらゆるコードやナレッジベース（Karpathy LLM wiki）を、探索・検索・質問できるインタラクティブな知識グラフに変換。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどに対応。
+\`OSS\` \`AI\` \`DevOps\`
+
+<details>
+<summary>📄 原題: GitHub - Lum1104/Understand-Anything: Graphs that teach &amp;gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</summary>
+</details>
+
+> **一言で**: コードや知識ベースを対話型グラフに変換するOSSツール
+
+- コードや知識ベースをインタラクティブな知識グラフに変換できるOSSツール
+- Claude Code、Codex、Cursor、Copilot、Gemini CLIなど主要AIツールと連携
+- グラフの探索・検索・質問応答が可能で、学習用途を重視した設計
+- Karpathy氏のLLMウィキなど既存の知識ベースにも対応
+
+💡 **なぜ重要か**
+AIコーディングツールが急増する中、大規模なコードベースや知識ベースの全体像を把握するのは依然として難しい課題です。視覚的な知識グラフは理解を助ける手段として注目されていますが、「見栄えより学習効果」を重視したツールはまだ少ない状況です。 AIツールと組み合わせて知識構造を可視化するアプローチが広まれば、コードレビューやオンボーディング（新メンバーの受け入れ）の効率が上がる可能性があります。複数のAIツールに対応している点から、特定のエコシステムに依存しない汎用的な開発補助ツールとして定着するかもしれません。
+
+🎯 **今日のアクション**
+自分のプロジェクトや学習中のコードベースに試してみて、知識グラフによる理解促進の効果を検証してみましょう。既存のAIコーディングツールとの組み合わせ方も探ってみる価値があります。
+
+🔗 [原文を読む](https://github.com/Lum1104/Understand-Anything)
+
+🔗 [原文を読む](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/)
+
+🔗 [原文を読む](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/)
+
+---
+
+## 🔧 アルテミスIIの耐障害性
+\`Hardware\` \`Science\`
+
+<details>
+<summary>📄 原題: Artemis II fault tolerance</summary>
+</details>
+
+> **一言で**: NASAがArtemis IIに採用した耐障害性コンピュータの設計
+
+- Orionには2系統のVehicle Management Computerと複数のバックアップ構成が存在する
+- 8つのモジュールで構成され、多重冗長化による高い耐障害性を実現している
+- Communications of the ACMがその設計思想を詳細に紹介している
+
+💡 **なぜ重要か**
+有人宇宙飛行では単一障害点が致命的な事故につながるため、コンピュータの冗長設計は最重要課題です。Artemis IIは月周回を目指す有人ミッションであり、地上からの即時介入が難しい環境での自律的な障害対応が求められます。 宇宙開発で培われた多重冗長化の設計思想は、航空・医療・自動運転など安全性が最優先される分野のシステム設計にも応用できます。ハードウェアとソフトウェアを組み合わせた耐障害性アーキテクチャの参考事例として、業界全体に影響を与えるでしょう。
+
+🎯 **今日のアクション**
+ミッションクリティカルなシステムを設計するエンジニアは、単純な冗長化にとどまらず、モジュール単位での障害分離とフェイルオーバー（障害時の自動切り替え）戦略を改めて見直すきっかけにしてください。
+
+🔗 [原文を読む](https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/)
+
+---
+
+## 🤖 GitHub - xodn348/destiny: 今日の運勢 — デイリーフォーチュン Claude Codeプラグイン（/destiny）
+\`AI\` \`OSS\` \`LLM\`
+
+<details>
+<summary>📄 原題: GitHub - xodn348/destiny: 오늘의 운세 — daily fortune Claude Code plugin (/destiny)</summary>
+</details>
+
+> **一言で**: Claude Code向けの日替わり運勢プラグイン「destiny」が公開
+
+- 韓国語の「오늘의 운세（今日の運勢）」を提供するClaude Codeプラグイン
+- コマンド「/destiny」で日替わり運勢を取得できる仕組みと見られる
+- GitHubでOSSとして公開されており、誰でも参照・利用できる
+
+💡 **なぜ重要か**
+Claude CodeはAnthropicが提供するAIコーディングアシスタントで、プラグイン（スキル）機能を使って独自コマンドを追加できます。このリポジトリは、その拡張性を活かしたユニークなデモ的作品と見られます。実用性よりも、Claude Codeのカスタマイズ可能性を示す事例として注目されています。 Claude Codeのプラグイン機構が個人開発者にも広く使われ始めていることを示す一例です。遊び心のある実装が増えることで、エコシステムの裾野が広がり、より実用的なプラグイン開発の参考事例にもなり得ます。
+
+🎯 **今日のアクション**
+Claude Codeのカスタムコマンド・プラグイン機能に興味があるエンジニアは、このリポジトリの実装を参考に、自分のワークフローに合った独自コマンドの作成を試してみるとよいでしょう。
+
+🔗 [原文を読む](https://github.com/xodn348/destiny)
+
+---
+
+## 🤖 Spotifyが人間のアーティストとAIを区別する「認証」バッジを導入
+\`AI\` \`Business\` \`Web\`
+
+<details>
+<summary>📄 原題: Spotify adds &amp;#x27;Verified&amp;#x27; badge to distinguish human acts from AI</summary>
+</details>
+
+> **一言で**: Spotifyが人間アーティストにVerifiedバッジを導入
+
+- SpotifyがAIと人間のアーティストを区別する「Verified」バッジを追加
+- AIが生成した楽曲の増加を背景に、人間の創作物を明示する仕組み
+- リスナーが人間によるアクトかどうかを一目で判断できるようになる
+
+💡 **なぜ重要か**
+生成AIの普及により、Spotifyなどの音楽配信サービスにはAI生成楽曲が急増しています。人間のアーティストとAIを区別する手段がなければ、リスナーは知らずにAI作品を聴くことになります。こうした透明性の欠如が問題視される中、Spotifyは識別バッジという形で対応に乗り出しました。 音楽配信に限らず、コンテンツプラットフォーム全体で「人間か否か」を示す仕組みの導入が加速する可能性があります。クリエイターの権利保護や著作権管理の観点でも、AI生成コンテンツの識別は業界標準になっていくと見られます。
+
+🎯 **今日のアクション**
+音楽や映像など創作系サービスを開発・運営するエンジニアやプロダクトリーダーは、AI生成コンテンツの識別・ラベリング機能を設計段階から組み込むことを検討すべきです。
+
+🔗 [原文を読む](https://www.bbc.com/news/articles/c5yerr4m1yno)
+
+---
+
+## 🤖 AIの水使用量をめぐる議論とカリフォルニアへの教訓
+\`AI\` \`Science\` \`Data\`
+
+<details>
+<summary>📄 原題: AI Water Use Distractions and Lessons for California - California WaterBlog</summary>
+</details>
+
+> **一言で**: AIの水使用量議論はカリフォルニアの水問題を見誤らせる
+
+- AIデータセンターの水使用量が注目されているが、実態は誇張されている可能性がある
+- カリフォルニアの水問題の本質は農業用水など他の要因にある
+- AI水使用量の議論が、より重要な水政策の議論から注意をそらしている
+- UC Davis水流域科学センターが科学的視点から問題を整理
+
+💡 **なぜ重要か**
+AIブームに伴いデータセンターの水冷却による水消費が話題になっています。しかしカリフォルニア州の水資源問題は複雑で、農業・気候変動・インフラ老朽化など多くの要因が絡み合っています。AI水使用量への過度な注目が、本質的な水政策議論を妨げる「ディストラクション（注意散漫）」になりうると、UC Davisの研究者たちが指摘しているようです。 AI批判の文脈で水使用量が政治的に利用されると、データセンター政策や再生可能エネルギー計画にも影響が及ぶ可能性があります。テック業界は環境負荷の正確な情報開示と、地域の水問題への建設的な関与が求められるようになるでしょう。
+
+🎯 **今日のアクション**
+データセンターの環境負荷を語る際は、誇張された数字ではなく一次資料に基づいた正確なデータを参照してください。また地域の水問題については、農業用水や気候変動など全体像を把握した上で議論に参加することが重要です。
+
+🔗 [原文を読む](https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/)
+
+---
+
+## 📝 まとめ
+
+3つのニュースに共通するのは、**AIと高度なソフトウェア技術が「現実世界の信頼性と理解可能性」を問われる局面に差し掛かっている**というトレンドだ。Ekaのロボットアームは、AIが仮想空間を超えて物理的な作業を担い始めた象徴であり、そこでは誤動作が直接的な損害につながるため、システムへの深い理解と信頼性が不可欠となる。Understand-Anyythingのような知識グラフツールの登場は、コードやAIモデルの複雑性が増す中で「人間がシステムを本当に理解できるか」という課題への応答であり、可視化と対話性によって技術の透明性を確保しようとする動きを反映している。NASAのArtemis IIにおける耐障害性設計もまた、ミッションクリティカルな環境でのソフトウェア信頼性への要求を示しており、AIや自律システムが社会インフラや宇宙探査に組み込まれるにつれて、**「壊れにくく、理解しやすく、説明できるシステム」を作る能力**がテクノロジー業界全体の中心的な競争軸になりつつあることを、これら3つのニュースは一貫して示唆している。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **私はロボットを長年取材してきた。でも、これは違う**: ロボティクスや物理AIの動向を注視し、自社の製造・物流プロセスへの応用可能性を今から検討しておくことが有益です。
+2. **GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重視したグラフ。あらゆるコードやナレッジベース（Karpathy LLM wiki）を、探索・検索・質問できるインタラクティブな知識グラフに変換。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどに対応。**: 自分のプロジェクトや学習中のコードベースに試してみて、知識グラフによる理解促進の効果を検証してみましょう。既存のAIコーディングツールとの組み合わせ方も探ってみる価値があります。
+3. **アルテミスIIの耐障害性**: ミッションクリティカルなシステムを設計するエンジニアは、単純な冗長化にとどまらず、モジュール単位での障害分離とフェイルオーバー（障害時の自動切り替え）戦略を改めて見直すきっかけにしてください。
+
+---
+
+## 🔗 出典一覧
+- [私はロボットを長年取材してきた。でも、これは違う](https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/)
+- [GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重視したグラフ。あらゆるコードやナレッジベース（Karpathy LLM wiki）を、探索・検索・質問できるインタラクティブな知識グラフに変換。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどに対応。](https://github.com/Lum1104/Understand-Anything)
+- [GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重視したグラフ。あらゆるコードやナレッジベース（Karpathy LLM wiki）を、探索・検索・質問できるインタラクティブな知識グラフに変換。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどに対応。](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/)
+- [GitHub - Lum1104/Understand-Anything: 見栄えより学びやすさを重視したグラフ。あらゆるコードやナレッジベース（Karpathy LLM wiki）を、探索・検索・質問できるインタラクティブな知識グラフに変換。Claude Code、Codex、Cursor、Copilot、Gemini CLIなどに対応。](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/)
+- [アルテミスIIの耐障害性](https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/)
+- [GitHub - xodn348/destiny: 今日の運勢 — デイリーフォーチュン Claude Codeプラグイン（/destiny）](https://github.com/xodn348/destiny)
+- [Spotifyが人間のアーティストとAIを区別する「認証」バッジを導入](https://www.bbc.com/news/articles/c5yerr4m1yno)
+- [AIの水使用量をめぐる議論とカリフォルニアへの教訓](https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/)`;
+const notesMd = `# Tech News Radio Show Notes - #032 (2026-05-02)
+
+## エピソード情報
+- **エピソード**: #032
+- **日付**: 2026-05-02
+- **尺**: 約 12 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [I&#x27;ve Covered Robots for Years. This One Is Different](https://www.wired.com/story/when-robots-have-their-chatgpt-moment-remember-these-pincers/)
+- [GitHub - Lum1104/Understand-Anything: Graphs that teach &gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.](https://github.com/Lum1104/Understand-Anything)
+- [GitHub - Lum1104/Understand-Anything: Graphs that teach &gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/)
+- [GitHub - Lum1104/Understand-Anything: Graphs that teach &gt; graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/)
+- [Artemis II fault tolerance](https://alearningaday.blog/2026/05/01/artemis-ii-fault-tolerance/)
+
+### 注目の深掘り
+- [GitHub - xodn348/destiny: 오늘의 운세 — daily fortune Claude Code plugin (/destiny)](https://github.com/xodn348/destiny)
+
+### 小ネタ・その他
+- [Spotify adds &#x27;Verified&#x27; badge to distinguish human acts from AI](https://www.bbc.com/news/articles/c5yerr4m1yno)
+- [AI Water Use Distractions and Lessons for California - California WaterBlog](https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-11",
+  "episode_date_local": "2026-06-11",
+  "content_snapshot_date": "2026-06-11",
+  "show_length_sec": 727,
+  "audio_size": 69869804,
+  "generated_at": "2026-06-10T22:18:12.980039+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1042d868",
+      "title": "Curiosity’s 13 Years of Software Hacks Keeps It Alive on Mars",
+      "fingerprint": "1042d868fe63779668a54585c694164e",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-66ad7107",
+      "title": "GitHub - HelixDB/helix-db: HelixDB is an OLTP graph-vector database built in Rust.",
+      "fingerprint": "66ad7107064332ee9795230d1f7d17b0",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-c50605aa",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "fingerprint": "c50605aa374648c164c5caa8a2f499b5",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-59c10838",
+      "title": "GeoLibre",
+      "fingerprint": "59c108380d0a842fc85b6748e478bf33",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-5b5714ea",
+      "title": "Open source UI kit for modern document apps - Extend UI",
+      "fingerprint": "5b5714ea04174dac97257a2839ebba90",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-562b5e2d",
+      "title": "How building an HTML-first site doubled our users overnight",
+      "fingerprint": "562b5e2d09d5f6fe5a92c922447de195",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-dae201dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic's Model Naming, Extrapolated"
+    },
+    {
+      "item_id": "item-18b87b34",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - philipl/pifs: πfs - the data-free filesystem!"
+    },
+    {
+      "item_id": "item-c98f5627",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our funding announcement - PgDog"
+    },
+    {
+      "item_id": "item-60bd7cbd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "L'Affaire Siloxane"
+    },
+    {
+      "item_id": "item-2e51ac2c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Authentication issues related to API requests"
+    },
+    {
+      "item_id": "item-4b5a79d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Farmer donates land for a park, city sells it for $10M as data center land"
+    },
+    {
+      "item_id": "item-728794ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mercedes-Benz Media"
+    },
+    {
+      "item_id": "item-8f04e94f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Organic foods are not healthier...or pesticide free."
+    },
+    {
+      "item_id": "item-092ec848",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Is It Like to Be a Bat? [pdf] (1974)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-11/blog.md",
+    "show_notes_path": "out/2026-06-11/show_notes.md",
+    "script_path": "out/2026-06-11/script_2hosts.md",
+    "audio_path": "out/2026-06-11/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-11/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-11/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18238,
+        "output_tokens": 6833,
+        "cost_usd": 0.052403
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38022,
+        "output_tokens": 7346,
+        "cost_usd": 0.224256
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4002,
+        "cost_usd": 0.048024000000000004
+      }
+    ],
+    "total_cost_usd": 0.324683
+  }
+}

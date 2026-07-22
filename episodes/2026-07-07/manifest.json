@@ -1,0 +1,229 @@
+{
+  "date": "2026-07-07",
+  "episode_date_local": "2026-07-07",
+  "content_snapshot_date": "2026-07-07",
+  "show_length_sec": 783,
+  "audio_size": 75188204,
+  "generated_at": "2026-07-06T21:50:04.415211+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-30eba7c3",
+      "title": "Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost",
+      "title_ja": "智譜AI、コストの一部でClaude CodeとOpenAI Codexに挑む「ZCode」を発表",
+      "one_liner": "中国Zhipu AIがコーディングAI「ZCode」を低価格で投入",
+      "fingerprint": "30eba7c3f19f2b62d7b600bb3847d6a5",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-08627865",
+      "title": "GitHub - can1357/pon: Python 3.14, compiled to metal — JIT &amp; AoT native compiler and runtime in Rust. Cranelift backend, ruff parser, Green Tea GC, byte-exact differential testing against CPython.",
+      "title_ja": "GitHub - can1357/pon: Python 3.14をネイティブにコンパイル — RustによるJIT・AoTネイティブコンパイラ＆ランタイム。Craneliftバックエンド、ruffパーサー、Green Tea GC、CPythonとのバイト単位の差分テストに対応。",
+      "one_liner": "PythonをRustでネイティブコンパイルするOSSが登場",
+      "fingerprint": "08627865c220de47449c98fd8ff67d91",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9d41dcb1",
+      "title": "April 17, 2026",
+      "title_ja": "Vertex AIのRAGが複数コーパスを同時検索可能に",
+      "one_liner": "Vertex AIのRAGが複数コーパスを同時検索可能に",
+      "fingerprint": "9d41dcb14c7e20bc51daf15f17a8e980",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-110374ce",
+      "title": "Deploying Multi-Turn RL Infrastructure for Amazon Nova on Amazon SageMaker HyperPod",
+      "title_ja": "AmazonSageMaker HyperPod上でAmazon Nova向けマルチターン強化学習インフラを展開する",
+      "one_liner": "SageMaker HyperPodでマルチターンRL基盤を構築",
+      "fingerprint": "110374cee3578770509001cd3a3b02da",
+      "score": 64,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-9d2807e7",
+      "title": "Run MiniMax models on Amazon Bedrock",
+      "title_ja": "AmazonBedrockでMiniMaxモデルを実行する",
+      "one_liner": "MiniMaxモデルがAmazon Bedrockで利用可能に",
+      "fingerprint": "9d2807e7955e1aa4784f3c3cbd292618",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-26e5c60d",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "title_ja": "VercelのCEO、ギジェルモ・ラウチ、モデルとエージェントの分離をめぐる戦いを語る",
+      "one_liner": "VercelCEOがモデルとエージェントの分離を主張",
+      "fingerprint": "26e5c60db0ad2fa5b360998dd4e00f31",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-bed0dfb6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers"
+    },
+    {
+      "item_id": "item-6f7bab01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems"
+    },
+    {
+      "item_id": "item-fca718bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot CLI no longer needs a personal access token in GitHub Actions"
+    },
+    {
+      "item_id": "item-6ce9c12c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT adoption has expanded"
+    },
+    {
+      "item_id": "item-3747f102",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improved accuracy and coverage in Copilot usage metrics reports"
+    },
+    {
+      "item_id": "item-ee787240",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-b5d36af5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Your family’s $300 stake in OpenAI"
+    },
+    {
+      "item_id": "item-04c84627",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Palantir CEO Says Some U.S. Government Customers Switched to Open Source AI"
+    },
+    {
+      "item_id": "item-3cf2637c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ClaudeがSlackに書く文字装飾が崩れる問題をSkillで直す"
+    },
+    {
+      "item_id": "item-f5c3c777",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-217d5ebc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Learning to code is still worthwhile"
+    },
+    {
+      "item_id": "item-a92a6e39",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Freshfields’ Anthropic Win; A Squeeze of Lime Returns"
+    },
+    {
+      "item_id": "item-4a61ee21",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants"
+    },
+    {
+      "item_id": "item-ecbca226",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bentley Torcal EV: Price, Specs, Availability"
+    },
+    {
+      "item_id": "item-3c5d397e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Science Behind Why Soccer Players at the 2026 World Cup Are Cutting Their Socks"
+    },
+    {
+      "item_id": "item-dad95a4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Business Development Companies Face Pressure but Not All Are Impacted Equally"
+    },
+    {
+      "item_id": "item-5870b8d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Morgan Stanley Adviser Discusses Sustainability of Earnings Growth Amid Market Rally"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-07/blog.md",
+    "show_notes_path": "out/2026-07-07/show_notes.md",
+    "script_path": "out/2026-07-07/script_2hosts.md",
+    "audio_path": "out/2026-07-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26602,
+        "output_tokens": 8722,
+        "cost_usd": 0.070212
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37476,
+        "output_tokens": 7715,
+        "cost_usd": 0.228153
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4299,
+        "cost_usd": 0.051587999999999995
+      }
+    ],
+    "total_cost_usd": 0.349953
+  }
+}

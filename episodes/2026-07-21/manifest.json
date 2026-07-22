@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-21",
+  "episode_date_local": "2026-07-21",
+  "content_snapshot_date": "2026-07-21",
+  "show_length_sec": 731,
+  "audio_size": 70234604,
+  "generated_at": "2026-07-20T21:25:36.625648+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d6e8cdd0",
+      "title": "Human mathematicians are being outcounterexampled",
+      "title_ja": "人間の数学者たちが反例によって追い越されつつある",
+      "one_liner": "AIが数学者より反例発見で優位に立つ",
+      "fingerprint": "d6e8cdd00686ac82a593b3d7741036d2",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d3f7b6e3",
+      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+      "title_ja": "言語化可能な表現が言語モデルにおけるグローバルワークスペースを形成する",
+      "one_liner": "LLMに「意識的処理」に似た構造が存在する証拠",
+      "fingerprint": "d3f7b6e3b7c9676be6b907b2877e009b",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-40f27671",
+      "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
+      "title_ja": "AmazonとNVIDIA NeMo Agent Toolkitで、ビジネス向け特化型エージェントワークフローを構築する",
+      "one_liner": "AWSとNVIDIAが業務特化型AIエージェント基盤を公開",
+      "fingerprint": "40f27671ade300f23b1cd323e44aa3e5",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-9e99cabe",
+      "title": "AI’s most important protocol is getting a little bit easier to use",
+      "title_ja": "AIの最重要プロトコル、使いやすさが向上",
+      "one_liner": "MCPがAIとツール連携の標準基盤として進化中",
+      "fingerprint": "9e99cabe87a0ac3d635dadebe674a15e",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-3701d614",
+      "title": "Nativ — Local AI for your Mac",
+      "title_ja": "Nativ — あなたのMacのためのローカルAI",
+      "one_liner": "Mac向けローカルAIツール「Nativ」がOSSで登場",
+      "fingerprint": "3701d61496bb0ea3d08ad4b705a45689",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-48263695",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "title_ja": "長期的視野を持つモデルの時代における安全性とアライメント",
+      "one_liner": "OpenAIが長時間稼働AIの安全リスクと対策を公開",
+      "fingerprint": "482636954c3cc1f39c2d5401c6293486",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-72a518bc",
+      "reason": "LINK_ONLY: Source intent uncertain: The Decoder is a legitimate tech publication, but the article relies on unverified \"internal sources\" for claims about a 2028 product with extraordinary efficiency gains (6-10x improvement), which is difficult to verify and could be speculative reporting rather than confirmed fact.",
+      "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains"
+    },
+    {
+      "item_id": "item-f7be5539",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apply for Anthropic’s AI for Science rare disease research grants"
+    },
+    {
+      "item_id": "item-1c6a62bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Async React時代の宣言的UI 3: useActionStateでユーザーの操作を妨げないUXを作る"
+    },
+    {
+      "item_id": "item-03054e8d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond grep: The case for a context-rich AI coding harness"
+    },
+    {
+      "item_id": "item-c7392c0b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis"
+    },
+    {
+      "item_id": "item-a173a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials"
+    },
+    {
+      "item_id": "item-09aca78b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Custom OS installation now available on AWS DeepRacer devices"
+    },
+    {
+      "item_id": "item-d7acde5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI credit pools for cost centers in the billing UI"
+    },
+    {
+      "item_id": "item-061cb2f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why teens deserve access to safe AI"
+    },
+    {
+      "item_id": "item-8f259a1c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot users can now see AI credits used per billing cycle"
+    },
+    {
+      "item_id": "item-15e90b5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "China’s AI models have Trump’s AI world at war with itself"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-b3f0b18b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Structure of the Circular-Dyadic Convolution Error"
+    },
+    {
+      "item_id": "item-8a340902",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "X relaunches a rebuilt Android app after year-long effort"
+    },
+    {
+      "item_id": "item-7906c065",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Private Jets Are Scarce. Blame the Gusher of AI Wealth"
+    },
+    {
+      "item_id": "item-2999c7e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Snap Nears Settlement of Addiction Case Ahead of Jury Trial"
+    },
+    {
+      "item_id": "item-724c13b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Galaxy Card Is Samsung’s Answer to the Apple Card"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-21/blog.md",
+    "show_notes_path": "out/2026-07-21/show_notes.md",
+    "script_path": "out/2026-07-21/script_2hosts.md",
+    "audio_path": "out/2026-07-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 30610,
+        "output_tokens": 8770,
+        "cost_usd": 0.07446
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37139,
+        "output_tokens": 7172,
+        "cost_usd": 0.218997
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3966,
+        "cost_usd": 0.047591999999999995
+      }
+    ],
+    "total_cost_usd": 0.341049
+  }
+}

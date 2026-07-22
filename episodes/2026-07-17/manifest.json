@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-17",
+  "episode_date_local": "2026-07-17",
+  "content_snapshot_date": "2026-07-17",
+  "show_length_sec": 876,
+  "audio_size": 84121004,
+  "generated_at": "2026-07-16T21:20:26.230044+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-df9d24e4",
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "title_ja": "OriginBlame：AIトレーニングデータセットにおけるレコードおよびトークンレベルのデータ出所追跡",
+      "one_liner": "AIの学習データを著者単位で追跡・削除できるツール登場",
+      "fingerprint": "df9d24e4b2c0e0c5871428f2d036ee70",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-eb6065a8",
+      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "title_ja": "AIコンピューティングの格差：企業はコストを把握できないまま、インフラへの投資を加速させている",
+      "one_liner": "企業のAI投資がコスト把握能力を大幅に上回っている",
+      "fingerprint": "eb6065a8f5a2e78f62b744dddd0365e6",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "VentureBeat AI"
+      ]
+    },
+    {
+      "item_id": "item-40c544d1",
+      "title": "April 03, 2026",
+      "title_ja": "Gemma 4とRAG Engineのサーバーレスが公開",
+      "one_liner": "Gemma 4とRAG Engineのサーバーレスが公開",
+      "fingerprint": "40c544d12195f81542e2eb7310a8bdc9",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-dee4f7ef",
+      "title": "Introducing Grok on Amazon Bedrock",
+      "title_ja": "Amazon BedrockにGrokを導入",
+      "one_liner": "Grok 4.3がAmazon Bedrockで利用可能に",
+      "fingerprint": "dee4f7ef82f1bc1ff366714c1234413c",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6b713dbc",
+      "title": "April 14, 2026",
+      "title_ja": "Claude Opus 4.7がVertex AIのModel Gardenに登場",
+      "one_liner": "Claude Opus 4.7がVertex AIのModel Gardenに登場",
+      "fingerprint": "6b713dbcfea41cd4ace67198536ba7e0",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-2dbc95f4",
+      "title": "ASML Plans Price Increases for Chipmaking Equipment, Despite TSMC Resistance",
+      "title_ja": "ASMLは、TSMCの反発にもかかわらず、半導体製造装置の値上げを計画",
+      "one_liner": "ASMLが値上げ計画、TSMCが反発",
+      "fingerprint": "2dbc95f4ba8063327ff08db6dc807d91",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-47ae58d7",
+      "reason": "LINK_ONLY: Source intent uncertain: OpenAIとWork Louderの協力は実在する可能性があり、ハードウェアコントローラーの開発も技術的に妥当ですが、「ジョイスティックでAIエージェントを制御」という表現が誇張的であり、プロダクト名「Codex Micro」の詳細が不明確なため、実際のプレスリリースか風刺的な報道かの判断が困難です。",
+      "title": "OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents"
+    },
+    {
+      "item_id": "item-d04daec7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance"
+    },
+    {
+      "item_id": "item-9a00d4d0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot for JetBrains expands BYOK capabilities"
+    },
+    {
+      "item_id": "item-49067f3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GoMLX による Go 単独での手書き数字分類 ― 学習から推論まで Python を用いない実装"
+    },
+    {
+      "item_id": "item-038d163e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automatic Differentiation from Scratch: How PyTorch Computes Gradients in Physics-Informed Neural Networks"
+    },
+    {
+      "item_id": "item-648127f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US"
+    },
+    {
+      "item_id": "item-badacae2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "DeepMind CEO to Lobby Washington on Plan for Group to Vet AI Models"
+    },
+    {
+      "item_id": "item-9fc390c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing LM Studio Bionic: the AI agent for open models"
+    },
+    {
+      "item_id": "item-a173a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials"
+    },
+    {
+      "item_id": "item-045541d9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CANDI: Contextual Alignment for Niche Domains Question Answering"
+    },
+    {
+      "item_id": "item-dce45335",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google Vids now lets you star in your own AI videos"
+    },
+    {
+      "item_id": "item-4bb0512c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio — June update"
+    },
+    {
+      "item_id": "item-5bd2f8b6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI"
+    },
+    {
+      "item_id": "item-061cb2f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why teens deserve access to safe AI"
+    },
+    {
+      "item_id": "item-0f4fa70d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Founders Fund hires former OpenAI exec Ryan Beiermeister (and not because of her ‘Mafia’ skills)"
+    },
+    {
+      "item_id": "item-a0de5c42",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Germany puts Google's AI Overviews and Perplexity under media law in first-of-its-kind ruling"
+    },
+    {
+      "item_id": "item-09856d1d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone"
+    },
+    {
+      "item_id": "item-ea589d0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Salad Chains Are Seeing Foot Traffic Drop Over Cyclosporiasis Fears"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-17/blog.md",
+    "show_notes_path": "out/2026-07-17/show_notes.md",
+    "script_path": "out/2026-07-17/script_2hosts.md",
+    "audio_path": "out/2026-07-17/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-17/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-17/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 40183,
+        "output_tokens": 10065,
+        "cost_usd": 0.090508
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 17,
+        "input_tokens": 40737,
+        "output_tokens": 8352,
+        "cost_usd": 0.247491
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4886,
+        "cost_usd": 0.058632
+      }
+    ],
+    "total_cost_usd": 0.396631
+  }
+}

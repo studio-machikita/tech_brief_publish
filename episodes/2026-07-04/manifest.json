@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-04",
+  "episode_date_local": "2026-07-04",
+  "content_snapshot_date": "2026-07-04",
+  "show_length_sec": 741,
+  "audio_size": 71172524,
+  "generated_at": "2026-07-03T21:24:40.798526+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-28df5ad1",
+      "title": "March 25, 2026",
+      "title_ja": "Vertex AIで音楽生成モデルLyria 3がパブリックプレビュー公開",
+      "one_liner": "Vertex AIで音楽生成モデルLyria 3がパブリックプレビュー公開",
+      "fingerprint": "28df5ad116eaebdaf8ea3bb3d8c4d329",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-aa492e29",
+      "title": "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents",
+      "title_ja": "マイクロソフト、刷新した「Copilot」と「AutoPilot」エージェントでAIスーパーアプリ競争に参入——アンソロピックとOpenAIに続く",
+      "one_liner": "MicrosoftがCopilotを刷新しAIスーパーアプリ競争に参入",
+      "fingerprint": "aa492e29de62a9b72163346cd17c7f93",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2e9658dc",
+      "title": "3 Nuclear Startups Hit a Big Milestone. Why It Matters—and Why It Doesn’t",
+      "title_ja": "原子力スタートアップ3社が重要な節目を達成——その意義と限界",
+      "one_liner": "核融合スタートアップ3社が新炉設計で節目を達成",
+      "fingerprint": "2e9658dc0da0de4e39f96e0e4e0556e6",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-1d2cdffe",
+      "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
+      "title_ja": "死亡したドナーの眼球を蘇生させる装置、眼球移植の実現に道を開く可能性",
+      "one_liner": "死後の眼球を維持する装置が眼球移植を可能にするかもしれない",
+      "fingerprint": "1d2cdffe2d84c55c03688e52ae102538",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-e6f420fb",
+      "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+      "title_ja": "NVIDIAのNemotronとOpenAIのGPTオープンソースモデルをAWS GovCloud（米国）のAmazon Bedrockで実行可能に",
+      "one_liner": "AWS GovCloudでOpenAIとNVIDIAのOSSモデルが使えるように",
+      "fingerprint": "e6f420fba5c944b5f162f38a117048b3",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-29c2a0af",
+      "title": "Multilayer Q-Matrix-Embedded Neural Network for Cognitive Diagnosis (M-QCDNet): Structure-Aware Deep Learning Architecture for Psychometric Interpretability",
+      "title_ja": "認知診断のための多層Q行列埋め込みニューラルネットワーク（M-QCDNet）：心理測定的解釈可能性のための構造認識型深層学習アーキテクチャ",
+      "one_liner": "Q行列を組み込んだ解釈可能な認知診断ニューラルネット",
+      "fingerprint": "29c2a0af452fb5a1b42379ce94a7fde5",
+      "score": 62,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ee787240",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事タイトルに「jailbreak framework」という通常は悪意のある行為を指す用語が含まれており、セキュリティ企業が公式に「jailbreak」を提供することは矛盾しているため、風刺またはジョークの可能性がある。ただしスニペットの文体は正当な技術記事のものであり、判定が困難。",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-38873ba1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms"
+    },
+    {
+      "item_id": "item-e9087037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models"
+    },
+    {
+      "item_id": "item-1564d1b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mapping Europe’s AI Workforce Opportunity"
+    },
+    {
+      "item_id": "item-dd5b3063",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash"
+    },
+    {
+      "item_id": "item-988fc2ec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Israeli AI Startup Eyes Expansion in Trump-Aligned Latin America"
+    },
+    {
+      "item_id": "item-6ce9c12c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT adoption has expanded"
+    },
+    {
+      "item_id": "item-ffca3fec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Amazon Bedrock catches AI-generated phishing"
+    },
+    {
+      "item_id": "item-3747f102",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improved accuracy and coverage in Copilot usage metrics reports"
+    },
+    {
+      "item_id": "item-e5380e01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude Code's complicated China problem involves bans on both sides of the Pacific"
+    },
+    {
+      "item_id": "item-46603049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redeploying Fable 5"
+    },
+    {
+      "item_id": "item-f289ac0b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bending Spoons’ Big Pop a Good Sign for IPO Candidates"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-2d656c53",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari"
+    },
+    {
+      "item_id": "item-1c27188c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Snowflakeの開発にCoCo(旧Cortex Code)をおすすめする理由"
+    },
+    {
+      "item_id": "item-5fa1edc0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - searxng/searxng: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled."
+    },
+    {
+      "item_id": "item-2a646b8b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Espionage Against the European Parliament: Member of Committee Investigating Spyware Hacked with Pegasus - The Citizen Lab"
+    },
+    {
+      "item_id": "item-7266683d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Dune keypad device can be your meeting controller and more"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-04/blog.md",
+    "show_notes_path": "out/2026-07-04/show_notes.md",
+    "script_path": "out/2026-07-04/script_2hosts.md",
+    "audio_path": "out/2026-07-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 27167,
+        "output_tokens": 9025,
+        "cost_usd": 0.072292
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37250,
+        "output_tokens": 7505,
+        "cost_usd": 0.224325
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3999,
+        "cost_usd": 0.047988
+      }
+    ],
+    "total_cost_usd": 0.344605
+  }
+}

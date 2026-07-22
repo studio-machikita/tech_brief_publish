@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-17",
+  "episode_date_local": "2026-04-17",
+  "content_snapshot_date": "2026-04-17",
+  "show_length_sec": 774,
+  "audio_size": 74353964,
+  "generated_at": "2026-04-16T22:18:03.151963+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-73791de5",
+      "title": "The Beginning of Scarcity in AI",
+      "fingerprint": "73791de5e114153e6445c365f29023d5",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-860ce273",
+      "title": "Circuit Transformations, Loop Fusion, and Inductive Proof",
+      "fingerprint": "860ce273f60bf1c1926d4a3d0a5c5ca0",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-dde6ca14",
+      "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
+      "fingerprint": "dde6ca14362d850fe561a0841454960f",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6f0f1425",
+      "title": "Zatanna — Turn software workflows into reliable APIs for AI agents",
+      "fingerprint": "6f0f1425902a6af75df69a29d67d50b4",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6547954f",
+      "title": "Luma launches AI-powered production studio with faith-focused Wonder Project",
+      "fingerprint": "6547954f5770f700569547530156f338",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-be736903",
+      "title": "GitHub - GainSec/AutoProber: Hardware hacker’s flying probe automation stack for agent-driven   target discovery, microscope mapping, safety-monitored CNC motion, probe review, and   controlled pin probing.",
+      "fingerprint": "be736903f39ff4652e24e56809a0285e",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-966f07d8",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトル『Qwen Studio』とスニペット『Qwen』のみでは、正当な技術ブログ記事か宣伝記事かの判定が困難。Qwenは実在するAIモデルだが、提供されたテキストが極めて限定的であり、内容の詳細が不明。",
+      "title": "Qwen Studio"
+    },
+    {
+      "item_id": "item-362d274b",
+      "reason": "LINK_ONLY: Source intent uncertain: 公式のAndroid Developers Blogドメインからの記事で、タイトルは技術的に見えますが、スニペットが不完全で「any agent」という表現が曖昧です。2026年4月16日という未来の日付と、「3x faster」という具体的な性能向上主張の組み合わせから、実際の発表内容を確認できないため判定が困難です。",
+      "title": "Android CLI: Build Android apps 3x faster using any agent"
+    },
+    {
+      "item_id": "item-da2109b0",
+      "reason": "LINK_ONLY: Source intent uncertain: OpenAIの公式ドメインからのコンテンツであり、タイトル「Codex for almost everything」は実在するCodexプロダクトに関する正当な記事の可能性が高いが、スニペットがなく、タイトルのみでは過度に広い主張（「ほぼすべてのもの」）を含むため、実際の内容が宣伝的か技術的かを確定できない。",
+      "title": "Codex for almost everything"
+    },
+    {
+      "item_id": "item-e43a06c1",
+      "reason": "LINK_ONLY: Source intent uncertain: Anthropic公式ドメインのURLと正当なニュースソース（Bloomberg）の引用があり、プロダクト名や内容は現実的だが、2026年4月という未来日付と「Mythos」という未確認のプロダクト名が存在し、事実確認が困難である。",
+      "title": "Claude Opus 4.7"
+    },
+    {
+      "item_id": "item-4cfe90ce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Better R Programming Experience Thanks to Tree-sitter"
+    },
+    {
+      "item_id": "item-32c0d97f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Clojure"
+    },
+    {
+      "item_id": "item-0010433c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Future of Everything is Lies, I Guess: Where Do We Go From Here?"
+    },
+    {
+      "item_id": "item-fb9e8530",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - GRVYDEV/marky: A lightweight easy to use markdown viewer"
+    },
+    {
+      "item_id": "item-69f01cfd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Netflix co-founder and chair Reed Hastings to leave board"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-04-17/blog.md",
+    "show_notes_path": "out/2026-04-17/show_notes.md",
+    "script_path": "out/2026-04-17/script_2hosts.md",
+    "audio_path": "out/2026-04-17/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-04-17/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-04-17/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 31,
+        "input_tokens": 21248,
+        "output_tokens": 7833,
+        "cost_usd": 0.060413
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37784,
+        "output_tokens": 7624,
+        "cost_usd": 0.227712
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4265,
+        "cost_usd": 0.051179999999999996
+      }
+    ],
+    "total_cost_usd": 0.339305
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-20",
+  "episode_date_local": "2026-07-20",
+  "content_snapshot_date": "2026-07-20",
+  "show_length_sec": 779,
+  "audio_size": 74849324,
+  "generated_at": "2026-07-19T21:08:36.653986+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-14d0d7e6",
+      "title": "Google Deepmind argues video generators already contain the world models computer vision has been missing",
+      "title_ja": "GoogleのDeepMind、動画生成AIはコンピュータービジョンが長年求めてきた「世界モデル」をすでに内包していると主張",
+      "one_liner": "動画生成AIが汎用ワールドモデルを内包する可能性",
+      "fingerprint": "14d0d7e663d074e433b81d6aaddd386a",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-80a37e42",
+      "title": "TechCrunch Mobility: The battle over robotaxi rules",
+      "title_ja": "テッククランチ・モビリティ：ロボタクシー規制をめぐる争い",
+      "one_liner": "ロボタクシー規制をめぐる争いが激化",
+      "fingerprint": "80a37e42c4c764b3bfae3f5736018061",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-ef8d535d",
+      "title": "Exclusive: Humanoid, UK-Based Robot Maker, Becomes a Unicorn",
+      "title_ja": "英国拠点のロボットメーカー「Humanoid」がユニコーン企業に、独自情報",
+      "one_liner": "英国のロボット企業Humanoidがユニコーンに",
+      "fingerprint": "ef8d535df565e87ac5dafdcee840f6ac",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-59c4ed45",
+      "title": "How Smartsheet built a remote MCP server on AWS",
+      "title_ja": "SmartsheetがAWS上にリモートMCPサーバーを構築した方法",
+      "one_liner": "SmartsheetがAWS上にリモートMCPサーバーを構築",
+      "fingerprint": "59c4ed45d9abbcae65a721ddea632e89",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-e7e09c08",
+      "title": "ゴールまで自走するだけではない？——ループエンジニアリングの本質はどこにあるのか",
+      "title_ja": "ゴールまで自走するだけではない？——ループエンジニアリングの本質はどこにあるのか",
+      "one_liner": "ループエンジニアリングの本質はソフトウェアファクトリーにあり",
+      "fingerprint": "e7e09c08bb429d04ce5d22ed1b698561",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-4bb0512c",
+      "title": "GitHub Copilot in Visual Studio — June update",
+      "title_ja": "GitHub CopilotのVisual Studio向け — 6月のアップデート",
+      "one_liner": "GitHub CopilotのVisual Studio版が使用状況の可視化とMCPサーバー信頼機能を追加",
+      "fingerprint": "4bb0512c06f78b6a383d5ada9ad3aeb7",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0a7fc3fa",
+      "reason": "LINK_ONLY: Source intent uncertain: The article appears to be from a legitimate tech news source (The Decoder), but the claim that Qwen 3.8 is 'second only to Fable 5' is suspicious as 'Fable 5' does not appear to be a real, widely-known AI model as of the knowledge cutoff, suggesting either satirical intent or promotional exaggeration.",
+      "title": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\""
+    },
+    {
+      "item_id": "item-5bd2f8b6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI"
+    },
+    {
+      "item_id": "item-6602dc8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exclusive: Microsoft Preps Mythos-Like AI Bug Finder"
+    },
+    {
+      "item_id": "item-a173a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials"
+    },
+    {
+      "item_id": "item-118a9a3c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Repository-level GitHub Copilot usage metrics generally available"
+    },
+    {
+      "item_id": "item-061cb2f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why teens deserve access to safe AI"
+    },
+    {
+      "item_id": "item-b6a20ab0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Orion Browser by Kagi"
+    },
+    {
+      "item_id": "item-1a5da491",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Mobile Layout for Amazon Quick dashboards"
+    },
+    {
+      "item_id": "item-02efe9b9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?"
+    },
+    {
+      "item_id": "item-dd708f8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: perimenopause misinformation and China’s latest AI leap"
+    },
+    {
+      "item_id": "item-612bb413",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Apple’s OpenAI Lawsuit Doesn’t Mention Jony Ive; AI Recording at Genius Bar"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-f1b30732",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Big Tech Needs to Justify AI Spending as Investors Dump Stocks"
+    },
+    {
+      "item_id": "item-0bfe8f03",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Heavy TV watching associated with smaller brain structures"
+    },
+    {
+      "item_id": "item-b106fe8c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Power Banks (2026): My Picks After Testing Over 100"
+    },
+    {
+      "item_id": "item-8653cf8e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to Disable Music Videos in Spotify"
+    },
+    {
+      "item_id": "item-3e0adbe5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "There’s a lot of hype around perimenopause. Don’t buy it."
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-20/blog.md",
+    "show_notes_path": "out/2026-07-20/show_notes.md",
+    "script_path": "out/2026-07-20/script_2hosts.md",
+    "audio_path": "out/2026-07-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 31105,
+        "output_tokens": 8947,
+        "cost_usd": 0.07584
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37065,
+        "output_tokens": 7435,
+        "cost_usd": 0.22272
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4237,
+        "cost_usd": 0.050844
+      }
+    ],
+    "total_cost_usd": 0.349404
+  }
+}

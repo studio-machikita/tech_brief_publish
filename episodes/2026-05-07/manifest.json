@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-07",
+  "episode_date_local": "2026-05-07",
+  "content_snapshot_date": "2026-05-07",
+  "show_length_sec": 796,
+  "audio_size": 76463084,
+  "generated_at": "2026-05-06T21:26:30.869156+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-39589d99",
+      "title": "Learning the integral of a diffusion model",
+      "fingerprint": "39589d99e39628289df84127a61148db",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7a0f0fc2",
+      "title": "tilde.run - Let AI agents loose on production. Without the risk.",
+      "fingerprint": "7a0f0fc26f6c6f649b39d6f189c698b3",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-7cd5a3cb",
+      "title": "Vibe coding and agentic engineering are getting closer than I’d like",
+      "fingerprint": "7cd5a3cbd01ad53aea478e85a0a81d62",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-0b7138f3",
+      "title": "The bottleneck was never the code",
+      "fingerprint": "0b7138f37fdb2fb3a83b3f892cd05b8a",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1821b3eb",
+      "title": "From Supabase to Clerk to Better Auth",
+      "fingerprint": "1821b3ebad3e1ed0eec93a1412574bce",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-b462e383",
+      "title": "Introducing Google Cloud Fraud Defense, the next evolution of reCAPTCHA | Google Cloud Blog",
+      "fingerprint": "b462e383114090dedbd8c7a2704d34c9",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-abe4f718",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Valve releases Steam Controller CAD files under Creative Commons license"
+    },
+    {
+      "item_id": "item-623da8b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MIT&#039;s virtual violin offers luthiers a new design tool"
+    },
+    {
+      "item_id": "item-3b4c90b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CARA 2.0 &mdash; Aaed Musa"
+    },
+    {
+      "item_id": "item-c3cf7318",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "setting up a Sun Ray server on OpenIndiana Hipster 2025.10"
+    },
+    {
+      "item_id": "item-791c23c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Templatical Playground — Interactive Email Editor"
+    },
+    {
+      "item_id": "item-db5581bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Appearing Productive in The Workplace — No One"
+    },
+    {
+      "item_id": "item-c37b405f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inkscape 1.4.4 Release Notes"
+    },
+    {
+      "item_id": "item-3c984897",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Life During Class Wartime"
+    },
+    {
+      "item_id": "item-4456b913",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ted Turner has died"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-07/blog.md",
+    "show_notes_path": "out/2026-05-07/show_notes.md",
+    "script_path": "out/2026-05-07/script_2hosts.md",
+    "audio_path": "out/2026-05-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 27,
+        "input_tokens": 18753,
+        "output_tokens": 7337,
+        "cost_usd": 0.055438
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37644,
+        "output_tokens": 7540,
+        "cost_usd": 0.226032
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4419,
+        "cost_usd": 0.053028000000000006
+      }
+    ],
+    "total_cost_usd": 0.334498
+  }
+}

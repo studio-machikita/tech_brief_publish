@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-16",
+  "episode_date_local": "2026-07-16",
+  "content_snapshot_date": "2026-07-16",
+  "show_length_sec": 792,
+  "audio_size": 76065644,
+  "generated_at": "2026-07-15T21:15:49.338370+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-e232e839",
+      "title": "OpenAI is now using AI to attack its own AI, and it's working better than humans ever did",
+      "title_ja": "OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成",
+      "one_liner": "AIが自分自身を攻撃し、人間より高精度で脆弱性を発見",
+      "fingerprint": "e232e8392d5b9d42696cb2132ea27d03",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9ab2720f",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "title_ja": "GPT-Red：堅牢性向上のための自己改善を解き放つ",
+      "one_liner": "OpenAIが自己対戦でAIの堅牢性を高める自動レッドチームシステムを公開",
+      "fingerprint": "9ab2720f89a90ae585e2e1a91e777a2d",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-13991f5a",
+      "title": "Simulating everything, sort of: The promise and limits of world models",
+      "title_ja": "あらゆるものをシミュレートする、ある意味で：ワールドモデルの可能性と限界",
+      "one_liner": "ワールドモデルの可能性と限界を専門家が解説",
+      "fingerprint": "13991f5a63a0b61f729844bc35e42e83",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-f9797bd1",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "title_ja": "GPT-Redを紹介：OpenAIがモデルの安全性向上のために開発したLLMスーパーハッカー",
+      "one_liner": "OpenAIがLLM同士の対戦でモデルを強化",
+      "fingerprint": "f9797bd1ce93c92552322f0977cd779b",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-ba3ae053",
+      "title": "Scaling Point-in-Time Language Models",
+      "title_ja": "特定時点の言語モデルのスケーリング",
+      "one_liner": "未来情報を含まないLLMで金融分析の精度を高める",
+      "fingerprint": "ba3ae053e78eacf06ce99ef15e96641d",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-ea0997c4",
+      "title": "GitHub - xai-org/grok-build: SpaceXAI&#39;s coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "title_ja": "GitHub - xai-org/grok-build: SpaceXAIのコーディングエージェントハーネス＆TUI。フルスクリーン対応、マウス操作可能、拡張性あり。",
+      "one_liner": "xAIがコーディングエージェント用TUIツールをOSSで公開",
+      "fingerprint": "ea0997c444aa96078691a3a655c2141b",
+      "score": 70,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-91db884e",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術的に信頼できるメディア（The Decoder）から発行されており、具体的な大学教授や統計手法の名前を挙げているが、2026年7月という未来の日付と「GPT-5.6 Sol」という実在しないモデル名が存在し、事実と虚構の境界が曖昧である。",
+      "title": "GPT-5.6 Sol reportedly disproves a 30-year-old statistics conjecture in 90 minutes after humans couldn't crack it"
+    },
+    {
+      "item_id": "item-d04daec7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Built Technologies builds an AI-powered document intelligence solution on AWS to power agents across real estate finance"
+    },
+    {
+      "item_id": "item-40c544d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 03, 2026"
+    },
+    {
+      "item_id": "item-ec2e2325",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers"
+    },
+    {
+      "item_id": "item-9a00d4d0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot for JetBrains expands BYOK capabilities"
+    },
+    {
+      "item_id": "item-4bb0512c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio — June update"
+    },
+    {
+      "item_id": "item-6b713dbc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 14, 2026"
+    },
+    {
+      "item_id": "item-c1629c59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inviting hard questions"
+    },
+    {
+      "item_id": "item-1389d265",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The US is advancing AI safety through state and federal action"
+    },
+    {
+      "item_id": "item-0503873c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OmniPMNet: Bridging discrete and gridded PM10 forecasts via omni-query neural processes"
+    },
+    {
+      "item_id": "item-48bef421",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google DeepMind’s Demis Hassabis Calls for New U.S.-Led AI Standards Body"
+    },
+    {
+      "item_id": "item-90aaf89d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude CodeのstatusLineのすゝめ-コンテキスト残量とレートリミットを1画面で把握する"
+    },
+    {
+      "item_id": "item-9208249f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust"
+    },
+    {
+      "item_id": "item-ef1a0737",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets"
+    },
+    {
+      "item_id": "item-d497a72a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Daniel Ek’s body-scanning startup Neko Health raises another $700M"
+    },
+    {
+      "item_id": "item-68007863",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms"
+    },
+    {
+      "item_id": "item-216c94d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intel Officials Predict the Pentagon’s Bill for the Iran War Will Exceed $100 Billion"
+    },
+    {
+      "item_id": "item-ab9a8f7c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "brainless"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-16/blog.md",
+    "show_notes_path": "out/2026-07-16/show_notes.md",
+    "script_path": "out/2026-07-16/script_2hosts.md",
+    "audio_path": "out/2026-07-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 27403,
+        "output_tokens": 9248,
+        "cost_usd": 0.073643
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37373,
+        "output_tokens": 7722,
+        "cost_usd": 0.227949
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4331,
+        "cost_usd": 0.051972
+      }
+    ],
+    "total_cost_usd": 0.353564
+  }
+}

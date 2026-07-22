@@ -1,0 +1,167 @@
+{
+  "date": "2026-05-08",
+  "episode_date_local": "2026-05-08",
+  "content_snapshot_date": "2026-05-08",
+  "show_length_sec": 784,
+  "audio_size": 75307244,
+  "generated_at": "2026-05-07T21:19:15.050165+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9aae1ff6",
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "fingerprint": "9aae1ff60258eea424248c249a889ba7",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a25a75af",
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "fingerprint": "a25a75af86e3fc65cfe80874f848f500",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-30197b1c",
+      "title": "agents need control flow, not more prompts",
+      "fingerprint": "30197b1cb852b28883997a042a6ae5d0",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a62ea665",
+      "title": "GitHub - antirez/ds4: DeepSeek 4 Flash local inference engine for Metal",
+      "fingerprint": "a62ea6653b404960e5f48194e33449ac",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-a41813a2",
+      "title": "AI Slop is Killing Online Communities",
+      "fingerprint": "a41813a28d97033320469b6824408cfa",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-27ef025c",
+      "title": "Building For The Future",
+      "fingerprint": "27ef025cc655f82213628c9f6a5f2e94",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7832ecad",
+      "reason": "LINK_ONLY: Source intent uncertain: スニペットはJavaScript無効エラーメッセージのみで、記事の実際の内容が確認できません。タイトル「Principles for agent-native CLIs」は技術的で正当そうですが、本体コンテンツが取得不可のため判定が困難です。",
+      "title": "Principles for agent-native CLIs"
+    },
+    {
+      "item_id": "item-3c2ae0db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chrome removes claim of On-device Al not sending data to Google Servers"
+    },
+    {
+      "item_id": "item-31a5277d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - PySimpleGUI/PySimpleGUI: Python GUIs for Humans! PySimpleGUI is the top-rated Python application development environment. Launched in 2018. NEW for 2026 - the LGPL3 Version 6.  Transforms tkinter, Qt, WxPython, and Remi into a simple, intuitive, and fun experience for both hobbyists and expert users."
+    },
+    {
+      "item_id": "item-88c3dd73",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "oss-security"
+    },
+    {
+      "item_id": "item-7f851c85",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The map that keeps Burning Man honest"
+    },
+    {
+      "item_id": "item-312b3dd8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Colored Shadow Penumbra"
+    },
+    {
+      "item_id": "item-d4938cb6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Utah senator smacks ABC reporters phone out of hand amid Data Center controversy"
+    },
+    {
+      "item_id": "item-54dcc888",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Want to Live Like Costco People"
+    },
+    {
+      "item_id": "item-a44374f1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Marriage of adolescent girls in Nigeria reduced by 80% by ‘big push’ intervention"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-05-08/blog.md",
+    "show_notes_path": "out/2026-05-08/show_notes.md",
+    "script_path": "out/2026-05-08/script_2hosts.md",
+    "audio_path": "out/2026-05-08/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-05-08/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-05-08/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19477,
+        "output_tokens": 7482,
+        "cost_usd": 0.056887
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37395,
+        "output_tokens": 7602,
+        "cost_usd": 0.226215
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4383,
+        "cost_usd": 0.052596
+      }
+    ],
+    "total_cost_usd": 0.335698
+  }
+}

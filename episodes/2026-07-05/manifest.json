@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-05",
+  "episode_date_local": "2026-07-05",
+  "content_snapshot_date": "2026-07-05",
+  "show_length_sec": 762,
+  "audio_size": 73168364,
+  "generated_at": "2026-07-04T21:14:56.512467+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-bbe0d75a",
+      "title": "Building a serverless A2A gateway for agent discovery, routing, and access control",
+      "title_ja": "サーバーレスA2Aゲートウェイの構築：エージェントの検出、ルーティング、アクセス制御",
+      "one_liner": "AWS上でA2Aエージェントを一元管理するサーバーレスゲートウェイの構築法",
+      "fingerprint": "bbe0d75a38a798b3b360c586893dc327",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-cfd52158",
+      "title": "April 02, 2026",
+      "title_ja": "Veo 3.1 Liteが公開プレビュー、Gemini 2.5系の廃止日も更新",
+      "one_liner": "Veo 3.1 Liteが公開プレビュー、Gemini 2.5系の廃止日も更新",
+      "fingerprint": "cfd521582fde30b2fa7f86004f73107e",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-3ce02d61",
+      "title": "Nvidia Will Backstop Customers’ GPUs, Take a Cut of Their Cloud Revenues",
+      "title_ja": "NvidiaはGPUを顧客に保証し、クラウド収益の一部を受け取る",
+      "one_liner": "NvidiaがクラウドGPU収益の一部と引き換えに損失補填を提供",
+      "fingerprint": "3ce02d61009eefbc296e8c1f74e75f30",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-4229c168",
+      "title": "Next.jsのpreloadが生成するHTTPヘッダーに日本語ファイル名が紛れて本番だけエラーが出た話",
+      "title_ja": "Next.jsのpreloadが生成するHTTPヘッダーに日本語ファイル名が紛れて本番だけエラーが出た話",
+      "one_liner": "日本語ファイル名がNext.js本番環境でHTTPヘッダーエラーを引き起こした",
+      "fingerprint": "4229c168d8fdeeb981b1c07bcbcc21ab",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-9061e8f1",
+      "title": "China Envisions AI, Karaoke and Coffee at Cinemas",
+      "title_ja": "中国、映画館にAI・カラオケ・カフェ導入を構想",
+      "one_liner": "中国の映画館がAIやカラオケで多角化へ",
+      "fingerprint": "9061e8f14161da2c5c9e153312765bf3",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-cef16f4d",
+      "title": "India’s CG Semi Starts Production With 200 Million Chips",
+      "title_ja": "インドのCGセミ、2億個のチップ生産を開始",
+      "one_liner": "インドで年産2億個の半導体工場が稼働開始",
+      "fingerprint": "cef16f4dacec2550b2605770103cd34c",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-62f87143",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術的な内容を扱っているが、『Fable 5』というモデル名が2026年7月時点で実在するかどうか確認できず、また『blind spots』という表現が過度に比喩的であるため、風刺とジョークの可能性も排除できない。",
+      "title": "Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first"
+    },
+    {
+      "item_id": "item-dd5b3063",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash"
+    },
+    {
+      "item_id": "item-6b9e4b21",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage"
+    },
+    {
+      "item_id": "item-6ce9c12c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT adoption has expanded"
+    },
+    {
+      "item_id": "item-ffca3fec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Amazon Bedrock catches AI-generated phishing"
+    },
+    {
+      "item_id": "item-3747f102",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improved accuracy and coverage in Copilot usage metrics reports"
+    },
+    {
+      "item_id": "item-04c7600d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "February 23, 2026"
+    },
+    {
+      "item_id": "item-1564d1b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mapping Europe’s AI Workforce Opportunity"
+    },
+    {
+      "item_id": "item-ee787240",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework"
+    },
+    {
+      "item_id": "item-46603049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redeploying Fable 5"
+    },
+    {
+      "item_id": "item-5ae6f6ce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI"
+    },
+    {
+      "item_id": "item-98650316",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Open-source tool pxpipe hides text in PNGs to cut Claude Code and Fable 5 token costs up to 70%"
+    },
+    {
+      "item_id": "item-7a0da7d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - ammaarreshi/Generals-Mac-iOS-iPad: Command &amp; Conquer Generals: Zero Hour running natively on macOS, iPhone &amp; iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included."
+    },
+    {
+      "item_id": "item-2fe81a5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a smoking “endgame” and a new Elizabeth Bear story"
+    },
+    {
+      "item_id": "item-6878a2fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway."
+    },
+    {
+      "item_id": "item-9f072589",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Submit Your Questions: Inside The World of Online Romance Scams"
+    },
+    {
+      "item_id": "item-1bf8e6e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Wicklow hotel cancels ‘secretive’ Peter Thiel group conference"
+    },
+    {
+      "item_id": "item-b1373712",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "15 Best MagSafe Wireless Chargers (2026): Power Banks, Stands, Pads, and Travel Chargers"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-05/blog.md",
+    "show_notes_path": "out/2026-07-05/show_notes.md",
+    "script_path": "out/2026-07-05/script_2hosts.md",
+    "audio_path": "out/2026-07-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 27055,
+        "output_tokens": 8612,
+        "cost_usd": 0.070115
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 17,
+        "input_tokens": 37080,
+        "output_tokens": 7451,
+        "cost_usd": 0.223005
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4099,
+        "cost_usd": 0.049188
+      }
+    ],
+    "total_cost_usd": 0.342308
+  }
+}

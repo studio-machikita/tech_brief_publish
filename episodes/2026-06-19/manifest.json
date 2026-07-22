@@ -1,0 +1,172 @@
+{
+  "date": "2026-06-19",
+  "episode_date_local": "2026-06-19",
+  "content_snapshot_date": "2026-06-19",
+  "show_length_sec": 758,
+  "audio_size": 72841964,
+  "generated_at": "2026-06-18T22:36:24.191627+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-aa2f0b55",
+      "title": "Cell-Based Architecture for Resilient Payment Systems",
+      "fingerprint": "aa2f0b551765d0decfd6279a0e21bc61",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6049b092",
+      "title": "Noam Shazeer (@NoamShazeer) on X",
+      "fingerprint": "6049b09278c523f50fa7d0ca8ed17dd4",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-bb93098b",
+      "title": "The Token Compression Illusion: Why I&#x27;m Skeptical of RTK",
+      "fingerprint": "bb93098b2ad16e3cb27a722b031a015a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-85329d08",
+      "title": "TesterArmy: Test your app with AI, catch bugs before users do",
+      "fingerprint": "85329d087b6cc9cb1d02e4a17aabf2fd",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-42097ecd",
+      "title": "Introducing Enterprise NAS, Built on ZFS",
+      "fingerprint": "42097ecd5f7ece39f99cef815437df01",
+      "score": 45,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-49926dc2",
+      "title": "I discovered a large-scale malware distribution on GitHub",
+      "fingerprint": "49926dc205220c6d956e36ee43daea59",
+      "score": 35,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2c3f76bf",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルに「Mythos Controversy」という表現があり、実在する企業（SK Telecom、Anthropic）と具体的なURL（Wired）が組み合わされているため、実在のニュースか風刺かの判断が困難。スニペットがないため、内容の真偽を確認できない。",
+      "title": "The Korean Telecom Giant at the Center of Anthropic’s Mythos Controversy"
+    },
+    {
+      "item_id": "item-ee397aeb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CS 6120: The Self"
+    },
+    {
+      "item_id": "item-f989bb2d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "W Social, Public Institutions and the Theater of European Digital Sovereignty"
+    },
+    {
+      "item_id": "item-aedab69f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "BOMwiki: Bill of Materials Encyclopedia | Everything Is BOM"
+    },
+    {
+      "item_id": "item-bc6d86af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Parliament Lifts Ban on New Nuclear Power Plants"
+    },
+    {
+      "item_id": "item-de3df88f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Migrating from GNU stow to chezmoi"
+    },
+    {
+      "item_id": "item-4a569aa1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hospitals and universities repurposing drugs at 90% lower cost | King&#x27;s College London"
+    },
+    {
+      "item_id": "item-e08869f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M"
+    },
+    {
+      "item_id": "item-8800e1c9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introduction"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-06-19/blog.md",
+    "show_notes_path": "out/2026-06-19/show_notes.md",
+    "script_path": "out/2026-06-19/script_2hosts.md",
+    "audio_path": "out/2026-06-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-06-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-06-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 28,
+        "input_tokens": 19536,
+        "output_tokens": 7249,
+        "cost_usd": 0.055781
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 38049,
+        "output_tokens": 7280,
+        "cost_usd": 0.223347
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4124,
+        "cost_usd": 0.049488000000000004
+      }
+    ],
+    "total_cost_usd": 0.328616
+  }
+}

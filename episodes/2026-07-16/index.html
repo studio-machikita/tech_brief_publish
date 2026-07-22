@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://technewsradio.tokyo/episodes/2026-07-16/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-07-16/">
+<meta property="og:description" content="2026-07-16 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-07-16/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成 ほか",
+    "description": "2026-07-16 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-07-16",
+    "image": "https://technewsradio.tokyo/episodes/2026-07-16/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-07-16/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成 ほか",
+    "description": "2026-07-16 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-07-16",
+    "url": "https://technewsradio.tokyo/episodes/2026-07-16/",
+    "duration": "PT13M12S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://technewsradio.tokyo/episodes/2026-07-16/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  
+  
+
+  <section id="episode-notice" class="notice-card"></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%8C%E8%87%AA%E7%A4%BEAI%E3%82%92%E6%94%BB%E6%92%83%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%ABAI%E3%82%92%E6%B4%BB%E7%94%A8%E3%80%81%E4%BA%BA%E9%96%93%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E6%88%90%E6%9E%9C%E3%82%92%E9%81%94%E6%88%90%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-07-16/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-07-16/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+<script>
+(function() {
+  const markdownContent = `### このエピソードについて
+
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
+  const renderMode = "default";
+  function renderMarkdown(md) {
+    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+      marked.setOptions({ breaks: true });
+      return DOMPurify.sanitize(marked.parse(md));
+    }
+    var el = document.createElement('pre');
+    el.style.whiteSpace = 'pre-wrap';
+    el.textContent = md;
+    return el.outerHTML;
+  }
+  const target = document.getElementById('episode-notice');
+  target.innerHTML = renderMarkdown(markdownContent);
+  if (renderMode === 'hero-pills') {
+    var heading = target.querySelector('h2');
+    if (heading) {
+      var h1 = document.createElement('h1');
+      h1.className = 'hero-title';
+      h1.innerHTML = heading.innerHTML;
+      heading.replaceWith(h1);
+    }
+    target.querySelectorAll('p').forEach(function(p) {
+      p.classList.add('hero-description');
+    });
+    var list = target.querySelector('ul');
+    if (list) {
+      var pillWrap = document.createElement('div');
+      pillWrap.className = 'hero-meta';
+      Array.from(list.querySelectorAll('li')).forEach(function(item) {
+        var pill = document.createElement('span');
+        pill.className = 'hero-pill';
+        pill.textContent = item.textContent.trim();
+        pillWrap.appendChild(pill);
+      });
+      list.replaceWith(pillWrap);
+    }
+  }
+})();
+</script>
+
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-07-16"
+subtitle: "OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成 / GPT-Red：堅牢性向上のための自己改善を解き放つ / あらゆるものをシミ..."
+date: "2026-07-16"
+vol: 107
+topics:
+  - AI
+  - LLM
+  - Security
+  - Science
+  - Data
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-07-16
+
+*📖 約12分で読めます ｜ 🏷️ AI, LLM, Security, Science, Data*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成** — AIが自分自身を攻撃し、人間より高精度で脆弱性を発見
+- 🤖 **GPT-Red：堅牢性向上のための自己改善を解き放つ** — OpenAIが自己対戦でAIの堅牢性を高める自動レッドチームシステムを公開
+- 🤖 **あらゆるものをシミュレートする、ある意味で：ワールドモデルの可能性と限界** — ワールドモデルの可能性と限界を専門家が解説
+- 🤖 **GPT-Redを紹介：OpenAIがモデルの安全性向上のために開発したLLMスーパーハッカー** — OpenAIがLLM同士の対戦でモデルを強化
+- 🤖 **特定時点の言語モデルのスケーリング** — 未来情報を含まないLLMで金融分析の精度を高める
+- 🤖 **GitHub - xai-org/grok-build: SpaceXAIのコーディングエージェントハーネス＆TUI。フルスクリーン対応、マウス操作可能、拡張性あり。** — xAIがコーディングエージェント用TUIツールをOSSで公開
+
+---
+
+## 🤖 OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成
+\`AI\` \`LLM\` \`Security\`
+
+<details>
+<summary>📄 原題: OpenAI is now using AI to attack its own AI, and it&#x27;s working better than humans ever did</summary>
+</details>
+
+> **一言で**: AIが自分自身を攻撃し、人間より高精度で脆弱性を発見
+
+- OpenAIの内部モデル「GPT-Red」は、自己対戦学習でテストの84%で攻撃に成功
+- 人間のレッドチーマー（安全性検査担当者）の成功率はわずか13%
+- 得られた知見はGPT-5.6 Solなど本番モデルの堅牢化に直接活用
+
+💡 **なぜ重要か**
+AIの安全性検査では、人間が悪意ある入力を手動で試す「レッドチーミング」が主流でした。しかし人間の発想には限界があり、見落としが生じやすいという課題がありました。AIに自分自身を攻撃させる手法は、その限界を大きく超える可能性を示しています。 AI安全性の検証プロセスが自動化・高度化されることで、モデルのリリースサイクルが速まると見られます。一方で、AIが攻撃手法を自ら学習・発展させる構造は、新たなリスク管理の議論も呼びそうです。人間のレッドチーマーの役割も、実行から設計・評価へとシフトしていくでしょう。
+
+🎯 **今日のアクション**
+自社のAI導入・開発において、安全性検証を人手だけに頼らず、自動化ツールや敵対的テスト手法の導入を検討してください。また、OpenAIのこの取り組みを参考に、セキュリティ評価の指標を数値化する仕組みを整えることが重要です。
+
+🔗 [原文を読む](https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/)
+
+---
+
+## 🤖 GPT-Red：堅牢性向上のための自己改善を解き放つ
+\`AI\` \`LLM\` \`Security\`
+
+<details>
+<summary>📄 原題: GPT-Red: Unlocking Self-Improvement for Robustness</summary>
+</details>
+
+> **一言で**: OpenAIが自己対戦でAIの堅牢性を高める自動レッドチームシステムを公開
+
+- GPT-Redは自己対戦（セルフプレイ）を使ってAIの脆弱性を自動で探索するシステム
+- AIの安全性・整合性・プロンプトインジェクション耐性の向上が目的
+- OpenAIが開発した自動レッドチーミング（攻撃的テスト）の仕組み
+- 人手に頼らず、AIが自らの弱点を発見して改善するアプローチを採用
+
+💡 **なぜ重要か**
+AIモデルへの悪意ある入力（プロンプトインジェクション）や意図しない挙動は、AI普及に伴う深刻なリスクです。従来のレッドチーミングは人間の専門家が手動で行うため、コストと時間がかかりました。自動化によってテストの規模と速度を大幅に上げられる点が注目されています。 AI安全性テストの自動化が進むことで、モデルのリリースサイクルが短縮できます。また、セキュリティ評価の標準化が業界全体に広がり、AIガバナンスの議論にも影響を与えると見られています。
+
+🎯 **今日のアクション**
+自社のAIシステムにプロンプトインジェクション対策が施されているか見直しましょう。GPT-Redのアプローチを参考に、自動化されたAI安全性テストの導入を検討する価値があります。
+
+🔗 [原文を読む](https://openai.com/index/unlocking-self-improvement-gpt-red)
+
+---
+
+## 🤖 あらゆるものをシミュレートする、ある意味で：ワールドモデルの可能性と限界
+\`AI\` \`LLM\` \`Science\`
+
+<details>
+<summary>📄 原題: Simulating everything, sort of: The promise and limits of world models</summary>
+</details>
+
+> **一言で**: ワールドモデルの可能性と限界を専門家が解説
+
+- ワールドモデル（世界の状態を内部でシミュレートするAI）への注目が高まっている
+- 専門家の見解では、できることと未解決の課題が混在する状況
+- 「すべてをシミュレートできる」という期待には、まだ大きな留保が必要
+- 技術の実態と誇張された期待のギャップが議論の焦点
+
+💡 **なぜ重要か**
+ワールドモデルは、AIが現実世界の物理法則や因果関係を学習し、未来の状態を予測・シミュレートする仕組みです。自動運転やロボティクス、汎用AIの実現に向けた重要な要素として注目されています。一方で、どこまで実用的かについては研究者の間でも意見が分かれており、過度な期待と現実のギャップが業界全体の課題になっています。 ワールドモデルの成熟度が明確になるにつれ、AIの応用範囲と投資判断に直接影響します。過大評価が是正されれば、より現実的な開発ロードマップが描けるようになり、長期的には信頼性の高いAIシステム構築につながると見られています。
+
+🎯 **今日のアクション**
+ワールドモデルを採用・評価する際は、専門家が指摘する限界を把握した上で、自社ユースケースへの適合性を慎重に検討することが重要です。誇張された宣伝文句ではなく、実証されたベンチマーク結果を判断基準にしましょう。
+
+🔗 [原文を読む](https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/)
+
+---
+
+## 🤖 GPT-Redを紹介：OpenAIがモデルの安全性向上のために開発したLLMスーパーハッカー
+\`AI\` \`LLM\` \`Security\`
+
+<details>
+<summary>📄 原題: Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer</summary>
+</details>
+
+> **一言で**: OpenAIがLLM同士の対戦でモデルを強化
+
+- OpenAIはGPT-Redというサイバー攻撃特化のLLMを開発
+- GPT-Redを「スパーリング相手」にGPT-5.6を訓練し、防御力を向上
+- GPT-5.6はOpenAI史上最もセキュリティが堅牢なモデルだそうです
+- GPT-Redはサイバー攻撃の試みを自動化する役割を担う
+
+💡 **なぜ重要か**
+AIモデルの悪用リスクが高まる中、リリース前に攻撃耐性を検証する「レッドチーミング（擬似攻撃テスト）」の重要性が増しています。従来は人間の専門家が担っていたこの作業を、LLM自身に自動化させる手法は新しいアプローチです。 AI同士が攻撃・防御を繰り返す自動化されたセキュリティ評価が業界標準になる可能性があります。人手によるレッドチーミングの限界を超え、より網羅的な脆弱性発見が期待できる一方、攻撃特化LLMの悪用リスクという新たな課題も生まれます。
+
+🎯 **今日のアクション**
+自社のAIシステムにレッドチーミングを導入する際、LLMを活用した自動化を検討する価値があります。またGPT-Redのような攻撃モデルの管理・隔離方法についても、セキュリティポリシーを今から整備しておくべきです。
+
+🔗 [原文を読む](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/)
+
+---
+
+## 🤖 特定時点の言語モデルのスケーリング
+\`AI\` \`LLM\` \`Data\`
+
+<details>
+<summary>📄 原題: Scaling Point-in-Time Language Models</summary>
+</details>
+
+> **一言で**: 未来情報を含まないLLMで金融分析の精度を高める
+
+- 一般的なLLMは未来のデータを学習に含むため、バックテストに「先読みバイアス」が生じる
+- Point-in-Time言語モデルは特定日時までの情報だけで学習し、このバイアスを根本から排除する
+- 金融・社会科学の因果推論やバックテスト（過去データ検証）の信頼性向上が期待される
+- 既存の同種モデルは最新モデルと比べて性能が大きく劣る課題があり、本研究はその克服を目指す
+
+💡 **なぜ重要か**
+AIを金融分析や経済研究に使う場面が増えています。しかし通常のLLMはインターネット上の膨大なテキストで学習するため、分析対象の時点より後の情報も混入します。これが「先読みバイアス」で、過去データを使った検証結果を歪める深刻な問題です。学術・実務の両面で信頼できる時系列分析を行うには、この問題の解決が不可欠です。 金融リスク管理や政策効果の検証など、時系列の厳密さが求められる分野でLLMの活用が広がる可能性があります。一方で、Point-in-Timeモデルの構築・維持にはデータ管理コストがかかるため、専門用途向けの新たなモデル提供サービスが生まれるかもしれません。
+
+🎯 **今日のアクション**
+金融系AIシステムを設計するエンジニアは、学習データの時点管理を設計段階から組み込むべきです。また既存システムで汎用LLMをバックテストに使っている場合は、先読みバイアスのリスクを改めて評価することをお勧めします。
+
+🔗 [原文を読む](https://arxiv.org/abs/2607.11889)
+
+---
+
+## 🤖 GitHub - xai-org/grok-build: SpaceXAIのコーディングエージェントハーネス＆TUI。フルスクリーン対応、マウス操作可能、拡張性あり。
+\`AI\` \`LLM\` \`OSS\`
+
+<details>
+<summary>📄 原題: GitHub - xai-org/grok-build: SpaceXAI&amp;#39;s coding agent harness and TUI. Fullscreen, mouse interactive, extensible.</summary>
+</details>
+
+> **一言で**: xAIがコーディングエージェント用TUIツールをOSSで公開
+
+- xAI（Elon Musk設立のAI企業）がGitHubで「grok-build」を公開
+- コーディングエージェント向けのハーネス（制御基盤）とTUI（テキストUI）を提供
+- フルスクリーン表示・マウス操作対応・拡張可能な設計
+- リポジトリ名は「xai-org」配下で、公式OSSとして位置づけられている
+
+💡 **なぜ重要か**
+LLMを使ったコーディングエージェントの普及が加速する中、エージェントを制御・操作するための開発者向けツールの需要が高まっています。xAIがこうしたインフラ層のツールをOSSとして公開したことは、開発者コミュニティへの積極的な関与を示すものと見られています。 コーディングエージェントの操作基盤がオープン化されることで、サードパーティによる拡張や統合が進みやすくなります。競合するOpenAIやAnthropicのエコシステムに対抗する形で、xAIが開発者取り込みを狙う動きとして注目されます。
+
+🎯 **今日のアクション**
+AIコーディングエージェントの導入を検討しているエンジニアは、grok-buildのリポジトリを確認し、自社ツールチェーンへの組み込み可能性を評価してみてください。拡張性を持つ設計のため、カスタマイズの余地も確認する価値があります。
+
+🔗 [原文を読む](https://github.com/xai-org/grok-build)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、AIシステムが外部からの人間の介入に依存するのではなく、自律的に自己を評価・改善するという方向性への注目である。OpenAIのレッドチームAIやGPT-Redに見られるように、AIが自分自身の弱点を発見し修正するループを内部化することで、安全性と堅牢性の向上を加速させようとする動きが業界全体で加速している。この流れはワールドモデルの議論とも深く連動しており、AIが現実世界の因果関係や環境のダイナミクスを内部的にシミュレートできるようになれば、自己改善や脆弱性探索の精度はさらに飛躍的に高まると期待される。一方でワールドモデルの限界に関する専門家の指摘が示すように、こうした自律的な自己評価・改善の仕組みがどこまで信頼できるのかという検証の難しさも同時に浮き彫りになっており、AIの自律性が高まるほどその評価基盤そのものの堅牢性が問われるという本質的なジレンマが業界の共通課題として浮上している。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成**: 自社のAI導入・開発において、安全性検証を人手だけに頼らず、自動化ツールや敵対的テスト手法の導入を検討してください。また、OpenAIのこの取り組みを参考に、セキュリティ評価の指標を数値化する仕組みを整えることが重要です。
+2. **GPT-Red：堅牢性向上のための自己改善を解き放つ**: 自社のAIシステムにプロンプトインジェクション対策が施されているか見直しましょう。GPT-Redのアプローチを参考に、自動化されたAI安全性テストの導入を検討する価値があります。
+3. **あらゆるものをシミュレートする、ある意味で：ワールドモデルの可能性と限界**: ワールドモデルを採用・評価する際は、専門家が指摘する限界を把握した上で、自社ユースケースへの適合性を慎重に検討することが重要です。誇張された宣伝文句ではなく、実証されたベンチマーク結果を判断基準にしましょう。
+
+---
+
+## 🔗 出典一覧
+- [OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成](https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/)
+- [GPT-Red：堅牢性向上のための自己改善を解き放つ](https://openai.com/index/unlocking-self-improvement-gpt-red)
+- [あらゆるものをシミュレートする、ある意味で：ワールドモデルの可能性と限界](https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/)
+- [GPT-Redを紹介：OpenAIがモデルの安全性向上のために開発したLLMスーパーハッカー](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/)
+- [特定時点の言語モデルのスケーリング](https://arxiv.org/abs/2607.11889)
+- [GitHub - xai-org/grok-build: SpaceXAIのコーディングエージェントハーネス＆TUI。フルスクリーン対応、マウス操作可能、拡張性あり。](https://github.com/xai-org/grok-build)`;
+const notesMd = `# Tech News Radio Show Notes - #107 (2026-07-16)
+
+## エピソード情報
+- **エピソード**: #107
+- **日付**: 2026-07-16
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [OpenAI is now using AI to attack its own AI, and it's working better than humans ever did](https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/)
+- [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)
+- [Simulating everything, sort of: The promise and limits of world models](https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/)
+
+### 注目の深掘り
+- [Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer](https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/)
+
+### 小ネタ・その他
+- [Scaling Point-in-Time Language Models](https://arxiv.org/abs/2607.11889)
+- [GitHub - xai-org/grok-build: SpaceXAI&#39;s coding agent harness and TUI. Fullscreen, mouse interactive, extensible.](https://github.com/xai-org/grok-build)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
