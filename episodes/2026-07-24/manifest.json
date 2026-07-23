@@ -1,0 +1,229 @@
+{
+  "date": "2026-07-24",
+  "episode_date_local": "2026-07-24",
+  "content_snapshot_date": "2026-07-24",
+  "show_length_sec": 802,
+  "audio_size": 77020844,
+  "generated_at": "2026-07-23T21:22:14.379517+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9fe46138",
+      "title": "Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs",
+      "title_ja": "Flux 3、最長20秒のネイティブ音声付き動画生成に対応——Black Forest Labs初の試み",
+      "one_liner": "Flux 3がネイティブ音声付き動画生成に初対応",
+      "fingerprint": "9fe46138334d7ac6f1b0dcf50be00aed",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-cbddb65e",
+      "title": "Native Multi-Dimensional Subquadratic Operators via Input Dependent Long Convolutions",
+      "title_ja": "入力依存型長距離畳み込みによるネイティブ多次元準二乗演算子",
+      "one_liner": "多次元データ向け準二乗演算子HyenaND登場",
+      "fingerprint": "cbddb65e65021c18827c79021141b2ba",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-bdb1e6f3",
+      "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+      "title_ja": "ジェフリーズがAIでフロントオフィスのトレーディング業務を最適化した方法",
+      "one_liner": "JefferiesがAIで証券トレーディング業務を効率化",
+      "fingerprint": "bdb1e6f30297c67cedc45dd88d4ebb17",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-c8cf9597",
+      "title": "Anthropic Investor in Talks to Fund New Lab Run By Two Stanford AI Professors",
+      "title_ja": "アンソロピックの投資家、スタンフォード大学のAI教授2人が設立する新研究所への出資を協議",
+      "one_liner": "Stanford教授発のAIスタートアップに1億ドル調達の動き",
+      "fingerprint": "c8cf9597f5f9a6ffe4011e612794c08d",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-76941554",
+      "title": "Evaluating AI Agents: A production blueprint with Strands and AgentCore",
+      "title_ja": "StrandsとAgentCoreを活用したAIエージェント評価：本番環境向け設計指針",
+      "one_liner": "AIエージェント評価パイプラインで誤答率を8分の1から50分の1に改善",
+      "fingerprint": "769415548794b6afc74028d1aa4d893f",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-3e926d13",
+      "title": "GitHub MCP Server supports the next MCP specification",
+      "title_ja": "GitHub MCPサーバー、次世代MCP仕様に対応",
+      "one_liner": "GitHub MCP ServerがMCPの次期仕様に先行対応",
+      "fingerprint": "3e926d13dba9b73bf562ceed189b0366",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b3e44eab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system"
+    },
+    {
+      "item_id": "item-a66a3124",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads"
+    },
+    {
+      "item_id": "item-12af02df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework"
+    },
+    {
+      "item_id": "item-eb0d3d05",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Go 1.27 から uuid 実装がサポートされる！ので個人的に気になった議論とその着地をまとめてみた"
+    },
+    {
+      "item_id": "item-385480f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How news organizations are using AI to advance their vital missions"
+    },
+    {
+      "item_id": "item-b0590f4e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ask Claude about the Anthropic Economic Index"
+    },
+    {
+      "item_id": "item-6a01c0b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agent automation controls in GitHub Issues in public preview"
+    },
+    {
+      "item_id": "item-4b1bbd3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Launching Health in ChatGPT"
+    },
+    {
+      "item_id": "item-b9b1cd83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot vs. raw API access: What are you actually paying for?"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-a3c04052",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Luke Kanies"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-e77950c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”"
+    },
+    {
+      "item_id": "item-e1c2292a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta’s New Feel-Good AI Ad Uses a Song About the World Ending"
+    },
+    {
+      "item_id": "item-8d990b7c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Patreon lays off 20% of its workforce"
+    },
+    {
+      "item_id": "item-21d164f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A cleaner route to purifying rare earth elements"
+    },
+    {
+      "item_id": "item-c1c5cc61",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SK Hynix Billionaire to Get Long-Awaited Ruling on Divorce Case"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-24/blog.md",
+    "show_notes_path": "out/2026-07-24/show_notes.md",
+    "script_path": "out/2026-07-24/script_2hosts.md",
+    "audio_path": "out/2026-07-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-24/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-24/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26675,
+        "output_tokens": 9039,
+        "cost_usd": 0.07187
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37621,
+        "output_tokens": 8085,
+        "cost_usd": 0.234138
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4435,
+        "cost_usd": 0.053219999999999996
+      }
+    ],
+    "total_cost_usd": 0.359228
+  }
+}

@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#115 Flux 3、最長20秒のネイティブ音声付き動画生成に対応——Black Forest Labs初の試み ほか</title>
+      <description>Tech News Radio Show Notes - #115 (2026-07-24)
+
+エピソード情報
+• エピソード: #115
+• 日付: 2026-07-24
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs (https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/)
+• Native Multi-Dimensional Subquadratic Operators via Input Dependent Long Convolutions (https://arxiv.org/abs/2607.19378)
+• Building trade assistant: How Jefferies optimized front office trading operations with AI (https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/)
+
+注目の深掘り
+• Anthropic Investor in Talks to Fund New Lab Run By Two Stanford AI Professors (https://www.theinformation.com/articles/anthropic-investor-talks-fund-new-lab-run-two-stanford-ai-professors)
+
+小ネタ・その他
+• Evaluating AI Agents: A production blueprint with Strands and AgentCore (https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/)
+• Evaluating AI Agents: A production blueprint with Strands and AgentCore (https://www.theinformation.com/articles/ai-trading-agents-robinhood)
+• GitHub MCP Server supports the next MCP specification (https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-24/episode_audio.mp3" length="77020844" type="audio/mpeg" />
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-07-24</guid>
+      <itunes:duration>13:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Flux 3、最長20秒のネイティブ音声付き動画生成に対応——Black Forest Labs初の試み ほか</itunes:title>
+      <itunes:episode>115</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #115 (2026-07-24)
+
+エピソード情報
+• エピソード: #115
+• 日付: 2026-07-24
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs (https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/)
+• Native Multi-Dimensional Subquadratic Operators via Input Dependent Long Convolutions (https://arxiv.org/abs/2607.19378)
+• Building trade assistant: How Jefferies optimized front office trading operations with AI (https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/)
+
+注目の深掘り
+• Anthropic Investor in Talks to Fund New Lab Run By Two Stanford AI Professors (https://www.theinformation.com/articles/anthropic-investor-talks-fund-new-lab-run-two-stanford-ai-professors)
+
+小ネタ・その他
+• Evaluating AI Agents: A production blueprint with Strands and AgentCore (https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/)
+• Evaluating AI Agents: A production blueprint with Strands and AgentCore (https://www.theinformation.com/articles/ai-trading-agents-robinhood)
+• GitHub MCP Server supports the next MCP specification (https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-07-24/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-24/eyecatch.webp" />
+    </item>
+    <item>
       <title>#114 NASAの新宇宙望遠鏡とOpenAIの自律型ハッカー ほか</title>
       <description>Tech News Radio Show Notes - #114 (2026-07-23)
 
