@@ -1,0 +1,48 @@
+name: Deploy site to GitHub Pages
+
+# tech_brief_publish のサイト内容(main ルート)を GitHub Actions 経由で
+# GitHub Pages にデプロイする。レガシー(ブランチ配信 = Jekyll 自動ビルド)の
+# 不透明なハング/失敗を避け、ログ・Re-run・タイムアウト検知を可能にする。
+#
+# このファイルはパイプライン(daily-pipeline.yml の deploy ジョブ)がサイトを
+# 差し替える際に .github/ ごと温存される前提。DEPLOY_TOKEN に workflow スコープが
+# 無くても、ファイルが変更されない限り push は通る。
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同時デプロイは1つに絞るが、進行中のデプロイはキャンセルしない
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # リポジトリのルートをそのまま配信対象にする。
+      # upload-pages-artifact は .git / .github を自動除外するため安全。
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
