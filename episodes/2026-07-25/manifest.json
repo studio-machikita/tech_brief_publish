@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-25",
+  "episode_date_local": "2026-07-25",
+  "content_snapshot_date": "2026-07-25",
+  "show_length_sec": 798,
+  "audio_size": 76640684,
+  "generated_at": "2026-07-24T21:21:25.020894+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2cdacaec",
+      "title": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+      "title_ja": "AlphaFold AIを活用し、遺伝子編集タンパク質をより安全に再設計することにチームが成功",
+      "one_liner": "AlphaFoldでゲノム編集タンパク質を安全に再設計",
+      "fingerprint": "2cdacaeca893fd43ff0ce06de40eddec",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-64ff3dcc",
+      "title": "The quest to keep organs alive outside the body",
+      "title_ja": "体外で臓器を生き続けさせる挑戦",
+      "one_liner": "臓器を体外で長期保存する技術の最前線",
+      "fingerprint": "64ff3dcc188825398713247889372cf8",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-40c544d1",
+      "title": "April 03, 2026",
+      "title_ja": "Gemma 4とRAG Engineのサーバーレスが公開",
+      "one_liner": "Gemma 4とRAG Engineのサーバーレスが公開",
+      "fingerprint": "40c544d12195f81542e2eb7310a8bdc9",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-302f68d8",
+      "title": "DataPrep-Bench: Benchmarking LLMs as Training Data Preparators",
+      "title_ja": "DataPrep-Bench: 学習データ準備者としてのLLMのベンチマーク評価",
+      "one_liner": "LLMの学習データ準備能力を測る統一ベンチマーク登場",
+      "fingerprint": "302f68d85928440d7427778238d9127c",
+      "score": 73,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-f5794fe1",
+      "title": "Postgres LISTEN/NOTIFY Actually Scales | DBOS",
+      "title_ja": "PostgresのLISTEN/NOTIFYは実際にスケールする | DBOS",
+      "one_liner": "PostgreSQLのLISTEN/NOTIFYはスケールする",
+      "fingerprint": "f5794fe1d023ec58968b58d3b1e37941",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-f20f3f99",
+      "title": "Claude Opus 5 is now available in GitHub Copilot",
+      "title_ja": "Claude Opus 5がGitHub Copilotで利用可能に",
+      "one_liner": "Claude Opus 5がGitHub Copilotで利用可能に",
+      "fingerprint": "f20f3f998945c7f7c3179d973fef70c0",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-6b713dbc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 14, 2026"
+    },
+    {
+      "item_id": "item-491a66e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model"
+    },
+    {
+      "item_id": "item-22918380",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft's open-weight AI push is so obviously an Azure play it hurts"
+    },
+    {
+      "item_id": "item-0dcb22a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics"
+    },
+    {
+      "item_id": "item-29dae5e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces"
+    },
+    {
+      "item_id": "item-62a2e4d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build an explainable next-best-product recommendation system for banking on AWS"
+    },
+    {
+      "item_id": "item-b9b1cd83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot vs. raw API access: What are you actually paying for?"
+    },
+    {
+      "item_id": "item-493667fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ターミナルを自作したら、1日のコミット数が500を超えて、生産性がバグった話"
+    },
+    {
+      "item_id": "item-6a01c0b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agent automation controls in GitHub Issues in public preview"
+    },
+    {
+      "item_id": "item-385480f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How news organizations are using AI to advance their vital missions"
+    },
+    {
+      "item_id": "item-b0590f4e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ask Claude about the Anthropic Economic Index"
+    },
+    {
+      "item_id": "item-4b1bbd3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Launching Health in ChatGPT"
+    },
+    {
+      "item_id": "item-995fadb9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "IBM Cuts Revenue Target as AI Eats Into Its Sales"
+    },
+    {
+      "item_id": "item-ede92d8d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Waymo reportedly mulling a breakup with Uber"
+    },
+    {
+      "item_id": "item-5d6b5ff4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How I got into YC by hacking it"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-e36b9dc1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CFTC Warns Prediction Markets Over Blanket Self-Certifications"
+    },
+    {
+      "item_id": "item-7f501e59",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chinese Companies Are Selling Vapes With Chemicals Potentially More Potent Than Nicotine"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-25/blog.md",
+    "show_notes_path": "out/2026-07-25/show_notes.md",
+    "script_path": "out/2026-07-25/script_2hosts.md",
+    "audio_path": "out/2026-07-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26456,
+        "output_tokens": 8677,
+        "cost_usd": 0.069841
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37170,
+        "output_tokens": 7581,
+        "cost_usd": 0.225225
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4367,
+        "cost_usd": 0.052404000000000006
+      }
+    ],
+    "total_cost_usd": 0.34747
+  }
+}
