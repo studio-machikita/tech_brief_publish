@@ -25,6 +25,71 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#117 Opus 5、AIエージェントを悩ます最大のセキュリティ欠陥「ブラウザベースのプロンプトインジェクション」を解決か ほか</title>
+      <description>Tech News Radio Show Notes - #117 (2026-07-26)
+
+エピソード情報
+• エピソード: #117
+• 日付: 2026-07-26
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents (https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/)
+• Introducing Claude Opus 5 (https://www.anthropic.com/news/claude-opus-5)
+• Introducing Claude Opus 5 (https://www.anthropic.com/news/claude-sonnet-5)
+• Introducing Claude Opus 5 (https://www.anthropic.com/news/claude-for-teachers)
+• Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model (https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/)
+
+注目の深掘り
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+
+小ネタ・その他
+• The Download: an organ transplant breakthrough, and homegrown Chinese chips (https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/)
+• DeepSeek Said to Tell Backers of Funding Pause After Viral Posts (https://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-26/episode_audio.mp3" length="75410924" type="audio/mpeg" />
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-07-26</guid>
+      <itunes:duration>13:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Opus 5、AIエージェントを悩ます最大のセキュリティ欠陥「ブラウザベースのプロンプトインジェクション」を解決か ほか</itunes:title>
+      <itunes:episode>117</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #117 (2026-07-26)
+
+エピソード情報
+• エピソード: #117
+• 日付: 2026-07-26
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents (https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/)
+• Introducing Claude Opus 5 (https://www.anthropic.com/news/claude-opus-5)
+• Introducing Claude Opus 5 (https://www.anthropic.com/news/claude-sonnet-5)
+• Introducing Claude Opus 5 (https://www.anthropic.com/news/claude-for-teachers)
+• Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model (https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/)
+
+注目の深掘り
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+
+小ネタ・その他
+• The Download: an organ transplant breakthrough, and homegrown Chinese chips (https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/)
+• DeepSeek Said to Tell Backers of Funding Pause After Viral Posts (https://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-07-26/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-26/eyecatch.webp" />
+    </item>
+    <item>
       <title>#116 AlphaFold AIを活用し、遺伝子編集タンパク質をより安全に再設計することにチームが成功 ほか</title>
       <description>Tech News Radio Show Notes - #116 (2026-07-25)
 

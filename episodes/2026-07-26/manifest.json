@@ -1,0 +1,230 @@
+{
+  "date": "2026-07-26",
+  "episode_date_local": "2026-07-26",
+  "content_snapshot_date": "2026-07-26",
+  "show_length_sec": 785,
+  "audio_size": 75410924,
+  "generated_at": "2026-07-25T21:09:16.647138+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-878ebba6",
+      "title": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
+      "title_ja": "Opus 5、AIエージェントを悩ます最大のセキュリティ欠陥「ブラウザベースのプロンプトインジェクション」を解決か",
+      "one_liner": "Opus 5がブラウザAIのプロンプト注入を完全防御",
+      "fingerprint": "878ebba6ba3306ff2153a38454d10051",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6a65aefb",
+      "title": "Introducing Claude Opus 5",
+      "title_ja": "Claude Opus 5 を発表",
+      "one_liner": "AnthropicがClaude Opus 5を発表、エージェント性能が大幅向上",
+      "fingerprint": "6a65aefb0fec1ba76f54cd7c460b8639",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News",
+        "Anthropic News",
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-491a66e5",
+      "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
+      "title_ja": "AWS上でClaude Opus 5を発表：AnthropicのOpusシリーズ最高性能モデル",
+      "one_liner": "AnthropicがAWS上でClaude Opus 5を公開",
+      "fingerprint": "491a66e51d744a56c477742ac2189a6a",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6b713dbc",
+      "title": "April 14, 2026",
+      "title_ja": "Claude Opus 4.7がVertex AIのModel Gardenで利用可能に",
+      "one_liner": "Claude Opus 4.7がVertex AIのModel Gardenで利用可能に",
+      "fingerprint": "6b713dbcfea41cd4ace67198536ba7e0",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-9aba3eaa",
+      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "title_ja": "ダウンロード：臓器移植の画期的進歩と中国国産チップ",
+      "one_liner": "超冷却腎臓の移植成功と中国製チップの台頭",
+      "fingerprint": "9aba3eaab549b43174ffc3c37a74fb6a",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-4b941c9d",
+      "title": "DeepSeek Said to Tell Backers of Funding Pause After Viral Posts",
+      "title_ja": "DeepSeek、バイラル投稿後に資金調達を一時停止と支援者に通知か",
+      "one_liner": "DeepSeekが第2回資金調達ラウンドを一時停止",
+      "fingerprint": "4b941c9d531ab846a63ab4a80d8f55ff",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f14fdba3",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術ニュースサイト「The Decoder」から引用されており、具体的な詳細（7日間の検出遅延、FBI関与など）を含んでいますが、2026年7月という未来の日付設定と、AIモデルが独立して外部ネットワークをハッキングしたという極めて非現実的なシナリオが風刺またはフィクションの可能性を示唆しています。",
+      "title": "New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face"
+    },
+    {
+      "item_id": "item-62a2e4d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build an explainable next-best-product recommendation system for banking on AWS"
+    },
+    {
+      "item_id": "item-7a9b5081",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Copilot usage metrics impact dashboard"
+    },
+    {
+      "item_id": "item-b9b1cd83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot vs. raw API access: What are you actually paying for?"
+    },
+    {
+      "item_id": "item-6a01c0b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agent automation controls in GitHub Issues in public preview"
+    },
+    {
+      "item_id": "item-4b1bbd3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Launching Health in ChatGPT"
+    },
+    {
+      "item_id": "item-f757fccc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AlphaSense Tops $700 Million in Annual Recurring Revenue, Takes IPO Steps"
+    },
+    {
+      "item_id": "item-0737583c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Canadian legislator reads out apparent LLM response in floor speech"
+    },
+    {
+      "item_id": "item-385480f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How news organizations are using AI to advance their vital missions"
+    },
+    {
+      "item_id": "item-96d8905b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI firms want more data centers; Trump's EPA may give neighbors less say"
+    },
+    {
+      "item_id": "item-44a6be19",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - lucid-fabrics/proxmox-bluetooth: Bluetooth in your Proxmox Linux VMs, finally. Pair controllers inside ChimeraOS/Bazzite/any Linux guest, even with Intel chips that can&#39;t be passed through."
+    },
+    {
+      "item_id": "item-f185d633",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "クオンツはテクニカル分析を寄与度分解の中で見ている"
+    },
+    {
+      "item_id": "item-b12b77db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flexible renewable ammonia demonstrator now operational in Minnesota"
+    },
+    {
+      "item_id": "item-2d7838a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The hacker who humiliated spyware makers and was never caught"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-779e09d0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Warner Bros. lawsuit accuses Amazon of illegally poaching executives"
+    },
+    {
+      "item_id": "item-4c548302",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cricut Explore 5 vs. Siser Romeo: Choosing the Right Smart Cutting Machine (2026)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-26/blog.md",
+    "show_notes_path": "out/2026-07-26/show_notes.md",
+    "script_path": "out/2026-07-26/script_2hosts.md",
+    "audio_path": "out/2026-07-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 26611,
+        "output_tokens": 8971,
+        "cost_usd": 0.071466
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 36848,
+        "output_tokens": 7574,
+        "cost_usd": 0.224154
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4359,
+        "cost_usd": 0.052308
+      }
+    ],
+    "total_cost_usd": 0.347928
+  }
+}
