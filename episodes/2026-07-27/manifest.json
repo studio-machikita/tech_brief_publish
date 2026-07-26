@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-27",
+  "episode_date_local": "2026-07-27",
+  "content_snapshot_date": "2026-07-27",
+  "show_length_sec": 804,
+  "audio_size": 77226284,
+  "generated_at": "2026-07-26T21:13:15.621924+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-c9a5e4ff",
+      "title": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+      "title_ja": "フロンティアモデルが計画を立てれば、大半のコーディングは安価なモデルで対応可能――CursorのAIエージェント群が示す",
+      "one_liner": "上位モデルが設計し、安価なモデルが実装する分業AIが実現",
+      "fingerprint": "c9a5e4ff425a2f2c839719bbfd82539a",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-7b8cb63a",
+      "title": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+      "title_ja": "AnthropicのOpus 5、真の知性を測るベンチマークでFable 5とGPT-5.6 Solを大幅に上回る",
+      "one_liner": "Claude Opus 5がAGI測定ベンチマークで圧倒的首位",
+      "fingerprint": "7b8cb63a666d666677f3f6d6012b23de",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-62a2e4d6",
+      "title": "Build an explainable next-best-product recommendation system for banking on AWS",
+      "title_ja": "AWSを活用した銀行向け説明可能な次世代最適商品レコメンデーションシステムの構築",
+      "one_liner": "銀行向け説明可能なAIレコメンドをAWSで構築",
+      "fingerprint": "62a2e4d6b9de308aa138b7193138d8e5",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-385480f6",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "title_ja": "ニュース機関はAIをどのように活用して重要な使命を推進しているか",
+      "one_liner": "報道機関がOpenAI製品でAI活用を加速",
+      "fingerprint": "385480f633150d512b8b392d432a9ac6",
+      "score": 59,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-6a01c0b0",
+      "title": "Agent automation controls in GitHub Issues in public preview",
+      "title_ja": "GitHubイシューにおけるエージェント自動化コントロールがパブリックプレビューに",
+      "one_liner": "GitHub IssuesにAI操作の透明性と承認機能が追加",
+      "fingerprint": "6a01c0b012f9caf3f8cb790cd1655db6",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-b9b1cd83",
+      "title": "Copilot vs. raw API access: What are you actually paying for?",
+      "title_ja": "CopilotとAPIの直接利用：あなたは実際に何に対してお金を払っているのか？",
+      "one_liner": "CopilotとAPIの直接利用、コストと価値の違いを比較",
+      "fingerprint": "b9b1cd8303559b819900bdb029417662",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-ebb72085",
+      "reason": "LINK_ONLY: Source classified as joke: GPT-5.6のバージョン番号、Sol/Terra/Lunaという架空の惑星名モデル、bedrock-mantleエンドポイント、OpenAI Codexの現在の状態との矛盾など、複数の非現実的な要素が組み合わされており、2026年7月という未来日付も含めてエイプリルフール風のジョーク記事と判定される。",
+      "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock"
+    },
+    {
+      "item_id": "item-7a9b5081",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Copilot usage metrics impact dashboard"
+    },
+    {
+      "item_id": "item-c731fdf9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Making sense of the panic over Chinese AI"
+    },
+    {
+      "item_id": "item-1e25730e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Opus5が思考が浅いように感じる問題への対策"
+    },
+    {
+      "item_id": "item-b0590f4e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ask Claude about the Anthropic Economic Index"
+    },
+    {
+      "item_id": "item-a19c1a11",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS"
+    },
+    {
+      "item_id": "item-4b1bbd3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Launching Health in ChatGPT"
+    },
+    {
+      "item_id": "item-3510bfc4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intel Shares Jump 12% After Second Quarter Report Shows It Generated $4.5 Billion in Cash"
+    },
+    {
+      "item_id": "item-0737583c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Canadian legislator reads out apparent LLM response in floor speech"
+    },
+    {
+      "item_id": "item-96d8905b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI firms want more data centers; Trump's EPA may give neighbors less say"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-12e560f3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to Block Some of the Bots"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-dc39811a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "European SpaceX Rival in Talks to Raise $300 Million, FT Reports"
+    },
+    {
+      "item_id": "item-f11d1b2a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inside one London founder house rewriting the founder-house rules"
+    },
+    {
+      "item_id": "item-e77950c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”"
+    },
+    {
+      "item_id": "item-0bb8e4f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Backpacking Sleeping Pads, Tested on the Trail (2026)"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-27/blog.md",
+    "show_notes_path": "out/2026-07-27/show_notes.md",
+    "script_path": "out/2026-07-27/script_2hosts.md",
+    "audio_path": "out/2026-07-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 26754,
+        "output_tokens": 8880,
+        "cost_usd": 0.071154
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37030,
+        "output_tokens": 7594,
+        "cost_usd": 0.225
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4252,
+        "cost_usd": 0.051024
+      }
+    ],
+    "total_cost_usd": 0.347178
+  }
+}
