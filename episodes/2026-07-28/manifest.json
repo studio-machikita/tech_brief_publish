@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-28",
+  "episode_date_local": "2026-07-28",
+  "content_snapshot_date": "2026-07-28",
+  "show_length_sec": 794,
+  "audio_size": 76286444,
+  "generated_at": "2026-07-27T21:28:55.334458+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d969e12a",
+      "title": "Thea Energy lands $20M federal grant to build its magnets for fusion reactors",
+      "title_ja": "Thea Energy、核融合炉用磁石開発に向け2000万ドルの連邦補助金を獲得",
+      "one_liner": "Thea EnergyがARPA-Eから20億円超の助成金を獲得",
+      "fingerprint": "d969e12acbb40ac288e00a70e2ad237c",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-b9c13727",
+      "title": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS",
+      "title_ja": "RAGを超えて：AWS上のエンタープライズAIにおけるタスク認識型知識圧縮",
+      "one_liner": "RAGを超えるタスク特化型知識圧縮をAWSで実現",
+      "fingerprint": "b9c1372775a9e37bc380093b0295dbd9",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-1478d899",
+      "title": "Cloud-Native Evaluation-as-a-Service: A Microservices Architecture for Scalable AI Monitoring with Conformal Guarantees",
+      "title_ja": "クラウドネイティブな評価サービス基盤：スケーラブルなAIモニタリングのためのコンフォーマル保証付きマイクロサービスアーキテクチャ",
+      "one_liner": "AIモニタリングをマイクロサービス化する参照アーキテクチャ「EaaS」登場",
+      "fingerprint": "1478d899237e85a20a14aecad5c75729",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-af725c4d",
+      "title": "How AI is expanding what people do at work",
+      "title_ja": "AIが職場での仕事の幅を広げている",
+      "one_liner": "AIが職務の境界を溶かし、仕事の範囲を拡張",
+      "fingerprint": "af725c4d9a82c4b07b00d5020694c1f6",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-4c06ee4e",
+      "title": "Python Standalone Builds &#8212; python-build",
+      "title_ja": "Pythonスタンドアロンビルド — python-build",
+      "one_liner": "Pythonをどこでも動く単体配布物として提供するプロジェクト",
+      "fingerprint": "4c06ee4e29dca8c73345a62bffdb85f6",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-e1e3f779",
+      "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+      "title_ja": "CognizantとAnthropicが提携を拡大し、法人顧客にClaudeを提供へ",
+      "one_liner": "CognizantとAnthropicがエンタープライズ向けClaude活用で提携拡大",
+      "fingerprint": "e1e3f77948f912f5f4e903a1f240c7a7",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f5fafb64",
+      "reason": "LINK_ONLY: Source intent uncertain: The Information は信頼できるテック系メディアですが、$500 billion という極めて大規模な金額の「パートナーシップ」という表現が曖昧であり、実際の投資額・契約内容の詳細がスニペットに記載されていないため、事実確認が困難です。",
+      "title": "Nvidia Forms $500 Billion AI ‘Partnership’ With Memory Chip Giant SK"
+    },
+    {
+      "item_id": "item-455821d7",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事は技術ニュースの形式を取っていますが、「Fable 5」「GPT-5.6 Sol」といった架空のモデル名が含まれており、2026年7月という未来の日付設定も相まって、実在するニュースか創作かの判断が困難です。The Decoderは実在するテック媒体ですが、このスニペットの内容の真正性は確認できません。",
+      "title": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race"
+    },
+    {
+      "item_id": "item-6d96e703",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deepgram enhances Amazon SageMaker AI support with AWS IAM Temporary Delegation"
+    },
+    {
+      "item_id": "item-8cff2b57",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "1日500コミットは、もう読めない ── だからコードレビューをやめた"
+    },
+    {
+      "item_id": "item-24b288e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The harness is all you need (mostly)"
+    },
+    {
+      "item_id": "item-7a9b5081",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Copilot usage metrics impact dashboard"
+    },
+    {
+      "item_id": "item-75e67f40",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Getting started"
+    },
+    {
+      "item_id": "item-048af417",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before."
+    },
+    {
+      "item_id": "item-18bdbe5e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Satya Nadella says companies that trust one AI for everything may not survive"
+    },
+    {
+      "item_id": "item-0737583c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Canadian legislator reads out apparent LLM response in floor speech"
+    },
+    {
+      "item_id": "item-c45f62ce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization"
+    },
+    {
+      "item_id": "item-4b1bbd3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Launching Health in ChatGPT"
+    },
+    {
+      "item_id": "item-0602af91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Firefighting Technologies Could Help Battle Blazes Like Those in France and Spain"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-283af767",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Home | Rise Reforming"
+    },
+    {
+      "item_id": "item-caf2115e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lenders to Distressed Cloud Tech Firm Dye & Durham Tap Advisers"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-28/blog.md",
+    "show_notes_path": "out/2026-07-28/show_notes.md",
+    "script_path": "out/2026-07-28/script_2hosts.md",
+    "audio_path": "out/2026-07-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 38,
+        "input_tokens": 27042,
+        "output_tokens": 9453,
+        "cost_usd": 0.074307
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 19,
+        "input_tokens": 37292,
+        "output_tokens": 7791,
+        "cost_usd": 0.228741
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4310,
+        "cost_usd": 0.051719999999999995
+      }
+    ],
+    "total_cost_usd": 0.354768
+  }
+}

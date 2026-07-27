@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#119 Thea Energy、核融合炉用磁石開発に向け2000万ドルの連邦補助金を獲得 ほか</title>
+      <description>Tech News Radio Show Notes - #119 (2026-07-28)
+
+エピソード情報
+• エピソード: #119
+• 日付: 2026-07-28
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Thea Energy lands $20M federal grant to build its magnets for fusion reactors (https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/)
+• Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS (https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws/)
+• Cloud-Native Evaluation-as-a-Service: A Microservices Architecture for Scalable AI Monitoring with Conformal Guarantees (https://arxiv.org/abs/2607.21623)
+
+注目の深掘り
+• How AI is expanding what people do at work (https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)
+
+小ネタ・その他
+• Python Standalone Builds &amp;#8212; python-build (https://gregoryszorc.com/docs/python-build-standalone/main/)
+• Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients (https://www.anthropic.com/news/cognizant-anthropic)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-28/episode_audio.mp3" length="76286444" type="audio/mpeg" />
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-07-28</guid>
+      <itunes:duration>13:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Thea Energy、核融合炉用磁石開発に向け2000万ドルの連邦補助金を獲得 ほか</itunes:title>
+      <itunes:episode>119</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #119 (2026-07-28)
+
+エピソード情報
+• エピソード: #119
+• 日付: 2026-07-28
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Thea Energy lands $20M federal grant to build its magnets for fusion reactors (https://techcrunch.com/2026/07/27/thea-energy-lands-20m-federal-grant-to-build-its-magnets-for-fusion-reactors/)
+• Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS (https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws/)
+• Cloud-Native Evaluation-as-a-Service: A Microservices Architecture for Scalable AI Monitoring with Conformal Guarantees (https://arxiv.org/abs/2607.21623)
+
+注目の深掘り
+• How AI is expanding what people do at work (https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)
+
+小ネタ・その他
+• Python Standalone Builds &amp;#8212; python-build (https://gregoryszorc.com/docs/python-build-standalone/main/)
+• Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients (https://www.anthropic.com/news/cognizant-anthropic)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-07-28/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-28/eyecatch.webp" />
+    </item>
+    <item>
       <title>#118 フロンティアモデルが計画を立てれば、大半のコーディングは安価なモデルで対応可能――CursorのAIエージェント群が示す ほか</title>
       <description>Tech News Radio Show Notes - #118 (2026-07-27)
 
