@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-29",
+  "episode_date_local": "2026-07-29",
+  "content_snapshot_date": "2026-07-29",
+  "show_length_sec": 906,
+  "audio_size": 87066284,
+  "generated_at": "2026-07-28T21:23:49.132110+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-c8f120c1",
+      "title": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
+      "title_ja": "AnthropicのMythosモデル、インターネットを守る暗号アルゴリズムの脆弱性を発見",
+      "one_liner": "AIが暗号アルゴリズムの脆弱性を自力で発見",
+      "fingerprint": "c8f120c1e1b199c9c7c075feffbb55b6",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-345a80e2",
+      "title": "【速報】Kimi-K3 を Day0 デプロイ。2.8T モデルは NVIDIA B300 x8 の 1 ノードで動くのか",
+      "title_ja": "【速報】Kimi-K3 を Day0 デプロイ。2.8T モデルは NVIDIA B300 x8 の 1 ノードで動くのか",
+      "one_liner": "史上最大級OSSモデルをB300×8の1ノードで当日検証",
+      "fingerprint": "345a80e2805682d9d3a2b4b5017651b8",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-33f3599f",
+      "title": "Scientific computing in the age of agentic AI",
+      "title_ja": "エージェントAI時代の科学的コンピューティング",
+      "one_liner": "AIエージェントが科学計算の開発を加速",
+      "fingerprint": "33f3599f065ba2dbafa10aebde0f2161",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-89c1668f",
+      "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+      "title_ja": "拡散モデルを用いた概念ベースの視覚的反事実説明",
+      "one_liner": "拡散モデルで視覚的反事実説明を改善する新手法",
+      "fingerprint": "89c1668fedbf0f3ee2f9ddf9739addd9",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-3d72e9cc",
+      "title": "Grok 4.5 is now available in GitHub Copilot",
+      "title_ja": "Grok 4.5がGitHub Copilotで利用可能に",
+      "one_liner": "Grok 4.5がGitHub Copilotで利用可能に",
+      "fingerprint": "3d72e9cc963458393656a31e3b5906e3",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-63b09683",
+      "title": "Rescued by the AI Boom, Japan’s Kioxia Faces a Capex Race",
+      "title_ja": "AIブームに救われた日本のキオクシア、設備投資競争に直面",
+      "one_liner": "Kioxiaは需給逼迫の恩恵を超えた成長を問われている",
+      "fingerprint": "63b09683fd843563bfef4fe5c40b8d41",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-66801671",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia to Invest $1 Billion in South Korea’s Naver for AI Data Center Expansion"
+    },
+    {
+      "item_id": "item-5fd722e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B"
+    },
+    {
+      "item_id": "item-f11b20e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our position on open-weights models"
+    },
+    {
+      "item_id": "item-d4ff7276",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms"
+    },
+    {
+      "item_id": "item-75e67f40",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Getting started"
+    },
+    {
+      "item_id": "item-7af78501",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Market surveillance agent with LangGraph and Strands on AgentCore"
+    },
+    {
+      "item_id": "item-351b6bcf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The 2026-07-28 Specification"
+    },
+    {
+      "item_id": "item-6d96e703",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deepgram enhances Amazon SageMaker AI support with AWS IAM Temporary Delegation"
+    },
+    {
+      "item_id": "item-f1b82d07",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management"
+    },
+    {
+      "item_id": "item-24b288e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The harness is all you need (mostly)"
+    },
+    {
+      "item_id": "item-8528b9bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: OpenAI’s predictable hack, and an AI stock sell-off"
+    },
+    {
+      "item_id": "item-11f14959",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Explaining GAND: A Resource on Gender-Ambiguous Natural Data & Contrastive Attribution"
+    },
+    {
+      "item_id": "item-4b1bbd3e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Launching Health in ChatGPT"
+    },
+    {
+      "item_id": "item-e7d364d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - openai/codex-security: SDKs and CLI for Codex Security"
+    },
+    {
+      "item_id": "item-1089045b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MCP startup Runlayer accuses Rippling of stealing its product idea"
+    },
+    {
+      "item_id": "item-f178f659",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A research agenda for the Economic Futures Research Fund"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-8917b595",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ebay Has to Pay $55.7 Million in Settlement for Its Unhinged Harassment Campaign"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-29/blog.md",
+    "show_notes_path": "out/2026-07-29/show_notes.md",
+    "script_path": "out/2026-07-29/script_2hosts.md",
+    "audio_path": "out/2026-07-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 36,
+        "input_tokens": 26804,
+        "output_tokens": 9572,
+        "cost_usd": 0.074664
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37501,
+        "output_tokens": 8559,
+        "cost_usd": 0.240888
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4995,
+        "cost_usd": 0.05994000000000001
+      }
+    ],
+    "total_cost_usd": 0.375492
+  }
+}
