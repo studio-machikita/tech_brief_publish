@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-30",
+  "episode_date_local": "2026-07-30",
+  "content_snapshot_date": "2026-07-30",
+  "show_length_sec": 803,
+  "audio_size": 77106284,
+  "generated_at": "2026-07-29T21:11:45.398648+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-dfd800d3",
+      "title": "Google's Lyria 3.5 music model now lets users edit individual track sections without starting over",
+      "title_ja": "Googleの音楽AIモデル「Lyria 3.5」、曲の特定セクションを最初からやり直さずに編集可能に",
+      "one_liner": "GoogleがLyria 3.5で部分編集機能を追加",
+      "fingerprint": "dfd800d38a67964ab6dcb6ee74e04734",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-75797208",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "title_ja": "GPT-5.6が最先端の知性と効率性を融合させる仕組み",
+      "one_liner": "GPT-5.6がAIの費用対効果を大幅に向上",
+      "fingerprint": "75797208210aa6b83ff8ce8231087651",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-a2466b40",
+      "title": "Generate Autonomous Business Insights with AI Agent and MCP Servers",
+      "title_ja": "AIエージェントとMCPサーバーで自律的なビジネスインサイトを自動生成",
+      "one_liner": "AIエージェントがコード不要で複数システムを横断分析",
+      "fingerprint": "a2466b40784aa79bd4f372d8e8aa61e4",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-5fd722e4",
+      "title": "Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B",
+      "title_ja": "Semalith v1.4：Llama-Guard-3-8Bの44分の1のパラメータ数で最先端のプロンプトインジェクション検出を実現する、較正済み1億8400万パラメータの安全性分類器",
+      "one_liner": "184Mパラメータで最先端の安全分類を実現",
+      "fingerprint": "5fd722e4ed58dc231a9d42e4df09b2a2",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-f2ab52c7",
+      "title": "OpenTelemetry初心者がCollectorの中身を全部分解して理解してみた",
+      "title_ja": "OpenTelemetry初心者がCollectorの中身を全部分解して理解してみた",
+      "one_liner": "OpenTelemetry CollectorのパイプラインをKubernetesで徹底解剖",
+      "fingerprint": "f2ab52c7369fb3a59ccf30cd086f48ee",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-f3681283",
+      "title": "Default model enablement for Copilot Business and Enterprise",
+      "title_ja": "Copilotビジネスおよびエンタープライズ向けデフォルトモデルの有効化",
+      "one_liner": "Copilotの新モデルが管理者操作なしで自動有効化",
+      "fingerprint": "f36812834b909b1f57f880c7047179c0",
+      "score": 63,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f11b20e5",
+      "reason": "LINK_ONLY: Source intent uncertain: 記事タイトルは「open-weights models」についての立場表明を示唆しているが、スニペットはClaude Codeの市場支配とコスト問題に関する市場分析に見えます。タイトルとスニペットの内容が一致していないため、実際の記事内容を確認なしに判定が困難です。",
+      "title": "Our position on open-weights models"
+    },
+    {
+      "item_id": "item-13570c7f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 06, 2026"
+    },
+    {
+      "item_id": "item-8b93155e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking"
+    },
+    {
+      "item_id": "item-75e67f40",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Getting started"
+    },
+    {
+      "item_id": "item-7d22669e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers"
+    },
+    {
+      "item_id": "item-ea32badc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Authenticate with Private Key JWT using Amazon Bedrock AgentCore Identity"
+    },
+    {
+      "item_id": "item-b94e0a85",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Do Models Fake Alignment Without Clear Consequences?"
+    },
+    {
+      "item_id": "item-26b93022",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "We now have a better understanding how OpenAI hacked into Hugging Face"
+    },
+    {
+      "item_id": "item-c5d101d8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent"
+    },
+    {
+      "item_id": "item-24b288e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The harness is all you need (mostly)"
+    },
+    {
+      "item_id": "item-814aa2a5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Taiwan Detains Nvidia Employee in China Chip Smuggling Probe"
+    },
+    {
+      "item_id": "item-728815bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How an overlooked geothermal plant got a second chance"
+    },
+    {
+      "item_id": "item-2b3ec258",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta’s Free Cash Flow Dwindles to Lowest in Nearly Four Years"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-52e92dc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Winamp aims for a comeback with a new music player powered by Deezer"
+    },
+    {
+      "item_id": "item-d62fb682",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Trampoline"
+    },
+    {
+      "item_id": "item-399b5b9a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The coolest use for the Vision Pro"
+    },
+    {
+      "item_id": "item-40e1db5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "It Looks Like Nothing Can Dent MAGA's Support for ICE"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-30/blog.md",
+    "show_notes_path": "out/2026-07-30/show_notes.md",
+    "script_path": "out/2026-07-30/script_2hosts.md",
+    "audio_path": "out/2026-07-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 27288,
+        "output_tokens": 9358,
+        "cost_usd": 0.074078
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37149,
+        "output_tokens": 7756,
+        "cost_usd": 0.227787
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4458,
+        "cost_usd": 0.053496
+      }
+    ],
+    "total_cost_usd": 0.355361
+  }
+}
