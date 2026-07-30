@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#122 深層強化学習における凍結ランダムCNN特徴抽出器の創発的スパース性 ほか</title>
+      <description>Tech News Radio Show Notes - #122 (2026-07-31)
+
+エピソード情報
+• エピソード: #122
+• 日付: 2026-07-31
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning (https://arxiv.org/abs/2607.26059)
+• Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance (https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/)
+• Why Data Labeling Startups Are Paying HVAC Companies $150,000 For Data (https://www.theinformation.com/articles/data-labeling-startups-paying-hvac-companies-150-000-data)
+
+注目の深掘り
+• リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方 (https://zenn.dev/estie/articles/c5503dfe56f7a1)
+
+小ネタ・その他
+• Large-Scale ChatBot Validation Through Customer Digital Twin Simulations (https://arxiv.org/abs/2607.26060)
+• Accelerating scientific discovery with ChatGPT for Academic Researchers (https://openai.com/index/chatgpt-for-academic-researchers)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-31/episode_audio.mp3" length="80318444" type="audio/mpeg" />
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-07-31</guid>
+      <itunes:duration>13:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>深層強化学習における凍結ランダムCNN特徴抽出器の創発的スパース性 ほか</itunes:title>
+      <itunes:episode>122</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #122 (2026-07-31)
+
+エピソード情報
+• エピソード: #122
+• 日付: 2026-07-31
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning (https://arxiv.org/abs/2607.26059)
+• Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance (https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/)
+• Why Data Labeling Startups Are Paying HVAC Companies $150,000 For Data (https://www.theinformation.com/articles/data-labeling-startups-paying-hvac-companies-150-000-data)
+
+注目の深掘り
+• リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方 (https://zenn.dev/estie/articles/c5503dfe56f7a1)
+
+小ネタ・その他
+• Large-Scale ChatBot Validation Through Customer Digital Twin Simulations (https://arxiv.org/abs/2607.26060)
+• Accelerating scientific discovery with ChatGPT for Academic Researchers (https://openai.com/index/chatgpt-for-academic-researchers)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-07-31/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-07-31/eyecatch.webp" />
+    </item>
+    <item>
       <title>#121 Googleの音楽AIモデル「Lyria 3.5」、曲の特定セクションを最初からやり直さずに編集可能に ほか</title>
       <description>Tech News Radio Show Notes - #121 (2026-07-30)
 

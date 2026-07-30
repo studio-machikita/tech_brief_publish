@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-31",
+  "episode_date_local": "2026-07-31",
+  "content_snapshot_date": "2026-07-31",
+  "show_length_sec": 836,
+  "audio_size": 80318444,
+  "generated_at": "2026-07-30T21:26:48.155322+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-dcbddcdb",
+      "title": "Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning",
+      "title_ja": "深層強化学習における凍結ランダムCNN特徴抽出器の創発的スパース性",
+      "one_liner": "ランダムCNNで強化学習エージェントが自発的に超疎な表現を獲得",
+      "fingerprint": "dcbddcdbdf3983f29b884fcc8016d8c5",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-1dbd725d",
+      "title": "Everyone Is Freaking Out About OpenAI and Anthropic’s Race for Dominance",
+      "title_ja": "OpenAIとAnthropicの覇権争いに皆が騒然",
+      "one_liner": "OpenAIとAnthropicの覇権争いに業界が揺れる",
+      "fingerprint": "1dbd725d37dbc7159a31119b24dbb136",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-a1fea9e1",
+      "title": "Why Data Labeling Startups Are Paying HVAC Companies $150,000 For Data",
+      "title_ja": "データラベリング新興企業がHVAC企業に15万ドルを支払ってデータを購入する理由",
+      "one_liner": "AI評価のため企業の実務データに高額報酬",
+      "fingerprint": "a1fea9e1226fd17551e92f8ec8961a4d",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-e8bf8512",
+      "title": "リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方",
+      "title_ja": "リリース前チェックをAIで行う「プロダクトリリースハーネス」のつくり方",
+      "one_liner": "AIがリリース前チェックリストを自動スキャンし抜け漏れを検出",
+      "fingerprint": "e8bf85123689efcc61cee9dc876ab61d",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-42da5a6b",
+      "title": "Large-Scale ChatBot Validation Through Customer Digital Twin Simulations",
+      "title_ja": "顧客デジタルツインシミュレーションによる大規模チャットボット検証",
+      "one_liner": "デジタルツインでチャットボットを大規模検証する手法を提案",
+      "fingerprint": "42da5a6b4ca7a82f7aa1e71fe414ee05",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-7d22669e",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "title_ja": "ChatGPTで学術研究者の科学的発見を加速する",
+      "one_liner": "OpenAIが研究者10万人にChatGPTを無償提供",
+      "fingerprint": "7d22669e217f6a6c5c70b851893ded4d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e06c30ba",
+      "reason": "LINK_ONLY: Source intent uncertain: The Decoder は信頼できるAI技術メディアですが、記事内容に複数の疑わしい点があります。GPT-5.6、Luna、Terra、Solなどのモデル名は公式発表と一致せず、80%の価格削減という極端な数字と「China pricing mode」という表現が風刺的に見えます。ただし、The Decoderは実在するメディアで、2026年7月30日は記事日付と一致するため、完全な風刺とも判定しがたい状況です。",
+      "title": "OpenAI goes full China pricing mode with an 80 percent cut to its most affordable GPT-5.6 model"
+    },
+    {
+      "item_id": "item-22ea802c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark"
+    },
+    {
+      "item_id": "item-a3dcd7f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Yahoo enhances search retargeting using Amazon Bedrock"
+    },
+    {
+      "item_id": "item-f11b20e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our position on open-weights models"
+    },
+    {
+      "item_id": "item-4a7d6742",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio — July update"
+    },
+    {
+      "item_id": "item-cdc1d68a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deploying Kimi K3 on AWS"
+    },
+    {
+      "item_id": "item-24b288e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The harness is all you need (mostly)"
+    },
+    {
+      "item_id": "item-75e67f40",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Getting started"
+    },
+    {
+      "item_id": "item-b94e0a85",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Do Models Fake Alignment Without Clear Consequences?"
+    },
+    {
+      "item_id": "item-291f5029",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - AminBlg/SimpleEnglish: Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical English — no AI slop"
+    },
+    {
+      "item_id": "item-c8d3dc5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New MCP specification addresses the main barrier to enterprise adoption"
+    },
+    {
+      "item_id": "item-a5ee1a22",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Limit remote control to managed devices"
+    },
+    {
+      "item_id": "item-1156ed8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 04, 2026"
+    },
+    {
+      "item_id": "item-ab07b0b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rivian Sees R2 Driving Its Path to Profitability"
+    },
+    {
+      "item_id": "item-2e0cc485",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply chain risk’ label"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-a4211b91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward"
+    },
+    {
+      "item_id": "item-14a6bc4f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UEFA and its national associations will not participate in FIFA competitions"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-07-31/blog.md",
+    "show_notes_path": "out/2026-07-31/show_notes.md",
+    "script_path": "out/2026-07-31/script_2hosts.md",
+    "audio_path": "out/2026-07-31/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-07-31/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-07-31/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 37,
+        "input_tokens": 27482,
+        "output_tokens": 9455,
+        "cost_usd": 0.074757
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37595,
+        "output_tokens": 7999,
+        "cost_usd": 0.23277
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4537,
+        "cost_usd": 0.054444000000000006
+      }
+    ],
+    "total_cost_usd": 0.361971
+  }
+}
