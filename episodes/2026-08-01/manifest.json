@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-01",
+  "episode_date_local": "2026-08-01",
+  "content_snapshot_date": "2026-08-01",
+  "show_length_sec": 384,
+  "audio_size": 36894764,
+  "generated_at": "2026-07-31T21:26:47.942482+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-423da26f",
+      "title": "Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids",
+      "title_ja": "Google Deepmind、卓上型アームからヒューマノイドまであらゆる形状のロボットに対応する「Gemini Robotics 2」を発表",
+      "one_liner": "Google DeepMindが次世代ロボットAIモデルを発表",
+      "fingerprint": "423da26fa2b8657bb6ab0b65dfb64767",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-f5dbbccd",
+      "title": "Server Networking Boom Drives $300 Million Funding For Xsight",
+      "title_ja": "サーバーネットワーク需要の急増、Xsightが3億ドルの資金調達",
+      "one_liner": "GPU接続ネットワーク企業Xsightが300億円超を調達",
+      "fingerprint": "f5dbbccdb4953c10e604ea7fb36d31fb",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-71b6efba",
+      "title": "Building abundant intelligence",
+      "title_ja": "豊かな知性の構築",
+      "one_liner": "AIをより高性能・低コスト・広範に普及させる全体戦略",
+      "fingerprint": "71b6efba2c6b16dcc417520ab618f9bf",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-0bbd26e0",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "title_ja": "推論性能の起源を探る：RLとSFTファインチューニングモデルにおける数学的問題解決のための表現品質",
+      "one_liner": "RLとSFTで訓練したモデルの内部表現の違いを解明",
+      "fingerprint": "0bbd26e0cd859efcac5c8ce03c025d98",
+      "score": 68,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-6631cdd4",
+      "title": "Announcing the Agentic Catalog Experience in Amazon Quick",
+      "title_ja": "Amazonクイックにおけるエージェント型カタログエクスペリエンスの発表",
+      "one_liner": "Amazon QuickにAI駆動のカタログ探索機能が登場",
+      "fingerprint": "6631cdd40a1891292bb55e395ae1631d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-217cf090",
+      "title": "Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation",
+      "title_ja": "プロンプトチェーニングの実践：学術レポート自動生成のケーススタディ",
+      "one_liner": "多段階プロンプト連鎖で学術報告書を自動生成",
+      "fingerprint": "217cf0902dc6aa725190b91b93af337c",
+      "score": 63,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f11b20e5",
+      "reason": "LINK_ONLY: Source intent uncertain: タイトルは「open-weights models に関する立場」だが、スニペットは医療VLMの因果推論に関する技術論文の要約であり、内容が一致していない。arXiv論文と企業ポジションペーパーの混在が疑わしい。",
+      "title": "Our position on open-weights models"
+    },
+    {
+      "item_id": "item-21d3b05e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability"
+    },
+    {
+      "item_id": "item-fcabfe3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise teams model policy targeting in public preview"
+    },
+    {
+      "item_id": "item-467f95e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Recursive transformers for semiconductor thermo-mechanical reliability"
+    },
+    {
+      "item_id": "item-fe252c30",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-766c0c9a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chinese AI Researchers Are Finding Their Voice on X"
+    },
+    {
+      "item_id": "item-7c4bb220",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "メテオフォール開発"
+    },
+    {
+      "item_id": "item-16de47ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude published malicious code to the Internet and attacked 3 real companies"
+    },
+    {
+      "item_id": "item-24b288e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The harness is all you need (mostly)"
+    },
+    {
+      "item_id": "item-d1b47dea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Advancing responsible AI across Europe"
+    },
+    {
+      "item_id": "item-fe16d9c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated"
+    },
+    {
+      "item_id": "item-55dd07ac",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Demystifying DRAM Read Disturbance: Bridging the Gap Between Experimental Characterization and Device-Level Modeling of RowHammer and RowPress Phenomena"
+    },
+    {
+      "item_id": "item-36d2d91a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tailscale in the Hugging Face intrusion: The good news and the bad news"
+    },
+    {
+      "item_id": "item-b76c982d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-d7c486be",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "India is starting to pay for apps, not just download them"
+    },
+    {
+      "item_id": "item-2866b56f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Montana’s new experimental drug rules"
+    },
+    {
+      "item_id": "item-56226c35",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Som Seif on Prioritizing Customers When Building Companies"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-08-01/blog.md",
+    "show_notes_path": "out/2026-08-01/show_notes.md",
+    "script_path": "out/2026-08-01/script_2hosts.md",
+    "audio_path": "out/2026-08-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "calls": 33,
+        "input_tokens": 23097,
+        "output_tokens": 6915,
+        "cost_usd": 0.057672
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 15,
+        "input_tokens": 17671,
+        "output_tokens": 5277,
+        "cost_usd": 0.132168
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 2070,
+        "cost_usd": 0.024839999999999997
+      }
+    ],
+    "total_cost_usd": 0.21468
+  }
+}

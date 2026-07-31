@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#123 Google Deepmind、卓上型アームからヒューマノイドまであらゆる形状のロボットに対応する「Gemini Ro…</title>
+      <description>Tech News Radio Show Notes - #123 (2026-08-01)
+
+エピソード情報
+• エピソード: #123
+• 日付: 2026-08-01
+• 尺: 約 6 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids (https://the-decoder.com/google-deepmind-unveils-gemini-robotics-2-to-power-robots-of-all-shapes-from-tabletop-arms-to-humanoids/)
+• Server Networking Boom Drives $300 Million Funding For Xsight (https://www.theinformation.com/articles/server-networking-boom-drives-300-million-funding-xsight)
+• Building abundant intelligence (https://openai.com/index/building-abundant-intelligence)
+
+注目の深掘り
+• Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models (https://arxiv.org/abs/2607.26119)
+
+小ネタ・その他
+• Announcing the Agentic Catalog Experience in Amazon Quick (https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/)
+• Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation (https://arxiv.org/abs/2607.27210)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-01/episode_audio.mp3" length="36894764" type="audio/mpeg" />
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-01</guid>
+      <itunes:duration>6:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Google Deepmind、卓上型アームからヒューマノイドまであらゆる形状のロボットに対応する「Gemini Ro…</itunes:title>
+      <itunes:episode>123</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #123 (2026-08-01)
+
+エピソード情報
+• エピソード: #123
+• 日付: 2026-08-01
+• 尺: 約 6 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids (https://the-decoder.com/google-deepmind-unveils-gemini-robotics-2-to-power-robots-of-all-shapes-from-tabletop-arms-to-humanoids/)
+• Server Networking Boom Drives $300 Million Funding For Xsight (https://www.theinformation.com/articles/server-networking-boom-drives-300-million-funding-xsight)
+• Building abundant intelligence (https://openai.com/index/building-abundant-intelligence)
+
+注目の深掘り
+• Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models (https://arxiv.org/abs/2607.26119)
+
+小ネタ・その他
+• Announcing the Agentic Catalog Experience in Amazon Quick (https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/)
+• Prompt Chaining in Practice: A Case Study in Automated Scholarly Report Generation (https://arxiv.org/abs/2607.27210)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-01/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-01/eyecatch.webp" />
+    </item>
+    <item>
       <title>#122 深層強化学習における凍結ランダムCNN特徴抽出器の創発的スパース性 ほか</title>
       <description>Tech News Radio Show Notes - #122 (2026-07-31)
 
