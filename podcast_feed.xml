@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#124 Gemma 4とRAG Engineのサーバーレス機能が拡充／数学と理論計算機科学における10の進歩 ほか</title>
+      <description>Tech News Radio Show Notes - #124 (2026-08-02)
+
+エピソード情報
+• エピソード: #124
+• 日付: 2026-08-02
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• April 03, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+• Ten advances in mathematics and theoretical computer science (https://openai.com/index/ten-advances-in-mathematics)
+• AI keeps cracking unsolved math problems, and mathematicians have mixed feelings (https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/)
+
+注目の深掘り
+• AI coding agents can modernize research software but can't judge if the science is right (https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/)
+
+小ネタ・その他
+• Optimizing production agents with Amazon Bedrock AgentCore Observability (https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/)
+• Stacked sessions and pull requests in the GitHub Copilot app (https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/)
+• Stacked sessions and pull requests in the GitHub Copilot app (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-02/episode_audio.mp3" length="77401004" type="audio/mpeg" />
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-02</guid>
+      <itunes:duration>13:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Gemma 4とRAG Engineのサーバーレス機能が拡充／数学と理論計算機科学における10の進歩 ほか</itunes:title>
+      <itunes:episode>124</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #124 (2026-08-02)
+
+エピソード情報
+• エピソード: #124
+• 日付: 2026-08-02
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• April 03, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+• Ten advances in mathematics and theoretical computer science (https://openai.com/index/ten-advances-in-mathematics)
+• AI keeps cracking unsolved math problems, and mathematicians have mixed feelings (https://the-decoder.com/ai-keeps-cracking-unsolved-math-problems-and-mathematicians-have-mixed-feelings/)
+
+注目の深掘り
+• AI coding agents can modernize research software but can't judge if the science is right (https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/)
+
+小ネタ・その他
+• Optimizing production agents with Amazon Bedrock AgentCore Observability (https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/)
+• Stacked sessions and pull requests in the GitHub Copilot app (https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/)
+• Stacked sessions and pull requests in the GitHub Copilot app (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-02/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-02/eyecatch.webp" />
+    </item>
+    <item>
       <title>#123 Google Deepmind、卓上型アームからヒューマノイドまであらゆる形状のロボットに対応する「Gemini Ro…</title>
       <description>Tech News Radio Show Notes - #123 (2026-08-01)
 

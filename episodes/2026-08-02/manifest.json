@@ -1,0 +1,229 @@
+{
+  "date": "2026-08-02",
+  "episode_date_local": "2026-08-02",
+  "content_snapshot_date": "2026-08-02",
+  "show_length_sec": 806,
+  "audio_size": 77401004,
+  "generated_at": "2026-08-01T21:10:27.067891+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-40c544d1",
+      "title": "April 03, 2026",
+      "title_ja": "Gemma 4とRAG Engineのサーバーレス機能が拡充",
+      "one_liner": "Gemma 4とRAG Engineのサーバーレス機能が拡充",
+      "fingerprint": "40c544d12195f81542e2eb7310a8bdc9",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-a8dedea6",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "title_ja": "数学と理論計算機科学における10の進歩",
+      "one_liner": "OpenAIが数学・計算機科学の難問で新成果を発表",
+      "fingerprint": "a8dedea698982dc46576dad1ca92c1bc",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-9d834133",
+      "title": "AI keeps cracking unsolved math problems, and mathematicians have mixed feelings",
+      "title_ja": "AIが未解決の数学問題を次々と解き続け、数学者たちの間で賛否両論",
+      "one_liner": "AIが未解決の数学問題を次々と解き、数学界が揺れている",
+      "fingerprint": "9d834133ee211d27ea1689f7145c3bd9",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9c9bb6a0",
+      "title": "AI coding agents can modernize research software but can't judge if the science is right",
+      "title_ja": "AIコーディングエージェントは研究ソフトウェアの近代化に貢献できるが、科学的妥当性の判断は不可能",
+      "one_liner": "AIはコードを書けるが、科学的正しさは判断できない",
+      "fingerprint": "9c9bb6a0c41f2ec09e746b7c627dcb3e",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-21d3b05e",
+      "title": "Optimizing production agents with Amazon Bedrock AgentCore Observability",
+      "title_ja": "Amazon Bedrock AgentCore Observabilityで本番エージェントを最適化する",
+      "one_liner": "AIエージェントの本番運用を可観測性で最適化",
+      "fingerprint": "21d3b05eef5b393096077fdb8527f081",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-fe252c30",
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "title_ja": "GitHubCopilotアプリにスタックセッションとプルリクエスト機能を追加",
+      "one_liner": "GitHub CopilotアプリでAIセッションを積み重ねてコードを刷新",
+      "fingerprint": "fe252c30db9cb8e527f7ff557f28572f",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML",
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-24b288e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The harness is all you need (mostly)"
+    },
+    {
+      "item_id": "item-4120448b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews"
+    },
+    {
+      "item_id": "item-fcabfe3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise teams model policy targeting in public preview"
+    },
+    {
+      "item_id": "item-87835544",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deploying Kimi K3 on Amazon SageMaker HyperPod and Amazon EKS"
+    },
+    {
+      "item_id": "item-62519d1d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI フレンドリーな CLI を開発するテクニック"
+    },
+    {
+      "item_id": "item-d0740a1e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exclusive: AWS Taps Apple Executive to Lead Key AI Products"
+    },
+    {
+      "item_id": "item-b76c982d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "item_id": "item-fe16d9c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated"
+    },
+    {
+      "item_id": "item-f11b20e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our position on open-weights models"
+    },
+    {
+      "item_id": "item-3d6ad333",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Diátaxis"
+    },
+    {
+      "item_id": "item-8c3c74ad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Silicon Valley Founder Meat Grinder"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-d1b47dea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Advancing responsible AI across Europe"
+    },
+    {
+      "item_id": "item-ffe9bb52",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’"
+    },
+    {
+      "item_id": "item-1007cf4c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Isn’t a Catch-All Trade for Stocks in This Earnings Season"
+    },
+    {
+      "item_id": "item-75eb66f2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps"
+    },
+    {
+      "item_id": "item-2866b56f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Montana’s new experimental drug rules"
+    },
+    {
+      "item_id": "item-24bd4055",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "15 Best Office Chairs of 2026—We Tested 70 to Pick Them"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-08-02/blog.md",
+    "show_notes_path": "out/2026-08-02/show_notes.md",
+    "script_path": "out/2026-08-02/script_2hosts.md",
+    "audio_path": "out/2026-08-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 25236,
+        "output_tokens": 10480,
+        "cost_usd": 0.017623
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 18,
+        "input_tokens": 37347,
+        "output_tokens": 7830,
+        "cost_usd": 0.229491
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4371,
+        "cost_usd": 0.052452
+      }
+    ],
+    "total_cost_usd": 0.299566
+  }
+}
