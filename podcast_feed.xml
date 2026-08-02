@@ -25,6 +25,67 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#125 Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか</title>
+      <description>Tech News Radio Show Notes - #125 (2026-08-03)
+
+エピソード情報
+• エピソード: #125
+• 日付: 2026-08-03
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+• Meta AI uses a second AI agent as a memory coach to keep long tasks on track (https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/)
+• How Yahoo enhances search retargeting using Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/)
+
+注目の深掘り
+• The harness is all you need (mostly) (https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)
+
+小ネタ・その他
+• As Reddit stock falls, CEO questions value of Google's AI Overviews (https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/)
+• GDBで始めるアセンブリと解析 (https://zenn.dev/juck28/articles/091c07869aba28)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/episode_audio.mp3" length="79453484" type="audio/mpeg" />
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-03</guid>
+      <itunes:duration>13:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか</itunes:title>
+      <itunes:episode>125</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #125 (2026-08-03)
+
+エピソード情報
+• エピソード: #125
+• 日付: 2026-08-03
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+• Meta AI uses a second AI agent as a memory coach to keep long tasks on track (https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/)
+• How Yahoo enhances search retargeting using Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/)
+
+注目の深掘り
+• The harness is all you need (mostly) (https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)
+
+小ネタ・その他
+• As Reddit stock falls, CEO questions value of Google's AI Overviews (https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/)
+• GDBで始めるアセンブリと解析 (https://zenn.dev/juck28/articles/091c07869aba28)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-03/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/eyecatch.webp" />
+    </item>
+    <item>
       <title>#124 Gemma 4とRAG Engineのサーバーレス機能が拡充／数学と理論計算機科学における10の進歩 ほか</title>
       <description>Tech News Radio Show Notes - #124 (2026-08-02)
 

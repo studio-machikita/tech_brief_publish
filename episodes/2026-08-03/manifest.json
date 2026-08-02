@@ -1,0 +1,230 @@
+{
+  "date": "2026-08-03",
+  "episode_date_local": "2026-08-03",
+  "content_snapshot_date": "2026-08-03",
+  "show_length_sec": 827,
+  "audio_size": 79453484,
+  "generated_at": "2026-08-02T21:11:24.988081+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6b713dbc",
+      "title": "April 14, 2026",
+      "title_ja": "Claude Opus 4.7がVertex AIのModel Gardenに登場",
+      "one_liner": "Claude Opus 4.7がVertex AIのModel Gardenに登場",
+      "fingerprint": "6b713dbcfea41cd4ace67198536ba7e0",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-d6daa0a2",
+      "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+      "title_ja": "MetaのAI、長期タスクを管理するために別のAIエージェントを「記憶コーチ」として活用",
+      "one_liner": "Meta AIが「記憶コーチ」AIで長期タスクの精度を向上",
+      "fingerprint": "d6daa0a2a269ce902b93126b8ed29b71",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-a3dcd7f7",
+      "title": "How Yahoo enhances search retargeting using Amazon Bedrock",
+      "title_ja": "YahooがAmazon Bedrockを活用して検索リターゲティングを強化する方法",
+      "one_liner": "YahooがAmazon Bedrockで広告ターゲティングを強化",
+      "fingerprint": "a3dcd7f78d73ffa3e4b021452aa57501",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-24b288e9",
+      "title": "The harness is all you need (mostly)",
+      "title_ja": "ハーネスさえあればほぼ大丈夫",
+      "one_liner": "GitHub Copilotだけで開発全工程をこなすワークフロー提案",
+      "fingerprint": "24b288e96654969fbc6ddbf3adb502f7",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-4120448b",
+      "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+      "title_ja": "Redditの株価下落を受け、CEOがGoogleのAI概要機能の価値に疑問",
+      "one_liner": "RedditがGoogleとのデータ契約見直しを示唆",
+      "fingerprint": "4120448b6a57acea1eb017a10a014414",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-b5b8668d",
+      "title": "GDBで始めるアセンブリと解析",
+      "title_ja": "GDBで始めるアセンブリと解析",
+      "one_liner": "GDBでアセンブリ解析を学ぶ入門ワークショップ資料",
+      "fingerprint": "b5b8668df85032cf86c6e0b849346015",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-578fc048",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Univé builds an AI-ready workforce"
+    },
+    {
+      "item_id": "item-fcabfe3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise teams model policy targeting in public preview"
+    },
+    {
+      "item_id": "item-16de47ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude published malicious code to the Internet and attacked 3 real companies"
+    },
+    {
+      "item_id": "item-87835544",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deploying Kimi K3 on Amazon SageMaker HyperPod and Amazon EKS"
+    },
+    {
+      "item_id": "item-25685056",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Neocloud Nscale Gets Ready to Pitch Investors on Multibillion Dollar IPO"
+    },
+    {
+      "item_id": "item-f11b20e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our position on open-weights models"
+    },
+    {
+      "item_id": "item-6524124b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Is Turning Retail Traders Into DIY Hedge Funds"
+    },
+    {
+      "item_id": "item-7c816818",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Mania: From Tulips to Tokens"
+    },
+    {
+      "item_id": "item-067f8249",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sam Altman and AI’s decel debate"
+    },
+    {
+      "item_id": "item-b76c982d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "item_id": "item-fe16d9c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated"
+    },
+    {
+      "item_id": "item-3ed2b5ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic&#x27;s Fever Dream: Claude&#x27;s package anthropickit that stole real keys"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-d1b47dea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Advancing responsible AI across Europe"
+    },
+    {
+      "item_id": "item-2866b56f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Montana’s new experimental drug rules"
+    },
+    {
+      "item_id": "item-b45b0e7a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A real macOS flaw worth $200K went unreported because Apple's bug bounty inbox was full of AI slop"
+    },
+    {
+      "item_id": "item-1dc384cc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School"
+    },
+    {
+      "item_id": "item-470e5241",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "8 Best Password Managers (2026), Tested and Reviewed"
+    }
+  ],
+  "outputs": {
+    "blog_path": "out/2026-08-03/blog.md",
+    "show_notes_path": "out/2026-08-03/show_notes.md",
+    "script_path": "out/2026-08-03/script_2hosts.md",
+    "audio_path": "out/2026-08-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24680,
+        "output_tokens": 10338,
+        "cost_usd": 0.017342
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "calls": 17,
+        "input_tokens": 36983,
+        "output_tokens": 7853,
+        "cost_usd": 0.228744
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4656,
+        "cost_usd": 0.055872000000000005
+      }
+    ],
+    "total_cost_usd": 0.301958
+  }
+}

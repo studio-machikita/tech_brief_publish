@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 4</title>
+<title>Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-03/">
+<meta property="og:description" content="2026-08-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-03/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか",
+    "description": "2026-08-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-03",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-03/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか",
+    "description": "2026-08-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-03",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-03/",
+    "duration": "PT13M47S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,109 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-03/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-07-04/index.html" class="episode-card">
-        <div class="episode-date">2026-07-04</div>
-        <h3 class="episode-title">Vertex AIで音楽生成モデルLyria 3がパブリックプレビュー公開 ほか</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-07-03/index.html" class="episode-card">
-        <div class="episode-date">2026-07-03</div>
-        <h3 class="episode-title">中国のAI動画生成ツール「Kling」、香港上場に向け20億ドルを調達 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-07-02/index.html" class="episode-card">
-        <div class="episode-date">2026-07-02</div>
-        <h3 class="episode-title">Tech News Radio - 2026-07-02</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Claude%20Opus%204.7%E3%81%8CVertex%20AI%E3%81%AEModel%20Garden%E3%81%AB%E7%99%BB%E5%A0%B4%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-03/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-03/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-07-01/index.html" class="episode-card">
-        <div class="episode-date">2026-07-01</div>
-        <h3 class="episode-title">Tech News Radio - 2026-07-01</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>10 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-30/index.html" class="episode-card">
-        <div class="episode-date">2026-06-30</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-30</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-29/index.html" class="episode-card">
-        <div class="episode-date">2026-06-29</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-29</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-28/index.html" class="episode-card">
-        <div class="episode-date">2026-06-28</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-28</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-27/index.html" class="episode-card">
-        <div class="episode-date">2026-06-27</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-27</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-26/index.html" class="episode-card">
-        <div class="episode-date">2026-06-26</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-26</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-25/index.html" class="episode-card">
-        <div class="episode-date">2026-06-25</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-25</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../3/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><span class="current">4</span><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../5/index.html">次へ</a><span class="summary">Page 4 / 13</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1013,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1083,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1112,5 +1039,251 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-03"
+subtitle: "Claude Opus 4.7がVertex AIのModel Gardenに登場 / MetaのAI、長期タスクを管理するために別のAIエージェントを「..."
+date: "2026-08-03"
+vol: 125
+topics:
+  - AI
+  - LLM
+  - Cloud
+  - Data
+  - DevOps
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-03
+
+*📖 約12分で読めます ｜ 🏷️ AI, LLM, Cloud, Data, DevOps*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **Claude Opus 4.7がVertex AIのModel Gardenに登場** — Claude Opus 4.7がVertex AIのModel Gardenに登場
+- 🤖 **MetaのAI、長期タスクを管理するために別のAIエージェントを「記憶コーチ」として活用** — Meta AIが「記憶コーチ」AIで長期タスクの精度を向上
+- 🤖 **YahooがAmazon Bedrockを活用して検索リターゲティングを強化する方法** — YahooがAmazon Bedrockで広告ターゲティングを強化
+- 🤖 **ハーネスさえあればほぼ大丈夫** — GitHub Copilotだけで開発全工程をこなすワークフロー提案
+- 🤖 **Redditの株価下落を受け、CEOがGoogleのAI概要機能の価値に疑問** — RedditがGoogleとのデータ契約見直しを示唆
+- 🔒 **GDBで始めるアセンブリと解析** — GDBでアセンブリ解析を学ぶ入門ワークショップ資料
+
+---
+
+## 🤖 Claude Opus 4.7がVertex AIのModel Gardenに登場
+\`AI\` \`LLM\` \`Cloud\`
+
+<details>
+<summary>📄 原題: April 14, 2026</summary>
+</details>
+
+> **一言で**: Claude Opus 4.7がVertex AIのModel Gardenに登場
+
+- AnthropicのClaude Opus 4.7がGoogle CloudのVertex AIで利用可能に
+- Model Garden（モデルの選択・デプロイ基盤）に新たに追加された
+- Vertex AI v1の生成AI機能として正式サポート対象となった
+
+💡 **なぜ重要か**
+Google CloudのVertex AIは、複数のAIモデルを一元管理・デプロイできるプラットフォームです。AnthropicのClaudeシリーズをVertex AI経由で使えるようにすることで、すでにGoogle Cloudを使っている企業が追加の契約なしにClaudeを試せる環境が整いつつあります。大手クラウドとAIモデルプロバイダーの連携は業界全体で加速しており、今回の追加もその流れの一環です。 主要クラウドがトップクラスのAIモデルをマネージドサービスとして提供する動きが定着すると、企業はモデルの自前運用から解放されます。一方で、特定クラウドへの依存度が高まるリスクも生まれます。モデル選択の競争がクラウド選択の競争と重なり、インフラとAIの境界がさらに曖昧になっていくでしょう。
+
+🎯 **今日のアクション**
+Vertex AIをすでに使っているチームは、Model GardenでClaude Opus 4.7を試し、既存モデルとのコスト・精度・レイテンシ（遅延）を比較評価してみましょう。新規採用を検討している場合は、Google Cloudの利用規約とAnthropicのポリシーの両方を確認してから本番導入を判断してください。
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+
+---
+
+## 🤖 MetaのAI、長期タスクを管理するために別のAIエージェントを「記憶コーチ」として活用
+\`AI\` \`LLM\`
+
+<details>
+<summary>📄 原題: Meta AI uses a second AI agent as a memory coach to keep long tasks on track</summary>
+</details>
+
+> **一言で**: Meta AIが「記憶コーチ」AIで長期タスクの精度を向上
+
+- AIエージェントが過去のエラーを忘れて同じ失敗を繰り返す問題に対処
+- 専用の「記憶エージェント」が構造化されたメモリを管理し、必要な時だけ主エージェントに通知
+- 2つのベンチマークで最大8.3ポイントのスコア改善を達成
+- いつ介入していつ黙るかを記憶エージェント自身が判断する設計が特徴
+
+💡 **なぜ重要か**
+AIエージェントが複数ステップにわたる複雑なタスクをこなす場面が増えています。しかし、処理が長くなるほど過去の文脈やエラー情報を忘れやすくなるという課題がありました。この「長期記憶の欠如」はエージェントの実用性を大きく制限する問題で、各社が解決策を模索しています。 AIエージェントを複数組み合わせる「マルチエージェント」構成が、今後の標準的なアーキテクチャになる可能性があります。特定の役割に特化したエージェントを組み合わせることで、単一モデルの限界を超えるシステム設計の考え方が広まりそうです。
+
+🎯 **今日のアクション**
+自社でAIエージェントを活用している場合、長期タスクでのエラー再発パターンを記録・分析してみましょう。Metaのアプローチを参考に、記憶管理を専門に担うコンポーネントを設計に組み込むことを検討する価値があります。
+
+🔗 [原文を読む](https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/)
+
+---
+
+## 🤖 YahooがAmazon Bedrockを活用して検索リターゲティングを強化する方法
+\`AI\` \`Cloud\` \`Data\`
+
+<details>
+<summary>📄 原題: How Yahoo enhances search retargeting using Amazon Bedrock</summary>
+</details>
+
+> **一言で**: YahooがAmazon Bedrockで広告ターゲティングを強化
+
+- Yahoo DSPの検索リターゲティング（SRT）にAmazon Bedrockを導入
+- ユーザーの過去の検索行動をAIで解析し、広告配信精度を向上
+- Yahoo検索だけでなく、外部パートナーの検索行動データも活用
+- ディスプレイ・動画・ネイティブ広告と検索意図を橋渡しする仕組み
+
+💡 **なぜ重要か**
+デジタル広告業界では、ユーザーの「検索意図」をいかに広告配信に活かすかが競争の鍵です。従来の検索連動型広告だけでなく、ディスプレイ広告などにも検索シグナルを応用する需要が高まっています。Amazon BedrockはAWSが提供する生成AI基盤サービスで、企業が自社データと組み合わせてAIを活用しやすい環境を提供します。Yahooはこれを広告技術に組み込むことで、ターゲティング精度の底上げを図っています。 大手メディア企業がクラウドのAI基盤を広告エンジンに直接組み込む事例が増えると、広告テック全体でAI活用が標準化されていくでしょう。検索意図の解析精度が上がるほど、広告主にとってのROIも改善しやすくなります。一方で、ユーザーの行動データ活用に関するプライバシー規制との兼ね合いが、今後の課題として浮上する可能性があります。
+
+🎯 **今日のアクション**
+広告テックやデータ活用に携わるエンジニアは、Amazon Bedrockのような管理型AI基盤を自社のパイプラインに組み込む設計パターンを学んでおくと実践的です。また、検索シグナルを他チャネルの広告配信に応用するアーキテクチャの事例として、この実装を参考にする価値があります。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/)
+
+---
+
+## 🤖 ハーネスさえあればほぼ大丈夫
+\`AI\` \`DevOps\`
+
+<details>
+<summary>📄 原題: The harness is all you need (mostly)</summary>
+</details>
+
+> **一言で**: GitHub Copilotだけで開発全工程をこなすワークフロー提案
+
+- 新しいAIツールを追い続けなくても、GitHub Copilotで十分な開発が可能だという主張
+- プロトタイプ作成・計画・実装・レビューまで一貫して対応できるワークフローを紹介
+- ツールの乱立に疲れた開発者へ向けた、実践的なアプローチとして注目される
+
+💡 **なぜ重要か**
+AIコーディング支援ツールが急増する中、開発者は次々と新ツールを試す「ツール疲れ」に陥りがちです。GitHub Copilotはすでに多くの開発環境に統合されており、改めてその活用範囲を整理する意義があります。 特定のAIツールに依存しすぎず、既存ツールを深く使いこなす姿勢が評価される流れが生まれそうです。開発チームの標準ワークフローとしてGitHub Copilotが定着すれば、ツール選定コストの削減にもつながると見られています。
+
+🎯 **今日のアクション**
+まず自チームの開発フローを棚卸しし、GitHub Copilotで代替できる工程を洗い出してみましょう。新ツールの導入前に、現行ツールの活用度を最大化する検討を優先することをお勧めします。
+
+🔗 [原文を読む](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)
+
+---
+
+## 🤖 Redditの株価下落を受け、CEOがGoogleのAI概要機能の価値に疑問
+\`AI\` \`Business\` \`Web\`
+
+<details>
+<summary>📄 原題: As Reddit stock falls, CEO questions value of Google&#x27;s AI Overviews</summary>
+</details>
+
+> **一言で**: RedditがGoogleとのデータ契約見直しを示唆
+
+- Reddit株の下落を受け、CEOがGoogleのAI Overviewsの価値に疑問を呈した
+- RedditはGoogleへのデータライセンス契約を終了する可能性を検討中
+- AI学習データとしてのコンテンツ提供が、プラットフォームに本当に利益をもたらすか問われている
+
+💡 **なぜ重要か**
+GoogleのAI Overviews（検索結果にAIが生成した要約を表示する機能）は、ユーザーが元のサイトを訪問しなくなる「ゼロクリック問題」を加速させると指摘されています。Redditはコンテンツをライセンス提供することでGoogleから収益を得ていましたが、株価下落を背景にその費用対効果が問われ始めています。 コンテンツプラットフォームがAI企業へのデータ提供を見直す動きが広がれば、LLMの学習データ調達コストが上昇する可能性があります。また、AI検索がトラフィックを奪う構造は、メディアやコミュニティサイト全体のビジネスモデルを揺るがす問題として注目されています。
+
+🎯 **今日のアクション**
+自社サービスのトラフィック源がAI検索の普及でどう変化しているか、今のうちに分析しておくことが重要です。データライセンス契約を結んでいる場合は、その対価が適切かどうかを定期的に見直す仕組みを整えましょう。
+
+🔗 [原文を読む](https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/)
+
+---
+
+## 🔒 GDBで始めるアセンブリと解析
+\`Security\` \`OSS\`
+
+> **一言で**: GDBでアセンブリ解析を学ぶ入門ワークショップ資料
+
+- SECCON Beginners 2026 東京のワークショップ補助資料として公開
+- 目標は「アセンブリをざっくり読める」「GDB+Pwndbgで解析できる」の2点
+- 環境はGoogle Cloud Shellのみで完結し、手元にLinuxがなくても学習可能
+- 完璧な理解より「なんとなくわかる」感覚の習得を重視した設計
+
+💡 **なぜ重要か**
+CTF（セキュリティ競技）やリバースエンジニアリング（プログラムの動作解析）の入門者にとって、アセンブリ言語の読み方は最初の大きな壁です。学習環境の構築が難しいことも挫折の原因になりがちで、ブラウザだけで始められる教材の需要は高まっています。 セキュリティ人材の裾野を広げる取り組みとして、こうした実践的な入門資料の公開は重要です。GDBやPwndbgといった解析ツールの使い方を早期に習得できる環境が整うことで、セキュリティエンジニアの育成が加速する可能性があります。
+
+🎯 **今日のアクション**
+セキュリティやリバースエンジニアリングに興味があるエンジニアは、Google Cloud Shellを使ってすぐに試せます。CTF初心者はこの資料を入口に、アセンブリ読解とGDB操作の基礎を身につけるとよいでしょう。
+
+🔗 [原文を読む](https://zenn.dev/juck28/articles/091c07869aba28)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、AIがクラウドインフラと深く統合され、単体モデルとしてではなく「システムの一部」として実用展開される段階に入ったというトレンドです。AnthropicのClaudeがGoogle CloudのVertex AIに、YahooがAmazon Bedrockをそれぞれ活用しているように、主要クラウドプラットフォームがAIモデルの流通・運用基盤として不可欠な役割を担いつつあります。またMetaの「記憶コーチ」のアーキテクチャが示すように、単一の大規模モデルで完結させるのではなく、複数のAIエージェントが役割分担して協調する設計思想が広がっており、これはYahooの広告ターゲティング強化にも通じる「AIの専門化・分業化」の流れといえます。総じて、AIの競争軸はモデル単体の性能から、クラウド基盤との連携や複数エージェントの協調設計といった「エコシステムとしての完成度」へと移行しつつあることが、この3つのニュースから読み取れます。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **Claude Opus 4.7がVertex AIのModel Gardenに登場**: Vertex AIをすでに使っているチームは、Model GardenでClaude Opus 4.7を試し、既存モデルとのコスト・精度・レイテンシ（遅延）を比較評価してみましょう。新規採用を検討している場合は、Google Cloudの利用規約とAnthropicのポリシーの両方を確認してから本番導入を判断してください。
+2. **MetaのAI、長期タスクを管理するために別のAIエージェントを「記憶コーチ」として活用**: 自社でAIエージェントを活用している場合、長期タスクでのエラー再発パターンを記録・分析してみましょう。Metaのアプローチを参考に、記憶管理を専門に担うコンポーネントを設計に組み込むことを検討する価値があります。
+3. **YahooがAmazon Bedrockを活用して検索リターゲティングを強化する方法**: 広告テックやデータ活用に携わるエンジニアは、Amazon Bedrockのような管理型AI基盤を自社のパイプラインに組み込む設計パターンを学んでおくと実践的です。また、検索シグナルを他チャネルの広告配信に応用するアーキテクチャの事例として、この実装を参考にする価値があります。
+
+---
+
+## 🔗 出典一覧
+- [Claude Opus 4.7がVertex AIのModel Gardenに登場](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+- [Claude Opus 4.7がVertex AIのModel Gardenに登場](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+- [Claude Opus 4.7がVertex AIのModel Gardenに登場](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+- [MetaのAI、長期タスクを管理するために別のAIエージェントを「記憶コーチ」として活用](https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/)
+- [YahooがAmazon Bedrockを活用して検索リターゲティングを強化する方法](https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/)
+- [ハーネスさえあればほぼ大丈夫](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)
+- [Redditの株価下落を受け、CEOがGoogleのAI概要機能の価値に疑問](https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/)
+- [GDBで始めるアセンブリと解析](https://zenn.dev/juck28/articles/091c07869aba28)`;
+const notesMd = `# Tech News Radio Show Notes - #125 (2026-08-03)
+
+## エピソード情報
+- **エピソード**: #125
+- **日付**: 2026-08-03
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+- [Meta AI uses a second AI agent as a memory coach to keep long tasks on track](https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/)
+- [How Yahoo enhances search retargeting using Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/how-yahoo-enhances-search-retargeting-using-amazon-bedrock/)
+
+### 注目の深掘り
+- [The harness is all you need (mostly)](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/)
+
+### 小ネタ・その他
+- [As Reddit stock falls, CEO questions value of Google's AI Overviews](https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/)
+- [GDBで始めるアセンブリと解析](https://zenn.dev/juck28/articles/091c07869aba28)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
