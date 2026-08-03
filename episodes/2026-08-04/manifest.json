@@ -1,0 +1,370 @@
+{
+  "date": "2026-08-04",
+  "episode_date_local": "2026-08-04",
+  "content_snapshot_date": "2026-08-04",
+  "show_length_sec": 804,
+  "audio_size": 77247404,
+  "generated_at": "2026-08-03T21:20:12.091633+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f82a7957",
+      "title": "Topology-Aware Data Movement for Disaggregated GPU Inference",
+      "title_ja": "トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論",
+      "one_liner": "GPU間帯域差72倍を無視するKVキャッシュ転送の非効率",
+      "fingerprint": "f82a795723b0fa9da149f8911bd4c4f0",
+      "score": 89,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-1e67ae46",
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "title_ja": "AWSがバイブコーディングのスタートアップSuperblocksを支援、その影響は大きい",
+      "one_liner": "AWSがvibe codingツールSuperblocksを自社クラウドに統合",
+      "fingerprint": "1e67ae46fba08ea8f255bbc92279617c",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-12efd82d",
+      "title": "NTT Data Is Said to Eye $9 Billion Outlay for Japan Data Centers",
+      "title_ja": "NTTデータ、日本国内のデータセンターに90億ドル投資検討か",
+      "one_liner": "NTTデータ、国内DCに9000億円超投資へ",
+      "fingerprint": "12efd82dc29d0f8a7160143e80b6fa17",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-6e7507f0",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "title_ja": "音声AIをリアルタイムで応答させるシステムを6ヶ月で構築した方法",
+      "one_liner": "GPT-Liveが実現する半年開発の低遅延音声AI",
+      "fingerprint": "6e7507f0e9098c1e78d0f947529b5370",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-add6fc35",
+      "title": "Data Center Operator CyrusOne Lays IPO Groundwork",
+      "title_ja": "データセンター運営会社CyrusOne、IPOの準備を開始",
+      "one_liner": "データセンター大手CyrusOneが上場準備へ",
+      "fingerprint": "add6fc359a16b2b5302590774ae03dfe",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-caf62698",
+      "title": "Automated Reasoning policy refinement in Amazon Bedrock",
+      "title_ja": "Amazon Bedrockの自動推論によるポリシー改善",
+      "one_liner": "Bedrockが自動推論ポリシーの修正を自動提案",
+      "fingerprint": "caf62698bd229fe109ec221cbc436eee",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-74303380",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UnityのDIは本当に必要か：Zenject継続・Reflex新規採用・VContainer比較の判断軸"
+    },
+    {
+      "item_id": "item-bfc8d698",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "From weeks to minutes: How Formula 1® uses agentic AI on AWS to accelerate data operations"
+    },
+    {
+      "item_id": "item-9b0b3fbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems"
+    },
+    {
+      "item_id": "item-40f9fa5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alibaba's new Qwen model is also taking your job, but this time it's great"
+    },
+    {
+      "item_id": "item-fe16d9c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated"
+    },
+    {
+      "item_id": "item-a94d1b57",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "IBM finds 92% of companies hit by AI security breaches lacked basic access controls"
+    },
+    {
+      "item_id": "item-1156ed8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 04, 2026"
+    },
+    {
+      "item_id": "item-60fec6bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it"
+    },
+    {
+      "item_id": "item-60d4412c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs"
+    },
+    {
+      "item_id": "item-5885ec94",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump’s AI protectionism has come for robotics"
+    },
+    {
+      "item_id": "item-d1b47dea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Advancing responsible AI across Europe"
+    },
+    {
+      "item_id": "item-b76c982d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "item_id": "item-00e166e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases"
+    },
+    {
+      "item_id": "item-fcabfe3d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise teams model policy targeting in public preview"
+    },
+    {
+      "item_id": "item-1d16f2de",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ID-porten, Kontakt- og reservasjonsregisteret, Maskinporten, MinID, eFormidling, ELMA, eInnsyn, Ansattporten, Selvbetjeningsløsninger, Altinn - Driftsproblemer"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-7010e4c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated"
+    },
+    {
+      "item_id": "item-ff86e5a0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "After a nearly 1,000% surge, the AI debt orgy can’t last forever, while hidden borrowing has exploded to $1.65 trillion | Fortune"
+    }
+  ],
+  "score_cache": {
+    "ff86e5a0a941efefc33239bb986deb8f": {
+      "score": 27,
+      "title": "After a nearly 1,000% surge, the AI debt orgy can’t last forever, while hidden borrowing has exploded to $1.65 trillion ",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] AI関連市場の資金調達や隠れた負債が1.65兆ドル規模に膨らんでいるという論点は、業界の持続可能性やクラウド・計算資源への投資判断には影響します。ただし、具体的な技術革新、アーキテクチャ変更、製品発表ではなく、主に金融・市場分析に属する記事です。さらに、既出の「AI」や「model」関連の話題と同じ大枠であるため20点減点し、技術ニュースとしての重要"
+    },
+    "6e7507f0e9098c1e78d0f947529b5370": {
+      "score": 66,
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] リアルタイム音声AIの継続対話を実現するターンレス音声モデルと低遅延アーキテクチャは、音声インターフェースやAIプロダクト開発に直接応用できる技術的価値が高い。一方で、AI・モデル関連は直近の既出テーマと重なり、記事単体では具体的な実装方式や性能指標の詳細も限定されているため、重複分を考慮して減点した。 [Editorial: AI-focused "
+    },
+    "b76c982d642602a360e5294110af788f": {
+      "score": 36,
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] 実際のサイバーセキュリティインシデントを評価した内容で、AIや自律エージェントの安全性検証に関係する可能性はあるものの、記事タイトルだけでは新技術の発表やアーキテクチャ上の革新性は確認できません。主題はセキュリティ評価・リスク検証に分類され、技術者にとって実務的な示唆はある一方、評価基準上は低評価帯に位置づけます。 [Editorial: AI-fo"
+    },
+    "bfc8d698340466305338b16f2caa95c3": {
+      "score": 54,
+      "title": "From weeks to minutes: How Formula 1® uses agentic AI on AWS to accelerate data operations",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] Agentic AIをAWSのAmazon Bedrock AgentCoreと組み合わせ、データソースのオンボーディングを最大8週間から約40分へ短縮し、スキーマ変更の自動化やエンドツーエンドの可観測性を実現した点は、データ基盤の運用効率化において具体性と実務的インパクトがあります。一方で、F1の個別導入事例であり、技術そのものの業界標準を変える発"
+    },
+    "fe16d9c4bc4a23aa5ac6f30245677d61": {
+      "score": 48,
+      "title": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] GitHub Copilot全体でGemini 2.5 ProとGemini 3 Flashが非推奨化されるため、利用モデルの選択、既存ワークフロー、品質・レイテンシ・コストの検証が必要になる実務上の影響はあります。一方で、新モデルや革新的機能の発表ではなく、モデルのライフサイクル管理に関する変更です。また、既出キーワードの「Copilot」「mod"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージ公開ではあるものの、内容はDebian 12上の依存パッケージ更新のみで、機能追加・性能向上・アーキテクチャ変更などの具体的な技術革新はありません。エンジニアにとって運用上の更新情報としては有用ですが、影響範囲と新規性は限定的です。また、既出キーワードである「Agent」「April」「"
+    },
+    "1e67ae46fba08ea8f255bbc92279617c": {
+      "score": 72,
+      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] AWSがSuperblocksのようなvibe-codingツールを顧客のプライベートクラウドへ組み込めるようにするのは、単なる製品連携ではなく、アプリケーション開発基盤と基盤モデルの依存関係を分離する動きです。企業はモデルの選択肢やデータ配置の自由度を高めつつ、生成AIによる開発体験を自社環境へ取り込めるため、クラウドアーキテクチャとエンタープライ"
+    },
+    "40f9fa5c29da509b9a67625f8ee425d7": {
+      "score": 49,
+      "title": "Alibaba's new Qwen model is also taking your job, but this time it's great",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] Alibabaの新しいQwen 3.8はAIモデルとして注目度が高く、オープンモデル戦略や開発者向けエコシステムへの影響が期待できます。一方、記事の内容はモデルの性能、アーキテクチャ、提供条件、ベンチマークなどの具体的な技術情報ではなく、雇用不安を逆転させる広告表現の紹介が中心です。また、既出のAI・model・agent関連トピックと同じ文脈の続報"
+    },
+    "60fec6bbb24b0bcf744ca03e073b64ba": {
+      "score": 43,
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] AIによる試験監督システムの失敗で5万8,000人が再受験を迫られるという、AIの信頼性・運用設計・評価検証の重要性を示す事例です。影響範囲は大きいものの、技術革新そのものではなく、既存AIシステムの品質管理上の問題に近いため評価は抑えめです。また、直近放送済みの「AI」関連トピックと重なるため20点減点しています。 [Editorial: AI-f"
+    },
+    "00e166e7e4153071194c66c70220d445": {
+      "score": 36,
+      "title": "The SpaceX Falcon Lunar Crash Is a Warning for Moon Bases",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] 月面基地の安全性や将来の宇宙インフラ設計に関わる重要な問題提起ですが、記事の中心はFalconの月面衝突とデブリ増加への警告であり、新しい技術や具体的なシステム実装の発表ではありません。エンジニア視点では、月面デブリの追跡、衝突回避、着陸地点の運用ルール、耐衝突設計などの課題を浮き彫りにする点に価値があります。一方で、ソフトウェア・クラウド・AIの直"
+    },
+    "5885ec94a4acfce7ffc55d1f1aad98ad": {
+      "score": 40,
+      "title": "Trump’s AI protectionism has come for robotics",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] ロボティクス、とくにヒューマノイド分野に関わる政策・産業保護の動きであり、部品調達、海外競争、製造エコシステムに影響する可能性はあります。ただし、記事の中心はAI保護主義という規制・政策論で、具体的な技術革新や製品発表ではありません。スニペットからも新制度や実装内容の具体性が乏しく、既出のAI関連テーマとも一部重なるため、技術ニュースとしては中低位に"
+    },
+    "12efd82dc29d0f8a7160143e80b6fa17": {
+      "score": 72,
+      "title": "NTT Data Is Said to Eye $9 Billion Outlay for Japan Data Centers",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] 日本国内のデータセンター計算能力を2033年までに1GWへ拡大する、少なくとも90億ドル規模の大規模投資計画であり、クラウド基盤、AIワークロード、電力・ネットワーク設計に広範な影響を与えます。エンジニア視点では、GPUを含む計算資源の調達、データセンターのアーキテクチャ、冷却・電力効率、分散インフラの設計需要を押し上げる重要な動きです。一方で、具体"
+    },
+    "add6fc359a16b2b5302590774ae03dfe": {
+      "score": 60,
+      "title": "Data Center Operator CyrusOne Lays IPO Groundwork",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] AI向けデータセンター需要を背景に、CyrusOneが大型IPOを準備している点は、クラウドインフラとデータセンター投資の動向を示す重要なニュースです。上場資金による負債返済や設備拡張が実現すれば、AIワークロードを支える電力・ネットワーク・計算資源の供給拡大につながる可能性があります。一方で、技術そのものの革新や新しいアーキテクチャの発表ではなく、"
+    },
+    "743033806c52ca8d64d50591f7fbc2f9": {
+      "score": 55,
+      "title": "UnityのDIは本当に必要か：Zenject継続・Reflex新規採用・VContainer比較の判断軸",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] Unityの大規模開発における依存関係管理、テスタビリティ、保守性に直結する実践的な技術記事です。Zenject、Extenject、Reflex、VContainerを比較し、既存プロジェクトの継続利用と新規採用の判断材料を提供する点は有用ですが、DI自体は確立された設計手法であり、業界の前提を変えるような新技術や大規模なアーキテクチャ革新ではあり"
+    },
+    "9b0b3fbef85cdec14e99470bef97df8f": {
+      "score": 52,
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] 自律型AIエージェントを推論・オーケストレーション・実行の層に分離し、OpenClawやOllamaを用いたスケーラブルなフルスタック構成を論じる研究で、エージェントシステムの設計・評価に有益な技術的示唆があります。一方、現時点ではarXivの新規論文であり、実運用での性能、再現可能なベンチマーク、既存方式を上回る具体的成果はスニペットから確認できま"
+    },
+    "f82a795723b0fa9da149f8911bd4c4f0": {
+      "score": 89,
+      "title": "Topology-Aware Data Movement for Disaggregated GPU Inference",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] LLM推論をPrefillとDecodeに分離する際のKVキャッシュ転送という、実運用上のボトルネックに焦点を当てた先端アーキテクチャ研究です。GPU間の物理トポロジーによって帯域が最大72倍変動する点を考慮し、従来の一様なRDMA前提を見直す内容は、分散GPU推論基盤やデータセンターネットワーク設計に直接影響します。70Bモデルでリクエストあたり2"
+    },
+    "60d4412ce9f9043c652065364fca7bf0": {
+      "score": 43,
+      "title": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] LLMがテスト問題の難易度をどこまで推定できるかを、複数のモデル・プロンプト・パラメータ設定で検証する研究であり、教育向け自動問題生成や評価システムの信頼性に関わる実用的なテーマです。一方で、arXivの研究段階で対象も読解・記述式試験に限定されており、LLM技術そのものを大きく変えるブレークスルーではありません。また、既出キーワードであるAI／LL"
+    },
+    "1d16f2de6c214dc0b0ef6a09560fc781": {
+      "score": 30,
+      "title": "ID-porten, Kontakt- og reservasjonsregisteret, Maskinporten, MinID, eFormidling, ELMA, eInnsyn, Ansattporten, Selvbetjen",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] ノルウェーの認証、電子署名、行政ポータル、企業向け連携基盤など複数の公共デジタルサービスで発生した運用障害に関する記事です。市民・企業・行政手続きへの影響範囲は広く、可用性や依存関係、障害時の業務継続性というエンジニアリング上の示唆はあります。一方で、技術革新や新しいアーキテクチャの発表ではなく、具体的な原因や復旧策も示されていないため、重要度は低〜"
+    },
+    "d1b47dead2e56987df79910511b2a772": {
+      "score": 38,
+      "title": "Advancing responsible AI across Europe",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] 欧州におけるAIガバナンス、透明性、セキュリティ、データ provenance に関する取り組みは企業のAI導入やコンプライアンスに影響しますが、技術仕様や新製品、画期的な研究成果ではなく、EU AI Actに対応する責任ある運用方針の共有が中心です。規制・運用ルール寄りのため評価は低めで、既出のAI関連トピックと同じ角度の内容であることから減点しま"
+    },
+    "caf62698bd229fe109ec221cbc436eee": {
+      "score": 58,
+      "title": "Automated Reasoning policy refinement in Amazon Bedrock",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] Amazon Bedrockにおける自動推論ポリシーの改良機能は、失敗したテストを診断し、形式論理や自然言語ルールの修正案を生成できるため、クラウド上のAIシステムの検証性・保守性を高める実用的な進化です。APIとコンソールの両方で導入手順が示され、変更を人間が承認してから適用できる点も運用面で有用です。一方で、既存のAmazon・Bedrock・A"
+    },
+    "fcabfe3d3076c1cce6353d93f3f37f01": {
+      "score": 35,
+      "title": "Enterprise teams model policy targeting in public preview",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] GitHub EnterpriseおよびCopilot向けに、ユーザー単位で利用モデルのポリシーを適用できる管理機能がパブリックプレビューになったという内容です。企業のAI運用やガバナンスには有用で、管理者が組織・チームごとに利用モデルを制御しやすくなる点は実務的な意義があります。一方で、基盤技術やアーキテクチャを大きく変える発表ではなく、主眼は運用"
+    },
+    "1156ed8acdd701e0f6b8291eaece463b": {
+      "score": 47,
+      "title": "May 04, 2026",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新であり、Debian 12におけるメタデータサーバー名前解決の信頼性向上や依存パッケージ更新は、運用安定性の面では有用です。ただし、既存機能の小規模な改善とリリースノートに留まり、アーキテクチャや開発手法を大きく変える新規性はありません。また、直近で取り上げ済みの「agent」と同じ"
+    },
+    "7010e4c586691012945cae9e606ba409": {
+      "score": 29,
+      "title": "Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] 自律型AIがサンドボックスを脱出して実際の企業を攻撃した点は、AIエージェントの安全設計や責任分界に関わる重要な事例です。一方で、記事の主題は技術革新そのものではなく、刑事責任や損害賠償などの法的論点であり、評価基準上は低めです。また、既出のAI・エージェント関連トピックと重なるため減点しました。 [Editorial: AI/SaaS topic "
+    },
+    "a94d1b5711af0e79b89ad42b71315a91": {
+      "score": 48,
+      "title": "IBM finds 92% of companies hit by AI security breaches lacked basic access controls",
+      "date": "2026-08-04",
+      "reason": "[Claude API Evaluation] AIシステムの侵害原因の92%がモデル自体ではなく、アクセス制御という基本的な運用設計にあったという点は、企業のAI導入に直接関わる実務的な示唆があり、影響範囲も広いです。一方で、新しいアーキテクチャや技術革新ではなく、既知のセキュリティ対策の重要性を示す調査報告に近いため、評価は中程度に留めます。また、直近に取り上げ済みの「ai」と重なるテーマであ"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-04/blog.md",
+    "show_notes_path": "out/2026-08-04/show_notes.md",
+    "script_path": "out/2026-08-04/script_2hosts.md",
+    "audio_path": "out/2026-08-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24743,
+        "output_tokens": 11338,
+        "cost_usd": 0.018554
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 37876,
+        "output_tokens": 7204,
+        "cost_usd": 0.221688
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4351,
+        "cost_usd": 0.052211999999999995
+      }
+    ],
+    "total_cost_usd": 0.292454
+  }
+}

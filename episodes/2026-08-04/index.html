@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 2</title>
+<title>トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-04/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-04/">
+<meta property="og:description" content="2026-08-04 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-04/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか",
+    "description": "2026-08-04 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-04",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-04/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-04/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか",
+    "description": "2026-08-04 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-04",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-04/",
+    "duration": "PT13M24S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-04/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,109 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-04/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-04/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-07-25/index.html" class="episode-card">
-        <div class="episode-date">2026-07-25</div>
-        <h3 class="episode-title">AlphaFold AIを活用し、遺伝子編集タンパク質をより安全に再設計することにチームが成功 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-07-24/index.html" class="episode-card">
-        <div class="episode-date">2026-07-24</div>
-        <h3 class="episode-title">Flux 3、最長20秒のネイティブ音声付き動画生成に対応——Black Forest Labs初の試み ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-07-23/index.html" class="episode-card">
-        <div class="episode-date">2026-07-23</div>
-        <h3 class="episode-title">NASAの新宇宙望遠鏡とOpenAIの自律型ハッカー ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=%E3%83%88%E3%83%9D%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%92%E8%80%83%E6%85%AE%E3%81%97%E3%81%9F%E3%83%87%E3%83%BC%E3%82%BF%E7%A7%BB%E5%8B%95%E3%81%AB%E3%82%88%E3%82%8B%E3%83%87%E3%82%A3%E3%82%B9%E3%82%A2%E3%82%B0%E3%83%AA%E3%82%B2%E3%83%BC%E3%83%88GPU%E6%8E%A8%E8%AB%96%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-04/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-04/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-07-22/index.html" class="episode-card">
-        <div class="episode-date">2026-07-22</div>
-        <h3 class="episode-title">キャンバスを使ったインタラクティブな体験の作り方 ほか</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-21/index.html" class="episode-card">
-        <div class="episode-date">2026-07-21</div>
-        <h3 class="episode-title">人間の数学者たちが反例によって追い越されつつある ほか</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-20/index.html" class="episode-card">
-        <div class="episode-date">2026-07-20</div>
-        <h3 class="episode-title">GoogleのDeepMind、動画生成AIはコンピュータービジョンが長年求めてきた「世界モデル」をすでに内包している…</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-19/index.html" class="episode-card">
-        <div class="episode-date">2026-07-19</div>
-        <h3 class="episode-title">中国が新設した「世界人工知能協力機構」、習主席による並行的なAI秩序構築への最も明確な動き ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-18/index.html" class="episode-card">
-        <div class="episode-date">2026-07-18</div>
-        <h3 class="episode-title">捜索救助における自律型UAV群のための3階層インテリジェント学習アーキテクチャ ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-17/index.html" class="episode-card">
-        <div class="episode-date">2026-07-17</div>
-        <h3 class="episode-title">OriginBlame：AIトレーニングデータセットにおけるレコードおよびトークンレベルのデータ出所追跡 ほか</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>10 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-16/index.html" class="episode-card">
-        <div class="episode-date">2026-07-16</div>
-        <h3 class="episode-title">OpenAIが自社AIを攻撃するためにAIを活用、人間を超える成果を達成 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../../index.html">前へ</a><a href="../../index.html">1</a><span class="current">2</span><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../3/index.html">次へ</a><span class="summary">Page 2 / 13</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1013,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1083,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1112,5 +1039,248 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-04"
+subtitle: "トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 / AWSがバイブコーディングのスタートアップSuperblocksを支援、その影響は大..."
+date: "2026-08-04"
+vol: 126
+topics:
+  - AI
+  - LLM
+  - Hardware
+  - Cloud
+  - Startup
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-04
+
+*📖 約10分で読めます ｜ 🏷️ AI, LLM, Hardware, Cloud, Startup*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論** — GPU間帯域差72倍を無視するKVキャッシュ転送の非効率
+- 🤖 **AWSがバイブコーディングのスタートアップSuperblocksを支援、その影響は大きい** — AWSがvibe codingツールSuperblocksを自社クラウドに統合
+- 📊 **NTTデータ、日本国内のデータセンターに90億ドル投資検討か** — NTTデータ、国内DCに9000億円超投資へ
+- 🤖 **音声AIをリアルタイムで応答させるシステムを6ヶ月で構築した方法** — GPT-Liveが実現する半年開発の低遅延音声AI
+- 🤖 **データセンター運営会社CyrusOne、IPOの準備を開始** — データセンター大手CyrusOneが上場準備へ
+- 🤖 **Amazon Bedrockの自動推論によるポリシー改善** — Bedrockが自動推論ポリシーの修正を自動提案
+
+---
+
+## 🤖 トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論
+\`AI\` \`LLM\` \`Hardware\`
+
+<details>
+<summary>📄 原題: Topology-Aware Data Movement for Disaggregated GPU Inference</summary>
+</details>
+
+> **一言で**: GPU間帯域差72倍を無視するKVキャッシュ転送の非効率
+
+- 分離型LLM推論はprefillとdecodeで別のGPUプール使用
+- 70Bモデルはリクエスト毎に2.6GBのKVキャッシュ転送が必要
+- 本番規模で合計100GB/s超の帯域が必要になるそうです
+- GPU間帯域は物理的な位置関係で最大72倍も差があるとのこと
+- DistServeやSplitwise、Mooncakeは一律RDMA転送で対応
+
+💡 **なぜ重要か**
+LLM推論ではprefill（入力処理）とdecode（生成）を別GPU群に分離する構成が広がっています。この分離型構成はGPU利用効率を高める一方、GPU間でKVキャッシュという中間データを転送する必要があり、これがデータセンター内ネットワークの新たな負荷になっているそうです。 GPU同士の物理的な配置やネットワークトポロジー（接続構造）を考慮しないデータ転送方式は、大規模運用時にボトルネックになりかねません。今後は帯域の偏りを前提にした通信設計が、LLM推論基盤の標準になっていく可能性があります。
+
+🎯 **今日のアクション**
+分離型推論基盤を運用するエンジニアは、GPU間の物理的な距離や帯域差を把握し、通信経路の最適化を検討すべきです。既存のRDMA一律利用の設計を見直す価値があると見られています。
+
+🔗 [原文を読む](https://arxiv.org/abs/2607.28633)
+
+---
+
+## 🤖 AWSがバイブコーディングのスタートアップSuperblocksを支援、その影響は大きい
+\`AI\` \`Cloud\` \`Startup\`
+
+<details>
+<summary>📄 原題: AWS is helping vibe-coding startup Superblocks, and the implications are big</summary>
+</details>
+
+> **一言で**: AWSがvibe codingツールSuperblocksを自社クラウドに統合
+
+- AWSがSuperblocksをAWS顧客のプライベートクラウドに埋め込み可能にした
+- Superblocksはvibe coding（AIとの対話でコードを生成する手法）系スタートアップ
+- アプリをAIモデルから切り離す流れの一歩と見られています
+
+💡 **なぜ重要か**
+これまでvibe codingツールは特定のAIモデルと強く結びつく形で提供されることが多かったと見られています。AWSが自社のクラウド基盤にこうしたツールを組み込むことで、企業は自社のセキュリティ基準やデータ管理ポリシーを保ったまま開発ツールを利用できるようになるそうです。 アプリ開発の基盤とAIモデルの選択が分離していくと、企業はモデルの乗り換えがしやすくなり、特定のAIベンダーへの依存度が下がる可能性があります。クラウド大手が開発ツールの流通経路を握る動きも強まりそうです。
+
+🎯 **今日のアクション**
+エンジニアやリーダーは、自社のクラウド環境で使えるvibe codingツールの選択肢を早めに把握しておくとよいでしょう。特定モデルへの依存を前提としたワークフロー設計は見直す価値があります。
+
+🔗 [原文を読む](https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/)
+
+---
+
+## 📊 NTTデータ、日本国内のデータセンターに90億ドル投資検討か
+\`Data\` \`Cloud\` \`Business\`
+
+<details>
+<summary>📄 原題: NTT Data Is Said to Eye $9 Billion Outlay for Japan Data Centers</summary>
+</details>
+
+> **一言で**: NTTデータ、国内DCに9000億円超投資へ
+
+- NTTデータが2033年までに最低90億ドルを投資する見通しだそうです
+- 国内データセンターの演算能力を現在の4倍、1ギガワットまで拡大する計画
+- 背景には日本国内での需要急増があると見られています
+
+💡 **なぜ重要か**
+生成AIの普及でデータセンター需要が世界的に急拡大しており、日本国内でも計算資源の不足が課題になっています。NTTデータの大規模投資は、この需要増に応える動きの一つと見られています。 国内のクラウド基盤やAI関連サービスの供給力が底上げされ、企業のAI活用が加速する可能性があります。一方で電力需要の増加や用地確保など、インフラ面の課題も一段と重要になりそうです。
+
+🎯 **今日のアクション**
+エンジニアは今後の国内データセンター拡充を見据え、大規模計算資源を前提としたシステム設計や電力効率を意識した運用手法を検討しておくとよいでしょう。
+
+🔗 [原文を読む](https://www.bloomberg.com/news/articles/2026-08-03/ntt-data-is-said-to-eye-9-billion-outlay-for-japan-data-centers)
+
+---
+
+## 🤖 音声AIをリアルタイムで応答させるシステムを6ヶ月で構築した方法
+\`AI\` \`LLM\`
+
+<details>
+<summary>📄 原題: How we built a realtime system for responsive voice AI in six months</summary>
+</details>
+
+> **一言で**: GPT-Liveが実現する半年開発の低遅延音声AI
+
+- GPT-Liveは会話の順番待ちが不要な音声モデルを採用
+- 低遅延（応答の遅れが少ない）な仕組みで自然な対話を実現
+- 開発期間はわずか6ヶ月と見られています
+
+💡 **なぜ重要か**
+従来の音声AIは発話の順番を区切って処理するため、会話が不自然になりやすいという課題がありました。GPT-Liveはこの「ターン制」を排除し、人同士の会話に近い連続的なやり取りを目指している点が注目されます。 音声AIの応答速度と自然さが向上すれば、コールセンターや音声アシスタントなど幅広い分野での実用化が進むと考えられます。リアルタイム性を重視したAIシステムの設計思想が、他のAI開発にも影響を与える可能性があります。
+
+🎯 **今日のアクション**
+エンジニアはリアルタイム処理におけるアーキテクチャ設計の工夫を学び、低遅延を実現する技術要素を自社サービスに応用できないか検討するとよいでしょう。
+
+🔗 [原文を読む](https://openai.com/index/continuous-voice-interaction-with-gpt-live)
+
+---
+
+## 🤖 データセンター運営会社CyrusOne、IPOの準備を開始
+\`AI\` \`Business\` \`Data\`
+
+<details>
+<summary>📄 原題: Data Center Operator CyrusOne Lays IPO Groundwork</summary>
+</details>
+
+> **一言で**: データセンター大手CyrusOneが上場準備へ
+
+- KKRとBlackRock傘下GIPが所有するCyrusOneがIPO準備を開始
+- 投資銀行の面談・選定を進めており、来年最大級の上場になる可能性
+- 調達資金はデータセンター拡張の借入金返済に充てる見込み
+- 2022年に150億ドルで非公開化した経緯があり、株主は資金回収を狙う
+
+💡 **なぜ重要か**
+AIブームによるデータセンター需要拡大が背景にあり、大手投資会社が公開市場での投資家需要を見込んでいると見られています。 AI関連インフラ企業の上場が続けば、公開市場でのAI投資の評価軸が一段と明確になりそうです。
+
+🎯 **今日のアクション**
+エンジニアやリーダーはデータセンター業界の資金調達動向を注視し、インフラ投資計画に反映すべきです。
+
+🔗 [原文を読む](https://www.theinformation.com/articles/data-center-operator-cyrusone-lays-ipo-groundwork)
+
+---
+
+## 🤖 Amazon Bedrockの自動推論によるポリシー改善
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Automated Reasoning policy refinement in Amazon Bedrock</summary>
+</details>
+
+> **一言で**: Bedrockが自動推論ポリシーの修正を自動提案
+
+- Amazon Bedrockが自動推論ポリシーの自動修正機能を追加
+- 失敗テストを診断し、ルールや表現の問題を形式論理で修正案として提示
+- 修正は自動適用でなく、必ず承認してから反映する仕組み
+- API経由とコンソール経由の両方の操作手順を記事内で解説
+
+💡 **なぜ重要か**
+AIの出力を形式論理で検証する自動推論は、誤りを防ぐ重要な仕組みですが、ポリシー作成や修正には専門知識が必要でした。今回の機能はその手間を減らす狙いがあると見られています。 AIシステムの信頼性検証がより身近になり、形式手法を使った品質保証が広がる可能性があります。承認制を維持している点も、企業導入のハードルを下げる要素になりそうです。
+
+🎯 **今日のアクション**
+Bedrockで自動推論ポリシーを運用しているチームは、新しい修正提案機能を試し、承認フローに組み込む検討をすると良さそうです。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースは、AI活用の拡大に伴うインフラ需要の急増と、それを支える基盤技術の高度化という共通の潮流を映し出しています。ディスアグリゲートGPU推論の話題は、AI処理を効率化するためにハードウェアレベルでの最適化がいかに重要になっているかを示しており、単に計算資源を増やすだけでなく、データ移動やネットワーク構造まで含めた精緻な設計が競争力の鍵になっていることがわかります。一方、AWSによるバイブコーディングツールへの投資は、AI技術がインフラだけでなく開発者体験そのものを変革し、クラウド大手がその入り口を押さえようとする動きを表しています。そしてNTTデータの巨額データセンター投資は、こうしたAI需要の急増を支える物理的基盤への投資競争が世界規模かつ国内でも加速していることを裏付けており、三者はハードウェア最適化・ソフトウェア革新・インフラ投資という異なる層で、同じAI時代の到来という大きな波に対応していると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論**: 分離型推論基盤を運用するエンジニアは、GPU間の物理的な距離や帯域差を把握し、通信経路の最適化を検討すべきです。既存のRDMA一律利用の設計を見直す価値があると見られています。
+2. **AWSがバイブコーディングのスタートアップSuperblocksを支援、その影響は大きい**: エンジニアやリーダーは、自社のクラウド環境で使えるvibe codingツールの選択肢を早めに把握しておくとよいでしょう。特定モデルへの依存を前提としたワークフロー設計は見直す価値があります。
+3. **NTTデータ、日本国内のデータセンターに90億ドル投資検討か**: エンジニアは今後の国内データセンター拡充を見据え、大規模計算資源を前提としたシステム設計や電力効率を意識した運用手法を検討しておくとよいでしょう。
+
+---
+
+## 🔗 出典一覧
+- [トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論](https://arxiv.org/abs/2607.28633)
+- [AWSがバイブコーディングのスタートアップSuperblocksを支援、その影響は大きい](https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/)
+- [NTTデータ、日本国内のデータセンターに90億ドル投資検討か](https://www.bloomberg.com/news/articles/2026-08-03/ntt-data-is-said-to-eye-9-billion-outlay-for-japan-data-centers)
+- [音声AIをリアルタイムで応答させるシステムを6ヶ月で構築した方法](https://openai.com/index/continuous-voice-interaction-with-gpt-live)
+- [データセンター運営会社CyrusOne、IPOの準備を開始](https://www.theinformation.com/articles/data-center-operator-cyrusone-lays-ipo-groundwork)
+- [Amazon Bedrockの自動推論によるポリシー改善](https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/)`;
+const notesMd = `# Tech News Radio Show Notes - #126 (2026-08-04)
+
+## エピソード情報
+- **エピソード**: #126
+- **日付**: 2026-08-04
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Topology-Aware Data Movement for Disaggregated GPU Inference](https://arxiv.org/abs/2607.28633)
+- [AWS is helping vibe-coding startup Superblocks, and the implications are big](https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/)
+- [NTT Data Is Said to Eye $9 Billion Outlay for Japan Data Centers](https://www.bloomberg.com/news/articles/2026-08-03/ntt-data-is-said-to-eye-9-billion-outlay-for-japan-data-centers)
+
+### 注目の深掘り
+- [How we built a realtime system for responsive voice AI in six months](https://openai.com/index/continuous-voice-interaction-with-gpt-live)
+
+### 小ネタ・その他
+- [Data Center Operator CyrusOne Lays IPO Groundwork](https://www.theinformation.com/articles/data-center-operator-cyrusone-lays-ipo-groundwork)
+- [Automated Reasoning policy refinement in Amazon Bedrock](https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
