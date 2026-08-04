@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#127 Amazon Bedrockで基盤モデルのグラウンディングに対応したWeb検索機能を提供開始 ほか</title>
+      <description>Tech News Radio Show Notes - #127 (2026-08-05)
+
+エピソード情報
+• エピソード: #127
+• 日付: 2026-08-05
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Introducing Web Search on Amazon Bedrock for foundation model grounding (https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/)
+• Oxide Computer raises $445M (SEC Form D) (https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml)
+• Landmark Deal Would Officially Add Laser Weapons to US Army Arsenal (https://www.wired.com/story/landmark-deal-would-officially-add-laser-weapons-to-us-army-arsenal/)
+
+注目の深掘り
+• Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer (https://www.anthropic.com/news/tino-cuellar)
+
+小ネタ・その他
+• Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models (https://arxiv.org/abs/2608.00019)
+• Cost-Effective Automated Judging of Natural-Language Mathematical Proofs (https://arxiv.org/abs/2608.00004)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-05/episode_audio.mp3" length="77512364" type="audio/mpeg" />
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-05</guid>
+      <itunes:duration>13:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Amazon Bedrockで基盤モデルのグラウンディングに対応したWeb検索機能を提供開始 ほか</itunes:title>
+      <itunes:episode>127</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #127 (2026-08-05)
+
+エピソード情報
+• エピソード: #127
+• 日付: 2026-08-05
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Introducing Web Search on Amazon Bedrock for foundation model grounding (https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/)
+• Oxide Computer raises $445M (SEC Form D) (https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml)
+• Landmark Deal Would Officially Add Laser Weapons to US Army Arsenal (https://www.wired.com/story/landmark-deal-would-officially-add-laser-weapons-to-us-army-arsenal/)
+
+注目の深掘り
+• Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer (https://www.anthropic.com/news/tino-cuellar)
+
+小ネタ・その他
+• Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models (https://arxiv.org/abs/2608.00019)
+• Cost-Effective Automated Judging of Natural-Language Mathematical Proofs (https://arxiv.org/abs/2608.00004)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-05/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-05/eyecatch.webp" />
+    </item>
+    <item>
       <title>#126 トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか</title>
       <description>Tech News Radio Show Notes - #126 (2026-08-04)
 

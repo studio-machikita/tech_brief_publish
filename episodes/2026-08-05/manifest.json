@@ -1,0 +1,370 @@
+{
+  "date": "2026-08-05",
+  "episode_date_local": "2026-08-05",
+  "content_snapshot_date": "2026-08-05",
+  "show_length_sec": 807,
+  "audio_size": 77512364,
+  "generated_at": "2026-08-04T21:27:28.110911+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-7822c7b3",
+      "title": "Introducing Web Search on Amazon Bedrock for foundation model grounding",
+      "title_ja": "Amazon Bedrockで基盤モデルのグラウンディングに対応したWeb検索機能を提供開始",
+      "one_liner": "Bedrockに検索機能を標準搭載、外部連携が不要に",
+      "fingerprint": "7822c7b3b2befa1be845e271027db9e3",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-33185214",
+      "title": "Oxide Computer raises $445M (SEC Form D)",
+      "title_ja": "Oxide Computer、4億4500万ドルを調達(SEC Form D)",
+      "one_liner": "Oxide Computerが445億円規模の資金調達",
+      "fingerprint": "3318521425aef06bba9732b8e9071009",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fecdd121",
+      "title": "Landmark Deal Would Officially Add Laser Weapons to US Army Arsenal",
+      "title_ja": "米陸軍、レーザー兵器を正式装備化する画期的契約を締結",
+      "one_liner": "米陸軍、レーザー兵器を正式装備へ",
+      "fingerprint": "fecdd1217e1718c8db4c78e12ddf9723",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-4e01b130",
+      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "title_ja": "マリアーノ・フロレンティーノ(ティノ)・クエヤル氏、Anthropicの最高渉外責任者に就任",
+      "one_liner": "Anthropic、初の政策統括役員にTino Cuéllar氏起用",
+      "fingerprint": "4e01b1306b54113c694f1f954e54ae88",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-7c5d1ed5",
+      "title": "Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models",
+      "title_ja": "大規模言語モデルを用いたオペレーションズリサーチのための不確実性考慮型シミュレーションベース推論",
+      "one_liner": "LLMによる最適化問題の定式化を不確実性評価で改善",
+      "fingerprint": "7c5d1ed5f2340ce7313e1666fc00f67e",
+      "score": 52,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-1b5d67fb",
+      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
+      "title_ja": "自然言語による数学的証明の低コストな自動判定",
+      "one_liner": "安価なAIで数学証明の自動採点は可能か検証",
+      "fingerprint": "1b5d67fbe8671ffe5cb7306aa9aa3188",
+      "score": 50,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-38dbea87",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automated web insight extraction with Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-9b0b3fbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems"
+    },
+    {
+      "item_id": "item-11220392",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Third-party cyber evaluations involving OpenAI models"
+    },
+    {
+      "item_id": "item-6b4fae6c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "This year's Pulitzer Prizes saw a record number of winners disclose AI use"
+    },
+    {
+      "item_id": "item-60fec6bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it"
+    },
+    {
+      "item_id": "item-1156ed8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 04, 2026"
+    },
+    {
+      "item_id": "item-16d3608f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex"
+    },
+    {
+      "item_id": "item-b0db2cd1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows"
+    },
+    {
+      "item_id": "item-c7512346",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理"
+    },
+    {
+      "item_id": "item-70f377ae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: US robot restrictions, and ICE’s DNA grab"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-7c5147c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year"
+    },
+    {
+      "item_id": "item-c5792b78",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of GitHub Spark on github.com"
+    },
+    {
+      "item_id": "item-e7ee369a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Robinhood Now Makes More Revenue From Predictions Than From Stock Trades"
+    },
+    {
+      "item_id": "item-b76c982d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "item_id": "item-8ffea9e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Retiring the Copilot Billing Preview app"
+    },
+    {
+      "item_id": "item-126def33",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ScottsMiracle-Gro CEO on New Growth Algorithm, Pricing"
+    },
+    {
+      "item_id": "item-954f811f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years"
+    }
+  ],
+  "score_cache": {
+    "3318521425aef06bba9732b8e9071009": {
+      "score": 62,
+      "title": "Oxide Computer raises $445M (SEC Form D)",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Oxide Computerによる4億4,500万ドルの調達は、クラウド事業者向けのサーバー・データセンター基盤を再設計するスタートアップへの大型投資であり、ハードウェアとインフラアーキテクチャの進展として重要です。特に従来のクラウド依存とは異なる運用モデルやラックスケール基盤の普及を後押しする可能性があります。一方、SEC Form Dの提出だけで"
+    },
+    "11220392e411e27aac9e08b71e67cdb0": {
+      "score": 47,
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] OpenAIモデルの第三者サイバーセキュリティ評価と、その過程で発生したインシデントへの対策は、AIの安全性・評価プロセスの透明性に関わる重要な話題です。一方で、具体的なモデル性能の飛躍や新技術の発表ではなく、主眼はセキュリティ運用と評価ガバナンスにあります。また、既出のAI・モデル関連テーマと重なるため減点し、重要度は中程度と判断しました。 [Ed"
+    },
+    "4e01b1306b54113c694f1f954e54ae88": {
+      "score": 54,
+      "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Anthropicの最高幹部として、元米国政府・司法分野の専門家であるTino Cuéllar氏をグローバル・アフェアーズ責任者に迎える人事は、AI企業の政策対応や国際的な規制・政府関係に影響する重要な動きです。一方で、新しいモデルや技術、アーキテクチャの発表ではなく、エンジニアリングへの直接的な影響は限定的です。AI関連の既出テーマに近いものの、今"
+    },
+    "7822c7b3b2befa1be845e271027db9e3": {
+      "score": 90,
+      "title": "Introducing Web Search on Amazon Bedrock for foundation model grounding",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Amazon BedrockにWeb検索をネイティブ統合し、モデル応答を最新のWeb情報でグラウンディングできるGA機能は、RAG基盤の構築・運用を簡素化する実用性の高い発表です。外部検索APIや追加ベンダーの審査・認証連携が不要になり、エンタープライズでの導入障壁を下げる点も重要です。AIおよびクラウドアーキテクチャの進化に該当しますが、検索グラウ"
+    },
+    "b0db2cd15ff0d092e3e51f96301de630": {
+      "score": 43,
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIで業務効率化した事例であり、開発支援AIの実運用例として一定の参考価値はあります。ただし、新しいモデルやアーキテクチャの発表ではなく、単一組織のワークフロー改善に関するケーススタディで、技術的な影響範囲は限定的です。既出キーワードの「copilot」「coding」「automated」と同じ方向性の話"
+    },
+    "8ffea9e3211100f9f80540f2ff2892e0": {
+      "score": 16,
+      "title": "Retiring the Copilot Billing Preview app",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] GitHub Copilotの請求プレビューアプリを終了し、既存のGitHub請求設定へ統合する運用変更であり、技術革新やアーキテクチャ上の新規性はほとんどありません。影響はCopilot利用者の請求確認手順に限定され、さらに既出キーワードであるCopilotに関する同一系統の話題のため減点しました。 [Editorial: AI-focused s"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 41,
+      "title": "April 27, 2026",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した定期的なリリースであり、運用上の安定性や最新パッケージ利用には意義があります。ただし、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されておらず、影響範囲も限定的です。さらに、既出キーワードである「agent」「2026」と同じエ"
+    },
+    "7c5147c47ec2fecae1721a3d3fe1e408": {
+      "score": 38,
+      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] SpaceXによるTesla Megapackの大規模調達は、xAIのデータセンターを支える電力・蓄電インフラの具体的な拡張として注目に値します。AI計算基盤のボトルネックがGPUだけでなく電力網や蓄電設備にも及ぶことを示す点で、テック業界への示唆はあります。一方で、技術そのものの新発明ではなく、既存製品の調達に関するニュースです。また、既出キーワー"
+    },
+    "6b4fae6c76435763e05e054acf3a7fe7": {
+      "score": 47,
+      "title": "This year's Pulitzer Prizes saw a record number of winners disclose AI use",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 報道機関がLLMを大量文書の検索・調査に実運用し、Pulitzer受賞作での利用が過去最多となった点は、AIの実務導入と透明性の観点で意義があります。一方、文章生成や編集は禁止されており、技術革新そのものというより運用方針・開示慣行に関するニュースです。また、AIやLLM活用は直近の既出キーワードに該当するため、同テーマの重複として減点しました。 ["
+    },
+    "60fec6bbb24b0bcf744ca03e073b64ba": {
+      "score": 47,
+      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] AIを活用した試験監督システムの失敗により5万8,000人が再受験を強いられ、トップスコアが5倍に増加した点は、AIの信頼性・評価設計・大規模運用に関わる具体的な事例として重要です。一方で、基盤技術の革新というよりは導入失敗や品質保証、運用ガバナンスの問題が中心であり、エンジニアにとっては有益でも業界の前提を変える発表ではありません。既出のAI関連ト"
+    },
+    "fecdd1217e1718c8db4c78e12ddf9723": {
+      "score": 55,
+      "title": "Landmark Deal Would Officially Add Laser Weapons to US Army Arsenal",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 米陸軍が高出力レーザー兵器を正式装備として採用する契約は、指向性エネルギー、防空システム、ドローン対策の実運用化に関わる重要な動きです。電力供給、冷却、ビーム制御、センサー統合、リアルタイム追跡など、複数の高度な技術領域に波及します。一方で、画期的な新技術の発明というよりは、既存技術を軍の標準装備へ移行する調達・制度面の進展であり、影響範囲も主に防衛"
+    },
+    "70f377ae7227243f9af2777b724738e1": {
+      "score": 42,
+      "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] ロボティクス、とくに人型ロボットの輸出・技術規制は、部品調達や学習データ、開発競争に影響し得るため技術業界への波及性があります。一方で、記事の中心は米国の規制・政策動向とICEによるDNA収集であり、具体的な新技術や製品発表ではありません。また、既出キーワードのAIに関連する保護主義の話題でもあるため、重複分を考慮して減点しました。 [Editori"
+    },
+    "126def330cb562da9f2aa4c587d44a86": {
+      "score": 10,
+      "title": "ScottsMiracle-Gro CEO on New Growth Algorithm, Pricing",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 園芸用品メーカーのCEOによる成長戦略や価格設定に関する経営インタビューであり、AI・ソフトウェア・クラウド・プログラミング技術などの技術革新を扱う記事ではありません。エンジニアリングへの直接的な影響や新規技術性がほぼなく、一般企業の事業戦略ニュースにとどまるため、最低評価帯としました。"
+    },
+    "e7ee369a3b275affc3e4f06d6c86fc60": {
+      "score": 36,
+      "title": "Robinhood Now Makes More Revenue From Predictions Than From Stock Trades",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Robinhoodの予測市場事業が急成長し、株式・暗号資産を上回る収益源になった点は、金融プラットフォームの事業モデルや市場構造に大きな変化を示しています。一方で、記事の中心は売上構成と市場競争であり、AI・クラウド・ソフトウェアアーキテクチャなどの技術革新や、エンジニアリング上の新規性は限定的です。予測市場の普及に伴う規制・リスク管理の論点はあるも"
+    },
+    "c7512346e0efbb387483d234500e7e82": {
+      "score": 43,
+      "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Cerebrasが実際に構築した社内ナレッジ検索基盤を扱っており、RAGの設計、文書取り込み、検索精度、運用方法などを学べる点は、エンタープライズAI基盤の実装例として有用です。一方で、RAG自体は既知の技術であり、業界の前提を変える新規発表ではありません。また、直近に取り上げ済みのAI・社内データ活用系の話題と重なるため減点しました。 [Edito"
+    },
+    "9b0b3fbef85cdec14e99470bef97df8f": {
+      "score": 48,
+      "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 自律型AIエージェントを推論・オーケストレーション・実行の層に分離し、OpenClawやOllamaを含むフルスタック構成として整理する点は、実装アーキテクチャや評価手法の理解に有用です。一方で、業界の前提を変える実証済み製品や基盤技術の発表ではなく、現時点ではarXiv論文による包括的な設計提案に留まっています。また、直近に取り上げ済みのAI、モデ"
+    },
+    "7c5d1ed5f2340ce7313e1666fc00f67e": {
+      "score": 52,
+      "title": "Uncertainty-Aware Simulation-Based Inference for Operations Research with Large Language Models",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 大規模言語モデルをオペレーションズ・リサーチへ適用する際の課題を、シミュレーションベース推論と不確実性の扱いによって解決しようとする研究であり、単なる回答生成から、整合的な最適化モデルを構築するための推論プロセス改善へ踏み込んでいる点は技術的に興味深いです。一方で、現時点ではarXivの新規論文であり、実運用での有効性や既存手法に対する優位性、適用範"
+    },
+    "1b5d67fbe8671ffe5cb7306aa9aa3188": {
+      "score": 50,
+      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 安価なオープンウェイトモデルを数学証明の自動採点に活用する研究であり、LLM評価コストの削減や数学推論システムのベンチマーク運用に実務的な価値があります。一方、検証件数は200件と限定的で、汎化性や誤採点時のリスク、実運用での信頼性はまだ不明です。また、既に扱われたAI・モデル・自動化・推論系の話題と近いため20点減点しました。 [Editorial"
+    },
+    "954f811fe26a1041d91bf7cd1c18f4e8": {
+      "score": 6,
+      "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] 技術的な製品発表やソフトウェア開発、AI、クラウドなどに関するニュースではなく、個人的な追悼記事です。エンジニアリング上の新規性・業界への影響・実装面での具体性がないため、一般消費者向け話題よりもさらに低い評価としました。"
+    },
+    "16d3608fcb234da552778013ea33606c": {
+      "score": 46,
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] ChatGPT WorkとCodexを教育現場向けに拡張し、K-12から大学まで教師・学生の学習、研究、開発を支援する点は、生成AIの実利用を広げる具体的な発表です。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、教育向けプラグインという応用・機能拡張が中心です。また、既出のAI、コーディング、エージェント関連トピックと重なるため減点しました。"
+    },
+    "b76c982d642602a360e5294110af788f": {
+      "score": 36,
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "date": "2026-08-04",
+      "reason": "[ScoreCache 2026-08-04] [Claude API Evaluation] 実際のサイバーセキュリティインシデントを評価した内容で、AIや自律エージェントの安全性検証に関係する可能性はあるものの、記事タイトルだけでは新技術の発表やアーキテクチャ上の革新性は確認できません。主題はセキュリティ評価・リスク検証に分類され、技術者にとって実務的な示唆はある一方、評価基準上は低評価帯に位"
+    },
+    "38dbea87e621ba4d00ea9f4464b0d65b": {
+      "score": 49,
+      "title": "Automated web insight extraction with Amazon Bedrock AgentCore",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] Bedrock AgentCore Browser、Amazon Bedrock、OpenSearch Serverless、Lambdaを組み合わせ、RSS監視からWebページのレンダリング、AIによる洞察抽出、検索までを自動化する実装例であり、実務的なアーキテクチャとしては有用です。一方で、既出キーワードのAmazon、Bedrock、agent"
+    },
+    "c5792b784f5f4ce272efab93e6a7692b": {
+      "score": 38,
+      "title": "Upcoming deprecation of GitHub Spark on github.com",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] GitHub Sparkの新規利用・アプリ作成が停止され、既存ユーザーも短期間で利用できなくなるため、対象ユーザーや関連ワークフローには実務上の影響があります。ただし、これは新技術の発表やアーキテクチャの進化ではなく、特定サービスの終了告知であり、業界全体への波及範囲も限定的です。 [Editorial: AI-focused source +6]"
+    },
+    "1156ed8acdd701e0f6b8291eaece463b": {
+      "score": 47,
+      "title": "May 04, 2026",
+      "date": "2026-08-05",
+      "reason": "[Claude API Evaluation] クラウド上のAgent Platform WorkbenchにおけるDebian 12対応イメージの更新で、依存パッケージの最新化やメタデータサーバー名前解決の信頼性向上は実運用上有用です。ただし、新機能やアーキテクチャ変更ではなく、限定的な保守・安定性改善にとどまります。また、既報キーワードであるAgent関連の続報に該当するため、重複分を減点しま"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-05/blog.md",
+    "show_notes_path": "out/2026-08-05/show_notes.md",
+    "script_path": "out/2026-08-05/script_2hosts.md",
+    "audio_path": "out/2026-08-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24084,
+        "output_tokens": 10204,
+        "cost_usd": 0.017062
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 38220,
+        "output_tokens": 7220,
+        "cost_usd": 0.22296
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4367,
+        "cost_usd": 0.052404000000000006
+      }
+    ],
+    "total_cost_usd": 0.292426
+  }
+}
