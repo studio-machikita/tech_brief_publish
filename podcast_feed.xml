@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#128 Moove、ロボタクシー業界の基盤となるべく2億5000万ドルを調達 ほか</title>
+      <description>Tech News Radio Show Notes - #128 (2026-08-06)
+
+エピソード情報
+• エピソード: #128
+• 日付: 2026-08-06
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Moove raises $250M to become the backbone of the robotaxi industry (https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/)
+• New ways to learn and teach with ChatGPT Work and Codex (https://openai.com/index/learn-teach-chatgpt-work-codex)
+• Claude Code の「無駄」を可視化するツール cclens を作った (https://zenn.dev/lambdalisue/articles/introduce-cclens)
+
+注目の深掘り
+• TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering (https://arxiv.org/abs/2608.02609)
+
+小ネタ・その他
+• How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/)
+• Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously (https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/)
+• Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously (https://www.theinformation.com/briefings/jeff-dean-leaves-google-demis-hassabis-steps-aside-google-deepmind-ceo)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-06/episode_audio.mp3" length="76691564" type="audio/mpeg" />
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-06</guid>
+      <itunes:duration>13:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Moove、ロボタクシー業界の基盤となるべく2億5000万ドルを調達 ほか</itunes:title>
+      <itunes:episode>128</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #128 (2026-08-06)
+
+エピソード情報
+• エピソード: #128
+• 日付: 2026-08-06
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Moove raises $250M to become the backbone of the robotaxi industry (https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/)
+• New ways to learn and teach with ChatGPT Work and Codex (https://openai.com/index/learn-teach-chatgpt-work-codex)
+• Claude Code の「無駄」を可視化するツール cclens を作った (https://zenn.dev/lambdalisue/articles/introduce-cclens)
+
+注目の深掘り
+• TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering (https://arxiv.org/abs/2608.02609)
+
+小ネタ・その他
+• How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/)
+• Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously (https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/)
+• Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously (https://www.theinformation.com/briefings/jeff-dean-leaves-google-demis-hassabis-steps-aside-google-deepmind-ceo)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-06/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-06/eyecatch.webp" />
+    </item>
+    <item>
       <title>#127 Amazon Bedrockで基盤モデルのグラウンディングに対応したWeb検索機能を提供開始 ほか</title>
       <description>Tech News Radio Show Notes - #127 (2026-08-05)
 

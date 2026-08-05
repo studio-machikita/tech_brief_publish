@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-06",
+  "episode_date_local": "2026-08-06",
+  "content_snapshot_date": "2026-08-06",
+  "show_length_sec": 798,
+  "audio_size": 76691564,
+  "generated_at": "2026-08-05T21:27:53.323544+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-75d65046",
+      "title": "Moove raises $250M to become the backbone of the robotaxi industry",
+      "title_ja": "Moove、ロボタクシー業界の基盤となるべく2億5000万ドルを調達",
+      "one_liner": "Mooveが250億円調達、ロボタクシー車両管理を強化",
+      "fingerprint": "75d65046f50d13afc3a0c0759dd5a75b",
+      "score": 81,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-16d3608f",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "title_ja": "ChatGPT Work と Codex による学習・指導の新たな方法",
+      "one_liner": "ChatGPT Workに教育向けの新機能が追加",
+      "fingerprint": "16d3608fcb234da552778013ea33606c",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-75c93f66",
+      "title": "Claude Code の「無駄」を可視化するツール cclens を作った",
+      "title_ja": "Claude Code の「無駄」を可視化するツール cclens を作った",
+      "one_liner": "Claude Codeの無駄を可視化する自作ツール cclens",
+      "fingerprint": "75c93f66df784f2723b2aeb7c524946f",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-487aefa8",
+      "title": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "title_ja": "TabletCraft:双方向アッカド語ニューラル機械翻訳と楔形文字レンダリングで4000年の文化的隔たりを繋ぐ",
+      "one_liner": "アッカド語と楔形文字の双方向AI翻訳ツール",
+      "fingerprint": "487aefa8a380197f45d28779e91f4603",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-a6b25de1",
+      "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+      "title_ja": "LendingTreeが Amazon Bedrock でマルチエージェント型住宅ローンアシスタントを構築した方法",
+      "one_liner": "LendingTreeがBedrockで住宅ローン相談AIを構築",
+      "fingerprint": "a6b25de1a92fba667532ac7c79fc5a56",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-bc3349c3",
+      "title": "Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
+      "title_ja": "Google DeepMind、CEOと主任科学者が同時退任 デミス・ハサビス氏とジェフ・ディーン氏が辞任",
+      "one_liner": "DeepMindのトップ2人が同時に交代",
+      "fingerprint": "bc3349c3ffcb20e80d6b7763b4a9db4c",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "The Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-11220392",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Third-party cyber evaluations involving OpenAI models"
+    },
+    {
+      "item_id": "item-5a341394",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-b0db2cd1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows"
+    },
+    {
+      "item_id": "item-1156ed8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 04, 2026"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33319d15",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ISEE: Interactive Semantic Enrichment for Database Fields"
+    },
+    {
+      "item_id": "item-416ceb12",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deep Divide-and-Reduce in Symbolic Regression"
+    },
+    {
+      "item_id": "item-c5792b78",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of GitHub Spark on github.com"
+    },
+    {
+      "item_id": "item-b76c982d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations"
+    },
+    {
+      "item_id": "item-cb395eb1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reddit signals ominous upcoming \"changes” for old.reddit.com"
+    },
+    {
+      "item_id": "item-4965755a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump’s DOJ gains oversight of OpenAI’s green-card employee sponsorships"
+    },
+    {
+      "item_id": "item-377aa36e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery"
+    },
+    {
+      "item_id": "item-8ffea9e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Retiring the Copilot Billing Preview app"
+    },
+    {
+      "item_id": "item-f400f83a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The National Design Studio Became a DOGE Landing Pad. Now ‘Big Balls’ Is Recruiting"
+    },
+    {
+      "item_id": "item-1c44fcea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Starboard Reveals Shake Shack Stake | Bloomberg Deals 8/5/2026"
+    },
+    {
+      "item_id": "item-ea9857e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I&#x27;m switching my phone from Android to Linux."
+    },
+    {
+      "item_id": "item-852b38b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Puzzle Corner"
+    },
+    {
+      "item_id": "item-0f65a0be",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Spotify Reports 14% Higher Revenue"
+    }
+  ],
+  "score_cache": {
+    "ea9857e52900fbc4500700f4d4575527": {
+      "score": 10,
+      "title": "I&#x27;m switching my phone from Android to Linux.",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] AndroidからLinuxスマートフォンへ移行する個人の体験談であり、一般消費者向け端末の話題に該当します。Linuxモバイルの実用性やエコシステムに示唆はあるものの、記事タイトルからは技術的な新規性、業界への影響、具体的なアーキテクチャ上の進展は確認できず、評価基準上は最低評価帯です。"
+    },
+    "11220392e411e27aac9e08b71e67cdb0": {
+      "score": 54,
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] OpenAIモデルを対象とした第三者によるサイバーセキュリティ評価と、その過程で発生したインシデントへの対策は、AI安全性や評価プロセスの透明性に関わる重要な話題です。特に、評価環境の設計やモデルの悪用防止策に影響し、今後のAIレッドチーム運用や安全基準の整備に実務的な示唆があります。一方で、新しいモデルや基盤技術そのものの発表ではなく、主題はセキュ"
+    },
+    "b76c982d642602a360e5294110af788f": {
+      "score": 36,
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "date": "2026-08-04",
+      "reason": "[ScoreCache 2026-08-04] [ScoreCache 2026-08-04] [Claude API Evaluation] 実際のサイバーセキュリティインシデントを評価した内容で、AIや自律エージェントの安全性検証に関係する可能性はあるものの、記事タイトルだけでは新技術の発表やアーキテクチャ上の革新性は確認できません。主題はセキュリティ評価・リスク検証に分類され、技術者にとって"
+    },
+    "a6b25de1a92fba667532ac7c79fc5a56": {
+      "score": 60,
+      "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] 金融サービス向けに、複数エージェント、LangGraph、Model Context Protocol、Amazon Nova、ガードレールを組み合わせて本番運用した具体的な事例であり、AIエージェントの実装・オーケストレーション設計やコンプライアンス対応の観点で技術的価値が高い。一方で、内容の中心が既出キーワードであるAI・Amazon Bedro"
+    },
+    "b0db2cd15ff0d092e3e51f96301de630": {
+      "score": 48,
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIを業務フロー改善に活用した事例であり、自然言語からツールを構築できる点はAI開発支援の実用例として一定の価値があります。一方で、基盤技術の新規発表ではなく、特定チームの導入事例に留まっており、技術的な影響範囲や再現性も限定的です。また、直近放送済みのAI関連トピックと同じ文脈にあるため、重複分を考慮して"
+    },
+    "8ffea9e3211100f9f80540f2ff2892e0": {
+      "score": 27,
+      "title": "Retiring the Copilot Billing Preview app",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] GitHub Copilotの請求プレビューアプリを終了し、支出管理をGitHubの請求設定へ統合する運用変更です。開発者の請求確認フローには影響しますが、新技術やアーキテクチャの進化ではなく、機能廃止・管理導線の変更に留まるため重要度は低めです。既出キーワードとの直接的な重複もありません。 [Editorial: AI-focused source"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 47,
+      "title": "April 27, 2026",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchというエージェント開発基盤の更新ではあるものの、内容はDebian 12イメージへの最新依存パッケージの適用に限定されたメンテナンスリリースです。開発環境の再現性やセキュリティ、依存関係の鮮度には寄与しますが、新機能やアーキテクチャ変更、技術的なブレークスルーはなく、影響範囲と新規性は限定的です。 [E"
+    },
+    "4965755abb89557f03d8d5b6d23670ee": {
+      "score": 32,
+      "title": "Trump’s DOJ gains oversight of OpenAI’s green-card employee sponsorships",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] OpenAIの技術革新ではなく、米司法省による外国人従業員のグリーンカードスポンサー審査という雇用・移民規制のニュースです。AI企業の人材採用やビザ対応、コンプライアンスには影響しますが、ソフトウェア技術やアーキテクチャ自体の進展ではなく、業界全体の前提を変える規模でもありません。既出のAI関連テーマと直接同じ技術論点ではないため、重複減点は適用しま"
+    },
+    "bc3349c3ffcb20e80d6b7763b4a9db4c": {
+      "score": 60,
+      "title": "Google Deepmind loses both its CEO and chief scientist as Demis Hassabis and Jeff Dean step down simultaneously",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Google DeepMindのCEO交代と、GoogleのAI研究を長年率いたJeff Deanの退社が同時に起きるため、AI業界および同社の研究・開発戦略に与える影響は大きいニュースです。特にDeanの新たなAIスタートアップ設立は人材流動化や競争激化を示します。一方で、具体的な技術革新や製品発表ではなく、既出のAI関連テーマとも重なるため、重要"
+    },
+    "cb395eb1006a4bac9d58f9a3767cdcd1": {
+      "score": 33,
+      "title": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] old.reddit.comの変更予告は、長年利用されてきたUIやコミュニティ運用に影響する可能性はあるものの、技術革新や開発者向けアーキテクチャの進展ではありません。「悪質な行為」への対応を理由としたプラットフォーム運用・仕様変更の話題であり、エンジニア視点での影響範囲は主にユーザー体験、モデレーション、互換性に限定されます。具体的な変更内容もまだ"
+    },
+    "f400f83a020618a34a6fc15ad498432c": {
+      "score": 27,
+      "title": "The National Design Studio Became a DOGE Landing Pad. Now ‘Big Balls’ Is Recruiting",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] 政府系エンジニア組織の人事・採用とDOGE出身者の影響力に関する記事であり、行政の技術人材配置や公共部門の開発体制を考えるうえでは一定の意味があります。一方で、新しいアーキテクチャや開発ツール、AI技術そのものの進展ではなく、特定組織の人事・政治的動向が中心です。エンジニアにとっての直接的な技術インパクトや業界全体への波及範囲は限定的なため、低めに評"
+    },
+    "852b38b0115477d83ad7d57384cc1b49": {
+      "score": 10,
+      "title": "Puzzle Corner",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] 技術革新やソフトウェア開発への直接的な影響を扱う記事ではなく、定期掲載のパズルと過去号の解答を紹介する内容です。エンジニアリング上の新規性・業界への影響・実装上の意義がほぼないため、一般消費者向け娯楽記事に近い最低評価帯としました。既出キーワードとの重複もありません。"
+    },
+    "1c44fcea8765f542e085ed322fb53fca": {
+      "score": 23,
+      "title": "Starboard Reveals Shake Shack Stake | Bloomberg Deals 8/5/2026",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Shake Shackへの投資家Starboardの出資開示は、企業統治やM&A、市場動向としては注目されますが、ソフトウェアエンジニアリングに直結する技術革新やクラウド、AI、プログラミング言語の進化ではありません。企業戦略・投資ニュースとしての影響はあるものの、技術的な新規性と開発者への波及範囲が限定的なため、低めの評価としました。"
+    },
+    "0f65a0be0eb161a84a8d7d2fa76d472e": {
+      "score": 10,
+      "title": "Spotify Reports 14% Higher Revenue",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Spotifyの増収と有料会員数の成長に関する業績ニュースであり、ソフトウェアエンジニアリング、クラウド、AI、プログラミング言語などの技術的革新を直接扱っていません。一般消費者向けサービスの事業動向に留まるため、技術ニュースとしての重要度は最低水準です。"
+    },
+    "75c93f66df784f2723b2aeb7c524946f": {
+      "score": 74,
+      "title": "Claude Code の「無駄」を可視化するツール cclens を作った",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Claude Codeの実行状況や無駄を定量化し、設定・ルール・スキルの効果検証を可能にする開発者向け可観測性ツールは、AIエージェント開発の実務に直結する。非決定的なAIツールの評価やコスト・効率改善という課題に対して具体的な解決策を提示しており、エンジニアへの有用性と新規性は高い。一方で、Claude Code利用者が主な対象で、基盤技術や業界全"
+    },
+    "33319d157f33f37d087215f588f2c06f": {
+      "score": 43,
+      "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] データベースの曖昧なフィールド定義を、ユーザーのドメイン知識とLLMエージェントを用いて補完する研究であり、データ探索・検索・分析の精度向上につながる実用性の高いテーマです。特に、文書化されていない業務知識をデータスキーマへ取り込む点は、データ基盤やエージェントシステムの設計に有益です。一方で、arXivの新規研究段階であり、スニペットからは実運用で"
+    },
+    "416ceb12eb097ccaef8c5de9bda327ed": {
+      "score": 43,
+      "title": "Deep Divide-and-Reduce in Symbolic Regression",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] 数式や物理法則をデータから発見するシンボリック回帰に対し、既存のAI Feynman系手法の式簡約の弱点を改善する研究であり、機械学習・科学計算の観点では技術的な価値があります。一方で、基礎研究段階のarXiv論文で、実運用への影響や汎用性はまだ不明です。また、AI・数理モデル・研究に関する既出テーマと重なるため、重複分を減点しました。 [Edito"
+    },
+    "487aefa8a380197f45d28779e91f4603": {
+      "score": 72,
+      "title": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] 古代アッカド語の片方向翻訳にとどまらず、非専門家が入力した内容を楔形文字へ逆変換し、表示まで行う双方向NMT基盤は、文化遺産デジタル化と低リソース言語処理の両面で技術的に興味深い。既出のAI・言語モデル関連テーマと接点はあるが、対象言語・生成方向・文字レンダリングを組み合わせた明確に新しい応用であり、単純な続報としての減点は不要。一方、現時点ではar"
+    },
+    "377aa36efd4852bb165ab2934af459e6": {
+      "score": 29,
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Metaの広告審査・コンテンツモデレーションが、AI生成の児童性的虐待画像を50件以上通過させた点は、プラットフォーム運用、検知パイプライン、広告審査の信頼性に関わる重大な問題です。一方で、技術革新そのものではなく、主に安全対策・運用ガバナンス上のニュースであり、評価基準では低評価帯に該当します。既出のAI関連トピックと重なるため、重複分として減点し"
+    },
+    "16d3608fcb234da552778013ea33606c": {
+      "score": 75,
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] ChatGPT WorkとCodexをK–12から大学教育までの学習・授業・研究・開発に拡張する教育向けプラグインは、生成AIの実利用を教育現場へ広げる具体的なプロダクト展開であり、開発者や教育機関への影響も大きい。一方で、基盤モデルや推論技術そのものの革新ではなく、既存AI機能の新しい用途・導入形態が中心のため、業界の前提を変える最高評価には届かな"
+    },
+    "5a3413948a81d30382e1df048e3cdcfd": {
+      "score": 54,
+      "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] MobileyeがAmazon Bedrock AgentCoreを用いて、オンプレミスとAWSをまたぐ企業向けAIサポートエージェントを実運用へ展開した事例であり、ハイブリッド構成、ガバナンス、セキュリティ、導入プロセスには実務的な価値があります。一方で、AIエージェント、Amazon Bedrock、モデル活用といったテーマは直近の既出キーワード"
+    },
+    "c5792b784f5f4ce272efab93e6a7692b": {
+      "score": 38,
+      "title": "Upcoming deprecation of GitHub Spark on github.com",
+      "date": "2026-08-05",
+      "reason": "[ScoreCache 2026-08-05] [Claude API Evaluation] GitHub Sparkの新規利用・アプリ作成が停止され、既存ユーザーも短期間で利用できなくなるため、対象ユーザーや関連ワークフローには実務上の影響があります。ただし、これは新技術の発表やアーキテクチャの進化ではなく、特定サービスの終了告知であり、業界全体への波及範囲も限定的です。 [Editorial"
+    },
+    "1156ed8acdd701e0f6b8291eaece463b": {
+      "score": 48,
+      "title": "May 04, 2026",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchというクラウド上の開発基盤に関する更新であり、Debian 12対応やメタデータサーバー解決の信頼性向上は、運用安定性とインスタンス初期化の成功率に寄与します。一方で、内容は新機能の追加ではなく依存パッケージ更新と名前解決方式の修正に留まり、アーキテクチャや開発体験を大きく変える発表ではありません。技術"
+    },
+    "75d65046f50d13afc3a0c0759dd5a75b": {
+      "score": 81,
+      "title": "Moove raises $250M to become the backbone of the robotaxi industry",
+      "date": "2026-08-06",
+      "reason": "[Claude API Evaluation] 自動運転・ロボタクシーというロボティクス領域で、Mooveが2.5億ドルを調達し、車両運用管理から将来的な車両保有まで事業を拡張する点は重要です。単なる資金調達にとどまらず、フリート管理、保守、稼働率最適化、運行オペレーションといった実用化のボトルネックを担うインフラ企業を目指しており、ロボタクシー産業のスケール方法に影響する可能性があります。一方で"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-06/blog.md",
+    "show_notes_path": "out/2026-08-06/show_notes.md",
+    "script_path": "out/2026-08-06/script_2hosts.md",
+    "audio_path": "out/2026-08-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 23514,
+        "output_tokens": 10227,
+        "cost_usd": 0.016975
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40702,
+        "output_tokens": 7559,
+        "cost_usd": 0.235491
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4244,
+        "cost_usd": 0.050928
+      }
+    ],
+    "total_cost_usd": 0.303394
+  }
+}
