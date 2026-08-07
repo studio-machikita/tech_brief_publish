@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#130 OpenAIの新モデル「Astra」、サイバーセキュリティリスクで初の最高レベルに達する可能性ありと発表 ほか</title>
+      <description>Tech News Radio Show Notes - #130 (2026-08-08)
+
+エピソード情報
+• エピソード: #130
+• 日付: 2026-08-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time (https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/)
+• Cloudflare launches Kitesurf, a browser built for AI agents (https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/)
+• Ocean-Powered Data Center Startup Set to Double Valuation to $2 Billion (https://www.theinformation.com/articles/ocean-powered-data-center-startup-set-double-valuation-2-billion)
+
+注目の深掘り
+• Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services (https://arxiv.org/abs/2608.05159)
+
+小ネタ・その他
+• Copilot usage metrics API adds agent app activity (https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity)
+• How TReNDS automates root-cause analysis with Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-08/episode_audio.mp3" length="70575404" type="audio/mpeg" />
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-08</guid>
+      <itunes:duration>12:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAIの新モデル「Astra」、サイバーセキュリティリスクで初の最高レベルに達する可能性ありと発表 ほか</itunes:title>
+      <itunes:episode>130</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #130 (2026-08-08)
+
+エピソード情報
+• エピソード: #130
+• 日付: 2026-08-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time (https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/)
+• Cloudflare launches Kitesurf, a browser built for AI agents (https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/)
+• Ocean-Powered Data Center Startup Set to Double Valuation to $2 Billion (https://www.theinformation.com/articles/ocean-powered-data-center-startup-set-double-valuation-2-billion)
+
+注目の深掘り
+• Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services (https://arxiv.org/abs/2608.05159)
+
+小ネタ・その他
+• Copilot usage metrics API adds agent app activity (https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity)
+• How TReNDS automates root-cause analysis with Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-08/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-08/eyecatch.webp" />
+    </item>
+    <item>
       <title>#129 新たなウイルスの設計に使われる大規模ゲノムモデル／GitHub Copilotで「Kimi K3」が利用可能に ほか</title>
       <description>Tech News Radio Show Notes - #129 (2026-08-07)
 

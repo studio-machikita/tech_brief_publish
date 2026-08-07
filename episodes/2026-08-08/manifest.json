@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-08",
+  "episode_date_local": "2026-08-08",
+  "content_snapshot_date": "2026-08-08",
+  "show_length_sec": 735,
+  "audio_size": 70575404,
+  "generated_at": "2026-08-07T20:58:24.237119+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-aecb9168",
+      "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+      "title_ja": "OpenAIの新モデル「Astra」、サイバーセキュリティリスクで初の最高レベルに達する可能性ありと発表",
+      "one_liner": "OpenAIの新モデルAstra、最高リスク級の可能性",
+      "fingerprint": "aecb9168191f04aa9749e17423035f67",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-b7bea917",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "title_ja": "Cloudflareが、AIエージェント向けブラウザ「Kitesurf」を発表",
+      "one_liner": "CloudflareがAIエージェント専用ブラウザを発表",
+      "fingerprint": "b7bea917bd43eb6e56c0b4c06e259aee",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-1dd48844",
+      "title": "Ocean-Powered Data Center Startup Set to Double Valuation to $2 Billion",
+      "title_ja": "海洋発電データセンターの新興企業、評価額20億ドルに倍増へ",
+      "one_liner": "波力発電でAI稼働、Panthalassaが評価額20億ドルに",
+      "fingerprint": "1dd4884413e20e2735b6a3e8c71b0b29",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-22c7ea4a",
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "title_ja": "エージェンティック・ネスティング：既存の企業アプリケーション統合とサービスのための新手法",
+      "one_liner": "企業システム統合の新手法「Agentic Nesting」を提案",
+      "fingerprint": "22c7ea4a0620f0a42e06f0c455ddb3e7",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-1a7027bd",
+      "title": "Copilot usage metrics API adds agent app activity",
+      "title_ja": "Copilot使用状況メトリクスAPIにエージェントアプリのアクティビティが追加",
+      "one_liner": "GitHub、Copilot使用状況APIにエージェントアプリの活動データを追加",
+      "fingerprint": "1a7027bdf2d958b2620b4f8f89bfdc2f",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-d010345a",
+      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "title_ja": "TReNDS、Amazon Bedrockで根本原因分析を自動化する方法",
+      "one_liner": "AIエージェントが障害調査を30分から60秒に短縮",
+      "fingerprint": "d010345a84d59ba86b31017c53247dfb",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-08d98588",
+      "reason": "LINK_ONLY: Source classified as joke: Anthropicの実在する製品・モデル名として「Fable 5」や「Opus 5」は確認できず、記事内容も架空の製品を前提としたネタと考えられます。生物学関連の安全機構という設定は現実の話題を模していますが、全体としてジョーク記事の可能性が非常に高いです。",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-1a855529",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "手を動かしてStacked pull requestのgh stackを理解してみた"
+    },
+    {
+      "item_id": "item-0e612fad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users"
+    },
+    {
+      "item_id": "item-8ade9b0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-66e5cefb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MS-MLB: An Open Machine Learning Benchmark for Blood-Based MS Classification"
+    },
+    {
+      "item_id": "item-b61144b9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory"
+    },
+    {
+      "item_id": "item-dcc2ffbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A guide to slash commands in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-59bb3eab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support"
+    },
+    {
+      "item_id": "item-fa4e8f2e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - xoreaxeaxeax/REpsych: Psychological warfare in reverse engineering"
+    },
+    {
+      "item_id": "item-b0db2cd1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows"
+    },
+    {
+      "item_id": "item-e642856f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI"
+    },
+    {
+      "item_id": "item-75537bd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Akamai CEO on Earnings, Cloud Industry, New Investment"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-0f227153",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "App Store Rejection of the Week: Dark Hours"
+    },
+    {
+      "item_id": "item-863d9d66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”"
+    },
+    {
+      "item_id": "item-b52edb02",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Code Quality no longer adds Copilot as a reviewer"
+    },
+    {
+      "item_id": "item-fbf0a151",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Chinese Philosopher Americans Can’t Stop Fighting About"
+    }
+  ],
+  "score_cache": {
+    "0f2271536a4648429537919f5b763119": {
+      "score": 24,
+      "title": "App Store Rejection of the Week: Dark Hours",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] App Storeでのアプリ却下を扱う記事であり、主題はAppleの審査・運用ポリシーに関するものです。開発者には実務上の影響があるものの、新しいアーキテクチャや技術革新、業界の前提を変える発表ではありません。スニペットがなく具体的な却下理由や波及範囲も判断できないため、法律・規制やプラットフォーム運用ルールに近い低評価としました。"
+    },
+    "b61144b9844f73bf2dc94cedba05d449": {
+      "score": 48,
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] ChatGPT Enterpriseを税務アドバイザリー業務に導入し、生産性や品質、顧客対応能力を高める実運用事例である点は、企業における生成AI活用の具体例として一定の価値があります。一方で、新しいモデルやアーキテクチャ、技術的ブレークスルーの発表ではなく、特定企業の導入効果に焦点を置いたケーススタディです。また、既に取り上げ済みのAI関連トピック"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 73,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] AnthropicのFable 5における生物学分野の安全フィルター改善は、LLMの実用性と安全性のトレードオフを具体的に改善する技術的アップデートです。誤検知を約85%削減し、一般的な生物学の質問を過度に遮断せずに済む点は、モデルの利用体験と推論資源の効率化に直結します。一方で、ウイルス学や毒性学などの高リスク領域では従来の制限を維持しており、業界"
+    },
+    "8ade9b0af2d4f1fd0a97e4118acf01d3": {
+      "score": 60,
+      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] AgentCoreを活用したマルチテナント構成、MicroVM分離、ツール連携、メモリ、Agent Skills標準の実装例であり、エンタープライズ向けAIエージェント基盤の設計知見として技術的価値は高いです。特に医療ポリシーのデジタル化で、透明性・バージョン管理・人間による監督を両立している点は実運用上の参考になります。一方で、AI、Amazon "
+    },
+    "dcc2ffbe6ab2a4cd8f2c0f87cce11c9f": {
+      "score": 47,
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・共同作業・自動化・カスタマイズを効率化する実用的な開発者向け機能であり、AI開発ワークフローへの影響はあります。ただし、記事は新しい基盤技術や大規模な製品発表ではなく、既存のGitHub・Copilot・エージェント・自動化領域に関する使い方ガイドです。直近の既出キーワードと同じ話題に該"
+    },
+    "1a7027bdf2d958b2620b4f8f89bfdc2f": {
+      "score": 66,
+      "title": "Copilot usage metrics API adds agent app activity",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況メトリクスAPIに、ClaudeやCodexなどのエージェントアプリの活動データが追加されることで、企業はエージェントの利用状況や導入効果を一元的に把握しやすくなります。開発チームのガバナンス、コスト管理、利用分析に有用な実務的アップデートですが、基盤技術そのものを大きく変える発表ではないため、評価は中高程度とし"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 31,
+      "title": "April 27, 2026",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した定期的なリリースであり、新機能、性能向上、アーキテクチャ変更などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワード「agent」と同じ領域の運用アップデートであるため減点しました。 [Editorial"
+    },
+    "b7bea917bd43eb6e56c0b4c06e259aee": {
+      "score": 84,
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] AIエージェント向けに最適化したクラウドホスト型ブラウザという発想は、従来の人間向けブラウザを自動操作する方式から、エージェント実行基盤そのものへ進化させる可能性があり、技術的な新規性と実装上の意義が高い。Chromiumより低い計算資源でブラウザ自動化を実行できる点も、スケール時のコストや性能に直結する。ただし、現時点では導入実績や互換性、セキュリ"
+    },
+    "aecb9168191f04aa9749e17423035f67": {
+      "score": 92,
+      "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] 新モデルAstraが自律的なサイバー攻撃能力において、OpenAIの安全性フレームワーク上で初めて最高リスクレベルに達する可能性を示した点は、AIの能力評価・リリース判断・安全対策に大きな影響を与える重要ニュースです。開発の一部停止や自社インフラへの侵入事例も具体性があります。一方で、最高リスクへの到達はまだ確定ではなく、内部テスト段階の報道にとどま"
+    },
+    "863d9d66c8d34180f490f6882986fa3a": {
+      "score": 21,
+      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] OpenAIのスマートスピーカーに関する製品情報ですが、主な内容は筐体の可動部によって「生きているように見せる」というデザイン上の工夫であり、AIモデルやソフトウェアアーキテクチャの技術革新ではありません。一般消費者向けガジェット製品の噂段階で、エンジニアリング業界への影響範囲や具体的な技術的新規性も限定的なため、最低評価帯としました。 [Edito"
+    },
+    "fbf0a151e1a1bc4bd2dd620ca74e8a45": {
+      "score": 10,
+      "title": "The Chinese Philosopher Americans Can’t Stop Fighting About",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] 中国の哲学者をめぐる米国での政治的論争と知名度の拡大を扱う記事であり、AI、ソフトウェア、クラウド、プログラミング言語、ロボティクスなどの技術的進展は含まれていません。エンジニアリング上の新規性や開発者への直接的な影響も乏しく、一般的な社会・政治・人物論に分類されるため、技術ニュースとしての重要度は最低水準と評価します。"
+    },
+    "e642856f776e1c77cb6df76ae27c8c09": {
+      "score": 40,
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] AIが作成した初のウイルスという要素はサイバーセキュリティとAIの交差領域として一定の技術的関心がありますが、記事の中心は検閲に関する政治的な陰謀論で、具体的な実装・攻撃手法・影響範囲がスニペットから確認できません。AI関連は既出キーワードでもあり、明確な新展開と断定できないため減点し、技術ニュースとしての重要度は低めに評価しました。 [Editor"
+    },
+    "75537bd7e65e3e8017fe7f45b67466b1": {
+      "score": 37,
+      "title": "Akamai CEO on Earnings, Cloud Industry, New Investment",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] AkamaiはCDN、エッジコンピューティング、クラウド基盤を担う重要企業であり、業績や新規投資の方向性はインフラ市場の動向を把握するうえで一定の価値があります。ただし、記事の中心は決算説明とCEOインタビューで、具体的なアーキテクチャ革新、技術仕様、開発者向け製品の大きな進化が示されているわけではありません。クラウド業界の投資動向としては参考になり"
+    },
+    "1dd4884413e20e2735b6a3e8c71b0b29": {
+      "score": 77,
+      "title": "Ocean-Powered Data Center Startup Set to Double Valuation to $2 Billion",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] AIデータセンターの電力需要という重要なインフラ課題に対し、波力発電でGPUを稼働させるという新規性の高いアプローチで、エネルギー技術と計算基盤の接点に位置する点を評価しました。短期間で評価額が約2倍となり、市場の関心や資金流入の強さも示しています。一方で、記事時点では商用化規模、発電効率、海洋環境への耐久性、データセンターとの実運用実績などの技術的"
+    },
+    "1a855529496d7e3e811a24ec52718301": {
+      "score": 62,
+      "title": "手を動かしてStacked pull requestのgh stackを理解してみた",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] GitHub上でStacked Pull Requestを公式にサポートする新機能で、変更を依存関係のある小さなPRへ分割し、レビューやマージを段階的に進められる点は、開発ワークフローへの実務的な影響が大きいです。特に大規模開発や並行作業におけるレビュー効率、変更単位の明確化、マージ競合の抑制に寄与します。一方で、public preview段階のG"
+    },
+    "22c7ea4a0620f0a42e06f0c455ddb3e7": {
+      "score": 69,
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] 異種の企業システムや情報アプリケーションをエージェント的に統合・協調させる新しい方法論であり、レガシーシステムを活用しながらデータサイロや業務プロセスの分断を解消できる可能性があります。AIエージェントとエンタープライズ統合を結び付ける点で技術的な注目度は高く、既存アプリケーション基盤の設計思想に影響し得ます。一方で、現時点ではarXiv上の方法論提"
+    },
+    "66e5cefb582e7d7d11f580d19bd5229e": {
+      "score": 55,
+      "title": "MS-MLB: An Open Machine Learning Benchmark for Blood-Based MS Classification",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] 血液RNAによる多発性硬化症（MS）分類のための、再現可能でオープンな機械学習ベンチマークを提供する点は、医療AIの評価基盤として意義があります。データ分割、評価指標、手法比較を標準化できれば、研究結果の再現性やモデル間の公平な比較を改善し、診断支援システムの開発を促進します。一方で、臨床診断を置き換えるものではなく、単一疾患・血液データに限定された"
+    },
+    "59bb3eab2f941f86042a0fa5200cc1cf": {
+      "score": 47,
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Port",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] 産業用シミュレータを用いてLLMの因果推論を現実のプラント挙動に接地し、ライブ・シミュレータ参照、構造化パラメータ注入、設備間で再利用可能な検索という複数手法を比較している点は技術的に新規性が高いです。特に水処理のように誤った助言が運用コストや環境負荷に直結する領域で、単なる知識生成から検証可能な意思決定支援へ進むアプローチは注目に値します。一方、現"
+    },
+    "fa4e8f2e3fa7e07b81b1636105c4381c": {
+      "score": 47,
+      "title": "GitHub - xoreaxeaxeax/REpsych: Psychological warfare in reverse engineering",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] リバースエンジニアリングに心理戦や認知的誘導の観点を持ち込む、専門性と話題性のある技術記事です。解析者の前提やツールの挙動を逆手に取る手法は、マルウェア解析、CTF、ソフトウェア保護などに応用可能で、セキュリティエンジニアには有益です。一方で、対象は比較的ニッチなリポジトリであり、業界全体の前提を変える新技術や広範な実運用への影響が確認できる内容では"
+    },
+    "0e612fadf8747985256a16b38a35e21f": {
+      "score": 61,
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] GPT-5.6 Solの精度・一貫性向上は、モデル品質やChatGPTの実用性に関わる重要なアップデートです。また、GPT-5.6 Lunaの無料ユーザーへのアクセス拡大は利用者層と普及範囲を広げる点で影響があります。一方で、基盤技術の抜本的な革新や業界構造を変える発表ではなく、既出のAI・モデル・ChatGPT関連トピックと同じ角度が強いため20点"
+    },
+    "d010345a84d59ba86b31017c53247dfb": {
+      "score": 66,
+      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] Amazon BedrockとオープンソースのStrands Agents SDKを組み合わせ、エージェント型AIで本番障害の根本原因分析を自動化した具体的な実装事例です。調査時間を15〜30分から60秒未満へ短縮しており、運用・SRE領域への実用的なインパクトは大きい一方、既存技術の組み合わせによる導入事例で、業界の前提を変えるほどの革新ではありま"
+    },
+    "b0db2cd15ff0d092e3e51f96301de630": {
+      "score": 47,
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIを業務効率化に活用した具体例であり、CLIベースの開発支援やノーコードに近いツール構築の実践知はエンジニアにとって一定の参考になります。ただし、革新的な基盤技術や新モデルの発表ではなく、特定チームの導入事例に留まります。また、既出キーワードであるGitHubおよびCopilotと同じ話題領域の続報ではな"
+    },
+    "b52edb020f264b350f2ff2a03b8f20ec": {
+      "score": 19,
+      "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] GitHub Code Qualityの設定変更であり、Copilotによる自動レビュー依頼を停止する運用上のアップデートです。既存リポジトリでは設定やレビュー運用への影響があるものの、新技術やアーキテクチャの進化ではなく、OSS・開発運用ルールに関する限定的な変更です。また、既出キーワードのGitHubおよびCopilotと直接重複するため、重要度"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 34,
+      "title": "May 11, 2026",
+      "date": "2026-08-08",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上の依存パッケージを上流の最新版に更新したメンテナンスリリースに限られ、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。Agent関連は既出キーワードにも該当し、同じ領域の続報として減点しています。運用上の安定性や脆弱性対応"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-08/blog.md",
+    "show_notes_path": "out/2026-08-08/show_notes.md",
+    "script_path": "out/2026-08-08/script_2hosts.md",
+    "audio_path": "out/2026-08-08/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-08/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-08/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 25567,
+        "output_tokens": 11190,
+        "cost_usd": 0.018541
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40451,
+        "output_tokens": 7011,
+        "cost_usd": 0.226518
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4039,
+        "cost_usd": 0.048468
+      }
+    ],
+    "total_cost_usd": 0.293527
+  }
+}
