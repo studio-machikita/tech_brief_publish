@@ -25,6 +25,67 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#129 新たなウイルスの設計に使われる大規模ゲノムモデル ほか</title>
+      <description>Tech News Radio Show Notes - #129 (2026-08-07)
+
+エピソード情報
+• エピソード: #129
+• 日付: 2026-08-07
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Large genome models used to design new viruses (https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/)
+• Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting (https://arxiv.org/abs/2608.04015)
+• DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた (https://zenn.dev/ait/articles/google-design-md-measured)
+
+注目の深掘り
+• Kimi K3 is now available in GitHub Copilot (https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot)
+
+小ネタ・その他
+• How the GitHub legal team used Copilot CLI to streamline their workflows (https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/)
+• Securing AI agents with temporal policies in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/)
+• Securing AI agents with temporal policies in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/)
+• Securing AI agents with temporal policies in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-07/episode_audio.mp3" length="68800364" type="audio/mpeg" />
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-07</guid>
+      <itunes:duration>11:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>新たなウイルスの設計に使われる大規模ゲノムモデル ほか</itunes:title>
+      <itunes:episode>129</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #129 (2026-08-07)
+
+エピソード情報
+• エピソード: #129
+• 日付: 2026-08-07
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Large genome models used to design new viruses (https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/)
+• Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting (https://arxiv.org/abs/2608.04015)
+• DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた (https://zenn.dev/ait/articles/google-design-md-measured)
+
+注目の深掘り
+• Kimi K3 is now available in GitHub Copilot (https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot)
+
+小ネタ・その他
+• How the GitHub legal team used Copilot CLI to streamline their workflows (https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/)
+• Securing AI agents with temporal policies in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/)
+• Securing AI agents with temporal policies in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/)
+• Securing AI agents with temporal policies in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-07/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-07/eyecatch.webp" />
+    </item>
+    <item>
       <title>#128 Moove、ロボタクシー業界の基盤となるべく2億5000万ドルを調達 ほか</title>
       <description>Tech News Radio Show Notes - #128 (2026-08-06)
 
