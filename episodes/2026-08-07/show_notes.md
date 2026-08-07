@@ -11,14 +11,14 @@
 ## 出典リンク一覧
 ### 本日のトップニュース
 - [Large genome models used to design new viruses](https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/)
-- [Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting](https://arxiv.org/abs/2608.04015)
-- [DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた](https://zenn.dev/ait/articles/google-design-md-measured)
+- [Kimi K3 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot)
+- [GitHub - Kayvan-Zahiri/asr-age-gap: Speech recognition does not degrade with speaker age. Voice-agent turn-taking does, by 2-5x.](https://github.com/Kayvan-Zahiri/asr-age-gap)
 
 ### 注目の深掘り
-- [Kimi K3 is now available in GitHub Copilot](https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot)
+- [Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting](https://arxiv.org/abs/2608.04015)
 
 ### 小ネタ・その他
-- [How the GitHub legal team used Copilot CLI to streamline their workflows](https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/)
 - [Securing AI agents with temporal policies in Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/)
 - [Securing AI agents with temporal policies in Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/run-production-ai-agents-in-n8n-with-amazon-bedrock-agentcore-harness/)
 - [Securing AI agents with temporal policies in Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/)
+- [Deepmind's talent drain likely comes down to chip shortages, a conflict of interest, and Google's bureaucracy](https://the-decoder.com/deepminds-talent-drain-likely-comes-down-to-chip-shortages-a-conflict-of-interest-and-googles-bureaucracy/)

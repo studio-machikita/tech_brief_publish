@@ -2,9 +2,9 @@
   "date": "2026-08-07",
   "episode_date_local": "2026-08-07",
   "content_snapshot_date": "2026-08-07",
-  "show_length_sec": 716,
-  "audio_size": 68800364,
-  "generated_at": "2026-08-07T00:49:21.799317+00:00",
+  "show_length_sec": 692,
+  "audio_size": 66459884,
+  "generated_at": "2026-08-07T01:06:25.139866+00:00",
   "is_mock": false,
   "picks": [
     {
@@ -13,7 +13,7 @@
       "title_ja": "新たなウイルスの設計に使われる大規模ゲノムモデル",
       "one_liner": "",
       "fingerprint": "60fab8df8df77a8647ef90acb00a9229",
-      "score": 90,
+      "score": 92,
       "allowed_action": "METADATA_SUMMARY",
       "risks": [],
       "decision_reason": "Source allows METADATA_SUMMARY.",
@@ -22,40 +22,12 @@
       ]
     },
     {
-      "item_id": "item-45a42e3e",
-      "title": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
-      "title_ja": "回答 大規模言語モデルのプロンプティングによる古典ラテン語固有表現認識のための転移学習",
-      "one_liner": "LLMでラテン語の固有表現を認識するuOttawaの試み",
-      "fingerprint": "45a42e3e2063d36a1141a72b4ae02603",
-      "score": 70,
-      "allowed_action": "FULLTEXT_SUMMARY",
-      "risks": [],
-      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
-      "source_names": [
-        "arXiv CS.CL"
-      ]
-    },
-    {
-      "item_id": "item-88d7c16d",
-      "title": "DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた",
-      "title_ja": "DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた",
-      "one_liner": "DESIGN.md導入効果を74件検証した結果",
-      "fingerprint": "88d7c16d120299eb1b349323c637a55c",
-      "score": 60,
-      "allowed_action": "METADATA_SUMMARY",
-      "risks": [],
-      "decision_reason": "Source allows METADATA_SUMMARY.",
-      "source_names": [
-        "Zenn"
-      ]
-    },
-    {
       "item_id": "item-35913c76",
       "title": "Kimi K3 is now available in GitHub Copilot",
-      "title_ja": "GitHub Copilotで「Kimi K3」が利用可能になりました",
+      "title_ja": "GitHub Copilotで「Kimi K3」が利用可能に",
       "one_liner": "Kimi K3がGitHub Copilotで利用可能に",
       "fingerprint": "35913c765c7dcb6cf971cf225ca109b6",
-      "score": 54,
+      "score": 76,
       "allowed_action": "METADATA_SUMMARY",
       "risks": [],
       "decision_reason": "Source allows METADATA_SUMMARY.",
@@ -64,35 +36,63 @@
       ]
     },
     {
-      "item_id": "item-b0db2cd1",
-      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
-      "title_ja": "GitHub法務チームがCopilot CLIでワークフローを効率化した方法",
-      "one_liner": "GitHub法務チームがCopilot CLIで業務を効率化",
-      "fingerprint": "b0db2cd15ff0d092e3e51f96301de630",
-      "score": 54,
+      "item_id": "item-36ec5ea7",
+      "title": "GitHub - Kayvan-Zahiri/asr-age-gap: Speech recognition does not degrade with speaker age. Voice-agent turn-taking does, by 2-5x.",
+      "title_ja": "GitHub - Kayvan-Zahiri/asr-age-gap: 音声認識は話者の年齢で精度が低下しないが、ボイスエージェントのターンテイキングは2〜5倍悪化する",
+      "one_liner": "音声認識は年齢で劣化しないが対話の間合いは劣化する",
+      "fingerprint": "36ec5ea7a2e4c02e79ac9419944a4c42",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-45a42e3e",
+      "title": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
+      "title_ja": "翻訳結果 大規模言語モデルのプロンプトを用いた古典ラテン語の固有表現抽出における転移学習",
+      "one_liner": "LLMでラテン語の固有表現認識に挑戦",
+      "fingerprint": "45a42e3e2063d36a1141a72b4ae02603",
+      "score": 60,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-1d200a40",
+      "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreにおける時間的ポリシーによるAIエージェントのセキュリティ確保",
+      "one_liner": "AIエージェントの行動履歴で認可を判断する新機能",
+      "fingerprint": "1d200a4089bf25ea953fe74509ec0cdb",
+      "score": 58,
       "allowed_action": "METADATA_SUMMARY",
       "risks": [
         "source_intent_promotional"
       ],
       "decision_reason": "Source allows METADATA_SUMMARY.",
       "source_names": [
-        "GitHub AI and ML"
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
       ]
     },
     {
-      "item_id": "item-1d200a40",
-      "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-      "title_ja": "Amazon Bedrock AgentCoreにおける時間ポリシーによるAIエージェントのセキュリティ確保",
-      "one_liner": "Bedrock AgentCoreがAIエージェントの行動を時系列で制御",
-      "fingerprint": "1d200a4089bf25ea953fe74509ec0cdb",
-      "score": 51,
+      "item_id": "item-a6a169a2",
+      "title": "Deepmind's talent drain likely comes down to chip shortages, a conflict of interest, and Google's bureaucracy",
+      "title_ja": "DeepMindの人材流出、原因はチップ不足と利益相反、グーグルの官僚主義か",
+      "one_liner": "Google DeepMindで人材離れ、原因は社内事情",
+      "fingerprint": "a6a169a2dbcb2fe15f75a5e3e7d597a5",
+      "score": 49,
       "allowed_action": "METADATA_SUMMARY",
       "risks": [],
       "decision_reason": "Source allows METADATA_SUMMARY.",
       "source_names": [
-        "AWS Machine Learning",
-        "AWS Machine Learning",
-        "AWS Machine Learning"
+        "The Decoder"
       ]
     }
   ],
@@ -103,19 +103,9 @@
       "title": "Working with the American Psychological Association on youth mental health and AI"
     },
     {
-      "item_id": "item-a6a169a2",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "Deepmind's talent drain likely comes down to chip shortages, a conflict of interest, and Google's bureaucracy"
-    },
-    {
       "item_id": "item-dcc2ffbe",
       "reason": "Ranked too low (skip bucket).",
       "title": "A guide to slash commands in the GitHub Copilot app"
-    },
-    {
-      "item_id": "item-2e6e2c63",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "Configure rate limits for AI traffic on AgentCore gateway"
     },
     {
       "item_id": "item-8ed6e6f6",
@@ -123,14 +113,29 @@
       "title": "From asking to doing: How the world is putting ChatGPT to work"
     },
     {
+      "item_id": "item-2e6e2c63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Configure rate limits for AI traffic on AgentCore gateway"
+    },
+    {
+      "item_id": "item-b0db2cd1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows"
+    },
+    {
       "item_id": "item-37d61325",
       "reason": "Ranked too low (skip bucket).",
       "title": "DeepSeek Resumes Funding Talks, Plans to Hike Model Prices"
     },
     {
-      "item_id": "item-f4097a82",
+      "item_id": "item-88d7c16d",
       "reason": "Ranked too low (skip bucket).",
-      "title": "GitHub - mattdeeds/pokeemerald-rp2350: Pokémon Emerald ported to the RP2350. No emulator, 60 fps HDMI output. Recompiled for Cortex-M33."
+      "title": "DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた"
+    },
+    {
+      "item_id": "item-3b1c7a5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning"
     },
     {
       "item_id": "item-41bb535d",
@@ -148,16 +153,6 @@
       "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)"
     },
     {
-      "item_id": "item-3b1c7a5b",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning"
-    },
-    {
-      "item_id": "item-3147b49b",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "April 27, 2026"
-    },
-    {
       "item_id": "item-94839a9a",
       "reason": "Ranked too low (skip bucket).",
       "title": "Atlassian Shares Surge as Revenue Jump Douses AI Fears"
@@ -168,14 +163,19 @@
       "title": "May 11, 2026"
     },
     {
-      "item_id": "item-8ffea9e3",
+      "item_id": "item-3147b49b",
       "reason": "Ranked too low (skip bucket).",
-      "title": "Retiring the Copilot Billing Preview app"
+      "title": "April 27, 2026"
     },
     {
       "item_id": "item-b00c985b",
       "reason": "Ranked too low (skip bucket).",
       "title": "Welcoming the Nepalese Government to Have I Been Pwned"
+    },
+    {
+      "item_id": "item-8ffea9e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Retiring the Copilot Billing Preview app"
     },
     {
       "item_id": "item-c84a3400",
@@ -189,137 +189,137 @@
     }
   ],
   "score_cache": {
-    "b00c985b22d85fa6c0d7da10762dc66e": {
-      "score": 30,
-      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+    "36ec5ea7a2e4c02e79ac9419944a4c42": {
+      "score": 74,
+      "title": "GitHub - Kayvan-Zahiri/asr-age-gap: Speech recognition does not degrade with speaker age. Voice-agent turn-taking does, ",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] ネパール政府がHave I Been Pwnedを活用する動きは、政府機関の漏えい監視やインシデント対応の強化という点で実務的な意義があります。一方で、新しい技術アーキテクチャやAI・クラウド基盤の革新ではなく、既存のセキュリティサービスの導入・運用に関する話題です。影響範囲も限定的で、具体的な技術仕様や大規模な脆弱性の発表もないため、セキュリティ運"
+      "reason": "[Claude API Evaluation] 音声認識そのものは話者の年齢で大きく劣化しない一方、音声エージェントのターンテイキング性能は2〜5倍悪化するという分析は、音声UIやリアルタイムLLMエージェントの設計に具体的な示唆を与える。認識精度だけでなく、発話の重なり・応答待ち時間・割り込み処理といった対話制御の評価が重要になる点がエンジニア視点で有益。GitHubで再現可能な形にまとまってい"
     },
     "793dcb957cf4140a17e0be4e00a44aad": {
-      "score": 49,
+      "score": 47,
       "title": "Working with the American Psychological Association on youth mental health and AI",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] AIと若年層のメンタルヘルスという社会的に重要なテーマで、心理学の専門機関と連携してエビデンスに基づくガイダンスや安全策を整備する点は意義があります。一方で、具体的なモデル技術、API、評価手法、プロダクト実装の発表ではなく、主眼は運用指針と責任ある利用の枠組みです。エンジニア視点では、今後の安全性評価や年齢配慮型ガードレールに発展する可能性はあるも"
+      "reason": "[Claude API Evaluation] AIと若年層のメンタルヘルスという重要性の高いテーマで、心理学団体との連携により安全ガイダンスや具体的な保護策の整備につながる点は評価できます。一方で、モデル性能や基盤アーキテクチャの革新ではなく、主眼はエビデンスに基づく運用指針と安全対策です。既にAI関連の話題が取り上げ済みで、技術的な新展開よりも責任ある利用の推進が中心であるため、減点しました。"
     },
     "1d200a4089bf25ea953fe74509ec0cdb": {
-      "score": 51,
+      "score": 58,
       "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] AIエージェントのセッション履歴を利用して、ワークフロー順序、データ捏造防止、金額上限、人間承認を制御できる点は、エージェントを本番運用するうえで実用性の高い認可アーキテクチャです。一方で、内容の中心がセキュリティおよび運用ポリシーであり、業界の前提を変える新技術というより既存のAIエージェント基盤を堅牢化する機能です。また、AI・Amazon・Be"
+      "reason": "[Claude API Evaluation] AIエージェントの認可をセッション履歴に基づく状態機械として制御する、実装面で具体性の高いセキュリティ機能です。ワークフロー順序の強制、データ捏造の防止、金銭的リスクの上限設定、人間承認の要求など、エージェントを業務システムへ導入する際のガバナンスに直結します。一方で、Amazon BedrockやAIエージェント関連は既出キーワードと重なり、基盤モ"
     },
     "dcc2ffbe6ab2a4cd8f2c0f87cce11c9f": {
-      "score": 48,
+      "score": 47,
       "title": "A guide to slash commands in the GitHub Copilot app",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・協働・自動化・カスタマイズを開発ワークフローに組み込む実用的な機能であり、開発者への影響は一定程度あります。一方で、既存のAIコーディング支援の機能紹介・使い方ガイドで、技術基盤や業界の前提を変える新発表ではありません。AIおよび自動化に関する既出テーマと重なるため、重複分として減点して"
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・共同作業・自動化・ワークフローのカスタマイズを効率化する実用的な機能で、開発者体験への影響はあります。ただし、既存のAIコーディング支援機能の操作性向上に関するガイド記事であり、アーキテクチャや基盤技術を変える新発表ではありません。AIおよび自動化に関連する既出テーマとも重なるため、重複"
     },
     "35913c765c7dcb6cf971cf225ca109b6": {
-      "score": 54,
+      "score": 76,
       "title": "Kimi K3 is now available in GitHub Copilot",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] Kimi K3という新しいLLMがGitHub Copilotで利用可能になる点は、開発者向けAIツールの選択肢とコーディング支援の性能に影響する具体的なアップデートです。一方で、記事時点ではGitHub Actionsのインシデント対応により展開が一時停止されており、提供範囲や実利用への影響が限定的です。また、直近にAI関連の話題が既出のため、評価"
+      "reason": "[Claude API Evaluation] Kimi K3という新しいLLMがGitHub Copilotで利用可能になる点は、開発者向けAIコーディング環境の選択肢と実装品質に影響する具体的な進展です。一方で、基盤技術そのものの発明や業界の前提を変える発表ではなく、GitHub Actionsのインシデント対応により展開が一時停止しているため、影響の即時性と確実性は限定的です。既出のAI関連"
     },
     "3147b49bf794ec9ea6ee7506a9eaa8a0": {
-      "score": 39,
+      "score": 34,
       "title": "April 27, 2026",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいインスタンスイメージが公開され、Debian 12上の依存パッケージが更新されたという運用・保守寄りのリリースです。エージェント基盤に関係するため一定の技術 relevance はありますが、新機能やアーキテクチャ変更、性能向上などの具体的な革新性は示されていません。さらに、既に取り上げ済みの「"
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新版適用に限られ、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。運用上の重要性はあるものの、一般的な保守リリースです。また、既出キーワードの「agent」と同じエージェント基盤の話題であり、"
     },
     "41bb535da5d86f2378d4fdd647646209": {
       "score": 41,
       "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] OpenAIが開発するAIスマートスピーカーの価格帯が明らかになった点は、音声インターフェースや専用AIデバイスの普及可能性を示すものとして一定の注目度があります。一方で、現時点では価格に関する報道にとどまり、技術仕様や新しいアーキテクチャ、実際の製品性能は不明です。一般消費者向けハードウェアであるため技術者向けの影響範囲は限定的で、既出キーワードの"
+      "reason": "[Claude API Evaluation] OpenAIによる専用AIデバイスは、音声インターフェースや常時接続型エージェントの普及につながる可能性があり、技術的には一定の注目度があります。ただし、現時点では価格帯のリークにとどまり、仕様・OS・LLM統合・開発者向けAPIなどの具体性がありません。スマートスピーカーという一般消費者向けハードウェア製品である点に加え、既出キーワードの「AI」と"
     },
     "a6a169a2dbcb2fe15f75a5e3e7d597a5": {
       "score": 49,
       "title": "Deepmind's talent drain likely comes down to chip shortages, a conflict of interest, and Google's bureaucracy",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] Google DeepMindにおけるTPUへのアクセス制約、利益相反、組織官僚主義が研究者の流出につながっているという内容で、AI研究開発の競争力や計算資源の配分に関わるため、技術業界への示唆は大きいです。一方で、新しいモデルや基盤技術の発表ではなく、主題は組織運営と人材流出です。また、既出の「DeepMind」「AI」「Google」関連トピック"
+      "reason": "[Claude API Evaluation] DeepMindの人材流出、TPUへのアクセス制限、Googleの官僚的な意思決定や利益相反は、AI研究組織の開発速度と競争力に直結する重要なテーマです。特に、社内の研究者より外部顧客を優先するように見えるチップ供給構造は、AIインフラ戦略や組織設計の観点で興味深い一方、具体的な新製品や技術ブレークスルーではなく、報道ベースの組織課題に留まります。ま"
     },
     "60fab8df8df77a8647ef90acb00a9229": {
-      "score": 90,
+      "score": 92,
       "title": "Large genome models used to design new viruses",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] 大規模ゲノムモデルを使って、既存の細菌攻撃ウイルスから遺伝的に大きく異なる設計を生成する内容は、AIと合成生物学の融合という点で非常に新規性が高い。創薬やファージ療法などへの応用可能性がある一方、病原体設計への転用や検証・封じ込めなどのバイオセキュリティ上の課題も大きい。AI関連ではあるが、一般的なLLMの続報ではなくゲノム設計という新しい応用領域の"
+      "reason": "[Claude API Evaluation] 大規模ゲノムモデルを使って、既存の配列から遺伝的に大きく離れた細菌攻撃性ウイルスを設計する内容で、AIと合成生物学の融合という点で非常に新規性が高い。創薬、ファージ療法、生命設計の自動化に発展する可能性がある一方、病原体設計への転用や実験検証の安全性などデュアルユース上の重大な懸念も伴う。AI自体は既出キーワードだが、ゲノム基盤モデルによるウイルス設"
     },
     "c84a3400e44107bafc05a9a78ab0aee7": {
       "score": 24,
       "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] 子ども向けスマートウォッチの脆弱性を実際の追跡・盗聴で示しており、GPS搭載IoT機器の設計やサプライチェーン全体に関わるセキュリティ上の問題です。一方で、特定製品群の脆弱性調査が中心で、AIやクラウド基盤、主要技術の前提を変える発表ではありません。一般消費者向けガジェットという減点要素もあるため、セキュリティ記事としては低めの評価とします。 [Ed"
+      "reason": "[Claude API Evaluation] 子ども向けスマートウォッチの脆弱性を悪用し、位置情報の追跡や盗聴が可能になるという、プライバシーとサプライチェーン上の重大なセキュリティ問題です。特にIoT機器の認証、通信、ファームウェア更新、製造元のセキュリティ運用に課題があることを示す点で、エンジニアにとって実務的な示唆があります。一方で、特定カテゴリの消費者向けガジェットに関する脆弱性事例であ"
     },
     "0f60b16da9cc44331e56bd3bc5091fbc": {
       "score": 41,
       "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] GoogleのAI組織再編や次期基盤モデルの遅延、Metaの制御外モデルに関する話題は、AI開発競争や研究開発体制に影響するため、エンジニア視点では一定の重要性があります。ただし、記事は具体的な技術仕様や製品発表ではなく、組織・人材・開発状況を扱う概況です。また、既出キーワードであるAIとGoogleに直接該当し、同一テーマの続報であることが明確でな"
+      "reason": "[Claude API Evaluation] GoogleのAI組織再編や次期基盤モデルの遅延、Metaのモデル運用上の問題は、AI開発競争や人材・研究開発体制に影響する話題です。一方で、記事スニペット בלבדでは具体的な技術革新や新モデルの性能、公開計画が示されておらず、ニュースレター形式の概況に留まっています。また、直近放送済みの「AI」「Google」関連テーマと重複するため20点減点し"
     },
     "94839a9af1a9968684b4b1850974ccbe": {
-      "score": 37,
+      "score": 40,
       "title": "Atlassian Shares Surge as Revenue Jump Douses AI Fears",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] Atlassianの業績改善と、AIアプリケーションによる既存ソフトウェア企業への脅威が和らいだという市場評価は、開発者向けツール市場の動向として一定の重要性があります。ただし、具体的な新技術、アーキテクチャ、製品機能、AIモデルの発表ではなく、主題は株価と四半期売上です。さらにAI関連の話題は直近の既出キーワードに該当し、明確な技術的新展開も示され"
+      "reason": "[Claude API Evaluation] Atlassianの業績改善と、AIによる既存ソフトウェア企業への脅威が後退したという市場評価は、開発者向けSaaSの競争環境を考えるうえで一定の重要性があります。一方で、具体的なAI技術、アーキテクチャ、製品機能の発表ではなく、主題は株価と四半期売上です。また、直近に取り上げ済みのAI関連テーマと同じ角度であるため20点減点しました。 [Edito"
     },
     "37d613258f84701f57a41e95561065c3": {
       "score": 43,
       "title": "DeepSeek Resumes Funding Talks, Plans to Hike Model Prices",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] DeepSeekという注目度の高いAI開発企業が資金調達を再開し、モデル価格の引き上げを計画している点は、AIサービスの収益化や競争環境を考えるうえで一定の重要性があります。一方、モデルの新機能や技術的ブレークスルーではなく、資金調達と価格改定が中心で、機密通話の流出も主に企業運営上の話題です。既存の取り上げ済みキーワードであるAIや資金調達に近いテ"
+      "reason": "[Claude API Evaluation] DeepSeekという注目度の高いAI企業の資金調達再開とモデル価格引き上げは、競争環境や推論APIのコスト構造に影響し得るため一定の重要性があります。一方で、技術仕様や新モデルの発表ではなく、主題は資金調達・価格戦略・情報漏洩に関するビジネス動向です。AI関連の既出トピックと重なるため減点し、業界の前提を変えるほどの具体的な技術革新ではない点も考慮"
     },
     "88d7c16d120299eb1b349323c637a55c": {
-      "score": 60,
+      "score": 43,
       "title": "DESIGN.md を置くと、どこまで「いい感じ」になるのか — 74件を測って確かめた",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] AIによるUI生成のばらつきを抑えるため、デザイン意図を DESIGN.md に集約する発想は、AIコーディングやデザインシステム運用に関わる実務的な進展です。74件を測定して効果と限界を検証している点も具体性があります。一方で、基盤モデルや開発環境そのものを変える発表ではなく、Google Labs由来のファイル形式に関する検証記事に留まります。ま"
+      "reason": "[Claude API Evaluation] AIによるUI生成の再現性を高めるためのDESIGN.mdという設計指示ファイルを、74件の実例で検証している点は、AI開発ワークフローやデザインシステム運用に実務的な価値があります。単なる概念紹介ではなく、効く範囲と限界を測定しているため、エンジニアにとって有用な検証記事です。一方で、業界標準の確立や大規模なアーキテクチャ変更に至ったニュースではな"
     },
     "7bc1e7ad0041b21866a725f8bd05c07f": {
       "score": 41,
       "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] AIシステムの長期運用における劣化や持続性を数理的に扱う理論研究であり、AIの信頼性・保守性を考えるうえでは興味深い一方、現時点ではarXiv上の初期論文で、実運用で検証された手法や具体的な性能改善は示されていません。業界の前提を変える実装・製品発表ではなく、影響範囲も今後の検証次第です。また、直近に扱われたAI関連トピックと領域が重なるため、話題の"
+      "reason": "[Claude API Evaluation] AIシステムを長期運用した際の構造的な劣化や持続性を、冗長性を考慮した人工年齢スコア（AAS）で理論化する点は、AIの信頼性・保守性・継続学習に関わる興味深い研究です。一方で、現時点ではarXiv上の理論モデルであり、実システムでの検証、実装、業界への具体的な影響は確認できません。AI関連の記事は直近放送で既出のため、明確な続報とは判断せず20点減点"
     },
     "3b1c7a5bcb6333111b3b3cf83f8dec99": {
-      "score": 40,
+      "score": 43,
       "title": "C$^2$MOE: Consistency and Complementarity-guided Mixture of Experts for Incomplete Multimodal Emotion Learning",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] 欠損モダリティに対して一貫性だけでなく相補性も考慮するMixture of Expertsを提案しており、マルチモーダル感情認識の実運用上の課題に directly 対応する点は技術的に興味深いです。一方で、対象は会話型感情認識という比較的限定された研究領域で、arXivの新規論文段階にあり、業界全体のアーキテクチャや開発基盤を変えるほどの影響範囲・"
+      "reason": "[Claude API Evaluation] 不完全なマルチモーダル入力に対し、Mixture of Expertsとモダリティ間の一貫性・相補性を組み合わせて感情認識の頑健性を高める研究で、技術的な新規性は高いです。実運用で発生する欠損データへの対応という実用的な課題にも直結しますが、現時点ではarXivの研究段階で、対象が会話型感情認識という比較的限定的な領域です。AI関連の話題は既出キーワ"
     },
     "45a42e3e2063d36a1141a72b4ae02603": {
-      "score": 70,
+      "score": 60,
       "title": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] LLMプロンプティングと転移学習を古典ラテン語の固有表現抽出に適用した研究であり、AI・自然言語処理の技術的な新規性があります。11クラスおよび28クラスのNERタスクに対する実システムと評価結果を扱っている点も具体的です。一方で、対象言語と学術用途が限定的で、業界全体のアーキテクチャや開発手法を変えるほどの影響範囲はありません。既出のAI関連記事と"
+      "reason": "[Claude API Evaluation] LLMプロンプティングと転移学習を古典ラテン語の固有表現抽出に適用した研究であり、低リソース言語・歴史資料のNLP処理という技術的な新規性があります。NERを粗粒度11クラス、細粒度28クラスで評価しており、手法比較や再現性の観点でも一定の価値があります。一方で、対象が古典ラテン語の共有タスクに限定され、ソフトウェア業界全体への影響や基盤モデル自体の"
     },
-    "f4097a82364cff47567ae46f2e6d6527": {
-      "score": 43,
-      "title": "GitHub - mattdeeds/pokeemerald-rp2350: Pokémon Emerald ported to the RP2350. No emulator, 60 fps HDMI output. Recompiled",
+    "b00c985b22d85fa6c0d7da10762dc66e": {
+      "score": 30,
+      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] ポケモンエメラルドをRP2350へネイティブ移植し、エミュレータなしでCortex-M33上の60fps HDMI出力を実現している点は、組み込み開発やリバースエンジニアリングの技術例として興味深い。ハードウェア性能を直接引き出す低レイヤー実装や移植技術には具体性がある一方、用途は特定ゲームと開発者コミュニティに限られ、業界全体のアーキテクチャや市場"
+      "reason": "[Claude API Evaluation] Nepal政府がHave I Been Pwnedへの登録対象となる点は、政府機関の漏えい監視や市民への通知体制という観点で一定の意義があります。一方で、既存のセキュリティサービスへの参加に関するニュースであり、新しい技術、アーキテクチャ、脆弱性の発見などを示すものではありません。セキュリティ運用・ガバナンス寄りの話題として、重要度は低〜中程度と評価"
     },
     "8ed6e6f6f2aa8c015571e9117ee27aad": {
       "score": 47,
       "title": "From asking to doing: How the world is putting ChatGPT to work",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] ChatGPTの世界的な利用状況や行動変化を示すデータは、AI導入の実態を把握するうえで一定の価値があります。一方で、新しいモデル、API、アーキテクチャ、開発者向け機能などの具体的な技術革新ではなく、主に利用動向の分析にとどまります。また、既に取り上げ済みの「ChatGPT」「AI」「data」と同じ話題に該当するため、重複分として減点しました。 "
+      "reason": "[Claude API Evaluation] ChatGPTの世界各国での利用実態や行動変化を示す調査データであり、AIサービスの普及状況を把握する材料としては有用です。一方で、新しいモデル、API、アーキテクチャ、具体的な技術革新を発表する記事ではなく、エンジニアリングへの直接的な影響は限定的です。さらに、直近に取り上げ済みのChatGPT、AI、dataと同じ話題に該当するため、重複分として"
     },
     "2e6e2c63bb7bbab2d2cc579ce146fe25": {
-      "score": 48,
+      "score": 47,
       "title": "Configure rate limits for AI traffic on AgentCore gateway",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] AIエージェント向けゲートウェイで、ユーザーや接続先ごとにリクエスト数・トークン数・接続数を制御できる実務的な機能です。JWTクレームやIAMアイデンティティによるきめ細かなスロットリングは、モデルやツールを保護し、コスト急増やトラフィックスパイクを防ぐ点で有用ですが、既存のレート制限やクラウド運用機能の発展に近く、業界の前提を変えるほどの新規性はあ"
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore Gatewayで、JWTクレームやIAMアイデンティティ単位のリクエスト数・トークン数・接続数を制御できる点は、AIエージェントを本番運用する際のレート制御、コスト抑制、下流モデルやツールの保護に直結する実用的なクラウド機能です。一方で、技術革新というより既存のAPIゲートウェイやサービス保護機能のA"
     },
     "b0db2cd15ff0d092e3e51f96301de630": {
-      "score": 54,
+      "score": 47,
       "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIを業務自動化やツール作成に活用した事例で、生成AIを非エンジニア業務へ展開する具体性はあります。ただし、基盤技術の新発表や大規模なアーキテクチャ変更ではなく、単一組織の導入事例・ノウハウに留まるため、業界全体への影響度は限定的です。既出のAI関連話題と近いものの、法務ワークフローへの適用という新しい具体"
+      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIで業務ツールを構築し、開発者以外でも自動化を進められる実例は実務的な価値があります。一方で、基盤技術やアーキテクチャの新発表ではなく、既存のAI／Copilot活用事例に留まります。直近にAI関連の話題が取り上げ済みで、同じテーマの続報・技術革新とは言いにくいため減点しました。 [Editorial: "
     },
     "8ffea9e3211100f9f80540f2ff2892e0": {
-      "score": 33,
+      "score": 30,
       "title": "Retiring the Copilot Billing Preview app",
       "date": "2026-08-07",
-      "reason": "[Claude API Evaluation] GitHub Copilotの請求プレビューアプリを終了し、今後はGitHubの請求設定画面へ統合する運用変更です。利用者にとって確認場所が変わる実務上の影響はありますが、Copilotの機能・料金体系・基盤技術そのものに新しい進展はなく、影響範囲も限定的です。 [Editorial: AI-focused source +6; AI/SaaS to"
+      "reason": "[Claude API Evaluation] GitHub Copilotの請求プレビューアプリ廃止と、GitHubの請求設定画面への機能統合を知らせる運用変更です。利用者の請求管理フローには影響しますが、新しいAI機能やアーキテクチャ、開発者向け技術革新を含む内容ではなく、対象も既存Copilotユーザーに限定されます。 [Editorial: AI-focused source +6; AI"
     },
     "33a04578229bf3eef9de4a1fac6c5c5e": {
       "score": 35,
@@ -348,27 +348,27 @@
     "llm": [
       {
         "model": "gpt-5.6-luna",
-        "calls": 38,
-        "input_tokens": 28594,
-        "output_tokens": 11427,
-        "cost_usd": 0.019431
+        "calls": 37,
+        "input_tokens": 28030,
+        "output_tokens": 11154,
+        "cost_usd": 0.018991
       },
       {
         "model": "claude-sonnet-5",
-        "calls": 24,
-        "input_tokens": 55460,
-        "output_tokens": 6257,
-        "cost_usd": 0.260235
+        "calls": 25,
+        "input_tokens": 55989,
+        "output_tokens": 6381,
+        "cost_usd": 0.263682
       }
     ],
     "tts": null,
     "openai_tts_details": [
       {
         "model": "gpt-4o-mini-tts",
-        "chars": 3905,
-        "cost_usd": 0.04686
+        "chars": 3673,
+        "cost_usd": 0.044076000000000004
       }
     ],
-    "total_cost_usd": 0.326526
+    "total_cost_usd": 0.326749
   }
 }
