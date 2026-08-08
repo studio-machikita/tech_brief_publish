@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 11</title>
+<title>Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-09/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-09/">
+<meta property="og:description" content="2026-08-09 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-09/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 ほか",
+    "description": "2026-08-09 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-09",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-09/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-09/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 ほか",
+    "description": "2026-08-09 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-09",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-09/",
+    "duration": "PT14M",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-09/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,109 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-09/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-09/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-05-01/index.html" class="episode-card">
-        <div class="episode-date">2026-05-01</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-01</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-04-30/index.html" class="episode-card">
-        <div class="episode-date">2026-04-30</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-30</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-04-29/index.html" class="episode-card">
-        <div class="episode-date">2026-04-29</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-29</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Anthropic%E3%81%8C%E9%96%8B%E7%99%BA%E8%80%85%E3%82%92%E8%AA%A4%E3%81%A3%E3%81%9F%E6%89%BF%E8%AA%8D%E3%81%8B%E3%82%89%E5%AE%88%E3%82%8B%E3%81%9F%E3%82%81%E3%80%81Claude%20Code%E3%82%92%E3%80%8CAuto%E3%83%A2%E3%83%BC%E3%83%89%E3%80%8D%E3%81%AB%E3%83%87%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88%E8%A8%AD%E5%AE%9A%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-09/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-09/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-04-28/index.html" class="episode-card">
-        <div class="episode-date">2026-04-28</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-28</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-27/index.html" class="episode-card">
-        <div class="episode-date">2026-04-27</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-27</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-26/index.html" class="episode-card">
-        <div class="episode-date">2026-04-26</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-26</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-25/index.html" class="episode-card">
-        <div class="episode-date">2026-04-25</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-25</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-24/index.html" class="episode-card">
-        <div class="episode-date">2026-04-24</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-24</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-23/index.html" class="episode-card">
-        <div class="episode-date">2026-04-23</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-23</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-22/index.html" class="episode-card">
-        <div class="episode-date">2026-04-22</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-22</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>9 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../10/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><span class="current">11</span><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../12/index.html">次へ</a><span class="summary">Page 11 / 14</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1013,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1083,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1112,5 +1039,258 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-09"
+subtitle: "Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 / NHLにおける制約プログラミングを用い..."
+date: "2026-08-09"
+vol: 131
+topics:
+  - AI
+  - DevOps
+  - Data
+  - LLM
+  - Science
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-09
+
+*📖 約11分で読めます ｜ 🏷️ AI, DevOps, Data, LLM, Science*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定** — Claude Code、Auto Modeを8月14日から標準設定に
+- 🤖 **NHLにおける制約プログラミングを用いたプレーオフ進出条件の決定** — AWSがNHLプレーオフ進出判定を数理的に自動化
+- 🤖 **産業因果推論のためのシミュレータ基盤大規模言語モデル:下水処理意思決定支援におけるツール利用、構造化情報注入、プラント間可搬型検索** — 下水処理の因果推論をLLMとシミュレータで実現
+- 🤖 **Cohere Health、Amazon Bedrock AgentCoreで臨床ポリシーをデジタル化する方法** — Cohere Health、Bedrock AgentCoreで医療方針をAI化
+- 🤖 **OpenAI、プレゼン制作スタートアップNextSlideを買収** — OpenAIがプレゼン制作スタートアップNextSlideを買収
+- 🤖 **HSP GRUPPEが税務アドバイザリー向けAI能力を構築する方法** — 税務アドバイザリー企業がChatGPT Enterpriseで生産性向上
+
+---
+
+## 🤖 Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定
+\`AI\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals</summary>
+</details>
+
+> **一言で**: Claude Code、Auto Modeを8月14日から標準設定に
+
+- Anthropicが8月14日からAuto Modeを標準設定に変更
+- 分類器は危険なコマンドの89%を検出、人間は13.6%のみ
+- Pro・Max・Teamプランが対象
+- 開発者はコード執筆からAI出力の監視へ役割が移行
+
+💡 **なぜ重要か**
+Claude Codeは広く使われるAIコーディングツールです。人間による承認では危険なコマンドの見落としが多く、Anthropicは安全性向上のためAuto Modeを標準にしたと見られています。 AIコーディングツールの普及で、開発者の役割はコードを書くことから、AIの出力を確認し監視することへ変わっていくと考えられます。承認プロセスの自動化は他社ツールにも広がる可能性があります。
+
+🎯 **今日のアクション**
+エンジニアはAuto Modeの挙動を事前に検証し、分類器が見落とすケースについても把握しておくべきです。チームでは承認フローの変更を周知し、監視体制を整える必要があります。
+
+🔗 [原文を読む](https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)
+
+---
+
+## 🤖 NHLにおける制約プログラミングを用いたプレーオフ進出条件の決定
+\`AI\` \`Data\`
+
+<details>
+<summary>📄 原題: Determining playoff clinching scenarios in the NHL using constraint programming</summary>
+</details>
+
+> **一言で**: AWSがNHLプレーオフ進出判定を数理的に自動化
+
+- AWS Generative AI Innovation Centerが自動判定システムを開発
+- 制約プログラミングと独自の木探索を組み合わせた手法を採用
+- NHLチームのプレーオフ進出が確定する条件を数学的に厳密に判定
+- 過去4シーズンの公式結果と照合して精度を検証済み
+
+💡 **なぜ重要か**
+スポーツリーグの順位確定条件は残り試合や他チームの結果に依存し、組み合わせが膨大になります。従来は人手や簡易な計算で判定していましたが、AWSは制約プログラミングという数理最適化の手法を使い、確定条件を厳密に導き出す仕組みを作りました。 スポーツデータ分析における数理最適化の活用例として注目されそうです。他のリーグや順位表を持つ競技にも応用が広がる可能性があります。
+
+🎯 **今日のアクション**
+エンジニアは制約プログラミングや木探索の実装パターンを学び、複雑な条件分岐を伴う判定ロジックの自動化に応用すると良さそうです。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/)
+
+---
+
+## 🤖 産業因果推論のためのシミュレータ基盤大規模言語モデル:下水処理意思決定支援におけるツール利用、構造化情報注入、プラント間可搬型検索
+\`AI\` \`LLM\` \`Science\`
+
+<details>
+<summary>📄 原題: Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support</summary>
+</details>
+
+> **一言で**: 下水処理の因果推論をLLMとシミュレータで実現
+
+- 下水処理場の運転員が抱く因果的な質問にLLMで答える研究
+- Qwen2.5-32B-Instructモデルを固定し、シミュレータCCSS-IXと連携させて検証
+- ライブシミュレータ照会や構造化パラメータ注入など3手法を比較
+- プラント間で使い回せる検索方式も評価対象
+- 「N2Oが上昇する理由」など現場特有の問いへの回答精度を検証
+
+💡 **なぜ重要か**
+下水処理場の運転では、設備固有の変数間の相互作用や効果の伝播速度を理解した上での判断が欠かせません。一般的な事前学習データだけに基づくLLMの回答では、個々のプラントの実情に即した因果推論が難しいという課題があり、この研究はシミュレータで裏付けた回答生成を試みています。 産業分野でのLLM活用は、汎用知識だけでなく現場固有のシミュレーションやデータとの統合が重要になっていくと見られています。この研究のような手法は、製造業やエネルギー分野など他の産業インフラでの因果推論支援にも応用が広がる可能性があります。
+
+🎯 **今日のアクション**
+産業向けAIシステムを設計するエンジニアは、LLM単体の知識に頼らず、現場のシミュレータやドメイン特有のデータをどう組み込むか検討すべきです。特にツール呼び出しや構造化データ注入の設計パターンは参考になりそうです。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.05151)
+
+---
+
+## 🤖 Cohere Health、Amazon Bedrock AgentCoreで臨床ポリシーをデジタル化する方法
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore</summary>
+</details>
+
+> **一言で**: Cohere Health、Bedrock AgentCoreで医療方針をAI化
+
+- Cohere HealthがAmazon Bedrock AgentCoreで臨床方針の電子化を推進
+- AgentCore Runtimeの安全な仮想環境で複数テナントを分離
+- AgentCore Gatewayでツールへのアクセスを一元化
+- AgentCore Memoryと「Agent Skills」標準で機能を拡張
+- 透明性、版管理、人による確認を保ったまま拡張を実現
+
+💡 **なぜ重要か**
+医療保険の審査では、複雑な臨床方針を人手で解釈する作業が多く残っています。これをAIで電子化できれば、審査の速度と正確さが大きく向上します。ただ医療分野は誤りが許されないため、透明性や人の確認体制を保ったまま自動化する仕組みが求められています。 医療AIの分野でエージェント型アーキテクチャが実用段階に入ったことを示す事例です。安全な分離環境と統一されたツール接続の仕組みが整えば、他の規制産業でも同様のAI活用が広がる可能性があります。
+
+🎯 **今日のアクション**
+医療やその他の規制業種でAIエージェントを導入する際は、テナント分離の設計と人による確認プロセスを最初から組み込むべきです。AgentCoreのような基盤サービスの機能を早めに検証しておくとよいでしょう。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/)
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/)
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/)
+
+---
+
+## 🤖 OpenAI、プレゼン制作スタートアップNextSlideを買収
+\`AI\` \`Startup\` \`Business\`
+
+<details>
+<summary>📄 原題: OpenAI acquires presentation startup NextSlide</summary>
+</details>
+
+> **一言で**: OpenAIがプレゼン制作スタートアップNextSlideを買収
+
+- OpenAIがNextSlideを買収したと発表
+- NextSlideはプレゼン資料作成を手がけるスタートアップ
+- チームメンバーは現在ChatGPTの開発に加わっているそうです
+
+💡 **なぜ重要か**
+OpenAIはChatGPTの機能拡張を目指し、外部の専門チームを取り込む買収を続けています。プレゼン資料作成という具体的な業務領域に強みを持つNextSlideの技術やノウハウは、ChatGPTでの資料作成支援機能の強化に活用される可能性があると見られています。 生成AIサービスが単なる文章生成から、資料作成など具体的な業務支援へと機能を広げる流れが加速しそうです。スタートアップにとっては、大手AI企業による買収が事業の出口戦略の一つとして定着していく可能性があります。
+
+🎯 **今日のアクション**
+エンジニアはChatGPTの新機能追加の動向を注視し、プレゼン資料作成など業務支援分野でのAI活用方法を早めに検討しておくとよさそうです。
+
+🔗 [原文を読む](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/)
+
+---
+
+## 🤖 HSP GRUPPEが税務アドバイザリー向けAI能力を構築する方法
+\`AI\` \`Business\`
+
+<details>
+<summary>📄 原題: How HSP GRUPPE builds AI capabilities for tax advisory</summary>
+</details>
+
+> **一言で**: 税務アドバイザリー企業がChatGPT Enterpriseで生産性向上
+
+- HSP GRUPPEがChatGPT Enterpriseを税務アドバイザリー業務に導入
+- 生産性の向上と業務品質の改善を実現したそうです
+- クライアント対応に割ける時間の余裕が生まれたと見られています
+
+💡 **なぜ重要か**
+税務や会計といった専門知識を要する業界でも、生成AIを日常業務に組み込む動きが広がっています。定型作業をAIに任せることで、専門家がより付加価値の高い業務に集中できる環境作りが進んでいます。 士業や専門アドバイザリー業界でのAI活用が進むと、業務効率化だけでなく人材不足への対応策としても注目される可能性があります。
+
+🎯 **今日のアクション**
+自社の定型業務を洗い出し、AIツール導入で削減できる作業時間とクライアント対応強化の余地を検討するとよいでしょう。
+
+🔗 [原文を読む](https://openai.com/index/hsp-gruppe)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースは、いずれもAIが人間の判断を完全に代替するのではなく、専門的な意思決定プロセスに「安全に統合」される方向性を示している点で共通しています。Claude Codeのオートモードは開発者の誤操作を防ぐガードレールとして機能し、NHLの制約プログラミングは複雑な組み合わせ条件を数理的に厳密に処理し、下水処理のLLM基盤は因果推論という不確実性の高い領域にシミュレータという「検証可能な足場」を組み合わせています。つまり、いずれの事例も単純な自動化ではなく、専門知識・数理モデル・シミュレーションといった信頼できる裏付けをAIに与えることで、実務における判断の正確性と安全性を高めようとする点が共通しています。この傾向は、生成AIブームが「創造的な出力」から「信頼性のある意思決定支援」へと重心を移しつつある、業界全体の成熟過程を反映していると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定**: エンジニアはAuto Modeの挙動を事前に検証し、分類器が見落とすケースについても把握しておくべきです。チームでは承認フローの変更を周知し、監視体制を整える必要があります。
+2. **NHLにおける制約プログラミングを用いたプレーオフ進出条件の決定**: エンジニアは制約プログラミングや木探索の実装パターンを学び、複雑な条件分岐を伴う判定ロジックの自動化に応用すると良さそうです。
+3. **産業因果推論のためのシミュレータ基盤大規模言語モデル:下水処理意思決定支援におけるツール利用、構造化情報注入、プラント間可搬型検索**: 産業向けAIシステムを設計するエンジニアは、LLM単体の知識に頼らず、現場のシミュレータやドメイン特有のデータをどう組み込むか検討すべきです。特にツール呼び出しや構造化データ注入の設計パターンは参考になりそうです。
+
+---
+
+## 🔗 出典一覧
+- [Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定](https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)
+- [NHLにおける制約プログラミングを用いたプレーオフ進出条件の決定](https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/)
+- [産業因果推論のためのシミュレータ基盤大規模言語モデル:下水処理意思決定支援におけるツール利用、構造化情報注入、プラント間可搬型検索](https://arxiv.org/abs/2608.05151)
+- [Cohere Health、Amazon Bedrock AgentCoreで臨床ポリシーをデジタル化する方法](https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/)
+- [Cohere Health、Amazon Bedrock AgentCoreで臨床ポリシーをデジタル化する方法](https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/)
+- [Cohere Health、Amazon Bedrock AgentCoreで臨床ポリシーをデジタル化する方法](https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/)
+- [OpenAI、プレゼン制作スタートアップNextSlideを買収](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/)
+- [HSP GRUPPEが税務アドバイザリー向けAI能力を構築する方法](https://openai.com/index/hsp-gruppe)`;
+const notesMd = `# Tech News Radio Show Notes - #131 (2026-08-09)
+
+## エピソード情報
+- **エピソード**: #131
+- **日付**: 2026-08-09
+- **尺**: 約 14 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals](https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)
+- [Determining playoff clinching scenarios in the NHL using constraint programming](https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming/)
+- [Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support](https://arxiv.org/abs/2608.05151)
+
+### 注目の深掘り
+- [How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/)
+- [How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/)
+- [How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/)
+
+### 小ネタ・その他
+- [OpenAI acquires presentation startup NextSlide](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/)
+- [How HSP GRUPPE builds AI capabilities for tax advisory](https://openai.com/index/hsp-gruppe)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

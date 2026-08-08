@@ -1,0 +1,376 @@
+{
+  "date": "2026-08-09",
+  "episode_date_local": "2026-08-09",
+  "content_snapshot_date": "2026-08-09",
+  "show_length_sec": 840,
+  "audio_size": 80713004,
+  "generated_at": "2026-08-08T20:47:07.960200+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ac97d07c",
+      "title": "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
+      "title_ja": "Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定",
+      "one_liner": "Claude Code、Auto Modeを8月14日から標準設定に",
+      "fingerprint": "ac97d07cf9682a1063ee92d8445f93d8",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-5578a270",
+      "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
+      "title_ja": "NHLにおける制約プログラミングを用いたプレーオフ進出条件の決定",
+      "one_liner": "AWSがNHLプレーオフ進出判定を数理的に自動化",
+      "fingerprint": "5578a2705a57a2889f6d369aa192e19e",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-59bb3eab",
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "title_ja": "産業因果推論のためのシミュレータ基盤大規模言語モデル:下水処理意思決定支援におけるツール利用、構造化情報注入、プラント間可搬型検索",
+      "one_liner": "下水処理の因果推論をLLMとシミュレータで実現",
+      "fingerprint": "59bb3eab2f941f86042a0fa5200cc1cf",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-8ade9b0a",
+      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+      "title_ja": "Cohere Health、Amazon Bedrock AgentCoreで臨床ポリシーをデジタル化する方法",
+      "one_liner": "Cohere Health、Bedrock AgentCoreで医療方針をAI化",
+      "fingerprint": "8ade9b0af2d4f1fd0a97e4118acf01d3",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-754f634a",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "title_ja": "OpenAI、プレゼン制作スタートアップNextSlideを買収",
+      "one_liner": "OpenAIがプレゼン制作スタートアップNextSlideを買収",
+      "fingerprint": "754f634a04ece928e249337d16a0c8f2",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-b61144b9",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "title_ja": "HSP GRUPPEが税務アドバイザリー向けAI能力を構築する方法",
+      "one_liner": "税務アドバイザリー企業がChatGPT Enterpriseで生産性向上",
+      "fingerprint": "b61144b9844f73bf2dc94cedba05d449",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-08d98588",
+      "reason": "LINK_ONLY: Source classified as joke: Anthropicの公式製品名として「Claude Fable 5」は不自然で、実在が確認できない架空のモデル名と考えられます。生物学関連の安全対策という現実的な話題を装っていますが、全体としてネタ記事・偽ニュースの可能性が高いです。",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-969b46b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them"
+    },
+    {
+      "item_id": "item-dcc2ffbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A guide to slash commands in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-2890e651",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot impact dashboard adds a return on investment section"
+    },
+    {
+      "item_id": "item-71ece285",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Responding to the next frontier of critical cyber capabilities"
+    },
+    {
+      "item_id": "item-b0db2cd1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows"
+    },
+    {
+      "item_id": "item-a697577f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alphabet Draws Strong Demand for $25 Billion Debt Sale With Higher Yields"
+    },
+    {
+      "item_id": "item-612ee5ff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 3"
+    },
+    {
+      "item_id": "item-e642856f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI"
+    },
+    {
+      "item_id": "item-6bc1cd72",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redditのヘッジファンド、クオンツトピックをGrokタスクで毎週自動収集する"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-de95ec5a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating"
+    },
+    {
+      "item_id": "item-4b47871d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Singapore to Ensure AI Helps Workers Worried About Jobs, PM Says"
+    },
+    {
+      "item_id": "item-ce86f9c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-863d9d66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”"
+    },
+    {
+      "item_id": "item-aeb92229",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation"
+    },
+    {
+      "item_id": "item-099c0d27",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TinySol, a tiny solitaire game for DOS"
+    }
+  ],
+  "score_cache": {
+    "de95ec5a418e055af947bd8c3e264cf1": {
+      "score": 32,
+      "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] AIによる不正対策として、筆記課題に口頭試問を組み合わせる教育制度の変更は社会的な影響がありますが、ソフトウェア技術そのものの革新や新しいアーキテクチャを示す内容ではありません。AI関連ではあるものの、主眼は教育運用・制度設計であり、既出のAIトピックとの重複も考慮して低めに評価します。 [Editorial: AI/SaaS topic +5]"
+    },
+    "71ece285ebeee6864f2a23f0f5139066": {
+      "score": 43,
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] OpenAIのAstraに対するサイバーセキュリティ評価と安全策の強化は、先端AIの悪用リスクや運用上のガードレールを考えるうえで技術的意義があります。一方で、主題は新機能やアーキテクチャの革新ではなく、セキュリティ評価・安全対策に関する内容であり、評価基準上は低めです。また、AIやモデル関連の話題は直近の放送済みキーワードと重なるため減点しました。"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 73,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-08",
+      "reason": "[ScoreCache 2026-08-08] [Claude API Evaluation] AnthropicのFable 5における生物学分野の安全フィルター改善は、LLMの実用性と安全性のトレードオフを具体的に改善する技術的アップデートです。誤検知を約85%削減し、一般的な生物学の質問を過度に遮断せずに済む点は、モデルの利用体験と推論資源の効率化に直結します。一方で、ウイルス学や毒性学など"
+    },
+    "8ade9b0af2d4f1fd0a97e4118acf01d3": {
+      "score": 54,
+      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCoreを用いたマルチテナントのエージェント基盤、MicroVM分離、統合ツールアクセス、メモリ管理、Agent Skills標準の実装事例であり、クラウドアーキテクチャとエージェント運用の具体性は高く、エンジニアにとって参考価値があります。一方で、AI・Amazon・Bedrock・Agent・アーキテクチャ"
+    },
+    "dcc2ffbe6ab2a4cd8f2c0f87cce11c9f": {
+      "score": 47,
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・協業・自動化・カスタマイズを効率化する実用的な開発者向け機能であり、日常の開発ワークフローへの影響はあります。一方で、既存のCopilot機能を操作しやすくするガイド記事で、アーキテクチャや基盤技術を大きく変える新規性は限定的です。また、直近に取り上げ済みの「GitHub」「Copilo"
+    },
+    "612ee5ffa823169b00595c8214d4da70": {
+      "score": 38,
+      "title": "GitHub Copilot weekly releases — August 3",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotのデスクトップアプリ、CLI、VS Codeにおける週次アップデートで、作業再開や変更レビュー、文脈を維持した質問など開発体験の改善は見込めます。ただし、業界の前提を変える新技術や大規模なアーキテクチャ変更ではなく、具体的な機能詳細もスニペットからは限定的です。さらに、GitHubおよびCopilotは直近の既出キーワード"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 34,
+      "title": "April 27, 2026",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージの最新更新を適用した保守的なリリースであり、新機能やアーキテクチャ変更、互換性向上などの具体的な技術革新は確認できません。エージェント関連の話題は既報キーワードにも該当し、同じ領域の続報として減点しました。 [Editorial: AI-focused s"
+    },
+    "754f634a04ece928e249337d16a0c8f2": {
+      "score": 54,
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] OpenAIによるプレゼンテーション系スタートアップの買収は、ChatGPTにスライド作成や資料生成の機能・人材・技術が統合される可能性があり、AIプロダクトの拡張として注目度は高い。一方、現時点では買収とチーム移籍以外の具体的な技術内容や提供機能が明らかでなく、業界の前提を変えるほどの発表とは言いにくい。また、既出の「startup」関連トピックと"
+    },
+    "ac97d07cf9682a1063ee92d8445f93d8": {
+      "score": 66,
+      "title": "Anthropic sets Claude Code to Auto Mode by default to protect developers from bad approvals",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] AIコーディングツールの承認フローを、手動確認中心から危険コマンドを分類器で自動判定する方式へ転換する具体的な製品変更であり、開発者の作業モデルや安全設計に影響します。危険コマンドの検出率89%という実測値もあり実用性は高い一方、業界全体の前提を変える新モデルや基盤技術の発表ではありません。既出のAI関連トピックと重なるため、重複分を考慮して減点しま"
+    },
+    "863d9d66c8d34180f490f6882986fa3a": {
+      "score": 24,
+      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] OpenAIが開発するスマートスピーカーという点には一定の話題性があり、可動部品で生命感を演出するHMI設計も興味深いものの、記事の中心は一般消費者向けハードウェア製品です。ソフトウェア基盤、AIモデル、開発者エコシステム、アーキテクチャを大きく変える具体的な技術発表ではなく、現時点では報道ベースの製品仕様にとどまるため、評価基準上は最低評価帯としま"
+    },
+    "aeb92229598818d3d1af27166f0df361": {
+      "score": 24,
+      "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] 国勢調査の対象や人種・性的指向に関する質問を変更する規制・政策ニュースであり、社会的影響は大きい一方、ソフトウェア技術やAI、クラウド、開発者向けアーキテクチャの進展には直接つながりません。エンジニア視点ではデータ収集方針や統計データの信頼性に関わるものの、技術革新性は低いため、規制関連ニュースとして低めに評価します。"
+    },
+    "e642856f776e1c77cb6df76ae27c8c09": {
+      "score": 38,
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] AIが作成した初のウイルスという題材にはサイバーセキュリティ上の新規性がありますが、記事は技術仕様や実証結果を詳しく示すものではなく、ニュースレター形式の概説です。また、主題の一部は検閲をめぐる政治・社会的議論であり、ソフトウェア開発やアーキテクチャを直接変える内容ではありません。既出のAI関連トピックとは異なるセキュリティ面の話題のため、重複による"
+    },
+    "4b47871d615c827b1220c03b4109a936": {
+      "score": 32,
+      "title": "Singapore to Ensure AI Helps Workers Worried About Jobs, PM Says",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] AIによる生産性向上や雇用不安への対応は社会的な影響が大きい一方、記事の中心はシンガポール政府の方針表明であり、具体的な技術、実装、製品、アーキテクチャの新規性は乏しいため、エンジニア向けの直接的な重要度は限定的です。AI関連ではあるものの、既出キーワードのAIや労働活用に近い政策的な話題で、新たな技術的展開も明確ではないため減点しました。 [Edi"
+    },
+    "a697577fedae9ae25999f2d0836499ae": {
+      "score": 40,
+      "title": "Alphabet Draws Strong Demand for $25 Billion Debt Sale With Higher Yields",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] Alphabetによる最大250億ドルの社債発行と、AI投資を背景とした資金需要・市場の信用評価を示す記事です。大規模なAIインフラ投資の財務面を読み解く材料にはなりますが、新しい技術、アーキテクチャ、製品、開発者向け機能の発表ではなく、エンジニアへの直接的な影響は限定的です。AI関連の既出テーマと接点はあるものの、今回は技術そのものではなく資金調達"
+    },
+    "6bc1cd728e6cf730f47f8e0050fae65c": {
+      "score": 36,
+      "title": "Redditのヘッジファンド、クオンツトピックをGrokタスクで毎週自動収集する",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] Grokを使ってReddit上のクオンツ・ヘッジファンド関連情報を毎週収集する実務的な情報収集ワークフローであり、LLM活用の具体例としては有用です。ただし、独自のモデル開発やアルゴリズム、投資システムのアーキテクチャ革新ではなく、既存サービスを用いた情報整理・自動化が中心です。また、直近放送済みのAI・エージェント関連トピックと近い切り口のため減点"
+    },
+    "59bb3eab2f941f86042a0fa5200cc1cf": {
+      "score": 55,
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Port",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] 産業用シミュレータを根拠にLLMへツール利用・構造化データ注入・プラント間で再利用可能な検索を組み合わせ、排水処理の因果推論や意思決定支援を検証する研究であり、AIエージェントの実運用やデジタルツイン活用に直結する具体性があります。一方、基盤モデルを業務特化データやシミュレータでグラウンディングするテーマは既出のAI・LLM・モデル関連トピックと重な"
+    },
+    "099c0d277cb947534d37ed20ceee0a34": {
+      "score": 10,
+      "title": "TinySol, a tiny solitaire game for DOS",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] DOS向けの小規模なソリティアゲームであり、技術革新や業界への影響、アーキテクチャ上の新規性は限定的です。レトロコンピューティングや趣味的なソフトウェアとしては興味深いものの、エンジニアリングニュースとしての重要度は非常に低いと判断しました。"
+    },
+    "b61144b9844f73bf2dc94cedba05d449": {
+      "score": 49,
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] 税務アドバイザリー企業がChatGPT Enterpriseを業務に導入し、生産性や品質、顧客対応能力を向上させる事例であり、企業における生成AI活用の具体例として一定の価値があります。一方で、新しいモデルやアーキテクチャ、独自技術の発表ではなく、既存サービスの導入効果を紹介する内容に留まります。さらに、直近放送済みの「AI」「ChatGPTに関連す"
+    },
+    "5578a2705a57a2889f6d369aa192e19e": {
+      "score": 60,
+      "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] 制約プログラミングとカスタム木探索を組み合わせ、NHLのプレーオフ進出条件を数学的に判定する実装例であり、探索アルゴリズムや最適化技術の具体性は高く、4シーズンの実績で検証されている点も評価できます。一方で、主な適用領域はスポーツの順位判定に限られ、汎用的なアーキテクチャや業界全体を変える技術革新ではありません。また、AWSのGenerative A"
+    },
+    "b0db2cd15ff0d092e3e51f96301de630": {
+      "score": 43,
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIで業務ツール作成やワークフローを効率化した事例で、実務上の示唆はあります。一方、画期的な技術革新や新アーキテクチャの発表ではなく、特定部門の活用事例に留まります。さらに、既出キーワードであるGitHubおよびCopilotと同じ話題に該当するため、重複分を減点しました。 [Editorial: AI-f"
+    },
+    "2890e651ee49f13401413996f2a06840": {
+      "score": 47,
+      "title": "Copilot impact dashboard adds a return on investment section",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用コストとプルリクエスト生成量を結び付けてROIを可視化する実務的な機能追加で、導入効果の測定や経営層への説明には有用です。一方、Copilot自体の機能革新や開発基盤の大幅な進化ではなく、影響範囲も既存ユーザー向けのダッシュボード改善に限定されます。さらに、既出キーワードである「Copilot」と同じ話題の続報に該当"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 29,
+      "title": "May 11, 2026",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した保守的なリリースであり、機能追加やアーキテクチャ変更、性能向上などの具体的な技術革新は見られません。既出キーワードであるAgentに関連する同系統の話題でもあるため減点しました。利用環境の更新や脆弱性対応には一定の実務的価値がありますが、業界全体"
+    },
+    "ce86f9c8ea97982c750639bc6aa59e8f": {
+      "score": 30,
+      "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] Xのクリエイター向け収益分配制度を終了し、オリジナルコンテンツ報酬へ移行するというプラットフォーム運用・収益化ポリシーの変更です。投稿者へのインセンティブ設計やコンテンツ供給には影響しますが、技術的な革新やアーキテクチャ変更の具体性は乏しく、エンジニアリング業界全体への波及も限定的です。"
+    },
+    "969b46b4cffc9e01604a1f8125972eaa": {
+      "score": 49,
+      "title": "Readers rate AI-generated short stories higher than human ones until they learn a machine wrote them",
+      "date": "2026-08-09",
+      "reason": "[Claude API Evaluation] AI生成文章と人間の文章を読者が識別できず、AIだと知らされた途端に評価が下がるという結果は、生成AIの品質そのものだけでなく、出所の透明性、ブランド信頼、HCI設計に関わる示唆があり技術的には興味深い。一方で、新しいモデルやプロダクトの発表ではなく、主に社会心理・ユーザー評価に関する研究である。また、既に取り上げ済みのAI関連トピックと重なるため、"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-09/blog.md",
+    "show_notes_path": "out/2026-08-09/show_notes.md",
+    "script_path": "out/2026-08-09/script_2hosts.md",
+    "audio_path": "out/2026-08-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24897,
+        "output_tokens": 10967,
+        "cost_usd": 0.01814
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40339,
+        "output_tokens": 7586,
+        "cost_usd": 0.234807
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4604,
+        "cost_usd": 0.05524799999999999
+      }
+    ],
+    "total_cost_usd": 0.308195
+  }
+}
