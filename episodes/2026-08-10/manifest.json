@@ -1,0 +1,371 @@
+{
+  "date": "2026-08-10",
+  "episode_date_local": "2026-08-10",
+  "content_snapshot_date": "2026-08-10",
+  "show_length_sec": 774,
+  "audio_size": 74344364,
+  "generated_at": "2026-08-09T20:48:43.093446+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-74115c8f",
+      "title": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
+      "title_ja": "Google DeepMindの「WeatherNext」、サイクロンの進路と強度を同時に予測",
+      "one_liner": "Google DeepmindのAIが台風進路と強度を同時予測",
+      "fingerprint": "74115c8f26c156a445d575ed13ec2879",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-ae35a73e",
+      "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreの新機能:単一アクションを超えたエージェントの動作とコストを制御",
+      "one_liner": "Bedrock AgentCoreがエージェントの行動とコストを制御",
+      "fingerprint": "ae35a73e4e7682a7fab85ca091c56a94",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-40c544d1",
+      "title": "April 03, 2026",
+      "title_ja": "Gemma 4とRAG Engineの新機能がVertex AIに登場",
+      "one_liner": "Gemma 4とRAG Engineの新機能がVertex AIに登場",
+      "fingerprint": "40c544d12195f81542e2eb7310a8bdc9",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-71ece285",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "title_ja": "サイバー能力の次なる最前線への対応",
+      "one_liner": "OpenAIがAstraの初期セキュリティ評価を公開",
+      "fingerprint": "71ece285ebeee6864f2a23f0f5139066",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-0e612fad",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "title_ja": "ChatGPTのGPT-5.6 Solを改善、無料ユーザー向けにGPT-5.6 Lunaの提供を拡大",
+      "one_liner": "ChatGPTのGPT-5.6が改善、無料版でも利用拡大",
+      "fingerprint": "0e612fadf8747985256a16b38a35e21f",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-27e5aabe",
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "title_ja": "Anthropic、Claude Codeの自動モードをデフォルトで有効化",
+      "one_liner": "Claude Codeの自動モードが標準搭載に",
+      "fingerprint": "27e5aabe02e54e68d77c82927eb0b9a1",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch",
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-08d98588",
+      "reason": "LINK_ONLY: Source classified as satirical: Anthropicの実際の製品名はClaudeであり、「Claude Fable 5」は架空と考えられます。実在企業の公式発表を模した体裁で、存在しないモデルの生物学安全策を扱っているため、風刺・パロディ記事と判断できます。",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-dcc2ffbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A guide to slash commands in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-df574886",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI isn’t enough to protect social media communities from AI"
+    },
+    {
+      "item_id": "item-2e6e2c63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Configure rate limits for AI traffic on AgentCore gateway"
+    },
+    {
+      "item_id": "item-b0db2cd1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows"
+    },
+    {
+      "item_id": "item-2890e651",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot impact dashboard adds a return on investment section"
+    },
+    {
+      "item_id": "item-97c84ef2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid"
+    },
+    {
+      "item_id": "item-5edf4e16",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry"
+    },
+    {
+      "item_id": "item-612ee5ff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 3"
+    },
+    {
+      "item_id": "item-e642856f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI"
+    },
+    {
+      "item_id": "item-9bf6562f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UKIさん、Hohetoさんの「勝てる戦略は誰が負けてくれるかを説明できる」をクオンツ視点で読み解く"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-77affe88",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager"
+    },
+    {
+      "item_id": "item-dd04bfef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Complicated Case of Passing On Your Digital Estate"
+    },
+    {
+      "item_id": "item-d5d9546a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - yegors/deGDID: Deletes all instances of Microsoft&#39;s GDID and prevents minting of new ones"
+    },
+    {
+      "item_id": "item-863d9d66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”"
+    },
+    {
+      "item_id": "item-32c19423",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Airbnb Raises its Forecast as Travel Demand Rebounds"
+    },
+    {
+      "item_id": "item-dde39f90",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Explores Apple Watch Shake-Up; Company Prepares for September iPhone Event"
+    }
+  ],
+  "score_cache": {
+    "d5d9546a2e9561d6f74f1e9ae5c67330": {
+      "score": 26,
+      "title": "GitHub - yegors/deGDID: Deletes all instances of Microsoft&#39;s GDID and prevents minting of new ones",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] MicrosoftのGDIDを削除し、新規発行も防止するGitHubツールですが、既存システムの識別子を無効化する運用・プライバシー対策に近く、AIやクラウド、言語基盤などの技術革新ではありません。特定のMicrosoft環境を利用するユーザーには有用な可能性がある一方、適用範囲や影響は限定的で、互換性やサポート外動作のリスクもあります。そのため、セ"
+    },
+    "71ece285ebeee6864f2a23f0f5139066": {
+      "score": 66,
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] OpenAIがAstraのサイバーセキュリティ能力を評価し、悪用防止のための安全策やセキュリティ制御を公開する内容で、AIのサイバー利用における実運用上の重要性は高いです。特に、評価手法やガードレールが具体化すれば、モデルの能力開示と安全性検証の標準化に影響する可能性があります。一方で、現時点では予備的な評価と対策の共有にとどまり、画期的な新モデルや"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 73,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-08",
+      "reason": "[ScoreCache 2026-08-08] [ScoreCache 2026-08-08] [Claude API Evaluation] AnthropicのFable 5における生物学分野の安全フィルター改善は、LLMの実用性と安全性のトレードオフを具体的に改善する技術的アップデートです。誤検知を約85%削減し、一般的な生物学の質問を過度に遮断せずに済む点は、モデルの利用体験と推論資源の効"
+    },
+    "2e6e2c63bb7bbab2d2cc579ce146fe25": {
+      "score": 48,
+      "title": "Configure rate limits for AI traffic on AgentCore gateway",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore Gatewayにおける、ユーザー単位・ターゲット単位のリクエスト数、トークン数、接続数を制御する実運用向けの機能であり、AIエージェント基盤の信頼性、コスト管理、過負荷対策には有用です。一方で、既存サービスの設定・運用ノウハウが中心で、業界の前提を変える新技術ではありません。また、既出のAmazon、"
+    },
+    "dcc2ffbe6ab2a4cd8f2c0f87cce11c9f": {
+      "score": 49,
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・協業・自動化・カスタマイズを効率化する実用的な開発者向け機能であり、開発ワークフローへの影響は一定あります。一方で、既存のAIコーディング支援機能の操作性向上を扱うガイド記事で、アーキテクチャや基盤技術の革新、新サービスの発表ではありません。また、直近に取り上げ済みのAI・コード関連の話"
+    },
+    "612ee5ffa823169b00595c8214d4da70": {
+      "score": 41,
+      "title": "GitHub Copilot weekly releases — August 3",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] GitHub Copilotのデスクトップアプリ、CLI、VS Codeにおける継続的な機能改善は、開発者の作業再開・変更レビュー・コンテキスト維持を効率化する点で実務的な価値があります。一方で、週次リリースの告知であり、アーキテクチャの刷新や業界の前提を変える新技術ではありません。また、既取り上げ済みのAI・コード関連トピックと重なるため減点してい"
+    },
+    "40c544d12195f81542e2eb7310a8bdc9": {
+      "score": 83,
+      "title": "April 03, 2026",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] Google DeepMindのオープンモデルGemma 4 26B A4B ITがVertex AI Model Gardenでマルチモーダル対応の管理APIとして提供される点は、モデル選択肢と実運用への導入性を高める重要なアップデートです。加えて、Vertex AI RAG EngineのServerlessモードにより、データベースのプロビジョ"
+    },
+    "5edf4e16d65763015bd433b9b95b0005": {
+      "score": 42,
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] AI向けチップスタートアップへの4億ドル規模の投資は、半導体・AIインフラ市場に影響し得る点で一定の重要性があります。ただし、記事情報は投資事実に限られ、Source Foundryの技術仕様、既存チップとの差別化、製品化時期などエンジニアが評価できる具体性が不足しています。また、既出のAI・スタートアップ関連トピックと近い角度のため20点減点しまし"
+    },
+    "97c84ef21caa4d3225fddeccba17c22e": {
+      "score": 43,
+      "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] AIを悪用した不正利用の実例であり、教育機関の本人確認や金融支援制度に影響する点は注目に値します。一方で、技術革新や新しいアーキテクチャの発表ではなく、主題は詐欺・制度悪用という社会的／運用上の問題です。既出キーワードのAIやstartupなどにも関連しますが、明確な新技術の続報ではないため、重複分を考慮して低めに評価します。 [Editorial:"
+    },
+    "863d9d66c8d34180f490f6882986fa3a": {
+      "score": 21,
+      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] OpenAIによるスマートスピーカー製品の噂で、可動部によって生物的な存在感を演出するという製品設計上の工夫はあるものの、一般消費者向けガジェットに分類され、ソフトウェアアーキテクチャや開発者エコシステムへの影響は限定的です。報道ベースで具体的な仕様や技術的実装も不明確であり、既出のAI関連話題とも重なるため、高い重要度にはなりません。 [Edito"
+    },
+    "dd04bfef9191d37e5224d01c19beb24e": {
+      "score": 27,
+      "title": "The Complicated Case of Passing On Your Digital Estate",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] デジタル遺産の引き継ぎに関する実務的な課題を扱う記事で、アカウント、暗号資産、クラウド上のデータ、認証情報などの管理はエンジニアにも関係します。ただし、技術革新やアーキテクチャの進展ではなく、主題は相続・運用・プライバシーに関する一般的なガイダンスです。業界全体への技術的インパクトや具体的な新規性も限定的なため、低評価とします。"
+    },
+    "e642856f776e1c77cb6df76ae27c8c09": {
+      "score": 40,
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] AIが作成した初のコンピューターウイルスという内容は、サイバーセキュリティとAI悪用の観点で一定の技術的インパクトがあります。一方、記事の主題には政治的な検閲陰謀論も含まれ、具体的な新技術やアーキテクチャの発表ではありません。AI関連ではあるものの、業界の前提を変えるほどの実装・製品・研究成果かは不明で、セキュリティ脅威の報告として中低程度に評価しま"
+    },
+    "dde39f90a742e0e3b527de819c406549": {
+      "score": 2,
+      "title": "Apple Explores Apple Watch Shake-Up; Company Prepares for September iPhone Event",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] Apple Watchの製品構成変更と、iPhoneの定例的な発表イベントに関する一般消費者向けガジェットニュースです。ソフトウェア技術、開発者向けアーキテクチャ、AI、クラウドなどへの具体的な影響や革新性が示されておらず、エンジニア視点での業界インパクトは限定的です。 [Editorial: gadget topic -8]"
+    },
+    "32c194234de5ec19c79b97f1942196b3": {
+      "score": 10,
+      "title": "Airbnb Raises its Forecast as Travel Demand Rebounds",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] Airbnbの業績見通し上方修正と旅行需要の回復を扱う一般消費者向けサービス・企業業績ニュースであり、AI、クラウド、ソフトウェアアーキテクチャなどの技術革新は含まれません。エンジニアリング上の新規性や技術的影響範囲も限定的なため、最低評価帯としました。"
+    },
+    "9bf6562fb2e9b0b9803aa60d200adba0": {
+      "score": 38,
+      "title": "UKIさん、Hohetoさんの「勝てる戦略は誰が負けてくれるかを説明できる」をクオンツ視点で読み解く",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] クオンツ戦略の説明可能性や、誰がリスクを引き受けるかという市場構造を技術的・分析的に考察する記事で、金融エンジニアリングや戦略設計に関心のある読者には有益です。一方で、AI・クラウド・言語処理系などの技術革新や新規プロダクトの発表ではなく、既存の投資思想を解説する内容が中心で、ソフトウェア業界全体への影響範囲も限定的です。"
+    },
+    "77affe883655788241dd9d12afd39bd7": {
+      "score": 32,
+      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] ランサムウェア攻撃の標的がCEOではなく、権限や社内環境へのアクセスを持つ中堅ITマネージャーへ移っているという、セキュリティ運用上の示唆はあります。一方で、技術革新や新しいアーキテクチャの発表ではなく、攻撃手法・脅威動向に関する記事であり、評価基準上は低評価帯に該当します。具体的な被害事例、侵入経路、対策技術が不明なため、影響度と新規性も限定的です"
+    },
+    "0e612fadf8747985256a16b38a35e21f": {
+      "score": 61,
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "date": "2026-08-08",
+      "reason": "[ScoreCache 2026-08-08] [Claude API Evaluation] GPT-5.6 Solの精度・一貫性向上は、モデル品質やChatGPTの実用性に関わる重要なアップデートです。また、GPT-5.6 Lunaの無料ユーザーへのアクセス拡大は利用者層と普及範囲を広げる点で影響があります。一方で、基盤技術の抜本的な革新や業界構造を変える発表ではなく、既出のAI・モデル・Ch"
+    },
+    "ae35a73e4e7682a7fab85ca091c56a94": {
+      "score": 90,
+      "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] AIエージェントの実行系列を制御する時間的ポリシー、オープンソースのポリシー言語、ゲートウェイでのレート制限を組み合わせ、エージェントの予測不能な連続操作やコスト増大を実行基盤側で抑制できる点が重要です。自律型エージェントを本番運用する際のガバナンス、再現性、コスト管理に直接影響する実装レベルの進展で、クラウドアーキテクチャとAI基盤の両面で波及性が"
+    },
+    "b0db2cd15ff0d092e3e51f96301de630": {
+      "score": 47,
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] GitHubの法務チームがCopilot CLIを業務効率化に活用した具体例であり、開発者向けAIツールの実運用事例としては参考になります。一方で、新しいモデルやアーキテクチャの発表ではなく、法務ワークフローへの適用紹介が中心です。また、AI・Copilot系の話題は既出キーワードと重なるため、重複分を減点しました。 [Editorial: AI-f"
+    },
+    "2890e651ee49f13401413996f2a06840": {
+      "score": 47,
+      "title": "Copilot impact dashboard adds a return on investment section",
+      "date": "2026-08-09",
+      "reason": "[ScoreCache 2026-08-09] [Claude API Evaluation] GitHub Copilotの利用コストとプルリクエスト生成量を結び付けてROIを可視化する実務的な機能追加で、導入効果の測定や経営層への説明には有用です。一方、Copilot自体の機能革新や開発基盤の大幅な進化ではなく、影響範囲も既存ユーザー向けのダッシュボード改善に限定されます。さらに、既出キーワー"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 35,
+      "title": "April 27, 2026",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上の上流依存パッケージを最新版に更新したリリースであり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。運用上の保守性や脆弱性対応には意味があるものの、影響範囲と新規性は限定的です。また、既出キーワードの「agent」と同一"
+    },
+    "27e5aabe02e54e68d77c82927eb0b9a1": {
+      "score": 54,
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] Claude Codeの自動実行モードをデフォルト化する変更は、開発者の承認操作を減らし、AIコーディングエージェントの自律性や開発ワークフローに影響する点で注目度があります。一方で、基盤モデルや新しいアーキテクチャの発表ではなく、既存機能のデフォルト設定変更に近いため、業界全体を変えるほどの重大性はありません。また、直近に取り上げ済みのAnthro"
+    },
+    "74115c8f26c156a445d575ed13ec2879": {
+      "score": 92,
+      "title": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] 気象予測に特化したAIモデルが、サイクロンの進路と強度を同時に予測し、既存の運用モデルより約1日先まで精度を維持できる点は技術的・社会的インパクトが大きいです。さらにコードとモデル重みがオープンソース化されており、研究機関や気象サービスが再現・応用しやすい具体性もあります。一方で、AI自体は既出キーワードに含まれるため完全な新規カテゴリではなく、業界"
+    },
+    "df574886cb0c2d8a555daad27768783c": {
+      "score": 49,
+      "title": "AI isn’t enough to protect social media communities from AI",
+      "date": "2026-08-10",
+      "reason": "[Claude API Evaluation] AIを使ったコンテンツモデレーションの限界と、人間による判断・コミュニティ運営の重要性を扱う記事です。AIシステムの精度向上だけでは、文脈依存の嫌がらせや文化的ニュアンス、巧妙な規約回避に対応しきれず、Human-in-the-loop設計や運用体制に示唆があります。一方で、具体的な新技術、アーキテクチャ、製品発表が示されていない論考寄りの内容であり"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-10/blog.md",
+    "show_notes_path": "out/2026-08-10/show_notes.md",
+    "script_path": "out/2026-08-10/script_2hosts.md",
+    "audio_path": "out/2026-08-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 23645,
+        "output_tokens": 10003,
+        "cost_usd": 0.016733
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40022,
+        "output_tokens": 7004,
+        "cost_usd": 0.225126
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4220,
+        "cost_usd": 0.05064
+      }
+    ],
+    "total_cost_usd": 0.292499
+  }
+}

@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#132 Google DeepMindの「WeatherNext」、サイクロンの進路と強度を同時に予測 ほか</title>
+      <description>Tech News Radio Show Notes - #132 (2026-08-10)
+
+エピソード情報
+• エピソード: #132
+• 日付: 2026-08-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time (https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/)
+• Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/)
+• April 03, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+
+注目の深掘り
+• Responding to the next frontier of critical cyber capabilities (https://openai.com/index/responding-next-frontier-critical-cyber-capabilities)
+
+小ネタ・その他
+• Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt)
+• Anthropic is turning Claude Code’s auto mode on by default (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
+• Anthropic is turning Claude Code’s auto mode on by default (https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-10/episode_audio.mp3" length="74344364" type="audio/mpeg" />
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-10</guid>
+      <itunes:duration>12:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Google DeepMindの「WeatherNext」、サイクロンの進路と強度を同時に予測 ほか</itunes:title>
+      <itunes:episode>132</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #132 (2026-08-10)
+
+エピソード情報
+• エピソード: #132
+• 日付: 2026-08-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time (https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/)
+• Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore/)
+• April 03, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_03_2026)
+
+注目の深掘り
+• Responding to the next frontier of critical cyber capabilities (https://openai.com/index/responding-next-frontier-critical-cyber-capabilities)
+
+小ネタ・その他
+• Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users (https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt)
+• Anthropic is turning Claude Code’s auto mode on by default (https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
+• Anthropic is turning Claude Code’s auto mode on by default (https://the-decoder.com/anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers-from-bad-approvals/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-10/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-10/eyecatch.webp" />
+    </item>
+    <item>
       <title>#131 Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 ほか</title>
       <description>Tech News Radio Show Notes - #131 (2026-08-09)
 
