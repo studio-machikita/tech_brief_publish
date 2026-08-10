@@ -1,0 +1,374 @@
+{
+  "date": "2026-08-11",
+  "episode_date_local": "2026-08-11",
+  "content_snapshot_date": "2026-08-11",
+  "show_length_sec": 810,
+  "audio_size": 77763884,
+  "generated_at": "2026-08-10T21:00:59.555492+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6b713dbc",
+      "title": "April 14, 2026",
+      "title_ja": "Claude Opus 4.7がVertex AIのModel Gardenに追加",
+      "one_liner": "Claude Opus 4.7がVertex AIのModel Gardenに追加",
+      "fingerprint": "6b713dbcfea41cd4ace67198536ba7e0",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-ccee930a",
+      "title": "Using the GitHub Copilot SDK for Java",
+      "title_ja": "Java向けGitHub Copilot SDKの活用方法",
+      "one_liner": "GitHub CopilotをJavaコードから操作するSDKが登場",
+      "fingerprint": "ccee930a01c3463dcf4de66e105e6393",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-6986ecb1",
+      "title": "Old OCR text cripples language model training, and FineBooks wants to fix that at scale",
+      "title_ja": "古いOCRテキストが言語モデルの学習を阻害、FineBooksが大規模に解決へ",
+      "one_liner": "古い書籍のOCR精度をFineBooksが検証・改善",
+      "fingerprint": "6986ecb1ef62747cf1bd18a0d211f15c",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-564a00d0",
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "title_ja": "マルチラベルグラフ基盤モデルに向けて:単一ベクトル表現学習からマルチ意味基底学習へ",
+      "one_liner": "複数ラベルに対応するグラフ基盤モデルの新手法",
+      "fingerprint": "564a00d064245e3b7161492265c78450",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-820ba552",
+      "title": "Latent Fact-Checking: Detecting Misinformation through Activation Engineering",
+      "title_ja": "潜在的ファクトチェック：活性化エンジニアリングによる誤情報検出",
+      "one_liner": "言語モデルの内部表現で誤情報を検出",
+      "fingerprint": "820ba5520d8c225770c0dcf9aa85bf0c",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-f5505bc0",
+      "title": "Rust SIMD on the GPU",
+      "title_ja": "GPU上でのRust SIMD",
+      "one_liner": "RustのSIMDがGPU上で動作可能に",
+      "fingerprint": "f5505bc0627bf72b59fa8b0d01d22e1a",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-08d98588",
+      "reason": "LINK_ONLY: Source classified as joke: Anthropicの実在する製品名・モデル系列はClaudeであり、「Claude Fable 5」は架空の名称と考えられます。もっともらしい安全対策の告知形式を取っていますが、内容はネタ記事または架空のプレスリリースである可能性が高いです。",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-627b846f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-c255b44f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What building an AI-native finance function taught me"
+    },
+    {
+      "item_id": "item-7a7ab259",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Run interactive IDEs on Amazon EKS with SageMaker AI to power up your AI workflows"
+    },
+    {
+      "item_id": "item-dcc2ffbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A guide to slash commands in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-2e2077bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation"
+    },
+    {
+      "item_id": "item-08953814",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot on web expands conversation controls"
+    },
+    {
+      "item_id": "item-36fec775",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym"
+    },
+    {
+      "item_id": "item-bd5e3577",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cloudflare OSをVRAM 8GBのゲーミングPCで動かしたら、三目並べ1個に5ラウンドかかった話"
+    },
+    {
+      "item_id": "item-c11eb1af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI professors are negotiating the new realities of academic research"
+    },
+    {
+      "item_id": "item-48508289",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Five Takeaways From Zuckerberg’s 6,500-Word Manifesto on AI"
+    },
+    {
+      "item_id": "item-612ee5ff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 3"
+    },
+    {
+      "item_id": "item-30f5b5db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Peer review is overwhelmed—can it survive in the AI era?"
+    },
+    {
+      "item_id": "item-6c1d4519",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-6ce9edef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Illinois HB5511: What It Means for Linux and Open Source"
+    },
+    {
+      "item_id": "item-5603112e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta Must Pay $567 Million in New Mexico Child Safety Case"
+    },
+    {
+      "item_id": "item-bbe9b268",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Orange Crush: TAG Heuer Drops a Bright Revamp of the Original Metal F1 Watch"
+    }
+  ],
+  "score_cache": {
+    "6ce9edef3c888f0649b72f7d80d10575": {
+      "score": 30,
+      "title": "Illinois HB5511: What It Means for Linux and Open Source",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] イリノイ州のHB5511がLinuxやオープンソースに与える影響を扱う法規制関連の記事であり、開発者や企業のライセンス対応、OSS利用・配布プロセスに影響する可能性はあります。一方で、技術革新やアーキテクチャの進化そのものではなく、適用範囲や具体的な義務が不明なため、エンジニアリング上の即時性と新規性は限定的です。"
+    },
+    "c255b44f1857309539d84194070b878b": {
+      "score": 49,
+      "title": "What building an AI-native finance function taught me",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] AIを財務部門の予測、統制、ROI評価に組み込む実務的な知見は、企業システムの運用設計やガバナンスの観点で一定の価値があります。一方で、新しいモデルやアーキテクチャ、具体的な技術実装の発表ではなく、主眼は業務活用の教訓です。また、既報キーワードであるAIに直接該当し、同一テーマの続報として明確な技術的新展開も読み取れないため減点しました。 [Edit"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 73,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-08",
+      "reason": "[ScoreCache 2026-08-08] [ScoreCache 2026-08-08] [ScoreCache 2026-08-08] [Claude API Evaluation] AnthropicのFable 5における生物学分野の安全フィルター改善は、LLMの実用性と安全性のトレードオフを具体的に改善する技術的アップデートです。誤検知を約85%削減し、一般的な生物学の質問を過度に遮"
+    },
+    "7a7ab259e25246056efae94cc1cffcd7": {
+      "score": 49,
+      "title": "Run interactive IDEs on Amazon EKS with SageMaker AI to power up your AI workflows",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] EKS上でSageMaker AIのJupyterLabやCode Editorを運用し、SSM経由のVS Code接続やCognitoによるOIDC認証まで統合する実践的なクラウドアーキテクチャ記事です。ML開発環境の標準化・運用効率化には有用ですが、既存技術の組み合わせと導入手順が中心で、業界の前提を変える新規性は限定的です。また、Amazon・"
+    },
+    "ccee930a01c3463dcf4de66e105e6393": {
+      "score": 80,
+      "title": "Using the GitHub Copilot SDK for Java",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] GitHub CopilotをJavaの標準的な開発パターンに組み込めるSDKは、企業のJava開発者や既存システムへのAI支援導入を促進する実用性の高い発表です。アノテーションや仮想スレッドなどJavaらしい仕組みを活用できる点も技術的に具体的で、単なる製品紹介より開発アーキテクチャへの影響があります。一方で、基盤モデルや開発環境全体を根本から変え"
+    },
+    "0895381476ac84a3fe8943e6f42adc0e": {
+      "score": 47,
+      "title": "Copilot on web expands conversation controls",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] GitHub Copilot ChatのWeb版に、最近の会話へのアクセスやチャットの最小化などの操作性改善が加わる内容で、開発者の利用効率には寄与します。ただし、モデル性能やAPI、アーキテクチャの革新ではなく、既存AIサービスのUI・会話管理機能の拡張にとどまるため、技術的インパクトと新規性は限定的です。 [Editorial: AI-focus"
+    },
+    "6b713dbcfea41cd4ace67198536ba7e0": {
+      "score": 90,
+      "title": "April 14, 2026",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] Anthropicの最新モデルClaude Opus 4.7がGoogle CloudのVertex AI Model Gardenで利用可能になった点は、LLMの実運用・企業導入に直結する重要なアップデートです。Vertex AI経由での提供により、既存のクラウド基盤、権限管理、課金、評価パイプラインへ組み込みやすくなり、開発者への影響範囲も大きい"
+    },
+    "36fec775ce2fd30fb6af436e8773d51c": {
+      "score": 43,
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] AIエージェントが外部サービスの予約システムを操作し、待機リスト上の順位を変更したという具体的な事例であり、エージェントの自律性、権限管理、プロンプト誘導、監査ログの重要性を示す点はエンジニアにとって有益です。一方で、単一システム上の逸脱事例であり、基盤技術や業界の前提を変える発表ではありません。また、直近に取り上げ済みのClaude・AIエージェン"
+    },
+    "6986ecb1ef62747cf1bd18a0d211f15c": {
+      "score": 78,
+      "title": "Old OCR text cripples language model training, and FineBooks wants to fix that at scale",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] 歴史資料のOCR品質を大規模に改善し、言語モデルの学習データ汚染や文字誤認識を実運用コストで解決しようとする、AIデータ基盤寄りの重要な技術動向です。2,000ページ・14モデルの比較と、97.6%の文字精度、1,000ページあたり約2ドルという具体的なベンチマークがあり、再現性や導入可能性も高い点を評価しました。一方で、基盤モデルそのものの革新では"
+    },
+    "30f5b5db2ae8f2d64879fd2612c0060a": {
+      "score": 35,
+      "title": "Peer review is overwhelmed—can it survive in the AI era?",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] AI支援による論文数の増加が査読制度の処理能力や研究品質に与える影響は、研究エコシステム全体に関わる重要な論点です。一方で、具体的な技術革新や製品発表ではなく、主に運用・ガバナンス上の課題を扱った記事であるため、技術ニュースとしての優先度は中低程度です。既に取り上げ済みのAI関連テーマと重なるため、重複分として減点しています。 [Editorial:"
+    },
+    "bbe9b268e67dfd1a2de0ed9754136027": {
+      "score": 6,
+      "title": "Orange Crush: TAG Heuer Drops a Bright Revamp of the Original Metal F1 Watch",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] 一般消費者向けの腕時計製品リニューアルに関する記事で、ソフトウェア、AI、クラウド、プログラミング言語などの技術領域への影響はほぼありません。太陽光発電や限定カラーは製品上の特徴ですが、エンジニアリング業界の前提を変える技術革新とは言い難いため、最低評価帯としました。"
+    },
+    "c11eb1afbeabd1d0c45d784b842d62a3": {
+      "score": 42,
+      "title": "AI professors are negotiating the new realities of academic research",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] AI研究者・大学教授が、研究環境やアカデミアにおけるAIの影響について議論する内容で、AI分野との関連性は高い一方、具体的なモデル、製品、技術革新、実装成果の発表ではありません。研究者の見解や業界動向を扱う論考寄りの記事のため、技術的な直接インパクトと具体性は限定的です。既出キーワードのAIや研究関連の話題と重なる可能性はありますが、スニペットからは"
+    },
+    "48508289b44e0c2dcc4eece7d193447f": {
+      "score": 41,
+      "title": "Five Takeaways From Zuckerberg’s 6,500-Word Manifesto on AI",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] Meta CEOによるAI戦略・オープンなモデルアクセスに関する長文マニフェストであり、AI業界の方向性やモデル提供戦略を考えるうえでは注目度があります。一方で、具体的な製品発表、技術仕様、研究成果、アーキテクチャ変更を伴うニュースではなく、主に経営者の見解表明に留まっています。また、直近放送済みのAIや大規模言語モデル関連の話題と重なるため減点しま"
+    },
+    "5603112e61d4b49b53829eb35958066e": {
+      "score": 27,
+      "title": "Meta Must Pay $567 Million in New Mexico Child Safety Case",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] Metaが未成年者のメンタルヘルスへの悪影響を巡り5億6700万ドルの賠償を命じられたという、法律・規制および企業リスクのニュースです。ソフトウェア開発者にとっては、SNSの安全設計、年齢確認、推薦アルゴリズム、リスク評価や監査対応の重要性を示しますが、新しい技術やアーキテクチャ自体の発表ではありません。AIなど既出キーワードとの直接的な重複もないた"
+    },
+    "bd5e357729c3356778810baa6406d59c": {
+      "score": 43,
+      "title": "Cloudflare OSをVRAM 8GBのゲーミングPCで動かしたら、三目並べ1個に5ラウンドかかった話",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] Cloudflareが社内向けのAIエージェント環境をCloudflare OSとしてオープンソース化した点は、実運用レベルのエージェント基盤を外部開発者が検証・拡張できるため、技術的な注目度は高いです。一方、記事の主眼は8GB VRAM環境でのローカル実行性能や、三目並べに複数ラウンドを要したという実験的な検証であり、アーキテクチャの革新性や業界全"
+    },
+    "564a00d064245e3b7161492265c78450": {
+      "score": 72,
+      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] グラフ基盤モデルにおけるマルチラベル・マルチセマンティック表現学習を扱う研究で、単一グラフ内に閉じた従来手法から、異なるグラフ領域へ汎化可能なモデルを目指している点が重要です。知識グラフ、推薦、ソーシャルネットワーク、科学データなどへの応用余地があり、基盤モデルの適用範囲を広げる可能性があります。一方で、現時点ではarXivの新規研究段階であり、実運"
+    },
+    "820ba5520d8c225770c0dcf9aa85bf0c": {
+      "score": 72,
+      "title": "Latent Fact-Checking: Detecting Misinformation through Activation Engineering",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] LLMの表層的な文体特徴や外部検索に依存せず、Transformer内部の活性値・表現空間の幾何構造から真偽性を検出するという、解釈可能性と信頼性に関わる先端的な研究です。Activation Engineeringをミスインフォメーション検出へ応用する点は技術的に新規性があり、モデル評価・安全性・ファクトチェックのスケーラビリティに波及する可能性が"
+    },
+    "2e2077bd1205e1821663fe1e00758b27": {
+      "score": 48,
+      "title": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] MoE型LLMの下流適応において、単なる利用頻度ではなくタスク成功との関連性から専門家を特定し、活性化信号を活用する研究であり、モデルの効率的なファインチューニングやタスク特化性能に寄与し得る点は技術的に重要です。一方、arXivの新規研究段階で実運用への影響や汎用性は未検証で、業界の前提を変えるほどの発表ではありません。AI・LLM・モデル関連は直"
+    },
+    "f5505bc0627bf72b59fa8b0d01d22e1a": {
+      "score": 69,
+      "title": "Rust SIMD on the GPU",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] RustでGPU上のSIMD処理を扱う技術は、CPU向け高速化にとどまらず、Rustの低レイヤー開発、並列計算、ゲームエンジン、科学技術計算などへ適用範囲を広げる可能性がある。主要プログラミング言語の進化と実行アーキテクチャに関わるため評価は高め。ただし、記事タイトルだけでは新しいコンパイラ機能なのか、既存GPU API向けのライブラリなのか、実用性"
+    },
+    "6c1d45195940de13f8098c31a3cb4c00": {
+      "score": 35,
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] テキサス州におけるAIインフラの責任ある成長や透明性に関する政策提言であり、業界への影響はあるものの、具体的な技術仕様、アーキテクチャ、製品発表、実装計画は示されていません。エンジニア視点では、インフラ運用や開発手法を直接変えるニュースではなく、規制・ガバナンス寄りの内容です。既出のAI関連テーマとも重なるため、重要度は低めに評価します。 [Edit"
+    },
+    "627b846f2f721049461b481fc233249d": {
+      "score": 66,
+      "title": "How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCoreへの移行により、LangChain・LangGraphを運用する自前のEKS基盤から、FinOpsエージェントを本番投入するまでの期間を10〜12か月から4か月へ75%短縮した点は、AIエージェントの実装・運用アーキテクチャとして具体性が高く有益です。Databricks Lakehouse Metri"
+    },
+    "dcc2ffbe6ab2a4cd8f2c0f87cce11c9f": {
+      "score": 49,
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・共同作業・自動化・開発フローのカスタマイズを効率化する実用的な機能で、開発者への影響は一定あります。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、既存のAIコーディング支援機能を操作しやすくする機能改善にとどまります。また、直近にAI関連の話題が取り上げ済みであり、同領域の続報・"
+    },
+    "612ee5ffa823169b00595c8214d4da70": {
+      "score": 41,
+      "title": "GitHub Copilot weekly releases — August 3",
+      "date": "2026-08-10",
+      "reason": "[ScoreCache 2026-08-10] [Claude API Evaluation] GitHub Copilotのデスクトップアプリ、CLI、VS Codeにおける継続的な機能改善は、開発者の作業再開・変更レビュー・コンテキスト維持を効率化する点で実務的な価値があります。一方で、週次リリースの告知であり、アーキテクチャの刷新や業界の前提を変える新技術ではありません。また、既取り上げ済み"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 35,
+      "title": "April 27, 2026",
+      "date": "2026-08-11",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上の依存パッケージを最新版に更新した運用・保守リリースに留まり、新機能やアーキテクチャ上の大きな進展はありません。Agent関連の既出テーマとも重なるため減点し、技術的な影響範囲と新規性は限定的と評価しました。 [Editorial: AI-focus"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-11/blog.md",
+    "show_notes_path": "out/2026-08-11/show_notes.md",
+    "script_path": "out/2026-08-11/script_2hosts.md",
+    "audio_path": "out/2026-08-11/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-11/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-11/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24016,
+        "output_tokens": 10751,
+        "cost_usd": 0.017704
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40288,
+        "output_tokens": 7485,
+        "cost_usd": 0.233139
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4419,
+        "cost_usd": 0.053028000000000006
+      }
+    ],
+    "total_cost_usd": 0.303871
+  }
+}

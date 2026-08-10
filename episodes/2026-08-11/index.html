@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 9</title>
+<title>Claude Opus 4.7がVertex AIのModel Gardenに追加 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Claude Opus 4.7がVertex AIのModel Gardenに追加 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-11/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-11/">
+<meta property="og:description" content="2026-08-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-11/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Claude Opus 4.7がVertex AIのModel Gardenに追加 ほか",
+    "description": "2026-08-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-11",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-11/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-11/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Claude Opus 4.7がVertex AIのModel Gardenに追加 ほか",
+    "description": "2026-08-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-11",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-11/",
+    "duration": "PT13M30S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-11/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,109 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-11/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-11/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-05-23/index.html" class="episode-card">
-        <div class="episode-date">2026-05-23</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-23</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-05-22/index.html" class="episode-card">
-        <div class="episode-date">2026-05-22</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-22</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-05-21/index.html" class="episode-card">
-        <div class="episode-date">2026-05-21</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-21</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Claude%20Opus%204.7%E3%81%8CVertex%20AI%E3%81%AEModel%20Garden%E3%81%AB%E8%BF%BD%E5%8A%A0%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-11/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-11/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-05-20/index.html" class="episode-card">
-        <div class="episode-date">2026-05-20</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-20</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>9 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-19/index.html" class="episode-card">
-        <div class="episode-date">2026-05-19</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-19</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-18/index.html" class="episode-card">
-        <div class="episode-date">2026-05-18</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-18</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>9 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-17/index.html" class="episode-card">
-        <div class="episode-date">2026-05-17</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-17</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-16/index.html" class="episode-card">
-        <div class="episode-date">2026-05-16</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-16</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-15/index.html" class="episode-card">
-        <div class="episode-date">2026-05-15</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-15</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-14/index.html" class="episode-card">
-        <div class="episode-date">2026-05-14</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-14</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../8/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><span class="current">9</span><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../10/index.html">次へ</a><span class="summary">Page 9 / 14</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1013,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1083,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1112,5 +1039,255 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-11"
+subtitle: "Claude Opus 4.7がVertex AIのModel Gardenに追加 / Java向けGitHub Copilot SDKの活用方法 / 古..."
+date: "2026-08-11"
+vol: 133
+topics:
+  - AI
+  - Cloud
+  - DevOps
+  - Data
+  - LLM
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-11
+
+*📖 約10分で読めます ｜ 🏷️ AI, Cloud, DevOps, Data, LLM*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **Claude Opus 4.7がVertex AIのModel Gardenに追加** — Claude Opus 4.7がVertex AIのModel Gardenに追加
+- 🤖 **Java向けGitHub Copilot SDKの活用方法** — GitHub CopilotをJavaコードから操作するSDKが登場
+- 🤖 **古いOCRテキストが言語モデルの学習を阻害、FineBooksが大規模に解決へ** — 古い書籍のOCR精度をFineBooksが検証・改善
+- 🤖 **マルチラベルグラフ基盤モデルに向けて:単一ベクトル表現学習からマルチ意味基底学習へ** — 複数ラベルに対応するグラフ基盤モデルの新手法
+- 🤖 **潜在的ファクトチェック：活性化エンジニアリングによる誤情報検出** — 言語モデルの内部表現で誤情報を検出
+- 📦 **GPU上でのRust SIMD** — RustのSIMDがGPU上で動作可能に
+
+---
+
+## 🤖 Claude Opus 4.7がVertex AIのModel Gardenに追加
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: April 14, 2026</summary>
+</details>
+
+> **一言で**: Claude Opus 4.7がVertex AIのModel Gardenに追加
+
+- AnthropicのClaude Opus 4.7がVertex AI Model Gardenで利用可能に
+- Google CloudユーザーがClaude Opus 4.7を直接呼び出せる
+- モデル選択の幅がVertex AI上で広がった
+
+💡 **なぜ重要か**
+Google CloudはVertex AI上でAnthropicなど複数社のモデルを選べる体制を進めています。Model Gardenへの新モデル追加はその一環と見られています。 クラウド上でのモデル選択肢が増えることで、企業は用途に応じてAnthropic製とGoogle製のモデルを比較しやすくなります。マルチモデル運用が今後さらに一般化しそうです。
+
+🎯 **今日のアクション**
+Vertex AIを使うエンジニアは、Claude Opus 4.7を既存タスクでベンチマークし、コストや性能面で既存モデルと比較してみるとよいでしょう。
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+
+---
+
+## 🤖 Java向けGitHub Copilot SDKの活用方法
+\`AI\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Using the GitHub Copilot SDK for Java</summary>
+</details>
+
+> **一言で**: GitHub CopilotをJavaコードから操作するSDKが登場
+
+- GitHub Copilot SDK for Javaが公開された
+- アノテーションや仮想スレッドなどJavaらしい書き方でCopilotを操作できる
+- エンタープライズ向けJava開発者を主な対象としている
+
+💡 **なぜ重要か**
+これまでCopilotの拡張や自動化はJavaScriptやPython中心で語られることが多く、大規模システムを支えるJava開発者には縁遠い存在でした。エンタープライズ現場で広く使われるJavaの文法やスレッドモデルにそのまま統合できるSDKが出たことで、既存のJava資産にAI機能を組み込みやすくなります。 エンタープライズ領域でのAI活用が加速し、JavaベースのシステムにCopilotの機能を組み込む動きが広がると見られています。他言語向けSDKとの連携パターンも今後増えそうです。
+
+🎯 **今日のアクション**
+Java開発者はSDKのドキュメントを確認し、既存プロジェクトへの組み込み方法を検証するとよいでしょう。仮想スレッドとの組み合わせ方も早めに把握しておくと役立ちます。
+
+🔗 [原文を読む](https://github.blog/engineering/using-the-github-copilot-sdk-for-java/)
+
+---
+
+## 🤖 古いOCRテキストが言語モデルの学習を阻害、FineBooksが大規模に解決へ
+\`AI\` \`Data\`
+
+<details>
+<summary>📄 原題: Old OCR text cripples language model training, and FineBooks wants to fix that at scale</summary>
+</details>
+
+> **一言で**: 古い書籍のOCR精度をFineBooksが検証・改善
+
+- Hugging FaceとEleutherAIがFineBooksプロジェクトを実施
+- 14種類のOCRモデルを2000ページ超の歴史的書籍で検証
+- 最高精度のdots.mocrは文字精度97.6%、千ページ2ドル未満
+- AI学習データには十分だが学術的な文字起こしにはまだ不十分
+
+💡 **なぜ重要か**
+古い書籍のOCR（光学文字認識）精度が低いと、そこから作る学習データの質も落ちてしまいます。言語モデルの学習には大量の高品質テキストが必要で、歴史的文献のデジタル化精度がその土台を左右します。 低コストで高精度なOCRが普及すれば、歴史的資料を使った学習データの整備が進みやすくなります。一方で学術用途には精度がまだ足りず、用途に応じた使い分けが今後の課題になりそうです。
+
+🎯 **今日のアクション**
+AI学習データを扱うエンジニアは、用途に応じてOCRモデルの精度とコストを比較検討すべきです。学術目的の文字起こしには追加の人手チェックを組み合わせる必要があります。
+
+🔗 [原文を読む](https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/)
+
+---
+
+## 🤖 マルチラベルグラフ基盤モデルに向けて:単一ベクトル表現学習からマルチ意味基底学習へ
+\`AI\` \`Data\`
+
+<details>
+<summary>📄 原題: Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning</summary>
+</details>
+
+> **一言で**: 複数ラベルに対応するグラフ基盤モデルの新手法
+
+- グラフ学習でのマルチラベルノード分類を研究対象に
+- 既存手法は同一グラフ内での学習に限られ、汎用性が低い
+- 複数の意味を単一ベクトルでなく複数の基底で表現する手法を提案
+- 異なるグラフ領域をまたいだ汎化性能の向上を目指す
+
+💡 **なぜ重要か**
+グラフ構造データでは1つのノードが複数の意味やカテゴリを同時に持つことがよくあります。例えば論文ノードなら複数の研究分野に属することがあります。既存のマルチラベル分類手法は特定のグラフ領域内で学習と評価を行う設計のため、別のグラフ領域に応用しようとすると精度が落ちてしまいます。近年注目されているグラフ基盤モデル（Graph Foundation Models）は、様々な領域に汎化できる汎用モデルを目指す研究分野で、この論文はマルチラベル分類の文脈でその実現に挑んでいます。 グラフ基盤モデルが実用化されれば、ソーシャルネットワーク分析や推薦システム、化学分子の特性予測など幅広い分野で、個別にモデルを作り直す必要がなくなります。汎用性の高いグラフモデルが確立すれば、LLMのように事前学習済みモデルを様々なタスクに転用する流れがグラフ学習領域にも広がると見られています。
+
+🎯 **今日のアクション**
+グラフ学習を扱うエンジニアは、単一ベクトル表現の限界を理解し、複数意味を扱う基底学習の考え方を学ぶ価値があります。自社のグラフデータが複数ラベルを持つ場合、既存の単純な分類モデルではなく、こうした新しい汎化手法の適用余地を検討すべきです。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.06394)
+
+---
+
+## 🤖 潜在的ファクトチェック：活性化エンジニアリングによる誤情報検出
+\`AI\` \`LLM\`
+
+<details>
+<summary>📄 原題: Latent Fact-Checking: Detecting Misinformation through Activation Engineering</summary>
+</details>
+
+> **一言で**: 言語モデルの内部表現で誤情報を検出
+
+- 言語モデルの活性化（activation）操作で真偽を判定する新手法
+- 表面的な文の特徴や外部知識検索に頼らない点が特徴
+- 真実性を表現空間の幾何学的な性質として捉える
+- transformerモデルの潜在空間の構造を活用
+
+💡 **なぜ重要か**
+誤情報の拡大でスケーラブルな検出手法が求められています。既存手法は文の表面的特徴や外部知識検索に依存しており、限界があると見られています。 モデル内部の表現を直接分析する手法が広まれば、外部データベースに依存しない誤情報検出が進むと考えられます。
+
+🎯 **今日のアクション**
+言語モデルの内部表現を扱う活性化工学（activation engineering）の動向を追うべきです。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.06417)
+
+---
+
+## 📦 GPU上でのRust SIMD
+\`OSS\` \`Hardware\`
+
+<details>
+<summary>📄 原題: Rust SIMD on the GPU</summary>
+</details>
+
+> **一言で**: RustのSIMDがGPU上で動作可能に
+
+- VectorWareがRustの\`core::simd\`をGPU上で実装
+- GPUネイティブなソフトウェア開発を目指す取り組みの一環
+- 複雑で高性能なコードをGPU向けに書きやすくする狙い
+
+💡 **なぜ重要か**
+GPUプログラミングは従来、専用言語や独自の記法が必要で学習コストが高い分野です。Rustは安全性と性能を両立する言語として支持を広げており、そのポータブルSIMD（複数データを同時処理する仕組み）機能をGPU上でも使えるようにすることで、CPU向けに書いたコードの知識や資産をGPU開発にも生かせる可能性が出てきます。 GPU開発の敷居が下がれば、AIや科学計算など高性能計算を必要とする分野で、より多くの開発者がGPUの性能を活用しやすくなると見られています。RustエコシステムのGPU対応が進むことで、既存のCPU向けRustコードとの統合もしやすくなりそうです。
+
+🎯 **今日のアクション**
+GPUプログラミングに関心のあるエンジニアは、VectorWareの実装アプローチを確認し、Rustの\`core::simd\`がGPU開発にどう応用できるか調べてみるとよいでしょう。
+
+🔗 [原文を読む](https://www.vectorware.com/blog/simd-on-gpu/)
+
+---
+
+## 📝 まとめ
+
+この3つのニュースは、AI技術がインフラ・開発ツール・学習データという異なるレイヤーで同時に成熟しつつあることを示しています。Claude OpusのVertex AI統合は、大手クラウドが競合他社のモデルも取り込みマルチモデル戦略を強化する動きであり、企業が特定ベンダーに縛られず最適なモデルを選べる環境が整いつつあることを表しています。一方、GitHub Copilot SDKの登場は、AIがもはや単なる補助ツールではなく、開発者が自らのアプリケーションやワークフローに組み込める「部品」として扱われ始めていることを示唆し、AI活用がプロダクト開発そのものに深く統合される段階に入ったことを物語ります。そしてFineBooksによるOCR品質改善の取り組みは、モデルの性能向上がアーキテクチャや計算資源だけでなく、学習データの質という地味ながら本質的な課題に依存することを再認識させるものです。総じて、AIエコシステムは「利用の柔軟性」「開発への統合」「データ品質」という三方向から同時に基盤強化が進んでいる段階にあると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **Claude Opus 4.7がVertex AIのModel Gardenに追加**: Vertex AIを使うエンジニアは、Claude Opus 4.7を既存タスクでベンチマークし、コストや性能面で既存モデルと比較してみるとよいでしょう。
+2. **Java向けGitHub Copilot SDKの活用方法**: Java開発者はSDKのドキュメントを確認し、既存プロジェクトへの組み込み方法を検証するとよいでしょう。仮想スレッドとの組み合わせ方も早めに把握しておくと役立ちます。
+3. **古いOCRテキストが言語モデルの学習を阻害、FineBooksが大規模に解決へ**: AI学習データを扱うエンジニアは、用途に応じてOCRモデルの精度とコストを比較検討すべきです。学術目的の文字起こしには追加の人手チェックを組み合わせる必要があります。
+
+---
+
+## 🔗 出典一覧
+- [Claude Opus 4.7がVertex AIのModel Gardenに追加](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+- [Claude Opus 4.7がVertex AIのModel Gardenに追加](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+- [Claude Opus 4.7がVertex AIのModel Gardenに追加](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+- [Java向けGitHub Copilot SDKの活用方法](https://github.blog/engineering/using-the-github-copilot-sdk-for-java/)
+- [古いOCRテキストが言語モデルの学習を阻害、FineBooksが大規模に解決へ](https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/)
+- [マルチラベルグラフ基盤モデルに向けて:単一ベクトル表現学習からマルチ意味基底学習へ](https://arxiv.org/abs/2608.06394)
+- [潜在的ファクトチェック：活性化エンジニアリングによる誤情報検出](https://arxiv.org/abs/2608.06417)
+- [GPU上でのRust SIMD](https://www.vectorware.com/blog/simd-on-gpu/)`;
+const notesMd = `# Tech News Radio Show Notes - #133 (2026-08-11)
+
+## エピソード情報
+- **エピソード**: #133
+- **日付**: 2026-08-11
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_10_2026)
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_06_2026)
+- [Using the GitHub Copilot SDK for Java](https://github.blog/engineering/using-the-github-copilot-sdk-for-java/)
+- [Old OCR text cripples language model training, and FineBooks wants to fix that at scale](https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/)
+
+### 注目の深掘り
+- [Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning](https://arxiv.org/abs/2608.06394)
+
+### 小ネタ・その他
+- [Latent Fact-Checking: Detecting Misinformation through Activation Engineering](https://arxiv.org/abs/2608.06417)
+- [Rust SIMD on the GPU](https://www.vectorware.com/blog/simd-on-gpu/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
