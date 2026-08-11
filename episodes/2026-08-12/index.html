@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 14</title>
+<title>ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-12/">
+<meta property="og:description" content="2026-08-12 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-12/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか",
+    "description": "2026-08-12 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-12",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-12/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか",
+    "description": "2026-08-12 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-12",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-12/",
+    "duration": "PT14M12S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,55 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-04-04/index.html" class="episode-card">
-        <div class="episode-date">2026-04-04</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-04</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-04-03/index.html" class="episode-card">
-        <div class="episode-date">2026-04-03</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-03</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-04-02/index.html" class="episode-card">
-        <div class="episode-date">2026-04-02</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-02</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=ONESTRUCTION%E3%80%81AWS%20GenAIIC%E3%81%A8%E7%9F%B3%E5%9E%A3IDS%E5%9F%BA%E7%9B%A4%E3%83%A2%E3%83%87%E3%83%AB%E3%82%92%E6%A7%8B%E7%AF%89%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-12/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-12/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-04-01/index.html" class="episode-card">
-        <div class="episode-date">2026-04-01</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-01</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../13/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><span class="current">14</span><span class="summary">Page 14 / 14</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -959,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1029,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1058,5 +1039,248 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-12"
+subtitle: "ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 / GitHub Copilot for JetBrains、Copilot..."
+date: "2026-08-12"
+vol: 134
+topics:
+  - AI
+  - Cloud
+  - DevOps
+  - LLM
+  - Hardware
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-12
+
+*📖 約10分で読めます ｜ 🏷️ AI, Cloud, DevOps, LLM, Hardware*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築** — 建設特化AI「Ishigaki-IDS」をAWSと共同構築
+- 🤖 **GitHub Copilot for JetBrains、Copilotのメモリ機能とOllamaに対応** — JetBrains版Copilotに記憶機能とOllama連携が追加
+- 🤖 **マルチモーダル大規模言語モデルのための統合ハルシネーションファジング** — マルチモーダルAIの幻覚を評価する新フレームワーク
+- 🤖 **SiTime CEO、AIデータセンターでの役割とルネサスとの提携について語る** — SiTime、AI需要でタイミング半導体が急成長
+- 🤖 **BM25を使用してCodexのトークンの消費を30%抑える** — BM25でCodexのトークン消費を30%削減
+- 🤖 **評価的AIのための議論的基盤に向けて** — 評価型AIに議論理論で説明性と反論性を持たせる提案
+
+---
+
+## 🤖 ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC</summary>
+</details>
+
+> **一言で**: 建設特化AI「Ishigaki-IDS」をAWSと共同構築
+
+- ONESTRUCTIONがAWS Generative AI Innovation Centerの技術支援で開発
+- 建設・BIM（建物情報モデリング）業務に特化した基盤モデル「Ishigaki-IDS」
+- 合成データと3段階の学習パイプラインを採用
+- 検証可能な報酬（verifiable rewards）をAmazon EC2上で活用
+- データが少ない建設分野で専用モデルを構築した事例
+
+💡 **なぜ重要か**
+建設業界はデータが少なく、AI活用が難しい分野と見られています。汎用の大規模言語モデルでは業界特有の図面や仕様の理解が難しいため、専用モデルの需要が高まっています。今回の事例は、データが乏しい領域でも工夫次第で高精度な基盤モデルを作れることを示しています。 特定業界に特化した基盤モデルの開発手法が広がれば、製造業や医療などデータが限られる他分野にも応用が進むと考えられます。クラウド事業者による技術支援モデルも今後の標準的な協業形態になりそうです。
+
+🎯 **今日のアクション**
+自社データが少ない場合は合成データの活用や段階的な学習パイプラインの設計を検討すべきです。AWSなどのクラウド事業者が提供する技術支援プログラムの活用も有効な選択肢です。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/)
+
+---
+
+## 🤖 GitHub Copilot for JetBrains、Copilotのメモリ機能とOllamaに対応
+\`AI\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Copilot memory and Ollama in GitHub Copilot for JetBrains</summary>
+</details>
+
+> **一言で**: JetBrains版Copilotに記憶機能とOllama連携が追加
+
+- 会話内容を記憶する永続メモリー機能を導入
+- Ollamaによるローカルモデルへのアクセスに対応
+- 企業向けの管理機能を強化
+- 日常のチャット操作の使いやすさを改善
+- MCPサーバー関連の信頼性問題を解消
+
+💡 **なぜ重要か**
+GitHub CopilotはJetBrains系IDEでも使われており、開発者の作業効率を左右する重要な機能です。特にローカルモデル対応は、社外にコードを送りたくない企業のニーズに応えるものと見られています。 AIコーディング支援ツールがクラウド依存から脱却し、ローカル実行との併用が広がる可能性があります。企業のセキュリティ要件に合わせた選択肢が増えそうです。
+
+🎯 **今日のアクション**
+JetBrainsユーザーは新しいメモリー機能とOllama連携を試し、社内のセキュリティ方針に合う使い方を検討するとよいでしょう。
+
+🔗 [原文を読む](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+
+---
+
+## 🤖 マルチモーダル大規模言語モデルのための統合ハルシネーションファジング
+\`AI\` \`LLM\`
+
+<details>
+<summary>📄 原題: Unified Hallucination Fuzzing for Multimodal Large Language Models</summary>
+</details>
+
+> **一言で**: マルチモーダルAIの幻覚を評価する新フレームワーク
+
+- MLLM（マルチモーダル大規模言語モデル）の幻覚問題を評価する新手法を提案
+- 既存の静的ベンチマークは分類の網羅性が低く性能が飽和しやすい課題あり
+- 現実の変化するシナリオでのモデルの頑健性を測る評価枠組みを構築
+
+💡 **なぜ重要か**
+MLLMは画像やテキストを組み合わせて理解しますが、実際には存在しない内容を答える幻覚が起きます。高リスクな用途で使うには、この問題への信頼できる評価方法が欠けていました。 評価手法が標準化されれば、企業がMLLMを医療や自動運転などの分野に安心して導入しやすくなると見られています。逆に評価が不十分だと誤った出力への対策が後手に回るリスクがあります。
+
+🎯 **今日のアクション**
+MLLMを使う開発者は、静的ベンチマークだけでなく多様なシナリオでの検証を取り入れるべきです。新しい評価フレームワークの動向を追い、自社の評価プロセスに反映することが大切です。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.07525)
+
+---
+
+## 🤖 SiTime CEO、AIデータセンターでの役割とルネサスとの提携について語る
+\`AI\` \`Hardware\`
+
+<details>
+<summary>📄 原題: SiTime CEO on Role in AI Data Centers, Renesas Deal</summary>
+</details>
+
+> **一言で**: SiTime、AI需要でタイミング半導体が急成長
+
+- SiTimeのCEOがAI需要と売上高の急成長について語る
+- 売上高は前年比で三桁成長という驚異的なペース
+- 同社の技術はデータセンター内の時刻同期を担う
+- TPU、GPU、スイッチ、光モジュールなど幅広く対応
+- Renesasとの提携についても話題に上ったそうです
+
+💡 **なぜ重要か**
+AIデータセンターの規模拡大で、内部の各部品を正確に同期させる技術の重要性が増しています。SiTimeのタイミング半導体（水晶発振器に代わる精密な時刻制御チップ）は、GPUやTPU、スイッチ間のズレを抑え、処理性能とコスト効率を両立させる役割を担っているそうです。 AIインフラの高速化が進むほど、タイミング精度の要求は一段と厳しくなると見られています。半導体サプライチェーンの中でも、こうした地味だが不可欠な部品メーカーの存在価値が高まっていく可能性があります。
+
+🎯 **今日のアクション**
+データセンターやハードウェア関連のエンジニアは、AI需要が半導体サプライチェーンの上流にどう波及しているかを把握しておくとよいでしょう。
+
+🔗 [原文を読む](https://www.bloomberg.com/news/videos/2026-08-11/sitime-ceo-on-role-in-ai-data-centers-renesas-deal-video)
+
+---
+
+## 🤖 BM25を使用してCodexのトークンの消費を30%抑える
+\`AI\` \`LLM\`
+
+> **一言で**: BM25でCodexのトークン消費を30%削減
+
+- ナレッジセンスがコード探索にBM25を組み込んで検証
+- 論文『BM25 Wins at Scale』が検証のきっかき
+- Claude CodeやCodexのファイル検索が多くのトークンを消費
+- 自社コードベースで回答品質とトークン消費の変化を計測
+
+💡 **なぜ重要か**
+コーディングエージェントはファイル検索にシンプルなキーワード検索を使い、トークンを多く消費する傾向があるそうです。BM25は文書検索で使われる古典的なアルゴリズムで、単語の出現頻度などから関連度を計算します。これをコード探索に応用することで、検索精度を保ちながらトークン消費を抑えられるか検証したと見られています。 AIコーディングツールの運用コストは利用量に応じて増えるため、トークン消費の削減は実務上重要です。BM25のような軽量な検索手法を組み合わせる工夫は、他のコーディングエージェントにも広がる可能性があります。
+
+🎯 **今日のアクション**
+自社でコーディングエージェントを使う場合は、検索方式の見直しでコスト削減ができるか検討するとよいでしょう。BM25のような既存技術の応用例として、この検証結果を参考にすることをおすすめします。
+
+🔗 [原文を読む](https://zenn.dev/knowledgesense/articles/9e55a3bb67729c)
+
+---
+
+## 🤖 評価的AIのための議論的基盤に向けて
+\`AI\` \`Science\`
+
+<details>
+<summary>📄 原題: Towards an Argumentative Foundation for Evaluative AI</summary>
+</details>
+
+> **一言で**: 評価型AIに議論理論で説明性と反論性を持たせる提案
+
+- Evaluative AI（EAI）は単一の推奨でなく複数の仮説と根拠を提示する手法
+- 本論文は計算論的argumentation（議論理論）をEAIの理論的基盤に据える立場を示す
+- 説明可能で反論可能なEAIの形式的・計算可能な土台づくりを目指す
+- 長期的な研究の方向性を示すポジションペーパーという位置づけ
+
+💡 **なぜ重要か**
+AIの意思決定支援では、単一の答えを出すより複数の仮説と根拠を示す方が人間の判断を助けやすいと考えられています。ただ、こうした評価型のAIをどう理論的に組み立てるかは未整理でした。計算論的argumentation（議論理論）は、賛成・反対の根拠を構造化して扱う分野で、EAIが目指す説明性や反論可能性と自然に噛み合う考え方です。 AIの判断根拠を人間が検証しやすくする仕組みが整えば、医療や法律など高リスク分野でのAI活用がより受け入れられやすくなります。単一の正解を出すAIから、複数の視点を提示し人間が最終判断を下すAIへと、設計思想の転換が進む可能性があります。
+
+🎯 **今日のアクション**
+AIシステムに説明責任を求められる開発者は、議論理論の基本概念を学んでおくと役立ちます。意思決定支援ツールを設計するリーダーは、単一予測だけでなく根拠の提示方法も検討材料に加えるべきです。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.07473)
+
+---
+
+## 📝 まとめ
+
+この3つのニュースに共通するのは、汎用的な大規模言語モデルから、特定領域や利用文脈に最適化されたAIへと進化のフェーズが移行しているという流れです。ONESTRUCTIONの建設特化モデルは業界固有知識への特化を示し、Copilotのメモリ機能やローカルLLM(Ollama)対応は開発者個人の作業文脈への適応を志向しており、いずれも「汎用性」から「個別最適化」への重心移動を体現しています。同時に、マルチモーダルLLMのハルシネーション評価フレームワークは、こうした実用化・専門化が進むほどAIの信頼性や正確性の検証が不可欠になるという裏側の課題を浮き�ずみにしています。つまり業界全体としては、AIを実務に深く組み込むための「特化」と「記憶・継続性」を追求する動きと、それに伴う「信頼性保証」の仕組み作りが並行して進んでいると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築**: 自社データが少ない場合は合成データの活用や段階的な学習パイプラインの設計を検討すべきです。AWSなどのクラウド事業者が提供する技術支援プログラムの活用も有効な選択肢です。
+2. **GitHub Copilot for JetBrains、Copilotのメモリ機能とOllamaに対応**: JetBrainsユーザーは新しいメモリー機能とOllama連携を試し、社内のセキュリティ方針に合う使い方を検討するとよいでしょう。
+3. **マルチモーダル大規模言語モデルのための統合ハルシネーションファジング**: MLLMを使う開発者は、静的ベンチマークだけでなく多様なシナリオでの検証を取り入れるべきです。新しい評価フレームワークの動向を追い、自社の評価プロセスに反映することが大切です。
+
+---
+
+## 🔗 出典一覧
+- [ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築](https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/)
+- [GitHub Copilot for JetBrains、Copilotのメモリ機能とOllamaに対応](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+- [マルチモーダル大規模言語モデルのための統合ハルシネーションファジング](https://arxiv.org/abs/2608.07525)
+- [SiTime CEO、AIデータセンターでの役割とルネサスとの提携について語る](https://www.bloomberg.com/news/videos/2026-08-11/sitime-ceo-on-role-in-ai-data-centers-renesas-deal-video)
+- [BM25を使用してCodexのトークンの消費を30%抑える](https://zenn.dev/knowledgesense/articles/9e55a3bb67729c)
+- [評価的AIのための議論的基盤に向けて](https://arxiv.org/abs/2608.07473)`;
+const notesMd = `# Tech News Radio Show Notes - #134 (2026-08-12)
+
+## エピソード情報
+- **エピソード**: #134
+- **日付**: 2026-08-12
+- **尺**: 約 14 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC](https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/)
+- [Copilot memory and Ollama in GitHub Copilot for JetBrains](https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+- [Unified Hallucination Fuzzing for Multimodal Large Language Models](https://arxiv.org/abs/2608.07525)
+
+### 注目の深掘り
+- [SiTime CEO on Role in AI Data Centers, Renesas Deal](https://www.bloomberg.com/news/videos/2026-08-11/sitime-ceo-on-role-in-ai-data-centers-renesas-deal-video)
+
+### 小ネタ・その他
+- [BM25を使用してCodexのトークンの消費を30%抑える](https://zenn.dev/knowledgesense/articles/9e55a3bb67729c)
+- [Towards an Argumentative Foundation for Evaluative AI](https://arxiv.org/abs/2608.07473)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#134 ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか</title>
+      <description>Tech News Radio Show Notes - #134 (2026-08-12)
+
+エピソード情報
+• エピソード: #134
+• 日付: 2026-08-12
+• 尺: 約 14 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC (https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/)
+• Copilot memory and Ollama in GitHub Copilot for JetBrains (https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+• Unified Hallucination Fuzzing for Multimodal Large Language Models (https://arxiv.org/abs/2608.07525)
+
+注目の深掘り
+• SiTime CEO on Role in AI Data Centers, Renesas Deal (https://www.bloomberg.com/news/videos/2026-08-11/sitime-ceo-on-role-in-ai-data-centers-renesas-deal-video)
+
+小ネタ・その他
+• BM25を使用してCodexのトークンの消費を30%抑える (https://zenn.dev/knowledgesense/articles/9e55a3bb67729c)
+• Towards an Argumentative Foundation for Evaluative AI (https://arxiv.org/abs/2608.07473)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/episode_audio.mp3" length="81864044" type="audio/mpeg" />
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-12</guid>
+      <itunes:duration>14:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか</itunes:title>
+      <itunes:episode>134</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #134 (2026-08-12)
+
+エピソード情報
+• エピソード: #134
+• 日付: 2026-08-12
+• 尺: 約 14 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC (https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/)
+• Copilot memory and Ollama in GitHub Copilot for JetBrains (https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+• Unified Hallucination Fuzzing for Multimodal Large Language Models (https://arxiv.org/abs/2608.07525)
+
+注目の深掘り
+• SiTime CEO on Role in AI Data Centers, Renesas Deal (https://www.bloomberg.com/news/videos/2026-08-11/sitime-ceo-on-role-in-ai-data-centers-renesas-deal-video)
+
+小ネタ・その他
+• BM25を使用してCodexのトークンの消費を30%抑える (https://zenn.dev/knowledgesense/articles/9e55a3bb67729c)
+• Towards an Argumentative Foundation for Evaluative AI (https://arxiv.org/abs/2608.07473)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-12/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-12/eyecatch.webp" />
+    </item>
+    <item>
       <title>#133 Claude Opus 4.7がVertex AIのModel Gardenに追加 ほか</title>
       <description>Tech News Radio Show Notes - #133 (2026-08-11)
 

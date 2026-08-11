@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-12",
+  "episode_date_local": "2026-08-12",
+  "content_snapshot_date": "2026-08-12",
+  "show_length_sec": 852,
+  "audio_size": 81864044,
+  "generated_at": "2026-08-11T21:04:46.981880+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1a9ddb41",
+      "title": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
+      "title_ja": "ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築",
+      "one_liner": "建設特化AI「Ishigaki-IDS」をAWSと共同構築",
+      "fingerprint": "1a9ddb41b7747623ab7b4eb8416676cb",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-4fee8a12",
+      "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+      "title_ja": "GitHub Copilot for JetBrains、Copilotのメモリ機能とOllamaに対応",
+      "one_liner": "JetBrains版Copilotに記憶機能とOllama連携が追加",
+      "fingerprint": "4fee8a12f0bbf0603a5ab88fb0741a57",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-cd2de4c8",
+      "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
+      "title_ja": "マルチモーダル大規模言語モデルのための統合ハルシネーションファジング",
+      "one_liner": "マルチモーダルAIの幻覚を評価する新フレームワーク",
+      "fingerprint": "cd2de4c8bbf5146f949684d16aa9cd98",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-71f419b7",
+      "title": "SiTime CEO on Role in AI Data Centers, Renesas Deal",
+      "title_ja": "SiTime CEO、AIデータセンターでの役割とルネサスとの提携について語る",
+      "one_liner": "SiTime、AI需要でタイミング半導体が急成長",
+      "fingerprint": "71f419b71c9300a806851b2508a59cc7",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-081694d7",
+      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
+      "title_ja": "BM25を使用してCodexのトークンの消費を30%抑える",
+      "one_liner": "BM25でCodexのトークン消費を30%削減",
+      "fingerprint": "081694d74bfb38719d82974647f6999f",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-935be3ce",
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "title_ja": "評価的AIのための議論的基盤に向けて",
+      "one_liner": "評価型AIに議論理論で説明性と反論性を持たせる提案",
+      "fingerprint": "935be3cee5eb539fc644c464c29b8e9c",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-08d98588",
+      "reason": "LINK_ONLY: Source classified as joke: Anthropicの実在する製品・モデル名として「Claude Fable 5」は確認できず、架空の製品を題材にした偽の告知とみられます。生物学安全対策というテーマ自体は現実的ですが、記事全体はジョークまたはネタ目的のコンテンツである可能性が高いです。",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-c255b44f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What building an AI-native finance function taught me"
+    },
+    {
+      "item_id": "item-d8860f51",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock"
+    },
+    {
+      "item_id": "item-f3a428ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI lets employees cash out another $7 billion in stock"
+    },
+    {
+      "item_id": "item-949a1fca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Testing ads in ChatGPT"
+    },
+    {
+      "item_id": "item-dcc2ffbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A guide to slash commands in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-825de8da",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Application of Artificial Intelligence for Fraudulent Banking Operations Recognition"
+    },
+    {
+      "item_id": "item-5e49ada1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Compression is prediction | ngrok blog"
+    },
+    {
+      "item_id": "item-a8c91afe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Uber surprised robotics company Serve by selling its entire stake"
+    },
+    {
+      "item_id": "item-6a4c4f1e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intel to Raise $15 Billion in a Stock Offering to Fund Expansion"
+    },
+    {
+      "item_id": "item-2894a692",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The brain may be about to have its Ozempic moment"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-30f5b5db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Peer review is overwhelmed—can it survive in the AI era?"
+    },
+    {
+      "item_id": "item-941cebdd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of MAI-Code-1-Flash"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-dcd9d4c9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the “censorship-industrial complex” is changing the Internet and US policy"
+    },
+    {
+      "item_id": "item-1544a96f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FBI says cybercriminals are hacking into victims’ online accounts to steal their intimate pictures"
+    },
+    {
+      "item_id": "item-a82af5fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is It Safe to Eat Lettuce Yet?"
+    }
+  ],
+  "score_cache": {
+    "2894a6924ef87a36632ed34c67c18a96": {
+      "score": 36,
+      "title": "The brain may be about to have its Ozempic moment",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] 脳領域でOzempicに相当する革新的な治療法を示唆するタイトルであり、バイオテクノロジーや医療AIに発展すれば社会的インパクトは大きい一方、記事本文やスニペットがなく、技術の具体性・実用化状況・ソフトウェア業界への直接的な影響を評価できません。現時点では先端技術としての期待値にとどまるため、中程度のスコアとしました。"
+    },
+    "949a1fcab65b45a3475f032739c5187a": {
+      "score": 47,
+      "title": "Testing ads in ChatGPT",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] ChatGPTに広告を導入する試みは、AIサービスの収益モデルやユーザー体験、プライバシー設計に影響する重要な動きです。広告と回答生成を分離し、回答の独立性や明確な広告表示を保証できるかは、LLMプロダクトの信頼性・システム設計上の論点になります。一方で、基盤モデルや新しい技術アーキテクチャの発表ではなく、主に事業・プロダクト運用面の変更です。広告テ"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 73,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-08",
+      "reason": "[ScoreCache 2026-08-08] [ScoreCache 2026-08-08] [ScoreCache 2026-08-08] [ScoreCache 2026-08-08] [Claude API Evaluation] AnthropicのFable 5における生物学分野の安全フィルター改善は、LLMの実用性と安全性のトレードオフを具体的に改善する技術的アップデートです。誤検知"
+    },
+    "1a9ddb41b7747623ab7b4eb8416676cb": {
+      "score": 90,
+      "title": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] 建設・BIMというデータが限られる専門領域で、合成データ、3段階の学習パイプライン、検証可能な報酬設計を組み合わせて基盤モデルを構築した点は、実装面で具体性が高く、ドメイン特化型AIの実用化事例として価値があります。Amazon EC2を用いた学習基盤やAWS GenAIICの技術支援も、企業が独自モデルを開発する際のアーキテクチャ上の参考になります"
+    },
+    "dcc2ffbe6ab2a4cd8f2c0f87cce11c9f": {
+      "score": 47,
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリのスラッシュコマンドは、計画・協業・自動化・ワークフローのカスタマイズを効率化する実用的な機能であり、開発者体験への影響はあります。ただし、既存のCopilot機能を活用するガイド記事で、基盤技術やアーキテクチャを大きく変える発表ではありません。さらに、直近で取り上げ済みの「github」「copilot」「agen"
+    },
+    "4fee8a12f0bbf0603a5ab88fb0741a57": {
+      "score": 90,
+      "title": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] GitHub Copilot for JetBrainsに、永続メモリ、Ollama経由のローカルモデル利用、エンタープライズ向け制御、MCPサーバーの信頼性改善が同時に追加される点は、開発者向けAIツールの実用性と導入柔軟性を高める重要なアップデートです。特にローカルモデル対応は、データプライバシー、コスト、オフライン利用、モデル選択の観点で企業の"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 35,
+      "title": "April 27, 2026",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した定期的なイメージ更新であり、既存機能やアーキテクチャを大きく変える具体的な技術革新は確認できません。Agent Platformに関する話題ではあるものの、内容は主に保守運用レベルで、直近取り上げ済みのagent関連トピックと同じ領域のため減点し"
+    },
+    "a8c91afebb410708924ce320cbc69743": {
+      "score": 38,
+      "title": "Uber surprised robotics company Serve by selling its entire stake",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] Serveは自律配送ロボットを手がけるロボティクス企業であり、Uberとの提携解消や全持ち分売却は、ラストマイル配送ロボット市場や両社の事業戦略を考えるうえで注目すべき動きです。一方で、記事からは新技術の発表、性能向上、資金調達、製品展開などの具体的な技術革新は確認できず、主題は企業間関係と投資判断です。そのため、ロボティクス分野としての期待値はある"
+    },
+    "f3a428efb39ce72eff7fccaca657036a": {
+      "score": 48,
+      "title": "OpenAI lets employees cash out another $7 billion in stock",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] OpenAIが約8520億ドルの評価額で従業員・元従業員向けに追加で70億ドルの株式売却機会を提供した点は、未上場AI企業として極めて大規模で、IPO準備や人材流動性、企業価値形成を考えるうえで注目度があります。一方で、技術革新や新製品、アーキテクチャの発表ではなく、エンジニアリングへの直接的な影響は限定的です。2025年にも同様の株式売却が行われて"
+    },
+    "30f5b5db2ae8f2d64879fd2612c0060a": {
+      "score": 35,
+      "title": "Peer review is overwhelmed—can it survive in the AI era?",
+      "date": "2026-08-11",
+      "reason": "[ScoreCache 2026-08-11] [Claude API Evaluation] AI支援による論文数の増加が査読制度の処理能力や研究品質に与える影響は、研究エコシステム全体に関わる重要な論点です。一方で、具体的な技術革新や製品発表ではなく、主に運用・ガバナンス上の課題を扱った記事であるため、技術ニュースとしての優先度は中低程度です。既に取り上げ済みのAI関連テーマと重なるため、重複"
+    },
+    "a82af5febf87f3ed183ab1da79af6663": {
+      "score": 6,
+      "title": "Is It Safe to Eat Lettuce Yet?",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] レタスのサイクロスポラ感染リスクに関する食品安全ニュースであり、ソフトウェア、AI、クラウド、プログラミング言語などの技術分野とは直接関係しません。一般消費者向けの食品安全情報にとどまり、エンジニアリング上の新規性や業界への技術的影響もないため、最低評価帯としました。"
+    },
+    "dcd9d4c9bf0c7ccd3dea6cd06d1c461d": {
+      "score": 27,
+      "title": "How the “censorship-industrial complex” is changing the Internet and US policy",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] 米国政府の偽情報対策組織や、いわゆる「検閲産業複合体」がインターネットの情報流通と政策形成に与える影響を扱う記事です。テック業界におけるプラットフォーム運営、コンテンツモデレーション、表現の自由には関係しますが、具体的な技術革新やソフトウェア開発への直接的な進展ではなく、主に政治・政策・規制の論点です。そのため、エンジニア視点での実装上の新規性や市場"
+    },
+    "71f419b71c9300a806851b2508a59cc7": {
+      "score": 67,
+      "title": "SiTime CEO on Role in AI Data Centers, Renesas Deal",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] AIデータセンター向けのクロック・タイミング同期技術は、GPU、TPU、ネットワークスイッチ、光通信モジュールなどの性能と信頼性を支える重要なインフラです。AI需要によるSiTimeの三桁成長やRenesasとの取引は、AI計算基盤の裾野が半導体部品レベルまで拡大していることを示します。一方で、画期的な新製品や業界の前提を変える発表ではなく、主に企業"
+    },
+    "6a4c4f1eeae42d006aca9f7a0dc8b2a2": {
+      "score": 37,
+      "title": "Intel to Raise $15 Billion in a Stock Offering to Fund Expansion",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] Intelによる150億ドルの株式調達は、半導体製造能力やAI向けインフラへの投資余力を高める可能性があり、業界への影響は無視できません。一方で、記事の中心は技術革新ではなく資金調達であり、具体的な製造プロセス、製品、アーキテクチャ、投資計画の詳細も不明です。そのため、半導体業界の動向としては注目度があるものの、エンジニア視点での技術的重要度は中程度"
+    },
+    "081694d74bfb38719d82974647f6999f": {
+      "score": 67,
+      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] BM25をコーディングエージェントのコード探索に組み込み、検索精度を維持しながらトークン消費を30%削減するという、実装可能性の高いアーキテクチャ改善です。LLMそのものの革新ではありませんが、推論コスト・応答速度・コンテキスト効率に直結し、開発現場への実務的な影響は大きいです。一方で、自社コードベースでの検証が中心であり、対象リポジトリや評価指標に"
+    },
+    "935be3cee5eb539fc644c464c29b8e9c": {
+      "score": 67,
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] AIの意思決定支援を、単一の回答生成ではなく、複数の仮説と賛否の根拠を提示する「Evaluative AI」として捉え、計算論的議論を形式的・検証可能な基盤にしようとする点は技術的に興味深い。説明可能性や反論可能性を、単なるUI機能ではなく推論モデルとして設計する方向性は、AIエージェントや意思決定システムにも応用余地がある。一方で、今回はarXiv"
+    },
+    "825de8da7d297e5b7c5f118cd30f15f2": {
+      "score": 43,
+      "title": "Application of Artificial Intelligence for Fraudulent Banking Operations Recognition",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] 銀行詐欺の検知に機械学習を適用する研究であり、AIを金融セキュリティへ応用する点には実務的な価値があります。一方で、既存の不正検知・異常検知技術の延長に見える基礎研究で、画期的なアルゴリズムや大規模な導入実績、業界の前提を変える具体的成果はスニペットから確認できません。金融詐欺対策という影響範囲は広いものの、技術革新性と具体性を考慮して中上位の評価に"
+    },
+    "cd2de4c8bbf5146f949684d16aa9cd98": {
+      "score": 72,
+      "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] MLLMの幻覚を対象に、従来の静的ベンチマークでは捉えにくい失敗パターンをファジングで体系的に検出・評価する研究であり、マルチモーダルAIの信頼性向上に直結する技術的価値が高い。高リスク用途におけるテスト自動化や評価基盤として有望だが、現時点ではarXiv上の新規研究で、実運用への効果や標準化が未確立であるため、業界の前提を変える90点以上には届かな"
+    },
+    "5e49ada10a2da56da568d7994340fd32": {
+      "score": 43,
+      "title": "Compression is prediction | ngrok blog",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] データ圧縮を「予測」と捉える技術的な解説であれば、情報理論やネットワーク通信、ストレージ効率を考えるうえでエンジニアにとって有益です。ngrokのようなネットワーク系サービスとの関連も期待できますが、タイトルだけでは新しいアルゴリズムや実装、業界への具体的な影響は確認できず、AIや主要アーキテクチャの革新と比べると重要度は中程度です。既出キーワードと"
+    },
+    "c255b44f1857309539d84194070b878b": {
+      "score": 49,
+      "title": "What building an AI-native finance function taught me",
+      "date": "2026-08-11",
+      "reason": "[ScoreCache 2026-08-11] [Claude API Evaluation] AIを財務部門の予測、統制、ROI評価に組み込む実務的な知見は、企業システムの運用設計やガバナンスの観点で一定の価値があります。一方で、新しいモデルやアーキテクチャ、具体的な技術実装の発表ではなく、主眼は業務活用の教訓です。また、既報キーワードであるAIに直接該当し、同一テーマの続報として明確な技術的新"
+    },
+    "d8860f51953d45fb63c3ba99c1445983": {
+      "score": 49,
+      "title": "How Pixieset achieved 35% AI feature adoption by solving the right problem with Amazon Bedrock",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] Amazon Bedrockを活用し、画像の代替テキスト生成を大規模サービスへ4か月で導入し、35%の機能採用率を達成した点は、生成AIの実運用・UX設計・スケーリング事例として具体性があります。特に、クリエイティブ領域を置き換えず、ユーザーが避けがちなSEO作業を自動化した点は導入戦略として示唆的です。一方で、基盤技術そのものの革新や業界の前提を変"
+    },
+    "941cebdd0b87692e86de8edf4372a4ed": {
+      "score": 35,
+      "title": "Upcoming deprecation of MAI-Code-1-Flash",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用されるMAI-Code-1-Flashの提供終了と後継モデルへの移行告知であり、該当モデルを固定指定しているワークフローには対応が必要です。ただし、新技術の発表ではなく、既存モデルの廃止に伴う運用変更が中心で、影響もCopilot利用者に限定されます。さらに、直近で取り上げ済みのGitHub、Copilot、mode"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 29,
+      "title": "May 11, 2026",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12ベースイメージに上流依存パッケージの最新版を適用しただけのメンテナンスリリースであり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新はありません。Agent Platform関連の話題である点は一定の関連性がありますが、既出キーワードと近いエージェント基盤の続報で、内容も"
+    },
+    "1544a96f04488ea86978f1a146d255e0": {
+      "score": 27,
+      "title": "FBI says cybercriminals are hacking into victims’ online accounts to steal their intimate pictures",
+      "date": "2026-08-12",
+      "reason": "[Claude API Evaluation] 成人・未成年の親密画像を狙うサイバー犯罪に関するFBIの警告であり、被害の深刻度は高いものの、技術革新や開発者向けアーキテクチャの進展を示すニュースではありません。主題はセキュリティ対策・犯罪 upoz知に近く、評価基準上の低評価帯に該当します。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-12/blog.md",
+    "show_notes_path": "out/2026-08-12/show_notes.md",
+    "script_path": "out/2026-08-12/script_2hosts.md",
+    "audio_path": "out/2026-08-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 23896,
+        "output_tokens": 10422,
+        "cost_usd": 0.017286
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40678,
+        "output_tokens": 7791,
+        "cost_usd": 0.238899
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4616,
+        "cost_usd": 0.055392000000000004
+      }
+    ],
+    "total_cost_usd": 0.311577
+  }
+}
