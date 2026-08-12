@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#135 SpaceXAIのGrok 4.6、OpenAIの最高性能モデルに匹敵しつつ価格は下回る ほか</title>
+      <description>Tech News Radio Show Notes - #135 (2026-08-13)
+
+エピソード情報
+• エピソード: #135
+• 日付: 2026-08-13
+• 尺: 約 14 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price (https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/)
+• Northrop’s robot space mechanic is a new way to keep satellites at work longer (https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/)
+• Breaking the WAL | Antithesis (https://antithesis.com/blog/2026/wal-reset-bug/)
+
+注目の深掘り
+• Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app (https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app)
+• Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app (https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive)
+
+小ネタ・その他
+• How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS (https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/)
+• Introducing Delta - Zed Blog (https://zed.dev/blog/introducing-delta)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-13/episode_audio.mp3" length="84745964" type="audio/mpeg" />
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-13</guid>
+      <itunes:duration>14:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>SpaceXAIのGrok 4.6、OpenAIの最高性能モデルに匹敵しつつ価格は下回る ほか</itunes:title>
+      <itunes:episode>135</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #135 (2026-08-13)
+
+エピソード情報
+• エピソード: #135
+• 日付: 2026-08-13
+• 尺: 約 14 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price (https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/)
+• Northrop’s robot space mechanic is a new way to keep satellites at work longer (https://techcrunch.com/2026/08/12/northrops-robot-space-mechanic-is-a-new-way-to-keep-satellites-at-work-longer/)
+• Breaking the WAL | Antithesis (https://antithesis.com/blog/2026/wal-reset-bug/)
+
+注目の深掘り
+• Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app (https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app)
+• Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app (https://zenn.dev/aws_japan/articles/agent-plugins-1-0-deep-dive)
+
+小ネタ・その他
+• How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS (https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/)
+• Introducing Delta - Zed Blog (https://zed.dev/blog/introducing-delta)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-13/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-13/eyecatch.webp" />
+    </item>
+    <item>
       <title>#134 ONESTRUCTION、AWS GenAIICと石垣IDS基盤モデルを構築 ほか</title>
       <description>Tech News Radio Show Notes - #134 (2026-08-12)
 

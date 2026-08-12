@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-13",
+  "episode_date_local": "2026-08-13",
+  "content_snapshot_date": "2026-08-13",
+  "show_length_sec": 882,
+  "audio_size": 84745964,
+  "generated_at": "2026-08-12T21:03:41.591760+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-56723780",
+      "title": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+      "title_ja": "SpaceXAIのGrok 4.6、OpenAIの最高性能モデルに匹敵しつつ価格は下回る",
+      "one_liner": "xAIのGrok 4.6、GPT-5.6に性能で並び価格で圧勝",
+      "fingerprint": "567237806b73059d5195239a2022fe08",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9379a3c1",
+      "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
+      "title_ja": "ノースロップのロボット宇宙整備士、衛星の寿命延長へ新手法",
+      "one_liner": "Northropの修理衛星、老朽衛星にスラスター取り付けへ",
+      "fingerprint": "9379a3c153838745556abfcf007d879b",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-cdeff7e5",
+      "title": "Breaking the WAL | Antithesis",
+      "title_ja": "WALを破壊する | Antithesis",
+      "one_liner": "Antithesisが「WAL」の破壊に関する記事を公開",
+      "fingerprint": "cdeff7e50eba839476f726e661ad9e8a",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4cd47297",
+      "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+      "title_ja": "VS Code、Copilot CLI、Copilotアプリの「Agent Plugins 1.0」",
+      "one_liner": "Agent Plugins 1.0が複数のAgentクライアントに対応",
+      "fingerprint": "4cd47297eec0384542b5124ad9516407",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-243630f7",
+      "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
+      "title_ja": "OneAdvancedが英国主権AWS環境に50以上のAIエージェントを導入した方法",
+      "one_liner": "英企業がAWS上に主権AI基盤と50超エージェントを構築",
+      "fingerprint": "243630f72009495afbd0e72182df5e17",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-fa9673f5",
+      "title": "Introducing Delta - Zed Blog",
+      "title_ja": "Delta のご紹介 - Zed ブログ",
+      "one_liner": "Zedが複数人でAIと共同開発するDeltaを発表",
+      "fingerprint": "fa9673f55a5748d044ef5f2eecad7eb6",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-54e93b50",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "From assistance to execution: How enterprises put AI to work"
+    },
+    {
+      "item_id": "item-7f9a0e41",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture"
+    },
+    {
+      "item_id": "item-ea8b19a0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents"
+    },
+    {
+      "item_id": "item-d27e46c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Part 2: Amazon Bedrock cost attribution with Amazon Athena and CUDOS"
+    },
+    {
+      "item_id": "item-30f5b5db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Peer review is overwhelmed—can it survive in the AI era?"
+    },
+    {
+      "item_id": "item-949a1fca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Testing ads in ChatGPT"
+    },
+    {
+      "item_id": "item-08d98588",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-c036fc01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Transformer Geometry Observatory TGO-IV: Developmental Topology Observatory"
+    },
+    {
+      "item_id": "item-941cebdd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of MAI-Code-1-Flash"
+    },
+    {
+      "item_id": "item-81adbd6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI Special Projects Lead, Former COO Brad Lightcap To Depart"
+    },
+    {
+      "item_id": "item-2cec7395",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scientists just created female clones of male mice"
+    },
+    {
+      "item_id": "item-c695e687",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CoreWeave Warns of Difficulty If It Must Shift From Nvidia Chips"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-428b2777",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ナレッジワークにおけるAI活用をベースとしたQAプロセスの最適化"
+    },
+    {
+      "item_id": "item-10dd27d9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out"
+    },
+    {
+      "item_id": "item-584e2b0d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Write your first prompt with the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-ce110ea3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Way to Avoid Diarrhea Lettuce? This Indoor Garden"
+    }
+  ],
+  "score_cache": {
+    "cdeff7e50eba839476f726e661ad9e8a": {
+      "score": 69,
+      "title": "Breaking the WAL | Antithesis",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] WAL（Write-Ahead Log）というデータベースの信頼性・永続性を支える中核アーキテクチャを扱う技術記事であり、ストレージ設計、障害復旧、トランザクション整合性に関わるため、エンジニアへの実務的な影響は大きいです。Antithesisによる検証・テストの観点が含まれる可能性もあり、分散システムの信頼性向上にもつながります。一方で、AIや新規"
+    },
+    "54e93b50c91f9d9387610cb2f44af0bb": {
+      "score": 54,
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] 企業におけるエージェント型AIの導入実態や、ChatGPT・Codexを業務実行に活用する方法を扱っており、開発プロセスや業務システムの設計に影響し得る点は重要です。一方で、具体的な新技術や製品発表ではなく、OpenAIによる導入調査・分析が中心です。また、AI、エージェント、モデルなど直近放送で扱われたテーマと重複するため、基礎評価から20点減点し"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 44,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] 生物学分野での悪用防止や安全性評価を改善する内容と考えられ、AIシステムのリスク管理という点ではエンジニアリング上の意義があります。一方で、記事タイトルだけでは具体的な技術手法、対象モデル、性能向上、導入範囲が不明で、業界の前提を変えるほどの新規性や影響規模は判断できません。既出キーワードとの明確な同一話題とは断定できないため、重複による減点は適用し"
+    },
+    "d27e46c8a516cb685bddfab40701fe2c": {
+      "score": 49,
+      "title": "Part 2: Amazon Bedrock cost attribution with Amazon Athena and CUDOS",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Amazon Bedrockの利用コストをCUR 2.0、Athena、IAMプリンシパル情報、CUDOSダッシュボードでプロジェクトやチーム単位に可視化・配賦する実務的なクラウド運用記事です。AI基盤のコストガバナンスやFinOpsに有用で、エンジニアリング上の具体性もありますが、新しいモデルやアーキテクチャの発表ではなく、既出キーワードであるAm"
+    },
+    "584e2b0d6fd9ee7f76636066e4b1f1ae": {
+      "score": 35,
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで初回プロンプトを作成する手順を紹介する入門記事で、開発者には実用性があります。ただし、新しい技術仕様やアーキテクチャ、モデルの革新ではなく、既存サービスの利用ガイドに留まっています。また、直近に取り上げ済みの「copilot」「ai」「model」などと同一テーマで、明確な新展開を示す続報でもないため減点しました。"
+    },
+    "4cd47297eec0384542b5124ad9516407": {
+      "score": 66,
+      "title": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] VS Code、Copilot CLI、Copilotアプリなど複数のエージェントクライアントでプラグインを再利用できる共通基盤の提供は、開発者体験とエージェント拡張の相互運用性を高める点で重要です。AWS、Anysphere、Microsoft、OpenAI、Vercelが関与しており、エコシステムへの波及も期待できます。一方で、既存のCopilo"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 27,
+      "title": "April 27, 2026",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新版適用にとどまり、機能追加やアーキテクチャ変更、性能向上などの具体的な技術革新はありません。エージェント関連のキーワードは既報テーマとも重複しており、単なる運用・保守リリースとして重要度は低いと判断しました。 [Edit"
+    },
+    "9379a3c153838745556abfcf007d879b": {
+      "score": 84,
+      "title": "Northrop’s robot space mechanic is a new way to keep satellites at work longer",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] 衛星に新しいスラスターを取り付けて運用寿命を延ばす宇宙用ロボットの実証であり、ロボティクス、軌道上サービス、宇宙インフラの長寿命化が交差する非常に技術的価値の高いニュースです。従来は故障や燃料枯渇で運用終了となっていた衛星を、遠隔・自律ロボットによって保守できる可能性があり、将来的な衛星運用や宇宙物流のアーキテクチャに影響します。一方で、今回は初の取"
+    },
+    "567237806b73059d5195239a2022fe08": {
+      "score": 95,
+      "title": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Grok 4.6がGPT-5.6級の性能に並び、Claude Opus 5より少ないステップ数でエージェント型タスクを完了しつつ、価格を60%以上下げたという内容は、LLM市場の性能・コスト競争に直接影響する重要ニュースです。特に推論能力とエージェント実行効率の改善は、API利用やAIアプリケーションの設計・運用コストを大きく変える可能性があります。"
+    },
+    "30f5b5db2ae8f2d64879fd2612c0060a": {
+      "score": 46,
+      "title": "Peer review is overwhelmed—can it survive in the AI era?",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] AI支援による論文執筆の増加が査読者の負荷や研究品質の検証プロセスに与える影響を扱っており、研究開発や技術コミュニティ全体への波及性はあります。一方で、具体的な技術革新や製品発表ではなく、主題はAI時代の査読制度・運用上の課題です。そのため、AI関連ではあるものの、業界の前提を変える重大発表には当たらず、中程度の重要度と評価します。既出のAI関連キー"
+    },
+    "ce110ea3a8318774dc3c50140015c03e": {
+      "score": 6,
+      "title": "The Best Way to Avoid Diarrhea Lettuce? This Indoor Garden",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] 室内栽培キットによるレタスの安全な自家栽培と割引情報を扱う、一般消費者向けの製品・販促記事です。AI、クラウド、ソフトウェアアーキテクチャ、先端スタートアップなどの技術的な新規性やエンジニアリング上の影響はほぼなく、評価基準上は最低評価帯に該当します。"
+    },
+    "2cec7395b703a0a84fe6bc9e1dc55c23": {
+      "score": 38,
+      "title": "Scientists just created female clones of male mice",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] CRISPRを用いて雄マウスの細胞からY染色体を除去し、雌として発生させた点は、生殖工学・遺伝子編集における明確な新規性があります。一方、現時点ではマウス胚を対象とした基礎研究であり、ヒトへの応用可能性、安全性、再現性、倫理面には大きな課題が残ります。ソフトウェアやAI基盤への直接的な影響はなく、エンジニア視点では先端バイオ技術として興味深いものの、"
+    },
+    "c695e687862e3f752bfef24cd00e8eab": {
+      "score": 38,
+      "title": "CoreWeave Warns of Difficulty If It Must Shift From Nvidia Chips",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] AIインフラ事業者CoreWeaveがNvidia製チップへの依存から移行する際の、コスト・期間・技術的難易度を警告している点は、GPUクラウドの調達戦略やベンダーロックインを考えるうえで重要です。一方で、具体的な代替チップや移行計画の発表ではなく、投資家向けのリスク開示にとどまります。AIおよび関連インフラの話題ではあるものの、既出のAI系トピック"
+    },
+    "81adbd6d5b5f6ff8be99f512b4403350": {
+      "score": 41,
+      "title": "OpenAI Special Projects Lead, Former COO Brad Lightcap To Depart",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] OpenAIの元COOであり特別プロジェクト部門を率いた幹部の退任は、同社の組織運営や事業戦略の変化を示す可能性があり、AI業界全体への影響も無視できません。一方で、現時点では新技術、アーキテクチャ、モデル、開発者向け機能などの具体的な技術革新は示されておらず、エンジニアにとって直接的な実装上の影響は限定的です。そのため、AI関連ニュースとして一定の"
+    },
+    "428b2777341a15143883c084679618e5": {
+      "score": 36,
+      "title": "ナレッジワークにおけるAI活用をベースとしたQAプロセスの最適化",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] AIをQAプロセスへ組み込む実務事例であり、テスト設計・品質保証の効率化という点ではエンジニアに有用です。一方、特定企業の半年間の取り組み紹介が中心で、汎用的な技術革新や業界全体の前提を変える内容ではありません。また、直近放送済みの「AI」に関する話題と同じ方向性であるため20点減点しました。"
+    },
+    "7f9a0e41cc785ea75bca871eaee8a96e": {
+      "score": 54,
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] 49チャンネルの植物センサーデータを利用し、LLMを単なる分析・対話ツールから自律的な実験制御まで拡張する点は、AIとロボティクス、デジタル農業の融合として技術的に興味深いです。専門家・非専門家向けのリアルタイム自然言語解釈や、複雑な生物系に対する閉ループ制御には実用化の可能性があります。一方で、研究段階のarXiv論文であり、実験の再現性、制御の安"
+    },
+    "c036fc0142992e2138dc3020c659b9b2": {
+      "score": 43,
+      "title": "Transformer Geometry Observatory TGO-IV: Developmental Topology Observatory",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Transformerの層ごとの表現変化や多様体の発達過程をトポロジーで解析する研究であり、モデルの学習ダイナミクスや解釈可能性に関わる技術的価値は高いです。一方、arXivの初期研究段階で、実用化や業界標準を直接変える具体的成果まではスニペットから確認できません。また、AI・モデル・言語学習に関する既報トピックと近い内容のため、重複分として減点して"
+    },
+    "ea8b19a0b9059077eb9ead60500cda1d": {
+      "score": 50,
+      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] ドメイン特化型LLMエージェントをオンデマンド生成する検索ベースのフレームワークで、20K超のエージェント知識ベースを活用し、従来の動的なエージェント設計に伴う計算コストや不安定性を抑える点は、マルチエージェント実装における実用上の重要な改善です。一方、arXivの研究段階であり、実運用での品質・レイテンシ・コスト優位性は未検証です。また、LLMやエ"
+    },
+    "fa9673f55a5748d044ef5f2eecad7eb6": {
+      "score": 55,
+      "title": "Introducing Delta - Zed Blog",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Zedが開発する「Delta」の具体的な内容はスニペットだけでは判断できませんが、Zed Blog発の新技術紹介であり、エディタ基盤や共同編集、差分処理などのアーキテクチャに関わる可能性があります。開発者向けの技術的な波及性は見込める一方、AIやLLMのように業界の前提を変える発表か、広範な導入実績があるかは確認できないため、中高評価にとどめます。"
+    },
+    "949a1fcab65b45a3475f032739c5187a": {
+      "score": 46,
+      "title": "Testing ads in ChatGPT",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] ChatGPTへの広告導入は、無料ユーザー向けの収益モデルやプロダクト設計、広告表示と回答の独立性・プライバシー保護に関わる重要な動きです。ただし、技術的な革新というより運用・ビジネスモデルおよびポリシー面の変更であり、エンジニアリング上の新規アーキテクチャやAI基盤の進化が具体的に示されていません。AI関連ではあるものの、既出キーワードのAIやCh"
+    },
+    "243630f72009495afbd0e72182df5e17": {
+      "score": 66,
+      "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] 英国主権クラウド上でLlama 4とLlama Guard 4をセルフホストし、SageMaker、pgvectorによるRAG、ECS上のStrands Agents SDKで50以上のAIエージェントを運用する点は、企業向けAI基盤の具体的な実装事例として技術的価値が高いです。一方で、AI、Amazon、モデル、エージェントなど既出キーワードと重"
+    },
+    "941cebdd0b87692e86de8edf4372a4ed": {
+      "score": 43,
+      "title": "Upcoming deprecation of MAI-Code-1-Flash",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用中のモデルが明確な期日付きで廃止され、利用者はMAI-Code-1.1-Flashへの移行が必要になるため、開発ワークフローへの実務的な影響はあります。一方で、新機能や技術革新ではなく、既存モデルの置き換えに関する運用告知です。Copilotやモデルの話題は直近の放送済みキーワードとも重なるため、重要度を20点減点し"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 38,
+      "title": "May 11, 2026",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12上で上流依存パッケージを更新した保守的なリリースに限られます。エージェント基盤に関連するため技術的な関連性はあるものの、新機能やアーキテクチャ変更、性能向上、影響範囲が明示されておらず、業界へのインパクトは小さいと判断しました。既出キーワードのAg"
+    },
+    "10dd27d9d1cde60df1671c3b8092d3a8": {
+      "score": 36,
+      "title": "Amazon will train on Twitch streamers’ content by default, unless they opt out",
+      "date": "2026-08-13",
+      "reason": "[Claude API Evaluation] Twitch配信者のコンテンツをAI学習にデフォルト利用する方針は、データの帰属、クリエイターの同意、プラットフォーム規約、学習データの品質に関わる重要な動きです。一方で、具体的なモデルや技術革新ではなく、主題はAmazon傘下サービスの運用方針とオプトアウト設計です。AIおよびAmazonに関する既出テーマと重なるため減点し、影響は大きいものの中程"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-13/blog.md",
+    "show_notes_path": "out/2026-08-13/show_notes.md",
+    "script_path": "out/2026-08-13/script_2hosts.md",
+    "audio_path": "out/2026-08-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 25249,
+        "output_tokens": 11398,
+        "cost_usd": 0.018727
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40703,
+        "output_tokens": 8056,
+        "cost_usd": 0.242949
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4834,
+        "cost_usd": 0.058008
+      }
+    ],
+    "total_cost_usd": 0.319684
+  }
+}
