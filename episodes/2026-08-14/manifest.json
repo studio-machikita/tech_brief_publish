@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-14",
+  "episode_date_local": "2026-08-14",
+  "content_snapshot_date": "2026-08-14",
+  "show_length_sec": 751,
+  "audio_size": 72149804,
+  "generated_at": "2026-08-13T21:00:17.992344+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b33ff86b",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "title_ja": "OpenAI、GPT-5.6 Solが14倍速で動作する新モード「Ultrafast」を発表",
+      "one_liner": "OpenAIが14倍速のGPT-5.6高速モードを発表",
+      "fingerprint": "b33ff86b947f89c43e56099c66926b8f",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-3a35e587",
+      "title": "Suno Studio 2.0's new chat feature lets you talk to your DAW like it's a bandmate",
+      "title_ja": "Suno Studio 2.0の新チャット機能、DAWとバンドメイトのように会話可能に",
+      "one_liner": "SunoがAI音楽制作ツールに本格DAW機能を追加",
+      "fingerprint": "3a35e5872b2ae82aec2e352201ac77f4",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-3ec89d4a",
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "title_ja": "Databricks、10億ドル調達目指すも投資家は150億ドル希望、評価額1900億ドルで50億ドル調達に決着",
+      "one_liner": "Databricksが評価額190億ドルで50億ドルを調達",
+      "fingerprint": "3ec89d4a4d3302c1ec3e685b6317053e",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-8a90f963",
+      "title": "The builder’s guide to GPT‑5.6",
+      "title_ja": "GPT-5.6:開発者向けガイド",
+      "one_liner": "GPT-5.6でAIエージェント開発が高速化",
+      "fingerprint": "8a90f96371d7b39ddff3657e7722a3f7",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-710144bf",
+      "title": "MAI-Code-1.1-Flash available in GitHub Copilot",
+      "title_ja": "GitHub CopilotでMAI-Code-1.1-Flashが利用可能に",
+      "one_liner": "MicrosoftのMAI-Code-1.1-FlashがGitHub Copilotに登場",
+      "fingerprint": "710144bf65ced6e0c7d2cef9c07f3879",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-43f6467f",
+      "title": "How to Analyze CoreWeave’s Mounting Losses",
+      "title_ja": "CoreWeaveの拡大する損失を分析する方法",
+      "one_liner": "CoreWeaveは増収でも現金消費も倍増、Ebitda指標に疑問",
+      "fingerprint": "43f6467fd0c3833bde85e970ff08d629",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-77871cb0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FarSky: Task-Aware Latent-Space Coupling for Generative Intra-Hour Solar Forecasting"
+    },
+    {
+      "item_id": "item-6bab5cf5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool"
+    },
+    {
+      "item_id": "item-2ac91389",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability"
+    },
+    {
+      "item_id": "item-08d3dbf6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer"
+    },
+    {
+      "item_id": "item-577ac4cc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AIエージェントと進めるソフトウェア開発"
+    },
+    {
+      "item_id": "item-240d7b4a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs"
+    },
+    {
+      "item_id": "item-08d98588",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving Fable 5's biology safeguards"
+    },
+    {
+      "item_id": "item-1227cb5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack"
+    },
+    {
+      "item_id": "item-c5b51c77",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes"
+    },
+    {
+      "item_id": "item-2073e1b0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Applied Materials Forecast Gets Tepid Reaction After Rally"
+    },
+    {
+      "item_id": "item-584e2b0d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Write your first prompt with the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-f29fa245",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Gödel’s Proof Works"
+    },
+    {
+      "item_id": "item-54bf1599",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building a practical path to post-quantum cryptography"
+    },
+    {
+      "item_id": "item-941cebdd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of MAI-Code-1-Flash"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-22fd3bbb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Painful Truth of Exactly How ICE’s New Shock Gloves Work"
+    },
+    {
+      "item_id": "item-cf3fc916",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NP"
+    }
+  ],
+  "score_cache": {
+    "cf3fc916339b02ad9c14aca2425ccf53": {
+      "score": 0,
+      "title": "NP",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] タイトルが「NP」のみで、記事内容を特定できる情報がありません。技術革新、影響範囲、具体的な変更点を評価できないため、最低スコアとします。"
+    },
+    "8a90f96371d7b39ddff3657e7722a3f7": {
+      "score": 60,
+      "title": "The builder’s guide to GPT‑5.6",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] GPT-5.6を活用したスタートアップの実装パターン、モデル選択によるコスト最適化、Responses APIの新機能は、AIエージェント開発者にとって実務的な価値が高い。一方で、記事は画期的な基盤技術の発表というより導入・活用ガイドであり、既に取り上げ済みのAI、モデル、エージェント関連トピックと同じ軸を含むため20点減点した。APIの具体的な新規"
+    },
+    "08d9858874f599067040d900bccec23f": {
+      "score": 44,
+      "title": "Improving Fable 5's biology safeguards",
+      "date": "2026-08-13",
+      "reason": "[ScoreCache 2026-08-13] [Claude API Evaluation] 生物学分野での悪用防止や安全性評価を改善する内容と考えられ、AIシステムのリスク管理という点ではエンジニアリング上の意義があります。一方で、記事タイトルだけでは具体的な技術手法、対象モデル、性能向上、導入範囲が不明で、業界の前提を変えるほどの新規性や影響規模は判断できません。既出キーワードとの明確な同一"
+    },
+    "2ac91389dccdc70be0b02f58b84665d8": {
+      "score": 49,
+      "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] オンプレミスやGCP、Azure上で稼働するAIエージェントを、AWS Distro for OpenTelemetryとIAM認証を使って統合的に可観測化できる点は、マルチクラウド運用やトレース・スパンメトリクス・トークン使用量の分析に有用です。特にエージェントの本番運用に必要な監視基盤という観点では技術的価値があります。一方で、基盤となるAmaz"
+    },
+    "584e2b0d6fd9ee7f76636066e4b1f1ae": {
+      "score": 38,
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで初回プロンプトを作成する手順や、コンテキストとモデルの選び方を解説する入門記事です。開発者の利用開始には役立ちますが、新しい技術仕様やアーキテクチャ上の革新、業界への大きな影響はありません。また、既出キーワードの「copilot」「model」に直接該当し、同テーマの続報・新展開というより基本操作の解説であるため減"
+    },
+    "941cebdd0b87692e86de8edf4372a4ed": {
+      "score": 35,
+      "title": "Upcoming deprecation of MAI-Code-1-Flash",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用中のMAI-Code-1-Flashが2026年9月10日に終了し、MAI-Code-1.1-Flashへの移行が必要になるため、利用者のワークフローやモデル固定設定には実務上の影響があります。一方で、新モデルの具体的な性能向上や革新的機能の発表ではなく、既存モデルの廃止告知に留まります。Copilotやモデル関連の"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した定期的なリリースであり、運用上の更新としては意味がありますが、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。既に取り上げ済みの「agent」関連トピックと同じ領域で、明確な新展開にも乏しいため減点し、重要度は低めと"
+    },
+    "3ec89d4a4d3302c1ec3e685b6317053e": {
+      "score": 74,
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] Databricksが約5Bドルを調達し、評価額190Bドルに達した点は、AI・データ基盤市場における資本集中と同社の事業規模を示す重要なニュースです。大規模な資金調達は、データウェアハウス、機械学習基盤、生成AI関連サービスへの投資余力を高め、企業向け技術市場の競争環境にも影響します。一方で、具体的な製品革新やアーキテクチャの発表ではなく、主題は資"
+    },
+    "3a35e5872b2ae82aec2e352201ac77f4": {
+      "score": 76,
+      "title": "Suno Studio 2.0's new chat feature lets you talk to your DAW like it's a bandmate",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] 自然言語でDAWを操作し、楽器やプラグインの生成、MIDIインポート、32-bit無制限書き出しまで統合する点は、AIとクリエイティブツールの融合として技術的に注目度が高い。特にチャットを単なる補助機能ではなく制作環境の操作インターフェースにしている点は、音楽制作ワークフローを変える可能性がある。一方で、対象は音楽制作分野に限定され、業界全体の前提を"
+    },
+    "1227cb5bd759b064a062bda96dae19d3": {
+      "score": 43,
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] AIパッケージを起点に2,500ユーザーからテラバイト規模の認証情報が窃取された点は、ソフトウェアサプライチェーンの広範な影響という意味で重大です。一方、主題は新しいAI技術ではなくセキュリティインシデントであり、評価基準上は低評価帯に該当します。また、既出のAI関連トピックと同じキーワード領域を含むため減点しました。 [Editorial: AI-"
+    },
+    "22fd3bbb347e0935468917c716e87bf5": {
+      "score": 6,
+      "title": "The Painful Truth of Exactly How ICE’s New Shock Gloves Work",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] 移民当局（ICE）が使用する電気ショック手袋の仕組みに関する記事で、ソフトウェア、AI、クラウド、プログラミング言語などの技術革新とは直接関係しません。一般消費者向けガジェットではないものの、主題は法執行・人権・運用上の問題であり、エンジニアリング業界への影響範囲や技術的新規性も限定的です。"
+    },
+    "54bf159987f0d97cb33d2f3d7435ae82": {
+      "score": 36,
+      "title": "Building a practical path to post-quantum cryptography",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] 量子計算による暗号解読リスクに備える耐量子暗号（PQC）への移行は、長期的には認証基盤や通信・保存データの設計に影響する重要なテーマです。ただし、記事はPQCの実装技術や具体的な標準・製品導入の新展開ではなく、企業に対して『危機ではなく管理可能な移行』と説明する実務的な啓発内容が中心です。AIやクラウドなどの主要キーワードにも直接該当せず、技術革新そ"
+    },
+    "2073e1b0fdffe40c8616052b188a4a28": {
+      "score": 42,
+      "title": "Applied Materials Forecast Gets Tepid Reaction After Rally",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] Applied Materialsは半導体製造装置の主要企業であり、業績見通しはAI向け半導体の設備投資や製造サプライチェーンの強さを測る材料になります。一方で、記事の中心は予想を上回る業績見通しに対する投資家の反応であり、新しいアーキテクチャや製品、技術革新の発表ではありません。AIブームとの関連性はあるものの、エンジニアに直接影響する技術情報や業"
+    },
+    "43f6467fd0c3833bde85e970ff08d629": {
+      "score": 56,
+      "title": "How to Analyze CoreWeave’s Mounting Losses",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] CoreWeaveのようなAI向けネオクラウドの急成長、巨額の設備投資、キャッシュバーン、EBITDA指標の妥当性を扱っており、クラウドインフラ市場やGPU計算基盤の事業モデルを理解するうえで重要です。一方で、技術的な新機能やアーキテクチャの発表ではなく、主題は企業財務と投資家向け指標の分析です。そのため、AI・クラウド関連として一定の影響力はあるも"
+    },
+    "577ac4cc65a6f5449d8ef47fefaaf775": {
+      "score": 48,
+      "title": "AIエージェントと進めるソフトウェア開発",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] AIエージェントを活用した要件整理、設計、Issue分解、実装、レビュー、運用改善までの実践例であり、ソフトウェア開発プロセスへの具体的な示唆があります。一方で、基盤技術そのものの革新や新製品の発表ではなく、既存のAIエージェント活用というテーマの事例紹介にとどまります。また、直近放送済みの「AI」「agent」「model」などと同じ主要テーマに該"
+    },
+    "c5b51c7780d8a17fdd60ac8d5351bc72": {
+      "score": 43,
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] 複数のLLMエージェント間の対話崩壊を、制御理論に基づくガバナンス層で抑制する研究であり、エージェント協調や対話システムのアーキテクチャに関わる点は技術的に興味深い。一方、arXivの新規研究で実運用への適用実績や汎用性、既存手法を上回る具体的な成果はスニペットから確認できず、業界の前提を変える段階とは言い難い。また、既報の「AI」「LLM」「age"
+    },
+    "77871cb04402e84d95ffc268e0e3845f": {
+      "score": 55,
+      "title": "FarSky: Task-Aware Latent-Space Coupling for Generative Intra-Hour Solar Forecasting",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] 全天候カメラの観測情報とタスク認識型の潜在空間結合を用いて、1時間以内の太陽光発電量を確率的に予測し、急激な出力変動（ramp event）への対応力を高める研究です。再生可能エネルギーの系統統合や蓄電池・需給制御に直結する実用性があり、深層学習モデルの設計としても興味深い一方、現時点ではarXiv掲載の研究段階で、実運用での汎用性や大規模導入の実証"
+    },
+    "240d7b4ae6b3876c40a7c3b871746f78": {
+      "score": 48,
+      "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] LLMエージェントのコーディング能力を、アルゴリズム取引のバックテスト実行と自己生成MCQで評価する新しいベンチマークであり、データ汚染や数値結果の正解生成といった既存評価の課題に具体的に対応している点は技術的に価値があります。一方、対象は金融取引という限定領域の評価基盤で、基盤モデルやエージェント自体の革新ではありません。また、LLM・エージェント"
+    },
+    "f29fa2459e26207e9d99b5aaf57211ae": {
+      "score": 38,
+      "title": "How Gödel’s Proof Works",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] ゲーデルの不完全性定理を証明の仕組みから解説する記事で、計算理論・形式手法・プログラミング言語の理論的背景を理解するうえでエンジニアにも有益です。ただし、特定の新技術や製品、アーキテクチャの発表ではなく、業界への直接的な影響や新規性は限定的です。既出キーワードの話題にも該当しないため、減点はありません。"
+    },
+    "08d3dbf6aff44d67a25bfc542d139f11": {
+      "score": 49,
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] OpenAIのグローバル収益組織を率いる最高収益責任者の就任は、AI市場における企業向け販売戦略や事業展開に影響する注目人事です。一方で、技術革新や新しいアーキテクチャ、製品機能の発表ではなく、エンジニアリング面への直接的な影響は限定的です。既出のAI関連トピックと接点はあるものの、今回はモデルやエージェントの技術進展ではなく経営・収益化の続報ではな"
+    },
+    "6bab5cf5e071eed96245eb2ac4eb86cf": {
+      "score": 54,
+      "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] AIエージェントによるレガシーWebアプリ自動化という実用性の高いテーマで、隔離ブラウザ、監査証跡、人間の監督を組み込んだリファレンスアーキテクチャはエンタープライズ導入に有益です。一方で、BedrockやAgent、AIを中心とした既出キーワードと重なり、既存技術の具体的な活用手法に留まるため新規性は限定的です。既出テーマとの重複を考慮して減点しま"
+    },
+    "710144bf65ced6e0c7d2cef9c07f3879": {
+      "score": 58,
+      "title": "MAI-Code-1.1-Flash available in GitHub Copilot",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotに新しい小型コーディングモデルを追加し、画像理解のネイティブ対応やコード品質の改善を実現する点は、開発者体験とマルチモーダルなコーディング支援に関わる技術的意義があります。一方で、Copilot・AI・モデル・GitHubという既出キーワードと同一領域の続報であり、業界の前提を変えるほどの発表ではありません。新モデルの具体"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 33,
+      "title": "May 11, 2026",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの取り込みにとどまり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。運用上の保守リリースとしては意味があるものの、既出のagent関連トピックと同じ領域であり、目新しさも限定的なため減点していま"
+    },
+    "b33ff86b947f89c43e56099c66926b8f": {
+      "score": 86,
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "date": "2026-08-14",
+      "reason": "[Claude API Evaluation] GPT-5.6 Solの推論速度を14倍にする新モードは、企業向けAI導入の大きな障壁であるレイテンシーと処理コストを直接改善する可能性があり、実運用への影響は大きいです。特にリアルタイム処理や大量リクエストを扱うシステムでは、アーキテクチャや費用対効果の前提を変え得ます。一方で、現時点ではプレビューであり、速度向上の条件、精度・推論品質とのトレード"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-14/blog.md",
+    "show_notes_path": "out/2026-08-14/show_notes.md",
+    "script_path": "out/2026-08-14/script_2hosts.md",
+    "audio_path": "out/2026-08-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24062,
+        "output_tokens": 10070,
+        "cost_usd": 0.016896
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40344,
+        "output_tokens": 7017,
+        "cost_usd": 0.226287
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4045,
+        "cost_usd": 0.04854
+      }
+    ],
+    "total_cost_usd": 0.291723
+  }
+}
