@@ -1,0 +1,376 @@
+{
+  "date": "2026-08-15",
+  "episode_date_local": "2026-08-15",
+  "content_snapshot_date": "2026-08-15",
+  "show_length_sec": 840,
+  "audio_size": 80642924,
+  "generated_at": "2026-08-14T20:45:56.732556+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2f06adeb",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "title_ja": "GPT-5.6 Sol、最大14倍速の「Ultrafastモード」をプレビュー公開",
+      "one_liner": "GPT-5.6 Solが最大14倍速の新モードで登場",
+      "fingerprint": "2f06adeb0b19da8b61483e09085c62b7",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "TechCrunch",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-00ebbcc8",
+      "title": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+      "title_ja": "OpenAIの「Computer History」機能、クリックやキー操作を検索可能なChatGPT記憶タイムラインに変換",
+      "one_liner": "ChatGPTが操作履歴を記録し検索可能な記憶にする新機能",
+      "fingerprint": "00ebbcc84f4ea36f9cdebccb7bc28884",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-77f16eea",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "title_ja": "中国AI勢の台頭で、OpenAIとAnthropicが価格競争",
+      "one_liner": "米AI大手、中国勢の台頭で値下げ競争へ",
+      "fingerprint": "77f16eea581d95d08566d52dcdcadd3f",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-eb080b57",
+      "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
+      "title_ja": "SageMaker AIとBedrock AgentCoreによるエージェント型ワークフローの構築",
+      "one_liner": "SageMakerとBedrock AgentCoreでマルチエージェント構築",
+      "fingerprint": "eb080b5745ba03912b0b8742ef1299ee",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-f053d5a4",
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "title_ja": "推論はルールベースの学習可能なプロセスである",
+      "one_liner": "推論はルールベースで学習可能とする論文の主張",
+      "fingerprint": "f053d5a47ee62d07b43638644602ae20",
+      "score": 60,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-03c6b64a",
+      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+      "title_ja": "LoKiFormer:効率的な大規模言語モデル事前学習のための、分離型知識メモリを備えた局所性認識アテンション",
+      "one_liner": "LLM事前学習を効率化する新アーキテクチャLoKiFormer",
+      "fingerprint": "03c6b64aeb343db25407a4410e1eaf8c",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-3b3aa0da",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge"
+    },
+    {
+      "item_id": "item-1fafe475",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LLMs Know the Constraint But Do Not Use It: Activation Bottlenecks in Pragmatic Constraint Reasoning"
+    },
+    {
+      "item_id": "item-da4fa96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Claude’s text watermark works"
+    },
+    {
+      "item_id": "item-fa9ee037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps"
+    },
+    {
+      "item_id": "item-2f5fbc98",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok 4.6 is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-f4ea2160",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exclusive: Sequoia, Wellington in Talks to Back Kalshi at $40 Billion Valuation"
+    },
+    {
+      "item_id": "item-cb09d91b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Oxc Minifierの変数マングル仕組み"
+    },
+    {
+      "item_id": "item-55da8ecf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 10"
+    },
+    {
+      "item_id": "item-08d3dbf6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer"
+    },
+    {
+      "item_id": "item-f160724b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-a50d8b5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want"
+    },
+    {
+      "item_id": "item-d42e40e2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Lower and Upper Bounds for the Grothendieck Constant"
+    },
+    {
+      "item_id": "item-584e2b0d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Write your first prompt with the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-c13af30c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells"
+    },
+    {
+      "item_id": "item-03529cd0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jason Arday: Former Cambridge university professor found dead"
+    },
+    {
+      "item_id": "item-fc1ba0e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UK Issues Emergency Phone Alert as Heat Raises Wildfire Risk"
+    }
+  ],
+  "score_cache": {
+    "03529cd08eb4ba5bb4bd252998fd58eb": {
+      "score": 6,
+      "title": "Jason Arday: Former Cambridge university professor found dead",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] 元ケンブリッジ大学教授の死亡を伝える人物・社会ニュースであり、AI、ソフトウェア開発、クラウド、アーキテクチャなど技術分野への直接的な影響や新規性がありません。エンジニア向けの重要度は最低水準です。"
+    },
+    "2f06adeb0b19da8b61483e09085c62b7": {
+      "score": 92,
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] GPT-5.6 Solを最大14倍、毎秒750トークンで実行できるOpenAI APIの新サービス層であり、推論系アプリケーションのレイテンシやリアルタイム性を大きく改善し得る点は重要です。Cerebrasの専用ハードウェアを活用する構成も、AI推論基盤の選択肢やクラウドAPIの性能競争に影響します。一方で、モデル自体の新機能やアーキテクチャ革新では"
+    },
+    "da4fa96abce84d63a6831b2a0396702d": {
+      "score": 51,
+      "title": "How Claude’s text watermark works",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] Claudeが生成したテキストに透かしを埋め込む仕組みは、生成AIコンテンツの検出、出所証明、プラットフォーム上の信頼性確保に関わる技術的に興味深い話題です。一方で、AIそのものの新モデル発表や基盤技術の革新ではなく、適用範囲や検出精度、回避耐性に依存する補助的な技術です。既出のAI・モデル関連テーマに近いため、明確な新展開としての情報がないことも考"
+    },
+    "3b3aa0da700b498616697737ecf811b6": {
+      "score": 53,
+      "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] マルチターン強化学習におけるカスタム報酬設計、生成コードの安全な実行、報酬コンポーネントの計測は、モデルの学習品質や実運用時の信頼性に直結する実践的な技術テーマです。特に報酬崩壊を検知・切り分ける設計はエンジニアにとって有用ですが、対象はAmazon Nova Forge上の具体的な実装ノウハウであり、業界全体の前提を変える発表とまではいえません。ま"
+    },
+    "fa9ee03708a328fba03599e05bfb7a4c": {
+      "score": 49,
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] GitHub上で複数のエージェントアプリを活用し、要件定義・セキュリティ・展開・リリースまでのソフトウェア開発ライフサイクルを統合する内容で、開発ワークフローの効率化や自動化という点では実務的な価値があります。一方、記事は新しい基盤技術やアーキテクチャの発表というより、既存のGitHubおよびAIエージェント機能の活用事例・導入ガイドに近いものです。"
+    },
+    "2f5fbc98819d50301963d248c8e18f75": {
+      "score": 49,
+      "title": "Grok 4.6 is now available in GitHub Copilot",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] xAIの最新推論モデルGrok 4.6がGitHub Copilotに追加され、エージェント型コーディングや複雑な多段階ワークフローに利用できる点は、開発者体験とAIコーディング支援の競争に影響する。ただし、記事は新モデルの提供開始とロールアウトが中心で、業界の前提を変えるほどの技術的ブレークスルーや詳細な性能データは示されていない。また、AI・モデ"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 41,
+      "title": "April 27, 2026",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12環境への上流依存パッケージ更新に限られ、アーキテクチャ変更や新機能、性能向上などの具体的な技術的進展はありません。Agent関連の話題ではあるものの、既出キーワードの『agent』と同じ領域で、今回の更新も継続的な運用・保守に近いため減点しました。"
+    },
+    "f160724b3e5f36d6faa5fc2587686862": {
+      "score": 42,
+      "title": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] AI投資に対する過熱感への警鐘と投資規律を扱う記事で、テック業界の資金配分やスタートアップ評価には一定の影響があります。ただし、具体的な技術革新、製品発表、アーキテクチャ変更ではなく、著名VCによる市場見解・投資方針の表明に留まります。既出キーワードのAI関連テーマとも重なるため、話題の新規性を考慮して減点しました。 [Editorial: AI/S"
+    },
+    "00ebbcc84f4ea36f9cdebccb7bc28884": {
+      "score": 66,
+      "title": "OpenAI's Computer History turns your clicks and keystrokes into a searchable ChatGPT memory timeline",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] Mac上のクリック、キーストローク、アプリ切り替えを記録し、ChatGPTやCodexから検索可能な時系列メモリとして利用する機能は、AIアシスタントを継続的な作業コンテキストへ拡張する具体的な新展開です。一方で、データが暗号化されていないMarkdownファイルとして保存される点や、会話に利用された記憶が学習データへ流入する可能性は、セキュリティ・"
+    },
+    "77f16eea581d95d08566d52dcdcadd3f": {
+      "score": 66,
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] 主要AI企業と中国勢の競争激化により、モデル価格の低下や推論コスト、API・クラウド事業の収益構造が変わる可能性があり、開発者や企業の技術選定に大きく影響します。一方で、具体的な新モデルや画期的なアーキテクチャの発表ではなく、競争環境と価格戦略に関するニュースにとどまります。さらに、直近で取り上げ済みのAI・OpenAI・modelと同じ軸の話題であ"
+    },
+    "a50d8b5c1fd290d24896faaada253341": {
+      "score": 41,
+      "title": "Tech Visionary Says the Big AI Labs Don’t Get What People Want",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] AI業界の大手ラボと利用者ニーズの乖離、オープンソースの価値を論じる記事であり、開発者や技術戦略の観点では一定の示唆があります。一方で、具体的な製品発表・技術革新・事業提携ではなく、主にTim O'Reilly氏の見解を扱う論説です。また、AI関連は直近の放送で既出のキーワードに該当し、明確な新展開ではないため減点しました。 [Editorial: "
+    },
+    "c13af30c211b955e017a33dc9f1a9ce2": {
+      "score": 30,
+      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] 主題は、警察向けナンバープレート認識網を運営するFlockが、監視への反発を受けてアクセス規則を厳格化するというプライバシー・ガバナンス上の話題です。社会的な影響は大きいものの、技術的なブレークスルーやアーキテクチャの進化ではなく、運用ルールと監視技術の規制寄りの内容です。クローン技術や子どもの細胞に関する話題も含まれるようですが、提示された情報だけ"
+    },
+    "fc1ba0e78df834e0574ffa59fea53c27": {
+      "score": 6,
+      "title": "UK Issues Emergency Phone Alert as Heat Raises Wildfire Risk",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] 英国政府が携帯電話へ送る緊急警報の事例ですが、主題は熱波と山火事リスクに関する一般的な防災情報であり、ソフトウェア技術・AI・クラウド・開発者向け基盤の革新には直接つながりません。既存技術の運用事例にとどまり、エンジニア視点での新規性や業界への影響も限定的です。"
+    },
+    "f4ea216091320db0b2b072fd332ce232": {
+      "score": 47,
+      "title": "Exclusive: Sequoia, Wellington in Talks to Back Kalshi at $40 Billion Valuation",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] Kalshiが少なくとも7.5億ドルを調達し、評価額400億ドルを目指す展開は、予測市場やWeb3・フィンテック領域の事業規模を示す重要なニュースです。一方で、記事の中心は資金調達と企業価値であり、新しいプロトコル、アーキテクチャ、開発者向け技術の具体的な発表ではありません。エンジニア視点では、リアルタイム市場、決済、リスク管理、規制対応などの技術基"
+    },
+    "cb09d91b1d3b205a47dfa72939e62977": {
+      "score": 47,
+      "title": "Oxc Minifierの変数マングル仕組み",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] JavaScriptエコシステムで利用されるOxc Minifierの変数マングル処理を内部実装の観点から解説しており、バンドルサイズ削減やビルド性能、名前衝突回避などの理解に役立つ技術記事です。一方で、対象は比較的ニッチなビルド最適化技術であり、業界全体の前提を変える新技術や主要言語の大規模な進化には当たらないため、中上位の評価としました。既出キー"
+    },
+    "f053d5a47ee62d07b43638644602ae20": {
+      "score": 60,
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] AIにおける「推論」を、曖昧な生成能力ではなく学習可能なルールベースのプロセスとして再定義・検証しようとする研究で、LLMの評価方法や推論システムの設計に影響し得ます。特に、記号AIと確率的生成モデルを接続し、推論の操作的定義や検証可能性を議論する点は技術的に重要です。一方で、現時点ではarXivの新規論文であり、実用システムや業界標準を直接変える成"
+    },
+    "03c6b64aeb343db25407a4410e1eaf8c": {
+      "score": 55,
+      "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] LLMの事前学習効率を改善する新しいアーキテクチャ提案であり、局所性を考慮したAttentionと、知識保存と計算経路を分離するメモリ設計は、計算コスト・メモリ効率・MoEの柔軟性に影響し得るため技術的な注目度は高いです。一方で、現時点ではarXivの新規論文段階で、実運用での性能やスケーラビリティは未検証です。また、LLM・モデル・言語モデル関連は"
+    },
+    "1fafe47518dac5404212ef15fa3b37bf": {
+      "score": 52,
+      "title": "LLMs Know the Constraint But Do Not Use It: Activation Bottlenecks in Pragmatic Constraint Reasoning",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] LLMが制約を知識として保持していても、意思決定時に適切に活性化・ルーティングできないという問題を、知識・対称性・ルーティングに分解して分析する点は、推論品質や評価手法の改善に直結する重要な研究です。単なる正答率では見えない「理解しているが使えていない」失敗を定式化しており、LLMの推論メカニズムを考えるうえで新規性があります。一方で、現時点ではar"
+    },
+    "d42e40e22b215992a835fada6894e9a1": {
+      "score": 36,
+      "title": "New Lower and Upper Bounds for the Grothendieck Constant",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] グロタンディーク定数の上下界を改善する結果は、関数解析や量子情報、半正定値最適化などに関わる重要な理論的進展です。近似アルゴリズムや量子相関の限界に影響する可能性はありますが、記事単体では具体的な実装、製品、アーキテクチャへの直接的な波及は限定的です。AIやクラウドなどの既存キーワードにも該当せず、基礎理論として中程度の重要度と評価します。"
+    },
+    "08d3dbf6aff44d67a25bfc542d139f11": {
+      "score": 43,
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] OpenAIのグローバル収益組織を統括するCRO नियुक्तは、企業向けAI事業の販売・収益化戦略に関わる人事として一定の業界的意義があります。一方で、技術仕様や新製品、アーキテクチャの進展を示す内容ではなく、エンジニアへの直接的な影響は限定的です。また、既出のOpenAI・AI関連トピックと重なるため減点し、規模の大きい企業人事ニュースとして中"
+    },
+    "eb080b5745ba03912b0b8742ef1299ee": {
+      "score": 66,
+      "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] SageMaker AIとBedrock AgentCoreを組み合わせ、用途別モデルを使い分けるマルチエージェント構成や、従来不足していたトークン単位の可観測性を具体的に示しており、AIシステムの実装・運用面では有用性が高いです。一方で、AI、エージェント、Amazon Bedrock、モデル活用といった既出キーワードと同じ領域・角度に重なり、業界"
+    },
+    "584e2b0d6fd9ee7f76636066e4b1f1ae": {
+      "score": 35,
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで初回プロンプトを作成する手順や、コンテキストとモデルの選び方を解説する入門記事であり、エンジニアの導入支援には有用ですが、新しいアーキテクチャや技術革新を示す内容ではありません。さらに、既出キーワードのCopilot、AI、モデル、GitHubなどと同一の話題に該当するため、重複分として減点しています。 [Edit"
+    },
+    "55da8ecf1124e9612e80e5e96603742f": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 10",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotのエディタ・CLI・アプリ横断の機能改善や、モデル・プラグイン・エージェントワークフローの更新は開発者体験に影響しますが、週次アップデートの総括であり、具体的な技術革新や業界構造を変える発表ではありません。加えて、直近放送済みの「copilot」「model」「agent」「code」などと同じ話題に該当するため、重複分と"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 35,
+      "title": "May 11, 2026",
+      "date": "2026-08-15",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージリリースですが、内容はDebian 12環境への上流依存パッケージ更新にとどまり、アーキテクチャ変更や新機能、性能向上などの具体的な技術革新は確認できません。運用上の保守性には意義があるものの、影響範囲と新規性は限定的です。また、既出キーワードである「agent」と同じエージェント基盤の"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-15/blog.md",
+    "show_notes_path": "out/2026-08-15/show_notes.md",
+    "script_path": "out/2026-08-15/script_2hosts.md",
+    "audio_path": "out/2026-08-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24828,
+        "output_tokens": 11157,
+        "cost_usd": 0.018354
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40430,
+        "output_tokens": 7607,
+        "cost_usd": 0.235395
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4549,
+        "cost_usd": 0.054588
+      }
+    ],
+    "total_cost_usd": 0.308337
+  }
+}
