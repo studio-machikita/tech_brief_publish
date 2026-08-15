@@ -1,0 +1,373 @@
+{
+  "date": "2026-08-16",
+  "episode_date_local": "2026-08-16",
+  "content_snapshot_date": "2026-08-16",
+  "show_length_sec": 855,
+  "audio_size": 82174124,
+  "generated_at": "2026-08-15T20:38:04.319657+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5414da71",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "title_ja": "SpaceX、Cursorの買収を正式に完了",
+      "one_liner": "SpaceXがCursor買収を正式完了",
+      "fingerprint": "5414da71fe1d109a580e31ad3a590b45",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-2ac91389",
+      "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
+      "title_ja": "AgentCore Observabilityでオンプレミスおよびマルチクラウドのエージェントを監視",
+      "one_liner": "AWS外のAIエージェントもAgentCoreで監視可能に",
+      "fingerprint": "2ac91389dccdc70be0b02f58b84665d8",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-e30ee805",
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "title_ja": "LLMを共同研究者として評価するための研究公正性診断基盤",
+      "one_liner": "AIの研究倫理を測るIntegrityBenchが登場",
+      "fingerprint": "e30ee805dde386226de0494cbed20b0d",
+      "score": 79,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-3b0c531a",
+      "title": "First human trials of designer protein therapies stun US neuroscientists",
+      "title_ja": "設計タンパク質治療の初の人体試験、米国の神経科学者を驚かせる",
+      "one_liner": "設計型タンパク質治療の初の人体試験が驚きの結果",
+      "fingerprint": "3b0c531a3f3577f8b7045c343a113643",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3b3aa0da",
+      "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
+      "title_ja": "Amazon Nova Forgeによるマルチターン強化学習向けカスタム報酬関数",
+      "one_liner": "Amazon Nova Forgeで多段階RLの報酬設計を解説",
+      "fingerprint": "3b3aa0da700b498616697737ecf811b6",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-7bf807b0",
+      "title": "我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか",
+      "title_ja": "我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか",
+      "one_liner": "EC2からCloudflare Workersへ移行し無駄な実装に気づいた話",
+      "fingerprint": "7bf807b0a3f6c8d6de328d3137e276da",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2f5fbc98",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok 4.6 is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-54e93b50",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "From assistance to execution: How enterprises put AI to work"
+    },
+    {
+      "item_id": "item-da4fa96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Claude’s text watermark works"
+    },
+    {
+      "item_id": "item-fa9ee037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps"
+    },
+    {
+      "item_id": "item-33640eda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings"
+    },
+    {
+      "item_id": "item-7af90541",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI-generated books are flooding Amazon and tanking sales for human authors"
+    },
+    {
+      "item_id": "item-f51c7648",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI, Anthropic Data Demand Turns Startups’ Slack Threads Into Prized Assets"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-1227cb5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack"
+    },
+    {
+      "item_id": "item-55da8ecf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 10"
+    },
+    {
+      "item_id": "item-08d3dbf6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer"
+    },
+    {
+      "item_id": "item-1454f8f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work"
+    },
+    {
+      "item_id": "item-584e2b0d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Write your first prompt with the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-8fcc3c54",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI in drug discovery — what it is, where we stand and the path forward"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-c13af30c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells"
+    },
+    {
+      "item_id": "item-c1fc2c7c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bloomberg This Weekend | Conditions Aboard the USS Abraham Lincoln, Up Close with a Drone Swarm"
+    },
+    {
+      "item_id": "item-f54ae124",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride"
+    }
+  ],
+  "score_cache": {
+    "8fcc3c54fa95aad3dcbcf3fa7cfd2e3c": {
+      "score": 40,
+      "title": "AI in drug discovery — what it is, where we stand and the path forward",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] AIを創薬に活用するテーマは、医薬品候補の探索・分子設計・臨床試験の効率化など、技術的および産業的なインパクトが大きい。一方で、タイトルからは具体的な新モデル、実証結果、製品発表、画期的な成果が確認できず、概説記事に見えるため新規性と即時性は限定的。さらに、既出のAI関連トピックと重なるため20点減点した。 [Editorial: AI/SaaS t"
+    },
+    "08d3dbf6aff44d67a25bfc542d139f11": {
+      "score": 43,
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] OpenAIの最高売上責任者 नियुक्तは、企業向けAI導入や収益化戦略に影響し得る人事ですが、技術仕様・製品機能・アーキテクチャの具体的な進展ではありません。AIおよびOpenAIに関する既出テーマと重なるため20点減点し、エンジニア視点での直接的な技術インパクトは限定的と評価しました。 [Editorial: AI-focused sourc"
+    },
+    "da4fa96abce84d63a6831b2a0396702d": {
+      "score": 51,
+      "title": "How Claude’s text watermark works",
+      "date": "2026-08-15",
+      "reason": "[ScoreCache 2026-08-15] [Claude API Evaluation] Claudeが生成したテキストに透かしを埋め込む仕組みは、生成AIコンテンツの検出、出所証明、プラットフォーム上の信頼性確保に関わる技術的に興味深い話題です。一方で、AIそのものの新モデル発表や基盤技術の革新ではなく、適用範囲や検出精度、回避耐性に依存する補助的な技術です。既出のAI・モデル関連テーマに"
+    },
+    "3b3aa0da700b498616697737ecf811b6": {
+      "score": 78,
+      "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] Amazon Nova Forgeを用いたマルチターン強化学習で、カスタム報酬関数の設計、生成コードの安全な実行、各報酬要素の計測まで扱う実装寄りの内容であり、LLMの学習品質やエージェントのタスク遂行性能に直結します。特に複合報酬の崩壊を検知する観測性とサンドボックス化は、実運用で重要なエンジニアリング知見です。一方で、基盤モデルや業界全体の前提を"
+    },
+    "fa9ee03708a328fba03599e05bfb7a4c": {
+      "score": 49,
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] GitHub上で複数のエージェントアプリを活用し、要件定義、セキュリティ、展開、リリースまでのソフトウェア開発ライフサイクルを統合する内容で、開発者のワークフロー改善や自動化には実務的な価値があります。一方で、基盤技術やアーキテクチャの大幅な革新というより、既存のGitHubおよびAIエージェント機能の活用事例に近い記事です。直近の既出キーワードであ"
+    },
+    "2f5fbc98819d50301963d248c8e18f75": {
+      "score": 58,
+      "title": "Grok 4.6 is now available in GitHub Copilot",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] xAIの最新推論モデルGrok 4.6がGitHub Copilotで利用可能になり、エージェント型コーディングや複雑な複数ステップ作業に適用できる点は、開発者向けAI活用の具体的な進展です。一方で、既出キーワードの「ai」「copilot」「model」「code」に該当し、既存のAIコーディング支援の延長線上にあるため減点しました。業界の前提を変"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 35,
+      "title": "April 27, 2026",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの反映にとどまり、新機能やアーキテクチャ変更、性能向上などの具体的な技術的インパクトがありません。エージェント基盤に関連するものの、既出のAI・エージェント系話題と近く、目新しさも限定的なため減点しています。 [Editori"
+    },
+    "1454f8f7770af37a568cdc08f19556ec": {
+      "score": 41,
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] Claudeにおける生成物のウォーターマーク技術の具体的な仕組みや、編集による回避可能性、コードへの影響を扱う点は、AIコンテンツの provenance（出所証明）や検出技術に関わるためエンジニアには一定の重要性があります。一方で、基盤モデルや開発アーキテクチャ自体の革新ではなく、運用・信頼性・悪用対策寄りの話題です。また、既出キーワードであるAI"
+    },
+    "33640eda59697c73a6c3ef357df35a2d": {
+      "score": 49,
+      "title": "Investor pressure forces Nvidia to shrink its OpenAI bet just as Anthropic's numbers defy bubble warnings",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] NvidiaによるOpenAI向けデータセンター投資保証の大幅縮小と、Anthropicの急速な売上成長は、AIインフラ投資のリスク評価や市場のバブル議論に影響する重要な動きです。ただし、技術仕様や新しいアーキテクチャの発表ではなく、主に企業投資・財務動向に関するニュースです。また、既出キーワードであるAI、OpenAI、Anthropicに直接関連"
+    },
+    "1227cb5bd759b064a062bda96dae19d3": {
+      "score": 46,
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] AIパッケージを侵害したサプライチェーン攻撃により、2,500ユーザーからテラバイト規模の認証情報が流出した点は、影響範囲と実害の大きさから重要です。依存パッケージの検証、秘密情報の管理、CI/CDや利用環境での権限分離を見直す契機になります。一方で、主題は新しい技術革新ではなくセキュリティインシデントであり、評価基準に従って低評価帯に留めています。"
+    },
+    "f54ae124bb1925a7a2c8f9f99f4ced89": {
+      "score": 2,
+      "title": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] 手頃な電動BMXの製品レビューであり、一般消費者向けガジェットに該当します。技術革新やソフトウェア、クラウド、AI、ロボティクスなどへの影響はなく、航続距離・乗り心地・BMX性能にも限界があるため、エンジニアリング上の業界インパクトは非常に限定的です。 [Editorial: gadget topic -8]"
+    },
+    "c13af30c211b955e017a33dc9f1a9ce2": {
+      "score": 27,
+      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] 主題は、警察向けナンバープレート読取ネットワーク「Flock」のアクセスルール変更を含む監視技術と、クローン・子どもの細胞に関する概説的な話題です。技術的な社会影響やプライバシー面の重要性はありますが、記事スニペットからは新しいアーキテクチャ、実装、製品革新、主要技術の進化は確認できません。規制・運用ルールや監視への反発への対応が中心で、評価基準では"
+    },
+    "c1fc2c7cae048c066ef32817e65ac2fa": {
+      "score": 10,
+      "title": "Bloomberg This Weekend | Conditions Aboard the USS Abraham Lincoln, Up Close with a Drone Swarm",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] Bloombergの週末ニュース番組の告知であり、USS Abraham Lincolnやドローンスウォームに触れているものの、具体的な技術仕様・新規性・実装上の知見は示されていません。AIやロボティクス技術そのものの発表ではなく、エンジニアリングへの直接的な影響も限定的です。"
+    },
+    "f51c7648b24f39a01038141b565e1ce6": {
+      "score": 48,
+      "title": "OpenAI, Anthropic Data Demand Turns Startups’ Slack Threads Into Prized Assets",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] AI企業がスタートアップのSlack、GitHub、Asana、会議記録などの社内データを、モデル訓練やエージェント開発に利用するため資産として評価し始めている点は、データ戦略や買収後の知識移転に大きな示唆があります。特に、従来は価値が低いと見なされがちだった業務履歴が高額で取引される可能性を示した点は、スタートアップの企業価値やデータ管理の考え方を"
+    },
+    "7bf807b0a3f6c8d6de328d3137e276da": {
+      "score": 69,
+      "title": "我々は富豪プログラミングをしていた。Cloudflare Workersで実装はどう変わるか",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] Cloudflare Workersへの移行を通じて、EC2・NestJS中心のサーバー実装から、エッジランタイムに適したHonoや分散キャッシュ、ストリーミング、メモリ制約を前提とした設計へどう変えるべきかを具体的に示す実践的な記事です。既存のAWS構成では見過ごされていた『富豪プログラミング』の問題を、SDKサイズ、逐次DBアクセス、全件Cron"
+    },
+    "e30ee805dde386226de0494cbed20b0d": {
+      "score": 79,
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] LLMを研究支援の協働科学者として運用する際の研究公正を、圧力レベル・研究段階・分野を横断して測定する具体的なベンチマークであり、AI評価の実務に与える影響は大きいです。特に不正行為の分類だけでなく、倫理的推論や成果物に基づく意思決定まで評価対象にしている点は、モデルの安全性・信頼性評価を一段進めます。一方で、基盤モデル自体の新規発表や業界構造を直ち"
+    },
+    "3b0c531a3f3577f8b7045c343a113643": {
+      "score": 79,
+      "title": "First human trials of designer protein therapies stun US neuroscientists",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] 設計されたタンパク質治療薬が初めてヒト試験に進み、神経疾患向けの創薬プラットフォームが実験段階から臨床検証段階へ移行した点は非常に重要です。従来は標的選定や安全性評価がボトルネックになりやすかった領域で、計算設計・バイオエンジニアリングと臨床応用を結び付ける可能性があります。一方、現時点ではヒトでの有効性や長期安全性が確立したわけではなく、AIやソフ"
+    },
+    "54e93b50c91f9d9387610cb2f44af0bb": {
+      "score": 54,
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] 企業におけるエージェント型AIの導入実態や、ChatGPT・Codexを活用する先進企業の傾向を示す内容で、開発プロセスや業務自動化への影響は大きい。一方で、革新的な新技術や具体的な製品発表ではなく、主に導入事例・調査結果にとどまるため、技術的インパクトは中程度と評価した。また、AIやOpenAIなど直近に取り上げ済みの話題と同じ軸であるため、重複分"
+    },
+    "2ac91389dccdc70be0b02f58b84665d8": {
+      "score": 83,
+      "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] AWS Bedrock AgentCoreの観測基盤をオンプレミス、GCP、Azure、開発者マシン上のAIエージェントへ拡張できる点は、マルチクラウド運用や本番監視において実務的な価値が高いです。ADOTによる分散トレーシング、スパンメトリクス、トークン使用量の可視化は、エージェントの性能・コスト・障害原因を横断的に分析するための重要な基盤になりま"
+    },
+    "584e2b0d6fd9ee7f76636066e4b1f1ae": {
+      "score": 41,
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで初回プロンプトを作成する手順や、コンテキストとモデルの選び方を解説する入門記事であり、開発者の導入支援という実用性はあります。ただし、新しい技術仕様やアーキテクチャの発表ではなく、既出キーワードの「Copilot」および「model」と直接重複する内容のため減点しました。 [Editorial: AI-focuse"
+    },
+    "55da8ecf1124e9612e80e5e96603742f": {
+      "score": 46,
+      "title": "GitHub Copilot weekly releases — August 10",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotのエディタ、CLI、アプリ間でのエージェントワークフローやプラグイン対応の改善は、開発者体験とツール連携に関わるため一定の技術的価値があります。ただし、スニペットだけでは具体的な新機能や技術的ブレークスルーの内容が不明で、週次アップデートの告知にとどまります。また、直近に取り上げ済みの「Copilot」「model」「ag"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 47,
+      "title": "May 11, 2026",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいインスタンスイメージリリースですが、内容はDebian 12環境への上流依存パッケージの更新に限られ、アーキテクチャや開発者体験を大きく変える新機能ではありません。エージェント基盤に関するため一定の技術的 relevance はあるものの、影響範囲と具体的な革新性が小さく、運用・保守寄りのアップ"
+    },
+    "5414da71fe1d109a580e31ad3a590b45": {
+      "score": 86,
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] AIコーディングスタートアップのCursorがSpaceX傘下に正式に入るという、先端スタートアップと大手宇宙企業の異例の組み合わせで、技術人材・開発ツール・AI活用戦略への影響が大きいニュースです。単なるAIモデルの更新ではなく、Cursorの開発基盤やエージェント型コーディング技術がSpaceXの大規模ソフトウェア開発や自律システムに活用される可"
+    },
+    "7af90541b66cd943dccc2c925a8d6e10": {
+      "score": 49,
+      "title": "AI-generated books are flooding Amazon and tanking sales for human authors",
+      "date": "2026-08-16",
+      "reason": "[Claude API Evaluation] AI生成コンテンツの大量流通が、Amazonの自費出版市場と人間の著者の収益を圧迫しているという、生成AIの実社会への影響を示す具体的な調査です。著作権訴訟における市場損害の証拠となり得る点も重要ですが、技術的ブレークスルーではなく、主眼は市場影響・著作権・プラットフォーム運用です。既出キーワードのAIに直接該当するため、同テーマの重複として減点し、"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-16/blog.md",
+    "show_notes_path": "out/2026-08-16/show_notes.md",
+    "script_path": "out/2026-08-16/script_2hosts.md",
+    "audio_path": "out/2026-08-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24743,
+        "output_tokens": 10873,
+        "cost_usd": 0.017996
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40525,
+        "output_tokens": 7798,
+        "cost_usd": 0.238545
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4666,
+        "cost_usd": 0.055992
+      }
+    ],
+    "total_cost_usd": 0.312533
+  }
+}
