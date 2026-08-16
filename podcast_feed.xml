@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#139 GitHub Copilotで「Grok 4.6」が利用可能に ほか</title>
+      <description>Tech News Radio Show Notes - #139 (2026-08-17)
+
+エピソード情報
+• エピソード: #139
+• 日付: 2026-08-17
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Grok 4.6 is now available in GitHub Copilot (https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+• Protobuf finally has LSP support. You’re welcome. · Buf (https://buf.build/blog/protobuf-lsp)
+• From assistance to execution: How enterprises put AI to work (https://openai.com/index/how-enterprises-put-ai-to-work)
+
+注目の深掘り
+• When AI models aren't allowed to reflect on themselves, it changes their entire worldview (https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/)
+
+小ネタ・その他
+• How Claude’s text watermark works (https://www.anthropic.com/news/claude-text-watermark)
+• Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool (https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-17/episode_audio.mp3" length="76726124" type="audio/mpeg" />
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-17</guid>
+      <itunes:duration>13:19</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>GitHub Copilotで「Grok 4.6」が利用可能に ほか</itunes:title>
+      <itunes:episode>139</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #139 (2026-08-17)
+
+エピソード情報
+• エピソード: #139
+• 日付: 2026-08-17
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Grok 4.6 is now available in GitHub Copilot (https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+• Protobuf finally has LSP support. You’re welcome. · Buf (https://buf.build/blog/protobuf-lsp)
+• From assistance to execution: How enterprises put AI to work (https://openai.com/index/how-enterprises-put-ai-to-work)
+
+注目の深掘り
+• When AI models aren't allowed to reflect on themselves, it changes their entire worldview (https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/)
+
+小ネタ・その他
+• How Claude’s text watermark works (https://www.anthropic.com/news/claude-text-watermark)
+• Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool (https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-17/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-17/eyecatch.webp" />
+    </item>
+    <item>
       <title>#138 SpaceX、Cursorの買収を正式に完了 ほか</title>
       <description>Tech News Radio Show Notes - #138 (2026-08-16)
 
