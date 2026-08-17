@@ -1,0 +1,371 @@
+{
+  "date": "2026-08-18",
+  "episode_date_local": "2026-08-18",
+  "content_snapshot_date": "2026-08-18",
+  "show_length_sec": 806,
+  "audio_size": 77413484,
+  "generated_at": "2026-08-17T20:41:49.407718+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2010bfb4",
+      "title": "OpenAI signs record Ohio data center lease with Nvidia backing up to $105 billion",
+      "title_ja": "OpenAI、Nvidiaの支援で最大1050億ドルのオハイオ州データセンター契約を締結",
+      "one_liner": "OpenAIがオハイオに8GWデータセンターを20年契約",
+      "fingerprint": "2010bfb4df569a738ec40a6da448e96a",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-8c630d4d",
+      "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
+      "title_ja": "NVIDIA Nemotron 3.5 Lightning、Amazon SageMaker JumpStartで利用可能に",
+      "one_liner": "Nemotron 3.5 LightningがSageMakerで利用可能に",
+      "fingerprint": "8c630d4d807d5e4e7d72cbd33797fc08",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-de97b40a",
+      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "title_ja": "エージェント評価における過剰評価を軽減する報酬フリー採点基準の誘導",
+      "one_liner": "AIエージェント評価の甘さを防ぐ採点基準の自動生成手法",
+      "fingerprint": "de97b40a3bceb3e2282bbb4cb06513f8",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-9a272952",
+      "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
+      "title_ja": "R指定映画スタジオ、「AIのHBO」を目指す",
+      "one_liner": "R指定AI映像スタジオが「AI版HBO」を目指す",
+      "fingerprint": "9a2729525141a75e7b775485a59b849f",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-972cecaf",
+      "title": "China’s Z.ai Touts New GLM-5.3 Model as Cyber Defense Tool",
+      "title_ja": "中国のZ.ai、新モデル「GLM-5.3」をサイバー防御ツールとしてアピール",
+      "one_liner": "中国Z.aiが新モデルGLM-5.3を公開、サイバー防御力を強調",
+      "fingerprint": "972cecaf11a615ebee34cc72b25b5fde",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-9e521a34",
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "title_ja": "キャンバスによってエージェント型ワークフローを可視化・操作可能・コスト効率化する方法",
+      "one_liner": "AIエージェント作業をキャンバスで可視化する手法",
+      "fingerprint": "9e521a3476a6faaa30ced9da03e6828a",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-baf49109",
+      "reason": "LINK_ONLY: Suspected paywall, downgraded to LINK_ONLY.",
+      "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments"
+    },
+    {
+      "item_id": "item-fa9ee037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps"
+    },
+    {
+      "item_id": "item-9b8f2759",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 3.7 Flash is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-55da8ecf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 10"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-d7ce9d00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI joins PORTS-Pike project"
+    },
+    {
+      "item_id": "item-c0a1433a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Defender’s Window"
+    },
+    {
+      "item_id": "item-1227cb5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack"
+    },
+    {
+      "item_id": "item-a84bcd8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study"
+    },
+    {
+      "item_id": "item-0885f665",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI;DR (AI; Didn’t Read)"
+    },
+    {
+      "item_id": "item-e97fe204",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）"
+    },
+    {
+      "item_id": "item-5232db05",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics"
+    },
+    {
+      "item_id": "item-0afe50c1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Flock’s defenders are missing"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-d4c0983c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators"
+    },
+    {
+      "item_id": "item-c326e238",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UPI: India built a digital payments miracle. Now comes the bill."
+    },
+    {
+      "item_id": "item-db21ab04",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kahina Van Dyke on Stablecoins, Fintech Consolidation"
+    },
+    {
+      "item_id": "item-f57e4a40",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Spotify’s new Playlist Notes let users and editors explain their song picks"
+    }
+  ],
+  "score_cache": {
+    "0885f6652d80e7b5161281a4f4028747": {
+      "score": 41,
+      "title": "AI;DR (AI; Didn’t Read)",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] AIを題材にした名称ですが、スニペットがなく、技術的な新規性・実装内容・影響範囲を判断できません。AI関連トピックとして一定の関心度はあるものの、既出キーワード「ai」と重複するため減点し、具体的なブレークスルーや新サービスの詳細が確認できない点も考慮して低めに評価します。 [Editorial: AI/SaaS topic +5]"
+    },
+    "c0a1433acba3854e4934c4b51fba042c": {
+      "score": 43,
+      "title": "The Defender’s Window",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] AIを活用した攻撃・防御とOpenAIのセキュリティ強化は技術的には重要ですが、記事タイトルとスニペットだけでは具体的な新技術、アーキテクチャ、脅威情報、実装成果が不明で、実務への影響度を高く評価しにくい内容です。また、既出キーワードのAIと近いテーマであり、明確な続報や新規展開も確認できないため減点しました。セキュリティ運用・防御策が中心で、革新的"
+    },
+    "8c630d4d807d5e4e7d72cbd33797fc08": {
+      "score": 92,
+      "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] NVIDIAの30B規模・3BアクティブのMixture-of-Expertsモデルを、Amazon SageMaker JumpStartから容易にデプロイできるようになった点は、エージェント基盤の実運用を加速する重要な進展です。最大4倍のスループットとタスク完了時間30%短縮という具体的な性能改善もあり、コスト効率や常時稼働エージェントへの適用可"
+    },
+    "9e521a3476a6faaa30ced9da03e6828a": {
+      "score": 49,
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] エージェント型ワークフローをキャンバスで可視化・制御し、実行状況の把握やコスト最適化につなげる提案は、開発者体験とエージェント運用の観点で有用です。一方で、基盤技術そのもののブレークスルーというより、既存のエージェント開発手法に対するUI・運用面の改善に近く、記事スニペットから確認できる具体的な実装や定量的効果も限定的です。また、既出キーワードである"
+    },
+    "55da8ecf1124e9612e80e5e96603742f": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 10",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] GitHub Copilotの新モデル、エディタやCLIをまたぐポータブルなプラグイン、エージェントワークフローの改善は、開発者体験と適用範囲を広げる点で一定の技術的価値があります。一方で、記事は週次アップデートの総括であり、個別機能の詳細や業界構造を変えるほどの新規性は確認できません。さらに、GitHub、Copilot、model、agentなど"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 47,
+      "title": "April 27, 2026",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchというエージェント開発基盤に関する更新ですが、内容はDebian 12ベースのイメージへ上流依存パッケージを取り込んだ定期的なリリースであり、新機能やアーキテクチャ変更、性能向上などの具体的な革新性は確認できません。エージェント基盤に関係する点は一定の技術的 relevance があるものの、影響範囲と"
+    },
+    "d4c0983cf8565e4fb9320b15c45a1d04": {
+      "score": 30,
+      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Appleのスパイウェア脅威通知を受けたユーザー数が異例に多いという点は、標的型攻撃の規模や検知・通知体制を考えるうえで重要です。ただし、具体的な脆弱性、攻撃手法、被害範囲、製品やアーキテクチャの技術革新は記事スニペットから確認できず、主題もセキュリティ運用・脅威情報に属します。エンジニアにとって示唆はあるものの、業界の前提を変える発表ではないため、"
+    },
+    "2010bfb4df569a738ec40a6da448e96a": {
+      "score": 95,
+      "title": "OpenAI signs record Ohio data center lease with Nvidia backing up to $105 billion",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] 8GW規模のデータセンターを20年間確保し、Nvidiaが最大1050億ドルの残存価値を保証、チップ供給も独占するという、AIインフラの規模・資金調達・サプライチェーンに大きな影響を与える内容です。データセンター設計、電力、GPU調達、クラウド事業の資本構造を変える可能性があり、単なる設備投資ニュースを超えています。一方で、直接的な新技術やソフトウェ"
+    },
+    "1227cb5bd759b064a062bda96dae19d3": {
+      "score": 43,
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] AIパッケージの侵害によって2,500ユーザーからテラバイト級の認証情報が窃取された、深刻なサプライチェーン攻撃です。開発者や依存パッケージの信頼性、資格情報管理、CI/CD監視に関わる実務的な影響は大きい一方、主題はセキュリティインシデントであり、評価基準上は低評価帯に該当します。AIパッケージが対象ですが、既出のAI関連トピックとの重複による減点"
+    },
+    "9a2729525141a75e7b775485a59b849f": {
+      "score": 74,
+      "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] 成人向け映像に特化した生成AIスタジオという、生成モデルの新たな商用領域とコンテンツ産業の融合を扱っており、スタートアップ・AI活用事例として注目度は高いです。単なるモデル発表ではなく、制作ワークフローや配信ビジネスを含む垂直統合型の展開である点も興味深い一方、技術仕様、利用モデル、生成品質、スケーラビリティなどの具体性が乏しく、業界全体の前提を変え"
+    },
+    "0afe50c1e769fab130c070683589774a": {
+      "score": 35,
+      "title": "What Flock’s defenders are missing",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] 警察向け自動ナンバープレート認識システムの運用変更に関する記事で、プライバシー、監視社会、データガバナンスの観点では重要です。一方、記事からは新しい技術的ブレークスルーやアーキテクチャの進化は確認できず、主な論点は規制・運用ルール・社会的受容性にあります。AI関連の文脈はあるものの、LLMやロボティクスの革新とは距離があるため、低めに評価します。 ["
+    },
+    "db21ab044a87e6b84baf7f0339991acd": {
+      "score": 27,
+      "title": "Kahina Van Dyke on Stablecoins, Fintech Consolidation",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Stablecoinやフィンテック業界の統合は金融インフラや規制環境に関わる話題ですが、提示されたスニペットには新技術の具体的な発表、実装、アーキテクチャ変更、サービス開始などの情報がありません。エンジニアリングへの直接的な影響は限定的で、主に金融・事業戦略のインタビュー記事であるため、法律・規制や業界動向に近い低めの評価としました。"
+    },
+    "972cecaf11a615ebee34cc72b25b5fde": {
+      "score": 54,
+      "title": "China’s Z.ai Touts New GLM-5.3 Model as Cyber Defense Tool",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] 中国Z.aiによる新しいオープンソースモデルの公開であり、サイバー防御用途やAnthropic系モデルとの性能比較は、AI開発者・セキュリティエンジニアにとって注目度が高い。一方、記事時点では性能改善の詳細や実運用での優位性が限定的で、業界の前提を変えるほどの発表とは言いにくい。また、直近放送済みの「AI」「model」「models」などと同じく新"
+    },
+    "e97fe2045ac181099afdba31eb682332": {
+      "score": 41,
+      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Codex、ChatGPT、GitHubを組み合わせた開発ワークフローの実践知としては、エンジニアにとって一定の有用性があります。一方で、新しいモデルやアーキテクチャ、製品発表ではなく、調査・実装計画・コード変更・レビューでの使い分けを解説する運用ノウハウが中心です。また、既出キーワードであるAIやGitHub、workと近い話題で、既存テーマとの重"
+    },
+    "de97b40a3bceb3e2282bbb4cb06513f8": {
+      "score": 77,
+      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] LLMエージェントの評価を、実行環境から得られる報酬に依存せず、別の言語モデルによる判定と自動生成ルーブリックで改善する研究であり、エージェント開発・ベンチマーク運用・評価コストに広く影響します。特に、流暢な回答を過大評価する問題（over-crediting）に焦点を当てている点は実務上重要です。一方で、現時点ではarXivの新規研究であり、標準化"
+    },
+    "5232db053845e3a65e46c3c6895bb101": {
+      "score": 38,
+      "title": "L-FNO: Lorentzian Fourier Neural Operator for Stochastic Event Dynamics",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] 確率的イベントダイナミクス向けに、条件付き強度推定とLorentzian Fourier Neural Operatorを組み合わせる新しい研究であり、希少・突発・自己励起イベントを扱う点は技術的に興味深いです。一方、現時点ではarXiv論文の新規提案にとどまり、実運用での有効性や汎用性、既存手法に対する優位性はスニペットから確認できません。AI・ニ"
+    },
+    "a84bcd8a4ac1e428af24fb03ccd68398": {
+      "score": 43,
+      "title": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] コーディングエージェントの検索効率を、grepとLSPのトークン消費・精度・導入コストで実測しようとする研究で、開発者向けAIの実運用に直結する点は重要です。特に、一般に語られがちな「LSPの方がトークン効率に優れる」という前提を検証する測定方法論には技術的価値があります。一方、現時点では予備研究であり、抜本的な製品発表や業界標準の変更ではありません"
+    },
+    "c326e238031b587b56064e4003f7bdc1": {
+      "score": 30,
+      "title": "UPI: India built a digital payments miracle. Now comes the bill.",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] インドのUPIは大規模なリアルタイム決済基盤として技術的・社会的インパクトがありますが、タイトルからは主題がその成功に伴う法制度や規制、費用負担の問題にあると考えられます。エンジニア視点ではデジタル公共インフラの運用モデルやスケーラビリティに示唆がある一方、主要な新技術やアーキテクチャの発表ではないため、評価基準上は低めのスコアです。"
+    },
+    "d7ce9d00b03a332974d93c404b27ad48": {
+      "score": 47,
+      "title": "OpenAI joins PORTS-Pike project",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] OpenAIの参画は地域経済や雇用、AI関連拠点の拡大という点で一定のニュース価値がありますが、記事からは新しいモデル、開発者向け機能、アーキテクチャなどの技術的成果が確認できません。エンジニア視点では事業・地域投資に近い内容で、業界の前提を変える発表とは言い難いため、中程度以下の評価としました。 [Editorial: AI-focused sou"
+    },
+    "baf4910987086b8cb63b26dc852ed4c3": {
+      "score": 90,
+      "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] 自律型エージェントにウォレットと支出上限、人間承認を組み合わせ、APIやMCPサーバー、Webコンテンツへの決済を実行させる具体的な実装例であり、エージェント経済や機械間決済に発展する可能性があります。OpenClaw、Amazon Bedrock AgentCore payments、x402、aws-agents-payを接続している点も技術的に"
+    },
+    "fa9ee03708a328fba03599e05bfb7a4c": {
+      "score": 49,
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] GitHub上で複数のエージェントアプリを活用し、要件定義・セキュリティ・展開・リリースまでのソフトウェア開発ライフサイクルを統合する提案は、開発者体験や自動化の観点で実用性があります。ただし、既存のGitHub Copilot／エージェント関連の延長線上にあるワークフロー紹介であり、基盤技術やアーキテクチャを大きく変える新発表ではありません。さらに"
+    },
+    "9b8f27591745afa46a24c8bb54c08259": {
+      "score": 49,
+      "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Gemini 3.7 FlashがGitHub Copilotに統合され、Web・アプリ開発やエージェント型開発の性能向上が期待できる点は、開発者の生産性に直結する実用的なアップデートです。一方で、既存サービスへの新モデル追加という比較的段階的な展開であり、業界の前提を変えるほどの革新性や具体的な性能データはまだ示されていません。また、AI・GitH"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 34,
+      "title": "May 11, 2026",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境に上流依存パッケージの最新版を適用した保守的なリリースに留まります。新機能、アーキテクチャ変更、性能向上、エージェント開発体験の改善など具体的な技術的インパクトが示されておらず、影響範囲も既存Workbench利用者に限定的です。運用・依存関係更新"
+    },
+    "f57e4a406c5f1dc6e70b24f6ee41fdfe": {
+      "score": 10,
+      "title": "Spotify’s new Playlist Notes let users and editors explain their song picks",
+      "date": "2026-08-18",
+      "reason": "[Claude API Evaluation] Spotifyのプレイリストに選曲理由や背景を付記できる機能で、主に一般消費者向けアプリのUX拡張です。音楽体験や編集者・ユーザー間の文脈共有には新規性がありますが、技術基盤やソフトウェア開発、AIなど業界全体への影響は限定的です。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-18/blog.md",
+    "show_notes_path": "out/2026-08-18/show_notes.md",
+    "script_path": "out/2026-08-18/script_2hosts.md",
+    "audio_path": "out/2026-08-18/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-18/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-18/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 25700,
+        "output_tokens": 11679,
+        "cost_usd": 0.019155
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40678,
+        "output_tokens": 7842,
+        "cost_usd": 0.239664
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4365,
+        "cost_usd": 0.052379999999999996
+      }
+    ],
+    "total_cost_usd": 0.311199
+  }
+}
