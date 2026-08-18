@@ -25,6 +25,69 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#141 Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…</title>
+      <description>Tech News Radio Show Notes - #141 (2026-08-19)
+
+エピソード情報
+• エピソード: #141
+• 日付: 2026-08-19
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale (https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/)
+• Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale (https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/)
+• OpenAI says it's "pacing model development" as AI cybersecurity risks grow too dangerous (https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/)
+• Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました (https://zenn.dev/itome/articles/e087c6d11d0bd2)
+
+注目の深掘り
+• Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc (https://arxiv.org/abs/2608.14556)
+
+小ネタ・その他
+• Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews (https://arxiv.org/abs/2608.14551)
+• Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews (https://arxiv.org/abs/2608.14737)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_13_2026)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/episode_audio.mp3" length="70298924" type="audio/mpeg" />
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-19</guid>
+      <itunes:duration>12:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…</itunes:title>
+      <itunes:episode>141</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #141 (2026-08-19)
+
+エピソード情報
+• エピソード: #141
+• 日付: 2026-08-19
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale (https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/)
+• Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale (https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/)
+• OpenAI says it's "pacing model development" as AI cybersecurity risks grow too dangerous (https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/)
+• Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました (https://zenn.dev/itome/articles/e087c6d11d0bd2)
+
+注目の深掘り
+• Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc (https://arxiv.org/abs/2608.14556)
+
+小ネタ・その他
+• Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews (https://arxiv.org/abs/2608.14551)
+• Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews (https://arxiv.org/abs/2608.14737)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+• April 14, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_13_2026)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-19/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/eyecatch.webp" />
+    </item>
+    <item>
       <title>#140 OpenAI、Nvidiaの支援で最大1050億ドルのオハイオ州データセンター契約を締結 ほか</title>
       <description>Tech News Radio Show Notes - #140 (2026-08-18)
 

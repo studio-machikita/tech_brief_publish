@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 7</title>
+<title>Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模… | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-19/">
+<meta property="og:description" content="2026-08-19 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-19/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…",
+    "description": "2026-08-19 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-19",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-19/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…",
+    "description": "2026-08-19 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-19",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-19/",
+    "duration": "PT12M12S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,109 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-19/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-06-20/index.html" class="episode-card">
-        <div class="episode-date">2026-06-20</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-20</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-06-19/index.html" class="episode-card">
-        <div class="episode-date">2026-06-19</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-19</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-06-18/index.html" class="episode-card">
-        <div class="episode-date">2026-06-18</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-18</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Amazon%20Bedrock%20AgentCore%20Payments%E3%81%8C%E4%B8%80%E8%88%AC%E6%8F%90%E4%BE%9B%E9%96%8B%E5%A7%8B%3A%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%8C%E5%AE%89%E5%85%A8%E3%81%8B%E3%81%A4%E8%87%AA%E5%BE%8B%E7%9A%84%E3%81%AB%E5%A4%A7%E8%A6%8F%E6%A8%A1%E2%80%A6%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-19/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-19/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-06-17/index.html" class="episode-card">
-        <div class="episode-date">2026-06-17</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-17</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-16/index.html" class="episode-card">
-        <div class="episode-date">2026-06-16</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-16</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-15/index.html" class="episode-card">
-        <div class="episode-date">2026-06-15</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-15</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-14/index.html" class="episode-card">
-        <div class="episode-date">2026-06-14</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-14</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-13/index.html" class="episode-card">
-        <div class="episode-date">2026-06-13</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-13</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-12/index.html" class="episode-card">
-        <div class="episode-date">2026-06-12</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-12</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-06-11/index.html" class="episode-card">
-        <div class="episode-date">2026-06-11</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-11</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../6/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><span class="current">7</span><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../15/index.html">15</a><a href="../8/index.html">次へ</a><span class="summary">Page 7 / 15</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1013,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1083,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1112,5 +1039,258 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-19"
+subtitle: "Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に / OpenAI..."
+date: "2026-08-19"
+vol: 141
+topics:
+  - AI
+  - Cloud
+  - Security
+  - Mobile
+  - OSS
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-19
+
+*📖 約12分で読めます ｜ 🏷️ AI, Cloud, Security, Mobile, OSS*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に** — AIエージェント向け決済機能、AWSが正式提供開始
+- 🤖 **OpenAI、AIサイバーセキュリティリスクの深刻化に伴いモデル開発の「ペース調整」を実施** — OpenAI、サイバー攻撃能力の懸念でAI開発速度を調整
+- 📱 **Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました** — Rust製フレームワークWhiskerでiOS/Android両対応アプリを開発
+- 🤖 **コチェイン枠同変性を持つ物理場のための離散リーマン計量学習** — 物理場を学ぶ新手法、位相と幾何を分離
+- 🤖 **LLM支援システマティックレビュースクリーニングのための補助的不確実性シグナル：8件のコクラン薬効群レビューによるベンチマーク** — LLMの文献スクリーニングに不確実性の指標を追加する研究
+- 🤖 **Claude Opus 4.7がVertex AIで利用可能に** — Claude Opus 4.7がVertex AIで利用可能に
+
+---
+
+## 🤖 Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale</summary>
+</details>
+
+> **一言で**: AIエージェント向け決済機能、AWSが正式提供開始
+
+- Amazon Bedrock AgentCore paymentsが一般提供開始
+- AIエージェントが自律的に取引できる決済基盤
+- 支出上限などのガードレール機能を内蔵
+- 特定プロトコルに依存しない決済の仲介機能を搭載
+- 本番環境向けの観測機能も備える
+
+💡 **なぜ重要か**
+AIエージェントが人間の介在なしに買い物や支払いをする場面が増えています。ただ、エージェントに決済権限を渡すには、使いすぎや不正利用を防ぐ仕組みが欠かせません。AWSはこうした課題に対応する決済基盤を正式にリリースしたと見られています。 AIエージェントによる自律的な取引が広がれば、EC・サブスク管理・業務自動化などの分野で人手を介さない決済フローが標準になる可能性があります。一方で、エージェントの誤動作や不正利用への対策が業界全体の課題になりそうです。
+
+🎯 **今日のアクション**
+AIエージェントに決済機能を組み込む前に、支出上限やログ監視の仕組みを設計段階から検討すべきです。AgentCore paymentsのガードレール機能や観測機能の詳細を確認し、自社ユースケースへの適用可否を検証することをおすすめします。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/)
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/)
+
+---
+
+## 🤖 OpenAI、AIサイバーセキュリティリスクの深刻化に伴いモデル開発の「ペース調整」を実施
+\`AI\` \`Security\`
+
+<details>
+<summary>📄 原題: OpenAI says it&#x27;s &quot;pacing model development&quot; as AI cybersecurity risks grow too dangerous</summary>
+</details>
+
+> **一言で**: OpenAI、サイバー攻撃能力の懸念でAI開発速度を調整
+
+- OpenAIが「Astra」と見られる新モデルの開発ペースを意図的に調整
+- サイバー攻撃に使える能力を持つ可能性があるためと説明
+- 不審な挙動があれば30分以内に警告する監視システムを新設
+- AIの能力向上とリスク管理の両立を模索する動き
+
+💡 **なぜ重要か**
+AIモデルの能力向上は、便利さと同時に悪用リスクも高めます。特にサイバー攻撃に転用できる能力は、社会インフラや企業システムに直接的な脅威となるため、開発企業側の自主的な安全管理が注目されています。 AI開発企業が性能競争だけでなく、安全性の証明にも力を入れる流れが強まりそうです。今後は他社も同様の監視体制や開発ペースの調整を迫られる可能性があります。
+
+🎯 **今日のアクション**
+エンジニアはAIモデルの出力を業務利用する際、悪用可能な機能がないか事前に確認すべきです。セキュリティ担当者は各社の安全対策の公開情報を継続的に追う必要があります。
+
+🔗 [原文を読む](https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/)
+
+---
+
+## 📱 Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました
+\`Mobile\` \`OSS\`
+
+> **一言で**: Rust製フレームワークWhiskerでiOS/Android両対応アプリを開発
+
+- Rustで書いた1つのコードからiOS/Androidアプリを両方作れる
+- 開発者は13年近くモバイルアプリ開発に携わってきた個人
+- 個人開発のアプリで実際に使い、App Store/Play Storeの審査も通過済み
+- すでに本番環境で稼働しているとのこと
+
+💡 **なぜ重要か**
+iOS/Androidは長らくSwift/Kotlinなど別言語での開発が必要で、共通化には課題がありました。Flutter やReact Nativeなど既存のクロスプラットフォーム手法に加え、Rustという選択肢が登場した点が注目されます。 Rustのマルチプラットフォーム対応が進むと、モバイル開発の言語選択がさらに多様化しそうです。個人開発者や小規模チームが少ないコストで両OS展開しやすくなる可能性があります。
+
+🎯 **今日のアクション**
+既存のクロスプラットフォーム手法と比較しつつ、小規模なプロジェクトで試験導入してみると良さそうです。Rustに慣れたエンジニアは特に検討の価値があります。
+
+🔗 [原文を読む](https://zenn.dev/itome/articles/e087c6d11d0bd2)
+
+---
+
+## 🤖 コチェイン枠同変性を持つ物理場のための離散リーマン計量学習
+\`AI\` \`Science\`
+
+<details>
+<summary>📄 原題: Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc</summary>
+</details>
+
+> **一言で**: 物理場を学ぶ新手法、位相と幾何を分離
+
+- メッシュ上の物理場を扱う新手法「RHMP」を提案
+- 保存則は位相的なので厳密に保ち、幾何や材料応答は学習で獲得
+- 既存の手法は両者が混ざり合い、精度や一般化に課題があった
+- セル境界構造を固定し、幾何情報だけを学習可能にする設計
+
+💡 **なぜ重要か**
+物理シミュレーションをニューラルネットで代替する研究は多いですが、保存則という厳密に守るべき性質と、材料ごとに異なる幾何的な性質を同じ枠組みで学習させると、精度や物理的整合性が崩れやすいという課題がありました。この記事はその問題に対する構造的な解決策を示しています。 物理シミュレーション分野でAIサロゲート（代替モデル）の信頼性が高まれば、流体解析や構造解析など計算コストの高い分野での実用化が進むと見られています。物理法則を守りながら学習するアプローチは今後の標準的な設計指針になる可能性があります。
+
+🎯 **今日のアクション**
+物理シミュレーションにAIを組み込む研究者やエンジニアは、保存則を守る構造を先に設計し、学習対象を幾何や材料応答に限定する設計思想を検討すべきです。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.14556)
+
+---
+
+## 🤖 LLM支援システマティックレビュースクリーニングのための補助的不確実性シグナル：8件のコクラン薬効群レビューによるベンチマーク
+\`AI\` \`LLM\` \`Science\`
+
+<details>
+<summary>📄 原題: Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews</summary>
+</details>
+
+> **一言で**: LLMの文献スクリーニングに不確実性の指標を追加する研究
+
+- LLMによる論文タイトル・要旨の選別作業には信頼度の裏付けがないという課題
+- BERTとGCNを組み合わせた補助分類器が構造化された不確実性の指標を提供
+- 8種類の薬剤分類レビューのデータセットで5つのプロンプト提示方法を比較検証
+- コストと効果の比率を最大化するプロンプトの提示方法を特定
+
+💡 **なぜ重要か**
+システマティックレビュー（複数の研究論文を体系的に精査してまとめる手法）では、大量の論文候補から関連するものを選び出す作業が発生します。近年はLLMがこの選別作業を担うことが増えていますが、LLMの判断がどれだけ確からしいかを示す指標がなく、誤った除外や採用のリスクが残ります。この研究は、補助的な分類器を組み合わせて判断の確からしさを数値化し、選別作業の質と効率を両立させる方法を探っています。 医療分野の文献レビューだけでなく、LLMを判断業務に組み込む際の信頼性担保の手法として他分野にも応用が広がる可能性があります。不確実性の指標を組み込む設計が、AI活用の標準的な作法として定着していくと見られています。
+
+🎯 **今日のアクション**
+LLMを文献選別や分類業務に導入する際は、単体の判断結果だけでなく補助的な分類器による確からしさの指標を併用する設計を検討すべきです。プロンプトの提示方法によってコスト対効果が変わる点も踏まえ、用途に応じた検証を行うことが望まれます。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.14551)
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.14737)
+
+---
+
+## 🤖 Claude Opus 4.7がVertex AIで利用可能に
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: April 14, 2026</summary>
+</details>
+
+> **一言で**: Claude Opus 4.7がVertex AIで利用可能に
+
+- AnthropicのClaude Opus 4.7がGoogle CloudのModel Gardenで提供開始
+- Vertex AI経由でClaude Opus 4.7を呼び出せる
+- Google Cloud上で複数のAIモデルを選んで使える環境が拡充
+
+💡 **なぜ重要か**
+Google CloudのVertex AIは複数社のAIモデルをまとめて使えるModel Gardenを持ち、企業が用途に応じてモデルを選べる仕組みを整えています。AnthropicのClaude Opus 4.7が加わることで、Google Cloudを使う開発者はOpenAIや自社モデルと並べてClaudeも選択肢にできます。 クラウド事業者ごとにAIモデルを囲い込む動きから、複数モデルを併用する流れが強まりそうです。開発者はコストや性能を比べながらモデルを使い分けやすくなると見られています。
+
+🎯 **今日のアクション**
+既存のVertex AI環境を使っているチームは、Claude Opus 4.7を試して自社のタスクに合うか性能とコストを比較してみるとよいでしょう。
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+
+🔗 [原文を読む](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_13_2026)
+
+---
+
+## 📝 まとめ
+
+この3つのニュースは一見バラバラに見えますが、AI技術が「実験段階」から「実社会での自律的な運用段階」へと移行しつつある過渡期の様相を映し出しています。AmazonのAgentCore Paymentsは、AIエージェントが人間の介在なしに金銭取引を行うという、これまでのAI活用とは一線を画す自律性を実現するものであり、その裏側ではOpenAIが示すように、AIの能力向上がサイバー攻撃力の増大という深刻なリスクと表裏一体である現実を突きつけています。つまり業界全体は、AIをより強力かつ自律的にしようとする推進力と、それに伴うリスクを制御しようとする慎重さとの間で綱引きをしている状態にあると言えるでしょう。一方でRust製フレームワークWhiskerのような開発基盤の話題は、こうしたAI関連の激しい変化とは異なる次元で、開発者コミュニティが引き続き堅牢で効率的な技術基盤を模索し続けていることを示しており、AIの急進的進化と並行して、地に足のついたエンジニアリングの営みが淡々と続いている点も、現代のテック業界の多面性を象徴しています。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に**: AIエージェントに決済機能を組み込む前に、支出上限やログ監視の仕組みを設計段階から検討すべきです。AgentCore paymentsのガードレール機能や観測機能の詳細を確認し、自社ユースケースへの適用可否を検証することをおすすめします。
+2. **OpenAI、AIサイバーセキュリティリスクの深刻化に伴いモデル開発の「ペース調整」を実施**: エンジニアはAIモデルの出力を業務利用する際、悪用可能な機能がないか事前に確認すべきです。セキュリティ担当者は各社の安全対策の公開情報を継続的に追う必要があります。
+3. **Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました**: 既存のクロスプラットフォーム手法と比較しつつ、小規模なプロジェクトで試験導入してみると良さそうです。Rustに慣れたエンジニアは特に検討の価値があります。
+
+---
+
+## 🔗 出典一覧
+- [Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/)
+- [Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に](https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/)
+- [OpenAI、AIサイバーセキュリティリスクの深刻化に伴いモデル開発の「ペース調整」を実施](https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/)
+- [Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました](https://zenn.dev/itome/articles/e087c6d11d0bd2)
+- [コチェイン枠同変性を持つ物理場のための離散リーマン計量学習](https://arxiv.org/abs/2608.14556)
+- [LLM支援システマティックレビュースクリーニングのための補助的不確実性シグナル：8件のコクラン薬効群レビューによるベンチマーク](https://arxiv.org/abs/2608.14551)
+- [LLM支援システマティックレビュースクリーニングのための補助的不確実性シグナル：8件のコクラン薬効群レビューによるベンチマーク](https://arxiv.org/abs/2608.14737)
+- [Claude Opus 4.7がVertex AIで利用可能に](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+- [Claude Opus 4.7がVertex AIで利用可能に](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_13_2026)`;
+const notesMd = `# Tech News Radio Show Notes - #141 (2026-08-19)
+
+## エピソード情報
+- **エピソード**: #141
+- **日付**: 2026-08-19
+- **尺**: 約 12 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale](https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/)
+- [Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale](https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/)
+- [OpenAI says it's "pacing model development" as AI cybersecurity risks grow too dangerous](https://the-decoder.com/openai-says-its-pacing-model-development-as-ai-cybersecurity-risks-grow-too-dangerous/)
+- [Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました](https://zenn.dev/itome/articles/e087c6d11d0bd2)
+
+### 注目の深掘り
+- [Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc](https://arxiv.org/abs/2608.14556)
+
+### 小ネタ・その他
+- [Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews](https://arxiv.org/abs/2608.14551)
+- [Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews](https://arxiv.org/abs/2608.14737)
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_14_2026)
+- [April 14, 2026](https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_13_2026)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

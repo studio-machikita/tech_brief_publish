@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-19",
+  "episode_date_local": "2026-08-19",
+  "content_snapshot_date": "2026-08-19",
+  "show_length_sec": 732,
+  "audio_size": 70298924,
+  "generated_at": "2026-08-18T20:40:59.477403+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-48dc5c31",
+      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
+      "title_ja": "Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模な取引を実行可能に",
+      "one_liner": "AIエージェント向け決済機能、AWSが正式提供開始",
+      "fingerprint": "48dc5c31c4f40ae4ebf0f466eb479318",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-38c5f909",
+      "title": "OpenAI says it's \"pacing model development\" as AI cybersecurity risks grow too dangerous",
+      "title_ja": "OpenAI、AIサイバーセキュリティリスクの深刻化に伴いモデル開発の「ペース調整」を実施",
+      "one_liner": "OpenAI、サイバー攻撃能力の懸念でAI開発速度を調整",
+      "fingerprint": "38c5f90910414c5c5de65262bcc036d8",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-e4c9beee",
+      "title": "Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました",
+      "title_ja": "Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました",
+      "one_liner": "Rust製フレームワークWhiskerでiOS/Android両対応アプリを開発",
+      "fingerprint": "e4c9beeedf5a105a19986a8aaedf410b",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-6d1c2151",
+      "title": "Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc",
+      "title_ja": "コチェイン枠同変性を持つ物理場のための離散リーマン計量学習",
+      "one_liner": "物理場を学ぶ新手法、位相と幾何を分離",
+      "fingerprint": "6d1c21515682a250bdc462d2444eb4b2",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-57d12f99",
+      "title": "Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews",
+      "title_ja": "LLM支援システマティックレビュースクリーニングのための補助的不確実性シグナル：8件のコクラン薬効群レビューによるベンチマーク",
+      "one_liner": "LLMの文献スクリーニングに不確実性の指標を追加する研究",
+      "fingerprint": "57d12f9974ce933ca62566a4e4d9312a",
+      "score": 59,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL",
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-6b713dbc",
+      "title": "April 14, 2026",
+      "title_ja": "Claude Opus 4.7がVertex AIで利用可能に",
+      "one_liner": "Claude Opus 4.7がVertex AIで利用可能に",
+      "fingerprint": "6b713dbcfea41cd4ace67198536ba7e0",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-fa9ee037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps"
+    },
+    {
+      "item_id": "item-9b8f2759",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 3.7 Flash is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-84546b16",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI institutes new safeguards after Hugging Face breach"
+    },
+    {
+      "item_id": "item-55da8ecf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 10"
+    },
+    {
+      "item_id": "item-68ad61f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with CodeAI to prepare the first AI generation"
+    },
+    {
+      "item_id": "item-da59da7e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Customize Amazon Quick embedded chat into your application"
+    },
+    {
+      "item_id": "item-bfb6d5a1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening Democratic Oversight in National Security"
+    },
+    {
+      "item_id": "item-1227cb5b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Terabytes of credentials leaked in massive supply-chain attack"
+    },
+    {
+      "item_id": "item-bef477cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment"
+    },
+    {
+      "item_id": "item-88d105c9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: how people really use AI, and Flock’s design choices"
+    },
+    {
+      "item_id": "item-18bd4928",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bitcoin Whales Add 43,000 Bitcoin in 60 Days"
+    },
+    {
+      "item_id": "item-ca4002bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Squeeze More Juice Out of a Dead Battery!"
+    },
+    {
+      "item_id": "item-3078ee0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Write your first prompt"
+    },
+    {
+      "item_id": "item-84f8c637",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Norway Should Buy OpenAI"
+    },
+    {
+      "item_id": "item-c2f7262a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TikTok explores peer-to-peer payments via DMs, report says"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-43083e6e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beware management consultants &#8211; About Iceland"
+    },
+    {
+      "item_id": "item-e54a2fa9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tesla Studied Lamborghini Sports Car and Lockheed Spyplane for New Roadster Development"
+    }
+  ],
+  "score_cache": {
+    "84f8c6371d7fa05b000da8e0aff72d8f": {
+      "score": 28,
+      "title": "Norway Should Buy OpenAI",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] OpenAIに関する話題ではあるものの、タイトルはノルウェーがOpenAIを買収すべきだという提言・論説に見え、具体的な技術革新や正式な取引発表ではありません。エンジニアリングへの直接的な影響や実装上の新規性も不明で、既出キーワードのOpenAIと重複するため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "bfb6d5a1d492ad06963a210932022d11": {
+      "score": 43,
+      "title": "Strengthening Democratic Oversight in National Security",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIを国家安全保障へ適用する取り組みであり、政府機関向けのツール・訓練・専門知識の提供は社会的な影響が大きい一方、記事の中心は民主的監督というガバナンスや制度面です。具体的な技術仕様、革新的なモデル、アーキテクチャ、実装成果は示されておらず、エンジニアリング上の新規性は限定的です。また、既出キーワードのOpenAIおよびAIに該当する続報ですが、明確"
+    },
+    "48dc5c31c4f40ae4ebf0f466eb479318": {
+      "score": 97,
+      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at sca",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIエージェントが実際の決済・購買処理を自律的に実行するための基盤が一般提供された点は重要です。支出上限などのガードレール、決済プロトコルの抽象化、監査・可観測性を備えており、実験段階から本番運用へ移行する際の主要な課題に対応しています。エージェントによる商取引や自律的な業務実行を促進する可能性がある一方、Amazon Bedrock AgentCo"
+    },
+    "fa9ee03708a328fba03599e05bfb7a4c": {
+      "score": 49,
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] GitHub上でエージェントアプリを活用し、要件整理・セキュリティ確認・展開・リリースまでのSDLCを一貫して進める実践的な内容で、開発ワークフローへのAIエージェント統合という点では技術的な relevance が高い。一方、記事は新しい基盤技術や業界構造を変える発表ではなく、既存のGitHub/Copilot系エージェント活用の具体例に近い。さら"
+    },
+    "55da8ecf1124e9612e80e5e96603742f": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 10",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotのエディタ、CLI、アプリにおけるモデル追加やプラグイン、エージェントワークフロー改善は開発者体験に影響するものの、週次アップデートの総括であり、個別機能の詳細や業界を変える新規性は限定的です。また、既出キーワードの「GitHub」「Copilot」「model」「agent」に直接該当し、既に扱った話題と同じ角度の続報と"
+    },
+    "6b713dbcfea41cd4ace67198536ba7e0": {
+      "score": 54,
+      "title": "April 14, 2026",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] Anthropicの最新モデルClaude Opus 4.7がGoogle CloudのVertex AI Model Gardenで利用可能になる点は、企業が高度なLLMを既存のクラウド基盤・API・ガバナンス環境から導入できるという意味で実務上の影響があります。一方、記事は新モデルの提供開始を告知する短いリリースであり、性能向上の具体値や画期的な"
+    },
+    "c2f7262a4fa30a120de820e81712167d": {
+      "score": 27,
+      "title": "TikTok explores peer-to-peer payments via DMs, report says",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] TikTokがDMを介した個人間送金を検討しているというフィンテック機能の拡張で、ソーシャルグラフと決済を組み合わせる点には一定の事業的・技術的意義があります。ただし現時点では報道ベースの検討段階で、提供地域も東南アジアのTikTok Payに限られ、基盤技術や開発者向けアーキテクチャの革新性は明確ではありません。決済規制、本人確認、不正検知、プライ"
+    },
+    "38c5f90910414c5c5de65262bcc036d8": {
+      "score": 95,
+      "title": "OpenAI says it's \"pacing model development\" as AI cybersecurity risks grow too dangerous",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIモデルが高度なサイバー攻撃能力を獲得するリスクを理由に、OpenAIが開発ペースを意図的に抑制するという内容は、AI開発の安全性・評価・リリース戦略に大きな影響を与えます。特に、Astraモデルの挙動を監視し、疑わしい挙動を30分以内に検知する仕組みは、モデル能力の向上だけでなく運用時のセキュリティ監視を重視する新しい実装例として具体性があります"
+    },
+    "1227cb5bd759b064a062bda96dae19d3": {
+      "score": 43,
+      "title": "Terabytes of credentials leaked in massive supply-chain attack",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIパッケージのサプライチェーン攻撃により2,500ユーザーの認証情報が大量流出したという、開発者・クラウド運用に直結する重大なセキュリティ事案です。依存パッケージの侵害、認証情報管理、CI/CDや実行環境の監査といった実務上の示唆は大きい一方、技術革新ではなくセキュリティインシデントであり、評価基準上は低評価帯に該当します。既出キーワードのAIに関"
+    },
+    "ca4002bcc2e18b420cfca8613fc7e3dc": {
+      "score": 36,
+      "title": "Squeeze More Juice Out of a Dead Battery!",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] 使い切ったように見える電池から、ジュールシーフ回路で残留エネルギーを取り出す電子回路技術であり、エンジニアリング上は興味深い実践的な内容です。一方で、既存技術の紹介に近く、AI・クラウド・主要言語・ロボティクスなどの大きな技術トレンドや業界構造を変える新規性は限定的です。特定の低消費電力回路や教育用途には有用ですが、影響範囲が狭いため中程度の評価とし"
+    },
+    "88d105c940c89ac8ad3c5c3f8e38112b": {
+      "score": 41,
+      "title": "The Download: how people really use AI, and Flock’s design choices",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIの実利用状況やFlockの設計思想を扱う記事であり、エンジニアにとってユーザー行動やプロダクト設計の示唆はあります。ただし、スニペットからは新しいモデル、アーキテクチャ、実装技術などの具体的な技術革新は確認できず、ニュースレター形式で内容も広範です。また、既出キーワードの「AI」や「OpenAI」に直接関連する話題で、明確な続報・新展開と判断でき"
+    },
+    "18bd492893570d876dfe3f6523b46e91": {
+      "score": 38,
+      "title": "Bitcoin Whales Add 43,000 Bitcoin in 60 Days",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] ビットコインの大口保有者による約43,000 BTCの移動は、市場流動性や価格形成、機関投資家の資金フローを考えるうえで一定の注目度があります。一方で、技術的な革新やプロトコル、アーキテクチャの変更ではなく、オンチェーン分析に基づく市場動向のニュースです。また、記事自体が購入ではなく移動の可能性を指摘しており、影響の解釈にも不確実性があります。Web"
+    },
+    "e54a2fa90cefc080c9ea6fe039bb1178": {
+      "score": 10,
+      "title": "Tesla Studied Lamborghini Sports Car and Lockheed Spyplane for New Roadster Development",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] Teslaの新型Roadsterに関するデザイン開発の話題であり、主に一般消費者向け自動車製品の外観・コンセプトに関する内容です。AI、ソフトウェア、ロボティクス、クラウドなどの技術革新やエンジニアリング上の重要な進展は示されておらず、評価基準上はスマートフォン等と同様に最低評価帯に近いニュースです。"
+    },
+    "e4c9beeedf5a105a19986a8aaedf410b": {
+      "score": 72,
+      "title": "Rust製のマルチプラットフォーム開発フレームワーク「Whisker」を作りました",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] RustでiOS/Androidを単一コードベースから開発できるマルチプラットフォームフレームワークは、主要プログラミング言語とアプリ開発アーキテクチャの両面で注目度が高い。個人開発にとどまらず、App StoreとGoogle Playの審査を通過したプロダクション利用実績があり、実用性も具体的に示されている点を評価した。一方で、現時点では個人開発"
+    },
+    "bef477cd5b2a500ded0d00152c7fc025": {
+      "score": 42,
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIモデルの効率評価において、FLOPsだけでは実行時間や実際の計算コストを正確に表せないという重要な問題を扱っており、ベンチマーク設計や再現性の観点でエンジニアリング上の価値があります。一方で、基礎研究寄りの評価手法に関する論文であり、直ちに業界のアーキテクチャや製品を変える具体的な技術革新ではありません。また、既出のAI・model関連トピックと"
+    },
+    "6d1c21515682a250bdc462d2444eb4b2": {
+      "score": 72,
+      "title": "Learning Discrete Riemannian Metrics for Physical Fields with Cochain-Frame Equivarianc",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] 物理シミュレーション向けの幾何学的深層学習において、トポロジーに基づく保存則と、データから学習する幾何・材料特性をアーキテクチャレベルで分離する提案です。Riemannian Hodge Message Passingとcochain-frame equivarianceにより、メッシュ上の物理場を扱うニューラルサロゲートの精度・汎化性・物理整合性を"
+    },
+    "57d12f9974ce933ca62566a4e4d9312a": {
+      "score": 59,
+      "title": "Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class re",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] LLMを体系的レビューの文献スクリーニングに適用する際の不確実性推定を、BERT+GCNによる補助分類器で構造化する研究であり、精度だけでなく人間の確認作業量や運用コストを改善し得る点が技術的に有意義です。8種類の薬剤クラスデータセットと複数のプロンプト配信条件で比較しており、ベンチマークとしての具体性もあります。一方、対象領域が体系的レビューに限定"
+    },
+    "43083e6e353e49774850684c52d21217": {
+      "score": 13,
+      "title": "Beware management consultants &#8211; About Iceland",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] タイトルからは経営コンサルタントやアイスランドに関する論考と見られ、AI・クラウド・プログラミング言語・アーキテクチャなどの技術的な新規性や、エンジニアリングへの具体的な影響が確認できません。技術ニュースとしての関連性・波及範囲・具体性が乏しいため、低いスコアとしました。"
+    },
+    "68ad61f78814d5701a43521551e28016": {
+      "score": 47,
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] AIリテラシー教育や学生向けの実践的な学習支援は、将来の開発者・利用者層に影響する意義のある取り組みです。一方で、基盤モデルや開発ツール自体の技術革新ではなく、現時点では具体的な製品仕様や規模も不明な提携発表にとどまります。また、既報キーワードであるAIおよびOpenAIに直接関連し、同テーマの続報として明確な新規技術要素も薄いため、基準スコアから2"
+    },
+    "da59da7e2862de04cbc7879ff16b8d8f": {
+      "score": 47,
+      "title": "Customize Amazon Quick embedded chat into your application",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] Amazon Quickの埋め込みチャットをWebアプリへ組み込み、コンテナやSDKのスタイル、ブランド表示、エージェントのペルソナをカスタマイズできる実装寄りの内容です。生成AIを業務アプリへ統合する具体例として一定の技術的価値はありますが、基盤モデルやアーキテクチャ自体の革新ではなく、既存機能のUI・ブランド適応が中心です。また、既に取り上げ済み"
+    },
+    "3078ee0f6cebc70878a285e4735406b9": {
+      "score": 35,
+      "title": "GitHub Copilot app for Beginners: Write your first prompt",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで初めてプロンプトを書く方法を解説する入門記事で、実務上の導入障壁を下げる点には価値があります。一方、技術革新や新しいアーキテクチャの発表ではなく、既存機能の利用ガイドです。また、直近に取り上げ済みの「GitHub」「Copilot」「model」関連トピックと同じ角度の内容であるため、重複分として減点しました。 ["
+    },
+    "9b8f27591745afa46a24c8bb54c08259": {
+      "score": 49,
+      "title": "Gemini 3.7 Flash is now available in GitHub Copilot",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotに最新のGemini Flashモデルを統合するため、開発者向けAIコーディング体験やエージェント型開発への影響は大きい。一方で、記事は既存サービスへのモデル追加・提供開始が中心で、具体的な性能差や画期的な新機能は限定的。また、AI、モデル、GitHub、Copilot、availableなど直近放送済みの話題と同じ角度に"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 27,
+      "title": "April 27, 2026",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを適用しただけのリリースで、新機能、性能向上、アーキテクチャ変更、互換性に関する具体的な進展がありません。運用上は保守・更新として意味がありますが、技術革新や業界への影響は限定的です。また、既出キーワードの「agent」「work」に関連する同系統の話題で"
+    },
+    "84546b165f4b2fe6364af19c05300d59": {
+      "score": 49,
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "date": "2026-08-19",
+      "reason": "[Claude API Evaluation] Hugging Faceの侵害を受け、開発中のモデル監視やポストトレーニング時のアライメント・セキュリティを強化する内容で、AI開発プロセスの実務には影響があります。一方、具体的な技術仕様や新モデルの発表ではなく、主眼はセキュリティ対策と運用改善です。AI・OpenAI・モデル関連ではあるものの、既存話題の単純な再報告ではなく、侵害後の新たな対応とい"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-19/blog.md",
+    "show_notes_path": "out/2026-08-19/show_notes.md",
+    "script_path": "out/2026-08-19/script_2hosts.md",
+    "audio_path": "out/2026-08-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24578,
+        "output_tokens": 10344,
+        "cost_usd": 0.017328
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 17,
+        "input_tokens": 40571,
+        "output_tokens": 7328,
+        "cost_usd": 0.231633
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3981,
+        "cost_usd": 0.047772
+      }
+    ],
+    "total_cost_usd": 0.296733
+  }
+}
