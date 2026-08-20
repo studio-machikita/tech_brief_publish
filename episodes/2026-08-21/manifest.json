@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-21",
+  "episode_date_local": "2026-08-21",
+  "content_snapshot_date": "2026-08-21",
+  "show_length_sec": 768,
+  "audio_size": 73822124,
+  "generated_at": "2026-08-20T20:44:20.366064+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-766c20f1",
+      "title": "Adobe Firefly adds AI audio tools and Google's Gemini Omni Flash",
+      "title_ja": "Adobe Firefly、AI音声ツールとGoogleのGemini Omni Flashを追加",
+      "one_liner": "Adobe FireflyがAI音声3機能とGeminiを追加",
+      "fingerprint": "766c20f1187747ede6b61914058bc975",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-be9697de",
+      "title": "LongNovel: A Multi-Scale Benchmark for Hallucination Detection in Long-Context Novel Summarization",
+      "title_ja": "長編小説要約における幻覚検出のためのマルチスケールベンチマーク「LongNovel」",
+      "one_liner": "長編小説要約の幻覚検出、新ベンチマーク登場",
+      "fingerprint": "be9697de9208f7aa9947ce7c577bd2fe",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-ba4fa2f7",
+      "title": "GitHub, autoscaling, and the component substitution fallacy",
+      "title_ja": "GitHub、オートスケーリング、そしてコンポーネント代替の誤謬",
+      "one_liner": "GitHub障害の裏にあるオートスケーリング設定の問題",
+      "fingerprint": "ba4fa2f75d709dd9887bface6aa8b3cf",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-6b4d5e74",
+      "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+      "title_ja": "GitHub Copilot for JetBrainsのエンタープライズ管理設定",
+      "one_liner": "Copilot for JetBrainsに企業向け管理設定が追加",
+      "fingerprint": "6b4d5e74db12b4ec0c0eae13684cb89a",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-48c0e594",
+      "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
+      "title_ja": "エージェント型AIのスケーリング:ベンダーロックインを回避するエンタープライズパターン",
+      "one_liner": "エージェント型AIを特定ベンダーに縛られず拡張する方法",
+      "fingerprint": "48c0e59438582b4b05bd3882a663c063",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-fa9ee037",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "title_ja": "GitHub Agentアプリでソフトウェア配信ワークフローを統合する方法",
+      "one_liner": "GitHub上で4つのエージェントアプリが開発全工程を支援",
+      "fingerprint": "fa9ee03708a328fba03599e05bfb7a4c",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-55da8ecf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 10"
+    },
+    {
+      "item_id": "item-018f400f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing AI Futures"
+    },
+    {
+      "item_id": "item-7e34c671",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-a7f229cc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "首掛け型ウェアラブル THINKLET と OpenAI Realtime API で「目の前を一緒に見ながら相談できる相方」を作る"
+    },
+    {
+      "item_id": "item-eaa6906d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Entropy-Constrained Adaptive Stochastic Quantization"
+    },
+    {
+      "item_id": "item-cff1f7e6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How ChatGPT Work helps Stampli move ideas to market"
+    },
+    {
+      "item_id": "item-12d40d39",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-b2e0baab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI, Meta Seek Help to Combat Data Center PR Problem"
+    },
+    {
+      "item_id": "item-4191db60",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Someone targeted security researchers using a fake crypto conference as a lure"
+    },
+    {
+      "item_id": "item-fd297f60",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "China Is Strapping ‘Digital Bombs’ to Civilian Infrastructure—Is the US Ready?"
+    },
+    {
+      "item_id": "item-14f12d23",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pennsylvania Governor Hikes Requirements For Data Center Permits"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-05797d94",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Debates over AI consciousness are a trap"
+    },
+    {
+      "item_id": "item-66c7db31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mark buys a castle"
+    },
+    {
+      "item_id": "item-f8dd9e45",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stop eating Lady Gaga&#x27;s Oreos"
+    }
+  ],
+  "score_cache": {
+    "f8dd9e4559589d7959a65363faa0fd1e": {
+      "score": 0,
+      "title": "Stop eating Lady Gaga&#x27;s Oreos",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] 技術、AI、ソフトウェア、セキュリティ、クラウドなどに関する情報がなく、著名人と菓子に関する一般消費者向けの話題です。エンジニアリング上の新規性や業界への影響は確認できません。"
+    },
+    "018f400f4b27214a4700d8e55488d8d3": {
+      "score": 47,
+      "title": "Introducing AI Futures",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] AIに関するOpenAIの新しい発信シリーズであり、権力・ガバナンス・経済・個人の自由といったAIの社会的影響を扱う点には意義があります。一方で、具体的なモデル、技術仕様、製品機能、研究成果は示されておらず、エンジニアにとっての直接的な実装インパクトは限定的です。また、既出キーワードのAIおよびOpenAIと同じ領域の話題であるため、重複分として減点"
+    },
+    "7e34c671092a33f28b827a27b179712b": {
+      "score": 47,
+      "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] 自然言語からAgentCoreのDogwoodポリシーを生成し、エージェントの実行権限や時間制約を統制できる点は、AIエージェント運用の実装面で有用です。一方で、既存のAI・AgentCore・エージェント関連トピックと直接重複し、内容も新しい基盤技術そのものというよりポリシー適用とガバナンスの実践紹介です。そのため技術的な具体性は評価しつつ、既出キ"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 47,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数セッションを一覧し、進行中・完了・次の作業を管理する機能紹介です。開発者の作業整理には実用的ですが、新しいAIモデルやアーキテクチャの発表ではなく、既存のCopilot利用体験を改善する運用・UI機能に近いため、技術的インパクトは限定的です。また、既出キーワードの「Copilot」「AI/agent」領域と重なるため"
+    },
+    "6b4d5e74db12b4ec0c0eae13684cb89a": {
+      "score": 58,
+      "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] GitHub CopilotのJetBrains向けに、企業全体でプラグイン設定、MCPサーバーへのアクセス、OpenTelemetry、権限モードを一元管理できる点は、エンタープライズ導入時の統制・監査・運用効率を高める実務的なアップデートです。特にMCP利用の制御やテレメトリ設定は、AI開発環境の標準化に寄与します。一方で、既存のCopilot機"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の新しいイメージリリースですが、内容はDebian 12上の依存パッケージ更新にとどまり、機能追加やアーキテクチャ変更、性能改善などの具体的な技術革新はありません。エージェント基盤に関連するものの、既出のAgent系トピックと近く、新規性・影響範囲とも限定的なため低評価です。 [Editorial"
+    },
+    "4191db60ce69d0307e399ced200e0d62": {
+      "score": 30,
+      "title": "Someone targeted security researchers using a fake crypto conference as a lure",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] セキュリティ研究者を狙った標的型攻撃と、Google Docsを悪用したマルウェア配布という具体性はあるものの、既存のソーシャルエンジニアリングやマルウェア攻撃の延長であり、業界の前提を変える技術革新ではありません。セキュリティ上の実務的な警戒材料としては有用ですが、評価基準上は低評価帯に該当します。"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 39,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] VentureBeatが企業向けAI、クラウド基盤、データ基盤、DevOps、可観測性などの調査体制を強化し、実運用に関する分析を深めるという組織・メディア戦略のニュースです。GPU利用率やマルチベンダー構成、エージェントのセキュリティなど、技術者に関連する論点は含まれますが、新しい製品、アーキテクチャ、モデル、標準仕様が発表されたわけではなく、ソフ"
+    },
+    "766c20f1187747ede6b61914058bc975": {
+      "score": 90,
+      "title": "Adobe Firefly adds AI audio tools and Google's Gemini Omni Flash",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] Adobe Fireflyで音楽・音声・効果音を生成する3つのAIオーディオ機能が広く利用可能になり、動画制作ワークフローに生成AIを直接統合する実用性の高いアップデートです。さらにGoogleのGemini Omni Flashをプラットフォームに追加することで、複数モデルを活用したクリエイティブ環境の拡張も示しています。AI・マルチモーダル生成技"
+    },
+    "fd297f60fefc07e342b8f7713ef666d3": {
+      "score": 30,
+      "title": "China Is Strapping ‘Digital Bombs’ to Civilian Infrastructure—Is the US Ready?",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] 中国系ハッカー集団Volt Typhoonによる民間インフラへのサイバー攻撃を扱う記事で、重要な安全保障・インフラ防御の論点を含みます。ただし、技術革新や新しいソフトウェアアーキテクチャの発表ではなく、主題はサイバーセキュリティと地政学です。既出キーワードとの直接的な重複も限定的ですが、エンジニア視点での新規実装や具体的な技術公開がスニペットから確認"
+    },
+    "05797d943365af556ca02b06c630618e": {
+      "score": 29,
+      "title": "Debates over AI consciousness are a trap",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] AIの意識や自律性をめぐる議論は、将来の設計思想や規制方針に影響し得るものの、具体的な技術革新や製品発表ではなく、主に概念・政策論にとどまっています。さらに、既に取り上げ済みのAIおよびエージェント関連テーマと重なるため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "b2e0baab354e688771c38fdbc6a062df": {
+      "score": 32,
+      "title": "OpenAI, Meta Seek Help to Combat Data Center PR Problem",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] OpenAIやMetaがAI向けデータセンター計画への反発を抑えるため広報面で対応しているという内容で、AIインフラの社会的受容性には関係しますが、技術仕様やアーキテクチャ、具体的な革新は示されていません。企業広報・地域社会・規制寄りの話題で、エンジニアリングへの直接的な影響は限定的です。また、既出のAI・OpenAI・データ関連トピックと近いテーマ"
+    },
+    "14f12d234c4c1033e0cac5815947494f": {
+      "score": 30,
+      "title": "Pennsylvania Governor Hikes Requirements For Data Center Permits",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] データセンターの電力・環境基準や開発許認可に関わる重要な政策変更であり、クラウドインフラ事業者や地域の電力計画には影響します。一方、技術そのものの革新ではなく、行政命令による規制・運用ルールの強化が中心です。データセンター業界への波及性はあるものの、エンジニア視点での直接的な技術新規性は限定的なため、低評価帯としました。既出キーワードの話題と明確に同"
+    },
+    "a7f229cca5693ca71b896a5902043f38": {
+      "score": 43,
+      "title": "首掛け型ウェアラブル THINKLET と OpenAI Realtime API で「目の前を一緒に見ながら相談できる相方」を作る",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] THINKLETのカメラ・マイクとOpenAI Realtime APIを組み合わせ、ユーザーと同じ視界を共有しながら音声対話できる実装をOSSとして公開している点は、マルチモーダルAIの具体的な活用例として技術的価値があります。特にウェアラブルを入力デバイスとして扱う構成や、リアルタイム音声・映像連携の実装知見はエンジニアに有益です。一方で、業界の"
+    },
+    "12d40d391dbd0cf085af4ace6ad396ce": {
+      "score": 41,
+      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] AI推論エージェントの協調・談合リスクと、経済市場での意思決定に認証を求める提案は、AIの社会実装やマルチエージェント設計に関わる新しい論点です。一方で、実装済みの技術や具体的な製品発表ではなく、arXiv上のポジションペーパーによる規制・制度提案が中心で、法的・運用ルール寄りの内容です。さらに、直近に扱われたAI・エージェント関連トピックと重なるた"
+    },
+    "eaa6906d76c0f31c4eba13e3c6e42c63": {
+      "score": 43,
+      "title": "Entropy-Constrained Adaptive Stochastic Quantization",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] 機械学習モデルや勾配、KVキャッシュなどの通信・メモリボトルネックを対象に、誤差最適化と非バイアス性を両立する適応型確率量子化を、エントロピー制約付きで発展させる研究であり、AIインフラや分散学習の効率化に関係する技術的価値は高いです。一方で、arXiv上の新規研究段階で実運用への影響や既存手法に対する優位性はまだ不明確です。また、既出の「model"
+    },
+    "be9697de9208f7aa9947ce7c577bd2fe": {
+      "score": 69,
+      "title": "LongNovel: A Multi-Scale Benchmark for Hallucination Detection in Long-Context Novel Summarization",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] 長文コンテキスト要約におけるハルシネーション検出を、長編小説とマルチスケール評価で体系化する新しいベンチマークであり、LLMの信頼性評価や評価データセット設計に有用です。長文対応モデルの品質比較、RAGやエージェントの検証基盤にも波及し得るため技術的な重要度は高めです。一方で、現時点ではarXivの新規研究提案であり、実運用への採用や業界標準化が確認"
+    },
+    "ba4fa2f75d709dd9887bface6aa8b3cf": {
+      "score": 62,
+      "title": "GitHub, autoscaling, and the component substitution fallacy",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] GitHubを題材に、オートスケーリングやコンポーネント置換に関する設計上の誤解を論じる記事で、分散システムのアーキテクチャや運用設計に関心のあるエンジニアには有益です。単純なスケールアウトでは依存関係や状態管理、ボトルネックが解消されないという実践的な示唆が期待できます。一方で、具体的な新製品や大規模な技術発表ではなく、既存の設計原則を整理するタイ"
+    },
+    "cff1f7e650cc2d841013d544ef795569": {
+      "score": 42,
+      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] CodexとChatGPT Workを活用し、デザインリソースが限られる中で市場投入までの制作期間を数週間から数日に短縮した事例であり、AIを組み込んだ開発・マーケティング業務の実用性は示しています。一方で、基盤技術の新規発表やアーキテクチャ上の革新ではなく、特定企業の導入効果を紹介するケーススタディに留まります。また、既出のAI・OpenAI・Co"
+    },
+    "48c0e59438582b4b05bd3882a663c063": {
+      "score": 54,
+      "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] エンタープライズ向けに複数のエージェント、フレームワーク、モデル、プロバイダーを横断して運用する設計パターンは、スケーラビリティやベンダーロックイン回避の観点で実務的な価値が高く、単なるモデル紹介よりもアーキテクチャ寄りの内容です。一方で、具体的な新製品や画期的な技術発表ではなく、既存のagentic AI・multi-agent・LLM運用という直"
+    },
+    "fa9ee03708a328fba03599e05bfb7a4c": {
+      "score": 49,
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] GitHub上で複数のエージェントアプリを活用し、要件整理・セキュリティ・展開・リリースまでのSDLCを一貫して進める実践的な内容で、開発者ワークフローへの影響はあります。一方で、AIエージェントをソフトウェア開発に統合するという主題は既出キーワードの「AI」「agents」「agent」「web」などと重なり、今回は新しい基盤技術や業界の前提を変え"
+    },
+    "55da8ecf1124e9612e80e5e96603742f": {
+      "score": 49,
+      "title": "GitHub Copilot weekly releases — August 10",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] GitHub Copilotの新モデル、エディタやCLIをまたぐポータブルプラグイン、エージェント型ワークフローの改善は、開発体験とツール連携に実務的な影響があります。一方で、単一の革新的発表ではなく週間アップデートの集合であり、記事の具体的な変更内容や影響範囲も限定的です。また、AI・エージェント・モデル関連は直近の放送で既出のため、同一テーマとし"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 33,
+      "title": "May 11, 2026",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいインスタンスイメージ公開ですが、内容はDebian 12環境への上流依存パッケージ更新に限定されており、アーキテクチャ変更や新機能、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agent」と同じ領域で、明確な新展開というより保守的"
+    },
+    "66c7db310f20cb1d84ed094373db25ba": {
+      "score": 2,
+      "title": "Mark buys a castle",
+      "date": "2026-08-21",
+      "reason": "[Claude API Evaluation] 著名人の個人的な不動産購入に関する話題であり、ソフトウェア技術、AI、クラウド、アーキテクチャ、開発者エコシステムへの影響がありません。一般消費者向けガジェットより技術関連性が低く、エンジニア視点でのニュース価値はほぼありません。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-21/blog.md",
+    "show_notes_path": "out/2026-08-21/show_notes.md",
+    "script_path": "out/2026-08-21/script_2hosts.md",
+    "audio_path": "out/2026-08-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 25720,
+        "output_tokens": 10001,
+        "cost_usd": 0.017145
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40594,
+        "output_tokens": 7491,
+        "cost_usd": 0.234147
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4193,
+        "cost_usd": 0.050316
+      }
+    ],
+    "total_cost_usd": 0.301608
+  }
+}

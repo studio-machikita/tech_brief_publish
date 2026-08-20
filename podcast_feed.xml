@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#143 Adobe Firefly、AI音声ツールとGoogleのGemini Omni Flashを追加 ほか</title>
+      <description>Tech News Radio Show Notes - #143 (2026-08-21)
+
+エピソード情報
+• エピソード: #143
+• 日付: 2026-08-21
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Adobe Firefly adds AI audio tools and Google's Gemini Omni Flash (https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/)
+• LongNovel: A Multi-Scale Benchmark for Hallucination Detection in Long-Context Novel Summarization (https://arxiv.org/abs/2608.18082)
+• GitHub, autoscaling, and the component substitution fallacy (https://surfingcomplexity.blog/2026/08/19/github-autoscaling-and-the-component-substitution-fallacy/)
+
+注目の深掘り
+• Enterprise managed settings in GitHub Copilot for JetBrains (https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains)
+• Enterprise managed settings in GitHub Copilot for JetBrains (https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+
+小ネタ・その他
+• Scaling agentic AI: Enterprise patterns without vendor lock-in (https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/)
+• How to bring your software delivery workflow into GitHub with agent apps (https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-21/episode_audio.mp3" length="73822124" type="audio/mpeg" />
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-21</guid>
+      <itunes:duration>12:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Adobe Firefly、AI音声ツールとGoogleのGemini Omni Flashを追加 ほか</itunes:title>
+      <itunes:episode>143</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #143 (2026-08-21)
+
+エピソード情報
+• エピソード: #143
+• 日付: 2026-08-21
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Adobe Firefly adds AI audio tools and Google's Gemini Omni Flash (https://the-decoder.com/adobe-firefly-adds-ai-audio-tools-and-googles-gemini-omni-flash/)
+• LongNovel: A Multi-Scale Benchmark for Hallucination Detection in Long-Context Novel Summarization (https://arxiv.org/abs/2608.18082)
+• GitHub, autoscaling, and the component substitution fallacy (https://surfingcomplexity.blog/2026/08/19/github-autoscaling-and-the-component-substitution-fallacy/)
+
+注目の深掘り
+• Enterprise managed settings in GitHub Copilot for JetBrains (https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains)
+• Enterprise managed settings in GitHub Copilot for JetBrains (https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains)
+
+小ネタ・その他
+• Scaling agentic AI: Enterprise patterns without vendor lock-in (https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/)
+• How to bring your software delivery workflow into GitHub with agent apps (https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-21/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-21/eyecatch.webp" />
+    </item>
+    <item>
       <title>#142 GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか</title>
       <description>Tech News Radio Show Notes - #142 (2026-08-20)
 
