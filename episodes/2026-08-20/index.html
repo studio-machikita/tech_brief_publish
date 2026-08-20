@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 2</title>
+<title>GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,9 +865,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-20/">
+<meta property="og:description" content="2026-08-20 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-20/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか",
+    "description": "2026-08-20 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-20",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-20/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか",
+    "description": "2026-08-20 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-20",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-20/",
+    "duration": "PT13M6S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -885,109 +940,31 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-08-10/index.html" class="episode-card">
-        <div class="episode-date">2026-08-10</div>
-        <h3 class="episode-title">Google DeepMindの「WeatherNext」、サイクロンの進路と強度を同時に予測 ほか</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-08-09/index.html" class="episode-card">
-        <div class="episode-date">2026-08-09</div>
-        <h3 class="episode-title">Anthropicが開発者を誤った承認から守るため、Claude Codeを「Autoモード」にデフォルト設定 ほか</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="../../episodes/2026-08-08/index.html" class="episode-card">
-        <div class="episode-date">2026-08-08</div>
-        <h3 class="episode-title">OpenAIの新モデル「Astra」、サイバーセキュリティリスクで初の最高レベルに達する可能性ありと発表 ほか</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=GxP-Agent%3A%20LLM%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%82%88%E3%82%8B%E4%BF%A1%E9%A0%BC%E6%80%A7%E3%81%AE%E9%AB%98%E3%81%84%E8%87%A8%E5%BA%8A%E8%A9%A6%E9%A8%93%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9DAG%E3%83%88%E3%83%9D%E3%83%AD%E3%82%B8%E3%83%BC%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-20/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-20/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-08-07/index.html" class="episode-card">
-        <div class="episode-date">2026-08-07</div>
-        <h3 class="episode-title">新たなウイルスの設計に使われる大規模ゲノムモデル／GitHub Copilotで「Kimi K3」が利用可能に ほか</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-06/index.html" class="episode-card">
-        <div class="episode-date">2026-08-06</div>
-        <h3 class="episode-title">Moove、ロボタクシー業界の基盤となるべく2億5000万ドルを調達 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-05/index.html" class="episode-card">
-        <div class="episode-date">2026-08-05</div>
-        <h3 class="episode-title">Amazon Bedrockで基盤モデルのグラウンディングに対応したWeb検索機能を提供開始 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-04/index.html" class="episode-card">
-        <div class="episode-date">2026-08-04</div>
-        <h3 class="episode-title">トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-03/index.html" class="episode-card">
-        <div class="episode-date">2026-08-03</div>
-        <h3 class="episode-title">Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-02/index.html" class="episode-card">
-        <div class="episode-date">2026-08-02</div>
-        <h3 class="episode-title">Gemma 4とRAG Engineのサーバーレス機能が拡充／数学と理論計算機科学における10の進歩 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-01/index.html" class="episode-card">
-        <div class="episode-date">2026-08-01</div>
-        <h3 class="episode-title">Google Deepmind、卓上型アームからヒューマノイドまであらゆる形状のロボットに対応する「Gemini Ro…</h3>
-        <div class="episode-meta">
-          <span>6 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../../index.html">前へ</a><a href="../../index.html">1</a><span class="current">2</span><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../15/index.html">15</a><a href="../3/index.html">次へ</a><span class="summary">Page 2 / 15</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1013,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1083,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1112,5 +1039,247 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-20"
+subtitle: "GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー / Waymoの低価格な次世代ロボタクシ..."
+date: "2026-08-20"
+vol: 142
+topics:
+  - AI
+  - LLM
+  - Robotics
+  - Business
+  - Science
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-20
+
+*📖 約10分で読めます ｜ 🏷️ AI, LLM, Robotics, Business, Science*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー** — 臨床試験プログラミング、単発LLMは全滅で専用エージェント登場
+- 🦾 **Waymoの低価格な次世代ロボタクシー、3都市で全ユーザーに提供開始** — Waymoの新型ロボタクシー、3都市で一般提供開始
+- 🤖 **勾配降下法によるニューラルネットワーク学習の普遍性** — 勾配降下法によるニューラルネット学習の普遍性を理論的に検証
+- 📊 **オーストラリアにおける予防的道路安全対策:コネクテッドカーデータから危険運転多発地点を予測** — コネクテッドカーで危険運転を事前予測
+- 🤖 **フロンティアモデル向けにゼロデータ保持を提供** — OpenAIがAPIのデータ非保持方針を再表明
+- 🤖 **AgentCore の Web 検索向けドメイン・公開日フィルター** — AgentCoreのWeb検索にドメイン・日付絞り込み機能追加
+
+---
+
+## 🤖 GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー
+\`AI\` \`LLM\`
+
+<details>
+<summary>📄 原題: GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents</summary>
+</details>
+
+> **一言で**: 臨床試験プログラミング、単発LLMは全滅で専用エージェント登場
+
+- 5つの最先端LLMで11回試しても有効な解析データセットは0件
+- GxP-Agentは規制上の処理順序をDAG（有向非巡回グラフ）で表現
+- 複数エージェントが工程順序を守りながら分業する仕組み
+- CDISC標準に沿ったデータセット生成の信頼性向上が狙い
+
+💡 **なぜ重要か**
+臨床試験プログラミングは試験計画書をCDISC標準の解析用データセットに変換する作業で、規制当局への提出審査の大きなボトルネックになっているそうです。単発でコードを生成させるだけのLLM活用では、規制上求められる処理順序や依存関係を守れず、実用に耐えないことが今回の検証で明らかになりました。 医薬品開発や規制対応など、厳格な手順遵守が求められる業務でのLLM活用には、単純なコード生成ではなく工程の依存関係を明示的に管理する仕組みが必要になりそうです。マルチエージェント設計とプロセスの構造化を組み合わせる手法は、他の規制産業にも応用が広がる可能性があります。
+
+🎯 **今日のアクション**
+規制業務にLLMを導入する際は、単発生成の精度だけでなく処理順序や依存関係の管理方法を検証すべきです。マルチエージェント構成を採用する場合は、業務プロセスをグラフ構造で明示的にモデル化することを検討してください。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.16890)
+
+---
+
+## 🦾 Waymoの低価格な次世代ロボタクシー、3都市で全ユーザーに提供開始
+\`Robotics\` \`Business\`
+
+<details>
+<summary>📄 原題: Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities</summary>
+</details>
+
+> **一言で**: Waymoの新型ロボタクシー、3都市で一般提供開始
+
+- 新型車両「Waymo Ojai」が3都市で全ライダーに開放
+- 低コスト化で大規模展開と黒字化を狙う
+- 次世代機として同社戦略の中核に位置づけ
+
+💡 **なぜ重要か**
+自動運転タクシーは実証段階から商用規模への移行が課題でした。車両コストの低減は事業採算性を左右する重要な要素と見られています。 低コスト化が進めば競合他社も価格競争に巻き込まれ、自動運転市場全体の普及速度が上がる可能性があります。
+
+🎯 **今日のアクション**
+自動運転関連の開発者は、コスト効率と安全性を両立させる設計思想の変化に注目すべきです。
+
+🔗 [原文を読む](https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/)
+
+---
+
+## 🤖 勾配降下法によるニューラルネットワーク学習の普遍性
+\`AI\` \`Science\`
+
+<details>
+<summary>📄 原題: Universality of Gradient Descent Neural Network Training</summary>
+</details>
+
+> **一言で**: 勾配降下法によるニューラルネット学習の普遍性を理論的に検証
+
+- arXivに掲載された勾配降下法の理論研究論文
+- ニューラルネットワーク訓練における普遍性を数理的に考察
+- 詳細な内容はスニペットからは十分に読み取れず
+
+💡 **なぜ重要か**
+勾配降下法はニューラルネットワーク学習の基本手法で、その理論的性質の理解はAI技術の信頼性向上に重要だと見られています。 こうした理論研究は、将来的により効率的で安定した学習アルゴリズムの開発につながる可能性があると考えられます。
+
+🎯 **今日のアクション**
+エンジニアは論文本文を確認し、実務で使う最適化手法の理論的背景への理解を深めるとよさそうです。
+
+🔗 [原文を読む](https://arxiv.org/abs/2007.13664)
+
+---
+
+## 📊 オーストラリアにおける予防的道路安全対策:コネクテッドカーデータから危険運転多発地点を予測
+\`Data\` \`AI\`
+
+<details>
+<summary>📄 原題: Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data</summary>
+</details>
+
+> **一言で**: コネクテッドカーで危険運転を事前予測
+
+- 豪シドニー圏のコネクテッドビークル（通信機能付き自動車）データを活用
+- 事故が起きる前にニアミス（異常接近）などの危険運転を検知・予測
+- 従来の事故記録分析による事後対応から予防型の道路安全対策へ転換
+- 危険な運転行動が起きやすい地点をあらかじめ特定する試み
+
+💡 **なぜ重要か**
+従来の道路安全対策は、死傷事故が起きた後の記録分析が中心でした。事故が起きてから対応する仕組みでは、被害を未然に防ぐことが難しいという課題があります。近年はコネクテッドビークルから走行データを継続的に集められるようになり、事故につながる手前の危険運転を捉えられる可能性が出てきました。この研究は、その可能性を実データで検証した点に意義があります。 自動車データを使った予防型の安全対策が広がれば、都市計画や交通行政のあり方が変わっていく可能性があります。保険会社や自治体がリアルタイムの走行データを活用し、危険地点への標識設置や速度規制の見直しなど、具体的な対策に生かす動きも進みそうです。将来的には自動運転やADAS（先進運転支援システム）とも連携し、危険地点を事前に回避する仕組みにつながるかもしれません。
+
+🎯 **今日のアクション**
+エンジニアは、走行データから異常な挙動を検知するモデルの設計手法を学んでおくと役立ちます。プライバシー保護と分析精度の両立も重要な検討課題です。行政や企業のリーダーは、こうしたデータ活用を進める際に、住民や利用者への説明責任をどう果たすか、早めに検討しておく必要があります。
+
+🔗 [原文を読む](https://arxiv.org/abs/2608.16913)
+
+---
+
+## 🤖 フロンティアモデル向けにゼロデータ保持を提供
+\`AI\` \`Security\`
+
+<details>
+<summary>📄 原題: Offering Zero Data Retention for frontier models</summary>
+</details>
+
+> **一言で**: OpenAIがAPIのデータ非保持方針を再表明
+
+- 対象APIの顧客に向けてZero Data Retention（データ非保持）を継続提供
+- 新機能Private Safety Processingを予告
+- データを保持せず高度な安全性チェックを行う仕組みと見られている
+- 企業向けAI利用のプライバシー配慮を強化する狙いだそうです
+
+💡 **なぜ重要か**
+企業がAI APIを使う際、入力データが保存されるかどうかは大きな懸念材料です。特に機密情報を扱う企業にとって、データ非保持の保証は導入判断を左右する重要な要素と見られています。 AIベンダー各社がデータプライバシーと安全性検査の両立を競う流れが強まりそうです。企業のAI導入における信頼性確保が今後の差別化ポイントになると考えられます。
+
+🎯 **今日のアクション**
+APIを利用する企業は、自社のデータ保持ポリシーとOpenAIの提供条件を照らし合わせて確認することをおすすめします。Private Safety Processingの詳細情報にも注目しておくとよいでしょう。
+
+🔗 [原文を読む](https://openai.com/index/offering-zero-data-retention-for-frontier-models)
+
+---
+
+## 🤖 AgentCore の Web 検索向けドメイン・公開日フィルター
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Domain and publish date filters for Web Search on AgentCore</summary>
+</details>
+
+> **一言で**: AgentCoreのWeb検索にドメイン・日付絞り込み機能追加
+
+- AgentCoreのWeb Searchがドメイン指定と公開日フィルタに対応
+- リクエスト単位で参照元と情報の鮮度をサーバー側で制御できる
+- Europe(Ireland)とAsia Pacific(Tokyo)リージョンにも提供拡大
+
+💡 **なぜ重要か**
+AIエージェントが最新かつ信頼できる情報源だけを参照する需要が高まっており、検索結果の質を運用者側で制御する仕組みが求められています。 エージェントの回答精度と信頼性向上につながり、企業利用でのAI活用がさらに進むと見られています。
+
+🎯 **今日のアクション**
+AgentCoreを使う開発者は、用途に応じてドメインと日付フィルタを設定し検索結果の質を検証すべきです。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/)
+
+---
+
+## 📝 まとめ
+
+この3つのニュースに共通するのは、AI技術が「汎用的な仕組み」から「特定用途に最適化された実装」へと成熟していく過程を示している点です。GxP-Agentは単発のLLM呼び出しでは臨床試験プログラミングという専門領域に対応できないことを示し、プロセスDAGという構造化されたエージェント設計が必要であることを明らかにしています。同様にWaymoも、汎用的な自動運転技術を実際の都市環境で一般ユーザーに提供可能なレベルまで洗練させ、コストと信頼性の両面で実用化を達成した事例です。勾配降下法の普遍性に関する理論研究は、こうした応用の背後にある基礎的な学習メカニズムそのものへの理解を深めるものであり、実用化が進む一方で、なぜAIがうまく機能するのかという根本原理の解明も並行して進んでいる、AI研究における「実践」と「理論」の両輪の発展を象徴していると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー**: 規制業務にLLMを導入する際は、単発生成の精度だけでなく処理順序や依存関係の管理方法を検証すべきです。マルチエージェント構成を採用する場合は、業務プロセスをグラフ構造で明示的にモデル化することを検討してください。
+2. **Waymoの低価格な次世代ロボタクシー、3都市で全ユーザーに提供開始**: 自動運転関連の開発者は、コスト効率と安全性を両立させる設計思想の変化に注目すべきです。
+3. **勾配降下法によるニューラルネットワーク学習の普遍性**: エンジニアは論文本文を確認し、実務で使う最適化手法の理論的背景への理解を深めるとよさそうです。
+
+---
+
+## 🔗 出典一覧
+- [GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー](https://arxiv.org/abs/2608.16890)
+- [Waymoの低価格な次世代ロボタクシー、3都市で全ユーザーに提供開始](https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/)
+- [勾配降下法によるニューラルネットワーク学習の普遍性](https://arxiv.org/abs/2007.13664)
+- [オーストラリアにおける予防的道路安全対策:コネクテッドカーデータから危険運転多発地点を予測](https://arxiv.org/abs/2608.16913)
+- [フロンティアモデル向けにゼロデータ保持を提供](https://openai.com/index/offering-zero-data-retention-for-frontier-models)
+- [AgentCore の Web 検索向けドメイン・公開日フィルター](https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/)`;
+const notesMd = `# Tech News Radio Show Notes - #142 (2026-08-20)
+
+## エピソード情報
+- **エピソード**: #142
+- **日付**: 2026-08-20
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents](https://arxiv.org/abs/2608.16890)
+- [Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities](https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/)
+- [Universality of Gradient Descent Neural Network Training](https://arxiv.org/abs/2007.13664)
+
+### 注目の深掘り
+- [Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data](https://arxiv.org/abs/2608.16913)
+
+### 小ネタ・その他
+- [Offering Zero Data Retention for frontier models](https://openai.com/index/offering-zero-data-retention-for-frontier-models)
+- [Domain and publish date filters for Web Search on AgentCore](https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

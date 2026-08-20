@@ -25,6 +25,63 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#142 GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか</title>
+      <description>Tech News Radio Show Notes - #142 (2026-08-20)
+
+エピソード情報
+• エピソード: #142
+• 日付: 2026-08-20
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents (https://arxiv.org/abs/2608.16890)
+• Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities (https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/)
+• Universality of Gradient Descent Neural Network Training (https://arxiv.org/abs/2007.13664)
+
+注目の深掘り
+• Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data (https://arxiv.org/abs/2608.16913)
+
+小ネタ・その他
+• Offering Zero Data Retention for frontier models (https://openai.com/index/offering-zero-data-retention-for-frontier-models)
+• Domain and publish date filters for Web Search on AgentCore (https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/episode_audio.mp3" length="75526124" type="audio/mpeg" />
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-20</guid>
+      <itunes:duration>13:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか</itunes:title>
+      <itunes:episode>142</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #142 (2026-08-20)
+
+エピソード情報
+• エピソード: #142
+• 日付: 2026-08-20
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents (https://arxiv.org/abs/2608.16890)
+• Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities (https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/)
+• Universality of Gradient Descent Neural Network Training (https://arxiv.org/abs/2007.13664)
+
+注目の深掘り
+• Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data (https://arxiv.org/abs/2608.16913)
+
+小ネタ・その他
+• Offering Zero Data Retention for frontier models (https://openai.com/index/offering-zero-data-retention-for-frontier-models)
+• Domain and publish date filters for Web Search on AgentCore (https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-20/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-20/eyecatch.webp" />
+    </item>
+    <item>
       <title>#141 Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…</title>
       <description>Tech News Radio Show Notes - #141 (2026-08-19)
 

@@ -1,0 +1,370 @@
+{
+  "date": "2026-08-20",
+  "episode_date_local": "2026-08-20",
+  "content_snapshot_date": "2026-08-20",
+  "show_length_sec": 786,
+  "audio_size": 75526124,
+  "generated_at": "2026-08-20T02:02:49.166144+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-e4ec9636",
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "title_ja": "GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー",
+      "one_liner": "臨床試験プログラミング、単発LLMは全滅で専用エージェント登場",
+      "fingerprint": "e4ec9636f26840889d2cf30ab41a7980",
+      "score": 86,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-564b6ffe",
+      "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+      "title_ja": "Waymoの低価格な次世代ロボタクシー、3都市で全ユーザーに提供開始",
+      "one_liner": "Waymoの新型ロボタクシー、3都市で一般提供開始",
+      "fingerprint": "564b6ffef84fd644f0cd9dce1623c2c9",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-eee00bc6",
+      "title": "Universality of Gradient Descent Neural Network Training",
+      "title_ja": "勾配降下法によるニューラルネットワーク学習の普遍性",
+      "one_liner": "勾配降下法によるニューラルネット学習の普遍性を理論的に検証",
+      "fingerprint": "eee00bc62087db14eb9b3b26e044530c",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-9248bffd",
+      "title": "Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data",
+      "title_ja": "オーストラリアにおける予防的道路安全対策:コネクテッドカーデータから危険運転多発地点を予測",
+      "one_liner": "コネクテッドカーで危険運転を事前予測",
+      "fingerprint": "9248bffd63cae865025b5ab1ee05b40f",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-56d5b8c3",
+      "title": "Offering Zero Data Retention for frontier models",
+      "title_ja": "フロンティアモデル向けにゼロデータ保持を提供",
+      "one_liner": "OpenAIがAPIのデータ非保持方針を再表明",
+      "fingerprint": "56d5b8c35ec90dea7d4c02d1d06c40a4",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-7c99b581",
+      "title": "Domain and publish date filters for Web Search on AgentCore",
+      "title_ja": "AgentCore の Web 検索向けドメイン・公開日フィルター",
+      "one_liner": "AgentCoreのWeb検索にドメイン・日付絞り込み機能追加",
+      "fingerprint": "7c99b581fb25c1429c20e0d99c97e58b",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-afcf3791",
+      "reason": "LINK_ONLY: Source classified as satirical: Stripeが「特異点の始まり」を理由にIPOを見送るという主張は極めて非現実的で、AI業界の誇張された言説を風刺する内容です。実在のニュース記事を模したパロディと判断できます。",
+      "title": "Stripe declares we're living in the singularity and uses it as a reason not to IPO"
+    },
+    {
+      "item_id": "item-61e25383",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna"
+    },
+    {
+      "item_id": "item-fa9ee037",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps"
+    },
+    {
+      "item_id": "item-61f529c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cursorを使ってデザイナーがハンドコーディングでデザインシステムを作ってみた"
+    },
+    {
+      "item_id": "item-6b4d5e74",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise managed settings in GitHub Copilot for JetBrains"
+    },
+    {
+      "item_id": "item-55da8ecf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 10"
+    },
+    {
+      "item_id": "item-3d081473",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat"
+    },
+    {
+      "item_id": "item-60e2b822",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automate Document Processing with Quick Automate and the IDP Accelerator"
+    },
+    {
+      "item_id": "item-eb2e9ac9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-573eb9c1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-339f7ee1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "os8088 Spotlight -- New Programs and Features"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-de3990c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple’s Camera-Equipped AI AirPods Remain on Track for 2027 Despite Video Leak"
+    },
+    {
+      "item_id": "item-f0be8510",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Klarna Stock Plunges 20% on Lowered Outlook"
+    },
+    {
+      "item_id": "item-31b49cc3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk Is Expected to Point His Money Machine at Texas Politics"
+    }
+  ],
+  "score_cache": {
+    "eee00bc62087db14eb9b3b26e044530c": {
+      "score": 72,
+      "title": "Universality of Gradient Descent Neural Network Training",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] 勾配降下法によるニューラルネットワーク学習の普遍性を扱う理論研究であり、モデル設計や最適化アルゴリズムの理解に影響する重要なテーマです。学習がどの条件で幅広い関数や問題へ適用可能になるかを整理できれば、将来のAIアーキテクチャや訓練手法の理論的基盤になり得ます。一方で、スニペットがなく具体的な定理・実験結果・実用上の改善幅を判断できないため、業界の前"
+    },
+    "56d5b8c35ec90dea7d4c02d1d06c40a4": {
+      "score": 51,
+      "title": "Offering Zero Data Retention for frontier models",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] 適格なAPI顧客向けのZero Data Retention再確認と、データを保持せずに高度な安全性処理を行うPrivate Safety Processingのプレビューは、企業がAIを本番導入する際のプライバシー・コンプライアンス要件に直結する実務的な進展です。一方で、AIモデル提供におけるデータ保持制御の強化であり、基盤技術や業界の前提を根本か"
+    },
+    "7c99b581fb25c1429c20e0d99c97e58b": {
+      "score": 51,
+      "title": "Domain and publish date filters for Web Search on AgentCore",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] Web検索にドメイン指定と公開日フィルタを追加し、エージェントが参照する情報源の信頼性・鮮度をリクエスト単位で制御できる点は、RAGやAIエージェントの実運用に有用です。フィルタをサーバー側で強制できるため実装の一貫性やガバナンスにも寄与し、東京・アイルランドリージョンへの拡大も提供範囲を広げます。一方で、AgentCore、Amazon Bedro"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 35,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数セッションを一覧・管理する「My work」ペインの紹介で、開発者の作業整理には有用ですが、基盤技術やアーキテクチャを変える新規性は限定的です。Copilotおよびworkに関する既出トピックと同じ領域・角度のため、重複分として減点しています。 [Editorial: AI-focused source +6; AI"
+    },
+    "6b4d5e74db12b4ec0c0eae13684cb89a": {
+      "score": 47,
+      "title": "Enterprise managed settings in GitHub Copilot for JetBrains",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] JetBrains向けGitHub Copilotに、企業単位でプラグイン管理、MCPサーバーへのアクセス、OpenTelemetry、権限モードを統一制御できる設定が追加され、導入企業のガバナンスや監査性を高める実務的なアップデートです。一方で、既存機能の管理・運用強化が中心で、アーキテクチャやAIモデル自体を変える革新ではありません。また、直近に"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 34,
+      "title": "April 27, 2026",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新化に限定されており、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワードのagentおよびworkに近い内容で、実質的には定期的な運用・保"
+    },
+    "564b6ffef84fd644f0cd9dce1623c2c9": {
+      "score": 79,
+      "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] Waymoの次世代ロボタクシーを3都市で一般利用者に開放する動きは、自動運転・ロボティクスの実運用拡大として重要です。車両コストの低減と大量展開、収益化を意識した製品世代への移行は、技術そのものだけでなく、センサー構成、遠隔支援、運行管理、都市インフラとの統合を実証する材料になります。一方で、基盤技術の画期的な発明や業界全体を一変させる発表ではなく、"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 38,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] 企業向けAIのインフラ、GPU利用率、マルチベンダー運用、エージェントのセキュリティなど、技術者に関連する論点は含まれています。しかし記事の主題は新技術や製品の発表ではなく、VentureBeatによるアナリスト採用と調査事業の拡大です。実装可能な技術成果や市場を変える具体的な発表も少なく、ニュースとしての技術的インパクトは限定的です。また、既出キー"
+    },
+    "afcf37917baaf64b4fdab58cb89f53ff": {
+      "score": 61,
+      "title": "Stripe declares we're living in the singularity and uses it as a reason not to IPO",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] StripeによるOpenRouterの80億ドル超の買収確認は、AI開発基盤・モデル利用レイヤーにおける大規模な事業統合として注目度が高く、先端スタートアップ領域への影響もあります。一方で、記事の中心である「シンギュラリティ」を理由にIPOを見送るという主張は、技術仕様や新製品の発表ではなく、経営判断と刺激的なメッセージに留まっています。Strip"
+    },
+    "31b49cc3f31073ae5727f3b92782f699": {
+      "score": 10,
+      "title": "Elon Musk Is Expected to Point His Money Machine at Texas Politics",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] 米国の選挙資金やテキサス州政治に関する政治ニュースであり、ソフトウェア技術、AI、クラウド、アーキテクチャ、プログラミング言語などの技術的な新規性やエンジニアへの直接的な影響はほとんどありません。一般消費者向けガジェットよりは社会的影響があるものの、技術ニュースとしての重要度は最低水準に近いと判断しました。"
+    },
+    "3d081473359425c6bce0411d6b77156a": {
+      "score": 43,
+      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] AIが自律的に自己改善するという、将来の開発プロセスやAIエージェントの能力限界に関わる重要なテーマで、技術的・産業的な関心は高い。一方で、記事は具体的な新モデルや実装、画期的な発表ではなく、自己改善の実現時期に対する慎重な見解が中心で、直近の既出キーワードであるAI、model、learning、agentsと同じ領域・角度に重なっているため減点し"
+    },
+    "de3990c386d786ff2cf7329670f08093": {
+      "score": 15,
+      "title": "Apple’s Camera-Equipped AI AirPods Remain on Track for 2027 Despite Video Leak",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] カメラ搭載AirPodsという新しいウェアラブル構想は技術的には興味深いものの、現時点では製品化前の計画段階で、AIや音声・映像処理基盤に関する具体的な技術革新も示されていません。一般消費者向けガジェットの将来観測にあたり、ソフトウェアエンジニアリングや業界構造への影響は限定的です。 [Editorial: AI/SaaS topic +5]"
+    },
+    "f0be8510756f395f441ac1007851274d": {
+      "score": 13,
+      "title": "Klarna Stock Plunges 20% on Lowered Outlook",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] Klarnaの業績見通し下方修正と幹部退任は、フィンテック企業の経営・市場動向に関するニュースであり、ソフトウェア技術、AI、クラウド、アーキテクチャなどの技術革新を含みません。一般消費者向け金融サービスの株価ニュースとしてエンジニア視点での影響範囲も限定的なため、最低評価に近いスコアとしました。"
+    },
+    "61f529c8c3dfd41fabf031b662260f06": {
+      "score": 48,
+      "title": "Cursorを使ってデザイナーがハンドコーディングでデザインシステムを作ってみた",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] Cursorを活用しつつ、デザイナーが自らデザインシステムをハンドコーディングで実装した実践事例であり、デザインとフロントエンド開発の協業やAIコーディングツールの活用方法を考えるうえで有益です。一方で、既存技術の具体的な導入事例にとどまり、アーキテクチャや主要言語、業界全体の前提を変えるほどの新規性・影響範囲はありません。既出キーワードのCurso"
+    },
+    "e4ec9636f26840889d2cf30ab41a7980": {
+      "score": 86,
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] LLMエージェントを臨床試験データ生成という高信頼性・規制対応が必要な領域に適用し、プロセス順序をDAGとして明示的に制約するアーキテクチャは技術的に新規性が高いです。単純なコード生成では5つの主要モデルが有効な被験者レベル解析データセットを一度も生成できなかったという検証結果も、エージェント設計における信頼性の課題を具体化しています。AI・LLM・"
+    },
+    "9248bffd63cae865025b5ab1ee05b40f": {
+      "score": 55,
+      "title": "Proactive Road Safety Intervention in Australia: Predicting Risky Driving Hotspots from Connected Vehicle Data",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] コネクテッドカーのテレメトリを活用し、事故発生後の分析ではなく、ニアミスや危険運転の兆候から高リスク地点を予測する点は、IoTデータと機械学習の実社会への応用として有意義です。自治体の道路改善、交通管制、保険、運転支援システムなどへの展開可能性もあります。一方で、対象がGreater Sydneyのデータに限定された研究段階であり、予測精度、リアルタ"
+    },
+    "573eb9c15b07bdac3abd199dd3638395": {
+      "score": 38,
+      "title": "Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] 脳活動と言語表現の対応関係を、マージン正則化と構造化された意味アライメントで評価する研究であり、LLMによる脳言語デコーディングの解釈可能性や、モデルが神経表現を本当に反映しているかという重要な課題に取り組んでいます。研究的新規性と将来的なBMI・神経科学への波及性はありますが、現時点ではarXivの手法提案であり、実用化や業界の前提を変える段階では"
+    },
+    "339f7ee179eecf9eb7e0b1feea547029": {
+      "score": 32,
+      "title": "os8088 Spotlight -- New Programs and Features",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] タイトルだけでは「os8088」が何を指すのか、また新プログラムや機能の具体的な内容・技術的影響範囲を判断できません。AIやクラウド、主要言語などの大きな技術進化を示す情報もなく、現時点では限定的なソフトウェア更新・紹介記事として評価するのが妥当です。"
+    },
+    "61e25383fc499138e396f2a7615fb5bb": {
+      "score": 49,
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] ReplitがGPT-5.6 Lunaを活用し、トークン費用を気にせずソフトウェアを生成できるFree Modeを提供する点は、AIによる開発環境の民主化という意味で注目に値します。特にアイデアから実行可能なアプリケーションまでを一気通貫で作れる体験は、開発者層の拡大やプロトタイピングの高速化につながります。一方で、AIコーディングやエージェント型開"
+    },
+    "60e2b822e83eaea90e9665fca3c23d19": {
+      "score": 43,
+      "title": "Automate Document Processing with Quick Automate and the IDP Accelerator",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] AWSのIDP AcceleratorとQuick Automateを組み合わせ、メール受信から文書分類・情報抽出・検証までを自動化する実装例であり、金融や医療などの大量文書処理を効率化できる点は実務的に有用です。一方で、既存の生成AI・Amazon関連技術の具体的な業務適用事例にとどまり、基盤技術や業界の前提を変えるほどの新規性は限定的です。既出キ"
+    },
+    "fa9ee03708a328fba03599e05bfb7a4c": {
+      "score": 49,
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] GitHub上で複数のエージェントアプリを活用し、要件定義・セキュリティ・展開・リリースまでのSDLCを一貫して進める具体的な開発ワークフローは、開発者体験や自動化の観点で実務的な価値がある。一方で、業界の前提を変える新技術の発表というより既存のGitHubおよびCopilot系エージェント活用の導入事例に近い。既出キーワードの「copilot」「a"
+    },
+    "55da8ecf1124e9612e80e5e96603742f": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 10",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotの新モデル、ポータブルなプラグイン、エージェント開発ワークフロー改善は、エディタやCLIを含む開発体験に影響するため一定の技術的価値があります。ただし、週次のアップデート総括であり、個別機能の詳細や業界を変える規模の発表ではありません。また、既出キーワードの「Copilot」「model」「agents」「work」「ai"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 23,
+      "title": "May 11, 2026",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの反映にとどまり、新機能やアーキテクチャ上の革新、利用者への明確な機能拡張はありません。Agent関連の既出トピックと同じ領域であるため減点し、運用保守リリースとして低く評価します。 [Editorial: AI-focuse"
+    },
+    "eb2e9ac9906e1d82e2f0f83ee7906040": {
+      "score": 41,
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "date": "2026-08-20",
+      "reason": "[Claude API Evaluation] 企業向けAIにおける顧客データの分離、保持期間、学習利用の制御など、導入判断に直結するプライバシー保護の競争は実務上重要です。一方で、具体的な技術仕様や画期的なアーキテクチャの発表ではなく、主題はセキュリティ・運用ポリシー寄りです。また、既出のOpenAI関連トピックと重なるため、話題の新規性を考慮して減点しました。 [Editorial: AI/S"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-20/blog.md",
+    "show_notes_path": "out/2026-08-20/show_notes.md",
+    "script_path": "out/2026-08-20/script_2hosts.md",
+    "audio_path": "out/2026-08-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 26317,
+        "output_tokens": 10878,
+        "cost_usd": 0.018317
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40215,
+        "output_tokens": 6992,
+        "cost_usd": 0.225525
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4297,
+        "cost_usd": 0.051564
+      }
+    ],
+    "total_cost_usd": 0.295406
+  }
+}
