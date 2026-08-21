@@ -1,0 +1,374 @@
+{
+  "date": "2026-08-22",
+  "episode_date_local": "2026-08-22",
+  "content_snapshot_date": "2026-08-22",
+  "show_length_sec": 811,
+  "audio_size": 77937644,
+  "generated_at": "2026-08-21T20:41:31.192857+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-4b3452b2",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders | Claude by Anthropic",
+      "title_ja": "Claude Mythos 5のサイバーセキュリティ機能を、より多くの防御者へ | Anthropic発Claude",
+      "one_liner": "AnthropicがClaudeのサイバー防御能力を防御側に拡大",
+      "fingerprint": "4b3452b2353c63867d74868dac0dc969",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-08278c73",
+      "title": "The new GitHub Copilot experience in Slack",
+      "title_ja": "Slackで使える新しいGitHub Copilot体験",
+      "one_liner": "GitHub CopilotがSlackで公開プレビュー開始",
+      "fingerprint": "08278c73103696f1a29550886d0a0aba",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-95146b14",
+      "title": "The Hot New Prediction Exchange You’ve Never Heard of—by Design",
+      "title_ja": "知られざる新興予測市場、その戦略的な正体",
+      "one_liner": "黒子役の予測市場取引所Rothera、業界の裏方に台頭",
+      "fingerprint": "95146b14e893d99acd11c5e5e524f361",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-611dcba3",
+      "title": "claude のメモリを棚卸しする",
+      "title_ja": "claude のメモリを棚卸しする",
+      "one_liner": "Claudeのメモリ機能を改めて調べて棚卸しした話",
+      "fingerprint": "611dcba3430082cbb9fce6033c8179a1",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-fe9610a8",
+      "title": "Towards On-Board Implementation of ML-Based Helicopter Weight Estimator",
+      "title_ja": "機械学習ベースのヘリコプター重量推定器の機上実装に向けて",
+      "one_liner": "Airbusがヘリの重量をAIで推定、機体搭載を目指す研究",
+      "fingerprint": "fe9610a8376683e8de725d02575ad806",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-bb3074a1",
+      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+      "title_ja": "エージェント型データ運用プラットフォーム(ADOP):データエンジニアリングを数時間で実現",
+      "one_liner": "AIエージェントでデータ基盤構築を週単位から時間単位に短縮",
+      "fingerprint": "bb3074a1c0056334494b587db1cb9d9b",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-12273d70",
+      "reason": "LINK_ONLY: Source classified as satirical: 「Claude Mythos 5」や「Claude Security」といった製品名は、Anthropicの公知の製品体系から大きく外れており、記事内容も実在性を裏付ける具体的な発表情報に乏しい。もっともらしい技術ニュース風に構成された架空・風刺的コンテンツと判断される。",
+      "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense"
+    },
+    {
+      "item_id": "item-f8534145",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway"
+    },
+    {
+      "item_id": "item-afeb4489",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams"
+    },
+    {
+      "item_id": "item-018f400f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing AI Futures"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-abcd0422",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work"
+    },
+    {
+      "item_id": "item-0891177b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: threats from space mirrors and credit for AI drugs"
+    },
+    {
+      "item_id": "item-797a7f15",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Active Inference as Context Acquisition for AI Agents"
+    },
+    {
+      "item_id": "item-0c60d8d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Data center opposition surged from 42 to 75 percent in just one year, survey finds"
+    },
+    {
+      "item_id": "item-c9549805",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment"
+    },
+    {
+      "item_id": "item-31c416e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Quick impressions: A week of using Codex more than Claude"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-0f5e90e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TikTok reaches $400M settlement over children’s privacy lawsuit"
+    },
+    {
+      "item_id": "item-c587ed56",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta’s Big Reckoning Is Here"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-334d3930",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TikTok to Pay $400 Million to Settle DOJ Child Privacy Case"
+    },
+    {
+      "item_id": "item-55e4ec49",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch"
+    }
+  ],
+  "score_cache": {
+    "31c416e7cfaa4a44f727d94743dc6d2f": {
+      "score": 37,
+      "title": "Quick impressions: A week of using Codex more than Claude",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] CodexとClaudeを実際の開発で比較したユーザー体験は、コーディング支援ツールの使い分けや生産性を考えるうえで一定の参考になります。一方で、具体的な新機能や技術的ブレークスルー、業界を変える発表ではなく、個人の短期的な所感にとどまっています。AI・エージェント系の既出テーマと重なるため減点し、ニュースとしての重要度は低めに評価しました。 [Ed"
+    },
+    "018f400f4b27214a4700d8e55488d8d3": {
+      "score": 46,
+      "title": "Introducing AI Futures",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] OpenAIがAIによる権力、ガバナンス、経済、個人の自由への影響を論じる新ブログで、社会的な視野は広いものの、具体的なモデル、API、アーキテクチャ、実装技術の発表ではありません。AIおよびOpenAIは既出キーワードであり、同テーマの紹介記事として重複減点も適用し、技術ニュースとしての重要度は中低程度と評価します。 [Editorial: AI-"
+    },
+    "bb3074a1c0056334494b587db1cb9d9b": {
+      "score": 54,
+      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 専門AIエージェントでBronze-to-Silver-to-Goldのデータパイプライン、データソースのオンボーディング、ガバナンスを自動化する実装指向の内容で、データエンジニアリングの生産性に与える影響は大きいです。一方で、Amazon Bedrockを基盤としたリファレンスアーキテクチャであり、業界の前提を変える新技術や独自基盤の発表とまでは言"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 46,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] GitHub Copilotの作業状況を一覧管理する「My work」ペインの紹介で、複数セッションの進捗把握やタスク整理には実用性があります。ただし、既存のAIコーディング支援機能の改善であり、アーキテクチャや開発手法を大きく変える新規性は限定的です。また、GitHub・AI・Copilot系の既出テーマと重なるため、重複分として減点しています。 "
+    },
+    "08278c73103696f1a29550886d0a0aba": {
+      "score": 60,
+      "title": "The new GitHub Copilot experience in Slack",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] GitHub CopilotのCLIおよびアプリのエージェント機能をSlackから利用できるようにする連携で、開発者のコラボレーションやタスク実行のワークフローを効率化する点は実用的で注目度が高い。一方、公開プレビュー段階であり、Slack内での具体的な自動化範囲や成熟度はまだ限定的。また、GitHub、Copilot、agentic機能は直近放送済"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 35,
+      "title": "April 27, 2026",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12環境に上流依存パッケージの最新版を適用したメンテナンス更新にとどまり、機能追加やアーキテクチャ上の進展は示されていません。Agent関連ではあるものの、既存のAgent系トピックと近く、明確な新規性や影響範囲も限定的なため、低めに評価します。 [E"
+    },
+    "0f5e90e13e85ef38302edd6fba4e9bf1": {
+      "score": 27,
+      "title": "TikTok reaches $400M settlement over children’s privacy lawsuit",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 児童プライバシー保護法違反をめぐる法的和解であり、規制・コンプライアンス上は重要ですが、技術革新や開発者向けアーキテクチャの進展を直接示すニュースではありません。400億円規模の制裁は、年齢確認、データ収集、保持、同意管理などのプロダクト設計やガバナンスに影響し得るものの、記事単体では具体的な技術変更や業界の前提を変える新展開は確認できないため、低評"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 26,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] VentureBeatが企業向けAI・クラウド基盤の分析強化に向けて主任アナリストを採用したという組織・メディア戦略のニュースであり、新技術や製品、アーキテクチャの具体的な進化ではありません。GPU利用率、マルチベンダー構成、エージェントのセキュリティなど興味深い論点は含まれますが、記事の主題ではなく、業界全体への直接的な技術インパクトも限定的です。"
+    },
+    "12273d70a351b1a10f8346e128148778": {
+      "score": 90,
+      "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 高度なLLMをコード脆弱性スキャン、CWE分類、修正提案、重要インフラ向けセキュリティ製品に組み込む具体的な実運用の展開であり、AIとサイバーセキュリティの両面で影響範囲が大きい。単なるモデル発表ではなく、開発・防御ワークフローへの統合が示されている点は評価できる。一方で、既出のAI・モデル関連テーマと近く、業界全体の前提を変えるほどの新規アーキテク"
+    },
+    "c587ed56f734aed7baab72db35f7cd99": {
+      "score": 27,
+      "title": "Meta’s Big Reckoning Is Here",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] Metaの子どもの安全を巡る訴訟は、FacebookやInstagramの年齢確認、推薦アルゴリズム、保護者向け機能などの設計変更につながる可能性があり、プラットフォーム開発者には一定の影響があります。ただし主題は法律・規制と企業責任であり、AIや基盤技術そのものの革新ではありません。記事単体では判決や具体的な技術変更が確定しておらず、既出キーワード"
+    },
+    "0891177baa8908493b055010cb1cbeb6": {
+      "score": 43,
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 宇宙空間のミラーで太陽光を反射する構想は、宇宙インフラや天文学、環境への影響に関わる新規性の高いテーマですが、記事スニペットでは具体的な技術仕様や実装状況が不明で、直ちに業界の前提を変える発表とは言いにくいです。AI創薬への信用・資金供給の話題も含まれるものの、既出のAI関連テーマと重なるため評価を抑えました。 [Editorial: AI/SaaS"
+    },
+    "334d3930beb6a944d33110c49863d289": {
+      "score": 18,
+      "title": "TikTok to Pay $400 Million to Settle DOJ Child Privacy Case",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 児童データの収集をめぐる司法省との和解であり、企業のプライバシー対応やコンプライアンスには重要ですが、技術革新やアーキテクチャの進展を直接示すニュースではありません。規制・訴訟関連として通常は低めの評価です。また、既報キーワードの「data」と同じくデータ収集を扱う内容で、明確な技術的続報ではないため減点しました。"
+    },
+    "95146b14e893d99acd11c5e5e524f361": {
+      "score": 60,
+      "title": "The Hot New Prediction Exchange You’ve Never Heard of—by Design",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 予測市場を消費者向けアプリではなく、証券会社や銀行向けの取引所インフラとして提供するRotheraの事業モデルは新規性があり、RobinhoodやSusquehanna、MIAXを巻き込んだ具体的な展開も進んでいます。既存の予測市場を金融取引基盤として拡張し、複数取引所による流動性・注文執行の競争を促す点は、フィンテックおよびマーケットインフラの観点"
+    },
+    "611dcba3430082cbb9fce6033c8179a1": {
+      "score": 58,
+      "title": "claude のメモリを棚卸しする",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] Claudeのプロジェクト単位メモリの保存場所や仕組みを整理する内容で、AIコーディング環境のコンテキスト永続化を理解するうえで実務的な価値があります。メモリの棚卸しによって、誤った前提・古い情報・意図しないプロジェクト情報の混入を確認でき、開発者の運用やプライバシー管理にも影響します。一方で、新しいモデルや基盤技術の発表ではなく、既存機能の調査・解"
+    },
+    "797a7f15c4bf33e9c87cb33c191a247f": {
+      "score": 43,
+      "title": "Active Inference as Context Acquisition for AI Agents",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] AIエージェントが不足している文脈を、確認質問・検索・ツール実行・仮定の選択として能動的に獲得する問題を、active inferenceとして定式化している点は技術的に興味深い。推論コストとタスク成功率のトレードオフを扱うため、将来のエージェント設計や長時間タスクの効率化につながる可能性がある。一方で、現時点ではarXivの新規論文であり、実運用で"
+    },
+    "fe9610a8376683e8de725d02575ad806": {
+      "score": 55,
+      "title": "Towards On-Board Implementation of ML-Based Helicopter Weight Estimator",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] ヘリコプターの離陸時重量推定に機械学習を組み込み、実運用機データとEASAおよびEUROCAEの認証・保証プロセスを結び付けている点は技術的に価値が高いです。航空機の性能最適化や運航効率向上だけでなく、安全性が重視される分野でのML要件定義、モデル記述、学習保証の実践例として、エンジニアリング上の具体性があります。一方で、対象がヘリコプターの重量推定"
+    },
+    "c9549805d85d4dc900d7fa6199b0329d": {
+      "score": 38,
+      "title": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 石油工学の専門コミュニティ向けに、知識の収集・検索・共有を支援する仮想アシスタントをプロトタイプから実運用へ展開し、75人の専門家による評価で生産性と成果の均等化を確認している点は、実用的なAI活用事例として注目に値します。一方で、対象業界と利用範囲が限定され、基盤技術そのものの革新や業界全体の前提を変える発表ではありません。また、既報キーワードであ"
+    },
+    "4b3452b2353c63867d74868dac0dc969": {
+      "score": 84,
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders | Claude by Anthropic",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] AnthropicのClaudeによるサイバーセキュリティ能力を防御側へ広く提供する動きは、LLMの実務適用とセキュリティ運用の高度化に直結するため重要度が高いです。脅威分析、脆弱性調査、インシデント対応などの自動化が進めば、セキュリティ人材不足の緩和や防御側の生産性向上につながります。一方で、記事のスニペットがなく、具体的な機能、提供条件、性能評価"
+    },
+    "abcd042277138d099eb0a5fdf81f980a": {
+      "score": 44,
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] ChatGPT WorkとCodexを活用してローンチ作業を数週間から数日に短縮した具体的な導入事例で、生成AIの実務的な生産性向上を示している点は評価できます。一方で、基盤技術の新規発表や業界全体の前提を変える革新ではなく、単一企業のケーススタディに留まります。また、AIおよびChatGPT系の話題は既出キーワードと重なるため、重複分を減点しました"
+    },
+    "f85341451c239dfc7df89484bd059397": {
+      "score": 49,
+      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] AIエージェントに企業内ツールへのアクセス制御、監査、カタログ化、段階的なセキュリティ強化を導入する実践的なアーキテクチャ指針であり、エンタープライズ運用への影響は大きいです。一方で、基盤技術そのものの画期的な発表というより、Amazon Bedrock AgentCoreを用いたガバナンス設計・運用ノウハウが中心です。さらに、直近で取り上げ済みのA"
+    },
+    "afeb448906d88a4c0319e757da329753": {
+      "score": 49,
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] Microsoft Teams上の会話からGitHub Copilotとの共有エージェントセッションを開始し、参加者が同じ作業状況を確認・指示できる点は、開発チームの協働体験を改善する具体的な統合です。一方で、基盤モデルやエージェント技術そのものの革新ではなく、既存サービス間の機能連携にとどまります。また、GitHub、Copilot、agentic"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 35,
+      "title": "May 11, 2026",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上の依存パッケージを最新版に更新したメンテナンスリリースに限定されており、新機能やアーキテクチャ上の進展、性能改善などの具体的な技術革新は確認できません。エージェント関連ではあるものの、既報キーワードの「agent」と同じ話題に該当するため減点しました"
+    },
+    "55e4ec49e9e139450a30da2aa63b4a61": {
+      "score": 2,
+      "title": "The $225 Pebble Time 2 is a refreshingly fun smartwatch",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] 物理ボタン、電子ペーパー、長時間バッテリー、遊び心のあるソフトウェアという特徴は興味深いものの、一般消費者向けスマートウォッチの刷新にとどまります。AIやクラウド、プログラミング言語、アーキテクチャなどソフトウェア技術への波及や業界の前提を変える新規性は限定的で、評価基準上は最低評価帯に該当します。 [Editorial: gadget topic "
+    },
+    "0c60d8d6df9d6666521f394b466bed4b": {
+      "score": 41,
+      "title": "Data center opposition surged from 42 to 75 percent in just one year, survey finds",
+      "date": "2026-08-22",
+      "reason": "[Claude API Evaluation] データセンター建設への反対意識が1年で42%から75%へ急増したという調査は、AIやクラウドの拡大に伴う電力・水資源・騒音・地域負担などの社会的制約を示す点で、インフラ戦略上は重要です。ただし、新技術や具体的なアーキテクチャの発表ではなく、単一調査に基づく世論動向が中心で、エンジニアリング上の即時性や技術革新性は限定的です。 [Editorial: "
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-22/blog.md",
+    "show_notes_path": "out/2026-08-22/show_notes.md",
+    "script_path": "out/2026-08-22/script_2hosts.md",
+    "audio_path": "out/2026-08-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 30243,
+        "output_tokens": 11221,
+        "cost_usd": 0.019514
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 42451,
+        "output_tokens": 7484,
+        "cost_usd": 0.239613
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4410,
+        "cost_usd": 0.052919999999999995
+      }
+    ],
+    "total_cost_usd": 0.312047
+  }
+}
