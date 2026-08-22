@@ -1,0 +1,373 @@
+{
+  "date": "2026-08-23",
+  "episode_date_local": "2026-08-23",
+  "content_snapshot_date": "2026-08-23",
+  "show_length_sec": 794,
+  "audio_size": 76256684,
+  "generated_at": "2026-08-22T20:38:31.770068+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2afc8a16",
+      "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
+      "title_ja": "新しい研究で、人間の信念を無視する世界モデルは誤った行動を予測することが判明",
+      "one_liner": "世界モデルに人の信念を組み込むと予測精度が向上",
+      "fingerprint": "2afc8a16c1e3eb5bfc71fd2c41e43e0c",
+      "score": 87,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-1581aae7",
+      "title": "Scenes From the 2026 Beijing World Humanoid Robot Games",
+      "title_ja": "2026年北京世界ヒューマノイドロボット競技会の様子",
+      "one_liner": "北京で世界人型ロボット大会が開幕",
+      "fingerprint": "1581aae76a7cd2df86c02d00cf55f58c",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-2eb4128d",
+      "title": "RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる",
+      "title_ja": "RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる",
+      "one_liner": "巨大MoEモデルをGPU一枚で動かす新エンジン検証",
+      "fingerprint": "2eb4128d48ceb12985cb51e4f391b5e1",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-7cdebfe2",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "title_ja": "DeepMind出身者が設立したInherent、自社AI「チームメイト」が研究再現でAnthropicとOpenAIを上回ったと発表",
+      "one_liner": "英新興Inherent、研究再現AIで大手超えと主張",
+      "fingerprint": "7cdebfe24d6cf4c01053b24ad16da428",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-f8534145",
+      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+      "title_ja": "Amazon Bedrock AgentCore Gatewayで AIエージェントのツールアクセスを管理する",
+      "one_liner": "AIエージェントのツール利用を段階的に統制する手法",
+      "fingerprint": "f85341451c239dfc7df89484bd059397",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-62d01f7c",
+      "title": "Study explains why AI agents benefit from \"skills\" and when they fail",
+      "title_ja": "AIエージェントが「スキル」から利益を得る理由と失敗する場面を解明した研究",
+      "one_liner": "AIエージェントの「スキル」効果と限界を解明",
+      "fingerprint": "62d01f7c136d964151a2ed059ef4ba80",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-afeb4489",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams"
+    },
+    {
+      "item_id": "item-3905c7dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression"
+    },
+    {
+      "item_id": "item-0891177b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: threats from space mirrors and credit for AI drugs"
+    },
+    {
+      "item_id": "item-018f400f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing AI Futures"
+    },
+    {
+      "item_id": "item-abcd0422",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work"
+    },
+    {
+      "item_id": "item-e3204c9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%"
+    },
+    {
+      "item_id": "item-003274f4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic’s Enterprise AI Venture Buys Consultancy"
+    },
+    {
+      "item_id": "item-2a41a8fb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "netbsd"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-f4798caf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "English ↔ Claudish — the over-engineered translator"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-ec366244",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Will the DOJ’s investigation into a16z spook other VCs?"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-b4f59873",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Veteran Barclays Semiconductor Banker Tim Luke to Join Morgan Stanley"
+    },
+    {
+      "item_id": "item-b16be628",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)"
+    },
+    {
+      "item_id": "item-8be5ff4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mother tongue"
+    },
+    {
+      "item_id": "item-bb7ac32f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks"
+    }
+  ],
+  "score_cache": {
+    "f4798caf0ae0b3762a5457d47c4ae6a6": {
+      "score": 32,
+      "title": "English ↔ Claudish — the over-engineered translator",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 英語を独自の「Claudish」に変換する翻訳ツールという点で、LLM・AI関連の遊び心はあるものの、記事タイトルだけでは技術的な新規性、実装規模、実用上のインパクトが確認できません。既出キーワードのClaudeに近い話題であり、明確な新展開と判断できないため減点しました。"
+    },
+    "018f400f4b27214a4700d8e55488d8d3": {
+      "score": 47,
+      "title": "Introducing AI Futures",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] AIの将来が権力、ガバナンス、経済、個人の自由に与える影響を扱う点は広範で重要ですが、具体的なモデル、製品、アーキテクチャ、技術的ブレークスルーを示す記事ではなく、現時点では概念的・論考的な内容です。また、AIは直近の既出キーワードに含まれ、同じAI関連テーマとして20点減点しました。 [Editorial: AI-focused source +6"
+    },
+    "f85341451c239dfc7df89484bd059397": {
+      "score": 54,
+      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] AIエージェントに企業ツールへのアクセス権限、監査性、カタログ化、段階的なセキュリティ強化を組み込む実践的なアーキテクチャであり、エージェント運用の信頼性向上には有用です。一方で、Amazon Bedrock AgentCoreを中心としたAWS固有のガバナンス手法の紹介で、業界の前提を変える新技術や大規模な機能革新ではありません。また、既出のage"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 35,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数セッションを一覧管理する「My work」ペインの紹介で、開発者の作業整理には有用ですが、既存機能の利用ガイドに近く、AIモデルや開発アーキテクチャを大きく変える技術革新ではありません。また、直近に取り上げ済みのGitHub・Copilot関連トピックと同じ話題に該当するため減点しています。 [Editorial: "
+    },
+    "afeb448906d88a4c0319e757da329753": {
+      "score": 49,
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] Microsoft Teams上の会話からGitHub Copilotを呼び出し、複数人が可視化されたエージェントセッションを共同で指示できる点は、開発ワークフローとチーム協業を改善する実用的な機能です。一方で、既存のGitHub Copilotおよびagentic開発の延長線上にある統合機能であり、基盤技術や業界構造を変えるほどの新規性は限定的です"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12上のアップストリーム依存パッケージ更新に限定されており、機能追加やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント関連のキーワードは既出ですが、今回は新展開というより保守的なリリースノートのため、重要度は低めです。 "
+    },
+    "ec36624487805ebfd15535e61cfe084a": {
+      "score": 27,
+      "title": "Will the DOJ’s investigation into a16z spook other VCs?",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] スタートアップ投資家の取締役会議席をめぐる米司法省の調査であり、技術革新やソフトウェア開発への直接的な影響は限定的です。VCの投資慣行や競争法上のガバナンスに関わる規制・法務ニュースのため、エンジニア視点での重要度は低めです。"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 27,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 企業向けAIの技術分析体制を強化する人事・メディア戦略の発表であり、GPU利用率、クラウド基盤、DevOps、エージェントセキュリティなど実務的な論点には触れているものの、新しい製品、アーキテクチャ、研究成果、技術仕様が公開された記事ではありません。さらに、既出キーワードであるAI、data、agentic、multi、Amazon、security"
+    },
+    "62d01f7c136d964151a2ed059ef4ba80": {
+      "score": 54,
+      "title": "Study explains why AI agents benefit from \"skills\" and when they fail",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] AIエージェントにおける「skills」の有効性を、追加知識ではなく構造化ワークフローによる性能向上として分析し、スキルライブラリの拡大に伴う選択・検索の限界も示している点は、エージェント設計や評価に有益な研究です。一方で、既に取り上げ済みのAI・agent関連トピックと同じ領域であり、業界の前提を変える実装や製品発表ではなく、影響範囲も研究知見に限"
+    },
+    "bb7ac32f07df63d5d46328c4a92fca3b": {
+      "score": 2,
+      "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 旅行者向けのプレミアムeSIMプランの製品レビューであり、通信サービスの利便性や特典、価格を扱う一般消費者向けの話題です。ソフトウェア技術、開発者向け基盤、AI、クラウド、アーキテクチャなどへの新規性・技術的影響は限定的で、評価基準上は最低評価帯に該当します。 [Editorial: gadget topic -8]"
+    },
+    "0891177baa8908493b055010cb1cbeb6": {
+      "score": 48,
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 宇宙空間の反射鏡で地上へ太陽光を届ける構想は、宇宙インフラ・エネルギー技術として新規性があり、夜空の明るさや天文学への影響という広範な外部性も持つため、一般的な技術ニュースより重要度は高めです。一方で、具体的な実装規模や技術的ブレークスルー、実用化時期は記事スニペットから確認できず、業界の前提を変える段階とは言えません。AI創薬へのクレジットに関する"
+    },
+    "1581aae76a7cd2df86c02d00cf55f58c": {
+      "score": 79,
+      "title": "Scenes From the 2026 Beijing World Humanoid Robot Games",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] ヒューマノイドロボットという先端技術分野で、世界規模の競技会に666チーム・2,000台超が参加する点は、開発エコシステムの拡大と実機性能の比較・検証を示す重要なニュースです。認識、歩行制御、協調動作、耐久性などの実装技術が競争を通じて進展する可能性があります。一方で、個別の技術ブレークスルーや商用化発表ではなく、イベントの開催報道が中心のため、業界"
+    },
+    "b4f59873e9de6fa1afeafe2f75d3e6cc": {
+      "score": 10,
+      "title": "Veteran Barclays Semiconductor Banker Tim Luke to Join Morgan Stanley",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 半導体投資銀行家のMorgan Stanleyへの転職に関する人事ニュースであり、技術革新、ソフトウェア開発、クラウド、AI、アーキテクチャへの直接的な影響はほぼありません。半導体業界の資金調達やM&A動向を示す可能性はあるものの、記事単体では技術的な新規性やエンジニアへの実務的インパクトが乏しいので、一般消費者向け製品に近い最低評価帯として低くしま"
+    },
+    "2eb4128d48ceb12985cb51e4f391b5e1": {
+      "score": 79,
+      "title": "RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] VRAMに収まらない120B級MoEモデルを、コンシューマ向けGPUと大容量RAMの組み合わせで実用化するという、LLM推論基盤として新規性と技術的インパクトが高い記事です。expertのRAM配置、GPUキャッシュ、転送ボトルネックというアーキテクチャ上の論点が明確で、vLLMやllama.cppとは異なる実用的な位置付けもあります。一方、単一ツー"
+    },
+    "2a41a8fb50557ff7d9b55a6c26c1a888": {
+      "score": 36,
+      "title": "netbsd",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] NetBSDは移植性やOSカーネル技術の観点ではエンジニアにとって一定の価値がありますが、記事タイトルしかなく、具体的な新機能、リリース、アーキテクチャ変更、性能改善などの情報がありません。現時点では業界への影響範囲や新規性を評価できないため、中低程度のスコアとします。"
+    },
+    "abcd042277138d099eb0a5fdf81f980a": {
+      "score": 44,
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "date": "2026-08-22",
+      "reason": "[ScoreCache 2026-08-22] [Claude API Evaluation] ChatGPT WorkとCodexを活用してローンチ作業を数週間から数日に短縮した具体的な導入事例で、生成AIの実務的な生産性向上を示している点は評価できます。一方で、基盤技術の新規発表や業界全体の前提を変える革新ではなく、単一企業のケーススタディに留まります。また、AIおよびChatGPT系の話題は"
+    },
+    "3905c7ddaaade76526633b479c77724e": {
+      "score": 49,
+      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] Amazon Bedrock上のRAGで、検索後にクエリに関連するチャンクだけを小型モデルで圧縮し、主要モデルへの入力トークン数と推論コストを削減する実装パターンです。RAGを大規模運用する際のコスト・レイテンシ・コンテキスト品質のトレードオフを改善でき、実務的な価値は高い一方、既存のRAG最適化の延長であり、業界の前提を変える新技術ではありません。"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 35,
+      "title": "May 11, 2026",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12上で上流依存パッケージを最新版に更新しただけで、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。エージェント基盤に関する話題ではあるものの、既出のagent関連トピックと重複し、単なる定期的なリリース運用に近いため、重要度は低め"
+    },
+    "7cdebfe24d6cf4c01053b24ad16da428": {
+      "score": 60,
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating resea",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] DeepMind alumniによる新興AIラボが、科学論文の再現実験に特化したAIエージェントを公開し、AnthropicやOpenAIを上回ったという内容は、研究自動化や自律型ソフトウェアの実用化に関わる注目度の高いニュースです。特に論文の理解だけでなく、実験設計・実装・検証まで担えるなら、R&Dの生産性や科学的発見のプロセスを変える可能性があり"
+    },
+    "2afc8a16c1e3eb5bfc71fd2c41e43e0c": {
+      "score": 87,
+      "title": "World models that ignore human beliefs predict the wrong actions, new research shows",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 物理法則だけでなく、人間の信念・意図・欲求といった心的状態を統合して予測する「Mental World Modeling」は、AIエージェントやロボティクスの行動予測精度に直結する重要な研究です。より小規模な言語モデルでも、心的モデルを持たない高性能モデルを上回るという結果は、モデル規模一辺倒ではない新しい設計方針を示しています。一方で、現時点では研"
+    },
+    "b16be628b39d9c083b0d9ad5fb57b729": {
+      "score": 6,
+      "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] モニターアームの比較レビューであり、一般消費者向けのデスク周辺機器に関する記事です。ソフトウェア、AI、クラウド、アーキテクチャなどの技術革新やエンジニアリング上の重要な変化は含まれず、技術業界への影響範囲も限定的なため、最低評価帯としました。"
+    },
+    "8be5ff4b25707147f8c3202619a23468": {
+      "score": 6,
+      "title": "Mother tongue",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] 子どもの就寝時の会話を描いた文学・エッセイ系の記事であり、AIやソフトウェア、クラウド、プログラミング言語などの技術的テーマを含みません。エンジニアリングへの影響、技術的新規性、業界への波及効果はいずれもないため、最低評価帯としました。"
+    },
+    "e3204c9dc50b2bf1a7b51364f01bfb4c": {
+      "score": 43,
+      "title": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] NVIDIA製AIチップを搭載したサーバーの価格が15%以上上昇する動きは、GPUクラスタの調達費用やクラウドAIサービスの原価、データセンター投資計画に波及するため、エンジニアやインフラ運用者にとって実務的な影響があります。一方で、新しいアーキテクチャや製品発表ではなく、メモリ価格高騰を背景としたコスト・サプライチェーンのニュースです。また、AI関"
+    },
+    "003274f4d9c7eba5467c73661b49ebe8": {
+      "score": 43,
+      "title": "Anthropic’s Enterprise AI Venture Buys Consultancy",
+      "date": "2026-08-23",
+      "reason": "[Claude API Evaluation] Anthropicと金融大手の合弁企業がAIコンサルティング会社を買収し、企業向けAI導入やClaudeの業務利用を加速させる動きは、エンタープライズAIの販売・実装モデルとして一定の重要性があります。一方で、新しいモデル技術やアーキテクチャの発表ではなく、主に事業拡大と買収に関するニュースです。さらに、既出キーワードであるAI、Anthropic、"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-23/blog.md",
+    "show_notes_path": "out/2026-08-23/show_notes.md",
+    "script_path": "out/2026-08-23/script_2hosts.md",
+    "audio_path": "out/2026-08-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25215,
+        "output_tokens": 9661,
+        "cost_usd": 0.016636
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40302,
+        "output_tokens": 7264,
+        "cost_usd": 0.229866
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4318,
+        "cost_usd": 0.051816
+      }
+    ],
+    "total_cost_usd": 0.298318
+  }
+}
