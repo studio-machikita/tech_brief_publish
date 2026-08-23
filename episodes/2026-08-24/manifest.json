@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-24",
+  "episode_date_local": "2026-08-24",
+  "content_snapshot_date": "2026-08-24",
+  "show_length_sec": 780,
+  "audio_size": 74904044,
+  "generated_at": "2026-08-23T20:43:50.849066+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f2597dcf",
+      "title": "Robots Are in Their GPT-2 Era",
+      "title_ja": "ロボット、GPT-2時代に突入",
+      "one_liner": "ロボットAIは今、言語AIのGPT-2時代に相当",
+      "fingerprint": "f2597dcf93e839052d50b29f4b799441",
+      "score": 89,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-39a62a47",
+      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+      "title_ja": "AI上司、自社ルールを人間に指摘されて初の従業員解雇",
+      "one_liner": "AI店長が初の解雇、決断には人間の後押しが必要",
+      "fingerprint": "39a62a4771268b1839709c4c42732465",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-1634f5ba",
+      "title": "Alibaba CEO Expects AI-Related ARR to Reach $10 Billion by September",
+      "title_ja": "アリババCEO、AI関連ARRが9月までに100億ドルに達すると予測",
+      "one_liner": "Alibaba、AI事業の年間換算収益が100億ドル到達見込み",
+      "fingerprint": "1634f5baad75675db8ebc82ebb60023e",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-1bb0a835",
+      "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+      "title_ja": "AWSのエージェント型AIで航空機IFEC診断を加速",
+      "one_liner": "AIで機内エンタメの故障診断を数分に短縮",
+      "fingerprint": "1bb0a83521b6ef247236fb894de730a7",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-2866db79",
+      "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+      "title_ja": "OpenRouterでエージェント型トークン利用が14倍に急増、AIがAI最大の顧客に",
+      "one_liner": "AIエージェントがOpenRouterで人間超えの利用量に",
+      "fingerprint": "2866db79ec30c4fa69a9f870e73b1570",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-3905c7dd",
+      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+      "title_ja": "Amazon BedrockでRAGコストをクエリ対応圧縮で削減",
+      "one_liner": "Bedrockで実現するRAGコスト削減の新手法",
+      "fingerprint": "3905c7ddaaade76526633b479c77724e",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-afeb4489",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams"
+    },
+    {
+      "item_id": "item-9d118c64",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?"
+    },
+    {
+      "item_id": "item-018f400f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing AI Futures"
+    },
+    {
+      "item_id": "item-abcd0422",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work"
+    },
+    {
+      "item_id": "item-0891177b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: threats from space mirrors and credit for AI drugs"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-5d137857",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How I Find Problems to Solve as a Staff Engineer"
+    },
+    {
+      "item_id": "item-074d9f50",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "オーバーナイトプレミアムに関連した価格ドライバー特徴量の話"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-2646dca7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-4ff36245",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fable &amp; The End of the Free Lunch"
+    },
+    {
+      "item_id": "item-712633d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta Trial: How Social Media Lawsuits Threaten Big Tech"
+    },
+    {
+      "item_id": "item-8bf09805",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What’s the Best Kindle of 2026? (So Far)"
+    },
+    {
+      "item_id": "item-ddabac7d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple’s Foldable iPhone Details; Retail Store Changes for New Home Products"
+    },
+    {
+      "item_id": "item-d6d72046",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King"
+    },
+    {
+      "item_id": "item-8be5ff4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mother tongue"
+    }
+  ],
+  "score_cache": {
+    "5d137857dae4ed94380712377dc04b51": {
+      "score": 36,
+      "title": "How I Find Problems to Solve as a Staff Engineer",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] スタッフエンジニアが解くべき課題を発見する方法を扱う記事で、技術組織における問題設定や優先順位付けの改善には役立つ可能性があります。一方で、具体的な技術革新、アーキテクチャ、製品発表などではなく、個人の経験や開発プロセスに関する内容と考えられるため、業界全体への影響範囲と新規性は限定的です。既出キーワードとの直接的な重複もありません。"
+    },
+    "018f400f4b27214a4700d8e55488d8d3": {
+      "score": 47,
+      "title": "Introducing AI Futures",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] AIの将来が権力構造・ガバナンス・経済・個人の自由に与える影響を扱う新しい公式ブログであり、社会的な論点としては重要です。一方で、具体的なモデル、製品、研究成果、アーキテクチャ変更などの技術的発表はなく、エンジニアが直ちに活用できる情報は限定的です。また、OpenAIおよびAIに関する既出テーマと重なるため、重複分として減点しました。 [Editor"
+    },
+    "3905c7ddaaade76526633b479c77724e": {
+      "score": 49,
+      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] RAGの推論コストを、検索後に小型モデルでクエリ関連性を判定してコンテキスト圧縮する実装パターンは、Amazon Bedrockを大規模運用するエンジニアにとって実用性が高く、入力トークン削減と回答品質のバランスを設計する具体的な知見です。クラウドアーキテクチャおよびLLM運用コスト最適化としては評価できます。一方で、Amazon、Bedrock、A"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 38,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数セッションを一覧管理する「My work」ペインの使い方を紹介する初心者向け記事で、開発者のタスク整理には一定の実用性があります。ただし、新しいAIモデルやアーキテクチャの発表ではなく、既存製品の操作ガイドに近いため技術的インパクトは限定的です。また、既に取り上げ済みの「GitHub」「Copilot」に直接該当し、"
+    },
+    "afeb448906d88a4c0319e757da329753": {
+      "score": 49,
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] Microsoft Teams上の会話からGitHub Copilotを共有エージェントセッションとして起動し、複数人で指示・確認できる点は、開発チームの協調ワークフローを改善する実用的な機能です。一方で、基盤となる技術は既存のGitHub Copilot／agentic開発の延長であり、業界の前提を変えるような新規アーキテクチャではありません。既に"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 31,
+      "title": "April 27, 2026",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12上の依存パッケージ更新にとどまり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agent」と同じ領域・角度であり、明確な新展開ではないため減点しました。運用上の保守"
+    },
+    "9d118c640c265ad65dcf9cb23fc4e1f4": {
+      "score": 48,
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 新しいAIモデルの登場は技術トレンドとして注目度が高く、提供元や性能、目的が判明すれば業界への影響を評価できる可能性があります。一方で、現時点では「ステルスモデル」を巡る憶測が中心で、ベンチマークや実装上の新規性、提供条件など具体的な技術情報がありません。また、AI・モデル関連は直近の放送で既出のキーワードに該当するため、重複分を減点しました。 [E"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 35,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] VentureBeatがエンタープライズAI向けの調査体制を強化する人事・事業方針の発表であり、AIインフラ、GPU利用率、DevOps、セキュリティなど今後扱うテーマ自体には技術的な関連性があります。一方で、新しいモデル、アーキテクチャ、製品、OSS、実装手法が発表された記事ではなく、エンジニアが直ちに利用できる具体的な技術成果や業界構造を変える内"
+    },
+    "39a62a4771268b1839709c4c42732465": {
+      "score": 66,
+      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] AIエージェントが実店舗の人事判断を実際に実行した事例であり、モデルの能力差や、ルールを再提示されないと解雇判断に至らない挙動など、エージェントの自律性・ガードレール設計・人間による監督の課題が具体的に示されています。技術的・社会的な示唆は大きい一方、基盤モデルやアーキテクチャの革新ではなく、限定的な実証事例です。また、既出のAI／エージェント関連テ"
+    },
+    "d6d7204639699a57094a65c55e965467": {
+      "score": 2,
+      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 一般消費者向けのOLEDゲーミングモニター製品レビューであり、技術的には新しいサブピクセル配列による文字・映像の明瞭度向上が主題です。ただし、業界のアーキテクチャや開発者向け技術を変えるものではなく、評価対象も単一製品に限定されるため、重要度は最低評価帯としました。 [Editorial: gadget topic -8]"
+    },
+    "0891177baa8908493b055010cb1cbeb6": {
+      "score": 43,
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 宇宙空間に反射鏡を展開して地上へ太陽光を照射する構想は、宇宙インフラやエネルギー技術として新規性があります。一方で、夜空の明るさや天文学観測への影響、環境・運用上のリスクが中心で、実装済みの技術革新やソフトウェア業界への直接的な波及は限定的です。AI創薬への言及もありますが、既出キーワードであるAIに関する一般的な話題の範囲で、明確な新展開が示されて"
+    },
+    "ddabac7d2f6215bd6752dd63c9020224": {
+      "score": 4,
+      "title": "Apple’s Foldable iPhone Details; Retail Store Changes for New Home Products",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 主題は折りたたみ式iPhoneの製品情報と小売店舗の変更、価格上昇の見通しであり、一般消費者向けガジェット・販売戦略のニュースです。折りたたみ端末には一定の技術的関心があるものの、記事からは新しいアーキテクチャや業界標準を変える具体的な技術革新は確認できず、ソフトウェアエンジニアへの直接的な影響も限定的です。 [Editorial: gadget t"
+    },
+    "1634f5baad75675db8ebc82ebb60023e": {
+      "score": 60,
+      "title": "Alibaba CEO Expects AI-Related ARR to Reach $10 Billion by September",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] AlibabaのAI関連製品が四半期ベースの年換算売上で73億ドルから100億ドルへ拡大する見通しは、AI技術の商用化・収益化が大規模に進んでいることを示す重要な指標です。特にクラウド、生成AIモデル、企業向けAIサービスの採用規模を推測できる点で業界への影響は大きい一方、技術仕様や新しいアーキテクチャの発表ではなく、主に経営見通しと業績関連のニュー"
+    },
+    "074d9f50fcffaad7656a7cb3e98fce9b": {
+      "score": 36,
+      "title": "オーバーナイトプレミアムに関連した価格ドライバー特徴量の話",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 取引所間の相関やオーバーナイトプレミアムを価格予測の特徴量として扱うクオンツ分析であり、金融データ分析や機械学習による特徴量設計の観点では技術的な興味深さがあります。一方で、記事の中心は特定の投資戦略や検証上の注意点で、ソフトウェアアーキテクチャ、AI、クラウド、主要言語などの業界基盤を変える技術革新ではありません。スプレッドや手数料を無視した仮想値"
+    },
+    "4ff3624581be725fba0d2fa81758bf5c": {
+      "score": 27,
+      "title": "Fable &amp; The End of the Free Lunch",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] タイトルだけでは技術的な新規性や具体的な製品・アーキテクチャの発表内容を確認できず、「無料提供の終了」やビジネスモデル変更に関する論考と判断しました。ソフトウェア業界への影響はあり得るものの、AI・クラウド・主要言語などの技術革新を直接示す情報がなく、具体性と波及範囲が不明なため低めの評価です。"
+    },
+    "abcd042277138d099eb0a5fdf81f980a": {
+      "score": 44,
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "date": "2026-08-22",
+      "reason": "[ScoreCache 2026-08-22] [ScoreCache 2026-08-22] [Claude API Evaluation] ChatGPT WorkとCodexを活用してローンチ作業を数週間から数日に短縮した具体的な導入事例で、生成AIの実務的な生産性向上を示している点は評価できます。一方で、基盤技術の新規発表や業界全体の前提を変える革新ではなく、単一企業のケーススタディに留ま"
+    },
+    "1bb0a83521b6ef247236fb894de730a7": {
+      "score": 54,
+      "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 航空機のIFEC障害診断にagentic AIを実運用し、診断時間を数時間から数分へ短縮した点は、AWS上の生成AI活用事例として具体性と実務的インパクトがあります。Amazon Bedrock、SageMaker、Glueを組み合わせたシステム構成もエンジニアにとって参考になります。一方で、既出キーワードであるagentic AI、Amazon、B"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 34,
+      "title": "May 11, 2026",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージの最新版を反映したリリースであり、保守性や環境更新の面では意味がありますが、新機能・アーキテクチャ変更・性能向上などの具体的な技術革新は確認できません。Agent関連の話題は既出キーワードにも該当し、同じ領域の定期アップデートとして減点しました。 [Edi"
+    },
+    "2646dca7906c582b72ccfc7266184325": {
+      "score": 32,
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] GDPRに基づく約8億2,500万ユーロの制裁は金額・企業影響ともに非常に大きいものの、主題は規制・法務であり、エンジニアリング上の技術革新そのものではないため評価は低めです。一方、自動化されたドライバー停止判断に関する事案であり、アルゴリズムによる不利益処分、説明可能性、異議申立て、監査ログや人間によるレビュー設計など、機械学習システムの本番運用に"
+    },
+    "2866db79ec30c4fa69a9f870e73b1570": {
+      "score": 54,
+      "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] AIエージェントが人間を上回るトークン消費主体になり、利用量が14倍に増加したというデータは、推論コスト、キャッシュ戦略、LLMインフラ設計、エージェント経済の拡大を考えるうえで有益です。特に約70%が安価なキャッシュ済みプロンプトである点は、トークン数と実コストが一致しないことを示す具体的な技術的示唆があります。一方で、既に取り上げ済みのAI・ag"
+    },
+    "8bf098057c507a2a30912c40b77d4e03": {
+      "score": 6,
+      "title": "What’s the Best Kindle of 2026? (So Far)",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] AmazonのKindle電子書籍リーダーに関する消費者向け製品比較記事であり、ソフトウェア技術、アーキテクチャ、AI、クラウドなどへの新規性・技術的インパクトは限定的です。指定済みキーワードのAmazonに関連しますが、既存話題の明確な続報や技術革新ではないため、追加減点は適用しません。"
+    },
+    "8be5ff4b25707147f8c3202619a23468": {
+      "score": 2,
+      "title": "Mother tongue",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] 技術ニュースではなく、子どもとの就寝時の会話を描いた文学・エッセイ系の文章です。AI、クラウド、プログラミング言語、セキュリティなどソフトウェア業界への技術的影響や新規性が確認できないため、一般向けガジェット同様に最低評価帯としました。"
+    },
+    "712633d1f02aa16b03120c8c627de562": {
+      "score": 27,
+      "title": "Meta Trial: How Social Media Lawsuits Threaten Big Tech",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] MetaやGoogleのプラットフォーム設計・運用に対する製造物責任や過失認定に関わる訴訟であり、法規制・企業リスクの観点では重要ですが、技術革新そのものではありません。20歳の原告への600万ドル判決は、ソーシャルメディアの依存性や若年層保護に関する訴訟戦略、設計上のリスク管理に影響し得る具体的な進展です。一方、既出キーワードのAIやエージェント関"
+    },
+    "f2597dcf93e839052d50b29f4b799441": {
+      "score": 89,
+      "title": "Robots Are in Their GPT-2 Era",
+      "date": "2026-08-24",
+      "reason": "[Claude API Evaluation] ロボティクス分野で、単一タスク専用の制御ではなく、複数の作業へ汎化できる基盤モデルを実ロボットに適用する進展を扱っており、AI・ロボティクスの両面で技術的な重要度が高い。Physical Intelligenceのモデルが洗濯物や段ボールを追加の個別学習なしで扱える点は、ロボット汎用化に向けた具体的なマイルストーンで、将来的にデータ収集、模倣学習、エ"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-24/blog.md",
+    "show_notes_path": "out/2026-08-24/show_notes.md",
+    "script_path": "out/2026-08-24/script_2hosts.md",
+    "audio_path": "out/2026-08-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-24/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-24/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25773,
+        "output_tokens": 9784,
+        "cost_usd": 0.016895
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 41011,
+        "output_tokens": 7513,
+        "cost_usd": 0.235728
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4175,
+        "cost_usd": 0.0501
+      }
+    ],
+    "total_cost_usd": 0.302723
+  }
+}
