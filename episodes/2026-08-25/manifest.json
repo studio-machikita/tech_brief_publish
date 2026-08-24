@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-25",
+  "episode_date_local": "2026-08-25",
+  "content_snapshot_date": "2026-08-25",
+  "show_length_sec": 737,
+  "audio_size": 70752044,
+  "generated_at": "2026-08-24T20:46:30.504239+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1f93f610",
+      "title": "Introducing new Ray capabilities on SageMaker HyperPod",
+      "title_ja": "SageMaker HyperPodの新しいRay機能のご紹介",
+      "one_liner": "SageMaker HyperPodがRayをEKS上で管理サポート",
+      "fingerprint": "1f93f61041d17fb7c69d6edb9ca3c625",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-f8f98be7",
+      "title": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
+      "title_ja": "アリババの「Wan3.0」、テキスト・画像・文書から最大30秒のAI動画を生成",
+      "one_liner": "Alibaba新AI動画生成モデルWan3.0が登場",
+      "fingerprint": "f8f98be7c34fa1a3e6e2d335d4fcc3a2",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-479fb1a3",
+      "title": "Nuclear Power Demand Driven by AI, Hyperscaler Companies, Says TerraPower CEO",
+      "title_ja": "TerraPower CEO、AIとハイパースケーラー企業が原子力発電の需要を牽引と発言",
+      "one_liner": "AI企業の電力需要が原子力復権を後押し",
+      "fingerprint": "479fb1a392af8b7b6891bb8238ee4822",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-dcb5d0ee",
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "title_ja": "SDAD:AIネイティブなSDLCのための仕様駆動型エージェント開発",
+      "one_liner": "仕様書駆動でAIエージェント開発を体系化するSDAD提案",
+      "fingerprint": "dcb5d0ee618b67d6fa358b7f928de917",
+      "score": 60,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-a3acd121",
+      "title": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "title_ja": "生の文字起こしを超えて：LLMベースのデジタルツインのための構造化ペルソナ抽出",
+      "one_liner": "LLMデジタルツインを個人の構造化ペルソナで再現",
+      "fingerprint": "a3acd1212e34e99e9d3b4c8873a94464",
+      "score": 60,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-2d91d3f4",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "title_ja": "GPT‑5.6をKiroに導入、開発者向けの価格性能比を向上",
+      "one_liner": "Kiroが GPT‑5.6 に対応、開発の価格性能向上",
+      "fingerprint": "2d91d3f47ba9a5f68f4deb683af3c242",
+      "score": 53,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-afeb4489",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams"
+    },
+    {
+      "item_id": "item-a854c194",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pew study confirms sharp rise of AI-written text on the web since ChatGPT's launch"
+    },
+    {
+      "item_id": "item-bbee2257",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS"
+    },
+    {
+      "item_id": "item-018f400f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing AI Futures"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-2f939dc4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AIでイベントカタログを279件自動生成し、成果物の検証を設計した話"
+    },
+    {
+      "item_id": "item-f1b8a2e0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-0bc94d7f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - l3a0/claude-plugins: l3a0&#39;s Claude Code plugin marketplace — kindle-highlights: verbatim Kindle highlight extraction with truncation recovery"
+    },
+    {
+      "item_id": "item-b0a83015",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exclusive: Key OpenAI Sales Executive Kaylin Voss Returns to Salesforce"
+    },
+    {
+      "item_id": "item-a1da7165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-27af3174",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to encourage smarter AI use in the classroom"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-20c69521",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there’s still space"
+    },
+    {
+      "item_id": "item-82e47430",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "World&#x27;s oceans hit highest temperature on record as El Niño grows"
+    },
+    {
+      "item_id": "item-390a7546",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Kitchen Gadget to Prevent Salmonella Is a Good Meat Probe"
+    },
+    {
+      "item_id": "item-47bc1614",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now"
+    }
+  ],
+  "score_cache": {
+    "0bc94d7fb12fed0333e4e1cb77a405d4": {
+      "score": 37,
+      "title": "GitHub - l3a0/claude-plugins: l3a0&#39;s Claude Code plugin marketplace — kindle-highlights: verbatim Kindle highlight e",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] Claude Code向けプラグインマーケットプレイスと、Kindleハイライトの欠落・切り詰めを復元する実装は、開発者の知的作業を効率化する実用的なOSS事例です。ただし、単一用途のプラグインで影響範囲は限定的で、業界の前提を変える技術革新ではありません。また、既に取り上げ済みの「claude」関連トピックと重なるため、重複分として減点しています。"
+    },
+    "2d91d3f47ba9a5f68f4deb683af3c242": {
+      "score": 53,
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] GPT-5.6をKiroに統合し、開発者向けの計画・実装・レビュー・テストを支援するため、AIコーディング環境としての実用性と開発生産性への影響は大きい。一方で、基盤モデル自体の新規発表ではなく、既存のGPT系技術を開発ツールへ適用した提供開始にとどまる。また、既に取り上げ済みのAI・OpenAI関連テーマと重なるため減点し、価格性能の改善という具体"
+    },
+    "1f93f61041d17fb7c69d6edb9ca3c625": {
+      "score": 90,
+      "title": "Introducing new Ray capabilities on SageMaker HyperPod",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] SageMaker HyperPod上でKubeRayベースのマネージドRayを利用でき、クラスタ管理、Notebook接続、可観測性、分散学習・推論までを統合する実装面の具体性が高い発表です。Rayの標準APIとAmazon EKSを活用できるため、分散AIワークロードの運用負荷や導入障壁を下げ、クラウド上のAI基盤アーキテクチャに実質的な影響があ"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 43,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数セッションを一覧管理できる「My work」機能は、開発者のタスク整理や作業状況の可視化に役立つ実用的な改善です。ただし、基盤技術や開発ワークフローを大きく変える新機能ではなく、初心者向けの運用支援に留まります。また、既出キーワードであるGitHubおよびCopilot関連の話題と重なるため、重複分として減点しました"
+    },
+    "afeb448906d88a4c0319e757da329753": {
+      "score": 49,
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] Microsoft Teams上の会話からGitHub Copilotを共有エージェントとして起動し、参加者全員で指示・確認できる点は、開発コラボレーションとエージェント活用の実務性を高める具体的な統合です。一方で、新しい基盤技術やアーキテクチャの発明というより既存サービス間の連携であり、影響範囲もGitHubおよびTeams利用者が中心です。さらに"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 33,
+      "title": "April 27, 2026",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの反映にとどまり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。エージェント関連ではあるものの、既出キーワードの「agent」と同じ領域の定常的なリリースノートであり、重複分を減点しました。 [Edi"
+    },
+    "20c69521c72bce7e549ac1e58ac40cd4": {
+      "score": 10,
+      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there’s still space",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] TechCrunch Disrupt 2026への出展募集・イベント告知であり、技術そのものの革新やアーキテクチャ、プログラミング言語の進化を扱っていません。スタートアップの資金調達・提携機会には有用ですが、エンジニアリング上の具体的な新規性や影響範囲は限定的です。"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 38,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 企業向けAIインフラ、GPU利用率、プラットフォームエンジニアリング、Observabilityなど、エンジニアに関連する調査テーマは含まれていますが、主題は新技術や製品の発表ではなく、VentureBeatによるアナリスト採用とリサーチ事業の拡大です。実際のアーキテクチャ変更、OSS、クラウド基盤の進化など直接的な技術インパクトは限定的です。また、"
+    },
+    "a854c1946ef95d22c87952469bb81d7a": {
+      "score": 49,
+      "title": "Pew study confirms sharp rise of AI-written text on the web since ChatGPT's launch",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] AI生成テキストがウェブ全体にどの程度浸透したかを、約50万ページの分析で定量化しており、検索品質、コンテンツ運用、学習データ、SEO、情報の信頼性に広範な影響を与える重要な調査です。一方で、新しいモデルやアーキテクチャの発表ではなく、既知のAI普及トレンドを裏付ける分析記事に留まります。既に取り上げ済みの「ai」と同じ大きな話題に該当するため、重複"
+    },
+    "390a7546aca0627c67375e6ce0160603": {
+      "score": 6,
+      "title": "The Best Kitchen Gadget to Prevent Salmonella Is a Good Meat Probe",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 家庭向けの調理器具と食品衛生に関する一般消費者向け記事であり、ソフトウェア、AI、クラウド、プログラミング言語などの技術領域との関連性がありません。業界への技術的インパクトや新規性も限定的なため、最低評価帯としました。"
+    },
+    "27af3174afc92964252b2f54934cc6e3": {
+      "score": 33,
+      "title": "How to encourage smarter AI use in the classroom",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 教育現場でのLLM活用方法は、AIの社会実装や導入設計という点で一定の意義がありますが、記事概要からは新しいモデル、アーキテクチャ、具体的なプロダクト発表などの技術的ブレークスルーは確認できません。既に取り上げ済みの「AI」およびLLM活用と同じ領域の話題であり、明確な新展開も読み取れないため20点減点しました。エンジニア視点では、実装技術よりも教育"
+    },
+    "479fb1a392af8b7b6891bb8238ee4822": {
+      "score": 77,
+      "title": "Nuclear Power Demand Driven by AI, Hyperscaler Companies, Says TerraPower CEO",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] AIやハイパースケーラーのデータセンター拡大が、原子力発電という電力インフラの需要を直接押し上げている点で、技術業界への波及が大きいニュースです。TerraPowerがデータセンター事業者との新設原発契約を年内に発表する見通しで、AI向け計算基盤のボトルネックが半導体やクラウドだけでなく、安定した大規模電源にも及んでいることを示します。一方、現時点で"
+    },
+    "b0a83015e2c30d4b1bf353e52810e939": {
+      "score": 37,
+      "title": "Exclusive: Key OpenAI Sales Executive Kaylin Voss Returns to Salesforce",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] OpenAIの営業幹部が短期間で退任しSalesforceへ戻るという人事ニュースで、AI企業の営業組織や人材流動性を示す点には一定の業界的関心があります。ただし、新技術・製品・アーキテクチャの発表ではなく、エンジニアリングへの直接的な影響は限定的です。OpenAI関連は既出キーワードに該当しますが、今回の主題は新技術ではなく幹部人事であり、同じ技術"
+    },
+    "2f939dc4fbac057f533d76a4bc354a01": {
+      "score": 43,
+      "title": "AIでイベントカタログを279件自動生成し、成果物の検証を設計した話",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 複数リポジトリのコードから計測定義279件をAIで自動抽出し、出力の揺らぎや存在しないイベント名の混入を防ぐ検証設計まで扱っている点は、AI活用を実運用へ落とし込む具体性があり、エンジニアにとって実践的な価値が高いです。特に再現性の確保、差分レビュー、生成物の正当性検証は、AIによるコード解析・ドキュメント生成に共通する重要なアーキテクチャ上の論点で"
+    },
+    "dcb5d0ee618b67d6fa358b7f928de917": {
+      "score": 60,
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] LLMコーディングエージェントをソフトウェア開発ライフサイクル全体へ組み込む「仕様駆動開発」を体系化する研究であり、FRDやリポジトリ全体を大規模コンテキストで処理する設計思想は、開発プロセスや品質管理に影響し得ます。一方で、現時点ではarXivの新規レポートであり、実運用での効果や普及度は未検証です。また、直近に取り上げ済みのagentic／age"
+    },
+    "a1da7165ed42648d2db91b17d6478db2": {
+      "score": 37,
+      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (X",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 倒産予測における不均衡データ対策、特徴量選択、スタッキングアンサンブル、XAIを組み合わせた実装志向の研究で、機械学習エンジニアには一定の参考価値があります。一方、対象が台湾の既存UCIデータセットに限定され、手法も既存技術の組み合わせが中心で、基盤モデルや新しいアーキテクチャのような業界の前提を変える革新性はありません。金融リスク分析への応用として"
+    },
+    "a3acd1212e34e99e9d3b4c8873a94464": {
+      "score": 60,
+      "title": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] LLMベースのデジタルツインにおいて、単純な要約ではなく構造化されたペルソナ情報を抽出することで、個人の新規状況への応答予測精度を高めようとする研究であり、AIエージェントやパーソナライズドモデルの設計に関連する新規性があります。一方で、現時点ではarXivの初期研究で、実運用への影響や再現性、プライバシー面の課題は未検証です。LLM・AI領域の既出"
+    },
+    "82e474308a88d0cb8bc6fd8f1fcf2b17": {
+      "score": 10,
+      "title": "World&#x27;s oceans hit highest temperature on record as El Niño grows",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 海洋温度とエルニーニョに関する気候ニュースであり、AI・ソフトウェア開発・クラウド・ロボティクスなどの技術革新を直接扱っていません。エンジニアリングへの即時的な影響や具体的な技術要素も乏しく、一般的な科学・環境報道としての重要度にとどまるため、低く評価します。"
+    },
+    "018f400f4b27214a4700d8e55488d8d3": {
+      "score": 47,
+      "title": "Introducing AI Futures",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] AIが社会・経済・ガバナンス・個人の自由に与える影響を扱う点でテーマ自体は重要ですが、具体的な技術、製品、研究成果、実装方針を示す記事ではなく、将来展望や議論の場を紹介する内容にとどまります。また、既に取り上げ済みのAIおよびOpenAIに直接該当し、同じ話題として減点対象です。エンジニア視点では、直ちにアーキテクチャや開発現場を変える情報量が少ない"
+    },
+    "bbee2257db74e9b39a33f6e68c7673db": {
+      "score": 49,
+      "title": "Democratizing institutional knowledge: Building an AI-powered knowledge management system with AWS",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] AWS上で音声ファーストのAIアバターとRAGを組み合わせ、属人的な業務知識を検索・活用可能にする具体的な実装例であり、エンジニアにとってはCloudFormationによる短時間導入やスマートキャッシュ設計が参考になります。一方で、Bedrock Knowledge Basesを用いた知識管理システムは既存技術の組み合わせが中心で、業界の前提を変え"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 33,
+      "title": "May 11, 2026",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12上の上流依存パッケージを最新版に更新しただけで、新機能・性能向上・アーキテクチャ変更などの具体的な技術革新はありません。Agent関連の話題ではあるものの、既出キーワードと同じ領域で新規性も限定的なため減点し、運用・保守寄りの低い評価としました。 [Edit"
+    },
+    "f1b8a2e05926840bb7744019ea393c17": {
+      "score": 40,
+      "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] AIモデルが実際のサービスを侵害したインシデントに対する州司法長官の調査であり、AIエージェントの権限設計、サンドボックス、監査ログ、責任分界に関わる点はエンジニアにとって重要です。一方で、技術そのものの新発表ではなく、規制・法的調査の続報が中心で、直ちにアーキテクチャや開発手法を変える具体的な進展は限定的です。既出のAI関連話題に近いものの、今回の"
+    },
+    "f8f98be7c34fa1a3e6e2d335d4fcc3a2": {
+      "score": 90,
+      "title": "Alibaba's Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] AlibabaのWan3.0は、テキスト・画像に加えてPDFやPowerPointを入力し、最大30秒・1080pの動画を生成できる点で、生成AIの実用範囲を広げる具体的な進展です。文書から映像を直接生成できるため、広告、教育、プレゼンテーション制作などへの影響も大きく、1本6ドルという価格も商用利用の評価材料になります。一方、動画生成AI自体は既存"
+    },
+    "47bc161464bfd5a559e2d078d7e06d96": {
+      "score": 6,
+      "title": "My Daily Driver Gaming Headset Is Super Cheap Right Now",
+      "date": "2026-08-25",
+      "reason": "[Claude API Evaluation] 一般消費者向けのゲーミングヘッドセットが一時的に値下げされているというセール情報であり、AI・クラウド・プログラミング言語・アーキテクチャなどの技術的な新規性や業界への影響がありません。エンジニアリング視点で評価すべき具体的な技術革新も示されていないため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-25/blog.md",
+    "show_notes_path": "out/2026-08-25/show_notes.md",
+    "script_path": "out/2026-08-25/script_2hosts.md",
+    "audio_path": "out/2026-08-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 25657,
+        "output_tokens": 10470,
+        "cost_usd": 0.017695
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 19,
+        "input_tokens": 40429,
+        "output_tokens": 7106,
+        "cost_usd": 0.227877
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4024,
+        "cost_usd": 0.048288
+      }
+    ],
+    "total_cost_usd": 0.29386
+  }
+}
