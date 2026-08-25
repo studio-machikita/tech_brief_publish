@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-26",
+  "episode_date_local": "2026-08-26",
+  "content_snapshot_date": "2026-08-26",
+  "show_length_sec": 813,
+  "audio_size": 78086444,
+  "generated_at": "2026-08-25T20:44:44.769756+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-523eb03e",
+      "title": "OpenAI's first custom chip \"Jalapeño\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
+      "title_ja": "OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上回ると報道",
+      "one_liner": "OpenAI初の自社チップ、Nvidiaを性能で上回る",
+      "fingerprint": "523eb03e13235da31b434afa1f4ab5e6",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-ea09d223",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "title_ja": "Jalapeñoの初期結果、AI推論で業界最速・最高効率を実証",
+      "one_liner": "OpenAI独自の推論チップJalapeñoが高速化を実現",
+      "fingerprint": "ea09d2239c0acc2782f05c498d55bcfe",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-3af2ca7b",
+      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
+      "title_ja": "Amazon OpenSearch Service MCP Appsによるエージェント型オブザーバビリティ",
+      "one_liner": "OpenSearchがMCP Appsで可視化対応、AIエージェント調査を強化",
+      "fingerprint": "3af2ca7bd0fe05649f9f5fb854bacd36",
+      "score": 87,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-eba8c18e",
+      "title": "Nvidia Discusses Perplexity Investment at $30 Billion-Plus Valuation",
+      "title_ja": "NVIDIA、Perplexityへの出資を検討 評価額300億ドル超",
+      "one_liner": "NvidiaがPerplexityに出資、評価額3兆円超へ",
+      "fingerprint": "eba8c18ec5666aefb03b2183ad3aa341",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-ac33b691",
+      "title": "GitHub Copilot app Customize tab is generally available",
+      "title_ja": "GitHub Copilot、アプリの「Customize」タブが一般提供開始",
+      "one_liner": "GitHub Copilot appのCustomizeタブが一般提供開始",
+      "fingerprint": "ac33b6919c84cdd6c9a4ed5b0c70c449",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-17462963",
+      "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた",
+      "title_ja": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた",
+      "one_liner": "認可伝搬の自作実装とIETF標準を比較検証",
+      "fingerprint": "1746296309ff5915579c6255d037c652",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-49999b08",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Funding better evaluations of AI’s impact on wellbeing"
+    },
+    {
+      "item_id": "item-0b368bd0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference"
+    },
+    {
+      "item_id": "item-ff16e5a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs"
+    },
+    {
+      "item_id": "item-f6d457df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation"
+    },
+    {
+      "item_id": "item-afeb4489",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams"
+    },
+    {
+      "item_id": "item-eca3c089",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The full stack behind abundant intelligence"
+    },
+    {
+      "item_id": "item-13de9885",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP"
+    },
+    {
+      "item_id": "item-f87b6e97",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Managing your work"
+    },
+    {
+      "item_id": "item-280c1bda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push"
+    },
+    {
+      "item_id": "item-ce5db017",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Art and algorithms at Sotheby’s"
+    },
+    {
+      "item_id": "item-a1da7165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (XAI)-Driven Analysis"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-de026b69",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Zoom Gives Lukewarm Outlook Despite Expanded Product Line"
+    },
+    {
+      "item_id": "item-22b52167",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious"
+    },
+    {
+      "item_id": "item-f48e6d47",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels"
+    },
+    {
+      "item_id": "item-6bb5259b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google Pixel 11 Pro Fold Review: Better, Not Best"
+    },
+    {
+      "item_id": "item-4a6d519c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dolly Parton, country star, actor and philanthropist, dies aged 80"
+    }
+  ],
+  "score_cache": {
+    "f48e6d476249d9ac2312062cb2738abc": {
+      "score": 5,
+      "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 血糖値とケトン体を測定する初のウェアラブル機器についてFDAが承認したニュースですが、主眼は一般消費者向けデバイスと医療規制にあります。技術的にはヘルスセンシングや連続モニタリングに意義があるものの、ソフトウェアアーキテクチャ、AI、クラウド、開発者向け基盤の革新を示す内容ではなく、エンジニアリング業界全体への影響も限定的です。 [Editorial"
+    },
+    "eca3c0898e8b3d82fc76cceb5c3ffb1f": {
+      "score": 49,
+      "title": "The full stack behind abundant intelligence",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] チップ、計算資源、モデル、プロダクトを一体として最適化し、知能サービスの性能・コスト・スケールを改善するという視点は、AIインフラの全体設計を理解するうえで有益です。一方で、具体的な新モデル、技術仕様、性能値、製品発表ではなく、OpenAI幹部による戦略・概念説明が中心です。また、既に取り上げ済みのAI関連トピックと同じ軸に該当するため減点し、業界の"
+    },
+    "49999b0896ad109ef69c3e6e4e94075b": {
+      "score": 60,
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] AIが人々のウェルビーイングに与える影響を評価する研究への資金提供は、AI導入の効果やリスクを定量化するうえで意義があります。今後のAI製品開発や評価指標、社会実装の判断材料になり得る一方、具体的な技術革新や実装内容ではなく、研究支援・評価基盤に関する話題のため、最先端技術の発表ほどのインパクトはありません。既出のAI関連記事とは異なり、焦点がウェル"
+    },
+    "3af2ca7bd0fe05649f9f5fb854bacd36": {
+      "score": 87,
+      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] AIエージェントとAmazon OpenSearchをMCP Appsで接続し、アラートからトレース、ログ、根本原因分析までを対話形式で一貫して実行できる点は、開発・運用現場への実用的なインパクトが大きいです。テキスト応答に加えてインタラクティブな可視化を返し、IDE内で検証できるため、エージェント型オブザーバビリティの具体的な実装例として注目度は高"
+    },
+    "f87b6e97ad5aee5acd58784f7de95d00": {
+      "score": 41,
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数セッションを一覧管理し、進行中・完了・次の作業を把握できる機能紹介で、開発者の業務整理には実用的ですが、AIモデルや開発基盤そのものを大きく進化させる発表ではありません。既に取り上げ済みの「GitHub」関連トピックと重なり、明確な新規技術革新というより利用方法・UI改善に近いため減点しました。 [Editorial"
+    },
+    "ac33b6919c84cdd6c9a4ed5b0c70c449": {
+      "score": 83,
+      "title": "GitHub Copilot app Customize tab is generally available",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] GitHub CopilotアプリのCustomizeタブが一般提供され、MCPを通じてチーム固有のツール、知識、ワークフローをCopilotに統合できる点は、開発者体験と企業内AI活用に直接影響します。単なる機能追加ではなく、既存の開発環境へAIを組み込む拡張性を高める具体的な進展であり、エンジニアにとって実用性は高いです。一方で、GitHub C"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 31,
+      "title": "April 27, 2026",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新版適用に限定されており、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。さらに、既出キーワードであるAgent関連の既存トピックと同じ領域の続報とはいえ、明確な新展開とは言い難いため減点しまし"
+    },
+    "22b521678856f4d2958bef0947985c01": {
+      "score": 13,
+      "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] Instagram Reelsの動画編集で、クリップの自動トリミングや無音部分の削除、初期カット作成を行う新機能です。クリエイターの作業効率化には寄与しますが、一般消費者向けSNSアプリの機能追加であり、アーキテクチャや基盤技術、業界の前提を変えるような技術革新ではありません。"
+    },
+    "280c1bda2c76b45920aa89c5c4c22c15": {
+      "score": 38,
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 企業向けAIの技術動向を扱う分析体制の強化であり、GPU利用率、クラウド基盤、データ基盤、DevOps、オブザーバビリティなど、エンジニアに関連する論点は含まれます。ただし、記事の主題は新技術や製品の発表ではなく、VentureBeatによるアナリスト採用とリサーチ事業の拡大です。技術業界への直接的な影響や具体的な実装成果も限定的です。さらに、既出キ"
+    },
+    "523eb03e13235da31b434afa1f4ab5e6": {
+      "score": 97,
+      "title": "OpenAI's first custom chip \"Jalapeño\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] OpenAI初の自社設計推論チップが、NvidiaのBlackwellだけでなく次世代のRubinをスループットと電力効率で上回ったという内容は、AIインフラの競争構造を変え得る非常に重要なニュースです。OpenAIがモデル開発企業からハードウェア・システム設計まで垂直統合を進める点も、クラウド事業者や半導体業界への影響が大きいです。一方で、現時点で"
+    },
+    "ff16e5a6c4659d69f738a854f0cfdf95": {
+      "score": 54,
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 放射線科医の仕事をAIが代替するのではなく、診断支援・画像解析・ワークフロー自動化によって再構成するという論点は、医療AIの実装や人間とAIの協働を考えるうえで意義があります。一方で、具体的な新技術や製品発表ではなく、既存のAI活用に関する分析・見解が中心です。AIという既出キーワードには該当しますが、過去記事と同一の技術やサービスを扱う続報とは判断"
+    },
+    "6bb5259b30d474627752260f1db0715b": {
+      "score": 2,
+      "title": "Google Pixel 11 Pro Fold Review: Better, Not Best",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 折りたたみスマートフォンの製品レビューであり、一般消費者向けガジェットに該当します。改良点や競争環境への言及はあるものの、ソフトウェア開発、技術アーキテクチャ、AI、クラウドなどエンジニアリング業界全体に与える影響は限定的です。 [Editorial: gadget topic -8]"
+    },
+    "ce5db0177bf335efe88a2ce612f24c2b": {
+      "score": 36,
+      "title": "Art and algorithms at Sotheby’s",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] オークション価格予測や作品カタログ化にアルゴリズムを活用する、興味深い専門領域での機械学習応用です。ただし、既存技術の業務利用が中心で、アーキテクチャや基盤技術の革新、業界全体を変える具体的な発表ではありません。また、AI関連の話題は直近放送済みのキーワードに含まれるため、同分野の新規性が限定的な記事として20点減点しました。"
+    },
+    "de026b6911b42bc16ed5adb943e23757": {
+      "score": 18,
+      "title": "Zoom Gives Lukewarm Outlook Despite Expanded Product Line",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] Zoomの四半期売上見通しと製品ライン拡充に関する投資家向け業績ニュースであり、ソフトウェアエンジニアリング上の新しいアーキテクチャ、技術革新、開発者向け機能の具体的な発表ではありません。既存製品の拡張による事業成長への期待が弱かったという内容にとどまり、技術的な影響範囲も限定的なため、低めに評価します。"
+    },
+    "eba8c18ec5666aefb03b2183ad3aa341": {
+      "score": 84,
+      "title": "Nvidia Discusses Perplexity Investment at $30 Billion-Plus Valuation",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] NvidiaがPerplexityに30 billionドル超の評価額で投資を検討している点は、AI検索・AIエージェント領域への大型資本流入と、半導体企業による有望なAIアプリケーション企業への戦略投資という観点で重要です。Perplexityの年換算売上が短期間で750 millionドル超に拡大している点も、AIサービスの収益化速度を示す具体的"
+    },
+    "1746296309ff5915579c6255d037c652": {
+      "score": 69,
+      "title": "マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] マイクロサービス間で認可情報を安全かつ一貫して伝搬する設計は、分散システムにおける実務上の重要課題です。独自実装とIETF Transaction Tokensという標準化途上の方式を比較しており、認証・認可、サービス間連携、監査性、将来の相互運用性に関する具体的な知見が得られます。特に標準仕様と実サービスの実装差分を検証している点は技術的価値が高い"
+    },
+    "0b368bd0ff6e7ec902cf8fe61146256d": {
+      "score": 56,
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Infere",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] LLM推論の主要ボトルネックであるprefill latencyとKVキャッシュ再利用を対象に、従来の先頭連続プレフィックス制約を超えて任意位置のチャンク単位で再利用し、偏差に応じて再計算する点は技術的に新規性があります。HuggingFace互換モデルに適用できれば、長文コンテキストや類似プロンプトを扱う推論基盤のコスト・レイテンシ改善に寄与する可"
+    },
+    "a1da7165ed42648d2db91b17d6478db2": {
+      "score": 36,
+      "title": "Bankruptcy Prediction via Hybrid Resampling and Stacking Ensemble Techniques with Explainable Artificial Intelligence (X",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 不均衡データに対する特徴選択、ハイブリッドリサンプリング、スタッキングアンサンブル、XAIを組み合わせた実務的な機械学習研究だが、対象は台湾の破産予測データセットに限定されており、基盤技術や業界の前提を変えるほどの新規性・汎用性は見えにくい。AI・XAIを扱う点は技術的に関連性がある一方、既出のAI系トピックと同一領域のため減点した。"
+    },
+    "f6d457df3e78f15d7929da0e570d72a1": {
+      "score": 52,
+      "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 物語や長文を逐次解釈する際に、既存の解釈を修正する更新と、情報不足で保留していた内容を後から具体化する更新を構造的に区別する研究で、LLMや対話エージェントの文脈理解・長文処理の設計に示唆があります。一方で、現時点ではarXivの理論・分析研究であり、具体的な製品実装や業界標準を変える成果、性能改善の規模はスニペットから確認できません。AI関連ではあ"
+    },
+    "4a6d519c871b156cb6150b07ac31853d": {
+      "score": 2,
+      "title": "Dolly Parton, country star, actor and philanthropist, dies aged 80",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] 技術・ソフトウェア業界に関するニュースではなく、著名な芸能人の訃報です。AI、クラウド、プログラミング言語、ロボティクスなどの技術的な新規性やエンジニアへの影響がないため、最低評価とします。"
+    },
+    "ea09d2239c0acc2782f05c498d55bcfe": {
+      "score": 97,
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] OpenAI独自の推論チップによる高速化・省電力化は、AIモデルの性能だけでなく、推論コストやデータセンター設計、将来の垂直統合戦略に影響する重要な技術動向です。特にスループット向上とレイテンシ低減を同時に実現する点は、リアルタイムAIサービスの拡大に直結します。一方で、記事スニペットには具体的なベンチマーク値、対応モデル、量産規模、既存GPUとの比"
+    },
+    "13de98857cdbfe80bd8d09e022c5a328": {
+      "score": 45,
+      "title": "Governed reports with Amazon Quick Desktop and Amazon FSx for NetApp ONTAP",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] S3アクセス・ポイント、Amazon FSx for NetApp ONTAP、ナレッジベース、カスタムスキル、人手レビューを組み合わせた、監査可能な週次レポート生成ワークフローの具体例であり、クラウドアーキテクチャや企業向けAI活用の実装面では有用です。一方で、既存サービスを統合した業務自動化パターンが中心で、業界の前提を変える新技術や大規模なプラ"
+    },
+    "afeb448906d88a4c0319e757da329753": {
+      "score": 51,
+      "title": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] Microsoft Teams上の会話からGitHub Copilotの共有エージェントセッションを開始し、参加者全員で指示・確認できる点は、開発チームの協働ワークフローを改善する実用的なAIエージェント統合です。一方で、基盤モデルや開発アーキテクチャ自体の革新ではなく、既出のGitHub・Copilot・agentic系トピックと重なるため減点しま"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 34,
+      "title": "May 11, 2026",
+      "date": "2026-08-26",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12環境への上流依存パッケージ更新にとどまり、機能追加やアーキテクチャ上の革新、ユーザー影響の大きい変更は確認できません。運用・保守面では一定の意義があるものの、既出キーワードであるagent系の話題と重複するため減点し、技術ニュースとしての重要度は低"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-26/blog.md",
+    "show_notes_path": "out/2026-08-26/show_notes.md",
+    "script_path": "out/2026-08-26/script_2hosts.md",
+    "audio_path": "out/2026-08-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 26178,
+        "output_tokens": 11485,
+        "cost_usd": 0.019018
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 18,
+        "input_tokens": 40560,
+        "output_tokens": 7414,
+        "cost_usd": 0.23289
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4449,
+        "cost_usd": 0.053388
+      }
+    ],
+    "total_cost_usd": 0.305296
+  }
+}

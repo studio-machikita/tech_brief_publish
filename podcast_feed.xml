@@ -25,6 +25,65 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#148 OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上…</title>
+      <description>Tech News Radio Show Notes - #148 (2026-08-26)
+
+エピソード情報
+• エピソード: #148
+• 日付: 2026-08-26
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI's first custom chip "Jalapeño" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks (https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/)
+• Jalapeño’s first results show industry-leading speed and efficiency in AI inference (https://openai.com/index/jalapeno-first-results)
+• Agentic observability with Amazon OpenSearch Service MCP Apps (https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/)
+
+注目の深掘り
+• Nvidia Discusses Perplexity Investment at $30 Billion-Plus Valuation (https://www.theinformation.com/articles/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-considered-tech-licensing-deal)
+
+小ネタ・その他
+• GitHub Copilot app Customize tab is generally available (https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available)
+• GitHub Copilot app Customize tab is generally available (https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+• マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた (https://zenn.dev/layerx/articles/e01465a15e79c2)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/episode_audio.mp3" length="78086444" type="audio/mpeg" />
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-26</guid>
+      <itunes:duration>13:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上…</itunes:title>
+      <itunes:episode>148</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #148 (2026-08-26)
+
+エピソード情報
+• エピソード: #148
+• 日付: 2026-08-26
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI's first custom chip "Jalapeño" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks (https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/)
+• Jalapeño’s first results show industry-leading speed and efficiency in AI inference (https://openai.com/index/jalapeno-first-results)
+• Agentic observability with Amazon OpenSearch Service MCP Apps (https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/)
+
+注目の深掘り
+• Nvidia Discusses Perplexity Investment at $30 Billion-Plus Valuation (https://www.theinformation.com/articles/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-considered-tech-licensing-deal)
+
+小ネタ・その他
+• GitHub Copilot app Customize tab is generally available (https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available)
+• GitHub Copilot app Customize tab is generally available (https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+• マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた (https://zenn.dev/layerx/articles/e01465a15e79c2)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-26/index.html</link>
+      <itunes:image href="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/eyecatch.webp" />
+    </item>
+    <item>
       <title>#147 SageMaker HyperPodの新しいRay機能のご紹介 ほか</title>
       <description>Tech News Radio Show Notes - #147 (2026-08-25)
 

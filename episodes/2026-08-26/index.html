@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita</title>
+<title>OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上… | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -865,174 +865,124 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上…">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-26/">
+<meta property="og:description" content="2026-08-26 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-26/">
 <script type="application/ld+json">
 [
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Tech News Radio",
-    "url": "https://technewsradio.tokyo",
-    "description": "最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
-    "inLanguage": "ja"
+    "@type": "Article",
+    "headline": "Tech News Radio — OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上…",
+    "description": "2026-08-26 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-26",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-26/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
   },
   {
     "@context": "https://schema.org",
-    "@type": "PodcastSeries",
-    "name": "Tech News Radio",
-    "description": "最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
-    "url": "https://technewsradio.tokyo",
-    "image": "https://technewsradio.tokyo/artwork.jpg",
-    "author": {
-      "@type": "Organization",
-      "name": "Studio Machikita"
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上…",
+    "description": "2026-08-26 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-26",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-26/",
+    "duration": "PT13M33S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/episode_audio.mp3"
     },
-    "inLanguage": "ja",
-    "webFeed": "https://technewsradio.tokyo/podcast_feed.xml"
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
   }
 ]
 </script>
 
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
-        <h1><a href="index.html">Tech News Radio</a></h1>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
         <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
       </div>
       <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
     </div>
     <nav class="nav-links">
-      <a href="index.html">Episodes</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="podcast_feed.xml">RSS Feed</a>
+      <a href="../../index.html">Episodes</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
     </nav>
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-26/episode_audio.mp3" type="audio/mpeg"></audio>
 
-    <a href="podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="episodes/2026-08-26/index.html" class="episode-card">
-        <div class="episode-date">2026-08-26</div>
-        <h3 class="episode-title">OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上…</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="episodes/2026-08-25/index.html" class="episode-card">
-        <div class="episode-date">2026-08-25</div>
-        <h3 class="episode-title">SageMaker HyperPodの新しいRay機能のご紹介 ほか</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-      <a href="episodes/2026-08-24/index.html" class="episode-card">
-        <div class="episode-date">2026-08-24</div>
-        <h3 class="episode-title">ロボット、GPT-2時代に突入／AI上司、自社ルールを人間に指摘されて初の従業員解雇 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=OpenAI%E5%88%9D%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%81%E3%83%83%E3%83%97%E3%80%8CJalape%C3%B1o%E3%80%8D%E3%80%81%E6%8E%A8%E8%AB%96%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%A7Nvidia%E3%81%AEBlackwell%E3%81%A8Rubin%E3%82%92%E4%B8%8A%E2%80%A6%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-26/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-26/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="episodes/2026-08-23/index.html" class="episode-card">
-        <div class="episode-date">2026-08-23</div>
-        <h3 class="episode-title">新しい研究で、人間の信念を無視する世界モデルは誤った行動を予測することが判明 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="episodes/2026-08-22/index.html" class="episode-card">
-        <div class="episode-date">2026-08-22</div>
-        <h3 class="episode-title">Claude Mythos 5のサイバーセキュリティ機能を、より多くの防御者へ | Anthropic発Claude ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="episodes/2026-08-21/index.html" class="episode-card">
-        <div class="episode-date">2026-08-21</div>
-        <h3 class="episode-title">Adobe Firefly、AI音声ツールとGoogleのGemini Omni Flashを追加 ほか</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="episodes/2026-08-20/index.html" class="episode-card">
-        <div class="episode-date">2026-08-20</div>
-        <h3 class="episode-title">GxP-Agent: LLMエージェントによる信頼性の高い臨床試験プログラミングのためのプロセスDAGトポロジー ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="episodes/2026-08-19/index.html" class="episode-card">
-        <div class="episode-date">2026-08-19</div>
-        <h3 class="episode-title">Amazon Bedrock AgentCore Paymentsが一般提供開始:エージェントが安全かつ自律的に大規模…</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>9 topics</span>
-        </div>
-      </a>
-
-      <a href="episodes/2026-08-18/index.html" class="episode-card">
-        <div class="episode-date">2026-08-18</div>
-        <h3 class="episode-title">OpenAI、Nvidiaの支援で最大1050億ドルのオハイオ州データセンター契約を締結 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="episodes/2026-08-17/index.html" class="episode-card">
-        <div class="episode-date">2026-08-17</div>
-        <h3 class="episode-title">GitHub Copilotで「Grok 4.6」が利用可能に ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><span class="current">1</span><a href="page/2/index.html">2</a><a href="page/3/index.html">3</a><a href="page/4/index.html">4</a><a href="page/5/index.html">5</a><a href="page/6/index.html">6</a><a href="page/7/index.html">7</a><a href="page/8/index.html">8</a><a href="page/9/index.html">9</a><a href="page/10/index.html">10</a><a href="page/11/index.html">11</a><a href="page/12/index.html">12</a><a href="page/13/index.html">13</a><a href="page/14/index.html">14</a><a href="page/15/index.html">15</a><a href="page/2/index.html">次へ</a><span class="summary">Page 1 / 15</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
       </a>
       <a href="https://open.spotify.com/show/5KMkTJkGFMMVEJbbygivL6" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
-        <img src="badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
-        <img src="badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
       </a>
-      <a href="podcast_feed.xml" title="RSS Feed">
+      <a href="../../podcast_feed.xml" title="RSS Feed">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
       </a>
     </div>
     <div class="footer-links">
-      <a href="about.html">About</a>
-      <a href="policy.html">ポリシー</a>
-      <a href="privacy.html">プライバシーポリシー</a>
-      <a href="contact.html">お問い合わせ</a>
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
       <button type="button" onclick="openCookieSettings()">Cookie設定</button>
     </div>
     <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
@@ -1040,65 +990,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1110,7 +1010,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1139,5 +1039,251 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-26"
+subtitle: "OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上回ると報道 / Jalapeñoの初..."
+date: "2026-08-26"
+vol: 148
+topics:
+  - AI
+  - Hardware
+  - Cloud
+  - DevOps
+  - Startup
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-26
+
+*📖 約11分で読めます ｜ 🏷️ AI, Hardware, Cloud, DevOps, Startup*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上回ると報道** — OpenAI初の自社チップ、Nvidiaを性能で上回る
+- 🤖 **Jalapeñoの初期結果、AI推論で業界最速・最高効率を実証** — OpenAI独自の推論チップJalapeñoが高速化を実現
+- 🤖 **Amazon OpenSearch Service MCP Appsによるエージェント型オブザーバビリティ** — OpenSearchがMCP Appsで可視化対応、AIエージェント調査を強化
+- 🤖 **NVIDIA、Perplexityへの出資を検討 評価額300億ドル超** — NvidiaがPerplexityに出資、評価額3兆円超へ
+- 🤖 **GitHub Copilot、アプリの「Customize」タブが一般提供開始** — GitHub Copilot appのCustomizeタブが一般提供開始
+- 🔒 **マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた** — 認可伝搬の自作実装とIETF標準を比較検証
+
+---
+
+## 🤖 OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上回ると報道
+\`AI\` \`Hardware\`
+
+<details>
+<summary>📄 原題: OpenAI&#x27;s first custom chip &quot;Jalapeño&quot; reportedly beats Nvidia&#x27;s Blackwell and Rubin in inference benchmarks</summary>
+</details>
+
+> **一言で**: OpenAI初の自社チップ、Nvidiaを性能で上回る
+
+- OpenAIが自社開発の推論チップ「Jalapeño」をHot Chipsで公開
+- SemiAnalysisの検証でNvidiaのBlackwellとRubinを上回る結果
+- スループットとエネルギー効率の両面で優位という報告
+- 初代チップとしては異例の高性能とアナリストが指摘
+
+💡 **なぜ重要か**
+AI推論のコストと電力消費が急増する中、大手AI企業は専用チップの開発に動いています。OpenAIも例外ではなく、Nvidia依存からの脱却と推論コスト削減を狙っていると見られています。 OpenAIの自社チップが実用段階に入れば、Nvidiaの推論市場での優位性が揺らぐ可能性があります。他のAI企業も自社チップ開発を加速させる流れが強まりそうです。
+
+🎯 **今日のアクション**
+エンジニアはハードウェア動向を追い、推論基盤の選択肢が増える前提でコスト設計を見直すべきです。
+
+🔗 [原文を読む](https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/)
+
+---
+
+## 🤖 Jalapeñoの初期結果、AI推論で業界最速・最高効率を実証
+\`AI\` \`Hardware\`
+
+<details>
+<summary>📄 原題: Jalapeño’s first results show industry-leading speed and efficiency in AI inference</summary>
+</details>
+
+> **一言で**: OpenAI独自の推論チップJalapeñoが高速化を実現
+
+- OpenAIが独自開発した推論用チップ「Jalapeño」の初期結果が公開
+- AI推論で業界最高水準の速度と電力効率を達成したそうです
+- スループット（処理量）が高く、レイテンシ（遅延）も低いと見られています
+- 最新のAIモデル向けに設計されたチップだそうです
+
+💡 **なぜ重要か**
+AI推論はGPU依存によるコストと電力消費が課題になっています。OpenAIが自社専用チップを手がける動きは、推論基盤を外部ハードウェアに頼らず最適化しようとする戦略の表れと見られています。 推論専用チップの内製化が進むと、AI企業のコスト構造や競争力が大きく変わる可能性があります。NVIDIAなど既存の半導体企業との関係性にも影響が及びそうです。
+
+🎯 **今日のアクション**
+エンジニアはAI推論基盤のコストと電力効率を見直し、専用チップの動向を継続的に確認すべきです。
+
+🔗 [原文を読む](https://openai.com/index/jalapeno-first-results)
+
+---
+
+## 🤖 Amazon OpenSearch Service MCP Appsによるエージェント型オブザーバビリティ
+\`AI\` \`Cloud\` \`DevOps\`
+
+<details>
+<summary>📄 原題: Agentic observability with Amazon OpenSearch Service MCP Apps</summary>
+</details>
+
+> **一言で**: OpenSearchがMCP Appsで可視化対応、AIエージェント調査を強化
+
+- Amazon OpenSearch ServiceがMCP Appsに対応
+- MCPはAIモデルにツールやデータへのアクセスを提供するプロトコル
+- AIエージェントの応答にテキストと合わせて対話型の可視化を表示できる
+- ローカルで動くMCPサーバー1つで、アラートからトレース、ログ、根本原因までを一つの会話で追える
+- IDEを離れずに各調査ステップをその場で確認できる
+
+💡 **なぜ重要か**
+運用監視の現場では、アラート発生からログ調査、根本原因の特定まで複数ツールを行き来する手間が課題でした。AIエージェントとの対話に可視化を組み込むことで、この調査の流れを一つの会話に集約しようという狙いがあると見られています。 監視・運用ツールにAIエージェントとMCPのような標準プロトコルを組み合わせる流れが広がる可能性があります。今後は他のクラウドベンダーや監視サービスでも同様の対話型可視化対応が進むと見られています。
+
+🎯 **今日のアクション**
+OpenSearchを使う開発チームは、MCP Apps対応のアップデート内容を確認し、既存の監視フローに組み込めるか検証するとよいでしょう。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/)
+
+---
+
+## 🤖 NVIDIA、Perplexityへの出資を検討 評価額300億ドル超
+\`AI\` \`Startup\` \`Business\`
+
+<details>
+<summary>📄 原題: Nvidia Discusses Perplexity Investment at $30 Billion-Plus Valuation</summary>
+</details>
+
+> **一言で**: NvidiaがPerplexityに出資、評価額3兆円超へ
+
+- Nvidiaが評価額300億ドル超でPerplexity出資を協議中
+- 調達額は数十億ドル規模、前回評価額から50%超の上昇
+- Perplexityの年換算売上は年初の2.5億ドルから7.5億ドル超に急増
+- 自動化エージェントPerplexity Computerが成長を牽引
+- 両社の事業提携がさらに強まっている
+
+💡 **なぜ重要か**
+AI検索スタートアップのPerplexityは、Nvidiaとの提携強化と急成長する売上を背景に大型出資を受ける見通しです。Nvidiaはこれまでも有力AI企業への出資を通じて自社エコシステムを広げる戦略を取っており、今回の投資もその延長線上にあると見られています。 AIインフラの供給者であるNvidiaが応用層のスタートアップにも出資を広げることで、業界内の資本と技術の結びつきがさらに強まりそうです。今後、AIチップメーカーとAIアプリ企業の垂直統合が加速する可能性があります。
+
+🎯 **今日のアクション**
+エンジニアやリーダーは、AIエージェントによる業務自動化の実用化事例として、Perplexity Computerの動向を注視すべきです。自社製品でのAIエージェント活用や、Nvidiaエコシステムとの連携可能性も検討する価値があります。
+
+🔗 [原文を読む](https://www.theinformation.com/articles/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-considered-tech-licensing-deal)
+
+---
+
+## 🤖 GitHub Copilot、アプリの「Customize」タブが一般提供開始
+\`AI\` \`DevOps\`
+
+<details>
+<summary>📄 原題: GitHub Copilot app Customize tab is generally available</summary>
+</details>
+
+> **一言で**: GitHub Copilot appのCustomizeタブが一般提供開始
+
+- GitHub Copilot appのCustomizeタブが正式にGA（一般提供）になった
+- チームが既に使っているツールや知識、ワークフローと連携できる
+- MCP（Model Context Protocol）に関連する機能が含まれると見られている
+
+💡 **なぜ重要か**
+AIコーディング支援ツールは、チーム固有の環境に合わせて調整できるかどうかが実用性を大きく左右します。GitHub Copilotが独自のツールや知識と連携できる仕組みを整えることで、汎用的な提案から実務に即した提案への転換を狙っていると見られています。 AI支援ツールが各チームの独自環境に適応する流れが強まれば、開発現場でのAI活用がさらに広がると考えられます。標準化されたプロトコルを軸にした拡張性が、他のAIツールにも影響を与える可能性があります。
+
+🎯 **今日のアクション**
+開発チームはCustomizeタブを試し、自社のツールや知識ベースと連携できるか確認するとよいでしょう。既存のワークフローに組み込む際は、まず小規模なチームで検証することをおすすめします。
+
+🔗 [原文を読む](https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available)
+
+🔗 [原文を読む](https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+
+---
+
+## 🔒 マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた
+\`Security\` \`Web\`
+
+> **一言で**: 認可伝搬の自作実装とIETF標準を比較検証
+
+- バクラクはプロダクト間の認可伝搬を独自実装で解決していた
+- IETFで標準化中のTransaction Tokensが同じ課題を扱う
+- 自作の仕組みとドラフト仕様の共通点・差異を調査した
+- マイクロサービス間の権限受け渡しは業界共通の課題
+
+💡 **なぜ重要か**
+マイクロサービス構成では、あるサービスが別のサービスを呼ぶ際に、元のユーザー権限をどう安全に引き継ぐかが長年の課題です。各社が独自実装で対応してきましたが、IETFで標準化仕様が進むことで、業界全体で共通の解決策が見えてきています。 認可伝搬の標準化が進めば、各社が個別に実装していた仕組みを標準規格に置き換えられ、セキュリティ品質のばらつきや実装コストが減っていくと見られています。
+
+🎯 **今日のアクション**
+マイクロサービス間で認可情報をやり取りする設計をしているエンジニアは、Transaction Tokensの仕様を確認し、自社実装との差異を洗い出しておくとよいでしょう。
+
+🔗 [原文を読む](https://zenn.dev/layerx/articles/e01465a15e79c2)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、AIシステムが単なる「モデルの性能向上」から「実運用を支えるインフラの最適化」へと重心を移しているという業界トレンドである。OpenAIによる自社製推論チップJalapeñoの開発は、汎用GPUベンダーへの依存を減らし、推論コストと速度を自社の用途に合わせて最適化しようとする動きであり、大規模AIサービス提供者が半導体レベルまで垂直統合を進めている現状を象徴している。一方、AmazonのOpenSearch MCP Appsは、AIエージェントが実際に稼働する中で発生する挙動や不具合を可視化・調査するための基盤整備であり、AIを「作る」だけでなく「運用・監視する」段階への関心の高まりを示している。両者を合わせて見ると、AI業界全体が推論の高速化・効率化とその運用可視化という、実装フェーズにおける実務的課題の解決に本格的に取り組み始めていることがうかがえる。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上回ると報道**: エンジニアはハードウェア動向を追い、推論基盤の選択肢が増える前提でコスト設計を見直すべきです。
+2. **Jalapeñoの初期結果、AI推論で業界最速・最高効率を実証**: エンジニアはAI推論基盤のコストと電力効率を見直し、専用チップの動向を継続的に確認すべきです。
+3. **Amazon OpenSearch Service MCP Appsによるエージェント型オブザーバビリティ**: OpenSearchを使う開発チームは、MCP Apps対応のアップデート内容を確認し、既存の監視フローに組み込めるか検証するとよいでしょう。
+
+---
+
+## 🔗 出典一覧
+- [OpenAI初のカスタムチップ「Jalapeño」、推論ベンチマークでNvidiaのBlackwellとRubinを上回ると報道](https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/)
+- [Jalapeñoの初期結果、AI推論で業界最速・最高効率を実証](https://openai.com/index/jalapeno-first-results)
+- [Amazon OpenSearch Service MCP Appsによるエージェント型オブザーバビリティ](https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/)
+- [NVIDIA、Perplexityへの出資を検討 評価額300億ドル超](https://www.theinformation.com/articles/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-considered-tech-licensing-deal)
+- [GitHub Copilot、アプリの「Customize」タブが一般提供開始](https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available)
+- [GitHub Copilot、アプリの「Customize」タブが一般提供開始](https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+- [マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた](https://zenn.dev/layerx/articles/e01465a15e79c2)`;
+const notesMd = `# Tech News Radio Show Notes - #148 (2026-08-26)
+
+## エピソード情報
+- **エピソード**: #148
+- **日付**: 2026-08-26
+- **尺**: 約 13 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [OpenAI's first custom chip "Jalapeño" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks](https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/)
+- [Jalapeño’s first results show industry-leading speed and efficiency in AI inference](https://openai.com/index/jalapeno-first-results)
+- [Agentic observability with Amazon OpenSearch Service MCP Apps](https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/)
+
+### 注目の深掘り
+- [Nvidia Discusses Perplexity Investment at $30 Billion-Plus Valuation](https://www.theinformation.com/articles/nvidia-discusses-perplexity-investment-30-billion-plus-valuation-considered-tech-licensing-deal)
+
+### 小ネタ・その他
+- [GitHub Copilot app Customize tab is generally available](https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available)
+- [GitHub Copilot app Customize tab is generally available](https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot)
+- [マイクロサービス間の認可伝搬をどう解くか？独自実装と IETF Transaction Tokens を見比べてみた](https://zenn.dev/layerx/articles/e01465a15e79c2)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
