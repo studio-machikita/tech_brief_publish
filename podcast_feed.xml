@@ -25,6 +25,62 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#150 RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた ほか</title>
+      <description>Tech News Radio Show Notes - #150 (2026-08-28)
+
+エピソード情報
+• エピソード: #150
+• 日付: 2026-08-28
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた (https://zenn.dev/holy_fox/articles/04887ff8177b87)
+• ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence (https://arxiv.org/abs/2608.23569)
+• Expanding OpenAI’s presence in Brazil (https://openai.com/index/expanding-our-presence-in-brazil)
+
+注目の深掘り
+• AI shopping agents aren't ready to buy on your behalf, study finds (https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/)
+
+小ネタ・その他
+• AI agents meant to replace Meta workers made “large-scale, disruptive actions” (https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
+• How to evaluate LLMs before production (https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-28/episode_audio.mp3" length="11729325" type="audio/mpeg" />
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-28</guid>
+      <itunes:duration>12:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた ほか</itunes:title>
+      <itunes:episode>150</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #150 (2026-08-28)
+
+エピソード情報
+• エピソード: #150
+• 日付: 2026-08-28
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた (https://zenn.dev/holy_fox/articles/04887ff8177b87)
+• ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence (https://arxiv.org/abs/2608.23569)
+• Expanding OpenAI’s presence in Brazil (https://openai.com/index/expanding-our-presence-in-brazil)
+
+注目の深掘り
+• AI shopping agents aren't ready to buy on your behalf, study finds (https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/)
+
+小ネタ・その他
+• AI agents meant to replace Meta workers made “large-scale, disruptive actions” (https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
+• How to evaluate LLMs before production (https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-28/index.html</link>
+    </item>
+    <item>
       <title>#149 RENDER：LLMのメモリ評価における読者向け証拠の制御 ほか</title>
       <description>Tech News Radio Show Notes - #149 (2026-08-27)
 

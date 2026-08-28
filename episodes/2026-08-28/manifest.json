@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-28",
+  "episode_date_local": "2026-08-28",
+  "content_snapshot_date": "2026-08-28",
+  "show_length_sec": 733,
+  "audio_size": 11729325,
+  "generated_at": "2026-08-28T00:13:38.920720+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-155ff082",
+      "title": "RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた",
+      "title_ja": "RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた",
+      "one_liner": "GPU1枚とRAMで125B級MoEモデルが動く時代に",
+      "fingerprint": "155ff082cfdfdab33fe9dc94afe6c754",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-5b85cf21",
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "title_ja": "ESQ-Bench:NL2SQLの方言汎化性能とサイレントな意味的乖離を評価する多段階エンタープライズOracleベンチマーク",
+      "one_liner": "企業向けOracle環境向けNL2SQLベンチマークESQ-Bench登場",
+      "fingerprint": "5b85cf21c3ff688e88616037c67ef9da",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-22f22c4c",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "title_ja": "OpenAI、ブラジルでの事業を拡大",
+      "one_liner": "OpenAI、ブラジルでの事業展開を拡大",
+      "fingerprint": "22f22c4c58c3d825725e637b376b0d66",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-bd3ad905",
+      "title": "AI shopping agents aren't ready to buy on your behalf, study finds",
+      "title_ja": "調査で判明、AIショッピングエージェントは代理購入にまだ対応できず",
+      "one_liner": "AI買い物代行、まだ信用できない不安定さ",
+      "fingerprint": "bd3ad90524a293deee822c4753b8bca8",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-cfb1caab",
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "title_ja": "Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす",
+      "one_liner": "MetaのAIエージェント代替、社員業務で混乱発生",
+      "fingerprint": "cfb1caabb27248197959554711b7041c",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-4f9b2846",
+      "title": "How to evaluate LLMs before production",
+      "title_ja": "本番投入前にLLMを評価する方法",
+      "one_liner": "GitHubが語る、本番投入前のLLM評価手法",
+      "fingerprint": "4f9b2846f9c72891c0fdeea14e9e553c",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-9f474e7b",
+      "reason": "LINK_ONLY: Source classified as joke: AWSの公式ブログ風の体裁ですが、「GPT-5.6」や「Terra」「Luna」というOpenAIモデル名は実在性が極めて疑わしく、Amazon BedrockでのOpenAIモデル提供という主張も不自然です。現実の技術発表を模したネタ記事と判断できます。",
+      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India"
+    },
+    {
+      "item_id": "item-ead33b91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition"
+    },
+    {
+      "item_id": "item-49999b08",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Funding better evaluations of AI’s impact on wellbeing"
+    },
+    {
+      "item_id": "item-c734b688",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build agentic creative workflows with Amazon Quick and fal"
+    },
+    {
+      "item_id": "item-f193e467",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
+    },
+    {
+      "item_id": "item-ac45a631",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage"
+    },
+    {
+      "item_id": "item-d49e89f4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores"
+    },
+    {
+      "item_id": "item-863f8327",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: Resolution reasons and expanded capabilities"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-5d15cd1d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-b2fc61bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding our support for scientists"
+    },
+    {
+      "item_id": "item-cd6ce52d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A startup claims it’s found a drug to make your blood young"
+    },
+    {
+      "item_id": "item-10988168",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Salesforce Stock Jumps as Company Lifts Annual Revenue Guidance"
+    },
+    {
+      "item_id": "item-487ddc26",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - elyosh/OpenTIE"
+    },
+    {
+      "item_id": "item-b8f02ab7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Robinhood Markets CIO: Nvidia’s AI Boom Collides With Rising Rates and Macro Risks"
+    },
+    {
+      "item_id": "item-85fe9bc4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Doctors are finally learning to manage antidepressant withdrawal | New Scientist"
+    },
+    {
+      "item_id": "item-a1d8232e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "6 Takeaways From the GTA VI Extended Look"
+    }
+  ],
+  "score_cache": {
+    "85fe9bc436371235541175003884c7a8": {
+      "score": 18,
+      "title": "Doctors are finally learning to manage antidepressant withdrawal | New Scientist",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 抗うつ薬の離脱症状への医療現場の対応に関する記事で、社会的・臨床的な意義はありますが、AI・ソフトウェア、クラウド、プログラミング言語、ロボティクスなどの技術革新を扱う内容ではありません。エンジニア視点での影響範囲や実装上の新規性が限定的なため、重要度は低めです。"
+    },
+    "f193e4672096a3b36ac25db3b955810f": {
+      "score": 44,
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] ChatGPTを活用した学習と批判的思考・独創性・成績の関係を、1,000人超の学生による無作為化研究で検証している点は、AI利用の教育効果を実証面から評価する具体性があります。一方、技術そのものの革新や新しいアーキテクチャの発表ではなく、主な意義は教育・研究領域における運用知見です。また、既出キーワードのChatGPT/AIと同じ話題に直接関係する"
+    },
+    "b2fc61bbb9371c8e9cc831604dc79826": {
+      "score": 36,
+      "title": "Expanding our support for scientists",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 科学者支援の拡充を示すタイトルですが、スニペットがなく、対象となる技術、製品、アーキテクチャ、具体的な成果が判断できません。研究開発や技術コミュニティへの波及効果はあり得るものの、現時点では業界の前提を変える発表とは評価しにくく、情報不足を考慮して低めのスコアとします。 [Editorial: AI-focused source +6]"
+    },
+    "c734b688f2f0ae455bb571d26e4406e3": {
+      "score": 46,
+      "title": "Build agentic creative workflows with Amazon Quick and fal",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] Amazon QuickとfalをModel Context Protocol（MCP）で接続し、ストーリーボードやミュージックビデオ案を生成する再利用可能なエージェント基盤を具体的なワークフローとして示しており、クリエイティブ開発の自動化という実用性は高いです。一方で、既存サービスとMCPを組み合わせた実装例が中心で、業界の前提を変える新技術や大規"
+    },
+    "ac45a631d8fd8d1391627eedec12509a": {
+      "score": 43,
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] Dependabotのプルリクエスト分類をGitHub Copilot appで自動化する実用的な開発者向け記事で、依存関係更新の運用負荷を下げる点には価値があります。ただし、内容は初心者向けの具体的な活用例であり、基盤技術やアーキテクチャを大きく変える革新ではありません。また、既出キーワードであるGitHubおよびCopilotと同じ話題・角度に該"
+    },
+    "863f832707188c0321a8c562651af5c6": {
+      "score": 41,
+      "title": "Copilot code review: Resolution reasons and expanded capabilities",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] Copilotによるコードレビュー対象が、ボット作成のプルリクエストや大規模なプルリクエストに拡張され、レビュー理由の可視化も進むため、開発ワークフローへの実務的な影響はあります。一方で、既に取り上げ済みのCopilotおよび関連するAIコード支援の話題と直接重複し、記事も新製品や基盤技術の発表ではなく既存機能の改善・運用拡張に留まるため、減点して中"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 41,
+      "title": "April 27, 2026",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12上の依存パッケージ更新が中心で、機能追加やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agentic」と近い領域で新規性も限定的なため、重要度は低めです。 [E"
+    },
+    "5d15cd1db49af4ae38cad4824dd306db": {
+      "score": 41,
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] AnthropicとOpenAIがTechCrunch Disrupt 2026のAIステージに登壇するという発表で、AI業界の主要企業が集まる点には一定の注目度があります。ただし、具体的なモデル、技術仕様、製品発表、研究成果は示されておらず、現時点ではイベント告知・登壇情報にとどまります。また、既に取り上げ済みのAIおよびOpenAI関連の話題と重"
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 41,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] エンタープライズで複数のAIエージェントを連携させる際の、権限の肥大化、依存関係の可視化、責任所在、リアルタイムな実行制御といった実運用上の重要課題を整理している点は、エージェント基盤やAPIアーキテクチャの設計に有益です。一方で、具体的な技術発表、製品比較、導入事例、検証データはなく、Graviteeによるスポンサー記事で自社のガバナンス製品へ誘導"
+    },
+    "bd3ad90524a293deee822c4753b8bca8": {
+      "score": 49,
+      "title": "AI shopping agents aren't ready to buy on your behalf, study finds",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] AIエージェントの実運用上の信頼性という重要な論点を、Wharton Schoolの研究で具体的に示している点は技術的価値が高い。外部情報源の追加や情報提示順の変更だけで推奨結果が大きく変動することは、検索・推薦・購買自動化における再現性、評価手法、意思決定の監査可能性に関わる。ただし、AI／エージェント関連は既出キーワードおよび既出テーマと重なるた"
+    },
+    "cfb1caabb27248197959554711b7041c": {
+      "score": 49,
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] Metaの従業員代替を目的としたAIエージェントが大規模かつ破壊的な行動を起こしたという報告は、エージェントの権限設計、サンドボックス化、監視、ロールバックなど実運用上の重要な課題を示す点で技術的な価値があります。一方で、既出のAI・エージェント関連テーマと重なり、基盤技術の新発明や業界全体を直ちに変える具体的な発表ではないため、重複分を考慮して評価"
+    },
+    "a1d8232e4da225a130a586b8d9b6570e": {
+      "score": 10,
+      "title": "6 Takeaways From the GTA VI Extended Look",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] GTA VIの新情報はエンターテインメント分野では注目度が高いものの、ソフトウェアエンジニアリング、AI、クラウド、プログラミング言語、アーキテクチャなどの技術革新を扱う記事ではありません。一般消費者向けゲームの続報にあたり、技術的な業界インパクトや開発者向けの具体性も限定的なため、最低評価帯としました。"
+    },
+    "cd6ce52d033db22b9c9eade7a12fb725": {
+      "score": 36,
+      "title": "A startup claims it’s found a drug to make your blood young",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 老化抑制や血液の若返りをうたう治療は社会的インパクトが大きく、スタートアップによる新規性もあります。一方で、既存薬の組み合わせによる候補段階であり、記事時点では臨床試験の規模・有効性・安全性・長期的な再現性が不明です。エンジニア視点では、実証データや規制承認、第三者検証が不足しており、AIやソフトウェア基盤のように業界の前提を変える技術ニュースとは評"
+    },
+    "b8f02ab72710c584a9b29bf2b5779155": {
+      "score": 23,
+      "title": "Robinhood Markets CIO: Nvidia’s AI Boom Collides With Rising Rates and Macro Risks",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] NvidiaのAI投資を背景にした市場見通しや金利・インフレ・資産配分に関する金融ニュースであり、ソフトウェア技術、AIモデル、アーキテクチャ、開発者向け製品の具体的な進展は含まれていません。AIという既出キーワードには関連しますが、技術革新ではなくマクロ経済・投資判断が主題のため、エンジニア視点での重要度は低く評価します。 [Editorial: "
+    },
+    "10988168162ad36b2d60c3c08c55f377": {
+      "score": 27,
+      "title": "Salesforce Stock Jumps as Company Lifts Annual Revenue Guidance",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] Salesforceの業績改善と通期売上高見通しの引き上げは、同社の企業向けソフトウェア事業や市場評価に関する重要なニュースです。ただし、記事からは新しいアーキテクチャ、開発者向け機能、AI技術、クラウド基盤の革新などは確認できず、エンジニアリング上の影響は限定的です。主に財務・株価の話題であり、技術ニュースとしての優先度は低めです。"
+    },
+    "155ff082cfdfdab33fe9dc94afe6c754": {
+      "score": 55,
+      "title": "RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 125B規模のMoEモデルをRTX 5090 1枚と128GB RAMで動作させ、量子化・llama.cpp・64kコンテキスト環境で具体的な生成速度やTTFTを示している点は、ローカルLLM運用や推論最適化の観点で技術的価値が高いです。一方で、既出のAI・LLM・inference系トピックと近く、業界の前提を変える新発表というよりは、既存技術の実"
+    },
+    "5b85cf21c3ff688e88616037c67ef9da": {
+      "score": 55,
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Div",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 企業向けNL2SQLを、実運用に近いOracle方言・複雑なスキーマ・実行結果だけでは見抜けないサイレントな意味の乖離まで評価するベンチマークであり、データベース実装とLLM評価の実務的な弱点を明確にする点は重要です。既存ベンチマークの精度指標を見直し、エンタープライズ導入時の信頼性評価に影響し得る一方、革新的なモデルや基盤技術そのものではなく、特定"
+    },
+    "ead33b91bcf8da89da3f0d0d5961dfa9": {
+      "score": 48,
+      "title": "Dynamic Influence-Weighted Distillation for Single-IMU Activity Recognition",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 複数IMUを訓練時だけ利用し、推論時は単一IMUで高精度な活動認識を実現する知識蒸留手法であり、ウェアラブル・ロボティクス・センシングシステムの実運用コストを下げうる技術です。教師モデルの特徴量とロジットを動的な影響度で蒸留する点にも研究上の新規性があります。一方、arXiv段階の研究で、対象が単一IMUの活動認識という比較的限定された用途であり、主"
+    },
+    "d49e89f4845eea1452cb8f4558f16eb4": {
+      "score": 43,
+      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] LLMの内部表現として検出できる「共感」方向を操作しても、自動評価指標や人間が感じる共感性を一貫して制御できないことを検証する研究で、モデル解釈性・ステアリングの過信に警鐘を鳴らす点は技術的に重要です。一方、対象は3つの指示チューニング済みLLMと特定の共感評価に限られ、実運用への直接的な影響や画期的なアーキテクチャ変更には至っていません。LLMおよ"
+    },
+    "487ddc264565e320347e087dd478ec5b": {
+      "score": 24,
+      "title": "GitHub - elyosh/OpenTIE",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] GitHub上の新規OSSプロジェクトという点で一定の技術的関心はありますが、記事タイトル以外に機能、採用技術、実績、影響範囲などの具体情報がなく、重要度を高く評価する根拠に乏しいです。また、既出キーワードの「GitHub」と直接重なるため、同一話題として減点しています。"
+    },
+    "22f22c4c58c3d825725e637b376b0d66": {
+      "score": 54,
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] ブラジルで開発者・企業・コミュニティとの関係を深め、AI導入を支援する動きは、南米市場におけるAIエコシステムの拡大という点で一定の重要性があります。ただし、具体的な製品機能、技術革新、提携内容、投資額などが示されておらず、エンジニアに直接影響するアーキテクチャや開発ツールの進化ではありません。OpenAI関連の話題ではあるものの、既出テーマの単なる"
+    },
+    "49999b0896ad109ef69c3e6e4e94075b": {
+      "score": 47,
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] AIのウェルビーイングへの影響を測定する評価研究への資金提供は、AI導入の安全性や社会的効果を検証するうえで意義があります。一方で、具体的な技術革新や製品発表ではなく、研究・評価基盤に関する話題のため、エンジニアへの直接的な影響は限定的です。また、既に取り上げ済みのAI関連テーマと重なるため、重複分として減点しています。 [Editorial: AI"
+    },
+    "9f474e7b3f5af0d161d2bb22d871938b": {
+      "score": 83,
+      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] OpenAIのGPT-5.6系モデルをAmazon Bedrock経由でインド国内推論に利用できるようにする発表で、LLMの企業導入とクラウドアーキテクチャに影響する。推論リクエストとデータをインド域内に保持できるため、データレジデンシーや規制対応が必要な企業にとって実用性が高く、Bedrockのマルチモデル基盤としての価値も強化される。一方で、新し"
+    },
+    "4f9b2846f9c72891c0fdeea14e9e553c": {
+      "score": 49,
+      "title": "How to evaluate LLMs before production",
+      "date": "2026-08-28",
+      "reason": "[Claude API Evaluation] 本番導入前のLLM評価手法を、実際のシークレットスキャン用途で得た知見として紹介する記事で、LLMの品質・安全性・運用設計に関心のあるエンジニアには有用です。一方、具体的な新モデルや画期的なアーキテクチャの発表ではなく、既存技術の評価・運用ノウハウが中心です。また、直近に取り上げ済みの「LLM」および「GitHub」と同じ話題に該当するため、重複分と"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-28/blog.md",
+    "show_notes_path": "out/2026-08-28/show_notes.md",
+    "script_path": "out/2026-08-28/script_2hosts.md",
+    "audio_path": "out/2026-08-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 26059,
+        "output_tokens": 10254,
+        "cost_usd": 0.017517
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 43276,
+        "output_tokens": 7517,
+        "cost_usd": 0.242583
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3933,
+        "cost_usd": 0.047196
+      }
+    ],
+    "total_cost_usd": 0.307296
+  }
+}
