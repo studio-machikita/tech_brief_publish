@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた ほか | Tech News Radio</title>
+<title>モデルハードウェア標準のプレビュー ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -899,7 +899,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
-<meta property="og:title" content="Tech News Radio — RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた ほか">
+<meta property="og:title" content="Tech News Radio — モデルハードウェア標準のプレビュー ほか">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-28/eyecatch.png">
 <meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-28/">
@@ -911,7 +911,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Tech News Radio — RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた ほか",
+    "headline": "Tech News Radio — モデルハードウェア標準のプレビュー ほか",
     "description": "2026-08-28 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
     "datePublished": "2026-08-28",
     "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-28/eyecatch.png",
@@ -936,11 +936,11 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   {
     "@context": "https://schema.org",
     "@type": "PodcastEpisode",
-    "name": "Tech News Radio — RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた ほか",
+    "name": "Tech News Radio — モデルハードウェア標準のプレビュー ほか",
     "description": "2026-08-28 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
     "datePublished": "2026-08-28",
     "url": "https://technewsradio.tokyo/episodes/2026-08-28/",
-    "duration": "PT12M13S",
+    "duration": "PT13M6S",
     "associatedMedia": {
       "@type": "MediaObject",
       "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-28/episode_audio.mp3"
@@ -995,7 +995,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
   
 <div class="share-buttons">
-  <a href="https://twitter.com/intent/tweet?text=RTX%205090%20%2B%20RAM%20128GB%E3%81%A7Qwen3.8-Flash-Next%E3%82%92llama.cpp%E3%81%A7%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-28/index.html"
+  <a href="https://twitter.com/intent/tweet?text=%E3%83%A2%E3%83%87%E3%83%AB%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E6%A8%99%E6%BA%96%E3%81%AE%E3%83%97%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-28/index.html"
      target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-28/index.html"
      target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
@@ -1083,214 +1083,219 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 const blogMd = `<!--
 ---
 title: "Tech News Radio — 2026-08-28"
-subtitle: "RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた / ESQ-Bench:NL2SQLの方..."
+subtitle: "モデルハードウェア標準のプレビュー / MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Ne..."
 date: "2026-08-28"
 vol: 150
 topics:
-  - LLM
-  - Hardware
-  - OSS
   - AI
-  - Data
+  - Hardware
+  - Robotics
+  - LLM
+  - Cloud
 author: "Studio Machikita"
 ---
 -->
 # 🎧 Tech News Radio — 2026-08-28
 
-*📖 約10分で読めます ｜ 🏷️ LLM, Hardware, OSS, AI, Data*
+*📖 約10分で読めます ｜ 🏷️ AI, Hardware, Robotics, LLM, Cloud*
 
 ---
 
 ## 📌 今日のハイライト
-- 🧠 **RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた** — GPU1枚とRAMで125B級MoEモデルが動く時代に
-- 🤖 **ESQ-Bench:NL2SQLの方言汎化性能とサイレントな意味的乖離を評価する多段階エンタープライズOracleベンチマーク** — 企業向けOracle環境向けNL2SQLベンチマークESQ-Bench登場
-- 🤖 **OpenAI、ブラジルでの事業を拡大** — OpenAI、ブラジルでの事業展開を拡大
-- 🤖 **調査で判明、AIショッピングエージェントは代理購入にまだ対応できず** — AI買い物代行、まだ信用できない不安定さ
-- 🤖 **Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす** — MetaのAIエージェント代替、社員業務で混乱発生
-- 🤖 **本番投入前にLLMを評価する方法** — GitHubが語る、本番投入前のLLM評価手法
+- 🤖 **モデルハードウェア標準のプレビュー** — AIが物理機器を操作する新標準、研究者向けに先行公開
+- 🤖 **MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測** — 128GBのMacで動くローカルLLMがついに実用域に到達
+- 🤖 **OpenAI、Amazon Bedrockでインド国内推論向けモデルを提供開始** — Amazon Bedrock、インドでOpenAIモデルの国内推論に対応
+- 🤖 **SLM条件付き階層的関係ルーティングによるラベル付きプロパティグラフ学習** — 小型言語モデルでグラフ学習の関係選択を高度化
+- 📦 **ブートストラップ可能なビルド：仕組みと理由** — ブートストラップ可能なビルドの仕組みと意義を解説
+- 🤖 **TreeGraft: ツリーベース投機的デコーディングのための適応的マルチドラフター接木手法** — 複数ドラフターを使い分ける投機的デコード高速化手法
 
 ---
 
-## 🧠 RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた
-\`LLM\` \`Hardware\` \`OSS\`
+## 🤖 モデルハードウェア標準のプレビュー
+\`AI\` \`Hardware\` \`Robotics\`
 
-> **一言で**: GPU1枚とRAMで125B級MoEモデルが動く時代に
+<details>
+<summary>📄 原題: Previewing the Model Hardware Standard</summary>
+</details>
 
-- RTX 5090 32GB＋RAM 128GBの1台構成でQwen3.8-Flash-Nextを検証
-- UnslothのUD-Q2_K_XL量子化とllama.cppの対応版を使用
-- 短文生成で約48 tokens/s、16kトークン入力後でも43.3 tokens/s
-- prefillは約1,429 tokens/s、16kトークン入力時のTTFTは約11秒
+> **一言で**: AIが物理機器を操作する新標準、研究者向けに先行公開
+
+- Model Hardware Standard（MHS）の研究プレビューを開始
+- AIエージェントが物理デバインスを安全に操作するための共通仕様
+- まずは科学研究機関と先端製造企業の一部に限定公開
 
 💡 **なぜ重要か**
-125B規模のMoE（専門家混合）モデルは通常、大容量VRAMを積んだ複数GPUが前提でした。今回の検証は、量子化技術とllama.cppの最適化により、コンシューマー向け1台構成でも実用速度が出せることを示しています。 大規模モデルの個人利用・自社運用のハードルが下がり、クラウドAPIに頼らないローカルLLM活用がさらに広がると見られています。量子化とMoEアーキテクチャの組み合わせが、今後のハードウェア要件の基準を変える可能性があります。
+AIエージェントの活用がソフトウェアの外に広がり、実験装置や製造機器などの物理機器を直接操作する場面が増えていると見られています。そうした操作には安全性の担保が欠かせず、共通の仕様がないと事故やトラブルにつながる懸念があります。MHSはこの課題に対応する共有仕様として位置づけられているようです。 物理機器の操作にも標準規格が生まれると、AIエージェントの活用範囲が研究や製造の現場まで広がる可能性があります。将来的には業界横断の共通基盤として定着し、ハードウェアメーカー各社が対応を進める流れが生まれるかもしれません。
 
 🎯 **今日のアクション**
-自社でLLMを動かす前提なら、量子化手法とllama.cppの対応状況を確認し、実際のtokens/sやTTFTを自分の用途で計測してから採用を判断すべきです。
+研究機関や製造業に関わるエンジニアは、MHSの仕様公開情報を早めに確認しておくとよさそうです。自社の装置やロボットにAIエージェントを組み込む計画がある場合、この標準への対応を検討する価値がありそうです。
 
-🔗 [原文を読む](https://zenn.dev/holy_fox/articles/04887ff8177b87)
+🔗 [原文を読む](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+
+🔗 [原文を読む](https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/)
 
 ---
 
-## 🤖 ESQ-Bench:NL2SQLの方言汎化性能とサイレントな意味的乖離を評価する多段階エンタープライズOracleベンチマーク
+## 🤖 MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測
+\`AI\` \`LLM\` \`Hardware\`
+
+> **一言で**: 128GBのMacで動くローカルLLMがついに実用域に到達
+
+- 著者は128GBのMacBook Proでローカルモデルを試し続けてきた
+- 80GB〜100GB帯の高性能モデルが少なく実用例がなかった
+- Qwen3.8 Flash Nextがその隙間を埋める性能だったと見られる
+- サブスク型AIサービスの一部作業を置き換えられる可能性がある
+
+💡 **なぜ重要か**
+ローカルLLMは高性能なほど必要メモリが大きく、個人が持てるMacのメモリ容量とのバランスが課題でした。この記事はその実用ラインを探る実測報告と見られます。 手元のマシンだけで開発作業をこなせるようになれば、クラウドAIサービスへの依存や利用コストの見直しが進む可能性があります。
+
+🎯 **今日のアクション**
+自社の開発環境でローカルLLMの実力を試し、サブスク利用とのコスト・性能を比較検討すると良さそうです。
+
+🔗 [原文を読む](https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval)
+
+---
+
+## 🤖 OpenAI、Amazon Bedrockでインド国内推論向けモデルを提供開始
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India</summary>
+</details>
+
+> **一言で**: Amazon Bedrock、インドでOpenAIモデルの国内推論に対応
+
+- Amazon BedrockがインドでOpenAIのGPT-5.6系モデルTerraとLunaに対応
+- インド国内リージョン間推論により、データと処理をインド国内に維持
+- 現地のデータ処理要件がある企業も、これらのモデルを大規模に利用できる
+
+💡 **なぜ重要か**
+各国でデータ主権やローカル処理の規制が強まる中、AIサービス提供者は推論データを特定地域内にとどめる仕組みが求められています。今回の対応は、インド市場で高度なAIモデルを使いたいが法規制やコンプライアンス上の理由で海外へのデータ送信を避けたい企業のニーズに応えるものと見られています。 クラウド事業者が地域ごとにAIインフラを整備する動きは今後も広がりそうです。データ主権を重視する国や業界での、生成AI導入のハードルが下がる可能性があります。
+
+🎯 **今日のアクション**
+インドで事業展開する企業は、Amazon Bedrockの国内リージョン間推論機能を確認し、データ処理要件に合致するか検討するとよいでしょう。既存のBedrock利用者は、モデル選択肢の拡大に合わせて構成を見直すことをおすすめします。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/)
+
+---
+
+## 🤖 SLM条件付き階層的関係ルーティングによるラベル付きプロパティグラフ学習
 \`AI\` \`Data\`
 
 <details>
-<summary>📄 原題: ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence</summary>
+<summary>📄 原題: SLM-Conditioned Hierarchical Relation Routing for Labeled Property Graph Learning</summary>
 </details>
 
-> **一言で**: 企業向けOracle環境向けNL2SQLベンチマークESQ-Bench登場
+> **一言で**: 小型言語モデルでグラフ学習の関係選択を高度化
 
-- 既存ベンチマークSpiderやBIRDは実行精度89%超だが学術向け簡易スキーマが前提
-- ESQ-BenchはOracle方言を軸にした企業データベース向けベンチマーク
-- 複雑さの段階分けと「サイレント意味乖離」の評価を導入
-- SQLの実行結果は正しく見えても意味がずれるケースを検出する仕組みと見られています
+- ラベル付きプロパティグラフはノードや関係に多様なテキスト・属性情報を持つ
+- 従来のグラフニューラルネットは属性を固定ベクトルとして扱う課題がある
+- 予測対象ごとにどの意味的情報を重視すべきか判断しにくい問題を指摘
+- SLM（小型言語モデル）で条件付けした階層的な関係ルーティング手法を提案
 
 💡 **なぜ重要か**
-NL2SQLモデルは学術ベンチマークで高精度を示す一方、企業の実際のOracle環境で使われる複雑なスキーマや独自SQL方言には対応しきれていないと見られています。この乖離を埋める評価基盤としてESQ-Benchが提案されたようです。 企業システムへのNL2SQL導入判断が、より現実的な精度指標に基づいて行われるようになる可能性があります。単純な実行精度だけでなく、意味的な正確さも重視される流れが広がりそうです。
+グラフニューラルネットは知識グラフや推薦システムなど幅広い分野で使われています。ただノードや関係に付随するテキストや属性情報を、予測対象に応じて柔軟に扱う仕組みはまだ発展途上と見られています。この研究は小型言語モデルの意味理解力を使って、グラフ内のどの関係情報を重視すべきか動的に判断する試みだそうです。 属性情報が豊富なグラフデータの学習精度が上がれば、知識グラフ検索や推薦システムの性能向上につながる可能性があります。また大規模言語モデルより軽量なSLMを組み合わせる発想は、計算コストを抑えたAI応用の設計にも参考になりそうです。
 
 🎯 **今日のアクション**
-NL2SQLモデルを企業DBに導入する前に、Oracleなど実運用の方言に対応した評価を実施すべきです。実行結果が一致しても意味がずれていないか確認する検証プロセスも検討してください。
+グラフ学習に関わるエンジニアは、属性情報の動的な重み付け手法として論文の詳細を確認する価値があります。SLMとGNNの組み合わせ方や、実装コストとの兼ね合いを評価してみるとよいでしょう。
 
-🔗 [原文を読む](https://arxiv.org/abs/2608.23569)
+🔗 [原文を読む](https://arxiv.org/abs/2608.26132)
 
 ---
 
-## 🤖 OpenAI、ブラジルでの事業を拡大
-\`AI\` \`Business\`
+## 📦 ブートストラップ可能なビルド：仕組みと理由
+\`OSS\` \`Security\`
 
 <details>
-<summary>📄 原題: Expanding OpenAI’s presence in Brazil</summary>
+<summary>📄 原題: Bootstrappable builds: how and why</summary>
 </details>
 
-> **一言で**: OpenAI、ブラジルでの事業展開を拡大
+> **一言で**: ブートストラップ可能なビルドの仕組みと意義を解説
 
-- OpenAIがブラジルでの活動を拡大すると発表
-- 開発者や企業、コミュニティとの連携を強化する方針
-- ブラジル国内でのAI活用の後押しが狙いだそうです
+- LWN.netがブートストラップ可能なビルドについて解説する記事を掲載
+- ソフトウェアを最小限の信頼できる基盤から構築する手法がテーマと見られる
+- サプライチェーンの安全性向上を目的とした取り組みだそうです
+- 具体的な技術詳細はスニペットからは限定的にしか判断できない
 
 💡 **なぜ重要か**
-AI技術の普及は米国や欧州だけでなく新興市場でも急速に進んでおり、ブラジルは南米最大のIT市場として注目されています。OpenAIが現地の開発者や企業と直接つながることで、地域特有のニーズに合わせたAI活用が進むと見られています。 グローバル企業が新興市場でのAI基盤を固めることで、各国のAI導入競争がさらに加速する可能性があります。ブラジルの開発者コミュニティが活性化すれば、他の南米諸国への波及効果も期待できそうです。
+ソフトウェアのビルド過程を最小限のコードから再現できるようにすることは、ビルド環境やコンパイラに悪意あるコードが混入するリスクを減らす手段として注目されているそうです。オープンソースコミュニティを中心に、サプライチェーン攻撃への対策として重要性が増していると見られています。 ビルドの透明性や再現性への関心が高まれば、ディストリビューションやパッケージ管理の設計にも影響を与える可能性があります。長期的にはソフトウェア供給網全体の信頼性向上につながると見られています。
 
 🎯 **今日のアクション**
-ブラジル市場に関心のある企業は、OpenAIの現地展開の動きを注視し、パートナーシップの機会を探るとよいでしょう。開発者はコミュニティイベントへの参加を通じて最新情報を早めにキャッチアップすべきです。
+エンジニアはビルドプロセスの依存関係を把握し、可能な範囲で再現可能なビルド手法を検討することが望ましいでしょう。詳細は元記事の確認をおすすめします。
 
-🔗 [原文を読む](https://openai.com/index/expanding-our-presence-in-brazil)
+🔗 [原文を読む](https://lwn.net/Articles/1088279/)
 
 ---
 
-## 🤖 調査で判明、AIショッピングエージェントは代理購入にまだ対応できず
-\`AI\` \`Business\`
+## 🤖 TreeGraft: ツリーベース投機的デコーディングのための適応的マルチドラフター接木手法
+\`AI\` \`LLM\`
 
 <details>
-<summary>📄 原題: AI shopping agents aren&#x27;t ready to buy on your behalf, study finds</summary>
+<summary>📄 原題: TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding</summary>
 </details>
 
-> **一言で**: AI買い物代行、まだ信用できない不安定さ
+> **一言で**: 複数ドラフターを使い分ける投機的デコード高速化手法
 
-- Wharton校の研究でAIショッピングエージェントの不安定さが判明
-- Wirecutterなど外部情報1つで商品選択が最大99ポイント変動
-- 同じ情報でも提示順序を変えるだけで結果が変わる
-- AIに購入判断を任せるにはまだ早いと結論づけ
-
-💡 **なぜ重要か**
-近年、AIエージェントに商品検索や購入判断を任せるサービスが増えています。しかし判断の裏側は不透明で、どんな根拠で選んでいるか検証しにくい状況です。今回の研究は、外部レビューサイトの有無や情報の提示順序といった些細な違いが結果を大きく左右することを示しました。信頼性の裏付けがないまま実用化が進んでいる現状に警鐘を鳴らす内容です。 AI代行購入サービスへの過信は、消費者に不利な選択をもたらす恐れがあります。今後は判断根拠の透明性や、外部情報の扱い方を検証する仕組みが業界全体で求められそうです。信頼性が確立するまでは、実用サービスの拡大に慎重さが必要だと見られています。
-
-🎯 **今日のアクション**
-AIエージェントを使ったサービスを開発する際は、判断根拠を検証できるログ機能を用意すべきです。また外部情報の取得順序や情報源の偏りが結果に与える影響を事前にテストし、公平性を確認する取り組みが欠かせません。
-
-🔗 [原文を読む](https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/)
-
----
-
-## 🤖 Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす
-\`AI\` \`Business\`
-
-<details>
-<summary>📄 原題: AI agents meant to replace Meta workers made “large-scale, disruptive actions”</summary>
-</details>
-
-> **一言で**: MetaのAIエージェント代替、社員業務で混乱発生
-
-- MetaがAIエージェントで社員の仕事を置き換えようとした
-- 報告によるとAIエージェントが大規模で影響の大きい行動を起こした
-- 人をAIに置き換える取り組みの難しさが浮き彫りになった
+- TreeGraftは木構造の投機的デコードを改良する新手法
+- 従来手法は1種類のドラフターしか使えず速度と質が両立しない
+- 小型ドラフターは速いが木の質が低く、大型は質が良いが遅い課題があった
+- 複数のドラフターを状況に応じて組み合わせる仕組みを提案
 
 💡 **なぜ重要か**
-多くの企業がAIエージェントによる業務自動化を進めていますが、実際の職場に導入すると想定外の挙動が起きやすいと見られています。Metaのような大手企業での事例は、AI導入の課題を示す材料として注目されます。 AIによる人員代替が単純ではないと分かれば、企業はAI導入のペースや監督体制を見直す可能性があります。業界全体で自動化への慎重な姿勢が広がるかもしれません。
+大規模言語モデルの推論は計算コストが高く、投機的デコードという手法で高速化が図られています。小さなモデル（ドラフター）が候補を提案し、大きなモデルが検証する仕組みです。木構造にして複数の候補を同時に提案すると、一度に受理できる長さが伸びて効率が上がります。ただし従来は1つのドラフターしか使わないため、速度と精度のトレードオフが避けられませんでした。 複数ドラフターを適応的に切り替える発想が広まれば、推論高速化の設計思想が変わる可能性があります。既存の投機的デコード実装にも応用が広がりそうで、LLM推論コストの削減に直結する研究として注目されています。
 
 🎯 **今日のアクション**
-AIエージェントを業務に導入する際は、権限の範囲を狭く設定し、人による監視体制を必ず用意すべきです。段階的な導入とログの検証も欠かせません。
+推論基盤を運用するエンジニアは、投機的デコードの最新手法を追い、既存のドラフター構成を見直す価値がありそうです。特に複数モデルを組み合わせる構成のコスト対効果を検証してみるとよいでしょう。
 
-🔗 [原文を読む](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
-
----
-
-## 🤖 本番投入前にLLMを評価する方法
-\`AI\` \`Security\`
-
-<details>
-<summary>📄 原題: How to evaluate LLMs before production</summary>
-</details>
-
-> **一言で**: GitHubが語る、本番投入前のLLM評価手法
-
-- GitHubがシークレットスキャニング向けLLM評価の実践知を公開
-- 実運用を想定した評価プロセスの設計が本番導入の鍵
-- 評価で得た教訓をブログ記事として共有
-
-💡 **なぜ重要か**
-LLMを実際のセキュリティ機能に組み込む際、精度や誤検知率を事前に見極める仕組みが欠かせません。GitHubはコード内の秘密情報（APIキーなど）を検出する機能にLLMを活用しており、その評価プロセスを整備した経緯を紹介しています。 LLMを本番システムに組み込む企業が増える中、評価手法の標準化はセキュリティ製品全体の信頼性向上につながると見られています。今後は評価基準の共有やベストプラクティスの普及が業界全体で進む可能性があります。
-
-🎯 **今日のアクション**
-LLMを本番導入する前に、実データに近いテストケースで精度と誤検知率を検証する体制を整えるべきです。評価結果を継続的にモニタリングし、モデル更新時にも同じ基準で再評価する仕組みを持つとよいでしょう。
-
-🔗 [原文を読む](https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)
+🔗 [原文を読む](https://arxiv.org/abs/2608.26112)
 
 ---
 
 ## 📝 まとめ
 
-この3つのニュースに共通するのは、AI技術がラボの実験段階から実運用・実務の現場へと着実に降りてきているという流れです。RTX 5090とRAM 128GBで125B級のMoEモデルが個人環境でも動くようになったことは、大規模モデルの民主化と推論コストの低減を象徴しており、もはや大規模言語モデルの活用が一部の大手企業や潤沢なクラウド予算を持つ組織だけの特権ではなくなりつつあることを示しています。一方でESQ-Benchのような企業向けOracle環境に特化したベンチマークの登場は、AIが単に「動く」だけでなく、実際の企業システムという複雑で方言や意味的なズレが生じやすい現場でどれだけ信頼できるかを厳密に評価する必要性が高まっていることを物語っています。そしてOpenAIのブラジル事業拡大は、こうした技術的な成熟と実用性の追求が新興市場への地理的拡大という形でビジネス面にも波及していることを示しており、全体として「AIの民主化・実用化・グローバル展開」が同時並行で進む業界の成熟フェーズに入ったことがうかがえます。
+この3つのニュースに共通するのは、AIをより多様な環境と主体の手に届けようとする「分散化」の動きです。モデルが物理機器を直接操作する標準規格、個人のローカルマシンで動く高性能LLM、そして特定地域のデータ主権に対応したクラウド推論という3つは、いずれもAIの実行場所や制御権をクラウド中央集権型から解き放とうとしている点で軌を一にしています。背景には、レイテンシやプライバシー、規制対応、コストといった実用上の課題への対処があり、AIが研究段階から実社会への実装フェーズへと移行していることが伺えます。今後は「どこでAIを動かすか」という選択肢の多様化そのものが、次の競争軸になっていくと考えられます。
 
 ---
 
 ## 🎯 今日の実務アクション 3 選
 
-1. **RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた**: 自社でLLMを動かす前提なら、量子化手法とllama.cppの対応状況を確認し、実際のtokens/sやTTFTを自分の用途で計測してから採用を判断すべきです。
-2. **ESQ-Bench:NL2SQLの方言汎化性能とサイレントな意味的乖離を評価する多段階エンタープライズOracleベンチマーク**: NL2SQLモデルを企業DBに導入する前に、Oracleなど実運用の方言に対応した評価を実施すべきです。実行結果が一致しても意味がずれていないか確認する検証プロセスも検討してください。
-3. **OpenAI、ブラジルでの事業を拡大**: ブラジル市場に関心のある企業は、OpenAIの現地展開の動きを注視し、パートナーシップの機会を探るとよいでしょう。開発者はコミュニティイベントへの参加を通じて最新情報を早めにキャッチアップすべきです。
+1. **モデルハードウェア標準のプレビュー**: 研究機関や製造業に関わるエンジニアは、MHSの仕様公開情報を早めに確認しておくとよさそうです。自社の装置やロボットにAIエージェントを組み込む計画がある場合、この標準への対応を検討する価値がありそうです。
+2. **MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測**: 自社の開発環境でローカルLLMの実力を試し、サブスク利用とのコスト・性能を比較検討すると良さそうです。
+3. **OpenAI、Amazon Bedrockでインド国内推論向けモデルを提供開始**: インドで事業展開する企業は、Amazon Bedrockの国内リージョン間推論機能を確認し、データ処理要件に合致するか検討するとよいでしょう。既存のBedrock利用者は、モデル選択肢の拡大に合わせて構成を見直すことをおすすめします。
 
 ---
 
 ## 🔗 出典一覧
-- [RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた](https://zenn.dev/holy_fox/articles/04887ff8177b87)
-- [ESQ-Bench:NL2SQLの方言汎化性能とサイレントな意味的乖離を評価する多段階エンタープライズOracleベンチマーク](https://arxiv.org/abs/2608.23569)
-- [OpenAI、ブラジルでの事業を拡大](https://openai.com/index/expanding-our-presence-in-brazil)
-- [調査で判明、AIショッピングエージェントは代理購入にまだ対応できず](https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/)
-- [Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
-- [本番投入前にLLMを評価する方法](https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)`;
+- [モデルハードウェア標準のプレビュー](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+- [モデルハードウェア標準のプレビュー](https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/)
+- [MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測](https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval)
+- [OpenAI、Amazon Bedrockでインド国内推論向けモデルを提供開始](https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/)
+- [SLM条件付き階層的関係ルーティングによるラベル付きプロパティグラフ学習](https://arxiv.org/abs/2608.26132)
+- [ブートストラップ可能なビルド：仕組みと理由](https://lwn.net/Articles/1088279/)
+- [TreeGraft: ツリーベース投機的デコーディングのための適応的マルチドラフター接木手法](https://arxiv.org/abs/2608.26112)`;
 const notesMd = `# Tech News Radio Show Notes - #150 (2026-08-28)
 
 ## エピソード情報
 - **エピソード**: #150
 - **日付**: 2026-08-28
-- **尺**: 約 12 分
+- **尺**: 約 13 分
 
 ## 免責事項
 当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
 
 ## 出典リンク一覧
 ### 本日のトップニュース
-- [RTX 5090 + RAM 128GBでQwen3.8-Flash-Nextをllama.cppで動かしてみた](https://zenn.dev/holy_fox/articles/04887ff8177b87)
-- [ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence](https://arxiv.org/abs/2608.23569)
-- [Expanding OpenAI’s presence in Brazil](https://openai.com/index/expanding-our-presence-in-brazil)
+- [Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview)
+- [Previewing the Model Hardware Standard](https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/)
+- [MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測](https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval)
+- [Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India](https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/)
 
 ### 注目の深掘り
-- [AI shopping agents aren't ready to buy on your behalf, study finds](https://the-decoder.com/ai-shopping-agents-arent-ready-to-buy-on-your-behalf-study-finds/)
+- [SLM-Conditioned Hierarchical Relation Routing for Labeled Property Graph Learning](https://arxiv.org/abs/2608.26132)
 
 ### 小ネタ・その他
-- [AI agents meant to replace Meta workers made “large-scale, disruptive actions”](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
-- [How to evaluate LLMs before production](https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)
+- [Bootstrappable builds: how and why](https://lwn.net/Articles/1088279/)
+- [TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding](https://arxiv.org/abs/2608.26112)
 `;
 function renderMarkdown(md) {
   if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
