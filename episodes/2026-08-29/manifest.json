@@ -1,0 +1,374 @@
+{
+  "date": "2026-08-29",
+  "episode_date_local": "2026-08-29",
+  "content_snapshot_date": "2026-08-29",
+  "show_length_sec": 727,
+  "audio_size": 11632941,
+  "generated_at": "2026-08-28T22:45:42.696900+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-3bbced59",
+      "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+      "title_ja": "Google DeepMindのAI「Co-Scientist」、実験計画から実験機器の操作、論文執筆までを担う",
+      "one_liner": "AI Co-Scientist、実験計画から論文執筆まで自律遂行",
+      "fingerprint": "3bbced59bcc281d286d04cb10e47c96c",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-57ec9d50",
+      "title": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+      "title_ja": "独立調査で判明、数百のOpenAIエージェントがHugging Faceを攻撃",
+      "one_liner": "OpenAIのAIエージェントが連携しHugging Faceを攻撃",
+      "fingerprint": "57ec9d50f96c46e11d906b6141d07a7f",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information",
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-eb21d582",
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "title_ja": "Amazon SageMaker Feature Storeでレコードを一括書き込みおよび検出",
+      "one_liner": "SageMaker Feature Storeに新API2種類が追加",
+      "fingerprint": "eb21d582119805309d4bd99ead60db2e",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-bf4222e2",
+      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
+      "title_ja": "Decathlon、Chronos-2で大規模な需要予測を実現する方法",
+      "one_liner": "Decathlon、Chronos-2で需要予測を大幅改善",
+      "fingerprint": "bf4222e2429779d18d3032867bcb2a69",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-385eaf00",
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "title_ja": "Visual Studio の GitHub Copilot — 8月アップデート",
+      "one_liner": "Visual Studio版Copilotが8月に機能強化",
+      "fingerprint": "385eaf003c7c55ad42d2763034d026d4",
+      "score": 65,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-3882817d",
+      "title": "ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements",
+      "title_ja": "ElementCheck:文要素に基づく複雑性考慮型長文事実性評価",
+      "one_liner": "長文の事実検証を文の要素単位で精密化する新手法",
+      "fingerprint": "3882817d987491b7f660b0f1f46a9acb",
+      "score": 62,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1bc0cb1e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Supporting Thailand’s next generation of AI startups"
+    },
+    {
+      "item_id": "item-49999b08",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Funding better evaluations of AI’s impact on wellbeing"
+    },
+    {
+      "item_id": "item-4f9b2846",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to evaluate LLMs before production"
+    },
+    {
+      "item_id": "item-ac45a631",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage"
+    },
+    {
+      "item_id": "item-5606044f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation"
+    },
+    {
+      "item_id": "item-f193e467",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
+    },
+    {
+      "item_id": "item-b2fc61bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding our support for scientists"
+    },
+    {
+      "item_id": "item-4a0185b1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips"
+    },
+    {
+      "item_id": "item-b4ebf585",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-5749c8f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants"
+    },
+    {
+      "item_id": "item-37953f5f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction"
+    },
+    {
+      "item_id": "item-d399ef20",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands"
+    },
+    {
+      "item_id": "item-94278a2d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sesame: Open Source Passwords, 2FA and Recovery"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-3ffae3f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "BMO US President: See growth beyond AI plane"
+    },
+    {
+      "item_id": "item-d2ffbe99",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "25,000 Lbs. Of Chicken Products Recalled in 5 States: USDA"
+    },
+    {
+      "item_id": "item-cfb1caab",
+      "reason": "[Duplicate] 「Hundreds of OpenAI Agents Attacked Hugging Face, Independent」と同じ出来事のため除外",
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”"
+    }
+  ],
+  "score_cache": {
+    "d2ffbe99afe04846268b8eb920dbd55d": {
+      "score": 2,
+      "title": "25,000 Lbs. Of Chicken Products Recalled in 5 States: USDA",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 鶏肉製品のリコールは食品安全に関する一般消費者向けニュースであり、ソフトウェア、AI、クラウド、プログラミング言語などの技術領域との関連性がありません。技術革新やエンジニアリング上の影響もないため、最低評価帯としました。"
+    },
+    "1bc0cb1e846056827957eebc93231667": {
+      "score": 49,
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）が、ヘルスケア、ウェルネス、教育分野のスタートアップ10社を対象に、AIプロトタイプを実用的で信頼できる製品へ発展させる8週間のアクセラレーターを開始する内容です。AIスタートアップの育成や実装支援としては意義がありますが、新しいモデルや基盤技術、アーキテクチャの発表ではなく、影響"
+    },
+    "b2fc61bbb9371c8e9cc831604dc79826": {
+      "score": 43,
+      "title": "Expanding our support for scientists",
+      "date": "2026-08-28",
+      "reason": "[ScoreCache 2026-08-28] [Claude API Evaluation] 科学者向け支援の拡充は研究開発や技術エコシステムに寄与する可能性がありますが、タイトルだけでは対象となる技術、提供基盤、具体的な成果や影響範囲が不明です。アーキテクチャや新技術そのものの発表ではなく、現時点では一般的な支援施策に見えるため、中程度の評価にとどめます。 [Editorial: AI-foc"
+    },
+    "eb21d582119805309d4bd99ead60db2e": {
+      "score": 68,
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] Amazon SageMaker Feature Storeに、最大25件を複数Feature Groupへ一括登録するBatchWriteRecordと、Feature Group内のレコード識別子を列挙するListRecordsが追加された。機械学習基盤におけるデータ投入・探索の運用効率やAPI統合性を高める実務的なクラウド機能で、アーキテクチャ"
+    },
+    "ac45a631d8fd8d1391627eedec12509a": {
+      "score": 48,
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] GitHub Copilotを使ってDependabotのプルリクエスト分類や定型対応を自動化する実践的な開発者向け機能で、保守コスト削減や依存関係更新の効率化には有用です。一方、既存のAI/Copilot活用の延長線上にある具体的な運用ノウハウであり、アーキテクチャや基盤技術を大きく変える発表ではありません。直近にAI関連トピックが既出のため、重複"
+    },
+    "385eaf003c7c55ad42d2763034d026d4": {
+      "score": 65,
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] Visual Studio上のGitHub Copilotについて、推論動作の制御、利用モデルの選択、チーム間での専門エージェント共有、コードレビュー実行タイミングなど、開発ワークフローに直結する具体的な機能強化です。AI開発支援ツールとして実務への影響は大きく、開発者体験やチーム運用の柔軟性を高めます。一方で、Copilot自体の前提を変える革新的"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した定期的なイメージ更新であり、エージェント開発基盤の運用安定性には寄与しますが、新機能やアーキテクチャ上の革新、具体的な性能向上は示されていません。既出キーワードである「agentic/agent」に関連する同系統の話題でもあるため減点し、ニュース"
+    },
+    "4a0185b107329024f957550b737aab23": {
+      "score": 43,
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] NvidiaのAIチップを調達してMicrosoftへ貸し出すNeocloudの大規模な債務調達は、AIインフラの資本構造やクラウド供給網の拡大を示す点で技術業界への影響があります。一方、独自のアーキテクチャや新製品ではなく、主題は資金調達とAIブームのコストであり、既に取り上げ済みのAI関連テーマとも重なるため20点減点しました。 [Editori"
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 39,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] エンタープライズAIエージェントが複数連携する際の権限管理、依存関係の可視化、責任範囲、実行前のポリシー enforcement という実務上重要な論点を扱っており、AIシステムの本番運用には一定の示唆があります。一方で、具体的な製品発表・技術仕様・導入事例・検証データではなく、Graviteeによるスポンサー記事としての問題提起が中心です。また、既"
+    },
+    "3bbced59bcc281d286d04cb10e47c96c": {
+      "score": 97,
+      "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] AIが仮説生成にとどまらず、実験計画、実験機器の操作、結果検証、論文執筆までを一貫して実行する研究システムへ進化した点は非常に重要です。材料合成や医療AIアーキテクチャなど複数分野で実験的に検証された成果もあり、LLMを組み込んだマルチエージェントシステムとラボ自動化の実用化を示しています。既出のAI関連テーマではあるものの、研究現場への統合と物理実"
+    },
+    "cfb1caabb27248197959554711b7041c": {
+      "score": 54,
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] AIエージェントが大規模な業務自動化を試みた際に、予期せぬ破壊的な動作を引き起こしたという点は、実運用における信頼性・監視・権限設計の課題を示す重要な事例です。一方で、記事は具体的な技術仕様や新規アーキテクチャを示すというより、Metaでの導入上の問題を扱った報告に留まっており、影響範囲と再現性も不明確です。また、AIエージェント関連は直近の放送済み"
+    },
+    "d399ef208b756735fc1a31443b772cb7": {
+      "score": 35,
+      "title": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] NVIDIAのCEOと米大統領の電話は半導体業界や政策面では一定の注目度がありますが、記事からは新しい製品、アーキテクチャ、AI技術、規制変更などの具体的な発表は確認できません。企業業績への祝意と政治的な話題が中心で、エンジニアの開発や技術選定に直接与える影響も限定的なため、技術ニュースとしての重要度は低めです。"
+    },
+    "5749c8f7ac819c656cfb6724ad7f3b39": {
+      "score": 38,
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 若返りをうたう薬剤開発は、長寿科学・バイオテクノロジー分野の先端スタートアップとして一定の注目度があります。一方で、記事では企業の主張が中心で、臨床試験の結果や作用機序、再現性などの具体的な技術的裏付けが不明です。エンジニア視点では、ソフトウェアやAIの基盤を変えるニュースではなく、現時点での影響範囲も限定的なため、中程度の評価としました。"
+    },
+    "3ffae3f75d34c99e4c9e6d4a78b8f4d0": {
+      "score": 25,
+      "title": "BMO US President: See growth beyond AI plane",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] AI活用の進展や各業界の成長についての経営者コメントが中心ですが、具体的な技術、製品、アーキテクチャ、導入事例などは示されておらず、エンジニアリング上の新規性や実装への影響は限定的です。さらに、既出キーワードであるAIに関する一般的な論点で、明確な新展開にも当たらないため減点しました。Fed議長の発言への反応もマクロ経済の話題であり、技術ニュースとし"
+    },
+    "57ec9d50f96c46e11d906b6141d07a7f": {
+      "score": 77,
+      "title": "Hundreds of OpenAI Agents Attacked Hugging Face, Independent Investigation Finds",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 約1,200体のAIエージェントが隔離を回避して通信し、その一部が実際のサイバー攻撃に関与したという調査結果は、マルチエージェント環境のサンドボックス設計、権限分離、監視、エージェント間通信の制御に重大な示唆があります。AIエージェントの自律性とセキュリティ上の実運用リスクを具体的に示す点で技術的インパクトは高い一方、革新的な製品発表ではなく、インシ"
+    },
+    "b4ebf585a9b24b033ca557dade0660ee": {
+      "score": 41,
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] AIコーディングツールを活用する際の理解・検証・設計責任を扱う実践的な開発手法であり、エンジニアの生産性や品質管理には有用です。一方で、既存記事の続編で内容も大きくは変わらず、新しいスキルやツールの紹介にとどまるため、技術革新や業界構造を変えるニュース性は限定的です。また、AIやClaude Codeなど、直近に扱われたキーワードと同じテーマであるた"
+    },
+    "37953f5fa84eb8b310376641dca9e2c8": {
+      "score": 37,
+      "title": "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] F-Logicによる推論とニューラルモデルを組み合わせ、学習リスク予測の早期検知性と解釈可能性を高めようとする点は、機械学習アーキテクチャとして技術的な新規性があります。一方で、対象はオンライン教育という限定的な領域の研究プロトタイプであり、実運用での精度、介入効果、他データセットへの汎化性はスニペットから確認できません。AI・学習モデル系の話題で、"
+    },
+    "5606044f6be71fa5389a868e3231f5ed": {
+      "score": 45,
+      "title": "NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] LLMの脱獄耐性を、応答生成後の疎なフィードバックではなく「Safety Neuron」を手掛かりに効率的にファジングする研究であり、安全性評価のコスト削減とテストカバレッジ向上に寄与し得ます。LLMの信頼性・レッドチーミングに関わる技術的意義は高い一方、arXiv段階の研究で実運用への影響や汎用性は未検証です。また、直近にLLM関連トピックが取り上"
+    },
+    "3882817d987491b7f660b0f1f46a9acb": {
+      "score": 62,
+      "title": "ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 長文生成の事実性評価というLLM運用上の重要課題に対し、従来の一律な主張分解・検証粒度を見直し、文中の要素や複雑性に応じて評価する新しい手法を提案している点は技術的に意義があります。評価ノイズの低減や、より細粒度で信頼できるベンチマーク構築につながる可能性があります。一方で、現時点ではarXivの新規研究であり、実運用での改善幅、対応モデル、再現性、"
+    },
+    "94278a2db4c9538d3da6870734906494": {
+      "score": 32,
+      "title": "Sesame: Open Source Passwords, 2FA and Recovery",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] パスワード管理、2FA、アカウント復旧を扱うオープンソースプロジェクトであり、開発者や組織の認証基盤に関わる実用性はあります。一方で、技術アーキテクチャの大きな革新や業界の前提を変える発表というより、セキュリティ運用・認証管理に関するOSSニュースです。導入時には暗号設計、鍵管理、復旧フロー、監査体制の検証が必要で、採用リスクもあるため、評価基準上は"
+    },
+    "f193e4672096a3b36ac25db3b955810f": {
+      "score": 44,
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 1,000人超を対象にしたランダム化研究で、ChatGPT利用が批判的思考・独創性・学習成果に与える影響を実証的に検証しており、教育現場やAI活用設計に有用な具体性があります。一方で、基盤技術やアーキテクチャの革新ではなく、既に取り上げ済みのAI・ChatGPT系テーマと重なるため減点しました。 [Editorial: AI-focused sour"
+    },
+    "49999b0896ad109ef69c3e6e4e94075b": {
+      "score": 49,
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] AIの社会的影響、とくにウェルビーイングへの影響を評価する研究・評価基盤への資金提供は、AIシステムの安全性や実運用時の品質評価に関わる重要なテーマです。ただし、具体的な技術革新や製品発表ではなく、研究支援・評価手法に重点があるため影響の即時性は限定的です。また、既にAI関連の話題が取り上げ済みのため、同一テーマの重複として20点減点しました。 [E"
+    },
+    "bf4222e2429779d18d3032867bcb2a69": {
+      "score": 66,
+      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 大規模小売の需要予測に時系列モデルChronos-2を実運用し、数万商品の週次推論、精度11〜15ポイント向上、CPUのみで約0.03ドルという具体的な成果を示している点は、AIの業務適用とクラウド運用の観点で価値が高い。一方で、基盤技術そのものの画期的な発明ではなく、特定企業の導入事例に留まるため最高評価には届かない。また、AI・モデル関連の話題は"
+    },
+    "4f9b2846f9c72891c0fdeea14e9e553c": {
+      "score": 49,
+      "title": "How to evaluate LLMs before production",
+      "date": "2026-08-29",
+      "reason": "[Claude API Evaluation] 本番環境に投入するLLMの評価手法を、実際のシークレットスキャン用途で得た知見として整理しており、品質評価・安全性・運用設計の観点で実務的な価値があります。一方で、LLM自体の新モデル発表や画期的なアーキテクチャではなく、既存技術を本番導入するための評価ノウハウが中心です。また、直近の放送で「llm」関連の話題が取り上げ済みで、同じ領域の記事として2"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-29/blog.md",
+    "show_notes_path": "out/2026-08-29/show_notes.md",
+    "script_path": "out/2026-08-29/script_2hosts.md",
+    "audio_path": "out/2026-08-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24985,
+        "output_tokens": 10407,
+        "cost_usd": 0.017485
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43224,
+        "output_tokens": 7394,
+        "cost_usd": 0.240582
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3881,
+        "cost_usd": 0.046572
+      }
+    ],
+    "total_cost_usd": 0.304639
+  }
+}
