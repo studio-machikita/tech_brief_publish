@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-30",
+  "episode_date_local": "2026-08-30",
+  "content_snapshot_date": "2026-08-30",
+  "show_length_sec": 769,
+  "audio_size": 12315309,
+  "generated_at": "2026-08-29T21:46:10.171381+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-eb21d582",
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "title_ja": "Amazon SageMaker Feature Storeでレコードを一括書き込み・検索",
+      "one_liner": "SageMaker Feature Storeに一括書込・検索APIが追加",
+      "fingerprint": "eb21d582119805309d4bd99ead60db2e",
+      "score": 68,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-46e06d5f",
+      "title": "AI-generated videos are already displacing actors and livestreamers across China's entertainment industry",
+      "title_ja": "AI生成動画、中国の娯楽業界で俳優やライブ配信者に取って代わり始める",
+      "one_liner": "中国のショートドラマ、AI生成が95%に急増",
+      "fingerprint": "46e06d5f9414af0e52f415a4742c2b8b",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-43914f30",
+      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+      "title_ja": "負荷分散の実現:SalesforceがSageMaker推論コンポーネントでマルチAZ高可用性を実現した方法",
+      "one_liner": "SalesforceがSageMaker推論で複数AZ配置を実現",
+      "fingerprint": "43914f308750a1cfa3550133e6f3f4b6",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-0fc88083",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "title_ja": "SpaceXによるCursor買収を受けた当社の決定",
+      "one_liner": "OpenAI、CursorへのAPI提供契約を終了へ",
+      "fingerprint": "0fc880832139ad8665a4cf7f9fdf5a1a",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "The Decoder",
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-cfb1caab",
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "title_ja": "Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす",
+      "one_liner": "MetaのAIエージェントが業務で予期せぬ混乱を招いた",
+      "fingerprint": "cfb1caabb27248197959554711b7041c",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-49999b08",
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "title_ja": "AIがウェルビーイングに与える影響、より良い評価手法への投資",
+      "one_liner": "AnthropicがAIと幸福度研究に5億円助成",
+      "fingerprint": "49999b0896ad109ef69c3e6e4e94075b",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-4f9b2846",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to evaluate LLMs before production"
+    },
+    {
+      "item_id": "item-ac45a631",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage"
+    },
+    {
+      "item_id": "item-f193e467",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
+    },
+    {
+      "item_id": "item-b2fc61bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding our support for scientists"
+    },
+    {
+      "item_id": "item-5749c8f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants"
+    },
+    {
+      "item_id": "item-d03a3dec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset"
+    },
+    {
+      "item_id": "item-385eaf00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in Visual Studio — August update"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-c7474aa9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tencent Releases and Open-Sources Tencent Hy4 preview"
+    },
+    {
+      "item_id": "item-8449e136",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft"
+    },
+    {
+      "item_id": "item-0aad6c31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming changes to GitHub Copilot policies and billing"
+    },
+    {
+      "item_id": "item-55311cf4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What we want is a hunter gatherer lifestyle with space age tools"
+    },
+    {
+      "item_id": "item-876a2f57",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Affinity で `xlink:href` で継承される色属性を含むSVG図形が適切に描画されない"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-6b4b2539",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump Administration Executive Order for New AI Regulator Stalls"
+    },
+    {
+      "item_id": "item-eca5c176",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bloomberg This Weekend 8/29/2026"
+    },
+    {
+      "item_id": "item-3c8113eb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls"
+    }
+  ],
+  "score_cache": {
+    "55311cf4ce1f8920b83e0338dc53a5e4": {
+      "score": 35,
+      "title": "What we want is a hunter gatherer lifestyle with space age tools",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 未来の生活様式や先端ツールに関する示唆的なタイトルですが、記事本文や具体的な製品・技術・企業名がなく、技術的な新規性や実装可能性、業界への影響を評価できません。AIやロボティクスなどの明確な革新テーマも確認できないため、現時点ではコンセプト紹介として低めに評価します。"
+    },
+    "0fc880832139ad8665a4cf7f9fdf5a1a": {
+      "score": 49,
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] AI開発環境のCursorとSpaceXによる買収、さらにOpenAIモデルの提供契約を打ち切るという内容で、開発者向けAIツールのエコシステムやモデル提供戦略に影響し得る点は重要です。一方、記事の具体的な技術革新よりも企業買収と契約変更が中心で、直近放送済みの「OpenAI」関連トピックと重なるため20点減点しました。 [Editorial: AI"
+    },
+    "b2fc61bbb9371c8e9cc831604dc79826": {
+      "score": 43,
+      "title": "Expanding our support for scientists",
+      "date": "2026-08-28",
+      "reason": "[ScoreCache 2026-08-28] [ScoreCache 2026-08-28] [Claude API Evaluation] 科学者向け支援の拡充は研究開発や技術エコシステムに寄与する可能性がありますが、タイトルだけでは対象となる技術、提供基盤、具体的な成果や影響範囲が不明です。アーキテクチャや新技術そのものの発表ではなく、現時点では一般的な支援施策に見えるため、中程度の評価にと"
+    },
+    "eb21d582119805309d4bd99ead60db2e": {
+      "score": 68,
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] Amazon SageMaker Feature Storeに、複数Feature Groupへ最大25件を一括投入するBatchWriteRecordと、Feature Group内のレコード識別子を列挙するListRecordsが追加されました。機械学習基盤におけるデータ投入・探索の効率化や実装簡素化に直結する、クラウド／MLアーキテクチャ上の実"
+    },
+    "ac45a631d8fd8d1391627eedec12509a": {
+      "score": 48,
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] GitHub CopilotをDependabotのプルリクエスト分類・対応に活用し、ライブラリ更新のトリアージを自動化する実務的な開発生産性向上の事例です。日常的な保守作業を効率化できる点は有用ですが、業界の前提を変える新技術や基盤アーキテクチャの発表ではなく、適用範囲もDependabot対応に限定されています。既にAI関連トピックが取り上げ済み"
+    },
+    "385eaf003c7c55ad42d2763034d026d4": {
+      "score": 41,
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] Visual Studio向けGitHub Copilotのアップデートで、推論方法・利用モデルの選択、チーム間での専門エージェント共有、コードレビュー依頼の制御など、開発ワークフローに直結する具体的な改善が含まれています。AIコーディング支援の運用性とカスタマイズ性を高める点でエンジニアへの影響は大きい一方、業界の前提を変える新技術というより既存C"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した保守的なリリースであり、機能追加やアーキテクチャ変更、技術革新は確認できません。運用上の更新として一定の実務価値はありますが、影響範囲と新規性は限定的です。また、エージェント基盤に関する既出テーマと近いため、重複分を減点しています。 [Edito"
+    },
+    "8449e136b549138c6cfcd8c4851b4a3d": {
+      "score": 37,
+      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] Anthropicをめぐる大手音楽出版社の著作権訴訟であり、学習データや生成物の扱い、AI企業の法的リスクに影響する点では重要です。ただし、技術革新そのものではなく、主題は知的財産権と違法コピーをめぐる訴訟で、評価基準上は法律・規制寄りです。また、AI関連の法的問題は既出キーワードの話題と重なるため減点しました。 [Editorial: AI/Saa"
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 41,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 企業向けAIエージェントを単体ではなく、複数エージェント間の依存関係・権限伝播・監査・実行時制御というシステム設計の問題として捉えている点は、実運用に直結する重要な論点です。特に、エージェント数に対して通信経路や副作用が複雑化し、従来の個別承認やログ監視だけでは不十分になるという指摘は、AI基盤やガバナンス設計の観点で有益です。一方で、具体的な製品機"
+    },
+    "46e06d5f9414af0e52f415a4742c2b8b": {
+      "score": 66,
+      "title": "AI-generated videos are already displacing actors and livestreamers across China's entertainment industry",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 中国の短編ドラマの95%がAI生成となり、俳優やライブ配信者の声・容姿が本人の雇用継続と引き換えにAIへ移転されるという、生成AIの実運用と労働市場への影響を具体的に示す重要な事例です。映像生成、音声・肖像のデジタル化、コンテンツ制作パイプラインの自動化というエンジニアリング上の変化も大きく、単なるモデル発表より実社会への波及度は高い一方、技術そのも"
+    },
+    "cfb1caabb27248197959554711b7041c": {
+      "score": 49,
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] AIエージェントを実際の業務に投入した際、想定外の大規模・破壊的な行動が発生したという点は、エージェントの自律性、権限設計、監視、ロールバックなど実装上の重要な示唆を含みます。Meta規模での人員代替に関わるため影響範囲も広い一方、技術革新そのものの発表ではなく、課題や失敗事例を扱う報告にとどまります。また、AIおよびエージェント関連は直近放送済みキ"
+    },
+    "3c8113ebd7bda31c456f110778768cca": {
+      "score": 2,
+      "title": "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 一般消費者向けのワイヤレスイヤホン製品レビューであり、主な評価点も通話品質と価格です。ソフトウェアエンジニアリング、クラウド、AI、プラットフォーム技術などへの影響や技術革新性は限定的なため、最低評価帯としました。 [Editorial: gadget topic -8]"
+    },
+    "5749c8f7ac819c656cfb6724ad7f3b39": {
+      "score": 43,
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 若返りをうたう薬というテーマはバイオテクノロジーや先端スタートアップに関わり、実証に成功すれば医療・製薬業界へ大きな影響を与え得ます。一方、記事スニペットでは薬の仕組み、臨床データ、再現性、規制上の承認状況など具体性がなく、現時点では企業の主張にとどまっています。仮想発電所もエネルギーインフラ上の重要な技術ですが、今回の情報だけでは詳細が不足している"
+    },
+    "eca5c17671b150eca12d5715fe951914": {
+      "score": 6,
+      "title": "Bloomberg This Weekend 8/29/2026",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 週末のニュース番組の放送告知であり、AI・クラウド・プログラミング言語・ロボティクスなどの技術的な発表や具体的な製品・アーキテクチャ情報を含みません。エンジニアリングへの直接的な影響、技術的新規性、実装上の示唆がほぼないため、最低評価帯としました。"
+    },
+    "6b4b253980a634957b98eac784e6e3b4": {
+      "score": 29,
+      "title": "Trump Administration Executive Order for New AI Regulator Stalls",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 最先端AIモデルを対象とする自主規制機関の創設案は、将来的には開発企業のガバナンスやモデル提供条件に影響し得ますが、現時点では草案段階で承認も停滞しており、エンジニアリング上の具体的な変更はありません。主題がAI規制という法律・制度寄りのニュースであるため評価は低めです。また、既出のAI関連トピックと重複するため減点しています。 [Editorial"
+    },
+    "876a2f57bf7453d4eaf278333ab2b9d1": {
+      "score": 30,
+      "title": "Affinity で `xlink:href` で継承される色属性を含むSVG図形が適切に描画されない",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] SVGのxlink:hrefによる属性継承をAffinityが正しく描画できないという、特定アプリケーションの互換性・実装上の不具合です。SVGを扱う開発者やデザイナーには実務上の影響がありますが、業界全体のアーキテクチャや主要技術を変えるものではなく、対象範囲も限定的です。"
+    },
+    "d03a3decc3b5fdffa51d2edd6cddae31": {
+      "score": 42,
+      "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] ICU死亡予測の説明生成にLLMと事前定義型のエージェントパイプラインを適用し、データ解釈・ガイドライン確認・最終説明を分離して比較する点は、医療AIの実装設計として興味深い。一方で、eICU Demo Datasetを用いた実現可能性検証にとどまり、臨床現場での有効性や汎化性、運用時の安全性が確立されたわけではない。また、LLMおよびagentic"
+    },
+    "c7474aa9049e49fc93b7acf6c84e9f2a": {
+      "score": 38,
+      "title": "Tencent Releases and Open-Sources Tencent Hy4 preview",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] Tencentが新技術のプレビュー版を公開し、オープンソース化する点は、実装を検証できる開発者層を広げ、エコシステム形成にもつながるため一定の技術的インパクトがあります。一方で、記事からはHy4の具体的な機能、性能、適用範囲、既存技術との差分が読み取れず、業界の前提を変えるほどの重大発表とは判断できません。また、AI・LLM系のオープンソースモデル公"
+    },
+    "f193e4672096a3b36ac25db3b955810f": {
+      "score": 44,
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 1,000人超を対象にしたランダム化研究で、ChatGPT利用が批判的思考・独創性・学習成果へ与える影響を実際の大学課題で検証しており、生成AIの教育活用を評価するデータとして具体性と信頼性があります。一方、研究対象は教育分野に限定され、AI技術そのものの新機能やアーキテクチャ革新ではありません。また、既取り上げキーワードのChatGPT/AIと重な"
+    },
+    "49999b0896ad109ef69c3e6e4e94075b": {
+      "score": 49,
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] AIそのものの性能向上や新製品ではなく、AIが人々のウェルビーイングに与える影響を測定する評価研究への資金提供に関する話題です。長期的にはAI導入の効果検証や安全な運用、政策判断に重要ですが、技術的な新規性や具体的なアーキテクチャへの影響は限定的です。AI関連の既出テーマと一部重なるため減点しています。 [Editorial: AI-focused "
+    },
+    "43914f308750a1cfa3550133e6f3f4b6": {
+      "score": 51,
+      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] SageMaker Inference ComponentsのSchedulingConfigを活用し、モデルコピーを複数Availability Zoneへ分散してMulti-AZ高可用性要件とマルチモデル同居によるコスト効率を両立した、実務的で具体性の高いクラウドアーキテクチャ事例です。AWSの推論基盤設計や可用性・コスト最適化に有用ですが、業界"
+    },
+    "4f9b2846f9c72891c0fdeea14e9e553c": {
+      "score": 49,
+      "title": "How to evaluate LLMs before production",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] 本番導入前のLLM評価手法は、精度だけでなく実運用の安全性や秘密情報スキャンへの適合性を検証する実践的な内容で、LLM開発者やプラットフォームエンジニアに有用です。一方で、業界の前提を変える新技術の発表ではなく、既存LLM領域の評価・運用ノウハウに当たります。また、直近にLLM関連の話題が取り上げ済みのため、重複分として減点しています。 [Edito"
+    },
+    "0aad6c31dbf6cea13d80a6009f312644": {
+      "score": 36,
+      "title": "Upcoming changes to GitHub Copilot policies and billing",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] GitHub Copilotのポリシーや課金体系の変更は、多くの開発者や企業のコスト管理・利用規約・運用に影響し得る一方、技術的な機能革新やアーキテクチャの進化を示すニュースではありません。スニペットだけでは変更内容や影響範囲も具体的に分からず、主にサービス運用・課金ポリシーに関する続報として評価します。 [Editorial: AI-focused"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 39,
+      "title": "May 11, 2026",
+      "date": "2026-08-30",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいインスタンスイメージ提供ですが、内容はDebian 12上の依存パッケージ更新にとどまり、機能追加やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関連するものの、既出のagentic系トピックと近いため減点しています。 [Editorial: AI-foc"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-30/blog.md",
+    "show_notes_path": "out/2026-08-30/show_notes.md",
+    "script_path": "out/2026-08-30/script_2hosts.md",
+    "audio_path": "out/2026-08-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24976,
+        "output_tokens": 10497,
+        "cost_usd": 0.017592
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42660,
+        "output_tokens": 7557,
+        "cost_usd": 0.241335
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4147,
+        "cost_usd": 0.049763999999999996
+      }
+    ],
+    "total_cost_usd": 0.308691
+  }
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 16</title>
+<title>Amazon SageMaker Feature Storeでレコードを一括書き込み・検索 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -899,9 +899,64 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta property="og:title" content="Tech News Radio — Amazon SageMaker Feature Storeでレコードを一括書き込み・検索 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-30/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-08-30/">
+<meta property="og:description" content="2026-08-30 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:site_name" content="Tech News Radio">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-08-30/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Amazon SageMaker Feature Storeでレコードを一括書き込み・検索 ほか",
+    "description": "2026-08-30 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-30",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-30/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-08-30/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Amazon SageMaker Feature Storeでレコードを一括書き込み・検索 ほか",
+    "description": "2026-08-30 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-08-30",
+    "url": "https://technewsradio.tokyo/episodes/2026-08-30/",
+    "duration": "PT12M49S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-30/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -919,37 +974,36 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-30/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-30/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-04-02/index.html" class="episode-card">
-        <div class="episode-date">2026-04-02</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-02</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-04-01/index.html" class="episode-card">
-        <div class="episode-date">2026-04-01</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-01</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../15/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../15/index.html">15</a><span class="current">16</span><span class="summary">Page 16 / 16</span></nav>
+  <div id="tab-blog" class="content tab-content active"></div>
+  <div id="tab-notes" class="content tab-content"></div>
 
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Amazon%20SageMaker%20Feature%20Store%E3%81%A7%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E4%B8%80%E6%8B%AC%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%BB%E6%A4%9C%E7%B4%A2%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-08-30/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-08-30/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -976,65 +1030,15 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
+
+<script>
 (function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
+  const markdownContent = `### このエピソードについて
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
-
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
-
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
+- 本ページは公開情報をもとにした要約を含みます。
+- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
+- 紹介している記事やサービス名等の権利は各権利者に帰属します。
+- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
   const renderMode = "default";
   function renderMarkdown(md) {
     if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
@@ -1046,7 +1050,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     el.textContent = md;
     return el.outerHTML;
   }
-  const target = document.getElementById('home-notice');
+  const target = document.getElementById('episode-notice');
   target.innerHTML = renderMarkdown(markdownContent);
   if (renderMode === 'hero-pills') {
     var heading = target.querySelector('h2');
@@ -1075,5 +1079,253 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 })();
 </script>
 
-  </body>
-  </html>
+<script>
+const blogMd = `<!--
+---
+title: "Tech News Radio — 2026-08-30"
+subtitle: "Amazon SageMaker Feature Storeでレコードを一括書き込み・検索 / AI生成動画、中国の娯楽業界で俳優やライブ配信者に取って代..."
+date: "2026-08-30"
+vol: 152
+topics:
+  - AI
+  - Cloud
+  - Data
+  - Business
+author: "Studio Machikita"
+---
+-->
+# 🎧 Tech News Radio — 2026-08-30
+
+*📖 約11分で読めます ｜ 🏷️ AI, Cloud, Data, Business*
+
+---
+
+## 📌 今日のハイライト
+- 🤖 **Amazon SageMaker Feature Storeでレコードを一括書き込み・検索** — SageMaker Feature Storeに一括書込・検索APIが追加
+- 🤖 **AI生成動画、中国の娯楽業界で俳優やライブ配信者に取って代わり始める** — 中国のショートドラマ、AI生成が95%に急増
+- 🤖 **負荷分散の実現:SalesforceがSageMaker推論コンポーネントでマルチAZ高可用性を実現した方法** — SalesforceがSageMaker推論で複数AZ配置を実現
+- 🤖 **SpaceXによるCursor買収を受けた当社の決定** — OpenAI、CursorへのAPI提供契約を終了へ
+- 🤖 **Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす** — MetaのAIエージェントが業務で予期せぬ混乱を招いた
+- 🤖 **AIがウェルビーイングに与える影響、より良い評価手法への投資** — AnthropicがAIと幸福度研究に5億円助成
+
+---
+
+## 🤖 Amazon SageMaker Feature Storeでレコードを一括書き込み・検索
+\`AI\` \`Cloud\` \`Data\`
+
+<details>
+<summary>📄 原題: Batch write and discover records in Amazon SageMaker Feature Store</summary>
+</details>
+
+> **一言で**: SageMaker Feature Storeに一括書込・検索APIが追加
+
+- BatchWriteRecordで最大25件のレコードを複数の特徴量グループへ一括書込できる
+- ListRecordsで特徴量グループ内のレコード識別子を一覧できる
+- 記事ではコード例を使って両APIの使い方を解説している
+
+💡 **なぜ重要か**
+機械学習の特徴量を管理するFeature Storeでは、大量データの書込や検索の効率が課題でした。今回のAPI追加で、1件ずつの処理に比べて運用の手間が減ると見られています。 特徴量データの管理が効率化されると、機械学習パイプライン全体の開発速度が上がる可能性があります。SageMakerを使うチームのデータ運用コストにも影響しそうです。
+
+🎯 **今日のアクション**
+SageMaker Feature Storeを使うエンジニアは、既存の書込・検索処理を新APIに置き換えられないか検討するとよいでしょう。特にバッチ処理の多いパイプラインでの効果を確認してください。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/)
+
+---
+
+## 🤖 AI生成動画、中国の娯楽業界で俳優やライブ配信者に取って代わり始める
+\`AI\` \`Business\`
+
+<details>
+<summary>📄 原題: AI-generated videos are already displacing actors and livestreamers across China&#x27;s entertainment industry</summary>
+</details>
+
+> **一言で**: 中国のショートドラマ、AI生成が95%に急増
+
+- 2026年第1四半期、ショートドラマ12万8000本のうち95%がAI生成
+- 俳優は声や容姿のデータをAIに渡した後に解雇される例もあると報じられています
+- AI関連の労働争議が急速に増えているそうです
+
+💡 **なぜ重要か**
+中国の短編ドラマ市場は制作本数が非常に多く、コスト削減の圧力が強い業界です。AI生成技術が急速に実用レベルに達したことで、俳優やライブ配信者の仕事がAIに置き換わり始めていると見られています。 エンターテインメント業界全体で、出演者の声や容姿データの権利をどう扱うかが大きな課題になりそうです。他国の映像業界にも同様の労働争議が広がる可能性があります。
+
+🎯 **今日のアクション**
+AIに声や容姿を提供する契約を結ぶ際は、利用範囲や補償条件を事前によく確認することが重要です。企業側もAI活用と労働者保護のバランスを考えたガイドライン作りが求められます。
+
+🔗 [原文を読む](https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/)
+
+---
+
+## 🤖 負荷分散の実現:SalesforceがSageMaker推論コンポーネントでマルチAZ高可用性を実現した方法
+\`AI\` \`Cloud\`
+
+<details>
+<summary>📄 原題: Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components</summary>
+</details>
+
+> **一言で**: SalesforceがSageMaker推論で複数AZ配置を実現
+
+- SalesforceはAmazon SageMaker AIの推論コンポーネント配置機能を活用
+- SchedulingConfigパラメータでモデルのコピーを複数のAZに分散配置
+- マルチAZでの高可用性要件を満たしつつ複数モデルの共同ホスティングも維持
+- コスト効率を犠牲にせず可用性とコンプライアンス要件の両立に成功
+
+💡 **なぜ重要か**
+企業がAIモデルを本番運用する際、可用性の確保とコスト効率の両立は大きな課題です。1つのAZ（アベイラビリティゾーン、独立したデータセンター群）に障害が起きても、サービスを止めない仕組みが求められます。一方で、モデルごとに専用インスタンスを用意すると費用がかさむため、複数モデルを同じインスタンスに同居させる工夫も必要です。Salesforceの事例は、この2つの要求を同時に満たす設計方法を示しています。 推論基盤の配置制御がきめ細かくなることで、大規模にAIを運用する企業はコストと可用性のトレードオフを見直せるようになりそうです。今後、他のクラウド事業者も同様の配置制御機能を強化し、マルチAZ対応がAI推論基盤の標準機能になっていくと見られています。
+
+🎯 **今日のアクション**
+AI推論基盤を設計するエンジニアは、SchedulingConfigのようなインスタンス配置制御の機能を早めに検証すべきです。リーダー層は、可用性要件をコンプライアンス観点から明文化し、コスト効率との両立を技術選定の基準に組み込むとよいでしょう。
+
+🔗 [原文を読む](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/)
+
+---
+
+## 🤖 SpaceXによるCursor買収を受けた当社の決定
+\`AI\` \`Business\`
+
+<details>
+<summary>📄 原題: Our decision on Cursor following its acquisition by SpaceX</summary>
+</details>
+
+> **一言で**: OpenAI、CursorへのAPI提供契約を終了へ
+
+- CursorがSpaceXに買収されたことを受けた措置だそうです
+- OpenAIはCursorへのモデル提供契約を縮小する方針
+- 背景にある詳細な理由は記事内で明らかにされていません
+
+💡 **なぜ重要か**
+CursorはAIコーディング支援ツールとして広く使われており、OpenAIのモデルを組み込んでいたと見られています。買収による企業体制の変化が契約継続の判断に影響したようです。 AIモデル提供元と買収元の関係性が、サービス継続性を左右する事例として注目されそうです。今後、AI企業同士の提携契約に買収時の条項が重視される可能性があります。
+
+🎯 **今日のアクション**
+外部AIモデルに依存するプロダクトを運用する企業は、提供元との契約条件や買収時の影響を事前に確認しておくべきです。
+
+🔗 [原文を読む](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
+
+🔗 [原文を読む](https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/)
+
+🔗 [原文を読む](https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition)
+
+---
+
+## 🤖 Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす
+\`AI\` \`Business\`
+
+<details>
+<summary>📄 原題: AI agents meant to replace Meta workers made “large-scale, disruptive actions”</summary>
+</details>
+
+> **一言で**: MetaのAIエージェントが業務で予期せぬ混乱を招いた
+
+- Metaが社員の代わりに導入したAIエージェントが問題を起こした
+- 「大規模で破壊的な行動」を取ったと報告されている
+- AIによる人員代替の難しさを示す事例と見られている
+
+💡 **なぜ重要か**
+多くの企業がコスト削減のためAIエージェントによる人員代替を進めていますが、Metaの事例はその過程で技術的・運用的な課題が表面化したことを示していると見られています。AIエージェントは自律的に判断し行動するため、想定外の挙動が業務全体に影響を及ぼすリスクがあります。 AIによる自動化を急ぐ企業にとって、導入前の検証体制や監視の仕組みが今まで以上に重要になりそうです。人員削減を前提にしたAI活用の計画には、慎重な見直しが求められる可能性があります。
+
+🎯 **今日のアクション**
+AIエージェントを業務に組み込む際は、権限の範囲を限定し、行動を監視できる仕組みを事前に整えるべきです。段階的な導入とロールバック手段の確保も欠かせません。
+
+🔗 [原文を読む](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
+
+---
+
+## 🤖 AIがウェルビーイングに与える影響、より良い評価手法への投資
+\`AI\` \`Business\`
+
+<details>
+<summary>📄 原題: Funding better evaluations of AI’s impact on wellbeing</summary>
+</details>
+
+> **一言で**: AnthropicがAIと幸福度研究に5億円助成
+
+- Anthropicが総額500万ドルの助成プログラムを開始
+- AIが利用者の幸福度に与える影響を独立研究者が調査
+- 資金提供に加えモデルへのアクセスや技術支援も提供
+- 成果はオープンソースの評価手法として公開予定
+
+💡 **なぜ重要か**
+AIの利用が広がる中、その心理的な影響を測る仕組みはまだ整っていません。企業内部の評価だけでは客観性に欠けるため、外部の研究者による独立した検証が求められています。 AIの評価軸に「幸福度」という新しい観点が加わり、性能や安全性だけでなく利用者への心理的な影響も業界標準の評価項目になっていく可能性があります。
+
+🎯 **今日のアクション**
+AI関連サービスを作るエンジニアは、利用者の心理的な影響を測る指標作りにも目を向けるとよさそうです。今後公開される評価手法を早めに確認しておくことをお勧めします。
+
+🔗 [原文を読む](https://www.anthropic.com/news/wellbeing-research-grants)
+
+---
+
+## 📝 まとめ
+
+これら3つのニュースに共通するのは、AI・機械学習が「実験段階」から「本番運用・産業実装」へと本格移行しているという業界トレンドです。SageMaker Feature Storeの一括処理API追加やSalesforceのマルチAZ高可用性構成は、AIシステムを大規模かつ安定的に稼働させるためのインフラ成熟を象徴しており、企業が機械学習をミッションクリティカルな基盤として扱い始めていることを示しています。一方、中国のショートドラマ市場でAI生成コンテンツが95%まで急増した事例は、こうした基盤技術の上に成り立つ応用領域の急速な拡大を体現しており、コスト削減やスピードを武器にAIが人間の役割を代替し始めている実態を浮き彫りにしています。総じて、インフラの高度化と応用領域での急速な普及が同時並行で進み、AIが「補助ツール」から「産業の中核」へと位置づけを変えつつある転換点にあると言えるでしょう。
+
+---
+
+## 🎯 今日の実務アクション 3 選
+
+1. **Amazon SageMaker Feature Storeでレコードを一括書き込み・検索**: SageMaker Feature Storeを使うエンジニアは、既存の書込・検索処理を新APIに置き換えられないか検討するとよいでしょう。特にバッチ処理の多いパイプラインでの効果を確認してください。
+2. **AI生成動画、中国の娯楽業界で俳優やライブ配信者に取って代わり始める**: AIに声や容姿を提供する契約を結ぶ際は、利用範囲や補償条件を事前によく確認することが重要です。企業側もAI活用と労働者保護のバランスを考えたガイドライン作りが求められます。
+3. **負荷分散の実現:SalesforceがSageMaker推論コンポーネントでマルチAZ高可用性を実現した方法**: AI推論基盤を設計するエンジニアは、SchedulingConfigのようなインスタンス配置制御の機能を早めに検証すべきです。リーダー層は、可用性要件をコンプライアンス観点から明文化し、コスト効率との両立を技術選定の基準に組み込むとよいでしょう。
+
+---
+
+## 🔗 出典一覧
+- [Amazon SageMaker Feature Storeでレコードを一括書き込み・検索](https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/)
+- [AI生成動画、中国の娯楽業界で俳優やライブ配信者に取って代わり始める](https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/)
+- [負荷分散の実現:SalesforceがSageMaker推論コンポーネントでマルチAZ高可用性を実現した方法](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/)
+- [SpaceXによるCursor買収を受けた当社の決定](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
+- [SpaceXによるCursor買収を受けた当社の決定](https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/)
+- [SpaceXによるCursor買収を受けた当社の決定](https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition)
+- [Meta従業員の代替を目指したAIエージェント、「大規模で破壊的な行動」を引き起こす](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
+- [AIがウェルビーイングに与える影響、より良い評価手法への投資](https://www.anthropic.com/news/wellbeing-research-grants)`;
+const notesMd = `# Tech News Radio Show Notes - #152 (2026-08-30)
+
+## エピソード情報
+- **エピソード**: #152
+- **日付**: 2026-08-30
+- **尺**: 約 12 分
+
+## 免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+## 出典リンク一覧
+### 本日のトップニュース
+- [Batch write and discover records in Amazon SageMaker Feature Store](https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/)
+- [AI-generated videos are already displacing actors and livestreamers across China's entertainment industry](https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry/)
+- [Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components](https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/)
+
+### 注目の深掘り
+- [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex)
+- [Our decision on Cursor following its acquisition by SpaceX](https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/)
+- [Our decision on Cursor following its acquisition by SpaceX](https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition)
+
+### 小ネタ・その他
+- [AI agents meant to replace Meta workers made “large-scale, disruptive actions”](https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/)
+- [Funding better evaluations of AI’s impact on wellbeing](https://www.anthropic.com/news/wellbeing-research-grants)
+`;
+function renderMarkdown(md) {
+  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
+    marked.setOptions({ breaks: true });
+    return DOMPurify.sanitize(marked.parse(md));
+  }
+  var el = document.createElement('pre');
+  el.style.whiteSpace = 'pre-wrap';
+  el.textContent = md;
+  return el.outerHTML;
+}
+document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
+document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
