@@ -1,0 +1,377 @@
+{
+  "date": "2026-08-31",
+  "episode_date_local": "2026-08-31",
+  "content_snapshot_date": "2026-08-31",
+  "show_length_sec": 735,
+  "audio_size": 11776557,
+  "generated_at": "2026-08-30T20:52:25.118652+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-32c5dd88",
+      "title": "Inside Cognition’s Booming Growth, High Cash Burn",
+      "title_ja": "Cognitionの急成長と高いキャッシュ消費の内実",
+      "one_liner": "AIコーディング企業Cognition、年間換算売上900億円規模に急成長",
+      "fingerprint": "32c5dd88450c19991e9349338d520cd4",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-385eaf00",
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "title_ja": "Visual Studio の GitHub Copilot — 8月アップデート",
+      "one_liner": "Visual Studio版Copilotが8月に機能強化",
+      "fingerprint": "385eaf003c7c55ad42d2763034d026d4",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-ac45a631",
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "title_ja": "初心者向けGitHub Copilotアプリ：Dependabotのプルリクエスト対応を自動化",
+      "one_liner": "GitHub Copilotで依存関係更新PRを自動仕分け",
+      "fingerprint": "ac45a631d8fd8d1391627eedec12509a",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML",
+        "GitHub AI and ML",
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-f193e467",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "title_ja": "より良い答え、より広い思考:ChatGPTとクリティカルシンキング訓練から学生が得るもの",
+      "one_liner": "ChatGPTと批判的思考訓練が学習効果を高める",
+      "fingerprint": "f193e4672096a3b36ac25db3b955810f",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-ff16e5a6",
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+      "title_ja": "AIは放射線科医に取って代わらないが、その仕事を劇的に変えるだろう",
+      "one_liner": "AIは放射線科医を代替せず、業務を大きく変えつつある",
+      "fingerprint": "ff16e5a6c4659d69f738a854f0cfdf95",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-22f22c4c",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "title_ja": "OpenAI、ブラジルでの事業を拡大",
+      "one_liner": "OpenAIがブラジルでの事業展開を拡大",
+      "fingerprint": "22f22c4c58c3d825725e637b376b0d66",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-4f9b2846",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to evaluate LLMs before production"
+    },
+    {
+      "item_id": "item-6789a357",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics"
+    },
+    {
+      "item_id": "item-7d5f64fd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce"
+    },
+    {
+      "item_id": "item-c734b688",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build agentic creative workflows with Amazon Quick and fal"
+    },
+    {
+      "item_id": "item-b2fc61bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding our support for scientists"
+    },
+    {
+      "item_id": "item-bd8ed5a5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When agents act on their own, governance has to live in the data layer"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-1f749115",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem"
+    },
+    {
+      "item_id": "item-b6a0b069",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "自作npmパッケージにマルウェアを公開されたときにやったこと"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-0aad6c31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming changes to GitHub Copilot policies and billing"
+    },
+    {
+      "item_id": "item-fdbc7bbe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Liux’s Big microcar bets on sustainability to take on Chinese rivals"
+    },
+    {
+      "item_id": "item-44af0ca0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Author Explores Cybersecurity Risks of Driverless Cars"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-1b4b3376",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google Maps Now Shows ‘Lake America’ Instead of Lake Ontario"
+    },
+    {
+      "item_id": "item-5749c8f7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants"
+    },
+    {
+      "item_id": "item-7dd16b83",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer"
+    },
+    {
+      "item_id": "item-710c64e6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The world may have less time than it thinks on climate change"
+    }
+  ],
+  "score_cache": {
+    "7dd16b8334df04908c4cbf286cddd194": {
+      "score": 23,
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 1980年のスペースラボ用コンピューターに使われたコアメモリモジュールを紹介する歴史的・技術資料的な記事で、宇宙開発や初期コンピューター技術への理解には有益です。一方、現行のソフトウェア開発、クラウド、AI、アーキテクチャに与える直接的な影響や新規性は限定的で、業界の前提を変える発表でもありません。"
+    },
+    "f193e4672096a3b36ac25db3b955810f": {
+      "score": 49,
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 1,000人超を対象にしたランダム化研究で、ChatGPT利用が批判的思考・独創性・課題成果に与える影響を実際の大学課題で検証しており、AI活用の効果を定量的に評価する点は有用です。一方、基盤モデルや開発者向けアーキテクチャの革新ではなく、主な影響範囲も教育・研究領域に限定されます。既出のAI関連テーマと接点はあるものの、教育効果を扱う実証研究という"
+    },
+    "b2fc61bbb9371c8e9cc831604dc79826": {
+      "score": 43,
+      "title": "Expanding our support for scientists",
+      "date": "2026-08-28",
+      "reason": "[ScoreCache 2026-08-28] [ScoreCache 2026-08-28] [ScoreCache 2026-08-28] [Claude API Evaluation] 科学者向け支援の拡充は研究開発や技術エコシステムに寄与する可能性がありますが、タイトルだけでは対象となる技術、提供基盤、具体的な成果や影響範囲が不明です。アーキテクチャや新技術そのものの発表ではなく、現時点で"
+    },
+    "c734b688f2f0ae455bb571d26e4406e3": {
+      "score": 46,
+      "title": "Build agentic creative workflows with Amazon Quick and fal",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Amazon QuickとfalをModel Context Protocol（MCP）で接続し、画像・動画などのクリエイティブ制作をエージェント型ワークフローとして再利用可能にする具体的な実装例は、AIエージェントの実用化やマルチモーダル開発において有益です。一方で、業界の前提を変える基盤技術の発表ではなく、既存サービスを組み合わせた応用事例に留ま"
+    },
+    "ac45a631d8fd8d1391627eedec12509a": {
+      "score": 54,
+      "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] GitHub Copilotを使ってDependabotのプルリクエスト分類や定型対応を自動化する実用的な開発者向け機能で、依存関係更新の運用負荷を下げられる点は有益です。一方で、既存のAIコーディング支援やDependabot運用の延長線上にある具体的な活用例であり、基盤技術や業界の前提を変えるほどの新規性・影響範囲はありません。 [Editori"
+    },
+    "385eaf003c7c55ad42d2763034d026d4": {
+      "score": 75,
+      "title": "GitHub Copilot in Visual Studio — August update",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Visual Studio向けGitHub Copilotの月次アップデートで、推論の制御、利用モデルの選択、チーム間での専門エージェント共有、コードレビュー実行タイミングなど、開発ワークフローに直結する機能が強化されています。AIコーディング支援の実用性とチーム運用性を高める内容で、エンジニアへの影響範囲は広い一方、既存のCopilotを継続的に拡"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上で上流依存パッケージを最新版に更新しただけで、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。運用・保守寄りのリリースであり、既出キーワードのAgentにも関連するため、重要度は低めです。 [Editorial: AI-"
+    },
+    "fdbc7bbe03021a4a67eba1432deebc91": {
+      "score": 32,
+      "title": "Liux’s Big microcar bets on sustainability to take on Chinese rivals",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] スペイン発の持続可能性を重視した小型EVスタートアップという点は、製造技術や循環型設計の観点で一定の興味深さがあります。一方、記事の主題は一般消費者向け車両であり、ソフトウェア、AI、クラウド、主要言語などの技術基盤を大きく変える内容ではありません。中国勢との競争やサステナビリティという市場・事業面の話が中心で、エンジニアリング上の具体的な革新性も限"
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 39,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 複数のAIエージェントが相互にAPIや他のエージェントを呼び出すことで、権限管理、依存関係の可視化、監査、責任所在が複雑化するという論点は、エンタープライズAIを本番運用するうえで重要です。特にエージェント単位のID、最小権限、チェーン全体のトレーシング、実行前のポリシー適用という設計課題は、アーキテクチャ面で一定の価値があります。一方で、具体的な製"
+    },
+    "7d5f64fd5009bb1ba0a6ecb1ee9afd33": {
+      "score": 47,
+      "title": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] AI導入が従業員の生産性、監視、雇用不安に与える影響をGlassdoorレビューの定量分析で示しており、企業のAI導入方針や人間中心の運用設計を考えるうえで一定の重要性があります。一方で、新しいモデルやアーキテクチャ、具体的な技術革新を扱う記事ではなく、主に社会・組織面の調査報告です。さらに既出のAI関連テーマと重なるため減点し、中程度のスコアとしま"
+    },
+    "ff16e5a6c4659d69f738a854f0cfdf95": {
+      "score": 49,
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 医療画像診断におけるAIの実用化と、放射線科医の業務変革を扱うため、AIの社会実装という観点では重要です。一方で、具体的な新技術・製品・研究成果や業界を一変させる発表ではなく、既存のAI活用議論を整理した内容に見えます。また、既出キーワードの「ai」と同じ話題に該当するため、重複分として減点しました。 [Editorial: AI-focused s"
+    },
+    "1b4b3376af2cf9708229dee6d69da28b": {
+      "score": 27,
+      "title": "Google Maps Now Shows ‘Lake America’ Instead of Lake Ontario",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Google Mapsの地名表示変更は、地理データの更新、地域ごとの表示ロジック、政府要請への対応という点でデータガバナンスやプロダクト運用に関係します。一方で、技術革新やアーキテクチャの進展ではなく、行政命令と政治的判断に基づく変更が中心です。影響は広範なユーザーに及ぶものの、エンジニアリング上の新規性は限定的なため、法律・規制寄りの低評価とします"
+    },
+    "5749c8f7ac819c656cfb6724ad7f3b39": {
+      "score": 27,
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 長寿命化をうたう新薬という点はバイオテック領域で興味深いものの、スニペット時点ではスタートアップの主張にとどまり、薬効の再現性や臨床試験、規制承認などの具体的な技術的裏付けが不明です。仮に有効でもソフトウェア技術やAI、クラウド、アーキテクチャへの直接的な影響は限定的です。仮想発電所への参加もエネルギー運用の話題として一定の社会的意義はありますが、記"
+    },
+    "44af0ca03de07f3262aa7f23869fe02a": {
+      "score": 32,
+      "title": "Author Explores Cybersecurity Risks of Driverless Cars",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 自動運転車というロボティクス領域に関わる重要なテーマですが、内容は新技術の発表や具体的な脆弱性の実証ではなく、サイバー攻撃のリスクに関する警告と啓発が中心です。車両の乗っ取りや兵器化は影響範囲が大きい一方、技術的な詳細、実装、被害事例、対策の具体性に乏しいため、セキュリティ・リスク系ニュースとして低めに評価します。"
+    },
+    "32c5dd88450c19991e9349338d520cd4": {
+      "score": 77,
+      "title": "Inside Cognition’s Booming Growth, High Cash Burn",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Devinを開発するCognitionの年間換算売上が約9億ドルまで急成長し、企業向け導入実績や約450億ドル規模の資金調達見通しも示されている点で、AIコーディング支援市場の商用化と競争環境を測る重要な記事です。一方で、技術的な新機能やアーキテクチャの発表ではなく、主題は未報告の業績・資金調達・高いキャッシュバーンであり、業界の前提を変えるほどの発"
+    },
+    "b6a0b0690feb4bf85d6cd4d02c675159": {
+      "score": 35,
+      "title": "自作npmパッケージにマルウェアを公開されたときにやったこと",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] npmパッケージへのサプライチェーン攻撃と、リリースワークフローの不備による悪意あるバージョンの公開は、開発者やCI環境に直接的な被害を及ぼし得る重要なセキュリティ事例です。認証情報の窃取や開発環境への侵入につながるため実務上の影響は大きく、依存関係管理、公開権限、CI/CDの保護を見直す教材として具体性もあります。一方で、個別パッケージのインシデン"
+    },
+    "710c64e634eb8bbf437f98db517e21b0": {
+      "score": 22,
+      "title": "The world may have less time than it thinks on climate change",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 気候変動の進行が想定より速い可能性を示す重要な社会・科学ニュースですが、記事タイトルだけではAI、クラウド、ソフトウェア、ロボティクスなどの技術革新や具体的な実装内容が確認できません。エンジニア視点では、技術業界への直接的な影響や新規性が不明なため、一般的な環境・科学トピックとして低めに評価します。"
+    },
+    "22f22c4c58c3d825725e637b376b0d66": {
+      "score": 49,
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] OpenAIがブラジルで開発者・企業・コミュニティとの連携を強化する動きは、AIの普及、市場拡大、現地エコシステム形成という点で一定の重要性があります。一方で、具体的な新技術、製品仕様、アーキテクチャ、導入実績などは示されておらず、エンジニアに直接影響する情報量は限定的です。AI関連ではあるものの、既出キーワードの「ai」や「industry」と近い"
+    },
+    "6789a3573be59adb38715d5681fd24a8": {
+      "score": 48,
+      "title": "Deepgram deepens Amazon SageMaker AI observability with Enhanced Metrics",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Deepgramのセルフホスト型音声AIにおける課金、利用量、GPU単位のメトリクスをCloudWatchへ公開する機能は、運用可視性やキャパシティ計画、コスト管理を改善する実務的なクラウド連携です。特にベンダーコンテナ内部に閉じていた情報を利用者側の監視基盤で扱える点は有用ですが、業界の前提を変える新技術というより既存のSageMaker運用を拡張"
+    },
+    "4f9b2846f9c72891c0fdeea14e9e553c": {
+      "score": 49,
+      "title": "How to evaluate LLMs before production",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] LLMを本番導入する前の評価手法を、実際のシークレットスキャン用途で得た知見として扱っており、品質・安全性・再現性を重視する実務的な内容です。LLMアプリケーションのテスト設計や本番適用判断に役立つため技術的価値は高い一方、業界の前提を変える新モデルや基盤技術の発表ではなく、既出キーワードの「LLM」と同じ中心テーマに該当するため20点減点しました。"
+    },
+    "0aad6c31dbf6cea13d80a6009f312644": {
+      "score": 33,
+      "title": "Upcoming changes to GitHub Copilot policies and billing",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] GitHub Copilotは開発者向けAIツールとして影響範囲が広い一方、今回の記事は新機能やモデル性能の進化ではなく、利用ポリシーと課金体系の変更に関する運用・契約面の告知です。ユーザーや企業のコスト、利用条件、社内導入方針には影響し得ますが、技術革新やアーキテクチャ上の重要性は限定的で、具体的な変更内容もスニペットからは不明なため、低〜中程度の"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 35,
+      "title": "May 11, 2026",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchというAIエージェント基盤に関する更新ですが、内容はDebian 12環境への上流依存パッケージ更新を含むイメージリリースであり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エンジニアにとって保守・運用上は意味があるものの、ニュースとしての影響範囲と新規性は限定的です。ま"
+    },
+    "1f7491156e6296bc2351a1b035b2e207": {
+      "score": 37,
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] SpaceX系の新たな鋳造設備でガスタービンの製造期間を18か月短縮するという点は、垂直統合型の製造技術や電力インフラへの影響があり、エンジニアリング上は興味深い。一方で、AIやソフトウェア基盤の革新ではなく、技術の詳細や実証結果も限定的で、ガス発電に伴う大気汚染・訴訟・健康影響が大きな懸念となる。製造高速化の潜在性は評価できるが、業界の前提を変える"
+    },
+    "bd8ed5a567cf90159960cc5f606772cf": {
+      "score": 41,
+      "title": "When agents act on their own, governance has to live in the data layer",
+      "date": "2026-08-31",
+      "reason": "[Claude API Evaluation] 自律型エージェントをデータベース層で統制するという設計思想は実務的に重要です。エージェント固有のID、目的に基づく認可、行・列レベルのアクセス制御、マスキング、監査ログ、データ系譜など、既存のデータセキュリティ機構をエージェント向けに拡張する論点には技術的価値があります。一方で、新しい製品や実装方式の発表ではなく、既存機能を整理した概念・ベストプラク"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-08-31/blog.md",
+    "show_notes_path": "out/2026-08-31/show_notes.md",
+    "script_path": "out/2026-08-31/script_2hosts.md",
+    "audio_path": "out/2026-08-31/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-08-31/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-08-31/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 26551,
+        "output_tokens": 9893,
+        "cost_usd": 0.017182
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42525,
+        "output_tokens": 7046,
+        "cost_usd": 0.233265
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3885,
+        "cost_usd": 0.04662
+      }
+    ],
+    "total_cost_usd": 0.297067
+  }
+}

@@ -25,6 +25,68 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#153 Cognitionの急成長と高いキャッシュ消費の内実 ほか</title>
+      <description>Tech News Radio Show Notes - #153 (2026-08-31)
+
+エピソード情報
+• エピソード: #153
+• 日付: 2026-08-31
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Inside Cognition’s Booming Growth, High Cash Burn (https://www.theinformation.com/articles/inside-cognitions-booming-growth-high-cash-burn)
+• GitHub Copilot in Visual Studio — August update (https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2)
+• GitHub Copilot in Visual Studio — August update (https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24)
+• GitHub Copilot app for Beginners: Automate Dependabot pull request triage (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/)
+• GitHub Copilot app for Beginners: Automate Dependabot pull request triage (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/)
+• GitHub Copilot app for Beginners: Automate Dependabot pull request triage (https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/)
+
+注目の深掘り
+• Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training (https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
+
+小ネタ・その他
+• AI won’t replace radiologists, but it will dramatically change their jobs (https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/)
+• Expanding OpenAI’s presence in Brazil (https://openai.com/index/expanding-our-presence-in-brazil)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-08-31/episode_audio.mp3" length="11776557" type="audio/mpeg" />
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-08-31</guid>
+      <itunes:duration>12:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Cognitionの急成長と高いキャッシュ消費の内実 ほか</itunes:title>
+      <itunes:episode>153</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #153 (2026-08-31)
+
+エピソード情報
+• エピソード: #153
+• 日付: 2026-08-31
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Inside Cognition’s Booming Growth, High Cash Burn (https://www.theinformation.com/articles/inside-cognitions-booming-growth-high-cash-burn)
+• GitHub Copilot in Visual Studio — August update (https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2)
+• GitHub Copilot in Visual Studio — August update (https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24)
+• GitHub Copilot app for Beginners: Automate Dependabot pull request triage (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/)
+• GitHub Copilot app for Beginners: Automate Dependabot pull request triage (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/)
+• GitHub Copilot app for Beginners: Automate Dependabot pull request triage (https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/)
+
+注目の深掘り
+• Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training (https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training)
+
+小ネタ・その他
+• AI won’t replace radiologists, but it will dramatically change their jobs (https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/)
+• Expanding OpenAI’s presence in Brazil (https://openai.com/index/expanding-our-presence-in-brazil)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-08-31/index.html</link>
+    </item>
+    <item>
       <title>#152 Amazon SageMaker Feature Storeでレコードを一括書き込み・検索 ほか</title>
       <description>Tech News Radio Show Notes - #152 (2026-08-30)
 
