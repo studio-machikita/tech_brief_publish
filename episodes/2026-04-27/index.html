@@ -897,14 +897,14 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
 
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta name="description" content="📌 今日のハイライト 🌐 ステートチャートの世界へようこそ — ステートチャートの概念と活用法を解説するガイド 📦 進捗報告：Linux 7.0 - Asahi Linux — Linux 7.0リリースに合わせAsahi Linuxが進捗">
 <meta property="og:title" content="Tech News Radio — Welcome to the world of Statecharts / Progress Report: Linux 7.0 - Asahi Linux / Orinoco: young generation garbage collection · V8">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-04-27/eyecatch.png">
 <meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-04-27/">
-<meta property="og:description" content="2026-04-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。">
+<meta property="og:description" content="📌 今日のハイライト 🌐 ステートチャートの世界へようこそ — ステートチャートの概念と活用法を解説するガイド 📦 進捗報告：Linux 7.0 - Asahi Linux — Linux 7.0リリースに合わせAsahi Linuxが進捗">
 <meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-04-27">
 <link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-04-27/">
 <script type="application/ld+json">
 [
@@ -953,7 +953,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   }
 ]
 </script>
-
+<noscript><style>.tab-content{display:block !important}</style></noscript>
 </head>
 <body>
 <header>
@@ -983,15 +983,184 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
   </div>
 
-  <section id="episode-notice" class="notice-card"></section>
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
 
   <div class="tabs">
     <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
     <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
   </div>
 
-  <div id="tab-blog" class="content tab-content active"></div>
-  <div id="tab-notes" class="content tab-content"></div>
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-04-27</h1>
+<p><em>📖 約10分で読めます ｜ 🏷️ Web, DevOps, OSS, Hardware, AI</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🌐 <strong>ステートチャートの世界へようこそ</strong> — ステートチャートの概念と活用法を解説するガイド</li>
+<li>📦 <strong>進捗報告：Linux 7.0 - Asahi Linux</strong> — Linux 7.0リリースに合わせAsahi Linuxが進捗報告</li>
+<li>🌐 <strong>オリノコ：V8における若い世代のガベージコレクション</strong> — V8エンジンのGC並列化で停止時間を短縮</li>
+<li>🤖 <strong>SWE-bench Verifiedはもはや最先端のコーディング能力を測定できない</strong> — SWE-bench Verifiedはもはやフロンティアモデルの指標にならない</li>
+<li>🔧 <strong>クレイPCBチュートリアル</strong> — 粘土を使ったPCB製作チュートリアルの紹介</li>
+<li>💼 <strong>ジュニアを採用しなければ、シニアエンジニアに首根っこを掴まれる</strong> — ジュニア採用停止がシニアへの依存を生む</li>
+</ul>
+<hr />
+<h2>🌐 ステートチャートの世界へようこそ</h2>
+<p><code>Web</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Welcome to the world of Statecharts</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ステートチャートの概念と活用法を解説するガイド</p>
+</blockquote>
+<ul>
+<li>ステートチャート（状態遷移図）は「絵」として表現できる設計手法</li>
+<li>ソフトウェアエンジニアが実務で活用するには、図だけでなく追加の知識が必要</li>
+<li>状態管理の複雑さを視覚的に整理できるアプローチとして注目されている</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+フロントエンドやバックエンドを問わず、アプリの状態管理は年々複雑化しています。ステートチャートはその複雑さを図として整理する手法で、古くから形式手法の分野で使われてきました。近年はUIライブラリやフレームワークの普及とともに、実装レベルでの関心が高まっています。 状態管理のバグはシステム障害の主要因のひとつです。ステートチャートを設計段階から取り入れることで、予期しない状態遷移を減らし、コードの保守性を高められます。長期的には、設計ドキュメントと実装の乖離を防ぐ文化の定着につながる可能性があります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まずステートチャートの基本概念を学び、既存プロジェクトの状態管理を図に書き起こしてみましょう。複雑な状態遷移を抱えるUIや業務ロジックから試すと、効果を実感しやすいです。</p>
+<p>🔗 <a href="https://statecharts.dev/">原文を読む</a></p>
+<hr />
+<h2>📦 進捗報告：Linux 7.0 - Asahi Linux</h2>
+<p><code>OSS</code> <code>Hardware</code></p>
+<details><summary>📄 原題: Progress Report: Linux 7.0 - Asahi Linux</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Linux 7.0リリースに合わせAsahi Linuxが進捗報告</p>
+</blockquote>
+<ul>
+<li>約3年続いた6.x系カーネルを経て、Linux 7.0がついにリリース</li>
+<li>Asahi Installerに約2年ぶりの大きな変更が加わった</li>
+<li>インストール周りの自動化が進み、使い勝手が向上した模様</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Asahi LinuxはApple Silicon（AppleのARMベースチップ）搭載Macへの Linux移植プロジェクトです。カーネルのメジャーバージョンアップは節目となるため、対応状況の進捗報告が注目されます。 Apple Silicon向けLinuxの完成度が上がるほど、開発者がMacハードウェア上でLinux環境を選びやすくなります。長期的にはARMアーキテクチャへのLinuxエコシステム拡大を後押しする可能性があります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Apple Silicon搭載Macを持つエンジニアは、Asahi Linuxの最新インストーラーと対応状況を確認し、開発環境の選択肢として改めて評価してみましょう。</p>
+<p>🔗 <a href="https://asahilinux.org/2026/04/progress-report-7-0/">原文を読む</a></p>
+<hr />
+<h2>🌐 オリノコ：V8における若い世代のガベージコレクション</h2>
+<p><code>Web</code> <code>OSS</code></p>
+<details><summary>📄 原題: Orinoco: young generation garbage collection · V8</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: V8エンジンのGC並列化で停止時間を短縮</p>
+</blockquote>
+<ul>
+<li>要点1: V8のヒープ管理で「若い世代」のGCを並列化する新手法を紹介</li>
+<li>要点2: 並列Scavenger（GCの一種）を導入し、GC停止時間の削減を目指す</li>
+<li>要点3: 過去のGC改善に続く取り組みで、メモリ消費と遅延の両面を改善</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+JavaScriptエンジンのGC（ガベージコレクション）停止時間は、Webアプリの体感速度に直結します。V8はChrome・Node.jsの心臓部であり、GCの改善はWeb全体のパフォーマンスに影響します。 並列GCの知見はV8を使う全てのJavaScript実行環境に波及します。Node.jsやChromiumベースのブラウザを使うサービスが恩恵を受け、リアルタイム性が求められるWebアプリの品質向上につながります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Node.jsやChromiumを使うエンジニアはV8のリリースノートを定期的に確認し、GC改善が反映されたバージョンへの早期移行を検討してください。</p>
+<p>🔗 <a href="https://v8.dev/blog/orinoco-parallel-scavenger">原文を読む</a></p>
+<hr />
+<h2>🤖 SWE-bench Verifiedはもはや最先端のコーディング能力を測定できない</h2>
+<p><code>AI</code> <code>LLM</code></p>
+<blockquote>
+<p>⚠️ <strong>注意</strong>: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。</p>
+</blockquote>
+<details><summary>📄 原題: SWE-bench Verified no longer measures frontier coding capabilities</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: SWE-bench Verifiedはもはやフロンティアモデルの指標にならない</p>
+</blockquote>
+<ul>
+<li>SWE-bench Verifiedは、最先端AIの実力を測るベンチマーク（性能評価基準）として機能しなくなったと指摘されている</li>
+<li>AIモデルのスコアが上限に近づき、差別化が難しくなったと見られる</li>
+<li>新たなベンチマークの必要性が業界で高まっている可能性がある</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+SWE-bench Verifiedは、AIがソフトウェアのバグ修正タスクをどれだけこなせるかを測る評価基準として広く使われてきました。OpenAIやAnthropicなど主要なAI開発企業がモデルの優位性を示す指標として活用してきた経緯があります。しかし、モデルの性能向上が著しく、スコアが飽和状態に近づくと、評価基準としての意味が薄れてしまいます。 ベンチマークの飽和は、AI開発の進捗を外部から客観的に評価しにくくなることを意味します。企業や研究者は新たな評価軸を模索する必要があり、より難易度の高い、あるいは実務に即した評価基準の策定が急務になると見られます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+自社のAI活用を評価する際、単一のベンチマークスコアに依存しないようにしましょう。実際の業務タスクに基づく独自の評価基準を設けることが、より実態に即した判断につながります。</p>
+<p>🔗 <a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">原文を読む</a></p>
+<hr />
+<h2>🔧 クレイPCBチュートリアル</h2>
+<p><code>Hardware</code> <code>OSS</code></p>
+<blockquote>
+<p>⚠️ <strong>注意</strong>: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。</p>
+</blockquote>
+<details><summary>📄 原題: Clay PCB Tutorial</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 粘土を使ったPCB製作チュートリアルの紹介</p>
+</blockquote>
+<ul>
+<li>要点1: 「Clay PCB」というユニークな手法でPCB（プリント基板）を作るチュートリアルと見られます</li>
+<li>要点2: 詳細な手順や使用材料については、記事本文の情報が不足しており確認できません</li>
+<li>要点3: ハードウェア自作・DIY分野での新しいアプローチの可能性を示唆しています</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+PCBの自作は従来、専用ソフトや化学薬品を使うエッチング処理が主流でした。粘土を素材として活用する手法は、より手軽な代替手段として注目される可能性があります。ただし記事の詳細が不明なため、具体的な内容は確認できていません。 もし粘土を使ったPCB製作が実用的であれば、教育現場やホビーユーザーが基板製作に取り組む敷居を下げる可能性があります。ただし現時点では情報が限られており、実用性の評価は難しい状況です。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+記事の原文を直接確認し、使用する粘土の種類や導電性素材の詳細を把握した上で、自身のDIYプロジェクトへの応用可能性を検討してみてください。</p>
+<p>🔗 <a href="https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial">原文を読む</a></p>
+<hr />
+<h2>💼 ジュニアを採用しなければ、シニアエンジニアに首根っこを掴まれる</h2>
+<p><code>Business</code> <code>DevOps</code> <code>Startup</code></p>
+<details><summary>📄 原題: If You Stop Hiring Juniors, Your Senior Engineers Own You</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ジュニア採用停止がシニアへの依存を生む</p>
+</blockquote>
+<ul>
+<li>ジュニアエンジニアを採用しないと、組織はシニアに過度に依存する</li>
+<li>シニアが辞めた途端、知識やノウハウが一気に失われるリスクがある</li>
+<li>ジュニア育成は長期的な組織の健全性と交渉力を守る投資といえる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+コスト削減やAIツールの普及を背景に、多くの企業がジュニアエンジニアの採用を絞る傾向にあります。即戦力のシニアだけを求める動きが加速していますが、これは組織の知識継承や人材構成のバランスを崩す恐れがあります。 ジュニア採用を避け続けると、数年後にシニア人材の供給不足が深刻化します。また、少数のシニアが組織の命運を握る構造になり、採用・報酬交渉でも企業側が不利になります。業界全体で育成文化が失われれば、エンジニアリングの底上げも停滞しかねません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+採用計画にジュニア枠を意識的に確保し、メンタリングの仕組みを整えましょう。シニアの知識をドキュメント化する習慣も、依存リスクを下げる有効な手段です。</p>
+<p>🔗 <a href="https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースに共通するのは、<strong>ソフトウェアの複雑な状態管理や実行制御をいかに効率的・堅牢に扱うか</strong>という根本的な課題への取り組みです。ステートチャートは状態遷移の複雑さを構造化して制御する手法であり、V8のガベージコレクション改善は実行中のメモリ状態を並列処理によって効率的に管理しようとする試みです。Asahi LinuxのLinux 7.0対応もまた、カーネルという巨大なシステムの状態を最新に保ちながら特殊なハードウェア環境に適合させていく継続的な取り組みといえます。これらは開発ツール・ランタイム・OSと異なるレイヤーに位置しながらも、増大するシステムの複雑性に対して「予測可能性」と「パフォーマンス」を両立させようとする現代のソフトウェアエンジニアリングの共通した潮流を反映しています。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>ステートチャートの世界へようこそ</strong>: まずステートチャートの基本概念を学び、既存プロジェクトの状態管理を図に書き起こしてみましょう。複雑な状態遷移を抱えるUIや業務ロジックから試すと、効果を実感しやすいです。</li>
+<li><strong>進捗報告：Linux 7.0 - Asahi Linux</strong>: Apple Silicon搭載Macを持つエンジニアは、Asahi Linuxの最新インストーラーと対応状況を確認し、開発環境の選択肢として改めて評価してみましょう。</li>
+<li><strong>オリノコ：V8における若い世代のガベージコレクション</strong>: Node.jsやChromiumを使うエンジニアはV8のリリースノートを定期的に確認し、GC改善が反映されたバージョンへの早期移行を検討してください。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://statecharts.dev/">ステートチャートの世界へようこそ</a></li>
+<li><a href="https://asahilinux.org/2026/04/progress-report-7-0/">進捗報告：Linux 7.0 - Asahi Linux</a></li>
+<li><a href="https://v8.dev/blog/orinoco-parallel-scavenger">オリノコ：V8における若い世代のガベージコレクション</a></li>
+<li><a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">SWE-bench Verifiedはもはや最先端のコーディング能力を測定できない</a></li>
+<li><a href="https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial">クレイPCBチュートリアル</a></li>
+<li><a href="https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/">ジュニアを採用しなければ、シニアエンジニアに首根っこを掴まれる</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #027 (2026-04-27)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #027</li>
+<li><strong>日付</strong>: 2026-04-27</li>
+<li><strong>尺</strong>: 約 12 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://statecharts.dev/">Welcome to the world of Statecharts</a></li>
+<li><a href="https://asahilinux.org/2026/04/progress-report-7-0/">Progress Report: Linux 7.0 - Asahi Linux</a></li>
+<li><a href="https://v8.dev/blog/orinoco-parallel-scavenger">Orinoco: young generation garbage collection · V8</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">SWE-bench Verified no longer measures frontier coding capabilities</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial">Clay PCB Tutorial</a></li>
+<li><a href="https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/">If You Stop Hiring Juniors, Your Senior Engineers Own You</a></li>
+</ul></div>
 
   
 <div class="share-buttons">
@@ -1031,284 +1200,8 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 </footer>
 
 
-<script>
-(function() {
-  const markdownContent = `### このエピソードについて
-
-- 本ページは公開情報をもとにした要約を含みます。
-- テキストと音声にはAI生成を含み、正確性や最新性は保証しません。
-- 紹介している記事やサービス名等の権利は各権利者に帰属します。
-- 内容に問題がある場合は [お問い合わせページ](../../contact.html) からご連絡ください。`;
-  const renderMode = "default";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('episode-notice');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
 
 <script>
-const blogMd = `<!--
----
-title: "Tech News Radio — 2026-04-27"
-subtitle: "ステートチャートの世界へようこそ / 進捗報告：Linux 7.0 - Asahi Linux / オリノコ：V8における若い世代のガベージコレクション"
-date: "2026-04-27"
-vol: 27
-topics:
-  - Web
-  - DevOps
-  - OSS
-  - Hardware
-  - AI
-author: "Studio Machikita"
----
--->
-# 🎧 Tech News Radio — 2026-04-27
-
-*📖 約10分で読めます ｜ 🏷️ Web, DevOps, OSS, Hardware, AI*
-
----
-
-## 📌 今日のハイライト
-- 🌐 **ステートチャートの世界へようこそ** — ステートチャートの概念と活用法を解説するガイド
-- 📦 **進捗報告：Linux 7.0 - Asahi Linux** — Linux 7.0リリースに合わせAsahi Linuxが進捗報告
-- 🌐 **オリノコ：V8における若い世代のガベージコレクション** — V8エンジンのGC並列化で停止時間を短縮
-- 🤖 **SWE-bench Verifiedはもはや最先端のコーディング能力を測定できない** — SWE-bench Verifiedはもはやフロンティアモデルの指標にならない
-- 🔧 **クレイPCBチュートリアル** — 粘土を使ったPCB製作チュートリアルの紹介
-- 💼 **ジュニアを採用しなければ、シニアエンジニアに首根っこを掴まれる** — ジュニア採用停止がシニアへの依存を生む
-
----
-
-## 🌐 ステートチャートの世界へようこそ
-\`Web\` \`DevOps\`
-
-<details>
-<summary>📄 原題: Welcome to the world of Statecharts</summary>
-</details>
-
-> **一言で**: ステートチャートの概念と活用法を解説するガイド
-
-- ステートチャート（状態遷移図）は「絵」として表現できる設計手法
-- ソフトウェアエンジニアが実務で活用するには、図だけでなく追加の知識が必要
-- 状態管理の複雑さを視覚的に整理できるアプローチとして注目されている
-
-💡 **なぜ重要か**
-フロントエンドやバックエンドを問わず、アプリの状態管理は年々複雑化しています。ステートチャートはその複雑さを図として整理する手法で、古くから形式手法の分野で使われてきました。近年はUIライブラリやフレームワークの普及とともに、実装レベルでの関心が高まっています。 状態管理のバグはシステム障害の主要因のひとつです。ステートチャートを設計段階から取り入れることで、予期しない状態遷移を減らし、コードの保守性を高められます。長期的には、設計ドキュメントと実装の乖離を防ぐ文化の定着につながる可能性があります。
-
-🎯 **今日のアクション**
-まずステートチャートの基本概念を学び、既存プロジェクトの状態管理を図に書き起こしてみましょう。複雑な状態遷移を抱えるUIや業務ロジックから試すと、効果を実感しやすいです。
-
-🔗 [原文を読む](https://statecharts.dev/)
-
----
-
-## 📦 進捗報告：Linux 7.0 - Asahi Linux
-\`OSS\` \`Hardware\`
-
-<details>
-<summary>📄 原題: Progress Report: Linux 7.0 - Asahi Linux</summary>
-</details>
-
-> **一言で**: Linux 7.0リリースに合わせAsahi Linuxが進捗報告
-
-- 約3年続いた6.x系カーネルを経て、Linux 7.0がついにリリース
-- Asahi Installerに約2年ぶりの大きな変更が加わった
-- インストール周りの自動化が進み、使い勝手が向上した模様
-
-💡 **なぜ重要か**
-Asahi LinuxはApple Silicon（AppleのARMベースチップ）搭載Macへの Linux移植プロジェクトです。カーネルのメジャーバージョンアップは節目となるため、対応状況の進捗報告が注目されます。 Apple Silicon向けLinuxの完成度が上がるほど、開発者がMacハードウェア上でLinux環境を選びやすくなります。長期的にはARMアーキテクチャへのLinuxエコシステム拡大を後押しする可能性があります。
-
-🎯 **今日のアクション**
-Apple Silicon搭載Macを持つエンジニアは、Asahi Linuxの最新インストーラーと対応状況を確認し、開発環境の選択肢として改めて評価してみましょう。
-
-🔗 [原文を読む](https://asahilinux.org/2026/04/progress-report-7-0/)
-
----
-
-## 🌐 オリノコ：V8における若い世代のガベージコレクション
-\`Web\` \`OSS\`
-
-<details>
-<summary>📄 原題: Orinoco: young generation garbage collection · V8</summary>
-</details>
-
-> **一言で**: V8エンジンのGC並列化で停止時間を短縮
-
-- 要点1: V8のヒープ管理で「若い世代」のGCを並列化する新手法を紹介
-- 要点2: 並列Scavenger（GCの一種）を導入し、GC停止時間の削減を目指す
-- 要点3: 過去のGC改善に続く取り組みで、メモリ消費と遅延の両面を改善
-
-💡 **なぜ重要か**
-JavaScriptエンジンのGC（ガベージコレクション）停止時間は、Webアプリの体感速度に直結します。V8はChrome・Node.jsの心臓部であり、GCの改善はWeb全体のパフォーマンスに影響します。 並列GCの知見はV8を使う全てのJavaScript実行環境に波及します。Node.jsやChromiumベースのブラウザを使うサービスが恩恵を受け、リアルタイム性が求められるWebアプリの品質向上につながります。
-
-🎯 **今日のアクション**
-Node.jsやChromiumを使うエンジニアはV8のリリースノートを定期的に確認し、GC改善が反映されたバージョンへの早期移行を検討してください。
-
-🔗 [原文を読む](https://v8.dev/blog/orinoco-parallel-scavenger)
-
----
-
-## 🤖 SWE-bench Verifiedはもはや最先端のコーディング能力を測定できない
-\`AI\` \`LLM\`
-
-> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
-
-<details>
-<summary>📄 原題: SWE-bench Verified no longer measures frontier coding capabilities</summary>
-</details>
-
-> **一言で**: SWE-bench Verifiedはもはやフロンティアモデルの指標にならない
-
-- SWE-bench Verifiedは、最先端AIの実力を測るベンチマーク（性能評価基準）として機能しなくなったと指摘されている
-- AIモデルのスコアが上限に近づき、差別化が難しくなったと見られる
-- 新たなベンチマークの必要性が業界で高まっている可能性がある
-
-💡 **なぜ重要か**
-SWE-bench Verifiedは、AIがソフトウェアのバグ修正タスクをどれだけこなせるかを測る評価基準として広く使われてきました。OpenAIやAnthropicなど主要なAI開発企業がモデルの優位性を示す指標として活用してきた経緯があります。しかし、モデルの性能向上が著しく、スコアが飽和状態に近づくと、評価基準としての意味が薄れてしまいます。 ベンチマークの飽和は、AI開発の進捗を外部から客観的に評価しにくくなることを意味します。企業や研究者は新たな評価軸を模索する必要があり、より難易度の高い、あるいは実務に即した評価基準の策定が急務になると見られます。
-
-🎯 **今日のアクション**
-自社のAI活用を評価する際、単一のベンチマークスコアに依存しないようにしましょう。実際の業務タスクに基づく独自の評価基準を設けることが、より実態に即した判断につながります。
-
-🔗 [原文を読む](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/)
-
----
-
-## 🔧 クレイPCBチュートリアル
-\`Hardware\` \`OSS\`
-
-> ⚠️ **注意**: この記事は情報源が限られているため、内容の正確性を保証できません。必要に応じて一次情報もご確認ください。
-
-<details>
-<summary>📄 原題: Clay PCB Tutorial</summary>
-</details>
-
-> **一言で**: 粘土を使ったPCB製作チュートリアルの紹介
-
-- 要点1: 「Clay PCB」というユニークな手法でPCB（プリント基板）を作るチュートリアルと見られます
-- 要点2: 詳細な手順や使用材料については、記事本文の情報が不足しており確認できません
-- 要点3: ハードウェア自作・DIY分野での新しいアプローチの可能性を示唆しています
-
-💡 **なぜ重要か**
-PCBの自作は従来、専用ソフトや化学薬品を使うエッチング処理が主流でした。粘土を素材として活用する手法は、より手軽な代替手段として注目される可能性があります。ただし記事の詳細が不明なため、具体的な内容は確認できていません。 もし粘土を使ったPCB製作が実用的であれば、教育現場やホビーユーザーが基板製作に取り組む敷居を下げる可能性があります。ただし現時点では情報が限られており、実用性の評価は難しい状況です。
-
-🎯 **今日のアクション**
-記事の原文を直接確認し、使用する粘土の種類や導電性素材の詳細を把握した上で、自身のDIYプロジェクトへの応用可能性を検討してみてください。
-
-🔗 [原文を読む](https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial)
-
----
-
-## 💼 ジュニアを採用しなければ、シニアエンジニアに首根っこを掴まれる
-\`Business\` \`DevOps\` \`Startup\`
-
-<details>
-<summary>📄 原題: If You Stop Hiring Juniors, Your Senior Engineers Own You</summary>
-</details>
-
-> **一言で**: ジュニア採用停止がシニアへの依存を生む
-
-- ジュニアエンジニアを採用しないと、組織はシニアに過度に依存する
-- シニアが辞めた途端、知識やノウハウが一気に失われるリスクがある
-- ジュニア育成は長期的な組織の健全性と交渉力を守る投資といえる
-
-💡 **なぜ重要か**
-コスト削減やAIツールの普及を背景に、多くの企業がジュニアエンジニアの採用を絞る傾向にあります。即戦力のシニアだけを求める動きが加速していますが、これは組織の知識継承や人材構成のバランスを崩す恐れがあります。 ジュニア採用を避け続けると、数年後にシニア人材の供給不足が深刻化します。また、少数のシニアが組織の命運を握る構造になり、採用・報酬交渉でも企業側が不利になります。業界全体で育成文化が失われれば、エンジニアリングの底上げも停滞しかねません。
-
-🎯 **今日のアクション**
-採用計画にジュニア枠を意識的に確保し、メンタリングの仕組みを整えましょう。シニアの知識をドキュメント化する習慣も、依存リスクを下げる有効な手段です。
-
-🔗 [原文を読む](https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/)
-
----
-
-## 📝 まとめ
-
-これら3つのニュースに共通するのは、**ソフトウェアの複雑な状態管理や実行制御をいかに効率的・堅牢に扱うか**という根本的な課題への取り組みです。ステートチャートは状態遷移の複雑さを構造化して制御する手法であり、V8のガベージコレクション改善は実行中のメモリ状態を並列処理によって効率的に管理しようとする試みです。Asahi LinuxのLinux 7.0対応もまた、カーネルという巨大なシステムの状態を最新に保ちながら特殊なハードウェア環境に適合させていく継続的な取り組みといえます。これらは開発ツール・ランタイム・OSと異なるレイヤーに位置しながらも、増大するシステムの複雑性に対して「予測可能性」と「パフォーマンス」を両立させようとする現代のソフトウェアエンジニアリングの共通した潮流を反映しています。
-
----
-
-## 🎯 今日の実務アクション 3 選
-
-1. **ステートチャートの世界へようこそ**: まずステートチャートの基本概念を学び、既存プロジェクトの状態管理を図に書き起こしてみましょう。複雑な状態遷移を抱えるUIや業務ロジックから試すと、効果を実感しやすいです。
-2. **進捗報告：Linux 7.0 - Asahi Linux**: Apple Silicon搭載Macを持つエンジニアは、Asahi Linuxの最新インストーラーと対応状況を確認し、開発環境の選択肢として改めて評価してみましょう。
-3. **オリノコ：V8における若い世代のガベージコレクション**: Node.jsやChromiumを使うエンジニアはV8のリリースノートを定期的に確認し、GC改善が反映されたバージョンへの早期移行を検討してください。
-
----
-
-## 🔗 出典一覧
-- [ステートチャートの世界へようこそ](https://statecharts.dev/)
-- [進捗報告：Linux 7.0 - Asahi Linux](https://asahilinux.org/2026/04/progress-report-7-0/)
-- [オリノコ：V8における若い世代のガベージコレクション](https://v8.dev/blog/orinoco-parallel-scavenger)
-- [SWE-bench Verifiedはもはや最先端のコーディング能力を測定できない](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/)
-- [クレイPCBチュートリアル](https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial)
-- [ジュニアを採用しなければ、シニアエンジニアに首根っこを掴まれる](https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/)`;
-const notesMd = `# Tech News Radio Show Notes - #027 (2026-04-27)
-
-## エピソード情報
-- **エピソード**: #027
-- **日付**: 2026-04-27
-- **尺**: 約 12 分
-
-## 免責事項
-当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
-
-## 出典リンク一覧
-### 本日のトップニュース
-- [Welcome to the world of Statecharts](https://statecharts.dev/)
-- [Progress Report: Linux 7.0 - Asahi Linux](https://asahilinux.org/2026/04/progress-report-7-0/)
-- [Orinoco: young generation garbage collection · V8](https://v8.dev/blog/orinoco-parallel-scavenger)
-
-### 注目の深掘り
-- [SWE-bench Verified no longer measures frontier coding capabilities](https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/)
-
-### 小ネタ・その他
-- [Clay PCB Tutorial](https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial)
-- [If You Stop Hiring Juniors, Your Senior Engineers Own You](https://evalcode.com/posts/if-you-stop-hiring-juniors-your-seniors-own-you/)
-`;
-function renderMarkdown(md) {
-  if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-    marked.setOptions({ breaks: true });
-    return DOMPurify.sanitize(marked.parse(md));
-  }
-  var el = document.createElement('pre');
-  el.style.whiteSpace = 'pre-wrap';
-  el.textContent = md;
-  return el.outerHTML;
-}
-document.getElementById('tab-blog').innerHTML = renderMarkdown(blogMd);
-document.getElementById('tab-notes').innerHTML = renderMarkdown(notesMd);
 
 function switchTab(tab) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));

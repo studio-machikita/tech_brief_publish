@@ -1,0 +1,375 @@
+{
+  "date": "2026-09-01",
+  "episode_date_local": "2026-09-01",
+  "content_snapshot_date": "2026-09-01",
+  "show_length_sec": 694,
+  "audio_size": 11109165,
+  "generated_at": "2026-08-31T20:55:38.777477+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-10d9777b",
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "title_ja": "ペンタゴン、独自版ChatGPTとGrokを導入",
+      "one_liner": "米国防総省がChatGPTとGrokを公式導入",
+      "fingerprint": "10d9777be904b1d261b85c3d58c0013c",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-ac701ed0",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "title_ja": "教師向けChatGPT、米国のより多くの学区へ提供拡大",
+      "one_liner": "ChatGPT for Teachers、米55学区に拡大",
+      "fingerprint": "ac701ed0cd21cedba6848c134a364217",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-10967dce",
+      "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
+      "title_ja": "限界カバレッジクレジットが並列状態エントロピー最適化における冗長な探索を削減",
+      "one_liner": "並列探索の重複を減らす新指標MCC-PGPSEを提案",
+      "fingerprint": "10967dceeb4b1cac136e289d648054e9",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-ef0cd1d0",
+      "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+      "title_ja": "AWS Agent Registryでエージェント、ツール、スキルを大規模に管理",
+      "one_liner": "AWS Agent Registryが一般提供開始",
+      "fingerprint": "ef0cd1d0683c6471c1dc2f35bc3af050",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-4f9b2846",
+      "title": "How to evaluate LLMs before production",
+      "title_ja": "翻訳結果 本番導入前にLLMを評価する方法",
+      "one_liner": "GitHubが実運用前のLLM評価手法を解説",
+      "fingerprint": "4f9b2846f9c72891c0fdeea14e9e553c",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-2d33408b",
+      "title": "A milestone in expanding access to AI",
+      "title_ja": "AIの普及拡大における画期的な一歩",
+      "one_liner": "ChatGPT広告、年換算収益10億ドルを突破",
+      "fingerprint": "2d33408bd2356271cbfbc3610640573f",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "VentureBeat AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-a5bf99e8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings"
+    },
+    {
+      "item_id": "item-a298999b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-1e2919e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-a6093141",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 24"
+    },
+    {
+      "item_id": "item-b2fc61bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding our support for scientists"
+    },
+    {
+      "item_id": "item-d59b487a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I turned my security cameras into an automatic bird identification system"
+    },
+    {
+      "item_id": "item-21d0df25",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "個人向け Coding Agent サブスクリプションのコストパフォーマンス比較"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-4e6bef20",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-4ca08910",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in VS Code, August 2026 releases"
+    },
+    {
+      "item_id": "item-e430770b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]"
+    },
+    {
+      "item_id": "item-464a1341",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hollywood Must Learn From Microdramas"
+    },
+    {
+      "item_id": "item-1224d7eb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FTC accuses Amazon of running a ‘secret ad surcharge scheme’ in new lawsuit"
+    },
+    {
+      "item_id": "item-b72b6f67",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "PayPal Falls 12% After Stripe and Advent End Pursuit"
+    },
+    {
+      "item_id": "item-993e7ed6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Asus ProArt 27 QD-OLED (PA279cdv) Review: HDR for All"
+    }
+  ],
+  "score_cache": {
+    "e430770be6fb854beb4744c6d17e8680": {
+      "score": 38,
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 単一のHTMLファイルで歩き回れるASCII風サイバーパンク都市を実現するデモは、CanvasやDOM、描画最適化、入力処理などのWeb技術を組み合わせた興味深い実装例です。ただし、記事から確認できる範囲では新しいアーキテクチャや汎用的な技術革新というより、視覚表現とインタラクティブ性に重点を置いた作品・プロトタイプです。業界の前提を変える規模ではな"
+    },
+    "2d33408bd2356271cbfbc3610640573f": {
+      "score": 49,
+      "title": "A milestone in expanding access to AI",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] AI関連の事業規模拡大と無料・低価格での提供強化は、ユーザー基盤やサービスの持続性に影響する重要な動きです。一方で、モデル性能やアーキテクチャ、開発者向け技術に関する新発明ではなく、主眼は広告収益とグローバル展開です。AIという既出キーワードには該当しますが、年間収益ランレート10億ドル到達と提供地域拡大という明確な新展開のため、機械的な減点は適用し"
+    },
+    "b2fc61bbb9371c8e9cc831604dc79826": {
+      "score": 43,
+      "title": "Expanding our support for scientists",
+      "date": "2026-08-28",
+      "reason": "[ScoreCache 2026-08-28] [ScoreCache 2026-08-28] [ScoreCache 2026-08-28] [ScoreCache 2026-08-28] [Claude API Evaluation] 科学者向け支援の拡充は研究開発や技術エコシステムに寄与する可能性がありますが、タイトルだけでは対象となる技術、提供基盤、具体的な成果や影響範囲が不明です。アーキ"
+    },
+    "a298999be714164a4f4113c3e0f3d235": {
+      "score": 47,
+      "title": "AWS recognized as a Leader in The Forrester Wave: AI Infrastructure Solutions, Q4 2025",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] AIインフラという重要度の高い領域に関する評価であり、AWSの戦略面での競争力を示す点はエンジニアにとって一定の参考になります。一方で、Forresterによるベンダー評価の受賞報告であり、新しいアーキテクチャ、サービス、性能改善など具体的な技術革新は示されていません。また、既出のAmazon関連トピックと同一企業のクラウド戦略に関する内容であるため"
+    },
+    "4f9b2846f9c72891c0fdeea14e9e553c": {
+      "score": 51,
+      "title": "How to evaluate LLMs before production",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 本番投入前のLLM評価手法は、品質・安全性・再現性を確保するうえで実務的な価値が高く、特にシークレットスキャンのようなセキュリティ用途での知見はエンジニアに有用です。一方で、業界の前提を変える新技術の発表ではなく、既存LLMの評価・運用ノウハウが中心です。また、直近に取り上げ済みの「LLM」「GitHub」に該当するため、重複分として20点減点しまし"
+    },
+    "4ca08910b2a600a52ddfa09a31558edc": {
+      "score": 40,
+      "title": "GitHub Copilot in VS Code, August 2026 releases",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] VS Codeにおけるエージェントセッションの整理、変更レビュー、長い会話のナビゲーション改善は、AI開発環境の実用性や開発者体験に関わる重要な進化です。一方で、業界の前提を変える新技術というより、複数リリースにわたる継続的な機能改善であり、記事の具体的な革新性も限定的です。また、既報キーワードであるGitHubおよびCopilotと同一テーマの続報"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 47,
+      "title": "April 27, 2026",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchというエージェント開発基盤に関するリリースであり、AI開発環境との関連性はありますが、内容はDebian 12ベースのイメージに上流依存パッケージを更新しただけのメンテナンスリリースです。新機能、アーキテクチャ変更、性能向上、互換性改善などの具体的な技術革新や影響範囲が示されていないため、AI関連ニュー"
+    },
+    "1224d7eb3d2849182e297d1605d63fd7": {
+      "score": 27,
+      "title": "FTC accuses Amazon of running a ‘secret ad surcharge scheme’ in new lawsuit",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] FTCと22州によるAmazonへの訴訟で、広告料金の不透明な上乗せ疑惑はEC事業者や広告主に影響し得ますが、技術革新やソフトウェア開発への直接的な影響は限定的です。主題は独占禁止法・商慣行規制に関するもので、評価基準上は低評価帯に該当します。既出キーワードとの直接的な重複もないため、追加減点はしていません。"
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 41,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 企業向けAIエージェントを複数連携させた際の権限拡大、依存関係の可視化、責任所在、実行前のポリシー適用といった運用上の重要課題を整理しており、実装・アーキテクチャ面で一定の価値があります。一方で、具体的な製品発表や新規技術、実証データではなく、Graviteeによるスポンサー記事としての問題提起が中心です。AIエージェントのガバナンスという点は重要で"
+    },
+    "1e2919e57874dc8b137e1f75bf5ed95b": {
+      "score": 47,
+      "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] AIそのものの新技術や実装を扱う記事ではなく、AI企業の過剰評価、レバレッジ、ハイパースケーラー間の相互投資が金融システムに波及するリスクを論じた警告です。市場全体への影響範囲は大きく、AI投資の持続可能性や企業間依存を考える上では重要ですが、エンジニアにとって具体的なアーキテクチャや製品の進展は限定的です。さらに、既出のAI関連テーマと重なるため減"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 47,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] AIを使ってゲームやインタラクティブ作品を生成できる点は開発者体験やクリエイティブツールの進化として注目に値します。一方で、記事の主眼はMetaプラットフォーム外への共有制限やエコシステムへの囲い込みであり、技術的なブレークスルーやアーキテクチャの新規性は限定的です。既出のAI関連トピックとも重なるため減点しました。 [Editorial: AI-f"
+    },
+    "993e7ed64b54d32715fd2c374a430e18": {
+      "score": 2,
+      "title": "Asus ProArt 27 QD-OLED (PA279cdv) Review: HDR for All",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] Asusの27インチQD-OLEDモニターに関する製品レビューで、HDR対応ディスプレイをクリエイター向けに低価格化する点は実用的ですが、一般消費者向けハードウェア製品の評価にとどまります。AI、ソフトウェアアーキテクチャ、クラウド、主要言語など技術業界の前提を変える内容ではないため、最低評価帯としました。 [Editorial: gadget to"
+    },
+    "4e6bef2030ef1ec8ac6d45f26d08b083": {
+      "score": 41,
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] AIエージェントがサンドボックスを脱出し、外部プラットフォームを攻撃した事例は、エージェントの権限設計・隔離・監査に関わる重要な技術論点です。一方で、記事の主眼は新機能や画期的な実装ではなく、既発生のセキュリティインシデントからOpenAIの組織文化を論じる分析です。既出キーワードのAIやLLMと近い話題であり、明確な新展開というより続報・論評に見え"
+    },
+    "464a13410fc9b10f6c4e17fb5142fae8": {
+      "score": 36,
+      "title": "Hollywood Must Learn From Microdramas",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 中国発の低予算マイクロドラマが数十億ドル規模の市場へ成長している点は、動画配信やコンテンツ制作のビジネスモデルに変化を与える可能性があります。一方で、記事は技術革新や具体的なプロダクト発表ではなく、ハリウッドへの提言を中心とした論説です。エンジニア視点では配信プラットフォームや制作ワークフローへの示唆はあるものの、アーキテクチャ・AI・クラウドなどの"
+    },
+    "b72b6f676ff8e29b4b44d1620ec5ad3e": {
+      "score": 23,
+      "title": "PayPal Falls 12% After Stripe and Advent End Pursuit",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] StripeとAdventによるPayPal買収交渉の撤回と株価急落を扱う金融・企業再編ニュースであり、決済業界の競争環境には影響しますが、ソフトウェアアーキテクチャ、AI、クラウド、開発者向け技術の具体的な進展は含まれていません。エンジニア視点での技術的インパクトや新規性は限定的なため、低めに評価します。"
+    },
+    "21d0df2522483140c6449fbff5e30943": {
+      "score": 42,
+      "title": "個人向け Coding Agent サブスクリプションのコストパフォーマンス比較",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] Coding Agentの料金体系や、API従量課金とサブスクリプションの実質的なコスト差を比較する内容で、開発者のツール選定には実用的な価値があります。一方で、新しいモデルやアーキテクチャの発表ではなく、既存サービスの価格・利用量を整理する分析記事であるため、技術革新性と影響範囲は限定的です。また、AI・LLM系の話題に該当し、直近放送済みキーワー"
+    },
+    "10967dceeb4b1cac136e289d648054e9": {
+      "score": 72,
+      "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 強化学習における並列探索の効率と多様性を改善する新手法であり、AI研究として新規性があります。特に、チーム全体のエントロピーだけでは評価できなかった各ポリシーの非冗長な探索貢献を、leave-one-policy-outの限界被覆クレジットで測定する点は、探索の重複削減や学習資源の有効活用につながります。一方で、現時点ではarXivの新規論文にとどま"
+    },
+    "a5bf99e8efe531fd45852a5f5d831693": {
+      "score": 48,
+      "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] LLMの出力層をHNSWベースのベクトル検索に置き換え、巨大な語彙行列に伴うメモリ帯域ボトルネックを緩和する研究であり、推論レイテンシやメモリ効率の改善につながる可能性があります。特に多言語モデルや限られた計算資源で動作する小型モデルに有用な、具体性の高いアーキテクチャ上の提案です。一方で、検索近似による精度・再現率への影響、更新コスト、実運用でのG"
+    },
+    "d59b487a14ced839dbf0f3dc550f8dde": {
+      "score": 43,
+      "title": "I turned my security cameras into an automatic bird identification system",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 既存の防犯カメラを活用し、映像取得・物体検出・鳥種識別を自動化する実用的なコンピュータビジョン応用で、エッジ処理や低コストなシステム統合の観点では興味深い。一方で、個人開発または限定用途の事例とみられ、基盤技術や業界全体の前提を変えるほどの新規性・影響範囲は確認できない。AI関連ではあるが、既出のLLMや生成AIの話題とは異なるため減点は適用しない。"
+    },
+    "ac701ed0cd21cedba6848c134a364217": {
+      "score": 73,
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 教育現場への生成AI導入を55の米国教育システム、10万人超の教育関係者へ拡大する具体的な展開であり、影響範囲は大きいです。セキュアな環境、研修、運用支援を含むため、単なる機能追加ではなく組織導入・ガバナンス面でも実務的な価値があります。一方で、基盤モデルや推論技術そのものの革新ではなく、既存AIサービスの導入拡大が中心です。既出のAI関連話題と重な"
+    },
+    "ef0cd1d0683c6471c1dc2f35bc3af050": {
+      "score": 58,
+      "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] AWS Agent Registryの一般提供開始は、企業内に分散するAIエージェント、ツール、スキルを検索・公開・承認・管理できる基盤として実務的な価値があります。エージェントの野良増殖を防ぎ、再利用性やガバナンスを高める点で、エンタープライズ向けAI運用の重要な一歩です。一方で、基盤モデルや実行ランタイムそのものの革新ではなく、既存のAIエージェ"
+    },
+    "a60931415f29df7e15e98840e4ee6770": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 24",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] GitHub CopilotのSlack・Teams連携やアプリ、CLI、IDEでのカスタマイズ強化は開発者体験と運用柔軟性に関わるものの、週次アップデートの告知であり、アーキテクチャや業界の前提を変えるほどの新規性・影響規模は限定的です。また、既出キーワードのGitHubおよびCopilotと同一テーマの記事であるため、重複分を減点しました。 [E"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 41,
+      "title": "May 11, 2026",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の新しいイメージリリースですが、内容はDebian 12環境への上流依存パッケージの更新に限定されており、アーキテクチャ変更や新機能、性能向上、開発者体験の大幅な改善は確認できません。運用上の保守性や依存関係の最新化という意義はあるものの、技術革新や影響範囲は限定的なため、低めに評価します。 [E"
+    },
+    "10d9777be904b1d261b85c3d58c0013c": {
+      "score": 77,
+      "title": "The Pentagon now has its own version of ChatGPT and Grok",
+      "date": "2026-09-01",
+      "reason": "[Claude API Evaluation] 国防総省の中央AIポータルにChatGPT、Grok、Geminiが導入される点は、生成AIの大規模な政府・防衛分野への実運用展開として重要です。複数モデルを共通基盤から利用することで、モデル比較、アクセス制御、監査、データ保護などの運用アーキテクチャにも影響します。一方で、基盤モデル自体の画期的な技術革新や新しい推論方式の発表ではなく、既存LLMの"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-01/blog.md",
+    "show_notes_path": "out/2026-09-01/show_notes.md",
+    "script_path": "out/2026-09-01/script_2hosts.md",
+    "audio_path": "out/2026-09-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24971,
+        "output_tokens": 10812,
+        "cost_usd": 0.017969
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42700,
+        "output_tokens": 7678,
+        "cost_usd": 0.24327
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3768,
+        "cost_usd": 0.045216
+      }
+    ],
+    "total_cost_usd": 0.306455
+  }
+}

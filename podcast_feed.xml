@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:psc="http://podlove.org/simple-chapters" version="2.0">
   <channel>
     <title>Tech News Radio</title>
     <link>https://technewsradio.tokyo</link>
@@ -24,6 +24,74 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
+    <item>
+      <title>#154 ペンタゴン、独自版ChatGPTとGrokを導入／教師向けChatGPT、米国のより多くの学区へ提供拡大 ほか</title>
+      <description>Tech News Radio Show Notes - #154 (2026-09-01)
+
+エピソード情報
+• エピソード: #154
+• 日付: 2026-09-01
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• The Pentagon now has its own version of ChatGPT and Grok (https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/)
+• Bringing ChatGPT for Teachers to more U.S. school districts (https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts)
+• Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization (https://arxiv.org/abs/2608.27507)
+
+注目の深掘り
+• Manage agents, tools and skills at scale with AWS Agent Registry (https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/)
+
+小ネタ・その他
+• How to evaluate LLMs before production (https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)
+• A milestone in expanding access to AI (https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads)
+• A milestone in expanding access to AI (https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-01/episode_audio.mp3" length="11109165" type="audio/mpeg" />
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-01</guid>
+      <itunes:duration>11:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>ペンタゴン、独自版ChatGPTとGrokを導入／教師向けChatGPT、米国のより多くの学区へ提供拡大 ほか</itunes:title>
+      <itunes:episode>154</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #154 (2026-09-01)
+
+エピソード情報
+• エピソード: #154
+• 日付: 2026-09-01
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• The Pentagon now has its own version of ChatGPT and Grok (https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/)
+• Bringing ChatGPT for Teachers to more U.S. school districts (https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts)
+• Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization (https://arxiv.org/abs/2608.27507)
+
+注目の深掘り
+• Manage agents, tools and skills at scale with AWS Agent Registry (https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/)
+
+小ネタ・その他
+• How to evaluate LLMs before production (https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)
+• A milestone in expanding access to AI (https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads)
+• A milestone in expanding access to AI (https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-01/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.320" title="The Pentagon now has its own version of ChatGPT and Grok" href="https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/" />
+        <psc:chapter start="00:02:02.940" title="Bringing ChatGPT for Teachers to more U.S. school districts" href="https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts" />
+        <psc:chapter start="00:02:33.440" title="Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization" href="https://arxiv.org/abs/2608.27507" />
+        <psc:chapter start="00:05:18.110" title="Manage agents, tools and skills at scale with AWS Agent Registry" href="https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/" />
+        <psc:chapter start="00:07:11.390" title="How to evaluate LLMs before production" href="https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/" />
+        <psc:chapter start="00:09:25.120" title="A milestone in expanding access to AI" href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads" />
+        <psc:chapter start="00:10:59.290" title="エンディング" />
+      </psc:chapters>
+    </item>
     <item>
       <title>#153 Cognitionの急成長と高いキャッシュ消費の内実 ほか</title>
       <description>Tech News Radio Show Notes - #153 (2026-08-31)

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.32,
+    "title": "The Pentagon now has its own version of ChatGPT and Grok",
+    "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/"
+  },
+  {
+    "start_sec": 122.94,
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
+  },
+  {
+    "start_sec": 153.44,
+    "title": "Marginal Coverage Credit Reduces Redundant Exploration in Parallel State-Entropy Optimization",
+    "url": "https://arxiv.org/abs/2608.27507"
+  },
+  {
+    "start_sec": 318.11,
+    "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+    "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/"
+  },
+  {
+    "start_sec": 431.39,
+    "title": "How to evaluate LLMs before production",
+    "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/"
+  },
+  {
+    "start_sec": 565.12,
+    "title": "A milestone in expanding access to AI",
+    "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+  },
+  {
+    "start_sec": 659.29,
+    "title": "エンディング",
+    "url": null
+  }
+]
