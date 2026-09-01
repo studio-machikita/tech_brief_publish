@@ -1,0 +1,376 @@
+{
+  "date": "2026-09-02",
+  "episode_date_local": "2026-09-02",
+  "content_snapshot_date": "2026-09-02",
+  "show_length_sec": 809,
+  "audio_size": 12948141,
+  "generated_at": "2026-09-01T22:21:16.342647+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8901d53f",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "title_ja": "アストラへの道:重要な能力とフロンティアの安全対策",
+      "one_liner": "OpenAI新モデルAstra、サイバー脅威で最高警戒レベルに",
+      "fingerprint": "8901d53f6cfa9ca0e7fc18c306b3f6bf",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-21c149f3",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "title_ja": "ヘルスケア機関、EHRと業界データをChatGPTに接続可能に",
+      "one_liner": "ChatGPTが医療データと連携、臨床現場で活用へ",
+      "fingerprint": "21c149f358fe69f5a1be3830fa888d92",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-0c560964",
+      "title": "Copilot code review can now approve pull requests",
+      "title_ja": "Copilotのコードレビューがプルリクエストを承認できるようになりました",
+      "one_liner": "Copilotがプルリクエストを承認できる機能を追加",
+      "fingerprint": "0c5609645a34ebe57ffb5e2f1577b895",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-bd2d4647",
+      "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
+      "title_ja": "NLP駆動による古代インド医学翻訳文献の知識抽出とテーマ分類",
+      "one_liner": "AIで古代インド医学書を解析し知識を体系化",
+      "fingerprint": "bd2d46474a6bb234ac9c9d92950472f1",
+      "score": 62,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-0c50217d",
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "title_ja": "顧客とともに構築するエンタープライズ向けフロンティアセーフガード",
+      "one_liner": "Anthropicが企業向け不正利用対策を新発表",
+      "fingerprint": "0c50217d01e012dc75aa0a055b5ceeda",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-daf68dc4",
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "title_ja": "AIが描いたアルファ・ケンタウリへの恒星間飛行計画",
+      "one_liner": "非営利団体がAIで恒星間探査計画を発表",
+      "fingerprint": "daf68dc48a908c583544948a04afbaa4",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-274302bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ERR+: Sequential Entropy Resolution for Efficient and Decisive LLM Reasoning"
+    },
+    {
+      "item_id": "item-65a4bc6a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How AI-native companies turn workflows into operating capability"
+    },
+    {
+      "item_id": "item-c51e35d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google Deepmind's new chief says frontier AI leadership is the only thing that matters"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-14a2b433",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock"
+    },
+    {
+      "item_id": "item-d1492a46",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation"
+    },
+    {
+      "item_id": "item-6e1d037a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-e48be688",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Codex bundles LibreOffice"
+    },
+    {
+      "item_id": "item-a0532154",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving our alignment and security efforts"
+    },
+    {
+      "item_id": "item-211e1551",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "社内アプリをもっと気軽に届けたい — 開発者とともに育てるPlatformづくり"
+    },
+    {
+      "item_id": "item-f1c92b66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "With Tim Cook’s Last Day, Changes Are Happening at Apple"
+    },
+    {
+      "item_id": "item-282ecc00",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Set an expiration date for individual user budgets"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-8ed24e0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NYLIM's Hermann Says Bond Market Signals Tighter Rates"
+    },
+    {
+      "item_id": "item-20016c2f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple follows Google in adopting Trump’s ‘Lake America’ name"
+    },
+    {
+      "item_id": "item-f3ca151e",
+      "reason": "[Duplicate] 「Path to Astra: critical capabilities and frontier safeguards」と同じ出来事のため除外",
+      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities"
+    }
+  ],
+  "score_cache": {
+    "8901d53f6cfa9ca0e7fc18c306b3f6bf": {
+      "score": 92,
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] OpenAIの新モデルAstraが、Preparedness Frameworkにおける「重大なサイバーセキュリティ能力」の基準を初めて満たしたという、フロンティアAIの能力評価と安全対策に関する重要な続報です。高度なサイバー攻撃支援能力に到達した可能性と、それに応じたリリース時の防御策を示しており、AI開発の安全基準や運用設計に影響します。一方で、"
+    },
+    "65a4bc6a1698d8cca0318bfdca81c5e0": {
+      "score": 54,
+      "title": "How AI-native companies turn workflows into operating capability",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] AIエージェントを業務フローに組み込み、オンボーディングやアカウント管理、開発者向け連携を運用能力へ転換する事例は、エンタープライズ設計や業務自動化の観点で有用です。一方で、Basis、Clay、Exa Labsの実践紹介が中心で、基盤モデルやアーキテクチャを根本から変える新技術の発表ではありません。さらに、既出のAI・エージェント関連テーマと同じ角"
+    },
+    "0c50217d01e012dc75aa0a055b5ceeda": {
+      "score": 61,
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] 企業向けの最先端AIにおける安全策や運用ガードレールは、LLMを本番導入する際の信頼性・リスク管理に直結する重要テーマです。顧客との実運用を通じた取り組みであれば、モデルの権限管理、評価、監視、悪用対策などに発展する可能性があります。一方で、記事タイトルだけでは具体的な技術革新や新しいアーキテクチャ、画期的な成果が確認できず、AI安全性寄りの運用・ガ"
+    },
+    "6e1d037a5bdd2625c683e1b285f987fd": {
+      "score": 40,
+      "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] エンタープライズ規模で400人のエンジニアを対象に、AWS上でマルチエージェントシステムを実装する実践型教育を行った点は、AI導入や人材育成の具体例として有益です。一方で、基盤技術そのものの革新や新しいアーキテクチャの発表ではなく、主に企業内トレーニングの事例紹介です。また、直近に取り上げ済みの「ai」「agents」に直接該当し、同じエージェントA"
+    },
+    "282ecc00d7f778d294f1f3a610e17d77": {
+      "score": 30,
+      "title": "Set an expiration date for individual user budgets",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] GitHubの個別ユーザーバジェットに有効期限を設定できるようになる、運用・コスト管理上は実用的な改善です。ただし、技術アーキテクチャや開発基盤を大きく変えるものではなく、請求管理機能の拡張にとどまります。GitHub関連の話題は直近の既出キーワードに含まれるため、重複分として減点しています。 [Editorial: AI-focused sourc"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 38,
+      "title": "April 27, 2026",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12環境への上流依存パッケージ更新に限定されており、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agents」と近い領域であり、実質的には定期的な運用・保守リ"
+    },
+    "20016c2f8b836dd6b1d3585f56999b9e": {
+      "score": 6,
+      "title": "Apple follows Google in adopting Trump’s ‘Lake America’ name",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] Apple Mapsの地名表示変更は、政治的な命名に関する一般消費者向けサービスの更新であり、AI・クラウド・開発言語・アーキテクチャなどの技術革新には直接つながりません。エンジニアリング上の新規性や技術的影響範囲も限定的なため、最低評価帯としました。"
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 39,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] 企業内で複数のAIエージェントがAPIや他エージェントを連鎖的に呼び出す際の、権限管理・可観測性・責任追跡・実行前のポリシー適用という重要な実装課題を扱っています。エージェント基盤のアーキテクチャ設計や運用には有用ですが、具体的な製品発表、技術検証、導入事例ではなく、Graviteeによるスポンサー記事として一般論と自社ソリューションへの誘導が中心で"
+    },
+    "c51e35d10aadc514004be035f92646e0": {
+      "score": 49,
+      "title": "Google Deepmind's new chief says frontier AI leadership is the only thing that matters",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] Google DeepMindのトップがフロンティアAIでの首位奪還を最重要課題と明言しており、Googleの研究開発戦略やGemini系モデルの競争に影響する点は重要です。一方で、具体的な新モデル、性能結果、製品発表、ロードマップはなく、現状認識と意気込みにとどまります。AI関連の既出テーマと重複するため減点し、技術的な新規性と実証性を踏まえて中上"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 49,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] AIを使ってゲームやインタラクティブなモバイル体験を短時間で実現できる点は、プロトタイピングやノーコード開発の観点で一定の技術的価値があります。一方で、主な論点はMetaプラットフォーム内への囲い込みと共有制限であり、基盤技術そのものの革新や業界構造を変える発表ではありません。AI関連の既出トピックと重なるため減点し、影響範囲と新規性を考慮して中程度"
+    },
+    "f3ca151e5b8aa8f923b0144b7a986180": {
+      "score": 86,
+      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] 高度なサイバー能力を持つ新しいAIモデルの公開は、AIの実用範囲とサイバーセキュリティの両方に影響する注目度の高いニュースです。早期アクセスを通じて防御側が事前対策できる点も、モデルの安全な展開という観点で重要です。一方で、現時点ではモデルの具体的な能力や性能、公開時期が明らかでなく、選定パートナー向けの限定提供にとどまるため、業界の前提を変える確定"
+    },
+    "daf68dc48a908c583544948a04afbaa4": {
+      "score": 60,
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] AIを活用した恒星間航行計画という題材は非常に新規性が高く、宇宙工学・自律航法・長期ミッション設計への応用という点で技術的な注目度は高い。一方、到達まで最大8万年を要する計画であり、2029年打ち上げ予定も実現性や具体的な技術仕様が不明な段階の構想に近い。AI業界全体の前提を変える発表ではなく、実用的なソフトウェア技術への直接的な影響も限定的なため、"
+    },
+    "8ed24e0ff33684955f927731e2e16833": {
+      "score": 10,
+      "title": "NYLIM's Hermann Says Bond Market Signals Tighter Rates",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] 債券市場や米金利の見通しに関する金融ニュースであり、AI・ソフトウェア・クラウド・プログラミング言語などの技術革新とは直接関係しません。エンジニアリングへの影響は、資金調達コストやスタートアップ投資環境を通じた間接的なものに限られ、一般的な市場解説として技術ニュースの優先度は非常に低いと判断しました。既出キーワードとの重複もありません。"
+    },
+    "f1c92b66286657244d601af0761d25c2": {
+      "score": 36,
+      "title": "With Tim Cook’s Last Day, Changes Are Happening at Apple",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] AppleのCEO交代は同社の製品戦略、半導体・OS・サービス開発、サプライチェーン投資に中長期的な影響を与え得る重要ニュースです。一方で、現時点では技術革新や具体的なアーキテクチャ変更、製品発表ではなく、経営トップの交代と継続性に関する報道が中心です。エンジニア視点では、今後の開発組織やプラットフォーム戦略を見極める材料として注目度はあるものの、直"
+    },
+    "211e15518542191550d299a83cf80fb8": {
+      "score": 37,
+      "title": "社内アプリをもっと気軽に届けたい — 開発者とともに育てるPlatformづくり",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] 社内PlatformチームがGitHub、GitHub Actions、セルフホステッドランナー、アーティファクト管理基盤を運用し、開発者体験を改善する取り組みは、DevSecOpsやPlatform Engineeringの実践例として有用です。一方で、業界の前提を変える新技術や大規模なアーキテクチャ革新ではなく、社内向けの事例紹介が中心です。また"
+    },
+    "d1492a46731010dcaabe75fdb8c8aa42": {
+      "score": 43,
+      "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] データサイエンス向けLLMエージェントのタスク表現、実行状態管理、成果物制約、評価フィードバックを明示的なハーネスとして設計する研究で、再現性・比較可能性・性能 attribution の改善に寄与します。エージェント基盤のアーキテクチャとして技術的価値は高い一方、汎用的な新モデルや業界標準を直ちに変える実装ではなく、arXivの新規研究段階です。ま"
+    },
+    "274302bf58fa3107fb372986e3ca4fc1": {
+      "score": 60,
+      "title": "ERR+: Sequential Entropy Resolution for Efficient and Decisive LLM Reasoning",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] LLMの長いChain-of-Thoughtを、推論過程のエントロピー解消に着目して効率化・決定性向上する研究であり、推論コストやRLVRの限界に直接関わる点は技術的に重要です。モデルの学習・推論アーキテクチャへ波及する可能性もあります。一方、現時点ではarXivの新規研究段階で、実運用への影響や既存手法を大きく上回る実証効果はスニペットから確認でき"
+    },
+    "bd2d46474a6bb234ac9c9d92950472f1": {
+      "score": 62,
+      "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] 古典医学文献をNLPで構造化し、NER・BERTopic・Neo4jによる知識グラフ化まで行う点は、非構造・多言語・歴史資料を対象とした実践的なAI活用として技術的価値があります。特に抽出、テーマ分類、可視化を一連のパイプラインとして扱う点は、デジタル・ヒューマニティーズや専門知識検索への応用性があります。一方で、arXivの研究段階であり、モデル精"
+    },
+    "e48be6883edb0a7c700554ed5ae69080": {
+      "score": 38,
+      "title": "Codex bundles LibreOffice",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] CodexとLibreOfficeの組み合わせは、AI開発ツールとオープンソースのオフィススイートを接続する可能性があり、開発者ワークフローや文書処理の自動化につながる点は注目に値します。一方で、記事タイトルだけでは具体的な機能、統合方式、対象ユーザー、提供形態が不明で、アーキテクチャや業界全体を変えるほどの新規性・影響範囲は確認できません。既出キー"
+    },
+    "21c149f358fe69f5a1be3830fa888d92": {
+      "score": 78,
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] ChatGPTがEHR（電子健康記録）や医療研究データなどの業界データと接続できるようになる点は、LLMの医療現場への実装を大きく前進させる発表です。臨床医が患者コンテキストを安全に参照できれば、検索・要約・意思決定支援のワークフローに影響します。一方で、医療データ連携では権限管理、監査ログ、プライバシー、誤情報対策、既存EHRとの相互運用性が重要で"
+    },
+    "a053215453edd07eb5390bf1ae1e19dd": {
+      "score": 38,
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] AIのアライメントやセキュリティに関する取り組みは重要ですが、タイトル以外の具体的な技術内容や新規性、影響範囲が示されていません。安全性・運用方針に近いテーマで、評価基準上は規制やセキュリティ関連の低評価帯に該当するため、現時点では限定的な重要度と判断します。 [Editorial: AI-focused source +6]"
+    },
+    "14a2b433bd146d5c8ed137484dc42ad7": {
+      "score": 49,
+      "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] Amazon Bedrockを対象に、IAM Customer Managed Policies、Athena、Lambdaを組み合わせてユーザー単位のリアルタイム利用額制御を実現した、具体性の高いクラウドアーキテクチャ事例です。生成AIの本番導入で重要なコストガバナンスや、アクティブセッションを中断しない段階的なモデル制限は実務的な価値があります。"
+    },
+    "0c5609645a34ebe57ffb5e2f1577b895": {
+      "score": 75,
+      "title": "Copilot code review can now approve pull requests",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] AIを活用したコードレビューが、プルリクエストの承認まで実行できるようになる新機能で、開発ワークフローの自動化範囲を大きく広げます。管理者の許可を前提とするため安全性や権限設計の制約は残りますが、レビュー結果の提示にとどまらず、マージ前の意思決定を自動化する点はエンジニアリング現場への影響が大きいです。既出キーワードのCopilotに該当するものの、"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 27,
+      "title": "May 11, 2026",
+      "date": "2026-09-02",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに upstream の最新パッケージを適用しただけの定常的なリリースであり、新機能、性能向上、アーキテクチャ変更、互換性に関する具体的な進展はありません。エージェント関連の話題は既報キーワードにも該当し、明確な新規展開とは言いにくいため減点しました。 [Editorial:"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-02/blog.md",
+    "show_notes_path": "out/2026-09-02/show_notes.md",
+    "script_path": "out/2026-09-02/script_2hosts.md",
+    "audio_path": "out/2026-09-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 25628,
+        "output_tokens": 11079,
+        "cost_usd": 0.01842
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43060,
+        "output_tokens": 7878,
+        "cost_usd": 0.24735
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4388,
+        "cost_usd": 0.05265600000000001
+      }
+    ],
+    "total_cost_usd": 0.318426
+  }
+}

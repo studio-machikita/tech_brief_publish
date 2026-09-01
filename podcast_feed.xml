@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#155 アストラへの道:重要な能力とフロンティアの安全対策／ヘルスケア機関、EHRと業界データをChatGPTに接続可能に ほか</title>
+      <description>Tech News Radio Show Notes - #155 (2026-09-02)
+
+エピソード情報
+• エピソード: #155
+• 日付: 2026-09-02
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Path to Astra: critical capabilities and frontier safeguards (https://openai.com/index/path-to-astra/)
+• Path to Astra: critical capabilities and frontier safeguards (https://openai.com/index/path-to-astra)
+• Path to Astra: critical capabilities and frontier safeguards (https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/)
+• Healthcare organizations can now connect EHR and additional industry data to ChatGPT (https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources)
+• Copilot code review can now approve pull requests (https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests)
+
+注目の深掘り
+• NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts (https://arxiv.org/abs/2608.28608)
+
+小ネタ・その他
+• Developing Enterprise Frontier Safeguards with our customers (https://www.anthropic.com/news/enterprise-frontier-safeguards)
+• How AI plotted an interstellar journey to Alpha Centauri (https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-02/episode_audio.mp3" length="12948141" type="audio/mpeg" />
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-02</guid>
+      <itunes:duration>13:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>アストラへの道:重要な能力とフロンティアの安全対策／ヘルスケア機関、EHRと業界データをChatGPTに接続可能に ほか</itunes:title>
+      <itunes:episode>155</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #155 (2026-09-02)
+
+エピソード情報
+• エピソード: #155
+• 日付: 2026-09-02
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Path to Astra: critical capabilities and frontier safeguards (https://openai.com/index/path-to-astra/)
+• Path to Astra: critical capabilities and frontier safeguards (https://openai.com/index/path-to-astra)
+• Path to Astra: critical capabilities and frontier safeguards (https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities/)
+• Healthcare organizations can now connect EHR and additional industry data to ChatGPT (https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources)
+• Copilot code review can now approve pull requests (https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests)
+
+注目の深掘り
+• NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts (https://arxiv.org/abs/2608.28608)
+
+小ネタ・その他
+• Developing Enterprise Frontier Safeguards with our customers (https://www.anthropic.com/news/enterprise-frontier-safeguards)
+• How AI plotted an interstellar journey to Alpha Centauri (https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-02/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.480" title="Path to Astra: critical capabilities and frontier safeguards" href="https://openai.com/index/path-to-astra/" />
+        <psc:chapter start="00:02:16.710" title="Healthcare organizations can now connect EHR and additional industry data to ChatGPT" href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources" />
+        <psc:chapter start="00:04:03.820" title="Copilot code review can now approve pull requests" href="https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests" />
+        <psc:chapter start="00:06:23.460" title="NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts" href="https://arxiv.org/abs/2608.28608" />
+        <psc:chapter start="00:08:41.040" title="Developing Enterprise Frontier Safeguards with our customers" href="https://www.anthropic.com/news/enterprise-frontier-safeguards" />
+        <psc:chapter start="00:10:49.110" title="How AI plotted an interstellar journey to Alpha Centauri" href="https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/" />
+        <psc:chapter start="00:12:55.090" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#154 ペンタゴン、独自版ChatGPTとGrokを導入／教師向けChatGPT、米国のより多くの学区へ提供拡大 ほか</title>
       <description>Tech News Radio Show Notes - #154 (2026-09-01)
 

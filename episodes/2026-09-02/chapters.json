@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.48,
+    "title": "Path to Astra: critical capabilities and frontier safeguards",
+    "url": "https://openai.com/index/path-to-astra/"
+  },
+  {
+    "start_sec": 136.71,
+    "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+    "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+  },
+  {
+    "start_sec": 243.82,
+    "title": "Copilot code review can now approve pull requests",
+    "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests"
+  },
+  {
+    "start_sec": 383.46,
+    "title": "NLP-Driven Knowledge Extraction and Thematic Classification of Translated Ancient Indian Medical Texts",
+    "url": "https://arxiv.org/abs/2608.28608"
+  },
+  {
+    "start_sec": 521.04,
+    "title": "Developing Enterprise Frontier Safeguards with our customers",
+    "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+  },
+  {
+    "start_sec": 649.11,
+    "title": "How AI plotted an interstellar journey to Alpha Centauri",
+    "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/"
+  },
+  {
+    "start_sec": 775.09,
+    "title": "エンディング",
+    "url": null
+  }
+]
