@@ -1,0 +1,376 @@
+{
+  "date": "2026-09-03",
+  "episode_date_local": "2026-09-03",
+  "content_snapshot_date": "2026-09-03",
+  "show_length_sec": 840,
+  "audio_size": 13450029,
+  "generated_at": "2026-09-02T22:39:00.930255+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-7d7cce0d",
+      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+      "title_ja": "オーストラリアからグローバルクロスリージョン推論でAmazon BedrockのOpenAIモデルにアクセスする",
+      "one_liner": "豪州からBedrock経由でOpenAIモデル利用が可能に",
+      "fingerprint": "7d7cce0df5245817025c7e6a92295005",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-34de4d86",
+      "title": "Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning",
+      "title_ja": "行動データに基づくユーザープロファイル生成:パーソナライズされたアライメントと多視点推論に向けて",
+      "one_liner": "実在の投稿から人物像を抽出する新手法",
+      "fingerprint": "34de4d864fd6a71f480486370e29e8e9",
+      "score": 79,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-3f380df8",
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "title_ja": "HyperWorld: ハイパーグラフ構造の状態直列化による学習型テキスト世界モデルの改善",
+      "one_liner": "状態の記述形式が世界モデルの学習精度を左右する",
+      "fingerprint": "3f380df8b6bbc6e452ab387c50b7b9f2",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-de8716c7",
+      "title": "Chainguardに学ぶセキュアなコンテナイメージの作り方",
+      "title_ja": "Chainguardに学ぶセキュアなコンテナイメージの作り方",
+      "one_liner": "Dockerfileを使わないセキュアなコンテナ構築入門",
+      "fingerprint": "de8716c7ef1d9ae344e484f496a3f381",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-65a4bc6a",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "title_ja": "AIネイティブ企業はいかにワークフローを運用能力に変えるか",
+      "one_liner": "AIエージェントで業務フローを実行能力に変える企業事例",
+      "fingerprint": "65a4bc6a1698d8cca0318bfdca81c5e0",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-c8fa2e2e",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "title_ja": "タスク品質を犠牲にせずにAIコーディングのコストを効率化する方法",
+      "one_liner": "GitHub Copilot、出力短縮より無駄削減でコスト効率化",
+      "fingerprint": "c8fa2e2e91fe0e929824c91b66f34141",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d8499088",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals"
+    },
+    {
+      "item_id": "item-edfcde18",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Modernizing and scaling support operations with generative AI on AWS"
+    },
+    {
+      "item_id": "item-dc389055",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise-managed settings support any default model"
+    },
+    {
+      "item_id": "item-08a924a9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI"
+    },
+    {
+      "item_id": "item-8c805138",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!"
+    },
+    {
+      "item_id": "item-20f52a79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US Department of Justice backs fair use for AI training in landmark copyright case"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-77c35454",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Altair Basic Interpreter Source Code (1975) [pdf]"
+    },
+    {
+      "item_id": "item-64dc9330",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why SoftBank Is Rushing SB Energy to the Public Markets"
+    },
+    {
+      "item_id": "item-9d55c583",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Task-Specific Prompt with Global Context for Multi-Task Graph Pre-Training"
+    },
+    {
+      "item_id": "item-f144eb4f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Facilitating AI integration with simplicity at scale"
+    },
+    {
+      "item_id": "item-b2fc61bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding our support for scientists"
+    },
+    {
+      "item_id": "item-7315545b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them."
+    },
+    {
+      "item_id": "item-a0532154",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving our alignment and security efforts"
+    },
+    {
+      "item_id": "item-1c1fd08c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - PhiloLabs/fable51-worlds: worlds via code, from fable 5.1"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-82696d51",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TikTok Backs Out of House Meeting to Avoid Kids Safety Questions"
+    },
+    {
+      "item_id": "item-beaf727a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon’s 2026 Holiday Deals Are About to Look Better Than They Are"
+    }
+  ],
+  "score_cache": {
+    "77c35454052cdf3695db1d136d01ec6e": {
+      "score": 43,
+      "title": "Altair Basic Interpreter Source Code (1975) [pdf]",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 1975年のAltair BASICインタプリタのソースコード公開資料で、初期パーソナルコンピューティングとBASIC実装の設計を直接学べる歴史的・技術的価値があります。小規模なインタプリタの構文解析、実行系、メモリ制約下の実装を理解する教材として有用ですが、現代のAI・クラウド・主要言語の進化や業界への即時的な影響は限定的です。"
+    },
+    "65a4bc6a1698d8cca0318bfdca81c5e0": {
+      "score": 54,
+      "title": "How AI-native companies turn workflows into operating capability",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AIエージェントを単なる自動化ツールではなく、オンボーディングやアカウント管理、開発者向け連携といった業務ワークフローを継続的な運用能力へ変換する事例として、エンジニアリング上の示唆は大きいです。特にAI-native企業の組織設計や、複数システムをまたぐエージェント統合の実践例は有用です。一方で、基盤モデルやアーキテクチャの画期的な発表ではなく、既"
+    },
+    "a053215453edd07eb5390bf1ae1e19dd": {
+      "score": 38,
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-09-02",
+      "reason": "[ScoreCache 2026-09-02] [Claude API Evaluation] AIのアライメントやセキュリティに関する取り組みは重要ですが、タイトル以外の具体的な技術内容や新規性、影響範囲が示されていません。安全性・運用方針に近いテーマで、評価基準上は規制やセキュリティ関連の低評価帯に該当するため、現時点では限定的な重要度と判断します。 [Editorial: AI-focuse"
+    },
+    "7d7cce0df5245817025c7e6a92295005": {
+      "score": 90,
+      "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] OpenAIの最新モデルをAmazon Bedrock経由でオーストラリアのSydney／Melbourneリージョンから利用できるようにする、実運用に直結したクラウド統合です。グローバルCross-Region Inferenceによる可用性・キャパシティ確保に加え、プロンプトキャッシュ、CodexのOpenID Connect認証、CloudWa"
+    },
+    "8c805138cd2ae6d77a1f5221f95f043c": {
+      "score": 47,
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AI開発で使われ始めた「ループ」「ハーネス」「スクワッド」「ヒルクライミング」「オープンウェイト」などの用語を整理する内容で、開発者の理解や共通語彙の形成には有用です。一方で、新しいモデルや基盤技術、製品、アーキテクチャの発表ではなく、主に概念解説に留まるため技術的インパクトは限定的です。また、既出のAIおよびGitHub関連トピックと近い話題である"
+    },
+    "dc38905588debee1d553dffb77b6811a": {
+      "score": 48,
+      "title": "Enterprise-managed settings support any default model",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] GitHub Copilotで企業管理者が新規会話のデフォルトモデルを指定できるようになり、組織全体のモデル標準化やワークフロー適合性、運用管理の柔軟性が向上する実務的なアップデートです。一方で、基盤モデル自体の革新や新しいアーキテクチャではなく、既存機能の管理・設定拡張にとどまります。また、直近に取り上げ済みの「copilot」「github」と同"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新版適用に限定されており、新機能・アーキテクチャ変更・性能改善などの具体的な技術的インパクトがありません。運用上の保守更新としては意味があるものの、既出キーワードの「agents」と同じエージェント基盤の話題でもあり、ニュースと"
+    },
+    "d8499088de847115925b382d4c2d9a01": {
+      "score": 52,
+      "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AIとロボティクスをデジタル空間と現実世界の融合という観点で扱うイベント企画であり、技術トレンドとしては関心度が高い。一方、現時点ではNvidiaやロボット関連の具体的な製品発表・研究成果・技術仕様ではなく、カンファレンスのステージ紹介にとどまるため、業界の前提を変える重大ニュースとは言いにくい。 [Editorial: AI/SaaS topic "
+    },
+    "7315545b28e9182389800ae1d30fbfd2": {
+      "score": 41,
+      "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 企業向けAIエージェントを単体ではなく、相互接続されたフリートとして捉え、権限の肥大化、依存関係の可視化、責任者の明確化、リアルタイムな実行制御といった実運用上の重要課題を整理している点は、エンジニアにとって有益です。特にエージェント間の呼び出しが組み合わせ爆発を起こすという指摘は、今後のシステム設計や監査基盤に関わります。一方で、具体的な技術仕様、"
+    },
+    "20f52a794e709f827d918bcaea34dd3a": {
+      "score": 47,
+      "title": "US Department of Justice backs fair use for AI training in landmark copyright case",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AIモデルの学習データ利用における著作権とフェアユースの判断は、データ調達、モデル開発コスト、出版社とのライセンス交渉などに広範な影響を与える重要な論点です。一方で、技術そのものの革新ではなく、訴訟における政府見解という法的・政策的な動きが中心です。また、既出キーワードの「ai」に該当し、AIをめぐる既存テーマとの重複として減点しました。 [Edit"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 47,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AIを使ってゲームやインタラクティブな試作品を容易に作れる点は開発体験として興味深い一方、記事の主題はMetaのプラットフォーム内に成果物が閉じ、外部共有や移植が難しいという運用・エコシステム上の制約です。新しい基盤技術やアーキテクチャの発表ではなく、影響範囲も限定的です。また、既出キーワードのAIおよびNowに関連する話題であるため、重複分として減"
+    },
+    "beaf727a42a0c4966ec62e641e821411": {
+      "score": 6,
+      "title": "Amazon’s 2026 Holiday Deals Are About to Look Better Than They Are",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] Kindle、Echo、Eero、Fire TVといった一般消費者向けデバイスの値上げに関する記事であり、ソフトウェア技術や開発者向けアーキテクチャへの影響は限定的です。AIやクラウド基盤の新技術、プログラミング言語の進化にも該当せず、評価基準上は最低評価帯が妥当です。"
+    },
+    "f144eb4fbfe3a4ba398fa375dd8bd9b9": {
+      "score": 42,
+      "title": "Facilitating AI integration with simplicity at scale",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 大規模製造企業における分断された業務システム、データサイロ、手作業を統合し、AI活用を運用基盤に組み込むテーマは、エンタープライズアーキテクチャや業務自動化の観点で一定の価値があります。一方で、具体的な製品仕様、導入アーキテクチャ、技術的ブレークスルー、定量的な成果がスニペットからは確認できず、一般的なAI統合・スケール論に留まっています。既出キーワ"
+    },
+    "82696d51ee314fb7f55757c4e84426e4": {
+      "score": 27,
+      "title": "TikTok Backs Out of House Meeting to Avoid Kids Safety Questions",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 中国関連の国家安全保障と子どもの安全を巡るTikTokの議会対応であり、政策・法務上のニュースとしては注目度があります。一方、ソフトウェア技術やアーキテクチャ、AI、開発者向け機能に関する具体的な進展はなく、エンジニアリングへの直接的な影響は限定的です。"
+    },
+    "64dc9330db49c456868410d797ee96bf": {
+      "score": 43,
+      "title": "Why SoftBank Is Rushing SB Energy to the Public Markets",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AIデータセンター向けの電力・インフラ事業を、実稼働前の段階でIPOしようとする点は、AIブームが電力・データセンター投資や企業価値評価に与える影響を示す興味深い動きです。一方で、現時点ではデータセンターの稼働実績がなく、技術的な新規性よりも資本市場・事業計画の話が中心です。AI関連トピックは既出キーワードと重なるため減点し、インフラ戦略としての重要"
+    },
+    "de8716c7ef1d9ae344e484f496a3f381": {
+      "score": 55,
+      "title": "Chainguardに学ぶセキュアなコンテナイメージの作り方",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] コンテナイメージの構築をDockerfile中心からmelange・apko・Wolfi OSによる再現可能で最小限な構成へ転換する実践的な内容で、サプライチェーンセキュリティや脆弱性削減に有用です。ソースコードからパッケージ化し、レジストリ配布まで扱うため具体性も高い一方、既存OSSの組み合わせと運用手法の解説が中心で、業界の前提を変える新技術では"
+    },
+    "3f380df8b6bbc6e452ab387c50b7b9f2": {
+      "score": 77,
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 言語モデルエージェント向けのテキスト世界モデルにおいて、状態のシリアライズ形式をハイパーグラフ構造で設計するという、AIエージェントおよび推論基盤に関わる新規性の高い研究です。単なるモデル大型化ではなく、状態表現の構造が予測精度や計画能力に与える影響を比較検証している点は、アーキテクチャ設計上有用です。一方で、現時点ではarXivの初期論文であり、テ"
+    },
+    "9d55c58318ac27324f49d64db12f6f50": {
+      "score": 43,
+      "title": "Task-Specific Prompt with Global Context for Multi-Task Graph Pre-Training",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] グラフ構造データ向けのマルチタスク事前学習において、タスク固有プロンプトとグローバルコンテキストを組み合わせ、プロンプトの構造認識や転移性能を改善する研究です。機械学習エンジニアにとっては、低リソース環境でのグラフモデル適応や推薦・知識グラフなどへの応用可能性があり技術的には興味深い一方、現時点ではarXivの新規研究で、実運用への影響や性能改善幅は"
+    },
+    "34de4d864fd6a71f480486370e29e8e9": {
+      "score": 79,
+      "title": "Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 実際の匿名ソーシャルメディア投稿から高精度なユーザープロファイルを抽出し、LLMのパーソナライズド・アラインメントや多視点推論に活用する研究で、LLMの個人適応という重要領域に直接関係します。従来の固定的・合成的なペルソナよりも行動データに基づくため、ユーザー嗜好の推定精度や応答の個別最適化に新しい設計指針を与える可能性があります。一方、現時点ではa"
+    },
+    "1c1fd08ca0ab24b19c6ef6dec2097748": {
+      "score": 38,
+      "title": "GitHub - PhiloLabs/fable51-worlds: worlds via code, from fable 5.1",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] コードによって仮想世界を生成・表現するGitHubプロジェクトであり、生成コンテンツやシミュレーション基盤に関わる技術的な面白さはあります。一方で、記事タイトルだけでは実装内容、利用モデル、アーキテクチャ、実用性や影響範囲が確認できず、業界の前提を変えるほどの新規性・成熟度は判断できません。特定の既出キーワードとの直接的な重複も見当たらないため、減点"
+    },
+    "08a924a9a800321ab75ce0d51066c9dc": {
+      "score": 48,
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 法律事務所がOpenAIのChatGPT EnterpriseとCodexを、CEO主導のガバナンスや人間による説明責任と組み合わせて全社展開する事例であり、AIの実運用・組織設計という点では参考になります。ただし、基盤技術やアーキテクチャ自体の革新ではなく、特定企業の導入事例にとどまります。また、既出のAI・ChatGPT関連テーマと同じく、企業で"
+    },
+    "b2fc61bbb9371c8e9cc831604dc79826": {
+      "score": 42,
+      "title": "Expanding our support for scientists",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] 科学者向け支援の拡大は、AIを活用した研究開発や技術エコシステムに関係する可能性があるものの、タイトルだけでは具体的な製品、モデル、技術的ブレークスルー、導入規模が不明で、エンジニアへの直接的な影響を評価しにくいです。また、タイトルに既出キーワードの「Expanding」が含まれ、同様の支援拡大に関する話題であれば重複として減点対象になります。そのた"
+    },
+    "edfcde18a50987067683c7eb32703800": {
+      "score": 51,
+      "title": "Modernizing and scaling support operations with generative AI on AWS",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AWS上で、トレーニング動画からSOPを自動生成し、RAGによるチケット対応支援と機械学習によるSLAリスク予測を組み合わせる具体的な業務基盤の事例で、実装面・業務効率化の観点では価値が高い。一方で、生成AI、RAG、予測モデルはいずれも既存技術の実用化であり、業界の前提を変える新規アーキテクチャではない。また、既出キーワードの「ai」と同一系統の話"
+    },
+    "c8fa2e2e91fe0e929824c91b66f34141": {
+      "score": 54,
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "date": "2026-09-03",
+      "reason": "[Claude API Evaluation] AIコーディングにおける出力長とタスク品質のトレードオフを分析し、GitHub Copilotで不要な処理やトークン消費を削減する実装上の知見を扱うため、エンジニアにとって実用性は高いです。一方で、基盤モデルや開発パラダイムを変える新技術ではなく、既存サービスの効率改善に関する内容です。また、既に取り上げ済みの「copilot」や「ai」と同じ文脈の"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-03/blog.md",
+    "show_notes_path": "out/2026-09-03/show_notes.md",
+    "script_path": "out/2026-09-03/script_2hosts.md",
+    "audio_path": "out/2026-09-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25379,
+        "output_tokens": 11053,
+        "cost_usd": 0.018339
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 43616,
+        "output_tokens": 8540,
+        "cost_usd": 0.258948
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4664,
+        "cost_usd": 0.055968
+      }
+    ],
+    "total_cost_usd": 0.333255
+  }
+}
