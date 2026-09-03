@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-04",
+  "episode_date_local": "2026-09-04",
+  "content_snapshot_date": "2026-09-04",
+  "show_length_sec": 797,
+  "audio_size": 12753837,
+  "generated_at": "2026-09-03T22:36:56.742560+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-549915a2",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "title_ja": "最前線の守り手に光を:必須サービス保護に10億ドル",
+      "one_liner": "OpenAI、重要インフラ防衛に10億ドル支援",
+      "fingerprint": "549915a224b0e0f0d53ae77605217536",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-1bf2cbc2",
+      "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+      "title_ja": "WMLLM: Predict-Then-Actワールドモデリングによる自己進化型最適化エージェント",
+      "one_liner": "AIに未来予測させ最適化を効率化する新手法",
+      "fingerprint": "1bf2cbc23ff8d6ea895f1fba0d007a87",
+      "score": 86,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-506ec470",
+      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+      "title_ja": "EvalDetectBench:最先端言語モデルの評価認識能力を測定するベンチマーク",
+      "one_liner": "AIの「評価されている自覚」を測る新指標",
+      "fingerprint": "506ec4702d33378b7dd6bad25c108b75",
+      "score": 84,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-fc6f97c3",
+      "title": "Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.",
+      "title_ja": "Claude Code、Codex、Cursorはどのツールを選ぶのか?16,893セッションを分析して検証した",
+      "one_liner": "AIエージェントのツール選択を16,893セッションで実測",
+      "fingerprint": "fc6f97c38698f1d4d518d46eb193f96d",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-a82694df",
+      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
+      "title_ja": "PRO-Step:検索拡張生成のためのステップレベル・プロセス報酬最適化",
+      "one_liner": "RAGの多段階推論を段階ごとに評価し精度向上",
+      "fingerprint": "a82694dfb7de0d0f51227f877b7c52fb",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-7abf176a",
+      "title": "Tesla is asking people if they want to buy and run Cybercab fleets",
+      "title_ja": "テスラ、サイバーキャブ車両群の購入・運用希望者を募集",
+      "one_liner": "TeslaがCybercab車両の個人購入希望者を募集",
+      "fingerprint": "7abf176a09baa8dabf23095295d475e4",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-97ee2486",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-a6e766a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kaggle Pokémon TCG AI Battle Challenge ポケカコンペ振り返りーメダルなし"
+    },
+    {
+      "item_id": "item-6ff6f1ed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-6 Astra: A new generation of intelligence"
+    },
+    {
+      "item_id": "item-daebd770",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-9f9e0769",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once"
+    },
+    {
+      "item_id": "item-e4703587",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-c3b19cfa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Integrating Outlook with Amazon Quick for AI-powered email automation"
+    },
+    {
+      "item_id": "item-8c805138",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-0547e911",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-28f1e2bb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today"
+    },
+    {
+      "item_id": "item-7fc39da7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Headhunter on Ternus Era: Best AI Talent Will Win"
+    },
+    {
+      "item_id": "item-a0532154",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving our alignment and security efforts"
+    },
+    {
+      "item_id": "item-fbce605a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Coinbase Adds Former xAI CFO Anthony Armstrong to Board"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-40fca136",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: rethinking child safety and fossil-fueled farming"
+    },
+    {
+      "item_id": "item-a72b9736",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pangram's biggest flaw is users turning its scores into public shaming"
+    }
+  ],
+  "score_cache": {
+    "fc6f97c38698f1d4d518d46eb193f96d": {
+      "score": 74,
+      "title": "Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] Claude Code・Codex・Cursorという主要なAIコーディングエージェントの利用実態を16,893セッション規模で分析する点は、開発者のツール選定やエージェント設計に有用な具体性があります。また、ブラウザ上の指摘をCLI経由でAIエージェントに反映し、自動リロードで確認できるローカル・オープンな開発体験も実践的です。一方で、既存のAIコ"
+    },
+    "549915a224b0e0f0d53ae77605217536": {
+      "score": 90,
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] OpenAIが重要インフラや公共性の高いサービス向けに、フロンティア級のサイバーAI、訓練、運用支援へ10億ドルを投じる発表は、AIの実社会導入とサイバーセキュリティの両面で影響が大きい。防御自動化や専門人材不足の補完につながる可能性がある一方、具体的な製品仕様、提供範囲、導入実績がまだ明らかでなく、業界の前提を直ちに変えるほどの確定的な技術革新とは"
+    },
+    "a053215453edd07eb5390bf1ae1e19dd": {
+      "score": 38,
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-09-02",
+      "reason": "[ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [Claude API Evaluation] AIのアライメントやセキュリティに関する取り組みは重要ですが、タイトル以外の具体的な技術内容や新規性、影響範囲が示されていません。安全性・運用方針に近いテーマで、評価基準上は規制やセキュリティ関連の低評価帯に該当するため、現時点では限定的な重要度と判断しま"
+    },
+    "97ee24861fa2144ea502781c6e5dc6c4": {
+      "score": 54,
+      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] AIを開発ライフサイクルへ組み込む実装例であり、Amazon Bedrock AgentCore、Kiro、Claude Codeを用いたSQLからER図の生成やマルチエージェント型コードセキュリティ分析は、エンジニアにとって具体性と実用性が高い。一方で、AIエージェントやAmazon Bedrock、マルチエージェント開発は既出キーワードと重なり、"
+    },
+    "9f9e07698e06ef8e59d5dc049d242d21": {
+      "score": 48,
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] GitHub Copilotで複数のエージェントを並列実行する機能は、開発タスクの分割や自動化を促進する実用的な進化であり、エージェント型開発の具体例としては有益です。ただし、記事は初心者向けの利用ガイドで、基盤技術やサービス自体を大きく変える新発表ではありません。また、既に取り上げ済みの「Copilot」および「multi」に直接該当し、同じエージ"
+    },
+    "e47035870c59e90bb72ba79032072d3f": {
+      "score": 47,
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルが2026年10月2日に、Copilot Chatやインライン編集、エージェントモード、コード補完を含む全体で廃止されるため、開発者の利用モデルや品質、互換性、運用に影響します。ただし、これは既存サービスのモデル入れ替えに関する告知であり、技術的なブレークスルーやアーキテクチャの革新ではありません。また、直近に"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 44,
+      "title": "April 27, 2026",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新版適用にとどまり、新機能やアーキテクチャ変更、性能向上、具体的なAIエージェント機能の追加は示されていません。開発環境の保守性やセキュリティ面では一定の実務価値があるものの、技術的な新規性と影響範囲は限定的なため、低めの"
+    },
+    "7abf176a09baa8dabf23095295d475e4": {
+      "score": 69,
+      "title": "Tesla is asking people if they want to buy and run Cybercab fleets",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] Teslaが自動運転タクシー「Cybercab」の複数台導入希望者を募る動きであり、個人向け車両販売ではなく、ロボタクシー運用を前提としたフリート事業の具体化を示しています。自動運転ソフトウェア、遠隔監視、配車システム、フリート管理など、エンジニアリング上の実装範囲が広く、モビリティ業界への影響も大きいです。一方で、現時点では購入希望の情報収集にとど"
+    },
+    "a72b973654233fd671d7e22383a6f14b": {
+      "score": 27,
+      "title": "Pangram's biggest flaw is users turning its scores into public shaming",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] AI検出ツールの判定精度と、それを根拠にしたSNS上の公開羞恥・誤認の問題を扱う記事で、技術的な新規性やアーキテクチャの進展は限定的です。一方で、検出スコアが「AIを使ったか」と「本人に思考や貢献がないか」を区別できないという、評価指標の設計・運用上の重要な論点はあります。既出キーワードであるAIに関連する話題で、明確な新技術の続報でもないため、重複"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 47,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] AIを使ってゲーム的なインタラクティブ作品を容易に生成できる点は開発体験として興味深い一方、記事の主題はMetaプラットフォーム外への共有制限と囲い込みです。汎用的なAI技術のブレークスルーや開発基盤の大幅な進化ではなく、影響範囲もMetaの実験的サービスに限定されます。既出のAI関連トピックと重なるため減点しました。 [Editorial: AI-"
+    },
+    "28f1e2bb4d7baf269f0b9782d4a27bfc": {
+      "score": 43,
+      "title": "Nobody Is Saying Why OpenAI and Anthropic Had Outages Today",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] ChatGPT、Claude、Grokという主要AIサービスがほぼ同時に停止した点は、共通インフラ、クラウド依存、認証基盤、ネットワーク障害などの連鎖障害を考えるうえでエンジニアリング上の重要性があります。一方で、原因や技術的な詳細が不明で、現時点では具体的なアーキテクチャ上の教訓や新規技術の発表に乏しいため、評価は中程度に留めます。AIおよびCha"
+    },
+    "40fca136c5793d21bfa2ce70667e14bd": {
+      "score": 33,
+      "title": "The Download: rethinking child safety and fossil-fueled farming",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] 子どものメッセージや写真を監視するアプリの再設計という論点は、プライバシー、誤検知、親子間の信頼、AIによるコンテンツ判定などエンジニアリング上の課題を含みますが、具体的な新技術や製品発表ではなく、社会的・運用的な問題提起が中心です。化石燃料依存の農業に関する話題も技術業界への直接的な影響は限定的で、先端技術ニュースとしての重要度は低めです。"
+    },
+    "7fc39da7ce4957b9059fe093a2983b38": {
+      "score": 40,
+      "title": "Apple Headhunter on Ternus Era: Best AI Talent Will Win",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] AppleのCEO後継やJohn Ternus体制がソフトウェア・AI人材を重視する可能性を示す点は、同社の技術戦略や採用方針を考えるうえで意味があります。ただし、具体的な製品、モデル、研究成果、組織変更が発表されたニュースではなく、専門家による見解が中心です。また、既報のAI人材・AI戦略関連の話題と重なるため減点し、技術革新そのものとしての重要度"
+    },
+    "fbce605af4339d56a3f1c99aeadfd05f": {
+      "score": 36,
+      "title": "Coinbase Adds Former xAI CFO Anthony Armstrong to Board",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] xAI出身の元CFOがCoinbaseの取締役に加わる人事であり、暗号資産企業と先端AI企業の経営人材の接点を示す点は注目されます。一方、技術革新や新しいプロダクト、アーキテクチャの発表ではなく、エンジニアリングへの直接的な影響も限定的です。AI関連ではあるものの、既出キーワードのAIと近い話題で、明確な技術的続報ではないため減点し、中低位の評価とし"
+    },
+    "a6e766a3ea795e4d14432033da4d52b7": {
+      "score": 54,
+      "title": "Kaggle Pokémon TCG AI Battle Challenge ポケカコンペ振り返りーメダルなし",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] Kaggle上でポケモンカードゲームの対戦シミュレーションAIに取り組んだ実践的な技術記事で、ゲーム環境のモデリング、探索・評価戦略、機械学習や最適化の工夫を知る材料としてエンジニアには有益です。一方で、特定のコンペ参加記録であり、基盤技術や業界全体を変える新規性・影響範囲は限定的です。AI関連ではあるものの、既出のAI一般・LLM系トピックとは異な"
+    },
+    "506ec4702d33378b7dd6bad25c108b75": {
+      "score": 84,
+      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] フロンティアLLMが評価時だけ異なる振る舞いを示す「評価認識」を測定するベンチマークであり、AI安全性評価の信頼性に直接関わる重要な研究です。Inspect互換の評価に適用できるオープンなパイプラインという実装面の具体性もあり、既存のモデル評価手法や運用設計に影響を与える可能性があります。一方で、現時点ではarXiv上のベンチマーク提案であり、実運用"
+    },
+    "1bf2cbc23ff8d6ea895f1fba0d007a87": {
+      "score": 86,
+      "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] LLMを単なる候補生成器ではなく、評価前に探索結果を予測するワールドモデル兼最適化エージェントとして活用する研究であり、ブラックボックス最適化のサンプル効率を改善し得る点が非常に興味深い。高次元・弱構造の探索問題に対して、予測してから行動する設計は、機械学習による実験計画、ハイパーパラメータ最適化、システムチューニングなどへの応用可能性がある。一方で"
+    },
+    "a82694dfb7de0d0f51227f877b7c52fb": {
+      "score": 72,
+      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] RAGのマルチホップ推論における検索・推論ステップ単位の誤り伝播を対象に、最終回答だけでなく中間過程を最適化する手法は、LLMアプリケーションの信頼性と評価設計に直結する重要な研究です。特にstep-level process rewardによって、検索失敗や中間推論の問題を検出・改善できる点は、エンタープライズRAGやエージェント型システムへの応用"
+    },
+    "6ff6f1edf6cff3da4e89af7975a961d1": {
+      "score": 53,
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] GPT-6 Astraという新世代LLMの実運用例であり、41文書を数分でレビューし、埋め込まれた4件の誤りをすべて検出、性能を約40%改善した点は、エンタープライズ業務への影響が大きいです。一方で、記事は単一の金融レビュー workflow における結果に限られ、比較条件や再現性、モデルの技術的詳細が不明です。また、直近に取り上げ済みの「model"
+    },
+    "0547e9115035d8e54ec0616ae210bd3c": {
+      "score": 44,
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを使ったゲームプロトタイピングの自動化と、手動修正を50%削減したという具体的な効果は、生成AIを開発ワークフローへ組み込む事例として有用です。一方で、対象はPlaycoのゲーム試作という比較的限定された領域で、汎用的なアーキテクチャ変更や業界全体を揺るがす技術革新とは言いにくいです。また、既に扱われたAI・モデル系トピックと同"
+    },
+    "c3b19cfafa2c21d95307b3a37711af26": {
+      "score": 47,
+      "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] OutlookとAmazon Quickを連携し、メール処理・予定調整・ワークフローを自動化する実装例であり、企業の業務効率化には有用です。チャットエージェント、Flows、Automateを組み合わせた具体的な導入手順も技術的価値があります。一方で、既存サービス同士の統合・活用方法が中心で、基盤技術やアーキテクチャを大きく変える発表ではありません。"
+    },
+    "8c805138cd2ae6d77a1f5221f95f043c": {
+      "score": 47,
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] AI開発で使われ始めた「ループ」「ハーネス」「スクワッド」「ヒルクライミング」などの用語を整理する解説記事で、開発者の共通理解や設計議論には役立ちます。ただし、具体的な製品発表や新規アーキテクチャ、性能向上を示すニュースではなく、技術トレンドの紹介が中心です。また、既に取り上げ済みのAI関連テーマと同じ領域のため、重複分として減点しました。 [Edi"
+    },
+    "daebd77086f83dc497f559ee772b53cc": {
+      "score": 51,
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] Googleの最新FlashモデルがGitHub Copilotで利用可能になり、複雑なターミナルベースのコーディング性能を示した点は、AIコーディング支援の選択肢と開発者体験に影響するため技術的重要度は高めです。一方で、既存のLLMをCopilotへ統合する提供拡大であり、業界の前提を変えるほどの発表ではありません。また、直近に取り上げ済みの「ai"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 34,
+      "title": "May 11, 2026",
+      "date": "2026-09-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12環境に上流依存パッケージの最新版を適用した定期的なリリースにとどまります。新機能、アーキテクチャ変更、性能向上、AIエージェント機能の具体的な進展は示されておらず、技術的な新規性や影響範囲は限定的です。運用・保守上は有用ですが、ニュースとしての重要度は低めで"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-04/blog.md",
+    "show_notes_path": "out/2026-09-04/show_notes.md",
+    "script_path": "out/2026-09-04/script_2hosts.md",
+    "audio_path": "out/2026-09-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24241,
+        "output_tokens": 10676,
+        "cost_usd": 0.017659
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43577,
+        "output_tokens": 7587,
+        "cost_usd": 0.244536
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4317,
+        "cost_usd": 0.051803999999999996
+      }
+    ],
+    "total_cost_usd": 0.313999
+  }
+}

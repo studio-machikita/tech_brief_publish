@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 26.99,
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders"
+  },
+  {
+    "start_sec": 147.5,
+    "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+    "url": "https://arxiv.org/abs/2609.01608"
+  },
+  {
+    "start_sec": 293.73,
+    "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
+    "url": "https://arxiv.org/abs/2609.01611"
+  },
+  {
+    "start_sec": 417.52,
+    "title": "Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.",
+    "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+  },
+  {
+    "start_sec": 551.39,
+    "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
+    "url": "https://arxiv.org/abs/2609.01658"
+  },
+  {
+    "start_sec": 674.77,
+    "title": "Tesla is asking people if they want to buy and run Cybercab fleets",
+    "url": "https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/"
+  },
+  {
+    "start_sec": 762.28,
+    "title": "エンディング",
+    "url": null
+  }
+]
