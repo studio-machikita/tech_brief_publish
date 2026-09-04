@@ -25,7 +25,7 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
-      <title>#157 最前線の守り手に光を:必須サービス保護に10億ドル ほか</title>
+      <title>#157 【独占】Nscale、Anthropic受注後の契約収益が1000億ドル超えと発表 ほか</title>
       <description>Tech News Radio Show Notes - #157 (2026-09-04)
 
 エピソード情報
@@ -38,23 +38,23 @@
 
 出典リンク一覧
 本日のトップニュース
+• Exclusive: Nscale Touts $100 Billion-Plus in Contracted Revenue After Anthropic Win (https://www.theinformation.com/briefings/exclusive-nscale-touts-100-billion-plus-contracted-revenue-anthropic-win)
 • Daybreak for Frontline Defenders: $1B to protect essential services (https://openai.com/index/daybreak-for-frontline-defenders)
-• WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling (https://arxiv.org/abs/2609.01608)
-• EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models (https://arxiv.org/abs/2609.01611)
+• PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation (https://arxiv.org/abs/2609.01658)
 
 注目の深掘り
-• Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out. (https://armature.tech/blog/which-tools-coding-agents-install)
-• Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out. (https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor)
+• EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models (https://arxiv.org/abs/2609.01611)
 
 小ネタ・その他
-• PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation (https://arxiv.org/abs/2609.01658)
-• Tesla is asking people if they want to buy and run Cybercab fleets (https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/)</description>
-      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-04/episode_audio.mp3" length="12753837" type="audio/mpeg" />
+• Gemini 3.8 Flash is now available in GitHub Copilot (https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot)
+• AI-driven development lifecycle using Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/)
+• AI-driven development lifecycle using Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-04/episode_audio.mp3" length="12511149" type="audio/mpeg" />
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">Studio Machikita-2026-09-04</guid>
-      <itunes:duration>13:17</itunes:duration>
+      <itunes:duration>13:01</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:title>最前線の守り手に光を:必須サービス保護に10億ドル ほか</itunes:title>
+      <itunes:title>【独占】Nscale、Anthropic受注後の契約収益が1000億ドル超えと発表 ほか</itunes:title>
       <itunes:episode>157</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:summary>Tech News Radio Show Notes - #157 (2026-09-04)
@@ -69,27 +69,27 @@
 
 出典リンク一覧
 本日のトップニュース
+• Exclusive: Nscale Touts $100 Billion-Plus in Contracted Revenue After Anthropic Win (https://www.theinformation.com/briefings/exclusive-nscale-touts-100-billion-plus-contracted-revenue-anthropic-win)
 • Daybreak for Frontline Defenders: $1B to protect essential services (https://openai.com/index/daybreak-for-frontline-defenders)
-• WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling (https://arxiv.org/abs/2609.01608)
-• EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models (https://arxiv.org/abs/2609.01611)
+• PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation (https://arxiv.org/abs/2609.01658)
 
 注目の深掘り
-• Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out. (https://armature.tech/blog/which-tools-coding-agents-install)
-• Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out. (https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor)
+• EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models (https://arxiv.org/abs/2609.01611)
 
 小ネタ・その他
-• PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation (https://arxiv.org/abs/2609.01658)
-• Tesla is asking people if they want to buy and run Cybercab fleets (https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/)</itunes:summary>
+• Gemini 3.8 Flash is now available in GitHub Copilot (https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot)
+• AI-driven development lifecycle using Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/)
+• AI-driven development lifecycle using Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/)</itunes:summary>
       <link>https://technewsradio.tokyo/episodes/2026-09-04/index.html</link>
       <psc:chapters version="1.2">
         <psc:chapter start="00:00:00.000" title="オープニング" />
-        <psc:chapter start="00:00:26.990" title="Daybreak for Frontline Defenders: $1B to protect essential services" href="https://openai.com/index/daybreak-for-frontline-defenders" />
-        <psc:chapter start="00:02:27.500" title="WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling" href="https://arxiv.org/abs/2609.01608" />
-        <psc:chapter start="00:04:53.730" title="EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models" href="https://arxiv.org/abs/2609.01611" />
-        <psc:chapter start="00:06:57.520" title="Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out." href="https://armature.tech/blog/which-tools-coding-agents-install" />
-        <psc:chapter start="00:09:11.390" title="PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation" href="https://arxiv.org/abs/2609.01658" />
-        <psc:chapter start="00:11:14.770" title="Tesla is asking people if they want to buy and run Cybercab fleets" href="https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/" />
-        <psc:chapter start="00:12:42.280" title="エンディング" />
+        <psc:chapter start="00:00:27.890" title="Exclusive: Nscale Touts $100 Billion-Plus in Contracted Revenue After Anthropic Win" href="https://www.theinformation.com/briefings/exclusive-nscale-touts-100-billion-plus-contracted-revenue-anthropic-win" />
+        <psc:chapter start="00:02:27.270" title="Daybreak for Frontline Defenders: $1B to protect essential services" href="https://openai.com/index/daybreak-for-frontline-defenders" />
+        <psc:chapter start="00:04:05.970" title="PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation" href="https://arxiv.org/abs/2609.01658" />
+        <psc:chapter start="00:06:16.070" title="EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models" href="https://arxiv.org/abs/2609.01611" />
+        <psc:chapter start="00:08:13.220" title="Gemini 3.8 Flash is now available in GitHub Copilot" href="https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot" />
+        <psc:chapter start="00:10:26.440" title="AI-driven development lifecycle using Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:12:29.080" title="エンディング" />
       </psc:chapters>
     </item>
     <item>

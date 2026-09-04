@@ -10,14 +10,14 @@
 
 ## 出典リンク一覧
 ### 本日のトップニュース
+- [Exclusive: Nscale Touts $100 Billion-Plus in Contracted Revenue After Anthropic Win](https://www.theinformation.com/briefings/exclusive-nscale-touts-100-billion-plus-contracted-revenue-anthropic-win)
 - [Daybreak for Frontline Defenders: $1B to protect essential services](https://openai.com/index/daybreak-for-frontline-defenders)
-- [WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling](https://arxiv.org/abs/2609.01608)
-- [EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models](https://arxiv.org/abs/2609.01611)
+- [PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation](https://arxiv.org/abs/2609.01658)
 
 ### 注目の深掘り
-- [Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.](https://armature.tech/blog/which-tools-coding-agents-install)
-- [Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.](https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor)
+- [EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models](https://arxiv.org/abs/2609.01611)
 
 ### 小ネタ・その他
-- [PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation](https://arxiv.org/abs/2609.01658)
-- [Tesla is asking people if they want to buy and run Cybercab fleets](https://techcrunch.com/2026/09/03/tesla-is-asking-people-if-they-want-to-buy-and-run-cybercab-fleets/)
+- [Gemini 3.8 Flash is now available in GitHub Copilot](https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot)
+- [AI-driven development lifecycle using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/)
+- [AI-driven development lifecycle using Amazon Bedrock AgentCore](https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/)
