@@ -25,6 +25,82 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#158 GPT-6 Astra - APIの料金と提供事業者 ほか</title>
+      <description>Tech News Radio Show Notes - #158 (2026-09-05)
+
+エピソード情報
+• エピソード: #158
+• 日付: 2026-09-05
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• GPT-6 Astra - API Pricing &amp;amp; Providers (https://openrouter.ai/openai/gpt-6-astra)
+• GPT-6 Astra - API Pricing &amp;amp; Providers (https://openai.com/index/safety-overview-gpt-6-astra)
+• GPT-6 Astra - API Pricing &amp;amp; Providers (https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/)
+• The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors (https://arxiv.org/abs/2609.02959)
+• Project HydraFusion: Frontier quality via multi-model orchestration (https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/)
+
+注目の深掘り
+• GPT-6 Astra is generally available in GitHub Copilot (https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot)
+• GPT-6 Astra is generally available in GitHub Copilot (https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli)
+
+小ネタ・その他
+• Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/)
+• Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/)
+• AI compute provider Nscale is looking for $3.5B in pre-IPO financing (https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/)
+• AI compute provider Nscale is looking for $3.5B in pre-IPO financing (https://www.bloomberg.com/news/articles/2026-09-04/ai-cloud-firm-nscale-seeking-3-5-billion-in-pre-ipo-financing)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-05/episode_audio.mp3" length="13403565" type="audio/mpeg" />
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-05</guid>
+      <itunes:duration>13:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>GPT-6 Astra - APIの料金と提供事業者 ほか</itunes:title>
+      <itunes:episode>158</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #158 (2026-09-05)
+
+エピソード情報
+• エピソード: #158
+• 日付: 2026-09-05
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• GPT-6 Astra - API Pricing &amp;amp; Providers (https://openrouter.ai/openai/gpt-6-astra)
+• GPT-6 Astra - API Pricing &amp;amp; Providers (https://openai.com/index/safety-overview-gpt-6-astra)
+• GPT-6 Astra - API Pricing &amp;amp; Providers (https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/)
+• The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors (https://arxiv.org/abs/2609.02959)
+• Project HydraFusion: Frontier quality via multi-model orchestration (https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/)
+
+注目の深掘り
+• GPT-6 Astra is generally available in GitHub Copilot (https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot)
+• GPT-6 Astra is generally available in GitHub Copilot (https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli)
+
+小ネタ・その他
+• Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/)
+• Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/)
+• AI compute provider Nscale is looking for $3.5B in pre-IPO financing (https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/)
+• AI compute provider Nscale is looking for $3.5B in pre-IPO financing (https://www.bloomberg.com/news/articles/2026-09-04/ai-cloud-firm-nscale-seeking-3-5-billion-in-pre-ipo-financing)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-05/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.690" title="GPT-6 Astra - API Pricing &amp;amp; Providers" href="https://openrouter.ai/openai/gpt-6-astra" />
+        <psc:chapter start="00:02:41.040" title="The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors" href="https://arxiv.org/abs/2609.02959" />
+        <psc:chapter start="00:04:57.960" title="Project HydraFusion: Frontier quality via multi-model orchestration" href="https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/" />
+        <psc:chapter start="00:06:59.420" title="GPT-6 Astra is generally available in GitHub Copilot" href="https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot" />
+        <psc:chapter start="00:08:51.290" title="Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:11:12.460" title="AI compute provider Nscale is looking for $3.5B in pre-IPO financing" href="https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/" />
+        <psc:chapter start="00:13:21.560" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#157 【独占】Nscale、Anthropicとの契約獲得で受注残高1000億ドル超えをアピール ほか</title>
       <description>Tech News Radio Show Notes - #157 (2026-09-04)
 

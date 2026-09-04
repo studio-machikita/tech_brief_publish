@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.69,
+    "title": "GPT-6 Astra - API Pricing &amp; Providers",
+    "url": "https://openrouter.ai/openai/gpt-6-astra"
+  },
+  {
+    "start_sec": 161.04,
+    "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
+    "url": "https://arxiv.org/abs/2609.02959"
+  },
+  {
+    "start_sec": 297.96,
+    "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+    "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
+  },
+  {
+    "start_sec": 419.42,
+    "title": "GPT-6 Astra is generally available in GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot"
+  },
+  {
+    "start_sec": 531.29,
+    "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 672.46,
+    "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+    "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/"
+  },
+  {
+    "start_sec": 801.56,
+    "title": "エンディング",
+    "url": null
+  }
+]

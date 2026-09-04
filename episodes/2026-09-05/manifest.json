@@ -1,0 +1,379 @@
+{
+  "date": "2026-09-05",
+  "episode_date_local": "2026-09-05",
+  "content_snapshot_date": "2026-09-05",
+  "show_length_sec": 837,
+  "audio_size": 13403565,
+  "generated_at": "2026-09-04T22:26:21.513240+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-7a2d18e1",
+      "title": "GPT-6 Astra - API Pricing &amp; Providers",
+      "title_ja": "GPT-6 Astra - APIの料金と提供事業者",
+      "one_liner": "GPT-6 Astra登場、サイバーセキュリティ能力が最高水準に",
+      "fingerprint": "7a2d18e11b2218b958389282351d549c",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-3d01471e",
+      "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
+      "title_ja": "無知の幾何学:LLMはベイズ事前分布を抑制すべきタイミングを知っている",
+      "one_liner": "LLMは自信がない時、埋め込み構造に頼っている",
+      "fingerprint": "3d01471e2f9266f4f90fd24dda08161a",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-706611b0",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "title_ja": "プロジェクトHydraFusion:マルチモデルオーケストレーションによるフロンティア品質の実現",
+      "one_liner": "GitHub、複数AIモデル連携でOpus 5並みの性能を実現",
+      "fingerprint": "706611b0c855cc3b18972a06d69344b1",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-eb294ec6",
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "title_ja": "GitHub Copilotで「GPT-6 Astra」が一般提供開始",
+      "one_liner": "GPT-6 AstraがGitHub Copilotで一般提供開始",
+      "fingerprint": "eb294ec64977cc16b09cdf764aff771a",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-013606b8",
+      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreでマルチモーダルなWhatsApp注文アシスタントを構築する",
+      "one_liner": "WhatsAppで文字・音声・通話注文を1つのAIが対応",
+      "fingerprint": "013606b882c6cf5d9751263e41c9ba93",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-30ab6ebe",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "title_ja": "AI計算資源プロバイダーのNscale、上場前資金調達で35億ドル調達を検討",
+      "one_liner": "AI計算基盤のNscale、IPO前に35億ドル調達へ",
+      "fingerprint": "30ab6ebea8b872e9d0a9df538c6d77c9",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch",
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-56fe7145",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Designing lifecycle policies for AgentCore memory"
+    },
+    {
+      "item_id": "item-0547e911",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-74227c82",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-3a8c02c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents"
+    },
+    {
+      "item_id": "item-864b62e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 31"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-9f9e0769",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once"
+    },
+    {
+      "item_id": "item-8b001cd3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Architecting memory and storage in the AI era"
+    },
+    {
+      "item_id": "item-c23d9d1c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-a0532154",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving our alignment and security efforts"
+    },
+    {
+      "item_id": "item-3c0bed0b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AIでチーム感が薄れたSREチームで始めた、AIによる週次チーム評価"
+    },
+    {
+      "item_id": "item-f3752ec1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Actively exploited sandbox RCE in all Chromium versions"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-dcc81fa2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now"
+    },
+    {
+      "item_id": "item-539769cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ayako Yoshioka Discusses Tech’s Impact on Inflation and Prices"
+    },
+    {
+      "item_id": "item-345926c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools"
+    },
+    {
+      "item_id": "item-c46292ee",
+      "reason": "[Duplicate] 「GPT-6 Astra - API Pricing &amp; Providers」と同じ出来事のため除外",
+      "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections"
+    }
+  ],
+  "score_cache": {
+    "f3752ec1cb5790209f56b258e5fb1595": {
+      "score": 35,
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] Chromium全バージョンに影響し、サンドボックス脱出を伴うRCEが実際に悪用されている点は、ブラウザ、Electron、Chromiumベース製品の運用に広範な影響を与える重大なセキュリティニュースです。一方で、技術革新や新しいアーキテクチャの発表ではなく、脆弱性対応・パッチ適用が中心の内容であるため、評価基準上は低評価帯に分類します。"
+    },
+    "0547e9115035d8e54ec0616ae210bd3c": {
+      "score": 49,
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを使い、同一のグレーボックス基盤から複数のゲーム試作を生成し、手作業による修正を50%削減した点は、LLMの実用的な開発効率化として興味深いです。一方で、ゲームプロトタイピングという限定的な事例であり、業界全体の前提を変える規模の技術革新かは不明です。また、AIモデルの性能向上・最適化という直近取り上げ済みの話題と重なるため、減"
+    },
+    "a053215453edd07eb5390bf1ae1e19dd": {
+      "score": 38,
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-09-02",
+      "reason": "[ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [Claude API Evaluation] AIのアライメントやセキュリティに関する取り組みは重要ですが、タイトル以外の具体的な技術内容や新規性、影響範囲が示されていません。安全性・運用方針に近いテーマで、評価基準上は規制やセキュリティ関連の低評価帯に"
+    },
+    "013606b882c6cf5d9751263e41c9ba93": {
+      "score": 58,
+      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] テキスト、音声メモ、リアルタイム音声通話を単一のWhatsApp番号で統合し、チャネル層と注文処理層を分離しつつ共有メモリで顧客を横断認識する点は、マルチモーダルエージェントの実装例として具体性と実用性があります。一方で、基盤技術の画期的な発明というより、Amazon Bedrock AgentCoreやNova 2を組み合わせたデプロイ手法の紹介に"
+    },
+    "706611b0c855cc3b18972a06d69344b1": {
+      "score": 66,
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] 複数モデルを選択的に組み合わせるオーケストレーションで、単一の高性能モデルに近いコーディング品質を低コストで実現する点は、AI開発環境のアーキテクチャとして注目度が高い。GitHub Copilotで研究プレビューとして提供され、実運用への展開可能性もある。一方、評価は限定的なオフライン実験であり、対象モデルやワークフローの詳細、実際のコスト削減幅が"
+    },
+    "864b62e5bc9fa3fe8848d24a992448f7": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 31",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GitHub CopilotとVS Codeにおけるモデル選択肢の拡大、エージェントセッション管理、プルリクエストのマージ準備支援は、開発者体験やAIコーディング運用に一定の実務的インパクトがあります。一方で、週次リリースの告知であり、業界の前提を変える新技術や大規模なアーキテクチャ変更ではありません。また、既出キーワードの「copilot」「mod"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいインスタンスイメージ公開ですが、内容はDebian 12上の依存パッケージ更新が中心で、機能追加やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agents」と同じ角度に近いため減点しています。運用上の保守リリー"
+    },
+    "30ab6ebea8b872e9d0a9df538c6d77c9": {
+      "score": 52,
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] AI計算基盤プロバイダーによる35億ドル規模のIPO前資金調達は、GPU・データセンター需要やAIインフラ市場の拡大を示す重要な動きです。エンジニア視点でも、モデル性能だけでなく計算資源の調達力が競争優位になる点は注目に値します。一方で、技術仕様や新サービスの発表ではなく、主に大型資金調達とIPO準備に関するニュースです。また、既出のAIおよび大型資"
+    },
+    "c46292ee8d36477554f790d00059ecdd": {
+      "score": 66,
+      "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GPT-6 Astraの幻覚低減と、直接的なプロンプトインジェクションを99.99%防御する性能は、LLMの信頼性・安全性に関わる重要な進展です。一方で、文書などに埋め込まれた隠れたインジェクションには8.5%の確率で突破され、実データを扱う自律エージェントでは依然として実用上のリスクが残ります。AI・モデルの話題は既出キーワードに該当するため減点し"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 47,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] AIを使ってゲームアイデアを実際に動くインタラクティブ作品へ変換できる点は、生成AIによる開発体験として一定の新規性があります。一方で、記事の中心はMetaプラットフォーム内での共有制限や囲い込みであり、技術的なブレークスルーや業界構造を変える発表ではありません。AI関連は直近の既出テーマにも該当するため減点し、プラットフォーム依存と配布性の課題を含"
+    },
+    "345926c29cc390f28a538211886524ce": {
+      "score": 6,
+      "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] 一般消費者向けのセール情報であり、AI・クラウド・ソフトウェア技術・アーキテクチャに関する新規性や業界への技術的影響がありません。エンジニア視点で評価すべき要素がほぼなく、最低評価帯に該当します。"
+    },
+    "8b001cd30a33423cdb0a7b179ad06e23": {
+      "score": 43,
+      "title": "Architecting memory and storage in the AI era",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] AI推論を支えるメモリ・ストレージ設計は、リアルタイム処理、データ帯域、レイテンシ、スケーラビリティに直結する重要なインフラテーマであり、エンジニアにとって技術的な関連性は高い。一方、スニペットからは具体的な新アーキテクチャ、製品発表、性能改善、導入事例などが確認できず、内容は概念的な紹介に留まっている。また、既出キーワードのAIと同じ広いAIインフ"
+    },
+    "539769cd325f7c12e347a7d738c9ffc1": {
+      "score": 22,
+      "title": "Ayako Yoshioka Discusses Tech’s Impact on Inflation and Prices",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] テクノロジーがインフレや価格低下に与えるマクロ経済的影響を論じる内容で、具体的な製品、アーキテクチャ、AI技術、実装上の革新は示されていません。エンジニアにとって直接的な技術的示唆は限定的で、投資・経済分析寄りの一般論です。"
+    },
+    "3c0bed0be2f4fcd8d8d8e1aed63c1742": {
+      "score": 36,
+      "title": "AIでチーム感が薄れたSREチームで始めた、AIによる週次チーム評価",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] SREチームのコミュニケーション設計と、AIを使った週次チーム状態評価という実践例は、開発組織の運営改善という点で一定の技術的価値があります。一方で、現時点では取り組み開始直後で、評価指標の妥当性や生産性・障害対応への効果、AI評価のバイアスなどが十分に検証されていません。AI活用が主題であり、既出キーワードと近い話題でもあるため減点しました。業界の"
+    },
+    "c23d9d1c185ed85cfda36d2082e5a78b": {
+      "score": 43,
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] AIを活用した教育システムとして、知識マッピング、学習者プロファイリング、タスク生成、フィードバック制御などを統合する5層アーキテクチャは技術的に興味深いです。一方で、対象は英語教材という限定的な応用領域であり、arXiv上の研究提案段階にとどまるため、業界全体への影響や実運用での有効性はまだ不明です。AI関連の既出テーマと近いものの、教育向けの具体"
+    },
+    "3d01471e2f9266f4f90fd24dda08161a": {
+      "score": 72,
+      "title": "The Geometry of Ignorance: LLMs Know When to Temper Bayesian Priors",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] LLMの不確実性処理を、出力層（unembedding）の幾何構造と学習コーパスの頻度分布から説明する新しい解釈可能性研究であり、Llama・Qwen・Gemmaなど複数系列で共通構造を検証している点は技術的に興味深いです。モデルが情報不足時にどのような事前分布へ回帰するかを可視化でき、信頼度評価や幻覚分析、モデル内部表現の研究に波及する可能性があり"
+    },
+    "3a8c02c430b95a131aaa65b56d94b31f": {
+      "score": 48,
+      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] 凍結済みLLMそのものではなく、プロンプトや制御ヒューリスティクスなどのエージェント・ハーネスを分解して進化させ、最適化効果の所在や予算配分の問題を分析する研究であり、エージェント開発の実装・評価手法として新規性があります。一方、arXivの初期論文で、現時点では業界標準や実運用を変えるほどの実証・普及度は確認できません。また、既放送の「AI」「LL"
+    },
+    "7a2d18e11b2218b958389282351d549c": {
+      "score": 75,
+      "title": "GPT-6 Astra - API Pricing &amp; Providers",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GPT-6 Astraの公開とAPI価格・提供プロバイダーに関する情報は、LLMの性能、導入コスト、開発者向けエコシステムに直接影響するため重要度が高いです。特に、Preparedness Frameworkでサイバーセキュリティ能力がCriticalレベルに達したという点は、生成AIの安全性評価や利用可能なユースケースを大きく変える可能性があります"
+    },
+    "74227c82e0abb5e4fd3e219a991f3c84": {
+      "score": 49,
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを金融文書レビューに適用し、41件を数分で処理して埋め込まれた4件の誤りを検出、性能を約40%改善した点は、LLMの実務導入例として具体性と技術的な価値があります。一方で、対象文書数が限定的で、評価条件も人工的なベンチマークに近く、業界全体の前提を変えるほどの発表とは言えません。また、AI・モデル関連は直近の既出キーワードと重な"
+    },
+    "56fe71451972d64c88c63d13531c90d9": {
+      "score": 51,
+      "title": "Designing lifecycle policies for AgentCore memory",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] AIエージェントの長期記憶を対象に、陳腐化した情報のスコアリング・統合・削除をAWS Step FunctionsとCDKで実装する具体的なアーキテクチャ記事であり、実運用やコンプライアンス対応に有用です。一方で、基盤技術そのものを大きく変える発表ではなく、既出キーワードのAI・agents・Amazonに直接関連する続報ではない同系統の話題として重"
+    },
+    "9f9e07698e06ef8e59d5dc049d242d21": {
+      "score": 47,
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GitHub Copilot上で複数のエージェントを並列実行する具体的な活用方法であり、開発ワークフローの効率化には有用です。一方で、基盤技術や製品の大規模な新規発表ではなく、初心者向けの実践チュートリアルに近い内容です。また、既出キーワードである「agents」「copilot」「tools」と同じ話題に該当するため、重複分として減点しました。 ["
+    },
+    "eb294ec64977cc16b09cdf764aff771a": {
+      "score": 60,
+      "title": "GPT-6 Astra is generally available in GitHub Copilot",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] GPT-6 AstraのGitHub Copilotでの一般提供は、長期的な自律コーディングやエージェント型開発への実用投入という点で、開発者の生産性やIDE体験に大きな影響を与え得る重要な発表です。一方で、既報のAI・LLM・モデル・エージェント・Copilot・コード関連の話題と直接重複しており、今回のスニペットからは新たな技術仕様や画期的な性能"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 41,
+      "title": "May 11, 2026",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchというエージェント基盤に関する更新ではあるものの、内容はDebian 12イメージへの上流依存パッケージの取り込み בלבדで、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新はありません。運用・保守面では重要ですが、既出キーワードの「agents」と同じ領域に属するため減点し、限定的な影響範"
+    },
+    "dcc81fa24cf64fc468c1e0455ecd7f23": {
+      "score": 26,
+      "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
+      "date": "2026-09-05",
+      "reason": "[Claude API Evaluation] 商標権をめぐる司法判断であり、AI・クラウド・プログラミング言語などの技術革新やアーキテクチャ上の進展は含まれません。Xが「Twitter」名称の使用を一時的に阻止された一方、「Tweet」商標や鳥のロゴは放棄された可能性が高いと判断された点は、SNSサービスのブランド戦略や再ローンチには影響しますが、エンジニアリングへの直接的な影響範囲は限定的です"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-05/blog.md",
+    "show_notes_path": "out/2026-09-05/show_notes.md",
+    "script_path": "out/2026-09-05/script_2hosts.md",
+    "audio_path": "out/2026-09-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24291,
+        "output_tokens": 10743,
+        "cost_usd": 0.01775
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43416,
+        "output_tokens": 8129,
+        "cost_usd": 0.252183
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4507,
+        "cost_usd": 0.05408399999999999
+      }
+    ],
+    "total_cost_usd": 0.324017
+  }
+}
