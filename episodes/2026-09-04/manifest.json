@@ -2,16 +2,16 @@
   "date": "2026-09-04",
   "episode_date_local": "2026-09-04",
   "content_snapshot_date": "2026-09-04",
-  "show_length_sec": 781,
-  "audio_size": 12511149,
-  "generated_at": "2026-09-04T00:50:06.963018+00:00",
+  "show_length_sec": 742,
+  "audio_size": 11881005,
+  "generated_at": "2026-09-04T02:15:13.546736+00:00",
   "is_mock": false,
   "picks": [
     {
       "item_id": "item-db87a0d4",
       "title": "Exclusive: Nscale Touts $100 Billion-Plus in Contracted Revenue After Anthropic Win",
-      "title_ja": "【独占】Nscale、Anthropic受注後の契約収益が1000億ドル超えと発表",
-      "one_liner": "Nscale、Anthropicとの契約で契約総額1030億ドルに",
+      "title_ja": "【独占】Nscale、Anthropicとの契約獲得で受注残高1000億ドル超えをアピール",
+      "one_liner": "Nscale、契約総額1030億ドルを投資家に説明",
       "fingerprint": "db87a0d4a4593803e5204ef62c8d9a08",
       "score": 86,
       "allowed_action": "METADATA_SUMMARY",
@@ -22,40 +22,26 @@
       ]
     },
     {
-      "item_id": "item-549915a2",
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "title_ja": "フロントラインを守るための夜明け:必須サービス保護に10億ドル",
-      "one_liner": "OpenAIが重要インフラ防御に10億ドル支援",
-      "fingerprint": "549915a224b0e0f0d53ae77605217536",
-      "score": 83,
-      "allowed_action": "METADATA_SUMMARY",
-      "risks": [],
-      "decision_reason": "Source allows METADATA_SUMMARY.",
-      "source_names": [
-        "OpenAI News"
-      ]
-    },
-    {
-      "item_id": "item-a82694df",
-      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
-      "title_ja": "PRO-Step:検索拡張生成におけるステップレベルのプロセス報酬最適化",
-      "one_liner": "検索拡張生成の多段階推論をステップ単位で報酬評価",
-      "fingerprint": "a82694dfb7de0d0f51227f877b7c52fb",
-      "score": 72,
+      "item_id": "item-1bf2cbc2",
+      "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+      "title_ja": "WMLLM:予測-実行型ワールドモデリングによる自己進化型最適化エージェント",
+      "one_liner": "世界モデルで最適化を効率化するAIエージェント手法",
+      "fingerprint": "1bf2cbc23ff8d6ea895f1fba0d007a87",
+      "score": 84,
       "allowed_action": "FULLTEXT_SUMMARY",
       "risks": [],
       "decision_reason": "Source allows FULLTEXT_SUMMARY.",
       "source_names": [
-        "arXiv CS.CL"
+        "arXiv CS.LG"
       ]
     },
     {
       "item_id": "item-506ec470",
       "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
       "title_ja": "EvalDetectBench:最先端言語モデルの評価認識能力を測定するベンチマーク",
-      "one_liner": "AIの評価察知能力を測るベンチマーク登場",
+      "one_liner": "AIの「評価されている自覚」を測るベンチマーク登場",
       "fingerprint": "506ec4702d33378b7dd6bad25c108b75",
-      "score": 60,
+      "score": 82,
       "allowed_action": "FULLTEXT_SUMMARY",
       "risks": [],
       "decision_reason": "Source allows FULLTEXT_SUMMARY.",
@@ -64,47 +50,70 @@
       ]
     },
     {
-      "item_id": "item-daebd770",
-      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
-      "title_ja": "GitHub Copilot、Gemini 3.8 Flashに対応",
-      "one_liner": "GitHub CopilotでGemini 3.8 Flashが利用可能に",
-      "fingerprint": "daebd77086f83dc497f559ee772b53cc",
-      "score": 54,
+      "item_id": "item-fc6f97c3",
+      "title": "Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.",
+      "title_ja": "Claude Code、Codex、Cursorはどのツールを選ぶのか?セッション16,893件を分析して検証した",
+      "one_liner": "AIエージェントの修正ツール選択を1.6万セッションで分析",
+      "fingerprint": "fc6f97c38698f1d4d518d46eb193f96d",
+      "score": 77,
       "allowed_action": "METADATA_SUMMARY",
       "risks": [],
       "decision_reason": "Source allows METADATA_SUMMARY.",
       "source_names": [
-        "GitHub Copilot Changelog"
+        "Hacker News Top",
+        "Zenn"
       ]
     },
     {
-      "item_id": "item-97ee2486",
-      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
-      "title_ja": "Amazon Bedrock AgentCoreを活用したAI駆動型開発ライフサイクル",
-      "one_liner": "AI開発の実装例をBedrock AgentCoreで解説",
-      "fingerprint": "97ee24861fa2144ea502781c6e5dc6c4",
-      "score": 49,
+      "item_id": "item-549915a2",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "title_ja": "最前線の防衛者に夜明けを:必須サービス保護に10億ドル",
+      "one_liner": "OpenAIが重要インフラ防御に10億ドル投資",
+      "fingerprint": "549915a224b0e0f0d53ae77605217536",
+      "score": 73,
       "allowed_action": "METADATA_SUMMARY",
-      "risks": [
-        "source_intent_promotional"
-      ],
+      "risks": [],
       "decision_reason": "Source allows METADATA_SUMMARY.",
       "source_names": [
-        "AWS Machine Learning",
-        "AWS Machine Learning"
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-603958ab",
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "title_ja": "Crusoe、評価額300億ドルで30億ドルを調達との報道",
+      "one_liner": "Crusoeが評価額3兆円で3000億円調達へ",
+      "fingerprint": "603958abfadcc08c6ad4802fa97dbfcb",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch",
+        "Bloomberg Technology"
       ]
     }
   ],
   "excluded": [
     {
+      "item_id": "item-daebd770",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-c2f7ef1d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safety overview: GPT-6 Astra"
+    },
+    {
+      "item_id": "item-97ee2486",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore"
+    },
+    {
       "item_id": "item-9f9e0769",
       "reason": "Ranked too low (skip bucket).",
       "title": "GitHub Copilot app for Beginners: Run several agents at once"
-    },
-    {
-      "item_id": "item-c3b19cfa",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "Integrating Outlook with Amazon Quick for AI-powered email automation"
     },
     {
       "item_id": "item-0c79ae5d",
@@ -112,9 +121,9 @@
       "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
     },
     {
-      "item_id": "item-fc6f97c3",
+      "item_id": "item-c3b19cfa",
       "reason": "Ranked too low (skip bucket).",
-      "title": "Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out."
+      "title": "Integrating Outlook with Amazon Quick for AI-powered email automation"
     },
     {
       "item_id": "item-8c805138",
@@ -122,19 +131,14 @@
       "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!"
     },
     {
-      "item_id": "item-e4703587",
+      "item_id": "item-3147b49b",
       "reason": "Ranked too low (skip bucket).",
-      "title": "Upcoming deprecation of selected GitHub Copilot models"
+      "title": "April 27, 2026"
     },
     {
-      "item_id": "item-1bf2cbc2",
+      "item_id": "item-a82694df",
       "reason": "Ranked too low (skip bucket).",
-      "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling"
-    },
-    {
-      "item_id": "item-0547e911",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+      "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation"
     },
     {
       "item_id": "item-33a04578",
@@ -147,14 +151,9 @@
       "title": "Improving our alignment and security efforts"
     },
     {
-      "item_id": "item-3147b49b",
+      "item_id": "item-e4703587",
       "reason": "Ranked too low (skip bucket).",
-      "title": "April 27, 2026"
-    },
-    {
-      "item_id": "item-a72b9736",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "Pangram's biggest flaw is users turning its scores into public shaming"
+      "title": "Upcoming deprecation of selected GitHub Copilot models"
     },
     {
       "item_id": "item-c78bff81",
@@ -162,43 +161,43 @@
       "title": "Ubiquiti UniFi の管理者ページを Microsoft Entra ID からシングルサインオンするための設定メモ"
     },
     {
+      "item_id": "item-17c12d94",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Wikipedia Workers Unionize for the First Time"
+    },
+    {
+      "item_id": "item-a72b9736",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pangram's biggest flaw is users turning its scores into public shaming"
+    },
+    {
       "item_id": "item-40fca136",
       "reason": "Ranked too low (skip bucket).",
       "title": "The Download: rethinking child safety and fossil-fueled farming"
     },
     {
-      "item_id": "item-7ab38f75",
+      "item_id": "item-3682ed05",
       "reason": "Ranked too low (skip bucket).",
-      "title": "Magnetar Founder on AI’s Impact on Investors’ Mindsets"
+      "title": "SoftBank Group Prices ¥1 Trillion Retail Bond at 4.75%"
     },
     {
       "item_id": "item-b14198e9",
       "reason": "Ranked too low (skip bucket).",
       "title": "GLP-1s are being linked to fewer serious infections, including TB"
-    },
-    {
-      "item_id": "item-4d84a28a",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "Oura files to go public"
-    },
-    {
-      "item_id": "item-65db6b61",
-      "reason": "Ranked too low (skip bucket).",
-      "title": "5 Best Video Doorbell Cameras (2026): Subscription-Free, Video, and More"
     }
   ],
   "score_cache": {
     "b14198e9bb1e407833d274db6ab4d484": {
-      "score": 18,
+      "score": 10,
       "title": "GLP-1s are being linked to fewer serious infections, including TB",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] GLP-1薬と結核などの重篤感染症リスク低下の関連を示す医療・疫学分野の話題であり、AI、ソフトウェア、クラウド、プログラミング言語、ロボティクスなどの技術革新には直接つながりません。研究成果としての社会的意義はあるものの、エンジニア視点での影響範囲や実装面の新規性は限定的です。"
+      "reason": "[Claude API Evaluation] GLP-1薬と重篤な感染症の減少との関連を扱う医療・公衆衛生ニュースであり、AIやソフトウェア、クラウド、先端技術の進展には直接つながりません。一般消費者向けガジェットではないため最低評価帯よりはわずかに高くできますが、エンジニアリング上の影響や技術革新性は限定的です。"
     },
     "549915a224b0e0f0d53ae77605217536": {
-      "score": 83,
+      "score": 73,
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] OpenAIが重要インフラ向けにフロンティア級のサイバーAI、訓練、運用支援へ10億ドルを投じる新プログラムであり、AIの実社会導入とサイバーセキュリティの両面で影響が大きい。特に医療、公共サービス、エネルギーなどの防御能力をAIで底上げする可能性がある点は、エンジニアリング上も注目に値する。一方、記事時点では具体的なモデル性能、提供形態、導入実績、"
+      "reason": "[Claude API Evaluation] OpenAIが必須サービス向けに、フロンティア級のサイバーAI、訓練、運用支援へ10億ドルを投じる点は、AIの実社会導入とサイバー防御の強化という意味で影響が大きい。特に医療・公共インフラなどへの展開が進めば、AIを組み込んだ防御運用の標準化を促す可能性がある。一方で、具体的なモデル性能、提供アーキテクチャ、導入実績はまだ不明で、技術革新そのものより"
     },
     "a053215453edd07eb5390bf1ae1e19dd": {
       "score": 38,
@@ -207,130 +206,130 @@
       "reason": "[ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [Claude API Evaluation] AIのアライメントやセキュリティに関する取り組みは重要ですが、タイトル以外の具体的な技術内容や新規性、影響範囲が示されていません。安全性・運用方針に近いテーマで、評価基準上は規制やセキュリティ関連の低評価帯に該当するため、現時点では限定的な重要度と判断しま"
     },
     "97ee24861fa2144ea502781c6e5dc6c4": {
-      "score": 49,
+      "score": 54,
       "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] AIを開発ライフサイクルに組み込み、SQLからER図を生成するツールや、複数エージェントによるコードセキュリティ分析を具体的な実装例として示している点は、開発者にとって実用性が高く、エージェント型開発の適用範囲を理解するうえで有益です。一方で、基盤技術そのものの革新や業界の前提を変える発表ではなく、既存のAI・Amazon Bedrock・マルチエー"
+      "reason": "[Claude API Evaluation] AIを開発ライフサイクルに組み込み、SQLからER図を生成する実装やコードセキュリティ分析を具体的に示している点は、エンジニアにとって実用性が高く、AgentCore・Kiro・Claude Codeを組み合わせた開発アーキテクチャとして注目に値します。一方で、業界の前提を変える新技術の発表というよりは、既存の生成AIを活用したリファレンス実装・導入"
     },
     "9f9e07698e06ef8e59d5dc049d242d21": {
       "score": 49,
       "title": "GitHub Copilot app for Beginners: Run several agents at once",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] GitHub Copilotアプリで複数のエージェントを並列実行する方法を扱っており、開発タスクの分割や自動化、開発者体験の向上につながる実践的な内容です。一方で、業界の前提を変える新技術の発表ではなく、既存のCopilotエージェント機能の入門・活用記事に近い位置付けです。また、直近放送済みの「copilot」「ai」「multi」に関連する話題と"
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで複数のエージェントを並列実行する方法は、開発者のタスク分割や生産性向上に直結する実用的なAI開発ツールの話題です。一方で、記事は初心者向けの利用ガイドであり、新しいモデルや画期的なアーキテクチャの発表ではないため、技術的な新規性と影響範囲は限定的です。また、既出キーワードのCopilot、AI、複数エージェントと同"
     },
     "e47035870c59e90bb72ba79032072d3f": {
-      "score": 46,
+      "score": 35,
       "title": "Upcoming deprecation of selected GitHub Copilot models",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルが全エクスペリエンスで非推奨となるため、開発者の利用モデルや互換性、移行対応に影響する実務的なニュースです。一方で、新モデルの発表や性能向上ではなく、既存機能のライフサイクル管理に関する告知であり、技術革新性は限定的です。また、直近で取り上げ済みの「copilot」関連トピックと同じ角度の続報ではないため、重複"
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが一斉に非推奨となる運用変更で、対象範囲はCopilot Chat、インライン編集、エージェントモード、コード補完など広いものの、技術革新や新機能の発表ではありません。開発者には移行対応や互換性確認が必要ですが、主にOSS・サービス運用ルールに関するニュースです。また、既出キーワードの「copilot」「"
     },
     "3147b49bf794ec9ea6ee7506a9eaa8a0": {
-      "score": 38,
+      "score": 47,
       "title": "April 27, 2026",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Agent Platform Workbenchというエージェント開発基盤に関する更新ではあるものの、内容はDebian 12ベースのインスタンスイメージで上流依存パッケージを更新しただけの保守リリースです。新機能、アーキテクチャ変更、性能向上、互換性改善などの具体的な技術革新や影響範囲が示されておらず、エンジニアにとってのニュース価値は限定的です。"
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新であり、エージェント基盤に関連する点は技術的に一定の relevance があるものの、内容はDebian 12環境への上流依存パッケージ更新に限定されています。新機能、アーキテクチャ変更、性能向上、互換性改善などの具体的な進展がなく、既存利用者向けの保守・運用リリースという性質が強いため"
     },
-    "4d84a28a33a57bbf6778f31c04db274a": {
-      "score": 16,
-      "title": "Oura files to go public",
+    "603958abfadcc08c6ad4802fa97dbfcb": {
+      "score": 72,
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Ouraの上場申請と売上成長は企業・市場動向としては注目されますが、記事内容に技術革新、アーキテクチャ、AI、ロボティクスなどの具体的な新要素はありません。主題が一般消費者向けウェアラブル製品メーカーのIPOであり、エンジニアへの直接的な影響や技術的な新規性は限定的なため、低いスコアとしました。"
+      "reason": "[Claude API Evaluation] AI専用データセンター開発企業Crusoeが30億ドルを調達し、評価額300億ドルに達したという大型資金調達は、AIインフラへの投資規模とデータセンター需要の強さを示す。Jane Streetとの130億ドル契約も具体的な需要の裏付けであり、GPU・電力・データセンター運用などクラウド基盤エンジニアリングへの影響は大きい。一方で、画期的な新技術そのも"
     },
     "a72b973654233fd671d7e22383a6f14b": {
-      "score": 38,
+      "score": 29,
       "title": "Pangram's biggest flaw is users turning its scores into public shaming",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] AI検出ツールの精度限界と、スコアを根拠にしたSNS上の公開糾弾という倫理・運用上の問題を扱う記事です。誤検知や文脈を無視した評価によって、実際には十分な調査や執筆を行った人まで不当に疑われる点は重要ですが、新しい技術革新やアーキテクチャの進展ではなく、AI利用判定の信頼性と reputational risk に関する論点が中心です。そのため、セキ"
+      "reason": "[Claude API Evaluation] AI検出サービスの精度限界と、スコアを根拠にしたソーシャルメディア上の公開糾弾を扱う記事で、技術革新や実装上のブレークスルーではなく、誤判定・評価の misuse・倫理的問題が中心です。AI関連ではあるものの、既出のAIトピックとの重複による減点も考慮し、重要度は低めとしました。 [Editorial: AI-focused source +6; A"
     },
     "0c79ae5dd204719c004707384c175706": {
-      "score": 48,
+      "score": 49,
       "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] AIを使ってゲームやインタラクティブ作品の試作を容易にする点は、開発者体験やプロトタイピングの観点で一定の技術的価値があります。一方で、Metaのプラットフォーム内に成果物が閉じ、外部共有や portability に制約があるという内容が中心で、基盤技術や業界構造を変えるほどの発表ではありません。AI関連の話題は直近の既出キーワードと重なるため減点"
+      "reason": "[Claude API Evaluation] AIを使ってゲームのアイデアを実際に動くインタラクティブ作品へ変換できる点は、生成AIと開発ツールの融合として技術的に注目できます。一方で、記事の主眼はMetaのプラットフォーム支配や外部共有の制約であり、革新的なモデル技術や開発基盤の発表そのものではありません。既出キーワードの「ai」「now」と同じAI関連の話題に該当するため、重複分として減点し"
     },
-    "65db6b61bdf89bca0ff8e58b64739659": {
-      "score": 10,
-      "title": "5 Best Video Doorbell Cameras (2026): Subscription-Free, Video, and More",
+    "17c12d949cd00bbc9c7b22a5c679180b": {
+      "score": 30,
+      "title": "Wikipedia Workers Unionize for the First Time",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] 一般消費者向けのビデオドアベル製品を比較するレビュー記事であり、AI・クラウド・ソフトウェアアーキテクチャなどの技術革新を扱うものではありません。エンジニアリング上の影響範囲や業界への新規性も限定的なため、最低評価帯としました。"
+      "reason": "[Claude API Evaluation] Wikipediaを運営する組織でエンジニアを含む200人超が初めて労働組合に加入する点は、雇用条件や組織運営に影響する重要な動きです。ただし、技術仕様・アーキテクチャ・開発手法の革新ではなく、主に労務・ガバナンス上のニュースであるため、エンジニア向けの技術的重要度は限定的です。"
     },
     "40fca136c5793d21bfa2ce70667e14bd": {
-      "score": 30,
+      "score": 23,
       "title": "The Download: rethinking child safety and fossil-fueled farming",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] 子どものメッセージや写真を監視するアプリの再考は、プライバシー、誤検知、保護者と子どもの信頼関係など、重要な技術・社会課題を扱っています。ただし、具体的な新技術や製品、アーキテクチャの発表ではなく、主にデジタル安全性や運用・倫理面の論点です。エンジニア視点では監視対象データの扱い、オンデバイス処理、アクセス制御などに関心はあるものの、業界の前提を変え"
+      "reason": "[Claude API Evaluation] 子どものデジタル被害や監視アプリのあり方を扱う社会・規制寄りの論点で、技術業界への直接的なアーキテクチャ革新や新製品発表ではありません。コンテンツ監視アプリの再設計、プライバシー、誤検知、保護者と子どもの権利のバランスにはエンジニアリング上の重要性がありますが、記事の主題は技術革新そのものより社会的影響と運用方針です。後半の化石燃料依存農業も技術ニュ"
     },
-    "7ab38f757ea893b8227f0b0c9506283a": {
+    "3682ed0528565fb7c4fe5c0a3b988fad": {
       "score": 23,
-      "title": "Magnetar Founder on AI’s Impact on Investors’ Mindsets",
+      "title": "SoftBank Group Prices ¥1 Trillion Retail Bond at 4.75%",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] AIというキーワードは含むものの、具体的なAI技術、LLM、ソフトウェア、アーキテクチャ、製品発表に関する記事ではなく、投資家の意思決定や不確実性への適応を扱うインタビューです。エンジニアリング上の新規性や実装への影響は限定的です。さらに、AI関連の話題は直近放送済みの対象キーワードに該当し、明確な技術的続報でもないため減点しました。 [Editor"
+      "reason": "[Claude API Evaluation] 1兆円規模の資金調達はSoftBank Groupの投資余力やテクノロジー企業への資本配分に影響し得るものの、記事自体は小売債券の利率と市場環境に関する金融ニュースであり、AI、クラウド、ソフトウェア、ロボティクスなどの技術的な新規性はありません。エンジニア視点での直接的な影響範囲も限定的なため、低めの評価です。"
     },
     "db87a0d4a4593803e5204ef62c8d9a08": {
       "score": 86,
       "title": "Exclusive: Nscale Touts $100 Billion-Plus in Contracted Revenue After Anthropic Win",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Anthropicとの450億ドル規模のコンピューティング契約と、総額1030億ドル超の契約済み売上は、AI向けGPUクラウド（ネオクラウド）の競争環境や大規模モデルの計算資源調達に大きな影響を与える可能性があります。インフラの供給能力、データセンター投資、クラウド事業者の勢力図を左右し得る点で重要です。一方で、現時点では技術仕様や実際の稼働規模では"
+      "reason": "[Claude API Evaluation] Anthropic向け450億ドルの計算資源契約により、Nscaleが総額1030億ドル超の契約収益を確保したという内容で、AIインフラ需要とネオクラウド市場の急拡大を示す重要ニュースです。大規模GPUクラスタの調達・運用、クラウド事業者の競争、AI企業の長期的な計算資源確保に影響し、IPOにもつながる可能性があります。一方で、技術仕様や新しいアーキ"
     },
     "c78bff81fbd32567d9b42904eafd6198": {
-      "score": 36,
+      "score": 32,
       "title": "Ubiquiti UniFi の管理者ページを Microsoft Entra ID からシングルサインオンするための設定メモ",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Ubiquiti UniFiの管理者ページをMicrosoft Entra IDとOIDCでSSO連携できる点は、企業ネットワーク運用における認証統合やアカウント管理の効率化に有用です。一方で、対象は特定製品の管理設定メモであり、技術自体も既存のOIDCおよびSP-Initiated SSOの応用にとどまります。影響範囲や革新性は限定的で、セキュリテ"
+      "reason": "[Claude API Evaluation] Ubiquiti UniFiの管理者ページをMicrosoft Entra IDとOIDCでSSO連携する具体的な設定情報は、企業ネットワークの認証統合や管理者アカウントの運用効率化に役立ちます。ただし、内容は既存技術の設定手順と製品固有の運用メモが中心で、アーキテクチャや技術業界全体を変える新規性は限定的です。対象もUniFi利用者にほぼ限られるた"
     },
     "506ec4702d33378b7dd6bad25c108b75": {
-      "score": 60,
+      "score": 82,
       "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] フロンティア言語モデルが評価中であることを検知し、実運用時と異なる挙動を示す「評価認識」を測定するベンチマークは、AI安全性・評価基盤の信頼性に直結する技術的に重要な発表です。Inspect互換の評価に適用できるオープンなパイプラインであり、既存のモデル評価を横断的に検証できる点も実装・運用面で有用です。一方で、新しいモデルや推論アーキテクチャそのも"
+      "reason": "[Claude API Evaluation] フロンティア言語モデルが評価中であることを認識し、実運用時と異なる振る舞いをする問題を測定する新しいベンチマークであり、AI安全性・評価基盤に直接影響する点で重要です。Inspect互換のオープンなパイプラインとして既存評価へ適用できる具体性もあります。一方で、モデル自体の能力向上や業界構造を一変させる発表ではなく、研究ベンチマーク段階にとどまるため"
     },
     "1bf2cbc23ff8d6ea895f1fba0d007a87": {
-      "score": 45,
+      "score": 84,
       "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] LLMを単なる候補生成器ではなく、評価前に探索方向を予測するワールドモデル兼最適化エージェントとして活用する研究であり、ブラックボックス最適化のサンプル効率改善につながる点は技術的に非常に興味深いです。一方で、arXivの新規研究で実運用への影響や汎用性はまだ検証段階で、業界の前提を変えるほどの具体的成果は確認できません。また、LLM・モデル関連の話"
+      "reason": "[Claude API Evaluation] LLMを単なる候補生成器ではなく、探索結果を予測するワールドモデルと、予測に基づいて行動する最適化エージェントとして活用する研究で、AIエージェントとブラックボックス最適化の接点にある新規性の高い内容です。高次元・評価コストの高い設計探索におけるサンプル効率を改善できれば、機械学習ハイパーパラメータ調整、材料探索、システム設計などへの応用が期待できま"
     },
     "a82694dfb7de0d0f51227f877b7c52fb": {
-      "score": 72,
+      "score": 47,
       "title": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] RAGにおけるマルチホップ推論の誤り伝播を、最終回答だけでなく検索・推論の各ステップ単位で最適化する手法であり、LLMアプリケーションの信頼性と学習効率に直接関係する技術的に重要な研究です。特に、途中の検索失敗を検出・改善できる点は、エージェントや知識集約型システムへの応用余地があります。一方で、現時点ではarXivの新規提案に留まり、実運用での大規"
+      "reason": "[Claude API Evaluation] RAGのマルチホップ推論における検索・推論ステップ単位の誤り伝播を抑え、最終回答だけでなく中間過程を最適化する手法は、LLMアプリケーションの信頼性向上に直結する技術的に有意義な研究です。一方で、現時点ではarXivの新規手法提案であり、実運用での効果や汎用性は未検証です。また、AI・LLMおよび推論最適化は直近放送済みキーワードと重なるため、重複分"
     },
     "fc6f97c38698f1d4d518d46eb193f96d": {
-      "score": 48,
+      "score": 77,
       "title": "Which tools do Claude Code, Codex and Cursor choose? We measured 16,893 sessions to find out.",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Claude Code・Codex・Cursorといった主要なAIコーディングエージェントを対象に、16,893セッションの実測データから利用ツールを分析する点は、開発者向けAIの実利用やツール選定を考えるうえで具体性と技術的価値があります。また、ブラウザ上の指摘をローカルCLI経由でエージェントに反映し、自動リロードで確認する仕組みも、AIエージェ"
+      "reason": "[Claude API Evaluation] Claude Code、Codex、Cursorといった主要なAIコーディングエージェントの利用実態を16,893セッション規模で分析しており、開発者ツール選定やエージェント間の設計差を考えるうえで具体性と実証性があります。さらに、ブラウザ上の指摘をローカルCLI経由でエージェントに渡し、自動リロードまで行うArtifact Shareの実装は、AI"
     },
-    "0547e9115035d8e54ec0616ae210bd3c": {
-      "score": 44,
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "c2f7ef1d9f0beca1ab071f999ff60f13": {
+      "score": 61,
+      "title": "Safety overview: GPT-6 Astra",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] 生成AIをゲーム開発のプロトタイピングに適用し、単一のグレーボックスから複数テーマの試作を展開しつつ手作業の修正を50%削減した点は、開発ワークフローへの具体的な効果があり注目に値します。一方で、対象はゲーム試作という限定的なユースケースで、業界全体の前提を変えるほどの規模や再現性はまだ不明です。また、直近に取り上げ済みのAI・モデル関連トピックと重"
+      "reason": "[Claude API Evaluation] GPT-6 Astraの安全性評価と、サイバーセキュリティ能力でPreparedness Frameworkの最上位に到達した点は、AIモデルの能力限界とリスク評価に関わる重要な続報です。広範なデプロイを前提とした安全設計はエンジニアリング上の影響も大きい一方、記事は新しいアーキテクチャや具体的な技術仕様ではなく、安全性の概要説明が中心です。既出キー"
     },
     "c3b19cfafa2c21d95307b3a37711af26": {
-      "score": 49,
+      "score": 48,
       "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] OutlookとAmazon Quickを接続し、メール管理・予定調整・業務フローをAIエージェントや自動化機能で効率化する実装記事であり、クラウド連携と業務自動化の具体例としては有用です。一方で、業界の前提を変える新技術や基盤モデルの大規模な進展ではなく、既存サービスを組み合わせた導入手順が中心です。また、AI・Amazon・自動化エージェント関連"
+      "reason": "[Claude API Evaluation] Microsoft OutlookとAmazon Quickを接続し、メール管理・予定調整・業務フローを自動化する実装例であり、企業の生産性向上やAIエージェント活用の観点では実用性があります。一方で、基盤技術の革新や新しいモデルの発表ではなく、既存サービスを組み合わせた導入手順・ユースケースが中心です。また、既報キーワードであるAIおよびAmazo"
     },
     "8c805138cd2ae6d77a1f5221f95f043c": {
-      "score": 47,
+      "score": 48,
       "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] AI開発で使われ始めたループ、ハーネス、スクワッド、ヒルクライミング、オープンウェイトなどの用語を整理する解説記事で、開発者の理解を助ける実用性はあります。ただし、新しいモデルやアーキテクチャ、具体的な製品発表ではなく、技術革新そのものの影響範囲は限定的です。既に取り上げ済みの「ai」と同じ話題領域に該当するため、重複分として減点しました。 [Edi"
+      "reason": "[Claude API Evaluation] AI開発で使われ始めた「ループ」「ハーネス」「スクワッド」「ヒルクライミング」「オープンウェイト」などの用語を整理する内容で、開発者の理解や設計議論には有用です。一方、具体的な新技術・製品発表や性能上のブレークスルーではなく、GitHub Podcastによる解説記事にとどまります。また、既出キーワードであるAI領域の一般的な話題と重なるため減点し、"
     },
     "daebd77086f83dc497f559ee772b53cc": {
-      "score": 54,
+      "score": 66,
       "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Googleの最新FlashモデルをGitHub Copilotで利用できるようになり、複雑なターミナル操作を伴うコーディングタスクへの適用可能性を示す点は、AI開発ツールの実用面で注目に値します。一方で、既存のLLMを開発支援サービスへ統合する続報であり、アーキテクチャや開発 workflow の前提を変えるほどの革新性は限定的です。直近に取り上げ"
+      "reason": "[Claude API Evaluation] Googleの最新FlashモデルがGitHub Copilotで利用可能になり、複雑なターミナルベースのコーディング性能が示された点は、開発者向けAIツールの選択肢と実用性を広げる重要なアップデートです。一方で、基盤モデルそのものの革新的発表ではなく、既存のコーディング支援サービスへの統合が中心です。また、AI・モデル・Copilotに関する話題は"
     },
     "33a04578229bf3eef9de4a1fac6c5c5e": {
-      "score": 43,
+      "score": 41,
       "title": "May 11, 2026",
       "date": "2026-09-04",
-      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上で上流依存パッケージを最新版に更新した定期的なリリースにとどまります。開発・運用上の保守性や脆弱性対応には意義があるものの、新しいアーキテクチャ、機能、性能向上、AI技術上の革新など具体的なインパクトは示されておらず、ニュースとしての新規性と影響範囲"
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境に上流依存パッケージを取り込んだ保守的なリリースにとどまります。開発環境の安定性や脆弱性対応には有用な一方、具体的な新機能、アーキテクチャ変更、性能向上、業界への影響は示されておらず、技術ニュースとしての新規性と影響範囲は限定的です。 [Edito"
     }
   },
   "outputs": {
@@ -348,26 +347,26 @@
       {
         "model": "gpt-5.6-luna",
         "calls": 35,
-        "input_tokens": 24177,
-        "output_tokens": 10591,
-        "cost_usd": 0.017545
+        "input_tokens": 23807,
+        "output_tokens": 10588,
+        "cost_usd": 0.017467
       },
       {
         "model": "claude-sonnet-5",
         "calls": 21,
-        "input_tokens": 43483,
-        "output_tokens": 7948,
-        "cost_usd": 0.249669
+        "input_tokens": 43487,
+        "output_tokens": 7468,
+        "cost_usd": 0.242481
       }
     ],
     "tts": null,
     "openai_tts_details": [
       {
         "model": "gpt-4o-mini-tts",
-        "chars": 4242,
-        "cost_usd": 0.050904000000000005
+        "chars": 3918,
+        "cost_usd": 0.047015999999999995
       }
     ],
-    "total_cost_usd": 0.318118
+    "total_cost_usd": 0.306964
   }
 }
