@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 26.8,
+    "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/"
+  },
+  {
+    "start_sec": 136.21,
+    "title": "Private German rocket makes history, reaches orbit from European soil",
+    "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"
+  },
+  {
+    "start_sec": 269.3,
+    "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+    "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/"
+  },
+  {
+    "start_sec": 382.38,
+    "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+    "url": "https://openai.com/index/playco-game-prototyping-with-astra"
+  },
+  {
+    "start_sec": 482.32,
+    "title": "[OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた",
+    "url": "https://zenn.dev/ntk221/articles/34cbb95272720f"
+  },
+  {
+    "start_sec": 633.18,
+    "title": "Architecting memory and storage in the AI era",
+    "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/"
+  },
+  {
+    "start_sec": 755.29,
+    "title": "エンディング",
+    "url": null
+  }
+]

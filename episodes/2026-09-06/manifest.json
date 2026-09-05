@@ -1,0 +1,379 @@
+{
+  "date": "2026-09-06",
+  "episode_date_local": "2026-09-06",
+  "content_snapshot_date": "2026-09-06",
+  "show_length_sec": 791,
+  "audio_size": 12657837,
+  "generated_at": "2026-09-05T21:08:20.851048+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-eda81b87",
+      "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+      "title_ja": "SageMaker HyperPod上でNVIDIA Cosmosを活用し、フィジカルAIモデルファクトリーを構築",
+      "one_liner": "SageMaker HyperPodでPhysical AIの継続学習基盤を構築",
+      "fingerprint": "eda81b875348b08c13fa025dce4917a1",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-f6fb9eaa",
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "title_ja": "ドイツの民間ロケット、欧州本土から史上初の軌道到達",
+      "one_liner": "独ロケット企業がヨーロッパ発で軌道到達を達成",
+      "fingerprint": "f6fb9eaa95dc1d3ee00cccfd227a299b",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-0f946ba4",
+      "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+      "title_ja": "OpenAIがGPT-6 Astraのプロンプト作成のコツを公開、スロップワードのブロックリストも",
+      "one_liner": "OpenAIがGPT-6 Astraのプロンプト指南書を公開",
+      "fingerprint": "0f946ba4305909f3ea8befc7ee21dec2",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0547e911",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "title_ja": "Playco、GPT-6 Astraでゲームをプロトタイピングし手作業修正を50%削減",
+      "one_liner": "PlaycoがGPT-6 Astraで手動修正5割減",
+      "fingerprint": "0547e9115035d8e54ec0616ae210bd3c",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-38029f4f",
+      "title": "[OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた",
+      "title_ja": "[OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた",
+      "one_liner": "Go計装、ctx無しでもspanを紐づける仕組みとは",
+      "fingerprint": "38029f4f950063210b714daddcc966ef",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-8b001cd3",
+      "title": "Architecting memory and storage in the AI era",
+      "title_ja": "AI時代のメモリとストレージの設計",
+      "one_liner": "AI推論時代を支えるメモリとストレージ設計の重要性",
+      "fingerprint": "8b001cd30a33423cdb0a7b179ad06e23",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-66417895",
+      "reason": "LINK_ONLY: Source classified as joke: 「GPT-6 Astra」や「Claude Fable 5.1」といった実在性の低い製品名を前提に、具体的なスコア改訂を報じており、現実の技術ニュースというより架空のニュースとして作られたネタ記事とみられます。",
+      "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism"
+    },
+    {
+      "item_id": "item-74227c82",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-56fe7145",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Designing lifecycle policies for AgentCore memory"
+    },
+    {
+      "item_id": "item-9f9e0769",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once"
+    },
+    {
+      "item_id": "item-864b62e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 31"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-8c805138",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!"
+    },
+    {
+      "item_id": "item-c90819a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation"
+    },
+    {
+      "item_id": "item-b9d611e8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure"
+    },
+    {
+      "item_id": "item-30135903",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: selling battlefield drone data and AI reshaping language"
+    },
+    {
+      "item_id": "item-96b94525",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hikers rescued after using Google Gemini for planning"
+    },
+    {
+      "item_id": "item-e4703587",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models"
+    },
+    {
+      "item_id": "item-a0532154",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving our alignment and security efforts"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-59cdc009",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "4 Best Alexa Speakers I’ve Tested (2026)"
+    },
+    {
+      "item_id": "item-42d49713",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "There May Not Be an iPhone 18 This Year"
+    },
+    {
+      "item_id": "item-9dafdd60",
+      "reason": "[Duplicate] 「Private German rocket makes history, reaches orbit from Euro」と同じ出来事のため除外",
+      "title": "German Startup Isar’s Rocket Lifts Off on European Space Mission"
+    }
+  ],
+  "score_cache": {
+    "f6fb9eaa95dc1d3ee00cccfd227a299b": {
+      "score": 79,
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] 民間ドイツ企業のロケットが欧州域内から軌道到達に成功したことは、欧州の宇宙輸送における民間参入と打ち上げ能力の確立を示す重要な技術成果です。推進系、誘導制御、地上設備、打ち上げ運用を統合して実証した点で、先端スタートアップや新しい宇宙インフラ市場への影響も大きい一方、単独企業の成功であり、業界全体の前提を変えるほどの規模かは不明なため、最高評価には届"
+    },
+    "0547e9115035d8e54ec0616ae210bd3c": {
+      "score": 61,
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] 生成AIを活用したゲーム開発の実例であり、1つのグレーボックスから複数のプロトタイプを生成し、手作業の修正を50%削減したという具体的な効果は、開発ワークフローへの応用可能性を示しています。一方で、GPT-6 AstraやAIモデル関連は直近の既出テーマと重複しており、業界の前提を変えるほどの新規性や広範な導入実績までは確認できません。そのため、AI"
+    },
+    "a053215453edd07eb5390bf1ae1e19dd": {
+      "score": 38,
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-09-02",
+      "reason": "[ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [ScoreCache 2026-09-02] [Claude API Evaluation] AIのアライメントやセキュリティに関する取り組みは重要ですが、タイトル以外の具体的な技術内容や新規性、影響範囲が示されていません。安全性・運用方針に近いテーマで"
+    },
+    "56fe71451972d64c88c63d13531c90d9": {
+      "score": 49,
+      "title": "Designing lifecycle policies for AgentCore memory",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] AIエージェントの長期記憶を対象に、陳腐化した情報のスコアリング、統合、削除をAWS Step FunctionsとCDKで実装する具体的な設計記事です。エージェントの品質劣化やコンプライアンスリスクに直結し、実運用に役立つアーキテクチャ上の価値があります。一方で、基盤技術そのものの革新ではなく、既出キーワードであるAmazonおよびagentsに該"
+    },
+    "9f9e07698e06ef8e59d5dc049d242d21": {
+      "score": 48,
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで複数のエージェントを並列実行する具体的な方法を扱っており、開発ワークフローの効率化やエージェント型開発の実用化という点では一定の価値があります。ただし、基盤技術の新発表ではなく初心者向けの利用ガイドで、影響範囲や技術的な新規性は限定的です。また、既出キーワードのGitHub、Copilot、agents、multi"
+    },
+    "864b62e5bc9fa3fe8848d24a992448f7": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 31",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] VS Codeでのエージェントセッション管理やプルリクエストのマージ準備、モデル選択肢・コンテンツ保護の拡張は開発者体験に影響するものの、週次アップデートの集合記事であり、アーキテクチャを変えるほどの具体的な革新性は限定的です。また、GitHub Copilotは直近の既出キーワードに含まれ、同じ話題の続報として重複減点を適用しました。 [Edito"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12上で依存パッケージを更新した運用・保守レベルの変更にとどまり、機能追加やアーキテクチャ上の革新、開発者体験への明確な改善は示されていません。エージェント関連の話題は既出キーワードにも該当するため、重要度をさらに抑えています。 [Editorial:"
+    },
+    "96b945252de172b7c1865f27a4f641b3": {
+      "score": 41,
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] 生成AIを登山計画に利用した結果、食料・水の不足につながり救助要請に至った事例で、LLMの現実世界における信頼性・安全設計・不確実性の扱いを考える材料としては重要です。一方、技術そのものの革新やアーキテクチャの進展ではなく、単一事例に基づく運用上の問題にとどまります。AI関連の話題は直近放送済みのキーワードと重なるため、重複分を減点しました。 [Ed"
+    },
+    "66417895448095bd39181155a0b3bb89": {
+      "score": 83,
+      "title": "Artificial Analysis overhauls its Intelligence Index after GPT-6 Astra scoring drew skepticism",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] GPT-6 Astraの評価を巡る批判を受け、Artificial Analysisがベンチマーク指標そのものを改訂した続報であり、LLMの性能比較やモデル選定の信頼性に影響します。単なる新モデル発表ではなく、評価設計・ベンチマークの妥当性というエンジニアリング上重要な論点を扱っている点は高評価です。一方で、基盤モデルの新能力やアーキテクチャを直接生"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 47,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] AIを使ってゲームのアイデアを実装できる点は開発体験として興味深いものの、記事の主題はMetaのプラットフォーム依存や外部共有の制約であり、技術的なブレークスルーというよりエコシステムと運用上の問題に近いです。AI関連は既出キーワードに該当し、同じ話題として減点しました。 [Editorial: AI-focused source +6; AI/Sa"
+    },
+    "59cdc0099a342f1a84d3d184bbdd5732": {
+      "score": 10,
+      "title": "4 Best Alexa Speakers I’ve Tested (2026)",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] Alexa対応スマートスピーカーの製品比較記事であり、一般消費者向けガジェットに該当します。新しい技術アーキテクチャ、開発者向け基盤、AIモデルの革新や業界構造を変える発表ではなく、既存製品の選定情報が中心のため、エンジニア視点での重要度は最低水準です。"
+    },
+    "8b001cd30a33423cdb0a7b179ad06e23": {
+      "score": 54,
+      "title": "Architecting memory and storage in the AI era",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] AI推論時代におけるメモリおよびストレージ設計は、リアルタイム推論、データ処理性能、コスト効率を左右する重要なインフラテーマです。特に医療や大規模カスタマーサポートのようなデータ集約型サービスでは、メモリ階層、ストレージ帯域、低遅延アクセスの設計が実運用上のボトルネックになります。一方で、記事スニペットは具体的な製品発表や新アーキテクチャ、ベンチマー"
+    },
+    "9dafdd60e15eed672e2c4d73a872e69e": {
+      "score": 79,
+      "title": "German Startup Isar’s Rocket Lifts Off on European Space Mission",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] ドイツの宇宙スタートアップIsar Aerospaceによるロケット打ち上げは、欧州の民間宇宙産業と商業軌道輸送の自立性に関わる重要な技術ニュースです。ロケット開発・打ち上げ運用・サプライチェーンを民間企業が実用段階へ進めている点で、先端スタートアップとしての新規性と産業インパクトが高く評価できます。一方、AIや基盤ソフトウェアの革新とは異なり、影響"
+    },
+    "38029f4f950063210b714daddcc966ef": {
+      "score": 55,
+      "title": "[OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] GoのOpenTelemetryにおけるコンパイル時自動計装と、context.Contextを明示的に伝搬しなくてもspanの親子関係を維持するGLSの仕組みを扱っており、可観測性基盤やGoのランタイム設計に関心のあるエンジニアには有益です。既存コードへの計装適用範囲を広げられる一方、GLSは通常のGoにおけるcontext伝搬の規約から外れるため"
+    },
+    "c90819a381bb68b9ba766403c48c7768": {
+      "score": 43,
+      "title": "Finite time blowup for an averaged three-dimensional Navier-Stokes equation",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] 3次元Navier–Stokes方程式に関連する有限時間爆発の証明は、流体力学や数理解析の観点では非常に興味深く、PDE研究における重要な進展です。一方で、対象は「平均化された」方程式であり、実際の3次元Navier–Stokes方程式の正則性問題を直接解決したものではありません。そのため、ソフトウェアエンジニアリングやクラウド、AIなどへの即時的な"
+    },
+    "74227c82e0abb5e4fd3e219a991f3c84": {
+      "score": 53,
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを用いて金融レビューの41文書を数分で処理し、埋め込まれた4件の誤りをすべて検出、性能を約40%改善した点は、LLMの実務適用性を示す具体的な事例として技術的価値があります。一方で、既出キーワードのGPT、Astra、AIに直接該当し、同じLLM性能評価・活用の話題であるため減点しました。また、単一ワークフローの結果であり、業界"
+    },
+    "eda81b875348b08c13fa025dce4917a1": {
+      "score": 95,
+      "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] 物理AI向けの合成データ生成、ポストトレーニング、クローズドループ評価を一体化したモデルファクトリーを、NVIDIA Cosmos 3とSageMaker HyperPod、Amazon EKS上で継続運用する具体的な実装例であり、ロボティクス開発の実務への影響が大きい。GPU goodputを指標に据え、永続性・耐障害性を備えた学習基盤として設計し"
+    },
+    "8c805138cd2ae6d77a1f5221f95f043c": {
+      "score": 47,
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] AI開発で使われ始めた「ループ」「ハーネス」「スクワッド」「ヒルクライミング」「オープンウェイト」などの用語を整理する解説記事で、エンジニアの共通理解には役立ちます。ただし、具体的な製品発表やアーキテクチャの革新ではなく、既存概念の紹介が中心です。また、AIおよびGitHubは直近の既出キーワードに該当し、同じ話題領域の解説として20点減点しました。"
+    },
+    "e47035870c59e90bb72ba79032072d3f": {
+      "score": 41,
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルが全利用体験で一斉に非推奨となるため、開発者はモデル選択、出力品質、互換性、運用手順の見直しを迫られる可能性があります。一方で、これは新技術の発表ではなく、既存サービスのライフサイクル管理に関する告知であり、記事スニペットだけでは対象モデルや代替先も不明で具体性が不足しています。また、直近に取り上げ済みのGit"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 27,
+      "title": "May 11, 2026",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージの最新版を適用した定期的なリリースであり、新機能やアーキテクチャ変更、実質的な性能向上は示されていません。運用上の保守性やパッチ適用という意義はあるものの、技術的な新規性と影響範囲は限定的です。また、既出キーワードであるagent関連の同一領域の話題に該当"
+    },
+    "b9d611e8f81d02d0b226e90d8b60ab7c": {
+      "score": 43,
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] AIエージェントが実際のWikiフォーラムを操作したインシデントであり、エージェントの権限管理、監視、人的介入、透明性の設計に関わる実務的な重要性があります。一方で、新技術の発表やアーキテクチャの大幅な進化ではなく、主題はインシデント対応と情報開示の枠組みです。既出の「agents」関連トピックとは重なりますが、今回は具体的な事故の確認と再発防止に向"
+    },
+    "0f946ba4305909f3ea8befc7ee21dec2": {
+      "score": 66,
+      "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] GPT-6 Astra向けの具体的なプロンプト設計や、AI特有の定型表現（slop）の抑制、コードの過剰テストを防ぐ指針は、開発者の実務に直接役立つ内容です。ただし、新モデル自体の発表や性能向上ではなく、既存モデルの活用ノウハウに留まります。また、直近で取り上げ済みのGPT・Astra・AI関連の話題と同じ軸の続報に近いため、重複分を減点しました。 "
+    },
+    "42d4971370690e7837db90514c96cab4": {
+      "score": 2,
+      "title": "There May Not Be an iPhone 18 This Year",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] iPhoneの発売時期に関する消費者向け製品ニュースであり、ソフトウェア技術、アーキテクチャ、AI、クラウドなどへの直接的な影響は限定的です。折りたたみ端末の投入可能性には一定の新規性がありますが、記事の主題はiPhone 18の発売見送りという製品スケジュールで、エンジニア視点での業界インフラや開発技術への波及は小さいため、最低評価帯としました。 "
+    },
+    "30135903948d87e981219a8db4a80c01": {
+      "score": 43,
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "date": "2026-09-06",
+      "reason": "[Claude API Evaluation] ウクライナの戦場ドローン映像・センサーデータが新たな市場を形成している点は、ドローン、データ流通、軍事テクノロジーの交差領域として新規性と実務的な影響があります。一方、記事はニュースレター形式で具体的な製品、技術仕様、企業発表が不明確で、業界の前提を変えるほどの確定的な発表ではありません。また、タイトルに含まれるAIによる言語変革は既出キーワードと同"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-06/blog.md",
+    "show_notes_path": "out/2026-09-06/show_notes.md",
+    "script_path": "out/2026-09-06/script_2hosts.md",
+    "audio_path": "out/2026-09-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24792,
+        "output_tokens": 10826,
+        "cost_usd": 0.01795
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 42797,
+        "output_tokens": 7618,
+        "cost_usd": 0.242661
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4285,
+        "cost_usd": 0.051419999999999993
+      }
+    ],
+    "total_cost_usd": 0.312031
+  }
+}
