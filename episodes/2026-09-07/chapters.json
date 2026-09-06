@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.43,
+    "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+    "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/"
+  },
+  {
+    "start_sec": 138.16,
+    "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+    "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/"
+  },
+  {
+    "start_sec": 251.28,
+    "title": "Research acceleration: The view inside OpenAI",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai"
+  },
+  {
+    "start_sec": 341.36,
+    "title": "The Download: selling battlefield drone data and AI reshaping language",
+    "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/"
+  },
+  {
+    "start_sec": 451.7,
+    "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+    "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/"
+  },
+  {
+    "start_sec": 569.69,
+    "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+    "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/"
+  },
+  {
+    "start_sec": 731.99,
+    "title": "エンディング",
+    "url": null
+  }
+]

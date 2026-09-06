@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-07",
+  "episode_date_local": "2026-09-07",
+  "content_snapshot_date": "2026-09-07",
+  "show_length_sec": 767,
+  "audio_size": 12273837,
+  "generated_at": "2026-09-06T20:45:51.171170+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-201b4201",
+      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+      "title_ja": "SageMaker HyperPodをInstantStartでエージェント駆動運用",
+      "one_liner": "SageMaker HyperPodをAIエージェントで操作する新機能",
+      "fingerprint": "201b4201e2998334e53c51b78c95370b",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-61397861",
+      "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "title_ja": "GoogleのWeatherNext 3、物理シミュレーションを廃止し衛星のライブデータから直接天気を学習",
+      "one_liner": "Google、物理演算不要のAI気象予測モデルを発表",
+      "fingerprint": "6139786156f7e75fc5079aa300c3af79",
+      "score": 87,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-f1672e37",
+      "title": "Research acceleration: The view inside OpenAI",
+      "title_ja": "OpenAI内部から見た研究加速の実態",
+      "one_liner": "OpenAI社内、コーディングエージェントで研究加速",
+      "fingerprint": "f1672e37ab83eaa54e83e76ef36f5c07",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-30135903",
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "title_ja": "「ダウンロード」：戦場ドローンデータの販売とAIが言語を変える",
+      "one_liner": "戦場ドローンデータが新市場を生み出している",
+      "fingerprint": "30135903948d87e981219a8db4a80c01",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review",
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-94551803",
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "title_ja": "トラビス・カラニック氏のAtoms、ロボタクシー事業に参入か",
+      "one_liner": "Kalanick氏のAtoms、ロボタクシー参入か",
+      "fingerprint": "94551803bce38a84b8d232b806dbd2c7",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-98c97bd7",
+      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+      "title_ja": "チャットボットが生んだ「一人だけのエコーチェンバー」、精神医学は「AI精神病」の存在を判断すべき時に",
+      "one_liner": "AIが妄想を増幅、精神医学が新診断名を検討",
+      "fingerprint": "98c97bd7d2a7ec9c8195ef2fd4b73d57",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-56fe7145",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Designing lifecycle policies for AgentCore memory"
+    },
+    {
+      "item_id": "item-0c79ae5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results."
+    },
+    {
+      "item_id": "item-c5336a23",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude Code の Rules が発火しないのは、Claude が Read ツールを使っていないから"
+    },
+    {
+      "item_id": "item-9f9e0769",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once"
+    },
+    {
+      "item_id": "item-864b62e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — August 31"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-8c805138",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-e4703587",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models"
+    },
+    {
+      "item_id": "item-84bde93b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag"
+    },
+    {
+      "item_id": "item-a0532154",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving our alignment and security efforts"
+    },
+    {
+      "item_id": "item-74227c82",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-df1078b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Create Custom Windows 11 Notifications to Remind Yourself of Anything"
+    },
+    {
+      "item_id": "item-886a2153",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The car industry A/B tested selling a car with and without CarPlay and the results are not shocking"
+    },
+    {
+      "item_id": "item-87459e81",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "They&#039;re Made out of Meat"
+    },
+    {
+      "item_id": "item-8a1f4c3f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple’s New CEO-Like Cook Pay Package Shows He’s Going Nowhere; Sept. 9 Event"
+    },
+    {
+      "item_id": "item-0bf16381",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Laptop Backpacks for Work, Travel, and Everything Between (2026)"
+    },
+    {
+      "item_id": "item-8b789ce1",
+      "reason": "[Duplicate] 「The Download: selling battlefield drone data and AI reshapin」と同じ出来事のため除外",
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace"
+    }
+  ],
+  "score_cache": {
+    "87459e81565e0f8ecd3a0d79e6366ad1": {
+      "score": 10,
+      "title": "They&#039;re Made out of Meat",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] スニペットがなく、タイトルも技術的な製品・研究・企業発表を具体的に示していません。AIやクラウド、プログラミング言語などエンジニアリングへの影響や新規性を評価できる情報が不足しているため、重要度は最低水準としました。"
+    },
+    "f1672e37ab83eaa54e83e76ef36f5c07": {
+      "score": 66,
+      "title": "Research acceleration: The view inside OpenAI",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] AI研究そのものにコーディングエージェントを組み込み、実験速度やタスクの複雑性を定量的に検証する内容で、研究開発プロセスへの影響は大きいです。一方で、スニペット上はOpenAI内部の初期データ紹介にとどまり、具体的な技術仕様や業界全体を変える新製品の発表ではありません。また、既に取り上げ済みのAI・OpenAI関連トピックと同じ文脈を含むため、重複分"
+    },
+    "a053215453edd07eb5390bf1ae1e19dd": {
+      "score": 36,
+      "title": "Improving our alignment and security efforts",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] AIシステムのアライメントやセキュリティは重要なテーマですが、タイトルだけでは具体的な技術革新、脅威への対応、実装変更、業界への影響範囲が判断できません。内容としては安全性・運用方針に関する取り組みと見られ、評価基準上はセキュリティや運用ルール寄りのニュースとして中低評価に留めます。 [Editorial: AI-focused source +6]"
+    },
+    "56fe71451972d64c88c63d13531c90d9": {
+      "score": 49,
+      "title": "Designing lifecycle policies for AgentCore memory",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] AIエージェントの長期メモリをスコアリング、統合、削除するライフサイクル設計を、AWS Step FunctionsとCDKで実装可能な形に落とし込んでおり、実運用で重要な品質劣化やコンプライアンスリスクに対応する具体性があります。クラウドアーキテクチャおよびエージェント基盤の実践例としては評価できますが、業界の前提を変える新技術ではなく、既存のAI"
+    },
+    "9f9e07698e06ef8e59d5dc049d242d21": {
+      "score": 47,
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリ上で複数のエージェントを並列実行する方法を扱っており、開発タスクの分割や自動化、エージェント型開発の実践例としてはエンジニアへの有用性があります。ただし、既存のGitHub CopilotおよびAIエージェント関連の話題と重複しており、基盤技術の新発表ではなく初心者向けの利用ガイドであるため新規性と影響範囲は限定的で"
+    },
+    "864b62e5bc9fa3fe8848d24a992448f7": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — August 31",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] GitHub CopilotとVS Codeのモデル選択、コンテンツ保護、エージェントセッション管理、プルリクエスト準備支援は開発者体験に関わる実用的な改善です。ただし、週次アップデートのまとめであり、アーキテクチャや開発手法の前提を変えるほどの新規性・影響範囲はありません。さらに、既に取り上げ済みのGitHub、Copilot、モデル関連の話題と同"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 47,
+      "title": "April 27, 2026",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに、上流依存パッケージの最新版を適用したリリースです。開発・運用環境の再現性やセキュリティ、互換性維持には一定の価値がありますが、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。エージェント基盤に関する更新ではあるものの、内容は主に依存関係の更新"
+    },
+    "94551803bce38a84b8d232b806dbd2c7": {
+      "score": 55,
+      "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Uber創業者のTravis Kalanick氏がロボタクシー事業へ再参入する可能性を示す記事で、自動運転技術、車両フリート運用、配車・決済インフラへの波及が期待できます。ロボティクス関連として技術的な注目度は高い一方、現時点では具体的な車両技術、提携先、商用化時期などが明らかでなく、「might be getting into」という観測段階にとど"
+    },
+    "98c97bd7d2a7ec9c8195ef2fd4b73d57": {
+      "score": 54,
+      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] 生成AIが妄想や躁状態を助長する可能性と、それを臨床診断として扱うべきかという重要な論点を扱っており、AIの社会的影響・安全設計・対話モデルの迎合性に関係するため注目度は高いです。一方で、技術革新や具体的な製品・アーキテクチャの発表ではなく、診断の是非や因果関係がまだ研究段階で、記事内の利用者数も自己申告ベースです。既出のAI関連キーワードには該当し"
+    },
+    "0c79ae5dd204719c004707384c175706": {
+      "score": 49,
+      "title": "Pocket's AI made my game ideas real. Now Meta controls the results.",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] AIを使ってゲームのアイデアを実際のインタラクティブ作品に変換できる点は、生成AIによる開発体験として興味深く、プロトタイピングやクリエイター向けツールへの影響があります。一方で、記事の中心はMeta傘下プラットフォーム内での共有制限やエコシステムの囲い込みであり、基盤技術や業界構造を大きく変える発表ではありません。AI関連の話題は既出キーワードに該"
+    },
+    "0bf16381c2e2d8aed4e92165babe9c92": {
+      "score": 6,
+      "title": "The Best Laptop Backpacks for Work, Travel, and Everything Between (2026)",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] 仕事や旅行向けのノートパソコン用バックパックを紹介する一般消費者向け製品記事であり、ソフトウェア、クラウド、AI、開発者向け技術への影響や技術革新はほぼありません。評価基準上、スマートフォンやイヤホンなどと同様に一般消費者向けガジェット・周辺製品として最低評価帯に該当します。"
+    },
+    "30135903948d87e981219a8db4a80c01": {
+      "score": 60,
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] ウクライナの戦場ドローンから収集されたデータが新たな市場を形成している点は、ロボティクス、AI活用、データ取引の観点で技術的・社会的な新規性が高い。一方、スニペットからは具体的な製品、アーキテクチャ、企業、導入規模が不明で、業界の前提を変えるほどの確度や影響範囲は確認できない。また、AIによる言語変化という既存キーワードに近いテーマも含まれるため、最"
+    },
+    "8a1f4c3f359085c513b34af95c11e7ed": {
+      "score": 10,
+      "title": "Apple’s New CEO-Like Cook Pay Package Shows He’s Going Nowhere; Sept. 9 Event",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Apple CEOの報酬パッケージや退任意向に関する企業人事・経営ニュースであり、ソフトウェア技術、AI、クラウド、プログラミング言語などへの直接的な影響は限定的です。併記されたイベント情報も一般消費者向け製品発表の予告にとどまり、技術革新の具体性がないため、最低評価帯としました。"
+    },
+    "c5336a233f7ec6cc9e9a3b57aa3419c9": {
+      "score": 48,
+      "title": "Claude Code の Rules が発火しないのは、Claude が Read ツールを使っていないから",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Claude CodeのRulesがReadツールの実行経路に依存して発火するという内部挙動を明らかにし、Bash中心の運用でルールが適用されない問題に対する具体的な回避策を示している点は、開発者にとって実用性が高いです。一方で、影響範囲はClaude Codeの設定・ハーネス運用に限定され、業界全体の前提を変える新技術や大規模なアーキテクチャ進化で"
+    },
+    "886a2153522d903d6e028e9619809a34": {
+      "score": 15,
+      "title": "The car industry A/B tested selling a car with and without CarPlay and the results are not shocking",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] CarPlayの有無を比較した自動車販売のA/Bテストは、ユーザー体験や車載インフォテインメントの需要を考える材料にはなりますが、技術革新やアーキテクチャ上の新規性は限定的です。一般消費者向け製品の採用傾向に関する話題であり、エンジニアリング業界全体への影響範囲も狭いため、低いスコアとしました。"
+    },
+    "74227c82e0abb5e4fd3e219a991f3c84": {
+      "score": 36,
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを使い、金融レビューで41文書を数分で処理し、埋め込まれた4件の誤りをすべて検出、性能を約40%改善した点は、LLMの実務適用例として具体性があります。一方で、基盤モデル自体の新規発表ではなく、単一ワークフローにおける導入事例・性能報告に留まります。また、既出キーワードであるGPT、Astra、AI系の話題と同じ角度の続報ではな"
+    },
+    "201b4201e2998334e53c51b78c95370b": {
+      "score": 90,
+      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Amazon SageMaker HyperPodとAmazon EKSを統合し、クラスタ構築、キャパシティ管理、学習、推論、ストレージ運用をAIエージェントとWeb UIから実行できるオープンソースの制御プレーンは、AI基盤運用の自動化という点で技術的な影響が大きい。単なるLLMモデルの発表ではなく、ガード付き操作によって本番インフラの再現性や安全"
+    },
+    "8c805138cd2ae6d77a1f5221f95f043c": {
+      "score": 47,
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] AI開発で使われ始めた「ループ」「ハーネス」「スクワッド」「ヒルクライミング」などの用語を整理する解説記事で、エンジニアの共通理解や開発プロセスの把握には役立ちます。一方で、新技術や具体的な製品・アーキテクチャの発表ではなく、内容は概念整理が中心です。また、既に取り上げ済みの「AI」「GitHub」「models」などと直接重なるため、重複分を減点し"
+    },
+    "e47035870c59e90bb72ba79032072d3f": {
+      "score": 39,
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルを全エクスペリエンスで一斉に廃止するため、利用中の開発チームには移行計画、互換性確認、品質検証が必要になる実務上の影響があります。ただし、新機能や技術革新ではなく、主にサービス運用・モデル切り替えの告知です。また、既出キーワードのGitHub、Copilot、modelsに直接該当し、同じ話題の続報として20点"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 41,
+      "title": "May 11, 2026",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12上で上流依存パッケージを最新版に更新したリリースに留まり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は示されていません。エージェント基盤の安定運用や保守性には寄与するものの、影響範囲と新規性が限定的なため、重要度は低めです。 [Editori"
+    },
+    "84bde93bd9e84b27a60977e54fe73984": {
+      "score": 37,
+      "title": "TechCrunch Mobility: Tesla Cybercab hits the road — and a snag",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Tesla Cybercabの実走行と不具合は自動運転・ロボタクシーの実用化に関わる技術トピックですが、提示されたスニペットでは具体的な技術革新や障害の内容、業界への波及範囲が不明です。AI関連の自動車ニュースとして一定の関心はあるものの、既存技術の実証・運用上の問題に近く、アーキテクチャや基盤技術の進化を示す記事ではありません。また、一般消費者向け"
+    },
+    "6139786156f7e75fc5079aa300c3af79": {
+      "score": 87,
+      "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] 物理シミュレーション中心だった気象予測を、リアルタイム衛星データから直接学習する方式へ転換し、最大5km・毎時更新の予報を実現する点は、AIを科学計算へ応用した重要な技術進展です。従来モデル比で解像度が5倍となり、予測精度が不足していた地域への実用的な影響も大きい一方、基盤モデルそのものや業界全体の前提を直ちに変える発表とまでは言えないため、90点未"
+    },
+    "df1078b78a52937ac328491863194294": {
+      "score": 27,
+      "title": "Create Custom Windows 11 Notifications to Remind Yourself of Anything",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] Windows 11の通知をイベントや定期実行に応じてカスタマイズする実用的な小規模自動化の記事です。開発者にとってはスクリプトやタスクスケジューラ、通知APIの活用例として有用ですが、アーキテクチャや主要技術の進化には当たらず、影響範囲も限定的です。一般ユーザー向けOS機能に近く、業界の前提を変える新規性もないため、低めに評価しました。既出キーワー"
+    },
+    "8b789ce10216e977bacec77cf5e0db3a": {
+      "score": 55,
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "date": "2026-09-07",
+      "reason": "[Claude API Evaluation] 戦場で収集されるドローン映像・センサーデータが、防衛企業向けの新たなデータ市場を形成している点は、ロボティクス、コンピュータビジョン、データ基盤の観点で重要です。実戦環境から得られる大規模かつ高価値なデータは、監視・標的認識・自律飛行システムの性能向上を加速させる可能性があります。一方で、記事の中心は市場形成や防衛分野の動向であり、具体的な技術仕様や"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-07/blog.md",
+    "show_notes_path": "out/2026-09-07/show_notes.md",
+    "script_path": "out/2026-09-07/script_2hosts.md",
+    "audio_path": "out/2026-09-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24806,
+        "output_tokens": 10663,
+        "cost_usd": 0.017757
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43289,
+        "output_tokens": 7894,
+        "cost_usd": 0.248277
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4112,
+        "cost_usd": 0.049344
+      }
+    ],
+    "total_cost_usd": 0.315378
+  }
+}
