@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.78,
+    "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
+    "url": "https://arxiv.org/abs/2609.04264"
+  },
+  {
+    "start_sec": 132.56,
+    "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
+    "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/"
+  },
+  {
+    "start_sec": 248.01,
+    "title": "Designing lifecycle policies for AgentCore memory",
+    "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/"
+  },
+  {
+    "start_sec": 362.02,
+    "title": "GitHub Copilot app for Beginners: Run several agents at once",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/"
+  },
+  {
+    "start_sec": 467.49,
+    "title": "GitHub Copilot weekly releases — August 31",
+    "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31"
+  },
+  {
+    "start_sec": 601.59,
+    "title": "An Alien Mind",
+    "url": "https://openai.com/index/an-alien-mind"
+  },
+  {
+    "start_sec": 725.52,
+    "title": "エンディング",
+    "url": null
+  }
+]

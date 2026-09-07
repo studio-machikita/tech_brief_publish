@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#161 JEPA型ワールドモデルのためのスペクトル目標物理潜在構造化 ほか</title>
+      <description>Tech News Radio Show Notes - #161 (2026-09-08)
+
+エピソード情報
+• エピソード: #161
+• 日付: 2026-09-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Spectral-Target Physical Latent Structuring for JEPA-Style World Models (https://arxiv.org/abs/2609.04264)
+• GPT-6 Astra beat Portal start to finish without human help in under 24 hours (https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/)
+• Designing lifecycle policies for AgentCore memory (https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/)
+
+注目の深掘り
+• GitHub Copilot app for Beginners: Run several agents at once (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/)
+• GitHub Copilot app for Beginners: Run several agents at once (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/)
+• GitHub Copilot app for Beginners: Run several agents at once (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/)
+
+小ネタ・その他
+• GitHub Copilot weekly releases — August 31 (https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31)
+• An Alien Mind (https://openai.com/index/an-alien-mind)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-08/episode_audio.mp3" length="12117933" type="audio/mpeg" />
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-08</guid>
+      <itunes:duration>12:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>JEPA型ワールドモデルのためのスペクトル目標物理潜在構造化 ほか</itunes:title>
+      <itunes:episode>161</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #161 (2026-09-08)
+
+エピソード情報
+• エピソード: #161
+• 日付: 2026-09-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Spectral-Target Physical Latent Structuring for JEPA-Style World Models (https://arxiv.org/abs/2609.04264)
+• GPT-6 Astra beat Portal start to finish without human help in under 24 hours (https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/)
+• Designing lifecycle policies for AgentCore memory (https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/)
+
+注目の深掘り
+• GitHub Copilot app for Beginners: Run several agents at once (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/)
+• GitHub Copilot app for Beginners: Run several agents at once (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/)
+• GitHub Copilot app for Beginners: Run several agents at once (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/)
+
+小ネタ・その他
+• GitHub Copilot weekly releases — August 31 (https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31)
+• An Alien Mind (https://openai.com/index/an-alien-mind)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-08/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.780" title="Spectral-Target Physical Latent Structuring for JEPA-Style World Models" href="https://arxiv.org/abs/2609.04264" />
+        <psc:chapter start="00:02:12.560" title="GPT-6 Astra beat Portal start to finish without human help in under 24 hours" href="https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/" />
+        <psc:chapter start="00:04:08.010" title="Designing lifecycle policies for AgentCore memory" href="https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/" />
+        <psc:chapter start="00:06:02.020" title="GitHub Copilot app for Beginners: Run several agents at once" href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/" />
+        <psc:chapter start="00:07:47.490" title="GitHub Copilot weekly releases — August 31" href="https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31" />
+        <psc:chapter start="00:10:01.590" title="An Alien Mind" href="https://openai.com/index/an-alien-mind" />
+        <psc:chapter start="00:12:05.520" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#160 SageMaker HyperPodをInstantStartでエージェント駆動運用 ほか</title>
       <description>Tech News Radio Show Notes - #160 (2026-09-07)
 
