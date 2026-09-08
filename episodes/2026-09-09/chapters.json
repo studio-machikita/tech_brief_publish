@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 26.37,
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "url": "https://openai.com/index/codex-quantum-computing-experiments"
+  },
+  {
+    "start_sec": 131.6,
+    "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+    "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/"
+  },
+  {
+    "start_sec": 257.42,
+    "title": "Introducing ChatGPT Images 2.5",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+  },
+  {
+    "start_sec": 357.94,
+    "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+    "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/"
+  },
+  {
+    "start_sec": 453.04,
+    "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+    "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/"
+  },
+  {
+    "start_sec": 569.69,
+    "title": "This founder is teaching chips how to recycle (their energy)",
+    "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/"
+  },
+  {
+    "start_sec": 667.26,
+    "title": "エンディング",
+    "url": null
+  }
+]

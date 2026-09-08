@@ -1,0 +1,377 @@
+{
+  "date": "2026-09-09",
+  "episode_date_local": "2026-09-09",
+  "content_snapshot_date": "2026-09-09",
+  "show_length_sec": 700,
+  "audio_size": 11210157,
+  "generated_at": "2026-09-08T20:32:00.311321+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-f16575f1",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "title_ja": "GPT-5.6 Solが量子コンピューティング実験の実施を支援する仕組み",
+      "one_liner": "GPT-5.6 Solが量子コンピュータ実験を自律運用",
+      "fingerprint": "f16575f13b7973e27a3107bc9ad3d3f8",
+      "score": 91,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-56cb358e",
+      "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+      "title_ja": "Amazon SageMaker HyperPodで開発するPathwayの脳型アーキテクチャ",
+      "one_liner": "脳型AI「BDH」をSageMakerで開発・拡張",
+      "fingerprint": "56cb358ee475365e336ce9fb90bb3f8c",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-14425435",
+      "title": "Introducing ChatGPT Images 2.5",
+      "title_ja": "ChatGPT Images 2.5 発表",
+      "one_liner": "ChatGPTの画像生成が2.5にアップデート",
+      "fingerprint": "144254358e3185f297d0e0694047f6bd",
+      "score": 87,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-ca58568b",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "title_ja": "Meta、AIエージェント「Muse」を発表 消費者の信頼は得られるか",
+      "one_liner": "Metaの新AIエージェント「Muse」、信頼が試金石に",
+      "fingerprint": "ca58568bbd83af167c50b1506185bdb9",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-b514c952",
+      "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+      "title_ja": "OpenAI、数学の大発見を主張も一部学者は疑問視",
+      "one_liner": "OpenAIの数学的発見、学者から疑義の声",
+      "fingerprint": "b514c9520804078cd7b28a2ada7e5a51",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-9cdecafc",
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "title_ja": "このスタートアップ、チップの省エネ再利用術を伝授",
+      "one_liner": "廃熱を再利用するチップで省エネを目指す新興企業",
+      "fingerprint": "9cdecafcadae5ba7b707023793832968",
+      "score": 81,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-5ff293ee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kaggleコンペ紹介：AI Agent Security - Multi-Step Tool Attacks"
+    },
+    {
+      "item_id": "item-804af56b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes"
+    },
+    {
+      "item_id": "item-05954e7d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Patagonia has what AI data centers want, including no resistance so far"
+    },
+    {
+      "item_id": "item-daebd770",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot"
+    },
+    {
+      "item_id": "item-3c7da9c9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper"
+    },
+    {
+      "item_id": "item-8c805138",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!"
+    },
+    {
+      "item_id": "item-e4703587",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models"
+    },
+    {
+      "item_id": "item-2636b1f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Work Now Within Reach"
+    },
+    {
+      "item_id": "item-04565eb3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Muse: Meta&#039;s personal AI agent, features &amp; capabilities"
+    },
+    {
+      "item_id": "item-c2ae9ece",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Function Arguments Are Not Function Colors"
+    },
+    {
+      "item_id": "item-ac35089a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: our 35 Innovators Under 35 this year"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-acdc5133",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New Bitcoin Hack Exposes Cracks In Crypto"
+    },
+    {
+      "item_id": "item-1b9e3629",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple and Google Miss Deadline to Block Child Nudity on Their Phones in the UK"
+    },
+    {
+      "item_id": "item-4f01ee5a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Binance Keeps Doing European Business Without License"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-9b35c033",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Techはすぐに追ったほうがいい"
+    },
+    {
+      "item_id": "item-e5ba1819",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to watch Apple’s foldable iPhone announcement"
+    }
+  ],
+  "score_cache": {
+    "04565eb344da3312e568ac3e662c6e33": {
+      "score": 43,
+      "title": "Muse: Meta&#039;s personal AI agent, features &amp; capabilities",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] Metaが個人向けAIエージェントを開発し、車の売却や航空券予約まで代行する構想は、消費者向け自律エージェントの競争を加速させる点で注目度が高いです。一方、記事では実装方式、利用可能なサービス範囲、権限管理、信頼性などの具体情報が乏しく、現時点では構想・機能紹介の域を出ません。また、既にAIおよびエージェント関連の話題が取り上げ済みのため、重複分とし"
+    },
+    "f16575f13b7973e27a3107bc9ad3d3f8": {
+      "score": 91,
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] LLMとCodexを組み合わせ、量子コンピューティング実験の実行・結果分析・量子ビットのキャリブレーションまで自律化する具体的な事例であり、AIエージェントの応用範囲を大きく広げる内容です。単なるモデル性能の発表ではなく、実験系ワークフローへの統合と科学研究の自動化を示している点で技術的インパクトは非常に高い一方、現時点ではMIT研究者による個別事例"
+    },
+    "56cb358ee475365e336ce9fb90bb3f8c": {
+      "score": 90,
+      "title": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] Transformer後継を志向する脳型アーキテクチャ「BDH」が、チェーン・オブ・ソートのトークン生成ではなく潜在空間で推論する点は、LLMの設計前提に関わる新規性が高い。さらに、SageMaker HyperPod上でのスケーリング手法とARC-AGI-1におけるコスト効率の実績が示されており、研究アイデアに留まらず実運用に近い評価がある点も重要"
+    },
+    "8c805138cd2ae6d77a1f5221f95f043c": {
+      "score": 47,
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] AI開発で使われ始めたループエンジニアリング、ハーネス、スクワッド、ヒルクライミング、オープンウェイトなどの用語を整理する記事で、開発者の共通理解を深める実用性はあります。一方で、新技術や具体的な製品・アーキテクチャの発表ではなく、主に解説・用語紹介に留まります。また、既に取り上げ済みのAIおよびGitHub関連の話題と同じ角度に該当するため、重複分"
+    },
+    "e47035870c59e90bb72ba79032072d3f": {
+      "score": 47,
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルが全エクスペリエンスで廃止されるため、利用モデルの切り替え、互換性確認、コード生成品質の検証が必要になる実務上の重要な告知です。一方で、新モデルや画期的な機能の発表ではなく、既存サービスのライフサイクル管理に関する内容です。また、GitHubおよびCopilotは直近の既出キーワードに該当し、同じ話題の続報とし"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 27,
+      "title": "April 27, 2026",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12環境への上流依存パッケージの最新版適用に限定されており、新機能・性能向上・アーキテクチャ変更などの具体的な技術革新はありません。エージェント基盤に関連するものの、既出のagentcore系トピックと同じ領域で新規性も乏しいため減点し、運用上の小規模なメ"
+    },
+    "ca58568bbd83af167c50b1506185bdb9": {
+      "score": 84,
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] メール、カレンダー、決済、ヘルスケアなど複数の個人データに横断アクセスするMetaの個人向けAIエージェントであり、AIエージェントの実用化とプライバシー設計を占う重要な発表です。単なるチャットボットではなく、外部サービスと継続的に連携して行動するアーキテクチャは影響範囲が広く、消費者向けAIの信頼モデルにも波及します。一方で、現時点では具体的な技術"
+    },
+    "3c7da9c98ea3926da6ed6fd04a519a54": {
+      "score": 49,
+      "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] AI研究、数学的ブレークスルー、学習データやCodexへの草稿投入に関する情報管理、さらに研究者間の競争・著者資格を巡る問題で、技術業界への示唆は大きいです。一方で、現時点では当事者の一方的な主張とOpenAIの否定が中心で、検証済みの技術成果や業界の前提を変える発表ではありません。AI・OpenAI関連の既出テーマに近いものの、研究倫理とデータ利用"
+    },
+    "1b9e36292c4b5460072bfdd466b0b60c": {
+      "score": 30,
+      "title": "Apple and Google Miss Deadline to Block Child Nudity on Their Phones in the UK",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 英国における児童性的画像対策の期限未達と、企業への罰金・刑事責任を含む法制化方針は、AppleやGoogleのOS設計、コンテンツ検知、暗号化、プライバシー保護に影響し得ます。ただし、技術革新そのものではなく、主題は規制強化と企業のコンプライアンス対応です。将来的にはSnapchatやInstagramにも適用範囲が広がる可能性があるものの、現時点で"
+    },
+    "ac35089a7631b0d39270445d26073902": {
+      "score": 36,
+      "title": "The Download: our 35 Innovators Under 35 this year",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 将来有望な技術者や研究者を紹介する企画自体には、AI・先端技術・スタートアップの動向を把握する価値があります。一方で、記事は35人のリスト紹介にとどまり、具体的な技術、製品、アーキテクチャ、成果や業界への影響が示されていないため、エンジニアリング上の即時性や実務的インパクトは限定的です。既出キーワードとの直接的な同一テーマの続報でもないため、減点は行"
+    },
+    "4f01ee5acd48bde5ca2297cabaef45f2": {
+      "score": 30,
+      "title": "How Binance Keeps Doing European Business Without License",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] EUのMiCA規制下で、Binanceが正式なライセンス取得なしに複数の法人・サービス経路を使って欧州市場で事業を継続している点は、暗号資産業界のコンプライアンスやサービス提供体制に影響します。一方で、技術革新やソフトウェアアーキテクチャの進展ではなく、規制解釈と事業運用上の対応が中心です。エンジニア視点では、地域ごとのライセンス判定、KYC・取引制"
+    },
+    "5ff293ee6fb560dfde2b7b7b11489d87": {
+      "score": 74,
+      "title": "Kaggleコンペ紹介：AI Agent Security - Multi-Step Tool Attacks",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] AIエージェントに対するマルチステップのツール攻撃を題材にしたレッドチーミングコンペであり、エージェントの安全性評価や攻撃手法の体系化に関する実践的な知見が得られる点で重要です。4,187チーム規模で、公開・非公開リーダーボードの大幅な順位変動や上位解法が紹介されるため、評価設計や汎化性能の観点でもエンジニアへの示唆があります。一方、単一企業の製品発"
+    },
+    "c2ae9eceb6be1fce051eb4b5f0a2a776": {
+      "score": 43,
+      "title": "Why Function Arguments Are Not Function Colors",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 関数の引数と「関数の色」を区別する設計・型システム上の議論と考えられ、プログラミング言語やAPI設計に関心のあるエンジニアには有益です。一方で、タイトルからは新しい言語機能や具体的な技術革新、広範な業界インパクトまでは読み取れず、概念整理・設計論に近い記事として中程度の評価としました。"
+    },
+    "2636b1f6f4ce1d57ac2fba75276cb119": {
+      "score": 47,
+      "title": "The Work Now Within Reach",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] より高性能で低価格なAIが業務範囲を広げ、企業の成長コストを下げるという内容は、AI活用の普及という点で一定の重要性があります。一方で、具体的なモデル、技術革新、導入事例、性能向上の数値などが示されておらず、実装やアーキテクチャへの直接的な示唆は限定的です。また、既に取り上げ済みの「AI」「now」などと同じく、AIの能力向上・普及を扱う一般的な論点"
+    },
+    "804af56b0ca5d39240fdd765edf8f7cc": {
+      "score": 71,
+      "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] SageMaker Feature Storeにレコード全体を読み書きせず、必要な特徴量だけを部分更新できるUpdateRecord APIが追加された点は、機械学習基盤の実装効率とレイテンシ、書き込み競合の削減に寄与します。DynamoDBベースのStandard層とElastiCacheベースのIn-Memory層の双方に対応しており実用性も高い"
+    },
+    "daebd77086f83dc497f559ee772b53cc": {
+      "score": 54,
+      "title": "Gemini 3.8 Flash is now available in GitHub Copilot",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] Googleの新しいGemini FlashモデルがGitHub Copilotで利用可能になり、複雑なターミナルベースのコーディング性能を示した点は、開発者向けAI支援ツールの選択肢と実用性を広げる重要なアップデートです。ただし、モデルの提供先追加にとどまり、業界の前提を変えるほどの革新性や具体的な性能データはまだ限定的です。また、AI・GitHu"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 34,
+      "title": "May 11, 2026",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12ベースイメージに最新の上流依存パッケージを適用した、定期的なリリースノートです。依存関係の更新による保守性や安全性の向上はあるものの、新しいアーキテクチャ、機能、モデル、開発手法を示す内容ではなく、影響範囲も既存利用者に限定されます。エージェント基盤に関連するものの、既出のエージェン"
+    },
+    "e5ba1819f33110e28590b3adf89e5a2b": {
+      "score": 2,
+      "title": "How to watch Apple’s foldable iPhone announcement",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 折りたたみiPhoneという新製品の発表予告ですが、主題は一般消費者向けスマートフォンの視聴方法であり、ソフトウェア技術や開発者向けの革新性は限定的です。記事時点では具体的な仕様や技術的詳細も示されていないため、評価基準上は最低評価帯としました。既出キーワードとの重複による減点はありません。 [Editorial: gadget topic -8]"
+    },
+    "05954e7d2538356ce700ef81598221c3": {
+      "score": 66,
+      "title": "Patagonia has what AI data centers want, including no resistance so far",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] AIデータセンターの立地として、豊富な再生可能エネルギーや広大な土地、低い人口密度を持つパタゴニアが注目されている点は、AIインフラの電力・冷却・用地制約に関わる重要な動向です。実現すれば大規模GPUクラスタの配置や地域の電力網・通信網に影響します。一方で、現時点では候補地としての注目にとどまり、具体的な事業者、投資額、建設計画、電力供給契約などが示"
+    },
+    "b514c9520804078cd7b28a2ada7e5a51": {
+      "score": 84,
+      "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] AI研究における数学的発見という内容は、LLMや推論システムの能力限界を押し広げる可能性があり、技術的な注目度は非常に高いです。一方で、スニペットからは具体的な成果や再現性、実装への影響が不明で、学術的な不正・功績帰属をめぐる疑義もあるため、業界の前提を変える確定的なブレークスルーとしては評価を抑えました。OpenAIという既出キーワードを含みますが"
+    },
+    "9cdecafcadae5ba7b707023793832968": {
+      "score": 81,
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 可逆コンピューティングによって、計算時に熱として失われるエネルギーを再利用する半導体設計は、従来の性能向上や微細化とは異なるアーキテクチャ上の革新です。データセンターやAI向け計算基盤の消費電力を大幅に削減できる可能性があり、技術的なインパクトは非常に大きいです。一方で、記事からは実チップの性能、エネルギー回収効率、製品化時期などの具体的な実証結果が"
+    },
+    "acdc5133ea01ff593fc263dad6177215": {
+      "score": 32,
+      "title": "New Bitcoin Hack Exposes Cracks In Crypto",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 複数の暗号資産取引所が利用するBitcoin関連ブロックチェーンで3.2億ドル規模のハッキングが発生しており、暗号資産インフラの信頼性や鍵管理、スマートコントラクトおよびブリッジ設計を再検証させる重要な事案です。ただし、技術革新や新しいアーキテクチャの発表ではなく、主題はセキュリティ侵害とリスク顕在化であるため、評価基準上は低評価帯に位置付けます。"
+    },
+    "9b35c033a541bbaf63d76b3145794076": {
+      "score": 27,
+      "title": "Techはすぐに追ったほうがいい",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] NeovimやVimを使った開発体験に関する個人ブログの導入・思想紹介であり、技術的な気づきはあるものの、新しい製品発表、アーキテクチャ変更、具体的なツールの進化、業界への影響といったニュース性は乏しいです。インフラエンジニアの実体験としては参考になりますが、エンジニア全体への影響範囲や具体性が限定的なため、低めの評価としました。"
+    },
+    "144254358e3185f297d0e0694047f6bd": {
+      "score": 87,
+      "title": "Introducing ChatGPT Images 2.5",
+      "date": "2026-09-09",
+      "reason": "[Claude API Evaluation] 画像生成AIの新バージョンによる機能強化であり、スケッチや参照画像を活用した個人向けの画像生成品質・制御性の向上が期待できる。クリエイティブ制作、UIデザイン、プロトタイピングなどへの影響は大きく、AI分野の重要ニュースに該当する。一方で、基盤モデルの革新や業界構造を根本から変える具体的な技術詳細・性能指標までは示されていないため、90点以上には及ば"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-09/blog.md",
+    "show_notes_path": "out/2026-09-09/show_notes.md",
+    "script_path": "out/2026-09-09/script_2hosts.md",
+    "audio_path": "out/2026-09-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24317,
+        "output_tokens": 10889,
+        "cost_usd": 0.01793
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42898,
+        "output_tokens": 7306,
+        "cost_usd": 0.238284
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3805,
+        "cost_usd": 0.04566
+      }
+    ],
+    "total_cost_usd": 0.301874
+  }
+}
