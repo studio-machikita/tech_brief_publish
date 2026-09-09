@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 25.8,
+    "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
+    "url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/"
+  },
+  {
+    "start_sec": 152.65,
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "url": "https://openai.com/index/gpt-6-astra-next-generation-work"
+  },
+  {
+    "start_sec": 238.1,
+    "title": "ICYMI: What landed for AI builders in August 2026",
+    "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/"
+  },
+  {
+    "start_sec": 394.67,
+    "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+    "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/"
+  },
+  {
+    "start_sec": 504.0,
+    "title": "The Download: OpenAI’s turning point for math and a battery record",
+    "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/"
+  },
+  {
+    "start_sec": 622.96,
+    "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 755.76,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -1,0 +1,382 @@
+{
+  "date": "2026-09-10",
+  "episode_date_local": "2026-09-10",
+  "content_snapshot_date": "2026-09-10",
+  "show_length_sec": 790,
+  "audio_size": 12649005,
+  "generated_at": "2026-09-09T22:34:07.183755+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d1127d24",
+      "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
+      "title_ja": "SunoがWarner、BMG、Believeと共同開発した音楽モデル「v6」を発表",
+      "one_liner": "Suno、大手レーベルと組んだ新AI音楽モデルv6を発表",
+      "fingerprint": "d1127d24bc5de7b3ee0c5ba5ebda061a",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9ca58409",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "title_ja": "GPT-6 Astra:仕事のための次世代インテリジェンス",
+      "one_liner": "OpenAIが業務向け新モデルGPT-6 Astraを発表",
+      "fingerprint": "9ca584098331c2993db24bfd842d4aaa",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-7495827e",
+      "title": "ICYMI: What landed for AI builders in August 2026",
+      "title_ja": "8月に開発者向けに登場したAI関連のアップデートまとめ(見逃した方へ)",
+      "one_liner": "AWSのAI開発基盤、2026年8月の主要アップデート総まとめ",
+      "fingerprint": "7495827e8d1ba02cf18d2e4de762478d",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-722b8627",
+      "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+      "title_ja": "Anthropicの研究者、「自己改善型AIが人類を滅ぼす可能性」と警告して退社",
+      "one_liner": "Anthropic研究者が自己改善AIの危険性を警告し退社",
+      "fingerprint": "722b86278b1f118f9088dbbbf90d1d82",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI",
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-b9904e3e",
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "title_ja": "OpenAIの数学における転換点とバッテリーの記録",
+      "one_liner": "OpenAIの数学問題解決を巡る論争と電池記録",
+      "fingerprint": "b9904e3e9e7f473c2ffcb16f2bb2371b",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-aae60b98",
+      "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
+      "title_ja": "Heurist Finance、Amazon Bedrock AgentCoreでAIネイティブな投資分析基盤を構築",
+      "one_liner": "Heurist、Bedrock AgentCoreで投資AI基盤を構築",
+      "fingerprint": "aae60b984f5b6d51eed5b3388aa12d0e",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "Zenn"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-cac1fca0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic built an economic model that frames its CEO's bleakest job forecasts as an outlier scenario"
+    },
+    {
+      "item_id": "item-2c3fbf9f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Paul Christiano joins OpenAI Foundation Board"
+    },
+    {
+      "item_id": "item-879cf628",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise managed permissions for GitHub Copilot agent operations"
+    },
+    {
+      "item_id": "item-e4e5e231",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Batteries just broke another record in the US"
+    },
+    {
+      "item_id": "item-514f2390",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why this month's Microsoft patch release is a doozy"
+    },
+    {
+      "item_id": "item-2a7c37dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "QTS Co-CEO on Building Eco-Friendly Data Centers"
+    },
+    {
+      "item_id": "item-277eaa22",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors"
+    },
+    {
+      "item_id": "item-4393fd8d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LLMのトークン効率化で気をつけたいことまとめ"
+    },
+    {
+      "item_id": "item-e4703587",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models"
+    },
+    {
+      "item_id": "item-90ee63c0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads"
+    },
+    {
+      "item_id": "item-0ef7f38f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "プロジェクトマネジメントの教科書（内製チーム向け）"
+    },
+    {
+      "item_id": "item-1bb36697",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Massachusetts hits data centers with new clean power rules"
+    },
+    {
+      "item_id": "item-3c02c118",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automattic CEO Matt Mullenweg Put on &#x27;Leave of Absence&#x27;"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-07a49f76",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AGCO CEO: We Can Manage Through These Tariffs"
+    },
+    {
+      "item_id": "item-ec179958",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "iPhone Duo"
+    },
+    {
+      "item_id": "item-d8131a8b",
+      "reason": "[Duplicate] 「Anthropic researcher quits with a warning: Self-improving AI」と同じ出来事のため除外",
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’"
+    }
+  ],
+  "score_cache": {
+    "3c02c1180051a4754901d3926ead0ecf": {
+      "score": 30,
+      "title": "Automattic CEO Matt Mullenweg Put on &#x27;Leave of Absence&#x27;",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Automattic CEOの休職は、WordPressや同社の経営方針、意思決定、開発者コミュニティへの影響という点では注目に値します。一方で、具体的な技術革新やアーキテクチャ変更、製品機能の発表ではなく、主に経営・組織ガバナンスに関するニュースです。エンジニア視点での直接的な技術インパクトは限定的なため、低めの評価としました。"
+    },
+    "2c3fbf9fdc31109b89a491782ae51d4d": {
+      "score": 47,
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] AIアラインメントと安全性で実績のあるPaul Christiano氏がOpenAI Foundationの理事会および安全・セキュリティ委員会に加わることは、OpenAIのガバナンスや安全研究の方向性に影響し得る重要な人事です。一方で、具体的な技術成果や製品発表ではなく、短期的なエンジニアリングへの影響は限定的です。また、直近に取り上げ済みのAI・"
+    },
+    "7495827e8d1ba02cf18d2e4de762478d": {
+      "score": 62,
+      "title": "ICYMI: What landed for AI builders in August 2026",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] AI開発基盤における100万トークン級コンテキスト、クロスリージョン推論、最大14日間稼働するエージェント、専用コンピュート、GovCloud対応、ロボティクス向け展開は、実運用のスケールや信頼性を大きく改善する具体的な技術アップデートです。一方で、記事は新発表ではなく8月の総括であり、既出キーワードであるAI、Amazon、OpenAI、モデル、エ"
+    },
+    "879cf62853d741dd65f7f0739d92c36c": {
+      "score": 47,
+      "title": "Enterprise managed permissions for GitHub Copilot agent operations",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] GitHub Copilotのエージェント操作について、企業管理者が操作の許可・ブロック・人間承認の要否を一元設定できるようになる点は、エンタープライズ環境での安全な導入やガバナンスに実務的な価値があります。一方で、機能の性質は新たなAI技術そのものではなく、既存エージェント運用の権限管理・統制です。また、直近に取り上げ済みの「GitHub」「Cop"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 27,
+      "title": "April 27, 2026",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容はDebian 12環境に上流依存パッケージの最新版を適用した保守的なリリースにとどまり、新機能やアーキテクチャ変更、具体的な性能向上は示されていません。エージェント関連の話題ではあるものの、既出キーワードと同じ領域で新規性も限定的なため、重要度は低めです。 [Editoria"
+    },
+    "277eaa2253e0f06c7e11eef7ada0ec8d": {
+      "score": 41,
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] OpenAIの取締役会に、AIアライメント研究で著名なPaul Christiano氏が加わる点は、AGIの安全性や開発方針に影響し得る重要な人事です。ただし、具体的な技術発表や製品・アーキテクチャの進展ではなく、主にガバナンスと安全性に関するニュースのため、エンジニアリング上の即時インパクトは限定的です。また、OpenAIおよびAI関連の話題は直近"
+    },
+    "cac1fca0f50077d684f92d255de037d2": {
+      "score": 49,
+      "title": "Anthropic built an economic model that frames its CEO's bleakest job forecasts as an outlier scenario",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Anthropicが2030年までの米国経済を複数シナリオで分析し、知識労働者の失業率17.9%という極端な予測をCEOの見解と位置付けた点は、AIの雇用影響を定量的に考える材料として注目に値します。ただし、これは新しい基盤技術や製品の発表ではなく、既存のAI雇用論に対する経済モデルの提示です。AI・モデル関連の話題は直近に取り上げ済みのため減点し、"
+    },
+    "722b86278b1f118f9088dbbbf90d1d82": {
+      "score": 60,
+      "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] AIの自己改善能力と制御不能リスクに関する警告は、研究開発の安全性・アラインメント・評価手法に関わるため、技術業界への問題提起として重要です。一方で、記事の中心は研究者の退職と強い警告であり、具体的な新モデル、実証結果、技術的ブレークスルーが示されていないため、業界の前提を変える重大発表とまでは言えません。また、既出のAI関連トピックと重なるため、話"
+    },
+    "d8131a8b0f8b49e5440f8fa7c0e2a456": {
+      "score": 48,
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Anthropic内部の研究方針やAIアラインメント、安全性研究の残された時間に関する当事者インタビューであり、AI開発のリスク管理や研究組織の意思決定を考えるうえで重要です。一方、具体的な技術仕様や新モデル、実装上のブレークスルーを発表する記事ではなく、主に研究者の見解と問題提起にとどまります。また、既出キーワードのAIに直接該当し、同じAI安全性"
+    },
+    "b9904e3e9e7f473c2ffcb16f2bb2371b": {
+      "score": 60,
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] OpenAIのエージェントが数学上の重要な未解決問題を解いたという内容は、AIの推論能力や科学研究への応用に関わるため技術的なインパクトは大きいです。一方で、成果の検証可能性や再現性、数学的にどの程度の貢献なのかがスニペットだけでは不明で、現時点では業界の前提を変える確定的な発表とは評価しにくいです。また、既出キーワードであるOpenAI、AI、ag"
+    },
+    "07a49f76dff68f4b268f7d184ffb1039": {
+      "score": 10,
+      "title": "AGCO CEO: We Can Manage Through These Tariffs",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] 農業機械メーカーCEOによる関税と投入コスト、設備需要への見通しであり、主題は企業業績・マクロ経済です。AI、クラウド、プログラミング言語、ロボティクスなどの技術革新やソフトウェア開発への直接的な影響は示されていません。一般消費者向けガジェットではないため最低評価帯の中ではやや上ですが、エンジニア視点での技術的重要度は非常に限定的です。"
+    },
+    "0ef7f38f48e609e753dc642d3133b40c": {
+      "score": 32,
+      "title": "プロジェクトマネジメントの教科書（内製チーム向け）",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] 内製・プロダクト開発における計画、要件定義、チーム運営、実行、運用、終了までを体系化した実務ガイドで、エンジニアリング組織の開発プロセス改善には有用です。一方で、新しい技術、アーキテクチャ、プログラミング言語、AIなどの技術革新ではなく、プロジェクトマネジメント手法の解説が中心です。汎用的な知見として価値はあるものの、業界の前提を変えるニュース性や具"
+    },
+    "ec179958f38e8081af39a7dec091ee8f": {
+      "score": 2,
+      "title": "iPhone Duo",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] 一般消費者向けスマートフォンである折りたたみiPhoneの発表で、ソフトウェアエンジニアリングや技術基盤への直接的な影響は限定的です。折りたたみ端末という新規性はあるものの、評価基準上のガジェット製品に該当するため低評価としました。既出キーワードとの明確な重複もありません。 [Editorial: gadget topic -8]"
+    },
+    "9ca584098331c2993db24bfd842d4aaa": {
+      "score": 66,
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] GPT-6 Astraという次世代LLMの発表であり、推論性能、コンピュータ操作、文章・デザイン判断の向上は、業務自動化やエージェント型ソフトウェアの実装に大きな影響を与え得ます。一方で、内容は既に取り上げ済みのGPT、Astra、OpenAI、AI、モデル関連の話題と同じ角度であり、新機能の具体的なベンチマーク、提供条件、API仕様、価格なども示さ"
+    },
+    "aae60b984f5b6d51eed5b3388aa12d0e": {
+      "score": 54,
+      "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] AIエージェントを金融分析の実務に組み込み、決済、認証、メモリ、コード実行、監査可能なオブザーバビリティを統合した点は、エンタープライズ向けAI基盤の具体的な活用事例として技術的価値があります。特にクエリ単位の市場データ購入やサンドボックス分離は、AIエージェントを実運用する際のコスト管理と安全性に示唆があります。一方で、Amazon Bedrock"
+    },
+    "e47035870c59e90bb72ba79032072d3f": {
+      "score": 39,
+      "title": "Upcoming deprecation of selected GitHub Copilot models",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルを一斉に非推奨化する告知であり、利用者はモデル変更や設定・互換性の確認を迫られるため、開発ワークフローへの影響範囲は広い。一方で、新技術の発表ではなく、サービス運用・ライフサイクル管理に関する告知であるため、評価は低め。さらに、既出の「GitHub」「Copilot」「models」と同一テーマに該当するため、"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 27,
+      "title": "May 11, 2026",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の新しいイメージリリースですが、内容はDebian 12環境に上流依存パッケージの最新版を適用したという定期的な保守更新にとどまり、アーキテクチャや機能面での大きな進展はありません。既出キーワードの「agent」に関連する同系統の話題でもあるため減点し、技術的重要度は低めと判断しました。 [Edi"
+    },
+    "1bb36697f9150c4859d00393cd9a866f": {
+      "score": 32,
+      "title": "Massachusetts hits data centers with new clean power rules",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] データセンター開発に対するクリーン電力要件の強化は、電力調達、インフラ設計、運用コスト、将来の計算資源拡張に影響するため、技術業界との関連性はあります。ただし、記事の中心は州レベルの環境規制であり、具体的な技術革新やアーキテクチャの進展ではありません。スニペットだけでは対象範囲や要件の詳細も不明なため、規制ニュースとして低めに評価します。"
+    },
+    "d1127d24bc5de7b3ee0c5ba5ebda061a": {
+      "score": 69,
+      "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Suno v6は、テキスト・音声・画像を組み合わせたマルチモーダル生成や、自然言語による楽曲の部分編集を実現しており、生成AIの実用性とクリエイティブ領域への影響が大きい発表です。Warner、BMG、Believeとの共同開発も、学習データの権利処理や音楽業界との協業モデルという点で注目に値します。一方で、AIモデルの新世代発表という既出キーワード"
+    },
+    "514f2390d36f347b9ad2b678196bd0d1": {
+      "score": 43,
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] Microsoftの月例セキュリティ更新は企業の運用や脆弱性対応に広く影響するものの、基本的には定期的なパッチリリースであり、技術革新やアーキテクチャの大きな転換ではありません。AI支援型攻撃の増加を背景に緊急性は高い一方、記事の具体的な脆弱性や新しい防御技術はスニペットから確認できないため、セキュリティ運用系のニュースとして低めに評価します。 [E"
+    },
+    "90ee63c02811265c6146a41142b84bb9": {
+      "score": 35,
+      "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] AIを悪用した児童虐待広告に対するMetaの掲載責任と、プラットフォームの広告審査・コンテンツモデレーション体制が焦点となる重要な法務・運用ニュースです。FacebookやInstagramの検知パイプライン、広告審査ログ、再発防止策に影響する可能性はありますが、現時点では具体的な技術革新や新しいアーキテクチャの発表ではなく、行政対応と管轄権を巡る問"
+    },
+    "e4e5e2312f8a1da9fb623f60b0027484": {
+      "score": 47,
+      "title": "Batteries just broke another record in the US",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] 米国で四半期の蓄電池導入量が20.2GWhに達したという具体的かつ大規模な成長は、再生可能エネルギーの安定化や電力網の設計・運用に影響する重要な動向です。エンジニア視点では、系統接続、需給制御、蓄電池管理システムなどのインフラ技術の拡大を示します。一方で、画期的な新技術や個別企業の革新的発表ではなく、市場導入実績の報告が中心であるため、最高評価帯には"
+    },
+    "2a7c37dc60d1e0db52c3f6d70374ab4b": {
+      "score": 43,
+      "title": "QTS Co-CEO on Building Eco-Friendly Data Centers",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] AI需要を支えるデータセンターを、電力・環境負荷・地域社会との摩擦を含むインフラ設計の問題として扱っており、クラウド基盤やデータセンター運用に関心のあるエンジニアには重要です。一方で、具体的な新技術、製品発表、アーキテクチャ仕様、実証結果が示されたニュースではなく、経営者による見解が中心です。また、AIインフラという軸は既出のAI関連トピックと近いた"
+    },
+    "4393fd8df0abedb04c219bb42a8606c0": {
+      "score": 41,
+      "title": "LLMのトークン効率化で気をつけたいことまとめ",
+      "date": "2026-09-10",
+      "reason": "[Claude API Evaluation] LLMのトークン効率化は、推論コストやコンテキスト設計、開発者向けツールの運用に関わる実務的なテーマで、エンジニアにとって一定の有用性があります。一方で、記事は基礎的な注意点を整理したメモであり、具体的な新技術・ベンチマーク・業界を変える発表ではありません。また、既出のAI・モデル関連トピックと近い内容であるため、重複分として減点しました。 [Edi"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-10/blog.md",
+    "show_notes_path": "out/2026-09-10/show_notes.md",
+    "script_path": "out/2026-09-10/script_2hosts.md",
+    "audio_path": "out/2026-09-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24723,
+        "output_tokens": 10509,
+        "cost_usd": 0.017555
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42625,
+        "output_tokens": 7444,
+        "cost_usd": 0.239535
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4221,
+        "cost_usd": 0.050652
+      }
+    ],
+    "total_cost_usd": 0.307742
+  }
+}
