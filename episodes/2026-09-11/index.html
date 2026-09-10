@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 15</title>
+<title>OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -897,11 +897,66 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
 
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta name="description" content="OpenAIが同時発話対応の音声APIを公開し、対話AIの実装がまた一段進んだ">
+<meta property="og:title" content="Tech News Radio — OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-11/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-09-11/">
+<meta property="og:description" content="OpenAIが同時発話対応の音声APIを公開し、対話AIの実装がまた一段進んだ">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-09-11">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-09-11/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に ほか",
+    "description": "2026-09-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-09-11",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-11/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-09-11/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に ほか",
+    "description": "2026-09-11 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-09-11",
+    "url": "https://technewsradio.tokyo/episodes/2026-09-11/",
+    "duration": "PT12M51S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-11/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -919,109 +974,205 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-11/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-11/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-04-24/index.html" class="episode-card">
-        <div class="episode-date">2026-04-24</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-24</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-04-23/index.html" class="episode-card">
-        <div class="episode-date">2026-04-23</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-23</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-09-11</h1>
+<p><em>📖 約10分で読めます ｜ 🏷️ AI, Business, LLM, Hardware, Startup</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に</strong> — OpenAIが同時発話対応の音声API「GPT-Live-1」を公開</li>
+<li>🤖 <strong>AhaBench:エージェントは過去の経験から学習できるか?長期継続学習のためのベンチマーク</strong> — AIエージェントの経験学習を測る新ベンチマーク</li>
+<li>🔧 <strong>プロキシマ・フュージョン、アジア勢が独占する核融合の重要部材に1億4000万ユーロを投資</strong> — 核融合企業Proximaが超電導テープ工場に140億円投資</li>
+<li>📦 <strong>JEP 544: 事前コンパイル</strong> — OpenJDKがコード事前コンパイル機能を提案</li>
+<li>🤖 <strong>研究者がCodexとChatGPTを使って新たな抗菌分子を探索する方法</strong> — AIで新種の抗菌分子を探索する研究</li>
+<li>🤖 <strong>善悪を超えて:大規模言語モデルにおける二次的社会的推論の評価</strong> — AIの「メタ規範」理解を測る新研究</li>
+</ul>
+<hr />
+<h2>🤖 OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に</h2>
+<p><code>AI</code> <code>Business</code></p>
+<details><summary>📄 原題: OpenAI&#x27;s GPT-Live-1 API lets developers build apps that talk and listen at the same time</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIが同時発話対応の音声API「GPT-Live-1」を公開</p>
+</blockquote>
+<ul>
+<li>OpenAIが開発者向け音声API「GPT-Live-1」を公開</li>
+<li>同時に話して聞ける双方向対応の音声モデル</li>
+<li>対話性テストで80.1%と前モデルの45.4%から大幅向上</li>
+<li>料金は1分あたり0.05ドルで、決して安くない</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+音声AIはこれまで話す・聞くを交互に行う方式が中心で、人間らしい自然な会話には課題がありました。同時発話に対応するモデルが登場すれば、音声アシスタントの実用性が一段と高まると見られています。 音声インターフェースを使うアプリ開発が活発になり、コールセンターや教育、対話型サービスなどで応用が広がる可能性があります。一方で利用料金の高さが普及のハードルになるかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+音声アプリを検討するエンジニアは、まず小規模な検証で対話性能とコストのバランスを確認すべきです。既存の音声APIとの比較検討も欠かせません。</p>
+<p>🔗 <a href="https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/">原文を読む</a></p>
+<hr />
+<h2>🤖 AhaBench:エージェントは過去の経験から学習できるか?長期継続学習のためのベンチマーク</h2>
+<p><code>AI</code> <code>LLM</code></p>
+<details><summary>📄 原題: AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AIエージェントの経験学習を測る新ベンチマーク</p>
+</blockquote>
+<ul>
+<li>AhaBenchは長期にわたる経験学習を評価する新指標</li>
+<li>多くの評価はプロンプト後にリセットし最終状態のみ採点</li>
+<li>固定モデルが経験を得た後の行動改善を測定</li>
+<li>関連する評価条件下での挙動変化に注目</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+現在のAIエージェントは対話を重ね道具からのフィードバックを受け取り、遅れて表れる結果にも対応する必要があります。しかし多くの評価手法は一回のやり取りごとにリセットしてしまい、経験の蓄積による改善を測れていません。AhaBenchはこの課題に応えるベンチマークだそうです。 長期的な経験学習を測る指標が広まれば、エージェント開発の評価軸が変わる可能性があります。単発タスクの精度だけでなく、経験を重ねた際の改善度合いが重視される流れが強まりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エージェント開発者はAhaBenchのような長期評価の仕組みを取り入れ、単発性能だけでなく経験からの学習効果も検証すべきです。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2609.05435">原文を読む</a></p>
+<hr />
+<h2>🔧 プロキシマ・フュージョン、アジア勢が独占する核融合の重要部材に1億4000万ユーロを投資</h2>
+<p><code>Hardware</code> <code>Startup</code> <code>Science</code></p>
+<details><summary>📄 原題: Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 核融合企業Proximaが超電導テープ工場に140億円投資</p>
+</blockquote>
+<ul>
+<li>Proxima Fusionが1億4000万ユーロを投じて工場を新設</li>
+<li>核融合炉に使う高温超電導（HTS）テープを自社生産する計画</li>
+<li>この部材市場は現状アジア勢の供給が中心だそうです</li>
+<li>反応炉設計に欠かせない主要部品の内製化を狙う</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+核融合炉の実用化には、強力な磁場を作る高温超電導テープが欠かせません。この部材の供給網は現在アジアの一部メーカーに集中していると見られており、欧州の核融合スタートアップにとって調達リスクとなっていました。Proxima Fusionは自社工場を持つことで、この依存から脱却し、開発スケジュールを自らコントロールしようとしていると考えられます。 核融合分野でも半導体と同様にサプライチェーンの地政学リスクが意識され始めています。今後、欧米の核融合企業が重要部材の内製化や自国生産へ動く流れが強まる可能性があります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアやリーダーは、先端素材のサプライチェーン動向を注視し、自社事業が特定地域の供給に過度に依存していないか点検すべきです。</p>
+<p>🔗 <a href="https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/">原文を読む</a></p>
+<hr />
+<h2>📦 JEP 544: 事前コンパイル</h2>
+<p><code>OSS</code> <code>Cloud</code></p>
+<details><summary>📄 原題: JEP 544: Ahead-of</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenJDKがコード事前コンパイル機能を提案</p>
+</blockquote>
+<ul>
+<li>JEP 544はJavaの事前コンパイル機能を扱う提案</li>
+<li>John Rose氏が提案者で、現在Candidateの状態</li>
+<li>JEP 483（クラスの事前ロード）やJEP 515（メソッドの事前プロファイリング）と関連</li>
+<li>Leydenプロジェクトの一環としてOpenJDKで議論中</li>
+<li>Vladimir Kozlov氏らがレビューと承認を担当</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Javaはこれまで実行時にコードをコンパイルするJIT方式が中心でしたが、起動の遅さが課題でした。事前コンパイル（AOT）はこの起動時間を短くする狙いがあります。Leydenプロジェクトは、Javaの起動速度とメモリ効率を改善する一連の取り組みで、このJEPもその一部と見られています。 起動時間の短縮はサーバーサイドJavaやクラウド環境での実行効率に直結します。特にコンテナ環境やサーバーレス（サーバー管理不要な実行形態）では、起動の速さがコスト削減につながるため、業界全体への波及効果が期待されます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Javaを使う開発チームは、Leydenプロジェクトの進捗を継続的に確認し、将来的なJDKバージョンでの事前コンパイル導入に備えて設計を見直すとよいでしょう。特にクラウドネイティブなシステムを運用するエンジニアは注目すべきです。</p>
+<p>🔗 <a href="https://openjdk.org/jeps/544">原文を読む</a></p>
+<hr />
+<h2>🤖 研究者がCodexとChatGPTを使って新たな抗菌分子を探索する方法</h2>
+<p><code>AI</code> <code>Science</code></p>
+<details><summary>📄 原題: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AIで新種の抗菌分子を探索する研究</p>
+</blockquote>
+<ul>
+<li>César de la Fuente氏の研究室がCodexとChatGPTを活用</li>
+<li>現存・絶滅生物のゲノムから抗菌候補を探索</li>
+<li>薬剤耐性感染症への対抗が目的</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+薬剤耐性菌の増加は世界的な医療課題であり、新しい抗菌薬の開発が急がれています。従来の創薬は膨大な時間とコストがかかるため、AIによるゲノム解析で候補分子を効率的に見つける試みが注目されています。 AIを使った創薬手法が広がれば、医薬品開発のスピードが大きく変わる可能性があります。生命科学とAI技術の融合が今後さらに進むと見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは生命科学分野でのAI活用事例を学び、専門知識を持つ研究者との協業スキルを磨くとよさそうです。</p>
+<p>🔗 <a href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials">原文を読む</a></p>
+<hr />
+<h2>🤖 善悪を超えて:大規模言語モデルにおける二次的社会的推論の評価</h2>
+<p><code>AI</code> <code>LLM</code></p>
+<details><summary>📄 原題: Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AIの「メタ規範」理解を測る新研究</p>
+</blockquote>
+<ul>
+<li>従来のAI倫理研究は「何が正しいか」という一次規範に偏っていた</li>
+<li>この研究は違反時に誰がどう罰するかという二次的な社会推論に注目</li>
+<li>この予測は「メタ規範」と呼ばれ、公的な恥や罰則の予測を含む</li>
+<li>大規模言語モデルのメタ規範理解を評価する枠組みを提案</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIの社会的整合性の研究は、盗みなどの禁止行為を教える一次規範が中心でした。しかし実際の社会生活では、規範違反が起きたときに周囲がどう反応するかを予測する力も重要です。この研究は、その二次的な社会推論力をLLMがどれだけ持つかを調べています。 AIが人間社会に溶け込むには、単純な善悪判断だけでなく、社会的な制裁の仕組みを理解する必要があります。この研究成果は、対話AIやロボットが人間集団の中でより自然に振る舞うための基盤技術になり得ます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+AI開発者は、モデル評価の指標に一次規範だけでなく二次的な社会的期待の理解度を加えることを検討すべきです。対話システムの応答設計にも、規範違反後の社会的反応を考慮した仕組みを取り入れる価値があります。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2609.05437">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>この3つのニュースに共通するのは、技術が「実験段階」から「実用・継続運用」へと軸足を移しつつあるという流れです。OpenAIのリアルタイム音声APIは対話の即応性を高め、AhaBenchはエージェントが単発のタスクではなく時間をまたいで経験を蓄積し続ける能力を測ろうとしており、核融合企業の部材投資も研究レベルの実証から量産・実装フェーズへの移行を示しています。それぞれ音声AI、自律エージェント、エネルギーという異なる領域でありながら、いずれも「一度きりの成果」ではなく「継続的に機能し進化するシステム」を目指す姿勢が共通しています。こうした動きは、AIやエネルギー技術が社会インフラとして定着するための土台づくりが本格化していることを示唆していると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に</strong>: 音声アプリを検討するエンジニアは、まず小規模な検証で対話性能とコストのバランスを確認すべきです。既存の音声APIとの比較検討も欠かせません。</li>
+<li><strong>AhaBench:エージェントは過去の経験から学習できるか?長期継続学習のためのベンチマーク</strong>: エージェント開発者はAhaBenchのような長期評価の仕組みを取り入れ、単発性能だけでなく経験からの学習効果も検証すべきです。</li>
+<li><strong>プロキシマ・フュージョン、アジア勢が独占する核融合の重要部材に1億4000万ユーロを投資</strong>: エンジニアやリーダーは、先端素材のサプライチェーン動向を注視し、自社事業が特定地域の供給に過度に依存していないか点検すべきです。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/">OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に</a></li>
+<li><a href="https://arxiv.org/abs/2609.05435">AhaBench:エージェントは過去の経験から学習できるか?長期継続学習のためのベンチマーク</a></li>
+<li><a href="https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/">プロキシマ・フュージョン、アジア勢が独占する核融合の重要部材に1億4000万ユーロを投資</a></li>
+<li><a href="https://openjdk.org/jeps/544">JEP 544: 事前コンパイル</a></li>
+<li><a href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials">研究者がCodexとChatGPTを使って新たな抗菌分子を探索する方法</a></li>
+<li><a href="https://arxiv.org/abs/2609.05437">善悪を超えて:大規模言語モデルにおける二次的社会的推論の評価</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #164 (2026-09-11)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #164</li>
+<li><strong>日付</strong>: 2026-09-11</li>
+<li><strong>尺</strong>: 約 12 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/">OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time</a></li>
+<li><a href="https://arxiv.org/abs/2609.05435">AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning</a></li>
+<li><a href="https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/">Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://openjdk.org/jeps/544">JEP 544: Ahead-of</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials">How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</a></li>
+<li><a href="https://arxiv.org/abs/2609.05437">Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models</a></li>
+</ul></div>
 
-      <a href="../../episodes/2026-04-22/index.html" class="episode-card">
-        <div class="episode-date">2026-04-22</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-22</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>9 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%AE%E3%80%8CGPT-Live-1%E3%80%8DAPI%E3%80%81%E4%BC%9A%E8%A9%B1%E3%82%92%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%81%A7%E8%A9%B1%E3%81%97%E8%81%9E%E3%81%8D%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA%E3%81%8C%E5%8F%AF%E8%83%BD%E3%81%AB%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-09-11/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-09-11/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-04-21/index.html" class="episode-card">
-        <div class="episode-date">2026-04-21</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-21</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-20/index.html" class="episode-card">
-        <div class="episode-date">2026-04-20</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-20</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-19/index.html" class="episode-card">
-        <div class="episode-date">2026-04-19</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-19</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-18/index.html" class="episode-card">
-        <div class="episode-date">2026-04-18</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-18</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-17/index.html" class="episode-card">
-        <div class="episode-date">2026-04-17</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-17</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-16/index.html" class="episode-card">
-        <div class="episode-date">2026-04-16</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-16</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-04-15/index.html" class="episode-card">
-        <div class="episode-date">2026-04-15</div>
-        <h3 class="episode-title">Tech News Radio - 2026-04-15</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../14/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><span class="current">15</span><a href="../16/index.html">16</a><a href="../17/index.html">17</a><a href="../16/index.html">次へ</a><span class="summary">Page 15 / 17</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1048,104 +1199,21 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
-(function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
 
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
+<script>
 
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
   }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
+}
 </script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
-  const renderMode = "default";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-notice');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  </body>
-  </html>
+</body>
+</html>

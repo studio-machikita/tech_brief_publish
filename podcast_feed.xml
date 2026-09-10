@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#164 OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に ほか</title>
+      <description>Tech News Radio Show Notes - #164 (2026-09-11)
+
+エピソード情報
+• エピソード: #164
+• 日付: 2026-09-11
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time (https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/)
+• AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning (https://arxiv.org/abs/2609.05435)
+• Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers (https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/)
+
+注目の深掘り
+• JEP 544: Ahead-of (https://openjdk.org/jeps/544)
+
+小ネタ・その他
+• How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules (https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials)
+• Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models (https://arxiv.org/abs/2609.05437)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-11/episode_audio.mp3" length="12346797" type="audio/mpeg" />
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-11</guid>
+      <itunes:duration>12:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAIの「GPT-Live-1」API、会話をリアルタイムで話し聞きできるアプリ開発が可能に ほか</itunes:title>
+      <itunes:episode>164</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #164 (2026-09-11)
+
+エピソード情報
+• エピソード: #164
+• 日付: 2026-09-11
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time (https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/)
+• AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning (https://arxiv.org/abs/2609.05435)
+• Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers (https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/)
+
+注目の深掘り
+• JEP 544: Ahead-of (https://openjdk.org/jeps/544)
+
+小ネタ・その他
+• How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules (https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials)
+• Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models (https://arxiv.org/abs/2609.05437)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-11/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:28.570" title="OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time" href="https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/" />
+        <psc:chapter start="00:02:10.070" title="AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning" href="https://arxiv.org/abs/2609.05435" />
+        <psc:chapter start="00:03:47.420" title="Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers" href="https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/" />
+        <psc:chapter start="00:05:38.940" title="JEP 544: Ahead-of" href="https://openjdk.org/jeps/544" />
+        <psc:chapter start="00:07:48.660" title="How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules" href="https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials" />
+        <psc:chapter start="00:09:52.220" title="Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models" href="https://arxiv.org/abs/2609.05437" />
+        <psc:chapter start="00:12:20.890" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#163 SunoがWarner、BMG、Believeと共同開発した音楽モデル「v6」を発表 ほか</title>
       <description>Tech News Radio Show Notes - #163 (2026-09-10)
 

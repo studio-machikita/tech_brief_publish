@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 28.57,
+    "title": "OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time",
+    "url": "https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/"
+  },
+  {
+    "start_sec": 130.07,
+    "title": "AhaBench: Do Agents Learn from Prior Experience? A Benchmark for Long-Horizon Continual Learning",
+    "url": "https://arxiv.org/abs/2609.05435"
+  },
+  {
+    "start_sec": 227.42,
+    "title": "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers",
+    "url": "https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/"
+  },
+  {
+    "start_sec": 338.94,
+    "title": "JEP 544: Ahead-of",
+    "url": "https://openjdk.org/jeps/544"
+  },
+  {
+    "start_sec": 468.66,
+    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+  },
+  {
+    "start_sec": 592.22,
+    "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+    "url": "https://arxiv.org/abs/2609.05437"
+  },
+  {
+    "start_sec": 740.89,
+    "title": "エンディング",
+    "url": null
+  }
+]
