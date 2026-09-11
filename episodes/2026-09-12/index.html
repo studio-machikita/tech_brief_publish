@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 11</title>
+<title>ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -897,11 +897,66 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
 
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta name="description" content="OpenAIが10億人規模を支えるストレージ基盤の裏側を公開">
+<meta property="og:title" content="Tech News Radio — ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-12/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-09-12/">
+<meta property="og:description" content="OpenAIが10億人規模を支えるストレージ基盤の裏側を公開">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-09-12">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-09-12/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング ほか",
+    "description": "2026-09-12 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-09-12",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-12/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-09-12/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング ほか",
+    "description": "2026-09-12 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-09-12",
+    "url": "https://technewsradio.tokyo/episodes/2026-09-12/",
+    "duration": "PT12M43S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-12/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -919,109 +974,207 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-12/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-12/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
 
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-06-04/index.html" class="episode-card">
-        <div class="episode-date">2026-06-04</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-04</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-06-03/index.html" class="episode-card">
-        <div class="episode-date">2026-06-03</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-03</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-09-12</h1>
+<p><em>📖 約10分で読めます ｜ 🏷️ AI, Cloud, DevOps, Startup, Data</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング</strong> — OpenAIのHabitatが支える10億人規模のストレージ基盤</li>
+<li>🤖 <strong>元DeepMind副社長のヴィニャルス氏、AIの自己改善は到来するが「知能爆発」は起きないと発言</strong> — 元DeepMind幹部、AI知能爆発説に懐疑的な見方</li>
+<li>🤖 <strong>データを誰もが活用できる時代に</strong> — ChatGPT WorkにData agentが登場</li>
+<li>🤖 <strong>トークン単価だけで選ばない：Amazon Bedrockでワークロードに最適なOpenAIモデルを選ぶ方法</strong> — トークン単価でなく成果でモデル選定を評価</li>
+<li>🤖 <strong>M3-Former:長期船舶軌道予測のための混合エキスパート型マルチモーダルトランスフォーマー</strong> — LLMで船舶の長期軌道予測を高精度化する新手法</li>
+<li>⚙️ <strong>単体テストの実行時間を6割程度削減してみた</strong> — 単体テストの実行時間を約6割削減した事例</li>
+</ul>
+<hr />
+<h2>🤖 ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング</h2>
+<p><code>AI</code> <code>Cloud</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Rapidly scaling online storage to serve over 1 billion ChatGPT users</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIのHabitatが支える10億人規模のストレージ基盤</p>
+</blockquote>
+<ul>
+<li>Habitatは元々Pythonライブラリとして誕生</li>
+<li>現在は世界規模の分散ストレージ基盤に進化</li>
+<li>ChatGPTの10億人ユーザーを支える設計に成長</li>
+<li>秒間2200万リクエストを処理する規模まで拡大</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+ChatGPTの利用者急増により、既存のストレージ基盤では負荷に耐えられなくなったと見られています。OpenAIは小さなライブラリだったHabitatを、大規模分散システムへ段階的に発展させたそうです。 巨大AIサービスを支えるインフラ設計の知見は、他社のシステム構築にも影響を与える可能性があります。分散ストレージの設計思想が業界標準として広がるかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは急成長するサービスを見据え、初期段階からスケールしやすい設計を意識すべきです。小さなツールを段階的に拡張する開発手法も参考になります。</p>
+<p>🔗 <a href="https://openai.com/index/scaling-storage-one-billion-users-part-one">原文を読む</a></p>
+<hr />
+<h2>🤖 元DeepMind副社長のヴィニャルス氏、AIの自己改善は到来するが「知能爆発」は起きないと発言</h2>
+<p><code>AI</code> <code>Startup</code></p>
+<details><summary>📄 原題: Ex-Deepmind VP Vinyals says AI self-improvement is coming but won&#x27;t trigger an intelligence explosion</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 元DeepMind幹部、AI知能爆発説に懐疑的な見方</p>
+</blockquote>
+<ul>
+<li>Vinyals氏はAIによる知能の急激な自己改善は起きにくいと主張</li>
+<li>AIは研究速度を10倍にできるが「研究の勘」と結果評価に壁がある</li>
+<li>報酬ハッキングや光速の限界も自己改善の制約になると指摘</li>
+<li>Jeff Dean氏らとDiscovery Loopを設立しこの課題に取り組む方針</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIが自らを再帰的に改善し急速に知能を高める「知能爆発」論は、AI安全性議論の中心的な論点です。Google DeepMindで研究部門トップを務めたVinyals氏の発言は、業界の楽観論と悲観論の両方に一石を投じる内容と言えます。 AI研究の加速ペースについて現実的な期待値が広がれば、投資判断や規制議論にも影響が及ぶ可能性があります。急激な技術的特異点よりも、段階的な研究効率化が今後の焦点になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアはAIを研究補助ツールとして活用しつつ、結果の妥当性を人間が検証する体制づくりを進めるべきです。過度な自動化への期待は避け、評価基準の整備を優先しましょう。</p>
+<p>🔗 <a href="https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/">原文を読む</a></p>
+<hr />
+<h2>🤖 データを誰もが活用できる時代に</h2>
+<p><code>AI</code> <code>Data</code> <code>Business</code></p>
+<details><summary>📄 原題: Now everyone can put data to work</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ChatGPT WorkにData agentが登場</p>
+</blockquote>
+<ul>
+<li>ChatGPT WorkでData agentが利用可能に</li>
+<li>自然言語で会社データを接続し分析できる</li>
+<li>対話形式でダッシュボードを作成できる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+企業のデータ分析は専門知識が必要で、担当者が偏りがちでした。自然言語でデータを扱えるAIエージェントが登場すれば、分析業務の裾野が広がると見られています。 データ分析の民主化が進み、非エンジニアでも意思決定に必要な洞察を得やすくなりそうです。一方で、企業内データをAIに接続する動きが広がり、データガバナンスの重要性も増すと考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+自社データとAIエージェントの連携方法を検討し、セキュリティ設計とアクセス権限の整理を早めに進めるべきです。</p>
+<p>🔗 <a href="https://openai.com/index/put-data-to-work">原文を読む</a></p>
+<p>🔗 <a href="https://openai.com/index/the-work-now-within-reach">原文を読む</a></p>
+<hr />
+<h2>🤖 トークン単価だけで選ばない：Amazon Bedrockでワークロードに最適なOpenAIモデルを選ぶ方法</h2>
+<p><code>AI</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: トークン単価でなく成果でモデル選定を評価</p>
+</blockquote>
+<ul>
+<li>Amazon Bedrock上のOpenAIモデル比較で新たな指標を提案</li>
+<li>正解1件あたりのコストで実際の費用対効果を測定</li>
+<li>エージェントの処理過程全体にかかるコストも評価対象</li>
+<li>採点基準に沿った成果物の品質もあわせて測定</li>
+<li>オープンソースのベンチマークツールとして公開</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+従来、AIモデルの比較は100万トークンあたりの価格で語られがちでした。しかし実際の業務では、安いモデルでも間違った答えを何度も出力すれば、結果的にコストがかさみます。この記事は、価格表だけでは見えない実運用コストを測る手法を提示しています。 モデル選定の基準が「単価」から「成果あたりコスト」へ移ると見られています。企業のAI導入判断や、クラウドベンダーのモデル提供方針にも影響しそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは自社のワークロードで正解率とコストを実測し、単価だけで判断しない体制を整えるべきです。公開されたベンチマークツールを使い、自社データで検証することが第一歩になります。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/">原文を読む</a></p>
+<hr />
+<h2>🤖 M3-Former:長期船舶軌道予測のための混合エキスパート型マルチモーダルトランスフォーマー</h2>
+<p><code>AI</code> <code>LLM</code></p>
+<details><summary>📄 原題: M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: LLMで船舶の長期軌道予測を高精度化する新手法</p>
+</blockquote>
+<ul>
+<li>M3-Formerは大規模言語モデル(LLM)を活用した船舶軌道予測の枠組み</li>
+<li>船の静的属性や航行意図を意味情報として組み込み長期予測を強化</li>
+<li>複数モダリティを統一表現化し、行動の多様性や誤差蓄積に対応</li>
+<li>Mixture-of-Expertsの仕組みで長期予測時の誤差累積を抑制すると見られる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+船舶の航行データは、速度や進行方向などの数値情報だけでなく、船の種類や目的地といった意味的な情報も含みます。従来の軌道予測はこうした意味情報を十分活用できず、長期予測になるほど誤差が蓄積するという課題がありました。海上交通の安全管理や衝突回避システムでは、より長い時間軸での正確な予測が求められており、この課題解決は実用面でも重要です。 LLMを活用したマルチモーダル予測手法が船舶分野に応用されたことで、同様の時系列予測を必要とする交通・物流分野への応用が進む可能性があります。海運業界のデジタル化やスマート港湾の実現に向けた技術基盤の一つになると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+AI開発者は、LLMを使った意味情報の統合手法や、Mixture-of-Expertsによる誤差抑制の仕組みを自社の時系列予測タスクに応用できないか検討すると良いでしょう。海事・物流業界の技術者は、この手法の実運用データでの検証結果に注目する価値があります。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2609.10559">原文を読む</a></p>
+<hr />
+<h2>⚙️ 単体テストの実行時間を6割程度削減してみた</h2>
+<p><code>DevOps</code> <code>AI</code></p>
+<blockquote>
+<p><strong>一言で</strong>: 単体テストの実行時間を約6割削減した事例</p>
+</blockquote>
+<ul>
+<li>CI環境での単体テスト実行時間がp90で16分14秒まで増加</li>
+<li>テストのみでも14分30秒かかっていた</li>
+<li>CI時間の増加が開発体験の悪化に直結すると指摘</li>
+<li>実行時間を約6割削減する取り組みを実施</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIによる実装支援が普及し、単体テストがコード品質を保証する重要な役割を担うようになりました。その一方でテスト量の増加により実行時間も伸び、CIの待ち時間が開発効率を下げる新たな課題として浮上しています。 AI活用でコード生成量が増えるほど、テスト整備と実行速度の両立が開発チーム共通の課題になると見られています。CI高速化の工夫は今後さらに重要視されそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+CIのボトルネックを定期的に計測し、テストの並列化や不要なテストの見直しを検討するとよいでしょう。</p>
+<p>🔗 <a href="https://zenn.dev/dress_code/articles/5dd5de5020d9ef">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>この3つのニュースからは、AI技術が実験段階から社会基盤としての成熟段階へと移行しつつあるという共通の流れが読み取れます。ChatGPTを支えるストレージ基盤の巨大化も、業務向けにデータ活用機能が組み込まれていく動きも、AIがもはや一部の専門家や研究者だけのものではなく、数十億人規模のユーザーや一般企業の日常業務に浸透していく段階に入ったことを示しています。一方でヴィニャルス氏の発言は、こうした急速な普及と裏腹に、技術の限界や将来像について業界内部でより冷静で現実的な議論が進んでいることを物語っています。つまり、AI業界は熱狂的な期待から、インフラ整備・実用化・リスクや限界の見極めといった、より地に足のついた成熟期へと移行しつつあると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング</strong>: エンジニアは急成長するサービスを見据え、初期段階からスケールしやすい設計を意識すべきです。小さなツールを段階的に拡張する開発手法も参考になります。</li>
+<li><strong>元DeepMind副社長のヴィニャルス氏、AIの自己改善は到来するが「知能爆発」は起きないと発言</strong>: エンジニアはAIを研究補助ツールとして活用しつつ、結果の妥当性を人間が検証する体制づくりを進めるべきです。過度な自動化への期待は避け、評価基準の整備を優先しましょう。</li>
+<li><strong>データを誰もが活用できる時代に</strong>: 自社データとAIエージェントの連携方法を検討し、セキュリティ設計とアクセス権限の整理を早めに進めるべきです。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://openai.com/index/scaling-storage-one-billion-users-part-one">ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング</a></li>
+<li><a href="https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/">元DeepMind副社長のヴィニャルス氏、AIの自己改善は到来するが「知能爆発」は起きないと発言</a></li>
+<li><a href="https://openai.com/index/put-data-to-work">データを誰もが活用できる時代に</a></li>
+<li><a href="https://openai.com/index/the-work-now-within-reach">データを誰もが活用できる時代に</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/">トークン単価だけで選ばない：Amazon Bedrockでワークロードに最適なOpenAIモデルを選ぶ方法</a></li>
+<li><a href="https://arxiv.org/abs/2609.10559">M3-Former:長期船舶軌道予測のための混合エキスパート型マルチモーダルトランスフォーマー</a></li>
+<li><a href="https://zenn.dev/dress_code/articles/5dd5de5020d9ef">単体テストの実行時間を6割程度削減してみた</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #165 (2026-09-12)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #165</li>
+<li><strong>日付</strong>: 2026-09-12</li>
+<li><strong>尺</strong>: 約 12 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://openai.com/index/scaling-storage-one-billion-users-part-one">Rapidly scaling online storage to serve over 1 billion ChatGPT users</a></li>
+<li><a href="https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/">Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion</a></li>
+<li><a href="https://openai.com/index/put-data-to-work">Now everyone can put data to work</a></li>
+<li><a href="https://openai.com/index/the-work-now-within-reach">Now everyone can put data to work</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/">Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://arxiv.org/abs/2609.10559">M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction</a></li>
+<li><a href="https://zenn.dev/dress_code/articles/5dd5de5020d9ef">単体テストの実行時間を6割程度削減してみた</a></li>
+</ul></div>
 
-      <a href="../../episodes/2026-06-02/index.html" class="episode-card">
-        <div class="episode-date">2026-06-02</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-02</h3>
-        <div class="episode-meta">
-          <span>11 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=ChatGPT%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC10%E5%84%84%E4%BA%BA%E8%B6%85%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E3%81%AE%E6%80%A5%E9%80%9F%E3%81%AA%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-09-12/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-09-12/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-06-01/index.html" class="episode-card">
-        <div class="episode-date">2026-06-01</div>
-        <h3 class="episode-title">Tech News Radio - 2026-06-01</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-31/index.html" class="episode-card">
-        <div class="episode-date">2026-05-31</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-31</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-30/index.html" class="episode-card">
-        <div class="episode-date">2026-05-30</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-30</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-29/index.html" class="episode-card">
-        <div class="episode-date">2026-05-29</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-29</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>9 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-28/index.html" class="episode-card">
-        <div class="episode-date">2026-05-28</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-28</h3>
-        <div class="episode-meta">
-          <span>12 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-27/index.html" class="episode-card">
-        <div class="episode-date">2026-05-27</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-27</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-05-26/index.html" class="episode-card">
-        <div class="episode-date">2026-05-26</div>
-        <h3 class="episode-title">Tech News Radio - 2026-05-26</h3>
-        <div class="episode-meta">
-          <span>14 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../10/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><a href="../6/index.html">6</a><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><span class="current">11</span><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../15/index.html">15</a><a href="../16/index.html">16</a><a href="../17/index.html">17</a><a href="../12/index.html">次へ</a><span class="summary">Page 11 / 17</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1048,104 +1201,21 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
-(function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
 
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
+<script>
 
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
   }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
+}
 </script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
-  const renderMode = "default";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-notice');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  </body>
-  </html>
+</body>
+</html>

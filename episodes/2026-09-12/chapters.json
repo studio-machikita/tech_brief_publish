@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 26.88,
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+  },
+  {
+    "start_sec": 125.95,
+    "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
+    "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/"
+  },
+  {
+    "start_sec": 252.04,
+    "title": "Now everyone can put data to work",
+    "url": "https://openai.com/index/put-data-to-work"
+  },
+  {
+    "start_sec": 353.44,
+    "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+    "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/"
+  },
+  {
+    "start_sec": 489.14,
+    "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
+    "url": "https://arxiv.org/abs/2609.10559"
+  },
+  {
+    "start_sec": 614.77,
+    "title": "単体テストの実行時間を6割程度削減してみた",
+    "url": "https://zenn.dev/dress_code/articles/5dd5de5020d9ef"
+  },
+  {
+    "start_sec": 728.66,
+    "title": "エンディング",
+    "url": null
+  }
+]

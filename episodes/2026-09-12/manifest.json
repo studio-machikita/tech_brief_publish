@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-12",
+  "episode_date_local": "2026-09-12",
+  "content_snapshot_date": "2026-09-12",
+  "show_length_sec": 763,
+  "audio_size": 12221229,
+  "generated_at": "2026-09-11T22:32:26.858948+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d5a27297",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "title_ja": "ChatGPTユーザー10億人超を支えるオンラインストレージの急速なスケーリング",
+      "one_liner": "OpenAIのHabitatが支える10億人規模のストレージ基盤",
+      "fingerprint": "d5a272971e60c9c2683b2c86b5893841",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-be5c8e3a",
+      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
+      "title_ja": "元DeepMind副社長のヴィニャルス氏、AIの自己改善は到来するが「知能爆発」は起きないと発言",
+      "one_liner": "元DeepMind幹部、AI知能爆発説に懐疑的な見方",
+      "fingerprint": "be5c8e3a9025e24dedacd88bd9f8899b",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-b4bcd6c1",
+      "title": "Now everyone can put data to work",
+      "title_ja": "データを誰もが活用できる時代に",
+      "one_liner": "ChatGPT WorkにData agentが登場",
+      "fingerprint": "b4bcd6c10ae90197f761c57b414d5edf",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-47b7da50",
+      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+      "title_ja": "トークン単価だけで選ばない：Amazon Bedrockでワークロードに最適なOpenAIモデルを選ぶ方法",
+      "one_liner": "トークン単価でなく成果でモデル選定を評価",
+      "fingerprint": "47b7da500b68e939e82b016d98cd6c5d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-85b2e134",
+      "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
+      "title_ja": "M3-Former:長期船舶軌道予測のための混合エキスパート型マルチモーダルトランスフォーマー",
+      "one_liner": "LLMで船舶の長期軌道予測を高精度化する新手法",
+      "fingerprint": "85b2e1345365432c158345db3ea55c75",
+      "score": 65,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-6b10986f",
+      "title": "単体テストの実行時間を6割程度削減してみた",
+      "title_ja": "単体テストの実行時間を6割程度削減してみた",
+      "one_liner": "単体テストの実行時間を約6割削減した事例",
+      "fingerprint": "6b10986fe1f87a49a743d0ffd924ff8f",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d287ce0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - mirza-rizvi/ResolveHQ: Cloudflare-native shared support inbox for small teams"
+    },
+    {
+      "item_id": "item-7b6508b6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations"
+    },
+    {
+      "item_id": "item-cd77e608",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Anthropic Doomsayer Jacob Coxon Saw"
+    },
+    {
+      "item_id": "item-3de00165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows"
+    },
+    {
+      "item_id": "item-89a2d2a5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement"
+    },
+    {
+      "item_id": "item-041915a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+    },
+    {
+      "item_id": "item-24cee670",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-514f2390",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why this month's Microsoft patch release is a doozy"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-24140ac9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s feud with mathematicians is only escalating"
+    },
+    {
+      "item_id": "item-f975b59b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Auto-resolution and analysis updates in Copilot code review"
+    },
+    {
+      "item_id": "item-e14deffa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add VS Code Agents to Copilot usage metrics"
+    },
+    {
+      "item_id": "item-6f40ef11",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Roundtables: AI’s apocalypse crisis"
+    },
+    {
+      "item_id": "item-1302cfb2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The US Government Launched 3 Previously Unreported Investigations of Polymarket Trades"
+    },
+    {
+      "item_id": "item-43a12188",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Larry Ellison Steps Back From Oracle Limelight in AI Era"
+    },
+    {
+      "item_id": "item-5f030a38",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Project Blinkenlights"
+    },
+    {
+      "item_id": "item-097ab8b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road"
+    }
+  ],
+  "score_cache": {
+    "5f030a38934fce31ac2a99304c4551c0": {
+      "score": 24,
+      "title": "Project Blinkenlights",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] スニペットがなく、「Project Blinkenlights」という名称だけでは技術領域、革新性、影響範囲を判断できません。AI・クラウド・プログラミング言語などの主要技術の具体的な進展も確認できないため、現時点では低めの評価とします。"
+    },
+    "d5a272971e60c9c2683b2c86b5893841": {
+      "score": 92,
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] OpenAIがPythonライブラリからグローバル分散ストレージ基盤へHabitatを発展させ、22Mリクエスト/秒規模でChatGPTを支える設計事例は、分散システム、ストレージ、スケーラビリティの観点で非常に価値が高い。単なるAIモデルの発表ではなく、超大規模サービスを実運用するためのアーキテクチャと進化の具体例である点を評価した。既出のAI・O"
+    },
+    "7b6508b60444ea9e44c741cb79fcb306": {
+      "score": 54,
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] 本番環境のマルチエージェントを対象に、AgentCore Evaluationsによる品質評価とAWS DevOps Agentによるインフラ調査を組み合わせる実践的な監視手法であり、AIエージェント運用や可観測性の観点では有用性が高い。一方で、既出キーワードのAgentCoreやAIエージェント運用と同じ領域に該当し、記事単体では業界の前提を変える"
+    },
+    "24cee670b21a7aa49ac25fb5d04f2898": {
+      "score": 43,
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] マーケティング業務をコード化し、イベントの企画からフォローアップまでを自動化する実践例であり、GitHubを業務基盤として活用する点には一定の技術的価値があります。ただし、基盤技術やアーキテクチャの革新というよりは特定チームの業務改善事例で、汎用的な影響範囲は限定的です。また、既出キーワードであるGitHubやCopilotと同じ文脈の続報・活用事例"
+    },
+    "e14deffa49d104c15b25ca91f82849da": {
+      "score": 35,
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況メトリクスにVS Code Agents専用ウィンドウの活動指標が追加され、企業での導入状況やエンゲージメントを測定しやすくなる点は実務上有用です。ただし、技術基盤やエージェント機能そのものの革新ではなく、主に管理・可視化機能の拡張にとどまります。また、直近放送済みの「Copilot」関連トピックと同じ話題領域で"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 41,
+      "title": "April 27, 2026",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージの最新版を適用したリリースであり、運用上の保守性や環境の更新には意義があります。一方で、新しいアーキテクチャやAI機能、開発者体験を大きく変える具体的な機能追加はなく、影響範囲も既存Workbench利用者に限定されます。既出のエージェント関連トピックとも"
+    },
+    "097ab8b7de0667f5b96e0d40dce80e3b": {
+      "score": 10,
+      "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] Khosla Venturesのニューヨーク拠点開設は、ベンチャーキャピタルの投資・採用活動に関するニュースであり、ソフトウェア技術、アーキテクチャ、AI、開発者向けツールの革新を直接示すものではありません。エンジニアへの影響範囲や技術的具体性も限定的で、一般的な事業拡大の話題にとどまるため、重要度は低いと判断しました。"
+    },
+    "be5c8e3a9025e24dedacd88bd9f8899b": {
+      "score": 92,
+      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] AIの自己改善と知能爆発という業界の根本的な前提に関わるテーマで、DeepMind元研究責任者による見解と、Jeff Deanらと設立したDiscovery Loopの具体的な動きが含まれており、技術的・事業的な新規性は高いです。一方で、現時点では実証済みのブレークスルーではなく、研究加速の見通しとボトルネックに関する専門家の分析が中心です。研究アイ"
+    },
+    "514f2390d36f347b9ad2b678196bd0d1": {
+      "score": 41,
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] Microsoftの大規模な月例パッチは企業システムへの影響範囲が広く、AIを悪用した攻撃の増加に備える点も実務上は重要です。ただし、内容は既存製品の脆弱性修正やセキュリティ運用に関するニュースであり、技術革新や新しいアーキテクチャの発表ではありません。AIへの言及はあるものの、AI技術そのものの新展開ではないため、基準上は低評価寄りです。 [Edi"
+    },
+    "1302cfb2db589c21edb25b3cbeade954": {
+      "score": 32,
+      "title": "The US Government Launched 3 Previously Unreported Investigations of Polymarket Trades",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] 予測市場Polymarketを巡る複数の未報告調査であり、政治イベントや戦争関連取引、Googleに関係するインサイダー取引疑惑など、プラットフォームの市場公正性や監視体制に影響するニュースです。一方で、主眼は規制当局の調査と法令・コンプライアンス上の問題で、技術革新や新しいアーキテクチャが示されたものではありません。Web3系サービスの信頼性やデー"
+    },
+    "6f40ef115659bbee9309c51057db7c49": {
+      "score": 35,
+      "title": "Roundtables: AI’s apocalypse crisis",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] AIの安全性や絶滅リスクに関する議論は、将来のモデル開発・評価基準・ガバナンスに関わる重要なテーマです。ただし本記事は新技術や具体的な研究成果、製品発表ではなく、AI研究者・従業員の懸念を扱うラウンドテーブル形式の解説です。エンジニアにとってはリスク評価や安全設計を考える材料になる一方、実装やアーキテクチャを直接変える具体性は限定的です。既出のAI関"
+    },
+    "43a12188af476b0a025fc69cee7e7077": {
+      "score": 29,
+      "title": "Larry Ellison Steps Back From Oracle Limelight in AI Era",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] OracleのAI時代における経営トップの発信変化は、同社の戦略や市場での立ち位置を考える材料にはなりますが、具体的な技術革新、製品発表、アーキテクチャ変更が示されておらず、エンジニアへの直接的な影響は限定的です。さらに、既に取り上げ済みのAI関連テーマと重なるため、重複分として減点しました。 [Editorial: AI/SaaS topic +5"
+    },
+    "cd77e60884534dfff5e584f724558884": {
+      "score": 52,
+      "title": "What Anthropic Doomsayer Jacob Coxon Saw",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] AI業界の安全性議論に関わる重要な続報であり、Anthropic内部のリスク認識や、元研究者が退職に至った背景を具体的に伝えている点は注目度が高い。一方で、新しいモデルやアーキテクチャ、製品、研究成果の発表ではなく、主に個人の証言と主観的な破局確率に基づく内容で、技術的な実証性や即時の実装インパクトは限定的。AI関連ではあるものの、業界の前提を変える"
+    },
+    "6b10986fe1f87a49a743d0ffd924ff8f": {
+      "score": 60,
+      "title": "単体テストの実行時間を6割程度削減してみた",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] 単体テストとCIの実行時間を約6割削減し、p90で16分超だった開発フィードバックを改善した実践的な技術記事です。開発体験やリードタイムに直結するテーマで、テスト分割・並列化・キャッシュなどの手法には他チームでも応用可能性があります。一方で、既存技術の最適化事例であり、AIや新アーキテクチャのように業界の前提を変える発表ではないため、中〜高評価にとど"
+    },
+    "3de0016548b4ff2a91f088ba694de830": {
+      "score": 52,
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] 自律型AI科学者の最終成果だけでなく、仮説生成・実験・コード実行などのプロセス全体を記録し、監査可能性や失敗分析を可能にするデータセットは、AIエージェント評価の基盤を改善する意義が大きいです。特に558件の完全な軌跡を公開する点は、再現性やベンチマーク研究に具体的な価値があります。一方で、既存のAIエージェント評価を拡張する研究であり、業界の前提を"
+    },
+    "85b2e1345365432c158345db3ea55c75": {
+      "score": 65,
+      "title": "M3-Former: Multimodal Transformer with Mixture-of-Experts for Long-Term Vessel Trajectory Prediction",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] LLMを活用したマルチモーダルTransformerとMixture-of-Expertsにより、船舶の長期軌跡予測における多峰性、航行意図の理解、長期予測時の誤差蓄積を改善しようとする技術的に興味深い研究です。静的属性や航行意図を意味情報として組み込む設計は、時系列予測とマルチモーダル推論の応用例として価値があります。一方で、現時点ではarXiv掲"
+    },
+    "89a2d2a5021d22aff0b9f38741b2d83a": {
+      "score": 47,
+      "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] 限られたテキスト量と学習予算で言語モデルの性能・汎化・知識保持を改善する研究であり、データ効率の高いモデル開発や自律的な研究ループという点で技術的な価値があります。特にBabyLM 2026 Strict-Smallを対象に、性能向上、原理の発見、原理に基づく改善を一貫して検証している点は、実験設計や小規模モデルの学習手法に有益です。一方で、基盤モデ"
+    },
+    "d287ce0a3a07f26b9137bf114fcc20f1": {
+      "score": 55,
+      "title": "GitHub - mirza-rizvi/ResolveHQ: Cloudflare-native shared support inbox for small teams",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] Cloudflareのエッジ・サーバーレス基盤を活用した共有サポート受信箱という点で、実装アーキテクチャや小規模チーム向けSaaSの設計例として技術的な興味があります。特にCloudflare Workersなどを用いた低運用コストの構成は実務上参考になります。一方で、対象は特定用途の小規模プロジェクトであり、業界全体の前提を変えるほどの新規性や影響"
+    },
+    "b4bcd6c10ae90197f761c57b414d5edf": {
+      "score": 73,
+      "title": "Now everyone can put data to work",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] 企業データを自然言語で分析し、インタラクティブなダッシュボードまで構築できるData Agentは、BI・データ活用の敷居を下げる実用性の高いAI機能です。業務データとの接続や権限管理、分析結果の信頼性などエンジニアリング上の論点も多く、企業システムへの影響は比較的大きい一方、記事からは新しい基盤技術や具体的なアーキテクチャ、提供範囲が不明で、業界の"
+    },
+    "47b7da500b68e939e82b016d98cd6c5d": {
+      "score": 66,
+      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] OpenAIモデルをAmazon Bedrock上で比較し、単純なトークン単価ではなく、正答あたりのコスト、エージェント実行全体のコスト、成果物品質を評価するオープンソースのベンチマーク基盤は、LLMを本番導入するエンジニアにとって実用性が高いです。モデル選定を価格表から業務成果ベースへ移す点と、再現可能な評価ハーネスを提供する点に具体性があります。"
+    },
+    "041915a39103275d79d593699b9bf683": {
+      "score": 47,
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリ内でコード差分の確認、ターミナル実行、ブラウザプレビューを一体化する内容で、エージェント開発時の検証効率を高める実用的な改善です。ただし、基盤技術やアーキテクチャの革新というより初心者向けの利用ガイドであり、影響範囲も限定的です。また、直近放送済みの「GitHub」「Copilot」と同一テーマに該当するため、重複分"
+    },
+    "f975b59b6ce8e976c778f01043bccff1": {
+      "score": 39,
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] Copilotコードレビューが、修正済みコメントの自動解決や提案適用時のコミットメッセージ生成に対応する更新で、開発者体験とレビュー運用の効率化には寄与します。ただし、既存のCopilot機能の改善にとどまり、アーキテクチャや開発モデルを変えるほどの技術革新ではありません。また、直近放送済みの「Copilot」および「GitHub」と同じ話題に該当す"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 41,
+      "title": "May 11, 2026",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新イメージリリースですが、内容はDebian 12環境への上流依存パッケージ更新にとどまり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント開発基盤の保守性や脆弱性対応には寄与するものの、影響範囲と新規性が限定的なため、低めの評価です。 [Editorial: "
+    },
+    "24140ac9d682e81136ccb77970742d52": {
+      "score": 41,
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "date": "2026-09-12",
+      "reason": "[Claude API Evaluation] AI業界における数学者・研究者の知的労働や研究環境への影響を示す話題で、OpenAIを含むAI開発の社会的な前提に関わる点は重要です。一方で、具体的な技術革新、製品発表、性能向上、アーキテクチャ変更などはなく、主に業界内の対立や懸念を扱った論点です。既出のAI・OpenAI関連トピックと近い領域であるため、重複分も考慮して中低位のスコアとしました。 "
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-12/blog.md",
+    "show_notes_path": "out/2026-09-12/show_notes.md",
+    "script_path": "out/2026-09-12/script_2hosts.md",
+    "audio_path": "out/2026-09-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24948,
+        "output_tokens": 10699,
+        "cost_usd": 0.017828
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 43175,
+        "output_tokens": 7431,
+        "cost_usd": 0.24099
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4082,
+        "cost_usd": 0.048984
+      }
+    ],
+    "total_cost_usd": 0.307802
+  }
+}
