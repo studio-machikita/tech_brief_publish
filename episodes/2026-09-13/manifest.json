@@ -1,0 +1,376 @@
+{
+  "date": "2026-09-13",
+  "episode_date_local": "2026-09-13",
+  "content_snapshot_date": "2026-09-13",
+  "show_length_sec": 816,
+  "audio_size": 13062957,
+  "generated_at": "2026-09-12T20:14:07.029877+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2d17cf20",
+      "title": "GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
+      "title_ja": "GPT-6 Astra、初期ベンチマークで空間推論能力に「飛躍的進化」を示す",
+      "one_liner": "GPT-6 Astraが空間認識で大幅進化との報告",
+      "fingerprint": "2d17cf20e299b05fc3c347e50d2c95ac",
+      "score": 87,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "OpenAI News",
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-69dbd4de",
+      "title": "Inside Blackstone’s Bid to Rule Over AI Financing",
+      "title_ja": "ブラックストーン、AI資金調達支配への野望の内幕",
+      "one_liner": "Blackstone、AIチップ調達を数十億ドル規模に拡大",
+      "fingerprint": "69dbd4decd0a8ceaafcb1e35ba1f48bf",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-c2e8a15c",
+      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreを使ったインタラクティブなMCPアプリの構築",
+      "one_liner": "AWSでMCP Appsの対話型ウィジェットを構築する方法",
+      "fingerprint": "c2e8a15cd4d902a319837a950bc556bc",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-ce14ebd7",
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "title_ja": "確率的焦点探索:下限値の更新による有界準最適探索の高速化",
+      "one_liner": "確率的手法で探索効率を高める新アルゴリズム",
+      "fingerprint": "ce14ebd7e6ea3ba8460e69eb7d380c74",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-7b6508b6",
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "title_ja": "AWS DevOpsエージェントとAgentCore Evaluationsで本番エージェントのライフサイクルを監視",
+      "one_liner": "AIエージェント監視を二層構造で実現する新手法",
+      "fingerprint": "7b6508b60444ea9e44c741cb79fcb306",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-24cee670",
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "title_ja": "コードとしてのマーケティング運用：GitHubでイベントの企画からフォローアップまでを自動化",
+      "one_liner": "GitHubがマーケ業務をコードで自動化した事例",
+      "fingerprint": "24cee670b21a7aa49ac25fb5d04f2898",
+      "score": 53,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-041915a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+    },
+    {
+      "item_id": "item-074c8bea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control"
+    },
+    {
+      "item_id": "item-e14deffa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add VS Code Agents to Copilot usage metrics"
+    },
+    {
+      "item_id": "item-fafa788e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An open letter to Dario: if you mean it, open the weights!"
+    },
+    {
+      "item_id": "item-649a1cae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic CEO outlines plan to slow AI development"
+    },
+    {
+      "item_id": "item-514f2390",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why this month's Microsoft patch release is a doozy"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-f975b59b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Auto-resolution and analysis updates in Copilot code review"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-1329ca46",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "【備忘録】CUDA & NVIDIA Driver インストールチャレンジ 2026"
+    },
+    {
+      "item_id": "item-080e82e0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Will there be a 7G?"
+    },
+    {
+      "item_id": "item-8e22e55b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI IPO Won’t Happen Until 2027, Sam Altman Tells Fortune"
+    },
+    {
+      "item_id": "item-695c63b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: biotech’s future and cheaper, cleaner steel"
+    },
+    {
+      "item_id": "item-56e9ed08",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tesla says it will finally unveil the second generation Roadster on October 1"
+    },
+    {
+      "item_id": "item-42f24bd0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "10 Best Standing Desks Worth Buying in 2026"
+    },
+    {
+      "item_id": "item-f395ffba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’"
+    },
+    {
+      "item_id": "item-3c9be2f6",
+      "reason": "[Duplicate] 「GPT-6 Astra appears to show a \"step change\" in spatial reaso」と同じ出来事のため除外",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems"
+    },
+    {
+      "item_id": "item-825c436e",
+      "reason": "[Duplicate] 「Perplexity trusts GPT-6 Astra with end-to-end systems」と同じ出来事のため除外",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra"
+    }
+  ],
+  "score_cache": {
+    "fafa788e8b6fb7b1a0849347fb7f78b5": {
+      "score": 44,
+      "title": "An open letter to Dario: if you mean it, open the weights!",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] AIモデルの重みを公開するかという論点は、再現性、研究の透明性、セルフホスティング、競争環境に関わるため、エンジニアリング上は重要です。一方で、タイトルは公開書簡による提言であり、具体的なモデル公開や新アーキテクチャ、実装発表ではないため、直ちに業界の前提を変えるニュースとは言いにくいです。また、AI・モデル関連は既出テーマに該当するため、重複分を減"
+    },
+    "3c9be2f67efb765d8dce0207ef5c0db2": {
+      "score": 61,
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] Astraが文章作成にとどまらず、ソフトウェア変更や本番システム監視まで一貫して担い、人間の確認頻度を下げている点は、AIエージェントによる開発・運用自動化として技術的に重要です。特に本番環境での自律性や信頼性が示唆されるため、通常であれば高評価に値します。一方で、既出キーワードであるGPT、Astra、AIに直接関連する続報であり、記事単体では導入"
+    },
+    "7b6508b60444ea9e44c741cb79fcb306": {
+      "score": 54,
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] 本番環境のマルチエージェント運用に対し、AgentCore Evaluationsによる品質評価とAWS DevOps Agentによるインフラ調査を組み合わせる実践的な監視アーキテクチャは、AIエージェントを継続運用するうえで有用です。特に従来のメトリクス監視では捉えにくいエージェント間の失敗を対象にしている点は評価できます。一方で、既存のAWSお"
+    },
+    "24cee670b21a7aa49ac25fb5d04f2898": {
+      "score": 53,
+      "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] マーケティング業務をコード化し、GitHub上でイベントの計画からフォローアップまでを自動化する実践例で、ワークフロー自動化やGitHub活用の観点ではエンジニアに有益です。一方で、対象がマーケティング運用に限定された事例紹介であり、基盤技術やアーキテクチャに関する大きな革新、業界全体を変える新規性は見えません。既出キーワードとの直接的な重複も薄いた"
+    },
+    "e14deffa49d104c15b25ca91f82849da": {
+      "score": 47,
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、VS Code Agents専用ウィンドウの活動まで含めて可視化できるようになる企業向け運用機能です。導入率やエンゲージメントの測定、ライセンス活用状況の分析には実務的な価値がありますが、アーキテクチャやモデル性能を進化させる技術革新ではなく、既存サービスのメトリクス拡張に留まります。Copilot関連ではあ"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 38,
+      "title": "April 27, 2026",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12ベースのインスタンスに上流依存パッケージの最新版を適用したという運用・保守上の更新にとどまります。アーキテクチャの進化や新機能、性能改善、開発者体験の大幅な向上に関する具体性がなく、技術業界への影響範囲も限定的です。 [Editorial: AI-"
+    },
+    "649a1caeeb9ee316dc594a9f3b0baea4": {
+      "score": 43,
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] フロンティアAIの開発速度を抑制するという提案は、モデル開発競争、計算資源投資、安全性評価、業界間の協調に影響し得るため、技術業界にとって一定の重要性があります。一方で、記事はCEOの方針説明にとどまり、具体的な技術仕様や実施メカニズム、法的拘束力が明確ではありません。また、AI関連の既出テーマと重なるため、話題の重複分を減点しました。 [Edito"
+    },
+    "074c8bea058dd02e6ef8cbd0978e588a": {
+      "score": 48,
+      "title": "Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] AIの再帰的自己改善が人間の制御を上回るリスクを指摘し、組み込み監査人、共通安全基準、国際協定といった具体策を提案している点は、AI業界の安全設計やガバナンスに大きな影響を与え得ます。一方で、記事の中心は新技術の発表ではなく、規制・国際協調に関する提言です。さらに、既出キーワードであるAIやselfに関連する話題で、同じ安全性・自己改善リスクの文脈と"
+    },
+    "514f2390d36f347b9ad2b678196bd0d1": {
+      "score": 41,
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] Microsoftの月例パッチは企業の運用や脆弱性対策に影響する重要なセキュリティニュースですが、既存製品の修正対応であり、技術革新やアーキテクチャの進化を扱う記事ではありません。AI支援型攻撃の増加という背景は注目に値するものの、記事の中心はパッチ適用という運用・セキュリティ対応であるため、評価基準では低評価帯に相当します。 [Editorial:"
+    },
+    "42f24bd0356e621b45887159d7da4448": {
+      "score": 6,
+      "title": "10 Best Standing Desks Worth Buying in 2026",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] 家庭・個人向けの電動昇降デスクを紹介する製品ランキング記事であり、ソフトウェアエンジニアリング、AI、クラウド、プログラミング言語などの技術革新とは直接関係しません。一般消費者向けガジェットに近い性質のため、重要度は最低水準と評価します。既出キーワードとの重複もありません。"
+    },
+    "695c63b3125a21075a9e5a76f78d7af1": {
+      "score": 30,
+      "title": "The Download: biotech’s future and cheaper, cleaner steel",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] バイオテクノロジーの将来や、より安価で環境負荷の低い製鉄は、産業・環境面で大きな波及効果が期待できる技術テーマです。ただし、この記事は若手研究者の紹介を中心としたニュースレターの概要であり、具体的なブレークスルー、製品化、導入規模、技術仕様などが示されていません。ソフトウェアエンジニア視点では、AIやクラウド基盤のような直接的な開発影響も限定的なため"
+    },
+    "8e22e55bc1d42c94894a84ee9c241846": {
+      "score": 32,
+      "title": "OpenAI IPO Won’t Happen Until 2027, Sam Altman Tells Fortune",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] OpenAIのIPO時期が2027年以降になるという経営方針の表明であり、資本市場や同社の長期的な事業運営には影響しますが、エンジニアリング面で新しい技術やアーキテクチャを示すニュースではありません。さらに、既出キーワードであるOpenAIやAIに関する同一系統の話題であるため、重複分として減点しました。 [Editorial: AI/SaaS to"
+    },
+    "69dbd4decd0a8ceaafcb1e35ba1f48bf": {
+      "score": 86,
+      "title": "Inside Blackstone’s Bid to Rule Over AI Financing",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] BlackstoneがGoogleのTPUを当初計画の数倍、数十億〜数百億ドル規模で確保し、複数ギガワット級のAI計算基盤を構築する動きは、AIインフラの供給構造と資金調達を大きく変える可能性がある。単なるモデル発表ではなく、半導体・データセンター・クラウド計算資源を金融資本が一体化する点で、エンジニアにも計算資源の調達戦略やクラウド依存に影響する重"
+    },
+    "1329ca460405d444acae667a2e241388": {
+      "score": 38,
+      "title": "【備忘録】CUDA & NVIDIA Driver インストールチャレンジ 2026",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] CUDAとNVIDIA Driverの導入は、GPU計算や機械学習環境の構築に直結するため、エンジニアにとって実務的な価値があります。一方で、記事は個人環境でのインストール体験をまとめた備忘録であり、新しいアーキテクチャやドライバ機能、業界全体に影響する発表ではありません。AI関連の背景はあるものの、既出キーワードの新展開というより環境構築ノウハウが"
+    },
+    "ce14ebd7e6ea3ba8460e69eb7d380c74": {
+      "score": 55,
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] FOCAL Searchの探索効率と解の品質保証を両立させる新しい探索アルゴリズムであり、確率的に最小f値ノードも展開することで、停滞しがちな下限値の更新を促す点に技術的な新規性があります。経路計画、ロボティクス、スケジューリング、組合せ最適化などへの応用可能性はありますが、現時点ではarXiv上の研究段階で、実運用への影響や既存手法に対する優位性は"
+    },
+    "080e82e03ac92b067d3d68d70f598228": {
+      "score": 36,
+      "title": "Will there be a 7G?",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] 7Gという次世代通信規格の可能性は、将来的にはネットワークアーキテクチャやエッジコンピューティング、AI連携に影響し得るため一定の技術的関心があります。一方、記事タイトル בלבדで具体的な標準化動向、技術仕様、実証実験、企業発表などが示されておらず、現時点では将来予測にとどまります。業界の前提を変える具体性や緊急性に欠けるため、中低位の評価としまし"
+    },
+    "825c436e4d5951b96bda019e773be260": {
+      "score": 53,
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] AIコーディングエージェントのDevinが、GPT-6 Astraを活用して自ら生成したソフトウェアのテストと動作検証まで行う点は、開発者のレビュー負担を減らし、実装から検証までの自動化を進める重要な動きです。一方で、現時点では目標や能力向上の説明にとどまり、実運用での品質・安全性・再現性など具体的な成果は不明です。また、AI・GPT・Astra関連"
+    },
+    "c2e8a15cd4d902a319837a950bc556bc": {
+      "score": 73,
+      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] MCP AppsによるインタラクティブなHTMLウィジェットを、Amazon Bedrock AgentCore上でホスト非依存に提供できる点は、AIエージェントのUI統合と相互運用性を高める実装上の進展です。ChatGPTやClaudeなど複数のAIホストに同一サーバーで対応できるため、MCPエコシステムの普及や開発コスト削減への影響が見込まれます"
+    },
+    "041915a39103275d79d593699b9bf683": {
+      "score": 49,
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリでコード差分の確認、ターミナル実行、ブラウザプレビューを一画面で行える点は、AIコーディングエージェントの検証・開発体験を改善する実用的な進展です。一方で、業界の前提を変える新技術や基盤アーキテクチャの発表ではなく、主に初心者向けの操作・導入ガイドです。また、既出キーワードであるAIやCopilot系のエージェント開"
+    },
+    "f975b59b6ce8e976c778f01043bccff1": {
+      "score": 39,
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "date": "2026-09-12",
+      "reason": "[ScoreCache 2026-09-12] [Claude API Evaluation] Copilotコードレビューが、修正済みコメントの自動解決や提案適用時のコミットメッセージ生成に対応する更新で、開発者体験とレビュー運用の効率化には寄与します。ただし、既存のCopilot機能の改善にとどまり、アーキテクチャや開発モデルを変えるほどの技術革新ではありません。また、直近放送済みの「Copi"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 41,
+      "title": "May 11, 2026",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12ベースイメージに、上流依存パッケージの最新版を取り込んだメンテナンスリリースです。開発環境の安全性や再現性、依存関係の鮮度には寄与しますが、新機能やアーキテクチャ変更、技術的ブレークスルーは示されておらず、影響範囲も既存利用者に限定されます。エージェント基盤に関連するものの、定期的な"
+    },
+    "56e9ed08798d0a86d3764067febc7e3c": {
+      "score": 10,
+      "title": "Tesla says it will finally unveil the second generation Roadster on October 1",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] Teslaの次世代Roadster発表予告は、電動スポーツカーとしての技術的な興味はあるものの、一般消費者向け自動車製品のニュースであり、ソフトウェア、AI、クラウド、開発基盤への直接的な影響は限定的です。2017年発表から長期間経過した続報ではあるものの、現時点では具体的な仕様や革新的技術が示されていないため、最低評価帯に近いスコアとしました。"
+    },
+    "2d17cf20e299b05fc3c347e50d2c95ac": {
+      "score": 87,
+      "title": "GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] GPT-6 Astraによるデュアルアームロボットの空間推論性能向上は、LLMを現実世界のロボティクス制御へ応用するうえで非常に重要な進展です。競合モデルが未達のタスクを7件完了し、従来からの性能差を示唆している点は新規性と技術的インパクトがあります。一方で、100件中7件という成功率はまだ限定的で、初期ベンチマークに基づく報道であり、汎化性能や再現"
+    },
+    "f395ffbab62fcb18a43e554fb5b795fb": {
+      "score": 6,
+      "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’",
+      "date": "2026-09-13",
+      "reason": "[Claude API Evaluation] ゲーム作品に対する政治的・文化的な論争を扱った記事であり、AI、クラウド、プログラミング言語、アーキテクチャなどの技術革新には直接関係しません。エンジニアリング上の新規性や技術的影響範囲も乏しく、一般消費者向けエンターテインメント寄りの話題であるため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-13/blog.md",
+    "show_notes_path": "out/2026-09-13/show_notes.md",
+    "script_path": "out/2026-09-13/script_2hosts.md",
+    "audio_path": "out/2026-09-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24974,
+        "output_tokens": 10731,
+        "cost_usd": 0.017872
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43702,
+        "output_tokens": 8339,
+        "cost_usd": 0.256191
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4448,
+        "cost_usd": 0.05337599999999999
+      }
+    ],
+    "total_cost_usd": 0.327439
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 29.2,
+    "title": "GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
+    "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/"
+  },
+  {
+    "start_sec": 154.98,
+    "title": "Inside Blackstone’s Bid to Rule Over AI Financing",
+    "url": "https://www.theinformation.com/articles/inside-blackstones-bid-rule-ai-financing"
+  },
+  {
+    "start_sec": 299.19,
+    "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 419.71,
+    "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+    "url": "https://arxiv.org/abs/2609.10584"
+  },
+  {
+    "start_sec": 581.42,
+    "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+    "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/"
+  },
+  {
+    "start_sec": 671.89,
+    "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+    "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/"
+  },
+  {
+    "start_sec": 781.91,
+    "title": "エンディング",
+    "url": null
+  }
+]
