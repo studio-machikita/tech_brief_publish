@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-14",
+  "episode_date_local": "2026-09-14",
+  "content_snapshot_date": "2026-09-14",
+  "show_length_sec": 712,
+  "audio_size": 11396013,
+  "generated_at": "2026-09-13T21:15:01.504680+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ed989b27",
+      "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+      "title_ja": "Iris-miniとIris-pro、クラス最強のオープンウェイト検索エージェントに",
+      "one_liner": "AllSparkが検索特化のオープン重みAIエージェント2種を公開",
+      "fingerprint": "ed989b27468f7c9d71d06e89a7b5d666",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-5a01738b",
+      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+      "title_ja": "Amazon SageMaker Inferenceのプレフィックス対応ルーティングでLLMのレイテンシを削減",
+      "one_liner": "SageMakerが同一プレフィックスを同一インスタンスに振り分け高速化",
+      "fingerprint": "5a01738b16a3fdb52c2c1025e7d576e5",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-4341aeeb",
+      "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+      "title_ja": "Elevenlabs、「Music v2.5」をアプリとAPIで提供開始 無料・有料プランを用意",
+      "one_liner": "ElevenLabsがMusic v2.5をアプリとAPIで公開",
+      "fingerprint": "4341aeeb24e7715772320dfd3200cf7f",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-71561d25",
+      "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+      "title_ja": "VCが選ぶ、Y Combinator最新デモデーで話題の注目スタートアップ9社",
+      "one_liner": "YCデモデーで話題の9社をVCが厳選",
+      "fingerprint": "71561d25b9c9b596122e9e092bf1342b",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-3c9be2f6",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "title_ja": "PerplexityがGPT-6 Astraにエンドツーエンドシステムを信頼して任せる",
+      "one_liner": "PerplexityがGPT-6 Astraに本番運用を任せる",
+      "fingerprint": "3c9be2f67efb765d8dce0207ef5c0db2",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-b2b0bf3d",
+      "title": "Personal AI App Instinct Faces Compute Crunch That Could Lead to New Funding",
+      "title_ja": "個人向けAIアプリ「Instinct」、計算資源不足で新たな資金調達の可能性",
+      "one_liner": "個人AI「Instinct」、人気過熱で計算資源が不足",
+      "fingerprint": "b2b0bf3d06d2349c2f67f673ca3904f3",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-825c436e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra"
+    },
+    {
+      "item_id": "item-3ec4e303",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching"
+    },
+    {
+      "item_id": "item-041915a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+    },
+    {
+      "item_id": "item-e14deffa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add VS Code Agents to Copilot usage metrics"
+    },
+    {
+      "item_id": "item-4c633ae6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO"
+    },
+    {
+      "item_id": "item-f975b59b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Auto-resolution and analysis updates in Copilot code review"
+    },
+    {
+      "item_id": "item-35e4b458",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026年に多くのシストレの戦略のアルファが消えた件について"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-695c63b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: biotech’s future and cheaper, cleaner steel"
+    },
+    {
+      "item_id": "item-c14dd354",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meet the under-35s shaping the future of biotech"
+    },
+    {
+      "item_id": "item-514f2390",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why this month's Microsoft patch release is a doozy"
+    },
+    {
+      "item_id": "item-3540856d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flawed Routers Flood University of Wisconsin Internet Time Server"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-4341b81d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News"
+    },
+    {
+      "item_id": "item-e2bd4579",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock"
+    },
+    {
+      "item_id": "item-4cb7ae46",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)"
+    },
+    {
+      "item_id": "item-8c81078b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser"
+    },
+    {
+      "item_id": "item-370a74ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Internal Tech Emails (@TechEmails) on X"
+    }
+  ],
+  "score_cache": {
+    "3540856d9e1d1c1fd69057781b8a2284": {
+      "score": 27,
+      "title": "Flawed Routers Flood University of Wisconsin Internet Time Server",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] 大学のインターネット時刻サーバーに不正または異常なトラフィックが集中した運用障害で、ネットワーク管理やNTPインフラの信頼性という点では実務的な示唆があります。ただし、影響範囲は限定的で、技術革新や新しいアーキテクチャを示す内容ではなく、ルーターの欠陥に起因するセキュリティ・運用上の問題に分類されるため、低めの評価です。"
+    },
+    "3c9be2f67efb765d8dce0207ef5c0db2": {
+      "score": 61,
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを使って、文章作成だけでなくソフトウェア変更や本番システムの監視まで継続的に任せ、従来より人間の確認頻度を下げている点は、AIエージェントの実運用と自律性の進展として重要です。一方で、既出のAI・GPT・Astra・エージェント関連テーマと重複しており、今回の情報だけでは業界の前提を変えるほどの新規性や具体的な成果、信頼性評価ま"
+    },
+    "5a01738b16a3fdb52c2c1025e7d576e5": {
+      "score": 90,
+      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] LLM推論基盤におけるプレフィックス単位のルーティングという、実運用に直結するアーキテクチャ改善です。KVキャッシュのヒット率を約25%から80%以上へ高め、Llama 3.1 70BでP50のTTFTを最大77%短縮するという具体的な効果もあり、生成AIアプリケーションの応答性と推論コストに大きな影響を与えます。SageMakerの新機能であり、既"
+    },
+    "041915a39103275d79d593699b9bf683": {
+      "score": 47,
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで差分確認、ターミナル実行、ブラウザプレビューを一画面に統合する開発者向けワークフローの紹介で、実用性はあります。ただし新技術の発表やアーキテクチャの大幅な進化ではなく、主に初心者向けの利用ガイドです。また、既出キーワードであるGitHubおよびagent関連の話題に該当するため、重複分として減点しました。 [Edi"
+    },
+    "e14deffa49d104c15b25ca91f82849da": {
+      "score": 43,
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況レポートにVS Code Agents専用ウィンドウの活動指標が追加され、企業における導入状況やエンゲージメントを可視化できる点は実務上有用です。ただし、これは新しいAI機能やアーキテクチャの発表ではなく、既存サービスの運用・分析機能の拡張にとどまります。また、既に取り上げ済みの「GitHub」「Agent」関連"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 24,
+      "title": "April 27, 2026",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを更新しただけの、定期的な運用・保守リリースです。新機能、アーキテクチャ変更、性能向上、脆弱性対応などの具体的な技術的インパクトが示されておらず、業界への影響範囲も限定的です。また、既に取り上げ済みの「agent」関連トピックと同じ文脈であるため減点してい"
+    },
+    "e2bd457932072d2a64c510870b4865e5": {
+      "score": 10,
+      "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Oracle株の売却中止は企業経営や株主・市場に関するニュースであり、ソフトウェア技術、アーキテクチャ、クラウド、AIなどの技術的な新規性やエンジニアへの直接的な影響がほぼありません。一般消費者向けガジェットではないものの、技術ニュースとしての重要度は最低水準に近いと評価します。"
+    },
+    "4341aeeb24e7715772320dfd3200cf7f": {
+      "score": 90,
+      "title": "Elevenlabs makes Music v2.5 available via app and API with free and pro tier options",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] ElevenLabsの音楽生成モデル最新版であり、アプリとAPIの両方で提供されるため、クリエイター向けツールだけでなく開発者による音楽生成機能の組み込みにも影響します。約4万8,000件の比較テストで前世代を上回った点や、ライセンス済み音源のみで学習したという説明は、品質評価と権利処理の両面で具体性があります。生成AI関連ではあるものの、既出の汎用"
+    },
+    "514f2390d36f347b9ad2b678196bd0d1": {
+      "score": 29,
+      "title": "Why this month's Microsoft patch release is a doozy",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Microsoftの月例パッチは企業システムへの影響範囲が広く、運用上は重要ですが、主題は既存製品の脆弱性修正というセキュリティ運用ニュースで、技術革新やアーキテクチャの進展ではありません。また、AI支援攻撃への対応という文脈で既出キーワードの「ai」と重なるため、重複分を減点しました。 [Editorial: AI-focused source +"
+    },
+    "4cb7ae4607b9e90873ba32193c6d9209": {
+      "score": 10,
+      "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] カメラとスマートフォン連携アプリを備えた一般消費者向けの鳥用フィーダーであり、主な価値は趣味・見守り用途にあります。技術的にはIoT、画像認識、クラウド連携の要素が考えられますが、記事のスニペットからは新規性の高いAI技術や開発者向けのアーキテクチャ上の進展は確認できません。評価基準上、スマートフォン連携を伴う消費者向けガジェットとして最低評価帯に該"
+    },
+    "695c63b3125a21075a9e5a76f78d7af1": {
+      "score": 30,
+      "title": "The Download: biotech’s future and cheaper, cleaner steel",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] バイオテクノロジーの将来や、より安価で環境負荷の低い鉄鋼製造は、気候技術・素材・バイオ分野の長期的な技術革新として意義があります。ただし、スニペットは35歳未満の研究者・起業家を紹介するニュースレターの案内が中心で、具体的な技術、製品、資金調達、実装成果などが示されていません。そのため、エンジニアリング上の新規性や直接的な影響範囲を評価できる情報が限"
+    },
+    "4c633ae6e05b20efee3c2c32fa2c04fa": {
+      "score": 43,
+      "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Anthropicという主要AI企業のIPO先決定は、AI業界の資金調達環境や競争 dynamics、企業評価に影響し得る重要ニュースです。ただし、現時点ではNasdaqを選定したという上場準備段階の情報にとどまり、技術革新や開発者向けアーキテクチャの変化を示すものではありません。既出のAI関連テーマとは異なる企業・資本市場の続報であるため、重複によ"
+    },
+    "b2b0bf3d06d2349c2f67f673ca3904f3": {
+      "score": 58,
+      "title": "Personal AI App Instinct Faces Compute Crunch That Could Lead to New Funding",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] 個人向けAIアシスタントの利用急増、計算資源不足、10億ドル規模の追加調達、Metaとの競争は、AIスタートアップの成長性や推論インフラ需要を示す点で注目度が高い。一方で、具体的なモデル技術やアーキテクチャの革新ではなく、主題は資金調達とキャパシティ問題である。また、既出キーワードのAI・agentと近い領域のため、重複分を考慮して減点した。 [Ed"
+    },
+    "35e4b458b14824a59190e8e22813419a": {
+      "score": 38,
+      "title": "2026年に多くのシストレの戦略のアルファが消えた件について",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] 複数のシストレ戦略について、2026年以降にバックテスト上のアルファが劣化した可能性を検証する内容で、金融データ分析、過学習、マーケット環境の変化、再現性のあるバックテスト設計に関わる技術的な示唆があります。一方で、AIやクラウド、プログラミング言語などの基盤技術の革新ではなく、対象もクオンツ運用の一部領域に限られます。現時点ではSNS上の観測と複数"
+    },
+    "370a74ef4127475a4b076371f18cc4f5": {
+      "score": 6,
+      "title": "Internal Tech Emails (@TechEmails) on X",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] 具体的なニュース内容や技術的な発表が示されておらず、X上のアカウント名 בלבדであるため、技術革新・アーキテクチャ・開発者への影響を評価できません。記事としての具体性と情報量が不足しているため、重要度は最低水準としました。"
+    },
+    "825c436e4d5951b96bda019e773be260": {
+      "score": 53,
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] AIコーディングエージェントが自ら生成したソフトウェアをテストし、動作実証まで担う点は、開発・レビュー工程の自動化に直結する技術的に重要な進展です。特にテスト結果を提示して人間のレビュー負担を減らす発想は、エージェント型開発の実用性を高めます。一方で、GPT・Astra・Devin・エージェントという既出キーワードと重なり、今回のスニペットだけでは新"
+    },
+    "3ec4e30367aa49b2dc3e2fb48c368143": {
+      "score": 49,
+      "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] 推論用モデルの重みとコンテナイメージをクラスターノードのローカルNVMeへ事前配置し、コールドスタートを数十分から数秒へ短縮する実装は、LLM推論基盤のレイテンシーと運用効率を大きく改善する実用的なクラウドアーキテクチャです。一方で、革新的なモデルや新規技術そのものではなく、Amazon SageMaker HyperPodにおける既存推論基盤の最適"
+    },
+    "f975b59b6ce8e976c778f01043bccff1": {
+      "score": 40,
+      "title": "Auto-resolution and analysis updates in Copilot code review",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Copilot code reviewが指摘の自動解決や提案適用時のコミットメッセージ生成に対応し、コードレビュー後の反復作業を減らす実用的な改善です。開発者体験への影響はあるものの、既存のAIコーディング支援機能の拡張であり、業界の前提を変える新技術ではありません。さらに、直近に取り上げ済みのGitHub・AI・Copilot系の話題と近いため、重"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 33,
+      "title": "May 11, 2026",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新機能やアーキテクチャ変更ではなく、Debian 12ベースのインスタンスイメージに上流依存パッケージを更新して収録した定期的なリリースです。運用上の保守性や再現性には関係しますが、技術的な新規性・影響範囲・具体的な開発者メリットは限定的です。また、既出キーワードであるagent関連の同種トピックに該"
+    },
+    "71561d25b9c9b596122e9e092bf1342b": {
+      "score": 72,
+      "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] YC最新バッチから、浮体式原子炉やブレインチップなど、エネルギー・ニューロテックを含む先端スタートアップを横断的に紹介する記事で、新規性と将来の技術インパクトは高いです。一方で、個別企業の技術仕様、実証状況、資金調達、実用化時期などの具体性が乏しく、業界全体の前提を変える単一の発表ではありません。エンジニア視点では、今後の技術トレンドや投資対象を把握"
+    },
+    "ed989b27468f7c9d71d06e89a7b5d666": {
+      "score": 92,
+      "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] Qwenベースのオープンソース検索エージェント「Iris-mini」「Iris-pro」が、同規模のオープンウェイトモデルでベンチマーク首位級の性能を示した点は重要です。検索に加えて、未学習の一般的なツール利用やオフィス作業にも性能向上が波及しており、エージェントの汎化性能と低コストな公開モデルの実用性を押し上げる可能性があります。一方で、現時点では"
+    },
+    "8c81078b3b0156a9d50d2f9b0e844715": {
+      "score": 10,
+      "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] iOS 27のSafari設定に関する一般消費者向けの使い方・パーソナライズ機能の紹介であり、技術革新やアーキテクチャの進化を扱うニュースではありません。開発者への影響や業界全体への波及も限定的で、評価基準上はスマートフォン関連の最低評価帯に該当します。既出キーワードとの直接的な重複もありません。"
+    },
+    "c14dd354869c6f59715bc38e597a6d4a": {
+      "score": 30,
+      "title": "Meet the under-35s shaping the future of biotech",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] 将来のバイオテクノロジーを担う若手研究者を紹介する記事であり、創薬、合成生物学、医療技術などの動向を把握するうえでは有益です。ただし、個別の技術成果や製品、実装規模、業界への具体的なインパクトがスニペットからは明確でなく、紹介・キュレーション色が強いため、エンジニア向けの即時性や技術的具体性は限定的です。既出キーワードとの直接的な重複もありません。 "
+    },
+    "4341b81d35609ba4f113de0392fc8a09": {
+      "score": 23,
+      "title": "Jeffries Says Democrats to Meet Tuesday on AI Action: ABC News",
+      "date": "2026-09-14",
+      "reason": "[Claude API Evaluation] AIに関する米国議会民主党の協議予定という政治・政策動向であり、技術的な新機能やアーキテクチャの発表ではありません。現時点では具体的な法案、規制内容、実装方針も示されておらず、エンジニアへの直接的な影響は限定的です。さらにAI関連は直近の既出テーマに該当するため、同一領域の記事として減点しました。 [Editorial: AI/SaaS topic "
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-14/blog.md",
+    "show_notes_path": "out/2026-09-14/show_notes.md",
+    "script_path": "out/2026-09-14/script_2hosts.md",
+    "audio_path": "out/2026-09-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24569,
+        "output_tokens": 10215,
+        "cost_usd": 0.017172
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43060,
+        "output_tokens": 7358,
+        "cost_usd": 0.23955
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3836,
+        "cost_usd": 0.046032000000000003
+      }
+    ],
+    "total_cost_usd": 0.302754
+  }
+}

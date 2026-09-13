@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#167 Iris-miniとIris-pro、クラス最強のオープンウェイト検索エージェントに ほか</title>
+      <description>Tech News Radio Show Notes - #167 (2026-09-14)
+
+エピソード情報
+• エピソード: #167
+• 日付: 2026-09-14
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Iris-mini and Iris-pro are the strongest open-weight search agents in their class (https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/)
+• Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference (https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/)
+• Elevenlabs makes Music v2.5 available via app and API with free and pro tier options (https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/)
+
+注目の深掘り
+• The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs (https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/)
+
+小ネタ・その他
+• Perplexity trusts GPT-6 Astra with end-to-end systems (https://openai.com/index/perplexity-improving-accuracy-with-astra)
+• Perplexity trusts GPT-6 Astra with end-to-end systems (https://zenn.dev/tkada/articles/d0c31e6533fb62)
+• Personal AI App Instinct Faces Compute Crunch That Could Lead to New Funding (https://www.theinformation.com/articles/personal-ai-app-instinct-faces-compute-crunch-lead-new-funding)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-14/episode_audio.mp3" length="11396013" type="audio/mpeg" />
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-14</guid>
+      <itunes:duration>11:52</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Iris-miniとIris-pro、クラス最強のオープンウェイト検索エージェントに ほか</itunes:title>
+      <itunes:episode>167</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #167 (2026-09-14)
+
+エピソード情報
+• エピソード: #167
+• 日付: 2026-09-14
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Iris-mini and Iris-pro are the strongest open-weight search agents in their class (https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/)
+• Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference (https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/)
+• Elevenlabs makes Music v2.5 available via app and API with free and pro tier options (https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/)
+
+注目の深掘り
+• The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs (https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/)
+
+小ネタ・その他
+• Perplexity trusts GPT-6 Astra with end-to-end systems (https://openai.com/index/perplexity-improving-accuracy-with-astra)
+• Perplexity trusts GPT-6 Astra with end-to-end systems (https://zenn.dev/tkada/articles/d0c31e6533fb62)
+• Personal AI App Instinct Faces Compute Crunch That Could Lead to New Funding (https://www.theinformation.com/articles/personal-ai-app-instinct-faces-compute-crunch-lead-new-funding)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-14/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:26.830" title="Iris-mini and Iris-pro are the strongest open-weight search agents in their class" href="https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/" />
+        <psc:chapter start="00:02:08.640" title="Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference" href="https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/" />
+        <psc:chapter start="00:04:00.500" title="Elevenlabs makes Music v2.5 available via app and API with free and pro tier options" href="https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options/" />
+        <psc:chapter start="00:05:59.790" title="The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs" href="https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/" />
+        <psc:chapter start="00:07:46.590" title="Perplexity trusts GPT-6 Astra with end-to-end systems" href="https://openai.com/index/perplexity-improving-accuracy-with-astra" />
+        <psc:chapter start="00:09:42.290" title="Personal AI App Instinct Faces Compute Crunch That Could Lead to New Funding" href="https://www.theinformation.com/articles/personal-ai-app-instinct-faces-compute-crunch-lead-new-funding" />
+        <psc:chapter start="00:11:19.540" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#166 GPT-6 Astra、初期ベンチマークで空間推論能力に「飛躍的進化」を示す ほか</title>
       <description>Tech News Radio Show Notes - #166 (2026-09-13)
 
