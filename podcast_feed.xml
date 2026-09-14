@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#168 OpenAI、スマートフォンカメラメーカーのGlass Imagingを3億ドルで買収と報道 ほか</title>
+      <description>Tech News Radio Show Notes - #168 (2026-09-15)
+
+エピソード情報
+• エピソード: #168
+• 日付: 2026-09-15
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says (https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/)
+• Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/)
+• Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore (https://www.wired.com/story/ai-agents-are-thirsty-for-power/)
+• Configure cost and quality in Copilot auto model selection (https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection)
+
+注目の深掘り
+• Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems (https://arxiv.org/abs/2609.11934)
+
+小ネタ・その他
+• Cognition helps Devin test its own work with GPT‑6 Astra (https://openai.com/index/cognition-devin-testing-with-astra)
+• How Fyxer built an AI executive assistant people trust (https://openai.com/index/fyxer)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-15/episode_audio.mp3" length="11744301" type="audio/mpeg" />
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-15</guid>
+      <itunes:duration>12:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAI、スマートフォンカメラメーカーのGlass Imagingを3億ドルで買収と報道 ほか</itunes:title>
+      <itunes:episode>168</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #168 (2026-09-15)
+
+エピソード情報
+• エピソード: #168
+• 日付: 2026-09-15
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says (https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/)
+• Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/)
+• Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore (https://www.wired.com/story/ai-agents-are-thirsty-for-power/)
+• Configure cost and quality in Copilot auto model selection (https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection)
+
+注目の深掘り
+• Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems (https://arxiv.org/abs/2609.11934)
+
+小ネタ・その他
+• Cognition helps Devin test its own work with GPT‑6 Astra (https://openai.com/index/cognition-devin-testing-with-astra)
+• How Fyxer built an AI executive assistant people trust (https://openai.com/index/fyxer)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-15/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:28.080" title="OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says" href="https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/" />
+        <psc:chapter start="00:02:07.220" title="Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:04:07.480" title="Configure cost and quality in Copilot auto model selection" href="https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection" />
+        <psc:chapter start="00:05:45.680" title="Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems" href="https://arxiv.org/abs/2609.11934" />
+        <psc:chapter start="00:07:54.560" title="Cognition helps Devin test its own work with GPT‑6 Astra" href="https://openai.com/index/cognition-devin-testing-with-astra" />
+        <psc:chapter start="00:09:50.590" title="How Fyxer built an AI executive assistant people trust" href="https://openai.com/index/fyxer" />
+        <psc:chapter start="00:11:44.400" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#167 Iris-miniとIris-pro、クラス最強のオープンウェイト検索エージェントに ほか</title>
       <description>Tech News Radio Show Notes - #167 (2026-09-14)
 

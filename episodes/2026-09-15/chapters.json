@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 28.08,
+    "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+    "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/"
+  },
+  {
+    "start_sec": 127.22,
+    "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 247.48,
+    "title": "Configure cost and quality in Copilot auto model selection",
+    "url": "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection"
+  },
+  {
+    "start_sec": 345.68,
+    "title": "Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems",
+    "url": "https://arxiv.org/abs/2609.11934"
+  },
+  {
+    "start_sec": 474.56,
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra"
+  },
+  {
+    "start_sec": 590.59,
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "url": "https://openai.com/index/fyxer"
+  },
+  {
+    "start_sec": 704.4,
+    "title": "エンディング",
+    "url": null
+  }
+]

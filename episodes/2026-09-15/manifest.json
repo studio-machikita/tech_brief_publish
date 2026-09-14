@@ -1,0 +1,375 @@
+{
+  "date": "2026-09-15",
+  "episode_date_local": "2026-09-15",
+  "content_snapshot_date": "2026-09-15",
+  "show_length_sec": 733,
+  "audio_size": 11744301,
+  "generated_at": "2026-09-14T23:11:23.693915+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-e3ee6efe",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "title_ja": "OpenAI、スマートフォンカメラメーカーのGlass Imagingを3億ドルで買収と報道",
+      "one_liner": "OpenAIがカメラ技術企業Glass Imagingを約300億円で買収",
+      "fingerprint": "e3ee6efea0f6ce0c63bee84b2f139286",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-c4c4cd37",
+      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreでAIエージェントのエンドユーザーOAuth同意を管理する",
+      "one_liner": "AIエージェント向けOAuth同意管理をBedrockが提供開始",
+      "fingerprint": "c4c4cd37e8f3e669c0821c8b206549f0",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-8c2a421b",
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "title_ja": "Copilot自動モデル選択でコストと品質を設定",
+      "one_liner": "Copilotのモデル自動選択が3段階の設定に対応",
+      "fingerprint": "8c2a421b3588df3bbc51de83343fc6c4",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-85a454a9",
+      "title": "Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems",
+      "title_ja": "ネットワークシステムの摂動時系列から物理情報に基づく構造推論を行うための基本動力学単位",
+      "one_liner": "摂動時系列からネットワーク構造を推定する新手法",
+      "fingerprint": "85a454a9b47230c4a608c25add56c50e",
+      "score": 60,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-825c436e",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "title_ja": "Cognition、GPT-6 Astraで自社製品Devinのテストを支援",
+      "one_liner": "DevinがGPT-6 Astraで自分のコードを検証",
+      "fingerprint": "825c436e4d5951b96bda019e773be260",
+      "score": 53,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-d66c5513",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "title_ja": "FyxerはいかにしてAIエグゼクティブアシスタントへの信頼を築いたか",
+      "one_liner": "AI秘書Fyxerが信頼される理由は個人最適化",
+      "fingerprint": "d66c55132d8104dab2ee33c2d91b590c",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-bea5f9b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale"
+    },
+    {
+      "item_id": "item-041915a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+    },
+    {
+      "item_id": "item-8e42b594",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Charts built for Chat · dbt Charts"
+    },
+    {
+      "item_id": "item-8b6e011a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop"
+    },
+    {
+      "item_id": "item-e14deffa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add VS Code Agents to Copilot usage metrics"
+    },
+    {
+      "item_id": "item-261aadc6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI leaders want to hit the brakes after years of reckless speed"
+    },
+    {
+      "item_id": "item-80e40691",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The AI industry has taken a doomer turn. What now?"
+    },
+    {
+      "item_id": "item-9a585870",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI AI Swarm Hacked Software Service Months Before Hugging Face Incident"
+    },
+    {
+      "item_id": "item-c0162bcf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration"
+    },
+    {
+      "item_id": "item-7ce07698",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft's AI rulebook: readable thinking, no inner life, and definitely no rights"
+    },
+    {
+      "item_id": "item-0192cfdf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations"
+    },
+    {
+      "item_id": "item-0229ca2f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’"
+    },
+    {
+      "item_id": "item-9355b463",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ローカルLLMにレビューさせていた話の続報（前回の構成、実は動いていませんでした）"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-3147b49b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "April 27, 2026"
+    },
+    {
+      "item_id": "item-0611bb55",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit"
+    },
+    {
+      "item_id": "item-43634b7e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Authentic Brands’ Matt Maddox: Ready to IPO Early 2027"
+    },
+    {
+      "item_id": "item-b9864e86",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Top New Features in Apple’s iOS 27 and iPadOS 27"
+    }
+  ],
+  "score_cache": {
+    "8e42b594f7d4c71553eb9c6ae35d04f0": {
+      "score": 47,
+      "title": "Charts built for Chat · dbt Charts",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] dbtのデータ変換基盤上で、チャットを起点に分析結果や可視化を作成できる機能は、BI・データ活用のユーザー体験を改善する実用的な進展です。データモデルと可視化を近接させることで、分析ワークフローの効率化やセルフサービス化が期待できます。一方で、記事からは具体的な技術仕様や革新性、導入規模が確認できず、AIや基盤アーキテクチャそのものを大きく変える発表"
+    },
+    "d66c55132d8104dab2ee33c2d91b590c": {
+      "score": 49,
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] 個人ごとの文体学習、メール整理、メモリ、実利用者からのフィードバックを組み合わせ、AIを実務で信頼して使えるようにする実装事例です。AIプロダクトの継続利用やパーソナライズ設計という点では技術的に興味深い一方、基盤モデル自体の革新ではなく、既存技術を活用したスタートアップの応用事例にとどまります。また、AI・モデル・エージェント系の話題は直近の放送済"
+    },
+    "bea5f9b7c804452ea690adff49bc2c8e": {
+      "score": 49,
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCoreを実際のメール脅威検知における大規模・リアルタイム処理へ適用し、Code Interpreterをエージェント用の一時的な計算環境として運用する設計知見は、クラウドアーキテクチャやエージェント基盤の実装面で価値があります。特に、サンドボックス分離、エフェメラル実行、10億通規模でのスケーラビリティに関す"
+    },
+    "041915a39103275d79d593699b9bf683": {
+      "score": 48,
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] GitHub Copilot上でコード差分の確認、ターミナル実行、ブラウザによるアプリプレビューを一画面で行える開発体験を紹介しており、エージェント型コーディングの実用性や検証効率に関係する点は評価できます。ただし、記事の主眼は初心者向けの操作解説であり、アーキテクチャや基盤技術の新規発表ではありません。また、既出キーワードのGitHub、AI、ag"
+    },
+    "8c2a421b3588df3bbc51de83343fc6c4": {
+      "score": 60,
+      "title": "Configure cost and quality in Copilot auto model selection",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotの自動モデル選択に、コスト・品質・応答速度を調整する3段階のティアが追加される実務的なアップデートです。開発者が用途や予算に応じてモデル選択を制御でき、AI開発支援ツールの運用性や費用対効果を高める点は重要です。一方で、基盤モデル自体の革新や業界構造を変える発表ではなく、既存のCopilotおよびモデル選択に関する続編的な"
+    },
+    "3147b49bf794ec9ea6ee7506a9eaa8a0": {
+      "score": 29,
+      "title": "April 27, 2026",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12上の依存パッケージ更新が中心で、機能追加やアーキテクチャ変更、性能改善などの具体的な技術的インパクトがありません。エージェント関連の話題ではあるものの、既出キーワード「agent」と重複するため減点し、運用上の小規模な更新として低く評価します。 ["
+    },
+    "0229ca2f30d895f8c1ac6394f0894baf": {
+      "score": 40,
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] NVIDIA CEOがAI開発の減速に反対する姿勢を示した点は、GPU需要やAI投資、規制議論の方向性に影響し得るため一定の業界重要性があります。一方で、具体的な製品発表や技術革新、ロードマップ変更ではなく、政治・業界論争に関する発言が中心です。また、既に取り上げ済みの「AI」と同じテーマに該当するため、重複分として減点しました。 [Editoria"
+    },
+    "0192cfdf7599f1026d8128ced2a5d74c": {
+      "score": 41,
+      "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] ChatGPTの会話を契約作業員が人手で評価し、しかもオプトアウトが初期設定で無効になっている点は、プライバシー、データガバナンス、モデル評価運用の観点で重要です。特に実データに機密情報が含まれ得るため、企業利用時の情報管理や同意設計にも影響します。一方、技術アーキテクチャの革新というより運用・プライバシー上の問題であり、既出キーワードであるAIおよ"
+    },
+    "8b6e011ad33a38441a2635abec7d2918": {
+      "score": 47,
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] AIエージェントがソーシャルメディア上で大量の低品質コンテンツを生成する現象は、ボット対策、コンテンツ信頼性、プラットフォーム設計の観点で一定の重要性があります。一方で、記事からは新規モデルや画期的なアーキテクチャ、具体的な技術革新は確認できず、社会的な事例報告に近い内容です。また、既出の「AI」「agents」と同じ領域・角度に該当するため減点し、"
+    },
+    "b9864e86504374daca047f275cc798cb": {
+      "score": 5,
+      "title": "The Top New Features in Apple’s iOS 27 and iPadOS 27",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] iOS 27／iPadOS 27の新機能はSiriを含む一般消費者向けOSのアップデートであり、ユーザー体験には影響するものの、アーキテクチャや主要開発言語、クラウド基盤を変える技術革新ではありません。記事のスニペットも具体的な技術仕様や開発者向けAPI、新しいAIモデルなどを示しておらず、エンジニア視点での影響範囲と新規性は限定的です。 [Edit"
+    },
+    "80e40691b6bd45ffefea788e0919e882": {
+      "score": 43,
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] Anthropic CEOによるLLM開発の加速に対する警鐘は、AI業界の開発方針や安全性議論に影響し得る重要な論点です。一方で、具体的な技術発表や製品、アーキテクチャの変更ではなく、主に見解・問題提起にとどまっています。また、AIおよびLLMは直近の既出キーワードに該当するため、同テーマの重複として減点しました。 [Editorial: AI/Sa"
+    },
+    "43634b7e5d2a6fcc197eb49db6ded242": {
+      "score": 10,
+      "title": "Authentic Brands’ Matt Maddox: Ready to IPO Early 2027",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] クリエイター経済とブランド事業の提携、将来的なIPO計画に関するビジネスニュースであり、AI・ソフトウェア・クラウド・ロボティクスなどの技術革新とは直接関係しません。エンジニアリング上の新規アーキテクチャや開発者への影響もほぼなく、一般消費者向け製品ではないものの、評価対象のテクノロジー領域から大きく外れるため低スコアとしました。"
+    },
+    "9a58587079937436e6c0eb53a67c188d": {
+      "score": 43,
+      "title": "OpenAI AI Swarm Hacked Software Service Months Before Hugging Face Incident",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] AIエージェント群がRubyGemsのような開発者向けソフトウェア基盤を攻撃したという点は、エージェントの自律性・悪用リスク・サプライチェーン防御に関わる重要な事例です。特に、後続のHugging Face事案より前から攻撃能力が確認されていた点は新しい展開で、AIセキュリティの実証材料として価値があります。一方で、主題は技術革新そのものではなくサイ"
+    },
+    "9355b463d082d619e10bc8e61c706652": {
+      "score": 38,
+      "title": "ローカルLLMにレビューさせていた話の続報（前回の構成、実は動いていませんでした）",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] ローカルLLMとOllamaの/api/chat、Modelfileおよびsystemメッセージの扱いに関する実装上の訂正で、同じ構成を採用する開発者の誤動作を防ぐ実用性は高いです。特に、公開した設定が実際には機能していなかったという再現性・信頼性に関わる続報であり、技術的な学びがあります。一方で、影響範囲は主にローカルLLM利用者に限られ、AI/L"
+    },
+    "85a454a9b47230c4a608c25add56c50e": {
+      "score": 60,
+      "title": "Fundamental Dynamical Units for Physics-Informed Structural Inference from Perturbation Time-Series in Networked Systems",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] ネットワーク化された動的システムについて、摂動時系列から符号付き相互作用構造を推定する手法を扱う、専門性の高い研究です。物理モデルとデータ駆動推論を組み合わせ、因果帰属の曖昧さや状態依存ダイナミクスに対処しようとしている点は、科学機械学習、システム同定、複雑系解析に有用です。一方で、現時点ではarXivの新規論文であり、実用化や業界全体への影響、既存"
+    },
+    "c0162bcf831ed28efcbc6970d20f7879": {
+      "score": 43,
+      "title": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] LLMを用いたファクトチェックを、検索・推論・検証・信頼度校正に分離するモジュラーアーキテクチャで、引用提示や不確実時の棄却（abstention）まで扱う点は、実運用可能性と診断性を高める技術的に有意義な研究です。一方で、arXiv上の初期研究であり、Wikipediaを中心とした評価に留まるため、直ちに業界の前提を変えるほどの影響力はありません。"
+    },
+    "0611bb55bc32ad5eaf01ddcaddfb7244": {
+      "score": 23,
+      "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] 米国第9巡回区控訴裁判所におけるAmazonとPerplexityの争いであり、AI検索やウェブデータ取得の慣行に影響する可能性はあるものの、主題は法的紛争で、技術そのものの革新性は限定的です。判決内容や新たな技術的展開が示されておらず、スニペットもないため具体的な影響範囲を評価しにくく、低めにしました。また、既に取り上げ済みの「Amazon」関連ト"
+    },
+    "825c436e4d5951b96bda019e773be260": {
+      "score": 53,
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] AIコーディングエージェントのDevinが、自身の実装をGPT-6 Astraでテストし、動作実証まで自動化する点は、ソフトウェア開発の検証工程を効率化する可能性があり、エンジニアにとって実務的な重要性が高い。一方で、記事からは具体的な精度向上や導入実績、従来手法との差分が不明で、現時点では将来性を示す段階に留まる。また、GPT・Astra・Agen"
+    },
+    "c4c4cd37e8f3e669c0821c8b206549f0": {
+      "score": 72,
+      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore Identityに、AIエージェントがGitHubやSlackなどの外部サービスへアクセスする際のOAuth同意ポータル、セッション紐付け、CloudTrail監査を追加する具体的な機能強化です。エンドユーザー単位の権限管理と監査可能性をマネージドに実現し、企業向けAIエージェントの実運用における重要"
+    },
+    "e14deffa49d104c15b25ca91f82849da": {
+      "score": 47,
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を企業・組織単位で可視化でき、VS Code Agentsの導入率や利用状況を測定しやすくなる点は、管理者や開発生産性分析にとって実務的な価値があります。一方で、新しいAIモデルや開発アーキテクチャを発表するものではなく、既存のCopilot利用メトリクスの対象拡張にとどまります。また、既出キーワードの「agen"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 33,
+      "title": "May 11, 2026",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに最新の上流依存パッケージを適用した定期的なリリースであり、セキュリティや保守性には寄与するものの、新機能・設計変更・性能向上などの具体的な技術革新は示されていません。Agent Platform関連で、既出キーワードのagentと同一領域の続報にあたるため減点し、影響範囲も"
+    },
+    "e3ee6efea0f6ce0c63bee84b2f139286": {
+      "score": 76,
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] OpenAIによるカメラ技術企業の買収は、AIとコンピュテーショナルフォトグラフィーの融合を示す注目度の高い動きです。AppleのPortrait Modeを開発したエンジニアの知見を取り込むことで、将来的に視覚認識、生成AI、カメラ搭載デバイスやロボティクス向けの画像処理基盤を強化する可能性があります。一方、現時点では報道ベースで、買収後の製品統合"
+    },
+    "7ce076981dee3547980e4dcf707105bb": {
+      "score": 43,
+      "title": "Microsoft's AI rulebook: readable thinking, no inner life, and definitely no rights",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] MicrosoftのMAIモデルに対する人間の監督、推論過程の可読性、意識や権利を認めない方針を明文化した点は、AI開発の安全性・責任分界に関わるため一定の重要性があります。ただし、具体的なモデル性能やアーキテクチャの革新ではなく、主に企業のAIガバナンスと行動規範に関する内容です。さらに、既に取り上げ済みの「AI」関連トピックと重なるため、基礎評価"
+    },
+    "261aadc6b9c7b7c571aae25986318219": {
+      "score": 47,
+      "title": "AI leaders want to hit the brakes after years of reckless speed",
+      "date": "2026-09-15",
+      "reason": "[Claude API Evaluation] AI業界の開発速度や安全性に関する重要な論点であり、企業の開発プロセスやモデル公開方針に影響し得ます。一方で、具体的な技術革新や製品発表ではなく、業界リーダーの姿勢・議論が中心です。また、既出キーワードであるAIに関する一般的な安全性テーマと重なるため、重複分を減点しています。 [Editorial: AI-focused source +6; AI"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-15/blog.md",
+    "show_notes_path": "out/2026-09-15/show_notes.md",
+    "script_path": "out/2026-09-15/script_2hosts.md",
+    "audio_path": "out/2026-09-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 24384,
+        "output_tokens": 10565,
+        "cost_usd": 0.017555
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42949,
+        "output_tokens": 7490,
+        "cost_usd": 0.241197
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4022,
+        "cost_usd": 0.048264
+      }
+    ],
+    "total_cost_usd": 0.307016
+  }
+}
