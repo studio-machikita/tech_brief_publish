@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.11,
+    "title": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents",
+    "url": "https://arxiv.org/abs/2609.13149"
+  },
+  {
+    "start_sec": 153.2,
+    "title": "Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning",
+    "url": "https://arxiv.org/abs/2609.13151"
+  },
+  {
+    "start_sec": 268.4,
+    "title": "【DDD】モノリスを分割するサブドメイン特定法",
+    "url": "https://zenn.dev/trefac/articles/97e79f3841bbb3"
+  },
+  {
+    "start_sec": 390.65,
+    "title": "Introducing ChatGPT for Financial Services",
+    "url": "https://openai.com/index/introducing-chatgpt-financial-services"
+  },
+  {
+    "start_sec": 435.06,
+    "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/"
+  },
+  {
+    "start_sec": 604.33,
+    "title": "AI labs have a data trust problem that their policies haven't solved",
+    "url": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/"
+  },
+  {
+    "start_sec": 728.99,
+    "title": "エンディング",
+    "url": null
+  }
+]

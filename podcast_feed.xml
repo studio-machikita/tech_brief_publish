@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#169 BudgetBench:ローカル大規模言語モデルエージェントにおけるメモリ戦略評価のための予算階層型プロトコルとパイロ…</title>
+      <description>Tech News Radio Show Notes - #169 (2026-09-16)
+
+エピソード情報
+• エピソード: #169
+• 日付: 2026-09-16
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents (https://arxiv.org/abs/2609.13149)
+• Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning (https://arxiv.org/abs/2609.13151)
+• 【DDD】モノリスを分割するサブドメイン特定法 (https://zenn.dev/trefac/articles/97e79f3841bbb3)
+
+注目の深掘り
+• Introducing ChatGPT for Financial Services (https://openai.com/index/introducing-chatgpt-financial-services)
+• Introducing ChatGPT for Financial Services (https://openai.com/index/introducing-chatgpt-images-2-5)
+
+小ネタ・その他
+• Build an AI-powered product tagging system with Amazon SageMaker serverless model customization (https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/)
+• AI labs have a data trust problem that their policies haven't solved (https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-16/episode_audio.mp3" length="12199341" type="audio/mpeg" />
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-16</guid>
+      <itunes:duration>12:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>BudgetBench:ローカル大規模言語モデルエージェントにおけるメモリ戦略評価のための予算階層型プロトコルとパイロ…</itunes:title>
+      <itunes:episode>169</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #169 (2026-09-16)
+
+エピソード情報
+• エピソード: #169
+• 日付: 2026-09-16
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents (https://arxiv.org/abs/2609.13149)
+• Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning (https://arxiv.org/abs/2609.13151)
+• 【DDD】モノリスを分割するサブドメイン特定法 (https://zenn.dev/trefac/articles/97e79f3841bbb3)
+
+注目の深掘り
+• Introducing ChatGPT for Financial Services (https://openai.com/index/introducing-chatgpt-financial-services)
+• Introducing ChatGPT for Financial Services (https://openai.com/index/introducing-chatgpt-images-2-5)
+
+小ネタ・その他
+• Build an AI-powered product tagging system with Amazon SageMaker serverless model customization (https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/)
+• AI labs have a data trust problem that their policies haven't solved (https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-16/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.110" title="BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents" href="https://arxiv.org/abs/2609.13149" />
+        <psc:chapter start="00:02:33.200" title="Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning" href="https://arxiv.org/abs/2609.13151" />
+        <psc:chapter start="00:04:28.400" title="【DDD】モノリスを分割するサブドメイン特定法" href="https://zenn.dev/trefac/articles/97e79f3841bbb3" />
+        <psc:chapter start="00:06:30.650" title="Introducing ChatGPT for Financial Services" href="https://openai.com/index/introducing-chatgpt-financial-services" />
+        <psc:chapter start="00:07:15.060" title="Build an AI-powered product tagging system with Amazon SageMaker serverless model customization" href="https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/" />
+        <psc:chapter start="00:10:04.330" title="AI labs have a data trust problem that their policies haven't solved" href="https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/" />
+        <psc:chapter start="00:12:08.990" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#168 OpenAI、スマートフォンカメラメーカーのGlass Imagingを3億ドルで買収と報道 ほか</title>
       <description>Tech News Radio Show Notes - #168 (2026-09-15)
 

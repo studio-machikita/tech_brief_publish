@@ -1,0 +1,375 @@
+{
+  "date": "2026-09-16",
+  "episode_date_local": "2026-09-16",
+  "content_snapshot_date": "2026-09-16",
+  "show_length_sec": 762,
+  "audio_size": 12199341,
+  "generated_at": "2026-09-15T22:58:11.116194+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d3f0a3d0",
+      "title": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Agents",
+      "title_ja": "BudgetBench:ローカル大規模言語モデルエージェントにおけるメモリ戦略評価のための予算階層型プロトコルとパイロットハーネス",
+      "one_liner": "トークン予算固定でメモリ戦略を比較する評価手法",
+      "fingerprint": "d3f0a3d09de32b46e48706056aa154bd",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-b16e5364",
+      "title": "Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning",
+      "title_ja": "多言語音声認識のためのトークンマージ:モデル規模とファインチューニングに関する体系的研究",
+      "one_liner": "Whisperにトークン統合、多言語音声認識を軽量化",
+      "fingerprint": "b16e53642d5f0a262c5757baf0c14a0d",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-7bee3583",
+      "title": "【DDD】モノリスを分割するサブドメイン特定法",
+      "title_ja": "【DDD】モノリスを分割するサブドメイン特定法",
+      "one_liner": "書籍の指標を使いモノリスをサブドメイン分割",
+      "fingerprint": "7bee35838ce4ef5d81a05157a8150048",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-c92cccae",
+      "title": "Introducing ChatGPT for Financial Services",
+      "title_ja": "金融サービス向けChatGPTのご紹介",
+      "one_liner": "金融業界向けChatGPT、GPT-6 Astra搭載で登場",
+      "fingerprint": "c92cccaec581c7292729b848c72e9b67",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-339789e7",
+      "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+      "title_ja": "AI搭載の商品タグ付けシステムをAmazon SageMakerのサーバーレスモデルカスタマイズで構築する",
+      "one_liner": "SageMakerでQwen3を商品タグ付け用に微調整",
+      "fingerprint": "339789e7425334d69aea4815369b07b6",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-614f9de0",
+      "title": "AI labs have a data trust problem that their policies haven't solved",
+      "title_ja": "AI研究機関のデータ信頼問題、ポリシーでは解決できず",
+      "one_liner": "AI企業のデータ方針、実は顧客の信頼を得られていません",
+      "fingerprint": "614f9de0126513ffde6ddf7465e3db25",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-64b33441",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search"
+    },
+    {
+      "item_id": "item-fd79461a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "After warning AI is too dangerous, Bill Gates bets a billion on its upside"
+    },
+    {
+      "item_id": "item-c8cc4e7b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup"
+    },
+    {
+      "item_id": "item-7e5b698b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching"
+    },
+    {
+      "item_id": "item-041915a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+    },
+    {
+      "item_id": "item-2a6611e2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why China’s Answer to Surge AI Got a $1 Billion Valuation On Just $30 Million in Orders"
+    },
+    {
+      "item_id": "item-8b6e011a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop"
+    },
+    {
+      "item_id": "item-a9494392",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments"
+    },
+    {
+      "item_id": "item-e14deffa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Add VS Code Agents to Copilot usage metrics"
+    },
+    {
+      "item_id": "item-576b1b9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot suggests custom properties definitions"
+    },
+    {
+      "item_id": "item-06c2c3d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI Weighing Funding Round at Over $1.2 Trillion Valuation"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-e8154136",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The AI data center boom is colliding with cities scarred by big industry"
+    },
+    {
+      "item_id": "item-bd1635ad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers"
+    },
+    {
+      "item_id": "item-f2b171ae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’"
+    },
+    {
+      "item_id": "item-8bda7af6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jean-Pierre Serre - Biography"
+    },
+    {
+      "item_id": "item-ea1b4d48",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "onboardapi: Main Page"
+    }
+  ],
+  "score_cache": {
+    "ea1b4d484311d23d6c5ee688099f4a1b": {
+      "score": 6,
+      "title": "onboardapi: Main Page",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 「onboardapi: Main Page」というタイトルと空のスニペット בלבדでは、技術的な新規性、実装内容、影響範囲を判断できません。AI・クラウド・言語処理系などの明確な技術革新も確認できないため、情報不足として最低水準に近い評価とします。"
+    },
+    "c92cccaec581c7292729b848c72e9b67": {
+      "score": 61,
+      "title": "Introducing ChatGPT for Financial Services",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 金融業務向けに組み込みデータ、GPT-6 Astra、リサーチ・モデリング・顧客向け資料作成を統合する点は、LLMの業務特化とエンタープライズ活用の進展として重要です。一方で、既出のAI・GPT・Astra・ChatGPT・エージェント系トピックと内容が近く、基盤技術の新規性やアーキテクチャ上の具体的な革新はスニペットからは限定的です。そのため、金融"
+    },
+    "7e5b698b437bfe77439789ab4ddb6d2c": {
+      "score": 49,
+      "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] Amazon Bedrockのプロンプトキャッシュによって入力トークンコストを最大90%削減し、レイテンシ改善も期待できる点は、LLMアプリケーションの運用コスト最適化に直結する実用的な内容です。メッセージ、システムプロンプト、ツール定義、TTL、テナント分離、LangChain連携まで具体的な実装シナリオを扱っている点も評価できます。一方で、基盤モ"
+    },
+    "041915a39103275d79d593699b9bf683": {
+      "score": 49,
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリでコード差分の確認、ターミナル実行、Webアプリのプレビューを一画面で行える点は、エージェント型開発の実用性や開発体験を高める具体的な機能紹介です。一方で、業界の前提を変える新技術やアーキテクチャの発表ではなく、初心者向けの利用ガイドに近いため影響範囲は限定的です。また、既出キーワードであるAI・エージェント関連の同"
+    },
+    "576b1b9d4b2e7c6d625f4ed5df64fbad": {
+      "score": 43,
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotがリポジトリのカスタムプロパティに許可値を提案する機能は、組織内のリポジトリ管理や標準化を効率化する実用的な改善です。ただし、既存の開発者向けAI支援機能の小規模な拡張であり、アーキテクチャや開発基盤を大きく変える革新性は限定的です。CopilotやAI関連の既出テーマとも近いため、重複分を考慮して減点しています。 [Ed"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 41,
+      "title": "May 11, 2026",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの新しいイメージリリースですが、内容はDebian 12上の依存パッケージ更新に限定されており、機能追加やアーキテクチャ変更、開発者体験を大きく変える発表ではありません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agent」「work」と重なり、明確な新展開も見られないため減点しまし"
+    },
+    "e8154136a8eb48af33b70844a047d4db": {
+      "score": 41,
+      "title": "The AI data center boom is colliding with cities scarred by big industry",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] AI向けデータセンターの急拡大が、電力・土地利用・環境負荷・地域コミュニティとの対立を引き起こしている点は、インフラ設計やクラウド運用の観点で重要です。一方、記事の中心は新技術やアーキテクチャの進展ではなく、都市計画や社会的合意形成の問題です。また、既出のAI関連テーマと重なるため、重複分として減点しました。 [Editorial: AI/SaaS "
+    },
+    "614f9de0126513ffde6ddf7465e3db25": {
+      "score": 58,
+      "title": "AI labs have a data trust problem that their policies haven't solved",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 企業向けAI導入におけるデータ保持・学習利用・機密情報の取り扱いへの不信を具体的な利用撤回事例で示しており、AIサービスのエンタープライズ採用やシステム設計に影響する重要な論点です。一方で、新モデルや基盤技術の発表ではなく、既存のAIデータポリシーが解決できていない運用・ガバナンス上の課題を扱った分析記事であるため、技術革新としての評価は限定的です。"
+    },
+    "8b6e011ad33a38441a2635abec7d2918": {
+      "score": 47,
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] AIエージェントがソーシャルメディア上で自律的に活動し、低品質な投稿（スロップ）を大量生成する現象は、エージェント運用やコンテンツ信頼性の観点で注目に値します。一方で、具体的な技術革新や新しいアーキテクチャの発表ではなく、既存のAI・エージェント関連テーマの社会的影響を扱った記事です。直近の放送でAIおよびagents関連の話題が既出のため減点し、セ"
+    },
+    "f2b171ae683123a92a7265085a63ebcc": {
+      "score": 23,
+      "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] AIを活用したバーチャルキャラクターと映画プロモーションの話題ですが、技術的な新規性、実装詳細、業界の前提を変えるような発表は示されていません。主眼はキャラクターの政治的発言回避や宣伝活動であり、AI・エージェント技術の進展を扱う記事ではありません。既出キーワードのAIにも関連しますが、同一技術の新展開というより個別コンテンツの話題であるため、重複減"
+    },
+    "bd1635ada324bfc5e03695bca41f4928": {
+      "score": 41,
+      "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] AI業界の主要人物が安全性や将来リスクについて同様の懸念を示している点は、業界動向として一定の重要性があります。一方で、記事はニュースレターの総括的な内容であり、具体的なモデル性能、アーキテクチャ、製品発表、実装技術などの新情報がスニペットから確認できません。また、既出キーワードであるAIやエージェントに関する話題と重なるため減点しました。エンジニア"
+    },
+    "06c2c3d3a6d90ba1ffadcbf0a46278b1": {
+      "score": 43,
+      "title": "OpenAI Weighing Funding Round at Over $1.2 Trillion Valuation",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] OpenAIが1.2兆ドル超の評価額で大型調達を検討している点は、AIインフラ投資、計算資源の確保、モデル開発競争、IPOに向けた業界構造に大きな影響を与え得ます。一方で、具体的な技術革新や製品・アーキテクチャの発表ではなく、資金調達に関する初期協議にとどまっています。また、既出のOpenAI・ChatGPT関連トピックと重なるため、評価を減点しまし"
+    },
+    "2a6611e2d24dca9f22bdf4eb4cb8a463": {
+      "score": 48,
+      "title": "Why China’s Answer to Surge AI Got a $1 Billion Valuation On Just $30 Million in Orders",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 中国でSurge、Mercor、Scaleに相当するAIデータ整備・モデル評価スタートアップが台頭し、わずか3,000万ドル規模の受注で10億ドル評価に達した点は、AI開発の競争軸がモデルそのものから、高品質データや実運用ベンチマークへ広がっていることを示します。特に中国のAIエコシステムや、専門知識を要するタスク向けの評価基盤という観点では注目度が"
+    },
+    "7bee35838ce4ef5d81a05157a8150048": {
+      "score": 69,
+      "title": "【DDD】モノリスを分割するサブドメイン特定法",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 巨大モノリスをサブドメイン単位に分割するための具体的な境界特定法を扱っており、DDD、モジュラーモノリス、マイクロサービス化を検討するチームに実務的な価値があります。単なる理論紹介ではなく、ドメインストーリーや境界を示す指標を用いてチーム内の合意形成につなげている点も有用です。一方で、既存システムの設計・分割手法に関する内容であり、業界の前提を変える"
+    },
+    "64b33441a06570689473fee1ab793e3f": {
+      "score": 55,
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 数学推論とエージェント型検索を主用途とする、完全オープンな7B基盤モデルであり、256Kコンテキスト、外部ツール利用、学習・システム・アルゴリズム面での高効率化はエンジニアリング上かなり注目度が高い。特に小型モデルのパラメータ限界を内部推論と外部検索で補う設計思想は、オンプレミスや低コスト推論にも応用しやすい。一方で、AI・エージェント・検索は直近放"
+    },
+    "d3f0a3d09de32b46e48706056aa154bd": {
+      "score": 77,
+      "title": "BudgetBench: A Budget-Tiered Protocol and Pilot Harness for Memory Strategy Evaluation in Local Large Language Model Age",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] ローカルLLMエージェントのメモリ戦略を、1回あたりの入力トークン予算・プリフィル遅延・キャッシュ増大・サービス目標といった実運用上の制約で比較できる評価プロトコルと参照ハーネスは、研究結果そのものではないものの、エージェントの性能評価を標準化する重要な取り組みです。特にモデルやタスクなどの条件を固定し、予算を独立変数として比較する設計は再現性と実装"
+    },
+    "b16e53642d5f0a262c5757baf0c14a0d": {
+      "score": 77,
+      "title": "Token Merging for Multilingual Speech Recognition: A Systematic Study Across Model Scale and Fine-Tuning",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] Whisper系の多言語音声認識モデルに対し、再学習なしでトークンマージングを適用し、推論時の系列長と計算コストを削減する研究です。16言語以上・モデル規模・ファインチューニング条件を横断した体系的評価であり、低リソース言語を含む音声AIの実運用コストやレイテンシ改善に直結する点で技術的価値が高いです。一方、基盤モデルそのものの革新や業界構造を変える"
+    },
+    "8bda7af6193d5b583f0a4638b59880db": {
+      "score": 13,
+      "title": "Jean-Pierre Serre - Biography",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] ジャン＝ピエール・セールの人物紹介であり、数学史・研究者の業績に関する記事です。ソフトウェア開発、AI、クラウド、プログラミング言語などの技術トレンドへの直接的な影響や新規性がなく、エンジニア向けニュースとしての重要度は低いと判断しました。"
+    },
+    "a9494392af018687b027ad47abc885ec": {
+      "score": 47,
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] 政府機関向けにAI利用料の無償化や利用料金の大幅割引、サイバー防御支援を提供する点は、AIの公共セクター展開という意味で一定の影響があります。一方、技術仕様や新しいモデル、アーキテクチャの発表ではなく、主眼は導入促進・価格施策と行政向け支援です。また、既出キーワードであるOpenAIおよびAIに直接関連し、同じ話題の続報として扱われるため減点しました"
+    },
+    "339789e7425334d69aea4815369b07b6": {
+      "score": 60,
+      "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] Qwen3-8BにSFTとRLVRを組み合わせ、SageMakerのサーバーレスなモデルカスタマイズと非同期推論で商品タグ付けを自動化する、実装具体性の高いAI/LLM活用事例です。モデル微調整から推論基盤、コスト効率まで一連の構成を示しており、エンジニアにとって実用価値があります。一方で、AIおよびAmazon関連は既出キーワードに該当し、同領域の"
+    },
+    "e14deffa49d104c15b25ca91f82849da": {
+      "score": 47,
+      "title": "Add VS Code Agents to Copilot usage metrics",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、VS CodeのAgentsウィンドウ単位で計測できるようになるため、企業における導入効果の可視化や利用分析には実務的な価値があります。一方で、新しいAIモデルやエージェント機能そのものではなく、既存機能向けのメトリクス拡張にとどまります。また、既に取り上げ済みの「agents」関連トピックと同じ領域の続報に"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 43,
+      "title": "May 28, 2026",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新で、依存パッケージの更新、ベース環境でのpip利用性改善、JupyterLab認証設定の強化が行われています。開発環境の安定性や安全性には寄与しますが、新機能やアーキテクチャの大幅な進化ではなく、影響範囲も既存利用者向けの保守改善に限定的です。さらに、直近に取り上げ済みのagent/wor"
+    },
+    "c8cc4e7b2cc501b545e5b3adc747be51": {
+      "score": 52,
+      "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] WhatsApp Businessの初期設定、メッセージテンプレート作成、テスト、トラブルシューティングをMCPサーバー経由でAIコーディングエージェントに委任できる点は、業務APIとAIエージェントの実用的な統合として具体性があります。開発者体験や導入コストの改善につながる一方、対象はWhatsApp Businessの運用領域に限定され、業界全体"
+    },
+    "fd79461a5de06db6f692f34b3dc8c247": {
+      "score": 54,
+      "title": "After warning AI is too dangerous, Bill Gates bets a billion on its upside",
+      "date": "2026-09-16",
+      "reason": "[Claude API Evaluation] AIを医療・教育・農業へ普及させるため、ゲイツ財団が2年間で少なくとも10億ドルを投資する点は、社会実装と技術格差是正の観点で重要です。特に英語中心の学習データやヨルバ語音声認識の低精度を指摘しており、多言語モデルやデータ品質の課題を具体化しています。一方で、基盤技術の革新や新しいアーキテクチャの発表ではなく、既存AIの普及・支援策が中心です。また、"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-16/blog.md",
+    "show_notes_path": "out/2026-09-16/show_notes.md",
+    "script_path": "out/2026-09-16/script_2hosts.md",
+    "audio_path": "out/2026-09-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 25692,
+        "output_tokens": 10804,
+        "cost_usd": 0.018103
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 43073,
+        "output_tokens": 7840,
+        "cost_usd": 0.246819
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4104,
+        "cost_usd": 0.049248
+      }
+    ],
+    "total_cost_usd": 0.31417
+  }
+}
