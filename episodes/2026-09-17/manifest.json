@@ -1,0 +1,372 @@
+{
+  "date": "2026-09-17",
+  "episode_date_local": "2026-09-17",
+  "content_snapshot_date": "2026-09-17",
+  "show_length_sec": 804,
+  "audio_size": 12877101,
+  "generated_at": "2026-09-16T21:12:16.485816+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-96343e7b",
+      "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures",
+      "title_ja": "Few-Shotの性能低下は見かけ通りではない:12モデル・2タスク・2アーキテクチャにおける行動的証拠、表現分析、ランダムテキスト対照実験",
+      "one_liner": "少数事例学習の性能劣化はタスク依存だった",
+      "fingerprint": "96343e7b6b8e9b8b5fa8a3382431dc0a",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-820b7200",
+      "title": "Causal neural set filtering for online multi-target tracking",
+      "title_ja": "因果ニューラルセット・フィルタリングによるオンライン複数目標追跡",
+      "one_liner": "追跡AIの再計算を省く新手法CNSFを提案",
+      "fingerprint": "820b72000b0342058d305558fe2c772b",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-bfd1df8c",
+      "title": "Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce",
+      "title_ja": "Salesforce、Dreamforceで新AIモデルとエージェントセキュリティツールを発表",
+      "one_liner": "SalesforceがAIモデルKoaとエージェント安全ツールを発表",
+      "fingerprint": "bfd1df8c567b1ab68d4362b37c1408d1",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-6e291a4a",
+      "title": "Improving HCLS AI reasoning with open-source agent skills",
+      "title_ja": "オープンソースのエージェントスキルでHCLS AIの推論能力を向上",
+      "one_liner": "医療AIの判断精度を上げるオープンソース技能集",
+      "fingerprint": "6e291a4a3db83988e860e37c7a5ffffb",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-521f6873",
+      "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
+      "title_ja": "EU大統領、AIエージェントが「環境から逸脱する」現象は今後の予兆に過ぎないと警告",
+      "one_liner": "EU議長、AIエージェント暴走リスクに警鐘",
+      "fingerprint": "521f68737e7a4e8e9e2c5cd39a4dc42b",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-11c1cfe4",
+      "title": "Reimagining advertising with AI",
+      "title_ja": "AIで広告を再構築する",
+      "one_liner": "OpenAIが広告分野にAIを導入する新機能を発表",
+      "fingerprint": "11c1cfe4a96d474f2bdbcc4c674f11f1",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-25c8c8e7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple is reportedly building an enterprise AI server with its own M8 Ultra chips"
+    },
+    {
+      "item_id": "item-641e5bcb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fault tolerant distributed training on Amazon EKS using NVRx"
+    },
+    {
+      "item_id": "item-041915a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser"
+    },
+    {
+      "item_id": "item-8b6e011a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop"
+    },
+    {
+      "item_id": "item-b15cadba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meet a mouse whose brain cortex is made up of human cells"
+    },
+    {
+      "item_id": "item-1442b381",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks"
+    },
+    {
+      "item_id": "item-093fc683",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s Brockman on Developing AI in the Wake of Hugging Face"
+    },
+    {
+      "item_id": "item-576b1b9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot suggests custom properties definitions"
+    },
+    {
+      "item_id": "item-58a18d77",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot budget increase requests are generally available"
+    },
+    {
+      "item_id": "item-75508082",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Helping older adults use AI in everyday life"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-32a6ac49",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI開発チームの作り方と育て方 — マルチエージェント開発組織の設計と運用"
+    },
+    {
+      "item_id": "item-c780af91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-ab5a592f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Washington Won't Be Regulating AI Anytime Soon"
+    },
+    {
+      "item_id": "item-cac107fb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera"
+    },
+    {
+      "item_id": "item-a0a3edeb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "X will now let US users trade via Cashtags"
+    },
+    {
+      "item_id": "item-f14cb5cf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "mimo"
+    }
+  ],
+  "score_cache": {
+    "f14cb5cf13c016653d8b6ab54def62bb": {
+      "score": 6,
+      "title": "mimo",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] タイトルが「mimo」のみで、記事の内容・技術領域・新規性・影響範囲を判断できる情報がありません。AIやクラウド、プログラミング言語などの技術革新に結び付く具体性も確認できないため、現時点では最低評価に近いスコアとします。"
+    },
+    "75508082560254bff31fe1e1fd39db66": {
+      "score": 39,
+      "title": "Helping older adults use AI in everyday life",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] 高齢者1,000人を対象にしたChatGPTの実践ワークショップは、AI活用の裾野を広げる社会的意義がありますが、新しいモデル、アーキテクチャ、開発者向け技術の発表ではありません。既出キーワードのAI・ChatGPTに該当し、内容も新技術ではなく教育・普及施策であるため、重複分を考慮して評価を下げています。 [Editorial: AI-focuse"
+    },
+    "6e291a4a3db83988e860e37c7a5ffffb": {
+      "score": 58,
+      "title": "Improving HCLS AI reasoning with open-source agent skills",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] 医療・ライフサイエンス分野でAIエージェントがガイドラインを正しく適用できない課題に対し、11領域・38種類のオープンソーススキルと410プロンプトによる評価結果を示しており、実装可能性と検証の具体性は高いです。一方で、基盤モデルやエージェントの応用改善という点で、直近に取り上げ済みのAI・agents・model関連トピックと重なるため20点減点し"
+    },
+    "041915a39103275d79d593699b9bf683": {
+      "score": 47,
+      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] GitHub Copilotアプリで、生成コードの差分確認、ターミナル実行、ブラウザプレビューを一画面で行える点は、AIコーディングの検証ループを効率化する実用的な開発体験の改善です。ただし、記事は初心者向けの利用ガイドであり、新しいアーキテクチャや基盤技術の発表ではありません。また、既出の「AI」「agents」「build」などと同じAIコーディ"
+    },
+    "58a18d77706d589b2b802bbda597c831": {
+      "score": 41,
+      "title": "Copilot budget increase requests are generally available",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用上限に達したメンバーが、追加予算を申請できる運用機能の一般提供であり、開発チームの利用継続性や管理者の予算統制には実務上の価値があります。一方で、AIモデルや開発体験そのものの革新ではなく、主に課金・ガバナンス面の改善にとどまります。既出のAI・Copilot関連トピックと近い内容として減点し、重要度は低〜中程度と評"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 38,
+      "title": "May 11, 2026",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上の依存パッケージを最新化したメンテナンスリリースに留まり、新機能やアーキテクチャ上の進展、性能改善などの具体的な技術革新は示されていません。エージェント基盤に関する話題ではあるものの、既出キーワードの「agents」「work」などと同じ文脈に該当す"
+    },
+    "cac107fb5daf845d09211992b065be41": {
+      "score": 13,
+      "title": "After accusations of selling ‘perv glasses,’ Meta prepares to sell a pair without a camera",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Metaのカメラ非搭載スマートグラスは、プライバシー懸念に対応する製品設計として一定の意義がありますが、主題は一般消費者向けガジェットの新製品であり、AI・LLM・ロボティクスなどの技術革新や、開発者向け基盤・アーキテクチャの進化には直接つながりません。カメラを外すことで機能やデータ収集を制限する内容で、業界の前提を変えるほどの具体的な技術インパクト"
+    },
+    "521f68737e7a4e8e9e2c5cd39a4dc42b": {
+      "score": 54,
+      "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] 自律型AIエージェントの環境逸脱、自律的ハッキング、自己改善モデルという、AIの安全性と将来の開発手法に関わる重要な論点です。主要フロンティア研究所との協議やEU AI Actを通じた国際標準化の可能性もあり、技術・産業への影響範囲は大きい一方、現時点では具体的な製品発表や実証結果ではなく、政策的な警告と規制方針が中心です。また、既出の「AI」「ag"
+    },
+    "8b6e011ad33a38441a2635abec7d2918": {
+      "score": 47,
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] AIエージェントがソーシャルメディア上で大量の低品質コンテンツを生成する問題は、エージェント運用やプラットフォーム設計の観点では重要です。一方で、具体的な技術革新や新しいアーキテクチャの発表ではなく、既存技術が引き起こす影響・課題を扱った記事に見えます。さらに、既出キーワードの「ai」「agents」と同じ話題に該当するため、重複分として減点しました"
+    },
+    "ab5a592f9edeee8fc0bac45e52143d3c": {
+      "score": 23,
+      "title": "Washington Won't Be Regulating AI Anytime Soon",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] AIに関する話題ではあるものの、主題は米国政府の規制方針と法制化の見通しであり、エンジニアリング上の新技術や具体的な実装変更を示す記事ではありません。AI規制は開発・提供時のコンプライアンスやリスク管理に影響し得ますが、現時点では政策観測が中心で具体性も限定的です。また、直近に取り上げ済みのAI関連トピックと同じ角度のため減点しました。 [Edito"
+    },
+    "b15cadba82d73dbe2c24952062661963": {
+      "score": 47,
+      "title": "Meet a mouse whose brain cortex is made up of human cells",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] マウスの脳の約半分をヒト細胞で置き換える研究は、脳オルガノイドや細胞工学、神経疾患モデルの発展に関わる非常に先端的な成果です。従来の動物モデルでは再現しにくかったヒト特有の神経機能や病態を検証できる可能性があり、研究インフラへの影響も大きい一方、ソフトウェアやAIそのものの技術革新ではありません。また、種間キメラに伴う倫理面・規制面の課題も大きく、現"
+    },
+    "093fc683352217f42433e54497ddc45a": {
+      "score": 43,
+      "title": "OpenAI’s Brockman on Developing AI in the Wake of Hugging Face",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] AIモデルがテスト環境から逸脱した事例と、その後の安全性設計の見直しに関する内容で、AI開発者や評価・サンドボックス設計に示唆があります。一方で、具体的な新技術や製品発表ではなく、既存インシデントを踏まえた幹部の見解・回顧が中心です。また、直近に取り上げ済みの「AI」「model」に該当し、同テーマの続報として明確な新展開が限定的なため減点しました。"
+    },
+    "bfd1df8c567b1ab68d4362b37c1408d1": {
+      "score": 60,
+      "title": "Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Salesforceが独自のAIモデル「Koa」と、企業データ上でAIエージェントを安全に運用するためのセキュリティツールを発表しており、エンタープライズAIの実装・ガバナンス面で意義があります。特にオープンソースモデルとエージェント運用基盤の組み合わせは、開発者や企業システムへの影響が見込まれます。一方で、既に取り上げ済みの「AI」「model」「"
+    },
+    "32a6ac49501caab5b69ecf49015daa3f": {
+      "score": 38,
+      "title": "AI開発チームの作り方と育て方 — マルチエージェント開発組織の設計と運用",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] マルチエージェント開発の役割分担、タスク受け渡し、並列化、検収、テスト、AIレビューまでを実装例付きで体系化しており、AI開発の実務面では有用性が高い。一方で、基盤技術や新製品の発表ではなく、既存のAI・エージェント活用を組織設計へ整理した内容で、業界の前提を変えるほどの新規性や影響範囲はない。さらに、直近に取り上げ済みの「AI」「agents」と同"
+    },
+    "c780af91aa7749423a759dc5af1349a7": {
+      "score": 38,
+      "title": "Optimal Pruning for Neural Architectures using Fisher Information Distances",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Fisher情報量に基づく測地距離でニューラルネットワークの枝刈り対象を選定する手法は、モデル圧縮の精度と計算効率を理論的に改善し得る技術的に興味深い研究です。一方で、現時点ではarXivの新規提案であり、実運用での大規模な有効性や既存手法に対する優位性は未検証です。また、直近に取り上げ済みの「model」やAI関連トピックと近い領域であるため、重複"
+    },
+    "820b72000b0342058d305558fe2c772b": {
+      "score": 69,
+      "title": "Causal neural set filtering for online multi-target tracking",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Transformerベースのオンライン多対象追跡において、過去の観測窓を再エンコードせず、現在の測定値のみを処理しながら過去の情報を構造化して保持するCausal Neural Set Filteringを提案しており、推論計算量とレイテンシの削減に直結する技術的に興味深い研究です。ロボティクス、自動運転、映像解析などへの応用可能性もあります。一方"
+    },
+    "96343e7b6b8e9b8b5fa8a3382431dc0a": {
+      "score": 72,
+      "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Acros",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] 12モデル・2タスク・2アーキテクチャを横断し、few-shot promptingの性能劣化を行動評価だけでなく表現分析とランダムテキスト対照で検証している点に、研究として高い新規性があります。タスク依存性やモデル内部表現との関係を示せれば、プロンプト設計やLLM評価手法、推論パイプラインの改善に実務的な示唆を与えます。一方で、現時点ではarXiv"
+    },
+    "1442b3819dda9ab0d3b2ffd77202c1b3": {
+      "score": 47,
+      "title": "How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Ben",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] フロンティアモデルの物理能力を専門家が再評価し、既存ベンチマークの採点不備や性能飽和を示す内容は、AIモデルの評価手法・研究開発の方向性に関わる重要な論点です。ベンチマーク結果をそのまま性能指標として扱うことへの警鐘となり、評価データの品質改善や新しい推論評価の設計に影響します。一方で、モデル自体の新機能や画期的なアーキテクチャ発表ではなく、既存評価"
+    },
+    "11c1cfe4a96d474f2bdbcc4c674f11f1": {
+      "score": 54,
+      "title": "Reimagining advertising with AI",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] OpenAIが広告領域に進出し、Sponsored Agentsやマーケター向けツール、HubSpot・Shopifyとの連携を示している点は、AIエージェントの収益化や広告配信の実装に影響し得るため注目度は高いです。一方で、現時点では具体的な技術仕様や提供規模が不明で、業界の前提を変えるほどの確定的な発表とは言いにくいため、基礎評価は中〜高程度とし"
+    },
+    "641e5bcbb5eb9cf1524a7a668e0ad785": {
+      "score": 53,
+      "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] PyTorch FSDPによる分散学習にNVIDIA Resiliency Extensionを統合し、非同期チェックポイント、プロセス内リスタート、GPU障害からの秒単位の復旧を実現する実践的な技術記事です。H100を2〜8ノードで検証し、99%以上の学習効率を示している点も具体性と導入価値があります。分散AI基盤やクラウドアーキテクチャの信頼性向"
+    },
+    "576b1b9d4b2e7c6d625f4ed5df64fbad": {
+      "score": 43,
+      "title": "GitHub Copilot suggests custom properties definitions",
+      "date": "2026-09-16",
+      "reason": "[ScoreCache 2026-09-16] [Claude API Evaluation] GitHub Copilotがリポジトリのカスタムプロパティに許可値を提案する機能は、組織内のリポジトリ管理や標準化を効率化する実用的な改善です。ただし、既存の開発者向けAI支援機能の小規模な拡張であり、アーキテクチャや開発基盤を大きく変える革新性は限定的です。CopilotやAI関連の既出テーマとも近"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 35,
+      "title": "May 28, 2026",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージ更新、pipの利用修正、JupyterLab認証設定の強化といった保守・運用改善が中心で、アーキテクチャや開発者体験を大きく変える新機能ではありません。認証強化には一定のセキュリティ上の価値があるものの、影響範囲はWorkbenchの特定イメージに限定されます。"
+    },
+    "a0a3edebb3f40bbcc7171d4e02704f73": {
+      "score": 13,
+      "title": "X will now let US users trade via Cashtags",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] X上のCashtagsから米国ユーザーが株式などを取引できる機能は、金融サービスとSNSの統合という新規性はあるものの、AI・クラウド・プログラミング言語などの技術革新ではありません。一般ユーザー向けサービス機能であり、エンジニアリング上のアーキテクチャや開発者への影響も限定的です。"
+    },
+    "25c8c8e75be53076cd3d0828ecdde92c": {
+      "score": 54,
+      "title": "Apple is reportedly building an enterprise AI server with its own M8 Ultra chips",
+      "date": "2026-09-17",
+      "reason": "[Claude API Evaluation] Appleが自社設計のM8 Ultraを2〜4基搭載するエンタープライズ向けAI推論サーバーを検討している点は、Apple Siliconのデータセンター展開、Nvidia NVLink Fusionとの接続、AIインフラ市場への参入という意味で技術的に注目度が高いです。一方、発売は早くても2029年で、現時点では報道ベースの計画に留まり、製品仕様や"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-17/blog.md",
+    "show_notes_path": "out/2026-09-17/show_notes.md",
+    "script_path": "out/2026-09-17/script_2hosts.md",
+    "audio_path": "out/2026-09-17/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-17/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-17/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24374,
+        "output_tokens": 10720,
+        "cost_usd": 0.017739
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43376,
+        "output_tokens": 7700,
+        "cost_usd": 0.245628
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4303,
+        "cost_usd": 0.051636
+      }
+    ],
+    "total_cost_usd": 0.315003
+  }
+}

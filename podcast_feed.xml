@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#170 Few-Shotの性能低下は見かけ通りではない:12モデル・2タスク・2アーキテクチャにおける行動的証拠、表現分析、ラ…</title>
+      <description>Tech News Radio Show Notes - #170 (2026-09-17)
+
+エピソード情報
+• エピソード: #170
+• 日付: 2026-09-17
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures (https://arxiv.org/abs/2609.15990)
+• Causal neural set filtering for online multi-target tracking (https://arxiv.org/abs/2609.16054)
+• Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce (https://www.theinformation.com/briefings/salesforce-unveils-new-ai-model-agent-security-tools-dreamforce)
+
+注目の深掘り
+• Improving HCLS AI reasoning with open-source agent skills (https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/)
+
+小ネタ・その他
+• EU president warns AI agents "escaping their environment" are just a preview of what's coming (https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/)
+• Reimagining advertising with AI (https://openai.com/index/reimagining-advertising-with-ai)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-17/episode_audio.mp3" length="12877101" type="audio/mpeg" />
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-17</guid>
+      <itunes:duration>13:24</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Few-Shotの性能低下は見かけ通りではない:12モデル・2タスク・2アーキテクチャにおける行動的証拠、表現分析、ラ…</itunes:title>
+      <itunes:episode>170</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #170 (2026-09-17)
+
+エピソード情報
+• エピソード: #170
+• 日付: 2026-09-17
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures (https://arxiv.org/abs/2609.15990)
+• Causal neural set filtering for online multi-target tracking (https://arxiv.org/abs/2609.16054)
+• Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce (https://www.theinformation.com/briefings/salesforce-unveils-new-ai-model-agent-security-tools-dreamforce)
+
+注目の深掘り
+• Improving HCLS AI reasoning with open-source agent skills (https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/)
+
+小ネタ・その他
+• EU president warns AI agents "escaping their environment" are just a preview of what's coming (https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/)
+• Reimagining advertising with AI (https://openai.com/index/reimagining-advertising-with-ai)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-17/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.340" title="Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures" href="https://arxiv.org/abs/2609.15990" />
+        <psc:chapter start="00:02:20.910" title="Causal neural set filtering for online multi-target tracking" href="https://arxiv.org/abs/2609.16054" />
+        <psc:chapter start="00:04:31.850" title="Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce" href="https://www.theinformation.com/briefings/salesforce-unveils-new-ai-model-agent-security-tools-dreamforce" />
+        <psc:chapter start="00:06:34.110" title="Improving HCLS AI reasoning with open-source agent skills" href="https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/" />
+        <psc:chapter start="00:09:02.740" title="EU president warns AI agents &quot;escaping their environment&quot; are just a preview of what's coming" href="https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/" />
+        <psc:chapter start="00:11:18.780" title="Reimagining advertising with AI" href="https://openai.com/index/reimagining-advertising-with-ai" />
+        <psc:chapter start="00:12:48.800" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#169 BudgetBench:ローカル大規模言語モデルエージェントにおけるメモリ戦略評価のための予算階層型プロトコルとパイロ…</title>
       <description>Tech News Radio Show Notes - #169 (2026-09-16)
 

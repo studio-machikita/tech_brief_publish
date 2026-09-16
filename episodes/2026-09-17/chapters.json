@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.34,
+    "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures",
+    "url": "https://arxiv.org/abs/2609.15990"
+  },
+  {
+    "start_sec": 140.91,
+    "title": "Causal neural set filtering for online multi-target tracking",
+    "url": "https://arxiv.org/abs/2609.16054"
+  },
+  {
+    "start_sec": 271.85,
+    "title": "Salesforce Unveils New AI Model, Agent Security Tools at Dreamforce",
+    "url": "https://www.theinformation.com/briefings/salesforce-unveils-new-ai-model-agent-security-tools-dreamforce"
+  },
+  {
+    "start_sec": 394.11,
+    "title": "Improving HCLS AI reasoning with open-source agent skills",
+    "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/"
+  },
+  {
+    "start_sec": 542.74,
+    "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
+    "url": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/"
+  },
+  {
+    "start_sec": 678.78,
+    "title": "Reimagining advertising with AI",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai"
+  },
+  {
+    "start_sec": 768.8,
+    "title": "エンディング",
+    "url": null
+  }
+]
