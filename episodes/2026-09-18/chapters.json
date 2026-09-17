@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.85,
+    "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+    "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
+  },
+  {
+    "start_sec": 164.0,
+    "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+    "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/"
+  },
+  {
+    "start_sec": 296.62,
+    "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+    "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/"
+  },
+  {
+    "start_sec": 425.37,
+    "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
+    "url": "https://arxiv.org/abs/2609.17532"
+  },
+  {
+    "start_sec": 554.1,
+    "title": "The Download: mice with part-human brains and climate tech innovators",
+    "url": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/"
+  },
+  {
+    "start_sec": 671.15,
+    "title": "PrismML — Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+    "url": "https://prismml.com/news/bonsai-2-27b"
+  },
+  {
+    "start_sec": 789.1,
+    "title": "エンディング",
+    "url": null
+  }
+]
