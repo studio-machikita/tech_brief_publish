@@ -25,6 +25,78 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#172 矛盾感情および躊躇感情認識のためのモダリティ差異トランスフォーマー ほか</title>
+      <description>Tech News Radio Show Notes - #172 (2026-09-19)
+
+エピソード情報
+• エピソード: #172
+• 日付: 2026-09-19
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition (https://arxiv.org/abs/2609.19148)
+• Claude Code changelog - Claude Code Docs (https://code.claude.com/docs/en/changelog)
+• Claude Code changelog - Claude Code Docs (https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/)
+• Claude Code changelog - Claude Code Docs (https://www.theinformation.com/articles/flaw-found-claude-code-codex-gemini-cli-github-copilot)
+• Introducing Kimi K3 on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/)
+
+注目の深掘り
+• 既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ (https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms)
+
+小ネタ・その他
+• Introducing Astra for Law (https://openai.com/index/astra-for-law)
+• Introducing Astra for Law (https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/)
+• AI hallucination of Chinese nuclear components almost led to US military attack (https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-19/episode_audio.mp3" length="13384365" type="audio/mpeg" />
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-19</guid>
+      <itunes:duration>13:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>矛盾感情および躊躇感情認識のためのモダリティ差異トランスフォーマー ほか</itunes:title>
+      <itunes:episode>172</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #172 (2026-09-19)
+
+エピソード情報
+• エピソード: #172
+• 日付: 2026-09-19
+• 尺: 約 13 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition (https://arxiv.org/abs/2609.19148)
+• Claude Code changelog - Claude Code Docs (https://code.claude.com/docs/en/changelog)
+• Claude Code changelog - Claude Code Docs (https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/)
+• Claude Code changelog - Claude Code Docs (https://www.theinformation.com/articles/flaw-found-claude-code-codex-gemini-cli-github-copilot)
+• Introducing Kimi K3 on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/)
+
+注目の深掘り
+• 既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ (https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms)
+
+小ネタ・その他
+• Introducing Astra for Law (https://openai.com/index/astra-for-law)
+• Introducing Astra for Law (https://the-decoder.com/openai-takes-aim-at-the-legal-market-with-astra-for-law/)
+• AI hallucination of Chinese nuclear components almost led to US military attack (https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-19/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.420" title="Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition" href="https://arxiv.org/abs/2609.19148" />
+        <psc:chapter start="00:02:18.620" title="Claude Code changelog - Claude Code Docs" href="https://code.claude.com/docs/en/changelog" />
+        <psc:chapter start="00:04:25.010" title="Introducing Kimi K3 on Amazon Bedrock" href="https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/" />
+        <psc:chapter start="00:06:27.820" title="既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ" href="https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms" />
+        <psc:chapter start="00:08:44.030" title="Introducing Astra for Law" href="https://openai.com/index/astra-for-law" />
+        <psc:chapter start="00:11:10.790" title="AI hallucination of Chinese nuclear components almost led to US military attack" href="https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/" />
+        <psc:chapter start="00:13:21.370" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#171 GitHub Copilot、CopilotでランタイムをRustに移行 ほか</title>
       <description>Tech News Radio Show Notes - #171 (2026-09-18)
 

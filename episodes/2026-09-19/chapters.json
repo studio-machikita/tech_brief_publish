@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.42,
+    "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+    "url": "https://arxiv.org/abs/2609.19148"
+  },
+  {
+    "start_sec": 138.62,
+    "title": "Claude Code changelog - Claude Code Docs",
+    "url": "https://code.claude.com/docs/en/changelog"
+  },
+  {
+    "start_sec": 265.01,
+    "title": "Introducing Kimi K3 on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/"
+  },
+  {
+    "start_sec": 387.82,
+    "title": "既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ",
+    "url": "https://zenn.dev/mizchi/articles/jev-is-gpu-for-llms"
+  },
+  {
+    "start_sec": 524.03,
+    "title": "Introducing Astra for Law",
+    "url": "https://openai.com/index/astra-for-law"
+  },
+  {
+    "start_sec": 670.79,
+    "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+    "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/"
+  },
+  {
+    "start_sec": 801.37,
+    "title": "エンディング",
+    "url": null
+  }
+]

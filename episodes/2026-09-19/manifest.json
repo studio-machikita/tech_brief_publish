@@ -1,0 +1,377 @@
+{
+  "date": "2026-09-19",
+  "episode_date_local": "2026-09-19",
+  "content_snapshot_date": "2026-09-19",
+  "show_length_sec": 836,
+  "audio_size": 13384365,
+  "generated_at": "2026-09-18T22:35:27.522302+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-db54e054",
+      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+      "title_ja": "矛盾感情および躊躇感情認識のためのモダリティ差異トランスフォーマー",
+      "one_liner": "矛盾した感情表現を検出する新モデルMDT",
+      "fingerprint": "db54e054aadd902f2aef88f35d3b70fc",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-1cd7eb25",
+      "title": "Claude Code changelog - Claude Code Docs",
+      "title_ja": "Claude Code 変更履歴 - Claude Code ドキュメント",
+      "one_liner": "Claude CodeがProjectsを再構築し並列自律実行に対応",
+      "fingerprint": "1cd7eb25fe5d8273766081993c5d604d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Decoder",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-0fb531c4",
+      "title": "Introducing Kimi K3 on Amazon Bedrock",
+      "title_ja": "Amazon BedrockでKimi K3が利用可能に",
+      "one_liner": "Moonshot AIのKimi K3がBedrockで利用可能に",
+      "fingerprint": "0fb531c4fdaad02c82f2f5e39fc5cbd0",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-e2d37b72",
+      "title": "既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ",
+      "title_ja": "既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ",
+      "one_liner": "新型AI「Jev」を一晩検証、既存LLMとの違いを report",
+      "fingerprint": "e2d37b72b8e16e9d18dacd72ccc2f913",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Zenn"
+      ]
+    },
+    {
+      "item_id": "item-b8381f74",
+      "title": "Introducing Astra for Law",
+      "title_ja": "法律版Astra登場",
+      "one_liner": "OpenAIが法律業界向けAI「Astra」を発表",
+      "fingerprint": "b8381f748450402ec3a8c2d6a0b7412a",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2c886453",
+      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+      "title_ja": "AIによる中国核部品の幻覚が米軍攻撃を招きかけた",
+      "one_liner": "AIの幻覚が原因で米軍攻撃の危機、直前で回避",
+      "fingerprint": "2c8864531f274687a3218b2d2e81fb99",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1b6b9dcf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?"
+    },
+    {
+      "item_id": "item-8d5dd1d1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes"
+    },
+    {
+      "item_id": "item-50794498",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review"
+    },
+    {
+      "item_id": "item-8c566fd9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Cooley is accelerating IPO work with ChatGPT"
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-2e232792",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — September 14"
+    },
+    {
+      "item_id": "item-ac58d5e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: An improved review experience"
+    },
+    {
+      "item_id": "item-e0d4e1bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Generative Query Suggestion via Intent Coverage and Query-Level Credit Assignment"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-51fd526c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing The Information’s 50 Most Influential People in Tech"
+    },
+    {
+      "item_id": "item-69c14d95",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "California Governor Newsom signs executive order demanding \"kill switch\" for AI models"
+    },
+    {
+      "item_id": "item-32ac8e79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Life Sciences Verification Program"
+    },
+    {
+      "item_id": "item-68e67333",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: AI’s extinction risk and bioweapons threat"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-276a0fe4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automattic names interim CFO after exec departures"
+    },
+    {
+      "item_id": "item-1ad885a0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "War may be coming. Are we psychologically ready?"
+    },
+    {
+      "item_id": "item-92fda0b2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Accenture’s Gramling on Latest Holiday Shopping Survey"
+    },
+    {
+      "item_id": "item-b724720a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Watch Ultra 4 Review: The Series 12 Is Closing the Gap"
+    }
+  ],
+  "score_cache": {
+    "1ad885a034b6ad031fb8f2751dc4672f": {
+      "score": 10,
+      "title": "War may be coming. Are we psychologically ready?",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 戦争への心理的備えを論じる一般的な社会・時事テーマであり、AI、クラウド、ソフトウェア、ロボティクスなどの技術的な新規性やエンジニアリング上の具体的影響が示されていません。タイトルのみで内容の具体性も乏しいため、テックニュースとしての重要度は非常に低く評価します。"
+    },
+    "8c566fd9df5c72514197c606da36bb67": {
+      "score": 44,
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 法律事務所がChatGPTを活用してIPO業務の論点抽出や早期レビューを支援する具体的な業務システムを構築した点は、生成AIの実装事例として有意義です。一方で、基盤技術の新規発明ではなく、特定業務向けの導入・運用事例に留まります。また、ChatGPTおよびAI活用は直近の既出キーワードに該当するため、同テーマの重複として減点しました。 [Editor"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 43,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Accentureとの組み込み型評価（embedded evaluation）に関する提携は、AIシステムなどを開発プロセスへ継続的に評価・検証する運用や品質保証の観点で一定の技術的 relevanceがあります。一方で、記事タイトルとスニペットだけでは対象となる技術、評価手法、導入規模、具体的な成果が不明で、アーキテクチャやモデル自体の革新性も確認"
+    },
+    "50794498ace3bb66c644528859caa4c6": {
+      "score": 46,
+      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] SageMakerの推論基盤におけるKVキャッシュの階層化、推論のPrefill/Decode分離、キャパシティを考慮したインスタンスプールなど、LLM運用の性能・コスト・スケーラビリティに直結する実装要素を複数扱っており、クラウドアーキテクチャ記事として技術的価値は高い。一方で、Amazonおよびモデル推論に関する既出テーマと重なりやすく、完全に新"
+    },
+    "1b6b9dcf9a79e4c0ed051548e7adcb61": {
+      "score": 47,
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] RAG、MCP、Skills、コードレビューなど、AIエージェント開発の設計や開発者体験に関わる論点で、エンジニアにとっては関心度が高い一方、具体的な製品発表や技術仕様の変更ではなく、GitHub Podcastによる論点整理・見解紹介にとどまっています。また、直近に取り上げ済みのAI・モデル・エージェント関連テーマと重なるため20点減点しました。 "
+    },
+    "ac58d5e55403beb3e2c4aea2f47b2302": {
+      "score": 40,
+      "title": "Copilot code review: An improved review experience",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューに、レビュー差分の時系列表示、提案の自動解決、承認時のコミットメッセージ生成が追加され、開発者のレビュー効率や変更履歴の把握を改善する実用的なアップデートです。ただし、既存のAIコーディング支援機能の強化であり、アーキテクチャや開発パラダイムを変えるほどの新規性はありません。さらに、直近の既出キーワードであ"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 29,
+      "title": "May 11, 2026",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebian 12イメージに上流依存パッケージを反映した保守的なリリースであり、新機能やアーキテクチャ変更、性能向上などの具体的な技術革新は確認できません。エージェント基盤に関する話題ではあるものの、既出キーワードのAgentに該当し、内容も単なるイメージ更新で新規性が低いため減点しました。 [Edi"
+    },
+    "276a0fe45452b0766771a64ea9a4ac80": {
+      "score": 26,
+      "title": "Automattic names interim CFO after exec departures",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Automatticの経営幹部離脱と暫定CFO नियुक्तは、企業ガバナンスや事業運営上は注目点ですが、技術革新、アーキテクチャ、開発者向け製品、セキュリティに関する具体的な進展はありません。WordPress VIPなどのエンタープライズ事業への影響は今後注視が必要なものの、現時点ではエンジニアにとっての直接的な重要度は低いニュースです。"
+    },
+    "69c14d95543623e89fa720d55fdf959f": {
+      "score": 35,
+      "title": "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] AIモデルに対する独立監査や緊急停止機構（キルスイッチ）を求める点は、モデル運用、インシデント対応、ガバナンス設計に影響し得ます。一方で、技術そのものの革新ではなく、州政府の行政命令と規制方針が中心です。既出のAI関連トピックとも重なりやすいため減点し、影響は大きいもののエンジニアリング上の即時性は限定的と評価しました。 [Editorial: AI"
+    },
+    "2c8864531f274687a3218b2d2e81fb99": {
+      "score": 49,
+      "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 軍事分野でのAI幻覚が重大な意思決定を誤らせかけた事例であり、信頼性・検証可能性・ヒューマン・イン・ザ・ループ設計の重要性を示す点は、エンジニアにとって非常に重要です。一方で、新しいモデルやアーキテクチャの発表ではなく、AI運用上のリスクを扱う事故報道であるため、技術革新としての評価は限定的です。既出キーワードであるAIと同じ領域の話題でもあるため、"
+    },
+    "b724720ac888b4fbe5fd871c0c460bbc": {
+      "score": 2,
+      "title": "Apple Watch Ultra 4 Review: The Series 12 Is Closing the Gap",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Apple Watch Ultra 4の健康トラッキングやバッテリー改善は製品としては有用ですが、一般消費者向けウェアラブルのレビューであり、AI・クラウド・プログラミング言語・アーキテクチャなどの技術革新には直接つながりません。技術者向けの影響範囲も限定的なため、最低評価帯としました。 [Editorial: gadget topic -8]"
+    },
+    "68e67333b730a9f47c741a5048bf279d": {
+      "score": 33,
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] AIの絶滅リスクや生物兵器への悪用は社会的・技術的に重要な論点ですが、記事はイベント内容や問題提起を紹介するニュースレターであり、具体的な研究成果、製品、脅威の実証、対策技術といった新規性の高い情報がスニペットから確認できません。AI関連の話題は既出キーワードにも該当し、明確な続報や技術的ブレークスルーではないため減点しました。 [Editorial"
+    },
+    "92fda0b215c2b207afd6803f2f8f76a8": {
+      "score": 10,
+      "title": "Accenture’s Gramling on Latest Holiday Shopping Survey",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 消費者の年末商戦における支出意向を扱う小売・景気動向の調査記事であり、AI、クラウド、ソフトウェア開発、セキュリティなど技術分野への直接的な影響はほぼありません。エンジニアリング視点では、需要予測や小売システムの設計に間接的な示唆がある程度で、具体的な技術革新や業界構造の変化を示す内容ではないため、非常に低いスコアとしました。"
+    },
+    "51fd526caa24b0bc7fdecce1acb2e8e8": {
+      "score": 36,
+      "title": "Introducing The Information’s 50 Most Influential People in Tech",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] テクノロジー業界の有力人物を今後10年の影響力という観点で整理した企画であり、業界動向を俯瞰する情報価値はあります。一方で、特定の技術革新、製品発表、アーキテクチャ変更、資金調達などの具体的なニュースではなく、編集部の評価・ランキングが中心です。エンジニアにとって直接導入や設計判断につながる内容ではないため、技術ニュースとしての重要度は中低程度と判断"
+    },
+    "e2d37b72b8e16e9d18dacd72ccc2f913": {
+      "score": 60,
+      "title": "既存の LLM が CPU なら、 Jev はその GPU 版みたいなやつ",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] LLMを単なる対話モデルではなく、リアルタイムなゲーム環境で複数の行動を並列・継続的に実行する仕組みとして評価しており、エージェント技術の実用性や推論能力を具体的な実験で示している点は注目に値します。チェスでの勝敗やMOBAにおけるマクロ・ミクロ戦術の観察結果、再現可能なログとクックブック追試があるため、単なる概念紹介より技術的な具体性も高いです。一"
+    },
+    "8d5dd1d1c33589ba8c40c44e2f761bb9": {
+      "score": 47,
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] オフポリシー強化学習におけるEmphatic TD学習の、定常的なステップサイズ下での安定性を理論的・実験的に再検証する研究です。平均更新写像が収縮していても、サンプル系列では正のトップ・リアプノフ指数により発散し得ることを示し、follow-on traceの無限分散とは異なる不安定化要因を分離している点に新規性があります。RLアルゴリズムの設計や"
+    },
+    "e0d4e1bc79651dc28f3d9f3a81bb6ed3": {
+      "score": 38,
+      "title": "Generative Query Suggestion via Intent Coverage and Query-Level Credit Assignment",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 検索・対話システム向けに、ユーザー意図の多様性を考慮したクエリ候補生成と、クエリ単位のクレジット割り当てによる二段階最適化を提案する研究で、推薦品質や探索体験の改善に応用できる点は評価できます。一方で、現時点ではarXiv論文の新規手法紹介にとどまり、業界の前提を変える実用化・大規模導入の情報はありません。また、直近に取り上げ済みの検索・モデル関連ト"
+    },
+    "db54e054aadd902f2aef88f35d3b70fc": {
+      "score": 72,
+      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 顔・音声・言語間の不一致を情報として扱う新しいマルチモーダルTransformer手法であり、従来の融合方式が捨てていたモダリティ間の矛盾を、両価性やためらいの認識に活用する点は技術的に興味深いです。臨床動画解析や感情コンピューティングへの応用可能性もあります。一方で、現時点ではarXivの新規研究発表であり、臨床現場での有効性、データセットの汎用性"
+    },
+    "1cd7eb25fe5d8273766081993c5d604d": {
+      "score": 66,
+      "title": "Claude Code changelog - Claude Code Docs",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Claude Codeがタスクを分割し、複数のクラウドスレッドで並列実行しながらプルリクエスト作成やテストまで行う機能は、ソフトウェア開発の自動化と実行モデルに大きな影響を与え得ます。共通メモリを使った協調も実装面で具体性があります。一方で、既に扱われたAI・エージェント関連の話題と同じ軸にあり、対象も一部のPro/Maxユーザー向けベータに限られる"
+    },
+    "b8381f748450402ec3a8c2d6a0b7412a": {
+      "score": 60,
+      "title": "Introducing Astra for Law",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] 法律業務向けに高度なAI、カスタムワークフロー、法務データ連携、機密情報向けの制御を統合する点は、専門業務の自動化やエンタープライズAI活用に発展性があります。一方で、記事スニペットだけでは具体的な技術仕様や性能、提供範囲が不明で、法務領域に特化した製品発表にとどまります。また、直近に取り上げ済みのAstra・AI・OpenAI・model関連トピッ"
+    },
+    "32ac8e79ad1a38d9685053adc694285c": {
+      "score": 34,
+      "title": "Introducing the Life Sciences Verification Program",
+      "date": "2026-09-18",
+      "reason": "[ScoreCache 2026-09-18] [Claude API Evaluation] ライフサイエンス分野向けの検証プログラムは、製薬・医療系システムの信頼性や規制対応を支援する点で実務的な価値があります。一方で、技術アーキテクチャやAI・クラウド基盤そのものの革新ではなく、主に認証・コンプライアンス・運用プロセスに関する発表と考えられるため、エンジニアリング上の新規性や影響範囲は限定的"
+    },
+    "0fb531c4fdaad02c82f2f5e39fc5cbd0": {
+      "score": 66,
+      "title": "Introducing Kimi K3 on Amazon Bedrock",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Moonshot AIのKimi K3がAmazon Bedrockで利用可能になり、オープンウェイトモデル、ネイティブ画像認識、100万トークンのコンテキスト、明示的なプロンプトキャッシュによるコスト・レイテンシ削減を提供する点は、開発者向けAI基盤として具体的な価値があります。一方で、AIモデルのAmazon Bedrock提供というテーマは既出"
+    },
+    "2e232792dda030fa5b414a8040f05299": {
+      "score": 41,
+      "title": "GitHub Copilot weekly releases — September 14",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotのモデル選択、コードレビュー、Sentry連携、管理者向け機能、エージェント機能の更新は開発者体験や開発ワークフローに影響するため、技術ニュースとして一定の重要性があります。ただし、単一の革新的発表ではなく定期的な機能アップデートのまとめであり、業界の前提を変える規模ではありません。また、既に取り上げ済みの「GitHub」"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 38,
+      "title": "May 28, 2026",
+      "date": "2026-09-19",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新で、依存パッケージの更新、ベース環境でのpip利用修正、JupyterLab認証設定の強化が行われています。開発環境の安定性や最低限のセキュリティ向上には有用ですが、新機能やアーキテクチャ上の大きな進展ではなく、影響範囲も既存利用者向けの保守的なリリースに限定されます。既出キーワードの「a"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-19/blog.md",
+    "show_notes_path": "out/2026-09-19/show_notes.md",
+    "script_path": "out/2026-09-19/script_2hosts.md",
+    "audio_path": "out/2026-09-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24338,
+        "output_tokens": 10754,
+        "cost_usd": 0.017772
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 43411,
+        "output_tokens": 8177,
+        "cost_usd": 0.252888
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4413,
+        "cost_usd": 0.052956
+      }
+    ],
+    "total_cost_usd": 0.323616
+  }
+}
