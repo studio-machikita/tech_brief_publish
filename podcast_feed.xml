@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#173 Unity、AIエージェントが古い情報を参照する問題を防ぐため「Claude Code」「OpenAI Codex」向…</title>
+      <description>Tech News Radio Show Notes - #173 (2026-09-20)
+
+エピソード情報
+• エピソード: #173
+• 日付: 2026-09-20
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials (https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/)
+• Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks (https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/)
+• Amazon SageMaker Inference: 2026 year-to-date launches in review (https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/)
+• Amazon SageMaker Inference: 2026 year-to-date launches in review (https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/)
+
+注目の深掘り
+• Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime (https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/)
+
+小ネタ・その他
+• Should you read the code, is RAG dead, and did Skills kill MCP? (https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/)
+• AI bots "Timmy," "Ren," and "Jackie" are flooding social media with slop (https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-20/episode_audio.mp3" length="12288045" type="audio/mpeg" />
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-20</guid>
+      <itunes:duration>12:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Unity、AIエージェントが古い情報を参照する問題を防ぐため「Claude Code」「OpenAI Codex」向…</itunes:title>
+      <itunes:episode>173</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #173 (2026-09-20)
+
+エピソード情報
+• エピソード: #173
+• 日付: 2026-09-20
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials (https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/)
+• Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks (https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/)
+• Amazon SageMaker Inference: 2026 year-to-date launches in review (https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/)
+• Amazon SageMaker Inference: 2026 year-to-date launches in review (https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/)
+
+注目の深掘り
+• Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime (https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/)
+
+小ネタ・その他
+• Should you read the code, is RAG dead, and did Skills kill MCP? (https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/)
+• AI bots "Timmy," "Ren," and "Jackie" are flooding social media with slop (https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-20/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.330" title="Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials" href="https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/" />
+        <psc:chapter start="00:02:33.710" title="Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks" href="https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/" />
+        <psc:chapter start="00:04:37.260" title="Amazon SageMaker Inference: 2026 year-to-date launches in review" href="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/" />
+        <psc:chapter start="00:06:57.550" title="Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime" href="https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/" />
+        <psc:chapter start="00:08:55.720" title="Should you read the code, is RAG dead, and did Skills kill MCP?" href="https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/" />
+        <psc:chapter start="00:10:32.450" title="AI bots &quot;Timmy,&quot; &quot;Ren,&quot; and &quot;Jackie&quot; are flooding social media with slop" href="https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/" />
+        <psc:chapter start="00:12:13.740" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#172 矛盾感情および躊躇感情認識のためのモダリティ差異トランスフォーマー ほか</title>
       <description>Tech News Radio Show Notes - #172 (2026-09-19)
 

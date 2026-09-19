@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.33,
+    "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+    "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/"
+  },
+  {
+    "start_sec": 153.71,
+    "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+    "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/"
+  },
+  {
+    "start_sec": 277.26,
+    "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/"
+  },
+  {
+    "start_sec": 417.55,
+    "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+    "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/"
+  },
+  {
+    "start_sec": 535.72,
+    "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+    "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/"
+  },
+  {
+    "start_sec": 632.45,
+    "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+    "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/"
+  },
+  {
+    "start_sec": 733.74,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-20",
+  "episode_date_local": "2026-09-20",
+  "content_snapshot_date": "2026-09-20",
+  "show_length_sec": 767,
+  "audio_size": 12288045,
+  "generated_at": "2026-09-19T21:55:04.359766+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-af561db5",
+      "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+      "title_ja": "Unity、AIエージェントが古い情報を参照する問題を防ぐため「Claude Code」「OpenAI Codex」向け公式プラグインを公開",
+      "one_liner": "UnityがAIコーディング支援の公式プラグインを公開",
+      "fingerprint": "af561db58cf414647a57b831c9932e68",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-18957206",
+      "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+      "title_ja": "Qwen3.8-Omni-Flash、Gemini Flashの性能に匹敵しつつ価格で下回る",
+      "one_liner": "Qwenの新モデル、Gemini並みの性能を低価格で提供",
+      "fingerprint": "18957206be892120e4495a5865c527fc",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-50794498",
+      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+      "title_ja": "Amazon SageMaker Inference：2026年の年初来リリース総まとめ",
+      "one_liner": "SageMaker推論機能、2026年の主要リリースまとめ",
+      "fingerprint": "50794498ace3bb66c644528859caa4c6",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-8d1d735e",
+      "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+      "title_ja": "マルチモデルAIエージェントをAmazon Bedrock AgentCoreランタイムに移行する",
+      "one_liner": "医療AIエージェントをBedrock AgentCoreへ移行",
+      "fingerprint": "8d1d735e47a7971e8d2bd09b979ae6d3",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-1b6b9dcf",
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "title_ja": "コードを読むべきか、RAGは死んだのか、SkillsはMCPを殺したのか",
+      "one_liner": "GitHub PodcastがAI開発の旬な論点を議論",
+      "fingerprint": "1b6b9dcf9a79e4c0ed051548e7adcb61",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-8b6e011a",
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "title_ja": "AIボット「Timmy」「Ren」「Jackie」がSNSを低品質コンテンツで溢れさせている",
+      "one_liner": "AIボットが自己紹介しSNSに大量投稿しているそうです",
+      "fingerprint": "8b6e011ad33a38441a2635abec7d2918",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-9e587d69",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Australian Youth Safety Blueprint"
+    },
+    {
+      "item_id": "item-8c566fd9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Cooley is accelerating IPO work with ChatGPT"
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-1d91a1a9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Same Flaw Found in Claude Code, Codex, Gemini CLI and GitHub Copilot"
+    },
+    {
+      "item_id": "item-ac58d5e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: An improved review experience"
+    },
+    {
+      "item_id": "item-32ac8e79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Life Sciences Verification Program"
+    },
+    {
+      "item_id": "item-2e232792",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — September 14"
+    },
+    {
+      "item_id": "item-07654ef3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force"
+    },
+    {
+      "item_id": "item-441b4573",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements"
+    },
+    {
+      "item_id": "item-5c1fc045",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening"
+    },
+    {
+      "item_id": "item-ea67a97b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 DeGoogle Mobile Telemetry Study: 72-Hour Packet Benchmark"
+    },
+    {
+      "item_id": "item-e6764660",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intel MacにKali Linuxを入れたらWi-Fiが使えない。Broadcom BCM4360をwlドライバで動かすまで"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-7603d31e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Install OONI Probe"
+    },
+    {
+      "item_id": "item-55b0a3be",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax"
+    },
+    {
+      "item_id": "item-33a04578",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 11, 2026"
+    },
+    {
+      "item_id": "item-c75e1251",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts"
+    },
+    {
+      "item_id": "item-68e67333",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: AI’s extinction risk and bioweapons threat"
+    }
+  ],
+  "score_cache": {
+    "ea67a97b72601381dc5420b3cfc71c15": {
+      "score": 36,
+      "title": "2026 DeGoogle Mobile Telemetry Study: 72-Hour Packet Benchmark",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] モバイル端末のテレメトリを72時間のパケット計測で比較・分析する研究は、プライバシー、通信設計、データ収集の透明性を評価するうえで技術的な価値があります。一方で、製品や基盤技術の革新というよりは調査・監査寄りの内容であり、タイトルだけでは新しいプロトコルや業界標準を変える具体的成果も確認できません。規制・セキュリティ運用に近いテーマとして、重要度は中"
+    },
+    "9e587d69f6c8775d67da7de7fb8d4fa5": {
+      "score": 46,
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] 若年層を対象としたAI安全設計の方針であり、今後のプロダクト要件や年齢確認、保護者向け制御、リスク評価などに影響し得る点は重要です。一方で、具体的な技術仕様や新しいモデル・アーキテクチャの発表ではなく、主に安全運用やガバナンスに関するロードマップです。AI関連ではあるものの、既出のAIトピックと近く、業界の前提を変えるほどの技術革新ではないため、低〜"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 43,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-19",
+      "reason": "[ScoreCache 2026-09-19] [Claude API Evaluation] Accentureとの組み込み型評価（embedded evaluation）に関する提携は、AIシステムなどを開発プロセスへ継続的に評価・検証する運用や品質保証の観点で一定の技術的 relevanceがあります。一方で、記事タイトルとスニペットだけでは対象となる技術、評価手法、導入規模、具体的な成果が"
+    },
+    "50794498ace3bb66c644528859caa4c6": {
+      "score": 50,
+      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] SageMakerにおける推論最適化の複数アップデートをまとめた記事で、キャパシティを考慮したインスタンスプール、KVキャッシュの階層化、Prefill/Decode分離など、LLM基盤の性能・コスト・スケーラビリティに直結する技術的価値は高い。一方で、Amazon・AI・モデル関連の既出トピックと重なりやすく、個別の単一発表ではなく年次レビューであ"
+    },
+    "1b6b9dcf9a79e4c0ed051548e7adcb61": {
+      "score": 48,
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] RAG、MCP、Skills、コード理解といったAI開発基盤の設計論に関わる話題で、エンジニアにとっては一定の技術的関心があります。一方、記事スニペットからは新しい実装、製品発表、ベンチマーク、仕様変更などの具体的な技術成果は確認できず、主にポッドキャストでの論点整理に見えます。また、AI・LLM・エージェント関連は直近の既出テーマと重なるため減点し"
+    },
+    "ac58d5e55403beb3e2c4aea2f47b2302": {
+      "score": 41,
+      "title": "Copilot code review: An improved review experience",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューにおける変更履歴の可視化、提案の自動解決、コミットメッセージ生成は、開発者体験とレビュー効率を改善する実用的なアップデートです。一方で、既存のCopilot・AIコード支援の延長線上にある機能改善であり、業界の前提を変えるほどの新規性はありません。直近の放送でCopilotおよびcode関連の話題が既出のた"
+    },
+    "33a04578229bf3eef9de4a1fac6c5c5e": {
+      "score": 24,
+      "title": "May 11, 2026",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のイメージ更新ですが、内容はDebian 12上の依存パッケージを最新化した定期的なリリースにとどまり、アーキテクチャ変更や新機能、性能向上などの具体的な技術的インパクトがありません。さらに、既出キーワードであるAgentに関連する同一系統の話題であり、重複分を減点しています。 [Editoria"
+    },
+    "c75e125111fff9360475d8901693872c": {
+      "score": 24,
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] 監視カメラ系スタートアップFlockの人員削減を回避するための買収ではなく従業員向け買い取り策に関する経営ニュースで、技術革新や開発者向けの具体的な進展はありません。スタートアップの事業・雇用環境を示す材料ではあるものの、エンジニアリングへの直接的な影響や業界の前提を変える新規性は限定的です。"
+    },
+    "18957206be892120e4495a5865c527fc": {
+      "score": 66,
+      "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] 音声・動画を統合処理し、ツール利用まで行うマルチモーダルモデルは、AIエージェントの実用化やAPIコスト競争に影響する技術的に重要な話題です。特にGemini Flash級のベンチマーク性能を大幅に低い価格で提供する点は、開発者のモデル選定や推論基盤の設計を変える可能性があります。一方で、既に取り上げ済みのAI、LLM、モデル、エージェント関連と同じ"
+    },
+    "8b6e011ad33a38441a2635abec7d2918": {
+      "score": 47,
+      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] 自律型AIエージェントがソーシャルメディア上で活動し、低品質な生成コンテンツ（slop）を大量投稿する現象は、ボット運用、コンテンツ品質、プラットフォーム設計に関わる重要な動向です。一方で、記事からは新しい技術仕様や大規模な導入実績が読み取れず、既出のAI・エージェント関連トピックとも重複するため20点減点しました。技術革新そのものより、AIエージェ"
+    },
+    "5c1fc045841e8cb4f5853f4f4ef3aa97": {
+      "score": 37,
+      "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] AIチャットボットが脆弱性発見を加速させるという点は、セキュリティ運用や脆弱性管理に影響する実務的な話題です。一方で、具体的な新技術・製品・脆弱性の詳細や業界を変える発表ではなく、主題はセキュリティリスクの拡大に関する警鐘です。評価基準上、セキュリティ関連ニュースとして基礎点は低めで、既出のAI・LLM関連トピックとも近いため減点しました。 [Edi"
+    },
+    "68e67333b730a9f47c741a5048bf279d": {
+      "score": 21,
+      "title": "The Download: AI’s extinction risk and bioweapons threat",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] AIの絶滅リスクやバイオ兵器悪用は社会的には重大ですが、この記事は技術的な新発表や具体的な実装、アーキテクチャ上の進展ではなく、専門家によるリスク議論・啓発が中心です。さらに既出キーワードのAIに該当し、同様のAIリスク論点であれば減点対象となるため、技術ニュースとしてのスコアは低めに評価します。 [Editorial: AI/SaaS topic "
+    },
+    "55b0a3be8748ef6e1f5454c5be3ffa2d": {
+      "score": 29,
+      "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] AI政策の司令塔となる「AI czar」の任命は、米国の開発方針や規制・安全性議論に影響し得るものの、技術そのものの革新や具体的な実装発表ではなく、主に政治・政策面のニュースです。また、既に取り上げ済みのAI関連トピックと同じ軸に当たるため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "1d91a1a9e24ee0d70e511ba4c72022c2": {
+      "score": 43,
+      "title": "Same Flaw Found in Claude Code, Codex, Gemini CLI and GitHub Copilot",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] Claude Code、Codex、Gemini CLI、GitHub Copilotという主要なAIコーディングエージェントに共通する設計上の脆弱性が判明した点は、影響範囲が広く、エージェントを業務導入する企業にとって実務的な重要度が高いです。特に、外部の“skills”や指示ファイルを介してエージェントを利用者に気付かれず乗っ取れる可能性があるた"
+    },
+    "e6764660145275fd71ecc1cba7fb2ebd": {
+      "score": 35,
+      "title": "Intel MacにKali Linuxを入れたらWi-Fiが使えない。Broadcom BCM4360をwlドライバで動かすまで",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] Intel Mac上のKali LinuxでBroadcom BCM4360をwlドライバで動作させる具体的な手順は、同じ構成で困っているユーザーには実用的です。一方で、対象ハードウェアと環境が限定され、Linux全体のアーキテクチャや主要技術を変えるような新規性・影響範囲はありません。ドライバ設定やトラブルシューティングのノウハウとして一定の価値は"
+    },
+    "7603d31ec6d2997e5ef6a157d109db42": {
+      "score": 30,
+      "title": "Install OONI Probe",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] OONI Probeは、各国のインターネット検閲や通信遮断を測定するOSSツールであり、ネットワーク透明性やデジタル権利の観点では意義があります。一方で、記事タイトルが単なるインストール案内にとどまり、アーキテクチャや新技術の革新、開発者向けエコシステムへの大きな影響は限定的です。規制・運用・調査用途に近いテーマのため、重要度は低〜中程度と評価します"
+    },
+    "8c566fd9df5c72514197c606da36bb67": {
+      "score": 44,
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "date": "2026-09-19",
+      "reason": "[ScoreCache 2026-09-19] [Claude API Evaluation] 法律事務所がChatGPTを活用してIPO業務の論点抽出や早期レビューを支援する具体的な業務システムを構築した点は、生成AIの実装事例として有意義です。一方で、基盤技術の新規発明ではなく、特定業務向けの導入・運用事例に留まります。また、ChatGPTおよびAI活用は直近の既出キーワードに該当するため、同"
+    },
+    "32ac8e79ad1a38d9685053adc694285c": {
+      "score": 41,
+      "title": "Introducing the Life Sciences Verification Program",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] ライフサイエンス分野のソリューションやパートナーを検証・認定するプログラムと見られ、導入時の信頼性や相互運用性を高める点には実務的な価値があります。一方で、基盤技術やアーキテクチャを刷新する発表ではなく、業界向けの認証・運用制度に近い内容です。スニペットがなく具体的な対象サービスや技術的変更も確認できないため、エンジニア向けニュースとしての重要度は低"
+    },
+    "8d1d735e47a7971e8d2bd09b979ae6d3": {
+      "score": 49,
+      "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] 複数モデルのAIエージェントをECS/FargateからAmazon Bedrock AgentCoreへ移行し、オーケストレーションやベクトル検索を維持しながらインフラ運用を簡素化する実践的なクラウドアーキテクチャ事例です。医療以外の金融・製造にも適用可能で、エージェントの本番運用に有用な示唆があります。一方で、AI、Amazon、Bedrock、"
+    },
+    "2e232792dda030fa5b414a8040f05299": {
+      "score": 41,
+      "title": "GitHub Copilot weekly releases — September 14",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotのモデル選択、コードレビュー、Sentry連携、管理者向け機能、エージェント機能の更新は、開発ワークフローへの影響があり技術的には一定の価値があります。一方で、週次リリースのまとめであり、既出キーワードであるCopilot、model、code、agentに直接該当します。業界の前提を変える新規性や単独の大規模アーキテクチ"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 35,
+      "title": "May 28, 2026",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新で、依存パッケージの更新、ベース環境でのpip修正、JupyterLab認証設定の強化が含まれます。開発環境の安定性やセキュリティには有用ですが、既存基盤のメンテナンスリリースであり、アーキテクチャを変える新技術や広範な影響はありません。また、直近に取り上げ済みの「Agent」関連トピック"
+    },
+    "07654ef39977c04a835dbf2c414c564d": {
+      "score": 40,
+      "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] AIに関する政府・政治面での新展開としては一定の影響力があるものの、記事内容は新しい技術、実装、組織設計、予算などの具体性に乏しく、主に政治的主張と名称変更の話に留まっています。AI関連トピックとして既出キーワードとも重なるため、技術ニュースとしての重要度は低めです。 [Editorial: AI/SaaS topic +5]"
+    },
+    "af561db58cf414647a57b831c9932e68": {
+      "score": 80,
+      "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] UnityがClaude CodeとOpenAI Codex向けに公式プラグインを提供することで、AIコーディングエージェントが古いチュートリアルやAPI情報を参照して誤ったコードを生成する問題に直接対処しています。ゲーム開発におけるAIエージェントの実用性と開発者体験を高める、具体的なツール連携として重要です。一方で、影響範囲は主にUnityエコシ"
+    },
+    "441b457353ea68fc9aabbf85ef4b6bf6": {
+      "score": 39,
+      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+      "date": "2026-09-20",
+      "reason": "[Claude API Evaluation] AppleのOSメジャーリリースであり、Siri AIやLiquid Glassの改良は開発者・利用者に影響しますが、主題は一般消費者向けOSの新機能で、技術革新としての具体性は限定的です。特にエンジニア視点で重要なのは、Intel向けアプリを支えてきたRosettaが次期段階で終了する点で、macOSアプリの移行・互換性検証が必要になります。ただし"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-20/blog.md",
+    "show_notes_path": "out/2026-09-20/show_notes.md",
+    "script_path": "out/2026-09-20/script_2hosts.md",
+    "audio_path": "out/2026-09-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 23408,
+        "output_tokens": 10007,
+        "cost_usd": 0.01669
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42924,
+        "output_tokens": 7624,
+        "cost_usd": 0.243132
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4162,
+        "cost_usd": 0.049944
+      }
+    ],
+    "total_cost_usd": 0.309766
+  }
+}
