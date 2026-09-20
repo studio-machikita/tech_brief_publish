@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#174 アリババのオープンウェイトモデル「Qwen-Image-2.1」、わずか70億パラメータでクローズドモデルを上回る画像…</title>
+      <description>Tech News Radio Show Notes - #174 (2026-09-21)
+
+エピソード情報
+• エピソード: #174
+• 日付: 2026-09-21
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters (https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/)
+• The new AgentCore runtime: Elastic, optimized, and consistently fast starts (https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/)
+• Tencent's Gander aims to keep talking while it works in the background (https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/)
+
+注目の深掘り
+• Deploy Hugging Face models on Amazon SageMaker AI with coding agents (https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/)
+
+小ネタ・その他
+• Why MCP Was Always a Bad Idea (https://maharship.com/blog/why-mcp-was-always-a-bad-idea/)
+• Jev TypeSafe AI + LangChain + Vercel AI Gateway (https://dev.to/dcastillogi/jev-typesafe-ai-langchain-vercel-ai-gateway-427c)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-21/episode_audio.mp3" length="11752749" type="audio/mpeg" />
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-21</guid>
+      <itunes:duration>12:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>アリババのオープンウェイトモデル「Qwen-Image-2.1」、わずか70億パラメータでクローズドモデルを上回る画像…</itunes:title>
+      <itunes:episode>174</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #174 (2026-09-21)
+
+エピソード情報
+• エピソード: #174
+• 日付: 2026-09-21
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters (https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/)
+• The new AgentCore runtime: Elastic, optimized, and consistently fast starts (https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/)
+• Tencent's Gander aims to keep talking while it works in the background (https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/)
+
+注目の深掘り
+• Deploy Hugging Face models on Amazon SageMaker AI with coding agents (https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/)
+
+小ネタ・その他
+• Why MCP Was Always a Bad Idea (https://maharship.com/blog/why-mcp-was-always-a-bad-idea/)
+• Jev TypeSafe AI + LangChain + Vercel AI Gateway (https://dev.to/dcastillogi/jev-typesafe-ai-langchain-vercel-ai-gateway-427c)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-21/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:26.780" title="Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters" href="https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/" />
+        <psc:chapter start="00:02:03.060" title="The new AgentCore runtime: Elastic, optimized, and consistently fast starts" href="https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/" />
+        <psc:chapter start="00:03:41.460" title="Tencent's Gander aims to keep talking while it works in the background" href="https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/" />
+        <psc:chapter start="00:05:44.660" title="Deploy Hugging Face models on Amazon SageMaker AI with coding agents" href="https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/" />
+        <psc:chapter start="00:07:53.450" title="Why MCP Was Always a Bad Idea" href="https://maharship.com/blog/why-mcp-was-always-a-bad-idea/" />
+        <psc:chapter start="00:09:42.630" title="Jev TypeSafe AI + LangChain + Vercel AI Gateway" href="https://dev.to/dcastillogi/jev-typesafe-ai-langchain-vercel-ai-gateway-427c" />
+        <psc:chapter start="00:11:41.070" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#173 Unity、AIエージェントが古い情報を参照する問題を防ぐため「Claude Code」「OpenAI Codex」向…</title>
       <description>Tech News Radio Show Notes - #173 (2026-09-20)
 

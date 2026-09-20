@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 26.78,
+    "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+    "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/"
+  },
+  {
+    "start_sec": 123.06,
+    "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+    "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/"
+  },
+  {
+    "start_sec": 221.46,
+    "title": "Tencent's Gander aims to keep talking while it works in the background",
+    "url": "https://the-decoder.com/tencents-gander-aims-to-keep-talking-while-it-works-in-the-background/"
+  },
+  {
+    "start_sec": 344.66,
+    "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+    "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/"
+  },
+  {
+    "start_sec": 473.45,
+    "title": "Why MCP Was Always a Bad Idea",
+    "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/"
+  },
+  {
+    "start_sec": 582.63,
+    "title": "Jev TypeSafe AI + LangChain + Vercel AI Gateway",
+    "url": "https://dev.to/dcastillogi/jev-typesafe-ai-langchain-vercel-ai-gateway-427c"
+  },
+  {
+    "start_sec": 701.07,
+    "title": "エンディング",
+    "url": null
+  }
+]
