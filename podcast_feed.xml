@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#175 xAIのGrok 4.6がAmazon Bedrockで利用可能に ほか</title>
+      <description>Tech News Radio Show Notes - #175 (2026-09-22)
+
+エピソード情報
+• エピソード: #175
+• 日付: 2026-09-22
+• 尺: 約 14 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• xAI’s Grok 4.6 is now available in Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/)
+• ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen (https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/)
+• RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models (https://arxiv.org/abs/2609.20971)
+
+注目の深掘り
+• Nscale IPO Files to Go Public, Shows Huge Revenue Jump And Steep Losses (https://www.theinformation.com/briefings/nscale-ipo-files-go-public-shows-huge-revenue-jump-steep-losses)
+
+小ネタ・その他
+• How BMW Group detects cost anomalies across 14,000 cloud accounts (https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/)
+• Sparse Priors for Efficient Distribution Learning (https://arxiv.org/abs/2609.20883)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-22/episode_audio.mp3" length="13958829" type="audio/mpeg" />
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-22</guid>
+      <itunes:duration>14:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>xAIのGrok 4.6がAmazon Bedrockで利用可能に ほか</itunes:title>
+      <itunes:episode>175</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #175 (2026-09-22)
+
+エピソード情報
+• エピソード: #175
+• 日付: 2026-09-22
+• 尺: 約 14 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• xAI’s Grok 4.6 is now available in Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/)
+• ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen (https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/)
+• RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models (https://arxiv.org/abs/2609.20971)
+
+注目の深掘り
+• Nscale IPO Files to Go Public, Shows Huge Revenue Jump And Steep Losses (https://www.theinformation.com/briefings/nscale-ipo-files-go-public-shows-huge-revenue-jump-steep-losses)
+
+小ネタ・その他
+• How BMW Group detects cost anomalies across 14,000 cloud accounts (https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/)
+• Sparse Priors for Efficient Distribution Learning (https://arxiv.org/abs/2609.20883)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-22/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:28.430" title="xAI’s Grok 4.6 is now available in Amazon Bedrock" href="https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/" />
+        <psc:chapter start="00:02:13.550" title="ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen" href="https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/" />
+        <psc:chapter start="00:04:27.510" title="RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models" href="https://arxiv.org/abs/2609.20971" />
+        <psc:chapter start="00:07:20.960" title="Nscale IPO Files to Go Public, Shows Huge Revenue Jump And Steep Losses" href="https://www.theinformation.com/briefings/nscale-ipo-files-go-public-shows-huge-revenue-jump-steep-losses" />
+        <psc:chapter start="00:09:22.810" title="How BMW Group detects cost anomalies across 14,000 cloud accounts" href="https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/" />
+        <psc:chapter start="00:11:35.680" title="Sparse Priors for Efficient Distribution Learning" href="https://arxiv.org/abs/2609.20883" />
+        <psc:chapter start="00:14:01.890" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#174 アリババのオープンウェイトモデル「Qwen-Image-2.1」、わずか70億パラメータでクローズドモデルを上回る画像…</title>
       <description>Tech News Radio Show Notes - #174 (2026-09-21)
 

@@ -1,0 +1,372 @@
+{
+  "date": "2026-09-22",
+  "episode_date_local": "2026-09-22",
+  "content_snapshot_date": "2026-09-22",
+  "show_length_sec": 872,
+  "audio_size": 13958829,
+  "generated_at": "2026-09-21T21:42:37.626268+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8551cd4b",
+      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "title_ja": "xAIのGrok 4.6がAmazon Bedrockで利用可能に",
+      "one_liner": "Grok 4.6がAmazon Bedrockで利用可能に",
+      "fingerprint": "8551cd4b2771642b8194cb25aa66a180",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-f25b8842",
+      "title": "ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen",
+      "title_ja": "ByteDance、脚本から映像まで短編ドラマを制作できるAIプラットフォーム「Dramagic」を発表",
+      "one_liner": "ByteDance、脚本から動画までAIで作るショートドラマ基盤発表",
+      "fingerprint": "f25b884208e2560e3701bcf92bb17d6c",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-88b0a380",
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "title_ja": "RBS-Attention:長文脈大規模言語モデルのための半径制限付きスパースプレフィル",
+      "one_liner": "長文処理を高速化する新しいスパース注意機構の手法",
+      "fingerprint": "88b0a380d44b84652967f3947730ac84",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-4a875759",
+      "title": "Nscale IPO Files to Go Public, Shows Huge Revenue Jump And Steep Losses",
+      "title_ja": "Nscale、IPO申請を提出 売上高急増も損失拡大が明らかに",
+      "one_liner": "Nvidia出資のNscaleがIPO申請、売上急増も赤字拡大",
+      "fingerprint": "4a875759d331b9b9f92e3c17b0ea4604",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-990be04c",
+      "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+      "title_ja": "BMWグループ、14,000のクラウドアカウントにおけるコスト異常を検知する方法",
+      "one_liner": "BMWが1.4万クラウド口座のコスト異常を自動検知",
+      "fingerprint": "990be04c8ab8eaabe6eb5ee08fa62c82",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-489e2278",
+      "title": "Sparse Priors for Efficient Distribution Learning",
+      "title_ja": "スパース事前分布による効率的な分布学習",
+      "one_liner": "分布学習の理論限界をスパース事前分布で改善する研究",
+      "fingerprint": "489e22781aa7a2a9854bcd69a11012ec",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-c3ab6f8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems"
+    },
+    {
+      "item_id": "item-895c8003",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "UN science panel says there is \"no assurance humans will keep control\" over AI agents"
+    },
+    {
+      "item_id": "item-b5ff2090",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-d3ed374e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Do small language models know what they don't know?"
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-7969a0b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Transformer Explainer: LLM Transformer Model Visually Explained"
+    },
+    {
+      "item_id": "item-eaaf3f9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MiMo-V2.6"
+    },
+    {
+      "item_id": "item-ac58d5e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: An improved review experience"
+    },
+    {
+      "item_id": "item-2e232792",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — September 14"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-bc7adeea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building standards for the next phase of AI"
+    },
+    {
+      "item_id": "item-32ac8e79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Life Sciences Verification Program"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-8ccb5685",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping"
+    },
+    {
+      "item_id": "item-08c02e2d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why I built Animal Sudoku without a single ad"
+    },
+    {
+      "item_id": "item-c3577c2a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: investigating deaths at the US border’s “virtual wall”"
+    },
+    {
+      "item_id": "item-13199cc6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "British Columbia Sues OpenAI Over Canada Mass Shooting Warning Failure"
+    },
+    {
+      "item_id": "item-2647e2f3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket"
+    }
+  ],
+  "score_cache": {
+    "eaaf3f9d613f5bc9c689fb49a7cdd7b4": {
+      "score": 40,
+      "title": "MiMo-V2.6",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] MiMo-V2.6は名称から大規模言語モデルまたはAIモデルの新バージョンと推測され、技術的には推論性能や効率、開発者向け利用環境などに影響し得ます。一方でスニペットがなく、性能向上幅・提供形態・実運用への影響を具体的に評価できません。また、既に取り上げ済みの「model」「ai」に直接該当するため、同一テーマの続報と判断して減点しました。"
+    },
+    "b5ff2090eec864d241e0a751b84e4866": {
+      "score": 49,
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを活用し、Higgsfield AIが中小企業向け動画広告の生成機能を短期間で市場投入した点は、生成AIの実用化と開発速度の観点で注目に値します。一方で、記事の中心は既存のAIモデルを利用した動画制作機能の拡張であり、基盤モデル自体の革新や業界の前提を変える技術発表ではありません。AI・モデル関連は直近の既出テーマと重なるため減"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 43,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-19",
+      "reason": "[ScoreCache 2026-09-19] [ScoreCache 2026-09-19] [ScoreCache 2026-09-19] [Claude API Evaluation] Accentureとの組み込み型評価（embedded evaluation）に関する提携は、AIシステムなどを開発プロセスへ継続的に評価・検証する運用や品質保証の観点で一定の技術的 relevanceがあり"
+    },
+    "8551cd4b2771642b8194cb25aa66a180": {
+      "score": 90,
+      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] xAIのGrok 4.6がAmazon Bedrockで利用可能になり、500Kトークンのコンテキスト、複数の推論強度、Converse API、クロスリージョン推論に対応する点は、エンタープライズでの長時間エージェントやコーディング用途に実用的な影響があります。基盤モデルをAWSの既存API・推論基盤から利用できるため、導入時の運用負荷やベンダーロ"
+    },
+    "ac58d5e55403beb3e2c4aea2f47b2302": {
+      "score": 39,
+      "title": "Copilot code review: An improved review experience",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューに、レビュー差分の可視化、提案の自動解決、承認時のコミットメッセージ生成が追加される実務的な改善です。開発者体験やレビュー効率には寄与しますが、既存のAIコーディング支援の延長にある機能強化であり、業界の前提を変えるほどの技術革新ではありません。また、直近に取り上げ済みの「Copilot」および「code」"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 38,
+      "title": "May 28, 2026",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新、ベース環境でのpip修正、JupyterLab認証設定の強化といった保守・運用改善が中心です。開発環境の安定性やセキュリティには寄与するものの、アーキテクチャや基盤技術を大きく変える新機能ではありません。また、既出の「agent」関連トピックと同じ領域の"
+    },
+    "c3ab6f8a9a43f46d36a37e8c826e1b28": {
+      "score": 60,
+      "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] AIが未解決の数学問題を100件以上解いたという内容は、AIの推論能力や科学研究への応用を示す点で技術的インパクトがあります。一方、記事の中心はOpenAIによる数学諮問グループの設立であり、研究成果の再現性・査読状況・実用化への影響はまだ不明です。また、OpenAIやAIに関する話題は直近の既出キーワードと重なるため減点しました。 [Editori"
+    },
+    "895c800361ee8e52c0de0fe5ddad1483": {
+      "score": 54,
+      "title": "UN science panel says there is \"no assurance humans will keep control\" over AI agents",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] AIエージェントの制御不能リスクを国連の科学パネルが公式に警告する点は、業界の安全設計・評価手法・ガバナンスに影響し得る重要なニュースです。一方で、具体的な技術革新や実装、性能向上の発表ではなく、リスク評価と政策寄りの内容です。また、既出キーワードである「AI」「agents」に関する同系統の話題であるため、重複分として減点しました。 [Editor"
+    },
+    "8ccb56857ff5babe62fc813de1f10552": {
+      "score": 37,
+      "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 米中首脳会談でAI関連ハードウェアの輸出規制や技術制限が交渉材料になる可能性を扱う記事で、半導体・AIインフラ企業には影響し得ます。ただし、具体的な政策決定や新技術の発表ではなく、地政学・規制動向の予測が中心です。AIや技術制限は既出キーワードに関連するものの、明確な続報と判断できる具体性も乏しいため、低評価帯の中でもやや高めのスコアに留めます。 ["
+    },
+    "c3577c2a5f6faac08befcface3c5de45": {
+      "score": 23,
+      "title": "The Download: investigating deaths at the US border’s “virtual wall”",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 米国国境の監視システムと死亡事例を扱う調査報道であり、技術面では大規模な監視インフラの有効性、設計上の限界、運用・倫理面の問題を考える材料になります。ただし、AIやLLM、クラウド、プログラミング言語などの技術革新そのものではなく、主題は社会問題・公共政策・説明責任にあります。エンジニアにとって一定の示唆はあるものの、技術業界への直接的な影響や新規性"
+    },
+    "13199cc66ee83333c8f3ece0f218cb23": {
+      "score": 21,
+      "title": "British Columbia Sues OpenAI Over Canada Mass Shooting Warning Failure",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] OpenAIのログ利用、危険行動の検知、警察への通報義務やプライバシー保護をめぐる重要な論点を含み、AIサービスの安全設計や法的責任に影響し得ます。一方で、現時点では技術革新ではなく訴訟上の主張であり、具体的な判決や新しい安全機構が示されたニュースではありません。法規制・訴訟関連として基礎点を低く設定し、既出キーワードである「OpenAI」および同種"
+    },
+    "4a875759d331b9b9f92e3c17b0ea4604": {
+      "score": 75,
+      "title": "Nscale IPO Files to Go Public, Shows Huge Revenue Jump And Steep Losses",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] Nvidia支援のAIインフラ系クラウドスタートアップがIPO申請を行い、売上の急成長とデータセンター・AIチップへの巨額投資による赤字拡大を同時に示した点は、AI計算資源市場の拡大と収益性の課題を把握するうえで重要です。エンジニア視点でも、GPUクラウドの設備投資、スケール戦略、資本効率というクラウド基盤の実態に関わります。一方で、新しい技術仕様や"
+    },
+    "88b0a380d44b84652967f3947730ac84": {
+      "score": 77,
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 長文LLM推論のボトルネックであるprefillを、ブロック選択と半径制約付きの疎なAttentionで高速化する新手法で、推論コスト・レイテンシ・メモリ使用量の改善につながる可能性があります。学習済みモデルを再訓練せず適用できる点も実装上の魅力です。一方で、現時点ではarXivの新規研究であり、精度劣化、長文タスクでの汎用性、GPU上での実効性能、"
+    },
+    "489e22781aa7a2a9854bcd69a11012ec": {
+      "score": 67,
+      "title": "Sparse Priors for Efficient Distribution Learning",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 高次元分布学習におけるサンプル効率の理論限界を、疎な事前構造（sparse priors）で改善しようとする機械学習理論の研究です。生成AIや確率モデルの基盤となる分布推定の効率化に関係し、将来的には学習データ量や計算コストの削減につながる可能性があります。一方で、現時点ではarXiv上の理論研究であり、実運用での有効性や既存手法を大きく上回る実証結"
+    },
+    "d3ed374e9be42d50ae724ba85c30ae24": {
+      "score": 47,
+      "title": "Do small language models know what they don't know?",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 3B未満の小規模言語モデルに対し、エントロピーや不確実性推定を用いて自己の限界を検出し、早期停止や大規模モデルへのルーティングで精度と計算効率を改善する研究は、エッジAIや低コスト推論に実用的な意義があります。消費者向けハードウェアで検証している点も具体性があります。一方で、基礎研究段階であり、現時点では業界の前提を変えるほどの革新性や導入実績は確認"
+    },
+    "08c02e2d020f184f2a3471325fe5322f": {
+      "score": 27,
+      "title": "Why I built Animal Sudoku without a single ad",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 子ども向けアプリで広告・トラッキング・アカウント登録を排除し、COPPAを意識したプライバシー設計やVoiceOver/TalkBack、音声操作、ハプティクスなどのアクセシビリティを実装している点は、プロダクト設計として評価できます。一方で、技術的な新規性やアーキテクチャ上の革新、業界への影響範囲は限定的で、iOS向け一般消費者アプリの個人開発事例"
+    },
+    "7969a0b82dfd6e9c46fee59bee6afaea": {
+      "score": 41,
+      "title": "Transformer Explainer: LLM Transformer Model Visually Explained",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] TransformerやLLMの内部構造を視覚的に解説する技術記事であり、エンジニアの理解促進には有用です。一方で、新しいモデルやアーキテクチャの発表ではなく、既存技術の教育・整理が中心と見られます。また、直近に取り上げ済みの「LLM」「model」に直接関連するため、重複分として減点しました。 [Editorial: AI/SaaS topic +"
+    },
+    "bc7adeea2a384e71bcd9ead713d47463": {
+      "score": 38,
+      "title": "Building standards for the next phase of AI",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] AIの安全性評価・報告・ガバナンスに関する国際標準化は、将来的に開発プロセスや運用要件へ影響し得る重要テーマです。一方で、具体的な技術仕様や実装、合意済みの標準が示された発表ではなく、規制・運用ルール寄りでエンジニアにとっての即時性は限定的です。また、既出キーワードであるAIおよびOpenAIと同じ文脈の続報であり、新しい技術的展開が明確でないため減"
+    },
+    "32ac8e79ad1a38d9685053adc694285c": {
+      "score": 38,
+      "title": "Introducing the Life Sciences Verification Program",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] ライフサイエンス分野のソリューションや事業者を検証するプログラムの発表であり、導入時の信頼性やコンプライアンス確認には有用です。ただし、基盤技術やアーキテクチャの革新、AI・LLMなどの技術的ブレークスルーを直接示す内容ではなく、主な価値は認証・運用・ガバナンス面にあります。エンジニアにとっては採用判断の補助材料となるものの、影響範囲と新規性は限定的"
+    },
+    "990be04c8ab8eaabe6eb5ee08fa62c82": {
+      "score": 75,
+      "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] 14,000以上のクラウドアカウントを対象に、従来のダッシュボード中心の事後分析から、Prophetによる予測、AWS Step Functions、サーバーレス処理を組み合わせた日次のコスト異常検知へ移行した実装事例です。大規模クラウド環境におけるFinOpsの自動化、運用コスト、スケーラビリティに具体的な示唆があり、アーキテクチャ面で価値がありま"
+    },
+    "2e232792dda030fa5b414a8040f05299": {
+      "score": 39,
+      "title": "GitHub Copilot weekly releases — September 14",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] GitHub Copilotのモデル選択、コードレビュー、Sentry連携、管理者向け機能、エージェント機能の更新をまとめた実務的なリリース情報であり、開発ワークフローへの影響はあります。ただし、週次アップデートの集合記事で、業界の前提を変えるような単独の技術革新や具体的な性能向上は読み取れません。直近の既出キーワードである「copilot」「mod"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 38,
+      "title": "June 23, 2026",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchというAI開発基盤の更新ではあるものの、内容はDebianベースイメージへの依存パッケージ更新と、Jupyterランチャー上の重複カーネル表示の不具合修正が中心です。新しいアーキテクチャや開発能力を大きく変える機能追加ではなく、影響範囲も既存利用者向けの保守リリースに限定されます。また、直近に取り上げ済"
+    },
+    "2647e2f3eaa9d6fff944fe40383661fe": {
+      "score": 6,
+      "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] TechCrunch Disrupt 2026のチケット割引告知であり、技術革新、ソフトウェア開発、アーキテクチャ、規制などの技術的論点を含まないイベント販促情報です。エンジニアリング上の影響や新規性はほぼなく、一般消費者向けの告知に近いため、最低評価帯としました。"
+    },
+    "f25b884208e2560e3701bcf92bb17d6c": {
+      "score": 83,
+      "title": "ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen",
+      "date": "2026-09-22",
+      "reason": "[Claude API Evaluation] ByteDanceが脚本生成から映像プレビューまでを一気通貫で扱う短編ドラマ制作基盤を提供する点は、生成AIを単機能ではなく実運用可能な制作パイプラインへ統合する動きとして重要です。中国での大量利用実績もあり、動画制作の分業・コスト構造・コンテンツ供給量を変える可能性があります。一方、基盤モデル自体の画期的な技術革新というより、既存の生成AI技術を大"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-22/blog.md",
+    "show_notes_path": "out/2026-09-22/show_notes.md",
+    "script_path": "out/2026-09-22/script_2hosts.md",
+    "audio_path": "out/2026-09-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25417,
+        "output_tokens": 10975,
+        "cost_usd": 0.018253
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43740,
+        "output_tokens": 8524,
+        "cost_usd": 0.25908
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4722,
+        "cost_usd": 0.05666399999999999
+      }
+    ],
+    "total_cost_usd": 0.333997
+  }
+}

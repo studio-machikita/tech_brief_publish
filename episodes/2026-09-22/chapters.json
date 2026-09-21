@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 28.43,
+    "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/"
+  },
+  {
+    "start_sec": 133.55,
+    "title": "ByteDance launches Dramagic, a full-pipeline AI platform for producing short dramas from script to screen",
+    "url": "https://the-decoder.com/bytedance-launches-dramagic-a-full-pipeline-ai-platform-for-producing-short-dramas-from-script-to-screen/"
+  },
+  {
+    "start_sec": 267.51,
+    "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+    "url": "https://arxiv.org/abs/2609.20971"
+  },
+  {
+    "start_sec": 440.96,
+    "title": "Nscale IPO Files to Go Public, Shows Huge Revenue Jump And Steep Losses",
+    "url": "https://www.theinformation.com/briefings/nscale-ipo-files-go-public-shows-huge-revenue-jump-steep-losses"
+  },
+  {
+    "start_sec": 562.81,
+    "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/"
+  },
+  {
+    "start_sec": 695.68,
+    "title": "Sparse Priors for Efficient Distribution Learning",
+    "url": "https://arxiv.org/abs/2609.20883"
+  },
+  {
+    "start_sec": 841.89,
+    "title": "エンディング",
+    "url": null
+  }
+]
