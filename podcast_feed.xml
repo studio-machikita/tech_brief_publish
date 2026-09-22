@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#176 Snorkel AI、AI学習データ需要の急増で評価額3倍の35億ドルに ほか</title>
+      <description>Tech News Radio Show Notes - #176 (2026-09-23)
+
+エピソード情報
+• エピソード: #176
+• 日付: 2026-09-23
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Snorkel AI triples valuation to $3.5B as demand for AI training data booms (https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/)
+• Better prompt caching for GPT-6 (https://openai.com/index/better-prompt-caching-for-gpt-6)
+• PRQuant: Permutation Residual Quantization for Low-Overhead Inference (https://arxiv.org/abs/2609.22106)
+
+注目の深掘り
+• Google Expands Gemini Notebook With Syncing, Interactive Tools and a New Name (https://dev.to/alifar/google-expands-gemini-notebook-with-syncing-interactive-tools-and-a-new-name-1dm)
+
+小ネタ・その他
+• Claude Opus 5.5 is now available in GitHub Copilot (https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot)
+• Parallel cut research time and cost in half with GPT‑6 Astra (https://openai.com/index/parallel-cuts-time-and-cost-with-astra)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-23/episode_audio.mp3" length="11799213" type="audio/mpeg" />
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-23</guid>
+      <itunes:duration>12:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Snorkel AI、AI学習データ需要の急増で評価額3倍の35億ドルに ほか</itunes:title>
+      <itunes:episode>176</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #176 (2026-09-23)
+
+エピソード情報
+• エピソード: #176
+• 日付: 2026-09-23
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Snorkel AI triples valuation to $3.5B as demand for AI training data booms (https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/)
+• Better prompt caching for GPT-6 (https://openai.com/index/better-prompt-caching-for-gpt-6)
+• PRQuant: Permutation Residual Quantization for Low-Overhead Inference (https://arxiv.org/abs/2609.22106)
+
+注目の深掘り
+• Google Expands Gemini Notebook With Syncing, Interactive Tools and a New Name (https://dev.to/alifar/google-expands-gemini-notebook-with-syncing-interactive-tools-and-a-new-name-1dm)
+
+小ネタ・その他
+• Claude Opus 5.5 is now available in GitHub Copilot (https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot)
+• Parallel cut research time and cost in half with GPT‑6 Astra (https://openai.com/index/parallel-cuts-time-and-cost-with-astra)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-23/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.270" title="Snorkel AI triples valuation to $3.5B as demand for AI training data booms" href="https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/" />
+        <psc:chapter start="00:02:06.980" title="Better prompt caching for GPT-6" href="https://openai.com/index/better-prompt-caching-for-gpt-6" />
+        <psc:chapter start="00:04:03.310" title="PRQuant: Permutation Residual Quantization for Low-Overhead Inference" href="https://arxiv.org/abs/2609.22106" />
+        <psc:chapter start="00:05:58.890" title="Google Expands Gemini Notebook With Syncing, Interactive Tools and a New Name" href="https://dev.to/alifar/google-expands-gemini-notebook-with-syncing-interactive-tools-and-a-new-name-1dm" />
+        <psc:chapter start="00:08:06.650" title="Claude Opus 5.5 is now available in GitHub Copilot" href="https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot" />
+        <psc:chapter start="00:10:02.580" title="Parallel cut research time and cost in half with GPT‑6 Astra" href="https://openai.com/index/parallel-cuts-time-and-cost-with-astra" />
+        <psc:chapter start="00:11:43.940" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#175 xAIのGrok 4.6がAmazon Bedrockで利用可能に ほか</title>
       <description>Tech News Radio Show Notes - #175 (2026-09-22)
 

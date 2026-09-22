@@ -1,0 +1,374 @@
+{
+  "date": "2026-09-23",
+  "episode_date_local": "2026-09-23",
+  "content_snapshot_date": "2026-09-23",
+  "show_length_sec": 737,
+  "audio_size": 11799213,
+  "generated_at": "2026-09-22T22:59:42.111362+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-784c54b8",
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "title_ja": "Snorkel AI、AI学習データ需要の急増で評価額3倍の35億ドルに",
+      "one_liner": "Snorkel AIが評価額3.5倍増の35億ドルに",
+      "fingerprint": "784c54b8cb8a4eb8aac1f5826a5fada1",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-6c661ae3",
+      "title": "Better prompt caching for GPT-6",
+      "title_ja": "GPT-6向けのプロンプトキャッシュ機能が向上",
+      "one_liner": "GPT-6でプロンプトキャッシュ機能が大幅強化",
+      "fingerprint": "6c661ae38f910e74e92191b4bfb3d619",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-3eb05751",
+      "title": "PRQuant: Permutation Residual Quantization for Low-Overhead Inference",
+      "title_ja": "PRQuant:低オーバーヘッド推論のための順列残差量子化",
+      "one_liner": "低ビット量子化の外れ値問題を低オーバーヘッドで解決",
+      "fingerprint": "3eb0575192fb00f59a86f39b44e16320",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-a914b310",
+      "title": "Google Expands Gemini Notebook With Syncing, Interactive Tools and a New Name",
+      "title_ja": "Google、「Gemini Notebook」を同期機能やインタラクティブツールとともに拡張し、新名称に変更",
+      "one_liner": "NotebookLMがGemini Notebookに改名、機能も拡張",
+      "fingerprint": "a914b3109d91c794f044f553b53e0a1c",
+      "score": 69,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    },
+    {
+      "item_id": "item-70ae1c8b",
+      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+      "title_ja": "GitHub Copilot、Claude Opus 5.5に対応",
+      "one_liner": "GitHub CopilotでClaude Opus 5.5が使えるように",
+      "fingerprint": "70ae1c8b4709f408cc0b8b62071e33e8",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-2d1da0f4",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "title_ja": "GPT-6 Astraによる並列カットで研究時間とコストを半減",
+      "one_liner": "GPT-6 Astraで労働市場調査を半分の時間とコストで実現",
+      "fingerprint": "2d1da0f4202b3f223051faf80cd99a55",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-179dfe74",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-9b4c6ed7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-08ebe879",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI calls for international standards on AI that could improve itself"
+    },
+    {
+      "item_id": "item-6b27e54b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Faster C++ code intelligence with whole codebase indexing"
+    },
+    {
+      "item_id": "item-22cf2968",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs"
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-601a0f36",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents"
+    },
+    {
+      "item_id": "item-c8168afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts"
+    },
+    {
+      "item_id": "item-845b5e5e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - geastack/examples: Example Gea applications and tools — the app gallery used by the simulator, the embedded targets, GeaOS and the Apple targets."
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-32ac8e79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Life Sciences Verification Program"
+    },
+    {
+      "item_id": "item-4e49299e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Qualcomm launches two new smartphone chips with emphasis on AI"
+    },
+    {
+      "item_id": "item-d7dfbc93",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI Releases Proposal for International AI Safety Coordination"
+    },
+    {
+      "item_id": "item-97a3c7f2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall"
+    },
+    {
+      "item_id": "item-f9bc48c1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to Claim Your Cut of Apple’s $250 Million Siri Settlement"
+    },
+    {
+      "item_id": "item-07977328",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FoxDev Studio"
+    },
+    {
+      "item_id": "item-143823e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Aldi US COO: Americans Are Feeling Inflation Pressures"
+    }
+  ],
+  "score_cache": {
+    "07977328b603efacfee8e8c695956a76": {
+      "score": 6,
+      "title": "FoxDev Studio",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] タイトルが「FoxDev Studio」のみで、技術的な発表内容、製品、アーキテクチャ、影響範囲などを判断できる情報がありません。AIやクラウド、プログラミング言語などの具体的な進展も確認できないため、重要度は最低水準と評価します。"
+    },
+    "6c661ae38f910e74e92191b4bfb3d619": {
+      "score": 83,
+      "title": "Better prompt caching for GPT-6",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] GPT-6におけるプロンプトキャッシュの改善は、LLM基盤のレイテンシーと推論コストを直接削減する実用性の高い技術アップデートです。キャッシュヒット率の向上に加え、診断機能や明示的なブレークポイント、制御機構が提供されることで、長いコンテキストを使うエージェントや業務システムの運用効率が大きく改善します。一方で、モデル自体の能力革新や業界構造を一変さ"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 43,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-19",
+      "reason": "[ScoreCache 2026-09-19] [ScoreCache 2026-09-19] [ScoreCache 2026-09-19] [ScoreCache 2026-09-19] [Claude API Evaluation] Accentureとの組み込み型評価（embedded evaluation）に関する提携は、AIシステムなどを開発プロセスへ継続的に評価・検証する運用や品質保"
+    },
+    "9b4c6ed79f0761ee6adeff28a9e195e7": {
+      "score": 51,
+      "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] エージェントが適切なスキルを選択し、指示どおりに実行できたかを定量評価する仕組みは、実運用での品質保証や回帰テストに有用です。特にStrands EvalsとAmazon Bedrock AgentCoreを組み合わせ、単なる回答品質ではなくスキル選択・手順遵守を測定する点は、エージェント開発の実務的な前進です。一方で、既存のAI・エージェント・Be"
+    },
+    "6b27e54b8ae4663d4e63f788fec31b5e": {
+      "score": 47,
+      "title": "Faster C++ code intelligence with whole codebase indexing",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] C++リポジトリ全体をインデックス化することで、GitHub Copilot CLIのコードインテリジェンスが大規模・複雑なコードベースでも高速化される点は、開発者体験と実用性の面で価値があります。特に数百万行規模の依存関係を横断的に扱える点は技術的に具体性があります。一方で、業界の前提を変える基盤技術やC++言語自体の進化ではなく、既存のAIコーデ"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 37,
+      "title": "May 28, 2026",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージ更新、ベース環境でのpip利用修正、JupyterLab認証設定の強化といった保守・運用改善が中心で、アーキテクチャや機能の大幅な進化ではありません。認証強化は実務上重要なセキュリティ改善である一方、影響範囲は既存ユーザー向けの限定的なリリースです。また、既出キ"
+    },
+    "784c54b8cb8a4eb8aac1f5826a5fada1": {
+      "score": 84,
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] AIモデル開発を支える高品質な学習データの生成・管理を事業化するSnorkel AIが、3.5 billionドル評価でSeries Eを調達した点は、AIインフラおよびデータ供給市場の成長を示す重要なニュースです。データ品質やラベリング効率はモデル性能と開発コストに直結するため、エンジニアリング面でも影響が大きく、data-as-a-service"
+    },
+    "08ebe879ea0a204c3aa8a14004182cea": {
+      "score": 49,
+      "title": "OpenAI calls for international standards on AI that could improve itself",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] AIが自律的に次世代モデルを開発する再帰的自己改善は、制御可能性や評価手法、開発プロセスそのものを変え得る重要テーマです。国際的な測定基準や監督ルールの提案も、将来のAI開発基盤に影響する可能性があります。一方で、記事の主題は新技術の実装や具体的な製品発表ではなく、国際標準・規制に関する提言であり、現時点での技術的具体性は限定的です。また、既に取り上"
+    },
+    "c8168afdb012e1db3bb534a164e69333": {
+      "score": 41,
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] 12,000アカウントの大量侵害を可能にしたEvilTokensをMicrosoftが停止した点は、企業セキュリティとAI悪用対策の観点で影響が大きい一方、主題は新技術の実装やアーキテクチャ革新ではなく、既存の攻撃基盤への対処です。セキュリティ関連ニュースとして基準上は低めに評価し、「AI-assisted」という既出キーワードとも重なるため減点して"
+    },
+    "f9bc48c1bc42dfd5ffccf9497582536d": {
+      "score": 16,
+      "title": "How to Claim Your Cut of Apple’s $250 Million Siri Settlement",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] Siriの機能提供をめぐるAppleの集団和解金請求に関する法律・消費者向けニュースであり、ソフトウェア技術そのものの革新や開発者向けの新機能は含まれません。規制・訴訟関連という評価基準に該当するため低評価です。既出キーワードのAIやモデルに直接関係する新たな技術展開でもないため、追加減点は不要です。 [Editorial: gadget topic"
+    },
+    "97a3c7f212176b70da45231cf61b572d": {
+      "score": 19,
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] 国境監視システムの巨額投資と、検知・追跡性能が期待を大きく下回った実態を検証する調査記事であり、公共システムの信頼性、要件定義、運用設計、費用対効果の観点では重要です。一方、主題は技術革新よりも政策・監視運用・社会的影響にあり、AIやクラウドなどの先端技術そのものの進展ではありません。そのため、法律・規制やセキュリティ運用に近い低評価帯としました。 "
+    },
+    "143823e9f5962b9c1fc2e6e23ada0acd": {
+      "score": 6,
+      "title": "Aldi US COO: Americans Are Feeling Inflation Pressures",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] 米国小売業のインフレ影響やAldiの出店計画・デジタル戦略に関する経営ニュースであり、AI、クラウド、ソフトウェアアーキテクチャ、開発者向け技術の革新とは直接関係しません。エンジニアリング視点での技術的な新規性や業界基盤を変える影響は限定的なため、一般消費者向けビジネス動向として最低評価に近いスコアです。"
+    },
+    "d7dfbc932baa44dfdeffc09457fda57d": {
+      "score": 28,
+      "title": "OpenAI Releases Proposal for International AI Safety Coordination",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] 国際的なAI安全基準や各国の安全機関の連携を提案する内容で、AI産業全体への影響範囲は広い一方、現時点では実装済みの技術や具体的な製品ではなく、政策・標準化に関する提案にとどまります。AI関連ではあるものの、既出のAIトピックと近い領域であるため減点し、技術革新ニュースとしての即時性は低めに評価しました。 [Editorial: AI/SaaS to"
+    },
+    "22cf2968b52a4d336fc66746e3d44b6c": {
+      "score": 47,
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] Mixture-of-Expertsのルーティングに、スライディングウィンドウ内のAttention重みから抽出した時間・スペクトル特徴を組み合わせる提案であり、従来のトークン隠れ状態中心のExpert選択を改善し得る点は技術的に興味深いです。推論効率やExpert負荷分散、文脈依存性の向上につながる可能性があり、AIモデルアーキテクチャとしては中〜"
+    },
+    "3eb0575192fb00f59a86f39b44e16320": {
+      "score": 77,
+      "title": "PRQuant: Permutation Residual Quantization for Low-Overhead Inference",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] LLMやニューラルネットワーク推論の低ビット量子化に関する新手法であり、精度劣化の主因となる外れ値と、既存手法の実行時オーバーヘッドを同時に改善しようとしている点は、推論コスト・レイテンシ・メモリ使用量の削減に直結します。特にオンライン処理ではなく低オーバーヘッド化を狙う点は、実運用のGPU推論基盤やエッジ環境に有用です。一方で、現時点ではarXiv"
+    },
+    "601a0f36432bd05ec67772958d85c1bd": {
+      "score": 43,
+      "title": "Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] LLMエージェントが示す心理学的バイアス様の応答を、実際のバイアス保有と区別して評価するPsyAgentBenchは、評価設計として新規性があり、プロンプト汚染や実験再現性の問題に取り組む点で技術的価値があります。特に、実験名を明示する条件とブラインド条件を分ける factorial design は、LLM評価の解釈性を高める可能性があります。一方"
+    },
+    "a914b3109d91c794f044f553b53e0a1c": {
+      "score": 69,
+      "title": "Google Expands Gemini Notebook With Syncing, Interactive Tools and a New Name",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] NotebookLMをGemini Notebookへ統合し、Geminiアプリとのノート同期、継続的なコンテキスト利用、リアルタイム対話、音声記録、クイズやフラッシュカードなどのインタラクティブ機能を追加する動きは、AIを単発のチャットから継続利用する知識ワークスペースへ拡張する点で注目度が高いです。特にプロジェクト資料や社内ナレッジを再利用しやす"
+    },
+    "845b5e5e3df12e579f8e56347087dc3d": {
+      "score": 38,
+      "title": "GitHub - geastack/examples: Example Gea applications and tools — the app gallery used by the simulator, the embedded tar",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] Geaのシミュレータ、組み込みターゲット、GeaOS、Apple向け環境に対応したサンプル集であり、開発者が実装例や対応プラットフォームを把握するうえでは有用です。ただし、単独のGitHubリポジトリ紹介で、技術仕様の大幅な刷新や業界全体に影響する発表かは読み取れず、現時点ではニッチなOSSエコシステム情報にとどまります。"
+    },
+    "2d1da0f4202b3f223051faf80cd99a55": {
+      "score": 54,
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] GPT-6 Astraがエージェントによる調査・統合作業の時間とコストを半減させた点は、AI活用の実運用効率に直結する具体的な成果であり、開発者やデータ分析業務への波及性があります。一方で、業界全体の前提を変える新技術の詳細や汎用的なベンチマーク、提供範囲は示されておらず、単一事例に基づく効果に留まります。また、AI・モデル・エージェント関連は既報キ"
+    },
+    "32ac8e79ad1a38d9685053adc694285c": {
+      "score": 34,
+      "title": "Introducing the Life Sciences Verification Program",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] ライフサイエンス分野向けの検証プログラムは、導入時の信頼性やコンプライアンス確認を支援する運用・制度面の取り組みであり、ソフトウェア基盤や技術アーキテクチャを大きく変える発表ではありません。医療・製薬企業にとっては一定の実務的価値があるものの、対象業界が限定的で、具体的な技術革新や広範なエンジニアリング影響も読み取りにくいため、低めに評価します。 ["
+    },
+    "179dfe7405117d7e518ec60d564f207c": {
+      "score": 54,
+      "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCoreを使ったマルチエージェントAI Schedulerの実運用事例であり、Shopify向けモバイルアプリ更新の設定時間を80%、本番投入までの期間を33%短縮した点は具体的で、AIエージェントの業務自動化効果を示しています。一方で、既に取り上げ済みのAmazon、Bedrock、agentsなどと同じ話題"
+    },
+    "70ae1c8b4709f408cc0b8b62071e33e8": {
+      "score": 60,
+      "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] 最新のClaude OpusモデルがGitHub Copilotに統合され、エージェント型コーディングや長時間タスクへの適用範囲が広がる点は、開発者の生産性とAIコーディング基盤に直接影響するため重要です。一方で、AI・Claude・モデル・エージェント・コードに関する既出テーマと重なり、技術的にも新モデルのCopilot提供開始という続報・統合ニュ"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 35,
+      "title": "June 23, 2026",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebianベースイメージ更新と、ipykernelの重複表示修正が中心で、開発環境の安定性・保守性には寄与しますが、新機能やアーキテクチャ上の大きな進展はありません。Agent関連は既出キーワードと同じ領域の小規模な更新であるため減点し、影響範囲も利用者限定のメンテナンスリリースとして低めに評価しま"
+    },
+    "4e49299e067a61df65df267e90b1e907": {
+      "score": 33,
+      "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+      "date": "2026-09-23",
+      "reason": "[Claude API Evaluation] スマートフォン向けチップの新製品発表であり、一般消費者向けデバイス関連のため基本的な重要度は高くありません。一方、30B規模のMixture-of-Expertsモデルを端末上で実行できる点は、エッジAIやオンデバイス推論の実用性を示す技術的に注目すべき進展です。ただし、既出キーワードの「AI」「models」「launches」と同じ軸の話題に該当"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-23/blog.md",
+    "show_notes_path": "out/2026-09-23/show_notes.md",
+    "script_path": "out/2026-09-23/script_2hosts.md",
+    "audio_path": "out/2026-09-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 26868,
+        "output_tokens": 10837,
+        "cost_usd": 0.018378
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 44819,
+        "output_tokens": 7159,
+        "cost_usd": 0.241842
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3972,
+        "cost_usd": 0.047664
+      }
+    ],
+    "total_cost_usd": 0.307884
+  }
+}

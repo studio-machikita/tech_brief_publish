@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.27,
+    "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+    "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/"
+  },
+  {
+    "start_sec": 126.98,
+    "title": "Better prompt caching for GPT-6",
+    "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
+  },
+  {
+    "start_sec": 243.31,
+    "title": "PRQuant: Permutation Residual Quantization for Low-Overhead Inference",
+    "url": "https://arxiv.org/abs/2609.22106"
+  },
+  {
+    "start_sec": 358.89,
+    "title": "Google Expands Gemini Notebook With Syncing, Interactive Tools and a New Name",
+    "url": "https://dev.to/alifar/google-expands-gemini-notebook-with-syncing-interactive-tools-and-a-new-name-1dm"
+  },
+  {
+    "start_sec": 486.65,
+    "title": "Claude Opus 5.5 is now available in GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot"
+  },
+  {
+    "start_sec": 602.58,
+    "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+    "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
+  },
+  {
+    "start_sec": 703.94,
+    "title": "エンディング",
+    "url": null
+  }
+]
