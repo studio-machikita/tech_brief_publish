@@ -271,6 +271,46 @@ header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
   color: var(--text-muted);
 }
 
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
 /* Content card (markdown pages) */
 .content-card {
   background: var(--surface);
@@ -807,6 +847,9 @@ footer .container { padding: 0 20px; }
   .card { padding: 20px; }
   .episode-page .content { padding: 1.25rem; }
   .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
   .consent-banner { left: 0.75rem; right: 0.75rem; }
 }
 </style>
@@ -939,6 +982,7 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
     </div>
     <nav class="nav-links">
       <a href="index.html">Episodes</a>
+      <a href="lab/index.html">Lab</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
       <a href="podcast_feed.xml">RSS Feed</a>
@@ -948,7 +992,12 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
   <main class="container">
     <section id="home-intro" class="hero-card"></section>
-
+    
+    <a href="lab/index.html" class="lab-banner">
+      <span class="lab-banner-label">technewsradio lab #01</span>
+      <span class="lab-banner-title">GPT-6シリーズとClaude Opus 5.5を比較</span>
+      <span class="lab-banner-more">Lab のレポートを見る →</span>
+    </a>
     <a href="podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
 
     <h2 class="section-subtitle">Episodes</h2>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#02030a" />
+    <link rel="icon" href="data:," />
+    <title>Orbit Lab — 太陽・地球・月</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Three.js 本体と OrbitControls を同一バージョン (0.186.0) の npm パッケージから読み込む -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "../../../vendor/three/build/three.module.js",
+          "three/addons/": "../../../vendor/three/examples/jsm/"
+        }
+      }
+    </script>
+    <script>
+      // モジュールが読み込めない場合（file:// で開いた、npm install 前など）の案内
+      (function () {
+        function showBootError(message) {
+          var el = document.getElementById('boot-error');
+          if (!el || window.__orbitLabReady) return;
+          if (message) document.getElementById('boot-error-detail').textContent = message;
+          el.hidden = false;
+          var loading = document.getElementById('loading');
+          if (loading) loading.hidden = true;
+        }
+        window.addEventListener('DOMContentLoaded', function () {
+          if (location.protocol === 'file:') {
+            showBootError('file:// では ES モジュールを読み込めません。README の手順どおり npm start で起動し、http://localhost:5173 を開いてください。');
+            return;
+          }
+          setTimeout(function () {
+            showBootError('');
+          }, 10000);
+        });
+      })();
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </head>
+  <body>
+    <div id="stage" aria-label="太陽・地球・月の3Dビュー"></div>
+    <div id="labels" aria-hidden="true"></div>
+
+    <header class="hud-title">
+      <h1>Orbit Lab</h1>
+      <p class="hud-sub">太陽・地球・月の運動</p>
+      <p id="time-readout" class="hud-time" aria-live="off">経過 0年 0日</p>
+    </header>
+
+    <aside id="info" class="panel" aria-labelledby="info-title">
+      <div class="info-head">
+        <div>
+          <p id="info-kicker" class="info-kicker"></p>
+          <h2 id="info-title"></h2>
+        </div>
+        <button id="info-toggle" class="icon-btn" type="button" aria-expanded="true" aria-controls="info-body" title="パネルを折りたたむ">
+          <span aria-hidden="true">▾</span><span class="sr-only">説明パネルの開閉</span>
+        </button>
+      </div>
+      <div id="info-body" class="info-body">
+        <p id="info-desc" class="info-desc"></p>
+        <dl id="info-facts" class="info-facts"></dl>
+        <div id="info-live" class="info-live" hidden></div>
+        <p id="info-note" class="info-note"></p>
+        <button id="info-focus" class="btn btn-accent" type="button" hidden>この天体にフォーカス</button>
+      </div>
+    </aside>
+
+    <nav id="controls" class="panel" aria-label="シミュレーション操作">
+      <button id="btn-play" class="btn btn-play" type="button" aria-pressed="true" title="再生/停止 (Space)">
+        <span class="btn-icon" aria-hidden="true">⏸</span><span class="btn-text">停止</span>
+      </button>
+      <label class="speed" for="speed">
+        <span class="speed-label">速度</span>
+        <input id="speed" type="range" min="0.1" max="5" step="0.1" value="1" />
+        <output id="speed-value" for="speed">×1.0</output>
+      </label>
+      <button id="btn-orbits" class="btn" type="button" aria-pressed="true" title="軌道線・軌道面の表示切替 (O)">軌道線</button>
+      <div class="focus-group" role="group" aria-label="カメラフォーカス">
+        <button class="btn btn-focus" type="button" data-focus="overview" title="全体 (0)">全体</button>
+        <button class="btn btn-focus" type="button" data-focus="sun" title="太陽 (1)">太陽</button>
+        <button class="btn btn-focus" type="button" data-focus="earth" title="地球 (2)">地球</button>
+        <button class="btn btn-focus" type="button" data-focus="moon" title="月 (3)">月</button>
+      </div>
+      <button id="btn-reset" class="btn" type="button" title="初期状態に戻す (R)">
+        <span aria-hidden="true">↺</span> リセット
+      </button>
+    </nav>
+
+    <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+
+    <div id="loading" class="overlay">
+      <div class="overlay-card">
+        <div class="spinner" aria-hidden="true"></div>
+        <p>天体を生成しています…</p>
+      </div>
+    </div>
+
+    <div id="fallback" class="overlay" hidden>
+      <div class="overlay-card">
+        <h2>3D表示を開始できません</h2>
+        <p id="fallback-detail">このブラウザまたは端末では WebGL2 が利用できないため、Orbit Lab を表示できません。</p>
+        <ul>
+          <li>最新版の Chrome / Edge / Firefox / Safari をお試しください。</li>
+          <li>ブラウザ設定で「ハードウェアアクセラレーション」が有効か確認してください。</li>
+          <li>リモートデスクトップや仮想環境では GPU が使えない場合があります。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="boot-error" class="overlay" hidden>
+      <div class="overlay-card">
+        <h2>プログラムを読み込めませんでした</h2>
+        <p id="boot-error-detail">ページをローカルサーバー経由で開いているか、npm install を実行済みか確認してください（README 参照）。</p>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="overlay"><div class="overlay-card"><h2>JavaScript が無効です</h2><p>Orbit Lab の表示には JavaScript と WebGL2 が必要です。</p></div></div>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sales Lens — CSV売上ダッシュボード</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="wrap">
+      <h1>Sales Lens <span class="subtitle">CSV売上ダッシュボード</span></h1>
+      <p class="source">データ: <strong id="source-name">読み込み中…</strong></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="boot-message" class="notice notice-error" role="alert" hidden></div>
+
+    <section class="panel" aria-labelledby="data-heading">
+      <h2 id="data-heading">データ</h2>
+      <div class="data-actions">
+        <div class="field">
+          <label for="csv-file">CSVファイルを読み込む</label>
+          <input id="csv-file" data-testid="csv-file" type="file" accept=".csv,text/csv" aria-describedby="csv-help">
+          <p id="csv-help" class="help">列: date, category, product, quantity, unit_price（UTF-8）</p>
+        </div>
+        <button id="load-sample" data-testid="load-sample" type="button" class="btn">サンプルに戻す</button>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="errors-heading">
+      <h2 id="errors-heading">読み込み結果</h2>
+      <div id="errors" data-testid="errors" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="filter-heading">
+      <h2 id="filter-heading">絞り込み</h2>
+      <form id="filters" class="filters" onsubmit="return false">
+        <div class="field">
+          <label for="filter-from">開始日</label>
+          <input id="filter-from" data-testid="filter-from" type="date">
+        </div>
+        <div class="field">
+          <label for="filter-to">終了日</label>
+          <input id="filter-to" data-testid="filter-to" type="date">
+        </div>
+        <div class="field">
+          <label for="filter-category">カテゴリ</label>
+          <select id="filter-category" data-testid="filter-category">
+            <option value="">すべて</option>
+          </select>
+        </div>
+        <div class="field field-grow">
+          <label for="filter-query">商品名で検索（部分一致）</label>
+          <input id="filter-query" data-testid="filter-query" type="search" placeholder="例: ノート" autocomplete="off">
+        </div>
+        <div class="field field-button">
+          <button id="reset-filters" data-testid="reset-filters" type="button" class="btn btn-secondary">フィルター解除</button>
+        </div>
+      </form>
+      <p id="filter-note" class="help" aria-live="polite"></p>
+    </section>
+
+    <section aria-labelledby="metrics-heading">
+      <h2 id="metrics-heading" class="visually-hidden">集計</h2>
+      <dl class="metrics">
+        <div class="metric">
+          <dt>件数</dt>
+          <dd data-testid="metric-count" id="metric-count">0件</dd>
+        </div>
+        <div class="metric">
+          <dt>数量合計</dt>
+          <dd data-testid="metric-quantity" id="metric-quantity">0</dd>
+        </div>
+        <div class="metric metric-main">
+          <dt>売上合計</dt>
+          <dd data-testid="metric-revenue" id="metric-revenue">¥0</dd>
+        </div>
+      </dl>
+    </section>
+
+    <div class="grid">
+      <section class="panel" aria-labelledby="chart-heading">
+        <h2 id="chart-heading">カテゴリ別売上</h2>
+        <div id="category-chart" data-testid="category-chart" class="chart"></div>
+      </section>
+
+      <section class="panel panel-table" aria-labelledby="table-heading">
+        <div class="table-head">
+          <h2 id="table-heading">明細</h2>
+          <div class="table-actions">
+            <button id="sort-amount" data-testid="sort-amount" type="button" class="btn btn-secondary">売上金額で並べ替え</button>
+            <button id="export-csv" data-testid="export-csv" type="button" class="btn">表示中の明細をCSV保存</button>
+          </div>
+        </div>
+        <p class="help scroll-hint">表は横にスクロールできます（数量・単価・売上金額）。</p>
+        <div class="table-scroll" tabindex="0" role="region" aria-labelledby="table-heading">
+          <table id="sales-table" data-testid="sales-table">
+            <caption class="visually-hidden">絞り込み後の売上明細</caption>
+            <thead>
+              <tr>
+                <th scope="col">日付</th>
+                <th scope="col">カテゴリ</th>
+                <th scope="col">商品名</th>
+                <th scope="col" class="num">数量</th>
+                <th scope="col" class="num">単価</th>
+                <th scope="col" class="num" id="amount-header" aria-sort="none">売上金額</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div id="empty-state" data-testid="empty-state" class="empty" hidden>
+          <p><strong>条件に一致する明細はありません。</strong></p>
+          <p>絞り込み条件を変えるか「フィルター解除」を押してください。</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap footer">
+    <p>データはこの端末内だけで処理され、外部へ送信されません。</p>
+  </footer>
+
+  <script>
+    // ES modules cannot load from file:// — explain how to start instead of showing a blank screen.
+    window.addEventListener('load', function () {
+      if (window.__salesLensReady) return;
+      var box = document.getElementById('boot-message');
+      box.hidden = false;
+      box.textContent = location.protocol === 'file:'
+        ? 'ファイルを直接開くとブラウザーの制限でアプリを起動できません。フォルダーで「python -m http.server 8000」を実行し、http://localhost:8000/ を開いてください（READMEを参照）。'
+        : 'アプリの読み込みに失敗しました。ページを再読み込みしてください。';
+    });
+  </script>
+</body>
+</html>

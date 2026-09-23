@@ -1,0 +1,71 @@
+{
+  "purpose": "Static distribution copies. Original submissions are not changed.",
+  "changes": [
+    {
+      "file": "apps/orbit/astra/index.html",
+      "source_sha256": "fe77792621dc6c8c11d7a958713a714b41a381d6ec97ccd7acfbbd1dbf292c17",
+      "reason": "Resolve Three.js locally / replace Vite-only CSS import and root path with native static HTML equivalents."
+    },
+    {
+      "file": "apps/orbit/sol/index.html",
+      "source_sha256": "e97cf91f2ea452cf4322a8f94211f890ecaf31d81de243bc17d276d7ec1315eb",
+      "reason": "Resolve Three.js locally / replace Vite-only CSS import and root path with native static HTML equivalents."
+    },
+    {
+      "file": "apps/orbit/luna/index.html",
+      "source_sha256": "a67e190e1680880c90e3138cca65566e2a9e5f9444f6208a4875992ddb999c98",
+      "reason": "Resolve Three.js locally / replace Vite-only CSS import and root path with native static HTML equivalents."
+    },
+    {
+      "file": "apps/orbit/luna/src/main.js",
+      "source_sha256": "2fb8df61126092c05845a1bfc14fd962cfe17777e53114c11f5cdeb16dd402c7",
+      "reason": "Resolve Three.js locally / replace Vite-only CSS import and root path with native static HTML equivalents."
+    },
+    {
+      "file": "apps/orbit/opus/index.html",
+      "source_sha256": "6140f1358b57e7feab7d9d7347ca832a96b67c599f558336fb705631e4b885f7",
+      "reason": "Resolve Three.js locally / replace Vite-only CSS import and root path with native static HTML equivalents."
+    }
+  ],
+  "files": {
+    "apps/sales/astra/app.js": "a80509c90090e8562716f9abd7ae8d1f71c484a0ce0718b972c366fb8a57bff2",
+    "apps/sales/astra/core.mjs": "a336572f03642308e0a1a087fbaecd7c26df2c4154ec22d05da04bdd861f43bb",
+    "apps/sales/astra/index.html": "1ce5ca4b4c846285206f5f571605935e29ab8ce5b1b343929b7222beef8351b4",
+    "apps/sales/astra/sales-core.js": "4b26a76430a76353a280ce3cc54ccd3c59287f49451d27735ede149ed509a47c",
+    "apps/sales/astra/sales-sample.csv": "eb06b61634d92016ac1670fbf478211e59262dddd16d862dd6effe20942d6251",
+    "apps/sales/astra/sample-data.js": "ae85f61238564a7f160f38eeed6079a5b3421fdb810c32a5293ac859aa3b2b4e",
+    "apps/sales/astra/styles.css": "e9ebd930765bcc1ac87d38b1ff7f21c0574ee284b721e19451f366550d3a6504",
+    "apps/sales/luna/app.mjs": "b0ab6729c51372568db2c8b96348a794888e037c8219b3f3394cbdb96864c2ff",
+    "apps/sales/luna/core.mjs": "8bd2e546564db14aeb8d7b244d2d0be207c54fdeee934d83fee6d26bce0455ec",
+    "apps/sales/luna/index.html": "8c5ee308ec58a0474940258743ce23ca24e4056ca6574f2e6b9ab39eef470544",
+    "apps/sales/luna/sales-sample.csv": "eb06b61634d92016ac1670fbf478211e59262dddd16d862dd6effe20942d6251",
+    "apps/sales/luna/styles.css": "b2568f3c81b801632ae59908e9047594d407541c8e6df60985db4284d5ed8dbe",
+    "apps/sales/opus/app.js": "4f9abe3ba6c198fb5450eb02364492d3fe8c1dfdb95cf5ba9d1b86d19adb6c44",
+    "apps/sales/opus/core.mjs": "7b998457b9174df869aec09e5d51de88cc3fb664d0f6cd1197b7e2e50eaebb48",
+    "apps/sales/opus/index.html": "9084fa27b34575d5e37b4f610a932c412457638a591438075b1381d8b6f71a6a",
+    "apps/sales/opus/sales-sample.csv": "eb06b61634d92016ac1670fbf478211e59262dddd16d862dd6effe20942d6251",
+    "apps/sales/opus/sample-data.mjs": "5695b0c5e6ca60725520a4d8e1ae32dc01d2930a25acb7e7d49629f3c2408ebb",
+    "apps/sales/opus/styles.css": "3df6b2c2b92672a60bc6c3af6c401410cd6d7038fb19093d5d1c8f12bc4b3fcd",
+    "apps/sales/sol/core.mjs": "3ffb6d05c9132f863aa461d78d192d7631ef3fe081d1587bb45557f998924bb9",
+    "apps/sales/sol/index.html": "3d7bc407cb9270c841410fc5a77f17e10b8d003d3ded0461999ac080a0427314",
+    "apps/sales/sol/sales-sample.csv": "eb06b61634d92016ac1670fbf478211e59262dddd16d862dd6effe20942d6251",
+    "apps/sales/sol/sample-data.mjs": "378b340ef6709ab53787a34700dd8e38e77b97922801f9160d83d7fb88027e66",
+    "apps/sales/sol/styles.css": "0c4909b16400aba004bb9c2706ce029ff2b7e8a45b2bbee877e79386559b54bd",
+    "apps/sales/sol/ui.mjs": "aedc51dbd6e1cc1e7bf72dbe43baf03dfac0eda3c60864b95c61633de8680056",
+    "apps/orbit/astra/app.js": "32c7540525d190c81853deaa4171fe4b83e068c7c34a03a04dd229bf710efd6d",
+    "apps/orbit/astra/index.html": "4a897059b36e78e60d227f3c8a97b5677ed3aded17479f6f41c152af8f434a7b",
+    "apps/orbit/astra/server.mjs": "3d6c2d1680a86e0587e05276d08c88bef578e033c805acc1ee897a315b5ed3f6",
+    "apps/orbit/astra/style.css": "81d3035b8e877c3c5ffb86516b335ad78fcb4bab3b3b78a5b2dee6cf352652c5",
+    "apps/orbit/luna/index.html": "d9fe3ffa9a22c3f99083ce3293bd5a2b940fe4d9168c663d72e6364d5819ca6b",
+    "apps/orbit/opus/index.html": "bb1ec066fcae140e80b829cb605a8c8b64fd4fef97a37217737985e2c8472586",
+    "apps/orbit/opus/style.css": "11c60eed260ac642209ac178afbcf07eb4c15abd1de54bf9d85c06e1a54a07f3",
+    "apps/orbit/sol/index.html": "a110b4e445772b87b55b7b8a353727c97c9c015224685858225b976acb4bf3fb",
+    "apps/orbit/sol/main.js": "8f88cb1c8e840aee63504a27949ea20abc6d195238534cb626b270a44e741cc1",
+    "apps/orbit/sol/styles.css": "84485a17e9f1d0fc689fd540dc59593ae1b64f5db55ac6a7a47809693834ddf0",
+    "apps/orbit/opus/src/content.js": "8a9fefa5ccb73100ef72ead5377af0ede5d2a1e0882d3b218e9384e93aa63dcb",
+    "apps/orbit/opus/src/main.js": "e5d2283035b1345f8c554d2bd55dd7a1ac546f6c9b737dff3524e949763b4f9e",
+    "apps/orbit/opus/src/procedural.js": "0fea15559f8ad8ba5e6bc537b89b43a9ca9c8ed698442e92f9ca9c338f9488aa",
+    "apps/orbit/luna/src/main.js": "9b62a4b8a21fc8808163d7254a5fc952b5ce3659c3e5f9674dc6ef9969232a5d",
+    "apps/orbit/luna/src/style.css": "c16b63323a3263e57abb4e57924df282724f6c9c567b775bdcf1bac8e400e7eb"
+  }
+}

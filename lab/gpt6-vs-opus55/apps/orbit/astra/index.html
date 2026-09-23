@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e18"><title>Orbit Lab — 小さな宇宙の実験室</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"../../../vendor/three/build/three.module.js","three/addons/":"../../../vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <header><a class="brand" href="./"><span class="brand-mark">◎</span> Orbit Lab<span class="edition">INTERACTIVE OBSERVATORY</span></a><span class="live"><i></i> SOLAR SYSTEM / 01</span></header>
+  <main>
+    <section class="observatory" aria-label="太陽・地球・月の3Dシミュレーション">
+      <div class="scene-heading"><span class="eyebrow">A LITTLE SPACE TO EXPLORE</span><h1>めぐる宇宙を、<br>手のひらに。</h1><p>回して、近づいて、動きを見つけよう。</p></div>
+      <div id="viewport"><div id="labels" aria-hidden="true"><span data-body="sun">太陽 <small>SUN</small></span><span data-body="earth">地球 <small>EARTH</small></span><span data-body="moon">月 <small>MOON</small></span></div></div>
+      <div id="notice" role="status">宇宙を準備しています…</div>
+      <div class="scene-bottom"><span><b class="dot cyan"></b> 地球の公転面 <b class="dot lavender"></b> 月の軌道面 · 5.1°</span><span>ドラッグで回転 / スクロールでズーム / 天体をタップ</span></div>
+      <div class="scene-index">01 — 03 <span>CELESTIAL BODIES</span></div>
+    </section>
+    <aside>
+      <div class="panel-top"><span class="eyebrow">EXPLORER</span><span class="badge">3D LIVE</span></div>
+      <nav class="body-tabs" aria-label="天体を選択"><button data-select="sun">太陽</button><button data-select="earth" aria-pressed="true">地球</button><button data-select="moon">月</button></nav>
+      <article aria-live="polite"><div class="planet-icon" id="planet-icon">◉</div><span class="eyebrow" id="body-kicker">OUR BLUE PLANET</span><h2 id="body-title">地球 <span>Earth</span></h2><p id="body-description"></p><dl id="body-facts"></dl><div class="insight"><span>OBSERVATION NOTE</span><p id="body-note"></p></div></article>
+      <button class="focus-button" id="focus">地球に近づく <span>↗</span></button>
+      <div class="controls"><div class="control-title"><span class="eyebrow">TIME & MOTION</span><span id="elapsed">DAY 000.0</span></div><div class="play-row"><button id="play" aria-label="シミュレーションを停止">Ⅱ <span>一時停止</span></button><button id="reset" title="初期状態に戻す (R)">↺ <span>リセット</span></button></div><label class="speed-label" for="speed">時間の速さ <output id="speed-value">1.0×</output></label><input id="speed" type="range" min="0.1" max="4" step="0.1" value="1"><div class="range-ticks"><span>0.1×</span><span>4×</span></div><label class="toggle-row" for="orbits">軌道と軌道面を表示 <input id="orbits" type="checkbox" checked></label></div>
+      <p class="scale-note">大きさ・距離・時間は学習のために調整しています。</p>
+    </aside>
+  </main>
+  <footer><span>EXPLORE. OBSERVE. WONDER.</span><span><kbd>Space</kbd> 再生 / 停止 <kbd>R</kbd> リセット</span><span>PROCEDURAL UNIVERSE · THREE.JS</span></footer>
+  <noscript>この実験室にはJavaScriptが必要です。ブラウザーの設定で有効にしてください。</noscript>
+  <script type="module">import('./app.js').catch(error => { const n=document.querySelector('#notice'); n.hidden=false; n.textContent='3Dを読み込めませんでした。WebGL 2対応ブラウザーとインターネット接続を確認して再読み込みしてください。'; console.error(error); });</script>
+</body></html>

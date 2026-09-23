@@ -1,0 +1,33 @@
+中程度の制作課題として、CSV売上ダッシュボード「Sales Lens」を実装してください。作業は現在の専用フォルダー内だけで行い、他のモデルの成果物は参照しないでください。実装・必要な検証・README・最終報告まで、この1回の依頼で完了してください。別エージェントへの委譲や公開・デプロイは不要です。
+
+【範囲】
+HTML/CSS/素のJavaScriptによる日本語の1画面アプリ。バックエンド、外部CDN、外部ライブラリ、ネットワーク通信は不要です。CSV処理と集計を行う core.mjs、画面 index.html、CSS、UI用JavaScript、README を作ってください。端末だけで動くこと。見た目は自由ですが、読みやすいデスクトップ画面と幅390pxのモバイル対応、フォームのラベル、エラーと空状態を整えてください。外部の画像・フォントを取得しないでください。
+
+【入力データ】
+共通サンプルCSVを次の場所から読み、専用フォルダーの sales-sample.csv にコピーし、アプリにサンプルとして組み込んでください。
+[共通サンプルCSVのパス]
+初期表示はこのサンプルを読み込んだ状態。列は date,category,product,quantity,unit_price です。BOM、CRLF/LF、引用符内カンマ、改行、二重引用符のエスケープを扱ってください。サンプルには意図的に不正な日付と負の数量を含めています。不正な行は集計から除外し、理由を画面に表示。ヘッダー不足など入力全体のエラーも表示してください。
+
+【実装要件】
+1. CSVファイルの読込、サンプル復帰。日付は実在するYYYY-MM-DD、カテゴリ・商品名は空でない文字列、数量は正の安全な整数、単価は0以上の安全な整数として検証してください。数量×単価も安全な整数であること。
+2. 期間（開始日・終了日、両端を含む）、カテゴリ（全件/個別）、商品名の部分一致でAND絞り込み。商品名検索は大文字小文字を区別しない。フィルター解除。
+3. 絞り込み後の件数、数量合計、売上合計（数量×単価の合計）を表示。カテゴリ別売上の横棒グラフをCSSまたはSVGで表示し、金額も文字で読めること。
+4. 明細表と売上金額の昇順・降順切替。0件でも壊れず、総額0と空状態を表示。
+5. 表示対象の明細をCSVでダウンロード。列は元と同じ5列、CSVとして正しくエスケープし、再読込して同じデータになること。
+6. READMEに起動方法、操作方法、実施した検証と未検証の範囲を記載してください。
+
+【共通検証のための約束】
+core.mjsはDOMなしでimport可能にし、次のnamed exportを提供してください。
+- parseSalesCSV(text): {rows,errors}。rows各要素は {date,category,product,quantity,unitPrice,amount}。errorsは配列で各要素に人が読めるmessageを持たせる。
+- filterSales(rows,{from,to,category,query}): rowsと同形式の配列。空文字は制約なし。
+- summarizeSales(rows): {count,quantity,revenue,byCategory}。byCategoryはカテゴリ名をキー、売上合計を値とするオブジェクト。
+- toSalesCSV(rows): 5列のヘッダー付きCSV文字列。
+UIには以下のdata-testidを付けてください。
+csv-file（file input）、load-sample（ボタン）、filter-from/filter-to（日付input）、filter-category（select、全件のvalueは空文字）、filter-query（検索input）、reset-filters（ボタン）、metric-count/metric-quantity/metric-revenue（値表示）、category-chart、sales-table（table）、sort-amount（ボタン）、export-csv（ボタン）、errors、empty-state。
+フィルター変更は即反映。数値表示の単位や区切りは自由です。
+
+【実行と検証】
+最低限core.mjsの計算テストを実行し、可能ならブラウザーでも確認してください。新しいnpm依存のインストールは不要です。利用可能な既存環境は Node.js と Python、Edge です。ブラウザー検証用のPlaywrightは次の場所にあります（使うかどうかは自由）。
+[Playwrightの設置パス]
+Edge: C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe
+このWindows環境でexec_commandが helper_unknown_error: apply deny-read ACLs で開始できない場合、同じ処理を繰り返すよりsandbox_permissions: require_escalatedで許可された実行経路を利用してください。検証用のサーバーやブラウザーは終了時に閉じてください。

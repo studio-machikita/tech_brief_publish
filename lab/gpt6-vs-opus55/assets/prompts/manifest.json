@@ -1,0 +1,30 @@
+{
+  "scope": "User task prompts only; system instructions and tool definitions are not included.",
+  "redaction": "Only local user-directory paths are replaced with the displayed placeholders. Line endings are normalized to LF. Requirements and wording are otherwise retained.",
+  "files": [
+    {
+      "id": "orbit-common",
+      "source_sha256": "5ea8545855e4e30afb4df0dbd12546e977398090566c2a7580926f618c7f0fff",
+      "published_sha256": "a74c0c5158f1bf1e091b974bfe6cb58ca6b7119327a0349b93d9860bcbe76f3e",
+      "substitutions": []
+    },
+    {
+      "id": "sales-gpt6",
+      "source_sha256": "4c7d4fe5c243d8b315d06043d4567d64f77e3f6cbe9a2eea77219f7337de1685",
+      "published_sha256": "20cb5304b9d7de37f9a6ae65512687bde39e72dc1913ac2ffcd423847e5d8ce1",
+      "substitutions": [
+        "[共通サンプルCSVのパス]",
+        "[Playwrightの設置パス]"
+      ]
+    },
+    {
+      "id": "sales-opus",
+      "source_sha256": "22752bd05229f5702e01e3fb06b2464656cbac69764665018cba56ce4f08a003",
+      "published_sha256": "32db0cdb25d183db5d678e549318f44b2ccc2eaa8c4a00a94176d869e8322bbd",
+      "substitutions": [
+        "[共通サンプルCSVのパス]",
+        "[Playwrightの設置パス]"
+      ]
+    }
+  ]
+}

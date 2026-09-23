@@ -1,0 +1,87 @@
+{
+  "capturedAt": "2026-09-23T10:56:17.603Z",
+  "purpose": "Additional screenshots of the original submissions. Model tokens and benchmark measurements were not rerun.",
+  "notes": [
+    "Each app uses its own native focus distance and direction. Magnification is not normalized.",
+    "Luna does not show Earth correctly because of the original position/focus defects.",
+    "Optional Google Fonts were blocked; fallback fonts are used."
+  ],
+  "records": [
+    {
+      "model": "astra",
+      "path": "assets/screenshots/orbit-astra-earth-closeup.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actions": [
+        "Load submitted distribution copy",
+        "Reset using original UI",
+        "Pause using original UI",
+        "Select native Earth focus",
+        "Wait for camera transition"
+      ],
+      "customZoom": false,
+      "customCamera": false,
+      "pauseLabel": "▶ 再生",
+      "errors": []
+    },
+    {
+      "model": "sol",
+      "path": "assets/screenshots/orbit-sol-earth-closeup.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actions": [
+        "Load submitted distribution copy",
+        "Reset using original UI",
+        "Pause using original UI",
+        "Select native Earth focus",
+        "Wait for camera transition"
+      ],
+      "customZoom": false,
+      "customCamera": false,
+      "pauseLabel": "▶再生SPACE",
+      "errors": []
+    },
+    {
+      "model": "luna",
+      "path": "assets/screenshots/orbit-luna-earth-closeup.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actions": [
+        "Load submitted distribution copy",
+        "Reset using original UI",
+        "Pause using original UI",
+        "Select native Earth focus",
+        "Wait for camera transition"
+      ],
+      "customZoom": false,
+      "customCamera": false,
+      "pauseLabel": "再生",
+      "errors": []
+    },
+    {
+      "model": "opus",
+      "path": "assets/screenshots/orbit-opus-earth-closeup.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "actions": [
+        "Load submitted distribution copy",
+        "Reset using original UI",
+        "Pause using original UI",
+        "Select native Earth focus",
+        "Wait for camera transition"
+      ],
+      "customZoom": false,
+      "customCamera": false,
+      "pauseLabel": "▶再生",
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#070d1b" />
+    <title>Orbit Lab — 宇宙を、手のひらで。</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "../../../vendor/three/build/three.module.js",
+          "three/addons/": "../../../vendor/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="観測コントロール">
+        <div class="brand"><span class="brand-mark" aria-hidden="true">✳</span><span>ORBIT <strong>LAB</strong></span><span class="brand-version">01 / SOL</span></div>
+        <div class="intro">
+          <div class="eyebrow"><span class="live-dot"></span> INTERACTIVE SOLAR SYSTEM</div>
+          <h1>宇宙を、<br /><em>手のひらで。</em></h1>
+          <p>太陽・地球・月の動きを、自由な視点で観測しよう。</p>
+        </div>
+
+        <section class="control-section" aria-labelledby="motion-heading">
+          <div class="section-title"><span>01</span><h2 id="motion-heading">時間の操作</h2><span class="section-rule"></span></div>
+          <button class="play-button" id="playButton" type="button" aria-label="一時停止"><span id="playIcon" aria-hidden="true">Ⅱ</span><span id="playText">一時停止</span><kbd>SPACE</kbd></button>
+          <div class="slider-label"><label for="speedSlider">シミュレーション速度</label><output id="speedValue" for="speedSlider">1.0×</output></div>
+          <input type="range" id="speedSlider" min="0.25" max="4" step="0.25" value="1" />
+          <div class="slider-ends"><span>ゆっくり</span><span>はやく</span></div>
+        </section>
+
+        <section class="control-section" aria-labelledby="view-heading">
+          <div class="section-title"><span>02</span><h2 id="view-heading">視点の切替</h2><span class="section-rule"></span></div>
+          <div class="focus-grid" role="group" aria-label="カメラのフォーカス先">
+            <button class="focus-button is-active" type="button" data-focus="overview"><span class="focus-glyph">◎</span>全景</button>
+            <button class="focus-button" type="button" data-focus="sun"><span class="focus-glyph sun-glyph">●</span>太陽</button>
+            <button class="focus-button" type="button" data-focus="earth"><span class="focus-glyph earth-glyph">●</span>地球</button>
+            <button class="focus-button" type="button" data-focus="moon"><span class="focus-glyph moon-glyph">●</span>月</button>
+          </div>
+          <label class="switch-row" for="orbitToggle"><span><strong>軌道線</strong><small>公転する道筋を表示</small></span><span class="switch"><input id="orbitToggle" type="checkbox" checked /><span class="switch-track"></span></span></label>
+        </section>
+
+        <div class="sidebar-bottom">
+          <button class="reset-button" id="resetButton" type="button"><span aria-hidden="true">↺</span> 初期状態に戻す <kbd>R</kbd></button>
+          <p>ドラッグで回転 · スクロールでズーム · 天体をクリックで詳細</p>
+        </div>
+      </aside>
+
+      <main class="stage" aria-label="太陽系の3Dシミュレーション">
+        <canvas id="sceneCanvas" aria-label="太陽、地球、月の3Dモデル"></canvas>
+        <div class="stage-top"><span class="stage-kicker"><span class="stage-cross">✦</span> ORBITAL OBSERVATORY</span><span class="stage-coordinate">HELIOCENTRIC VIEW <b>·</b> NOT TO SCALE</span></div>
+        <div class="object-label" id="sunLabel" aria-hidden="true"><span class="label-line"></span><span class="label-dot sun"></span><span class="label-copy"><strong>SUN</strong><small>太陽</small></span></div>
+        <div class="object-label" id="earthLabel" aria-hidden="true"><span class="label-line"></span><span class="label-dot earth"></span><span class="label-copy"><strong>EARTH</strong><small>地球</small></span></div>
+        <div class="object-label" id="moonLabel" aria-hidden="true"><span class="label-line"></span><span class="label-dot moon"></span><span class="label-copy"><strong>MOON</strong><small>月</small></span></div>
+        <div class="stage-hint" id="stageHint"><span class="hint-icon">↗</span><span>ドラッグして、宇宙を探検</span></div>
+        <section class="info-card" id="infoCard" aria-live="polite">
+          <div class="info-header"><span id="infoIndex">01 / 03</span><span class="info-category" id="infoCategory">OUR STAR</span></div>
+          <div class="info-main"><div class="info-icon sun-icon" id="infoIcon">●</div><div><div class="info-english" id="infoEnglish">THE SUN</div><h2 id="infoTitle">太陽</h2></div></div>
+          <p id="infoDescription">太陽系の中心にある恒星。自ら光と熱を放ち、地球と月を照らしています。</p>
+          <div class="info-stat"><span id="infoFactLabel">地球からの平均距離</span><strong id="infoFact">約1億5,000万 km</strong></div>
+        </section>
+        <div class="stage-bottom"><span><span class="bottom-pulse"></span> SIMULATION ACTIVE</span><span>太陽系ミニチュア · 教育用に縮尺を調整</span></div>
+        <div class="fallback" id="fallback" role="alert" hidden><div class="fallback-symbol">✳</div><h2>3D表示を開始できませんでした</h2><p id="fallbackReason">WebGL対応のブラウザでお試しください。</p></div>
+      </main>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

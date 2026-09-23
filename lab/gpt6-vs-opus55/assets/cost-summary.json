@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    "medium",
+    "heavy"
+  ],
+  "basis": "Sum of the initial-submission standard API cost equivalents; not subscription invoices.",
+  "api_usd": {
+    "Opus 5.5": 4.8298258,
+    "Astra": 3.876798,
+    "Sol": 1.36254,
+    "Luna": 0.02319056
+  },
+  "ratio_to_sol": {
+    "Opus 5.5": 3.5447222099901654,
+    "Astra": 2.8452727993306617,
+    "Sol": 1.0,
+    "Luna": 0.01702009482290428
+  },
+  "sol_divided_by_luna": 58.754079246038046
+}

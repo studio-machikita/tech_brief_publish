@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Sales Lens | CSV売上ダッシュボード</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">SALES LENS / 売上分析</p>
+        <h1>売上を、ひと目で。</h1>
+        <p class="lead">CSVを読み込み、期間・カテゴリ・商品名で売上を確かめられます。</p>
+      </div>
+      <div class="header-mark" aria-hidden="true"><span>SL</span><i></i><i></i><i></i></div>
+    </header>
+
+    <main>
+      <section class="panel source-panel" aria-labelledby="source-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">01 / DATA</p><h2 id="source-title">データを読み込む</h2></div>
+          <span id="source-name" class="source-name">共通サンプルを表示中</span>
+        </div>
+        <div class="source-actions">
+          <div class="file-field"><label for="csv-file">CSVファイル</label><input id="csv-file" data-testid="csv-file" type="file" accept=".csv,text/csv"></div>
+          <button id="load-sample" data-testid="load-sample" class="button button-secondary" type="button">サンプルに戻す</button>
+        </div>
+        <p class="hint">必要な列：date, category, product, quantity, unit_price</p>
+        <div id="errors" data-testid="errors" class="errors" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="panel filters-panel" aria-labelledby="filters-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">02 / FILTER</p><h2 id="filters-title">表示を絞り込む</h2></div>
+          <button id="reset-filters" data-testid="reset-filters" class="text-button" type="button">フィルターを解除 ↗</button>
+        </div>
+        <div class="filter-grid">
+          <div class="field"><label for="filter-from">開始日</label><input id="filter-from" data-testid="filter-from" type="date"></div>
+          <div class="field"><label for="filter-to">終了日</label><input id="filter-to" data-testid="filter-to" type="date"></div>
+          <div class="field"><label for="filter-category">カテゴリ</label><select id="filter-category" data-testid="filter-category"><option value="">すべて</option></select></div>
+          <div class="field field-search"><label for="filter-query">商品名</label><input id="filter-query" data-testid="filter-query" type="search" placeholder="商品名で検索"></div>
+        </div>
+        <p id="filter-note" class="filter-note" role="status"></p>
+      </section>
+
+      <section class="metrics" aria-label="売上の概要">
+        <article class="metric-card"><p>対象の明細</p><strong data-testid="metric-count" id="metric-count">0件</strong><span>絞り込み後の件数</span></article>
+        <article class="metric-card"><p>販売数量</p><strong data-testid="metric-quantity" id="metric-quantity">0個</strong><span>対象商品の合計数量</span></article>
+        <article class="metric-card metric-primary"><p>売上合計</p><strong data-testid="metric-revenue" id="metric-revenue">¥0</strong><span>数量 × 単価の合計</span></article>
+      </section>
+
+      <section class="panel chart-panel" aria-labelledby="chart-title">
+        <div class="section-heading"><div><p class="section-kicker">03 / BREAKDOWN</p><h2 id="chart-title">カテゴリ別売上</h2></div><span class="subtle">売上金額の多い順</span></div>
+        <div id="category-chart" data-testid="category-chart" class="category-chart"></div>
+      </section>
+
+      <section class="panel table-panel" aria-labelledby="table-title">
+        <div class="section-heading table-heading">
+          <div><p class="section-kicker">04 / DETAILS</p><h2 id="table-title">売上明細</h2></div>
+          <div class="table-actions">
+            <button id="sort-amount" data-testid="sort-amount" class="button button-secondary" type="button" aria-label="売上金額の並び順を切り替える">売上金額 ↓</button>
+            <button id="export-csv" data-testid="export-csv" class="button button-primary" type="button">表示中の明細をCSV保存</button>
+          </div>
+        </div>
+        <p id="empty-state" data-testid="empty-state" class="empty-state" hidden>条件に合う明細はありません。フィルターを変えてみてください。</p>
+        <div class="table-scroll"><table id="sales-table" data-testid="sales-table"><thead><tr><th scope="col">日付</th><th scope="col">カテゴリ</th><th scope="col">商品名</th><th scope="col" class="numeric">数量</th><th scope="col" class="numeric">単価</th><th scope="col" class="numeric">売上金額</th></tr></thead><tbody id="sales-body"></tbody></table></div>
+      </section>
+    </main>
+    <footer>Sales Lens <span>CSVから、今日の売上を読み解く。</span></footer>
+  </div>
+  <script type="module" src="ui.mjs"></script>
+</body>
+</html>

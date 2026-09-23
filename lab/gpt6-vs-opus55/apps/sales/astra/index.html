@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sales Lens | 売上ダッシュボード</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="sales-core.js"></script>
+  <script defer src="sample-data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main>
+    <header class="masthead"><div><div class="eyebrow">LOCAL SALES ANALYTICS</div><h1>Sales <span>Lens</span><i aria-hidden="true"></i></h1><p>日々の売上を、ひと目で。</p></div><span class="local-badge">● 端末内で処理</span></header>
+    <section class="import-panel" aria-labelledby="data-heading">
+      <div><h2 id="data-heading">売上データ</h2><p id="source-name"></p><p id="data-range" class="muted"></p></div>
+      <div class="import-actions"><label class="file-label" for="csv-file">CSVファイルを読み込む<input id="csv-file" data-testid="csv-file" type="file" accept=".csv,text/csv"></label><button data-testid="load-sample" id="load-sample" class="secondary">サンプルに戻す</button></div>
+    </section>
+    <section id="errors" data-testid="errors" class="errors" aria-live="polite" hidden></section>
+    <section class="filters" aria-labelledby="filter-heading">
+      <div class="section-heading"><h2 id="filter-heading">絞り込み</h2><button id="reset-filters" data-testid="reset-filters" class="text-button">フィルター解除</button></div>
+      <div class="filter-grid">
+        <div><label for="filter-from">開始日</label><input id="filter-from" data-testid="filter-from" type="date"></div>
+        <div><label for="filter-to">終了日</label><input id="filter-to" data-testid="filter-to" type="date"></div>
+        <div><label for="filter-category">カテゴリ</label><select id="filter-category" data-testid="filter-category"><option value="">すべてのカテゴリ</option></select></div>
+        <div><label for="filter-query">商品名を検索</label><input id="filter-query" data-testid="filter-query" type="search" placeholder="商品名の一部を入力"></div>
+      </div><p id="filter-error" role="status" hidden></p>
+    </section>
+    <div class="overview-heading"><h2>売上サマリー</h2><span class="muted">現在の絞り込み結果</span></div>
+    <section class="metrics" aria-label="売上サマリー" aria-live="polite">
+      <article class="metric featured"><h3>売上合計</h3><div><span class="currency">¥</span><strong id="metric-revenue" data-testid="metric-revenue">0</strong></div><p>数量 × 単価の合計</p></article>
+      <article class="metric"><h3>数量合計</h3><div><strong id="metric-quantity" data-testid="metric-quantity">0</strong><span>点</span></div><p>販売した商品の総数</p></article>
+      <article class="metric"><h3>明細件数</h3><div><strong id="metric-count" data-testid="metric-count">0</strong><span>件</span></div><p>有効な売上明細</p></article>
+    </section>
+    <section class="chart-panel" aria-labelledby="chart-heading"><div class="section-heading"><h2 id="chart-heading">カテゴリ別売上</h2><span class="muted">売上金額順 / 円</span></div><div id="category-chart" data-testid="category-chart"></div></section>
+    <section class="details-panel" aria-labelledby="details-heading">
+      <div class="section-heading details-heading"><div><h2 id="details-heading">売上明細</h2><p class="muted">絞り込み中のデータをそのまま書き出せます。</p></div><button id="export-csv" data-testid="export-csv" class="secondary">CSVをダウンロード ↓</button></div>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="売上明細表。狭い画面では横スクロールできます。"><table id="sales-table" data-testid="sales-table"><caption class="sr-only">現在の絞り込み結果の明細</caption><thead><tr><th scope="col">日付</th><th scope="col">カテゴリ</th><th scope="col">商品名</th><th scope="col" class="number">数量</th><th scope="col" class="number">単価</th><th scope="col" class="number" id="amount-header" aria-sort="descending"><button id="sort-amount" data-testid="sort-amount">売上金額 ↓</button></th></tr></thead><tbody></tbody></table></div>
+      <div id="empty-state" data-testid="empty-state" class="empty" hidden><strong>表示する売上がありません</strong><p>フィルター条件を変更するか、CSVを読み込んでください。</p></div>
+    </section>
+    <footer><span>Sales Lens</span><p>ファイルは外部に送信されません。再読み込みするとサンプルに戻ります。</p></footer>
+  </main>
+</body>
+</html>

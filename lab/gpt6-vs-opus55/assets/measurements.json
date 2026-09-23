@@ -1,0 +1,203 @@
+{
+  "date": "2026-09-23",
+  "runs": 1,
+  "yenPerDollar": 150,
+  "models": [
+    {
+      "id": "astra",
+      "key": "Astra",
+      "label": "GPT-6 Astra",
+      "color": "#a5c86b",
+      "harness": "Codex"
+    },
+    {
+      "id": "sol",
+      "key": "Sol",
+      "label": "GPT-6 Sol",
+      "color": "#e7a756",
+      "harness": "Codex"
+    },
+    {
+      "id": "luna",
+      "key": "Luna",
+      "label": "GPT-6 Luna",
+      "color": "#a799d9",
+      "harness": "Codex"
+    },
+    {
+      "id": "opus",
+      "key": "Opus 5.5",
+      "label": "Claude Opus 5.5",
+      "color": "#db8f77",
+      "harness": "Claude Code"
+    }
+  ],
+  "tasks": {
+    "orbit": {
+      "title": "Orbit Lab",
+      "description": "太陽・地球・月を動かす、Three.jsの3Dシミュレーション。",
+      "level": "重量級 / 3D",
+      "models": {
+        "astra": {
+          "input_total": 903594,
+          "input_uncached": 66602,
+          "cache_read": 836992,
+          "cache_write": 0,
+          "output": 16627,
+          "total": 920221,
+          "duration_ms": 696132,
+          "responses": 21,
+          "api_usd": 2.334362,
+          "jpy": 350.15430000000003,
+          "status": "主要動作を確認",
+          "note": "公転・停止・フォーカス・リセットなど、前回監査の主要動作は正常。",
+          "blurb": "観測パネルと操作の分かりやすさを重視した構成。",
+          "attention": false,
+          "url": "apps/orbit/astra/index.html",
+          "desktop": "assets/screenshots/orbit-astra-desktop.png",
+          "mobile": "assets/screenshots/orbit-astra-mobile.png"
+        },
+        "sol": {
+          "input_total": 2793936,
+          "input_uncached": 85072,
+          "cache_read": 2708864,
+          "cache_write": 0,
+          "output": 24454,
+          "total": 2818390,
+          "duration_ms": 1324661,
+          "responses": 57,
+          "api_usd": 0.9564568,
+          "jpy": 143.46852,
+          "status": "主要動作を確認",
+          "note": "前回監査の主要動作は正常。制作後半には検証や環境対応の往復が増えた。",
+          "blurb": "質感と説明パネルを作り込んだ宇宙のビューアー。",
+          "attention": false,
+          "url": "apps/orbit/sol/index.html",
+          "desktop": "assets/screenshots/orbit-sol-desktop.png",
+          "mobile": "assets/screenshots/orbit-sol-mobile.png"
+        },
+        "luna": {
+          "input_total": 260189,
+          "input_uncached": 24669,
+          "cache_read": 235520,
+          "cache_write": 0,
+          "output": 11399,
+          "total": 271588,
+          "duration_ms": 372941,
+          "responses": 8,
+          "api_usd": 0.0105216,
+          "jpy": 1.57824,
+          "status": "動作に課題あり",
+          "note": "地球が太陽の中心にあり、公転しない。速度・フォーカス・リセット・非対応時の案内にも問題が残る。",
+          "blurb": "少ない時間とトークンで制作。完成度は実際の操作で確認したい。",
+          "attention": true,
+          "url": "apps/orbit/luna/index.html",
+          "desktop": "assets/screenshots/orbit-luna-desktop.png",
+          "mobile": "assets/screenshots/orbit-luna-mobile.png"
+        },
+        "opus": {
+          "input_total": 2932562,
+          "input_uncached": 72,
+          "cache_read": 2818414,
+          "cache_write": 114076,
+          "output": 90374,
+          "total": 3022936,
+          "duration_ms": 1188778,
+          "responses": 36,
+          "api_usd": 3.2840588,
+          "jpy": 492.60882,
+          "status": "主要動作を確認",
+          "note": "独立した21項目の確認に合格。幅を縮めると全体表示が見切れる場合があり、リセットで調整できる。",
+          "blurb": "手続き生成の地表・雲・月のクレーターと、詳しい説明パネル。",
+          "attention": false,
+          "url": "apps/orbit/opus/index.html",
+          "desktop": "assets/screenshots/orbit-opus-desktop.png",
+          "mobile": "assets/screenshots/orbit-opus-mobile.png"
+        }
+      }
+    },
+    "sales": {
+      "title": "Sales Lens",
+      "description": "CSVの読み込みから集計・グラフ・書き出しまで。売上ダッシュボード。",
+      "level": "中量級 / Dashboard",
+      "models": {
+        "astra": {
+          "input_total": 493828,
+          "input_uncached": 33412,
+          "cache_read": 460416,
+          "cache_write": 0,
+          "output": 14958,
+          "total": 508786,
+          "duration_ms": 634861,
+          "responses": 13,
+          "api_usd": 1.542436,
+          "jpy": 231.3654,
+          "status": "26項目＋グラフ正常",
+          "note": "共通の計算15項目・画面11項目に合格。棒の表示と比率も正常。",
+          "blurb": "ファイルを直接開く方法にも対応したダッシュボード。",
+          "attention": false,
+          "url": "apps/sales/astra/index.html",
+          "desktop": "assets/screenshots/sales-astra-desktop.png",
+          "mobile": "assets/screenshots/sales-astra-mobile.png"
+        },
+        "sol": {
+          "input_total": 893675,
+          "input_uncached": 30699,
+          "cache_read": 862976,
+          "cache_write": 0,
+          "output": 17209,
+          "total": 910884,
+          "duration_ms": 492621,
+          "responses": 23,
+          "api_usd": 0.40608320000000003,
+          "jpy": 60.91248,
+          "status": "26項目＋グラフ正常",
+          "note": "共通26項目に合格し、グラフも正常。確認済みの機能と料金のバランスがよかった。",
+          "blurb": "集計・検索・書き出しをまとめた売上ダッシュボード。",
+          "attention": false,
+          "url": "apps/sales/sol/index.html",
+          "desktop": "assets/screenshots/sales-sol-desktop.png",
+          "mobile": "assets/screenshots/sales-sol-mobile.png"
+        },
+        "luna": {
+          "input_total": 416971,
+          "input_uncached": 28875,
+          "cache_read": 388096,
+          "cache_write": 0,
+          "output": 11801,
+          "total": 428772,
+          "duration_ms": 305231,
+          "responses": 12,
+          "api_usd": 0.01266896,
+          "jpy": 1.900344,
+          "status": "グラフ表示に課題",
+          "note": "共通26項目は合格。ただし棒の幅と高さが0となり、グラフの棒が表示されない。",
+          "blurb": "やわらかな配色。数値と操作に加え、グラフの実表示も見比べたい。",
+          "attention": true,
+          "url": "apps/sales/luna/index.html",
+          "desktop": "assets/screenshots/sales-luna-desktop.png",
+          "mobile": "assets/screenshots/sales-luna-mobile.png"
+        },
+        "opus": {
+          "input_total": 1434384,
+          "input_uncached": 68,
+          "cache_read": 1379135,
+          "cache_write": 55181,
+          "output": 41411,
+          "total": 1475795,
+          "duration_ms": 397574,
+          "responses": 34,
+          "api_usd": 1.545767,
+          "jpy": 231.86505,
+          "status": "26項目＋グラフ正常",
+          "note": "共通26項目とグラフ検証に合格。モバイルの横はみ出しも自己検証中に修正した。",
+          "blurb": "不正行の理由と構成比を読み取りやすく整理した画面。",
+          "attention": false,
+          "url": "apps/sales/opus/index.html",
+          "desktop": "assets/screenshots/sales-opus-desktop.png",
+          "mobile": "assets/screenshots/sales-opus-mobile.png"
+        }
+      }
+    }
+  }
+}
