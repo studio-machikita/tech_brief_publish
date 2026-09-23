@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#177 アンソロピック、生物学ラボが重大な発見をしたと発表 ほか</title>
+      <description>Tech News Radio Show Notes - #177 (2026-09-24)
+
+エピソード情報
+• エピソード: #177
+• 日付: 2026-09-24
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic says its biology lab has already found something big (https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/)
+• Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models (https://arxiv.org/abs/2609.22161)
+• Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models (https://arxiv.org/abs/2609.25134)
+• Startups Modal, Baseten in Funding Talks to Help Businesses Run AI (https://www.bloomberg.com/news/articles/2026-09-23/startups-modal-baseten-in-funding-talks-to-help-businesses-run-ai)
+
+注目の深掘り
+• VSCode’s SSH Agent Is Bananas (https://fly.io/blog/vscode-ssh-wtf/)
+
+小ネタ・その他
+• Binance Invests $100 Million in Circle (https://www.theinformation.com/briefings/binance-invests-100-million-circle)
+• "As a Language Model...": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It (https://arxiv.org/abs/2609.25021)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-24/episode_audio.mp3" length="12463917" type="audio/mpeg" />
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-24</guid>
+      <itunes:duration>12:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>アンソロピック、生物学ラボが重大な発見をしたと発表 ほか</itunes:title>
+      <itunes:episode>177</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #177 (2026-09-24)
+
+エピソード情報
+• エピソード: #177
+• 日付: 2026-09-24
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic says its biology lab has already found something big (https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/)
+• Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models (https://arxiv.org/abs/2609.22161)
+• Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models (https://arxiv.org/abs/2609.25134)
+• Startups Modal, Baseten in Funding Talks to Help Businesses Run AI (https://www.bloomberg.com/news/articles/2026-09-23/startups-modal-baseten-in-funding-talks-to-help-businesses-run-ai)
+
+注目の深掘り
+• VSCode’s SSH Agent Is Bananas (https://fly.io/blog/vscode-ssh-wtf/)
+
+小ネタ・その他
+• Binance Invests $100 Million in Circle (https://www.theinformation.com/briefings/binance-invests-100-million-circle)
+• "As a Language Model...": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It (https://arxiv.org/abs/2609.25021)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-24/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.760" title="Anthropic says its biology lab has already found something big" href="https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/" />
+        <psc:chapter start="00:02:23.530" title="Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models" href="https://arxiv.org/abs/2609.22161" />
+        <psc:chapter start="00:04:38.430" title="Startups Modal, Baseten in Funding Talks to Help Businesses Run AI" href="https://www.bloomberg.com/news/articles/2026-09-23/startups-modal-baseten-in-funding-talks-to-help-businesses-run-ai" />
+        <psc:chapter start="00:06:39.960" title="VSCode’s SSH Agent Is Bananas" href="https://fly.io/blog/vscode-ssh-wtf/" />
+        <psc:chapter start="00:08:47.460" title="Binance Invests $100 Million in Circle" href="https://www.theinformation.com/briefings/binance-invests-100-million-circle" />
+        <psc:chapter start="00:10:34.500" title="&quot;As a Language Model...&quot;: Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It" href="https://arxiv.org/abs/2609.25021" />
+        <psc:chapter start="00:12:28.770" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#176 Snorkel AI、AI学習データ需要の急増で評価額3倍の35億ドルに ほか</title>
       <description>Tech News Radio Show Notes - #176 (2026-09-23)
 

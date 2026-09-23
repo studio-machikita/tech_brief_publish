@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.76,
+    "title": "Anthropic says its biology lab has already found something big",
+    "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/"
+  },
+  {
+    "start_sec": 143.53,
+    "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+    "url": "https://arxiv.org/abs/2609.22161"
+  },
+  {
+    "start_sec": 278.43,
+    "title": "Startups Modal, Baseten in Funding Talks to Help Businesses Run AI",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-23/startups-modal-baseten-in-funding-talks-to-help-businesses-run-ai"
+  },
+  {
+    "start_sec": 399.96,
+    "title": "VSCode’s SSH Agent Is Bananas",
+    "url": "https://fly.io/blog/vscode-ssh-wtf/"
+  },
+  {
+    "start_sec": 527.46,
+    "title": "Binance Invests $100 Million in Circle",
+    "url": "https://www.theinformation.com/briefings/binance-invests-100-million-circle"
+  },
+  {
+    "start_sec": 634.5,
+    "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+    "url": "https://arxiv.org/abs/2609.25021"
+  },
+  {
+    "start_sec": 748.77,
+    "title": "エンディング",
+    "url": null
+  }
+]

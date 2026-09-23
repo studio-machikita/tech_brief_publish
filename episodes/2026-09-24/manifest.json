@@ -1,0 +1,371 @@
+{
+  "date": "2026-09-24",
+  "episode_date_local": "2026-09-24",
+  "content_snapshot_date": "2026-09-24",
+  "show_length_sec": 778,
+  "audio_size": 12463917,
+  "generated_at": "2026-09-23T22:40:19.890675+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-0469bd81",
+      "title": "Anthropic says its biology lab has already found something big",
+      "title_ja": "アンソロピック、生物学ラボが重大な発見をしたと発表",
+      "one_liner": "Anthropicの生物学研究、人が主導し続ける方針",
+      "fingerprint": "0469bd81d4f982ebfbd09e39936dfbaa",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-a4b40423",
+      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+      "title_ja": "教訓的知識か臨床症例か:データの種類が医療用大規模言語モデルに与える影響",
+      "one_liner": "教科書データと臨床データが医療AIに与える影響を検証",
+      "fingerprint": "a4b40423802c0c6292d048a300f2ea13",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI",
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-d142c064",
+      "title": "Startups Modal, Baseten in Funding Talks to Help Businesses Run AI",
+      "title_ja": "スタートアップのModalとBaseten、企業のAI運用支援で資金調達交渉中",
+      "one_liner": "AI基盤の新興2社、資金調達で評価額が急騰",
+      "fingerprint": "d142c0649c15ae21b80f574949da554a",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-12fb2a3f",
+      "title": "VSCode’s SSH Agent Is Bananas",
+      "title_ja": "VSCodeのSSHエージェントは異常に優れている",
+      "one_liner": "VSCodeのSSHエージェント動作に問題ありとFly.ioが指摘",
+      "fingerprint": "12fb2a3f35ddecb6332d53f451d9268c",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-ebc8fab4",
+      "title": "Binance Invests $100 Million in Circle",
+      "title_ja": "バイナンス、サークルに1億ドル出資",
+      "one_liner": "BinanceがCircleに1億ドル出資、USDC連携を強化",
+      "fingerprint": "ebc8fab4301fed6dde92ff3f705adb14",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-662a8a00",
+      "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+      "title_ja": "「言語モデルとして…」：チャットテンプレートがLLMの自己言及的な口調を切り替え、活性化ステアリングでそれを再現",
+      "one_liner": "AIの「私はAI」発言はテンプレ由来と判明",
+      "fingerprint": "662a8a002ce50c84b2cf897e2e98fd9f",
+      "score": 54,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8d046c8e",
+      "reason": "LINK_ONLY: Source intent uncertain: メール、カレンダー、Slack連携や音声アシスタントの強化は現実的ですが、「GPT-6 Astra、Sol、Luna」というモデル名や一括した高度な操作機能は裏付けが不明で、実在の技術記事か創作的なネタ記事か判定しにくい内容です。",
+      "title": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access"
+    },
+    {
+      "item_id": "item-05c6e761",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Agentic conversational video intelligence built on AWS"
+    },
+    {
+      "item_id": "item-0de7df34",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock"
+    },
+    {
+      "item_id": "item-9758041f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense"
+    },
+    {
+      "item_id": "item-79d78fba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus"
+    },
+    {
+      "item_id": "item-219dc120",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Contract Report Exports: 4 Signals for Choosing PDF or CSV"
+    },
+    {
+      "item_id": "item-c8168afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts"
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-9422d536",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude&#39;s load-bearing seams"
+    },
+    {
+      "item_id": "item-991d7dd5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rendering huge pull requests in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-310048fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New features and improvements in Copilot for JetBrains"
+    },
+    {
+      "item_id": "item-a7768351",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More ways to request and configure Copilot code reviews"
+    },
+    {
+      "item_id": "item-a191c723",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Two years of OpenAI Academy"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-cffe7437",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A US-China AI Hotline Won't Be Ready For a While"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-32ac8e79",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Life Sciences Verification Program"
+    },
+    {
+      "item_id": "item-4244ecec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A congressional representative just proposed killing America’s border tower program"
+    }
+  ],
+  "score_cache": {
+    "9422d53695a8dbe23d02283cddabad5a": {
+      "score": 41,
+      "title": "Claude&#39;s load-bearing seams",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] Claudeに関する記事であり、LLMという重要分野には属しますが、タイトルだけでは新機能・性能向上・アーキテクチャ変更など具体的な技術的ブレークスルーを確認できません。さらに、既出キーワードの「Claude」「AI」「models」と重なるため、同一テーマの続報でない限り減点対象と判断しました。 [Editorial: AI/SaaS topic "
+    },
+    "a191c72331cf734386a8f6bbda1a54ab": {
+      "score": 38,
+      "title": "Two years of OpenAI Academy",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] OpenAI Academyの2周年とAI教育の対象地域・コミュニティ拡大は、AI普及や人材育成の観点では意義がありますが、技術仕様や製品機能、アーキテクチャに関する具体的な新規性は限定的です。また、既出キーワードであるAIに関連する既存テーマの続報に近いため、重複分を減点しています。 [Editorial: AI-focused source +6"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 43,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] AIシステムの評価をAccentureと連携して実運用へ組み込む取り組みであり、企業導入時の品質・安全性・ガバナンスを高める点には実務的な価値があります。一方で、基盤技術やアーキテクチャを大きく変える発表ではなく、主に導入支援・評価プロセスの強化です。また、既出のAI関連トピックと重なるため、重要度を減点しました。 [Editorial: AI-fo"
+    },
+    "0de7df34448ac4729c0e6f118991a5aa": {
+      "score": 49,
+      "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] MCPを活用して社内ツール内に統制された知識検索を組み込み、クライアント側にAWS認証情報を持たせずMicrosoft Entra IDで保護する構成は、企業向けAI統合の実践例として技術的価値があります。特にポータル間の移動を減らし、既存の開発者ワークフローへAIを埋め込む点は有用です。一方で、基盤技術はAmazon BedrockやAIエージェン"
+    },
+    "991d7dd5669f6c1b69c4f7a180213ac0": {
+      "score": 41,
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 100万行規模のプルリクエストと数百件のインラインコメントを扱うために、GitHub Copilotアプリの差分表示基盤を再設計した事例であり、大規模データの仮想化、遅延レンダリング、メモリ効率、UI応答性など実践的なアーキテクチャ上の知見があります。一方で、業界全体の前提を変える新技術というよりは、GitHub製品内のユーザー体験・性能改善に関する"
+    },
+    "a776835139fcc6e6d64971f643cca41b": {
+      "score": 39,
+      "title": "More ways to request and configure Copilot code reviews",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューに個人設定やエンタープライズ向けの既定値が追加され、導入済み組織での運用柔軟性や標準化に寄与する実務的なアップデートです。ただし、コードレビュー機能自体の新規発表ではなく、既存機能の設定拡張にとどまります。また、直近の放送でCopilotおよびcode関連の話題が扱われているため、重複分として減点しました。"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 35,
+      "title": "May 28, 2026",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新であり、依存パッケージの更新、pipの利用修正、JupyterLab認証設定の強化といった運用・保守上の改善が中心です。開発環境の安定性やセキュリティには有益ですが、新しいアーキテクチャや機能、業界の前提を変える技術革新ではありません。また、既出キーワードの「agents」と同じエージェン"
+    },
+    "0469bd81d4f982ebfbd09e39936dfbaa": {
+      "score": 77,
+      "title": "Anthropic says its biology lab has already found something big",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] Anthropicが生物学研究にAIを活用するラボを運営し、すでに大きな成果を得ているという点は、LLMとバイオテクノロジーの融合として技術的・産業的な注目度が高い。特に、Claudeを完全自律化せず人間をループに残している点は、安全性や実験系システムの設計に関する重要な示唆がある。一方で、発見の具体的内容や再現性、実験自動化の範囲が記事スニペットか"
+    },
+    "8d046c8e2b0a235cb9d7ff610cf4fc71": {
+      "score": 66,
+      "title": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 音声AIがメール、カレンダー、Slackと接続し、会話だけで予定管理やメール送信、Webサイト作成まで実行できる点は、AIエージェントの実用化という観点で技術的・市場的なインパクトがあります。特に音声インターフェースと外部サービス連携の組み合わせは、単なるチャットボットから日常業務を代行するアシスタントへの進展として注目できます。一方で、記事の中心が"
+    },
+    "c8168afdb012e1db3bb534a164e69333": {
+      "score": 44,
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 12,000アカウントの大量侵害を可能にしたEvilTokensのようなエンドツーエンド基盤をMicrosoftが阻止した点は、認証情報窃取や攻撃自動化への実務的な影響が大きく、セキュリティエンジニアにとって重要です。一方で、業界の前提を変える技術革新や主要プラットフォームの進化ではなく、主題は脅威対策・セキュリティインシデントです。タイトルに既出キ"
+    },
+    "cffe74374f359ab397add51cfaaa11ee": {
+      "score": 37,
+      "title": "A US-China AI Hotline Won't Be Ready For a While",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 米中間のAI安全保障・外交上の連絡体制に関するニュースで、AI業界の国際的な緊張関係を理解する意義はあります。ただし、具体的な技術仕様、製品、モデル、アーキテクチャ、実装の進展を扱う記事ではなく、エンジニアの開発実務や技術選定への直接的な影響は限定的です。AIという既出キーワードは含まれるものの、単なるモデルやツールの続報ではないため大幅減点は避け、"
+    },
+    "4244ecec504b0f17d76491b09810c670": {
+      "score": 16,
+      "title": "A congressional representative just proposed killing America’s border tower program",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 米国国境の監視タワー・プログラムを終了させる法案提案であり、政策・規制および監視技術の運用に関するニュースです。公共システムの要件や導入継続性に影響する可能性はありますが、新しい技術、アーキテクチャ、ソフトウェア実装の発表ではなく、エンジニアリング上の直接的な革新性は限定的です。 [Editorial: gadget topic -8]"
+    },
+    "d142c0649c15ae21b80f574949da554a": {
+      "score": 60,
+      "title": "Startups Modal, Baseten in Funding Talks to Help Businesses Run AI",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] Modal LabsとBasetenが短期間で企業価値を大幅に引き上げる資金調達を進めており、AIモデルの実行・推論基盤に対する投資需要の強さを示すニュースです。モデル運用、GPUリソース管理、スケーリングなど、企業がAIを本番導入する際の基盤レイヤーに関わるため、エンジニアリング上の市場インパクトは比較的大きい一方、記事の中心は新技術の発表ではなく"
+    },
+    "ebc8fab4301fed6dde92ff3f705adb14": {
+      "score": 55,
+      "title": "Binance Invests $100 Million in Circle",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] BinanceによるCircleへの1億ドル出資と5年間の提携更新は、USDCの流通量・取引所連携・ステーブルコイン決済インフラに影響する重要なWeb3ニュースです。特に、Binance上でのUSDC利用拡大や収益分配モデルは、暗号資産エコシステムの流動性と競争環境を変える可能性があります。一方で、技術仕様や新規プロトコルの発表ではなく、主眼は資本提"
+    },
+    "a4b40423802c0c6292d048a300f2ea13": {
+      "score": 72,
+      "title": "Didactic knowledge or Clinical Cases? How Data Types Shape Medical Large Language Models",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 医療LLMにおいて、教科書などの教示データと患者記録などの臨床データの比率が、能力・性能・エラー傾向にどう影響するかをトークン数を揃えて検証する研究であり、LLMの学習データ設計に関する実務的な示唆が大きいです。特に知識重視と臨床推論のトレードオフを定量化できれば、医療向けモデルの事前学習や評価設計に影響します。一方、arXivの初期段階の研究で、基"
+    },
+    "662a8a002ce50c84b2cf897e2e98fd9f": {
+      "score": 54,
+      "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] LLMの自己言及的な応答を、モデルの内的な自己認識ではなくチャットテンプレートやデプロイ設定による挙動として検証し、さらにアクティベーション・ステアリングで再現する研究は、AI解釈可能性と安全性に関わる技術的価値が高いです。一方で、基礎研究段階のarXiv論文であり、直ちに実運用へ影響する具体的な製品やアーキテクチャ変更ではありません。また、LLM・"
+    },
+    "79d78fba1e25b6b121b33a29be4cba66": {
+      "score": 47,
+      "title": "What Does 99% Accuracy Measure? A Reproducible Audit of Shortcut Learning in a Widely Used Fake News Corpus",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 広く使われるフェイクニュース分類コーパスで、99%以上の精度が実質的な真偽判定能力ではなく、データ漏洩やショートカット学習を反映している可能性を再現可能な手順で監査した点は重要です。TF-IDFと線形分類器、分布シフト評価、コードと派生データの公開により、機械学習ベンチマークの信頼性や再現性に具体的な問題提起をしています。一方で、新しいモデルや基盤技"
+    },
+    "219dc12004f0f300cde3d9a002240cac": {
+      "score": 47,
+      "title": "Contract Report Exports: 4 Signals for Choosing PDF or CSV",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] PDFとCSVを同一の不変スナップショットから生成し、ハッシュ・署名・ポリシー・リトライ履歴をマニフェスト化する設計は、契約帳票や監査対応において実務的な価値が高いです。さらに、キュー長ではなく実測完了率から排出時間と納期リスクを算出し、レンダリング・署名・ストレージ・通知などの段階別に可観測性を設計している点も、堅牢なバックエンド運用に有用です。一"
+    },
+    "12fb2a3f35ddecb6332d53f451d9268c": {
+      "score": 60,
+      "title": "VSCode’s SSH Agent Is Bananas",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] VS CodeのSSH Agentに関する記事で、リモート開発における認証情報の転送や鍵管理、開発体験に影響する技術トピックです。クラウドや主要言語の進化ほど広範なインパクトはありませんが、SSHを使った開発環境では実務上の有用性が高く、開発者向けツールの改善として一定の注目度があります。タイトルからは業界の前提を変える新規性や具体的な大規模アップデ"
+    },
+    "9758041fb0d46adfd7ff5d5c8780ae7a": {
+      "score": 48,
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 生成AIを民間インフラのサイバー防御に実運用する動きであり、AIの公共・安全保障領域への適用としては注目度があります。一方、具体的な技術仕様、導入規模、性能改善、アーキテクチャ上の革新はスニペットから確認できず、主眼は政策・安全保障・運用拡大です。また、既出キーワードであるAIに関連する話題のため、同一領域の既報との重複を考慮して減点しています。 ["
+    },
+    "32ac8e79ad1a38d9685053adc694285c": {
+      "score": 30,
+      "title": "Introducing the Life Sciences Verification Program",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] ライフサイエンス分野向けの検証プログラムは、導入時の信頼性や適合性を高める点で一定の実務価値がありますが、アーキテクチャや基盤技術そのものの革新ではなく、認証・運用プロセス寄りの発表です。記事タイトルに既出キーワードの「Introducing」が含まれるため、明確な技術的ブレークスルーや新規展開が確認できないことも考慮して減点しました。 [Edito"
+    },
+    "05c6e761cabfdfdb7bce06a19b4e6e3e": {
+      "score": 54,
+      "title": "Agentic conversational video intelligence built on AWS",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] 動画を自然言語で検索・分析できる実用的なAIソリューションであり、Strands Agents SDKがBedrock、Rekognition、Transcribeを動的に使い分ける点は、エージェント型アーキテクチャの具体例として技術的価値があります。一方で、基盤モデルや新規サービスの発表ではなく、既存AWSサービスを組み合わせた実装パターンの紹介に"
+    },
+    "310048feecd28a4f3bbbe8ab1d71079a": {
+      "score": 41,
+      "title": "New features and improvements in Copilot for JetBrains",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] JetBrains向けGitHub Copilotのアップデートで、AI支援ツールの承認フロー、エージェント対話の制御、組織横断のスキル・指示共有など、開発チームの安全性と運用性を高める具体的な改善が含まれています。IDE統合やエンタープライズ運用の観点では有用ですが、既存のCopilot・AIエージェント関連トピックの延長線上にあり、業界の前提を変"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 38,
+      "title": "June 23, 2026",
+      "date": "2026-09-24",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新とJupyterの重複カーネル表示バグの修正が中心で、アーキテクチャやAIエージェント機能そのものに関する新規性は限定的です。既出キーワードの「Agent」に該当し、同テーマの続報としても大きな機能追加はないため減点しました。利用環境の安定性・保守性には寄"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-24/blog.md",
+    "show_notes_path": "out/2026-09-24/show_notes.md",
+    "script_path": "out/2026-09-24/script_2hosts.md",
+    "audio_path": "out/2026-09-24/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-24/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-24/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 30399,
+        "output_tokens": 11390,
+        "cost_usd": 0.019748
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43399,
+        "output_tokens": 7615,
+        "cost_usd": 0.244422
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4163,
+        "cost_usd": 0.049956
+      }
+    ],
+    "total_cost_usd": 0.314126
+  }
+}
