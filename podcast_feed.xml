@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#178 COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層 ほか</title>
+      <description>Tech News Radio Show Notes - #178 (2026-09-25)
+
+エピソード情報
+• エピソード: #178
+• 日付: 2026-09-25
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference (https://arxiv.org/abs/2609.26913)
+• Nexterity wants to automate the hard, dangerous part of pipefitting (https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/)
+• AI-powered fuzzing with the GitHub Security Lab Taskflow Agent (https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/)
+
+注目の深掘り
+• Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse (https://arxiv.org/abs/2609.26836)
+
+小ネタ・その他
+• Build a multi-account AI agent with AgentCore Gateway and MCP (https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/)
+• Claude discovers a novel enzyme system with CRISPR-like repeats (https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
+• Claude discovers a novel enzyme system with CRISPR-like repeats (https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-25/episode_audio.mp3" length="11892141" type="audio/mpeg" />
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-25</guid>
+      <itunes:duration>12:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層 ほか</itunes:title>
+      <itunes:episode>178</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #178 (2026-09-25)
+
+エピソード情報
+• エピソード: #178
+• 日付: 2026-09-25
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference (https://arxiv.org/abs/2609.26913)
+• Nexterity wants to automate the hard, dangerous part of pipefitting (https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/)
+• AI-powered fuzzing with the GitHub Security Lab Taskflow Agent (https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/)
+
+注目の深掘り
+• Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse (https://arxiv.org/abs/2609.26836)
+
+小ネタ・その他
+• Build a multi-account AI agent with AgentCore Gateway and MCP (https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/)
+• Claude discovers a novel enzyme system with CRISPR-like repeats (https://www.anthropic.com/news/claude-discovers-novel-enzyme-system)
+• Claude discovers a novel enzyme system with CRISPR-like repeats (https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-25/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.460" title="COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference" href="https://arxiv.org/abs/2609.26913" />
+        <psc:chapter start="00:02:53.800" title="Nexterity wants to automate the hard, dangerous part of pipefitting" href="https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/" />
+        <psc:chapter start="00:04:27.190" title="AI-powered fuzzing with the GitHub Security Lab Taskflow Agent" href="https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/" />
+        <psc:chapter start="00:06:04.410" title="Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse" href="https://arxiv.org/abs/2609.26836" />
+        <psc:chapter start="00:08:14.680" title="Build a multi-account AI agent with AgentCore Gateway and MCP" href="https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/" />
+        <psc:chapter start="00:10:19.820" title="Claude discovers a novel enzyme system with CRISPR-like repeats" href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" />
+        <psc:chapter start="00:11:49.160" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#177 アンソロピック、生物学ラボが重大な発見をしたと発表 ほか</title>
       <description>Tech News Radio Show Notes - #177 (2026-09-24)
 

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tech News Radio - Studio Machikita - Page 6</title>
+<title>COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層 ほか | Tech News Radio</title>
 <style>:root {
   --bg: #121212;
   --surface: #1E1E1E;
@@ -940,11 +940,66 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
 
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
 
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js" integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked@17.0.3/lib/marked.umd.js" integrity="sha384-cYPlWZ3J0Pi4sIKo/Yy2hbXAfqi7S7h4/5xARy+4Aa2brtE1tM7Old55+Y6NkFBW" crossorigin="anonymous"></script>
+<meta name="description" content="マルチLLM連携やAIエージェントの「隙間」を突く研究が相次いで発表">
+<meta property="og:title" content="Tech News Radio — COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-25/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-09-25/">
+<meta property="og:description" content="マルチLLM連携やAIエージェントの「隙間」を突く研究が相次いで発表">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-09-25">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-09-25/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層 ほか",
+    "description": "2026-09-25 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-09-25",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-25/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-09-25/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層 ほか",
+    "description": "2026-09-25 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-09-25",
+    "url": "https://technewsradio.tokyo/episodes/2026-09-25/",
+    "duration": "PT12M23S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-25/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
 </head>
 <body>
-  <header>
+<header>
   <div class="container">
     <div class="header-row">
       <div>
@@ -963,109 +1018,207 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </header>
 
-  <main class="container">
-    <section id="home-intro" class="hero-card"></section>
-    
-    <a href="../../podcast_feed.xml" class="rss-link">📡 Podcast RSS Feed</a>
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-25/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-25/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
 
-    <h2 class="section-subtitle">Episodes</h2>
-    <div class="episodes-list">
-    
-      <a href="../../episodes/2026-08-06/index.html" class="episode-card">
-        <div class="episode-date">2026-08-06</div>
-        <h3 class="episode-title">Moove、ロボタクシー業界の基盤となるべく2億5000万ドルを調達 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
 
-      <a href="../../episodes/2026-08-05/index.html" class="episode-card">
-        <div class="episode-date">2026-08-05</div>
-        <h3 class="episode-title">Amazon Bedrockで基盤モデルのグラウンディングに対応したWeb検索機能を提供開始 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
 
-      <a href="../../episodes/2026-08-04/index.html" class="episode-card">
-        <div class="episode-date">2026-08-04</div>
-        <h3 class="episode-title">トポロジーを考慮したデータ移動によるディスアグリゲートGPU推論 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-09-25</h1>
+<p><em>📖 約10分で読めます ｜ 🏷️ AI, LLM, Robotics, Hardware, Startup</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層</strong> — 複数LLM連携の落とし穴を突く新手法COMED</li>
+<li>🦾 <strong>Nexterity、配管工事の困難で危険な作業の自動化を目指す</strong> — 配管作業のボルト締めを自動化するロボット</li>
+<li>🤖 <strong>GitHub Security Lab Taskflow Agentによる、AI搭載のファジング</strong> — GitHubがAI活用のファジングTaskflow Agentを解説</li>
+<li>🤖 <strong>ツール利用エージェントの静かな失敗:ToolUniverseの監査</strong> — AIエージェントとツール連携の「静かな失敗」を検証</li>
+<li>🤖 <strong>AgentCore GatewayとMCPでマルチアカウントAIエージェントを構築する</strong> — 複数AWSアカウント横断でAIエージェントがデータ照会</li>
+<li>🤖 <strong>ClaudeがCRISPR様リピートを持つ新しい酵素システムを発見</strong> — ClaudeがDNA解析で新酵素系を発見と報告</li>
+</ul>
+<hr />
+<h2>🤖 COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層</h2>
+<p><code>AI</code> <code>LLM</code></p>
+<details><summary>📄 原題: COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 複数LLM連携の落とし穴を突く新手法COMED</p>
+</blockquote>
+<ul>
+<li>単一LLMは万能でなく、複数モデル推論の必要性が高まっている</li>
+<li>ルーティングは最初のモデル選択止まりで、以降の連携がない</li>
+<li>密な連携（協調）は毎回他モデルを呼ぶが正解を壊す危険もある</li>
+<li>協調効果は非単調で、失敗を救う一方で正解を損なう場合がある</li>
+<li>この課題に対処する新手法COMEDを提案している</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+LLMは質問ごとに得意不得意があり、単独利用では性能に限界があります。そのため複数モデルを組み合わせる仕組みが注目されていますが、既存のルーティング方式は最初にモデルを選んだ後の見直しがなく、逆に常時協調させる方式は無駄な呼び出しや正解破壊のリスクを抱えています。 マルチモデル推論の設計思想に影響を与える可能性があります。ルーティングと協調の中間手法が広がれば、コスト効率と精度の両立を目指す実装が増えそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+複数LLMを組み合わせるシステムを設計する際は、協調呼び出しのタイミングと条件を慎重に検討すべきです。特に正解を壊すリスクを評価する仕組みの導入が求められます。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2609.26913">原文を読む</a></p>
+<hr />
+<h2>🦾 Nexterity、配管工事の困難で危険な作業の自動化を目指す</h2>
+<p><code>Robotics</code> <code>Hardware</code> <code>Startup</code></p>
+<details><summary>📄 原題: Nexterity wants to automate the hard, dangerous part of pipefitting</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 配管作業のボルト締めを自動化するロボット</p>
+</blockquote>
+<ul>
+<li>Nexterityが配管工事の危険な作業を自動化するロボットを開発</li>
+<li>一度に4本のボルトを締めたり緩めたりできる</li>
+<li>Pelicanケースに収まる可搬性の高い設計</li>
+<li>配管工（パイプフィッター）の労働負荷軽減を狙う</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+配管工事の現場では高所や狭所でのボルト締めなど危険で体力を要する作業が多く、人手不足も深刻だと見られています。こうした現場作業を自動化するロボットは、建設・インフラ分野での需要が高まっているそうです。 建設現場や産業インフラの保守作業で、ロボットによる自動化が徐々に広がる可能性があります。人手不足や労働安全の課題を抱える業界にとって、こうした専用ロボットの実用化は働き方の変化につながるかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+建設・インフラ関連の企業は、こうした現場特化型ロボットの実証導入を検討する価値があります。エンジニアは特定作業に最適化したハードウェア設計の事例として注目すべきです。</p>
+<p>🔗 <a href="https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/">原文を読む</a></p>
+<hr />
+<h2>🤖 GitHub Security Lab Taskflow Agentによる、AI搭載のファジング</h2>
+<p><code>AI</code> <code>Security</code></p>
+<details><summary>📄 原題: AI-powered fuzzing with the GitHub Security Lab Taskflow Agent</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: GitHubがAI活用のファジングTaskflow Agentを解説</p>
+</blockquote>
+<ul>
+<li>GitHub Security LabがTaskflow Agent AIフレームワークを紹介</li>
+<li>新しいファジング（自動バグ検出）タスクフローの使い方を解説</li>
+<li>GitHub公式ブログに掲載された技術記事</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+ソフトウェアの脆弱性を見つけるファジングは手間がかかる作業です。GitHubはAIの力を使って、この作業を自動化する仕組みづくりを進めていると見られています。 セキュリティ検査にAIエージェントを組み込む流れが広がれば、脆弱性の発見速度が上がる可能性があります。開発現場でのセキュリティ対応が変わっていくと見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+GitHub Security Labのブログ記事を読み、Taskflow Agentの仕組みを実際に試してみることをおすすめします。</p>
+<p>🔗 <a href="https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/">原文を読む</a></p>
+<hr />
+<h2>🤖 ツール利用エージェントの静かな失敗:ToolUniverseの監査</h2>
+<p><code>AI</code> <code>Science</code></p>
+<details><summary>📄 原題: Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AIエージェントとツール連携の「静かな失敗」を検証</p>
+</blockquote>
+<ul>
+<li>ツール呼び出しは成功に見えても情報が欠落する事例を調査</li>
+<li>生物学分野のエージェント型ワークフローを対象にToolUniverseを監査</li>
+<li>従来の研究はタスク成功率に注目し、ツール連携の失敗は未解明だった</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+複数ツールを組み合わせる自動化パイプラインが普及する一方、エージェントとツールのやり取りそのものの信頼性はあまり検証されてきませんでした。特に生物学分野の実務的なワークフローでは検証が少なく、この記事はその盲点に光を当てています。 タスク完了率だけを見る評価方法では見逃される「静かな失敗」が広がれば、科学分野など正確性が問われる用途でAIエージェントの信頼性が揺らぐ可能性があります。今後はツール呼び出しの中身まで検証する評価基準が求められそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エージェント開発者はツール呼び出しの成否だけでなく、返される情報の完全性も検証する仕組みを組み込むべきです。監査ログを残し、部分的な情報欠落を検知できる体制を整えることが重要と見られています。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2609.26836">原文を読む</a></p>
+<hr />
+<h2>🤖 AgentCore GatewayとMCPでマルチアカウントAIエージェントを構築する</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Security</code></p>
+<details><summary>📄 原題: Build a multi-account AI agent with AgentCore Gateway and MCP</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 複数AWSアカウント横断でAIエージェントがデータ照会</p>
+</blockquote>
+<ul>
+<li>中央のプラットフォームアカウントがAmazon Bedrock AgentCore GatewayとMCPでエージェントを実行</li>
+<li>各事業部門のアカウントはデータをMCPサーバーとして公開</li>
+<li>アカウント間のアクセスは安全な仕組みと細かい権限管理で保護</li>
+<li>データは各チームのAWSアカウント内に保持したまま横断照会が可能</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+企業内で複数チームがデータを別々のAWSアカウントで管理する構成は珍しくありません。しかしAIエージェントが各チームのデータを横断して活用するには、データを一箇所に集めずに安全にアクセスできる仕組みが必要です。MCPはAIモデルにツールやデータへのアクセスを提供するプロトコルで、こうした分散データへの統一的な問い合わせ手段として注目されています。 企業のマルチアカウント構成でもAIエージェントが横断的にデータを扱える設計が広がると見られています。データガバナンスを保ったままAI活用を進めたい企業にとって、この構成は一つの実践的な指針になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+AWSで複数アカウントを運用するチームは、AgentCore GatewayとMCPを使ったアクセス制御の設計を検討してみてください。特に権限管理の粒度をどう設定するか、早めに検証することをおすすめします。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/">原文を読む</a></p>
+<hr />
+<h2>🤖 ClaudeがCRISPR様リピートを持つ新しい酵素システムを発見</h2>
+<p><code>AI</code> <code>Science</code></p>
+<details><summary>📄 原題: Claude discovers a novel enzyme system with CRISPR-like repeats</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ClaudeがDNA解析で新酵素系を発見と報告</p>
+</blockquote>
+<ul>
+<li>AnthropicがClaudeによるDNAデータベース解析を発表</li>
+<li>CRISPRに似た繰り返し配列を持つ酵素システムを発見したそうです</li>
+<li>解析の大部分をClaudeが自律的に実施したとのこと</li>
+<li>CRISPR研究者からは「日常的なゲノムマイニング」との指摘も</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIによる生命科学分野の自律的な発見が話題になっています。ただし専門家の評価は分かれているようです。 AIがゲノム解析などの専門研究を支援する動きが今後広がる可能性があります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+AI発見の成果を評価する際は、専門家の検証結果も合わせて確認することが大切です。</p>
+<p>🔗 <a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">原文を読む</a></p>
+<p>🔗 <a href="https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>この3つのニュースに共通するのは、AI技術が単体の性能競争から「複数のエージェントやプロセスをいかに賢く組み合わせるか」という統合・協調のフェーズへと移行しつつあるという点です。COMEDは複数LLMの中間層を設計することで協調の質を高め、Taskflow Agentは自律的なタスク遂行を通じてセキュリティ検査という専門領域にAIの判断力を組み込んでいます。Nexterityの配管ロボットも一見毛色が異なりますが、危険で複雑な物理作業を自動化するには単純な制御ではなく、状況に応じた高度な意思決定が必要であり、根底にはAIによる複雑なタスクのオーケストレーション技術の実用化という共通の潮流が見て取れます。総じて、AIはより大きなシステムやワークフローの「調整役」として実世界の泥臭い課題に浸透し始めている段階にあると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層</strong>: 複数LLMを組み合わせるシステムを設計する際は、協調呼び出しのタイミングと条件を慎重に検討すべきです。特に正解を壊すリスクを評価する仕組みの導入が求められます。</li>
+<li><strong>Nexterity、配管工事の困難で危険な作業の自動化を目指す</strong>: 建設・インフラ関連の企業は、こうした現場特化型ロボットの実証導入を検討する価値があります。エンジニアは特定作業に最適化したハードウェア設計の事例として注目すべきです。</li>
+<li><strong>GitHub Security Lab Taskflow Agentによる、AI搭載のファジング</strong>: GitHub Security Labのブログ記事を読み、Taskflow Agentの仕組みを実際に試してみることをおすすめします。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://arxiv.org/abs/2609.26913">COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層</a></li>
+<li><a href="https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/">Nexterity、配管工事の困難で危険な作業の自動化を目指す</a></li>
+<li><a href="https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/">GitHub Security Lab Taskflow Agentによる、AI搭載のファジング</a></li>
+<li><a href="https://arxiv.org/abs/2609.26836">ツール利用エージェントの静かな失敗:ToolUniverseの監査</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/">AgentCore GatewayとMCPでマルチアカウントAIエージェントを構築する</a></li>
+<li><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">ClaudeがCRISPR様リピートを持つ新しい酵素システムを発見</a></li>
+<li><a href="https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/">ClaudeがCRISPR様リピートを持つ新しい酵素システムを発見</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #178 (2026-09-25)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #178</li>
+<li><strong>日付</strong>: 2026-09-25</li>
+<li><strong>尺</strong>: 約 12 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://arxiv.org/abs/2609.26913">COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference</a></li>
+<li><a href="https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/">Nexterity wants to automate the hard, dangerous part of pipefitting</a></li>
+<li><a href="https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/">AI-powered fuzzing with the GitHub Security Lab Taskflow Agent</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://arxiv.org/abs/2609.26836">Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/">Build a multi-account AI agent with AgentCore Gateway and MCP</a></li>
+<li><a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system">Claude discovers a novel enzyme system with CRISPR-like repeats</a></li>
+<li><a href="https://the-decoder.com/anthropic-says-claude-discovered-a-new-enzyme-system-but-crispr-researchers-call-it-routine-genome-mining/">Claude discovers a novel enzyme system with CRISPR-like repeats</a></li>
+</ul></div>
 
-      <a href="../../episodes/2026-08-03/index.html" class="episode-card">
-        <div class="episode-date">2026-08-03</div>
-        <h3 class="episode-title">Claude Opus 4.7がVertex AIのModel Gardenに登場 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=COMED%3A%E3%83%9E%E3%83%AB%E3%83%81LLM%E6%8E%A8%E8%AB%96%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%83%AB%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%A8%E5%8D%94%E8%AA%BF%E3%81%AE%E9%96%93%E3%81%AB%E6%AC%A0%E3%81%91%E3%81%A6%E3%81%84%E3%81%9F%E4%B8%AD%E9%96%93%E5%B1%A4%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-09-25/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-09-25/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
 
-      <a href="../../episodes/2026-08-02/index.html" class="episode-card">
-        <div class="episode-date">2026-08-02</div>
-        <h3 class="episode-title">Gemma 4とRAG Engineのサーバーレス機能が拡充／数学と理論計算機科学における10の進歩 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>7 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-08-01/index.html" class="episode-card">
-        <div class="episode-date">2026-08-01</div>
-        <h3 class="episode-title">Google Deepmind、卓上型アームからヒューマノイドまであらゆる形状のロボットに対応する「Gemini Ro…</h3>
-        <div class="episode-meta">
-          <span>6 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-31/index.html" class="episode-card">
-        <div class="episode-date">2026-07-31</div>
-        <h3 class="episode-title">深層強化学習における凍結ランダムCNN特徴抽出器の創発的スパース性 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-30/index.html" class="episode-card">
-        <div class="episode-date">2026-07-30</div>
-        <h3 class="episode-title">Googleの音楽AIモデル「Lyria 3.5」、曲の特定セクションを最初からやり直さずに編集可能に ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-29/index.html" class="episode-card">
-        <div class="episode-date">2026-07-29</div>
-        <h3 class="episode-title">AnthropicのMythosモデル、インターネットを守る暗号アルゴリズムの脆弱性を発見 ほか</h3>
-        <div class="episode-meta">
-          <span>15 min</span>
-          <span>8 topics</span>
-        </div>
-      </a>
-
-      <a href="../../episodes/2026-07-28/index.html" class="episode-card">
-        <div class="episode-date">2026-07-28</div>
-        <h3 class="episode-title">Thea Energy、核融合炉用磁石開発に向け2000万ドルの連邦補助金を獲得 ほか</h3>
-        <div class="episode-meta">
-          <span>13 min</span>
-          <span>6 topics</span>
-        </div>
-      </a>
-    </div>
-    <nav class="pagination" aria-label="Episodes pagination"><a href="../5/index.html">前へ</a><a href="../../index.html">1</a><a href="../2/index.html">2</a><a href="../3/index.html">3</a><a href="../4/index.html">4</a><a href="../5/index.html">5</a><span class="current">6</span><a href="../7/index.html">7</a><a href="../8/index.html">8</a><a href="../9/index.html">9</a><a href="../10/index.html">10</a><a href="../11/index.html">11</a><a href="../12/index.html">12</a><a href="../13/index.html">13</a><a href="../14/index.html">14</a><a href="../15/index.html">15</a><a href="../16/index.html">16</a><a href="../17/index.html">17</a><a href="../18/index.html">18</a><a href="../7/index.html">次へ</a><span class="summary">Page 6 / 18</span></nav>
-
-    <section id="home-notice" class="notice-card"></section>
-  </main>
-  <footer>
+  
+</main>
+<footer>
   <div class="container">
     <div class="footer-social">
       <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
@@ -1092,104 +1245,21 @@ document.addEventListener('DOMContentLoaded', updateConsentUi);
   </div>
 </footer>
 
-  
-  <script>
-(function() {
-  const markdownContent = `## 重要なテックニュースを手早くキャッチアップ
 
-最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。
 
-各エピソードには出典リンクを掲載しています。原文確認を前提とした編集方針でお届けしており、本文転載や原文の代替を目的とするものではありません。
+<script>
 
-- 出典リンクを明示
-- AI生成コンテンツを含む
-- 実務に活かせるアクションを重視`;
-  const renderMode = "hero-pills";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
   }
-  const target = document.getElementById('home-intro');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
+}
 </script>
-
-  <script>
-(function() {
-  const markdownContent = `### ご利用上のご確認
-
-- 本サイトのテキストと音声にはAI生成コンテンツを含みます。
-- 正確性や最新性は保証せず、重要な事実は各話の出典リンクから原文をご確認ください。
-- 免責事項、著作権・引用方針、プライバシーポリシーは各ページ末尾から確認できます。`;
-  const renderMode = "default";
-  function renderMarkdown(md) {
-    if (typeof marked !== 'undefined' && typeof DOMPurify !== 'undefined') {
-      marked.setOptions({ breaks: true });
-      return DOMPurify.sanitize(marked.parse(md));
-    }
-    var el = document.createElement('pre');
-    el.style.whiteSpace = 'pre-wrap';
-    el.textContent = md;
-    return el.outerHTML;
-  }
-  const target = document.getElementById('home-notice');
-  target.innerHTML = renderMarkdown(markdownContent);
-  if (renderMode === 'hero-pills') {
-    var heading = target.querySelector('h2');
-    if (heading) {
-      var h1 = document.createElement('h1');
-      h1.className = 'hero-title';
-      h1.innerHTML = heading.innerHTML;
-      heading.replaceWith(h1);
-    }
-    target.querySelectorAll('p').forEach(function(p) {
-      p.classList.add('hero-description');
-    });
-    var list = target.querySelector('ul');
-    if (list) {
-      var pillWrap = document.createElement('div');
-      pillWrap.className = 'hero-meta';
-      Array.from(list.querySelectorAll('li')).forEach(function(item) {
-        var pill = document.createElement('span');
-        pill.className = 'hero-pill';
-        pill.textContent = item.textContent.trim();
-        pillWrap.appendChild(pill);
-      });
-      list.replaceWith(pillWrap);
-    }
-  }
-})();
-</script>
-
-  </body>
-  </html>
+</body>
+</html>

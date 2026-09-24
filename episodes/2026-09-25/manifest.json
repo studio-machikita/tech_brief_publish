@@ -1,0 +1,375 @@
+{
+  "date": "2026-09-25",
+  "episode_date_local": "2026-09-25",
+  "content_snapshot_date": "2026-09-25",
+  "show_length_sec": 743,
+  "audio_size": 11892141,
+  "generated_at": "2026-09-24T23:16:54.028715+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-95b1ca6b",
+      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+      "title_ja": "COMED:マルチLLM推論におけるルーティングと協調の間に欠けていた中間層",
+      "one_liner": "複数LLM連携の落とし穴を突く新手法COMED",
+      "fingerprint": "95b1ca6beb35b1a8d125e81978b322fd",
+      "score": 89,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-f8134bc8",
+      "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
+      "title_ja": "Nexterity、配管工事の困難で危険な作業の自動化を目指す",
+      "one_liner": "配管作業のボルト締めを自動化するロボット",
+      "fingerprint": "f8134bc8e068d58d621f7a361af73d27",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-c43b53a1",
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "title_ja": "GitHub Security Lab Taskflow Agentによる、AI搭載のファジング",
+      "one_liner": "GitHubがAI活用のファジングTaskflow Agentを解説",
+      "fingerprint": "c43b53a1c49d0ecf716890de699a513c",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-5db42bf8",
+      "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+      "title_ja": "ツール利用エージェントの静かな失敗:ToolUniverseの監査",
+      "one_liner": "AIエージェントとツール連携の「静かな失敗」を検証",
+      "fingerprint": "5db42bf8561bdbd0f1156828149c6226",
+      "score": 67,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-c009f46c",
+      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "title_ja": "AgentCore GatewayとMCPでマルチアカウントAIエージェントを構築する",
+      "one_liner": "複数AWSアカウント横断でAIエージェントがデータ照会",
+      "fingerprint": "c009f46c4cb390158271a0925e2fe80a",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-26d0d729",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "title_ja": "ClaudeがCRISPR様リピートを持つ新しい酵素システムを発見",
+      "one_liner": "ClaudeがDNA解析で新酵素系を発見と報告",
+      "fingerprint": "26d0d729e7f176f0f059c2ce7788d5ca",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News",
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-6d9daf13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI"
+    },
+    {
+      "item_id": "item-0bf93ed0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When chat is the wrong UI"
+    },
+    {
+      "item_id": "item-8126544b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Top AI experts badly underestimated how fast the field is moving, study finds"
+    },
+    {
+      "item_id": "item-9758041f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense"
+    },
+    {
+      "item_id": "item-faec03cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "WebForms Core 2.2 Development Has Begun"
+    },
+    {
+      "item_id": "item-a191c723",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Two years of OpenAI Academy"
+    },
+    {
+      "item_id": "item-c8168afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts"
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-86fba823",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Blackstone Exec Says Big Unknowns Remain For AI Credit Demand"
+    },
+    {
+      "item_id": "item-310048fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New features and improvements in Copilot for JetBrains"
+    },
+    {
+      "item_id": "item-a7768351",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More ways to request and configure Copilot code reviews"
+    },
+    {
+      "item_id": "item-fa59319e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Drift Contract: Spectral Updates for Depth-Robust Local Learning"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-104be7e0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week"
+    },
+    {
+      "item_id": "item-e9a7b055",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "koi.rest"
+    },
+    {
+      "item_id": "item-369e5d72",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story"
+    },
+    {
+      "item_id": "item-9cfea038",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Oil, Treasury Yields & Inflation Pressure Markets"
+    },
+    {
+      "item_id": "item-7c483197",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Back and shoulder surgery is often worse than useless"
+    }
+  ],
+  "score_cache": {
+    "7c483197e09e4a28dbde28c5ea185518": {
+      "score": 2,
+      "title": "Back and shoulder surgery is often worse than useless",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 背中や肩の手術に関する医療・健康分野の記事であり、AI、ソフトウェア、クラウド、プログラミング言語などの技術革新とは直接関係しません。一般消費者向けガジェットよりは専門性がありますが、エンジニア視点での業界インパクトや技術的な関連性はほぼないため、最低水準の評価です。"
+    },
+    "a191c72331cf734386a8f6bbda1a54ab": {
+      "score": 43,
+      "title": "Two years of OpenAI Academy",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] OpenAI Academyの2周年とAIスキル普及の拡大は、教育・人材育成の観点では意義がありますが、技術仕様や新製品、モデル性能の進化を示す具体的な発表ではありません。AI関連の話題であり、直近取り上げ済みのキーワードと重なるため減点しました。エンジニアにとっては直接的な実装上のインパクトが限定的です。 [Editorial: AI-focuse"
+    },
+    "26d0d729e7f176f0f059c2ce7788d5ca": {
+      "score": 49,
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] AIモデルがDNAデータベースから未知の酵素候補を発見したという点は、LLMの科学研究応用として興味深く、バイオインフォマティクスの自動化や仮説生成への発展性があります。一方で、CRISPR研究者からは従来型のゲノムマイニングに近いとの指摘があり、Claudeが独自に画期的な発見を成し遂げたと断定できる具体性や検証結果は限定的です。また、既出キーワー"
+    },
+    "6d9daf136d2ae73362317c38f4673af5": {
+      "score": 49,
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] WhisperX、wav2vec2の強制アライメント、話者ダイアライゼーションをGPU対応コンテナに統合し、SageMaker AIのリアルタイム・非同期エンドポイントへ本番展開する具体的な実装情報は、音声AI基盤のエンジニアにとって実用価値が高いです。GPU AMIの固定、スケーリング、コスト管理まで扱う点も評価できます。一方で、既存技術の組み合わ"
+    },
+    "0bf93ed0187a1bcc8424ac168baaabf4": {
+      "score": 49,
+      "title": "When chat is the wrong UI",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] チャットボット以外のキャンバス型UIを開発支援に活用するという着眼点は、AIコーディングツールの操作性や成果物の編集体験を改善する可能性があり、エンジニア向けには一定の重要性があります。一方、記事スニペットだけでは具体的な機能、実装方式、対象ユーザー、既存開発フローへの影響が不明で、技術革新の規模を判断しにくいです。また、既に取り上げ済みのCopil"
+    },
+    "a776835139fcc6e6d64971f643cca41b": {
+      "score": 38,
+      "title": "More ways to request and configure Copilot code reviews",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューに個人設定の拡充やエンタープライズ向けデフォルト設定が追加され、開発チームのレビュー運用を標準化しやすくする実務的なアップデートです。一方で、基盤技術やアーキテクチャを大きく変える発表ではなく、既出キーワードのCopilotおよびcodeに直接関連する続報・機能改善のため減点しました。 [Editorial"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 35,
+      "title": "May 28, 2026",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージ更新、Debian 11環境でのpip修正、JupyterLab認証設定の強化といった保守・運用改善が中心で、アーキテクチャや機能の大幅な進化ではありません。認証強化はセキュリティ面で有用ですが、影響範囲は既存利用者に限定されます。また、直近で既出の「agent"
+    },
+    "f8134bc8e068d58d621f7a361af73d27": {
+      "score": 84,
+      "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 危険で熟練を要する配管締結作業を自動化するロボティクスの実用的な事例であり、現場導入を意識した小型設計と、4本のボルトを同時に扱う具体的な機能が評価できます。製造・建設・保守分野の安全性と生産性に影響し得る一方、記事時点では単一スタートアップの製品紹介で、業界全体の前提を変える規模や技術的詳細までは不明なため、90点未満としました。既出キーワードのA"
+    },
+    "8126544b63e0012bdb7a5c5d3e21f80b": {
+      "score": 49,
+      "title": "Top AI experts badly underestimated how fast the field is moving, study finds",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] AIの進歩速度を専門家の予測と実績の乖離から検証する内容で、モデル性能や将来の開発計画に対する見通しを考えるうえでは有用です。特に数学オリンピック級の能力やAnthropicの収益予測の大幅な上振れは、技術進展の速さを示す具体的な材料です。一方で、新しいモデルやアーキテクチャの発表ではなく、既存の進展を分析した調査記事にとどまります。また、既出キーワ"
+    },
+    "c8168afdb012e1db3bb534a164e69333": {
+      "score": 43,
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] Microsoftが、AI支援によって12,000アカウント規模の大量侵害を容易にした攻撃基盤を停止させた点は、企業セキュリティや不正アクセス対策の観点で重要です。一方で、画期的な技術革新や開発者向けプラットフォームの進化ではなく、既存の攻撃手法への対策・サービス遮断が中心です。また、AIを悪用したサイバー攻撃という既出キーワードに近いため、重複分を"
+    },
+    "369e5d72d23d4009139a2338ff2ddf3d": {
+      "score": 23,
+      "title": "Anonymous Men Have Turned Cyberharassment Into a Group Sport—Here’s One Woman’s Side of the Story",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] サイバー嫌がらせの実態を扱う社会的に重要な記事ですが、技術的な新規性、製品・アーキテクチャの進展、具体的なセキュリティ手法や実装上の知見は限定的です。エンジニアにとってはオンラインサービスの不正利用対策やモデレーション設計を考える契機にはなるものの、技術業界の前提を変えるニュースではないため、低めに評価します。"
+    },
+    "104be7e0321909f448fdc1250d32755b": {
+      "score": 28,
+      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 主題は米国の国境監視タワー計画の廃止を目指す法案であり、技術革新やソフトウェア開発への直接的な影響は限定的です。政策・規制に関するニュースとしてエンジニアにとっての優先度は低く、AIへの言及もスニペット上では具体的な製品・モデル・技術進展が示されていません。 [Editorial: AI/SaaS topic +5]"
+    },
+    "9cfea038da5f62aff6a42d488cbe2252": {
+      "score": 10,
+      "title": "Oil, Treasury Yields & Inflation Pressure Markets",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 原油価格、米国債利回り、インフレが市場に与える影響を扱う金融ニュースであり、ソフトウェア技術やAI、クラウド、プログラミング言語、アーキテクチャの具体的な進展は含まれていません。技術者にとっての直接的な影響や新規性が乏しく、一般的な市場解説に留まるため、最低評価帯としました。"
+    },
+    "86fba82334f3d2f1d9d96695fd62d075": {
+      "score": 42,
+      "title": "Blackstone Exec Says Big Unknowns Remain For AI Credit Demand",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] AIインフラ拡大に必要な巨額の資金調達について、どの投資家層が信用供与を担うのかという重要な市場課題を扱っています。データセンターや計算資源の整備に影響し、将来的にはAIサービスの供給能力やコストにも波及しますが、具体的な技術革新や新しいアーキテクチャの発表ではなく、現時点では見通しを示す内容に留まります。既出のAI関連テーマとは異なり、今回は技術そ"
+    },
+    "5db42bf8561bdbd0f1156828149c6226": {
+      "score": 67,
+      "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] エージェントがツール呼び出しに成功したように見えても、情報欠落や不正確な結果が発生する「サイレント障害」を分析する研究であり、AIエージェントの信頼性・可観測性・評価手法に関わる重要なテーマです。特に生物学ワークフローのような専門領域では、誤りが検出されないまま下流処理へ伝播するリスクが高く、実運用上の示唆があります。一方で、arXivの初期研究で対"
+    },
+    "fa59319e2289c4cda81d0a343a78715d": {
+      "score": 38,
+      "title": "The Drift Contract: Spectral Updates for Depth-Robust Local Learning",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 層ごとに学習するローカルラーニングの深さ依存問題に対し、Muon系のスペクトル更新幾何を組み合わせる点は新規性があり、逆伝播に依存しない並列学習や省メモリ学習につながる可能性があります。一方、現時点ではarXivの初期研究で、評価がCIFAR-10のMLPベンチマーク中心に見え、LLMや大規模モデル、実運用での有効性は未検証です。AI学習手法という点"
+    },
+    "95b1ca6beb35b1a8d125e81978b322fd": {
+      "score": 89,
+      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 複数LLM推論において、単純なルーティングと常時協調の中間に位置するCOMEDを提案し、協調が正答を改善するだけでなく、正しい回答を壊し得るという非単調性を扱っている点が重要です。モデル選択、推論コスト、信頼性、評価設計に関わる実践的なアーキテクチャ上の示唆があり、AIインフラおよびエージェント基盤への影響も見込めます。一方、現時点ではarXivの新"
+    },
+    "faec03cd086cd8299446f470ed9f9b22": {
+      "score": 45,
+      "title": "WebForms Core 2.2 Development Has Begun",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] ステートレスなサーバー主導UI、DOMミラーを持たないレンダリング、スナップショット／ロールバック、ハッシュによる状態検出、ミドルウェア拡張など、Webアプリケーションのアーキテクチャとしては興味深く、従来のBlazor Serverとは異なる設計上の示唆があります。一方で、対象はまだ開発中の比較的小規模なWebForms Coreであり、業界標準を"
+    },
+    "e9a7b0555ff652c07b63f416e6489fdc": {
+      "score": 24,
+      "title": "koi.rest",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] 記事タイトルが「koi.rest」のみで、技術的な内容、革新性、採用状況、影響範囲を判断できる具体的情報がありません。REST関連の新サービスやOSSである可能性はありますが、現時点では業界への重要な変化を裏付けられないため、情報不足として低めに評価します。"
+    },
+    "9758041fb0d46adfd7ff5d5c8780ae7a": {
+      "score": 49,
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] OpenAIのプログラムをウクライナ政府による民間インフラのサイバー防衛に拡大する動きであり、AIの実運用や国家レベルのセキュリティ活用という点で一定の重要性があります。一方、具体的な技術仕様、モデル性能、導入規模、実際の防御効果は示されておらず、革新的なアーキテクチャ発表というより運用・政策寄りのニュースです。AIおよびOpenAI関連の既出テーマ"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 43,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-09-24",
+      "reason": "[ScoreCache 2026-09-24] [Claude API Evaluation] AIシステムの評価をAccentureと連携して実運用へ組み込む取り組みであり、企業導入時の品質・安全性・ガバナンスを高める点には実務的な価値があります。一方で、基盤技術やアーキテクチャを大きく変える発表ではなく、主に導入支援・評価プロセスの強化です。また、既出のAI関連トピックと重なるため、重要度を減"
+    },
+    "c009f46c4cb390158271a0925e2fe80a": {
+      "score": 54,
+      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] AWSの複数アカウント構成において、AgentCore GatewayとMCPを組み合わせ、各チームのデータ分離と横断的なAIエージェント利用を実現する具体的な設計例であり、クラウドアーキテクチャおよび認可設計の実務的な価値は高い。一方で、AIエージェント、Amazon Bedrock、データ連携といった直近の既出キーワードに強く重複し、業界の前提を"
+    },
+    "c43b53a1c49d0ecf716890de699a513c": {
+      "score": 80,
+      "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] AIを活用したファジングにより、脆弱性検出のテスト設計や実行を自動化する実践的な技術で、ソフトウェア開発・セキュリティ運用への影響は大きいです。GitHub Security LabのTaskflow Agentという具体的なフレームワークと利用方法が示されている点も評価できます。一方で、基盤モデルそのものの革新や業界の前提を変える発表ではなく、既存"
+    },
+    "310048feecd28a4f3bbbe8ab1d71079a": {
+      "score": 41,
+      "title": "New features and improvements in Copilot for JetBrains",
+      "date": "2026-09-25",
+      "reason": "[Claude API Evaluation] JetBrains向けGitHub Copilotのアップデートで、AIエージェントのツール承認、会話制御、組織単位のスキル・指示共有など、開発ワークフローとガバナンスを改善する具体的な機能追加です。JetBrains利用者や企業チームには実用的な影響がありますが、業界の前提を変える新技術というより既存Copilot機能の拡張です。また、直近に取り上"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-25/blog.md",
+    "show_notes_path": "out/2026-09-25/show_notes.md",
+    "script_path": "out/2026-09-25/script_2hosts.md",
+    "audio_path": "out/2026-09-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27265,
+        "output_tokens": 10473,
+        "cost_usd": 0.018021
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42888,
+        "output_tokens": 7463,
+        "cost_usd": 0.240609
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 4070,
+        "cost_usd": 0.048839999999999995
+      }
+    ],
+    "total_cost_usd": 0.30747
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.46,
+    "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+    "url": "https://arxiv.org/abs/2609.26913"
+  },
+  {
+    "start_sec": 173.8,
+    "title": "Nexterity wants to automate the hard, dangerous part of pipefitting",
+    "url": "https://techcrunch.com/2026/09/24/nexterity-wants-to-automate-the-hard-dangerous-part-of-pipefitting/"
+  },
+  {
+    "start_sec": 267.19,
+    "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+    "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/"
+  },
+  {
+    "start_sec": 364.41,
+    "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+    "url": "https://arxiv.org/abs/2609.26836"
+  },
+  {
+    "start_sec": 494.68,
+    "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/"
+  },
+  {
+    "start_sec": 619.82,
+    "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+  },
+  {
+    "start_sec": 709.16,
+    "title": "エンディング",
+    "url": null
+  }
+]
