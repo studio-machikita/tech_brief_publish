@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.42,
+    "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+    "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/"
+  },
+  {
+    "start_sec": 125.05,
+    "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+    "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/"
+  },
+  {
+    "start_sec": 239.68,
+    "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/"
+  },
+  {
+    "start_sec": 325.46,
+    "title": "Agentic autofix now uses Copilot Memory",
+    "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory"
+  },
+  {
+    "start_sec": 431.86,
+    "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
+    "url": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/"
+  },
+  {
+    "start_sec": 565.92,
+    "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+    "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/"
+  },
+  {
+    "start_sec": 649.82,
+    "title": "エンディング",
+    "url": null
+  }
+]

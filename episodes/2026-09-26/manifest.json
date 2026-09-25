@@ -1,0 +1,379 @@
+{
+  "date": "2026-09-26",
+  "episode_date_local": "2026-09-26",
+  "content_snapshot_date": "2026-09-26",
+  "show_length_sec": 680,
+  "audio_size": 10895277,
+  "generated_at": "2026-09-25T23:20:26.631489+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-27224e0d",
+      "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+      "title_ja": "Amazon EKSでEFAとDeepEPを活用したMoE強化学習のスケーリング、スループット40%向上",
+      "one_liner": "EKSでMoE強化学習を高速化、処理量40%向上",
+      "fingerprint": "27224e0dbac06b498355f3cd803c3678",
+      "score": 85,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-b19b8e51",
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "title_ja": "Amazon SageMaker HyperPodでSkyRLを使ったマルチモーダルRLトレーニングを高速化",
+      "one_liner": "SkyRLとSageMaker HyperPodで視覚言語モデルを強化学習",
+      "fingerprint": "b19b8e51152a147b06d6ffe430397f53",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-9cc8cad9",
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "title_ja": "初心者向けGitHub Copilotアプリ：キャンバスでカスタムワークフローを構築する方法",
+      "one_liner": "GitHub Copilotでキャンバス型UIを作る入門解説",
+      "fingerprint": "9cc8cad9a11370852b80f01f7e52f0cd",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML",
+        "GitHub AI and ML",
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-5c730429",
+      "title": "Agentic autofix now uses Copilot Memory",
+      "title_ja": "Copilotの自動修正機能がAgentic AutofixでCopilot Memoryを使用可能に",
+      "one_liner": "GitHubのagentic autofixがCopilot Memoryに対応",
+      "fingerprint": "5c730429a2858e331f43a3ee75d6c3e1",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-7bf29115",
+      "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
+      "title_ja": "Google DeepMindの研究者がまた退社、「超知能AIを近く開発するのは本質的に無責任」と発言",
+      "one_liner": "DeepMind研究者、AI開発の速さに抗議し退社",
+      "fingerprint": "7bf291151f9ec708c3e691488cf37518",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-a5f964cb",
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "title_ja": "AIは新卒者に大打撃を与えるはずだった。だが今のところ、失業率データはそれを裏付けていない。",
+      "one_liner": "AIによる新卒採用打撃、統計上は未確認",
+      "fingerprint": "a5f964cb8628706ded72a3ab54364611",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-723c9dba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing"
+    },
+    {
+      "item_id": "item-45ddd148",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Are GPU Loans Safe From Rising Rates?"
+    },
+    {
+      "item_id": "item-efdef4ae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face"
+    },
+    {
+      "item_id": "item-a191c723",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Two years of OpenAI Academy"
+    },
+    {
+      "item_id": "item-47851df8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex"
+    },
+    {
+      "item_id": "item-0436c495",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers"
+    },
+    {
+      "item_id": "item-9ac45d92",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits"
+    },
+    {
+      "item_id": "item-067b74e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds pull request review stages"
+    },
+    {
+      "item_id": "item-68ab5694",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What Even Is An OS Now?"
+    },
+    {
+      "item_id": "item-dfc243dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stable and Faithful Explanations for Knowledge Tracing"
+    },
+    {
+      "item_id": "item-78ae6466",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025"
+    },
+    {
+      "item_id": "item-153d3dc2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Where a Digital Footprint Check Gets Its Data"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-31706321",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alabama Says TikTok to Pay Up to $300 Million Over Child Safety"
+    },
+    {
+      "item_id": "item-0e7efa08",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automattic has a new board after failed attempt to put CEO on leave"
+    },
+    {
+      "item_id": "item-bce2a737",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand"
+    },
+    {
+      "item_id": "item-0bf93ed0",
+      "reason": "[Duplicate] 「GitHub Copilot app for Beginners: How to build custom workfl」と同じ出来事のため除外",
+      "title": "When chat is the wrong UI"
+    }
+  ],
+  "score_cache": {
+    "68ab5694399fdc53a17472a7c925a2c6": {
+      "score": 38,
+      "title": "What Even Is An OS Now?",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] OSの定義や役割が、クラウド、Webブラウザ、コンテナ、組み込み機器などへ分散している現状を扱うテーマで、ソフトウェアアーキテクチャや開発者体験に関わるため一定の重要性があります。一方、具体的な製品発表、技術仕様、業界を変える新規性がタイトルからは確認できず、抽象的な論考に留まる可能性が高いため、中程度の評価としました。"
+    },
+    "47851df85a82a1c7a5668740b04ab37a": {
+      "score": 42,
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] AIを活用したフリート管理ソフト開発の導入事例で、売上60%増加や75時間以上の工数削減という実績は興味深い一方、技術的なアーキテクチャ、導入規模、再現性などの具体情報が乏しく、業界全体への影響は限定的です。また、CodexやGPTモデルを用いた開発・運用という点は、直近に取り上げ済みのcode、models、AI関連トピックと重なるため減点しました"
+    },
+    "27224e0dbac06b498355f3cd803c3678": {
+      "score": 85,
+      "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] MoE強化学習をEKS、EFA、DeepEPでスケールさせ、RLHFやGRPOのロールアウトスループットを40%向上させた具体的な技術事例です。AIモデル開発基盤における分散通信、GPUクラスタ運用、専門家並列化の実践的な改善としてエンジニアへの価値は高く、クラウドおよびAIインフラの影響範囲も大きいです。一方で、業界の前提を根本から変える新モデルや"
+    },
+    "9cc8cad9a11370852b80f01f7e52f0cd": {
+      "score": 49,
+      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] 自然言語から利用可能な作業画面（キャンバス）を生成し、ユーザーと共同で更新できる点は、開発・業務ツールの操作体験を変える可能性があり、実用性も高い。一方で、GitHub Copilotやエージェントを活用したワークフロー構築という内容は既出キーワード（ai、agent、codeなど）と重なるため20点減点した。現時点では具体的な技術仕様や業界全体を変"
+    },
+    "067b74e519d150c16410f5bec98bd6ac": {
+      "score": 40,
+      "title": "Usage metrics API adds pull request review stages",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、プルリクエストのレビュー段階ごとの滞留時間まで分析できるようにするAPI拡張です。エンタープライズにおける開発プロセスの可視化やDORA系の生産性分析には実務的な価値がありますが、既存の使用量メトリクスの詳細化にとどまり、アーキテクチャや開発基盤そのものを大きく変える技術革新ではありません。AI/Copilo"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 27,
+      "title": "May 28, 2026",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新、pipの利用修正、JupyterLab認証設定の強化といった保守・運用改善が中心で、技術的な新規性や影響範囲は限定的です。さらに、既出キーワードである「agent」に該当し、同じエージェント基盤関連の話題として20点減点しました。認証強化は実務上有益です"
+    },
+    "0436c4959e9f54e7b0d13a6c30aad8c5": {
+      "score": 41,
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] AIデータセンター向け電力インフラ計画の撤回であり、1.25 billionドル規模の投資判断や、GPUデータセンターの電力調達・分散型発電戦略に影響する点は注目に値します。一方で、新技術の実用化やアーキテクチャの革新ではなく、既存計画の中止に関する続報です。また、既出のAI関連トピックと重なるため減点し、業界全体の前提を変えるほどの重要度ではないと"
+    },
+    "7bf291151f9ec708c3e691488cf37518": {
+      "score": 47,
+      "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] AIの進展速度と超知能開発の安全性に関する、Google DeepMind研究者の退職という注目度の高い続報です。研究者がAIチップ設計などの実務的な貢献を問題視して離脱した点は、業界の安全性・ガバナンス議論に影響します。一方で、新しい技術や具体的な研究成果、製品発表ではなく、主に個人の見解と組織内の懸念に基づくニュースです。AI関連の既出テーマと重"
+    },
+    "a5f964cb8628706ded72a3ab54364611": {
+      "score": 47,
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] AIによる新卒採用への影響を雇用統計から検証する内容で、AI導入の実社会への波及を考えるうえでは一定の示唆があります。ただし、技術そのものの新規性や具体的な実装・製品発表ではなく、現時点で大規模な失業や採用減少の証拠がないという分析的な報告にとどまります。また、既出のAI・LLM関連テーマと近いため、重複分を考慮してスコアを抑えています。 [Edit"
+    },
+    "bce2a7378643d70a6e1ecf6ba6bf3d12": {
+      "score": 23,
+      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] NVIDIA製品を狙った窃盗事件という話題性はあるものの、技術革新やソフトウェア開発、AI基盤の進展に関するニュースではありません。半導体サプライチェーンや輸送時のセキュリティという観点では多少の示唆がありますが、エンジニアリングへの直接的な影響や新規性は限定的です。"
+    },
+    "9ac45d926129212e37bdd7e39bd669a4": {
+      "score": 41,
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] 国防分野でAIを活用した嘘発見技術に5年間で約3,030万ドルを投じる計画は、監視・司法・安全保障への影響が大きく、技術的にも興味深い一方、現時点では研究開発予算の要求にとどまり、実用化や性能向上が確認されたニュースではありません。また、AI関連の話題であり、既出キーワードとの重複による減点を適用しています。記事後半の若年者の臓器提供制限は医療・制度"
+    },
+    "31706321a8b85bc5477dec38792867e3": {
+      "score": 27,
+      "title": "Alabama Says TikTok to Pay Up to $300 Million Over Child Safety",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] TikTokが子どもの安全をめぐる訴訟で最大3億ドルを支払い、利用者保護策を導入するという規制・法務寄りのニュースです。プラットフォームの年齢確認、ペアレンタルコントロール、推薦アルゴリズムの安全設計など、エンジニアリング面で対応が必要になる可能性はありますが、新しい技術やアーキテクチャの発表ではなく、業界の前提を変えるほどの影響も限定的です。"
+    },
+    "45ddd148c30e8e75fb6b51f890059b9a": {
+      "score": 43,
+      "title": "Are GPU Loans Safe From Rising Rates?",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] AIデータセンターとGPU調達を支えるDDTL、金利スワップ、ヘッジ要件など、AIインフラの資金調達構造を具体的に解説しており、GPUクラウド事業者の財務リスクや今後の計算資源拡大に影響する点は重要です。一方で、技術そのものの革新やアーキテクチャの進化ではなく、主題は金利・信用・債務市場に関する金融分析です。AI関連ではあるものの、既出のAI・インフ"
+    },
+    "723c9dba8f8541816501ee1e39df667e": {
+      "score": 45,
+      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] 予測エージェントが、検索・推論・市場予測・過去事例参照などの戦略を状況に応じて切り替える条件を、行動レベルで評価する研究であり、LLMシステムの信頼性向上やルーティング設計に有用です。特に、単に推論能力を高めるのではなく、いつ推論し、いつ別の情報源へ委ねるべきかを検証する点はエンジニアリング上の示唆があります。一方で、現時点ではarXivの研究発表で"
+    },
+    "dfc243dce855f01886dd9eb9642a3f35": {
+      "score": 38,
+      "title": "Stable and Faithful Explanations for Knowledge Tracing",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] 知識追跡（Knowledge Tracing）モデルについて、予測性能だけでなく説明の安定性と再学習による忠実性を同時に検証する評価プロトコルを提案した研究です。教育AIにおける説明可能性・再現性の実務的な課題に対して意義があり、ASSISTmentsの実データと13の行動特徴を用いている点も具体的です。一方で、基盤技術や開発者向けアーキテクチャを変"
+    },
+    "78ae64666545b671769f37eae765d512": {
+      "score": 38,
+      "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] ニュース見出しのフレーミングを、語彙選択や脅威表現などの「salience framing」と、媒体ごとの記事選択・配分による「selection framing」に分離して分析する研究であり、NLPによる大規模メディア分析としては新規性があります。特に評価軸を二次元化することで、ニュース推薦・世論分析・情報バイアス検出の研究基盤に応用できる点は有益"
+    },
+    "153d3dc23e6c70ee0491f39eb0c242fc": {
+      "score": 32,
+      "title": "Where a Digital Footprint Check Gets Its Data",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] ローカルで実行するデジタルフットプリント診断ツールについて、アーカイブ内の入力ファイル、除外対象、読み取りと削除APIの境界、件数差異の原因を整理した解説記事です。プライバシーやセキュリティ上の透明性、データ最小化、ローカル処理の設計は実務的に有用ですが、新しいアーキテクチャや技術革新を提示するものではなく、特定サービス向けの運用・説明に留まります。"
+    },
+    "efdef4ae24d827db7063379d121d58b4": {
+      "score": 43,
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] OpenAIのエージェントがHugging Faceを攻撃した具体的な手口や経緯を明らかにする記事であれば、AIエージェントの権限設計、ツール利用、サンドボックス、監視体制に関する実践的な示唆があります。単なる脆弱性報告よりも、AIエージェント固有の攻撃面を扱う点で技術的な注目度は高めです。一方で、主題はセキュリティインシデントの解説であり、業界の前"
+    },
+    "a191c72331cf734386a8f6bbda1a54ab": {
+      "score": 43,
+      "title": "Two years of OpenAI Academy",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] OpenAI Academyの2周年とAIスキル普及は社会的な意義がある一方、具体的な技術革新、製品発表、アーキテクチャ変更などは含まれておらず、エンジニアへの直接的な影響は限定的です。AI関連の既出テーマとも重なるため、重複分を減点しました。 [Editorial: AI-focused source +6; AI/SaaS topic +5]"
+    },
+    "b19b8e51152a147b06d6ffe430397f53": {
+      "score": 58,
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] Qwen3-VLのような視覚言語モデルを、SkyRL・GRPO・Ray・SageMaker HyperPodで分散ポストトレーニングする具体的な実装例であり、マルチモーダルRLの実用化やクラウド上の学習基盤構築という点で技術的価値は高いです。一方、業界の前提を変える新モデルや画期的アルゴリズムの発表ではなく、既存技術を組み合わせた導入・運用ウォークス"
+    },
+    "0bf93ed0187a1bcc8424ac168baaabf4": {
+      "score": 48,
+      "title": "When chat is the wrong UI",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] チャットボックスに依存せず、キャンバス型UIで開発者が成果物を直接編集・操作するという発想は、AI支援開発のインターフェース設計に新しい方向性を示しています。単なる会話型アシスタントから、構造化された成果物を扱う開発環境へ進化する点はエンジニアにとって有意義です。一方で、記事スニペットからは具体的な製品機能、実装方式、導入効果までは判断できず、業界の"
+    },
+    "5c730429a2858e331f43a3ee75d6c3e1": {
+      "score": 49,
+      "title": "Agentic autofix now uses Copilot Memory",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] Copilot Memoryをセキュリティアラートのagentic autofixに活用し、過去のコンテキストを修正提案へ反映できる点は、AIコーディング支援とセキュリティ運用の融合として実務的な価値があります。一方で、業界の前提を変える新技術ではなく、既存のGitHub Copilot系エージェント機能の改善にとどまる具体的なアップデートです。既に"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 29,
+      "title": "June 23, 2026",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新と、依存パッケージの更新およびipykernelの重複表示バグ修正にとどまる、限定的なメンテナンスリリースです。開発環境の安定性には寄与しますが、アーキテクチャや機能、業界への影響は小さいです。また、Agent関連の既出トピックと同じ文脈であるため減点し、一般消費者向けガジェットではない点"
+    },
+    "0e7efa08218055bcb7031f9ee70e9990": {
+      "score": 27,
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "date": "2026-09-26",
+      "reason": "[Claude API Evaluation] Automatticの取締役会刷新は、WordPress.comや関連OSSの運営方針、企業統治、意思決定の安定性に影響し得るニュースです。ただし、技術革新やアーキテクチャの進化ではなく、CEOを巡る社内ガバナンス問題の続報が中心です。開発者への間接的な影響はあるものの、エンジニアリング上の新規性や業界の前提を変える度合いは限定的なため、低評価としま"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-26/blog.md",
+    "show_notes_path": "out/2026-09-26/show_notes.md",
+    "script_path": "out/2026-09-26/script_2hosts.md",
+    "audio_path": "out/2026-09-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 28028,
+        "output_tokens": 10422,
+        "cost_usd": 0.018112
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43156,
+        "output_tokens": 7236,
+        "cost_usd": 0.238008
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3670,
+        "cost_usd": 0.04404
+      }
+    ],
+    "total_cost_usd": 0.30016
+  }
+}
