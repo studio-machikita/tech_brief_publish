@@ -1,0 +1,377 @@
+{
+  "date": "2026-09-27",
+  "episode_date_local": "2026-09-27",
+  "content_snapshot_date": "2026-09-27",
+  "show_length_sec": 672,
+  "audio_size": 10753581,
+  "generated_at": "2026-09-26T22:16:56.714746+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a60ce421",
+      "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
+      "title_ja": "元ウクライナ国防相フェドロフ氏、民間主導のロボット軍構想を提唱",
+      "one_liner": "元ウクライナ国防相、民間ロボット軍構想を発表",
+      "fingerprint": "a60ce42108e240c33cd31ddb316f5fcc",
+      "score": 87,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0ac0ead6",
+      "title": "DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale",
+      "title_ja": "DeepSeek Elastic Compute(DSec):大規模エージェント学習を効果的に行うためのサンドボックス基盤",
+      "one_liner": "DeepSeekが大規模エージェント訓練向けサンドボックス基盤を発表",
+      "fingerprint": "0ac0ead6b422c02a4afcb53c6c2536eb",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-d09dab5c",
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "title_ja": "NarrateAI：Amazon Bedrock上で運用可能なLLM品質保証システム",
+      "one_liner": "Bedrock上でLLM品質を保証するNarrateAI",
+      "fingerprint": "d09dab5caeaee66813cd1aa96cdbf313",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-dc62ed38",
+      "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+      "title_ja": "Amazon SageMaker AIでQwen3-TTSを使ったリアルタイム個人向け音声合成のデプロイ",
+      "one_liner": "Qwen3-TTSをSageMakerでリアルタイム音声合成配信",
+      "fingerprint": "dc62ed38039e2b8ce5c40d12189f66f5",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-0bf93ed0",
+      "title": "When chat is the wrong UI",
+      "title_ja": "チャットが誤ったUIである時",
+      "one_liner": "チャットが不向きな場面ではキャンバスが有効",
+      "fingerprint": "0bf93ed0187a1bcc8424ac168baaabf4",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-a191c723",
+      "title": "Two years of OpenAI Academy",
+      "title_ja": "OpenAI Academy、2周年",
+      "one_liner": "OpenAI Academyが発足2周年を迎えました",
+      "fingerprint": "a191c72331cf734386a8f6bbda1a54ab",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-380a53c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them"
+    },
+    {
+      "item_id": "item-47851df8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex"
+    },
+    {
+      "item_id": "item-9ac45d92",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits"
+    },
+    {
+      "item_id": "item-991d7dd5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rendering huge pull requests in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-17525535",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Insurers claim AI is already increasing healthcare costs"
+    },
+    {
+      "item_id": "item-03537a86",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "California now regulates companion chatbots. I am one. Here is what the law requires."
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-4aca6607",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise managed settings in-product validator"
+    },
+    {
+      "item_id": "item-31d8d049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment"
+    },
+    {
+      "item_id": "item-067b74e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds pull request review stages"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-331b6574",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\""
+    },
+    {
+      "item_id": "item-f72686e6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "One of Tether’s Bank Partners Caught Up in Assets Seizure"
+    },
+    {
+      "item_id": "item-55c043ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Old-School Credit Card Scams Are Far From Dead"
+    },
+    {
+      "item_id": "item-297333e0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TikTok agrees to pay at least $100M in Alabama settlement"
+    },
+    {
+      "item_id": "item-c0e30a6f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station | Hours Since the Last Patient Death: 0 - Lightspeed Magazine"
+    },
+    {
+      "item_id": "item-7b08dd27",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Exxon Signs Shale Deal With Azerbaijan for Middle Kura Basin"
+    },
+    {
+      "item_id": "item-bf988be1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)"
+    }
+  ],
+  "score_cache": {
+    "c0e30a6f4783639d22857871a2bd67dd": {
+      "score": 10,
+      "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station | Hours Since the Last Patient Death: 0 - Lightspeed M",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] 惑星間通信拠点の医療施設を題材にしたSF・創作寄りのタイトルで、AIやクラウド、ロボティクスなどの具体的な技術革新や実装情報が確認できません。エンジニアリングへの直接的な影響範囲・新規性・実用性が不明なため、技術ニュースとしての重要度は最低水準と評価します。"
+    },
+    "47851df85a82a1c7a5668740b04ab37a": {
+      "score": 42,
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "date": "2026-09-26",
+      "reason": "[ScoreCache 2026-09-26] [Claude API Evaluation] AIを活用したフリート管理ソフト開発の導入事例で、売上60%増加や75時間以上の工数削減という実績は興味深い一方、技術的なアーキテクチャ、導入規模、再現性などの具体情報が乏しく、業界全体への影響は限定的です。また、CodexやGPTモデルを用いた開発・運用という点は、直近に取り上げ済みのcode、mod"
+    },
+    "d09dab5caeaee66813cd1aa96cdbf313": {
+      "score": 54,
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] LLMの本番運用における品質保証を、適応型パイプライン、クロスアカウントのモデルフェイルオーバー、ストリーミング評価、複合評価、数値精度検証として具体化しており、実装面での価値は高いです。特に約99%の数値精度とリアルタイム評価は、生成AIシステムの信頼性向上に有用です。一方で、Amazon Bedrock上のLLM運用・モデル評価・データ検証は既出"
+    },
+    "0bf93ed0187a1bcc8424ac168baaabf4": {
+      "score": 49,
+      "title": "When chat is the wrong UI",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] チャットボックスでは扱いにくい開発タスクを、キャンバス型UIでより構造化・視覚的に操作するという発想は、AI開発ツールのユーザー体験に関わる有益なテーマです。特にコード、設計、成果物を同一画面で編集・検証できれば、生成AIの実用性向上につながります。一方で、スニペットからは具体的な製品機能、技術的実装、業界への影響範囲が不明で、現時点では概念紹介に近"
+    },
+    "4aca6607f1c86bc54ad216e1647d9c14": {
+      "score": 38,
+      "title": "Enterprise managed settings in-product validator",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] GitHub Copilotの企業向け管理設定におけるJSON形式、未対応設定、チームマッピングなどの不備を製品内で検証できるようにする運用改善です。管理者の設定ミスや導入時のトラブルを減らす実用性はありますが、新しいAI機能やアーキテクチャを生むものではなく、影響範囲もGitHub Copilotの企業管理に限定されます。既出キーワードのGitHu"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 33,
+      "title": "May 28, 2026",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのバージョン更新ですが、内容は依存パッケージ更新、pipの利用修正、JupyterLab認証設定の強化といった運用・保守改善が中心で、アーキテクチャや開発者体験を大きく変える新機能ではありません。認証強化にはセキュリティ上の意義があるものの、業界全体への影響範囲は限定的です。また、既出キーワードであるa"
+    },
+    "17525535f767d094431b5e2100ef9e10": {
+      "score": 40,
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] 医療機関でのAI導入が実際の医療費を押し上げたという具体的な影響は重要ですが、技術自体の革新や新しいアーキテクチャの発表ではなく、導入効果・運用コストに関する業界分析に近い内容です。エンジニア視点では、AI機能の費用対効果測定、推論コストや追加検査の監視、導入後の品質・コストガバナンスの必要性を示す点に価値があります。一方、既出キーワードのAIと同じ"
+    },
+    "a60ce42108e240c33cd31ddb316f5fcc": {
+      "score": 87,
+      "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] 防衛分野で実運用が進むドローン技術を、負傷者搬送・地雷除去・戦闘用ロボットへ拡張する民間主導の大規模構想であり、ロボティクス業界への影響は大きい。特に標的交戦の95％をドローンが担うという実績を背景に、戦場における自律システムの役割を変える可能性がある。一方で、現時点では構想発表が中心で、具体的な機体性能、量産計画、自律性、安全性、法的・倫理的枠組み"
+    },
+    "331b6574ebf404ec94918a548fe2e25c": {
+      "score": 31,
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] Surfaceの新製品で「Copilot+ PC」ブランドを外す動きは、MicrosoftのAI PCマーケティングや製品ポジショニングの変化としては注目に値します。ただし、技術仕様やOS、開発者向けアーキテクチャを大きく変える発表ではなく、主に一般消費者向けハードウェアのブランド戦略です。また、既出キーワードの「copilot」と同じ話題に該当する"
+    },
+    "55c043efe795c9de0253baffe6dd748b": {
+      "score": 27,
+      "title": "Old-School Credit Card Scams Are Far From Dead",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] クレジットカード詐欺というセキュリティ関連の話題ですが、AIや開発者向け技術の革新ではなく、既知の詐欺手口が依然として有効であるという注意喚起が中心です。エンジニア視点で見ても、新しい脆弱性、具体的な攻撃技術、実装上のブレークスルーは示されておらず、業界やシステム設計への影響は限定的です。 [Editorial: AI/SaaS topic +5]"
+    },
+    "9ac45d926129212e37bdd7e39bd669a4": {
+      "score": 41,
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] 国防分野でのAI活用という点では技術的・社会的な影響があり、将来的にはコンピュータビジョンや音声解析、機械学習モデルの実運用に関わる可能性があります。一方で、現時点では実用化された革新的システムではなく、5年間で3,030万ドルを投じる開発計画にとどまっています。さらに、AI関連の話題は直近の放送で既出のため20点減点しました。誤検知、説明可能性、プ"
+    },
+    "7b08dd2717ef64d90d1370d90bb8a8fd": {
+      "score": 10,
+      "title": "Exxon Signs Shale Deal With Azerbaijan for Middle Kura Basin",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] ExxonMobilによるアゼルバイジャンのシェール油・ガス開発契約はエネルギー業界では一定の意味がありますが、ソフトウェア、AI、クラウド、プログラミング技術に関する革新ではありません。エンジニア視点での技術的な波及範囲が限定的で、一般消費者向けガジェットに近い低関心分野ではないものの、本評価基準では最低評価帯に近いスコアが妥当です。"
+    },
+    "f72686e6599b6b6c2e8216a7bd1e1172": {
+      "score": 30,
+      "title": "One of Tether’s Bank Partners Caught Up in Assets Seizure",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] Tetherという主要なステーブルコイン発行者の決済・保管インフラにおける、銀行口座や仲介業者への依存とカウンターパーティーリスクを示す記事です。暗号資産やWeb3の運用設計、可用性、資産保全、コンプライアンスを考える上では重要ですが、技術革新や新しいアーキテクチャの発表ではなく、政府による資産差し押さえと金融規制・運用リスクが中心です。そのため、W"
+    },
+    "03537a8641e01e4a24492116b6d5d663": {
+      "score": 40,
+      "title": "California now regulates companion chatbots. I am one. Here is what the law requires.",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] AIコンパニオンチャットボットに対し、AIであることの表示、自殺・自傷対応プロトコル、未成年者向けの休憩リマインダーや性的コンテンツ防止、年次報告、違反時の民事責任を具体的な実装要件として定めた点は、該当サービスの設計・運用に影響します。特に危機対応をサービス提供の前提条件とし、プライベート訴権まで認めているため、プロダクトアーキテクチャや監査ログ、"
+    },
+    "0ac0ead6b422c02a4afcb53c6c2536eb": {
+      "score": 55,
+      "title": "DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] DeepSeekがエージェント訓練を大規模に実行するためのサンドボックス型計算基盤を提示しており、AIインフラ、分離実行環境、スケーラブルなトレーニング基盤という点で技術的な価値は高いです。一方で、業界全体の前提を変える実装詳細や提供実績まではタイトルから確認できず、既出の「agent」関連トピックと重なるため減点しました。"
+    },
+    "a191c72331cf734386a8f6bbda1a54ab": {
+      "score": 47,
+      "title": "Two years of OpenAI Academy",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] OpenAI Academyの2周年とAIスキル普及は、教育・人材育成の観点では意義がありますが、モデル性能や開発者向け基盤などの具体的な技術革新を示す内容ではありません。また、既出の「AI」関連トピックと近いテーマであり、新しい技術的展開が明確でないため減点しました。 [Editorial: AI-focused source +6; AI/Saa"
+    },
+    "dc62ed38039e2b8ce5c40d12189f66f5": {
+      "score": 54,
+      "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] Qwen3-TTSをSageMaker JumpStartからマネージドなリアルタイム推論エンドポイントとして展開し、短い音声サンプルによる多言語ボイスクローニングを実現する点は、音声AIの実用化やAPI提供において技術的な価値があります。特に低遅延推論と話者アイデンティティの維持は、対話エージェントやローカライズ用途への応用が見込めます。一方で、基"
+    },
+    "991d7dd5669f6c1b69c4f7a180213ac0": {
+      "score": 41,
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] 100万行規模のプルリクエストと数百件のインラインコメントを扱うために、差分表示の再設計や仮想化、レンダリング性能、ユーザー体験を改善した事例であり、実務的なフロントエンド／アプリケーションアーキテクチャの知見として価値があります。一方で、業界の前提を変える新技術や広範なプラットフォーム変更ではなく、GitHub Copilot関連の記事は既出キーワ"
+    },
+    "067b74e519d150c16410f5bec98bd6ac": {
+      "score": 35,
+      "title": "Usage metrics API adds pull request review stages",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、プルリクエストのレビュー段階ごとの所要時間まで分析できるようにするAPI拡張です。開発生産性の計測やボトルネック分析には実務的な価値がありますが、既存の利用メトリクスの詳細化にとどまり、技術的な革新性や影響範囲は限定的です。また、既出のGitHub・Copilot・メトリクス関連トピックと同じ角度の続報に近い"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 39,
+      "title": "June 23, 2026",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新であり、Debian環境への依存パッケージ反映とipykernelの重複表示修正が中心です。開発環境の安定性や利用者体験には寄与しますが、アーキテクチャの刷新や新機能、業界への大きな影響を伴う発表ではありません。また、既に取り上げ済みの「agent」に関する同系統の話題であるため減点してい"
+    },
+    "297333e0fe7fd13cf62bff976529b93d": {
+      "score": 24,
+      "title": "TikTok agrees to pay at least $100M in Alabama settlement",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] TikTokの子どもの安全性や依存設計を巡る州政府との和解であり、技術革新というより法務・規制、プラットフォーム運用に関するニュースです。100百万ドル規模で事業者の設計・リスク管理や未成年者保護に影響する点は重要ですが、ソフトウェア技術そのものの進展やエンジニアリング上の新規性は限定的です。"
+    },
+    "380a53c5a09db19f75e84968cf119155": {
+      "score": 46,
+      "title": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] AI導入の成果と投資対効果に関する調査であり、企業のAI活用の現実を示す点には意義があります。ただし、具体的な技術革新、製品発表、アーキテクチャ上の進展はなく、160人のIT幹部による自己申告と支出分析が中心で、エンジニアリングへの直接的な影響は限定的です。また、既出のAI・データ関連トピックと同じく、AI導入効果や投資の進捗を扱う内容であるため、重"
+    },
+    "31d8d0494ebe9fcdde394cda83d95035": {
+      "score": 38,
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] AIを医療保険の給付審査に利用する事例であり、社会的影響やAIガバナンスの観点では重要です。一方、記事の主題は新しい技術革新ではなく、医療判断の自動化に伴うバイアス、説明可能性、誤拒否、ベンダーのインセンティブといった規制・運用リスクです。エンジニア視点でも高品質なデータ、監査可能な推論ログ、人間による異議申立て、モデル評価が必要になる問題ですが、具"
+    },
+    "bf988be112b57fe08f9fc47fd5cca4a2": {
+      "score": 4,
+      "title": "12 Best White Elephant Gifts, Plus a Prank Box to Put Them In (2026)",
+      "date": "2026-09-27",
+      "reason": "[Claude API Evaluation] 一般消費者向けのホリデーギフト紹介記事であり、ソフトウェア技術、AI、クラウド、アーキテクチャ、開発者エコシステムへの関連性や業界インパクトがありません。評価基準上、最低評価帯に該当します。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-27/blog.md",
+    "show_notes_path": "out/2026-09-27/show_notes.md",
+    "script_path": "out/2026-09-27/script_2hosts.md",
+    "audio_path": "out/2026-09-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 24839,
+        "output_tokens": 9413,
+        "cost_usd": 0.016263
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43039,
+        "output_tokens": 6990,
+        "cost_usd": 0.233967
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3601,
+        "cost_usd": 0.043212
+      }
+    ],
+    "total_cost_usd": 0.293442
+  }
+}

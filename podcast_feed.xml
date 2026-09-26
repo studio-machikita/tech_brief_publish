@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#180 元ウクライナ国防相フェドロフ氏、民間主導のロボット軍構想を提唱 ほか</title>
+      <description>Tech News Radio Show Notes - #180 (2026-09-27)
+
+エピソード情報
+• エピソード: #180
+• 日付: 2026-09-27
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army (https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/)
+• DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale (https://arxiv.org/abs/2609.22978)
+• NarrateAI: production-ready LLM quality assurance on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/)
+
+注目の深掘り
+• Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI (https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/)
+
+小ネタ・その他
+• When chat is the wrong UI (https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/)
+• Two years of OpenAI Academy (https://openai.com/index/two-years-of-openai-academy)
+• Two years of OpenAI Academy (https://openai.com/index/expanding-openai-academy-with-new-learning-paths)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-27/episode_audio.mp3" length="10753581" type="audio/mpeg" />
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-27</guid>
+      <itunes:duration>11:12</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>元ウクライナ国防相フェドロフ氏、民間主導のロボット軍構想を提唱 ほか</itunes:title>
+      <itunes:episode>180</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #180 (2026-09-27)
+
+エピソード情報
+• エピソード: #180
+• 日付: 2026-09-27
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army (https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/)
+• DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale (https://arxiv.org/abs/2609.22978)
+• NarrateAI: production-ready LLM quality assurance on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/)
+
+注目の深掘り
+• Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI (https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/)
+
+小ネタ・その他
+• When chat is the wrong UI (https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/)
+• Two years of OpenAI Academy (https://openai.com/index/two-years-of-openai-academy)
+• Two years of OpenAI Academy (https://openai.com/index/expanding-openai-academy-with-new-learning-paths)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-27/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:26.780" title="Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army" href="https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/" />
+        <psc:chapter start="00:02:11.930" title="DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale" href="https://arxiv.org/abs/2609.22978" />
+        <psc:chapter start="00:03:45.910" title="NarrateAI: production-ready LLM quality assurance on Amazon Bedrock" href="https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/" />
+        <psc:chapter start="00:05:39.460" title="Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI" href="https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/" />
+        <psc:chapter start="00:07:37.730" title="When chat is the wrong UI" href="https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/" />
+        <psc:chapter start="00:09:21.140" title="Two years of OpenAI Academy" href="https://openai.com/index/two-years-of-openai-academy" />
+        <psc:chapter start="00:10:38.290" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#179 Amazon EKSでEFAとDeepEPを活用したMoE強化学習のスケーリング、スループット40%向上 ほか</title>
       <description>Tech News Radio Show Notes - #179 (2026-09-26)
 
