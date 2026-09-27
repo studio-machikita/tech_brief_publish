@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#181 AIエージェントがモデル開発の作業をより多く担うも、意思決定は依然として人間が行う ほか</title>
+      <description>Tech News Radio Show Notes - #181 (2026-09-28)
+
+エピソード情報
+• エピソード: #181
+• 日付: 2026-09-28
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• AI agents do more of the work in model development, but humans still make the decisions (https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/)
+• OpenAI extends cyber access to Ukraine for civilian defense (https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense)
+• Speaker-labeled transcription with WhisperX on SageMaker AI (https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/)
+
+注目の深掘り
+• From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin (https://www.bloomberg.com/news/articles/2026-09-27/from-geisha-face-paint-to-servers-sakai-chemical-emerges-as-ai-linchpin)
+
+小ネタ・その他
+• How Datacor built self-service rental analytics with Amazon Quick Sight (https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/)
+• Enterprise managed settings in-product validator (https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-28/episode_audio.mp3" length="11887917" type="audio/mpeg" />
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-28</guid>
+      <itunes:duration>12:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>AIエージェントがモデル開発の作業をより多く担うも、意思決定は依然として人間が行う ほか</itunes:title>
+      <itunes:episode>181</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #181 (2026-09-28)
+
+エピソード情報
+• エピソード: #181
+• 日付: 2026-09-28
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• AI agents do more of the work in model development, but humans still make the decisions (https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/)
+• OpenAI extends cyber access to Ukraine for civilian defense (https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense)
+• Speaker-labeled transcription with WhisperX on SageMaker AI (https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/)
+
+注目の深掘り
+• From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin (https://www.bloomberg.com/news/articles/2026-09-27/from-geisha-face-paint-to-servers-sakai-chemical-emerges-as-ai-linchpin)
+
+小ネタ・その他
+• How Datacor built self-service rental analytics with Amazon Quick Sight (https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/)
+• Enterprise managed settings in-product validator (https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-28/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:27.780" title="AI agents do more of the work in model development, but humans still make the decisions" href="https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/" />
+        <psc:chapter start="00:02:45.550" title="OpenAI extends cyber access to Ukraine for civilian defense" href="https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense" />
+        <psc:chapter start="00:04:06.930" title="Speaker-labeled transcription with WhisperX on SageMaker AI" href="https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/" />
+        <psc:chapter start="00:05:53.910" title="From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin" href="https://www.bloomberg.com/news/articles/2026-09-27/from-geisha-face-paint-to-servers-sakai-chemical-emerges-as-ai-linchpin" />
+        <psc:chapter start="00:07:54.350" title="How Datacor built self-service rental analytics with Amazon Quick Sight" href="https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/" />
+        <psc:chapter start="00:09:47.150" title="Enterprise managed settings in-product validator" href="https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator" />
+        <psc:chapter start="00:11:47.120" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#180 元ウクライナ国防相フェドロフ氏、民間主導のロボット軍構想を提唱 ほか</title>
       <description>Tech News Radio Show Notes - #180 (2026-09-27)
 

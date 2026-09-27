@@ -1,0 +1,372 @@
+{
+  "date": "2026-09-28",
+  "episode_date_local": "2026-09-28",
+  "content_snapshot_date": "2026-09-28",
+  "show_length_sec": 742,
+  "audio_size": 11887917,
+  "generated_at": "2026-09-27T23:04:52.595479+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b96a656d",
+      "title": "AI agents do more of the work in model development, but humans still make the decisions",
+      "title_ja": "AIエージェントがモデル開発の作業をより多く担うも、意思決定は依然として人間が行う",
+      "one_liner": "AI開発現場、提案はAI主導でも決定権は人間に",
+      "fingerprint": "b96a656d218b20fe4ee5823a77cf128d",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9758041f",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "title_ja": "OpenAI、ウクライナの民間防衛向けにサイバーアクセスを拡大",
+      "one_liner": "OpenAI、ウクライナ政府のサイバー防衛を支援",
+      "fingerprint": "9758041fb0d46adfd7ff5d5c8780ae7a",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-6d9daf13",
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "title_ja": "SageMaker AIでWhisperXによる話者ラベル付き文字起こし",
+      "one_liner": "WhisperXをSageMakerで話者分離付き文字起こし",
+      "fingerprint": "6d9daf136d2ae73362317c38f4673af5",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-574cd1ca",
+      "title": "From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin",
+      "title_ja": "芸者の顔料からサーバーまで、堺化学がAIの要となる",
+      "one_liner": "化粧品の粉体技術がAI半導体材料に転換",
+      "fingerprint": "574cd1ca4c97bf827d311e2be3cd6e78",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-0ae6f918",
+      "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
+      "title_ja": "Datacor、Amazon QuickSightでセルフサービス型レンタル分析基盤を構築",
+      "one_liner": "Datacor、Amazon QuickSightで賃貸分析を自社製品に埋め込み",
+      "fingerprint": "0ae6f91845b8151c40fe84e2b1002686",
+      "score": 43,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-4aca6607",
+      "title": "Enterprise managed settings in-product validator",
+      "title_ja": "製品内バリデーターによるエンタープライズ管理設定の検証",
+      "one_liner": "Copilotの管理設定を検証するツールが登場",
+      "fingerprint": "4aca6607f1c86bc54ad216e1647d9c14",
+      "score": 43,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-9ac45d92",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits"
+    },
+    {
+      "item_id": "item-47851df8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex"
+    },
+    {
+      "item_id": "item-991d7dd5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rendering huge pull requests in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-65f72c6d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump"
+    },
+    {
+      "item_id": "item-41375bb6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Can Muse overcome Meta’s trust issues?"
+    },
+    {
+      "item_id": "item-0c901623",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\""
+    },
+    {
+      "item_id": "item-067b74e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds pull request review stages"
+    },
+    {
+      "item_id": "item-a5a111c0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What is the Dependency Inversion Principle?"
+    },
+    {
+      "item_id": "item-98e16be3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon Gives Merchants Tools to Manage Walmart, Shopify Inventory"
+    },
+    {
+      "item_id": "item-9efdba1a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Young organs may not be a fountain of youth for recipients"
+    },
+    {
+      "item_id": "item-31d8d049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-331b6574",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\""
+    },
+    {
+      "item_id": "item-f3f4a84e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lunar terminator paradox"
+    },
+    {
+      "item_id": "item-a5bab0bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When did Google get so f-ing weird?"
+    },
+    {
+      "item_id": "item-3469401c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones"
+    },
+    {
+      "item_id": "item-97ad8f18",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Party Speakers (2026): JBL, Sony, Marshall, and More"
+    }
+  ],
+  "score_cache": {
+    "f3f4a84e3989ddc0b03ed9ba69654da0": {
+      "score": 18,
+      "title": "Lunar terminator paradox",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] 月の昼夜境界（ターミネーター）に関する科学的話題とみられますが、AI・ソフトウェア・クラウド・ロボティクスなどの技術革新やエンジニアリングへの直接的な影響は確認できません。記事の具体的な内容も不明なため、一般的な宇宙科学ニュースとして低めに評価します。"
+    },
+    "47851df85a82a1c7a5668740b04ab37a": {
+      "score": 42,
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "date": "2026-09-26",
+      "reason": "[ScoreCache 2026-09-26] [ScoreCache 2026-09-26] [Claude API Evaluation] AIを活用したフリート管理ソフト開発の導入事例で、売上60%増加や75時間以上の工数削減という実績は興味深い一方、技術的なアーキテクチャ、導入規模、再現性などの具体情報が乏しく、業界全体への影響は限定的です。また、CodexやGPTモデルを用いた開発・運用"
+    },
+    "0ae6f91845b8151c40fe84e2b1002686": {
+      "score": 43,
+      "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] Amazon QuickSightをTrackAboutに組み込み、自然言語クエリ、クロスクラウドのデータパイプライン、マルチテナント向け行レベルセキュリティを組み合わせた実装事例であり、クラウドBIやSaaSアーキテクチャの観点では具体性があります。一方で、既存サービスを活用した導入事例で、業界の前提を変える新技術や大規模なプラットフォーム進化では"
+    },
+    "991d7dd5669f6c1b69c4f7a180213ac0": {
+      "score": 41,
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] 100万行規模のプルリクエストと数百件のインラインコメントを扱うために、差分表示基盤を再設計した技術記事であり、大規模データの仮想化、レンダリング性能、スクロールやコメント状態の管理など、実務的なアーキテクチャ上の価値は高い。一方で、GitHub Copilotに関する既出トピックと重なり、AIモデルや開発環境全体を変える新技術というより、特定アプリ"
+    },
+    "4aca6607f1c86bc54ad216e1647d9c14": {
+      "score": 43,
+      "title": "Enterprise managed settings in-product validator",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] GitHub Copilotのエンタープライズ管理設定に対し、JSON形式やチームマッピングの不備を導入前に検出できる実務的な改善です。設定ミスによる展開障害や運用負荷を減らす効果はありますが、既存機能の品質向上にとどまり、アーキテクチャや技術基盤を変える発表ではありません。加えて、直近の既出キーワードであるGitHubおよびCopilotに直接関係"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 43,
+      "title": "May 28, 2026",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新で、依存パッケージの更新、ベース環境でのpip修正、JupyterLab認証設定の強化が行われています。開発環境の安定性・初期利用性・セキュリティ向上には有用ですが、既存機能の改善と保守的なリリースが中心で、業界やアーキテクチャを大きく変える新規性はありません。Agent関連の話題は直近の"
+    },
+    "65f72c6df97bdfee3a49fe40d3ba9238": {
+      "score": 41,
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] Anthropic CEOとトランプ大統領の初の1対1会談は、AI政策、規制、政府調達、輸出管理などに影響する可能性があり、テック業界にとって一定の注目度があります。ただし、現時点では会談予定という事実 בלבדで、技術的な発表や具体的な政策変更、製品・アーキテクチャの進展は示されていません。エンジニア視点では直接的な実装価値が乏しく、AI関連の既出"
+    },
+    "b96a656d218b20fe4ee5823a77cf128d": {
+      "score": 54,
+      "title": "AI agents do more of the work in model development, but humans still make the decisions",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] AIエージェントがモデル開発の手法提案やタスク実行を担う実態を、769件のログに基づいて定量化しており、開発プロセスや人間との役割分担を考えるうえで有用です。一方で、新しいモデルや基盤技術の発表ではなく、AIエージェントの自律性に関する調査・分析が中心で、業界の前提を変えるほどのインパクトはありません。また、既出キーワードであるAI、agent、mo"
+    },
+    "331b6574ebf404ec94918a548fe2e25c": {
+      "score": 23,
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] SurfaceノートPCで「Copilot+ PC」ブランドを前面に出さないという、Microsoftの製品マーケティングおよびPC戦略の変更です。ただし、具体的なアーキテクチャやOS機能、開発者向け技術の革新ではなく、一般消費者向けハードウェアのブランド方針が中心です。また、既出の「Copilot」関連トピックと重なるため減点し、重要度は低めと評価"
+    },
+    "97ad8f184485a3be2404cca0de08452b": {
+      "score": 6,
+      "title": "Best Party Speakers (2026): JBL, Sony, Marshall, and More",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] JBLやSonyなどのパーティー向けスピーカーを比較する一般消費者向け製品記事です。ソフトウェア技術、クラウド、AI、開発者向けアーキテクチャへの影響や技術革新はほぼなく、評価対象の中では最低ランクに該当します。"
+    },
+    "9ac45d926129212e37bdd7e39bd669a4": {
+      "score": 43,
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] 政府機関がAI搭載の嘘発見器に約3,030万ドルを投じる計画は、AIの安全保障・監視分野への応用として一定の技術的注目度があります。一方で、現時点では予算要求と開発計画にとどまり、実用化されたモデルや精度、既存ポリグラフを大きく上回る具体的成果は示されていません。誤判定、プライバシー、バイアスなどの課題も大きく、業界の前提を変える発表とは言い難いため"
+    },
+    "574cd1ca4c97bf827d311e2be3cd6e78": {
+      "score": 48,
+      "title": "From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] AIブームを支えるサーバー関連の素材サプライチェーンに関する記事であり、化粧品向け微粉体の製造技術がデータセンターやサーバー用途へ展開される点には技術的・産業的な新規性があります。一方で、AIモデルや計算アーキテクチャそのものの革新ではなく、具体的な製品仕様や市場インパクトも限定的です。既出のAI関連キーワードには該当しますが、同じAIサービスの続報"
+    },
+    "98e16be3bfcfabb9e4a696d3b1cb67fe": {
+      "score": 37,
+      "title": "Amazon Gives Merchants Tools to Manage Walmart, Shopify Inventory",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] Amazonが自社販売者向けに、Walmart、Shopify、eBay、TikTokなど複数の販売チャネルの商品情報更新や注文追跡を一元管理できるツールを提供する点は、マルチチャネルコマース運用に実務的な影響があります。各プラットフォームとの在庫・注文連携を標準化する動きとして一定の技術的意義はありますが、既存の在庫管理SaaSやコマース連携基盤の"
+    },
+    "a5a111c04def225ef5194f8ddd81ca88": {
+      "score": 38,
+      "title": "What is the Dependency Inversion Principle?",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] SOLIDのDependency Inversion PrincipleとDependency Injectionを、Node.js/TypeScriptの具体例で説明しており、ドメイン層とインフラ層を分離する設計意識を学ぶ教材としては有用です。一方で、新しいアーキテクチャや言語機能の発表ではなく、既知の設計原則の入門解説に留まっています。また、実装"
+    },
+    "a5bab0bd02e35495258d4c4340040944": {
+      "score": 18,
+      "title": "When did Google get so f-ing weird?",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] タイトルのみでは具体的な技術革新、製品発表、アーキテクチャ変更、買収などの内容が確認できず、Googleに対する論評・雑感記事と見られます。エンジニアリング上の新規性や業界への影響範囲を評価できる材料が乏しいため、重要度は低めです。"
+    },
+    "9758041fb0d46adfd7ff5d5c8780ae7a": {
+      "score": 49,
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] OpenAIのAIプログラムをウクライナ政府の民間インフラ防衛へ拡張する具体的な導入事例であり、AIのサイバー防衛活用という点では技術・社会的インパクトがあります。一方で、モデルやアーキテクチャ自体の革新ではなく、政府向けアクセス提供と運用展開が中心です。サイバーセキュリティおよび地政学的要素も強く、エンジニア視点での新規実装情報は限定的なため、中程"
+    },
+    "6d9daf136d2ae73362317c38f4673af5": {
+      "score": 49,
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] WhisperX、話者ダイアライゼーション、強制アラインメントをGPU対応のSageMakerエンドポイントへ展開する実装例であり、音声AIの本番運用におけるスケーリング、GPU AMI固定、コスト管理まで扱っている点はエンジニアにとって実用性が高い。一方で、業界の前提を変える新技術ではなく、既存モデルをAWS上で運用するための構成・手順が中心である"
+    },
+    "067b74e519d150c16410f5bec98bd6ac": {
+      "score": 39,
+      "title": "Usage metrics API adds pull request review stages",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、プルリクエストレビューの各ステージに費やした時間まで分解して取得できるようにするAPI拡張です。開発組織におけるレビュー工程のボトルネック分析や生産性指標の改善には有用ですが、既存の利用メトリクスの詳細化に留まり、技術基盤や業界の前提を変えるほどの新規性・影響範囲はありません。さらに、直近に取り上げ済みのCo"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 24,
+      "title": "June 23, 2026",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新とJupyterカーネル重複表示の修正が中心で、アーキテクチャや機能面の大きな進化はありません。エージェント基盤に関する話題ではあるものの、既出キーワード「agent」と同じ領域の定常的なリリース情報であるため減点しました。影響範囲も既存利用者の環境保守に"
+    },
+    "41375bb6088f3449d645b048eca845a0": {
+      "score": 41,
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] MetaのAI発表やMuseに関する話題であり、AI分野としての注目度は高い一方、スニペットでは新しい技術仕様や実装、性能向上などの具体的な革新が示されておらず、主眼はMetaに対する信頼性や評判の議論です。また、AI関連は直近の放送で既出のテーマで、明確な技術的続報とまでは言いにくいため減点しました。エンジニア視点では、アーキテクチャや開発者向け機"
+    },
+    "0c901623e530b3ea2d61d4d41819b5f9": {
+      "score": 41,
+      "title": "Some Anthropic veterans are reportedly buying remote land in case \"AI goes awry\"",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] AI業界の著名企業に関わる人々の安全保障観や、Effective Altruism・AI終末論との関係を示す話題性はありますが、技術革新、製品発表、研究成果、アーキテクチャ変更などの具体的な進展ではなく、報道ベースの投機的・社会的トピックです。既出キーワードの「AI」と重なるため減点し、エンジニアリングへの直接的な影響も限定的と評価しました。 [Ed"
+    },
+    "31d8d0494ebe9fcdde394cda83d95035": {
+      "score": 34,
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] 高齢者の医療給付判断にAIを利用する問題は社会的・技術倫理的な影響が大きい一方、記事の主眼はAI技術の革新ではなく、保険請求の否認インセンティブや運用・規制上のリスクです。具体的なモデル性能、アーキテクチャ、実装上の新規性も不明で、エンジニアリングニュースとしての技術的価値は限定的です。さらに、既出のAI関連トピックと同一キーワード・近い論点に該当す"
+    },
+    "3469401cb9a2b6bb156af5ac654172e5": {
+      "score": 10,
+      "title": "What’s the Best Pet DNA Test? We Tested the Most Popular Ones",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] ペット向けDNA検査サービスを実際に比較する一般消費者向け製品レビューであり、AI・LLM・クラウド・主要言語などソフトウェア技術の革新や業界基盤に与える影響はほぼありません。遺伝情報の精度や検査結果のばらつきには一定の技術的関心がありますが、記事の主眼はペット用品・消費者サービスの評価であるため、最低評価帯としました。"
+    },
+    "9efdba1af84fb453f4de7bcafc445397": {
+      "score": 37,
+      "title": "Young organs may not be a fountain of youth for recipients",
+      "date": "2026-09-28",
+      "reason": "[Claude API Evaluation] 若い臓器の移植や老化メカニズムに関する生物医学上の示唆はあり、将来的には再生医療や移植技術に影響し得ます。一方で、記事は不老不死に関する話題と研究結果の紹介が中心で、ソフトウェア、AI、ロボティクス、クラウドなどの技術革新や、具体的な実装・製品化に直結する内容ではありません。エンジニア視点では、基盤技術の前提を変えるほどの具体性や即時性は限定的です。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-28/blog.md",
+    "show_notes_path": "out/2026-09-28/show_notes.md",
+    "script_path": "out/2026-09-28/script_2hosts.md",
+    "audio_path": "out/2026-09-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27314,
+        "output_tokens": 10176,
+        "cost_usd": 0.017674
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 42815,
+        "output_tokens": 7354,
+        "cost_usd": 0.238755
+      }
+    ],
+    "tts": null,
+    "openai_tts_details": [
+      {
+        "model": "gpt-4o-mini-tts",
+        "chars": 3946,
+        "cost_usd": 0.047352
+      }
+    ],
+    "total_cost_usd": 0.303781
+  }
+}

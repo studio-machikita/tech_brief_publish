@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 27.78,
+    "title": "AI agents do more of the work in model development, but humans still make the decisions",
+    "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/"
+  },
+  {
+    "start_sec": 165.55,
+    "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+    "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
+  },
+  {
+    "start_sec": 246.93,
+    "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+    "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/"
+  },
+  {
+    "start_sec": 353.91,
+    "title": "From Geisha Face Paint to Servers, Sakai Chemical Emerges as AI Linchpin",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-27/from-geisha-face-paint-to-servers-sakai-chemical-emerges-as-ai-linchpin"
+  },
+  {
+    "start_sec": 474.35,
+    "title": "How Datacor built self-service rental analytics with Amazon Quick Sight",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/"
+  },
+  {
+    "start_sec": 587.15,
+    "title": "Enterprise managed settings in-product validator",
+    "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator"
+  },
+  {
+    "start_sec": 707.12,
+    "title": "エンディング",
+    "url": null
+  }
+]
