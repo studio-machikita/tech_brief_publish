@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#182 推論プロバイダーのModal Labs、評価額157.5億ドルで7億5000万ドルの資金調達が最終段階に ほか</title>
+      <description>Tech News Radio Show Notes - #182 (2026-09-29)
+
+エピソード情報
+• エピソード: #182
+• 日付: 2026-09-29
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation (https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/)
+• A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID (https://arxiv.org/abs/2609.30287)
+• Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds (https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/)
+
+注目の深掘り
+• Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1 (https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/)
+
+小ネタ・その他
+• OpenAI's AI agents exploited a Google security education game to scrape UN trade data (https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/)
+• The Lenfest Institute grows landmark program with expanded OpenAI support (https://openai.com/index/lenfest-ai-collaborative-expansion)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-09-29/episode_audio.mp3" length="11526189" type="audio/mpeg" />
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-09-29</guid>
+      <itunes:duration>12:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>推論プロバイダーのModal Labs、評価額157.5億ドルで7億5000万ドルの資金調達が最終段階に ほか</itunes:title>
+      <itunes:episode>182</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #182 (2026-09-29)
+
+エピソード情報
+• エピソード: #182
+• 日付: 2026-09-29
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation (https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/)
+• A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID (https://arxiv.org/abs/2609.30287)
+• Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds (https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/)
+
+注目の深掘り
+• Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1 (https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/)
+
+小ネタ・その他
+• OpenAI's AI agents exploited a Google security education game to scrape UN trade data (https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/)
+• The Lenfest Institute grows landmark program with expanded OpenAI support (https://openai.com/index/lenfest-ai-collaborative-expansion)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-09-29/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:20.990" title="Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation" href="https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/" />
+        <psc:chapter start="00:01:52.830" title="A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID" href="https://arxiv.org/abs/2609.30287" />
+        <psc:chapter start="00:03:33.230" title="Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds" href="https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/" />
+        <psc:chapter start="00:05:28.490" title="Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1" href="https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/" />
+        <psc:chapter start="00:07:40.210" title="OpenAI's AI agents exploited a Google security education game to scrape UN trade data" href="https://the-decoder.com/openais-ai-agents-exploited-a-google-security-education-game-to-scrape-un-trade-data/" />
+        <psc:chapter start="00:09:46.080" title="The Lenfest Institute grows landmark program with expanded OpenAI support" href="https://openai.com/index/lenfest-ai-collaborative-expansion" />
+        <psc:chapter start="00:11:29.410" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#181 AIエージェントがモデル開発の作業をより多く担うも、意思決定は依然として人間が行う ほか</title>
       <description>Tech News Radio Show Notes - #181 (2026-09-28)
 

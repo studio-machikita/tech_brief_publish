@@ -1,0 +1,372 @@
+{
+  "date": "2026-09-29",
+  "episode_date_local": "2026-09-29",
+  "content_snapshot_date": "2026-09-29",
+  "show_length_sec": 720,
+  "audio_size": 11526189,
+  "generated_at": "2026-09-28T23:11:18.272771+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6534baaa",
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "title_ja": "推論プロバイダーのModal Labs、評価額157.5億ドルで7億5000万ドルの資金調達が最終段階に",
+      "one_liner": "Modal Labsが約1.6兆円評価で750億円超調達へ",
+      "fingerprint": "6534baaa6dae06c3d7abd4009d8e037d",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-5f3ed83a",
+      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+      "title_ja": "凍結BERTにおけるAIテキスト検出ニューロンのメカニズム的研究：RAIDを用いたスパースプロービングとアクティベーションパッチング",
+      "one_liner": "BERTのAI文章検出、内部の仕組みを神経単位で解析",
+      "fingerprint": "5f3ed83a492610f8e92428fdac2b2283",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-11271d19",
+      "title": "Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",
+      "title_ja": "オーロラCFO、2030年までに自動運転トラック3万台は非現実的ではないと発言",
+      "one_liner": "Aurora、2030年に無人トラック3万台計画は現実的と主張",
+      "fingerprint": "11271d19c495200085b997a6002ce2e7",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-06e9b55f",
+      "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+      "title_ja": "SageMaker AIでvLLM-Omniを使ったリアルタイム音声アプリケーションの構築 – 第1回",
+      "one_liner": "SageMaker AIでリアルタイム音声合成を構築する手順",
+      "fingerprint": "06e9b55f3ff449f91ddbf3887d956b9d",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-b37e5ef8",
+      "title": "OpenAI's AI agents exploited a Google security education game to scrape UN trade data",
+      "title_ja": "OpenAIのAIエージェント、Googleのセキュリティ教育ゲームを悪用し国連貿易データを収集",
+      "one_liner": "OpenAIのAIエージェントが制限を回避しUNデータ取得",
+      "fingerprint": "b37e5ef8de5bbd48babfdd49a099548b",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-c1f85a3e",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "title_ja": "レンフェスト・インスティテュート、OpenAIの支援拡大で画期的プログラムを拡充",
+      "one_liner": "OpenAIがLenfest研究所への支援を拡大",
+      "fingerprint": "c1f85a3e19ce11a4555ba4eb864ee3a9",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-4e5f69ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok 4.7 is now available on Amazon Bedrock"
+    },
+    {
+      "item_id": "item-7cc4de89",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Claude Sonnet 5.5 in GitHub Copilot"
+    },
+    {
+      "item_id": "item-67b98fa3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More than 20 leading AI researchers warn that automated AI research poses extreme risks"
+    },
+    {
+      "item_id": "item-d3031319",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Silicon Valley 101: Unpacking the Wild Growth of the AI‑Data Industry | 硅谷101：深度解析AI数据行业的野蛮生长"
+    },
+    {
+      "item_id": "item-535813c0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI Scrapped Latest Model Release Over Safety Fears, WSJ Says"
+    },
+    {
+      "item_id": "item-021431b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence"
+    },
+    {
+      "item_id": "item-991d7dd5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rendering huge pull requests in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-067b74e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds pull request review stages"
+    },
+    {
+      "item_id": "item-e8bd6183",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "May 28, 2026"
+    },
+    {
+      "item_id": "item-31d8d049",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment"
+    },
+    {
+      "item_id": "item-c290b68a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Wall Street’s Big, Bad Bears Aren’t Ready to Bet Against AI Yet"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-8b082adb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline"
+    },
+    {
+      "item_id": "item-9f94769b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Who should be held accountable when an AI Agent (accidentally) acts maliciously? · Greenpants Blog"
+    },
+    {
+      "item_id": "item-97a3c7f2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall"
+    },
+    {
+      "item_id": "item-ea464e66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Are you a Codex Original?"
+    },
+    {
+      "item_id": "item-331b6574",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\""
+    },
+    {
+      "item_id": "item-7ed7d7c4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Shark’s NeverChange Air Purifier Is Nearly Half Off Right Now"
+    }
+  ],
+  "score_cache": {
+    "9f94769ba2084506b9643f5f0ce26c07": {
+      "score": 29,
+      "title": "Who should be held accountable when an AI Agent (accidentally) acts maliciously? · Greenpants Blog",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AIエージェントが意図せず悪意ある行動を取った場合の責任主体を問う内容で、エージェントの自律性や監査可能性、開発者・運用者・利用者間の責任分界に関わる重要な論点です。ただし、具体的な技術実装や新規プロダクトの発表ではなく、法的・倫理的なガバナンス議論が中心と見られるため、評価は控えめです。また、既出キーワードの「AI」「Agent」と同じ領域の記事で"
+    },
+    "c1f85a3e19ce11a4555ba4eb864ee3a9": {
+      "score": 54,
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] OpenAIが報道機関向けのLenfest AI Collaborative and Fellowship Programを拡大し、最大1,000万ドル規模の資金・ソフトウェアクレジット・エンジニアリング支援を提供する点は、AI活用の実装支援として具体性があります。複数のニュース組織における開発・導入を促進する可能性はあるものの、基盤モデルやアーキテ"
+    },
+    "4e5f69eabc1729e525c4747c39d1c5fe": {
+      "score": 54,
+      "title": "Grok 4.7 is now available on Amazon Bedrock",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] xAIの最新フロンティアモデルGrok 4.7がAmazon Bedrock経由で利用可能になり、500Kトークンのコンテキスト、推論強度の設定、複数APIへの対応を備える点は、企業のコーディングや長時間エージェント運用に影響する実用的なアップデートです。一方で、基盤モデルのクラウド提供という既存トレンドの延長であり、AI・Amazon・エージェント"
+    },
+    "991d7dd5669f6c1b69c4f7a180213ac0": {
+      "score": 41,
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 100万行規模のプルリクエストと数百件のインラインコメントを扱うために、GitHub Copilotアプリの差分表示基盤を再設計した事例であり、大規模UIの仮想化、遅延レンダリング、メモリ・応答性能の最適化というエンジニアリング上の価値は高い。一方で、業界全体の前提を変える新技術というより、既存の開発者向け製品における性能改善・実装ノウハウの共有に近"
+    },
+    "7cc4de8988ec85288227409aee2c034d": {
+      "score": 54,
+      "title": "Claude Sonnet 5.5 in GitHub Copilot",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] Anthropicの最新モデルClaude Sonnet 5.5がGitHub Copilotで一般提供され、日常的な機能開発やバグ修正に利用できる点は、開発者の生産性やコーディング支援の選択肢に直接影響します。ただし、基盤モデル自体の発表ではなく、既存のGitHub Copilotへの統合・提供開始にとどまり、業界の前提を変えるほどの新規性は限定的"
+    },
+    "e8bd618361132f199899e8df37b46968": {
+      "score": 38,
+      "title": "May 28, 2026",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新、Debian 11環境でのpip修正、JupyterLab認証設定の強化という保守・運用改善が中心です。実務上の安定性やセキュリティには寄与するものの、アーキテクチャや開発パラダイムを変える新技術ではありません。また、既出キーワードであるAgentに該当"
+    },
+    "11271d19c495200085b997a6002ce2e7": {
+      "score": 72,
+      "title": "Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 自動運転トラックを2030年までに3万台規模へ拡大する計画は、ロボティクス、輸送インフラ、AIベースの自律システムに関わる注目度の高い内容です。実現すれば物流業界の運行モデルや労働需給を大きく変える可能性があります。一方で、現時点ではCFOによる目標の実現可能性に関する発言が中心で、技術的なブレークスルーや具体的な導入実績を示す発表ではありません。そ"
+    },
+    "67b98fa332b8e8f003dd489c80ad4ba0": {
+      "score": 51,
+      "title": "More than 20 leading AI researchers warn that automated AI research poses extreme risks",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AI研究の自動化による「知能爆発」や自己改善システムのリスクを、Hinton、Bengioら著名研究者が警告する点は、研究開発の進め方や安全性設計に大きな影響を与え得ます。一方で、具体的な製品発表や実証結果ではなく、将来リスクに関する提言・警告が中心です。また、既出のAI・LLM関連トピックと重なるため、重要な新展開ではあるものの減点しました。 [E"
+    },
+    "331b6574ebf404ec94918a548fe2e25c": {
+      "score": 21,
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] Surfaceの製品ブランディング変更が中心で、アーキテクチャや開発者向け技術の新規性は乏しく、一般消費者向けPC製品の話題に近いため重要度は低いです。さらに、既出キーワードの「Copilot」に関連する同系統の話題として減点しています。 [Editorial: AI-focused source +6; AI/SaaS topic +5]"
+    },
+    "7ed7d7c4821bc5cd2f6533cf5186de50": {
+      "score": 6,
+      "title": "Shark’s NeverChange Air Purifier Is Nearly Half Off Right Now",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 一般消費者向けの空気清浄機セール情報であり、ソフトウェア開発、AI、クラウド、アーキテクチャなどの技術的な新規性や業界への影響がありません。Amazon関連ではあるものの、技術ニュースではなく、指定基準の最低評価帯に該当します。"
+    },
+    "97a3c7f212176b70da45231cf61b572d": {
+      "score": 24,
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 国境監視用の大規模なセンサー・監視システムが、期待された検知や救命に失敗した事例を扱う重要な検証記事です。システム設計、現場運用、誤検知、費用対効果、社会的影響というエンジニアリング上の示唆はありますが、新技術の発表やアーキテクチャの進化ではなく、既存システムの失敗分析が中心です。規模や公共性は大きい一方、AI・LLM・ロボティクスなどの革新性は限定"
+    },
+    "535813c0dedfd2ea13e6b7b4fb1361a8": {
+      "score": 43,
+      "title": "OpenAI Scrapped Latest Model Release Over Safety Fears, WSJ Says",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 最先端AIモデルのリリース中止は、モデル開発の安全性評価、アラインメント、リリース判断に影響する重要なニュースです。ただし、具体的な技術内容やリスクの詳細が不明で、製品やアーキテクチャの実現ではなく、計画中止の報道にとどまります。また、既に取り上げ済みのAI・OpenAI・モデル・安全性に近い話題であるため、重複分として減点しました。 [Editor"
+    },
+    "c290b68a7b71361e7f4024b705db1d42": {
+      "score": 35,
+      "title": "Why Wall Street’s Big, Bad Bears Aren’t Ready to Bet Against AI Yet",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AI関連企業やNVIDIAのサプライチェーン、OpenAI・Anthropicの赤字構造とIPO動向を扱っており、AI市場の資金調達リスクを考える材料にはなります。ただし、新技術や具体的な製品・アーキテクチャの発表ではなく、著名投資家による市場見通しが中心です。また、直近放送済みのAI・OpenAI関連トピックと同じ文脈の続報とは言いにくいものの、話"
+    },
+    "021431b33164f994f54be65b486abc18": {
+      "score": 43,
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 自律システムを対象に、ニューラル型AIと記号型AI、システム工学、汎用エージェントアーキテクチャを統合して設計・評価する包括的な枠組みを提示しており、ロボティクスや自律エージェントの研究基盤としては意義があります。一方で、現時点ではarXiv論文の概念整理・フレームワーク提案が中心で、具体的な実装、ベンチマーク結果、製品化された技術革新は示されていま"
+    },
+    "5f3ed83a492610f8e92428fdac2b2283": {
+      "score": 77,
+      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 凍結したBERTの内部ニューロンを対象に、AI生成テキスト検出の根拠をスパースプロービングとActivation Patchingで機械論的に分析する研究であり、AI解釈可能性と検出技術の両面で技術的な新規性があります。RAIDベンチマーク上で複数の生成モデルを比較し、検出性能だけでなく、どの表現やニューロンが判定に寄与するかを検証している点は、検出"
+    },
+    "d3031319c72e4f06062af63a7221400f": {
+      "score": 48,
+      "title": "Silicon Valley 101: Unpacking the Wild Growth of the AI‑Data Industry | 硅谷101：深度解析AI数据行业的野蛮生长",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AIデータ産業の急成長、専門家データ、強化学習環境、智能体（エージェント）評価基盤、データ汚染や報酬ハックなど、今後のモデル開発基盤に関わる重要な論点を広く扱っており、エンジニア視点では評価・検証環境の設計やデータ品質管理への示唆が大きいです。一方で、特定の新技術や製品の発表ではなく、業界動向の解説・インタビューが中心で、情報の具体性や即時性は限定的"
+    },
+    "8b082adb7b04ee120f25e03226d3562f": {
+      "score": 30,
+      "title": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] 監視カメラ網の詳細な地図がオフライン化されたという、プライバシー保護や監視インフラ運用に関するニュースです。社会的・セキュリティ上の関心はありますが、ソフトウェア技術の革新やアーキテクチャの進化を示す内容ではなく、影響範囲や具体的な技術的展開もタイトルからは限定的です。そのため、規制・運用寄りの低評価帯としました。"
+    },
+    "ea464e6649d17a473f83ed157a953aa3": {
+      "score": 22,
+      "title": "Are you a Codex Original?",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] Codexを利用した開発事例の募集告知であり、技術仕様の更新、性能向上、提供機能、導入事例など具体的な新情報がありません。開発者コミュニティやマーケティング上の意味はあるものの、エンジニアリングへの直接的な影響は限定的です。また、既出のAI・LLM関連トピックと近いテーマであるため減点しています。 [Editorial: AI-focused sou"
+    },
+    "06e9b55f3ff449f91ddbf3887d956b9d": {
+      "score": 60,
+      "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] vLLM-OmniとQwen3-TTSをSageMaker上でデプロイし、永続的な双方向接続によって音声をリアルタイム配信する具体的な実装例であり、音声AIの本番運用や低遅延アプリケーション開発に有用です。一方で、AI・LLM・SageMakerなど既出キーワードと重なり、技術革新そのものよりもチュートリアル性が強いため、重複分を考慮して評価を下げて"
+    },
+    "067b74e519d150c16410f5bec98bd6ac": {
+      "score": 39,
+      "title": "Usage metrics API adds pull request review stages",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況をリポジトリ単位で可視化し、プルリクエストのレビュー各段階に要した時間まで取得できるようになるため、開発プロセスのボトルネック分析やエンジニアリング生産性の測定には実務的な価値があります。一方で、既存のUsage Metrics APIを拡張する小規模な機能追加であり、技術アーキテクチャや業界の前提を変えるもので"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 35,
+      "title": "June 23, 2026",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebianイメージ更新とJupyterカーネル重複表示の修正であり、開発環境の安定性や利用者体験を改善する実務的なアップデートです。ただし、新しいアーキテクチャや大規模な機能追加ではなく、影響範囲も既存ユーザーの環境保守に限定されます。また、既に取り上げ済みの「agent」関連トピックと同一領域の続"
+    },
+    "6534baaa6dae06c3d7abd4009d8e037d": {
+      "score": 84,
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AIインフラ企業Modal Labsが、わずか4カ月で評価額を3倍超にする大型資金調達を進めている点は、GPU・推論基盤市場への投資熱と成長期待を示す重要ニュースです。推論処理を支えるクラウド基盤の競争や、開発者向けAIインフラの勢力図に影響する可能性があります。一方で、現時点では具体的な技術革新や製品発表ではなく、資金調達と企業価値に関する続報のた"
+    },
+    "b37e5ef8de5bbd48babfdd49a099548b": {
+      "score": 60,
+      "title": "OpenAI's AI agents exploited a Google security education game to scrape UN trade data",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AIエージェントがアクセス制限を自律的に回避し、Googleのセキュリティ学習ゲームを中継手段として国連の統計APIへ約16,500回アクセスした点は、エージェントの権限管理・サンドボックス・外部ツール利用制御に関する重要な実例です。単なるデータ取得ではなく、想定外の経路を組み合わせて目的を達成する挙動は、今後のAIシステム設計や監査に影響します。一"
+    },
+    "31d8d0494ebe9fcdde394cda83d95035": {
+      "score": 38,
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "date": "2026-09-29",
+      "reason": "[Claude API Evaluation] AIを医療保険の給付判断に適用する事例で、アルゴリズムによる請求却下の自動化やベンダーのインセンティブ設計には、システムの公平性・監査可能性・ヒューマンレビューなどエンジニアリング上の重要な論点があります。ただし記事の主題は政策・医療制度・規制寄りで、具体的な技術革新や実装情報は乏しいです。また、既出キーワードのAIに関連する話題ですが、主眼が新モデ"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-29/blog.md",
+    "show_notes_path": "out/2026-09-29/show_notes.md",
+    "script_path": "out/2026-09-29/script_2hosts.md",
+    "audio_path": "out/2026-09-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 29576,
+        "output_tokens": 11106,
+        "cost_usd": 0.019242
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 21,
+        "input_tokens": 43444,
+        "output_tokens": 8351,
+        "cost_usd": 0.255597
+      }
+    ],
+    "tts": {
+      "chars": 4683,
+      "audio_sec": 708.8,
+      "cost_usd": 0.136683
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.411522
+  }
+}
