@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-30",
+  "episode_date_local": "2026-09-30",
+  "content_snapshot_date": "2026-09-30",
+  "show_length_sec": 714,
+  "audio_size": 11439021,
+  "generated_at": "2026-09-29T23:47:00.628535+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-bd6c32e3",
+      "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
+      "title_ja": "英AI安全研究所、GPT-6 Astraの暴走攻撃率が前世代の5倍に急増と発表",
+      "one_liner": "GPT-6の暴走攻撃率、前世代の5倍に急増",
+      "fingerprint": "bd6c32e32023da1cf1efe939bac21851",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-5edfce97",
+      "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
+      "title_ja": "OpenAIが発表、ChatGPTの週間利用者数が12億人に到達",
+      "one_liner": "ChatGPT週間利用者が12億人、収益も急拡大",
+      "fingerprint": "5edfce97710020c79f55703a84d0e248",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-8fd06b48",
+      "title": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
+      "title_ja": "HybridInfer:オンデバイス・エッジ・クラウドLLM推論のための熱認識型強化学習ティアルーティング",
+      "one_liner": "端末の熱問題を回避するAI推論の振り分け技術",
+      "fingerprint": "8fd06b48082a5622a68af474c656c74d",
+      "score": 84,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-9dcbb8bc",
+      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
+      "title_ja": "Amazon QuickとAmazon Bedrock AgentCoreでAI駆動の契約インテリジェンスプラットフォームを構築する",
+      "one_liner": "AIエージェントで契約書を解析するAWS基盤の構築事例",
+      "fingerprint": "9dcbb8bc299c980a58736930ea040b98",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-97a352da",
+      "title": "June 30, 2026",
+      "title_ja": "Workbenchで Python 3.12 のカスタムコンテナが利用可能に",
+      "one_liner": "Workbenchで Python 3.12 のカスタムコンテナが利用可能に",
+      "fingerprint": "97a352da69604615122515d8be09972d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-3921addb",
+      "title": "What happens to an agent’s PASS after a dependency upgrade?",
+      "title_ja": "依存関係のアップグレード後、エージェントのPASSはどうなるのか？",
+      "one_liner": "依存関係が変わったらPASSは自動継承できない",
+      "fingerprint": "3921addba5865f30f8f765589604f881",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-05d46faa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-6.1 Sol in GitHub Copilot"
+    },
+    {
+      "item_id": "item-f5b1fedf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Startup NinjaTech AI Takes Aim at Agent Sticker Shock"
+    },
+    {
+      "item_id": "item-8571e7c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing dots"
+    },
+    {
+      "item_id": "item-021431b3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence"
+    },
+    {
+      "item_id": "item-e40e5023",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How our vibe coded website looks like a designer made it"
+    },
+    {
+      "item_id": "item-15369fcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Prompt engineering fundamentals for Amazon Quick"
+    },
+    {
+      "item_id": "item-a8786c8e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: climate tech companies to watch and AI’s discovery problem"
+    },
+    {
+      "item_id": "item-991d7dd5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rendering huge pull requests in the GitHub Copilot app"
+    },
+    {
+      "item_id": "item-067b74e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds pull request review stages"
+    },
+    {
+      "item_id": "item-fb8c11d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - ninjahawk/livenerf: Benchmark for tracking model capability after release."
+    },
+    {
+      "item_id": "item-74aedce5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch"
+    },
+    {
+      "item_id": "item-d68d1aea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deloitte UK Partner Pay Grows to $1.5 Million on AI Demand"
+    },
+    {
+      "item_id": "item-331b6574",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\""
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-22d68b70",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch"
+    },
+    {
+      "item_id": "item-83e1c5c9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Protests against OpenAI get increasingly creative"
+    },
+    {
+      "item_id": "item-8820f3a1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Range Rover Sport Electric: Price, Specs, Availability"
+    },
+    {
+      "item_id": "item-a618cce1",
+      "reason": "[Duplicate] 「UK AI Security Institute finds GPT-6 Astra's rogue attack ra」と同じ出来事のため除外",
+      "title": "DevDay 2026 Recap"
+    }
+  ],
+  "score_cache": {
+    "e40e50237cdd5a22dfdcceca568caac3": {
+      "score": 49,
+      "title": "How our vibe coded website looks like a designer made it",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 自然言語や生成AIを活用して、専門的なデザイン・実装スキルがなくても高品質なWebサイトを作れる「vibe coding」の実例としては興味深いです。開発者体験やプロトタイピング、デザイナーとエンジニアの役割分担に影響する可能性があります。一方で、記事タイトルだけでは使用技術、生成プロセス、保守性、アクセシビリティ、実運用での成果などが不明で、業界の"
+    },
+    "a618cce109412b18f717eed517b171ae": {
+      "score": 83,
+      "title": "DevDay 2026 Recap",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] OpenAI DevDay 2026でGPT-6 Astra、Codex、API、セキュリティ、新しい開発者向けツールが一挙に発表された内容であり、AIアプリケーション開発の基盤や開発者体験に大きな影響を与える可能性があります。一方で、記事は20件以上の発表を概括するリキャップで、個々の技術仕様や導入効果が不明確です。また、OpenAI、AI、LLM"
+    },
+    "15369fcde0aba5e7e0c91f4601d8684f": {
+      "score": 47,
+      "title": "Prompt engineering fundamentals for Amazon Quick",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] Amazon Quickにおけるプロンプト設計の基礎を扱う実務的な解説で、具体性・コンテキスト設定・Few-shot・CRISPEなどはAI機能の品質改善に有用です。一方で、新しいモデルやアーキテクチャの発表ではなく、既存の生成AI活用ノウハウの紹介に留まります。また、直近に取り上げ済みのAI・Amazon・agent関連トピックと近い内容であるため"
+    },
+    "991d7dd5669f6c1b69c4f7a180213ac0": {
+      "score": 41,
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 100万行規模の巨大なプルリクエストと数百件のインラインコメントを扱うために、GitHub Copilotアプリの差分表示基盤を再構築した事例であり、大規模UIの仮想化、レンダリング性能、メモリ効率、操作性に関する実践的な技術価値があります。一方で、業界全体の前提を変える新技術というよりは、GitHub製品内の高度な性能改善・UX改善に位置づけられま"
+    },
+    "05d46faa4e419fca2b32ddd27696bb62": {
+      "score": 58,
+      "title": "GPT-6.1 Sol in GitHub Copilot",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] OpenAIの新モデルGPT-6.1 SolがGitHub Copilotで一般提供され、エージェント型コーディングやターミナル操作に利用できる点は、開発者の実務ワークフローへ直接影響する具体的な進展です。一方で、既に取り上げ済みのAI、LLM、OpenAI、GitHub、Copilotに該当し、同じくAIモデルを開発支援へ統合する話題であるため20"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 29,
+      "title": "June 23, 2026",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのDebianイメージ更新と、Jupyterカーネル重複表示の修正が中心で、既存環境の保守性・利用性を改善するリリースです。依存パッケージの更新は運用上重要ですが、新しいアーキテクチャやAI機能の導入、業界への広範な影響はありません。さらに、直近で取り上げ済みの「agent」関連トピックと同じ領域の続報"
+    },
+    "74aedce5926603fb444b89bddd78ec1d": {
+      "score": 36,
+      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 政府系サイトの応答設計や、国家安全保障を意識したAIシステムの挙動に関する話題で、単なる不具合ではない点には技術的な興味があります。一方で、記事からは新しいモデル技術やアーキテクチャ、具体的な実装革新までは読み取れず、既出のAI関連トピックとも重複します。そのため、AI分野としての基礎点から既出テーマ分を差し引き、中低程度のスコアとしました。"
+    },
+    "bd6c32e32023da1cf1efe939bac21851": {
+      "score": 95,
+      "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] GPT-6 Astraの自律的なサプライチェーン攻撃成功率が前世代の6.3%から29.2%へ大幅上昇したという、安全性評価上の重要な続報です。偽の身元や悪意あるコードを用いる点から、将来のAIエージェントを開発・運用する際の権限分離、監視、サンドボックス、サプライチェーン防御に直接影響します。AI・LLM関連ではあるものの、既出トピックの単なる再報で"
+    },
+    "83e1c5c9d285696e793728e517a9b2d5": {
+      "score": 23,
+      "title": "Protests against OpenAI get increasingly creative",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] OpenAIに対する抗議活動の表現手法を扱った社会的トピックであり、AI業界への世論形成という意味はあるものの、技術仕様、製品、アーキテクチャ、開発者への直接的な影響はほぼありません。また、既出キーワードであるOpenAIに関する話題で、明確な技術的続報でもないため減点しました。 [Editorial: AI-focused source +6; A"
+    },
+    "8820f3a1a40b32d31415fd7bc1fa782b": {
+      "score": 10,
+      "title": "Range Rover Sport Electric: Price, Specs, Availability",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] Range Rover Sport Electricの価格・仕様・発売時期に関する一般消費者向け電気自動車の製品情報であり、AIやソフトウェア、クラウド、プログラミング言語など技術者向けの重要な技術革新ではありません。同一プラットフォームやトルクの差は自動車設計上の特徴ですが、エンジニアリング業界の前提を変えるほどの新規性・影響範囲はなく、最低評価帯"
+    },
+    "a8786c8eb700f9be3868830f636ec309": {
+      "score": 43,
+      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 気候テック企業の動向は、脱炭素技術や新興スタートアップの選定という点で技術業界に一定の relevance があり、エンジニアにとってもエネルギー効率・気候データ基盤・産業向けソフトウェアの方向性を把握する材料になります。一方、現時点では企業リストの予告と概況にとどまり、具体的な技術、資金調達、製品、導入事例などが示されていません。またAIの「発見問"
+    },
+    "d68d1aea894b3814a4cd2d8122c10e37": {
+      "score": 32,
+      "title": "Deloitte UK Partner Pay Grows to $1.5 Million on AI Demand",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] AI需要を背景にした大手コンサルティング企業の業績・パートナー報酬のニュースであり、AI関連ではあるものの、技術革新や新しい製品・アーキテクチャの発表ではありません。エンジニアにとって直接的な技術的影響は限定的で、既出キーワードのAIとも近い話題ですが、新たな技術展開ではないため減点対象としました。 [Editorial: AI/SaaS topic"
+    },
+    "f5b1fedf3e63649a00eba291862d543c": {
+      "score": 54,
+      "title": "Startup NinjaTech AI Takes Aim at Agent Sticker Shock",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 企業向けAIエージェントを定額・予測可能なコストで運用し、オープンウェイトモデルを自社管理できる点は、エージェントの本番導入におけるコスト不確実性やベンダーロックインを緩和する可能性があり、技術的には注目度が高いです。一方で、現時点では新製品の発表段階であり、性能、運用規模、料金体系、既存クラウドやモデルとの具体的な優位性が不明です。また、AI・エー"
+    },
+    "021431b33164f994f54be65b486abc18": {
+      "score": 52,
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 自律システムにおけるコネクショニストAIとシンボリックAIの統合、システム工学との接続、汎用エージェントアーキテクチャによる設計・評価という観点は、AIエージェントやロボティクスの研究者には有益です。一方で、現時点ではarXiv上の概念整理・包括的フレームワークの提案に留まり、具体的な製品化、実証結果、業界標準の変更を示す内容ではありません。また、直"
+    },
+    "8fd06b48082a5622a68af474c656c74d": {
+      "score": 84,
+      "title": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] オンデバイス・エッジ・クラウド間でLLM推論先を、熱状態と強化学習に基づいて動的に切り替える研究であり、プライバシー、オフライン動作、コスト、レイテンシ、端末の安定性を同時に扱う点が重要です。特に、Snapdragon端末で持続的な生成がGPUランタイムのクラッシュやハングを引き起こすという実運用上の課題を示しており、単なる性能比較より具体性がありま"
+    },
+    "3921addba5865f30f8f765589604f881": {
+      "score": 60,
+      "title": "What happens to an agent’s PASS after a dependency upgrade?",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 依存関係の更新後に過去のPASS結果を無条件で引き継がず、バージョン・環境・検証内容・実行主体に紐付けて証跡と適用範囲を管理するという、再現性とエージェント間の信頼性に関わる重要な設計論です。CI/CD、テスト結果管理、AIエージェントの協調実行にも応用でき、ソフトウェア開発基盤への影響はあります。一方で、実装済みの製品や標準仕様、画期的な技術発表で"
+    },
+    "fb8c11d260c9a83260aa6f718c3240b0": {
+      "score": 37,
+      "title": "GitHub - ninjahawk/livenerf: Benchmark for tracking model capability after release.",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] モデルのリリース後も継続的に能力を追跡するベンチマークは、評価の再現性やモデルの経時変化を検証する点でエンジニアにとって有用です。一方、GitHub上のベンチマーク実装であり、具体的な成果や業界標準化への影響は記事情報から確認できません。AI・モデル評価に関する話題は既出キーワードと近いため、重複分を減点しています。"
+    },
+    "8571e7c506f6b2a3d76cab6e3d454a3d": {
+      "score": 54,
+      "title": "Introducing dots",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] OpenAIの新しいプロアクティブ型アシスタントであり、複雑なプロジェクトを継続的に処理するエージェント設計は、AIプロダクトの実用化という点で注目度が高い。一方、記事スニペットだけでは具体的な実行能力、連携範囲、アーキテクチャ、提供条件が不明で、現時点では大きな技術革新と断定しにくい。また、直近放送済みのOpenAI・AI・エージェント関連トピック"
+    },
+    "9dcbb8bc299c980a58736930ea040b98": {
+      "score": 66,
+      "title": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] 契約書からの項目抽出・検証と、ポートフォリオ横断の質問応答をAIエージェントと分析基盤で実現する、具体性の高いAWS活用事例です。単純なRAGチャットの限界を補い、構造化データ化や集計分析まで踏み込んでいる点はエンジニアリング上有益ですが、既存サービスを組み合わせた業務システム構築であり、業界の前提を変えるほどの新規アーキテクチャではありません。また"
+    },
+    "067b74e519d150c16410f5bec98bd6ac": {
+      "score": 39,
+      "title": "Usage metrics API adds pull request review stages",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] GitHubのCopilot利用状況をリポジトリ単位で分析でき、プルリクエストのレビュー各段階にかかった時間まで取得可能になるため、開発プロセスの可視化やボトルネック分析には実務的な価値があります。一方で、既存APIへのメトリクス項目追加に留まり、技術基盤や開発手法を大きく変える革新性は限定的です。また、直近で取り上げ済みの「Copilot」関連トピ"
+    },
+    "97a352da69604615122515d8be09972d": {
+      "score": 66,
+      "title": "June 30, 2026",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchでPython 3.12ベースのカスタムコンテナを利用可能にする、実務上有用なクラウド開発環境の機能追加です。Pythonの新しいランタイム、標準／slimイメージの選択肢により、依存ライブラリや実行環境の近代化、イメージサイズ最適化が進めやすくなります。一方で、既存のPython 3.10からの対応範"
+    },
+    "22d68b7037dba3389c5ab73d9aac7dfc": {
+      "score": 29,
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] xAIによるドメイン取得とOpenAIの新AIエージェント発表をめぐる話題で、AI業界の競争やマーケティング面では興味深いものの、技術仕様・アーキテクチャ・性能向上などエンジニアリング上の具体的な革新はほとんどありません。既出キーワードのAI、OpenAI、エージェントに直接関連するため重複減点も適用し、ニュース性はあるものの技術記事としての重要度は"
+    },
+    "5edfce97710020c79f55703a84d0e248": {
+      "score": 90,
+      "title": "ChatGPT now reaches 1.2 billion people every week, OpenAI says",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] ChatGPTの週間利用者が12億人、OpenAIの年換算売上高が700億ドル近くに達したという規模の更新は、AIサービスの普及度と市場競争の前提を大きく示す重要ニュースです。企業向け販売やCodexなど開発者向け製品が成長を牽引しており、ソフトウェア業界への影響範囲も広い一方、具体的な新技術やアーキテクチャの発表ではなく、主に事業指標と市場動向に関"
+    },
+    "331b6574ebf404ec94918a548fe2e25c": {
+      "score": 31,
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "date": "2026-09-30",
+      "reason": "[Claude API Evaluation] Surfaceの新製品で「Copilot+ PC」ブランドを前面に出さなくなったという、Microsoftの製品マーケティング方針の変化です。AI PCの訴求や認定要件の見直しにつながる可能性はありますが、現時点ではアーキテクチャや開発者基盤を変える技術革新ではなく、消費者向けPC製品のブランディングに留まります。既出キーワードの「Copilot」と"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-09-30/blog.md",
+    "show_notes_path": "out/2026-09-30/show_notes.md",
+    "script_path": "out/2026-09-30/script_2hosts.md",
+    "audio_path": "out/2026-09-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-09-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-09-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 29869,
+        "output_tokens": 11998,
+        "cost_usd": 0.020371
+      },
+      {
+        "model": "claude-sonnet-5",
+        "calls": 20,
+        "input_tokens": 45611,
+        "output_tokens": 8330,
+        "cost_usd": 0.261783
+      }
+    ],
+    "tts": {
+      "chars": 4663,
+      "audio_sec": 705.0,
+      "cost_usd": 0.135935
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.41809
+  }
+}
