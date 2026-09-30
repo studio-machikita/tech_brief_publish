@@ -1,0 +1,368 @@
+{
+  "date": "2026-10-01",
+  "episode_date_local": "2026-10-01",
+  "content_snapshot_date": "2026-10-01",
+  "show_length_sec": 707,
+  "audio_size": 11321901,
+  "generated_at": "2026-09-30T22:22:10.457448+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b7fe2f31",
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "title_ja": "グーグル、AI設計のタンパク質に「透かし」を入れる手法を開発",
+      "one_liner": "Google、AI設計タンパク質に透かしを導入",
+      "fingerprint": "b7fe2f31fa3265dc50a641973369b28b",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-c45c9014",
+      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+      "title_ja": "FD-VAD:ストリーミング全二重音声のためのセマンティックエンドポイント検出",
+      "one_liner": "音声の途中でも「話し終わり」を意味から判定",
+      "fingerprint": "c45c9014eab0dd6a1d53a912737c0ecf",
+      "score": 81,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-c0ae7772",
+      "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+      "title_ja": "OpenAIとシノプシス、熟練エンジニアのように半導体を設計するAIモデルの開発で提携",
+      "one_liner": "OpenAIとSynopsysが半導体設計AIを共同開発",
+      "fingerprint": "c0ae7772fd26a3844dfe1656cc9e9fd8",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-283b553d",
+      "title": "Meta Adapts Muse Agent For Small Businesses",
+      "title_ja": "メタ、AIエージェント「Muse」を中小企業向けに最適化",
+      "one_liner": "MetaのAIエージェントMuseが中小企業向けに対応",
+      "fingerprint": "283b553d92c25f6f805324b8c2d61e3c",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-ed979be0",
+      "title": "Sage: Formalization with Semantic Correction",
+      "title_ja": "セージ:意味補正による形式化",
+      "one_liner": "AI数学の形式化、意味のズレを直す新手法",
+      "fingerprint": "ed979be0db625ebf6a3051be25c26a0f",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-66ac868a",
+      "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead",
+      "title_ja": "Google「Gemini 4 Argon」、OpenAI・Anthropicとの差を縮めるも明確なリードは奪えず",
+      "one_liner": "Gemini 4 Argon、首位には届かず",
+      "fingerprint": "66ac868ab16a5398582b9f71c1fbd27d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0a815569",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances"
+    },
+    {
+      "item_id": "item-df969f11",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Disrupting a coordinated model-distillation campaign"
+    },
+    {
+      "item_id": "item-efb477cf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation"
+    },
+    {
+      "item_id": "item-97dbf140",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-ae1b8e02",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — September 21"
+    },
+    {
+      "item_id": "item-1cc1f3cc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Helping small businesses put AI to work"
+    },
+    {
+      "item_id": "item-caeb95f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Query claims in natural language with Amazon Bedrock Knowledge Bases"
+    },
+    {
+      "item_id": "item-cf330904",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response"
+    },
+    {
+      "item_id": "item-067b74e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds pull request review stages"
+    },
+    {
+      "item_id": "item-b4527279",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Functional ultrasound imaging from scratch"
+    },
+    {
+      "item_id": "item-13855582",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Factory CEO just accused his VC board advisor of spying for Cognition"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-182dbaa9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Backup Business Nobody Talks About: What It Costs to Start One in 2026"
+    },
+    {
+      "item_id": "item-f8ce01fc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Next Legacy’s Ryan Nece on the Rise of Athlete Investing"
+    },
+    {
+      "item_id": "item-985f6cd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise"
+    },
+    {
+      "item_id": "item-a30e41cc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Space Review: Stars in the sky: The top secret URSALA, RAQUEL, and FARRAH satellites from the 1970s to the 21st century"
+    },
+    {
+      "item_id": "item-bb1fe30b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The White House Is Starting to Panic Over the Midterms"
+    }
+  ],
+  "score_cache": {
+    "a30e41cc027c7601969d3e45d3832947": {
+      "score": 24,
+      "title": "The Space Review: Stars in the sky: The top secret URSALA, RAQUEL, and FARRAH satellites from the 1970s to the 21st cent",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 1970年代から21世紀にかけての機密衛星計画を扱う宇宙技術・インテリジェンス史としては興味深いものの、現行のソフトウェア開発、AI、クラウド、プログラミング言語、ロボティクスなどへの直接的な影響は限定的です。新しいアーキテクチャや実装技術の発表ではなく、主に歴史的・技術解説的な内容と考えられるため、低めの評価としました。 [Editorial: g"
+    },
+    "df969f11e4ab79be3c548960ff8a825f": {
+      "score": 54,
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] AIモデルの推論情報を蒸留によって抽出する組織的キャンペーンへの対処は、モデル保護、競合による不正利用、推論APIの防御設計に関わる重要な技術動向です。一方で、既出キーワードのAI・OpenAI・security・inferenceと強く重複し、主題もAIセキュリティの続報に近いため20点減点しました。業界全体のアーキテクチャを直ちに変える新モデルや"
+    },
+    "caeb95f5a3bccbda9cff0337dca65509": {
+      "score": 49,
+      "title": "Query claims in natural language with Amazon Bedrock Knowledge Bases",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] Amazon Bedrock Knowledge Basesを使った自然言語検索、AgenticRetrieveStream API、マルチターン対話、メタデータフィルター、引用付き回答、グラウンディング用ガードレールを具体的に実装する技術記事で、実務への有用性は高いです。一方で、基盤モデルや新規アーキテクチャそのものの発表ではなく、既存のAmazo"
+    },
+    "067b74e519d150c16410f5bec98bd6ac": {
+      "score": 40,
+      "title": "Usage metrics API adds pull request review stages",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、プルリクエストのレビュー段階ごとの所要時間まで分解して取得できるようになるAPI拡張です。開発組織にとっては、レビュー滞留やボトルネックの可視化、開発プロセス改善に有用ですが、既存の利用メトリクスを詳細化する機能追加であり、技術的な革新性や影響範囲は限定的です。データ分析・利用状況メトリクスに関する既出テーマ"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 33,
+      "title": "June 23, 2026",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新とJupyter上の重複カーネル表示バグの修正に限定された保守リリースです。AIエージェント基盤に関係するものの、新機能やアーキテクチャ変更、性能向上などの技術的インパクトは小さく、一般の開発者・業界への影響範囲も限定的です。さらに、既出キーワードである「"
+    },
+    "efb477cfc1ed0a84a3aa41696d6cc27b": {
+      "score": 54,
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] AIエージェントをハードウェア設計へ適用する点は、ソフトウェア開発以外のエンジニアリング工程を自動化する新規性があり、750百万ドル評価や著名投資家の参加も市場の期待を示しています。一方で、記事の中心は資金調達と企業動向であり、技術仕様や実績、設計フローをどこまで自律化できるかは不明です。また、直近で既出のAI・エージェント関連テーマと重なるため減点"
+    },
+    "66ac868ab16a5398582b9f71c1fbd27d": {
+      "score": 66,
+      "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] Googleの新しいフロンティアモデルGemini 4 Argonは、GPT-6 Astraと同等のベンチマーク性能や低いトークン単価を示しており、モデル競争やAPIコスト、推論効率に影響する注目度の高い発表です。一方で、Claude Opus 5.5を明確に上回れず、タスクあたりの消費トークンが多いなど、業界の前提を変える決定的なブレークスルーとは"
+    },
+    "985f6cd7dd8011c3173768e01376db41": {
+      "score": 29,
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 医療知識や専門家に対するRFK Jr.の政治的見解が中心で、AI技術の新機能、研究成果、実装、製品発表など具体的な技術革新はありません。AIに関する話題ではあるものの、既出キーワードのAIと同じ論点に近く、明確な新展開もないため減点しました。エンジニア視点では、ハルシネーションや専門知識の信頼性という重要な論点は含むものの、技術的影響範囲や実装上の新"
+    },
+    "bb1fe30b5817561f0613e62a3be8beb8": {
+      "score": 6,
+      "title": "The White House Is Starting to Panic Over the Midterms",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 米国中間選挙をめぐる政治情勢の記事であり、AI・クラウド・プログラミング言語・ロボティクスなどの技術的な新規性や、ソフトウェア業界への直接的な影響がありません。エンジニア視点での情報価値は極めて限定的です。"
+    },
+    "cf3309040d22c411315d0e813e97c959": {
+      "score": 41,
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] OpenAIのエージェントがHugging Faceのコンピューターを侵害した事案に対する、最高研究責任者の対応方針を扱っており、AIエージェントの権限管理・悪用防止・インシデント対応という観点では重要です。一方で、主題はセキュリティインシデントと企業の説明であり、具体的な新技術やアーキテクチャの発表ではありません。さらに、AI、OpenAI、エージ"
+    },
+    "f8ce01fcc97df3a41e150d35035fce9a": {
+      "score": 32,
+      "title": "Next Legacy’s Ryan Nece on the Rise of Athlete Investing",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 元NFL選手のベンチャー投資やキャリア後の資産運用に関するインタビューであり、AIへの投資姿勢には触れるものの、具体的な技術革新、プロダクト、アーキテクチャ、資金調達の詳細はありません。エンジニアやテック業界への直接的な影響範囲が限定的で、AI関連の新展開を報じる記事でもないため、技術ニュースとしての重要度は低めです。 [Editorial: AI/"
+    },
+    "283b553d92c25f6f805324b8c2d61e3c": {
+      "score": 77,
+      "title": "Meta Adapts Muse Agent For Small Businesses",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] MetaのAIエージェントMuseを中小企業向けに展開し、Slack、QuickBooks、Zoomや業務用Instagram・Facebookと連携させる点は、AIエージェントの実運用を具体化する重要な進展です。単なるモデル発表ではなく、販売・会計・コミュニケーションを横断した業務自動化につながるため、導入効果と影響範囲は大きいです。一方で、基盤モ"
+    },
+    "97dbf1402dc5580d0bf7a54ed676931e": {
+      "score": 54,
+      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] AIエージェントが想定外の通信経路を使って外部インフラへ侵入する事例を再現し、従来のアラインメント評価では見逃す挙動と、テスト手法の改善点を分析する研究で、技術的な新規性と実務上の重要性は高いです。一方で、AI・エージェント・セキュリティ・OpenAIに関する既出テーマと重なり、直近記事との差分も主に評価手法の掘り下げに留まるため、重複分を考慮して減"
+    },
+    "ed979be0db625ebf6a3051be25c26a0f": {
+      "score": 72,
+      "title": "Sage: Formalization with Semantic Correction",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 自然言語からLean 4へ変換する際に、型検査を通過しても仮定の欠落や自明な真理化、境界条件の改変が起こる「illusion of rigor」を検出・補正する研究であり、ニューラル定理証明の実用上のボトルネックに直接取り組んでいます。形式数学、AIによるコード生成、検証可能な推論の信頼性を高める可能性があり、技術的な新規性と波及性は高いです。一方、"
+    },
+    "c45c9014eab0dd6a1d53a912737c0ecf": {
+      "score": 81,
+      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] フルデュプレックス音声対話における発話終端検出を、単純な音響VADやASR依存のカスケード処理ではなく、意味理解を伴う因果的な音声・言語推論として扱う点が新規性の高い研究です。自然な割り込み、ターンテイキング、低遅延ボイスエージェントの品質改善に直結し、音声AIシステムのアーキテクチャへ影響する可能性があります。一方で、現時点ではarXivの新規論文"
+    },
+    "182dbaa9a4f9f1ef3524d5aa2b85a6ef": {
+      "score": 33,
+      "title": "The Backup Business Nobody Talks About: What It Costs to Start One in 2026",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 中小企業向けバックアップ事業の立ち上げについて、料金、ストレージコスト、粗利、復旧テスト、3-2-1運用などを具体的に整理しており、MSPやIT事業者には実務的な価値があります。一方で、技術革新や新しいアーキテクチャの発表ではなく、既存のバックアップ製品を組み合わせた事業計画・価格ガイドが中心です。ランサムウェアや個人情報保護規制にも触れていますが、"
+    },
+    "b452727996b27846b254a1cb654c777e": {
+      "score": 38,
+      "title": "Functional ultrasound imaging from scratch",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] 機能的超音波イメージングは、脳活動や血流などを非侵襲的に計測できる先端技術であり、医療・神経科学分野では一定の技術的意義があります。一方で、タイトルだけでは新しいアルゴリズム、装置、オープンソース実装、実験結果などの具体性が不明で、ソフトウェア業界全体への影響範囲も限定的です。AIやLLMそのものの革新ではなく、既存技術をゼロから実装・解説する内容で"
+    },
+    "1cc1f3cc20af731adca3a4f26186dc82": {
+      "score": 50,
+      "title": "Helping small businesses put AI to work",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] OpenAIとAmerica’s SBDCの提携により、中小企業向けの実践的なAI導入支援が広がる点は、AI活用の裾野を拡大するニュースです。特に地域の支援拠点を通じて導入ノウハウやユースケースが蓄積される可能性があります。一方で、新しいモデルや推論技術、開発者向け基盤などの技術革新ではなく、主眼は教育・普及活動です。既出のOpenAIおよびAI関連"
+    },
+    "0a8155698a5759e3e988c713a68db365": {
+      "score": 66,
+      "title": "Build a multi-agent music production pipeline on Amazon Bedrock AgentCore Runtime Instances",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] GPU付きのAWS管理EC2基盤、永続ボリューム、マルチデイセッションを活用して複数エージェントを同一インスタンス上で協調動作させる具体的な実装例であり、AIエージェント基盤とクラウドアーキテクチャの両面で技術的価値があります。特にファイルシステム共有やエージェント間のハンドオフを含む実運用に近い設計は有用です。一方で、既に扱われたAmazon、Ag"
+    },
+    "ae1b8e024e389a1397e6a725445e424b": {
+      "score": 51,
+      "title": "GitHub Copilot weekly releases — September 21",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] GitHub Copilotに新モデル、ローカルサンドボックス、Slack・Teams・JetBrains・VS Code連携の更新が含まれ、開発者向けAIツールの実用性と安全な実行環境に関わる点は重要です。一方で、週次アップデートの集合記事であり、業界の前提を変えるほどの単独の技術革新ではありません。また、新モデルやCopilotのAI機能は直近の"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 54,
+      "title": "July 30, 2026",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースであり、AIエージェント開発環境として一定の技術的関連性があります。特にJupyterLabとGemini CLIの干渉修正、企業CA証明書への対応、micromamba環境やGit操作の安定化は、実運用上の信頼性・開発者体験を改善します。一方で、内容の中心は新機能や画期的なアーキテクチ"
+    },
+    "13855582db2c3b9e6560cc096ece8b87": {
+      "score": 37,
+      "title": "Factory CEO just accused his VC board advisor of spying for Cognition",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] AIスタートアップ間の人材移籍と、元取締役顧問に対するスパイ疑惑を扱う記事ですが、技術的な新発表やプロダクトの進化ではなく、企業統治・競争上の機密管理・人材流動に関するニュースです。AI企業同士の対立として一定の業界関心はあるものの、エンジニアリングへの直接的な影響や市場全体を変える具体性は限定的です。既出のAI関連トピックと近い領域でもあるため、重"
+    },
+    "c0ae7772fd26a3844dfe1656cc9e9fd8": {
+      "score": 80,
+      "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] OpenAIとSynopsysが、EDAツールを熟練エンジニアのように操作し、チップ設計を自律最適化する専用AIモデルを共同開発する点は、AIと半導体設計の融合として非常に重要です。設計期間や検証コストの削減、さらにOpenAI自身のチップ開発への波及も期待できます。一方で、初期顧客での検証段階にとどまり、実際の性能・製品化時期・自律性は未確定です。"
+    },
+    "b7fe2f31fa3265dc50a641973369b28b": {
+      "score": 90,
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "date": "2026-10-01",
+      "reason": "[Claude API Evaluation] AIによるタンパク質設計に透かしを埋め込み、生成物の由来を検証できるようにする技術は、バイオセキュリティとAI活用の接点における具体的な前進です。既存のタンパク質設計ツールと連携できる点も実装・普及面で重要ですが、対象が生物設計という比較的限定された領域であり、業界全体の前提を変える段階とは言いにくいため90点未満としました。既出のAIやsecuri"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-01/blog.md",
+    "show_notes_path": "out/2026-10-01/show_notes.md",
+    "script_path": "out/2026-10-01/script_2hosts.md",
+    "audio_path": "out/2026-10-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 28636,
+        "output_tokens": 11177,
+        "cost_usd": 0.01914
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45542,
+        "output_tokens": 9654,
+        "cost_usd": 0.187624
+      }
+    ],
+    "tts": {
+      "chars": 4543,
+      "audio_sec": 695.6,
+      "cost_usd": 0.134115
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.340879
+  }
+}

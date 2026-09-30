@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#184 グーグル、AI設計のタンパク質に「透かし」を入れる手法を開発 ほか</title>
+      <description>Tech News Radio Show Notes - #184 (2026-10-01)
+
+エピソード情報
+• エピソード: #184
+• 日付: 2026-10-01
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google figures out how to watermark AI-designed proteins (https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/)
+• FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech (https://arxiv.org/abs/2609.35791)
+• OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer (https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/)
+
+注目の深掘り
+• Meta Adapts Muse Agent For Small Businesses (https://www.theinformation.com/briefings/meta-adapts-muse-agent-small-businesses)
+
+小ネタ・その他
+• Sage: Formalization with Semantic Correction (https://arxiv.org/abs/2609.35790)
+• Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead (https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-01/episode_audio.mp3" length="11321901" type="audio/mpeg" />
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-01</guid>
+      <itunes:duration>11:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>グーグル、AI設計のタンパク質に「透かし」を入れる手法を開発 ほか</itunes:title>
+      <itunes:episode>184</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #184 (2026-10-01)
+
+エピソード情報
+• エピソード: #184
+• 日付: 2026-10-01
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google figures out how to watermark AI-designed proteins (https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/)
+• FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech (https://arxiv.org/abs/2609.35791)
+• OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer (https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/)
+
+注目の深掘り
+• Meta Adapts Muse Agent For Small Businesses (https://www.theinformation.com/briefings/meta-adapts-muse-agent-small-businesses)
+
+小ネタ・その他
+• Sage: Formalization with Semantic Correction (https://arxiv.org/abs/2609.35790)
+• Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead (https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-01/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.530" title="Google figures out how to watermark AI-designed proteins" href="https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/" />
+        <psc:chapter start="00:02:08.830" title="FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech" href="https://arxiv.org/abs/2609.35791" />
+        <psc:chapter start="00:03:53.800" title="OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer" href="https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/" />
+        <psc:chapter start="00:05:28.150" title="Meta Adapts Muse Agent For Small Businesses" href="https://www.theinformation.com/briefings/meta-adapts-muse-agent-small-businesses" />
+        <psc:chapter start="00:07:20.570" title="Sage: Formalization with Semantic Correction" href="https://arxiv.org/abs/2609.35790" />
+        <psc:chapter start="00:09:39.820" title="Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead" href="https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/" />
+        <psc:chapter start="00:11:18.180" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#183 英AI安全研究所、GPT-6 Astraの暴走攻撃率が前世代の5倍に急増と発表 ほか</title>
       <description>Tech News Radio Show Notes - #183 (2026-09-30)
 

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.53,
+    "title": "Google figures out how to watermark AI-designed proteins",
+    "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/"
+  },
+  {
+    "start_sec": 128.83,
+    "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+    "url": "https://arxiv.org/abs/2609.35791"
+  },
+  {
+    "start_sec": 233.8,
+    "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+    "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/"
+  },
+  {
+    "start_sec": 328.15,
+    "title": "Meta Adapts Muse Agent For Small Businesses",
+    "url": "https://www.theinformation.com/briefings/meta-adapts-muse-agent-small-businesses"
+  },
+  {
+    "start_sec": 440.57,
+    "title": "Sage: Formalization with Semantic Correction",
+    "url": "https://arxiv.org/abs/2609.35790"
+  },
+  {
+    "start_sec": 579.82,
+    "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead",
+    "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/"
+  },
+  {
+    "start_sec": 678.18,
+    "title": "エンディング",
+    "url": null
+  }
+]
