@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#185 被験者のほぼ半数が、Tavusのパーソナ AIビデオアバターを1分間の通話で本物の人間と誤認 訂正: 被験者のほぼ半数…</title>
+      <description>Tech News Radio Show Notes - #185 (2026-10-02)
+
+エピソード情報
+• エピソード: #185
+• 日付: 2026-10-02
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call (https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/)
+• Ideogram says its new model can edit part of an image without messing up the rest (https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/)
+• GitHub Copilot can now interact with desktop apps with computer use (https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps)
+
+注目の深掘り
+• Serverless gossip training of LSTM failure detectors: A matched-protocol comparison with federated, local and centralized learning on NASA C-MAPSS (https://arxiv.org/abs/2609.35792)
+
+小ネタ・その他
+• The Download: AI “mind-reading” and creative uses for small batteries (https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/)
+• Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation (https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-02/episode_audio.mp3" length="11140653" type="audio/mpeg" />
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-02</guid>
+      <itunes:duration>11:36</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>被験者のほぼ半数が、Tavusのパーソナ AIビデオアバターを1分間の通話で本物の人間と誤認 訂正: 被験者のほぼ半数…</itunes:title>
+      <itunes:episode>185</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #185 (2026-10-02)
+
+エピソード情報
+• エピソード: #185
+• 日付: 2026-10-02
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call (https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/)
+• Ideogram says its new model can edit part of an image without messing up the rest (https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/)
+• GitHub Copilot can now interact with desktop apps with computer use (https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps)
+
+注目の深掘り
+• Serverless gossip training of LSTM failure detectors: A matched-protocol comparison with federated, local and centralized learning on NASA C-MAPSS (https://arxiv.org/abs/2609.35792)
+
+小ネタ・その他
+• The Download: AI “mind-reading” and creative uses for small batteries (https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/)
+• Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation (https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-02/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.680" title="Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call" href="https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/" />
+        <psc:chapter start="00:01:57.200" title="Ideogram says its new model can edit part of an image without messing up the rest" href="https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/" />
+        <psc:chapter start="00:03:41.480" title="GitHub Copilot can now interact with desktop apps with computer use" href="https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps" />
+        <psc:chapter start="00:05:20.140" title="Serverless gossip training of LSTM failure detectors: A matched-protocol comparison with federated, local and centralized learning on NASA C-MAPSS" href="https://arxiv.org/abs/2609.35792" />
+        <psc:chapter start="00:07:29.230" title="The Download: AI “mind-reading” and creative uses for small batteries" href="https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/" />
+        <psc:chapter start="00:09:23.020" title="Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation" href="https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/" />
+        <psc:chapter start="00:11:05.070" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#184 グーグル、AI設計のタンパク質に「透かし」を入れる手法を開発 ほか</title>
       <description>Tech News Radio Show Notes - #184 (2026-10-01)
 

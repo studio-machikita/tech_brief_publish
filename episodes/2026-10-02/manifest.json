@@ -1,0 +1,368 @@
+{
+  "date": "2026-10-02",
+  "episode_date_local": "2026-10-02",
+  "content_snapshot_date": "2026-10-02",
+  "show_length_sec": 696,
+  "audio_size": 11140653,
+  "generated_at": "2026-10-01T23:05:31.495745+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-c06762e9",
+      "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+      "title_ja": "被験者のほぼ半数が、Tavusのパーソナ AIビデオアバターを1分間の通話で本物の人間と誤認 訂正: 被験者のほぼ半数が、TavusのAIビデオアバターを1分間の通話で本物の人間と誤認",
+      "one_liner": "AIアバターを半数近くが本物の人間と誤認",
+      "fingerprint": "c06762e971b78737e9e67c7360c3ad9b",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-3089c4be",
+      "title": "Ideogram says its new model can edit part of an image without messing up the rest",
+      "title_ja": "Ideogram、新モデルで画像の一部だけを編集可能に ほかの部分は崩れずそのまま",
+      "one_liner": "Ideogram 4.5が部分編集と2K生成に対応",
+      "fingerprint": "3089c4beff12769c29e417b96412d48c",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0c0eb9e4",
+      "title": "GitHub Copilot can now interact with desktop apps with computer use",
+      "title_ja": "GitHub Copilot、コンピューター操作でデスクトップアプリとの連携が可能に",
+      "one_liner": "CopilotがPCのアプリを直接操作できる",
+      "fingerprint": "0c0eb9e4e672e1272e5139b9fe43af4c",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-e4276e5e",
+      "title": "Serverless gossip training of LSTM failure detectors: A matched-protocol comparison with federated, local and centralized learning on NASA C-MAPSS",
+      "title_ja": "NASA C-MAPSSにおけるLSTM故障検知器のサーバーレス・ゴシップ学習:連合学習・ローカル学習・集中学習との同一プロトコル比較",
+      "one_liner": "サーバーなしの学習で故障検知を比較",
+      "fingerprint": "e4276e5e39e4e4fb5ef6ec9fb3aeba86",
+      "score": 62,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-4183d563",
+      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
+      "title_ja": "The Download:AIによる「読心術」と、小型バッテリーの創造的な活用法",
+      "one_liner": "脳スキャンから見ている映像をAIが再現",
+      "fingerprint": "4183d563b98b94966659e53e6f4d591c",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-825696ca",
+      "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+      "title_ja": "ケビン・マンディア氏の新セキュリティ企業「Armadin」、「エージェント群」技術で2億5,550万ドルを調達 評価額25億ドルに",
+      "one_liner": "Mandia氏の新会社Armadinが約255億円を調達",
+      "fingerprint": "825696ca784885ec81fafbb6c4984191",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-005ec72e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-984407ca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cracks Emerge in AI’s Debt-Fueled Data Center Boom"
+    },
+    {
+      "item_id": "item-5dd03afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience"
+    },
+    {
+      "item_id": "item-6ded9972",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "With most information hidden, the game Stratego had stumped AI—until now"
+    },
+    {
+      "item_id": "item-bcab4b7a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Serve live, governed data in AI-built apps with Amazon Quick"
+    },
+    {
+      "item_id": "item-54457751",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in VS Code, September 2026 releases"
+    },
+    {
+      "item_id": "item-2858c912",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The eternal complement"
+    },
+    {
+      "item_id": "item-40e308bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Albertsons Companies is reimagining retail from the inside out"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-9edee67e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Analyzing The Lumen Anchor Protocol - Using Google AI Studio"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-c988a6b9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation"
+    },
+    {
+      "item_id": "item-d75c7e14",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Large Language Models are Approximate Survival Estimators"
+    },
+    {
+      "item_id": "item-43edef62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The death of web development education"
+    },
+    {
+      "item_id": "item-d812c9c5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Firmus Eyes $30 Billion Valuation in Australian IPO, AFR Reports"
+    },
+    {
+      "item_id": "item-2e0f4d05",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CSS Bed"
+    },
+    {
+      "item_id": "item-9149ad2d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers"
+    },
+    {
+      "item_id": "item-3865b015",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Early Prime Day Deals Ahead of Amazon’s Second Sale (2026)"
+    }
+  ],
+  "score_cache": {
+    "2e0f4d05e9a172d7c4a11cbead30a926": {
+      "score": 24,
+      "title": "CSS Bed",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] タイトルだけでは内容や技術的な新規性、影響範囲を判断できません。「CSS Bed」がCSS関連のライブラリや実験的なWeb開発プロジェクトを指す可能性はありますが、具体的な機能・採用実績・アーキテクチャ上の進展が不明です。現時点では、業界への影響を評価できる情報が不足しているため低めのスコアとします。"
+    },
+    "2858c91264bb2fd71c9ad8e75523129f": {
+      "score": 47,
+      "title": "The eternal complement",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 高度なAIが画期的な成果を支える定型業務を担い、経済や進歩の速度を変えるという論点は、AI活用の本質に関わるため一定の重要性があります。一方で、具体的な製品、技術的ブレークスルー、導入事例、性能指標などが示されておらず、抽象的な論考にとどまっています。また、直近に取り上げ済みのAI関連トピックと同じ角度の可能性が高いため20点減点しました。 [Edi"
+    },
+    "5dd03afd0826a0e3447b86fdc0d7468b": {
+      "score": 49,
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 大手銀行BarclaysがClaudeを業務オペレーションや顧客体験の改善に大規模展開する点は、生成AIのエンタープライズ活用事例として意義があります。一方で、タイトルだけでは導入規模、対象業務、技術構成、成果指標などの具体性がなく、業界の前提を変えるほどの新規性は確認できません。また、直近に取り上げ済みのAI・LLM・モデル関連トピックと同じ軸の続"
+    },
+    "005ec72e0a5ef09c6beb0f2c0fd8327f": {
+      "score": 58,
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] AWSの実運用におけるマルチエージェント構成を、クラウド移行の調査、IaC生成、ガバナンス、移行後運用まで一連の工程へ適用している点は、エンタープライズ開発の自動化事例として具体性と実務的インパクトがあります。特にIaC開発を数週間から数分へ短縮する主張は、クラウドアーキテクチャやDevOpsの生産性に関わる重要な内容です。一方で、AI・Amazon"
+    },
+    "0c0eb9e4e672e1272e5139b9fe43af4c": {
+      "score": 83,
+      "title": "GitHub Copilot can now interact with desktop apps with computer use",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] GitHub CopilotがCLIやmacOS・Windowsアプリからデスクトップアプリを視覚的に操作できるようになる点は、コード生成から実際のGUI操作・業務自動化へ拡張する重要な進展です。開発者のテスト、設定、定型作業を横断的に自動化できる可能性があり、エージェント型コンピューティングの実用化に近い具体的なアップデートです。一方で、現時点では"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 38,
+      "title": "June 23, 2026",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchという開発環境の更新ですが、内容は依存パッケージの更新とPythonカーネル重複表示の不具合修正が中心で、アーキテクチャや機能面の大きな進化はありません。Agent関連で既出キーワードと同じ領域に該当するため減点しています。利用者の安定性や運用性には寄与するものの、影響範囲と技術的新規性は限定的です。 "
+    },
+    "9149ad2d6d3ef30762c850dc3c7e7728": {
+      "score": 24,
+      "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] ギグワーカーのドライバー分類を巡る訴訟の和解であり、主題は法務・労務規制です。Lyftが2億7,250万ドルを支払う規模や、契約ドライバーの扱いに影響する点は重要ですが、ソフトウェア技術、アーキテクチャ、AIなどへの直接的な新規性はありません。"
+    },
+    "c06762e971b78737e9e67c7360c3ad9b": {
+      "score": 90,
+      "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] リアルタイム映像対話、表情・声のトーン・ジェスチャー処理を統合したTavusの新しいAIアバター技術であり、ヒューマン・コンピュータ・インタラクションの前提を変える可能性があります。1分間の通話で48%が人間と誤認したという結果も、従来システムの2%から大幅に進歩しており、技術的インパクトは高いです。一方で、評価は自社研究による短時間の実験結果に依存"
+    },
+    "6ded9972ac7656068e1b1948ee71867e": {
+      "score": 49,
+      "title": "With most information hidden, the game Stratego had stumped AI—until now",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 隠れ情報を扱う不完全情報ゲームで、駒の正体を推測する第2のニューラルネットワークを組み合わせて性能を向上させた点は、マルチエージェント学習や不確実性下の推論に関する技術的な示唆があり、一般的なゲームAIより興味深い。一方で、適用範囲は主にStrategoという特定ゲームに限られ、業界の前提を変えるほどの汎用的なブレークスルーとは言いにくい。また、AI"
+    },
+    "3865b0157d90bbef0ad156dc557fe144": {
+      "score": 6,
+      "title": "The Best Early Prime Day Deals Ahead of Amazon’s Second Sale (2026)",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] Amazonのセール開始前における一般消費者向け製品の割引情報であり、ソフトウェア開発、技術アーキテクチャ、AI、クラウドなどへの直接的な影響や技術的新規性がほぼありません。過去の取り上げ済みキーワードにAmazonが含まれますが、本件は新しい技術展開ではなく、消費者向けセール情報のため追加の評価要素にはなりません。"
+    },
+    "4183d563b98b94966659e53e6f4d591c": {
+      "score": 60,
+      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 脳スキャンから視覚情報を再構成するAIは、ブレイン・コンピューター・インターフェースや神経科学に関わる先端的で興味深い応用です。画像再構成モデル、脳活動データの解釈、プライバシーや倫理面にも発展し得るため技術的な注目度は高めです。一方、記事はニュースレター形式で具体的な精度・手法・実用化状況が不明で、現時点では研究段階の可能性が高い点を考慮しました。"
+    },
+    "d812c9c508f288b031c3c69bb230218f": {
+      "score": 30,
+      "title": "Firmus Eyes $30 Billion Valuation in Australian IPO, AFR Reports",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] データセンター事業者の大型IPOは、AIやクラウドを支える計算資源・電力インフラへの投資動向を示す点で、テック業界には一定の意味があります。一方で、記事の中心は30億ドル規模の評価額と上場計画であり、アーキテクチャ、技術革新、サービス仕様などエンジニアに直接影響する具体性は限定的です。AIインフラ市場との関連は推測できるものの、現時点では金融・企業ニ"
+    },
+    "984407caf7bb3fa4daab1a20b91e9cdc": {
+      "score": 56,
+      "title": "Cracks Emerge in AI’s Debt-Fueled Data Center Boom",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] AIデータセンター拡張を支える資金調達に逆風が生じ、GPU・電力・ネットワークなどの計算基盤の整備計画やAIサービスのスケールに波及する可能性があるため、技術業界への影響は大きいです。一方で、具体的なアーキテクチャや製品の技術革新ではなく、主題は債券市場や融資環境に関する事業・金融ニュースです。AI関連ではあるものの、既出のAIそのものの進展ではなく"
+    },
+    "c988a6b9426906c02c904f4df15a6fe4": {
+      "score": 38,
+      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 視覚言語モデルによるOCRの忠実性を、オンポリシー蒸留・ゲーティング・教師信号の減衰で改善する研究であり、VLMの学習設計や実運用時の誤変換抑制に有用な技術的示唆があります。特に、学生モデルの性能向上に伴って固定教師の指導効果が低下する点を分析し、動的に教師信号を調整する方向性は新規性があります。一方で、arXivの初期研究であり、実サービスへの影響"
+    },
+    "e4276e5e39e4e4fb5ef6ec9fb3aeba86": {
+      "score": 62,
+      "title": "Serverless gossip training of LSTM failure detectors: A matched-protocol comparison with federated, local and centralize",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 中央サーバーを必要としないgossip学習を、FedAvg・ローカル学習・集中学習と同一条件で比較する研究であり、分散環境や工場設備の予知保全におけるアーキテクチャ上の示唆があります。サーバーレス化による可用性・通信経路の分散・データ秘匿性は実務的に重要ですが、対象がLSTMによる故障検知とNASA C-MAPSSデータセットに限定された比較研究で、"
+    },
+    "d75c7e14c5daf753f322ff72a681f588": {
+      "score": 38,
+      "title": "Large Language Models are Approximate Survival Estimators",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] LLMを生存時間解析という医療・統計分野に適用し、Survpromptによって構造化された患者情報から予後を推定する研究は技術的に興味深いです。LLMの出力を従来のサバイバル分析と比較評価する観点は、医療AIの実用性や限界を考えるうえで有用ですが、現時点ではarXivの研究段階であり、業界全体の前提を変えるほどの影響範囲や実運用への具体性は限定的です"
+    },
+    "9edee67ec3fdd8f2472f7844a751679c": {
+      "score": 41,
+      "title": "Analyzing The Lumen Anchor Protocol - Using Google AI Studio",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] フロンティアモデルの文脈ドリフト、迎合、幻覚、コンテキスト管理、プロンプト攻撃への対策を体系化したプロンプトフレームワークであり、実務的な検証素材としては一定の価値があります。一方で、基盤モデルや推論技術そのものの革新ではなく、個人が作成したルールセットの紹介に留まっており、効果を裏付ける定量評価や再現性も示されていません。さらに、既出キーワードであ"
+    },
+    "43edef6205617770c5a5cf9375ae7ea6": {
+      "score": 36,
+      "title": "The death of web development education",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] Web開発教育の衰退を論じるテーマは、開発者育成やAI時代の学習方法に関わる点で一定の関心があります。ただし、記事タイトルだけでは具体的な技術革新、製品発表、アーキテクチャ上の変化が確認できず、論説・問題提起に留まる可能性が高いため、エンジニアリング上の直接的な影響は限定的と判断しました。"
+    },
+    "40e308bdc50eb350de8b2c585dd42511": {
+      "score": 47,
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 大手小売企業がChatGPT EnterpriseとOpenAI APIを業務効率化や購買体験の改善に活用する事例で、生成AIの実運用という点では一定の業界的意義があります。ただし、基盤技術の新規発表ではなく、既存モデルの企業導入事例にとどまります。また、直近に取り上げ済みのAI・OpenAI・ChatGPTに直接該当し、同じ導入・活用の角度であるた"
+    },
+    "bcab4b7a722adea653bbe401aab11b5e": {
+      "score": 49,
+      "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] AIで構築したアプリから、Amazon Quick Sightのガバナンス済みデータセットを実行時に参照できる点は、静的なビルド時スナップショットからリアルタイムデータ連携へ進む実務的な機能強化です。閲覧者単位で行・列レベルのアクセス制御を適用でき、AIアプリのデータ漏えいリスクを抑えながら業務利用しやすくする点は評価できます。一方で、基盤技術そのも"
+    },
+    "5445775141ab6f2a776b1a5e512dc7d3": {
+      "score": 49,
+      "title": "GitHub Copilot in VS Code, September 2026 releases",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] VS Code上のGitHub Copilotに、実装からプルリクエストのマージまでを自動化するエージェント機能や反復作業の自動化が追加され、開発ワークフローへの影響は大きい。一方で、業界の前提を変える基盤技術の発表ではなく、既存のAIコーディング支援の継続的な機能拡張に当たる。また、直近の既出キーワードである「agent」やAI開発支援と同じ角度を"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 47,
+      "title": "July 30, 2026",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新で、JupyterLabのファイル変更消失やカーネル中断、Git操作不能、micromamba環境作成失敗、企業CA証明書によるTLS検証問題など、開発環境の実運用上重要な不具合が複数修正されています。特にプロキシ配下の証明書対応や権限・Git設定の改善は、企業利用時の安定性を高める点で評価"
+    },
+    "825696ca784885ec81fafbb6c4984191": {
+      "score": 60,
+      "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] エージェントスウォームを企業セキュリティのテストと防御に活用する新興スタートアップで、創業者の実績に加え、2.5Bドル評価・2億5550万ドル調達という規模は市場の期待と資本流入を示す点で注目度が高いです。一方、AIエージェントおよびセキュリティは既出テーマと重なり、技術の具体的な実装、導入実績、従来のセキュリティ製品との差分が記事だけでは不明なため"
+    },
+    "3089c4beff12769c29e417b96412d48c": {
+      "score": 90,
+      "title": "Ideogram says its new model can edit part of an image without messing up the rest",
+      "date": "2026-10-02",
+      "reason": "[Claude API Evaluation] 生成画像の一部分だけを編集し、未指定領域の構図や内容を維持する機能は、実運用で大きな課題だった編集精度と制御性を改善する重要な進展です。ネイティブ2K対応、低価格、Runway・Pika・Leonardo AIなどへの採用予定、さらにオープンウェイト化の計画もあり、クリエイティブツールや画像生成APIへの波及が期待できます。一方で、業界全体の前提を変"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-02/blog.md",
+    "show_notes_path": "out/2026-10-02/show_notes.md",
+    "script_path": "out/2026-10-02/script_2hosts.md",
+    "audio_path": "out/2026-10-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 26119,
+        "output_tokens": 11165,
+        "cost_usd": 0.018622
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45548,
+        "output_tokens": 9608,
+        "cost_usd": 0.187176
+      }
+    ],
+    "tts": {
+      "chars": 4453,
+      "audio_sec": 684.4,
+      "cost_usd": 0.131954
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.337752
+  }
+}
