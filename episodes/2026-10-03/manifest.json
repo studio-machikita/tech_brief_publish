@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-03",
+  "episode_date_local": "2026-10-03",
+  "content_snapshot_date": "2026-10-03",
+  "show_length_sec": 736,
+  "audio_size": 11785773,
+  "generated_at": "2026-10-02T22:02:05.596094+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5e44ac47",
+      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+      "title_ja": "Amazon Quickと「Adjudicated Query」パターンで数千件のリース契約のコンプライアンスを一括チェック",
+      "one_liner": "賃貸契約の大量チェックをAIで確実に",
+      "fingerprint": "5e44ac47ed7f6ae6b273ec4422ae6810",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-9da97b8c",
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "title_ja": "長期タスク言語エージェントにおける重い裾を持つ記憶トレース",
+      "one_liner": "エージェントの記憶は一部に偏り、裾野で誤差が積もる",
+      "fingerprint": "9da97b8c2e967fc4f0905ff1a8c56bd0",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-db3a04b9",
+      "title": "AI music generator Suno can now create spoken audio with matching background music",
+      "title_ja": "AI音楽生成ツールのSuno、BGM付きの音声ナレーションも作成可能に",
+      "one_liner": "SunoがAI音声と音楽を一度に作る新機能を追加",
+      "fingerprint": "db3a04b95fdc0f73da99236e94606178",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-56b8b76d",
+      "title": "0.17.0 Release Notes ⚡ The Zig Programming Language",
+      "title_ja": "0.17.0 リリースノート ⚡ Zigプログラミング言語",
+      "one_liner": "Zig 0.17.0のリリースノートが公開",
+      "fingerprint": "56b8b76dd1754e9d63e1a3378b62b081",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-1737f801",
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "title_ja": "Anthropic、1億ドルを投じエンジニア1万人を育成 企業のAI人材不足に対応",
+      "one_liner": "Anthropic、1億ドルで1万人のAI技術者を育成",
+      "fingerprint": "1737f801e3eacbf9d21f833c0d4e0982",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-ca84b36a",
+      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreでClaude Desktopに安全なウェブ検索を追加する",
+      "one_liner": "Claude Desktopに安全なWeb検索を追加する方法",
+      "fingerprint": "ca84b36a41fd1b5d980ff209f5c340cc",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7bbc54b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A model guide for the GPT-6 family"
+    },
+    {
+      "item_id": "item-815b984b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How SpaceX’s AI Unit Turned Itself Into an AI Cloud Firm"
+    },
+    {
+      "item_id": "item-b1607543",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chatham scales its capital markets expertise with OpenAI"
+    },
+    {
+      "item_id": "item-54457751",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in VS Code, September 2026 releases"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-5dd03afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience"
+    },
+    {
+      "item_id": "item-5f1bef0b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redefining enterprise intelligence with autonomous AI"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-c74f7dcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Selected models in GitHub Copilot deprecated"
+    },
+    {
+      "item_id": "item-d75c7e14",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Large Language Models are Approximate Survival Estimators"
+    },
+    {
+      "item_id": "item-48d7ab63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to scrape product prices, stock and GTIN from any online store"
+    },
+    {
+      "item_id": "item-cf64e565",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sean Parker is rebuilding Stability AI around music"
+    },
+    {
+      "item_id": "item-948300c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI is changing developer work. Here are three skills to strengthen."
+    },
+    {
+      "item_id": "item-c3622d02",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple to Tighten Mac Data Controls in Guard Against AI Agents"
+    },
+    {
+      "item_id": "item-1824aa61",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Harness Is the Company"
+    },
+    {
+      "item_id": "item-6df5da7a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Travel Time Prediction in Supply Chain Management Using Machine Learning"
+    },
+    {
+      "item_id": "item-4c8731b2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ICE Has Been Dumping Protester Photos Into a Palantir Database"
+    },
+    {
+      "item_id": "item-985f6cd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise"
+    }
+  ],
+  "score_cache": {
+    "1824aa615ee5b7f45685c6db7de1c425": {
+      "score": 36,
+      "title": "The Harness Is the Company",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] タイトルだけでは内容や技術的な新規性を十分に特定できず、業界の前提を変える発表と判断する根拠はありません。Harnessという開発・DevOps系プラットフォームや企業戦略に関する記事であれば、ソフトウェア開発プロセスへの影響はあるものの、具体的なアーキテクチャ変更、主要技術の進化、導入実績などが不明なため中程度の評価に留めます。既出キーワードとの明"
+    },
+    "7bbc54b85d8ca5bc3962c85085f048a1": {
+      "score": 61,
+      "title": "A model guide for the GPT-6 family",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] GPT-6ファミリーのモデル選定、推論強度の調整、プロンプト改善、ツール連携、プロダクション導入を扱うため、AI開発者やスタートアップへの実務的な影響は大きい。一方で、新モデル自体の発表ではなく導入ガイドであり、技術的な新規性や業界の前提を変える重大発表とまでは言いにくい。また、直近に取り上げ済みのAI・model・training・learning"
+    },
+    "1737f801e3eacbf9d21f833c0d4e0982": {
+      "score": 66,
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Anthropicが1億ドルを投じて1万人のエンジニアを育成する取り組みは、企業向けAIの導入障壁となっている人材不足に直接対応するもので、開発者エコシステムや企業のAI活用拡大に影響し得ます。一方で、既存モデルの技術革新や新たなアーキテクチャではなく、人材育成・普及施策が中心です。また、直近に取り上げ済みの「AI」「training」に関する話題と"
+    },
+    "5e44ac47ed7f6ae6b273ec4422ae6810": {
+      "score": 83,
+      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] LLMベースのチャットエージェントと、制約付きMCPサーバー、決定論的ルールエンジンを組み合わせ、数千件のリースを対象に網羅性と説明責任を担保する実装パターンを提示している点は、企業向けAI活用とクラウドアーキテクチャの両面で具体性が高いです。AWS CDKによるデプロイ可能なサンプルもあり、単なる概念紹介より実用価値があります。一方、対象がリースコ"
+    },
+    "948300c3399ef6c816b5445035aed53a": {
+      "score": 39,
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] AIエージェントへの指示、生成結果の批判的レビュー、技術的判断力の維持という開発者向けの実践的な論点で、開発プロセスへの影響はあります。ただし、具体的な製品発表や技術的ブレークスルーではなく、主にキャリア・業務スキルに関する一般的な提言です。また、直近放送済みの「AI」「learning」などと同じ文脈に該当するため、重複分として減点しました。 [E"
+    },
+    "c74f7dcdf56e2e5590b5bd8faf8e1d86": {
+      "score": 43,
+      "title": "Selected models in GitHub Copilot deprecated",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] GitHub Copilot全体で複数モデルが非推奨となるため、利用モデルの変更や互換性確認が必要になり、開発者への実務影響はあります。ただし、これは新技術の発表ではなく、既存サービスのモデルライフサイクル管理に関する運用ニュースです。さらに、既出キーワードの「Copilot」「model」と同じ話題に該当するため減点しました。スニペットでは対象モデ"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 46,
+      "title": "June 23, 2026",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchという開発・機械学習基盤の更新であり、Debianイメージへの依存パッケージ反映やipykernelの重複表示修正は実務上の安定性向上に寄与します。ただし、新しいアーキテクチャや主要機能、性能革新を示す発表ではなく、影響範囲も既存ユーザーの開発環境に限定された通常のメンテナンスリリースです。 [Edit"
+    },
+    "cf64e565c27ed9c88d19b996ba3076ec": {
+      "score": 41,
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Stability AIの再建と音楽分野への集中は、生成AIスタートアップの事業戦略や著作権者との提携という点で一定の業界的関心がある。一方、記事スニペットからは新モデルや技術的ブレークスルー、具体的なアーキテクチャ変更は確認できず、主に経営・資金・レーベル連携の話題に留まる。既出キーワードの「ai」と近いテーマであるため、重複分として減点した。 ["
+    },
+    "db3a04b95fdc0f73da99236e94606178": {
+      "score": 73,
+      "title": "AI music generator Suno can now create spoken audio with matching background music",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] AIによる音楽生成を、音声ナレーションと背景音楽を一体化したコンテンツ生成へ拡張する新機能であり、ポッドキャスト、瞑想、教育、ストーリーテリングなどへの応用が見込めます。音声と音楽のタイミングや雰囲気を単一トラックで整合させる点は技術的に興味深い一方、Sunoの既存サービスの機能拡張にとどまり、基盤モデルや業界構造を変えるほどの発表ではありません。ま"
+    },
+    "985f6cd7dd8011c3173768e01376db41": {
+      "score": 29,
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] AIに関する話題ではあるものの、具体的な技術革新や製品、研究成果ではなく、医療知識や専門家に対する政治的・思想的な見解が中心です。エンジニア視点での新規性や実装上の影響は乏しく、AIの医療利用に伴う誤情報・ハルシネーションのリスクを示唆する内容にとどまります。既出キーワードのAIと同じ話題軸にも該当するため減点しました。 [Editorial: AI"
+    },
+    "4c8731b256fea03c770ba7497266b868": {
+      "score": 32,
+      "title": "ICE Has Been Dumping Protester Photos Into a Palantir Database",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Palantir製データベースへの抗議者の写真・個人情報の登録は、監視基盤、プライバシー、政府によるデータ利用という点で重要なセキュリティ・ガバナンス問題です。一方で、AIやクラウド、プログラミング言語などの技術革新ではなく、主眼は捜査・監視運用と法的手続きにあります。Palantirという技術企業の実運用上の影響はあるものの、記事の新規技術性やエン"
+    },
+    "5f1bef0b522fe9d2b49fdd85761988f6": {
+      "score": 48,
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] 企業向けAIが自律的に業務を遂行する段階へ移行しつつあることや、投資規模と性能向上・コスト低下の傾向は、エンジニアリングやIT投資戦略に大きな影響を与える重要テーマです。一方で、具体的な製品発表、アーキテクチャ、導入事例、技術的ブレークスルーが示されておらず、内容は市場概況にとどまります。また、直近で取り上げ済みのAI関連トピックと同じ角度を含むため"
+    },
+    "c3622d02300b73097be14e8c324235bf": {
+      "score": 37,
+      "title": "Apple to Tighten Mac Data Controls in Guard Against AI Agents",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] AIエージェントによる広範なデータアクセスを制限するMac向けプライバシー制御は、エージェント実行環境の権限管理やサンドボックス設計に関わる重要な動きです。ただし、現時点では具体的なAPIやアーキテクチャ、提供時期が示されておらず、技術革新というよりセキュリティ・プライバシー運用に近い内容です。既出のAIおよびsecurity関連トピックと重なるため"
+    },
+    "815b984b38d6dd328addc821896ea49f": {
+      "score": 60,
+      "title": "How SpaceX’s AI Unit Turned Itself Into an AI Cloud Firm",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] SpaceXのAI部門が自社利用にとどまらず、MicrosoftやAnthropic、Googleなどに計算資源を提供するネオクラウド事業へ転換している点は、AIインフラ市場とクラウド競争に影響する注目度の高い動きです。特に大規模GPU計算資源の不足を背景に、宇宙関連企業がクラウド事業で大規模な収益を得る構図は新規性があります。一方で、記事は具体的な"
+    },
+    "9da97b8c2e967fc4f0905ff1a8c56bd0": {
+      "score": 77,
+      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] 長期稼働する言語エージェントの外部メモリについて、単純なタスク成功率やトークンコストではなく、メモリ利用の分布やロングテール状態での予測誤差蓄積に着目する新しい評価軸を提示しており、エージェント設計・検索・評価手法に影響し得る研究です。AIエージェントの信頼性や有限コンテキスト下での挙動を考えるうえで技術的な新規性は高い一方、現時点ではarXiv論文"
+    },
+    "6df5da7a8272cf6803fe94d0b9bbf9ba": {
+      "score": 36,
+      "title": "Travel Time Prediction in Supply Chain Management Using Machine Learning",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] 機械学習・深層学習を物流の移動時間予測に適用する研究であり、サプライチェーン最適化という実務的な影響はあります。一方で、arXivの新規研究紹介にとどまり、画期的なモデルや本番導入、業界構造を変える具体的成果はスニペットから確認できません。既出キーワードの「learning」「model」「training」と関連する機械学習モデルの話題で、同じ技術"
+    },
+    "d75c7e14c5daf753f322ff72a681f588": {
+      "score": 43,
+      "title": "Large Language Models are Approximate Survival Estimators",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] LLMを生存時間解析に応用し、構造化された患者情報から予後を推定するSurvpromptを提案する研究で、生成AIと医療予測の接点として技術的な新規性があります。LLMを単なる文章生成ではなく、統計的な時間-to-event推定器として評価する点は、医療AIの実用性・限界を検証するうえで有意義です。一方で、arXiv段階の研究であり、臨床導入や既存手"
+    },
+    "48d7ab6302d9071d551050a6d598227e": {
+      "score": 43,
+      "title": "How to scrape product prices, stock and GTIN from any online store",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Schema.orgのJSON-LDやOpen Graphを活用し、複数のEC基盤から価格・在庫・GTIN・バリエーションを統一形式で抽出できる実用的なスクレイピングツールです。HTTPベースで再現性があり、robots.txt遵守、API・Python連携、従量課金まで整っている点はエンジニアにとって有用です。一方で、既存の構造化データを読むETL"
+    },
+    "56b8b76dd1754e9d63e1a3378b62b081": {
+      "score": 72,
+      "title": "0.17.0 Release Notes ⚡ The Zig Programming Language",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Zig 0.17.0のリリースは、主要プログラミング言語の進化に関わる技術ニュースとして重要です。コンパイル性能、言語仕様、標準ライブラリ、ビルドシステム、クロスコンパイルなどの改善が含まれる可能性があり、システムソフトウェアや組み込み開発への影響が期待できます。一方で、業界全体の前提を変える発表とまでは言えず、スニペットがないため具体的な新機能や互"
+    },
+    "b16075432c7239089c245c7609e73698": {
+      "score": 54,
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] CodexとGPT-5.6を金融実務へ組み込み、取引検証を30分から4分未満に短縮した点は、LLMの業務ワークフロー統合と大幅な生産性向上を示す具体的な事例として価値があります。一方で、業界全体の前提を変える発表ではなく、単一企業の導入事例に留まります。また、OpenAI・AI・モデル関連は直近の既出テーマに該当するため、重複分を減点しました。 [E"
+    },
+    "5dd03afd0826a0e3447b86fdc0d7468b": {
+      "score": 49,
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-02",
+      "reason": "[ScoreCache 2026-10-02] [Claude API Evaluation] 大手銀行BarclaysがClaudeを業務オペレーションや顧客体験の改善に大規模展開する点は、生成AIのエンタープライズ活用事例として意義があります。一方で、タイトルだけでは導入規模、対象業務、技術構成、成果指標などの具体性がなく、業界の前提を変えるほどの新規性は確認できません。また、直近に取り上げ済"
+    },
+    "ca84b36a41fd1b5d980ff209f5c340cc": {
+      "score": 66,
+      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Claude DesktopにWeb検索を接続し、Amazon Bedrock AgentCore Gateway、IAM Identity Center、Amazon Cognito、JWT認証を組み合わせる具体的な実装例であり、RAGやAIエージェントの実運用における最新情報へのアクセスと認証・認可設計に有用です。一方で、既存サービスを連携する実"
+    },
+    "5445775141ab6f2a776b1a5e512dc7d3": {
+      "score": 54,
+      "title": "GitHub Copilot in VS Code, September 2026 releases",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] VS Code v1.136〜v1.140で、Copilotによるエージェント駆動開発、反復作業の自動化、プルリクエストのマージ支援まで開発ライフサイクルを拡張している点は、開発者体験とソフトウェア開発プロセスへの影響が大きく、通常なら70点台の内容です。一方で、既出キーワードのCopilot、build、partなどに直接該当し、既に扱われたAIコ"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 54,
+      "title": "July 30, 2026",
+      "date": "2026-10-03",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のアップデートであり、Gemini CLI連携、JupyterLab、Git、micromamba、プロキシ環境のCA証明書対応など、AI開発環境の安定性と企業利用時の運用性を高める実務的な内容です。一方で、主眼は新機能や画期的な技術革新ではなく、既存機能の不具合修正・依存関係更新・権限調整です。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-03/blog.md",
+    "show_notes_path": "out/2026-10-03/show_notes.md",
+    "script_path": "out/2026-10-03/script_2hosts.md",
+    "audio_path": "out/2026-10-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 28389,
+        "output_tokens": 11549,
+        "cost_usd": 0.019537
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45867,
+        "output_tokens": 9930,
+        "cost_usd": 0.191034
+      }
+    ],
+    "tts": {
+      "chars": 4730,
+      "audio_sec": 723.8,
+      "cost_usd": 0.139561
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.350131
+  }
+}

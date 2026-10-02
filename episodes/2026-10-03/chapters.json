@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.71,
+    "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+    "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/"
+  },
+  {
+    "start_sec": 132.43,
+    "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+    "url": "https://arxiv.org/abs/2610.00010"
+  },
+  {
+    "start_sec": 248.6,
+    "title": "AI music generator Suno can now create spoken audio with matching background music",
+    "url": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/"
+  },
+  {
+    "start_sec": 362.09,
+    "title": "0.17.0 Release Notes ⚡ The Zig Programming Language",
+    "url": "https://ziglang.org/download/0.17.0/release-notes.html"
+  },
+  {
+    "start_sec": 475.37,
+    "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+    "url": "https://www.anthropic.com/news/claude-frontier-academy"
+  },
+  {
+    "start_sec": 601.62,
+    "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 706.18,
+    "title": "エンディング",
+    "url": null
+  }
+]
