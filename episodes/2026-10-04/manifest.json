@@ -1,0 +1,375 @@
+{
+  "date": "2026-10-04",
+  "episode_date_local": "2026-10-04",
+  "content_snapshot_date": "2026-10-04",
+  "show_length_sec": 698,
+  "audio_size": 11169069,
+  "generated_at": "2026-10-03T20:48:37.778049+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-19df5f61",
+      "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+      "title_ja": "「Muse Gadgets」、AIハードウェアをオープンソースのDIYプロジェクトに",
+      "one_liner": "MetaがAI機器の自作を支えるOSSを公開",
+      "fingerprint": "19df5f61f5493d936c47208335cd626b",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6dd933c8",
+      "title": "Copilot code review: API support and new default effort level",
+      "title_ja": "Copilotコードレビュー:APIサポートと新しいデフォルトの推論レベル",
+      "one_liner": "CopilotのコードレビューがAPIから使える",
+      "fingerprint": "6dd933c8788b768e7196392269defcfd",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-9406a928",
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "title_ja": "Cloudflare上で次世代のGitプラットフォームを構築してほしい",
+      "one_liner": "Cloudflare上で次世代Gitを作ろう",
+      "fingerprint": "9406a928c5ef76453f5fb74dc1f29c1a",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-005ec72e",
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreでエージェント型AIを活用し、クラウド移行を大規模化",
+      "one_liner": "AWSがAIエージェントでクラウド移行を自動化",
+      "fingerprint": "005ec72e0a5ef09c6beb0f2c0fd8327f",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-b1607543",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "title_ja": "Chatham、OpenAIと連携し資本市場の専門知見を拡大",
+      "one_liner": "Chathamが取引検証を30分から4分未満に短縮",
+      "fingerprint": "b16075432c7239089c245c7609e73698",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-413482c5",
+      "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
+      "title_ja": "断片化したがん薬剤応答行列における疎性にロバストなランキングのための逆項目反応理論",
+      "one_liner": "項目反応理論を逆向きに使い、抗がん剤の効きを順位付け",
+      "fingerprint": "413482c5a1e0c39615a83ca7f54e0486",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-dfdd3235",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI"
+    },
+    {
+      "item_id": "item-6ded9972",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "With most information hidden, the game Stratego had stumped AI—until now"
+    },
+    {
+      "item_id": "item-7bbc54b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A model guide for the GPT-6 family"
+    },
+    {
+      "item_id": "item-5dd03afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-12d571ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore"
+    },
+    {
+      "item_id": "item-5f1bef0b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redefining enterprise intelligence with autonomous AI"
+    },
+    {
+      "item_id": "item-1466116e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hiding the table is not enough. Your LLM can still see the salary column."
+    },
+    {
+      "item_id": "item-948300c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI is changing developer work. Here are three skills to strengthen."
+    },
+    {
+      "item_id": "item-8f784571",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Data Center Infra Provider Accelevation Sinks In Post-IPO Trading"
+    },
+    {
+      "item_id": "item-c74f7dcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Selected models in GitHub Copilot deprecated"
+    },
+    {
+      "item_id": "item-985f6cd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-9be910fb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’"
+    },
+    {
+      "item_id": "item-9519a701",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bessent Says AI Industry Must Own Its Risks and Find Solutions"
+    },
+    {
+      "item_id": "item-c1d98bf8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RSS Feed Best Practices"
+    },
+    {
+      "item_id": "item-e65ca86c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike"
+    },
+    {
+      "item_id": "item-a0f1e4ac",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs"
+    }
+  ],
+  "score_cache": {
+    "9406a928c5ef76453f5fb74dc1f29c1a": {
+      "score": 62,
+      "title": "We want you to build the next Git platform on Cloudflare",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] Cloudflare上で次世代のGitプラットフォームを構築する構想は、エッジコンピューティング、分散ストレージ、開発者向けプラットフォームを組み合わせる可能性があり、アーキテクチャ面で注目度が高い。一方で、記事タイトルからは具体的な製品仕様や技術的ブレークスルー、正式なサービス提供が確認できず、現時点では提案・募集段階と考えられるため、主要クラウド"
+    },
+    "7bbc54b85d8ca5bc3962c85085f048a1": {
+      "score": 49,
+      "title": "A model guide for the GPT-6 family",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] GPT-6ファミリーの選定、推論負荷の調整、プロンプト設計、ツール連携、プロダクション運用の指針を扱うため、AI開発者やスタートアップへの実務的な影響は大きい。一方で、モデル自体の新規発表ではなくガイド記事であり、既に取り上げ済みのAI・OpenAI・モデル関連トピックと重複するため減点した。 [Editorial: AI-focused sourc"
+    },
+    "5dd03afd0826a0e3447b86fdc0d7468b": {
+      "score": 49,
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-02",
+      "reason": "[ScoreCache 2026-10-02] [ScoreCache 2026-10-02] [Claude API Evaluation] 大手銀行BarclaysがClaudeを業務オペレーションや顧客体験の改善に大規模展開する点は、生成AIのエンタープライズ活用事例として意義があります。一方で、タイトルだけでは導入規模、対象業務、技術構成、成果指標などの具体性がなく、業界の前提を変えるほど"
+    },
+    "dfdd3235a3bcead744b86a8971dbf259": {
+      "score": 54,
+      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] マルチターン強化学習で検索エージェントを特定のツールや実行環境に適応させ、フロンティアモデルより低遅延・低コストで信頼性を高める内容は、エージェントの実運用やLLMのファインチューニングに関する技術的価値が高い。一方で、既に取り上げ済みのAI、エージェント、Amazon、SageMakerなどと同じ領域・角度に該当し、明確な業界標準の転換や新規基盤技"
+    },
+    "948300c3399ef6c816b5445035aed53a": {
+      "score": 39,
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] AIエージェントによる開発業務の変化や、出力レビュー・技術的判断の重要性を扱っており、エンジニアの業務設計には一定の示唆があります。ただし、具体的な製品発表や技術革新ではなく、一般的なキャリア・スキル論が中心です。また、既に取り上げ済みの「AI」「agents」と同じ文脈のため、重複分を減点しています。 [Editorial: AI-focused "
+    },
+    "6dd933c8788b768e7196392269defcfd": {
+      "score": 72,
+      "title": "Copilot code review: API support and new default effort level",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] GitHub CopilotのコードレビューをREST APIおよびGraphQL APIから呼び出せるようになり、CI/CDや自社開発ツール、プルリクエスト自動化への組み込みが容易になる。さらにレビューの労力度をリクエスト単位で制御でき、品質・速度・APIコストのトレードオフを運用設計に組み込める点も実務的に重要。ただし、既存のCopilot機能の"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 29,
+      "title": "June 23, 2026",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新であり、依存パッケージの最新化とJupyterカーネルの重複表示バグ修正が中心です。開発環境の安定性や保守性には寄与しますが、新機能やアーキテクチャ変更、業界への大きな影響はありません。既出キーワードの「agents」に該当し、同じエージェント基盤の運用更新という角度でもあるため減点しまし"
+    },
+    "9be910fb8d07b4d59382700e49277e12": {
+      "score": 29,
+      "title": "Federal judge calls Flock ‘indiscriminate mass surveillance’",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] Flockの自動ナンバープレート認識システムによる捜査が、令状なしでは憲法上の権利を侵害し得ると判断された法的ニュースです。監視技術の導入・運用や、位置情報に近いデータの扱いに影響し、自治体やセキュリティ設計者にとっては重要ですが、技術革新そのものではなく、主な論点は規制・司法判断です。既出のsecurity関連トピックにも近いため、評価を抑えていま"
+    },
+    "12d571ea634d0ce01982a5ea6bb64829": {
+      "score": 47,
+      "title": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] AI業界のリーダーが、AIを超越的・宗教的な存在として扱うことを安全上の問題と位置づけた点は、AIの社会的受容や安全設計に関わる話題です。ただし、具体的なモデル、製品、アーキテクチャ、研究成果の発表ではなく、過去の発言との対比を中心とした思想・姿勢の変化に留まっています。さらに、OpenAI、AI、モデル、安全性に関する既出テーマと重なるため減点し、"
+    },
+    "6ded9972ac7656068e1b1948ee71867e": {
+      "score": 54,
+      "title": "With most information hidden, the game Stratego had stumped AI—until now",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] 隠れた情報を扱うStrategoで、駒の正体を推測する第2のニューラルネットワークを組み合わせてAI性能を向上させた点は、部分観測環境における推論・探索アーキテクチャとして技術的に興味深いです。一方、適用領域はゲームAIの研究寄りで、直ちに業界全体へ波及する発表ではありません。また、AI・ニューラルネットワーク関連は既出キーワードと同じ話題領域に当た"
+    },
+    "e65ca86c079330806f20a55774bfc94c": {
+      "score": 15,
+      "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] 7年前のストリーミング端末が100ドル値上げされるという消費者向けガジェット価格の話題であり、ソフトウェア技術や開発者向けアーキテクチャへの影響は限定的です。AI需要によるメモリ価格高騰という背景はあるものの、技術革新や業界の前提を変える発表ではないため、最低評価帯としました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "5f1bef0b522fe9d2b49fdd85761988f6": {
+      "score": 43,
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] 企業向けAIの自律化と運用フェーズへの移行、モデル性能向上とコスト低下という方向性は、業務システムやITアーキテクチャに広く影響し得ます。一方で、具体的な製品、技術的ブレークスルー、導入事例、実装方式が示されておらず、内容は市場動向の概説にとどまります。また、AIやモデルに関する既出テーマと重なるため、重複分として減点しました。 [Editorial"
+    },
+    "9519a701e18a96e9dd4a894bad220c3a": {
+      "score": 29,
+      "title": "Bessent Says AI Industry Must Own Its Risks and Find Solutions",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] AI業界のリスク管理や自主規制に関する政策的な発言であり、業界全体への影響はあるものの、具体的な技術革新・製品発表・アーキテクチャ変更は含まれていません。エンジニア視点では、実装可能な安全対策や標準仕様ではなく、業界に責任を求める政治的メッセージが中心です。AI関連ではあるものの、直近の既出キーワード「ai」と同じリスク・ガバナンス寄りの話題であるた"
+    },
+    "8f784571376dc4de438c287c80dc663a": {
+      "score": 36,
+      "title": "Data Center Infra Provider Accelevation Sinks In Post-IPO Trading",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] データセンターインフラ企業のIPO後の株価下落に関する金融・市場動向の記事であり、ソフトウェア技術やアーキテクチャ自体の新規性は限定的です。一方、データセンター事業者の資金調達環境やインフラ投資の評価を示す材料ではあるため、完全な一般ニュースよりは技術業界への示唆があります。ただし、既出キーワードとの直接の重複は薄く、IPO後の値動きという続報性を考"
+    },
+    "413482c5a1e0c39615a83ca7f54e0486": {
+      "score": 55,
+      "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] がん薬剤応答データの欠損や分断に強い新しい統計モデリング手法として、Reverse Item Response Theoryを導入している点は技術的に新規性があります。GDSC2の24万件超の測定データを用いて、がん種の薬剤耐性と薬剤の広範な有効性を共通の潜在尺度で推定するため、創薬・精密医療におけるランキングやデータ統合への応用可能性もあります。一"
+    },
+    "1466116e6af57a04af62fcf3752af821": {
+      "score": 43,
+      "title": "Hiding the table is not enough. Your LLM can still see the salary column.",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] LLM向けText-to-SQLにおける列レベルのアクセス制御という、実務上重要で具体性の高い改善です。モデルに機密列の存在自体を見せない設計、CLI・MCP・LangChainでのポリシー共有、設定ミスを無視しない検証強化は、データ漏えいリスクの低減に有効です。一方で、主題は新しいAIモデルや基盤技術ではなく、既存のセキュリティ／ガバナンス運用を補"
+    },
+    "c1d98bf874368ab60d1fd5f0fd440502": {
+      "score": 24,
+      "title": "RSS Feed Best Practices",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] RSSのベストプラクティスは配信設計や互換性、キャッシュ、更新通知などに関係する実務的なテーマですが、記事の具体的な技術革新や新規性が示されておらず、業界全体への影響も限定的です。AI・クラウド・主要言語の進化にも該当しないため、一般的な運用・設計ノウハウとして低めに評価します。"
+    },
+    "b16075432c7239089c245c7609e73698": {
+      "score": 56,
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] OpenAIのCodexとGPT-5.6を金融業務に導入し、トレード検証を30分から4分未満へ短縮した点は、生成AIによる業務プロセス再設計の具体的な成功事例として価値があります。特に金融分野のような複雑なワークフローで、単なるチャット利用ではなく開発・検証業務の効率化に踏み込んでいる点は評価できます。一方で、業界全体の前提を変える基盤技術の発表では"
+    },
+    "005ec72e0a5ef09c6beb0f2c0fd8327f": {
+      "score": 58,
+      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] AWS Professional ServicesがAmazon Bedrock AgentCore上のマルチエージェント基盤を実際の企業クラウド移行に適用し、調査、IaC生成、ガバナンス、移行後運用までを自動化する点は、エンタープライズ開発の生産性に大きな影響を与え得ます。特にIaC開発を数週間から数分へ短縮するという具体的な効果は評価できます。一"
+    },
+    "c74f7dcdf56e2e5590b5bd8faf8e1d86": {
+      "score": 35,
+      "title": "Selected models in GitHub Copilot deprecated",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが非推奨化されるため、開発者は利用モデルや設定、互換性を確認する必要があります。ただし、これは新しいAI技術やアーキテクチャの発表ではなく、既存サービスの運用変更・ライフサイクル管理に関する告知です。影響範囲はCopilot利用者に限定され、具体的な後継モデルや性能向上の情報もスニペットからは不明です。A"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 48,
+      "title": "July 30, 2026",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のアップデートで、JupyterLabとGemini CLIの干渉、Git操作、micromamba環境作成、プロキシ配下のCA証明書、ファイル所有権など、AI開発環境の実運用上の問題を具体的に修正している点は評価できます。特に企業プロキシやカスタムCAへの対応は導入障壁を下げます。一方で、新機能"
+    },
+    "a0f1e4ac54a1ab77529d9a5527729c49": {
+      "score": 13,
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] データセンター建設をめぐる住民・社会的な反発に対し、AWSがNDAを使わない方針を示したという広報・透明性の話であり、技術的な新規性やアーキテクチャ上の進展は限定的です。クラウドインフラの社会的受容には関係しますが、エンジニアへの直接的な影響は小さく、既出キーワードの「Amazon」「says」にも該当するため減点しました。"
+    },
+    "19df5f61f5493d936c47208335cd626b": {
+      "score": 73,
+      "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] AIエージェントを動かす専用ハードウェアをESP32ベースでDIY可能にし、設計や利用形態をオープンソースで検証する点は、エッジAI・デバイス開発・スマートホームの接点として技術的に興味深いです。Metaが5,000台の試作機を用意しているため、単なるコンセプトにとどまらず、実際のフォームファクター探索につながる具体性もあります。一方で、現時点では大"
+    },
+    "985f6cd7dd8011c3173768e01376db41": {
+      "score": 35,
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+      "date": "2026-10-04",
+      "reason": "[Claude API Evaluation] AIと医療知識に関する話題ではあるものの、具体的な技術開発、製品発表、実装事例ではなく、RFK Jr.氏の政治的・思想的な見解が中心です。エンジニアリング上の新規性や実務への影響は限定的で、AIの医療利用におけるハルシネーションや専門家依存の重要性をむしろ浮き彫りにする内容です。既出のAI関連トピックと重なるため減点しました。 [Editorial:"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-04/blog.md",
+    "show_notes_path": "out/2026-10-04/show_notes.md",
+    "script_path": "out/2026-10-04/script_2hosts.md",
+    "audio_path": "out/2026-10-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 26173,
+        "output_tokens": 9944,
+        "cost_usd": 0.017167
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45527,
+        "output_tokens": 9787,
+        "cost_usd": 0.188924
+      }
+    ],
+    "tts": {
+      "chars": 4600,
+      "audio_sec": 684.2,
+      "cost_usd": 0.131934
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.338025
+  }
+}

@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#187 「Muse Gadgets」、AIハードウェアをオープンソースのDIYプロジェクトに ほか</title>
+      <description>Tech News Radio Show Notes - #187 (2026-10-04)
+
+エピソード情報
+• エピソード: #187
+• 日付: 2026-10-04
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• "Muse Gadgets" turns AI hardware into an open-source DIY project (https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/)
+• Copilot code review: API support and new default effort level (https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level)
+• We want you to build the next Git platform on Cloudflare (https://blog.cloudflare.com/next-git-platform-on-cloudflare/)
+
+注目の深掘り
+• Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/)
+• Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/)
+
+小ネタ・その他
+• Chatham scales its capital markets expertise with OpenAI (https://openai.com/index/chatham-financial)
+• Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices (https://arxiv.org/abs/2610.00002)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-04/episode_audio.mp3" length="11169069" type="audio/mpeg" />
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-04</guid>
+      <itunes:duration>11:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>「Muse Gadgets」、AIハードウェアをオープンソースのDIYプロジェクトに ほか</itunes:title>
+      <itunes:episode>187</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #187 (2026-10-04)
+
+エピソード情報
+• エピソード: #187
+• 日付: 2026-10-04
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• "Muse Gadgets" turns AI hardware into an open-source DIY project (https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/)
+• Copilot code review: API support and new default effort level (https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level)
+• We want you to build the next Git platform on Cloudflare (https://blog.cloudflare.com/next-git-platform-on-cloudflare/)
+
+注目の深掘り
+• Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/)
+• Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/)
+
+小ネタ・その他
+• Chatham scales its capital markets expertise with OpenAI (https://openai.com/index/chatham-financial)
+• Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices (https://arxiv.org/abs/2610.00002)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-04/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.450" title="&quot;Muse Gadgets&quot; turns AI hardware into an open-source DIY project" href="https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/" />
+        <psc:chapter start="00:02:03.390" title="Copilot code review: API support and new default effort level" href="https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level" />
+        <psc:chapter start="00:03:46.830" title="We want you to build the next Git platform on Cloudflare" href="https://blog.cloudflare.com/next-git-platform-on-cloudflare/" />
+        <psc:chapter start="00:05:49.220" title="Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:07:45.560" title="Chatham scales its capital markets expertise with OpenAI" href="https://openai.com/index/chatham-financial" />
+        <psc:chapter start="00:09:30.950" title="Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices" href="https://arxiv.org/abs/2610.00002" />
+        <psc:chapter start="00:11:07.340" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#186 Amazon Quickと「Adjudicated Query」パターンで数千件のリース契約のコンプライアンスを一括チ…</title>
       <description>Tech News Radio Show Notes - #186 (2026-10-03)
 

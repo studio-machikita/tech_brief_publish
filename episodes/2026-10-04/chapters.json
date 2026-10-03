@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.45,
+    "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+    "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/"
+  },
+  {
+    "start_sec": 123.39,
+    "title": "Copilot code review: API support and new default effort level",
+    "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level"
+  },
+  {
+    "start_sec": 226.83,
+    "title": "We want you to build the next Git platform on Cloudflare",
+    "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/"
+  },
+  {
+    "start_sec": 349.22,
+    "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 465.56,
+    "title": "Chatham scales its capital markets expertise with OpenAI",
+    "url": "https://openai.com/index/chatham-financial"
+  },
+  {
+    "start_sec": 570.95,
+    "title": "Reverse Item Response Theory for Sparsity-Robust Ranking in Fragmented Cancer Drug-Response Matrices",
+    "url": "https://arxiv.org/abs/2610.00002"
+  },
+  {
+    "start_sec": 667.34,
+    "title": "エンディング",
+    "url": null
+  }
+]
