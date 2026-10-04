@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.6,
+    "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+    "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/"
+  },
+  {
+    "start_sec": 148.78,
+    "title": "Homa: The end of TCP for AI clusters [video]",
+    "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0"
+  },
+  {
+    "start_sec": 260.1,
+    "title": "KukuTrack: a local AI notebook for my brother's chicken farm",
+    "url": "https://dev.to/steph24/kukutrack-a-local-ai-notebook-for-my-brothers-chicken-farm-237a"
+  },
+  {
+    "start_sec": 388.05,
+    "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+    "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/"
+  },
+  {
+    "start_sec": 507.63,
+    "title": "A model guide for the GPT-6 family",
+    "url": "https://openai.com/index/practical-guide-building-gpt-6"
+  },
+  {
+    "start_sec": 623.6,
+    "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+    "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/"
+  },
+  {
+    "start_sec": 739.27,
+    "title": "エンディング",
+    "url": null
+  }
+]

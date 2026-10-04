@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#188 NASAとIBMのオープンソース月面モデル、17年分の周回機データを月科学の基盤に ほか</title>
+      <description>Tech News Radio Show Notes - #188 (2026-10-05)
+
+エピソード情報
+• エピソード: #188
+• 日付: 2026-10-05
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science (https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/)
+• [Homa: The end of TCP for AI clusters [video]](https://www.youtube.com/watch?v=eZ8WWZzoaR0)
+• KukuTrack: a local AI notebook for my brother's chicken farm (https://dev.to/steph24/kukutrack-a-local-ai-notebook-for-my-brothers-chicken-farm-237a)
+
+注目の深掘り
+• Google researchers find a way to keep self-improving AI agents from memorizing their tests (https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/)
+
+小ネタ・その他
+• A model guide for the GPT-6 family (https://openai.com/index/practical-guide-building-gpt-6)
+• Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI (https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-05/episode_audio.mp3" length="12295725" type="audio/mpeg" />
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-05</guid>
+      <itunes:duration>12:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>NASAとIBMのオープンソース月面モデル、17年分の周回機データを月科学の基盤に ほか</itunes:title>
+      <itunes:episode>188</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #188 (2026-10-05)
+
+エピソード情報
+• エピソード: #188
+• 日付: 2026-10-05
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science (https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/)
+• [Homa: The end of TCP for AI clusters [video]](https://www.youtube.com/watch?v=eZ8WWZzoaR0)
+• KukuTrack: a local AI notebook for my brother's chicken farm (https://dev.to/steph24/kukutrack-a-local-ai-notebook-for-my-brothers-chicken-farm-237a)
+
+注目の深掘り
+• Google researchers find a way to keep self-improving AI agents from memorizing their tests (https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/)
+
+小ネタ・その他
+• A model guide for the GPT-6 family (https://openai.com/index/practical-guide-building-gpt-6)
+• Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI (https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-05/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.600" title="NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science" href="https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/" />
+        <psc:chapter start="00:02:28.780" title="Homa: The end of TCP for AI clusters [video]" href="https://www.youtube.com/watch?v=eZ8WWZzoaR0" />
+        <psc:chapter start="00:04:20.100" title="KukuTrack: a local AI notebook for my brother's chicken farm" href="https://dev.to/steph24/kukutrack-a-local-ai-notebook-for-my-brothers-chicken-farm-237a" />
+        <psc:chapter start="00:06:28.050" title="Google researchers find a way to keep self-improving AI agents from memorizing their tests" href="https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/" />
+        <psc:chapter start="00:08:27.630" title="A model guide for the GPT-6 family" href="https://openai.com/index/practical-guide-building-gpt-6" />
+        <psc:chapter start="00:10:23.600" title="Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI" href="https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/" />
+        <psc:chapter start="00:12:19.270" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#187 「Muse Gadgets」、AIハードウェアをオープンソースのDIYプロジェクトに ほか</title>
       <description>Tech News Radio Show Notes - #187 (2026-10-04)
 

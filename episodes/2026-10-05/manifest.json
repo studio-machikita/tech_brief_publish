@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-05",
+  "episode_date_local": "2026-10-05",
+  "content_snapshot_date": "2026-10-05",
+  "show_length_sec": 768,
+  "audio_size": 12295725,
+  "generated_at": "2026-10-04T22:28:31.567266+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-4d250cc5",
+      "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+      "title_ja": "NASAとIBMのオープンソース月面モデル、17年分の周回機データを月科学の基盤に",
+      "one_liner": "NASAとIBMが月面AIモデルを公開",
+      "fingerprint": "4d250cc53e1acffdaa7cbf47b6269ff4",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6e651d4c",
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "title_ja": "Homa:AIクラスタにおけるTCPの終焉【動画】",
+      "one_liner": "AIクラスタ向けにTCPに代わるHomaが注目",
+      "fingerprint": "6e651d4c469d0353dcb89fec75839cc4",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-fb3b85a8",
+      "title": "KukuTrack: a local AI notebook for my brother's chicken farm",
+      "title_ja": "KukuTrack:兄の養鶏場のためのローカルAIノート",
+      "one_liner": "弟の養鶏を支えるローカルAI記録アプリ",
+      "fingerprint": "fb3b85a80cc54c3116469b02d2e10b93",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    },
+    {
+      "item_id": "item-d0619468",
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+      "title_ja": "グーグルの研究者、自己改善型AIエージェントがテストを丸暗記するのを防ぐ方法を発見",
+      "one_liner": "自己改善AIのテスト丸暗記をGoogleが抑制",
+      "fingerprint": "d061946894050d0d754602f4d23aae1d",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-7bbc54b8",
+      "title": "A model guide for the GPT-6 family",
+      "title_ja": "GPT-6ファミリーのモデルガイド",
+      "one_liner": "GPT-6系モデルの選び方と本番運用の指針",
+      "fingerprint": "7bbc54b85d8ca5bc3962c85085f048a1",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-dfdd3235",
+      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+      "title_ja": "Amazon SageMaker AIでマルチターン強化学習を用いて検索エージェントをファインチューニングする",
+      "one_liner": "小型の検索エージェントを強化学習で鍛える",
+      "fingerprint": "dfdd3235a3bcead744b86a8971dbf259",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-54457751",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot in VS Code, September 2026 releases"
+    },
+    {
+      "item_id": "item-5dd03afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience"
+    },
+    {
+      "item_id": "item-6ded9972",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "With most information hidden, the game Stratego had stumped AI—until now"
+    },
+    {
+      "item_id": "item-bcab4b7a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Serve live, governed data in AI-built apps with Amazon Quick"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-c74f7dcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Selected models in GitHub Copilot deprecated"
+    },
+    {
+      "item_id": "item-2858c912",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The eternal complement"
+    },
+    {
+      "item_id": "item-5f1bef0b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Redefining enterprise intelligence with autonomous AI"
+    },
+    {
+      "item_id": "item-74ef14ca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "In Robotics, Google Goes Android to Tesla’s Apple"
+    },
+    {
+      "item_id": "item-c0c91ed2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions"
+    },
+    {
+      "item_id": "item-948300c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI is changing developer work. Here are three skills to strengthen."
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-0c2ed920",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "David Ellison’s Plan for Warner Bros. Is No Longer a Secret"
+    },
+    {
+      "item_id": "item-8bcf47f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?"
+    },
+    {
+      "item_id": "item-985f6cd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise"
+    },
+    {
+      "item_id": "item-7dfcc5b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - omlahore/RemoveMacAI: Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible."
+    },
+    {
+      "item_id": "item-24bd4055",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "15 Best Office Chairs of 2026—We Tested 70 to Pick Them"
+    },
+    {
+      "item_id": "item-a734a68f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Gifts Under $25 for Everyone on Your List (2026)"
+    }
+  ],
+  "score_cache": {
+    "7dfcc5b80d1b6fdcf730281f8c0c8597": {
+      "score": 12,
+      "title": "GitHub - omlahore/RemoveMacAI: Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully r",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] macOS上のApple Intelligenceを無効化し、使用ディスク容量を回収するOSSユーティリティで、ワンコマンドかつ可逆的という実用性はあります。ただし、既存機能の無効化にとどまり、AI技術そのものの革新やアーキテクチャ上の新規性、業界への影響は限定的です。一般消費者向けOS・端末機能に近い話題であり、さらに既放送キーワードの「ai」と同"
+    },
+    "7bbc54b85d8ca5bc3962c85085f048a1": {
+      "score": 61,
+      "title": "A model guide for the GPT-6 family",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] GPT-6ファミリーのモデル選定、推論負荷の調整、プロンプト設計、ツール連携、プロダクション運用まで扱うため、AI開発者やスタートアップの実装方針に大きな影響を与える実務的な記事です。一方で、内容は新モデル自体の画期的な発表というより、既存モデルを活用するためのガイドであり、業界の前提を変えるほどの重大発表とは言いにくいです。また、直近に取り上げ済み"
+    },
+    "5dd03afd0826a0e3447b86fdc0d7468b": {
+      "score": 49,
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-02",
+      "reason": "[ScoreCache 2026-10-02] [ScoreCache 2026-10-02] [ScoreCache 2026-10-02] [Claude API Evaluation] 大手銀行BarclaysがClaudeを業務オペレーションや顧客体験の改善に大規模展開する点は、生成AIのエンタープライズ活用事例として意義があります。一方で、タイトルだけでは導入規模、対象業務、技術構成、成"
+    },
+    "dfdd3235a3bcead744b86a8971dbf259": {
+      "score": 54,
+      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] LLM検索エージェントにマルチターン強化学習を適用し、ツール利用や環境適応の信頼性を高める実装・評価事例で、エージェント開発者にとって実用的な技術価値があります。一方で、基盤モデルや強化学習そのものの新規発明ではなく、Amazon SageMaker AI上の具体的な活用事例にとどまります。また、既出のAI・Amazon・エージェント関連テーマと重な"
+    },
+    "948300c3399ef6c816b5445035aed53a": {
+      "score": 39,
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] AIエージェントの指示、出力レビュー、技術的判断の維持という開発者の実務スキルに焦点を当てており、開発プロセスへの影響はあります。ただし、新しい技術や具体的な実装、製品発表ではなく、主にキャリア・働き方に関する一般的な提言です。また、既出のAI・エージェント関連トピックと同じ角度に近いため、重複分として減点しました。 [Editorial: AI-f"
+    },
+    "c74f7dcdf56e2e5590b5bd8faf8e1d86": {
+      "score": 47,
+      "title": "Selected models in GitHub Copilot deprecated",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが一斉に廃止されるため、利用モデルの固定やAPI・設定、開発チームの生成コード品質に影響し得る実務的なニュースです。ただし、新モデルの発表や性能向上ではなく、既存機能のライフサイクル管理に関する告知であり、技術革新性は限定的です。また、直近に取り上げ済みの「model」関連トピックと重なるため減点しました"
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 38,
+      "title": "June 23, 2026",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新であり、Debian環境の依存パッケージ更新とJupyterカーネル表示の不具合修正が中心です。開発者体験や運用安定性には寄与しますが、アーキテクチャや機能の大幅な進化ではなく、影響範囲も限定的なメンテナンスリリースです。また、既出の「agents」関連トピックと同一領域の続報に近いため、"
+    },
+    "c0c91ed2ef50cb4b6fbe142661e047b4": {
+      "score": 41,
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] AI生成による低品質な脆弱性報告が急増し、Googleがオープンソース向けバグバウンティを一時停止した点は、脆弱性対応のトリアージや報奨金制度の運用に影響する実務的な話題です。ただし、新しいAIモデルや技術そのものではなく、既存のAI・セキュリティ運用問題に属します。既出キーワードの「AI」「Google」「security」と同じ文脈であるため減点"
+    },
+    "d061946894050d0d754602f4d23aae1d": {
+      "score": 62,
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] 自己改善型AIエージェントがテスト問題の暗記に依存する評価リークを抑え、未知のベンチマークで最大4.7ポイント向上し、トークン使用量も約30%削減した点は、エージェントの訓練・評価基盤に実用的な影響があります。一方で、GoogleによるAIエージェント関連の続報であり、既出キーワード（ai、google、agents、model）と主題が重なるため2"
+    },
+    "6ded9972ac7656068e1b1948ee71867e": {
+      "score": 48,
+      "title": "With most information hidden, the game Stratego had stumped AI—until now",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] 隠された情報を扱う不完全情報ゲームStrategoで、駒の正体を推測する第2のニューラルネットワークを導入して性能を改善した点は、マルチエージェント学習や不確実性下の推論に関する興味深い技術進展です。一方で、対象は特定のボードゲームにおける研究成果であり、AI業界全体の前提を変えるほどの影響範囲や実用化の具体性は限定的です。既出のAI関連トピックとの"
+    },
+    "24bd4055130d60b144de2d960ba07fb2": {
+      "score": 6,
+      "title": "15 Best Office Chairs of 2026—We Tested 70 to Pick Them",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] 在宅勤務向けオフィスチェアの製品比較記事であり、ソフトウェア開発、AI、クラウド、プログラミング言語などの技術革新とは直接関係しません。一般消費者向け製品の紹介に該当するため、重要度は最低評価帯です。"
+    },
+    "5f1bef0b522fe9d2b49fdd85761988f6": {
+      "score": 43,
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] 企業向けAIの本格運用や推論コスト低下、投資拡大は広範な技術・事業インパクトを持つ一方、記事スニペットは具体的な製品発表、アーキテクチャ変更、導入事例などに乏しく、抽象的な市場論に留まっています。また、既報のAI・モデル・エージェント関連の話題と同じ角度が中心であるため、重複分として減点しました。 [Editorial: AI/SaaS topic "
+    },
+    "0c2ed92089b1472ba724911273fd6251": {
+      "score": 32,
+      "title": "David Ellison’s Plan for Warner Bros. Is No Longer a Secret",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] Warner Bros.の債務返済とストリーミング事業拡大に関する経営戦略であり、メディア業界には影響がありますが、エンジニア視点で見た技術革新や新しいアーキテクチャ、AI・クラウド基盤の具体的な発表ではありません。ストリーミング投資は技術運用面に関係するものの、記事の主題は財務・企業戦略で、技術的な新規性と開発者への直接的影響は限定的です。既出の「"
+    },
+    "74ef14caeebc8721cf83a67b78e93225": {
+      "score": 43,
+      "title": "In Robotics, Google Goes Android to Tesla’s Apple",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] Google DeepMindのロボティクス戦略は、AIモデルを実世界の機械へ展開する点で技術的な重要度が高く、ロボット向けOS・開発基盤・エコシステム形成につながれば業界への影響も大きい。一方、スニペットでは具体的な製品、モデル、API、提携、性能などの発表内容が不明で、現時点では方針説明にとどまる。また、直近に扱われた「Google」「AI」関連"
+    },
+    "fb3b85a80cc54c3116469b02d2e10b93": {
+      "score": 74,
+      "title": "KukuTrack: a local AI notebook for my brother's chicken farm",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] ローカルAIを実際の小規模養鶏業務に組み込み、フランス語の自然文を構造化データへ変換する実装例として技術的・社会的な具体性が高い。Ollama上のGemma、構造化出力、FastAPI、SQLite、PWAを組み合わせ、通信環境やAPI費用に制約がある現場でも利用できる設計は実用的で、入力内容を人間が確認してから保存する安全策も適切。一方で、実地運用"
+    },
+    "6e651d4c469d0353dcb89fec75839cc4": {
+      "score": 84,
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] AIクラスタ向けにTCPを置き換える通信方式というテーマは、分散学習や大規模推論の性能・レイテンシ・輻輳制御に直結するため、ネットワークアーキテクチャ上の重要度が高いです。単なる製品発表ではなく、AIインフラの前提を見直す可能性があります。一方で、記事のスニペットがなく、Homaが実運用でTCPを代替できる具体的な成果や採用実績までは確認できないため"
+    },
+    "2858c91264bb2fd71c9ad8e75523129f": {
+      "score": 47,
+      "title": "The eternal complement",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] 高度なAIが革新的な成果を生むための実行・定型業務を担うという視点は、ソフトウェア開発や業務自動化の方向性を考えるうえで一定の示唆があります。一方で、具体的なモデル、アーキテクチャ、製品、導入事例、技術的ブレークスルーが示されておらず、実務への影響を評価しにくい一般論です。また、既に取り上げ済みのAI関連トピックと重なるため減点しました。 [Edit"
+    },
+    "bcab4b7a722adea653bbe401aab11b5e": {
+      "score": 48,
+      "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] AIが自然言語で構築したアプリから、Amazon QuickSightのガバナンス済みデータをリアルタイム参照できる点は、静的なビルド時スナップショットからの進展であり、行レベル・列レベルの権限制御を利用者単位で適用できるため、企業向けデータ活用の実装価値はあります。一方で、基盤モデルや新しいアーキテクチャ自体の革新というより、既存のAmazon Q"
+    },
+    "5445775141ab6f2a776b1a5e512dc7d3": {
+      "score": 54,
+      "title": "GitHub Copilot in VS Code, September 2026 releases",
+      "date": "2026-10-03",
+      "reason": "[ScoreCache 2026-10-03] [Claude API Evaluation] VS Code v1.136〜v1.140で、Copilotによるエージェント駆動開発、反復作業の自動化、プルリクエストのマージ支援まで開発ライフサイクルを拡張している点は、開発者体験とソフトウェア開発プロセスへの影響が大きく、通常なら70点台の内容です。一方で、既出キーワードのCopilot、buil"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 48,
+      "title": "July 30, 2026",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のアップデートで、JupyterLab、Git連携、micromamba環境、企業CA証明書、権限設定など開発環境の実用的な不具合が複数修正されています。AIエージェント開発基盤の安定性向上という点では一定の技術的価値がありますが、革新的な機能追加やアーキテクチャ変更ではなく、主に保守・運用改善で"
+    },
+    "8bcf47f5eb8c613222809844dc449ced": {
+      "score": 32,
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] AIの社会的イメージ改善や、法的拘束力のない安全協定に関する政策・広報寄りの話題であり、エンジニアリング上の新技術や具体的な実装変更は含まれていません。AI規制・安全性という既出テーマとの重複も大きいため減点しました。将来的なガバナンスや開発企業のリスク管理には関係しますが、協定の実効性や技術仕様が不明確で、影響範囲と新規性は限定的です。 [Edit"
+    },
+    "4d250cc53e1acffdaa7cbf47b6269ff4": {
+      "score": 92,
+      "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] NASAとIBMが17年分の月探査データを約200万タイルに整理し、月科学向けのオープンソース基盤モデルとして公開した点は、AIと宇宙科学の融合という高い技術的新規性があります。極域の氷堆積量予測の誤差低減という具体的な成果もあり、研究用途だけでなく将来の月面探査・資源評価・ミッション計画の効率化に波及する可能性があります。既出キーワードのAIやモデ"
+    },
+    "985f6cd7dd8011c3173768e01376db41": {
+      "score": 21,
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] AIに関する言及はあるものの、具体的なモデル、製品、アーキテクチャ、研究成果、実装上の進展はなく、医療知識や専門家に対する政治的・論評的な発言が中心です。エンジニアリングへの直接的な影響や技術的新規性が乏しく、AIという既出キーワードに関連する話題でもあるため、重要度は低く評価します。 [Editorial: AI-focused source +6"
+    },
+    "a734a68f19a807fea5a3fe694ddcaebb": {
+      "score": 6,
+      "title": "The Best Gifts Under $25 for Everyone on Your List (2026)",
+      "date": "2026-10-05",
+      "reason": "[Claude API Evaluation] 一般消費者向けのギフト紹介記事であり、AI・クラウド・プログラミング言語・アーキテクチャなどソフトウェア技術への関連性がありません。エンジニアリング上の新規性や業界への影響もほぼないため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-05/blog.md",
+    "show_notes_path": "out/2026-10-05/show_notes.md",
+    "script_path": "out/2026-10-05/script_2hosts.md",
+    "audio_path": "out/2026-10-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 30645,
+        "output_tokens": 10752,
+        "cost_usd": 0.019031
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 47274,
+        "output_tokens": 9786,
+        "cost_usd": 0.192408
+      }
+    ],
+    "tts": {
+      "chars": 4904,
+      "audio_sec": 755.1,
+      "cost_usd": 0.145588
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.357028
+  }
+}
