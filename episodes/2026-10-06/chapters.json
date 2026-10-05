@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.53,
+    "title": "Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI",
+    "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+  },
+  {
+    "start_sec": 112.99,
+    "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
+    "url": "https://arxiv.org/abs/2610.02260"
+  },
+  {
+    "start_sec": 211.65,
+    "title": "OpenAI in Talks With UAE Funds, BlackRock for $30 Billion Round",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round"
+  },
+  {
+    "start_sec": 244.31,
+    "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
+    "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/"
+  },
+  {
+    "start_sec": 344.25,
+    "title": "GitHub Copilot in VS Code, September 2026 releases",
+    "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases"
+  },
+  {
+    "start_sec": 452.3,
+    "title": "Barclays scales Claude to upgrade operations and improve client experience",
+    "url": "https://www.anthropic.com/news/barclays-scales-claude"
+  },
+  {
+    "start_sec": 540.09,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-06",
+  "episode_date_local": "2026-10-06",
+  "content_snapshot_date": "2026-10-06",
+  "show_length_sec": 571,
+  "audio_size": 9143853,
+  "generated_at": "2026-10-05T21:11:48.106782+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-5fa27612",
+      "title": "Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI",
+      "title_ja": "室温反強磁性半導体の候補2種 | Vals AI",
+      "one_liner": "室温で動く反強磁性半導体の候補が2つ公開",
+      "fingerprint": "5fa27612011521d614761b83a04800e2",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-296fe9f6",
+      "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
+      "title_ja": "MintFlow:制約付きフローマッチングのための最小軌道介入",
+      "one_liner": "制約を守りつつ元の分布から離れない新手法",
+      "fingerprint": "296fe9f60c854e1372d88518390ef499",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-60167683",
+      "title": "OpenAI in Talks With UAE Funds, BlackRock for $30 Billion Round",
+      "title_ja": "OpenAI、UAEのファンドやブラックロックと300億ドル規模の資金調達を協議",
+      "one_liner": "OpenAI、300億ドルの資金調達を協議",
+      "fingerprint": "6016768347f826423870a78ecdc9d6a0",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-68a759a1",
+      "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
+      "title_ja": "MetaとMicrosoft、Claudeから距離を置く動き——Anthropicがパートナーから競合へ変貌",
+      "one_liner": "MetaとMicrosoftがClaude利用を大幅削減",
+      "fingerprint": "68a759a1caffeee0a768147d502b3409",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-54457751",
+      "title": "GitHub Copilot in VS Code, September 2026 releases",
+      "title_ja": "VS CodeのGitHub Copilot、2026年9月リリース",
+      "one_liner": "VS Code 9月版、Copilotが実装からマージまで支援",
+      "fingerprint": "5445775141ab6f2a776b1a5e512dc7d3",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-5dd03afd",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "title_ja": "バークレイズ、Claudeを全社規模で導入し、業務の高度化と顧客体験の向上を推進",
+      "one_liner": "BarclaysがClaudeを全社規模で展開へ",
+      "fingerprint": "5dd03afd0826a0e3447b86fdc0d7468b",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2a06b180",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock"
+    },
+    {
+      "item_id": "item-3350a285",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building advertising for the way people use AI"
+    },
+    {
+      "item_id": "item-0b1379f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent"
+    },
+    {
+      "item_id": "item-27b389aa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Connecting AI agents to enterprise knowledge"
+    },
+    {
+      "item_id": "item-3ab62a56",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-0d492715",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU"
+    },
+    {
+      "item_id": "item-5d3c5b35",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hybrid Machine Learning-Assisted Raman Spectroscopy with Generative Feature Augmentation for Pharmaceutical Identification"
+    },
+    {
+      "item_id": "item-6eadd287",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ReviewBench: An open benchmark for AI code review"
+    },
+    {
+      "item_id": "item-418c930b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "HakemBench: A Turkish Benchmark of Typed Decisions"
+    },
+    {
+      "item_id": "item-c74f7dcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Selected models in GitHub Copilot deprecated"
+    },
+    {
+      "item_id": "item-948300c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI is changing developer work. Here are three skills to strengthen."
+    },
+    {
+      "item_id": "item-afaee41f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Our approach to EU text provenance rules"
+    },
+    {
+      "item_id": "item-435bb348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "June 23, 2026"
+    },
+    {
+      "item_id": "item-58802cee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Incident with Actions"
+    },
+    {
+      "item_id": "item-74498d87",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27"
+    },
+    {
+      "item_id": "item-27d77978",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What to Write in a Payment Follow Up Email After the Due Date"
+    },
+    {
+      "item_id": "item-e76ce8a4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk’s Exes Are the Most Damning Part of a Massive New Documentary"
+    }
+  ],
+  "score_cache": {
+    "5fa27612011521d614761b83a04800e2": {
+      "score": 77,
+      "title": "Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] 室温で動作する反強磁性半導体候補の提案は、スピントロニクス、磁気メモリ、低消費電力デバイスの基盤技術につながる先端材料研究です。反強磁性体は外部磁場の影響を受けにくく、高速・高密度な情報処理への応用可能性があります。一方で、現時点では「候補」の段階であり、材料の安定性、成膜・加工性、室温での磁気特性、既存半導体プロセスとの互換性など、実用化までの技術"
+    },
+    "afaee41fd649f0041e6059cf409484b1": {
+      "score": 35,
+      "title": "Our approach to EU text provenance rules",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] EU規則に対応したテキスト透かしと検出方式の説明であり、AI生成物のトレーサビリティや研究者向けアクセス設計には技術的な示唆があります。一方で、主題は法規制への対応方針で、アーキテクチャや新技術そのものを大きく進展させる発表ではありません。既出のOpenAI・AI関連トピックと重なるため、重複分として減点しています。 [Editorial: AI-f"
+    },
+    "5dd03afd0826a0e3447b86fdc0d7468b": {
+      "score": 49,
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-02",
+      "reason": "[ScoreCache 2026-10-02] [ScoreCache 2026-10-02] [ScoreCache 2026-10-02] [ScoreCache 2026-10-02] [Claude API Evaluation] 大手銀行BarclaysがClaudeを業務オペレーションや顧客体験の改善に大規模展開する点は、生成AIのエンタープライズ活用事例として意義があります。一方で、"
+    },
+    "2a06b180718d6300ccceef6bf179c26a": {
+      "score": 49,
+      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] AWS GovCloudでClaude Opus 5.5／Sonnet 5.5を利用でき、Claude Codeによる規制・ITAR対応の開発を実現する点は、企業向けAI活用やクラウドアーキテクチャの観点で実務的な価値があります。一方で、既存のAI・Amazon・Bedrock・エージェント関連トピックと重なりが大きく、基盤技術そのものを刷新する発表"
+    },
+    "6eadd28788b96702be9856b964916fac": {
+      "score": 46,
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] AIによるコードレビューエージェントを、実際のGitHubプルリクエスト、複数ソースの正解データ、校正済み評価、プロダクション指標で測定するオープンベンチマークは、開発者向けAIの実用性や比較可能性を高める重要な取り組みです。一方で、既存のAI・エージェント関連テーマの延長線上にあり、モデルや製品そのものの革新ではなく評価基盤の発表です。直近取り上げ"
+    },
+    "c74f7dcdf56e2e5590b5bd8faf8e1d86": {
+      "score": 38,
+      "title": "Selected models in GitHub Copilot deprecated",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが非推奨化されるため、開発者の設定変更や互換性確認、CI・エディタ運用への影響はありますが、新技術の発表ではなく既存サービスのライフサイクル管理に関する告知です。モデル関連の既出テーマと同じ角度に該当するため減点し、重要度は低めと評価しました。 [Editorial: AI-focused source "
+    },
+    "435bb3480c6c7af39304f921ebbce4dc": {
+      "score": 34,
+      "title": "June 23, 2026",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのイメージ更新ですが、内容は依存パッケージの更新とJupyterカーネル表示の不具合修正が中心で、新機能やアーキテクチャ変更はありません。開発環境の安定性・再現性には寄与するものの、影響範囲は限定的です。エージェント関連の既出テーマとも重なるため減点し、運用・保守寄りのニュースとして低めに評価しました。"
+    },
+    "0d4927158efb1eb9b6b8ed23ad3acf10": {
+      "score": 47,
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] AI生成テキストの透かし技術を実運用し、EU AI Actへの対応として地域限定で導入する点は、生成AIの識別性やコンプライアンス実装に関わる重要な動きです。一方で、中心テーマは規制対応であり、編集によって検出精度が低下するという技術的限界も示されています。OpenAI・AI関連の既出テーマと重なるため減点し、業界の前提を変えるほどの技術革新ではない"
+    },
+    "68a759a1caffeee0a768147d502b3409": {
+      "score": 54,
+      "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] AnthropicのClaudeが大手企業の主要開発基盤から競合扱いへ移行し、MicrosoftとMetaが利用を大幅縮小して自社AIツールへ転換している点は、企業向けLLM市場の勢力図やベンダーロックイン戦略に関わる重要な動きです。特に利用予算やユーザー数の具体的な減少は、単なる提携方針ではなく実運用への影響を示しています。一方で、AI・LLM企業"
+    },
+    "74498d87d798d3ae4b3439505dfaf7cf": {
+      "score": 19,
+      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] macOS上のApple Intelligence関連ファイルをコマンドラインで削除し、12GB超のストレージを解放できる実用的なツールだが、OSの容量管理や個人環境の最適化に限定された話題で、技術的な新規性や業界への影響範囲は小さいです。既出キーワードのAIに関連する内容でもあり、重複分を考慮して減点しています。 [Editorial: AI-fo"
+    },
+    "e76ce8a4cf3ffdfd40ec9d540c058933": {
+      "score": 6,
+      "title": "Elon Musk’s Exes Are the Most Damning Part of a Massive New Documentary",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] 著名人の私生活やドキュメンタリーの内容を扱う記事であり、AI・ソフトウェア技術・クラウド・プログラミング言語・スタートアップなどの技術的な新規性やエンジニアリング上の影響がありません。一般消費者向けガジェットよりも技術との関連がさらに薄いため、最低評価帯としました。"
+    },
+    "27b389aa949652573ae4a686a70c91a4": {
+      "score": 48,
+      "title": "Connecting AI agents to enterprise knowledge",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] 企業内データの意味や文脈をAIエージェントに与えるという課題は、RAG、ナレッジグラフ、メタデータ管理、権限制御など、実運用に直結する重要なアーキテクチャ上の論点です。一方で、記事スニペットからは具体的な新技術、製品、導入事例、性能改善などが確認できず、概念的な問題提起にとどまっています。また、AIエージェント関連は直近の放送で既出キーワードに含まれ"
+    },
+    "6016768347f826423870a78ecdc9d6a0": {
+      "score": 60,
+      "title": "OpenAI in Talks With UAE Funds, BlackRock for $30 Billion Round",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] OpenAIがUAE系ファンドやBlackRockと最大300億ドル規模の資金調達を協議している点は、AIモデル開発、計算資源、データセンター投資の規模を左右し得るため、技術エコシステムへの影響は大きい。一方で、現時点では協議段階の資金調達報道であり、新しいモデルやアーキテクチャ、製品機能といった直接的な技術革新ではないため、最上位には届かない。既出"
+    },
+    "3ab62a56cd574ae10bb97894869324d6": {
+      "score": 48,
+      "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] 音声生成AIの新モデル投入は、Teamsなどの業務アプリへの統合や音声認識・合成基盤の競争に影響するため、技術的には注目度が高い発表です。特に価格と精度の両面でElevenLabs等との差別化を狙っている点は、音声AIを実運用へ広げる材料になります。一方で、既存のAI・モデル・Microsoft関連の話題と重なりやすく、現時点では業界の前提を変えるほ"
+    },
+    "296fe9f60c854e1372d88518390ef499": {
+      "score": 72,
+      "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] Flow Matchingによる生成モデルに対し、事前学習済み分布を大きく壊さずに観測値や物理法則などの制約を満たす、学習不要のサンプリング手法を提案する研究です。生成AIの推論制御、科学計算、逆問題への応用可能性があり、技術的な新規性と実用上の意義は高い一方、現時点ではarXivの新規研究であり、実運用での有効性や既存手法に対する優位性は未検証です"
+    },
+    "5d3c5b35dff3c0aabc0cc5b293825a7d": {
+      "score": 47,
+      "title": "Hybrid Machine Learning-Assisted Raman Spectroscopy with Generative Feature Augmentation for Pharmaceutical Identificati",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] Raman分光に深層学習、生成モデル、古典的機械学習を組み合わせ、医薬品残留物の識別精度や実用性向上を狙う応用研究です。生成的な特徴拡張を取り入れたハイブリッド構成は技術的に興味深く、ヘルスケアや食品安全への応用可能性もあります。一方で、対象は6種類の化合物に限定されたarXiv段階の研究であり、汎用的な基盤技術や業界構造を変える規模には達していませ"
+    },
+    "418c930b2ce1ca39cdef98d8843b458e": {
+      "score": 43,
+      "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] トルコ語に特化した、確率付きの選択・判定能力を測る新しいLLMベンチマークであり、ファクトチェック、ガードレール、モデレーション、スパム・フィッシング判定など実運用に近い7トラックを2,346項目・4,275問で評価できる点は技術的に有用です。CC BY 4.0で公開され、再現可能な評価基盤としてデータセットやハーネスの活用余地もあります。一方で、基"
+    },
+    "27d7797842f76cc1516ae954bd7395bd": {
+      "score": 10,
+      "title": "What to Write in a Payment Follow Up Email After the Due Date",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] 請求書の支払い催促メールの文面や段階的なエスカレーション方法を解説する実務向け記事であり、AI、クラウド、プログラミング言語、先端技術などの技術革新は含まれません。主に中小企業の事務運用・営業コミュニケーションに関する内容で、技術記事としての新規性やエンジニアへの影響範囲は極めて限定的です。後半はInvoalaの請求書作成・リマインダー機能の宣伝色も"
+    },
+    "58802ceea5b41351040de568f97eb17c": {
+      "score": 27,
+      "title": "Incident with Actions",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] 「Incident with Actions」というタイトルだけでは、GitHub Actionsなどの具体的な対象、原因、影響範囲、技術的な新規性を判断できません。障害・インシデント関連であれば運用上の示唆はあるものの、アーキテクチャや開発基盤の革新を示す内容ではなく、情報量も不足しているため低めに評価します。"
+    },
+    "3350a2857c8c152d9ea2ccd0908761b7": {
+      "score": 49,
+      "title": "Building advertising for the way people use AI",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] ChatGPTにおける新しいビジュアル広告フォーマットや効果測定・アトリビューション連携の拡充は、AIサービスの収益化と広告技術の方向性に影響する新展開です。一方で、基盤モデルやエージェント、開発者向けアーキテクチャの革新ではなく、主眼は広告商品と運用機能の強化です。OpenAIおよびAI関連の既出テーマに該当しますが、広告領域への具体的な展開という"
+    },
+    "0b1379f92c60585d701ace156133153b": {
+      "score": 49,
+      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] コーディングエージェントからSageMakerの推論ベンチマーク、デプロイ比較、実行可能なPython SDKコード生成まで行える点は、生成AI運用の自動化として実務的な価値が高い。一方で、AI・エージェント・Amazon関連は既出テーマに該当し、記事も既存技術の新しい統合・スキル提供という性格が強く、業界の前提を変えるほどの革新ではないため減点した"
+    },
+    "948300c3399ef6c816b5445035aed53a": {
+      "score": 38,
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] AIエージェントの指示、出力レビュー、技術的判断という開発者向けの実践的な論点は有用ですが、新しい製品・モデル・アーキテクチャの発表ではなく、キャリアや業務スキルに関する一般的な提言が中心です。AIおよびagentsに関する既出テーマと同じ角度の内容であるため、重複分として減点しました。 [Editorial: AI-focused source +"
+    },
+    "5445775141ab6f2a776b1a5e512dc7d3": {
+      "score": 54,
+      "title": "GitHub Copilot in VS Code, September 2026 releases",
+      "date": "2026-10-03",
+      "reason": "[ScoreCache 2026-10-03] [ScoreCache 2026-10-03] [Claude API Evaluation] VS Code v1.136〜v1.140で、Copilotによるエージェント駆動開発、反復作業の自動化、プルリクエストのマージ支援まで開発ライフサイクルを拡張している点は、開発者体験とソフトウェア開発プロセスへの影響が大きく、通常なら70点台の内容です。"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 48,
+      "title": "July 30, 2026",
+      "date": "2026-10-06",
+      "reason": "[Claude API Evaluation] AIエージェント開発向けのWorkbenchに対する実用的なアップデートで、JupyterLabとGemini CLIの干渉解消、Git操作、micromamba環境、企業内プロキシのCA証明書対応など、開発者体験とエンタープライズ運用性を改善しています。一方で、既存機能の不具合修正や依存パッケージ更新が中心で、アーキテクチャや業界の前提を変える新機"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-06/blog.md",
+    "show_notes_path": "out/2026-10-06/show_notes.md",
+    "script_path": "out/2026-10-06/script_2hosts.md",
+    "audio_path": "out/2026-10-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 26551,
+        "output_tokens": 10104,
+        "cost_usd": 0.017435
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45157,
+        "output_tokens": 8614,
+        "cost_usd": 0.176454
+      }
+    ],
+    "tts": {
+      "chars": 3609,
+      "audio_sec": 558.7,
+      "cost_usd": 0.107718
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.301607
+  }
+}

@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#189 室温反強磁性半導体の候補2種 | Vals AI／MintFlow:制約付きフローマッチングのための最小軌道介入 ほか</title>
+      <description>Tech News Radio Show Notes - #189 (2026-10-06)
+
+エピソード情報
+• エピソード: #189
+• 日付: 2026-10-06
+• 尺: 約 9 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI (https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors)
+• MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching (https://arxiv.org/abs/2610.02260)
+• OpenAI in Talks With UAE Funds, BlackRock for $30 Billion Round (https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round)
+
+注目の深掘り
+• Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor (https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/)
+
+小ネタ・その他
+• GitHub Copilot in VS Code, September 2026 releases (https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases)
+• GitHub Copilot in VS Code, September 2026 releases (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026)
+• GitHub Copilot in VS Code, September 2026 releases (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026)
+• Barclays scales Claude to upgrade operations and improve client experience (https://www.anthropic.com/news/barclays-scales-claude)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-06/episode_audio.mp3" length="9143853" type="audio/mpeg" />
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-06</guid>
+      <itunes:duration>9:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>室温反強磁性半導体の候補2種 | Vals AI／MintFlow:制約付きフローマッチングのための最小軌道介入 ほか</itunes:title>
+      <itunes:episode>189</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #189 (2026-10-06)
+
+エピソード情報
+• エピソード: #189
+• 日付: 2026-10-06
+• 尺: 約 9 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI (https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors)
+• MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching (https://arxiv.org/abs/2610.02260)
+• OpenAI in Talks With UAE Funds, BlackRock for $30 Billion Round (https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round)
+
+注目の深掘り
+• Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor (https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/)
+
+小ネタ・その他
+• GitHub Copilot in VS Code, September 2026 releases (https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases)
+• GitHub Copilot in VS Code, September 2026 releases (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026)
+• GitHub Copilot in VS Code, September 2026 releases (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026)
+• Barclays scales Claude to upgrade operations and improve client experience (https://www.anthropic.com/news/barclays-scales-claude)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-06/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.530" title="Two Room-Temperature Antiferromagnetic Semiconductor Candidates | Vals AI" href="https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors" />
+        <psc:chapter start="00:01:52.990" title="MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching" href="https://arxiv.org/abs/2610.02260" />
+        <psc:chapter start="00:03:31.650" title="OpenAI in Talks With UAE Funds, BlackRock for $30 Billion Round" href="https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round" />
+        <psc:chapter start="00:04:04.310" title="Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor" href="https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/" />
+        <psc:chapter start="00:05:44.250" title="GitHub Copilot in VS Code, September 2026 releases" href="https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases" />
+        <psc:chapter start="00:07:32.300" title="Barclays scales Claude to upgrade operations and improve client experience" href="https://www.anthropic.com/news/barclays-scales-claude" />
+        <psc:chapter start="00:09:00.090" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#188 NASAとIBMのオープンソース月面モデル、17年分の周回機データを月科学の基盤に ほか</title>
       <description>Tech News Radio Show Notes - #188 (2026-10-05)
 
