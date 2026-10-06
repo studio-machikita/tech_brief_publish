@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-07",
+  "episode_date_local": "2026-10-07",
+  "content_snapshot_date": "2026-10-07",
+  "show_length_sec": 724,
+  "audio_size": 11587629,
+  "generated_at": "2026-10-06T23:52:58.809143+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ea41ae04",
+      "title": "Sharing AI progress in mathematics",
+      "title_ja": "数学におけるAIの進歩を共有",
+      "one_liner": "OpenAIが数学の未解決問題で新成果を公開",
+      "fingerprint": "ea41ae0491d5058a06c8ecd4dcceb3f6",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-5920ea78",
+      "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+      "title_ja": "グーグル、「EmbeddingGemma 2」は2倍の規模の競合埋め込みモデルを上回ると主張",
+      "one_liner": "Googleが小型の埋め込みモデルを公開",
+      "fingerprint": "5920ea78c12aaa5fc9b103570f44533a",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-09705303",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "title_ja": "AtlassianとOpenAI、提携を拡大 企業のナレッジを行動につなげる",
+      "one_liner": "AtlassianとOpenAIが提携を拡大",
+      "fingerprint": "097053035120bf68db1ed58978d91aac",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-78316646",
+      "title": "Google's new image model Nano Banana 2.1 generates better images for less money",
+      "title_ja": "Google、新画像生成モデル「Nano Banana 2.1」を発表 より高品質な画像をより低コストで生成",
+      "one_liner": "Googleの新画像モデルが低コストで高品質を実現",
+      "fingerprint": "7831664677da51386511ca8c4f69cdc4",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-ec5885d7",
+      "title": "SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says",
+      "title_ja": "スペースX、エヌビディア製チップ購入へ400億ドルの資金調達を模索＝FT報道",
+      "one_liner": "SpaceXが400億ドルでNvidia製チップ購入",
+      "fingerprint": "ec5885d75d5c02aa5fae787b51c8fd72",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-3312ffed",
+      "title": "How Readyset Rewrites Your SQL: Inside the Query Transformation Pipeline | Readyset",
+      "title_ja": "ReadysetはいかにしてあなたのSQLを書き換えるのか:クエリ変換パイプラインの内部 | Readyset",
+      "one_liner": "ReadysetがSQLを書き換える仕組みを解説",
+      "fingerprint": "3312ffedd558ffb48f1006b0e6f95708",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-2d2d9f7c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building a context-aware AI assistant on AgentCore and OpenClaw"
+    },
+    {
+      "item_id": "item-a449b351",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU"
+    },
+    {
+      "item_id": "item-8d59ba8f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Jump Trading is scaling quant research with ChatGPT"
+    },
+    {
+      "item_id": "item-17faebc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 09, 2026"
+    },
+    {
+      "item_id": "item-6eadd287",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ReviewBench: An open benchmark for AI code review"
+    },
+    {
+      "item_id": "item-863273c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025"
+    },
+    {
+      "item_id": "item-948300c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI is changing developer work. Here are three skills to strengthen."
+    },
+    {
+      "item_id": "item-7fe9a889",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Weight-loss drugs show signs of slowing biological aging, say drugmakers"
+    },
+    {
+      "item_id": "item-662ee0f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers"
+    },
+    {
+      "item_id": "item-865e6671",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding the Cyber Verification Program"
+    },
+    {
+      "item_id": "item-b1b88227",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The September 2026 KEV wave as an operations dataset, not a news cycle"
+    },
+    {
+      "item_id": "item-c74f7dcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Selected models in GitHub Copilot deprecated"
+    },
+    {
+      "item_id": "item-b888feed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to find out if Amazon thinks you have ‘flat buttocks’"
+    },
+    {
+      "item_id": "item-74498d87",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27"
+    },
+    {
+      "item_id": "item-0a8ae859",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell"
+    },
+    {
+      "item_id": "item-fc2cec01",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Prime Day Digital Wall Calendar Deals: Skylight, Everblog, Apolosign (2026)"
+    },
+    {
+      "item_id": "item-9f1a091e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "You Probably Aren’t Going to Get the Plague"
+    }
+  ],
+  "score_cache": {
+    "ea41ae0491d5058a06c8ecd4dcceb3f6": {
+      "score": 95,
+      "title": "Sharing AI progress in mathematics",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] 数学の未解決問題に対するフロンティアAIモデルの成果と、Leanによる形式証明をGitHubで公開する内容で、AI研究の実証性と再現可能性の両面で重要です。単なるモデル性能の発表ではなく、定理証明支援・形式手法・研究ワークフローへの応用や、公開された証明資産を通じた開発者コミュニティへの波及が期待できます。既出のAI関連テーマではあるものの、数学的推"
+    },
+    "097053035120bf68db1ed58978d91aac": {
+      "score": 90,
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] Atlassianの業務データやナレッジとOpenAIの先端モデルを接続し、計画・開発・実行までの業務フローを自動化する方向性は、企業向けAI活用の実装に直結する重要な動きです。単なるモデル発表ではなく、既存のプロジェクト管理・開発基盤にAIを組み込む点で、エンジニアの開発プロセスやナレッジ活用に広い影響があります。一方、スニペットだけでは連携方式、"
+    },
+    "865e6671fcc5bca787791d9bcd9dd6c0": {
+      "score": 36,
+      "title": "Expanding the Cyber Verification Program",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] サイバーセキュリティの検証体制を拡充するニュースと見られますが、タイトルだけでは対象技術、検証手法、導入範囲、業界への具体的な影響が不明です。セキュリティ運用やガバナンスに関する重要性はある一方、AI・クラウド基盤・主要言語の進化のような技術的ブレークスルーではないため、エンジニア向けの速報価値は限定的です。 [Editorial: AI-focus"
+    },
+    "2d2d9f7c39338017b646101e9646621c": {
+      "score": 49,
+      "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] AgentCoreランタイム上でOpenClawと永続メモリを組み合わせ、会話履歴を構造化知識として蓄積・検索する実装例は、コンテキスト保持型AIエージェントの設計を具体化しており、エンジニアにとって実用性が高いです。一方で、AgentCore、Amazon Bedrock、AIアシスタントという既出キーワードと同じ領域・角度の記事であり、新しい基盤"
+    },
+    "6eadd28788b96702be9856b964916fac": {
+      "score": 43,
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] AIによるコードレビューエージェントを、実際のGitHub Pull Request、複数ソースの正解データ、校正済み評価、実運用を意識した指標で比較可能にするオープンベンチマークは、開発者向けAIの品質評価や導入判断に有用です。特に、単なるデモ性能ではなく実務上のレビュー精度・有用性を測れる点はエンジニアリング上の意義があります。一方で、新しいモデ"
+    },
+    "c74f7dcdf56e2e5590b5bd8faf8e1d86": {
+      "score": 24,
+      "title": "Selected models in GitHub Copilot deprecated",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが非推奨化されたという運用変更であり、利用者は設定やワークフローの見直しを迫られる可能性があります。ただし、具体的な新モデルや技術革新の発表ではなく、主にサービス運用・互換性管理に関するニュースです。さらに、既出キーワードのGitHubおよびCopilotに直接該当し、同じ話題の続報として20点減点しまし"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 51,
+      "title": "July 30, 2026",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabとGemini CLIの連携改善、Git操作、micromamba環境作成、企業CA証明書対応、権限やGit安全設定の修正が含まれています。AI開発環境の安定性や企業ネットワーク対応を高める実務的なアップデートですが、新しいモデルやエージェント機能、アーキテクチャ"
+    },
+    "b888feed7f07852198e4c628027b1258": {
+      "score": 22,
+      "title": "How to find out if Amazon thinks you have ‘flat buttocks’",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] Amazonが購買履歴から利用者の身体的特徴を推測している可能性を示す、プライバシーおよびプロファイリング上の話題です。個人データの扱いとしては注目に値しますが、技術的な新規性やソフトウェアエンジニアリングへの直接的な影響は限定的で、規制・プライバシー寄りのニュースとして低評価にしました。既出キーワードのAmazonを含むため、通常の評価から減点して"
+    },
+    "5920ea78c12aaa5fc9b103570f44533a": {
+      "score": 92,
+      "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] 740Mパラメータでテキスト・画像・動画・音声・コードを統一的にベクトル化し、約191MBのRAMでオンデバイス実行できる点は、エッジAIやプライバシー重視のオフラインRAGに直結する実用的な進展です。競合の2倍規模のモデルを上回るという主張がベンチマークで確認されれば、埋め込みモデルの性能とサイズに関する前提を変える可能性があります。一方で、Goo"
+    },
+    "a449b3517d723bdee46da4aad8148805": {
+      "score": 47,
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] AI生成物の出所を識別するウォーターマークは、コンテンツ認証や検出パイプラインに関わる技術的な話題であり、EUでのデフォルト適用という実運用面も注目されます。一方、スニペットの通り回避が容易で信頼性も限定的なうえ、EU規制対応という側面が強く、アーキテクチャやモデル性能を大きく変える発表ではありません。また、直近で取り上げ済みのOpenAI・Chat"
+    },
+    "9f1a091ecf2218e54ea25088748149ee": {
+      "score": 4,
+      "title": "You Probably Aren’t Going to Get the Plague",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] ロシアの研究所職員の死亡とペスト感染の可能性に関する公衆衛生ニュースであり、ソフトウェア開発、AI、クラウド、プログラミング言語、先端スタートアップなどの技術領域への直接的な影響はありません。一般的な消費者向けガジェットよりも技術関連性が低く、エンジニア視点での重要度は最低水準です。"
+    },
+    "7fe9a8898bbd1d4bf438f4657247f821": {
+      "score": 38,
+      "title": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] GLP-1系の減量薬が体重減少だけでなく、DNAメチル化などに基づく生物学的年齢の進行にも影響する可能性を示す点は、医療・バイオテクノロジー分野では興味深い進展です。一方で、製薬企業による初期データであり、分子レベルの老化時計の改善が実際の寿命延長や疾患リスク低下につながるかは未検証です。ソフトウェア技術への直接的な影響や業界構造を変える具体性は限定"
+    },
+    "ec5885d75d5c02aa5fae787b51c8fd72": {
+      "score": 84,
+      "title": "SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] SpaceXがNvidia製チップ調達のために400億ドル規模の資金調達を検討しているという内容は、AI計算資源への需要と大規模インフラ投資の拡大を示す重要ニュースです。エンジニア視点では、GPU供給、データセンター構築、AI基盤の資本集約化に大きな影響を与え得ます。一方で、現時点では報道ベースの資金調達計画であり、具体的なクラスタ構成やサービスへの"
+    },
+    "662ee0f9731918b3bbcf94fc574c01db": {
+      "score": 38,
+      "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] 米国の主要クラウド事業者が、バッテリー、冷却設備、光トランシーバーなどのデータセンター基盤を中国メーカーに依存している実態は、AI・クラウド基盤の供給網と調達戦略に関わる重要な論点です。特に、納期や価格面で中国企業が優位に立つ一方、国家安全保障や輸出規制によって代替調達を迫られる点は、データセンター設計・運用コストにも影響します。ただし、具体的な新技"
+    },
+    "b1b882277297992792785fddee5c8154": {
+      "score": 30,
+      "title": "The September 2026 KEV wave as an operations dataset, not a news cycle",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] CISA KEVに短期間で追加された脆弱性群を、単発のニュースではなく運用上の優先順位付けやパッチ適用計画に結び付けて分析している点は実務的です。特に、インターネット公開されたリモートアクセス製品・管理プレーン・APIゲートウェイへの集中、修正版提供後も続くパッチギャップ、侵害後の認証情報ローテーションまで踏み込んでいる点は有用です。一方で、主題はセ"
+    },
+    "3312ffedd558ffb48f1006b0e6f95708": {
+      "score": 72,
+      "title": "How Readyset Rewrites Your SQL: Inside the Query Transformation Pipeline | Readyset",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] ReadysetがSQLクエリをどのように変換し、キャッシュ可能なデータフローへ落とし込むかを扱う記事で、データベースの読み取り性能やアプリケーションのスケーラビリティに直結する技術内容です。SQL解析、クエリ書き換え、増分ビュー更新などの実装パイプラインは、DBアーキテクチャやキャッシュ設計に関心のあるエンジニアにとって有用です。一方で、既存技術の"
+    },
+    "8d59ba8f161723509fefb77f31179918": {
+      "score": 46,
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] 金融業界の高度な定量分析において、ChatGPTを長時間稼働するワークフローや複数データソース、人間によるレビューと組み合わせて研究規模を拡大する事例は、AIエージェントの実運用という点で技術的な価値があります。一方で、OpenAIやChatGPTを中心としたAI活用は既出キーワードに該当し、今回の内容も既存テーマの延長線上にあるため20点減点しまし"
+    },
+    "863273c2613a49aefb2810f2f9da2dce": {
+      "score": 41,
+      "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] ISO/IEC 42005:2025に沿ったAIシステム影響評価をAWSのツールで支援する内容で、企業のAIリスク管理や導入プロセスには実務的な価値があります。一方で、主題は責任あるAIガバナンス、国際標準、運用ルールであり、評価基準上は法律・規制やOSS運用ルールに近い低評価帯です。AI関連ではあるものの、基盤モデルや新しいアルゴリズム、クラウドア"
+    },
+    "948300c3399ef6c816b5445035aed53a": {
+      "score": 39,
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] AIエージェントへの指示、生成物のレビュー、技術的判断の維持という開発者の実務スキルを扱っており、開発プロセスへの影響はあります。ただし、具体的な製品・技術発表ではなく、一般的なキャリアや活用方針の解説に留まります。また、AIおよびGitHubに関する話題で、直近の既出テーマと重なるため20点減点しました。 [Editorial: AI-focuse"
+    },
+    "17faebc54f143fff4d6bbdd5a9b64ece": {
+      "score": 46,
+      "title": "August 09, 2026",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新ですが、内容の中心は依存パッケージの更新、JupyterLab Gitプラグインの不具合修正、NVIDIA GPUドライバーの互換性対応であり、新機能やアーキテクチャ上の革新は見られません。開発環境の安定性・運用性には寄与するものの、影響範囲は限定的なメンテナンスリリースで、業界の前提を変える発表"
+    },
+    "0a8ae859d194028f7e4ebdd80e486040": {
+      "score": 18,
+      "title": "Apple is reportedly partnering with LG to launch a smart lock, thermostat, and doorbell",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] Appleのスマートホーム市場への参入拡大は、HomeKitやMatterなどの連携エコシステムに影響する可能性がありますが、スマートロック、サーモスタット、ドアベルという一般消費者向けデバイスが中心です。現時点では製品仕様、独自技術、開発者向けAPI、発売時期などの具体性も乏しく、アーキテクチャや主要技術の革新と呼べる段階ではありません。LGとの提"
+    },
+    "7831664677da51386511ca8c4f69cdc4": {
+      "score": 90,
+      "title": "Google's new image model Nano Banana 2.1 generates better images for less money",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] 画像生成AIの新モデルであり、従来のProモデルを一部ベンチマークで上回りながら低コスト化した点は、生成AIの実運用コストやAPI採用に影響します。Gemini 3.6 Flashを基盤とする性能・価格の改善はエンジニアにとって具体的な進展ですが、画像品質については実利用で旧Proが優れる可能性もあり、業界の前提を変えるほどの決定的な発表ではありませ"
+    },
+    "74498d87d798d3ae4b3439505dfaf7cf": {
+      "score": 19,
+      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+      "date": "2026-10-06",
+      "reason": "[ScoreCache 2026-10-06] [Claude API Evaluation] macOS上のApple Intelligence関連ファイルをコマンドラインで削除し、12GB超のストレージを解放できる実用的なツールだが、OSの容量管理や個人環境の最適化に限定された話題で、技術的な新規性や業界への影響範囲は小さいです。既出キーワードのAIに関連する内容でもあり、重複分を考慮して減点"
+    },
+    "fc2cec0196bcd9b480db6fa957106b7c": {
+      "score": 10,
+      "title": "Best Prime Day Digital Wall Calendar Deals: Skylight, Everblog, Apolosign (2026)",
+      "date": "2026-10-07",
+      "reason": "[Claude API Evaluation] 家族向けのデジタル壁掛けカレンダーのセール情報であり、一般消費者向けガジェットに分類されます。ソフトウェア技術、アーキテクチャ、AI、開発者エコシステムへの新規性や影響は限定的で、Prime Dayの価格訴求が中心のため、重要度は最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-07/blog.md",
+    "show_notes_path": "out/2026-10-07/show_notes.md",
+    "script_path": "out/2026-10-07/script_2hosts.md",
+    "audio_path": "out/2026-10-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25879,
+        "output_tokens": 10274,
+        "cost_usd": 0.017505
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45623,
+        "output_tokens": 9722,
+        "cost_usd": 0.188466
+      }
+    ],
+    "tts": {
+      "chars": 4604,
+      "audio_sec": 709.6,
+      "cost_usd": 0.136826
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.342797
+  }
+}

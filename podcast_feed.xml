@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#190 数学におけるAIの進歩を共有 ほか</title>
+      <description>Tech News Radio Show Notes - #190 (2026-10-07)
+
+エピソード情報
+• エピソード: #190
+• 日付: 2026-10-07
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Sharing AI progress in mathematics (https://openai.com/index/sharing-ai-progress-in-mathematics/)
+• Sharing AI progress in mathematics (https://openai.com/index/sharing-ai-progress-in-mathematics)
+• Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size (https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/)
+• Atlassian and OpenAI expand partnership to turn enterprise knowledge into action (https://openai.com/index/atlassian-partnership)
+
+注目の深掘り
+• Google's new image model Nano Banana 2.1 generates better images for less money (https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/)
+
+小ネタ・その他
+• SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says (https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says)
+• How Readyset Rewrites Your SQL: Inside the Query Transformation Pipeline | Readyset (https://readyset.io/blog/how-readyset-rewrites-your-sql-inside-the-query-transformation-pipeline)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-07/episode_audio.mp3" length="11587629" type="audio/mpeg" />
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-07</guid>
+      <itunes:duration>12:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>数学におけるAIの進歩を共有 ほか</itunes:title>
+      <itunes:episode>190</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #190 (2026-10-07)
+
+エピソード情報
+• エピソード: #190
+• 日付: 2026-10-07
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Sharing AI progress in mathematics (https://openai.com/index/sharing-ai-progress-in-mathematics/)
+• Sharing AI progress in mathematics (https://openai.com/index/sharing-ai-progress-in-mathematics)
+• Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size (https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/)
+• Atlassian and OpenAI expand partnership to turn enterprise knowledge into action (https://openai.com/index/atlassian-partnership)
+
+注目の深掘り
+• Google's new image model Nano Banana 2.1 generates better images for less money (https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/)
+
+小ネタ・その他
+• SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says (https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says)
+• How Readyset Rewrites Your SQL: Inside the Query Transformation Pipeline | Readyset (https://readyset.io/blog/how-readyset-rewrites-your-sql-inside-the-query-transformation-pipeline)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-07/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.310" title="Sharing AI progress in mathematics" href="https://openai.com/index/sharing-ai-progress-in-mathematics/" />
+        <psc:chapter start="00:02:19.480" title="Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size" href="https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/" />
+        <psc:chapter start="00:04:02.460" title="Atlassian and OpenAI expand partnership to turn enterprise knowledge into action" href="https://openai.com/index/atlassian-partnership" />
+        <psc:chapter start="00:06:03.380" title="Google's new image model Nano Banana 2.1 generates better images for less money" href="https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/" />
+        <psc:chapter start="00:08:02.240" title="SpaceX Seeking to Raise $40 Billion to Buy Nvidia Chips, FT Says" href="https://www.bloomberg.com/news/articles/2026-10-06/spacex-seeking-to-raise-40-billion-to-buy-nvidia-chips-ft-says" />
+        <psc:chapter start="00:09:57.470" title="How Readyset Rewrites Your SQL: Inside the Query Transformation Pipeline | Readyset" href="https://readyset.io/blog/how-readyset-rewrites-your-sql-inside-the-query-transformation-pipeline" />
+        <psc:chapter start="00:11:35.220" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#189 室温反強磁性半導体の候補2種 | Vals AI／MintFlow:制約付きフローマッチングのための最小軌道介入 ほか</title>
       <description>Tech News Radio Show Notes - #189 (2026-10-06)
 
