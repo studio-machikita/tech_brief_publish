@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-08",
+  "episode_date_local": "2026-10-08",
+  "content_snapshot_date": "2026-10-08",
+  "show_length_sec": 777,
+  "audio_size": 12433581,
+  "generated_at": "2026-10-07T22:37:01.662933+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a7a26710",
+      "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
+      "title_ja": "「Claude Haiku 5.5」登場、大幅な値下げでAI価格競争はまだ終わらないことを証明",
+      "one_liner": "Claude Haiku 5.5、性能急伸と大幅値下げ",
+      "fingerprint": "a7a26710dd0f9a5ef1e25d8281253594",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-97a352da",
+      "title": "June 30, 2026",
+      "title_ja": "WorkbenchでPython 3.12のコンテナが使える",
+      "one_liner": "WorkbenchでPython 3.12のコンテナが使える",
+      "fingerprint": "97a352da69604615122515d8be09972d",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-5d14effa",
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "title_ja": "GAMEGO:実世界のアセットに基づく合成軌跡でゲーム開発エージェントを訓練",
+      "one_liner": "ゲーム開発エージェントを合成データで訓練",
+      "fingerprint": "5d14effa9a077c058ba37bb50e246290",
+      "score": 63,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-afc7cde2",
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "title_ja": "GitHub Copilotのローカルサンドボックス機能が一般提供開始",
+      "one_liner": "Copilotのローカルサンドボックスが正式版に",
+      "fingerprint": "afc7cde28ff588815624f9d9bc16a4c8",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-eba9757e",
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "title_ja": "Nous Research、評価額15億ドル到達を確認 企業向けAIエージェントを発表",
+      "one_liner": "Nous Researchが評価額15億ドルに到達",
+      "fingerprint": "eba9757e202f9e467b04c72bfb9d7ab0",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-0902104e",
+      "title": "Broadcom Plans $50 Billion Financing for OpenAI Chips, WSJ Says",
+      "title_ja": "ブロードコム、OpenAI向けチップに500億ドルの資金調達を計画＝WSJ報道",
+      "one_liner": "BroadcomがOpenAI向けチップに500億ドル調達",
+      "fingerprint": "0902104ece7d6e1fa4dd3f12dae486a1",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-4cd54a33",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Helping teens learn, plan, and shape the future of AI"
+    },
+    {
+      "item_id": "item-1c1f8f12",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond hours saved: Building the business case for agentic automation"
+    },
+    {
+      "item_id": "item-3dd64ef3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock"
+    },
+    {
+      "item_id": "item-77025b45",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Python Developer Workbench and Workflow Orchestrator That Looks Like Call of Duty"
+    },
+    {
+      "item_id": "item-473c1f19",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT"
+    },
+    {
+      "item_id": "item-a449b351",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-b1ee1982",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Purpose-built model for leaked secret detection"
+    },
+    {
+      "item_id": "item-23b28da7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why the SaaSpocalypse Isn’t Over For Workday"
+    },
+    {
+      "item_id": "item-865e6671",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Expanding the Cyber Verification Program"
+    },
+    {
+      "item_id": "item-6eadd287",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ReviewBench: An open benchmark for AI code review"
+    },
+    {
+      "item_id": "item-07dc2108",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes"
+    },
+    {
+      "item_id": "item-8f1273b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "TEMPEST: Temporal Embeddings for Scalable Driver Identification via Angular Margin Learning"
+    },
+    {
+      "item_id": "item-e0acc6ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90"
+    },
+    {
+      "item_id": "item-82a2d43e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries"
+    },
+    {
+      "item_id": "item-1e21dcfb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Secret protection must scale with software"
+    },
+    {
+      "item_id": "item-7e8ee75a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Photograph 49 is the Key to Understanding the History of Rosalind Franklin’s DNA Photograph 51 - Journal of the History of Biology"
+    },
+    {
+      "item_id": "item-dc09d408",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season"
+    }
+  ],
+  "score_cache": {
+    "e0acc6ea18d1bb516b44a88f7a4d6182": {
+      "score": 36,
+      "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] アポロ計画のソフトウェア開発を率いたマーガレット・ハミルトン氏の死去は、ソフトウェア工学の歴史や信頼性重視の開発手法を振り返る上で重要です。一方、現在の技術革新やアーキテクチャ、プログラミング言語に直接影響する新発表ではなく、エンジニアリング上の即時的な影響範囲も限定的です。"
+    },
+    "4cd54a33661245e267a5946be2eb380b": {
+      "score": 54,
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] ティーン向けChatGPTに大学出願支援、フラッシュカード、クイズ、ティーンAI評議会を追加する新展開で、教育分野へのAI活用と若年層のフィードバック反映という点では意義があります。一方、基盤モデルやアーキテクチャの革新ではなく、既存AIサービスの機能拡張が中心です。また、AI関連トピックとして直近の既出テーマと重なるため、話題の新規性による加点は限"
+    },
+    "865e6671fcc5bca787791d9bcd9dd6c0": {
+      "score": 41,
+      "title": "Expanding the Cyber Verification Program",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] セキュリティ専門家向けに高度なサイバー能力へのアクセスやブロッキング制御を拡大する発表で、実務上の有用性やAIセキュリティ研究への影響はあります。一方で、対象者を限定したプログラム拡張であり、基盤技術や業界の前提を変える革新ではありません。運用ルールやアクセス管理に関するセキュリティ寄りのニュースとして、評価は低〜中程度に留めます。 [Editori"
+    },
+    "3dd64ef3f4cda494967ad6b6083dcf7f": {
+      "score": 48,
+      "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] RAGにおける文書単位のアクセス制御を、SharePointやGoogle Driveなどの権威ある情報源にクエリ時点で照会して適用する設計は、企業向けAIの安全な実装に有用です。特に検索結果への権限漏えいを防ぐ実務的なアーキテクチャ上の示唆があります。一方で、基盤技術そのものを大きく変える発表ではなく、Amazon・Enterprise・RAG/A"
+    },
+    "1e21dcfbc0eb5b45a17ecf3e2660d6b2": {
+      "score": 35,
+      "title": "Secret protection must scale with software",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] 開発者が増加するソフトウェア量に見合う形で、シークレット検出・保護を自動化すべきだというセキュリティ運用上の主張です。重要なテーマではあるものの、スニペットからは具体的な新技術、製品機能、アーキテクチャ上の革新までは読み取れず、基本的にはセキュリティおよび開発運用ルールに関する記事です。また、既出キーワードのCopilotと同じ文脈で扱われているため"
+    },
+    "b1ee19823e19536379fd231239b64d61": {
+      "score": 43,
+      "title": "Purpose-built model for leaked secret detection",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] GitHubがAIエージェントを含む現代的な開発フロー向けに、コンテキストを考慮した漏洩シークレット検出モデルを提供する点は実務上有用です。ただし、主題はセキュリティ対策と開発運用であり、基盤技術や業界の前提を変える革新ではありません。既出のAI関連トピックと直接同じ角度ではないため減点は行わず、セキュリティ・運用系ニュースとして低評価帯に置きました"
+    },
+    "97a352da69604615122515d8be09972d": {
+      "score": 66,
+      "title": "June 30, 2026",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchでPython 3.12ベースの標準・軽量コンテナを利用できるようになるため、AI開発環境の互換性や最新ライブラリ対応、カスタムコンテナ運用の柔軟性が向上します。クラウド上の開発基盤と主要プログラミング言語の進化に関わる点は評価できますが、既存のPython 3.10に選択肢が追加される段階的な機能拡張"
+    },
+    "eba9757e202f9e467b04c72bfb9d7ab0": {
+      "score": 60,
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] AIエージェントを開発するNous Researchの大型資金調達と15億ドル評価、さらに法人向けサービスの投入は、AIスタートアップ市場と業務自動化の動向を示す注目ニュースです。特にHermes Agentの商用展開は、エージェント技術の実用化という点でエンジニアにも関係します。一方、記事からは技術的な新規性や導入規模、既存製品との差別化が十分に明"
+    },
+    "a7a26710dd0f9a5ef1e25d8281253594": {
+      "score": 95,
+      "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] Claude Haiku 5.5の大幅な性能向上と最大90%のトークン価格引き下げは、AIエージェントやコンピュータ操作タスクの実用コストを大きく変える可能性があり、開発者・企業のモデル選定に直接影響します。OSWorldで15.7%から72.4%への改善も具体性が高く、単なる新モデル発表以上に意義があります。一方、新たな基盤技術や業界構造を根本から"
+    },
+    "a449b3517d723bdee46da4aad8148805": {
+      "score": 46,
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] 生成AIの出力 provenance（生成元証明）に関わる実装・運用上の話題で、EU域内のAI規制対応やコンテンツ検証基盤には一定の影響があります。一方、透かしの信頼性が低く回避も容易で、技術的ブレークスルーというより規制対応・プロダクトポリシーの変更に留まります。EU限定で適用範囲も狭く、OpenAIおよびChatGPT関連の既出テーマとも重なるた"
+    },
+    "dc09d408fd72f5a704e0d835c117f26f": {
+      "score": 6,
+      "title": "Tropical Storm Isaias Set to Be First Atlantic Hurricane of 2026 Season",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] ハリケーンの気象・災害ニュースであり、AI、クラウド、ソフトウェア開発、ロボティクスなどの技術革新とは直接関係しません。エンジニアリング上の新規性や業界への影響も限定的なため、一般消費者向け話題に近い最低評価帯としました。"
+    },
+    "82a2d43e5c917990bd652d2475791623": {
+      "score": 36,
+      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] 肥満治療薬が生物学的な老化を遅らせる可能性や、二酸化炭素電池という2つの技術トピックを扱っており、医療・エネルギー分野への波及性はあります。ただし、スニペット上では薬効を示す初期的な兆候とニュースの紹介に留まり、具体的な研究成果、製品化、技術的ブレークスルーは確認できません。ソフトウェアエンジニアの観点では直接的な開発影響は限定的で、AI・クラウド・"
+    },
+    "0902104ece7d6e1fa4dd3f12dae486a1": {
+      "score": 60,
+      "title": "Broadcom Plans $50 Billion Financing for OpenAI Chips, WSJ Says",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] OpenAI向けカスタムAIチップの開発に500億ドル超の資金調達を組み合わせる計画であり、AIインフラの垂直統合や半導体供給網、データセンター投資に大きな影響を与え得る点は重要です。一方、記事は具体的な設計仕様や製品化時期ではなく、報道ベースの資金計画にとどまっています。また、直近に取り上げ済みのAI、OpenAI、チップ、巨額投資に直接該当するた"
+    },
+    "23b28da75da3210fb8fff4f28eda0ca0": {
+      "score": 42,
+      "title": "Why the SaaSpocalypse Isn’t Over For Workday",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] 企業向け基幹システムに対し、外部AIエージェントがWorkdayのデータ取得・分析を代替し、SaaSの利用頻度や成長余地を圧迫する可能性を示す点は、エンタープライズアーキテクチャやデータの主導権に関わる重要な論点です。一方で、具体的な新技術の発表ではなく、複数の関係者への取材に基づく市場分析が中心です。また、AIおよびエンタープライズ領域は直近の既出"
+    },
+    "5d14effa9a077c058ba37bb50e246290": {
+      "score": 63,
+      "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] LLMを活用したコーディングエージェントが、現実のゲーム資産に基づく合成トラジェクトリで複雑なゲームをエンドツーエンド生成する研究であり、AIエージェントの訓練データ生成やゲーム開発自動化に関する技術的な新規性は高いです。一方、arXivの初期研究段階で、実運用での品質・汎用性・コストが未検証なため、業界の前提を変えるほどの確立された成果とは言えませ"
+    },
+    "8f1273b4f7a15705280f382b4ec0d79a": {
+      "score": 37,
+      "title": "TEMPEST: Temporal Embeddings for Scalable Driver Identification via Angular Margin Learning",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] 時系列畳み込みネットワークとArcFaceの加法的角度マージン損失を組み合わせ、車両フリート規模の拡大や厳密な時系列評価に耐えるドライバー識別用埋め込みを提案する、具体性の高い機械学習研究です。ドライバー認証やテレマティクスへの応用可能性はありますが、対象領域が比較的限定的で、業界全体の前提を変えるほどの汎用的な技術革新ではありません。AI・モデル関"
+    },
+    "07dc2108e18a562863aeefac9bb4a29c": {
+      "score": 38,
+      "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] LLMを用いて、ユーザーが自然言語で指定した概念軸にテキストコーパスを配置・可視化する「Zero-Shot Visualization」は、探索的データ分析や文書理解のインターフェースを変える可能性があり、研究としての新規性は高い。一方で、実用化には特徴量設計、推論コスト、可視化の妥当性評価などの課題が残っており、現時点では業界の前提を変えるほどの具"
+    },
+    "77025b4519a24c51ce029cb62d0ad951": {
+      "score": 48,
+      "title": "The Python Developer Workbench and Workflow Orchestrator That Looks Like Call of Duty",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] Python、PyQt6、ModernGLを組み合わせたローカル完結型の開発ワークベンチ兼ワークフローオーケストレーターであり、スクリプト実行管理、ログ監視、3D表示、PyInstallerによる配布、Ollama連携までを単一のデスクトップUIに統合している点は興味深い。特にクラウド依存を避け、ローカルデータベースとローカルLLMを利用する設計は、"
+    },
+    "7e8ee75ad721ca55ac990262799570c0": {
+      "score": 10,
+      "title": "Photograph 49 is the Key to Understanding the History of Rosalind Franklin’s DNA Photograph 51 - Journal of the History ",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] DNA研究史におけるロザリンド・フランクリンの写真49と写真51の位置づけを扱う歴史・学術記事であり、ソフトウェア技術、AI、クラウド、プログラミング言語などのエンジニアリング領域への直接的な影響はありません。一般消費者向けガジェットではないものの、評価基準上の技術革新や業界への実務的インパクトが限定的なため、低スコアとします。"
+    },
+    "473c1f1982db358080209a63176a21ba": {
+      "score": 48,
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] ChatGPTを旅行検索・比較・予約の導線に組み込む実用的なLLM活用事例であり、会話型AIと旅行コマースの統合という点では一定の技術的・事業的意義があります。一方、基盤モデルやアーキテクチャ自体の新規開発ではなく、既存のOpenAI技術を業務サービスへ適用した内容です。また、直近取り上げ済みの「ChatGPT」「OpenAI」「AI」と同じ文脈の続"
+    },
+    "1c1f8f12486f06c6fc6ee5411f90f4d6": {
+      "score": 49,
+      "title": "Beyond hours saved: Building the business case for agentic automation",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] エージェント型自動化について、単純な作業時間削減ではなく、例外処理、意思決定品質、保守コストまで含めてROIを評価する実務的なフレームワークを示しており、AI導入を検討する企業には有用です。一方で、新しいモデルやアーキテクチャ、具体的な製品発表ではなく、主に導入効果の測定・優先順位付けに関する解説記事です。また、AIおよびエージェント活用は直近の既出"
+    },
+    "6eadd28788b96702be9856b964916fac": {
+      "score": 41,
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] GitHubの実際のプルリクエスト、複数ソースの正解データ、校正済み評価、実運用に近い指標を組み合わせたオープンなコードレビューエージェント用ベンチマークであり、AIによるコードレビューの性能比較や開発品質の標準化に寄与します。一方で、技術そのものの革新というより評価基盤の公開であり、記事の中心が既出キーワードのAIおよびCopilot領域と重なるた"
+    },
+    "afc7cde28ff588815624f9d9bc16a4c8": {
+      "score": 62,
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] GitHub CopilotのCLI、アプリ、VS CodeのAgent Hostでローカルサンドボックスが一般提供された点は、AIエージェントがローカル環境でコマンド実行やファイル操作を行う際の安全性・導入障壁を下げる実務的な進展です。一方で、既存のCopilot機能に対するセキュリティおよび運用面の改善であり、業界の前提を変える新技術や広範なアー"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 46,
+      "title": "July 30, 2026",
+      "date": "2026-10-08",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースですが、内容の中心はJupyterLabのUI不具合、Git拡張の固定、micromambaの権限問題、プロキシ経由のCA証明書対応など、開発環境の安定性と運用性を改善する保守的な修正です。AIエージェント向け基盤という点で一定の技術的 relevance はあるものの、新しいアーキテク"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-08/blog.md",
+    "show_notes_path": "out/2026-10-08/show_notes.md",
+    "script_path": "out/2026-10-08/script_2hosts.md",
+    "audio_path": "out/2026-10-08/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-08/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-08/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 28142,
+        "output_tokens": 11505,
+        "cost_usd": 0.019434
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 45521,
+        "output_tokens": 9738,
+        "cost_usd": 0.188422
+      }
+    ],
+    "tts": {
+      "chars": 5038,
+      "audio_sec": 763.7,
+      "cost_usd": 0.147264
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.35512
+  }
+}

@@ -25,6 +25,78 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#191 「Claude Haiku 5.5」登場、大幅な値下げでAI価格競争はまだ終わらないことを証明 ほか</title>
+      <description>Tech News Radio Show Notes - #191 (2026-10-08)
+
+エピソード情報
+• エピソード: #191
+• 日付: 2026-10-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over (https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/)
+• June 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#June_30_2026)
+• June 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#June_29_2026)
+• June 30, 2026 (https://www.wired.com/story/best-amazon-prime-day-deals-under-50-10-06-2026/)
+• GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets (https://arxiv.org/abs/2610.06910)
+
+注目の深掘り
+• Local sandboxing for GitHub Copilot now generally available (https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available)
+• Local sandboxing for GitHub Copilot now generally available (https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli)
+
+小ネタ・その他
+• Nous Research confirms it hit $1.5B valuation, launches AI agents for business users (https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/)
+• Broadcom Plans $50 Billion Financing for OpenAI Chips, WSJ Says (https://www.bloomberg.com/news/articles/2026-10-07/broadcom-plans-50-billion-financing-for-openai-chips-wsj-says)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-08/episode_audio.mp3" length="12433581" type="audio/mpeg" />
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-08</guid>
+      <itunes:duration>12:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>「Claude Haiku 5.5」登場、大幅な値下げでAI価格競争はまだ終わらないことを証明 ほか</itunes:title>
+      <itunes:episode>191</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #191 (2026-10-08)
+
+エピソード情報
+• エピソード: #191
+• 日付: 2026-10-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over (https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/)
+• June 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#June_30_2026)
+• June 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#June_29_2026)
+• June 30, 2026 (https://www.wired.com/story/best-amazon-prime-day-deals-under-50-10-06-2026/)
+• GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets (https://arxiv.org/abs/2610.06910)
+
+注目の深掘り
+• Local sandboxing for GitHub Copilot now generally available (https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available)
+• Local sandboxing for GitHub Copilot now generally available (https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli)
+
+小ネタ・その他
+• Nous Research confirms it hit $1.5B valuation, launches AI agents for business users (https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/)
+• Broadcom Plans $50 Billion Financing for OpenAI Chips, WSJ Says (https://www.bloomberg.com/news/articles/2026-10-07/broadcom-plans-50-billion-financing-for-openai-chips-wsj-says)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-08/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.110" title="Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over" href="https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/" />
+        <psc:chapter start="00:02:12.280" title="June 30, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#June_30_2026" />
+        <psc:chapter start="00:04:13.460" title="GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets" href="https://arxiv.org/abs/2610.06910" />
+        <psc:chapter start="00:06:02.690" title="Local sandboxing for GitHub Copilot now generally available" href="https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available" />
+        <psc:chapter start="00:08:11.160" title="Nous Research confirms it hit $1.5B valuation, launches AI agents for business users" href="https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/" />
+        <psc:chapter start="00:10:36.020" title="Broadcom Plans $50 Billion Financing for OpenAI Chips, WSJ Says" href="https://www.bloomberg.com/news/articles/2026-10-07/broadcom-plans-50-billion-financing-for-openai-chips-wsj-says" />
+        <psc:chapter start="00:12:26.370" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#190 数学におけるAIの進歩を共有 ほか</title>
       <description>Tech News Radio Show Notes - #190 (2026-10-07)
 
