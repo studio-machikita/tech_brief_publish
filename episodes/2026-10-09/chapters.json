@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.64,
+    "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+    "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/"
+  },
+  {
+    "start_sec": 117.48,
+    "title": "Open data for predictive AI models of biology: $1.8 billion committed",
+    "url": "https://biohub.org/news/virtual-biology-initiative-expansion/"
+  },
+  {
+    "start_sec": 239.05,
+    "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+    "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
+  },
+  {
+    "start_sec": 341.13,
+    "title": "China's Delivery Robots Are Learning to Tackle the Night Shift",
+    "url": "https://www.bloomberg.com/news/features/2026-10-08/china-s-delivery-robots-are-learning-to-tackle-the-night-shift"
+  },
+  {
+    "start_sec": 439.03,
+    "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+    "url": "https://arxiv.org/abs/2610.08794"
+  },
+  {
+    "start_sec": 540.36,
+    "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+    "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/"
+  },
+  {
+    "start_sec": 646.57,
+    "title": "エンディング",
+    "url": null
+  }
+]

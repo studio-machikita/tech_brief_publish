@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#192 Claude、テキスト指示からアニメーション解説動画とリアルタイムデータダッシュボードを生成可能に ほか</title>
+      <description>Tech News Radio Show Notes - #192 (2026-10-09)
+
+エピソード情報
+• エピソード: #192
+• 日付: 2026-10-09
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Claude can now generate animated explainer videos and live data dashboards from text prompts (https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/)
+• Open data for predictive AI models of biology: $1.8 billion committed (https://biohub.org/news/virtual-biology-initiative-expansion/)
+• Roundtables: A Conversation With the Creator of AI-Designed Viruses (https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/)
+
+注目の深掘り
+• China's Delivery Robots Are Learning to Tackle the Night Shift (https://www.bloomberg.com/news/features/2026-10-08/china-s-delivery-robots-are-learning-to-tackle-the-night-shift)
+
+小ネタ・その他
+• Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages (https://arxiv.org/abs/2610.08794)
+• Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments (https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-09/episode_audio.mp3" length="10832301" type="audio/mpeg" />
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-09</guid>
+      <itunes:duration>11:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Claude、テキスト指示からアニメーション解説動画とリアルタイムデータダッシュボードを生成可能に ほか</itunes:title>
+      <itunes:episode>192</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #192 (2026-10-09)
+
+エピソード情報
+• エピソード: #192
+• 日付: 2026-10-09
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Claude can now generate animated explainer videos and live data dashboards from text prompts (https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/)
+• Open data for predictive AI models of biology: $1.8 billion committed (https://biohub.org/news/virtual-biology-initiative-expansion/)
+• Roundtables: A Conversation With the Creator of AI-Designed Viruses (https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/)
+
+注目の深掘り
+• China's Delivery Robots Are Learning to Tackle the Night Shift (https://www.bloomberg.com/news/features/2026-10-08/china-s-delivery-robots-are-learning-to-tackle-the-night-shift)
+
+小ネタ・その他
+• Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages (https://arxiv.org/abs/2610.08794)
+• Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments (https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-09/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.640" title="Claude can now generate animated explainer videos and live data dashboards from text prompts" href="https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/" />
+        <psc:chapter start="00:01:57.480" title="Open data for predictive AI models of biology: $1.8 billion committed" href="https://biohub.org/news/virtual-biology-initiative-expansion/" />
+        <psc:chapter start="00:03:59.050" title="Roundtables: A Conversation With the Creator of AI-Designed Viruses" href="https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/" />
+        <psc:chapter start="00:05:41.130" title="China's Delivery Robots Are Learning to Tackle the Night Shift" href="https://www.bloomberg.com/news/features/2026-10-08/china-s-delivery-robots-are-learning-to-tackle-the-night-shift" />
+        <psc:chapter start="00:07:19.030" title="Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages" href="https://arxiv.org/abs/2610.08794" />
+        <psc:chapter start="00:09:00.360" title="Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments" href="https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/" />
+        <psc:chapter start="00:10:46.570" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#191 「Claude Haiku 5.5」登場、大幅な値下げでAI価格競争はまだ終わらないことを証明 ほか</title>
       <description>Tech News Radio Show Notes - #191 (2026-10-08)
 

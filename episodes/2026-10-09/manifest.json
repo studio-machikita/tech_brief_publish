@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-09",
+  "episode_date_local": "2026-10-09",
+  "content_snapshot_date": "2026-10-09",
+  "show_length_sec": 676,
+  "audio_size": 10832301,
+  "generated_at": "2026-10-09T00:24:20.345703+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-bf3fa905",
+      "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+      "title_ja": "Claude、テキスト指示からアニメーション解説動画とリアルタイムデータダッシュボードを生成可能に",
+      "one_liner": "Claudeが動画とダッシュボードを自動生成",
+      "fingerprint": "bf3fa905d619997b1f25688963a83f18",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-01bed472",
+      "title": "Open data for predictive AI models of biology: $1.8 billion committed",
+      "title_ja": "生物学の予測AIモデル向けオープンデータに18億ドルを拠出",
+      "one_liner": "生物学AI向けの公開データに18億ドル",
+      "fingerprint": "01bed47279996ade68154b32d7facc65",
+      "score": 89,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-117ca943",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "title_ja": "ラウンドテーブル:AI設計ウイルスの生みの親に聞く",
+      "one_liner": "AIが設計したウイルス、生命設計への一歩",
+      "fingerprint": "117ca9431dc8d1f3018a0f53c7304ffe",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "item_id": "item-e1a17d06",
+      "title": "China's Delivery Robots Are Learning to Tackle the Night Shift",
+      "title_ja": "中国の配送ロボット、夜間シフトへの対応を学習中",
+      "one_liner": "中国の配送ロボットが夜間配達に挑む",
+      "fingerprint": "e1a17d067b89a16ec8b1e0fcbe6e70c7",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-0c27d9ec",
+      "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+      "title_ja": "Tokka-Bench:自然言語100種とプログラミング言語20種にわたるトークナイザーの評価",
+      "one_liner": "トークナイザーを100言語で比べる新基準",
+      "fingerprint": "0c27d9ec8f92e9638cd16375a8761082",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-d110ce31",
+      "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+      "title_ja": "AIエージェント向け推論従量課金:BlockRunとIncarnaはAmazon Bedrock AgentCoreの決済機能をどう活用しているか",
+      "one_liner": "AIエージェントが推論を1回ずつ自分で支払う",
+      "fingerprint": "d110ce31074ded7748a89849116db115",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-026de36b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Bayesian Mirror Architecture for Emergent Consciousness: Circular Hierarchies, Self-Manifolds, and Hybrid Event-Self Binding"
+    },
+    {
+      "item_id": "item-8cc43604",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI"
+    },
+    {
+      "item_id": "item-db32a472",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-06e39709",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit"
+    },
+    {
+      "item_id": "item-ee9ab3a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "IdP Logout in an SPA"
+    },
+    {
+      "item_id": "item-b1ee1982",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Purpose-built model for leaked secret detection"
+    },
+    {
+      "item_id": "item-5990b1c7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod"
+    },
+    {
+      "item_id": "item-1e21dcfb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Secret protection must scale with software"
+    },
+    {
+      "item_id": "item-3379c1a3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain"
+    },
+    {
+      "item_id": "item-6eadd287",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ReviewBench: An open benchmark for AI code review"
+    },
+    {
+      "item_id": "item-c74f7dcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Selected models in GitHub Copilot deprecated"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-a449b351",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-ef96a737",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI, the Partition Principle, and mathematics"
+    },
+    {
+      "item_id": "item-43384e63",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ICE Emails Discuss Using Palantir-Supported Tool to Investigate Voter Fraud"
+    },
+    {
+      "item_id": "item-e9d18285",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "President Trump awards Big Tech donors with nation’s highest science prizes"
+    }
+  ],
+  "score_cache": {
+    "ef96a737a46154019023195a4c57ca8a": {
+      "score": 29,
+      "title": "OpenAI, the Partition Principle, and mathematics",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 数学とOpenAIの関係を扱う可能性はあるものの、タイトルだけでは具体的な技術成果、モデルの進展、実装方法、業界への影響が判別できません。基礎研究としての潜在性はありますが、現時点では抽象度が高く、エンジニアにとっての実務的なインパクトは限定的です。また、既に取り上げ済みの「OpenAI」に直接該当するため、明確な新展開と確認できない今回は減点しまし"
+    },
+    "db32a472f6ea4f86395f5901802ea40c": {
+      "score": 49,
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 企業内の採用・開発・業務オペレーションでChatGPTとCodexを活用し、専門知識を再利用可能なワークフローへ変換している点は、生成AIの実装事例として実務的な価値があります。特に開発工程の短縮や業務標準化への応用はエンジニアにとって参考になります。一方で、基盤技術やアーキテクチャの新発表ではなく、Oracleによる導入事例・活用紹介に留まります。"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 35,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] Copilotの利用メトリクスでエージェント活動やコード行数が正しく計測されない不具合と、IDE更新による修正提供を知らせる運用上の告知です。開発チームの分析やライセンス利用状況の把握には影響しますが、新機能やアーキテクチャの革新ではなく、影響範囲も主に既存ユーザーの計測精度に限定されます。さらに、既報キーワードのCopilot、agent、GitH"
+    },
+    "d110ce31074ded7748a89849116db115": {
+      "score": 66,
+      "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] AIエージェントが推論APIをリクエスト単位で支払う仕組みを、Amazon Bedrock AgentCoreの支出制限やx402と組み合わせて実装する点は、エージェント経済圏やAPI課金の自動化に関わる技術的に新しい話題です。特に、決済対応の導入期間を数か月から数日に短縮できる点は、サービス間取引の実用化に寄与します。一方で、AIエージェントおよび"
+    },
+    "1e21dcfbc0eb5b45a17ecf3e2660d6b2": {
+      "score": 43,
+      "title": "Secret protection must scale with software",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] ソフトウェア開発の増加に合わせてシークレット検出・保護を強化する話題であり、開発者体験やCI/CD、資格情報漏洩対策には実務上の重要性があります。ただし、業界の前提を変える新技術というよりはセキュリティ運用・開発プロセス改善に分類されます。また、既出キーワードの「copilot」と同一文脈のGitHub関連記事であるため、重複分として減点しました。 "
+    },
+    "b1ee19823e19536379fd231239b64d61": {
+      "score": 47,
+      "title": "Purpose-built model for leaked secret detection",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] AIエージェントを含む開発フローに対応した、コンテキスト認識型のシークレット漏洩検出モデルは実務上の価値が高く、誤検知削減や検出精度向上が期待できます。一方で、主題はセキュリティ運用・漏洩対策であり、業界の前提を変える基盤技術の発表とまでは言いにくいです。また、既出キーワードのGitHubに該当し、同社の開発者向けセキュリティ機能という既存テーマに近"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 49,
+      "title": "July 30, 2026",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] AIエージェント向けのJupyterLabベース開発環境における実運用上の改善であり、TLS証明書対応、Git連携、micromamba環境作成、ファイル所有権など、開発者体験と企業内プロキシ環境での安定性を高める具体的な修正が含まれています。一方で、内容の中心は新機能やアーキテクチャ革新ではなく、既存環境の不具合修正と依存関係更新です。また、既出キ"
+    },
+    "e9d182850bbebd98db55ab1aaea42821": {
+      "score": 24,
+      "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] Big Tech関係者への科学賞授与と政治献金の関係を扱う政治・ガバナンス寄りの記事であり、エンジニアリング上の新技術、アーキテクチャ、製品革新は示されていません。科学技術政策や企業と政権の関係には一定の関心価値があるものの、技術者にとっての直接的な実務影響は限定的です。"
+    },
+    "bf3fa905d619997b1f25688963a83f18": {
+      "score": 92,
+      "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] テキストプロンプトからアニメーション解説動画や、BigQuery・Snowflakeと連携したライブデータダッシュボードを生成できる点は、生成AIの適用範囲をコンテンツ制作とデータ分析へ広げる具体的な進展です。特にデータソースとの接続を含むダッシュボード生成は、分析業務の自動化や非エンジニアの意思決定支援に直結します。Claude関連は既出キーワード"
+    },
+    "a449b3517d723bdee46da4aad8148805": {
+      "score": 33,
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 生成AIの出力透かしは、コンテンツの出所確認やAI生成物の透明性に関わるため、技術的には一定の意義があります。ただし、対象がEU域内に限定され、透かし自体も容易に回避でき信頼性が低いとされているため、実装・業界インパクトは限定的です。また、OpenAIおよびAI関連の話題は直近放送済みのキーワードと重なるため、20点減点しました。規制対応に近いニュー"
+    },
+    "43384e63aa65f8afd86161c4a1ff0fc8": {
+      "score": 27,
+      "title": "ICE Emails Discuss Using Palantir-Supported Tool to Investigate Voter Fraud",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] Palantir支援ツールによる有権者名簿データの調査利用をめぐる、監視・行政運用・プライバシーに関するニュースです。データ分析基盤の活用事例として技術的な含意はあるものの、新しいAIモデルやアーキテクチャ、ソフトウェア開発上の革新ではなく、主題は政府機関の運用と規制・社会的影響です。そのため、評価基準上は低評価帯に該当します。"
+    },
+    "117ca9431dc8d1f3018a0f53c7304ffe": {
+      "score": 86,
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 生成AIを用いたウイルスの遺伝的設計は、AIと合成生物学の融合という非常に先端的なテーマで、生命科学の研究開発やバイオセキュリティの前提を変える可能性があります。一方で、現時点ではAIが生命体を自律的に生み出した実証ではなく、2025年の予備的な成果を扱う対談形式の記事であり、具体的な技術的ブレークスルーや実用化の発表ではありません。既出のAI関連キ"
+    },
+    "e1a17d067b89a16ec8b1e0fcbe6e70c7": {
+      "score": 72,
+      "title": "China's Delivery Robots Are Learning to Tackle the Night Shift",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 自律走行型の配送ロボットが夜間配送という新たな運用領域に対応する内容で、ロボティクス、コンピュータビジョン、経路計画、遠隔監視などの技術的課題と実用化に関わる重要な話題です。夜間配送は市場規模や稼働率の向上に直結する一方、暗所での認識精度、安全性、バッテリー運用、規制対応などの難度が高く、エンジニアリング上の意義があります。ただし、具体的な製品発表や"
+    },
+    "06e39709b070a473fb866ac7fb8d3c80": {
+      "score": 48,
+      "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] Windows PC上でNVIDIAの計算資源を使ってAI処理をオンデバイス化する取り組みは、クラウド依存を下げ、レイテンシー・推論コスト・プライバシーを改善し得るため、AIインフラとクライアントアーキテクチャの観点で重要です。一方で、記事は新しい基盤技術の詳細や具体的な性能差よりも製品発表とAppleへの対抗策が中心で、一般消費者向けPCという側面"
+    },
+    "3379c1a34a4be0bfd070f1db7f472618": {
+      "score": 43,
+      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 自然言語から企業データ向けダッシュボードを生成するエージェント基盤で、スキーマ制約、型付きツール、永続状態、承認・監査・チェックポイント・障害復旧を組み込んでいる点は、エンタープライズ向けAIシステムの実装例として有用です。特に読み取り専用SQLやメタデータ解決など、実運用時の安全性と再現性を意識した設計は評価できます。一方で、DataBrain固有"
+    },
+    "026de36b82ef2096dd53e3d9533024f8": {
+      "score": 55,
+      "title": "A Bayesian Mirror Architecture for Emergent Consciousness: Circular Hierarchies, Self-Manifolds, and Hybrid Event-Self B",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 自己参照的な生成モデル、循環的な階層構造、自己表現と世界モデルを結合する潜在変数という設計は、AIアーキテクチャや機械意識研究の観点で新規性が高く、理論的には興味深い。一方で、現時点ではarXivの基礎的な定式化にとどまり、実装・実験結果・既存モデルを上回る性能などの具体的な裏付けがスニペットから確認できないため、業界の前提を変えるほどの評価にはしな"
+    },
+    "0c27d9ec8f92e9638cd16375a8761082": {
+      "score": 72,
+      "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 100の自然言語と20のプログラミング言語を対象に、bytes per tokenや語分割率など複数指標でトークナイザーを比較できるオープンソース評価基盤は、LLMの多言語性能・推論コスト・コード生成品質の分析に実用的な影響があります。特に30以上の文字体系を横断する点と、従来分散していた評価軸を標準化しようとしている点は技術的に価値があります。一方"
+    },
+    "ee9ab3a6b513d8391650a142b32a5dc0": {
+      "score": 48,
+      "title": "IdP Logout in an SPA",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] SPAにおけるOIDCのIdPログアウト処理を、子アプリの終了、id_token_hintの保持、トップレベル遷移、コールバックでのストレージ削除という順序で整理しており、実装上の落とし穴に具体的な指針を与えている点は有用です。特に、第三者Cookie制限、未登録のpost_logout_redirect_uri、トークンのクエリ文字列露出、コールバ"
+    },
+    "01bed47279996ade68154b32d7facc65": {
+      "score": 89,
+      "title": "Open data for predictive AI models of biology: $1.8 billion committed",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 生物学向けの予測AIモデルを支えるオープンデータに18億ドルが投入される点は、AIとバイオテクノロジーの融合を加速し、研究開発の再現性やモデル性能、創薬・診断への応用に広範な影響を与えます。特にデータ基盤への大規模投資は、個別モデルの発表よりも長期的なエコシステム形成に寄与します。一方で、記事からは資金の拠出主体、データの具体的内容、公開時期や実装計"
+    },
+    "8cc43604d543edd1d9d34a9e5097a75f": {
+      "score": 54,
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 生成AIを画像・動画広告の制作ワークフローへ統合する点は、クリエイター向けアプリケーションとして実用性と市場影響があります。一方で、基盤モデルやアーキテクチャ自体の技術的ブレークスルーではなく、記事内容もPollo AIによる活用事例・製品訴求が中心です。さらに、既出キーワードであるAI、OpenAI、modelに該当し、直近の話題と同じ生成AI・モ"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 33,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] 科学技術への投資や政策方針に関する発表とみられますが、記事タイトルだけでは具体的な技術、アーキテクチャ、製品、研究成果、実装内容が確認できません。エンジニアへの直接的な影響や新規性を評価しにくく、政策・組織方針寄りのニュースとして低めに採点します。 [Editorial: AI-focused source +6]"
+    },
+    "5990b1c7a7d1bfdb0840156d85683cb5": {
+      "score": 44,
+      "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] GPUクラスタを複数チームで共有するための認証、Kubernetes namespaceによる分離、タスクの公平なスケジューリング、チーム単位のコスト配賦を組み合わせた実践的なクラウドアーキテクチャであり、AI基盤の運用効率やガバナンスに有用です。一方で、既存技術を統合したリファレンス実装が中心で、業界の前提を変える新技術ではありません。また、既出キ"
+    },
+    "6eadd28788b96702be9856b964916fac": {
+      "score": 41,
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] AIによるコードレビューエージェントを、実際のGitHubプルリクエストや複数ソースの正解データ、運用を意識した指標で評価するオープンベンチマークは、開発現場でのAI評価基盤として意義があります。単なるモデル性能比較ではなく、レビュー品質や実用性を測定できる点はエンジニアリング上重要です。一方で、基盤モデルや新しいアーキテクチャそのものの発表ではなく"
+    },
+    "c74f7dcdf56e2e5590b5bd8faf8e1d86": {
+      "score": 38,
+      "title": "Selected models in GitHub Copilot deprecated",
+      "date": "2026-10-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが非推奨となる運用変更であり、利用者の設定変更やコード生成品質、互換性に影響する点は実務上重要です。ただし、新技術の発表ではなく、モデルの提供終了という保守・運用寄りのニュースです。また、既出キーワードであるGitHubおよびCopilotに直接該当し、同じ話題の続報として20点減点しました。 [Edit"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-09/blog.md",
+    "show_notes_path": "out/2026-10-09/show_notes.md",
+    "script_path": "out/2026-10-09/script_2hosts.md",
+    "audio_path": "out/2026-10-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 26175,
+        "output_tokens": 11169,
+        "cost_usd": 0.018638
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45743,
+        "output_tokens": 9342,
+        "cost_usd": 0.184906
+      }
+    ],
+    "tts": {
+      "chars": 4310,
+      "audio_sec": 663.0,
+      "cost_usd": 0.127827
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.331371
+  }
+}
