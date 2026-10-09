@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.78,
+    "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+    "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/"
+  },
+  {
+    "start_sec": 125.35,
+    "title": "Manus Raises More Than $500 Million After Unwinding Meta Deal",
+    "url": "https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal"
+  },
+  {
+    "start_sec": 240.78,
+    "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
+    "url": "https://arxiv.org/abs/2610.10550"
+  },
+  {
+    "start_sec": 349.96,
+    "title": "ReviewBench: An open benchmark for AI code review",
+    "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/"
+  },
+  {
+    "start_sec": 480.95,
+    "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
+    "url": "https://arxiv.org/abs/2610.10552"
+  },
+  {
+    "start_sec": 616.42,
+    "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/"
+  },
+  {
+    "start_sec": 733.62,
+    "title": "エンディング",
+    "url": null
+  }
+]

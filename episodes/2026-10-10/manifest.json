@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-10",
+  "episode_date_local": "2026-10-10",
+  "content_snapshot_date": "2026-10-10",
+  "show_length_sec": 762,
+  "audio_size": 12204717,
+  "generated_at": "2026-10-09T22:57:27.820671+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-c83e2bfb",
+      "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+      "title_ja": "AnthropicのClaude、動的ワークフローで最大1,000のAIエージェントを並列制御可能に",
+      "one_liner": "Claudeが最大1,000のAIを並列で動かせる",
+      "fingerprint": "c83e2bfb824ef57f45a284d5ee3fb876",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-c66df3c8",
+      "title": "Manus Raises More Than $500 Million After Unwinding Meta Deal",
+      "title_ja": "Manus、Metaとの取引解消を経て5億ドル超を調達",
+      "one_liner": "Manusが5億ドル超を調達、Metaとの契約は解消",
+      "fingerprint": "c66df3c81dc4f2294bde2b2d0030c472",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-b8a31c9b",
+      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
+      "title_ja": "Diffu-LoRA:パーソナライズ拡散モデルのための新たな低ランク適応手法",
+      "one_liner": "拡散モデルの個人化に向けた新LoRA手法",
+      "fingerprint": "b8a31c9b2fcf6ad05490a6e4db06373e",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-6eadd287",
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "title_ja": "ReviewBench:AIコードレビューのためのオープンベンチマーク",
+      "one_liner": "AIコードレビューの公開ベンチマークが登場",
+      "fingerprint": "6eadd28788b96702be9856b964916fac",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-f7273acd",
+      "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
+      "title_ja": "デコーダを凍結し、エンコーダを修復する:SVDベースのKVキャッシュ圧縮に向けたパラメータ効率の高い適応",
+      "one_liner": "学習率を共通にした比較は誤った優位を生む",
+      "fingerprint": "f7273acd7cea8a69ae935758c2b4a1aa",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-d1592088",
+      "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+      "title_ja": "Postman、Amazon Bedrockで4,000万人の開発者向けにエージェントモードを運用する仕組み",
+      "one_liner": "4000万人向けAIエージェントの設計の要点",
+      "fingerprint": "d15920880fbaa0b9ef0fb8d7bd9fde07",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-9a8347d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ICYMI: What landed for AI builders in September 2026"
+    },
+    {
+      "item_id": "item-fe1c44de",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+    },
+    {
+      "item_id": "item-98067447",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-dfd69a8b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment"
+    },
+    {
+      "item_id": "item-b1ee1982",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Purpose-built model for leaked secret detection"
+    },
+    {
+      "item_id": "item-116bd22b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting"
+    },
+    {
+      "item_id": "item-30e6a0c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: AI’s refusal problem and weight-loss drug side effects"
+    },
+    {
+      "item_id": "item-5d067b4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Super Micro Case ‘Fixer’ Pleads Guilty to Diverting AI Servers"
+    },
+    {
+      "item_id": "item-1e21dcfb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Secret protection must scale with software"
+    },
+    {
+      "item_id": "item-a449b351",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU"
+    },
+    {
+      "item_id": "item-cbeff78e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CVE-2026-94545 Exploitability Deep Dive: Escaping, Native Parsing and the Non-PIE Node Build"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-d99afd7b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-a3214eed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: New organization billing options and controls"
+    },
+    {
+      "item_id": "item-d1e6d025",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Long live the mechanical keyboard"
+    },
+    {
+      "item_id": "item-a1eb076f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "No Man Is an Island"
+    }
+  ],
+  "score_cache": {
+    "d99afd7b95571f81ff697c94b9e9b2f9": {
+      "score": 32,
+      "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] 複数カメラやコンピュータービジョンを用いて警察活動を追跡するDIY監視システムという点では、エッジAIや映像解析の応用例として一定の技術的関心があります。一方で、記事の主題は新しいアーキテクチャや基盤技術の発表ではなく、監視・プライバシー・警察との緊張関係といった社会的および法的論点が中心です。業界全体の技術前提を変える規模や具体的な実装情報も限定的"
+    },
+    "98067447fb8c08c4981db9263dc6e7ea": {
+      "score": 51,
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] OpenAIのDaybreakを実際のMDR運用に適用し、脅威調査時間を96%削減、52%のケースを自動化した点は、AIによるセキュリティ業務の具体的な生産性向上事例として価値があります。特に人間の監督を維持しながら自動化範囲を拡大している点は、実運用での導入判断に有用です。一方で、業界全体のアーキテクチャを変える新技術の発表というよりは導入効果のケ"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 31,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] Copilotの利用メトリクスでエージェント活動やコード行数が正しく反映されない不具合への修正案内であり、開発チームの分析・運用には関係しますが、製品機能やアーキテクチャを大きく変える発表ではありません。既出キーワードのCopilotおよびagentsと直接重複し、同じ利用状況の話題であるため20点減点しています。 [Editorial: AI-fo"
+    },
+    "9a8347d3ba20d74255e1d4d8468b8546": {
+      "score": 54,
+      "title": "ICYMI: What landed for AI builders in September 2026",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] AI開発者向けに、モデル選択肢の拡大、サーバーレスエージェントの高速化・評価機能、企業向けコネクタによるナレッジベース同期の自動化をまとめており、実装効率や運用性に影響する内容です。一方で、単一の画期的発表ではなく、既存サービスの月次アップデート総括です。また、直近放送済みのAmazon Bedrock、AgentCore、AIエージェント、モデル関"
+    },
+    "1e21dcfbc0eb5b45a17ecf3e2660d6b2": {
+      "score": 35,
+      "title": "Secret protection must scale with software",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] 開発者向けのシークレット保護をソフトウェア開発の規模拡大に合わせて強化するという、実務上は重要なセキュリティ運用テーマです。ただし、記事の内容は具体的な新技術や画期的なアーキテクチャの発表というより、保護対策の必要性を訴える概念的な主張に留まっています。また、既出キーワードである「Copilot」と同じ文脈のGitHub発表であり、直近記事との重複を"
+    },
+    "a3214eed3bc0f0112418ac649a82916d": {
+      "score": 16,
+      "title": "Copilot code review: New organization billing options and controls",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] Copilot code reviewの組織向け請求・ライセンス管理機能の追加であり、導入時のコスト配分や管理運用には有用ですが、アーキテクチャや開発技術そのものを大きく変える内容ではありません。既出キーワードの「copilot」に該当し、同サービスの管理・運用面に関する続報として重複減点も適用しました。 [Editorial: AI-focused"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 51,
+      "title": "July 30, 2026",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabとGemini CLIの干渉、Git操作、micromamba環境作成、プロキシ経由のCA証明書、ファイル所有権など、AI開発環境の安定性と運用性を改善している点は実務上有用です。一方で、革新的な機能追加や業界の前提を変える発表ではなく、主に既存環境の不具合修正・"
+    },
+    "d1e6d02542d875e254c275fee06b3582": {
+      "score": 10,
+      "title": "Long live the mechanical keyboard",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] メカニカルキーボードとKeychronの製品紹介は、一般消費者向けハードウェアの話題であり、ソフトウェア工学・クラウド・AIなどの技術革新や開発者エコシステムへの影響が限定的です。Kickstarter発の成功例という事業面の興味深さはあるものの、記事の中心は製品ラインアップで、評価基準上は最低評価帯に該当します。"
+    },
+    "c83e2bfb824ef57f45a284d5ee3fb876": {
+      "score": 95,
+      "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] Claude Managed Agentsが動的ワークフローにより最大1,000個のサブエージェントを並列協調させる機能は、AIエージェントの実運用スケールを大きく引き上げる重要な進展です。単一エージェントのバグ検出数が27件から66件へ向上したという具体的な評価結果もあり、複雑なコード解析や並列タスク処理への実用性が示されています。既出のClaud"
+    },
+    "a449b3517d723bdee46da4aad8148805": {
+      "score": 35,
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] EU域内でChatGPT出力への透かしを標準化する動きは、生成AIのコンテンツ provenance や検出技術に関わるため、開発者・サービス運用者への影響はあります。一方で、主題は規制対応であり、透かし自体も信頼性が低く回避容易とされているため、技術革新としてのインパクトは限定的です。さらに、既出のAI・OpenAI関連トピックと同じ領域の続報では"
+    },
+    "116bd22b406962bacade02142c5e407d": {
+      "score": 41,
+      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] 出版業界でLLMが広報、表紙制作、紹介文、メール作成などに実務導入され、現場の反発を招いている点は、AIの業務適用と組織導入上の課題を示すニュースです。ただし、新しいモデルや技術基盤の発表ではなく、主題は労務・運用面にあります。また、既出のAI関連トピックと同じく企業内でのAI活用を扱うため、重複分として減点しました。 [Editorial: AI/"
+    },
+    "30e6a0c33e021d9e08e3e1693cddc79b": {
+      "score": 41,
+      "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] AIモデルの拒否挙動や安全性設計はエンジニアにとって重要な論点ですが、記事はニュースレター形式の概説であり、具体的な新技術、モデル発表、実装手法などは示されていません。既に取り上げ済みの「AI」に直接関連し、同じテーマの続報・明確な新展開とも判断しにくいため、重複分を減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "5d067b4bbb84831109b562e375df8762": {
+      "score": 37,
+      "title": "Super Micro Case ‘Fixer’ Pleads Guilty to Diverting AI Servers",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] AIサーバーや先端チップの中国向け輸出規制違反に関する有罪答弁であり、半導体サプライチェーン、輸出管理、企業のコンプライアンスに影響する点は重要です。一方で、技術そのものの革新やアーキテクチャの進展ではなく、主題は法規制・刑事事件です。また、既出キーワードのAIおよび関連するAIインフラの話題と重なるため減点しました。 [Editorial: AI/"
+    },
+    "c66df3c81dc4f2294bde2b2d0030c472": {
+      "score": 84,
+      "title": "Manus Raises More Than $500 Million After Unwinding Meta Deal",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] AIエージェント分野の有力スタートアップManusがMetaとの提携解消後に5億ドル超を調達した点は、資金市場の強い期待と、独立した事業・技術戦略への移行を示す重要な続報です。エージェント技術の競争や企業価値、今後のプロダクト開発に影響し得るため高評価としました。一方で、具体的な新技術やアーキテクチャの発表ではなく、既出キーワードであるAI・エージェ"
+    },
+    "dfd69a8b3d6f9e9ff3ae5964ace4a6c9": {
+      "score": 47,
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] 大規模な表データを知識グラフへ統合する際、セル値に依存せず列ヘッダーから意味を推定し、列型アノテーションやデータ品質評価を説明可能にする研究で、データ基盤・KG構築の信頼性向上に寄与します。ヘッダー中心かつメタデータのみという制約への対応や、推論根拠を追跡できる点はエンジニアリング上有用ですが、適用領域は比較的専門的で、クラウド基盤や主要言語の進化ほ"
+    },
+    "f7273acd7cea8a69ae935758c2b4a1aa": {
+      "score": 69,
+      "title": "Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] SVDベースのKVキャッシュ圧縮に対するパラメータ効率のよい適応手法を扱っており、LLM推論のメモリ使用量やコスト、レイテンシ改善につながる可能性があるため、エンジニアリング上の重要度は高めです。特に、学習率を一律に設定すると、調整対象パラメータ数の違いによって手法間の比較結果が歪むという指摘は、圧縮・微調整研究の実験設計に直接影響します。一方で、現"
+    },
+    "b8a31c9b2fcf6ad05490a6e4db06373e": {
+      "score": 72,
+      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] 拡散モデルのパーソナライズにおいて、LoRAの適応容量を層ごとに学習・配分する新手法であり、少数画像からの被写体同一性とプロンプト追従性の両立を改善し得る点が技術的に重要です。既存のLoRAを拡張する研究で、画像生成モデルのファインチューニング効率や品質に波及する可能性があります。一方、arXivの新規研究段階で、実運用での再現性・他モデルへの汎化・"
+    },
+    "cbeff78e5e07be580caeed65f1fcd4d0": {
+      "score": 35,
+      "title": "CVE-2026-94545 Exploitability Deep Dive: Escaping, Native Parsing and the Non-PIE Node Build",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] Next.jsのnext/ogとSatoriにおける入力エスケープ不備が、sharp経由のlibvips/libxml2でのメモリ破壊、さらに非PIEのNode.jsバイナリによるアドレス漏えい不要のリモートコード実行へつながる点は、技術的にも実運用上も重大です。影響条件、攻撃チェーン、対象バージョン、Edgeランタイムやsharp無効化などの緩和策"
+    },
+    "a1eb076f760bc97b49420b1bf184222a": {
+      "score": 6,
+      "title": "No Man Is an Island",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] タイトルのみで技術的な内容や具体的な発表、製品、アーキテクチャ上の進展を判断できません。AI・クラウド・プログラミング言語などの主要テーマとの関連も不明で、エンジニアリング上の影響範囲や新規性を評価できないため、最低水準のスコアとしました。"
+    },
+    "fe1c44de6082095c439c3143d881d5a5": {
+      "score": 54,
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] ブラウザエージェントの推論コストを76分の1、処理速度を5倍にしたという結果は、AIエージェントを実運用へ近づける具体的かつインパクトのある改善です。特に高性能モデルを業務アプリケーションへ組み込む際の最大の障壁であるレイテンシーとAPIコストを同時に下げており、エンジニアリング上の価値は高いです。一方で、業界全体の前提を変える新モデルの発表ではなく"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 33,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-09",
+      "reason": "[ScoreCache 2026-10-09] [Claude API Evaluation] 科学技術への投資や政策方針に関する発表とみられますが、記事タイトルだけでは具体的な技術、アーキテクチャ、製品、研究成果、実装内容が確認できません。エンジニアへの直接的な影響や新規性を評価しにくく、政策・組織方針寄りのニュースとして低めに採点します。 [Editorial: AI-focused sour"
+    },
+    "d15920880fbaa0b9ef0fb8d7bd9fde07": {
+      "score": 62,
+      "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] 40 million人規模の開発者向けAIエージェントを実運用するための、ツールの制御、スキーマベースのデータ取得、コンテキスト管理、Bedrock上でのスケーリング設計は、エンジニアにとって具体性と実用性が高い。一方で、AIエージェント、Amazon Bedrock、モデル、データといった既出キーワードと重なり、直近記事と同じテーマに分類されるため"
+    },
+    "6eadd28788b96702be9856b964916fac": {
+      "score": 72,
+      "title": "ReviewBench: An open benchmark for AI code review",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] AIによるコードレビューエージェントを、実際のGitHub Pull Request、複数ソースの正解データ、較正済み評価、実運用に近い指標で測定するオープンベンチマークの公開は、開発者向けAIの性能比較と改善を大きく前進させます。単なる新モデル発表ではなく、評価基盤をオープン化する点に技術的・実務的な価値があります。一方で、業界の前提を根本から変え"
+    },
+    "b1ee19823e19536379fd231239b64d61": {
+      "score": 47,
+      "title": "Purpose-built model for leaked secret detection",
+      "date": "2026-10-10",
+      "reason": "[Claude API Evaluation] GitHubが漏洩シークレット検出に特化したコンテキスト認識モデルを導入する点は、AIを活用した開発セキュリティとして実務的な価値があります。特に人間のコードだけでなくAIエージェントが生成するコードも対象にする方向性は新しい一方、影響範囲はGitHubのセキュリティ機能に限定され、業界の前提を変えるほどの技術革新ではありません。主題はシークレット漏"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-10/blog.md",
+    "show_notes_path": "out/2026-10-10/show_notes.md",
+    "script_path": "out/2026-10-10/script_2hosts.md",
+    "audio_path": "out/2026-10-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25802,
+        "output_tokens": 11221,
+        "cost_usd": 0.018626
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45569,
+        "output_tokens": 9858,
+        "cost_usd": 0.189718
+      }
+    ],
+    "tts": {
+      "chars": 4880,
+      "audio_sec": 749.1,
+      "cost_usd": 0.144433
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.352777
+  }
+}

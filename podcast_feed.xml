@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#193 AnthropicのClaude、動的ワークフローで最大1,000のAIエージェントを並列制御可能に ほか</title>
+      <description>Tech News Radio Show Notes - #193 (2026-10-10)
+
+エピソード情報
+• エピソード: #193
+• 日付: 2026-10-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows (https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/)
+• Manus Raises More Than $500 Million After Unwinding Meta Deal (https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal)
+• Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models (https://arxiv.org/abs/2610.10550)
+
+注目の深掘り
+• ReviewBench: An open benchmark for AI code review (https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/)
+
+小ネタ・その他
+• Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression (https://arxiv.org/abs/2610.10552)
+• How Postman runs Agent Mode for 40 million developers on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-10/episode_audio.mp3" length="12204717" type="audio/mpeg" />
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-10</guid>
+      <itunes:duration>12:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>AnthropicのClaude、動的ワークフローで最大1,000のAIエージェントを並列制御可能に ほか</itunes:title>
+      <itunes:episode>193</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #193 (2026-10-10)
+
+エピソード情報
+• エピソード: #193
+• 日付: 2026-10-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows (https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/)
+• Manus Raises More Than $500 Million After Unwinding Meta Deal (https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal)
+• Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models (https://arxiv.org/abs/2610.10550)
+
+注目の深掘り
+• ReviewBench: An open benchmark for AI code review (https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/)
+
+小ネタ・その他
+• Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression (https://arxiv.org/abs/2610.10552)
+• How Postman runs Agent Mode for 40 million developers on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-10/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.780" title="Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows" href="https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/" />
+        <psc:chapter start="00:02:05.350" title="Manus Raises More Than $500 Million After Unwinding Meta Deal" href="https://www.theinformation.com/briefings/manus-raises-500-million-unwinding-meta-deal" />
+        <psc:chapter start="00:04:00.780" title="Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models" href="https://arxiv.org/abs/2610.10550" />
+        <psc:chapter start="00:05:49.960" title="ReviewBench: An open benchmark for AI code review" href="https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/" />
+        <psc:chapter start="00:08:00.950" title="Freeze the Decoder, Heal the Encoder: Parameter-Efficient Adaptation for SVD-Based KV-Cache Compression" href="https://arxiv.org/abs/2610.10552" />
+        <psc:chapter start="00:10:16.420" title="How Postman runs Agent Mode for 40 million developers on Amazon Bedrock" href="https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/" />
+        <psc:chapter start="00:12:13.620" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#192 Claude、テキスト指示からアニメーション解説動画とリアルタイムデータダッシュボードを生成可能に ほか</title>
       <description>Tech News Radio Show Notes - #192 (2026-10-09)
 
