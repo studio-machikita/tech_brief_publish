@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#194 マイクロソフトの「Decision-1」モデル、急成長するAI意思決定モデル競争に参入 ほか</title>
+      <description>Tech News Radio Show Notes - #194 (2026-10-11)
+
+エピソード情報
+• エピソード: #194
+• 日付: 2026-10-11
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Microsoft's Decision-1 model enters the fast-growing AI decision model race (https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/)
+• Microsoft's Decision-1 model enters the fast-growing AI decision model race (https://www.theinformation.com/articles/chinas-ai-model-race-just-getting-crowded)
+• How OpenAI Beat Math (https://www.theinformation.com/articles/openai-beat-math)
+• Sophos cuts threat investigation time by 96% with OpenAI Daybreak (https://openai.com/index/sophos)
+
+注目の深掘り
+• Nvidia Explores Deal Options With Reflection AI, Financial Times Says (https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports)
+• Nvidia Explores Deal Options With Reflection AI, Financial Times Says (https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a)
+
+小ネタ・その他
+• Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod (https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/)
+• OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data (https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-11/episode_audio.mp3" length="11880237" type="audio/mpeg" />
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-11</guid>
+      <itunes:duration>12:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>マイクロソフトの「Decision-1」モデル、急成長するAI意思決定モデル競争に参入 ほか</itunes:title>
+      <itunes:episode>194</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #194 (2026-10-11)
+
+エピソード情報
+• エピソード: #194
+• 日付: 2026-10-11
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Microsoft's Decision-1 model enters the fast-growing AI decision model race (https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/)
+• Microsoft's Decision-1 model enters the fast-growing AI decision model race (https://www.theinformation.com/articles/chinas-ai-model-race-just-getting-crowded)
+• How OpenAI Beat Math (https://www.theinformation.com/articles/openai-beat-math)
+• Sophos cuts threat investigation time by 96% with OpenAI Daybreak (https://openai.com/index/sophos)
+
+注目の深掘り
+• Nvidia Explores Deal Options With Reflection AI, Financial Times Says (https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports)
+• Nvidia Explores Deal Options With Reflection AI, Financial Times Says (https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a)
+
+小ネタ・その他
+• Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod (https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/)
+• OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data (https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-11/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.060" title="Microsoft's Decision-1 model enters the fast-growing AI decision model race" href="https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/" />
+        <psc:chapter start="00:01:58.640" title="How OpenAI Beat Math" href="https://www.theinformation.com/articles/openai-beat-math" />
+        <psc:chapter start="00:03:47.130" title="Sophos cuts threat investigation time by 96% with OpenAI Daybreak" href="https://openai.com/index/sophos" />
+        <psc:chapter start="00:05:25.670" title="Nvidia Explores Deal Options With Reflection AI, Financial Times Says" href="https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports" />
+        <psc:chapter start="00:08:05.690" title="Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod" href="https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/" />
+        <psc:chapter start="00:10:02.400" title="OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data" href="https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/" />
+        <psc:chapter start="00:11:52.440" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#193 AnthropicのClaude、動的ワークフローで最大1,000のAIエージェントを並列制御可能に ほか</title>
       <description>Tech News Radio Show Notes - #193 (2026-10-10)
 

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.06,
+    "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
+    "url": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/"
+  },
+  {
+    "start_sec": 118.64,
+    "title": "How OpenAI Beat Math",
+    "url": "https://www.theinformation.com/articles/openai-beat-math"
+  },
+  {
+    "start_sec": 227.13,
+    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+    "url": "https://openai.com/index/sophos"
+  },
+  {
+    "start_sec": 325.67,
+    "title": "Nvidia Explores Deal Options With Reflection AI, Financial Times Says",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-10/nvidia-is-in-talks-to-acquire-reflection-ai-the-ft-reports"
+  },
+  {
+    "start_sec": 485.69,
+    "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+    "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/"
+  },
+  {
+    "start_sec": 602.4,
+    "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
+    "url": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/"
+  },
+  {
+    "start_sec": 712.44,
+    "title": "エンディング",
+    "url": null
+  }
+]
