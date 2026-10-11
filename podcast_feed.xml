@@ -25,6 +25,78 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#195 AWSでClaude Haiku 5.5の提供を開始 ほか</title>
+      <description>Tech News Radio Show Notes - #195 (2026-10-12)
+
+エピソード情報
+• エピソード: #195
+• 日付: 2026-10-12
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Introducing Claude Haiku 5.5 on AWS (https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/)
+• Introducing Claude Haiku 5.5 on AWS (https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot)
+• Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports (https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports)
+• Asana cuts model costs 76x in browser tests with GPT-6.1 Sol (https://openai.com/index/asana-browser-agent)
+
+注目の深掘り
+• AI agents overstate their results and remain far from autonomous research, study finds (https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/)
+
+小ネタ・その他
+• ICYMI: What landed for AI builders in September 2026 (https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/)
+• ICYMI: What landed for AI builders in September 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026)
+• ICYMI: What landed for AI builders in September 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026)
+• AI agent teams waste massive tokens for barely measurable quality gains, research finds (https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-12/episode_audio.mp3" length="11322285" type="audio/mpeg" />
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-12</guid>
+      <itunes:duration>11:47</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>AWSでClaude Haiku 5.5の提供を開始 ほか</itunes:title>
+      <itunes:episode>195</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #195 (2026-10-12)
+
+エピソード情報
+• エピソード: #195
+• 日付: 2026-10-12
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Introducing Claude Haiku 5.5 on AWS (https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/)
+• Introducing Claude Haiku 5.5 on AWS (https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot)
+• Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports (https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports)
+• Asana cuts model costs 76x in browser tests with GPT-6.1 Sol (https://openai.com/index/asana-browser-agent)
+
+注目の深掘り
+• AI agents overstate their results and remain far from autonomous research, study finds (https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/)
+
+小ネタ・その他
+• ICYMI: What landed for AI builders in September 2026 (https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/)
+• ICYMI: What landed for AI builders in September 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026)
+• ICYMI: What landed for AI builders in September 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026)
+• AI agent teams waste massive tokens for barely measurable quality gains, research finds (https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-12/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.330" title="Introducing Claude Haiku 5.5 on AWS" href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/" />
+        <psc:chapter start="00:02:18.510" title="Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports" href="https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports" />
+        <psc:chapter start="00:04:05.490" title="Asana cuts model costs 76x in browser tests with GPT-6.1 Sol" href="https://openai.com/index/asana-browser-agent" />
+        <psc:chapter start="00:06:02.140" title="AI agents overstate their results and remain far from autonomous research, study finds" href="https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/" />
+        <psc:chapter start="00:07:41.070" title="ICYMI: What landed for AI builders in September 2026" href="https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/" />
+        <psc:chapter start="00:09:36.400" title="AI agent teams waste massive tokens for barely measurable quality gains, research finds" href="https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/" />
+        <psc:chapter start="00:11:17.580" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#194 マイクロソフトの「Decision-1」モデル、急成長するAI意思決定モデル競争に参入 ほか</title>
       <description>Tech News Radio Show Notes - #194 (2026-10-11)
 

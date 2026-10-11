@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.33,
+    "title": "Introducing Claude Haiku 5.5 on AWS",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/"
+  },
+  {
+    "start_sec": 138.51,
+    "title": "Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports"
+  },
+  {
+    "start_sec": 245.49,
+    "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+    "url": "https://openai.com/index/asana-browser-agent"
+  },
+  {
+    "start_sec": 362.14,
+    "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+    "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/"
+  },
+  {
+    "start_sec": 461.07,
+    "title": "ICYMI: What landed for AI builders in September 2026",
+    "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/"
+  },
+  {
+    "start_sec": 576.4,
+    "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+    "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/"
+  },
+  {
+    "start_sec": 677.58,
+    "title": "エンディング",
+    "url": null
+  }
+]
