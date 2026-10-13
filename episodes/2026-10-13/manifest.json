@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-13",
+  "episode_date_local": "2026-10-13",
+  "content_snapshot_date": "2026-10-13",
+  "show_length_sec": 722,
+  "audio_size": 11559213,
+  "generated_at": "2026-10-13T00:53:42.508963+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6046e47b",
+      "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
+      "title_ja": "Sakana AIの自己改善モデル、問題解決と評価の精度は向上するも、自らの盲点には気づけず",
+      "one_liner": "Sakana AIの自己改善AI、盲点は直せず",
+      "fingerprint": "6046e47b43ac8074809a7ab9329cbdb7",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-919148a9",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "title_ja": "Meta、初のフロンティアモデル「Muse Wonder」を公開",
+      "one_liner": "Meta初のフロンティアモデルMuse Wonder登場",
+      "fingerprint": "919148a996cb2bf8456faa4c02c9052b",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch",
+        "The Decoder",
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-39d31325",
+      "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+      "title_ja": "AutoIndexer:編集の連鎖で因果モデルを学習させる柔軟な順序でのデコーディング",
+      "one_liner": "編集の連鎖で学ぶ、柔軟な順序の生成モデル",
+      "fingerprint": "39d3132530f03d652dd4889284bf027c",
+      "score": 79,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-e6dd7d59",
+      "title": "Algebraic Integer Quantization for Machine Learning Applications",
+      "title_ja": "機械学習応用のための代数的整数量子化",
+      "one_liner": "代数的整数で誤差なく圧縮計算する新方式",
+      "fingerprint": "e6dd7d5977f920e17b47839584539b63",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-87978f26",
+      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+      "title_ja": "80歳のドナーの血液細胞、分子年齢20歳未満の幹細胞に",
+      "one_liner": "80歳の血液細胞が20歳未満の幹細胞に",
+      "fingerprint": "87978f2629c83885a62cc6ee4b15736d",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-3ce98fcc",
+      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+      "title_ja": "タイ、マレーシア、シンガポール、インドネシア、台湾でグローバルクロスリージョン推論を使用してAmazon BedrockのOpenAI GPTモデルにアクセス",
+      "one_liner": "Bedrockで東南アジアからOpenAI GPTが使える",
+      "fingerprint": "3ce98fcce8001102d1633c15811faee7",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-306058da",
+      "reason": "LINK_ONLY: Source classified as satirical: 「手書きコードを一切使わない」「AIを使わないアートは認めない」という極端な主張は、通常の企業発表や技術報道よりも風刺的な誇張表現に見えます。EpicとDisneyの協業という現実的な要素を利用したパロディ記事である可能性が高いです。",
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model"
+    },
+    {
+      "item_id": "item-0aaaf618",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+    },
+    {
+      "item_id": "item-f70fbcd3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI"
+    },
+    {
+      "item_id": "item-8cc43604",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI"
+    },
+    {
+      "item_id": "item-aa2dabb2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Paid and blocked: why your agent still gets a 402 after paying"
+    },
+    {
+      "item_id": "item-b0755e03",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New controls and chat improvements in Copilot for JetBrains"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-41a5bae8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — October 5"
+    },
+    {
+      "item_id": "item-db32a472",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-434cef25",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-aff37344",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Got My Muse AI Agent to Sext Me—and Meta Says That’s Totally Fine"
+    },
+    {
+      "item_id": "item-4abdc539",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tencent Kicks Off $5 Billion Bond Sale to Finance AI Spending"
+    },
+    {
+      "item_id": "item-5dcb8ded",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance"
+    },
+    {
+      "item_id": "item-1e21dcfb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Secret protection must scale with software"
+    },
+    {
+      "item_id": "item-3cd66df5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Download: moon city problems and drone traffic controllers"
+    },
+    {
+      "item_id": "item-ac9e8a4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle"
+    }
+  ],
+  "score_cache": {
+    "87978f2629c83885a62cc6ee4b15736d": {
+      "score": 55,
+      "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 80歳のドナー由来の血液細胞を、分子レベルで20歳未満に相当する幹細胞へ変換できたという、再生医療・細胞リプログラミング分野で新規性の高い研究です。老化した細胞を若返らせる技術は、将来的な疾患治療や個別化医療に大きな影響を与える可能性があります。一方で、臨床応用に必要な安全性、腫瘍化リスク、分化制御、長期的な機能維持などは未検証と考えられ、現時点では"
+    },
+    "db32a472f6ea4f86395f5901802ea40c": {
+      "score": 44,
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] OracleがChatGPTとCodexを採用し、採用・開発・業務運用の専門知識を再利用可能なワークフローへ変換している点は、企業における生成AIとコーディング支援の実装事例として有用です。一方で、基盤技術の新発明や業界の前提を変える発表ではなく、既存AIサービスの業務活用に関する内容です。直近の放送でAI、モデル、OpenAIなど関連トピックが扱わ"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 43,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotのエージェント利用状況やコード行数のメトリクスがIDE更新によって復旧するという、開発者向け運用上の不具合修正です。Copilot利用企業にとって可視化や利用分析の正確性は重要ですが、新しいAI機能やアーキテクチャの発表ではなく、影響も主にメトリクス利用者に限定されます。既出キーワードの「agents」や「data」と近い"
+    },
+    "3ce98fcce8001102d1633c15811faee7": {
+      "score": 51,
+      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indon",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] OpenAIのGPTモデルをAmazon Bedrock上で利用し、アジア各リージョン間の推論、Converse APIやOpenAI互換API、IAM・SCP、クォータ、監視まで具体的に扱う点は、クラウドアーキテクチャと実運用の観点で有用です。一方で、基盤モデル自体の革新や新サービスの発表ではなく、既存サービスのリージョン展開・利用手順が中心です。"
+    },
+    "0aaaf6181fa6c73f25b79f952444e90d": {
+      "score": 51,
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotにリポジトリ固有の指示、スキル、カスタムエージェント、MCPサーバーを組み合わせる実践的な開発手法であり、開発者の生産性やAI活用の再現性に影響する点は注目に値します。一方で、基盤技術の新発表ではなく入門・運用ノウハウが中心です。また、既出のAIおよびagents関連トピックと重なるため、話題の重複分を考慮して減点しました"
+    },
+    "b0755e03b944eed446f1ca9cd54081a5": {
+      "score": 47,
+      "title": "New controls and chat improvements in Copilot for JetBrains",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] JetBrains向けGitHub Copilotに、既定モデルやMCPサーバーの制御、診断対応、チャット操作、アカウント管理の改善が加わる実用的なアップデートです。開発環境へのAI機能統合を強化する点でエンジニアへの影響はありますが、基盤技術や業界構造を変える新発明ではなく、既存機能の操作性・管理性向上が中心です。AIおよびモデル関連の既出テーマと"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 47,
+      "title": "July 30, 2026",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースであり、JupyterLabとGemini CLIの連携改善、Git操作、micromamba環境作成、プロキシ経由のTLS証明書、権限設定など、AI開発環境の安定性と運用性を高める具体的な修正が含まれています。一方で、新しいモデルやアーキテクチャの発表ではなく、既存プラットフォームの不"
+    },
+    "919148a996cb2bf8456faa4c02c9052b": {
+      "score": 90,
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] Metaが初のフロンティアモデルをリリースするという発表であり、AIモデル開発競争における重要な進展です。軽量・低レイテンシー志向のMuse Sparkに対し、Muse Wonderは大規模化によってベンチマーク性能や複雑なコーディングタスクへの対応力を高めており、開発者向けAIや基盤モデルの競争環境に影響を与える可能性があります。既出のAI・モデル"
+    },
+    "6046e47b43ac8074809a7ab9329cbdb7": {
+      "score": 92,
+      "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] Sakana AIのMASSは、モデル自身がタスクを解き、評価し、ワークフローを改善する自己改善ループであり、LLMの学習・最適化パイプラインを自動化する点で技術的インパクトが大きいです。ベースモデルに対して約70%の勝率向上という具体的な成果もあります。一方で、解答・評価・改善の全役割が同じ盲点を共有すると誤りを強化するため、完全な自己改善や再帰的"
+    },
+    "306058da508eb9ea69e50afd3da81e51": {
+      "score": 54,
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 大手ゲーム企業が開発工程をAI中心へ転換し、手書きコードやAIを使わないアート制作を廃止するという内容で、ソフトウェア開発・コンテンツ制作のワークフローに大きな影響を与え得ます。一方で、現時点では報道ベースで具体的な技術構成、導入範囲、品質・権利処理への対応が不明確です。また、既出の「AI」関連テーマと重なるため20点減点し、業界全体の前提を変える確"
+    },
+    "aff37344cc629f89be0935358c7e57d1": {
+      "score": 41,
+      "title": "I Got My Muse AI Agent to Sext Me—and Meta Says That’s Totally Fine",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] AIエージェントが成人向け会話を生成できることと、Metaがそれを合法な成人向け行動として容認する姿勢は、AIの安全設計・コンテンツポリシー・プラットフォーム責任に関わる話題です。一方で、基盤技術やモデル性能における新規性は薄く、主眼は規制・運用方針とガードレールの境界にあります。既出のAI・エージェント関連テーマとも近いため、技術革新ニュースとして"
+    },
+    "3cd66df5080b82527995c52dc3cdc91e": {
+      "score": 38,
+      "title": "The Download: moon city problems and drone traffic controllers",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 月面基地の建設競争やドローンの航空管制というテーマは、宇宙インフラ、通信、分散システム、自律制御などソフトウェア工学との接点があり、将来的な技術的インパクトも大きいです。一方で、この記事はニュースレターの概説であり、具体的な製品、アーキテクチャ、実証結果、技術的ブレークスルーが示されているわけではありません。先端性はあるものの、現時点で業界の前提を変"
+    },
+    "4abdc53957f6037af94093b0e080c059": {
+      "score": 41,
+      "title": "Tencent Kicks Off $5 Billion Bond Sale to Finance AI Spending",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] TencentがAI投資向けに約50億ドルを調達する点は、中国大手企業のAIインフラ・研究開発投資の規模を示す重要な動きです。ただし、記事の主題は新しいモデルやアーキテクチャの発表ではなく、資金調達と投資計画であり、エンジニアリング上の具体的な技術革新は限定的です。また、既報キーワードであるAIに直接関連し、同様のAI投資動向を扱う記事として20点減"
+    },
+    "434cef25583d6e20c83a6b1d37d55895": {
+      "score": 43,
+      "title": "Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] Nvidiaが支援するAIクラウド企業による約50億ドル規模のIPO撤回は、AIインフラ市場と投資環境の強さを測る重要なシグナルです。一方で、クラウド技術やアーキテクチャ自体の新機能・技術革新を示す記事ではなく、市場環境に関する企業ニュースの側面が強いため、中程度の評価としました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "5dcb8ded220794046924553da57ddaa4": {
+      "score": 41,
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics fo",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] XAIにおける特徴量重要度のfaithfulness（説明の忠実性）評価指標が、十分な基準点やアンカーを欠くことで構造的に誤解を招くという問題を論じる研究であり、機械学習の評価設計や説明可能性の実装に示唆があります。一方で、実用化された新技術や具体的なアルゴリズムの発表ではなく、ポジションペーパーとしての問題提起が中心です。また、直近に取り上げ済みの"
+    },
+    "e6dd7d5977f920e17b47839584539b63": {
+      "score": 72,
+      "title": "Algebraic Integer Quantization for Machine Learning Applications",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 機械学習の推論・行列演算を、代数的整数フォーマットによって整数演算へ変換し、乗累算を誤差なく実行する提案は、量子化や専用アクセラレータ設計に関わる技術的に興味深い進展です。精度と計算効率、ハードウェア実装の予測可能性を同時に扱っており、AI基盤の低レイヤーに与える影響は比較的大きい一方、現時点ではarXiv論文の提案段階で、実用化や既存手法に対する明"
+    },
+    "39d3132530f03d652dd4889284bf027c": {
+      "score": 79,
+      "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 因果順序に縛られた自己回帰モデルの弱点に対し、編集操作の連鎖を学習してトークンの挿入・削除や柔軟な生成順序を可能にする新しいデコーディング手法です。非因果的な依存関係、長文推論、コード生成などへの応用可能性があり、LLMの生成アーキテクチャに影響し得る点で重要度は高いです。一方、現時点ではarXivの新規提案であり、実用性能や既存の拡散型LLM・編集"
+    },
+    "aa2dabb21feaa1e7fb65bdcaafdad1b0": {
+      "score": 48,
+      "title": "Paid and blocked: why your agent still gets a 402 after paying",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] AIエージェント向けのx402マイクロペイメントについて、プロトコルバージョン不一致、署名・チェーンID・金額の検証、ファシリテータ障害、決済後の未提供という実運用上の失敗パターンを具体的に整理しており、Web3とエージェント間決済の実装者には有用です。特に、決済済みでも成果物の提供を保証せず、エスクローやオンチェーン返金経路がないという設計上の制約"
+    },
+    "ac9e8a4beb07081c8247325bb799f9a6": {
+      "score": 35,
+      "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] GPT-6というAIモデルを使ってKindleの制限を突破したという内容で、AIの実用上の安全性やプロンプトインジェクション、DRM回避に関する示唆はあります。ただし、記事の具体的な技術的手法や影響範囲が不明で、Kindleという消費者向けデバイスに依存した単発事例に見えます。既出のAI・モデル関連トピックと重なるため減点し、業界の前提を変えるほどの"
+    },
+    "8cc43604d543edd1d9d34a9e5097a75f": {
+      "score": 49,
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 生成AIを活用して画像や動画広告を制作する実用的なサービス事例であり、クリエイティブ業務の自動化という点では一定の技術的・事業的インパクトがあります。一方、基盤モデル自体の新規発表ではなく、既存のOpenAI系モデルをPollo AIのキャンペーン制作機能に統合した内容にとどまります。AI、OpenAI、モデル関連は直近の既出テーマと重なるため減点し"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 42,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 米国の科学研究への貢献を示す声明と思われますが、タイトルだけでは具体的な技術、製品、アーキテクチャ、研究成果、影響範囲が判断できません。科学技術政策や企業姿勢に関する話題として一定の意義はあるものの、エンジニアにとって直接的な新規性や実装上のインパクトは不明確なため、中低評価としました。 [Editorial: AI-focused source +"
+    },
+    "f70fbcd3dc1f653c00ac25cbf82ea24a": {
+      "score": 51,
+      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] llama.cppをAmazon SageMaker AI上で運用し、OpenAI互換APIに加えてSemIfによる選択肢ごとの確率出力を実現する、実装具体性の高いクラウド・推論基盤の技術記事です。CPU/GPU双方に対応し、意思決定モデルのデプロイパターンとして実務価値があります。一方で、業界の前提を変える新規モデルや製品発表ではなく、既存技術の統"
+    },
+    "1e21dcfbc0eb5b45a17ecf3e2660d6b2": {
+      "score": 41,
+      "title": "Secret protection must scale with software",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] 開発者向けツールの普及に伴い、シークレット検出や保護を開発規模に合わせて自動化・強化する必要性を論じた記事です。安全なソフトウェア開発には重要ですが、具体的な新技術や業界の前提を変える発表というより、セキュリティ運用・開発プロセスに関する提言が中心です。GitHub CopilotなどAI支援開発との関連はあるものの、スニペット上では新モデルや画期的"
+    },
+    "41a5bae875d7aacbfbf05a431e690030": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — October 5",
+      "date": "2026-10-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotのアカウント横断利用や実行環境、エージェントのアクセス権管理が改善される点は、開発者体験とAIコーディング運用に関係するため一定の技術的価値があります。一方で、週次アップデートの告知であり、アーキテクチャを大きく変える革新や具体的な新機能の詳細は限定的です。また、既出キーワードの「agents」「Claude」「Haiku"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-13/blog.md",
+    "show_notes_path": "out/2026-10-13/show_notes.md",
+    "script_path": "out/2026-10-13/script_2hosts.md",
+    "audio_path": "out/2026-10-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 37,
+        "input_tokens": 28080,
+        "output_tokens": 12116,
+        "cost_usd": 0.020155
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45881,
+        "output_tokens": 9927,
+        "cost_usd": 0.191032
+      }
+    ],
+    "tts": {
+      "chars": 4581,
+      "audio_sec": 708.1,
+      "cost_usd": 0.136524
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.347711
+  }
+}

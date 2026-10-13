@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.61,
+    "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
+    "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/"
+  },
+  {
+    "start_sec": 122.38,
+    "title": "Meta releases its first frontier model, Muse Wonder",
+    "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+  },
+  {
+    "start_sec": 231.89,
+    "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+    "url": "https://arxiv.org/abs/2610.12545"
+  },
+  {
+    "start_sec": 335.74,
+    "title": "Algebraic Integer Quantization for Machine Learning Applications",
+    "url": "https://arxiv.org/abs/2610.12494"
+  },
+  {
+    "start_sec": 472.26,
+    "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+    "url": "https://doi.org/10.1111/acel.70751"
+  },
+  {
+    "start_sec": 601.35,
+    "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+    "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/"
+  },
+  {
+    "start_sec": 690.31,
+    "title": "エンディング",
+    "url": null
+  }
+]
