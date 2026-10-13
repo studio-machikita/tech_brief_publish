@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-14",
+  "episode_date_local": "2026-10-14",
+  "content_snapshot_date": "2026-10-14",
+  "show_length_sec": 708,
+  "audio_size": 11337645,
+  "generated_at": "2026-10-13T23:47:01.713654+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-0e684708",
+      "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+      "title_ja": "Anchor BrowserとAgentCoreの決済機能で、取引を実行するエージェントを構築する",
+      "one_liner": "AIエージェントが自ら支払いを行う時代へ",
+      "fingerprint": "0e68470845013685fe6c2a410568deaa",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-e4355a1f",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "title_ja": "サイエンス・コーポレーション、視力回復チップをスタルガルト病の初の患者に埋め込み",
+      "one_liner": "Science社が網膜チップを初の患者に埋め込み",
+      "fingerprint": "e4355a1f824943f2906dc3e09b65a34d",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-0edc3048",
+      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "title_ja": "SWE-Duel:コーディングエージェントのための自己拡張型アリーナを目指して",
+      "one_liner": "評価時に課題を作る自己拡張型の対戦基盤",
+      "fingerprint": "0edc30480967347fbcd4b5a082ca71ba",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-911e7a5c",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "title_ja": "Higgsfield、AI動画の生成時間を1分から10分超に拡大",
+      "one_liner": "Higgsfieldが10分超のAI動画生成に対応",
+      "fingerprint": "911e7a5cdcfc683cb3225aedb1ffa203",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-057138fc",
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "title_ja": "GitHub Copilotに「Gemini 4 Argon」が登場",
+      "one_liner": "Gemini 4 ArgonがCopilotで正式提供開始",
+      "fingerprint": "057138fc849c319ff7d0bcf4d6c48065",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-27a62904",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "title_ja": "GitHubのシークレット検出モデル:ノイズを抑えつつ、より多くのシークレットを発見",
+      "one_liner": "GitHubの秘密情報検出が文脈判定で高精度に",
+      "fingerprint": "27a629047e306d499189c49f9d75624a",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML",
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-306058da",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model"
+    },
+    {
+      "item_id": "item-96d1891e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "406 scientists demand AI models be cut off from the internet immediately"
+    },
+    {
+      "item_id": "item-db32a472",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex"
+    },
+    {
+      "item_id": "item-f97af2e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-ee629109",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Andreessen Horowitz, General Catalyst Race to Secure the Chips Their Startups Need"
+    },
+    {
+      "item_id": "item-0aaaf618",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+    },
+    {
+      "item_id": "item-da68a825",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Structured Logging Explained: 3 Production App Signals for JSON Search"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-d7843401",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-5dcb8ded",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance"
+    },
+    {
+      "item_id": "item-98fff760",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise managed settings enforcement updates"
+    },
+    {
+      "item_id": "item-5fc1e4cf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pulse Local: budgeting that never leaves your machine"
+    },
+    {
+      "item_id": "item-17faebc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 09, 2026"
+    },
+    {
+      "item_id": "item-9b8c79ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic Asks Appeals Court to Rehear Fight Over Security Risk"
+    },
+    {
+      "item_id": "item-66fdcf09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office"
+    },
+    {
+      "item_id": "item-fe4d4507",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AlphaNIST"
+    }
+  ],
+  "score_cache": {
+    "5fc1e4cf637fe9c9f1431f44c65c9adb": {
+      "score": 36,
+      "title": "Pulse Local: budgeting that never leaves your machine",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] 端末内で予算管理を完結させるローカルファースト設計は、プライバシー保護やオフライン利用、クラウド依存の削減という点で技術的に意義があります。一方で、記事タイトルからは新しいアーキテクチャ、採用技術、既存サービスとの差別化、業界への影響範囲が確認できず、先端技術の大きな進展と評価するには具体性が不足しています。"
+    },
+    "911e7a5cdcfc683cb3225aedb1ffa203": {
+      "score": 66,
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] AIによる動画生成の尺を1分程度から10分超へ拡張し、映像生成・画像精度・音声制作を統合する点は、クリエイター向けワークフローに影響する技術的進展です。一方で、記事は具体的な実装方式や品質評価、提供条件が不明で、現時点では製品発表・機能拡張の色合いが強いです。また、直近放送済みのAI・モデル関連トピックと同じ領域に属するため、重複分を減点しました。 "
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 43,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-13",
+      "reason": "[ScoreCache 2026-10-13] [Claude API Evaluation] GitHub Copilotのエージェント利用状況やコード行数のメトリクスがIDE更新によって復旧するという、開発者向け運用上の不具合修正です。Copilot利用企業にとって可視化や利用分析の正確性は重要ですが、新しいAI機能やアーキテクチャの発表ではなく、影響も主にメトリクス利用者に限定されます。既出"
+    },
+    "0e68470845013685fe6c2a410568deaa": {
+      "score": 92,
+      "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] AIエージェントがx402で保護されたWebリソースやAPIに対して自律的に支払いを行う実装は、エージェントの実用化を大きく前進させる具体的な技術です。予算管理、トランザクション署名、リトライ、ウォレット資格情報の隔離を決済基盤側で処理しており、セキュリティと運用面の設計も実践的です。一方で、対象はAWSのAgentCoreとAnchor Brows"
+    },
+    "27a629047e306d499189c49f9d75624a": {
+      "score": 62,
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] GitHubがコンテキストを考慮する秘密情報検出モデルを実運用向けに改善し、検出品質を高めながら誤検知を抑え、スキャン実行時間を中央値で86%短縮した点は実務的なインパクトが大きい。開発者向けセキュリティ基盤への機械学習適用として注目度は高いが、業界の前提を変える新技術や主要プラットフォームの発表ではなく、対象もGitHubの秘密情報スキャン領域に限"
+    },
+    "057138fc849c319ff7d0bcf4d6c48065": {
+      "score": 66,
+      "title": "Gemini 4 Argon in GitHub Copilot",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] Googleの最新フロンティアモデル Gemini 4 Argon が GitHub Copilot で一般提供され、複雑なコーディングやエージェント型タスク、推論処理に利用可能になる点は、開発者向けAIツールの実用性と競争環境に大きな影響を与えます。一方で、AIモデルやエージェントを開発支援へ統合する話題は既出キーワードと重なり、完全に新しい技術カ"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 48,
+      "title": "July 30, 2026",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のアップデートで、JupyterLabとGemini CLIの連携不具合、Git操作、micromamba環境作成、プロキシ経由のCA証明書検証、権限設定など、開発環境の安定性と運用性を改善しています。エンジニアにとって実務上の価値はありますが、既存機能の修正・依存関係更新が中心で、革新的なアーキ"
+    },
+    "e4355a1f824943f2906dc3e09b65a34d": {
+      "score": 84,
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] 視力回復を目的とした脳インプラントを実際の患者へ初めて適用した点で、BCIおよび医療ロボティクス分野における非常に具体的な進展です。Neuralink創業者らによる新企業の技術が研究段階から臨床応用へ移行しつつあり、将来的には神経疾患や感覚障害の治療アーキテクチャを変える可能性があります。一方で、現時点では初回患者への適用にとどまり、有効性・安全性・"
+    },
+    "96d1891e92f06dc13a932b96328812cd": {
+      "score": 49,
+      "title": "406 scientists demand AI models be cut off from the internet immediately",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] 著名研究者406人による提言であり、AIモデルのインターネット接続、サンドボックス脱出、外部システム侵害、インシデント報告など、AIの実運用アーキテクチャと安全設計に影響し得る重要な話題です。一方で、製品発表や新技術の実装ではなく、公開書簡と規制・監督体制の要求が中心で、直ちに業界の前提を変える具体的な進展とは言いにくいため中程度の評価としました。ま"
+    },
+    "306058da508eb9ea69e50afd3da81e51": {
+      "score": 54,
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] ゲーム開発におけるAIファースト化は、コード実装やアート制作のワークフローを大きく変える可能性があり、技術的な注目度は高いです。一方で、現時点では「reportedly」に基づく未確定情報で、具体的な導入範囲や成果も不明です。また、AI関連の話題は直近の放送で既出のため、同一テーマとして20点減点しました。 [Editorial: AI-focuse"
+    },
+    "66fdcf09671d1af5ab1e64137a33ef13": {
+      "score": 28,
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] OpenAIとチャットボットが関係する話題ではあるものの、主題は新技術や製品進化ではなく、従業員による盗聴装置設置疑惑という内部統制・物理セキュリティ上の事件です。エンジニア視点では、プロンプトログや社内アクセス管理、監視・インシデント対応の問題として一定の関心はありますが、技術革新や業界のアーキテクチャを変える内容ではありません。既出キーワードのO"
+    },
+    "9b8c79abf1a6f170e1ea67e28fcc0ff3": {
+      "score": 32,
+      "title": "Anthropic Asks Appeals Court to Rehear Fight Over Security Risk",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] AI企業を国家安全保障上のサプライチェーンリスクに指定する判断をめぐる控訴審の再審理申立てであり、クラウドやモデル技術そのものの進化ではなく、法務・規制上の続報です。Anthropicの政府調達、顧客企業の導入判断、将来的なAI企業の事業継続性には影響し得ますが、技術的な新規性やエンジニアリング上の直接的な変化は限定的です。AI関連の既報キーワードと"
+    },
+    "ee62910985de42b68c7f78cd9740e6e4": {
+      "score": 48,
+      "title": "Andreessen Horowitz, General Catalyst Race to Secure the Chips Their Startups Need",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] AIスタートアップ向けにVCがGPUやデータセンターを確保する動きは、計算資源の調達構造やクラウド依存、AIインフラ競争に影響する重要なトレンドです。特にAndreessen Horowitzの大規模GPUクラスター拡張やGeneral Catalystによるデータセンター建設は具体性があります。一方で、基盤技術そのものの革新ではなく、既存のAI計算"
+    },
+    "5dcb8ded220794046924553da57ddaa4": {
+      "score": 41,
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics fo",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] XAIにおけるfeature importanceのfaithfulness評価指標が、モデルの実際の意思決定根拠と整合しない構造的問題を論じるポジションペーパーで、評価設計や説明可能性ツールの利用方法に影響し得る点は重要です。一方で、現時点では新しいアルゴリズムや実装、実運用での具体的な改善結果ではなく、研究上の問題提起が中心です。また、既に取り上"
+    },
+    "0edc30480967347fbcd4b5a082ca71ba": {
+      "score": 77,
+      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] SWE-Duelは、固定タスク型ベンチマークの陳腐化や学習データへの漏洩という、コーディングエージェント評価における本質的な課題に対し、評価時にタスクと判定基準を生成し、参加エージェントの能力に応じて難易度を調整する自己スケーリング型アリーナを提案している。AIコーディングエージェントの研究・開発サイクルや競争環境に影響し得る新規性は高い。一方、現時"
+    },
+    "da68a82569f248da256411148db2fce8": {
+      "score": 47,
+      "title": "Structured Logging Explained: 3 Production App Signals for JSON Search",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] 構造化ロギング、OpenTelemetry、トレース相関、ログ検索基盤の選定と障害タイムライン再構築を具体的に解説しており、FastAPIやExpressを含む実運用の設計知見として有用です。特にtenant_id・experiment_id・trace_idの統一、非同期処理やリトライの追跡、Lokiの高カーディナリティ対策、マネージド検索とセルフ"
+    },
+    "fe4d4507865eba4242529c1552a3a345": {
+      "score": 20,
+      "title": "AlphaNIST",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] タイトルだけでは技術の内容、革新性、影響範囲を判断できません。NIST関連であれば標準化・評価・規制寄りの話題である可能性が高く、基盤技術や製品アーキテクチャの具体的な進展が確認できないため、暫定的に低めに評価します。"
+    },
+    "db32a472f6ea4f86395f5901802ea40c": {
+      "score": 49,
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] OracleがChatGPTとCodexを採用し、採用・開発・運用業務を再利用可能なワークフローへ変換している点は、企業における生成AI活用の具体例として実務的な価値があります。特に専門知識を短時間で処理可能な手順へ落とし込む点は、開発生産性や業務自動化の観点で注目できます。一方で、新しいモデルやアーキテクチャの発表ではなく、既存のAIツールを大企業"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 42,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-13",
+      "reason": "[ScoreCache 2026-10-13] [Claude API Evaluation] 米国の科学研究への貢献を示す声明と思われますが、タイトルだけでは具体的な技術、製品、アーキテクチャ、研究成果、影響範囲が判断できません。科学技術政策や企業姿勢に関する話題として一定の意義はあるものの、エンジニアにとって直接的な新規性や実装上のインパクトは不明確なため、中低評価としました。 [Editor"
+    },
+    "f97af2e3c2f253f3c55be00a29f40cdb": {
+      "score": 49,
+      "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] AWSアカウントをまたぐAmazon BedrockのPrivate Pricing Offer適用を、AWS License Managerとスクリプト／CDKによるイベント駆動処理で自動化する実務的なクラウド運用記事です。大規模組織でのAIモデル契約・権限展開の摩擦を減らせる点は有用ですが、新しいAIモデルや基盤技術そのものの発表ではなく、既存サ"
+    },
+    "0aaaf6181fa6c73f25b79f952444e90d": {
+      "score": 48,
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotにリポジトリ固有の指示やスキル、カスタムエージェント、PlaywrightなどのMCPサーバーを接続する方法を扱っており、AIコーディング支援を実際の開発ワークフローへ組み込む具体性は高いです。特にコードベースの文脈理解やツール連携を整理している点は、エンジニアにとって実用的です。一方で、既存機能の入門・活用ガイドであり、"
+    },
+    "98fff7607d5fe66c89c8f5d33134f73f": {
+      "score": 41,
+      "title": "Enterprise managed settings enforcement updates",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] GitHub Copilotの企業管理において、起動時のサーバー設定取得や最低クライアントバージョンを強制できるようにする運用・ガバナンス上の更新です。組織全体でポリシー適用の一貫性や設定反映の確実性を高める実務的な価値はありますが、AI機能そのものの革新やアーキテクチャの大幅な進化ではなく、主にエンタープライズ運用ルールの強化に該当するため、重要度"
+    },
+    "17faebc54f143fff4d6bbdd5a9b64ece": {
+      "score": 35,
+      "title": "August 09, 2026",
+      "date": "2026-10-11",
+      "reason": "[ScoreCache 2026-10-11] [ScoreCache 2026-10-11] [Claude API Evaluation] Agent Platform WorkbenchというAI開発基盤に関する更新ですが、内容の中心は依存パッケージ更新、JupyterLab Gitプラグインの不具合修正、NVIDIA GPUドライバーの互換性対応であり、新機能やアーキテクチャ上の大きな進展"
+    },
+    "d7843401d44c8a61457de39195875c37": {
+      "score": 43,
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "date": "2026-10-14",
+      "reason": "[Claude API Evaluation] 家庭向けパーソナルAIアシスタントの普及予測は、ローカルデバイスとクラウドを組み合わせる実行基盤やプライバシー設計の観点で技術的な示唆があります。一方で、具体的な製品発表や新規アーキテクチャではなく、CEOによる将来予測にとどまります。また、AIアシスタントという既出のAI・エージェント系テーマと近いため減点しました。 [Editorial: AI/"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-14/blog.md",
+    "show_notes_path": "out/2026-10-14/show_notes.md",
+    "script_path": "out/2026-10-14/script_2hosts.md",
+    "audio_path": "out/2026-10-14/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-14/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-14/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 33,
+        "input_tokens": 27984,
+        "output_tokens": 10852,
+        "cost_usd": 0.018619
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45205,
+        "output_tokens": 9443,
+        "cost_usd": 0.18484
+      }
+    ],
+    "tts": {
+      "chars": 4633,
+      "audio_sec": 695.2,
+      "cost_usd": 0.134058
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.337517
+  }
+}

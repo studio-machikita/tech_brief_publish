@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#197 Anchor BrowserとAgentCoreの決済機能で、取引を実行するエージェントを構築する ほか</title>
+      <description>Tech News Radio Show Notes - #197 (2026-10-14)
+
+エピソード情報
+• エピソード: #197
+• 日付: 2026-10-14
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Building agents that transact with Anchor Browser and AgentCore payments (https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/)
+• Science Corporation implants its vision-restoring chip in its first Stargardt disease patient (https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/)
+• SWE-Duel: Towards a Self-Scaling Arena for Coding Agents (https://arxiv.org/abs/2610.12569)
+
+注目の深掘り
+• Higgsfield takes AI video from 1 minute to over 10 (https://openai.com/index/higgsfield-longer-videos-voice)
+
+小ネタ・その他
+• Gemini 4 Argon in GitHub Copilot (https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot)
+• Gemini 4 Argon in GitHub Copilot (https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/)
+• GitHub’s model for secret detection: Finding more secrets with less noise (https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/)
+• GitHub’s model for secret detection: Finding more secrets with less noise (https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-14/episode_audio.mp3" length="11337645" type="audio/mpeg" />
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-14</guid>
+      <itunes:duration>11:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Anchor BrowserとAgentCoreの決済機能で、取引を実行するエージェントを構築する ほか</itunes:title>
+      <itunes:episode>197</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #197 (2026-10-14)
+
+エピソード情報
+• エピソード: #197
+• 日付: 2026-10-14
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Building agents that transact with Anchor Browser and AgentCore payments (https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/)
+• Science Corporation implants its vision-restoring chip in its first Stargardt disease patient (https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/)
+• SWE-Duel: Towards a Self-Scaling Arena for Coding Agents (https://arxiv.org/abs/2610.12569)
+
+注目の深掘り
+• Higgsfield takes AI video from 1 minute to over 10 (https://openai.com/index/higgsfield-longer-videos-voice)
+
+小ネタ・その他
+• Gemini 4 Argon in GitHub Copilot (https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot)
+• Gemini 4 Argon in GitHub Copilot (https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/)
+• GitHub’s model for secret detection: Finding more secrets with less noise (https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/)
+• GitHub’s model for secret detection: Finding more secrets with less noise (https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-14/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.660" title="Building agents that transact with Anchor Browser and AgentCore payments" href="https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/" />
+        <psc:chapter start="00:02:25.070" title="Science Corporation implants its vision-restoring chip in its first Stargardt disease patient" href="https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/" />
+        <psc:chapter start="00:04:31.980" title="SWE-Duel: Towards a Self-Scaling Arena for Coding Agents" href="https://arxiv.org/abs/2610.12569" />
+        <psc:chapter start="00:06:27.970" title="Higgsfield takes AI video from 1 minute to over 10" href="https://openai.com/index/higgsfield-longer-videos-voice" />
+        <psc:chapter start="00:08:16.540" title="Gemini 4 Argon in GitHub Copilot" href="https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot" />
+        <psc:chapter start="00:09:53.900" title="GitHub’s model for secret detection: Finding more secrets with less noise" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/" />
+        <psc:chapter start="00:11:19.380" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#196 Sakana AIの自己改善モデル、問題解決と評価の精度は向上するも、自らの盲点には気づけず ほか</title>
       <description>Tech News Radio Show Notes - #196 (2026-10-13)
 

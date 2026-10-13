@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.66,
+    "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/"
+  },
+  {
+    "start_sec": 145.07,
+    "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+    "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/"
+  },
+  {
+    "start_sec": 271.98,
+    "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+    "url": "https://arxiv.org/abs/2610.12569"
+  },
+  {
+    "start_sec": 387.97,
+    "title": "Higgsfield takes AI video from 1 minute to over 10",
+    "url": "https://openai.com/index/higgsfield-longer-videos-voice"
+  },
+  {
+    "start_sec": 496.54,
+    "title": "Gemini 4 Argon in GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot"
+  },
+  {
+    "start_sec": 593.9,
+    "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+    "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/"
+  },
+  {
+    "start_sec": 679.38,
+    "title": "エンディング",
+    "url": null
+  }
+]
