@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-15",
+  "episode_date_local": "2026-10-15",
+  "content_snapshot_date": "2026-10-15",
+  "show_length_sec": 670,
+  "audio_size": 10733997,
+  "generated_at": "2026-10-14T22:41:03.929071+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-3ecff9fb",
+      "title": "Researchers use AI to design proteins that cut up other proteins",
+      "title_ja": "研究者ら、AIを用いて他のタンパク質を切断するタンパク質を設計",
+      "one_liner": "AIが設計したタンパク質が、頑丈な結合を切断",
+      "fingerprint": "3ecff9fbe451ffe47de4d86fc408a9f7",
+      "score": 96,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-8dc3e74f",
+      "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+      "title_ja": "OpenAI、次期フラッグシップモデルの出荷前に安全性の問題の解決に奔走",
+      "one_liner": "OpenAI、次期モデルの安全性確保に奔走",
+      "fingerprint": "8dc3e74fdfe6b4cb900d16c2adc4a773",
+      "score": 85,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-a3861f1b",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "title_ja": "SentinelOne、マルウェア分析を数週間から数時間に短縮",
+      "one_liner": "マルウェア解析が数週間から数時間に短縮",
+      "fingerprint": "a3861f1beace68a1357871bad9752149",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-4e2b2bd0",
+      "title": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+      "title_ja": "AIエージェントの台頭で重要性が増す中、CedarDBはトランザクションと分析の両方を1つのデータベースで処理することを目指す",
+      "one_liner": "CedarDB、取引と分析を1つのDBで処理",
+      "fingerprint": "4e2b2bd07a5a8c1bac130571ad285ec6",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-66b97d44",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "title_ja": "Ampが、OpenAIのモデルでAIエージェントをコード以外の業務にも活用",
+      "one_liner": "Amp、OpenAIモデルでコード外にも進出",
+      "fingerprint": "66b97d44abac36dd95a582975f5f7135",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-c1feb2fd",
+      "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+      "title_ja": "研究者ら、中国発の暴走AIエージェント群を野生環境で追跡、実際に対話にも成功",
+      "one_liner": "野良AIエージェント群と、初めて直接対話に成功",
+      "fingerprint": "c1feb2fd35c3cd1da5c215fd9da379e9",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-2565fe90",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Came for Math. Now It’s Chasing the Rest of Science"
+    },
+    {
+      "item_id": "item-39faa817",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
+    },
+    {
+      "item_id": "item-e9283a60",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock"
+    },
+    {
+      "item_id": "item-30683ead",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices"
+    },
+    {
+      "item_id": "item-00c71eaf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "HydraFusion updates and new Max option"
+    },
+    {
+      "item_id": "item-c1d7dc9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-0aaaf618",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+    },
+    {
+      "item_id": "item-6b8bcffd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google says self-improving AI isn't anywhere close"
+    },
+    {
+      "item_id": "item-98fff760",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Enterprise managed settings enforcement updates"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-d12f0644",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jev: For the builders AND dreamers - TypeSafe AI Blog"
+    },
+    {
+      "item_id": "item-e6a98a90",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CreditSights Head of Strategy on Bond Market Volatility"
+    },
+    {
+      "item_id": "item-79c4c236",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tiny Little Office: the link is the document"
+    },
+    {
+      "item_id": "item-17faebc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 09, 2026"
+    },
+    {
+      "item_id": "item-f2c523d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hands-On AWS: Spin Up IAM, S3 and a Jenkins Server on EC2 (and Fix What Breaks)"
+    },
+    {
+      "item_id": "item-f10fc4bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO"
+    },
+    {
+      "item_id": "item-cc8cf716",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Preparing for the 2026 US midterms"
+    },
+    {
+      "item_id": "item-a94151ce",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump Aides Admit the House Is a Lost Cause"
+    }
+  ],
+  "score_cache": {
+    "79c4c236baefaf617029919e6915771d": {
+      "score": 36,
+      "title": "Tiny Little Office: the link is the document",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] タイトルからは、リンク自体をドキュメントとして扱う小規模なWebサービスや情報共有の提案と読み取れますが、AI・クラウド基盤・主要言語の進化など、技術業界全体の前提を変える具体的な新規性や影響範囲は確認できません。開発者の情報整理やコラボレーション体験に関する興味深いアイデアである可能性はあるものの、記事内容の具体性が乏しいため中程度以下の評価としま"
+    },
+    "66b97d44abac36dd95a582975f5f7135": {
+      "score": 66,
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] AIエージェントをコーディング以外の業務へ拡張する点は、エージェントの適用範囲や開発者向けワークフローに影響し得るため、技術的な注目度は高いです。一方で、OpenAIのモデルとAIエージェントを扱う内容は既出キーワードと重なり、今回の記事だけでは具体的なアーキテクチャ、実運用の成果、従来手法との差分が十分に示されていません。既出テーマとの重複を考慮し"
+    },
+    "cc8cf71637ccdc9a8eb46de5c2ff71c5": {
+      "score": 16,
+      "title": "Preparing for the 2026 US midterms",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] 2026年米国中間選挙への準備に関する一般的な政治ニュースであり、AI・ソフトウェア・クラウド・先端技術の具体的な進展が示されていません。エンジニアリング上の影響や技術的な新規性も不明なため、一般消費者向け話題に近い最低評価帯としました。 [Editorial: AI-focused source +6]"
+    },
+    "c1d7dc9d51b01a0794fe4e6bdc269f34": {
+      "score": 49,
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCoreを使い、文書分類・情報抽出・検証・自己改善までを自動化する実装例であり、企業向けAIワークフローやIDPの実用性という点では技術的価値があります。一方で、既存サービスを組み合わせた構築ガイドであり、業界の前提を変える新規発表ではありません。また、直近で取り上げ済みの「Amazon」「Bedrock」「A"
+    },
+    "0aaaf6181fa6c73f25b79f952444e90d": {
+      "score": 49,
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotにリポジトリ固有の指示やスキルを与え、カスタムエージェントやPlaywrightなどのMCPサーバーと連携する実践的な開発者向け情報です。開発支援AIの適用範囲を広げる点で有用ですが、業界の前提を変える新技術の発表ではなく、既存機能の活用方法が中心です。また、直近に取り上げ済みの「agents」やAI関連トピックと同じ角度"
+    },
+    "00c71eaf098bff52060f4368cfb1491a": {
+      "score": 51,
+      "title": "HydraFusion updates and new Max option",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] 開発者向けのモデルプール更新、オーケストレーション改善、上位プランの追加は、GitHub Copilotの開発体験や利用可能な推論能力に直接影響するため、技術的な重要度は中〜高程度です。一方で、基盤モデルそのものの革新や業界構造を変える発表ではなく、既存サービスの機能強化・料金オプション追加に留まります。また、直近に取り上げ済みの「model」関連ト"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 46,
+      "title": "July 30, 2026",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のアップデートで、JupyterLab、Git連携、micromamba環境、企業CA証明書、権限設定など開発環境の安定性を改善する実務的な修正が中心です。AIエージェント向け基盤の品質向上という点には意義がありますが、新機能やアーキテクチャ上の大きな革新ではなく、影響範囲も限定的です。さらに、既"
+    },
+    "4e2b2bd07a5a8c1bac130571ad285ec6": {
+      "score": 77,
+      "title": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] トランザクション処理と分析処理を単一データベースで扱うHTAP系アーキテクチャは、データ基盤の複雑性やETL遅延を減らし、リアルタイム性が求められるAIエージェントの実行基盤にも影響し得ます。特にエージェントが業務データを参照しながら更新・分析を行うユースケースでは、OLTPとOLAPの分離を見直す意義があります。一方で、記事は技術コンセプトと市場 "
+    },
+    "6b8bcffd085a94b57df0b5274798e608": {
+      "score": 49,
+      "title": "Google says self-improving AI isn't anywhere close",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] AIが生成する本番コードの割合や人間による監督の必要性、社内指標に基づいて「自己改善AIによる研究加速はまだ起きていない」と示す点は、AI開発の現実を評価するうえで有益です。一方、画期的なモデル発表や新技術ではなく、既存のAI・研究動向に関する分析的な続報です。既出のAI、研究、モデル関連トピックと重なるため減点しました。 [Editorial: A"
+    },
+    "3ecff9fbe451ffe47de4d86fc408a9f7": {
+      "score": 96,
+      "title": "Researchers use AI to design proteins that cut up other proteins",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] AIを用いて、自然界では非常に長期間安定するタンパク質の結合を切断する新規タンパク質を設計した点は、生成AIの応用範囲を生命科学へ大きく広げる重要な成果です。従来の試行錯誤中心のタンパク質工学を、計算設計と実験検証の反復へ転換できる可能性があり、創薬、分解酵素、環境・素材分野への波及も期待できます。一方で、記事の情報だけでは実用化規模や再現性、既存手"
+    },
+    "a94151cef98a47b16bcd72fef7c1f455": {
+      "score": 10,
+      "title": "Trump Aides Admit the House Is a Lost Cause",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] 米国の中間選挙を巡る政治情勢の記事であり、AI・クラウド・プログラミング言語・先端スタートアップなどの技術的な新規性や、ソフトウェア業界への直接的な影響がありません。一般的な政治ニュースとしては意義がありますが、エンジニア視点での重要度は最低水準です。"
+    },
+    "e6a98a9042c00b82cce57b54898987d8": {
+      "score": 37,
+      "title": "CreditSights Head of Strategy on Bond Market Volatility",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] AIインフラ向けの巨額借入とCoreWeaveを含む社債市場の吸収力低下は、AI投資の資金調達環境を考えるうえで一定の重要性があります。ただし主題は金融市場の分析であり、技術革新やソフトウェアのアーキテクチャ自体を扱うニュースではありません。AI関連ではあるものの、既存のAIキーワードと重なる市場動向の話題で、新しい技術的展開というよりリスク・規制寄"
+    },
+    "8dc3e74fdfe6b4cb900d16c2adc4a773": {
+      "score": 85,
+      "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] 次期フラッグシップモデルの設計において、loop transformer／recurrent depthが推論過程の監視性を低下させ、安全評価や異常検知の基盤を揺るがす可能性がある点は、AIモデル開発のアーキテクチャと運用に直結する重要な話題です。OpenAIが出荷前に安全問題の修正へ追われていることや、Microsoftによる情報露出の撤回も、開発"
+    },
+    "f2c523d3db9dddda7d5a649155027900": {
+      "score": 33,
+      "title": "Hands-On AWS: Spin Up IAM, S3 and a Jenkins Server on EC2 (and Fix What Breaks)",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] IAM・S3・EC2・Jenkinsを組み合わせた実践的なAWS/DevOps入門で、権限管理、S3の公開設定、セキュリティグループ、リソースのクリーンアップなど、初学者に有用な具体性があります。特にS3のBlock Public AccessとACLの関係、Jenkinsのポート8080未開放によるタイムアウトの切り分けは教育価値があります。一方で"
+    },
+    "d12f0644a41c6f7873c905206db32116": {
+      "score": 43,
+      "title": "Jev: For the builders AND dreamers - TypeSafe AI Blog",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] TypeSafeによる開発者・創造者向けの新しいAI関連プロジェクトまたはビジョンを示す記事と考えられ、ソフトウェア開発への応用可能性はあります。ただし、記事タイトル以外の具体的な技術仕様、提供形態、既存技術に対する差分、導入実績が不明で、業界の前提を変えるほどの発表とは判断できません。AIトピックである点は評価できますが、既出のAI関連話題と重なる"
+    },
+    "a3861f1beace68a1357871bad9752149": {
+      "score": 83,
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] OpenAI Daybreakを活用し、SentinelOneのマルウェア解析を数週間から数時間へ短縮する実運用上の成果は、AIをセキュリティ分析へ適用した具体性の高い事例です。脅威調査の処理能力を大幅に拡張でき、SOCやマルウェアリサーチのワークフローに影響します。一方で、AIモデルやセキュリティ基盤そのもののブレークスルーではなく、既存技術の導入"
+    },
+    "39faa8177c8a3aa4c6e6c85e8c9e452e": {
+      "score": 54,
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] Anthropicのシンガポール進出と政府とのMOUは、東南アジアにおけるAI導入、企業向け基盤整備、人材育成や政策連携に影響し得る重要な動きです。一方で、モデルやアーキテクチャなど技術そのものの革新ではなく、主軸は事業展開と官民連携です。既出のAI関連テーマと接点はあるものの、地域展開という新しい角度の続報ではないため、大幅な減点は適用しません。 "
+    },
+    "e9283a60e01e131bd9306bb59260cdee": {
+      "score": 54,
+      "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] Amazon Bedrock上で動作するエージェント型のクラウドセキュリティ remediation orchestrator は、AIエージェントを実運用のセキュリティ対応に組み込んだ具体例として技術的価値が高いです。CNAPPなどの検出結果を自律調査し、安全性を考慮して修復する設計や、90日で重大なクラウド露出を90%以上削減し本番障害ゼロという"
+    },
+    "98fff7607d5fe66c89c8f5d33134f73f": {
+      "score": 47,
+      "title": "Enterprise managed settings enforcement updates",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotの企業管理において、起動時のサーバー設定取得を強制できるようになり、キャッシュされたポリシーによる設定不整合や統制漏れを減らせる点は実務上有用です。最低クライアントバージョンの導入も管理・セキュリティ面で意味がありますが、既存機能の運用強化が中心で、アーキテクチャやAI技術そのものを大きく変える革新ではないため、中低評価と"
+    },
+    "17faebc54f143fff4d6bbdd5a9b64ece": {
+      "score": 35,
+      "title": "August 09, 2026",
+      "date": "2026-10-11",
+      "reason": "[ScoreCache 2026-10-11] [ScoreCache 2026-10-11] [ScoreCache 2026-10-11] [Claude API Evaluation] Agent Platform WorkbenchというAI開発基盤に関する更新ですが、内容の中心は依存パッケージ更新、JupyterLab Gitプラグインの不具合修正、NVIDIA GPUドライバーの互換性"
+    },
+    "f10fc4bde5d8653c47a01f51738dcdcf": {
+      "score": 27,
+      "title": "Ambani’s Jio seeks to raise $3.2B in what could be India’s biggest IPO",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] インド最大級となる可能性のある大型IPOで、Jioの通信以外への事業拡大や財務基盤には影響しますが、記事の中心は資金調達と債務返済です。AI、クラウド、主要言語、アーキテクチャなどの技術革新やエンジニアリング上の新規性は乏しく、ソフトウェア技術ニュースとしての重要度は低めです。"
+    },
+    "c1feb2fd35c3cd1da5c215fd9da379e9": {
+      "score": 66,
+      "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] 実環境で自律的に活動するAIエージェント群を追跡し、ボット対策を回避しながら大規模なデータ収集を行っていた点は、エージェントの安全性・監視・運用設計に関わる具体性の高い事例です。研究者がエージェントと実際に通信できた点も新規性があります。一方で、AIエージェントは直近の既出キーワードであり、関連テーマとして20点減点しました。また、業界全体の前提を変"
+    },
+    "30683ead6a66f1caaa1b9f1c2883f08e": {
+      "score": 54,
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] 小型AIモデルがIoT機器を介して自己複製し、ワーム化する可能性は、AIとサイバーセキュリティの交差領域における重要なリスク提起です。実現すればエッジデバイスの信頼モデル、モデル配布、実行権限、ネットワーク分離の設計を大きく見直す必要があります。一方で、現時点では警告・分析段階であり、実際の自己複製実証や具体的な攻撃コードの公開ではないため、業界の前"
+    },
+    "2565fe9006707c6e09b2d9218d356cae": {
+      "score": 60,
+      "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
+      "date": "2026-10-15",
+      "reason": "[Claude API Evaluation] AIを数学だけでなく経済学や高エネルギー物理などの理論科学へ拡張し、研究・問題解決の標準的な手段になり得るという点で、技術的な影響範囲は非常に大きいです。将来的には定理探索、シミュレーション、仮説生成、検証ワークフローの自動化につながる可能性があります。一方で、具体的なモデル名、実装、性能指標、実用化事例が示されておらず、現時点では研究者による将来予"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-15/blog.md",
+    "show_notes_path": "out/2026-10-15/show_notes.md",
+    "script_path": "out/2026-10-15/script_2hosts.md",
+    "audio_path": "out/2026-10-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 47405,
+        "output_tokens": 10948,
+        "cost_usd": 0.022619
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45076,
+        "output_tokens": 9217,
+        "cost_usd": 0.182322
+      }
+    ],
+    "tts": {
+      "chars": 4393,
+      "audio_sec": 657.4,
+      "cost_usd": 0.126778
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.331718
+  }
+}

@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#198 研究者ら、AIを用いて他のタンパク質を切断するタンパク質を設計 ほか</title>
+      <description>Tech News Radio Show Notes - #198 (2026-10-15)
+
+エピソード情報
+• エピソード: #198
+• 日付: 2026-10-15
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Researchers use AI to design proteins that cut up other proteins (https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/)
+• OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model (https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model)
+• SentinelOne cuts malware analysis from weeks to hours (https://openai.com/index/sentinelone)
+
+注目の深掘り
+• CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes (https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/)
+
+小ネタ・その他
+• Amp puts AI agents to work beyond code with OpenAI models (https://openai.com/index/amp-beyond-coding)
+• Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it (https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-15/episode_audio.mp3" length="10733997" type="audio/mpeg" />
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-15</guid>
+      <itunes:duration>11:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>研究者ら、AIを用いて他のタンパク質を切断するタンパク質を設計 ほか</itunes:title>
+      <itunes:episode>198</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #198 (2026-10-15)
+
+エピソード情報
+• エピソード: #198
+• 日付: 2026-10-15
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Researchers use AI to design proteins that cut up other proteins (https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/)
+• OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model (https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model)
+• SentinelOne cuts malware analysis from weeks to hours (https://openai.com/index/sentinelone)
+
+注目の深掘り
+• CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes (https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/)
+
+小ネタ・その他
+• Amp puts AI agents to work beyond code with OpenAI models (https://openai.com/index/amp-beyond-coding)
+• Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it (https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-15/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.460" title="Researchers use AI to design proteins that cut up other proteins" href="https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/" />
+        <psc:chapter start="00:02:00.470" title="OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model" href="https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model" />
+        <psc:chapter start="00:03:43.330" title="SentinelOne cuts malware analysis from weeks to hours" href="https://openai.com/index/sentinelone" />
+        <psc:chapter start="00:05:23.750" title="CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes" href="https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/" />
+        <psc:chapter start="00:06:59.540" title="Amp puts AI agents to work beyond code with OpenAI models" href="https://openai.com/index/amp-beyond-coding" />
+        <psc:chapter start="00:08:40.620" title="Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it" href="https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/" />
+        <psc:chapter start="00:10:40.160" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#197 Anchor BrowserとAgentCoreの決済機能で、取引を実行するエージェントを構築する ほか</title>
       <description>Tech News Radio Show Notes - #197 (2026-10-14)
 

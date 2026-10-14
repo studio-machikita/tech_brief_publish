@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.46,
+    "title": "Researchers use AI to design proteins that cut up other proteins",
+    "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/"
+  },
+  {
+    "start_sec": 120.47,
+    "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+    "url": "https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model"
+  },
+  {
+    "start_sec": 223.33,
+    "title": "SentinelOne cuts malware analysis from weeks to hours",
+    "url": "https://openai.com/index/sentinelone"
+  },
+  {
+    "start_sec": 323.75,
+    "title": "CedarDB wants one database to handle both transactions and analytics, as AI agents raise the stakes",
+    "url": "https://techcrunch.com/2026/10/14/cedardb-wants-one-database-to-handle-both-transactions-and-analytics-as-ai-agents-raise-the-stakes/"
+  },
+  {
+    "start_sec": 419.54,
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "url": "https://openai.com/index/amp-beyond-coding"
+  },
+  {
+    "start_sec": 520.62,
+    "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+    "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/"
+  },
+  {
+    "start_sec": 640.16,
+    "title": "エンディング",
+    "url": null
+  }
+]
