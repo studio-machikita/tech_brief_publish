@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.84,
+    "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+    "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/"
+  },
+  {
+    "start_sec": 139.1,
+    "title": "Agentic autofix for code scanning alerts general availability",
+    "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability"
+  },
+  {
+    "start_sec": 233.73,
+    "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+    "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+  },
+  {
+    "start_sec": 363.82,
+    "title": "Lotus: Learning to Understand Time-series by Learning to Forecast",
+    "url": "https://arxiv.org/abs/2610.18877"
+  },
+  {
+    "start_sec": 498.4,
+    "title": "Exclusive: Nvidia and ChipAgents Launch Evaluation For AI-Powered Chip Design",
+    "url": "https://www.theinformation.com/briefings/exclusive-nvidia-chipagents-launch-evaluation-ai-powered-chip-design"
+  },
+  {
+    "start_sec": 621.86,
+    "title": "Trust in Depth: Giving agents more autonomy without losing control",
+    "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/"
+  },
+  {
+    "start_sec": 715.75,
+    "title": "エンディング",
+    "url": null
+  }
+]

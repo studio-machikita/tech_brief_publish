@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-16",
+  "episode_date_local": "2026-10-16",
+  "content_snapshot_date": "2026-10-16",
+  "show_length_sec": 746,
+  "audio_size": 11948205,
+  "generated_at": "2026-10-15T23:08:32.748853+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d09f67d5",
+      "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+      "title_ja": "Muse Spark Open、オープンウェイト競争でQwen・GLM・Kimiに対抗するMetaの回答",
+      "one_liner": "Metaが816Bの新オープンモデルを公開",
+      "fingerprint": "d09f67d5fbe209ec40f8de95cdf91fff",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-b293032c",
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "title_ja": "コードスキャンアラートのエージェント型自動修正が一般提供開始",
+      "one_liner": "コードスキャン警告の自動修正が一般提供に",
+      "fingerprint": "b293032cc8504ebbad82e8a072b4289f",
+      "score": 78,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-30683ead",
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "title_ja": "Anthropic、小型AIモデルがIoT機器を介して自己複製する恐れがあると警告",
+      "one_liner": "小型AIが自己複製する新型ワームの懸念",
+      "fingerprint": "30683ead6a66f1caaa1b9f1c2883f08e",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-21a166ff",
+      "title": "Lotus: Learning to Understand Time-series by Learning to Forecast",
+      "title_ja": "Lotus:予測を学ぶことで時系列を理解する",
+      "one_liner": "予測で時系列と言語を結びつける新手法",
+      "fingerprint": "21a166ff176b32d59d9804a0f4f1981b",
+      "score": 72,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-04db76ba",
+      "title": "Exclusive: Nvidia and ChipAgents Launch Evaluation For AI-Powered Chip Design",
+      "title_ja": "独占:エヌビディアとChipAgents、AI活用のチップ設計向け評価を開始",
+      "one_liner": "AIの半導体設計力を測る新ベンチマーク公開",
+      "fingerprint": "04db76ba7c558e6141fd4beaa6beb3b1",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-e17a5833",
+      "title": "Trust in Depth: Giving agents more autonomy without losing control",
+      "title_ja": "信頼の深化:制御を失わずにエージェントの自律性を高める",
+      "one_liner": "AWSが示すAIエージェントの信頼設計",
+      "fingerprint": "e17a583305621ced7441ad653060e70e",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-dd61c130",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bringing GPT-Rosalind to academic research labs"
+    },
+    {
+      "item_id": "item-0aaaf618",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+    },
+    {
+      "item_id": "item-94d78935",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-25f748c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Teaching students to think and learn through questions"
+    },
+    {
+      "item_id": "item-c5ee1c52",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November"
+    },
+    {
+      "item_id": "item-f758fd28",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "MCP Is the New API — And You Haven't Wired It Yet"
+    },
+    {
+      "item_id": "item-17faebc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 09, 2026"
+    },
+    {
+      "item_id": "item-512c2a42",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection"
+    },
+    {
+      "item_id": "item-238a2fbf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An update on independent evaluators"
+    },
+    {
+      "item_id": "item-6760df96",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What I Self-Host"
+    },
+    {
+      "item_id": "item-2a726d37",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView"
+    },
+    {
+      "item_id": "item-ef077873",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon devices chief Panos Panay on the importance of failure and bouncing back from it"
+    },
+    {
+      "item_id": "item-16111fd8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Unacceptable: Apple Health Sync is now behind a $99/year paywall for new accounts"
+    },
+    {
+      "item_id": "item-cc8cf716",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Preparing for the 2026 US midterms"
+    },
+    {
+      "item_id": "item-776f0495",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stocks Rotate as Tech & Chip Shares Slide"
+    },
+    {
+      "item_id": "item-cfbf7f8e",
+      "reason": "[Duplicate] 「Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in t」と同じ出来事のため除外",
+      "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart"
+    },
+    {
+      "item_id": "item-aef983be",
+      "reason": "[Duplicate] 「Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in t」と同じ出来事のため除外",
+      "title": "Meta launches an open-weight AI model that runs on Macs"
+    }
+  ],
+  "score_cache": {
+    "6760df96371c77517b3aaf4db6bfd2b5": {
+      "score": 36,
+      "title": "What I Self-Host",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 自宅サーバーやセルフホスティングの構成紹介であれば、運用設計、プライバシー、コスト最適化などエンジニアには一定の参考になります。一方で、タイトルだけでは新しいアーキテクチャ、重要な技術革新、具体的な導入事例が確認できず、業界全体への影響も限定的です。スニペットがないため、現時点では中低程度の評価に留めます。"
+    },
+    "dd61c1300ef1b75b9d90a0e89507b816": {
+      "score": 49,
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] GPT-Rosalindを学術研究機関へ提供し、生命科学分野の研究ワークフローや実験設計を支援する点は、AIの実利用拡大として技術的・社会的な意義があります。特に研究用ツールへのアクセス格差を縮小し、専門ラボでの導入を促進する可能性があります。一方で、基盤モデル自体の新規アーキテクチャや画期的な機能が示された発表ではなく、主眼は提供プランと利用支援で"
+    },
+    "238a2fbf2f445d77512a73b55f193937": {
+      "score": 42,
+      "title": "An update on independent evaluators",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 独立評価者に関するアップデートは、AIシステムの安全性・性能評価の透明性を高める可能性がある一方、タイトルだけでは対象技術や具体的な変更点、業界への影響範囲が不明です。技術革新そのものというより評価ガバナンスや運用体制に近く、既出のAI関連話題との明確な新展開も確認できないため、中低位の評価としました。 [Editorial: AI-focused "
+    },
+    "cfbf7f8e3b63d7d0a5d3a15fb0f9064b": {
+      "score": 83,
+      "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] Metaのコーディング最適化オープンウェイトモデルを、AWSアカウント内のSageMakerエンドポイントへ容易にデプロイできるようになった点は、AI開発者にとって実用性と導入障壁を大きく下げる進展です。オープンウェイトモデルとマネージドな推論基盤の組み合わせは、企業のコード生成・開発支援ワークロードに影響します。一方で、モデル自体の発表ではなく既存"
+    },
+    "0aaaf6181fa6c73f25b79f952444e90d": {
+      "score": 49,
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotにリポジトリ固有の指示やスキルを設定し、カスタムエージェントやMCPサーバー（Playwright）と連携する実践的な内容で、開発ワークフローへの影響はあります。一方で、基盤技術の発表ではなく初心者向けの導入・活用記事に近く、既出のAI、エージェント、コード、ブラウザ関連の話題とも重なるため減点しました。 [Editori"
+    },
+    "c5ee1c52e49cd42a5b7c90a6056168bd": {
+      "score": 46,
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] GitHub CopilotのChat、インライン編集、エージェントモード、コード補完など広範な機能に影響し、利用モデルの移行や互換性確認が必要になるため、開発者・企業環境への実務的な影響はあります。一方で、新技術の発表ではなく既存モデルの提供終了に関する運用通知であり、記事時点では対象モデルや代替策の詳細も不明です。さらに、直近で取り上げ済みの「m"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 47,
+      "title": "July 30, 2026",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabとGemini CLIの連携不具合、Git操作、micromamba環境、企業CA証明書、権限設定など、開発環境の安定性と運用性を改善しています。エンジニアにとって実用的な修正ではあるものの、新しいアーキテクチャや画期的な機能の発表ではなく、主に既存製品の保守・品"
+    },
+    "ef077873cad34a453b4ecaa67a092310": {
+      "score": 24,
+      "title": "Amazon devices chief Panos Panay on the importance of failure and bouncing back from it",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 製品開発における失敗からの学習という組織論・リーダーシップの話が中心で、技術仕様や新しいアーキテクチャ、具体的な製品革新は含まれていません。Amazonに関する既出テーマとの重複もあり、新規性の観点で減点しました。エンジニアにとって一般的な開発姿勢の参考にはなりますが、技術業界への直接的な影響は限定的です。"
+    },
+    "d09f67d5fbe209ec40f8de95cdf91fff": {
+      "score": 97,
+      "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] Metaが8160億パラメータ、テキスト・画像・動画・音声対応、最大100万トークンのコンテキストを備えたオープンウェイトモデルを投入する点は、AI開発者や企業のモデル選択肢を大きく広げる重要ニュースです。Qwen、GLM、Kimiなど中国勢に対抗し、AppleのM5 Ultra上でローカル実行を想定しているため、オープンモデルの性能競争とオンデバイ"
+    },
+    "30683ead6a66f1caaa1b9f1c2883f08e": {
+      "score": 76,
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 小規模なAIモデルがIoT機器を介して自己複製し、ワーム化する可能性は、AIとサイバーセキュリティの接点にある新規性の高いテーマです。実現すればIoTボットネットや自律的なマルウェアの前提を変え得る一方、現時点ではAnthropicによる警告・研究段階で、実際の攻撃実証や広範な影響が確認されたニュースではありません。そのため、技術的インパクトは大きい"
+    },
+    "2a726d374bfb0d07b8f8e34f316381c7": {
+      "score": 33,
+      "title": "We Got Hot and Heavy With Meta’s Muse—and Baffled by Apple’s HomeView",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] MetaのMuseに関する新機能やAppleのHomeViewへの言及はあるものの、具体的な技術仕様・製品発表・アーキテクチャ上の進展が示されておらず、主にポッドキャスト形式の話題紹介です。AIやMetaに関連する内容は含まれますが、既報キーワードであるAIと同じ一般的な角度の話題であり、明確な新展開とは判断しにくいため減点しました。エンジニア視点で"
+    },
+    "776f049531d0fded9b78b9f759b6e2b8": {
+      "score": 13,
+      "title": "Stocks Rotate as Tech & Chip Shares Slide",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] ウォール街の株式市場でテック・半導体株が下落し、資金が循環したという金融市場の概況であり、ソフトウェアのアーキテクチャ、プログラミング言語、AI、ロボティクスなどの技術的進展を直接扱っていません。エンジニアリングへの具体的な影響や新規技術の内容もなく、一般的な市場解説にとどまるため、最低評価に近いスコアです。"
+    },
+    "04db76ba7c558e6141fd4beaa6beb3b1": {
+      "score": 60,
+      "title": "Exclusive: Nvidia and ChipAgents Launch Evaluation For AI-Powered Chip Design",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] NvidiaとChipAgentsがAIによる半導体設計能力を測るベンチマークを公開した点は、AIエージェントをEDAやチップ開発へ適用する具体的な動きとして技術的な重要度が高いです。一方、最高性能のエージェントでも16.6%にとどまり、現時点では実用化より評価基盤の整備が中心です。また、AI・モデル・エージェントに関する既出テーマと同じ角度を含むた"
+    },
+    "94d789354b68462ec46ed2e01fe6adff": {
+      "score": 48,
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 超知能や現行AIを超える能力を評価するため、既存モデルや人間の性能に依存しない逆問題ベースのベンチマークを提案しており、AI評価手法として新規性があります。将来的なLLM評価やテスト設計に影響し得る一方、現時点ではarXivの新規論文であり、実運用での有効性や再現性、既存ベンチマークを上回る具体的な結果はスニペットから確認できません。AI・モデル評価"
+    },
+    "21a166ff176b32d59d9804a0f4f1981b": {
+      "score": 72,
+      "title": "Lotus: Learning to Understand Time-series by Learning to Forecast",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 時系列データと言語モデルを結び付ける新しい事前学習原理「forecast grounding」を提案しており、単なるラベルやQAによる学習ではなく、将来予測性能を通じて時間的ダイナミクスの理解を表現に保持させる点が技術的に新しい。金融、IoT、ヘルスケア、運用監視などへの応用可能性も広く、時系列基盤モデルの設計に影響し得る。一方で、現時点ではarXi"
+    },
+    "512c2a42d982aaa7ca0fd3d372559c19": {
+      "score": 43,
+      "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] 規制産業向けの音声エージェントにおいて、債権回収手続きの法的な会話フローを未知の手続きへ転移させる研究であり、LLMエージェントの実運用上の信頼性や手続き遵守に関する具体性は高いです。一方で、テーマの中心は既出キーワードであるAI・モデル・エージェントに該当し、規制対応やコンプライアンスが主題のため、技術革新としてのインパクトは限定的です。既存話題と"
+    },
+    "f758fd289f30747b182d30258d629d17": {
+      "score": 46,
+      "title": "MCP Is the New API — And You Haven't Wired It Yet",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] MCPをAIツール連携の標準プロトコルとして捉え、動的なツール発見、型付きスキーマ、権限分離、監査・ observability、サーバーのバージョニングまで実装上の論点を具体化している点は、エージェント基盤や統合アーキテクチャに関わる重要な内容です。一方で、業界を変える新規発表や採用実績の報告ではなく、既存概念を整理した実践ガイドに近いため、インパ"
+    },
+    "16111fd8b09d5f2f09a0d235b3da1073": {
+      "score": 18,
+      "title": "Unacceptable: Apple Health Sync is now behind a $99/year paywall for new accounts",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] Apple Healthのデータ同期機能を新規アカウント向けに年額99ドルの有料化する内容で、技術革新や開発者向け基盤の進化というより、消費者向けサービスの料金・提供条件変更に当たります。既存ユーザーやヘルスケアアプリのデータ連携コストには影響しますが、ソフトウェアエンジニアリング全体への波及範囲や技術的新規性は限定的です。"
+    },
+    "25f748c3e08c0d40b2c7378ce69f7574": {
+      "score": 47,
+      "title": "Teaching students to think and learn through questions",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] AIを活用した教育支援と、質問を通じた段階的・能動的な学習体験は実用性が高く、教育現場への応用という点で一定の技術的意義があります。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、既存AI機能の教育向け展開にとどまるため影響範囲と新規性は限定的です。また、既出のAI関連トピックと同じ軸に該当するため、重複分として減点しています。 [Editor"
+    },
+    "cc8cf71637ccdc9a8eb46de5c2ff71c5": {
+      "score": 16,
+      "title": "Preparing for the 2026 US midterms",
+      "date": "2026-10-15",
+      "reason": "[ScoreCache 2026-10-15] [Claude API Evaluation] 2026年米国中間選挙への準備に関する一般的な政治ニュースであり、AI・ソフトウェア・クラウド・先端技術の具体的な進展が示されていません。エンジニアリング上の影響や技術的な新規性も不明なため、一般消費者向け話題に近い最低評価帯としました。 [Editorial: AI-focused source +6"
+    },
+    "e17a583305621ced7441ad653060e70e": {
+      "score": 58,
+      "title": "Trust in Depth: Giving agents more autonomy without losing control",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] AIエージェントに自律性を与えつつ、権限範囲の限定、状態把握、行動制約、監視、検証を段階的に適用する設計思想は、エンタープライズ導入における重要なアーキテクチャ上の論点です。特に、検証可能な処理は自動化し、人間の判断が必要な決定だけを人に委ねる考え方は実装・運用面で有用です。一方で、記事はAWSによる信頼性・ガバナンスのフレームワーク紹介が中心で、具"
+    },
+    "b293032cc8504ebbad82e8a072b4289f": {
+      "score": 78,
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] コードスキャンのアラート修正を、リポジトリ内の関連ファイルを調査しながら開発者のように実行するエージェント機能が一般提供された点は、AIエージェントの実運用化として重要です。単なる提案にとどまらず、脆弱性対応の調査・修正作業を自動化し、開発者のセキュリティ対応コストを直接削減できるため、影響範囲と実用性は高いです。一方で、対象はGitHubのコードス"
+    },
+    "17faebc54f143fff4d6bbdd5a9b64ece": {
+      "score": 46,
+      "title": "August 09, 2026",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新であり、GPUドライバー更新やJupyterLabのGitパネル不具合修正は実務上有用ですが、既存機能の保守・依存パッケージ更新が中心で、アーキテクチャや開発体験を大きく変える新機能はありません。エージェント関連の話題は直近の対象キーワードとも重なるため減点しています。 [Editorial: A"
+    },
+    "aef983be0138890f64131ffb98abaa45": {
+      "score": 60,
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "date": "2026-10-16",
+      "reason": "[Claude API Evaluation] MetaによるオープンウェイトAIモデルの公開と、Apple Silicon搭載Macでのローカル実行は、LLMのオンデバイス推論や開発者向け利用を広げる点で技術的に注目度が高いです。クラウド依存を減らし、レイテンシーやプライバシー面で利点がある一方、記事からはモデル性能、ライセンス、対応ハードウェア、Appleとの協業範囲などの具体性が不足していま"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-16/blog.md",
+    "show_notes_path": "out/2026-10-16/show_notes.md",
+    "script_path": "out/2026-10-16/script_2hosts.md",
+    "audio_path": "out/2026-10-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27932,
+        "output_tokens": 11322,
+        "cost_usd": 0.019173
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45541,
+        "output_tokens": 9975,
+        "cost_usd": 0.190832
+      }
+    ],
+    "tts": {
+      "chars": 4723,
+      "audio_sec": 733.6,
+      "cost_usd": 0.141449
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.351454
+  }
+}
