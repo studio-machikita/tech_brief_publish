@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.33,
+    "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+    "url": "https://arxiv.org/abs/2610.20665"
+  },
+  {
+    "start_sec": 127.52,
+    "title": "DeepUnfolding_Agent: A Classical_Quantum Adaptive Control API",
+    "url": "https://arxiv.org/abs/2610.20615"
+  },
+  {
+    "start_sec": 238.63,
+    "title": "ChatGPT becomes a full Chrome browser assistant that reads and acts on your open tabs",
+    "url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/"
+  },
+  {
+    "start_sec": 326.71,
+    "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/"
+  },
+  {
+    "start_sec": 462.2,
+    "title": "FLUX 3 Image Klein: open weights, 5.6B parameters",
+    "url": "https://bfl.ai/blog/flux-3-image-klein"
+  },
+  {
+    "start_sec": 588.65,
+    "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+    "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+  },
+  {
+    "start_sec": 682.33,
+    "title": "エンディング",
+    "url": null
+  }
+]
