@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.24,
+    "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner"
+  },
+  {
+    "start_sec": 140.99,
+    "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+    "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/"
+  },
+  {
+    "start_sec": 243.69,
+    "title": "Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes",
+    "url": "https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/"
+  },
+  {
+    "start_sec": 336.21,
+    "title": "Anthropic Reports $16.8 billion in Third-Quarter Revenue",
+    "url": "https://www.theinformation.com/briefings/anthropic-reports-16-8-billion-third-quarter-revenue"
+  },
+  {
+    "start_sec": 449.33,
+    "title": "Multi-repository support and other improvements for GitHub in Slack and Teams",
+    "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates"
+  },
+  {
+    "start_sec": 556.89,
+    "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+    "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/"
+  },
+  {
+    "start_sec": 670.72,
+    "title": "エンディング",
+    "url": null
+  }
+]

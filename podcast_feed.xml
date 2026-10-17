@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#201 ディープシーク、より高速で軽量化したと主張する更新版AIモデルを公開 ほか</title>
+      <description>Tech News Radio Show Notes - #201 (2026-10-18)
+
+エピソード情報
+• エピソード: #201
+• 日付: 2026-10-18
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner (https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner)
+• An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet (https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/)
+• Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes (https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/)
+
+注目の深掘り
+• Anthropic Reports $16.8 billion in Third-Quarter Revenue (https://www.theinformation.com/briefings/anthropic-reports-16-8-billion-third-quarter-revenue)
+
+小ネタ・その他
+• Multi-repository support and other improvements for GitHub in Slack and Teams (https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates)
+• Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart (https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/)
+• Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart (https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-18/episode_audio.mp3" length="11221677" type="audio/mpeg" />
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-18</guid>
+      <itunes:duration>11:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>ディープシーク、より高速で軽量化したと主張する更新版AIモデルを公開 ほか</itunes:title>
+      <itunes:episode>201</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #201 (2026-10-18)
+
+エピソード情報
+• エピソード: #201
+• 日付: 2026-10-18
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner (https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner)
+• An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet (https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/)
+• Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes (https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/)
+
+注目の深掘り
+• Anthropic Reports $16.8 billion in Third-Quarter Revenue (https://www.theinformation.com/briefings/anthropic-reports-16-8-billion-third-quarter-revenue)
+
+小ネタ・その他
+• Multi-repository support and other improvements for GitHub in Slack and Teams (https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates)
+• Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart (https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/)
+• Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart (https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-18/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.240" title="DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner" href="https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner" />
+        <psc:chapter start="00:02:20.990" title="An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet" href="https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/" />
+        <psc:chapter start="00:04:03.690" title="Anthropics' Claude cracks a 25-year-old NSA cryptography mystery in under 30 minutes" href="https://the-decoder.com/anthropics-claude-cracks-a-25-year-old-nsa-cryptography-mystery-in-under-30-minutes/" />
+        <psc:chapter start="00:05:36.210" title="Anthropic Reports $16.8 billion in Third-Quarter Revenue" href="https://www.theinformation.com/briefings/anthropic-reports-16-8-billion-third-quarter-revenue" />
+        <psc:chapter start="00:07:29.330" title="Multi-repository support and other improvements for GitHub in Slack and Teams" href="https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates" />
+        <psc:chapter start="00:09:16.890" title="Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart" href="https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/" />
+        <psc:chapter start="00:11:10.720" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#200 世界は待ってくれない:リアルタイムの制約下でのエージェントの評価と教育 ほか</title>
       <description>Tech News Radio Show Notes - #200 (2026-10-17)
 
