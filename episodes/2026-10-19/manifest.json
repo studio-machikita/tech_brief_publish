@@ -1,0 +1,376 @@
+{
+  "date": "2026-10-19",
+  "episode_date_local": "2026-10-19",
+  "content_snapshot_date": "2026-10-19",
+  "show_length_sec": 727,
+  "audio_size": 11646765,
+  "generated_at": "2026-10-18T22:29:24.352984+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-16ccc417",
+      "title": "Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together",
+      "title_ja": "独占:Mueon、6,500万ドルを調達 データセンター構築のあり方を刷新へ",
+      "one_liner": "Mueonが65億円超を調達、サーバー構成を刷新",
+      "fingerprint": "16ccc41770a9280fbe9e8a2ef7dc7635",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-ca43a938",
+      "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "title_ja": "Anthropic、AIエージェントの稼働時間が6倍に増え、新人採用をほぼ停止",
+      "one_liner": "Anthropicが新人採用をほぼ停止",
+      "fingerprint": "ca43a9389e29a6079f7c6f31e8cc917b",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-00c71eaf",
+      "title": "HydraFusion updates and new Max option",
+      "title_ja": "HydraFusionのアップデートと新オプション「Max」",
+      "one_liner": "HydraFusionが更新され、Max版が登場",
+      "fingerprint": "00c71eaf098bff52060f4368cfb1491a",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-e7d2942a",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "title_ja": "Benefit Street Partners、Codexで質問への回答を迅速化",
+      "one_liner": "融資分析をCodexで高速化した事例",
+      "fingerprint": "e7d2942a55f5d4a3ddb1b885d458392b",
+      "score": 53,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-6edd3003",
+      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+      "title_ja": "AIエージェントの信頼性を高める:Amazon Bedrock AgentCoreによる本番運用向け評価フレームワーク",
+      "one_liner": "AIエージェントの静かな品質劣化を防ぐ評価基盤",
+      "fingerprint": "6edd30038284f54d803d241ba8fa4986",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-1d37463d",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "title_ja": "イタウー、全顧客向けの生成AI構築を進める方法",
+      "one_liner": "Itaúが全顧客向けに生成AIを展開",
+      "fingerprint": "1d37463d99527c94696632488bab7ab3",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-306058da",
+      "reason": "LINK_ONLY: Source classified as satirical: 「手書きコードなし」「AIフリーのアートなし」という極端な方針や、未確認のMarvel/Star Warsシューター計画を断定的に結び付けており、通常の技術報道よりも風刺的な誇張表現に見える。",
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model"
+    },
+    {
+      "item_id": "item-0aaaf618",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase"
+    },
+    {
+      "item_id": "item-c1d7dc9d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore"
+    },
+    {
+      "item_id": "item-69ac01d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "July 30, 2026"
+    },
+    {
+      "item_id": "item-17faebc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 09, 2026"
+    },
+    {
+      "item_id": "item-cc7b95cb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hybrid Reasoning Agents"
+    },
+    {
+      "item_id": "item-c5ee1c52",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November"
+    },
+    {
+      "item_id": "item-d0422804",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Closing the Freelance Skill Gap: From Client RFP to Winning Proposal in 2 Seconds"
+    },
+    {
+      "item_id": "item-238a2fbf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An update on independent evaluators"
+    },
+    {
+      "item_id": "item-f3726318",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investing in the public benefit"
+    },
+    {
+      "item_id": "item-ecc8a2d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Two German courts now hold Google liable for what its AI overviews say"
+    },
+    {
+      "item_id": "item-6967c332",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty"
+    },
+    {
+      "item_id": "item-809b69b9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic to Shift Some Shares Into New ‘Public Good’ Fund"
+    },
+    {
+      "item_id": "item-846eaf0f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inside Andreessen’s Growing Political Influence"
+    },
+    {
+      "item_id": "item-1d458f65",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market"
+    },
+    {
+      "item_id": "item-35616f11",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dynamic Packages"
+    },
+    {
+      "item_id": "item-9235eee9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’"
+    },
+    {
+      "item_id": "item-1ed9f89b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "20 Best Gifts for Men, Manly Men, and Manly Man Men (2026)"
+    }
+  ],
+  "score_cache": {
+    "cc7b95cbd5599bf263569a3a739b00da": {
+      "score": 45,
+      "title": "Hybrid Reasoning Agents",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] ハイブリッド推論エージェントは、LLMの生成能力と記号推論・ツール実行などを組み合わせる設計として、AIシステムの信頼性や複雑なタスクへの適用範囲を広げる可能性があります。一方で、記事の具体的な実装、成果、提供企業、従来手法との差分が不明であり、現時点では新規性や影響範囲を高く評価しにくいです。また、既に取り上げ済みの「agents」「ai」と同じ中"
+    },
+    "1d37463d99527c94696632488bab7ab3": {
+      "score": 49,
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] 大手銀行が顧客・従業員向けに生成AIを大規模展開し、会話型インターフェースとIARAによるガバナンスを組み合わせている点は、エンタープライズAIの実装事例として有用です。特に金融のような規制産業で、全社的なAI活用と統制を両立しようとしている点にはアーキテクチャ面・運用面の示唆があります。一方、基盤モデルや新規アルゴリズムの発表ではなく、既存技術の企"
+    },
+    "f372631854ccde1e2cfda9e34ea03b7e": {
+      "score": 41,
+      "title": "Investing in the public benefit",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] Anthropicが株式の5%を公共利益のための基金に拠出する方針は、AI企業のガバナンスや社会的責任の観点では注目に値しますが、ソフトウェア開発者向けの技術革新、アーキテクチャ、モデル性能などに直接影響する発表ではありません。AI企業に関する話題ではあるものの、内容の中心は資本政策・公共利益であり、エンジニアリング上の波及効果は限定的なため、低めに"
+    },
+    "6edd30038284f54d803d241ba8fa4986": {
+      "score": 51,
+      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] AIエージェントの品質劣化を、開発初期から本番運用まで9段階で検出する評価フレームワークは、実装・運用面で具体性があり、レイテンシーだけでは捉えにくい回答品質の低下を扱う点で有用です。一方で、基盤技術そのものの革新というよりは評価・運用手法の提案であり、Amazon Bedrock AgentCoreに依存する内容です。また、AIエージェントおよびA"
+    },
+    "0aaaf6181fa6c73f25b79f952444e90d": {
+      "score": 49,
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotにリポジトリ固有の指示やスキルを追加し、カスタムエージェントやMCPサーバー（Playwrightなど）と接続する実践的な開発者向け機能は、AIコーディングの適用範囲を広げる点で有用です。特にコードベースの文脈を継続的に与える設計は、生成結果の品質や開発ワークフローの自動化に影響します。一方で、業界の前提を変える新技術の発"
+    },
+    "c5ee1c52e49cd42a5b7c90a6056168bd": {
+      "score": 43,
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数体験で利用されるモデルの提供終了日と影響範囲が明確になるため、利用企業や開発者には移行・動作確認が必要な実務上の重要性があります。一方で、新モデルやアーキテクチャの発表ではなく、既存サービスのモデル廃止という運用上の告知です。さらに、既に取り上げ済みのAI・model関連トピックと近い内容のため減点し、低〜中程度の評"
+    },
+    "69ac01d64114c138e1ca64b05d5ea88b": {
+      "score": 47,
+      "title": "July 30, 2026",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のアップデートで、JupyterLabとGemini CLIの干渉、Git操作、micromamba環境作成、企業CA証明書、ファイル所有権など、開発環境の安定性と運用性を改善している点は実務上有用です。一方で、内容の中心は既存機能の不具合修正と依存関係更新であり、業界の前提を変える新技術や大規模"
+    },
+    "1d458f651305643a1975815cff511cef": {
+      "score": 36,
+      "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] 著名VCであるBenchmarkの投資方針や組織運営、市場環境に関する記事であり、スタートアップ業界の資金調達動向を理解する材料にはなります。一方で、AIや新技術、アーキテクチャ、プログラミング言語などの具体的な技術革新や、エンジニアリングに直接影響する発表は含まれていません。業界の背景情報としては一定の価値がありますが、技術ニュースとしての重要度は"
+    },
+    "ca43a9389e29a6079f7c6f31e8cc917b": {
+      "score": 66,
+      "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] AIエージェントが実際の開発業務で人間の約6倍の稼働時間を記録し、Anthropicのジュニア技術職採用比率が27%から9%へ低下したという具体的な社内データは、ソフトウェア開発の人材構造を変える可能性があり重要です。一方で、AIエージェントによる雇用・開発プロセスの変化は既出キーワード（ai、agents）と同じ文脈に属するため減点しました。また、"
+    },
+    "306058da508eb9ea69e50afd3da81e51": {
+      "score": 54,
+      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] 大手ゲーム企業が開発工程をAI中心へ転換し、コードやアート制作を大幅に自動化するという内容は、ソフトウェア開発とコンテンツ制作の両面で影響が大きい。一方で、現時点では「reportedly」に基づく未確定情報であり、実際の導入範囲や品質、開発者の役割変更も不明確。さらに、AI活用・AI中心開発は直近の既出キーワードと同じ話題に該当するため20点減点し"
+    },
+    "1ed9f89bc7fb8df3a3146877059711ec": {
+      "score": 4,
+      "title": "20 Best Gifts for Men, Manly Men, and Manly Man Men (2026)",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] 2026年の男性向けギフトを紹介する一般消費者向けの買い物記事であり、AI・クラウド・プログラミング言語・先端スタートアップなど、ソフトウェア技術や業界構造に関する新規性・技術的影響はありません。"
+    },
+    "809b69b910e9c53ef4b78356ca494989": {
+      "score": 37,
+      "title": "Anthropic to Shift Some Shares Into New ‘Public Good’ Fund",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] Anthropicが株式の5%を公共利益基金に移し、AIによる雇用への影響などに寄付を行う計画は、AI企業のガバナンスや社会的責任の面では注目に値します。一方で、技術仕様や開発者向け基盤、アーキテクチャを変える発表ではなく、実装面での波及効果も限定的です。既出キーワードであるAI関連の話題でもあり、明確な技術革新ではないため減点しました。 [Edit"
+    },
+    "16ccc41770a9280fbe9e8a2ef7dc7635": {
+      "score": 84,
+      "title": "Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] AI向けデータセンターのラック構成や電力効率を再設計する技術であり、計算資源・電力・設置スペースという現在のAIインフラの主要な制約に直接取り組んでいます。同一電力で最大10倍の計算能力を実現できるという主張が事実なら、データセンターの設計や運用コストを大きく変える可能性があります。一方で、現時点ではスタートアップの資金調達と公称値が中心で、実環境で"
+    },
+    "d042280451ca920b67f2d9b976e7bb99": {
+      "score": 43,
+      "title": "Closing the Freelance Skill Gap: From Client RFP to Winning Proposal in 2 Seconds",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] 履歴書と案件のマッチング、スキルギャップ分析、提案文生成を一体化した実用的なAIアプリであり、クラウドとOllamaによるローカル推論を切り替える設計や、構造化JSONの検証・自己修正、プライバシー保護はエンジニアリング上評価できます。一方で、既存のLLM応用サービスの範囲にとどまり、モデル自体や基盤技術に新規性があるわけではなく、個人開発・ハッカソ"
+    },
+    "35616f11e67ef178a56950aea5eb0318": {
+      "score": 24,
+      "title": "Dynamic Packages",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] タイトルだけでは、動的パッケージに関する新技術、パッケージ管理、実行時依存解決などの具体的な内容や影響範囲を判断できません。AI・クラウド・言語仕様などの明確な技術革新も確認できず、情報不足のため低めに評価します。"
+    },
+    "e7d2942a55f5d4a3ddb1b885d458392b": {
+      "score": 53,
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "date": "2026-10-18",
+      "reason": "[ScoreCache 2026-10-18] [Claude API Evaluation] Codexを活用してローン評価比較や信用契約分析ツールの開発、コードレビュー、問い合わせ対応を効率化している事例であり、AIによるソフトウェア開発・金融業務の自動化という点で実務的な価値があります。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、特定企業における導入効果の紹介にとどまるため、業界の"
+    },
+    "238a2fbf2f445d77512a73b55f193937": {
+      "score": 42,
+      "title": "An update on independent evaluators",
+      "date": "2026-10-16",
+      "reason": "[ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [Claude API Evaluation] 独立評価者に関するアップデートは、AIシステムの安全性・性能評価の透明性を高める可能性がある一方、タイトルだけでは対象技術や具体的な変更点、業界への影響範囲が不明です。技術革新そのものというより評価ガバナンス"
+    },
+    "c1d7dc9d51b01a0794fe4e6bdc269f34": {
+      "score": 49,
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCoreを利用して、文書分類・情報抽出・検証・新フォーマットへの適応を自動化する実装例であり、AIエージェントとクラウド上のインテリジェント文書処理という点で実務的な価値があります。特にテンプレートを手作業で追加せず、処理結果から改善する設計は、業務自動化や運用コスト削減に有効です。一方で、基盤技術の業界を変え"
+    },
+    "00c71eaf098bff52060f4368cfb1491a": {
+      "score": 66,
+      "title": "HydraFusion updates and new Max option",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] VS CodeやGitHub Copilot上で利用できるモデル構成とオーケストレーションの改善、および上位プランの追加は、開発者のAIコーディング体験や利用可能な推論能力に直接影響する実用的なアップデートです。一方で、既存サービスの機能拡張であり、業界の前提を変えるような新規アーキテクチャや基盤モデルの発表ではありません。また、既出キーワードである"
+    },
+    "17faebc54f143fff4d6bbdd5a9b64ece": {
+      "score": 46,
+      "title": "August 09, 2026",
+      "date": "2026-10-16",
+      "reason": "[ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [Claude API Evaluation] Agent Platform Workbenchの更新であり、GPUドライバー更新やJupyterLabのGitパネル不具合修正は実務上有用ですが、既存機能の保守・依存パッケージ更新が中心で、アーキテクチャや"
+    },
+    "9235eee9f0b9c2c2c5c54f4cdf295792": {
+      "score": 5,
+      "title": "Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] ドキュメンタリー映画の興行的成功に関するニュースであり、AI・クラウド・プログラミング言語・スタートアップ技術など、ソフトウェアエンジニアリングや技術業界への直接的な影響はほぼありません。Elizabeth Holmesというテック業界に関連する人物を扱っているものの、記事自体は技術革新や事業モデルの新展開ではなく、一般向けエンターテインメントの話題"
+    },
+    "ecc8a2d6c2eb139b31d3c5952c1b18d4": {
+      "score": 41,
+      "title": "Two German courts now hold Google liable for what its AI overviews say",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] ドイツの複数裁判所がGoogleのAI検索要約を自社コンテンツとして扱い、誤情報への法的責任を認めつつある点は、AI検索の設計・出典表示・監査ログ・リスク管理に影響します。ただし内容の中心は法律・規制であり、技術的な新機能や実装の発表ではありません。また、既出のAI関連トピックと同じ領域の続報にあたるため、重複分を減点しました。 [Editorial"
+    },
+    "6967c33206b6010ceece9b3ad7dad7e3": {
+      "score": 41,
+      "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] MetaのAIエージェント「Muse」に性的な会話を許容する一方、同社プラットフォーム上の成人コンテンツ制作者を制限しているという運用上の矛盾を扱った記事です。AIエージェントの安全性、コンテンツモデレーション、ポリシー整合性という観点では意味がありますが、新しいモデル技術やアーキテクチャの発表ではなく、主に倫理・規約運用の問題です。また、AI・エー"
+    },
+    "846eaf0f5d6e3456aa044362fc76e54c": {
+      "score": 37,
+      "title": "Inside Andreessen’s Growing Political Influence",
+      "date": "2026-10-19",
+      "reason": "[Claude API Evaluation] AIや暗号資産に触れているものの、主題はMarc Andreessenの政治的影響力や共和党への資金・政策助言であり、技術そのものの革新やエンジニアリング上の具体的な進展ではありません。AI関連の政策論争という点で既出キーワードと接点があるため減点し、法律・政治・規制寄りの話題として低めに評価します。 [Editorial: AI/SaaS topi"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-19/blog.md",
+    "show_notes_path": "out/2026-10-19/show_notes.md",
+    "script_path": "out/2026-10-19/script_2hosts.md",
+    "audio_path": "out/2026-10-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 28480,
+        "output_tokens": 10447,
+        "cost_usd": 0.018232
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45036,
+        "output_tokens": 9686,
+        "cost_usd": 0.186932
+      }
+    ],
+    "tts": {
+      "chars": 4675,
+      "audio_sec": 715.9,
+      "cost_usd": 0.138041
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.343205
+  }
+}

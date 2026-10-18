@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#202 独占:Mueon、6,500万ドルを調達 データセンター構築のあり方を刷新へ ほか</title>
+      <description>Tech News Radio Show Notes - #202 (2026-10-19)
+
+エピソード情報
+• エピソード: #202
+• 日付: 2026-10-19
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together (https://www.theinformation.com/briefings/exclusive-mueon-raises-65-million-rework-data-centers-put-together)
+• Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours (https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/)
+• Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours (https://www.theinformation.com/briefings/anthropic-says-ai-evaluators-can-now-work-company)
+• HydraFusion updates and new Max option (https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option)
+
+注目の深掘り
+• Benefit Street Partners answers questions faster with Codex (https://openai.com/index/benefit-street-partners)
+
+小ネタ・その他
+• Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/)
+• Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/)
+• How Itaú is building generative AI for its entire customer base (https://openai.com/index/itau-generative-ai)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-19/episode_audio.mp3" length="11646765" type="audio/mpeg" />
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-19</guid>
+      <itunes:duration>12:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>独占:Mueon、6,500万ドルを調達 データセンター構築のあり方を刷新へ ほか</itunes:title>
+      <itunes:episode>202</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #202 (2026-10-19)
+
+エピソード情報
+• エピソード: #202
+• 日付: 2026-10-19
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together (https://www.theinformation.com/briefings/exclusive-mueon-raises-65-million-rework-data-centers-put-together)
+• Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours (https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/)
+• Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours (https://www.theinformation.com/briefings/anthropic-says-ai-evaluators-can-now-work-company)
+• HydraFusion updates and new Max option (https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option)
+
+注目の深掘り
+• Benefit Street Partners answers questions faster with Codex (https://openai.com/index/benefit-street-partners)
+
+小ネタ・その他
+• Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/)
+• Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/)
+• How Itaú is building generative AI for its entire customer base (https://openai.com/index/itau-generative-ai)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-19/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.240" title="Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together" href="https://www.theinformation.com/briefings/exclusive-mueon-raises-65-million-rework-data-centers-put-together" />
+        <psc:chapter start="00:01:52.140" title="Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours" href="https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/" />
+        <psc:chapter start="00:04:18.110" title="HydraFusion updates and new Max option" href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option" />
+        <psc:chapter start="00:06:02.270" title="Benefit Street Partners answers questions faster with Codex" href="https://openai.com/index/benefit-street-partners" />
+        <psc:chapter start="00:07:39.730" title="Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:09:55.130" title="How Itaú is building generative AI for its entire customer base" href="https://openai.com/index/itau-generative-ai" />
+        <psc:chapter start="00:11:36.920" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#201 ディープシーク、より高速で軽量化したと主張する更新版AIモデルを公開 ほか</title>
       <description>Tech News Radio Show Notes - #201 (2026-10-18)
 

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.24,
+    "title": "Exclusive: Mueon Raises $65 Million to Rework How Data Centers Are Put Together",
+    "url": "https://www.theinformation.com/briefings/exclusive-mueon-raises-65-million-rework-data-centers-put-together"
+  },
+  {
+    "start_sec": 112.14,
+    "title": "Anthropic has nearly stopped hiring junior staff because AI agents now work six times as many hours",
+    "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/"
+  },
+  {
+    "start_sec": 258.11,
+    "title": "HydraFusion updates and new Max option",
+    "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"
+  },
+  {
+    "start_sec": 362.27,
+    "title": "Benefit Street Partners answers questions faster with Codex",
+    "url": "https://openai.com/index/benefit-street-partners"
+  },
+  {
+    "start_sec": 459.73,
+    "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 595.13,
+    "title": "How Itaú is building generative AI for its entire customer base",
+    "url": "https://openai.com/index/itau-generative-ai"
+  },
+  {
+    "start_sec": 696.92,
+    "title": "エンディング",
+    "url": null
+  }
+]
