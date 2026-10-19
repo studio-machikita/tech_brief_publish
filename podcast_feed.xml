@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#203 「MiniMax M3.1 Flash」が示す、中国AI価格競争の底なしの実態 ほか</title>
+      <description>Tech News Radio Show Notes - #203 (2026-10-20)
+
+エピソード情報
+• エピソード: #203
+• 日付: 2026-10-20
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• MiniMax M3.1 Flash shows China's AI price race has no floor in sight (https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/)
+• Amoxi: From laptop to production (https://dev.to/karawash-projects/amoxi-from-laptop-to-production-1077)
+• Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models (https://arxiv.org/abs/2610.22428)
+
+注目の深掘り
+• Advancing Coding in Low-Resource Programming Languages (https://openai.com/index/low-resource-programming-languages)
+
+小ネタ・その他
+• Developers can now access SageMaker Studio through the new AWS experience (https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/)
+• How to continue a GitHub Copilot app session in VS Code (https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/)
+• How to continue a GitHub Copilot app session in VS Code (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-20/episode_audio.mp3" length="10709805" type="audio/mpeg" />
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-20</guid>
+      <itunes:duration>11:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>「MiniMax M3.1 Flash」が示す、中国AI価格競争の底なしの実態 ほか</itunes:title>
+      <itunes:episode>203</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #203 (2026-10-20)
+
+エピソード情報
+• エピソード: #203
+• 日付: 2026-10-20
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• MiniMax M3.1 Flash shows China's AI price race has no floor in sight (https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/)
+• Amoxi: From laptop to production (https://dev.to/karawash-projects/amoxi-from-laptop-to-production-1077)
+• Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models (https://arxiv.org/abs/2610.22428)
+
+注目の深掘り
+• Advancing Coding in Low-Resource Programming Languages (https://openai.com/index/low-resource-programming-languages)
+
+小ネタ・その他
+• Developers can now access SageMaker Studio through the new AWS experience (https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/)
+• How to continue a GitHub Copilot app session in VS Code (https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/)
+• How to continue a GitHub Copilot app session in VS Code (https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-20/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.750" title="MiniMax M3.1 Flash shows China's AI price race has no floor in sight" href="https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/" />
+        <psc:chapter start="00:01:42.040" title="Amoxi: From laptop to production" href="https://dev.to/karawash-projects/amoxi-from-laptop-to-production-1077" />
+        <psc:chapter start="00:03:48.940" title="Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models" href="https://arxiv.org/abs/2610.22428" />
+        <psc:chapter start="00:05:34.600" title="Advancing Coding in Low-Resource Programming Languages" href="https://openai.com/index/low-resource-programming-languages" />
+        <psc:chapter start="00:07:27.600" title="Developers can now access SageMaker Studio through the new AWS experience" href="https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/" />
+        <psc:chapter start="00:09:16.720" title="How to continue a GitHub Copilot app session in VS Code" href="https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/" />
+        <psc:chapter start="00:10:38.140" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#202 独占:Mueon、6,500万ドルを調達 データセンター構築のあり方を刷新へ ほか</title>
       <description>Tech News Radio Show Notes - #202 (2026-10-19)
 

@@ -1,0 +1,373 @@
+{
+  "date": "2026-10-20",
+  "episode_date_local": "2026-10-20",
+  "content_snapshot_date": "2026-10-20",
+  "show_length_sec": 669,
+  "audio_size": 10709805,
+  "generated_at": "2026-10-19T23:38:48.032263+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6cf3cff3",
+      "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
+      "title_ja": "「MiniMax M3.1 Flash」が示す、中国AI価格競争の底なしの実態",
+      "one_liner": "MiniMax新モデル、性能向上と半額化を両立",
+      "fingerprint": "6cf3cff38146e83ca5f08b6c300e9941",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0c4b6f02",
+      "title": "Amoxi: From laptop to production",
+      "title_ja": "Amoxi:ノートPCから本番環境へ",
+      "one_liner": "Amoxiを本番運用へ載せる手順と確認項目を解説",
+      "fingerprint": "0c4b6f024a807624d184f1538bfcd6d8",
+      "score": 59,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    },
+    {
+      "item_id": "item-19465836",
+      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+      "title_ja": "埋め込みは高すぎる?小型・3値言語モデル向けの16MB固定語彙",
+      "one_liner": "小型LLMの語彙表を16MBに固定して軽量化",
+      "fingerprint": "194658368372abed5fe917ae9bc863fd",
+      "score": 55,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-be76d81a",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title_ja": "低リソースプログラミング言語におけるコーディング支援の進展",
+      "one_liner": "OpenAIがマイナー言語のコーディング力を強化",
+      "fingerprint": "be76d81ab1d4e520c0597b58f5a018ea",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-6dcc2da2",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "title_ja": "開発者は新しいAWSエクスペリエンスからSageMaker Studioにアクセスできるように",
+      "one_liner": "SageMaker Studioに数ステップで入れる",
+      "fingerprint": "6dcc2da2e3ed529d7b441ce94945cfd1",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-ae307bbd",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "title_ja": "GitHub Copilot アプリのセッションを VS Code で続行する方法",
+      "one_liner": "Copilotアプリの作業をVS Codeで続行",
+      "fingerprint": "ae307bbd4899643327260334f0152bd6",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML",
+        "GitHub AI and ML"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d9aff34f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot model policy API for enterprise, orgs, and teams"
+    },
+    {
+      "item_id": "item-dd61c130",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bringing GPT-Rosalind to academic research labs"
+    },
+    {
+      "item_id": "item-09b2b167",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI game clones are making indie developers afraid to show their work"
+    },
+    {
+      "item_id": "item-060012e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides"
+    },
+    {
+      "item_id": "item-366a3324",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 30, 2026"
+    },
+    {
+      "item_id": "item-17faebc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 09, 2026"
+    },
+    {
+      "item_id": "item-82e6b26e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot models deprecated on October 19, 2026"
+    },
+    {
+      "item_id": "item-eeba07c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator calibration"
+    },
+    {
+      "item_id": "item-799a8725",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says"
+    },
+    {
+      "item_id": "item-624c94d9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Did Anthropic Miss Its Peak IPO Moment?"
+    },
+    {
+      "item_id": "item-238a2fbf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An update on independent evaluators"
+    },
+    {
+      "item_id": "item-2e24aa38",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’"
+    },
+    {
+      "item_id": "item-9987dc47",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "State of Drupal presentation (September 2026)"
+    },
+    {
+      "item_id": "item-f3726318",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Investing in the public benefit"
+    },
+    {
+      "item_id": "item-cd480f49",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review"
+    },
+    {
+      "item_id": "item-cf3d00d8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Z.AI Founders Worked on Research Funded by China Institute UK Tied to Spies"
+    },
+    {
+      "item_id": "item-82f9b048",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Power Bank Deals: Laptops, MagSafe, and More"
+    },
+    {
+      "item_id": "item-cdb25ebb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bryan Steele :flan_beard: (@brynet@bsd.network)"
+    }
+  ],
+  "score_cache": {
+    "9987dc47b0252d2d0365ae8e8c32e922": {
+      "score": 41,
+      "title": "State of Drupal presentation (September 2026)",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新ですが、主な内容は上流依存パッケージの更新と、カスタムコンテナイメージに含まれるCritical/High severityのCVEを一括修正するセキュリティパッチです。実運用上は重要で、コンテナ利用者への影響もありますが、新しい技術機能やアーキテクチャの発表ではなく、既存環境の保守・脆弱性"
+    },
+    "be76d81ab1d4e520c0597b58f5a018ea": {
+      "score": 51,
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] 低リソースなプログラミング言語を対象に、ソフトウェア工学評価やSQLite、COBOL移行への対応を強化する点は、レガシー資産のモダナイゼーションやAI支援開発の実用性向上に直結します。一方で、基盤モデルや開発アーキテクチャ自体を根本的に変える発表ではなく、既出のAI・OpenAI関連テーマとも重なるため、話題の重複分を考慮して評価を抑えています。 "
+    },
+    "f372631854ccde1e2cfda9e34ea03b7e": {
+      "score": 41,
+      "title": "Investing in the public benefit",
+      "date": "2026-10-19",
+      "reason": "[ScoreCache 2026-10-19] [Claude API Evaluation] Anthropicが株式の5%を公共利益のための基金に拠出する方針は、AI企業のガバナンスや社会的責任の観点では注目に値しますが、ソフトウェア開発者向けの技術革新、アーキテクチャ、モデル性能などに直接影響する発表ではありません。AI企業に関する話題ではあるものの、内容の中心は資本政策・公共利益であり、エ"
+    },
+    "6dcc2da2e3ed529d7b441ce94945cfd1": {
+      "score": 49,
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] SageMaker StudioをAmazon、Apple、GitHub、Googleなどの既存IDで簡単に利用でき、AWSアカウントの高度な設定やクレジットカードを不要にした点は、機械学習環境の導入障壁を下げる実用的なクラウド改善です。一方で、アーキテクチャやモデル性能を変える技術革新ではなく、主な価値はオンボーディングと料金面の改善にあります。ま"
+    },
+    "ae307bbd4899643327260334f0152bd6": {
+      "score": 49,
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotのアプリ上で開始したエージェントセッションをVS Codeへ引き継ぎ、会話履歴やコード変更、作業コンテキストを維持できる点は、開発体験と生産性の向上に寄与します。一方で、業界の前提を変える新技術やアーキテクチャの発表ではなく、既存のAIコーディング支援機能を連携させる実用的な手順紹介に留まります。また、既出キーワードの「a"
+    },
+    "d9aff34f96d10bb0acd3a3596314f745": {
+      "score": 49,
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotのモデルポリシーを企業・チーム・組織単位でREST APIから取得・更新できるようにする実務的な管理機能です。IaCや社内ガバナンス、設定の自動化には有用ですが、既存サービスの管理API拡張であり、AI技術そのものを大きく変える革新ではありません。また、既報キーワードである「model」に直接関係するため、重複分として減点"
+    },
+    "17faebc54f143fff4d6bbdd5a9b64ece": {
+      "score": 46,
+      "title": "August 09, 2026",
+      "date": "2026-10-16",
+      "reason": "[ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [Claude API Evaluation] Agent Platform Workbenchの更新であり、GPUドライバー更新やJupyterLabのGitパネル不具合修正は実務上有用ですが、既存機能の保"
+    },
+    "799a872562b9f558c93e569bf15aab17": {
+      "score": 42,
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] AIモデル評価の信頼性やベンチマーク設計の限界を扱っており、開発者にとっては評価指標の過信を避け、データ汚染・評価基準の偏り・実運用との乖離を検討する上で有益です。一方で、具体的な新技術や実装、業界構造を変える発表ではなく、専門家による問題提起が中心です。また、既に取り上げ済みのAI・model関連トピックと同じ領域であるため、重複分として20点減点"
+    },
+    "6cf3cff38146e83ca5f08b6c300e9941": {
+      "score": 66,
+      "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] 中国発の新モデルが、前世代比で性能を13ポイント向上させながらコストを半減し、コーディングベンチマークでも競合モデルと同等の性能を1タスク0.30ドル未満で実現している点は、推論APIの価格競争や開発者のモデル選定に直接影響する重要なニュースです。一方で、既に取り上げ済みのAI・モデル関連テーマに該当し、技術的なブレークスルーというより既存の価格性能"
+    },
+    "09b2b167cb9578df2c84dff40a3562f9": {
+      "score": 48,
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] AIによるゲームクローンが、インディー開発者の公開戦略やSteam Next Festのような発表機会に影響を与えている点は、生成AIの実利用に関する重要な問題です。一方で、新しいモデルや開発基盤の発表ではなく、主な内容は模倣・競争環境・知的財産上の懸念に関する社会的影響です。既出のAI関連トピックと重なるため減点し、中程度の重要度と評価しました。 "
+    },
+    "82f9b0485f9f0f9934fb2451c066c2ec": {
+      "score": 6,
+      "title": "Best Power Bank Deals: Laptops, MagSafe, and More",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] ノートPCやMagSafe向けのモバイルバッテリー値引き情報であり、一般消費者向けガジェットのセール記事です。ソフトウェア、開発者向け技術、アーキテクチャへの影響や技術的な新規性はほぼなく、評価基準上の最低評価帯に該当します。"
+    },
+    "cf3d00d81ec0c7e8cca098c3bae56f44": {
+      "score": 32,
+      "title": "Z.AI Founders Worked on Research Funded by China Institute UK Tied to Spies",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] 中国の有力AI企業Z.AIの創業者と、英国政府が中国の情報機関との強い関係を指摘した研究機関との関係を扱っており、AI人材・研究エコシステムの透明性や地政学的リスクという点では一定の重要性があります。一方、技術革新や製品・アーキテクチャの進展ではなく、主題は安全保障・調査報道寄りです。既出のAI関連トピックとの重複もあるため減点し、低めの評価としまし"
+    },
+    "624c94d9df7243590ab4a4219cae673a": {
+      "score": 42,
+      "title": "Did Anthropic Miss Its Peak IPO Moment?",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] Anthropicの成長鈍化とIPO評価への影響は、フロンティアAI企業の事業モデル、価格競争、モデル性能の差別化に関わる重要な論点です。一方で、新しい技術発表やアーキテクチャ上の革新ではなく、主に資本市場と企業戦略の分析に留まります。また、Anthropic、AIモデル、企業の利用縮小といった内容は既報の話題と近く、明確な新展開というより続報・再評"
+    },
+    "060012e13d4657738bc45edb6c374c54": {
+      "score": 48,
+      "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] LLMエージェントに対して、型付きのMCPオーバーライドで人間の指示を計画サイクルをまたいで永続化し、権限をプロトコルレベルで保証する提案は、運用ガバナンスやマルチエージェント設計に有用な技術的示唆があります。特に自由文による曖昧な指示や、長大なコンテキスト内で人間の指示が埋没する問題をスキーマと権限モデルで扱う点は具体的です。一方、現時点ではarX"
+    },
+    "eeba07c210dac6dee5347cb5ead93632": {
+      "score": 45,
+      "title": "When is a large language model a good calibration agent? Physics-labeled prompting for budgeted engineering simulator ca",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] LLMを物理的な診断情報と組み合わせ、計算コストの高い工学シミュレータのパラメータ較正を効率化する応用研究であり、AIエージェントの実用領域を広げる点は注目に値します。一方、対象は円柱後流のLESなど限定的な検証で、汎用性や従来の微分フリー最適化手法に対する優位性はまだ研究段階です。また、AI・LLM関連は直近の既出テーマに含まれるため減点しました。"
+    },
+    "194658368372abed5fe917ae9bc863fd": {
+      "score": 55,
+      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] 小型・3値言語モデルのパラメータとファイルサイズの大部分を占める埋め込みテーブルを、学習可能な巨大行列から16MBの固定512ビットコードへ置き換える提案であり、エッジ推論や低メモリ環境に有用な設計上の新規性があります。モデル圧縮のボトルネックに正面から取り組んでいる点は評価できますが、現時点ではarXiv上の初期研究で、精度・多言語性・タスク汎化・"
+    },
+    "0c4b6f024a807624d184f1538bfcd6d8": {
+      "score": 59,
+      "title": "Amoxi: From laptop to production",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] Amoxiの本番運用を、マルチコアワーカー、クラッシュ時の自動復旧、環境変数によるシークレット管理、マルチステージDocker、ヘルスチェック、Graceful Shutdown、CI/CD、ローリングデプロイまで具体的に整理しており、アーキテクチャ・クラウド運用の実務価値は高いです。特にAIエージェントを含むアプリを本番投入する際の運用チェックリス"
+    },
+    "cdb25ebb1ed981c13222a58848a1261a": {
+      "score": 0,
+      "title": "Bryan Steele :flan_beard: (@brynet@bsd.network)",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] 記事タイトルが個人アカウント名のみで、ニュース内容や技術的な発表・出来事を確認できません。AI、クラウド、プログラミング言語などの技術的インパクトを評価する材料がないため、重要度は最低評価とします。"
+    },
+    "dd61c1300ef1b75b9d90a0e89507b816": {
+      "score": 49,
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "date": "2026-10-16",
+      "reason": "[ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [Claude API Evaluation] GPT-Rosalindを学術研究機関へ提供し、生命科学分野の研究ワークフローや実験設計を支援する点は、AIの実利用拡大として技術的・社会的な意義があります。特に研究用ツールへのアクセス格差を縮小し、専門ラボでの導入を促進する可能性があります。一方で、基盤"
+    },
+    "238a2fbf2f445d77512a73b55f193937": {
+      "score": 42,
+      "title": "An update on independent evaluators",
+      "date": "2026-10-16",
+      "reason": "[ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [ScoreCache 2026-10-16] [Claude API Evaluation] 独立評価者に関するアップデートは、AIシステムの安全性・性能評価の透明性を高める可能性がある一方、タイトルだけでは対象技術や具体的な変更点、業界への影響範囲が不"
+    },
+    "cd480f49cb36864a8abc99fad113cdd7": {
+      "score": 36,
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] SageMaker JumpStartへの100以上のモデル追加、30プロバイダー対応、Model Hubの簡素化、デプロイ設定の事前構成、Hugging Face連携は、企業における生成AIモデルの選定・導入を効率化する実務的な進展です。一方で、基盤技術そのものを大きく変える発表ではなく、既存サービスの機能拡充と年次レビューが中心です。また、AI・"
+    },
+    "82e6b26ee37d9801afe22153fc340358": {
+      "score": 46,
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが広範な機能から一斉に非推奨化されるため、開発者の設定変更や互換性確認が必要になる実務上の影響はあります。一方で、技術的な革新や新アーキテクチャの発表ではなく、既存サービスのライフサイクル管理に関する告知です。また、既に取り上げ済みの「model」「ai」関連トピックと同じ角度の続報とは読み取れないものの"
+    },
+    "366a33242d1cb45899e066b3a88176ba": {
+      "score": 47,
+      "title": "August 30, 2026",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新で、Cloud Storageマウントの自動再接続、ファイル操作の性能改善、ノートブック出力消失の防止、カスタムCA証明書対応など、クラウド開発環境の安定性と運用性を高める実用的な修正が含まれています。特にノートブックの予期せぬ上書き防止やプロキシ環境でのTLS対応は開発現場への影響がありま"
+    },
+    "2e24aa3804af8d51f2173cfe9ac5d0cd": {
+      "score": 42,
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "date": "2026-10-20",
+      "reason": "[Claude API Evaluation] AIエージェントを従業員が利用する際の監視や信頼性を、内部脅威に近いリスクとして捉えるMicrosoftの見解は、企業のAI導入設計や権限管理に影響する点で実務的に重要です。一方で、具体的な製品発表や技術的ブレークスルーではなく、AIエージェントとフロンティアモデルの信頼性に関する方針・警告が中心です。また、既出キーワードであるAI、agents、m"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-20/blog.md",
+    "show_notes_path": "out/2026-10-20/show_notes.md",
+    "script_path": "out/2026-10-20/script_2hosts.md",
+    "audio_path": "out/2026-10-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 32,
+        "input_tokens": 31103,
+        "output_tokens": 10061,
+        "cost_usd": 0.018294
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 48783,
+        "output_tokens": 9804,
+        "cost_usd": 0.195606
+      }
+    ],
+    "tts": {
+      "chars": 4401,
+      "audio_sec": 654.9,
+      "cost_usd": 0.126295
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.340195
+  }
+}

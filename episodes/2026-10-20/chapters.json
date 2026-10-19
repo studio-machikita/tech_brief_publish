@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.75,
+    "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight",
+    "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/"
+  },
+  {
+    "start_sec": 102.04,
+    "title": "Amoxi: From laptop to production",
+    "url": "https://dev.to/karawash-projects/amoxi-from-laptop-to-production-1077"
+  },
+  {
+    "start_sec": 228.94,
+    "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+    "url": "https://arxiv.org/abs/2610.22428"
+  },
+  {
+    "start_sec": 334.6,
+    "title": "Advancing Coding in Low-Resource Programming Languages",
+    "url": "https://openai.com/index/low-resource-programming-languages"
+  },
+  {
+    "start_sec": 447.6,
+    "title": "Developers can now access SageMaker Studio through the new AWS experience",
+    "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/"
+  },
+  {
+    "start_sec": 556.72,
+    "title": "How to continue a GitHub Copilot app session in VS Code",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"
+  },
+  {
+    "start_sec": 638.14,
+    "title": "エンディング",
+    "url": null
+  }
+]
