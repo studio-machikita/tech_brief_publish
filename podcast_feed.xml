@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#204 ElevenLabs、リアルタイムAI会話向けの音声対音声モデルを2種類発表 ほか</title>
+      <description>Tech News Radio Show Notes - #204 (2026-10-21)
+
+エピソード情報
+• エピソード: #204
+• 日付: 2026-10-21
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations (https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/)
+• OpenAI acquires Orchestra Bio (https://openai.com/index/openai-to-acquire-orchestra-bio)
+• OpenAI acquires Orchestra Bio (https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/)
+• OpenAI acquires Orchestra Bio (https://www.theinformation.com/briefings/openai-buys-drug-development-company-orchestra-bio)
+• Deepseek open-sources the inference engine that powers its fastest and cheapest AI model (https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)
+
+注目の深掘り
+• How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia (https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia)
+
+小ネタ・その他
+• Copilot model policy API for enterprise, orgs, and teams (https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams)
+• Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch (https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-21/episode_audio.mp3" length="11196333" type="audio/mpeg" />
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-21</guid>
+      <itunes:duration>11:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>ElevenLabs、リアルタイムAI会話向けの音声対音声モデルを2種類発表 ほか</itunes:title>
+      <itunes:episode>204</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #204 (2026-10-21)
+
+エピソード情報
+• エピソード: #204
+• 日付: 2026-10-21
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations (https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/)
+• OpenAI acquires Orchestra Bio (https://openai.com/index/openai-to-acquire-orchestra-bio)
+• OpenAI acquires Orchestra Bio (https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/)
+• OpenAI acquires Orchestra Bio (https://www.theinformation.com/briefings/openai-buys-drug-development-company-orchestra-bio)
+• Deepseek open-sources the inference engine that powers its fastest and cheapest AI model (https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/)
+
+注目の深掘り
+• How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia (https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia)
+
+小ネタ・その他
+• Copilot model policy API for enterprise, orgs, and teams (https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams)
+• Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch (https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-21/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.860" title="Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations" href="https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/" />
+        <psc:chapter start="00:02:28.040" title="OpenAI acquires Orchestra Bio" href="https://openai.com/index/openai-to-acquire-orchestra-bio" />
+        <psc:chapter start="00:04:08.700" title="Deepseek open-sources the inference engine that powers its fastest and cheapest AI model" href="https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/" />
+        <psc:chapter start="00:06:06.820" title="How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia" href="https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia" />
+        <psc:chapter start="00:07:50.990" title="Copilot model policy API for enterprise, orgs, and teams" href="https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams" />
+        <psc:chapter start="00:09:26.080" title="Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch" href="https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/" />
+        <psc:chapter start="00:11:09.220" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#203 「MiniMax M3.1 Flash」が示す、中国AI価格競争の底なしの実態 ほか</title>
       <description>Tech News Radio Show Notes - #203 (2026-10-20)
 

@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-21",
+  "episode_date_local": "2026-10-21",
+  "content_snapshot_date": "2026-10-21",
+  "show_length_sec": 699,
+  "audio_size": 11196333,
+  "generated_at": "2026-10-20T23:13:42.597306+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-990d7926",
+      "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations",
+      "title_ja": "ElevenLabs、リアルタイムAI会話向けの音声対音声モデルを2種類発表",
+      "one_liner": "ElevenLabsが高速・高精度の音声対話モデルを公開",
+      "fingerprint": "990d792651a2c17ca7176afe8307b4cd",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-c74ccde9",
+      "title": "OpenAI acquires Orchestra Bio",
+      "title_ja": "OpenAI、Orchestra Bioを買収",
+      "one_liner": "OpenAIがOrchestra Bioを買収",
+      "fingerprint": "c74ccde91f181d9e6cbc6f531547ab62",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "TechCrunch",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-756b4324",
+      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+      "title_ja": "ディープシーク、最速かつ最安のAIモデルを支える推論エンジンをオープンソース化",
+      "one_liner": "DeepseekがAI推論エンジンをオープンソース化",
+      "fingerprint": "756b432483eec87c313b5a9119075002",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-cede7b43",
+      "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia",
+      "title_ja": "DeepSeekがファーウェイのAIチップ開発に影響、エヌビディアへの挑戦が拡大",
+      "one_liner": "DeepSeekがHuaweiのAIチップ設計に関与",
+      "fingerprint": "cede7b437d69be08fbd204cf47afa603",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-d9aff34f",
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "title_ja": "エンタープライズ、組織、チーム向けのCopilotモデルポリシーAPI",
+      "one_liner": "Copilotのモデル利用ポリシーをAPIで管理可能に",
+      "fingerprint": "d9aff34f96d10bb0acd3a3596314f745",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-495b6041",
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "title_ja": "KVキャッシュを超えて:AWS Trainium2上でネイティブPyTorchを用い、i14のLaplace 3B線形アテンションモデルを学習・提供する",
+      "one_liner": "固定メモリで動く3B線形注意モデルの事例",
+      "fingerprint": "495b604111a8386391402bdbb13a0e89",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-a1c2d922",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Accenture on embedded evaluation"
+    },
+    {
+      "item_id": "item-19dbdb57",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AWS Shipped a DynamoDB API That Stores Everything in Postgres. Read the Tables It Writes"
+    },
+    {
+      "item_id": "item-e1207db1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Work management context for AI agents with Smartsheet MCP on AWS"
+    },
+    {
+      "item_id": "item-78282698",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 02, 2026"
+    },
+    {
+      "item_id": "item-09b2b167",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI game clones are making indie developers afraid to show their work"
+    },
+    {
+      "item_id": "item-366a3324",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 30, 2026"
+    },
+    {
+      "item_id": "item-0c50217d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Developing Enterprise Frontier Safeguards with our customers"
+    },
+    {
+      "item_id": "item-c45da88e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity"
+    },
+    {
+      "item_id": "item-3a20aa29",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work"
+    },
+    {
+      "item_id": "item-4c77420f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "French Government Calls Emergency Meetings With Platforms Over Protests"
+    },
+    {
+      "item_id": "item-e92b7f5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Academics have a duty to defend open knowledge systems like Wikipedia"
+    },
+    {
+      "item_id": "item-3139c062",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nextdc Cuts Outlook as Backlash Delays Data Center Power"
+    },
+    {
+      "item_id": "item-82e6b26e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot models deprecated on October 19, 2026"
+    },
+    {
+      "item_id": "item-e02280ec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed"
+    },
+    {
+      "item_id": "item-f3eb77d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site &#8211; Krebs on Security"
+    },
+    {
+      "item_id": "item-ec2d9070",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Detavio Samuels Says Creators Can Build Media Empires Beyond YouTube"
+    },
+    {
+      "item_id": "item-1e9d0b9c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A New Rocco Smart Fridge Just Dropped. So Did the Prices (2026)"
+    },
+    {
+      "item_id": "item-aa36a6db",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SpaceX and Tesla boards form special committees to review merger"
+    }
+  ],
+  "score_cache": {
+    "f3eb77d2dcd882740dd5597eccb6d2a9": {
+      "score": 27,
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site &#8211; Krebs on Security",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] ランサムウェア交渉人がShinyHuntersの恐喝サイト運営に関与していた可能性を連邦当局が捜査しているという、サイバー犯罪・法執行寄りのニュースです。企業のインシデント対応や交渉体制、攻撃者との利益相反リスクには示唆がありますが、技術革新や開発者向けアーキテクチャの進展ではなく、記事の主軸も捜査・犯罪 attribution であるため、評価基準"
+    },
+    "3a20aa2949f34121efcc2b1f0c01b5b6": {
+      "score": 41,
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] ChatGPTを使って飲食フランチャイズの現金照合やメニュー価格改定を大幅に効率化した具体的な業務改善事例であり、導入効果やROIの面では有用です。一方で、基盤技術やアーキテクチャの革新ではなく、特定企業の業務フローへのAI適用にとどまります。また、既出のAI・ChatGPT関連トピックと近い角度のため減点しました。 [Editorial: AI-f"
+    },
+    "0c50217d01e012dc75aa0a055b5ceeda": {
+      "score": 44,
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] 企業顧客と連携して先端AIの安全対策を構築する内容であれば、AIの実運用におけるリスク管理やガードレール設計という点で一定の技術的意義があります。一方、記事タイトルだけでは新しいアーキテクチャや具体的な実装、性能向上、業界標準を変える発表であるか判断できず、AI安全・運用ルール寄りの話題にとどまる可能性が高いため、革新的なAI技術そのものより低く評価"
+    },
+    "495b604111a8386391402bdbb13a0e89": {
+      "score": 61,
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] TransformerのKVキャッシュ問題に対し、線形アテンションと固定サイズのリカレント状態でコンテキスト長に依存しないサービングメモリを実現する点は、LLM推論基盤や長文処理のアーキテクチャとして注目度が高いです。さらにAWS Trainium2上でネイティブPyTorchによる学習・推論を具体的に示しており、専用AIチップ活用の実装知見として実"
+    },
+    "c45da88e2fd85b99a41675e27f028e92": {
+      "score": 43,
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] GitHub CopilotによるJava開発者の生産性向上事例で、開発現場への実用的な示唆はありますが、既存技術の活用事例が中心で、アーキテクチャや言語仕様を変えるような新規性・影響範囲は限定的です。さらに、直近で取り上げ済みの「GitHub」「coding」「Copilotに近いAI活用」の話題と重なるため、重複分を減点しました。 [Editor"
+    },
+    "d9aff34f96d10bb0acd3a3596314f745": {
+      "score": 66,
+      "title": "Copilot model policy API for enterprise, orgs, and teams",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] GitHub Copilotのモデル選択ポリシーを企業、組織、チーム、エージェントアプリ単位でREST APIから取得・更新できるようになり、管理自動化やIaC、ガバナンス統合に有用な実務的アップデートです。一方で、基盤モデルや開発アーキテクチャそのものを変える発表ではなく、対象もGitHub Copilotのエンタープライズ管理者に限定されます。「"
+    },
+    "78282698aafe98aeb458e3cfc6849821": {
+      "score": 47,
+      "title": "August 02, 2026",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] AIエージェント向けの開発環境であるAgent Platform Workbench v2のリリースで、JupyterLabとGemini CLIの連携不具合、ファイル変更の巻き戻り、カーネル中断、micromamba環境作成時の権限問題を修正しており、開発体験と実行環境の安定性には実務的な価値があります。一方で、新機能やアーキテクチャ上の大きな進展"
+    },
+    "e02280ec1000b2304c4c0680f21e78ee": {
+      "score": 28,
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] AIに関する話題ではあるものの、技術そのものの進化ではなく、モデル公開をめぐる法案・規制と政府機関の権限設計が中心です。実装やアーキテクチャへの直接的な新規性は限定的で、既出のAI・モデル関連トピックとも重なるため減点しました。一方、重大な被害が想定されるモデルを裁判所の許可なしに連邦機関が阻止できなくなる可能性があり、AIガバナンスへの影響は無視で"
+    },
+    "990d792651a2c17ca7176afe8307b4cd": {
+      "score": 92,
+      "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] リアルタイム音声対話向けの新しい音声間モデルであり、AIエージェントや音声インターフェースの実用性を高める重要な発表です。0.57秒の応答時間と98.8%のベンチマークスコアという具体的な性能指標もあり、ゲーム、カスタマーサポート、アクセシビリティなどへの応用範囲が広がります。一方で、基盤モデルそのものの前提を変える革新というよりは、既存の音声AI技"
+    },
+    "09b2b167cb9578df2c84dff40a3562f9": {
+      "score": 47,
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] AIによるゲームクローンがインディー開発者の公開・展示を萎縮させるという、創作物の模倣や開発者コミュニティへの影響を扱う記事です。ゲーム開発エコシステムへの問題提起として一定の重要性はありますが、新しい技術仕様や具体的な製品発表ではなく、影響範囲も主にインディーゲーム市場に限定されます。AI関連トピックは直近の放送済みキーワードに含まれるため、明確な"
+    },
+    "1e9d0b9cf465e074437a49814811df1a": {
+      "score": 6,
+      "title": "A New Rocco Smart Fridge Just Dropped. So Did the Prices (2026)",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] スマート冷蔵庫の新製品と値引きに関する一般消費者向けガジェット記事であり、AI・クラウド・ソフトウェアアーキテクチャなど技術業界への影響は限定的です。既出キーワードとの重複もなく、エンジニア視点での重要度は最低水準です。"
+    },
+    "ec2d9070ecc1aa95c5dc367aacfe0757": {
+      "score": 18,
+      "title": "Detavio Samuels Says Creators Can Build Media Empires Beyond YouTube",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] YouTube上のクリエイターがスポンサー、他媒体、周辺事業へ収益源を多角化するというメディア・ビジネス上の助言が中心で、技術革新やソフトウェアエンジニアリングへの直接的な影響は限定的です。AI、クラウド、アーキテクチャ、プログラミング言語などの新技術も含まれず、一般的なクリエイター経済の動向にとどまるため、技術ニュースとしては低評価です。"
+    },
+    "cede7b437d69be08fbd204cf47afa603": {
+      "score": 86,
+      "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] DeepSeekの要求をHuaweiが次世代AIチップの設計に直接反映し、エンジニアを長期間共同配置している点は、単なる顧客・半導体メーカー間の協議を超えた重要な動きです。モデルのデータ移動やプロセッサ間連携を含むハードウェア設計とAIソフトウェア要件の協調最適化が進めば、Nvidia依存を減らし、中国発のAI計算基盤やアクセラレータ設計に大きな影響"
+    },
+    "19dbdb57668fc0dea96189dc74cdf196": {
+      "score": 60,
+      "title": "AWS Shipped a DynamoDB API That Stores Everything in Postgres. Read the Tables It Writes",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] AWSがDynamoDB互換APIをPostgreSQL上で動作させるオープンソース実装を公開した点は、データベースアーキテクチャとクラウド開発の観点で注目度が高いです。DynamoDBのシングルテーブル設計やGSIが実際にどのSQLテーブルへ変換されるかを検証でき、ローカル開発、CI、オンプレミス、マルチクラウドでの活用余地があります。一方で、まだ"
+    },
+    "e92b7f5c335079f0730d39323f75fabc": {
+      "score": 30,
+      "title": "Academics have a duty to defend open knowledge systems like Wikipedia",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] Wikipediaのようなオープン知識基盤を学術関係者が支えるべきだという主張は、知識の信頼性やOSS・共同編集型プラットフォームの持続性に関わる点で意義があります。一方、具体的な技術革新、実装、サービス変更、調査結果が示されておらず、記事の性質は提言・論説に近いため、エンジニアリング上の直接的な影響は限定的です。また、既出キーワードの「open」と"
+    },
+    "c74ccde91f181d9e6cbc6f531547ab62": {
+      "score": 92,
+      "title": "OpenAI acquires Orchestra Bio",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] OpenAIによるライフサイエンス系スタートアップの買収は、LLMやAIエージェントを創薬・バイオ医薬品R&Dの業務基盤へ適用する動きとして注目度が高い。研究データの解析、実験計画、ワークフロー自動化など、専門領域に特化したAIプロダクトとOpenAIのモデル・インフラを統合できれば、創薬開発のスピードや開発手法に影響を与える可能性がある。一方、買収"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 61,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] Accentureとの連携による組み込み型評価は、AIシステムを本番環境で継続的に測定・改善する運用基盤につながり、企業導入の信頼性や品質管理に影響します。一方で、現時点では具体的な技術仕様や画期的なアーキテクチャが示されておらず、既存のAI評価・コンサルティングの延長線上にある発表と見られるため、業界の前提を変えるほどではないと判断しました。 [E"
+    },
+    "e1207db1bcd5e8d4fc0ca34b81d40056": {
+      "score": 49,
+      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] AIエージェントがSmartsheetの業務データをMCP経由で読み書き・操作できるようにし、Amazon QuickやKiroとAWS上で接続する実装例は、企業向けエージェント活用の具体性という点で有用です。一方で、MCPやエージェント自体の基盤技術を新たに発明するものではなく、既存サービス間の統合・導入ガイドに近いため、業界の前提を変えるほどの新"
+    },
+    "82e6b26ee37d9801afe22153fc340358": {
+      "score": 29,
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが廃止されるという、開発者の利用環境や設定変更に影響する運用・ライフサイクル情報です。対象範囲はCopilot Chat、インライン編集、エージェントモード、コード補完など広いものの、新しい技術革新やアーキテクチャの発表ではなく、既存サービスのモデル移行・非推奨化にとどまります。さらに、直近に取り上げ済み"
+    },
+    "366a33242d1cb45899e066b3a88176ba": {
+      "score": 47,
+      "title": "August 30, 2026",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのアップデートであり、Cloud Storageマウントの再接続、ファイル操作の性能改善、ノートブック上書き問題の修正、カスタムCA証明書対応など、実運用の安定性と開発体験を高める具体的な改善が含まれています。一方で、既存機能の保守・不具合修正が中心で、アーキテクチャを大きく変える発表や新技術の導入では"
+    },
+    "aa36a6db67a3d285c4588eb2a7fef23d": {
+      "score": 5,
+      "title": "SpaceX and Tesla boards form special committees to review merger",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] SpaceXとTeslaの取締役会が合併を検討する特別委員会を設置したという企業統治・経営ニュースであり、ソフトウェア技術やAI、クラウド、アーキテクチャへの直接的な新規性は限定的です。独立取締役による審査はガバナンス上の重要性がありますが、エンジニア視点での技術的影響範囲や具体的な実装情報は乏しく、一般消費者向けガジェットに近い低優先度の話題として"
+    },
+    "756b432483eec87c313b5a9119075002": {
+      "score": 90,
+      "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] DeepSeekが高速・低コストなV4.1-Flashを支える推論エンジンをオープンソース化する点は、AIインフラとモデル提供コストに直接影響する重要な発表です。vLLMベースで計算資源や電力消費を削減できれば、推論基盤の選択肢が広がり、OpenAIやAnthropicなどへの価格競争圧力も強まります。一方で、モデルそのものの革新ではなく、既存技術を"
+    },
+    "4c77420f2db243011878147c46b71be7": {
+      "score": 32,
+      "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] 政府がSNSプラットフォームに抗議映像やAI生成・改変画像の抑制を求め、再販サイトに略奪品を流通させない合意を促したという、規制・プラットフォーム運用寄りのニュースです。オンラインサービスのコンテンツモデレーション、画像検知、出品監視には技術的な論点がありますが、具体的な新技術やアーキテクチャの発表ではなく、エンジニアリング上の革新性は限定的です。既"
+    },
+    "3139c062410c722947834a1c38716218": {
+      "score": 30,
+      "title": "Nextdc Cuts Outlook as Backlash Delays Data Center Power",
+      "date": "2026-10-21",
+      "reason": "[Claude API Evaluation] データセンターの電力供給遅延と地域住民の反発により、事業者が業績見通しを引き下げ、不可抗力条項の適用を検討しているニュースです。AIやクラウド基盤を支えるデータセンター運用には関連しますが、技術革新やアーキテクチャの進展ではなく、地域合意・電力インフラ・契約リスクが中心です。エンジニア視点では大規模施設のキャパシティ計画や電源冗長性、立地リスクを再認"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-21/blog.md",
+    "show_notes_path": "out/2026-10-21/show_notes.md",
+    "script_path": "out/2026-10-21/script_2hosts.md",
+    "audio_path": "out/2026-10-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 35557,
+        "output_tokens": 11054,
+        "cost_usd": 0.020376
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45601,
+        "output_tokens": 9676,
+        "cost_usd": 0.187962
+      }
+    ],
+    "tts": {
+      "chars": 4473,
+      "audio_sec": 687.2,
+      "cost_usd": 0.132509
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.340847
+  }
+}
