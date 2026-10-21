@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.75,
+    "title": "I'm 16 and spent a year training my own 780B language model. Here's what I learned",
+    "url": "https://dev.to/afonsofaro/im-16-and-spent-a-year-training-my-own-780b-language-model-heres-what-i-learned-1kl4"
+  },
+  {
+    "start_sec": 126.66,
+    "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+    "url": "https://arxiv.org/abs/2610.26887"
+  },
+  {
+    "start_sec": 242.79,
+    "title": "Partnering with Accenture on embedded evaluation",
+    "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
+  },
+  {
+    "start_sec": 335.77,
+    "title": "Adaptive agentic intelligence framework using Strands Agents",
+    "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/"
+  },
+  {
+    "start_sec": 426.52,
+    "title": "August 30, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_30_2026"
+  },
+  {
+    "start_sec": 552.42,
+    "title": "Train Qwen3 on AWS Trainium with torchtitan",
+    "url": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/"
+  },
+  {
+    "start_sec": 647.56,
+    "title": "エンディング",
+    "url": null
+  }
+]

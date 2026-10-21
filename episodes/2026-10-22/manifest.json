@@ -1,0 +1,376 @@
+{
+  "date": "2026-10-22",
+  "episode_date_local": "2026-10-22",
+  "content_snapshot_date": "2026-10-22",
+  "show_length_sec": 677,
+  "audio_size": 10834989,
+  "generated_at": "2026-10-21T23:17:39.010466+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d3fa9aba",
+      "title": "I'm 16 and spent a year training my own 780B language model. Here's what I learned",
+      "title_ja": "16歳の私が1年かけて7800億パラメータの言語モデルを自作。そこで学んだこと",
+      "one_liner": "16歳が780B規模のLLMを自力で訓練",
+      "fingerprint": "d3fa9abafc35fb7d6e6796c9e042c12a",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    },
+    {
+      "item_id": "item-b9d56db5",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "title_ja": "Navalia:検証可能なタスク合成と長期的ポストトレーニングによるCoworkエージェントの高度化",
+      "one_liner": "金融分析向けCowork Agentを鍛える新手法",
+      "fingerprint": "b9d56db5eeee57909528c98b9417aa2c",
+      "score": 63,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-a1c2d922",
+      "title": "Partnering with Accenture on embedded evaluation",
+      "title_ja": "アクセンチュアと提携し、組み込み型評価を推進",
+      "one_liner": "AnthropicがAccentureと第三者評価で提携",
+      "fingerprint": "a1c2d9220b5e8d1254cf1a2465c4cf25",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-6c198d0f",
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "title_ja": "Strands Agentsを活用した適応型エージェンティック・インテリジェンス・フレームワーク",
+      "one_liner": "軽い処理は手元、難問はクラウドへ振り分け",
+      "fingerprint": "6c198d0fe6177c41441486bf64b092ee",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-366a3324",
+      "title": "August 30, 2026",
+      "title_ja": "Workbench v2に不具合修正と軽量化が入りました",
+      "one_liner": "Workbench v2に不具合修正と軽量化が入りました",
+      "fingerprint": "366a33242d1cb45899e066b3a88176ba",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-c6c8ec77",
+      "title": "Train Qwen3 on AWS Trainium with torchtitan",
+      "title_ja": "torchtitanでAWS Trainium上のQwen3をトレーニング",
+      "one_liner": "TrainiumでQwen3を3通りに学習できる",
+      "fingerprint": "c6c8ec774f0cf69dc170ab257b98b852",
+      "score": 53,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1405624e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deepmind founder Hassabis shortens AGI timeline from five to two to three years"
+    },
+    {
+      "item_id": "item-5dd03afd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience"
+    },
+    {
+      "item_id": "item-78282698",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 02, 2026"
+    },
+    {
+      "item_id": "item-c45da88e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity"
+    },
+    {
+      "item_id": "item-f05bb255",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference"
+    },
+    {
+      "item_id": "item-7d09e54b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock"
+    },
+    {
+      "item_id": "item-a34a9e28",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "H2DF: Calibrated Target Bands for Controllable Language-Model Unlearning"
+    },
+    {
+      "item_id": "item-e0c29075",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI"
+    },
+    {
+      "item_id": "item-c5ee1c52",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November"
+    },
+    {
+      "item_id": "item-f575c121",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown"
+    },
+    {
+      "item_id": "item-c70ef6af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Broad access through consistent standards"
+    },
+    {
+      "item_id": "item-d9942903",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure"
+    },
+    {
+      "item_id": "item-51e06695",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security Disclosure: Wednesday October 21st | Railway Blog"
+    },
+    {
+      "item_id": "item-f42b297b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The new human-crafted Apple Music brand matters in an AI world"
+    },
+    {
+      "item_id": "item-c954c68b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)"
+    },
+    {
+      "item_id": "item-82e6b26e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot models deprecated on October 19, 2026"
+    },
+    {
+      "item_id": "item-24ee56aa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta Offers Zuckerberg New Shares to Shield Him From Wealth Tax"
+    },
+    {
+      "item_id": "item-9af03d25",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Netflix Revenue Growth Hits Three-Year Low"
+    }
+  ],
+  "score_cache": {
+    "51e0669541f535fbe5687533c5c46bdf": {
+      "score": 27,
+      "title": "Security Disclosure: Wednesday October 21st | Railway Blog",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Railwayに関するセキュリティ開示ですが、記事タイトル以外の情報がなく、脆弱性の種類・影響範囲・対象バージョン・緩和策などの具体性を評価できません。セキュリティ関連はエンジニアにとって重要である一方、技術革新やアーキテクチャの進化を扱うニュースではないため、低評価帯としました。"
+    },
+    "c70ef6afbf7b552e994aaf18c9afcdc2": {
+      "score": 29,
+      "title": "Broad access through consistent standards",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] AIサービスの販売・流通パートナー間で利用ポリシーと安全対策を統一する運用方針であり、技術的な新規性やアーキテクチャの進展は限定的です。責任あるアクセスや利用規約の明確化は実務上重要ですが、主題はガバナンス・運用ルール寄りです。また、既出キーワードのOpenAIおよび関連するAIの利用ポリシーに関する話題と重なるため、重複分として減点しました。 [E"
+    },
+    "a1c2d9220b5e8d1254cf1a2465c4cf25": {
+      "score": 61,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "date": "2026-10-21",
+      "reason": "[ScoreCache 2026-10-21] [Claude API Evaluation] Accentureとの連携による組み込み型評価は、AIシステムを本番環境で継続的に測定・改善する運用基盤につながり、企業導入の信頼性や品質管理に影響します。一方で、現時点では具体的な技術仕様や画期的なアーキテクチャが示されておらず、既存のAI評価・コンサルティングの延長線上にある発表と見られるため、業界"
+    },
+    "6c198d0fe6177c41441486bf64b092ee": {
+      "score": 54,
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] ローカルの小型言語モデルとクラウドモデルをタスクの複雑度に応じて切り替える設計は、コスト削減・レイテンシ最適化・IoT監視への適用という点で実装上の価値があります。Strands Agents、Ollama、Amazon Bedrockを組み合わせた具体的なアーキテクチャもエンジニアには有用です。一方で、業界の前提を変える新技術というより既存のエージ"
+    },
+    "c45da88e2fd85b99a41675e27f028e92": {
+      "score": 43,
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Java開発者によるGitHub Copilotの活用事例であり、開発効率化や人間によるレビュー・責任分担の示唆はありますが、新しい技術や製品機能の発表ではなく、影響範囲も限定的な事例紹介です。さらに、直近で取り上げ済みの「Copilot」と同じ話題・角度に該当するため、重複分を減点しました。 [Editorial: AI-focused sourc"
+    },
+    "82e6b26ee37d9801afe22153fc340358": {
+      "score": 23,
+      "title": "GitHub Copilot models deprecated on October 19, 2026",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルの廃止は、対象ユーザーの開発環境や設定変更に影響する実務的な告知ですが、既存機能のライフサイクル管理にあたり、技術革新やアーキテクチャの大きな進展ではありません。主題が既に取り上げ済みの「Copilot」「models」に直接該当し、明確な新機能や新展開も示されていないため、重複分として減点しました。 ["
+    },
+    "78282698aafe98aeb458e3cfc6849821": {
+      "score": 47,
+      "title": "August 02, 2026",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabとGemini CLIの自動リロード拡張による変更消失・カーネル中断、micromamba環境作成時の権限問題を修正しており、開発環境の安定性向上という実務上の価値はあります。一方で、新機能やアーキテクチャ上の大きな進展ではなく、主に不具合修正と依存パッケージ更新"
+    },
+    "f575c1210b691f21349a02dff5c3d9b5": {
+      "score": 37,
+      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] AIインフラ投資に伴う負債懸念について、Blackstone幹部の見解を紹介する金融・市場分析寄りの記事であり、技術仕様、アーキテクチャ、製品発表などエンジニアに直接影響する新規性は限定的です。AI関連ではあるものの、既出キーワードに該当し、AI投資をめぐる市場見解という同系統の話題として減点しました。 [Editorial: AI/SaaS top"
+    },
+    "1405624e72fccf633f92171460a6af67": {
+      "score": 49,
+      "title": "Deepmind founder Hassabis shortens AGI timeline from five to two to three years",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] AGIというAI業界の将来像に関わる重要テーマであり、Google DeepMind創業者が実現時期の予測を従来の3〜5年から2〜3年へ前倒しした点は、研究開発投資や技術ロードマップに影響し得ます。一方で、具体的な新モデルや実証結果、製品発表ではなく、専門家個人の予測に留まるため、技術的な確度と即時性は限定的です。また、既報のAI関連トピックと同じ領"
+    },
+    "f42b297bb54d220365b1e1480609c487": {
+      "score": 27,
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] AI時代における人間らしいブランド表現という論点は示唆的ですが、Apple Musicのマーケティングやコンテンツ制作に関する意見記事であり、技術仕様・アーキテクチャ・製品革新などの具体性は乏しいです。また、既出キーワードのAIと同じ文脈を扱うため減点対象となり、エンジニアリング上の影響範囲も限定的です。 [Editorial: AI-focused"
+    },
+    "d99429038c3c49b43c926dd1d12662f2": {
+      "score": 28,
+      "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Meta CEOのカリフォルニア残留と株式契約に関する企業統治・人材維持のニュースであり、AI投資への間接的な影響はあるものの、技術そのものの革新やソフトウェア開発者向けの具体的な変化は限定的です。税制や経営者の報酬設計に近い話題で、評価基準上は法律・規制や企業運営寄りの低重要度に分類されます。 [Editorial: AI/SaaS topic +"
+    },
+    "24ee56aa6b0f4df930b438fe3d28c203": {
+      "score": 23,
+      "title": "Meta Offers Zuckerberg New Shares to Shield Him From Wealth Tax",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] MetaのCEOの居住地維持と富裕税を巡る契約・報酬設計のニュースであり、技術革新やソフトウェア開発への直接的な影響は限定的です。企業統治、税制、経営者インセンティブに関する話題のため、評価基準上は法律・規制寄りの低評価となります。MetaのAIやモデルなど既出キーワードに関する新たな技術展開でもないため、重複減点は適用しません。"
+    },
+    "9af03d25b8d2637e869ebda9150c9a44": {
+      "score": 10,
+      "title": "Netflix Revenue Growth Hits Three-Year Low",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Netflixの四半期売上成長率が3年ぶりの低水準になったという業績ニュースで、ソフトウェア技術、AI、クラウド、アーキテクチャなどへの直接的な示唆は限定的です。一般消費者向けサービスの事業動向にとどまり、指定された既出キーワードとの重複もありませんが、テック分析記事としての技術的新規性・影響範囲は小さいため低評価です。"
+    },
+    "b9d56db5eeee57909528c98b9417aa2c": {
+      "score": 63,
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] LLMエージェントを対象に、専門家によるタスク作成を代替する検証可能なタスク合成と、長期的なポストトレーニングを扱う研究であり、複雑な計画・ツール利用・財務分析の信頼性向上に寄与する可能性があります。エージェントの評価データ生成や訓練パイプラインに具体的な進展がある点は技術的に重要ですが、現時点ではarXiv上の研究段階で、実運用への影響や業界標準を"
+    },
+    "f05bb255d2ff926bbf61d6a5f4b86d57": {
+      "score": 43,
+      "title": "High-dimensional layer-state trajectories reveal the internal dynamics of transformer inference",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Transformerの推論過程を層ごとの状態軌跡として解析し、層の順序が計算結果に与える構造的な意味を定量化する研究で、LLMの内部動作理解や解釈可能性に貢献します。Qwen、Llama、Gemmaを横断して検証している点も具体性があります。一方で、現時点ではarXivの基礎研究であり、製品・アーキテクチャ・開発手法を直ちに変える実証には至っていま"
+    },
+    "a34a9e28395cce0e62d6d4be5067c2cd": {
+      "score": 40,
+      "title": "H2DF: Calibrated Target Bands for Controllable Language-Model Unlearning",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] 言語モデルのアンラーニングにおいて、単純なGradient Ascentが忘却対象への損失を過剰に増加させ、保持データの性能を損なう問題に対し、データ依存の目標帯で圧力を制御するH2DFを提案している点は技術的に有意義です。モデル編集、プライバシー保護、著作権対応などへの応用可能性もあります。一方で、arXiv上の新規手法であり、実運用での有効性や大"
+    },
+    "d3fa9abafc35fb7d6e6796c9e042c12a": {
+      "score": 86,
+      "title": "I'm 16 and spent a year training my own 780B language model. Here's what I learned",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] 16歳の個人開発者が、MoEによる780B規模モデル、約5兆トークンのデータ処理、複数国にまたがる450基超のH200 GPUによる分散学習を実現した点は非常に注目度が高く、LLM開発の裾野と実践的な知見を示す記事です。特に、計算資源が限られる場合のスパース化、データクレンジング、分散インフラ、初期段階からの安全設計といったエンジニアリング上の示唆が"
+    },
+    "c954c68b54084a92041c67e47abedde7": {
+      "score": 27,
+      "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] PHPのWebランタイムに関するCVE情報であり、利用者や運用者にはパッチ適用・影響確認が必要な実務的な重要性があります。一方で、記事からは脆弱性の深刻度や影響範囲、攻撃実証などの具体性が分からず、技術革新やアーキテクチャの転換を示す内容でもありません。セキュリティ脆弱性という評価基準に沿って、低評価帯としました。"
+    },
+    "e0c2907579f3d696b2934bb2fb239266": {
+      "score": 38,
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] AT&Tが法務知識の検索・受付・判断支援を効率化する企業内AI活用事例で、LLMの実運用やナレッジアクセス設計という点では一定の技術的価値があります。ただし、法務業務の改善に焦点があり、業界全体の前提を変える新技術やアーキテクチャの発表ではありません。また、既出キーワードであるOpenAIおよびAIに関連する内容で、同テーマの重複として減点しています"
+    },
+    "5dd03afd0826a0e3447b86fdc0d7468b": {
+      "score": 49,
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] 大手銀行BarclaysがClaudeを業務運用へ大規模展開する事例であり、企業におけるLLM導入、業務効率化、顧客体験改善の実装面では意義があります。一方で、具体的な導入規模、アーキテクチャ、効果測定、セキュリティ設計などの技術情報がスニペットから確認できず、革新的な新技術というより既存モデルのエンタープライズ活用事例です。既出のAI・Anthro"
+    },
+    "c6c8ec774f0cf69dc170ab257b98b852": {
+      "score": 53,
+      "title": "Train Qwen3 on AWS Trainium with torchtitan",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Qwen3の学習をAWS Trainium上で実行し、Hugging Face Transformers、torchtitanネイティブ実装、NKIによるMoEカーネルという3経路を同一のtorchrunランチャーと設定体系で扱える点は、LLM学習基盤の移植性と実装効率を高める具体的な技術進展です。公開済みsafetensorsの入出力にも対応してお"
+    },
+    "c5ee1c52e49cd42a5b7c90a6056168bd": {
+      "score": 38,
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] GitHub Copilot全体で利用モデルが一斉に廃止されるため、利用企業や開発チームには設定確認、代替モデルへの移行、出力品質やコストの検証が必要になります。一方で、これは新技術の発表ではなく、既存サービスの運用・ライフサイクル管理に関する告知です。さらに、既出キーワードのCopilotおよびcodeに直接関連するため、重複分として減点しました。"
+    },
+    "366a33242d1cb45899e066b3a88176ba": {
+      "score": 54,
+      "title": "August 30, 2026",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、ノートブックの意図しない消去防止、Cloud Storageマウントの再起動後自動復旧、ファイル操作の応答性改善、カスタムCA証明書対応など、エージェント開発環境の信頼性と運用性を高める実務的な修正が含まれます。特に状態保持やプロキシ経由のTLS対応は企業利用で有用ですが、既存機能の"
+    },
+    "7d09e54b52cf6e2777da3e39d8bee4a4": {
+      "score": 43,
+      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+      "date": "2026-10-22",
+      "reason": "[Claude API Evaluation] MetaがAIモデルやサービスへの巨額投資を支えるため、新たな株式クラスを設けるという資本政策のニュースです。AIインフラ投資の規模や継続性に影響し得る点はエンジニアにとって注目ですが、技術そのものの革新や新しいアーキテクチャ、具体的な製品発表ではありません。既出のAIテーマと関連するものの、今回は資金調達・コーポレート戦略が主題であり、同じ角度の続"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-22/blog.md",
+    "show_notes_path": "out/2026-10-22/show_notes.md",
+    "script_path": "out/2026-10-22/script_2hosts.md",
+    "audio_path": "out/2026-10-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27803,
+        "output_tokens": 10342,
+        "cost_usd": 0.017971
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 47730,
+        "output_tokens": 9829,
+        "cost_usd": 0.19375
+      }
+    ],
+    "tts": {
+      "chars": 4423,
+      "audio_sec": 663.8,
+      "cost_usd": 0.12801
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.339731
+  }
+}
