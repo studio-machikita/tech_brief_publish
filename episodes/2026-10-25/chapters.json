@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.91,
+    "title": "Utopai Becomes a Unicorn as Video AI Takes Off",
+    "url": "https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes"
+  },
+  {
+    "start_sec": 148.55,
+    "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
+    "url": "https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/"
+  },
+  {
+    "start_sec": 260.36,
+    "title": "GitHub Copilot in Visual Studio — September update",
+    "url": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2"
+  },
+  {
+    "start_sec": 357.43,
+    "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+    "url": "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/"
+  },
+  {
+    "start_sec": 470.0,
+    "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/"
+  },
+  {
+    "start_sec": 558.7,
+    "title": "Usage metrics API adds usage from tools like OpenCode",
+    "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode"
+  },
+  {
+    "start_sec": 643.89,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-25",
+  "episode_date_local": "2026-10-25",
+  "content_snapshot_date": "2026-10-25",
+  "show_length_sec": 674,
+  "audio_size": 10795053,
+  "generated_at": "2026-10-24T22:31:45.538110+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-aabc614d",
+      "title": "Utopai Becomes a Unicorn as Video AI Takes Off",
+      "title_ja": "動画AIの台頭で、Utopaiがユニコーン企業に",
+      "one_liner": "動画AIに投資が集中、新興企業が続々ユニコーン化",
+      "fingerprint": "aabc614dc108204086d264c303c038bb",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-ab883df0",
+      "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
+      "title_ja": "新型mRNAワクチン、メラノーマ再発リスクを40%超低減",
+      "one_liner": "個別化mRNAワクチンで黒色腫の再発リスク4割減",
+      "fingerprint": "ab883df06abaaeabc79ae918627cb9a3",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Wired"
+      ]
+    },
+    {
+      "item_id": "item-c84b8456",
+      "title": "GitHub Copilot in Visual Studio — September update",
+      "title_ja": "Visual StudioのGitHub Copilot 9月アップデート",
+      "one_liner": "Visual StudioのCopilotが開発の流れを深く支援",
+      "fingerprint": "c84b84562747f1657ea0c7b3208a127e",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-8ecbd2eb",
+      "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+      "title_ja": "AWS CDKによるSageMaker AIエンドポイントのオートスケーリングの構成",
+      "one_liner": "SageMakerの更新失敗をCDKで自動解消",
+      "fingerprint": "8ecbd2eb10d8d5a9aadafc566767fd82",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-c45da88e",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "title_ja": "3人のJava Championが語る、GitHub Copilotで生産性を高める方法",
+      "one_liner": "Java Champion3人のCopilot活用術",
+      "fingerprint": "c45da88e2fd85b99a41675e27f028e92",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-6ad7d798",
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "title_ja": "使用量メトリクスAPI、OpenCodeなどのツールからの使用量にも対応",
+      "one_liner": "Copilot利用状況APIがOpenCodeにも対応",
+      "fingerprint": "6ad7d79805bd58c2076422bab14e5255",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0282a7e1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth"
+    },
+    {
+      "item_id": "item-5ce7a8b5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Securing our frontier model training environment"
+    },
+    {
+      "item_id": "item-8ae4f561",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security"
+    },
+    {
+      "item_id": "item-78282698",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 02, 2026"
+    },
+    {
+      "item_id": "item-82a6a62c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 18, 2026"
+    },
+    {
+      "item_id": "item-09b2b167",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI game clones are making indie developers afraid to show their work"
+    },
+    {
+      "item_id": "item-d8fd886a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide"
+    },
+    {
+      "item_id": "item-7021374a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chrome DevTools tells you z-index is 9999. It doesn't tell you which parent is trapping it. Now my debugger does."
+    },
+    {
+      "item_id": "item-2a52bf85",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Will AI expose the rickety infrastructure of the internet?"
+    },
+    {
+      "item_id": "item-8b33ba7f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Boom Faces a Growing Public Backlash"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-3b6cfaed",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked"
+    },
+    {
+      "item_id": "item-6d13bc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Show HN: Steal My Bitcoin"
+    },
+    {
+      "item_id": "item-36bdd6dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Starlink seems to be working normally again in Ukraine"
+    },
+    {
+      "item_id": "item-6ea1803b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable"
+    },
+    {
+      "item_id": "item-ce2e6aff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnerships"
+    },
+    {
+      "item_id": "item-73974958",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "No Signs of AI Payoff Outside the Tech Sector | The Daily Spark"
+    },
+    {
+      "item_id": "item-f42b297b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The new human-crafted Apple Music brand matters in an AI world"
+    }
+  ],
+  "score_cache": {
+    "6d13bc096601f84576138c0657275d69": {
+      "score": 37,
+      "title": "Show HN: Steal My Bitcoin",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] Bitcoinを題材にしたShow HN投稿であり、Web3・暗号資産領域として一定の技術的関心はあります。ただし、記事タイトルだけでは新しい暗号技術、プロトコル、セキュリティ研究、実用的な開発基盤などの具体性や影響範囲を確認できず、業界の前提を変える発表とは評価しにくい内容です。"
+    },
+    "5ce7a8b53ea0b106dd5ab3e18bcc1493": {
+      "score": 48,
+      "title": "Securing our frontier model training environment",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] フロンティアモデルの訓練・評価環境におけるオフライン化や高計算量のレッドチーミングは、AI開発基盤の安全性と運用設計に関わる実務的に重要な内容です。一方で、主題は新しいモデル性能やアーキテクチャではなく、セキュリティおよび運用ルールの強化です。また、OpenAI・モデル・訓練といった既出キーワードに加え、同じAI安全性の文脈であるため減点しました。 "
+    },
+    "ce2e6aff420d72bbf56e8077be344bc9": {
+      "score": 24,
+      "title": "Partnerships",
+      "date": "2026-10-24",
+      "reason": "[ScoreCache 2026-10-24] [Claude API Evaluation] タイトルが「Partnerships」のみで、提携企業、技術領域、提供機能、業界への影響などの具体情報がありません。技術革新やアーキテクチャの進展を評価できず、現時点では一般的な業務提携の告知にとどまるため、重要度は低く評価します。 [Editorial: AI-focused source +6]"
+    },
+    "d8fd886a95bf4da5af0b5c2c6e23a84a": {
+      "score": 46,
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] マルチターン強化学習を実際のWordle環境で実装し、Amazon Bedrock AgentCoreでエージェントと報酬をデプロイしてSageMaker AIで学習・評価する一連のパイプラインを扱っており、エージェント開発や実運用に近い具体性があります。一方で、内容は新しい基盤技術そのものの発表というより、既存のAWS・AI・モデル学習技術を組み合"
+    },
+    "c45da88e2fd85b99a41675e27f028e92": {
+      "score": 49,
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] GitHub CopilotをJava開発の問題解決や生産性向上に活用する実例であり、開発ワークフローや人間によるレビュー・責任分担を考えるうえでは有益です。一方で、技術そのものの新機能やアーキテクチャ上の革新ではなく、3人のJava Championによる事例紹介が中心です。また、既出のAI関連トピックと同じくAI支援開発の活用事例に該当するため、"
+    },
+    "6ad7d79805bd58c2076422bab14e5255": {
+      "score": 49,
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、OpenCodeなど従来集計対象外だった開発ツール経由の利用までAPIで把握できるようになる点は、開発組織の可視化・コスト管理・導入効果測定に有用です。一方で、モデルや開発基盤そのものの性能・アーキテクチャを変える機能ではなく、影響範囲もGitHub Copilotの利用メトリクスに限定されるため、中程度の評"
+    },
+    "78282698aafe98aeb458e3cfc6849821": {
+      "score": 47,
+      "title": "August 02, 2026",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabとGemini CLIの連携不具合、auto-reloadによるファイル変更の巻き戻りやカーネル中断、micromamba環境作成時の権限問題を修正している点は、開発環境の安定性と実用性に寄与します。一方で、既存機能の不具合修正と依存パッケージ更新が中心であり、ア"
+    },
+    "36bdd6dd77a474f59145eeded94295d4": {
+      "score": 37,
+      "title": "Starlink seems to be working normally again in Ukraine",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] ウクライナの軍事・通信インフラを支える衛星ネットワークの可用性と、単一事業者への依存リスクを示す重要な話題です。一方で、技術革新やアーキテクチャの進化そのものではなく、報道内容もアクセス制限の実態や復旧条件が不明確です。通信サービスの信頼性、障害時のフェイルオーバー、運用主体による地政学的な制御という観点ではエンジニアにとって示唆がありますが、具体的"
+    },
+    "3b6cfaed0bb6955776717658494f2140": {
+      "score": 38,
+      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AI安全研究者の解雇と情報漏えい疑惑は、研究組織のガバナンスや内部告発、機密管理の透明性に関わる重要な話題ですが、現時点では新しいモデルや技術、アーキテクチャの発表ではありません。記事の中心も当事者間の主張と手続き上の不透明さであり、エンジニアリングへの直接的な影響は限定的です。OpenAIおよびAI安全を扱う既出テーマとの重複もあるため、減点してい"
+    },
+    "f42b297bb54d220365b1e1480609c487": {
+      "score": 21,
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AI時代におけるApple Musicのブランド表現や、人間が制作したコンテンツの価値を論じる意見記事であり、技術的な新製品・アーキテクチャ・実装の発表ではありません。AI関連の文脈はあるものの、具体的なAI技術の革新や業界構造を変える内容ではなく、一般消費者向け音楽サービスのブランディング論に留まるため、重要度は最低評価帯としました。 [Edito"
+    },
+    "6ea1803be7a6a179a2f4dc2981c0d449": {
+      "score": 37,
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] PHPの長年放置された脆弱性をAIが発見し、攻撃にも転用された点は、脆弱性発見と悪用の高速化という実務上重要な示唆があります。一方で、主題は既存ソフトウェアのセキュリティ問題であり、評価基準上は法律・脆弱性・運用ルール寄りの低評価帯です。また、AIを活用した攻撃という観点は既出キーワードと重なるため減点しました。 [Editorial: AI/Saa"
+    },
+    "8b33ba7ff1d8b623a981df80cdde49a5": {
+      "score": 41,
+      "title": "AI Boom Faces a Growing Public Backlash",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AIの社会的受容、メディアへの影響、経済効果の遅れを扱う点で業界への示唆はありますが、具体的な技術革新、製品発表、アーキテクチャ変更、実証データなどは含まれておらず、分析・論評が中心です。また、既出キーワードであるAIに関する一般的な反発論という同一角度の話題のため、重複分を減点しています。 [Editorial: AI/SaaS topic +5]"
+    },
+    "aabc614dc108204086d264c303c038bb": {
+      "score": 84,
+      "title": "Utopai Becomes a Unicorn as Video AI Takes Off",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] 動画生成AI分野でUtopai Studiosが評価額10億ドルのユニコーン企業となり、HiggsfieldやKling AIを含む市場全体の大型資金流入と商用化の進展を示している点は重要です。生成動画の品質・尺の改善や年次換算売上の拡大は、映像制作、広告、エンターテインメントの開発・運用モデルを変える可能性があります。一方で、記事の中心は新しいモデ"
+    },
+    "7021374a3a36115bdc9ac900f9de70f8": {
+      "score": 43,
+      "title": "Chrome DevTools tells you z-index is 9999. It doesn't tell you which parent is trapping it. Now my debugger does.",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] CSSのz-index問題について、単なる値の確認ではなく、親要素のスタッキングコンテキストやoverflowなど、競合を引き起こしている具体的な行を特定するデバッガを紹介する記事です。フロントエンド開発者にとって実用性とデバッグ効率の向上はありますが、CSSやDevToolsの局所的な改善であり、アーキテクチャや主要技術の進化、業界全体を変える発表"
+    },
+    "73974958c762be1939cceca194f25085": {
+      "score": 23,
+      "title": "No Signs of AI Payoff Outside the Tech Sector | The Daily Spark",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AIの技術革新や具体的な製品・アーキテクチャの発表ではなく、テック業界外でのAI投資効果に関する論評にとどまっています。エンジニア視点での新しい実装知見や技術的インパクトが乏しく、さらに既出キーワードであるAIと同じ広いテーマを扱うため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "8ae4f561159cb1aa4661da8b3a1996fe": {
+      "score": 48,
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AI安全性・セキュリティ研究に関するOpenAIとポーランド国立研究機関NASKの連携は、評価手法や防御策、デジタル基盤のレジリエンス向上につながる可能性があり、技術業界に一定の意義があります。一方で、現時点では具体的な研究成果、実装、標準化内容、提供時期が示されておらず、発表段階の提携にとどまります。また、既出キーワードであるAIおよびOpenAI"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 41,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] 米国の科学研究への取り組みを強化する内容と見られますが、タイトルだけでは具体的な技術、アーキテクチャ、製品、研究成果、実装方法が不明です。科学技術政策や組織の方針表明に近く、エンジニアリングへの直接的な影響や新規性を評価しにくいため、低〜中程度のスコアとしました。 [Editorial: AI-focused source +6]"
+    },
+    "8ecbd2eb10d8d5a9aadafc566767fd82": {
+      "score": 51,
+      "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] SageMaker AIエンドポイントとApplication Auto Scalingの更新競合を、AWS CDKのカスタムリソースで自動的に解消する実装パターンを示しており、実運用に直結する具体性があります。CloudFormation/CDKのデプロイ設計や再利用可能なインフラ抽象化という点で、クラウドアーキテクチャ分野では有用です。一方で、既"
+    },
+    "c84b84562747f1657ea0c7b3208a127e": {
+      "score": 66,
+      "title": "GitHub Copilot in Visual Studio — September update",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] Visual Studio向けGitHub Copilotの実務統合が進み、チャットからプルリクエストを確認できる機能、チームが選んだAIモデルの利用、脆弱なパッケージの検知直後の修正支援は、開発者のレビューや保守効率を高める具体的なアップデートです。一方で、既存のAIコーディング支援の延長線上にある機能強化であり、アーキテクチャや開発基盤の前提を変"
+    },
+    "82a6a62c69656852313cdc2b1dacd647": {
+      "score": 47,
+      "title": "September 18, 2026",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabのクライアント側エラーやネットワーク失敗をバックエンド経由でCloud Loggingへ転送できるようになった点は、開発・運用時の可観測性を改善する実用的な機能です。一方で、基盤アーキテクチャを大きく変えるものではなく、主な内容は依存パッケージ更新とデバッグ支援に"
+    },
+    "2a52bf85cb8a80e219547ee771d54380": {
+      "score": 42,
+      "title": "Will AI expose the rickety infrastructure of the internet?",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AIの普及が、DNS・CDN・クラウド依存、API連携、データセンターやネットワークのボトルネックといったインターネット基盤の脆弱性を可視化する論点は、エンジニアにとって重要です。ただし、タイトルとスニペット בלבדでは具体的な障害事例や新技術、実証データがなく、問題提起の域を出ません。また、AI関連の話題は直近の放送で既出のため、同じ角度の一般論"
+    },
+    "0282a7e1cb4afbf95820b1c25c3975bb": {
+      "score": 49,
+      "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] 133人の特許弁護士を対象にしたフィールド実験で、AIによる短期的な生産性向上と、利用停止後のスキル定着の差を示しており、AI導入における人材育成・Human-in-the-loop設計への示唆は具体的です。一方で、基盤モデルやアーキテクチャ自体の新技術ではなく、影響範囲も特許業務に限定されます。また、既出キーワードであるAIを中心とした活用効果の話"
+    },
+    "09b2b167cb9578df2c84dff40a3562f9": {
+      "score": 47,
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] AIによるゲームのクローン生成が、インディー開発者の公開やデモ展示を萎縮させている点は、生成AIがコンテンツ制作の競争環境や知的財産リスクに与える具体的な影響として注目に値します。一方で、基盤技術の新発表や大規模なアーキテクチャ革新ではなく、主に開発者コミュニティへの影響を扱う記事です。また、既出のAI関連トピックと重なるため、評価を減点しています。"
+    },
+    "ab883df06abaaeabc79ae918627cb9a3": {
+      "score": 72,
+      "title": "New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent",
+      "date": "2026-10-25",
+      "reason": "[Claude API Evaluation] 患者ごとの腫瘍に合わせて設計する個別化mRNAワクチンが、メラノーマ再発リスクを40%以上低減したPhase 3試験結果は、がん治療におけるmRNA技術の実用化を大きく前進させる具体的な成果です。個別化設計、製造パイプライン、臨床データ処理などの技術基盤にも広い影響があります。一方で、ソフトウェアやAIそのもののニュースではなく、適用範囲も現時点では"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-25/blog.md",
+    "show_notes_path": "out/2026-10-25/show_notes.md",
+    "script_path": "out/2026-10-25/script_2hosts.md",
+    "audio_path": "out/2026-10-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 26592,
+        "output_tokens": 10353,
+        "cost_usd": 0.017742
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45336,
+        "output_tokens": 9338,
+        "cost_usd": 0.184052
+      }
+    ],
+    "tts": {
+      "chars": 4352,
+      "audio_sec": 661.6,
+      "cost_usd": 0.127579
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.329373
+  }
+}

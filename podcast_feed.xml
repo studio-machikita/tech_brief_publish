@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#207 動画AIの台頭で、Utopaiがユニコーン企業に／新型mRNAワクチン、メラノーマ再発リスクを40%超低減 ほか</title>
+      <description>Tech News Radio Show Notes - #207 (2026-10-25)
+
+エピソード情報
+• エピソード: #207
+• 日付: 2026-10-25
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Utopai Becomes a Unicorn as Video AI Takes Off (https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes)
+• New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent (https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/)
+• GitHub Copilot in Visual Studio — September update (https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2)
+
+注目の深掘り
+• Orchestrating SageMaker AI endpoint auto scaling with AWS CDK (https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/)
+• Orchestrating SageMaker AI endpoint auto scaling with AWS CDK (https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/)
+
+小ネタ・その他
+• How 3 Java Champions are using GitHub Copilot for increased productivity (https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/)
+• Usage metrics API adds usage from tools like OpenCode (https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-25/episode_audio.mp3" length="10795053" type="audio/mpeg" />
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-25</guid>
+      <itunes:duration>11:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>動画AIの台頭で、Utopaiがユニコーン企業に／新型mRNAワクチン、メラノーマ再発リスクを40%超低減 ほか</itunes:title>
+      <itunes:episode>207</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #207 (2026-10-25)
+
+エピソード情報
+• エピソード: #207
+• 日付: 2026-10-25
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Utopai Becomes a Unicorn as Video AI Takes Off (https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes)
+• New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent (https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/)
+• GitHub Copilot in Visual Studio — September update (https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2)
+
+注目の深掘り
+• Orchestrating SageMaker AI endpoint auto scaling with AWS CDK (https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/)
+• Orchestrating SageMaker AI endpoint auto scaling with AWS CDK (https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/)
+
+小ネタ・その他
+• How 3 Java Champions are using GitHub Copilot for increased productivity (https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/)
+• Usage metrics API adds usage from tools like OpenCode (https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-25/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.910" title="Utopai Becomes a Unicorn as Video AI Takes Off" href="https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes" />
+        <psc:chapter start="00:02:28.550" title="New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent" href="https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/" />
+        <psc:chapter start="00:04:20.360" title="GitHub Copilot in Visual Studio — September update" href="https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2" />
+        <psc:chapter start="00:05:57.430" title="Orchestrating SageMaker AI endpoint auto scaling with AWS CDK" href="https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/" />
+        <psc:chapter start="00:07:50.000" title="How 3 Java Champions are using GitHub Copilot for increased productivity" href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/" />
+        <psc:chapter start="00:09:18.700" title="Usage metrics API adds usage from tools like OpenCode" href="https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode" />
+        <psc:chapter start="00:10:43.890" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#206 10億人超のChatGPTユーザーを支えるオンラインストレージの急速な拡張(後編) ほか</title>
       <description>Tech News Radio Show Notes - #206 (2026-10-24)
 

@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>動画AIの台頭で、Utopaiがユニコーン企業に／新型mRNAワクチン、メラノーマ再発リスクを40%超低減 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="動画AIは新興企業のユニコーン化が進み、資金が集中">
+<meta property="og:title" content="Tech News Radio — 動画AIの台頭で、Utopaiがユニコーン企業に／新型mRNAワクチン、メラノーマ再発リスクを40%超低減 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-25/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-10-25/">
+<meta property="og:description" content="動画AIは新興企業のユニコーン化が進み、資金が集中">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-10-25">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-10-25/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — 動画AIの台頭で、Utopaiがユニコーン企業に／新型mRNAワクチン、メラノーマ再発リスクを40%超低減 ほか",
+    "description": "2026-10-25 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-25",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-25/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-10-25/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — 動画AIの台頭で、Utopaiがユニコーン企業に／新型mRNAワクチン、メラノーマ再発リスクを40%超低減 ほか",
+    "description": "2026-10-25 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-25",
+    "url": "https://technewsradio.tokyo/episodes/2026-10-25/",
+    "duration": "PT11M14S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-25/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-25/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-25/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-10-25</h1>
+<p><em>📖 約15分で読めます ｜ 🏷️ AI, Startup, Business, Science, Data</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>動画AIの台頭で、Utopaiがユニコーン企業に</strong> — 動画AIに投資が集中、新興企業が続々ユニコーン化</li>
+<li>🔬 <strong>新型mRNAワクチン、メラノーマ再発リスクを40%超低減</strong> — 個別化mRNAワクチンで黒色腫の再発リスク4割減</li>
+<li>🤖 <strong>Visual StudioのGitHub Copilot 9月アップデート</strong> — Visual StudioのCopilotが開発の流れを深く支援</li>
+<li>☁️ <strong>AWS CDKによるSageMaker AIエンドポイントのオートスケーリングの構成</strong> — SageMakerの更新失敗をCDKで自動解消</li>
+<li>🤖 <strong>3人のJava Championが語る、GitHub Copilotで生産性を高める方法</strong> — Java Champion3人のCopilot活用術</li>
+<li>🤖 <strong>使用量メトリクスAPI、OpenCodeなどのツールからの使用量にも対応</strong> — Copilot利用状況APIがOpenCodeにも対応</li>
+</ul>
+<hr />
+<h2>🤖 動画AIの台頭で、Utopaiがユニコーン企業に</h2>
+<p><code>AI</code> <code>Startup</code> <code>Business</code></p>
+<details><summary>📄 原題: Utopai Becomes a Unicorn as Video AI Takes Off</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 動画AIに投資が集中、新興企業が続々ユニコーン化</p>
+</blockquote>
+<ul>
+<li>動画AI企業のUtopai Studiosが評価額10億ドルに到達</li>
+<li>調達額は6,000万ドル。次の資金調達では20億〜30億ドルの評価額も</li>
+<li>Higgsfieldは8月に評価額を4倍の54億ドルへ引き上げ</li>
+<li>中国のKling AIは夏に約30億ドルを調達、評価額は150億ドル</li>
+<li>Higgsfieldは年間売上10億ドル規模に達し、収益性も実証</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+OpenAIやMetaの新しいAIアシスタントに注目が集まる一方で、動画AIでは静かに投資が加速しています。背景には、生成できる動画の品質と長さの向上があるそうです。映画界の大物Jeffrey Katzenbergと、OpenAIのSoraアプリの元責任者が新会社を立ち上げる動きもあり、映像業界と生成AIの距離が一気に縮まっています。Higgsfieldの年間売上10億ドルという数字は、動画AIが投機的な期待だけでなく、実際の収益を生む技術になったことを示しています。 動画AIが実用段階に入れば、映画、広告、SNSコンテンツなどの制作コストと制作期間が大きく下がる可能性があります。制作会社やクリエイターの役割も変わっていくと見られます。同時に、米国と中国の企業が資金力を競う構図が鮮明になり、基盤モデルの開発競争は文章や画像から動画へと広がりそうです。権利処理や偽動画への対策といった、社会的なルール作りも急務になると考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、動画生成の主要サービスのAPIや提供形態を実際に試し、自社の製品や業務にどう組み込めるかを早めに検証してください。リーダーは、動画の生成コストや品質が短期間で変わる前提で、制作フローの見直しや新規サービスの企画を進めるとよいでしょう。あわせて、生成物の権利や利用規約、不正利用への対策方針も、導入前に整理しておくことをおすすめします。</p>
+<p>🔗 <a href="https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes">原文を読む</a></p>
+<hr />
+<h2>🔬 新型mRNAワクチン、メラノーマ再発リスクを40%超低減</h2>
+<p><code>Science</code> <code>Data</code> <code>Business</code></p>
+<details><summary>📄 原題: New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 個別化mRNAワクチンで黒色腫の再発リスク4割減</p>
+</blockquote>
+<ul>
+<li>患者ごとの腫瘍に合わせて作る個別化mRNAワクチン</li>
+<li>第3相試験で、黒色腫（メラノーマ）の再発リスクが40%超低下</li>
+<li>mRNAワクチンのがん治療への期待を示す新たな成果</li>
+<li>一人ひとりに合わせた治療が、臨床試験の最終段階で成果を出した</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+mRNAワクチンは新型コロナの予防で広く知られるようになりました。今回は感染症ではなく、がんの治療に使う例です。しかも患者それぞれの腫瘍に合わせて作る個別化の手法で、第3相試験という臨床試験の最終段階で再発リスクの低下が示されたそうです。皮膚がんの一種である黒色腫は再発が課題とされており、再発を抑える選択肢が増える可能性があります。がん治療の新しい方向性を示す成果と言えます。 患者ごとに異なる薬を作るには、腫瘍の遺伝情報の解析から製造、投与までを短期間でつなぐ仕組みが欠かせません。ゲノム解析やデータ処理、AIによる解析の需要が医療分野で高まると見られます。製造や物流の管理システム、個人の医療データを安全に扱う基盤など、IT業界が関わる領域も広がりそうです。医療とITの距離は今後さらに縮まっていくでしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、ゲノム解析や医療データ基盤といった周辺分野の動向を押さえておくとよいでしょう。個人の医療情報を扱う場合は、プライバシーとセキュリティの設計が特に重要です。リーダーは、ヘルスケア領域との協業や新規事業の可能性を検討してみてください。ただし治療の有効性や安全性は医療の専門領域です。今後の承認の動きなど、公的な情報を確認する姿勢が大切です。</p>
+<p>🔗 <a href="https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/">原文を読む</a></p>
+<hr />
+<h2>🤖 Visual StudioのGitHub Copilot 9月アップデート</h2>
+<p><code>AI</code> <code>Security</code> <code>DevOps</code></p>
+<details><summary>📄 原題: GitHub Copilot in Visual Studio — September update</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Visual StudioのCopilotが開発の流れを深く支援</p>
+</blockquote>
+<ul>
+<li>チャットからPull Requestを確認できる</li>
+<li>チームが信頼するAIモデルを選んで使える</li>
+<li>脆弱なパッケージをVisual Studioの警告直後に修正</li>
+<li>2026年9月のアップデートとして公開</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIによる開発支援は、コードを書く場面だけでなく、レビューや保守の場面にも広がっています。今回のアップデートでは、Pull Requestの確認、使うAIモデルの選択、脆弱性の修正といった日々の作業が、Visual Studioの中で完結しやすくなったと見られています。ツールを行き来する手間が減れば、開発者は本来の作業に集中しやすくなります。また、脆弱性への対応を早められる点は、セキュリティ面でも意味があります。 IDE（統合開発環境）にAIが深く入り込み、コーディング、レビュー、セキュリティ対応を一つの画面でこなす流れが強まりそうです。チームごとに使うAIモデルを選べる仕組みが広がれば、組織の方針や信頼性の基準に合わせてAIを導入しやすくなります。一方で、AIの提案をどこまで任せ、どこで人が確認するかという運用ルールの整備が、これまで以上に重要になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Visual StudioとCopilotを使っているチームは、まず今回のアップデートの内容を確認しましょう。Pull Requestの確認や脆弱なパッケージの修正を、チャット経由で試す価値があります。リーダーは、チームで使うAIモデルの選定基準と、AIが提案した修正のレビュー手順を事前に決めておくと安心です。小さなプロジェクトで試してから、段階的に広げるのが無難です。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2">原文を読む</a></p>
+<hr />
+<h2>☁️ AWS CDKによるSageMaker AIエンドポイントのオートスケーリングの構成</h2>
+<p><code>Cloud</code> <code>DevOps</code> <code>AI</code></p>
+<details><summary>📄 原題: Orchestrating SageMaker AI endpoint auto scaling with AWS CDK</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: SageMakerの更新失敗をCDKで自動解消</p>
+</blockquote>
+<ul>
+<li>Auto Scaling登録済みのSageMaker AIエンドポイントは更新に失敗する</li>
+<li>CloudFormationとAWS CDKのデプロイで同じ問題が起きる</li>
+<li>CloudFormationのカスタムリソースで登録解除と再登録を自動化</li>
+<li>再利用できるCDKのConstruct（部品）として提供</li>
+<li>エンドポイントとスケーリング設定を1回のデプロイで更新できる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+SageMaker AIのエンドポイントは、Application Auto Scalingでアクセス量に合わせて台数を増減できます。ただ、スケーリングを登録済みのエンドポイントを更新すると、CloudFormationやAWS CDKのデプロイが失敗します。このため、更新のたびに手作業で登録を外して付け直す運用になりがちでした。インフラをコードで管理する利点が、ここで薄れてしまいます。今回の記事は、この手間を再利用可能なCDKの部品で解消する方法を紹介しています。 機械学習モデルの本番運用では、モデルの更新を繰り返し安全に出せるかが重要です。更新のたびに手作業が挟まると、ミスや属人化の原因になります。デプロイ手順をコードに閉じ込める今回のような手法が広まれば、MLOps（機械学習の運用基盤づくり）の自動化が進むと見られます。また、CloudFormationの標準機能で足りない部分をカスタムリソースで補う設計は、他のAWSサービスにも応用できそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+SageMakerのエンドポイントにAuto Scalingを設定している場合は、今のデプロイ手順を見直しましょう。手作業で登録を解除している箇所があれば、カスタムリソースを使ったCDKの部品への置き換えを検討できます。まず検証環境で、エンドポイント更新とスケーリング再登録が1回のデプロイで通るか試すのがおすすめです。チーム内で部品を共有すれば、同じ失敗の繰り返しも防げます。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/">原文を読む</a></p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/">原文を読む</a></p>
+<hr />
+<h2>🤖 3人のJava Championが語る、GitHub Copilotで生産性を高める方法</h2>
+<p><code>AI</code> <code>DevOps</code></p>
+<details><summary>📄 原題: How 3 Java Champions are using GitHub Copilot for increased productivity</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Java Champion3人のCopilot活用術</p>
+</blockquote>
+<ul>
+<li>Java Champion3人がGitHub Copilotの使い方を紹介</li>
+<li>課題解決と開発の高速化にCopilotを活用</li>
+<li>成果物への責任は、あくまで人間が持つ姿勢</li>
+<li>AI任せにせず、開発者が判断を握る使い方</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIコーディング支援は、多くの開発現場で使われ始めています。一方で、生成されたコードの品質や責任の所在が気になる人も多いはずです。今回はJavaコミュニティで実績のあるJava Championが、自分たちの使い方を共有したそうです。実践者の声は、導入を検討するチームにとって参考になります。 AIが書いたコードでも、最終的な責任は人間が負う。この考え方が、開発現場の共通認識として広がると見られます。コードを書く力に加えて、AIの出力を見極めて直す力が、エンジニアに求められるようになります。AIとの役割分担を決めるルール作りも、チーム運営の重要なテーマになりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自分の開発で時間がかかる作業を洗い出し、Copilotで試してみてください。次に、生成コードのレビュー手順をチームで決めておくと安心です。リーダーは、AIの出力も人間が確認して責任を持つ方針を明文化しておくとよいでしょう。他の開発者の使い方を知ることも、自分の活用法を見直すきっかけになります。</p>
+<p>🔗 <a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/">原文を読む</a></p>
+<hr />
+<h2>🤖 使用量メトリクスAPI、OpenCodeなどのツールからの使用量にも対応</h2>
+<p><code>AI</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Usage metrics API adds usage from tools like OpenCode</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Copilot利用状況APIがOpenCodeにも対応</p>
+</blockquote>
+<ul>
+<li>Copilot usage metrics APIの対象ツールが拡大</li>
+<li>OpenCodeなど、従来は漏れていた利用分も集計</li>
+<li>開発者が使う複数ツールのモデル利用を一括把握</li>
+<li>レポートの数値が従来より実態に近づく</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+開発現場では、Copilotを公式のエディタ拡張だけでなく、OpenCodeのような外部ツールからも使う例が増えています。これまでのレポートでは、こうしたツール経由の利用が数字に表れていなかったと見られています。導入効果の測定やコスト管理を行う企業にとって、実際の利用量を正しく把握できないことは大きな課題でした。今回の更新は、その見えない部分を減らす動きです。 AIコーディング支援の利用は、単一のツールにとどまらず、複数のツールをまたいで広がっています。利用状況を正確に測れる仕組みが整えば、ライセンス配分や投資対効果の判断が、勘ではなくデータに基づいて行えるようになります。今後は、サードパーティー製ツールの利用も含めて可視化する流れが、他のAI開発支援サービスにも広がるかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社の開発者がCopilotをどのツールから使っているかを棚卸ししてください。そのうえで、usage metrics APIのレポートを見直し、今回の対応で数値がどう変わったかを確認しましょう。ダッシュボードや社内レポートで過去の数値と比較する場合は、集計範囲が広がった点に注意が必要です。導入効果の評価やコスト試算の前提も、必要に応じて更新してください。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースに共通するのは、AIや先端技術が「汎用的な道具」から「個別の文脈に深く適応する存在」へと進化している点です。動画AIへの投資集中は生成AIの応用領域が静止画やテキストから動画へと広がっていることを示し、個別化mRNAワクチンは患者一人ひとりの腫瘍に合わせた治療設計という精密さを、Visual StudioのCopilotは開発者の作業の流れそのものに入り込む支援という文脈理解の深化を、それぞれ体現しています。さらに、いずれも大規模なデータ処理や機械学習的なアプローチを基盤にしており、AIが創作、医療、ソフトウェア開発という異なる産業の中核を同時に変革しつつあることがうかがえます。今後は「どれだけ賢いか」だけでなく、「どれだけ現場の個別事情に寄り添えるか」が各分野での競争力と価値を左右していくでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>動画AIの台頭で、Utopaiがユニコーン企業に</strong>: エンジニアは、動画生成の主要サービスのAPIや提供形態を実際に試し、自社の製品や業務にどう組み込めるかを早めに検証してください。リーダーは、動画の生成コストや品質が短期間で変わる前提で、制作フローの見直しや新規サービスの企画を進めるとよいでしょう。あわせて、生成物の権利や利用規約、不正利用への対策方針も、導入前に整理しておくことをおすすめします。</li>
+<li><strong>新型mRNAワクチン、メラノーマ再発リスクを40%超低減</strong>: エンジニアは、ゲノム解析や医療データ基盤といった周辺分野の動向を押さえておくとよいでしょう。個人の医療情報を扱う場合は、プライバシーとセキュリティの設計が特に重要です。リーダーは、ヘルスケア領域との協業や新規事業の可能性を検討してみてください。ただし治療の有効性や安全性は医療の専門領域です。今後の承認の動きなど、公的な情報を確認する姿勢が大切です。</li>
+<li><strong>Visual StudioのGitHub Copilot 9月アップデート</strong>: Visual StudioとCopilotを使っているチームは、まず今回のアップデートの内容を確認しましょう。Pull Requestの確認や脆弱なパッケージの修正を、チャット経由で試す価値があります。リーダーは、チームで使うAIモデルの選定基準と、AIが提案した修正のレビュー手順を事前に決めておくと安心です。小さなプロジェクトで試してから、段階的に広げるのが無難です。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes">動画AIの台頭で、Utopaiがユニコーン企業に</a></li>
+<li><a href="https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/">新型mRNAワクチン、メラノーマ再発リスクを40%超低減</a></li>
+<li><a href="https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2">Visual StudioのGitHub Copilot 9月アップデート</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/">AWS CDKによるSageMaker AIエンドポイントのオートスケーリングの構成</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/">AWS CDKによるSageMaker AIエンドポイントのオートスケーリングの構成</a></li>
+<li><a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/">3人のJava Championが語る、GitHub Copilotで生産性を高める方法</a></li>
+<li><a href="https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode">使用量メトリクスAPI、OpenCodeなどのツールからの使用量にも対応</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #207 (2026-10-25)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #207</li>
+<li><strong>日付</strong>: 2026-10-25</li>
+<li><strong>尺</strong>: 約 11 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://www.theinformation.com/articles/utopai-becomes-unicorn-video-ai-takes">Utopai Becomes a Unicorn as Video AI Takes Off</a></li>
+<li><a href="https://www.wired.com/story/new-melanoma-vaccine-reduces-risk-of-tumor-reoccurrence-by-over-40-percent/">New mRNA Vaccine Reduces Risk of Melanoma Recurrence by Over 40 Percent</a></li>
+<li><a href="https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2">GitHub Copilot in Visual Studio — September update</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/">Orchestrating SageMaker AI endpoint auto scaling with AWS CDK</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/">Orchestrating SageMaker AI endpoint auto scaling with AWS CDK</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/">How 3 Java Champions are using GitHub Copilot for increased productivity</a></li>
+<li><a href="https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode">Usage metrics API adds usage from tools like OpenCode</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=%E5%8B%95%E7%94%BBAI%E3%81%AE%E5%8F%B0%E9%A0%AD%E3%81%A7%E3%80%81Utopai%E3%81%8C%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3%E4%BC%81%E6%A5%AD%E3%81%AB%EF%BC%8F%E6%96%B0%E5%9E%8BmRNA%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E3%80%81%E3%83%A1%E3%83%A9%E3%83%8E%E3%83%BC%E3%83%9E%E5%86%8D%E7%99%BA%E3%83%AA%E3%82%B9%E3%82%AF%E3%82%9240%25%E8%B6%85%E4%BD%8E%E6%B8%9B%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-10-25/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-10-25/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
