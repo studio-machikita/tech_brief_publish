@@ -25,6 +25,78 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#206 10億人超のChatGPTユーザーを支えるオンラインストレージの急速な拡張(後編) ほか</title>
+      <description>Tech News Radio Show Notes - #206 (2026-10-24)
+
+エピソード情報
+• エピソード: #206
+• 日付: 2026-10-24
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) (https://openai.com/index/scaling-storage-one-billion-users-part-two)
+• Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap (https://www.anthropic.com/news/claude-frontier-academy)
+• Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5 (https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/)
+• Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5 (https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model)
+
+注目の深掘り
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_08_2026)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_09_2026)
+
+小ネタ・その他
+• How close can pure FP get to C? (https://rtfeldman.com/fp-vs-c)
+• Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring (https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-24/episode_audio.mp3" length="11451693" type="audio/mpeg" />
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-24</guid>
+      <itunes:duration>11:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>10億人超のChatGPTユーザーを支えるオンラインストレージの急速な拡張(後編) ほか</itunes:title>
+      <itunes:episode>206</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #206 (2026-10-24)
+
+エピソード情報
+• エピソード: #206
+• 日付: 2026-10-24
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) (https://openai.com/index/scaling-storage-one-billion-users-part-two)
+• Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap (https://www.anthropic.com/news/claude-frontier-academy)
+• Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5 (https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/)
+• Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5 (https://www.theinformation.com/briefings/moonshot-ai-launches-new-kimi-k3-1-pro-model)
+
+注目の深掘り
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_08_2026)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_09_2026)
+
+小ネタ・その他
+• How close can pure FP get to C? (https://rtfeldman.com/fp-vs-c)
+• Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring (https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-24/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.250" title="Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)" href="https://openai.com/index/scaling-storage-one-billion-users-part-two" />
+        <psc:chapter start="00:01:41.030" title="Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap" href="https://www.anthropic.com/news/claude-frontier-academy" />
+        <psc:chapter start="00:03:37.360" title="Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5" href="https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/" />
+        <psc:chapter start="00:05:37.640" title="September 09, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026" />
+        <psc:chapter start="00:07:49.080" title="How close can pure FP get to C?" href="https://rtfeldman.com/fp-vs-c" />
+        <psc:chapter start="00:09:51.490" title="Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring" href="https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/" />
+        <psc:chapter start="00:11:24.690" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#205 16歳の私が1年かけて7800億パラメータの言語モデルを自作。そこで学んだこと ほか</title>
       <description>Tech News Radio Show Notes - #205 (2026-10-22)
 

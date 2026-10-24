@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.25,
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+  },
+  {
+    "start_sec": 101.03,
+    "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+    "url": "https://www.anthropic.com/news/claude-frontier-academy"
+  },
+  {
+    "start_sec": 217.36,
+    "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+    "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/"
+  },
+  {
+    "start_sec": 337.64,
+    "title": "September 09, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026"
+  },
+  {
+    "start_sec": 469.08,
+    "title": "How close can pure FP get to C?",
+    "url": "https://rtfeldman.com/fp-vs-c"
+  },
+  {
+    "start_sec": 591.49,
+    "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+    "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/"
+  },
+  {
+    "start_sec": 684.69,
+    "title": "エンディング",
+    "url": null
+  }
+]
