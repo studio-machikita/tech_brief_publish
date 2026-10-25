@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-26",
+  "episode_date_local": "2026-10-26",
+  "content_snapshot_date": "2026-10-26",
+  "show_length_sec": 694,
+  "audio_size": 11110317,
+  "generated_at": "2026-10-25T22:33:42.030450+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1942a413",
+      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+      "title_ja": "Anthropic共同創業者のジャック・クラーク氏、自己改善型AIの実現予測を2027年に前倒し",
+      "one_liner": "自己改善AIの到来予測が2027年に前倒し",
+      "fingerprint": "1942a41394cc3bb86dfe986ea90d88c3",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-718c9218",
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "title_ja": "エヌビディア、ロボット動画のラベル付けをGPT-6 Astraの125分の1のコストで実現する「Flora」をオープンソース化",
+      "one_liner": "NvidiaがロボットB動画の注釈をほぼ1/125に",
+      "fingerprint": "718c9218d8d74eb834009a479db270bc",
+      "score": 91,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-8b467fef",
+      "title": "Musk Says SpaceX Closed $40 Billion Debt Deal, Blasts Neoclouds",
+      "title_ja": "マスク氏、スペースXが400億ドルの債務契約を完了と発言 新興クラウド事業者を批判",
+      "one_liner": "SpaceXが400億ドルの融資でAI向け半導体を確保",
+      "fingerprint": "8b467fef0571d51d9a934354ae1b21a9",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-5892a2c3",
+      "title": "Google To Pay Homes and Businesses To Curb Energy Usage",
+      "title_ja": "グーグル、家庭や企業に報酬を支払い電力使用の抑制を促す",
+      "one_liner": "Googleが電力ピーク時の節電に報酬を支払う",
+      "fingerprint": "5892a2c3be4f7bd0ee2e90f0ae30aaff",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-78282698",
+      "title": "August 02, 2026",
+      "title_ja": "Workbench v2、Gemini CLI起因の不具合を修正",
+      "one_liner": "Workbench v2、Gemini CLI起因の不具合を修正",
+      "fingerprint": "78282698aafe98aeb458e3cfc6849821",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-82a6a62c",
+      "title": "September 18, 2026",
+      "title_ja": "JupyterLabのブラウザ側ログがCloud Loggingへ",
+      "one_liner": "JupyterLabのブラウザ側ログがCloud Loggingへ",
+      "fingerprint": "82a6a62c69656852313cdc2b1dacd647",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-5ce7a8b5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Securing our frontier model training environment"
+    },
+    {
+      "item_id": "item-4d8951d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Custom skills, agents, and MCP servers in usage metrics API"
+    },
+    {
+      "item_id": "item-8ae4f561",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security"
+    },
+    {
+      "item_id": "item-09b2b167",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI game clones are making indie developers afraid to show their work"
+    },
+    {
+      "item_id": "item-d8fd886a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide"
+    },
+    {
+      "item_id": "item-c916146b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps"
+    },
+    {
+      "item_id": "item-5b9bf299",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?"
+    },
+    {
+      "item_id": "item-cb2f2234",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’"
+    },
+    {
+      "item_id": "item-22cef302",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-4eea1e86",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Global default for Copilot features generally available"
+    },
+    {
+      "item_id": "item-0b4b092b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Managed DNS providers inherit a new supply-chain risk from the NSD stack overwrite flaws"
+    },
+    {
+      "item_id": "item-553095ba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead"
+    },
+    {
+      "item_id": "item-ce2e6aff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnerships"
+    },
+    {
+      "item_id": "item-f42b297b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The new human-crafted Apple Music brand matters in an AI world"
+    },
+    {
+      "item_id": "item-9313b44f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Serbia's Vucic concedes election defeat in historic win for student movement"
+    },
+    {
+      "item_id": "item-71b46bdc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Major Ukraine Retailer Says Russian Hits Destroyed Its Chain"
+    },
+    {
+      "item_id": "item-6ceb62ff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Wallhack M-001 Review: When Fun Overrides Specs"
+    }
+  ],
+  "score_cache": {
+    "5b9bf29945cd8914f3c4224eb80d30a5": {
+      "score": 43,
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] OpenAIとAnthropicによるLLM価格の最大80%引き下げは、推論コスト、API採用のしやすさ、AIアプリケーションの収益モデルを大きく変える重要な動きです。一方で、既に取り上げ済みのAI・LLM・OpenAI・Anthropic関連の話題と重なり、価格競争という同一テーマの続報であるため減点しました。技術革新そのものよりも、既存モデルの商"
+    },
+    "5ce7a8b53ea0b106dd5ab3e18bcc1493": {
+      "score": 47,
+      "title": "Securing our frontier model training environment",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] フロンティアモデルの学習・評価環境における隔離、オフライン運用、高計算量のレッドチーミングは、AI基盤の安全性と運用設計に関わる重要な技術的取り組みです。一方で、革新的なモデル発表ではなく、主題はセキュリティと運用ルールであり、評価基準上は中低位に寄ります。また、既出キーワードであるAI、モデル、OpenAI、トレーニングと同じ文脈の続報に該当するた"
+    },
+    "ce2e6aff420d72bbf56e8077be344bc9": {
+      "score": 24,
+      "title": "Partnerships",
+      "date": "2026-10-24",
+      "reason": "[ScoreCache 2026-10-24] [ScoreCache 2026-10-24] [Claude API Evaluation] タイトルが「Partnerships」のみで、提携企業、技術領域、提供機能、業界への影響などの具体情報がありません。技術革新やアーキテクチャの進展を評価できず、現時点では一般的な業務提携の告知にとどまるため、重要度は低く評価します。 [Editorial:"
+    },
+    "d8fd886a95bf4da5af0b5c2c6e23a84a": {
+      "score": 46,
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] 複数ステップのタスク全体に対して報酬を与えるMulti-Turn Reinforcement Learningを、Wordleを題材にデータ準備から学習・評価まで実装する実践的な技術記事です。LLMエージェントの長期的なタスク遂行能力や報酬設計に関わるため、エンジニアにとって有用性と新規性は比較的高い一方、基盤技術そのものの発明ではなく、SageMa"
+    },
+    "4d8951d306aa9c99ca0d130a298edb3b": {
+      "score": 47,
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用メトリクスAPIで、カスタムスキル、エージェント、MCPサーバー、スラッシュコマンド、プラグインを個別に識別できるようになるため、企業におけるAI開発機能の利用状況分析やガバナンスには実務的な価値があります。一方で、新しいAI技術やアーキテクチャそのものではなく、既存機能の可観測性・集計精度を高めるアップデートです。"
+    },
+    "78282698aafe98aeb458e3cfc6849821": {
+      "score": 48,
+      "title": "August 02, 2026",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] AI開発環境向けのAgent Platform Workbench v2リリースであり、JupyterLabとGemini CLIの連携改善、ファイル変更の巻き戻りやカーネル中断、micromamba環境作成失敗といった実運用上の不具合を修正している点はエンジニアにとって有用です。一方で、業界の前提を変える新機能やアーキテクチャ上の大きな進展ではなく"
+    },
+    "cb2f2234483dcf6e3630be7d12603704": {
+      "score": 43,
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] AI生成映像を実際の長編作品として公開する動きは、生成AIのメディア・映像制作への応用例として一定の技術的関心があります。一方で、現時点では冒頭7分の公開にとどまり、映像品質も画期的とは言い難く、基盤モデルや生成技術そのものの新規性・性能向上を示すニュースではありません。既にAI関連の話題が取り上げ済みで、同じ生成AIの応用という角度に該当するため減"
+    },
+    "718c9218d8d74eb834009a479db270bc": {
+      "score": 91,
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] ロボティクス向け動画ラベリング基盤をオープンソース化し、GPT-6 Astra比で125倍低コストという具体的な改善を示している点で非常に重要です。ロボット学習における高価なデータアノテーションのボトルネックを緩和し、研究者やスタートアップが大規模な行動データを扱いやすくする可能性があります。Qwen3.5を基盤にした複数モデル構成や、ロボット動作の"
+    },
+    "f42b297bb54d220365b1e1480609c487": {
+      "score": 24,
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] AI時代における人間中心のブランド表現やApple Musicのマーケティングに関する意見記事であり、技術的な新規性やソフトウェア・アーキテクチャへの具体的な影響はほぼありません。一般消費者向けサービスのブランド論に近く、評価基準上のテクノロジー重要度は低いと判断しました。 [Editorial: AI-focused source +6; AI/S"
+    },
+    "6ceb62ff1d4d9fbc7f5c3e5bf50298bc": {
+      "score": 2,
+      "title": "Wallhack M-001 Review: When Fun Overrides Specs",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] ゲーミングマウスの製品レビューであり、金属筐体やカスタマイズ用ドングルといった工夫はあるものの、一般消費者向け周辺機器の評価に留まります。ソフトウェア技術、アーキテクチャ、AI、開発者エコシステムへの影響は限定的で、業界の前提を変えるような新規性もありません。 [Editorial: gadget topic -8]"
+    },
+    "8b467fef0571d51d9a934354ae1b21a9": {
+      "score": 72,
+      "title": "Musk Says SpaceX Closed $40 Billion Debt Deal, Blasts Neoclouds",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] SpaceXがAI向けチップ調達のために400億ドル規模の負債調達を完了したという内容は、衛星・宇宙事業者が大規模AIインフラへ巨額投資する動きとして注目度が高いです。GPU調達、データセンター、クラウド事業との競争環境に影響し得る一方、現時点では具体的なシステム構成や技術成果ではなく、主に資金調達と事業戦略のニュースです。AI関連の既出テーマとは異"
+    },
+    "5892a2c3be4f7bd0ee2e90f0ae30aaff": {
+      "score": 55,
+      "title": "Google To Pay Homes and Businesses To Curb Energy Usage",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] データセンターの急増による電力需要を、家庭・企業の需要抑制と1GW規模の仮想発電所で緩和する取り組みであり、クラウドインフラの持続可能性や電力網との統合に関わる重要なニュースです。技術的には需要応答、分散リソース制御、電力市場との連携など実装上の難しさがあり、データセンター運用の前提にも影響します。一方で、AIモデルや新しいソフトウェア基盤そのものの"
+    },
+    "0b4b092bedba19e25318613ad3b1a6e7": {
+      "score": 30,
+      "title": "Managed DNS providers inherit a new supply-chain risk from the NSD stack overwrite flaws",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] NSD 4.10.0〜4.15.2に存在する4件の高深刻度脆弱性で、細工したDNSレコードからスタック上書きや任意コマンド実行に至る可能性があり、マネージドDNS事業者ではマルチテナント全体へ波及し得る点は重要です。一方で内容は既知ソフトウェアのセキュリティ修正・運用対策に関するニュースで、実際の悪用は確認されておらず、業界の前提を変える技術革新では"
+    },
+    "9313b44fa0e127625c09d782ad29a907": {
+      "score": 6,
+      "title": "Serbia's Vucic concedes election defeat in historic win for student movement",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] セルビアの選挙結果と学生運動に関する政治ニュースであり、ソフトウェア開発、AI、クラウド、プログラミング言語などの技術的な新規性やエンジニアへの直接的な影響がありません。一般消費者向けガジェットよりは関連性がわずかにありますが、技術ニュースとしての重要度は最低水準です。"
+    },
+    "8ae4f561159cb1aa4661da8b3a1996fe": {
+      "score": 47,
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] AIの安全性・セキュリティに関する国際的な技術連携であり、評価手法や防御技術の進展につながる可能性はあります。一方で、記事内容は提携発表と研究方針の説明にとどまり、具体的な技術、実装、成果が不明なため影響度は限定的です。また、OpenAIおよびAI安全性は直近の既出キーワードに該当するため、重複分として減点しています。 [Editorial: AI-"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 41,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-25",
+      "reason": "[ScoreCache 2026-10-25] [Claude API Evaluation] 米国の科学研究への取り組みを強化する内容と見られますが、タイトルだけでは具体的な技術、アーキテクチャ、製品、研究成果、実装方法が不明です。科学技術政策や組織の方針表明に近く、エンジニアリングへの直接的な影響や新規性を評価しにくいため、低〜中程度のスコアとしました。 [Editorial: AI-focu"
+    },
+    "c916146b32869f36037e631b0842144f": {
+      "score": 44,
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] Amazon QuickSightのレイヤーマップで、同一のGeoJSONワークフローからPointとLineStringを扱えるようになり、店舗位置と配送・移動ルートを同じ地図上で可視化できる機能強化です。データ構造、ビューポート制御、レイヤー化、動的GeoJSON更新など実務的な有用性はありますが、既存のBI・地理空間可視化機能の拡張にとどまり、"
+    },
+    "4eea1e86e040309e5b0076f91da9fd23": {
+      "score": 35,
+      "title": "Global default for Copilot features generally available",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] GitHub Copilotの一般提供機能をグローバルでデフォルト有効化する運用ポリシーの正式展開であり、BusinessおよびEnterprise利用者の設定・導入体験には影響します。ただし、新しいAI機能や技術革新ではなく、既存方針の段階的な一般提供にとどまります。さらに、既出キーワードの「Copilot」「September」と同じ話題の続報で"
+    },
+    "82a6a62c69656852313cdc2b1dacd647": {
+      "score": 48,
+      "title": "September 18, 2026",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] JupyterLabのクライアント側エラーやネットワーク失敗をバックエンド経由でCloud Loggingに集約する機能は、Agent Platform Workbenchのデバッグ性・運用性を高める実務的な改善です。クラウド開発基盤に関する内容のため一定の技術的価値はありますが、既存依存関係の更新とログ転送が中心で、アーキテクチャを大きく変える新機"
+    },
+    "553095bae5f29b1c09c8a15de87194ae": {
+      "score": 30,
+      "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] テクノロジー思想やテクノリバタリアニズムへの批評、および過去の著書の再評価に関する記事で、ソフトウェア技術そのものの革新や具体的な実装変更は含まれていません。エンジニアにとっては技術業界の価値観や設計判断を考える材料にはなりますが、製品・アーキテクチャ・開発環境への直接的な影響は限定的です。"
+    },
+    "1942a41394cc3bb86dfe986ea90d88c3": {
+      "score": 92,
+      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] AIモデルが自律的に実験を設計・評価し、改善サイクルを回せる能力を測る新ベンチマークは、AI研究の進展度を評価するうえで技術的な重要性が高い。Anthropic共同創業者による自己改善AIの実現時期予測が2027年へ前倒しされた点も注目に値する。一方で、現時点では予測とベンチマーク結果が中心で、実用化や業界の前提を直ちに変える具体的発表ではないため、"
+    },
+    "09b2b167cb9578df2c84dff40a3562f9": {
+      "score": 47,
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] AIを利用したゲームクローンがインディー開発者の公開・出展を萎縮させるという、開発者コミュニティや競争環境への影響を扱う記事です。Steam Next Festの延期という具体例はあるものの、新技術そのものの発表やアーキテクチャ上の革新ではなく、主に知的財産・模倣・市場環境の問題であるため中低評価としました。AI関連は直近の既出テーマに含まれるため、"
+    },
+    "22cef302cccad9ee29037857bb965686": {
+      "score": 43,
+      "title": "Scientists Trapped an Antimatter Particle for Months to Study Its Secrets",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] 反物質を数か月間保持して精密に研究できる手法は、物質・反物質の対称性検証や基礎物理学において重要な技術的進展です。長期安定保持という実験基盤の改善により、従来困難だった再現性の高い測定や新しい実験設計が可能になります。一方で、現時点ではAI・ソフトウェア・クラウドなどの産業技術への直接的な影響や実用化は限定的であり、エンジニア視点では基礎研究寄りのニ"
+    },
+    "71b46bdc6eb7b754cc282fa0b3c1f925": {
+      "score": 6,
+      "title": "Major Ukraine Retailer Says Russian Hits Destroyed Its Chain",
+      "date": "2026-10-26",
+      "reason": "[Claude API Evaluation] ロシアによる空爆でウクライナの小売企業の物流拠点が破壊されたというニュースであり、地政学・事業継続上は重大ですが、AI、クラウド、ソフトウェア、ロボティクスなどの技術革新を扱う記事ではありません。一般消費者向け製品の記事よりも技術との関連性が低く、エンジニア視点での新規性や業界の技術的影響も限定的なため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-26/blog.md",
+    "show_notes_path": "out/2026-10-26/show_notes.md",
+    "script_path": "out/2026-10-26/script_2hosts.md",
+    "audio_path": "out/2026-10-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 25992,
+        "output_tokens": 10229,
+        "cost_usd": 0.017473
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 19,
+        "input_tokens": 46384,
+        "output_tokens": 9785,
+        "cost_usd": 0.190618
+      }
+    ],
+    "tts": {
+      "chars": 4473,
+      "audio_sec": 680.0,
+      "cost_usd": 0.131119
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.33921
+  }
+}
