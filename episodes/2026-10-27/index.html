@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub CopilotにGPT-6.1 Terraが登場／ChatGPTが広げる仕事の世界 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="GPT-6.1 TerraがCopilotで一般提供開始となった">
+<meta property="og:title" content="Tech News Radio — GitHub CopilotにGPT-6.1 Terraが登場／ChatGPTが広げる仕事の世界 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-27/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-10-27/">
+<meta property="og:description" content="GPT-6.1 TerraがCopilotで一般提供開始となった">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-10-27">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-10-27/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — GitHub CopilotにGPT-6.1 Terraが登場／ChatGPTが広げる仕事の世界 ほか",
+    "description": "2026-10-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-27",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-27/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-10-27/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — GitHub CopilotにGPT-6.1 Terraが登場／ChatGPTが広げる仕事の世界 ほか",
+    "description": "2026-10-27 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-27",
+    "url": "https://technewsradio.tokyo/episodes/2026-10-27/",
+    "duration": "PT10M59S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-27/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-27/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-27/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-10-27</h1>
+<p><em>📖 約14分で読めます ｜ 🏷️ AI, LLM, DevOps, Business, Cloud</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>GitHub CopilotにGPT-6.1 Terraが登場</strong> — GPT-6.1 TerraがCopilotで一般提供開始</li>
+<li>🤖 <strong>ChatGPTが広げる仕事の世界</strong> — ChatGPTの仕事利用を約100カ国で分析</li>
+<li>🤖 <strong>AIエージェントの「グラウンドホッグ・デー」:Amazon BedrockでOpenAIモデルを使う際のプロンプトキャッシュのパターン</strong> — Bedrockのプロンプトキャッシュでエージェントを効率化</li>
+<li>🤖 <strong>AI生成文を読むと疲れる原因は6つのパターン、研究者らが特定</strong> — 最新AIの文章は人間に読みにくい癖が多い</li>
+<li>🤖 <strong>採点器だけでなく比較そのものを検証する:対話型LLM評価で全体精度が誤解を招く理由</strong> — 全体の精度だけでは評価の比較を保証できない</li>
+<li>🤖 <strong>使用状況メトリクスAPIにカスタムスキル、エージェント、MCPサーバーを追加</strong> — Copilotの利用指標に独自機能の名前が表示</li>
+</ul>
+<hr />
+<h2>🤖 GitHub CopilotにGPT-6.1 Terraが登場</h2>
+<p><code>AI</code> <code>LLM</code> <code>DevOps</code></p>
+<details><summary>📄 原題: GPT-6.1 Terra in GitHub Copilot</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: GPT-6.1 TerraがCopilotで一般提供開始</p>
+</blockquote>
+<ul>
+<li>OpenAIの最新モデルGPT-6.1 Terraが一般提供に</li>
+<li>日常的なエージェント型コーディング向けの設計</li>
+<li>ターミナル作業にも対応するモデル</li>
+<li>GPT-6.1 Solより低いコストで使える</li>
+<li>GitHub Copilotから利用できる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIコーディング支援は、コードの補完から、AIが自律的に作業を進める「エージェント型」へ移りつつあります。ただ、高性能なモデルは利用コストが高く、日常的な作業で常に使うには負担が大きくなりがちです。今回のGPT-6.1 Terraは、日常のコーディングやターミナル作業を想定し、上位のGPT-6.1 Solより低コストで提供されるモデルだそうです。性能とコストのバランスを取った選択肢が増えたことになります。 用途に応じてモデルを使い分ける流れが、さらに強まると見られます。難しい設計や調査には上位モデルを使い、日々のコーディングには低コストなモデルを使う。こうした運用が一般的になれば、AI支援の導入コストは下がり、チーム全体での活用も広がりやすくなります。一方で、開発者にはモデルの特性を理解して選ぶ力が求められます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自分のチームでGitHub Copilotを使っている場面を洗い出しましょう。そのうえで、日常的なコーディングやターミナル作業でGPT-6.1 Terraを試し、GPT-6.1 Solとの品質や応答の違いを比べてみてください。コストと成果のバランスを見て、タスクごとの使い分けルールを決めておくと、運用が楽になります。リーダーは、利用料金の見通しも合わせて確認しておくとよいでしょう。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot">原文を読む</a></p>
+<p>🔗 <a href="https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/">原文を読む</a></p>
+<hr />
+<h2>🤖 ChatGPTが広げる仕事の世界</h2>
+<p><code>AI</code> <code>LLM</code> <code>Business</code></p>
+<details><summary>📄 原題: ChatGPT’s expanding world of work</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ChatGPTの仕事利用を約100カ国で分析</p>
+</blockquote>
+<ul>
+<li>OpenAI Signalsが仕事の利用データを公開</li>
+<li>対象は165の業務活動、約100カ国</li>
+<li>国や業務ごとの使われ方を比べられる</li>
+<li>時間とともに使い方が変わる様子も追える</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+生成AIは話題先行で語られがちで、実際に仕事のどこで使われているかは見えにくい状況でした。OpenAIが業務活動ごと、国ごとのデータを示したことで、感覚ではなく数字で議論しやすくなります。AIの普及が社会や職場にどう広がるのかを知る手がかりとして、注目できる取り組みです。 業務ごとの利用実態が見えると、AIが役立つ領域とそうでない領域の区別が進むと見られています。企業のAI導入計画や人材育成、ツール開発の優先順位にも影響しそうです。国ごとの違いが分かれば、製品や支援の出し方も地域に合わせて変わっていくかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず公開されたデータを読み、自社の業務と近い活動でどんな使われ方をしているか確認してみましょう。そのうえで、チーム内の利用状況を棚卸しし、効果の出ている業務と使われていない業務を整理してください。リーダーは、利用の傾向を定期的に見直す習慣を作ると、導入の判断がしやすくなります。</p>
+<p>🔗 <a href="https://openai.com/index/chatgpt-expanding-world-of-work">原文を読む</a></p>
+<p>🔗 <a href="https://openai.com/index/uber-chatgpt-work-rollout">原文を読む</a></p>
+<hr />
+<h2>🤖 AIエージェントの「グラウンドホッグ・デー」:Amazon BedrockでOpenAIモデルを使う際のプロンプトキャッシュのパターン</h2>
+<p><code>AI</code> <code>LLM</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Bedrockのプロンプトキャッシュでエージェントを効率化</p>
+</blockquote>
+<ul>
+<li>エージェントは1ステップごとに全文脈を読み直している</li>
+<li>Amazon BedrockのOpenAIモデルでプロンプトキャッシュが使える</li>
+<li>ツール定義や指示、履歴の毎回の再送を避けられる</li>
+<li>入力コストとレイテンシ（遅延）の両方を下げられる</li>
+<li>記事では活用パターンが紹介されているそうです</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントは、行動のたびにツール定義や指示文、これまでの会話履歴をまとめてモデルに渡します。ステップが増えるほど、同じ内容を何度も読み込ませることになります。この重複が入力トークンの課金と応答の遅さにつながるため、エージェントを実運用する際の悩みどころでした。プロンプトキャッシュは、繰り返し使う部分を覚えさせて再処理を省く仕組みです。OpenAIのモデルをAmazon Bedrockで使う場合にも、この仕組みが使えるようになったと見られています。 エージェント型のアプリは、長いやり取りを重ねるほどコストが膨らみがちです。キャッシュが標準的な道具になれば、複雑な処理を何十ステップも回す設計が現実的になります。クラウド各社も、モデルの性能だけでなく、運用コストと応答速度の改善で競うようになると見られています。コスト設計の基本が、モデルの選び方からコンテキストの組み立て方へと広がっていくでしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社のエージェントで毎回送っている固定部分を洗い出してください。ツール定義や指示文のように変わらない部分は、プロンプトの先頭にまとめるのが基本です。変化する履歴や新しい入力は後ろに置くと、キャッシュが効きやすくなると考えられます。そのうえで、導入前後の入力コストと応答時間を計測し、効果を数字で確認しましょう。対応モデルや料金、キャッシュの保持条件は、公式ドキュメントで事前に確認することをおすすめします。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/">原文を読む</a></p>
+<hr />
+<h2>🤖 AI生成文を読むと疲れる原因は6つのパターン、研究者らが特定</h2>
+<p><code>AI</code> <code>LLM</code> <code>Science</code></p>
+<details><summary>📄 原題: Researchers find six patterns that make AI text so exhausting to read</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 最新AIの文章は人間に読みにくい癖が多い</p>
+</blockquote>
+<ul>
+<li>NYUとテキサス大オースティン校の共同研究</li>
+<li>最先端の言語モデルは読みにくい言語パターンを多用</li>
+<li>原因は、正しさだけを評価するコードや数学の学習</li>
+<li>小型モデルの方が、人間に近い書き方をする</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+最新の言語モデルは、コードや数学の問題で高い性能を出すよう鍛えられています。こうした分野では、答えが合っていれば高く評価され、読みやすさは問われません。今回の研究は、その偏りが文章の癖として表れていると指摘しています。AIの文章を読む機会が仕事や日常で増える中、読み手の負担は無視できない問題になっています。 これまでAIの評価は、正答率やベンチマークの点数が中心でした。今後は、人間にとって読みやすいかどうかも、モデルの品質を測る指標になっていくと見られます。読みやすさを学習の報酬に組み込む動きが出る可能性もあります。また、大きなモデルが常に優れているとは限らないため、用途に応じたモデル選びの考え方にも影響しそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+AIが書いた文章は、そのまま使わずに人の目で読み直し、読みにくい箇所を直す習慣をつけましょう。文書作成に使うモデルは、性能だけでなく読みやすさも比べて選ぶのがおすすめです。小型モデルが自然な文章を書く場合があるので、用途によっては試す価値があります。モデルを開発・評価する立場のチームは、評価項目に読みやすさを加えることを検討してください。</p>
+<p>🔗 <a href="https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/">原文を読む</a></p>
+<hr />
+<h2>🤖 採点器だけでなく比較そのものを検証する:対話型LLM評価で全体精度が誤解を招く理由</h2>
+<p><code>AI</code> <code>LLM</code> <code>Science</code></p>
+<details><summary>📄 原題: Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 全体の精度だけでは評価の比較を保証できない</p>
+</blockquote>
+<ul>
+<li>LLMへの追い質問の違いで、会話の圧力の影響を測る研究が多い</li>
+<li>例: 中立に再考を促す質問と、架空の映画の実在を主張する質問</li>
+<li>自動採点器が、根拠のない事実主張の有無を各応答に付ける</li>
+<li>採点器の検証は、全体の精度やF1値1つで済ませるのが一般的</li>
+<li>全体の数字は、条件ごとの比較の妥当性を示さない恐れがある</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+LLMの評価では、追い質問への応答を自動採点器で判定する手法が広がっています。ただし、採点器の良さは全体の精度やF1値で確認されることが多いです。この論文のタイトルは、採点器そのものだけでなく、比較の妥当性も検証すべきだと訴えています。全体の精度が高くても、プロンプトの種類ごとに誤判定の傾向が違えば、差の測定にゆがみが出る恐れがあるからです。 評価手法の信頼性を問う動きが強まると見られます。自動採点を使う研究では、条件ごとに採点器の誤りを確かめることが標準的な作法になるかもしれません。そうなれば、モデル間の比較や「迎合しやすさ」などの指標の信頼度も上がっていくでしょう。ベンチマークの読み方についても、見直しが進む可能性があります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+自動採点を評価に使うエンジニアやリーダーは、採点器の全体精度だけで安心しないことが大切です。プロンプトの種類ごとに少量のサンプルを人手で確認し、誤判定に偏りがないか調べましょう。比較したい条件の間で採点の精度に差がないことを、結果とあわせて報告する習慣も役に立ちます。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2610.31678">原文を読む</a></p>
+<hr />
+<h2>🤖 使用状況メトリクスAPIにカスタムスキル、エージェント、MCPサーバーを追加</h2>
+<p><code>AI</code> <code>DevOps</code> <code>Business</code></p>
+<details><summary>📄 原題: Custom skills, agents, and MCP servers in usage metrics API</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Copilotの利用指標に独自機能の名前が表示</p>
+</blockquote>
+<ul>
+<li>スキルやカスタムエージェントの名前が指標APIに表示</li>
+<li>Model Context Protocol（MCP）サーバーも名前で確認可能</li>
+<li>スラッシュコマンドやプラグインも個別に把握できる</li>
+<li>従来のまとめ表示から、組織ごとの個別表示に変更</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+GitHub Copilotは、コード補完だけでなく、独自のスキルやエージェントを組織が作って使う道具へと広がっています。MCPは、AIモデルにツールやデータへのアクセスを与えるための仕組みです。これまでは、こうした独自の拡張が利用指標の上でひとまとめに扱われていたようです。そのため、どの拡張がどれだけ使われているのかが見えにくい状況でした。拡張が増えるほど、個別の利用状況を見たいという要望は強くなります。今回の変更は、その要望に応えるものと見られます。 AI開発支援ツールの導入は、「入れて終わり」から「使われ方を測って育てる」段階へ進んでいくと考えられます。個別の拡張の利用データがあれば、投資対効果の説明がしやすくなります。よく使われる拡張は社内で共有でき、使われない拡張は見直せます。AIツールの運用管理が、一つの専門業務として定着していく流れを後押しするでしょう。他のAI開発支援ツールでも、同様の粒度の指標が求められるようになるかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自組織で作っているスキル、カスタムエージェント、MCPサーバーなどを棚卸ししましょう。次に、指標APIから名前ごとの利用データを取り出し、ダッシュボードなどで定期的に見られるようにします。利用が多いものは標準化して全社に広げ、少ないものは原因を探って改善や廃止を検討すると良いでしょう。導入効果をチームや経営層に説明する資料としても使えます。なお、取得できる項目の詳細は、GitHubの公式ドキュメントで確認してください。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースは、生成AIが「試してみる段階」から「日常の業務インフラとして定着する段階」へ移行しつつあることを共通して示しています。GitHub Copilotへの最新モデルの一般提供は開発現場の標準ツールに先端モデルが即座に組み込まれる流れを、ChatGPTの約100カ国にわたる利用分析は職種や地域を越えて仕事での活用が広がっている実態を映し出しています。一方、Bedrockのプロンプトキャッシュの話題は、エージェントが同じ文脈を繰り返し処理する運用では、コストやレイテンシの最適化が実用上の重要課題になっていることを物語っています。つまり業界の関心は、モデルの性能競争だけでなく、普及の広がりと、大規模に使い続けるための効率化や運用設計へと重心を移しつつあると言えるでしょう。</p>
+<p>なお、GPT-6.1 Terraという名称や各記事の詳細は私の手元の情報では確認できないため、上記は提示されたタイトルと概要から読み取れる範囲での考察です。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>GitHub CopilotにGPT-6.1 Terraが登場</strong>: まず、自分のチームでGitHub Copilotを使っている場面を洗い出しましょう。そのうえで、日常的なコーディングやターミナル作業でGPT-6.1 Terraを試し、GPT-6.1 Solとの品質や応答の違いを比べてみてください。コストと成果のバランスを見て、タスクごとの使い分けルールを決めておくと、運用が楽になります。リーダーは、利用料金の見通しも合わせて確認しておくとよいでしょう。</li>
+<li><strong>ChatGPTが広げる仕事の世界</strong>: まず公開されたデータを読み、自社の業務と近い活動でどんな使われ方をしているか確認してみましょう。そのうえで、チーム内の利用状況を棚卸しし、効果の出ている業務と使われていない業務を整理してください。リーダーは、利用の傾向を定期的に見直す習慣を作ると、導入の判断がしやすくなります。</li>
+<li><strong>AIエージェントの「グラウンドホッグ・デー」:Amazon BedrockでOpenAIモデルを使う際のプロンプトキャッシュのパターン</strong>: まず、自社のエージェントで毎回送っている固定部分を洗い出してください。ツール定義や指示文のように変わらない部分は、プロンプトの先頭にまとめるのが基本です。変化する履歴や新しい入力は後ろに置くと、キャッシュが効きやすくなると考えられます。そのうえで、導入前後の入力コストと応答時間を計測し、効果を数字で確認しましょう。対応モデルや料金、キャッシュの保持条件は、公式ドキュメントで事前に確認することをおすすめします。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot">GitHub CopilotにGPT-6.1 Terraが登場</a></li>
+<li><a href="https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/">GitHub CopilotにGPT-6.1 Terraが登場</a></li>
+<li><a href="https://openai.com/index/chatgpt-expanding-world-of-work">ChatGPTが広げる仕事の世界</a></li>
+<li><a href="https://openai.com/index/uber-chatgpt-work-rollout">ChatGPTが広げる仕事の世界</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/">AIエージェントの「グラウンドホッグ・デー」:Amazon BedrockでOpenAIモデルを使う際のプロンプトキャッシュのパターン</a></li>
+<li><a href="https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/">AI生成文を読むと疲れる原因は6つのパターン、研究者らが特定</a></li>
+<li><a href="https://arxiv.org/abs/2610.31678">採点器だけでなく比較そのものを検証する:対話型LLM評価で全体精度が誤解を招く理由</a></li>
+<li><a href="https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api">使用状況メトリクスAPIにカスタムスキル、エージェント、MCPサーバーを追加</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #209 (2026-10-27)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #209</li>
+<li><strong>日付</strong>: 2026-10-27</li>
+<li><strong>尺</strong>: 約 10 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot">GPT-6.1 Terra in GitHub Copilot</a></li>
+<li><a href="https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/">GPT-6.1 Terra in GitHub Copilot</a></li>
+<li><a href="https://openai.com/index/chatgpt-expanding-world-of-work">ChatGPT’s expanding world of work</a></li>
+<li><a href="https://openai.com/index/uber-chatgpt-work-rollout">ChatGPT’s expanding world of work</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/">Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/">Researchers find six patterns that make AI text so exhausting to read</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://arxiv.org/abs/2610.31678">Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation</a></li>
+<li><a href="https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api">Custom skills, agents, and MCP servers in usage metrics API</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=GitHub%20Copilot%E3%81%ABGPT-6.1%20Terra%E3%81%8C%E7%99%BB%E5%A0%B4%EF%BC%8FChatGPT%E3%81%8C%E5%BA%83%E3%81%92%E3%82%8B%E4%BB%95%E4%BA%8B%E3%81%AE%E4%B8%96%E7%95%8C%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-10-27/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-10-27/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

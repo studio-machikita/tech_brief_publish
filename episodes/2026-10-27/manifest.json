@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-27",
+  "episode_date_local": "2026-10-27",
+  "content_snapshot_date": "2026-10-27",
+  "show_length_sec": 659,
+  "audio_size": 10550061,
+  "generated_at": "2026-10-26T23:23:08.381938+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9995cf1a",
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "title_ja": "GitHub CopilotにGPT-6.1 Terraが登場",
+      "one_liner": "GPT-6.1 TerraがCopilotで一般提供開始",
+      "fingerprint": "9995cf1a27d536ffed6d4e201af0ced9",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-a6cd5749",
+      "title": "ChatGPT’s expanding world of work",
+      "title_ja": "ChatGPTが広げる仕事の世界",
+      "one_liner": "ChatGPTの仕事利用を約100カ国で分析",
+      "fingerprint": "a6cd5749c13cd64b5929836dafdcb6c1",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-01b94cc4",
+      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+      "title_ja": "AIエージェントの「グラウンドホッグ・デー」:Amazon BedrockでOpenAIモデルを使う際のプロンプトキャッシュのパターン",
+      "one_liner": "Bedrockのプロンプトキャッシュでエージェントを効率化",
+      "fingerprint": "01b94cc46ce005c1aa3ff0eece615829",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-014c2cfd",
+      "title": "Researchers find six patterns that make AI text so exhausting to read",
+      "title_ja": "AI生成文を読むと疲れる原因は6つのパターン、研究者らが特定",
+      "one_liner": "最新AIの文章は人間に読みにくい癖が多い",
+      "fingerprint": "014c2cfd69b6ee49ff9623aff24b970f",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-af051bed",
+      "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+      "title_ja": "採点器だけでなく比較そのものを検証する:対話型LLM評価で全体精度が誤解を招く理由",
+      "one_liner": "全体の精度だけでは評価の比較を保証できない",
+      "fingerprint": "af051bed4b90ac62cd28725fefcd236e",
+      "score": 48,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-4d8951d3",
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "title_ja": "使用状況メトリクスAPIにカスタムスキル、エージェント、MCPサーバーを追加",
+      "one_liner": "Copilotの利用指標に独自機能の名前が表示",
+      "fingerprint": "4d8951d306aa9c99ca0d130a298edb3b",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-9fcc3194",
+      "reason": "LINK_ONLY: Source classified as satirical: Anthropicが四半期売上高116億ドルを計上し、約8000億ドルの長期コンピュート契約を抱えるという主張は、規模が極端で現実性に乏しく、実在のS-1提出報道を装った風刺と判断されます。",
+      "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations"
+    },
+    {
+      "item_id": "item-52407ea4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-2c438ab6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3"
+    },
+    {
+      "item_id": "item-cf804a41",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-441b6a16",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang"
+    },
+    {
+      "item_id": "item-0ef7bdea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 06, 2026"
+    },
+    {
+      "item_id": "item-bc122ddb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers"
+    },
+    {
+      "item_id": "item-34629374",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Iran War Boosts Malaysian Data Center Appeal, SD Guthrie Says"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-f42b297b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The new human-crafted Apple Music brand matters in an AI world"
+    },
+    {
+      "item_id": "item-cc9e868e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures"
+    },
+    {
+      "item_id": "item-3623571a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Billing — TryHackMe"
+    },
+    {
+      "item_id": "item-872b6863",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "math/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf at main · openai/math"
+    },
+    {
+      "item_id": "item-ce2e6aff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnerships"
+    },
+    {
+      "item_id": "item-25472dc1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos"
+    },
+    {
+      "item_id": "item-6c4b425c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Instacart Shares Rally 10% After The Information Reports Sale Talks"
+    },
+    {
+      "item_id": "item-3f3e076c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Dyson Vacuum Deals for Dyson Week 2026"
+    }
+  ],
+  "score_cache": {
+    "441b6a166fd0b0d7b5e0f6c6e0eebd79": {
+      "score": 38,
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] AI推論基盤におけるKVキャッシュのクロスリクエスト露出は、他ユーザーの入力や生成結果が混在する可能性がある重大なセキュリティ問題で、マルチテナント環境の信頼性に直結します。一方で、主題は新しいモデル機能ではなく脆弱性の報告とSGLangによる運用上の是正であり、評価基準上はセキュリティ・運用ルール寄りです。AIモデル関連の既出テーマとも一部重なるた"
+    },
+    "52407ea44e5b53ef2a1f8827b6852d3d": {
+      "score": 45,
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] GPT-6 Astraを活用してコードレビュー後のユーザーワークフロー検証まで自動化し、Daybreakによるセキュリティ強化やCodexによる手戻り削減も組み合わせる点は、AIをソフトウェア開発ライフサイクル全体へ拡張する実用的な動きとして注目度が高い。一方で、記事の中心は既出キーワードであるAI・モデル関連の続報に近く、業界の前提を変えるほどの新"
+    },
+    "ce2e6aff420d72bbf56e8077be344bc9": {
+      "score": 24,
+      "title": "Partnerships",
+      "date": "2026-10-24",
+      "reason": "[ScoreCache 2026-10-24] [ScoreCache 2026-10-24] [ScoreCache 2026-10-24] [Claude API Evaluation] タイトルが「Partnerships」のみで、提携企業、技術領域、提供機能、業界への影響などの具体情報がありません。技術革新やアーキテクチャの進展を評価できず、現時点では一般的な業務提携の告知にとどまるため、"
+    },
+    "2c438ab61d491f81fd2b9f5cd0a464f4": {
+      "score": 44,
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] 多数のカメラごとに異なるモデルを運用し、学習・品質ゲート・エッジ向けコンパイル・バージョニング・再学習のクォータ制御までを一体化した、実装具体性の高いクラウド／エッジAIアーキテクチャです。特にSageMaker NeoとStep Functionsを組み合わせた大規模フリート運用の知見は、現場のMLOpsに有用です。一方で、革新的な新モデルや業界の"
+    },
+    "9995cf1a27d536ffed6d4e201af0ced9": {
+      "score": 66,
+      "title": "GPT-6.1 Terra in GitHub Copilot",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] GPT-6.1 TerraのGitHub Copilotでの一般提供は、エージェント型コーディングやターミナル作業を低コスト化する点で、開発者の実務に直接影響するAIモデルの展開です。一方で、AI・モデル・GitHub Copilot・OpenAIに関する既出テーマと強く重複しており、今回の情報も新モデルの提供開始という続報にとどまるため、重複分を考"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 35,
+      "title": "September 28, 2026",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新ですが、内容は上流依存パッケージの更新と、カスタムコンテナイメージに含まれるCritical/HighのCVEをまとめて修正する保守・セキュリティ対応が中心です。運用上は重要なものの、新しいアーキテクチャや機能、業界の前提を変える技術革新ではありません。エージェント関連の話題は既出キーワード"
+    },
+    "bc122ddb0de5c643b62d3f9aff4a875f": {
+      "score": 37,
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Databricksの共同創業者による大企業向け販売戦略の知見は、エンタープライズ導入やクラウド・データ基盤ビジネスを理解するうえで有用です。特に、自社の技術力だけでなく大手企業の営業網やパートナーエコシステムを活用する点は、B2Bスタートアップのスケール戦略として示唆があります。一方で、具体的な技術革新やアーキテクチャの進化を扱う記事ではなく、業界"
+    },
+    "9fcc31941a05038fc70af0368dd83ee9": {
+      "score": 97,
+      "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] 主要AI研究企業Anthropicによる初のS-1提出とNasdaq上場計画は、AI産業の資金調達・企業評価・クラウド計算資源の調達構造に大きな影響を与える重要ニュースです。四半期売上高116億ドル、初の営業黒字、顧客支出の急増に加え、約8000億ドルの長期的な計算資源コミットメントが明らかになる点も、AI企業の成長性とインフラ依存の実態を具体的に示"
+    },
+    "f42b297bb54d220365b1e1480609c487": {
+      "score": 33,
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] AI時代における人間によるコンテンツ制作の価値を論じる意見記事で、ブランド戦略やメディア論としては示唆がありますが、技術的な新規性や具体的な製品・アーキテクチャの発表はありません。エンジニアへの直接的な影響も限定的です。既出キーワードの「AI」と同じ文脈を扱っているため、重複分として減点しています。 [Editorial: AI-focused so"
+    },
+    "cc9e868ef8264c8364698ea1312d103c": {
+      "score": 32,
+      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] AnthropicのIPO関連情報で注目度は高いものの、主題は技術革新ではなく、S-1提出書類における財務情報の不足や投資家向け開示の透明性です。エンジニアリング面で新しいアーキテクチャ、モデル、開発手法が示されておらず、法律・規制や企業統治に近いニュースとして低めに評価します。また、AnthropicおよびAI関連の話題は直近の既出キーワードと重な"
+    },
+    "34629374df336c490730e647636218dd": {
+      "score": 36,
+      "title": "Iran War Boosts Malaysian Data Center Appeal, SD Guthrie Says",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] データセンター拠点としてのマレーシアの重要性が高まる可能性を示すインフラ・市場動向の記事で、クラウド基盤や電力・土地需要に関係します。ただし、具体的なデータセンター技術、アーキテクチャ、投資規模、事業計画などの新情報は乏しく、米国・イラン情勢による間接的な需要予測が中心です。エンジニア視点では業界環境を理解する材料にはなりますが、技術革新や開発者への"
+    },
+    "6c4b425c1f96ca68796f683a8053d576": {
+      "score": 10,
+      "title": "Instacart Shares Rally 10% After The Information Reports Sale Talks",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Instacartの売却協議と株価上昇に関する企業・金融ニュースであり、ソフトウェア技術、アーキテクチャ、AI、クラウド、開発者向け機能の具体的な進展は含まれていません。エンジニア視点での技術的影響や業界の前提を変える要素が乏しく、一般消費者向けサービス企業のM&A観測にとどまるため、重要度は最低評価帯としました。"
+    },
+    "cf804a418c1427d94c4a7618c114c76f": {
+      "score": 43,
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] 企業向けGTMにおける顧客と営業担当のテリトリー割り当てを、複数目的最適化やトレードオフ分析で支援する意思決定システムの研究です。限られた営業リソース、既存の顧客担当関係、売上機会などを定量的に扱える点は、エンタープライズ業務システムや最適化エンジニアリングの観点で有用です。一方で、現時点ではarXivの新規論文であり、基盤技術の革新や広範なソフトウ"
+    },
+    "af051bed4b90ac62cd28725fefcd236e": {
+      "score": 48,
+      "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] 対話型LLMの評価で、全体のAccuracyやF1だけでは条件別・ケース別の性能差を見落とすという問題を扱っており、評価データの分解やスコアラー検証の設計に有用な研究です。モデルの信頼性評価やベンチマークの再現性に影響するため技術的価値はありますが、新しいモデルや基盤技術そのものではなく、研究手法の改善が中心です。また、直近に取り上げ済みのAI・モデ"
+    },
+    "3623571ab089cd28d53062cb73640790": {
+      "score": 30,
+      "title": "Billing — TryHackMe",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] MagnusBillingの未認証コマンドインジェクションと、fail2ban-clientのsudo権限を悪用したroot権限昇格を具体的に解説しており、実務的な攻撃経路やsudo設計の注意点は有益です。一方で、これはTryHackMeの演習解説であり、業界全体を変える新技術や大規模なアーキテクチャ進化ではありません。主題も脆弱性・権限設定・セキュ"
+    },
+    "872b68639b7e7647af273533d32bd562": {
+      "score": 29,
+      "title": "math/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf at main · openai/math",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] 内容はAgent Platform Workbench v2の依存パッケージ更新と、certifi・pip・condaなどの証明書および同梱パッケージの脆弱性対応であり、重要な保守・セキュリティ修正ではあるものの、新機能や技術的ブレークスルーではありません。さらに、既出キーワードであるagentsに関連する運用アップデートでもあるため、既存話題との重"
+    },
+    "a6cd5749c13cd64b5929836dafdcb6c1": {
+      "score": 54,
+      "title": "ChatGPT’s expanding world of work",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] ChatGPTの業務利用を約100カ国・165種類の活動にわたって分析する点は、実利用の分布や時間変化を把握できるデータ分析として有用で、企業の導入戦略や開発優先度にも影響し得ます。一方で、新しいモデルやアーキテクチャの発表ではなく、既存サービスの利用動向に関する調査記事です。また、AIおよびChatGPTの利用状況という直近に取り上げ済みの「ai」"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 41,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-25",
+      "reason": "[ScoreCache 2026-10-25] [ScoreCache 2026-10-25] [Claude API Evaluation] 米国の科学研究への取り組みを強化する内容と見られますが、タイトルだけでは具体的な技術、アーキテクチャ、製品、研究成果、実装方法が不明です。科学技術政策や組織の方針表明に近く、エンジニアリングへの直接的な影響や新規性を評価しにくいため、低〜中程度のスコアとし"
+    },
+    "01b94cc46ce005c1aa3ff0eece615829": {
+      "score": 51,
+      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] AIエージェントの実行コストとレイテンシを削減するプロンプトキャッシュの実装パターンであり、実務上の効果が明確なクラウド・アーキテクチャ系の話題です。ツール定義や指示、会話履歴を毎回再送せずに済むため、長いコンテキストを扱うエージェント基盤では有用性があります。一方で、OpenAIモデル、Amazon Bedrock、AIエージェントという既出キーワ"
+    },
+    "4d8951d306aa9c99ca0d130a298edb3b": {
+      "score": 47,
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Copilotの利用状況メトリクスAPIで、組織が作成したカスタムスキル、エージェント、MCPサーバー、スラッシュコマンド、プラグインを個別に識別できるようになる更新です。開発組織における利用状況の可視化やコスト・効果測定、ガバナンスには有用ですが、新しい実行基盤やアーキテクチャを提供するものではなく、既存機能の観測性向上に留まります。また、既出キー"
+    },
+    "0ef7bdeabd421eceff5871e5e433c265": {
+      "score": 38,
+      "title": "October 06, 2026",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2という開発基盤の更新ですが、内容は上流依存パッケージの最新版適用に限られており、新機能やアーキテクチャ変更、性能向上などの具体性がありません。エンジニアにとって保守・依存関係管理上の意味はあるものの、影響範囲と技術的な新規性は小さいです。また、既出キーワードの「agents」と同じ領域に該当するた"
+    },
+    "25472dc1833268cac4589a22325562d9": {
+      "score": 13,
+      "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Instagramの動画投稿時間を90分まで拡大する方針は、SNSのコンテンツ戦略やクリエイター向け配信体験には影響しますが、ソフトウェア技術そのものの革新ではありません。AI・クラウド・プログラミング言語・アーキテクチャに関する具体的な進展もなく、一般消費者向けサービス機能の変更にとどまるため、最低評価帯としました。"
+    },
+    "014c2cfd69b6ee49ff9623aff24b970f": {
+      "score": 49,
+      "title": "Researchers find six patterns that make AI text so exhausting to read",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] AI生成テキストの可読性低下を、具体的な言語パターンと学習データ・報酬設計の関係から分析した研究であり、LLMの評価指標やプロンプト設計、文章生成品質の改善に示唆があります。一方で、基盤モデルの能力やアーキテクチャを根本的に変える発表ではなく、研究段階の知見にとどまります。また、直近に取り上げ済みの「AI」「model」「training」と同じAI"
+    },
+    "3f3e076cd30b5cc8800a1f0d2bb27d14": {
+      "score": 6,
+      "title": "Best Dyson Vacuum Deals for Dyson Week 2026",
+      "date": "2026-10-27",
+      "reason": "[Claude API Evaluation] Dyson掃除機の値引き情報であり、ソフトウェア、AI、クラウド、プログラミング言語などの技術革新とは無関係な一般消費者向け製品ニュースです。エンジニアリング上の新規性や業界への影響も限定的なため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-27/blog.md",
+    "show_notes_path": "out/2026-10-27/show_notes.md",
+    "script_path": "out/2026-10-27/script_2hosts.md",
+    "audio_path": "out/2026-10-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27786,
+        "output_tokens": 10363,
+        "cost_usd": 0.017993
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45195,
+        "output_tokens": 9384,
+        "cost_usd": 0.18423
+      }
+    ],
+    "tts": {
+      "chars": 4307,
+      "audio_sec": 645.0,
+      "cost_usd": 0.124378
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.326601
+  }
+}

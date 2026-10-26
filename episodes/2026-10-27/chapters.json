@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.86,
+    "title": "GPT-6.1 Terra in GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot"
+  },
+  {
+    "start_sec": 109.08,
+    "title": "ChatGPT’s expanding world of work",
+    "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+  },
+  {
+    "start_sec": 190.77,
+    "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock/"
+  },
+  {
+    "start_sec": 281.96,
+    "title": "Researchers find six patterns that make AI text so exhausting to read",
+    "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/"
+  },
+  {
+    "start_sec": 391.46,
+    "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+    "url": "https://arxiv.org/abs/2610.31678"
+  },
+  {
+    "start_sec": 538.92,
+    "title": "Custom skills, agents, and MCP servers in usage metrics API",
+    "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api"
+  },
+  {
+    "start_sec": 628.12,
+    "title": "エンディング",
+    "url": null
+  }
+]
