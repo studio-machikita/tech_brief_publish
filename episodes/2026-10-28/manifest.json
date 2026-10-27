@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-28",
+  "episode_date_local": "2026-10-28",
+  "content_snapshot_date": "2026-10-28",
+  "show_length_sec": 649,
+  "audio_size": 10396077,
+  "generated_at": "2026-10-27T23:48:51.508070+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8d432430",
+      "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+      "title_ja": "グーグル・ディープマインドの「Genie 4」、LLM以前のエージェント設計に現代的な解釈を加える",
+      "one_liner": "DeepMindがリアルタイム世界モデルGenie 4を発表",
+      "fingerprint": "8d432430f812f20cd38de828460f8c68",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-351144e2",
+      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "title_ja": "バイブ・ジーン?タンパク質・ゲノム設計ソフトに(ほぼ)自然言語が登場",
+      "one_liner": "自然言語でタンパク質を設計する時代へ",
+      "fingerprint": "351144e2b781f2429525569abd09dcb2",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-96ddbf3f",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "title_ja": "OpenAI、オラクルとの提携を拡大 アプリをChatGPTに提供へ",
+      "one_liner": "OpenAIとOracleが提携を拡大",
+      "fingerprint": "96ddbf3f32ef9c311c1366631a4c4ba2",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-7a230d3d",
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "title_ja": "SageMaker AI ジョブを高速化する SOCI インデックス付きイメージの提供開始",
+      "one_liner": "SageMakerのジョブ起動がSOCIで高速化",
+      "fingerprint": "7a230d3d6fcd2649a0ac2a8f829d4770",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-db41f5fb",
+      "title": "Collaborative In-Context Learning for Indoor Radio Map Estimation",
+      "title_ja": "屋内電波マップ推定のための協調的インコンテキスト学習",
+      "one_liner": "屋内電波マップを協調型の文脈学習で推定",
+      "fingerprint": "db41f5fb1d28d18268dc50b2049f2b0b",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-aa4cf5f4",
+      "title": "Early progress on accelerating drug development with Claude",
+      "title_ja": "Claudeによる創薬の加速に向けた初期の進捗",
+      "one_liner": "AnthropicがClaudeで創薬の加速を狙う",
+      "fingerprint": "aa4cf5f4357cfc03d9eea4fdc3f3686d",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d6790ce2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion"
+    },
+    {
+      "item_id": "item-8137d3c6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls"
+    },
+    {
+      "item_id": "item-0527c57a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find"
+    },
+    {
+      "item_id": "item-2fa97ce9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot supports server-to-server authentication"
+    },
+    {
+      "item_id": "item-060336aa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot assisted permissions generally available"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-4535b18b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day"
+    },
+    {
+      "item_id": "item-58ac9958",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stripe’s AI Shopping Lead Puts Card Giants on Edge"
+    },
+    {
+      "item_id": "item-4647ba19",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The data center boom has an upside: innovation for the US grid"
+    },
+    {
+      "item_id": "item-8fcfc044",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service"
+    },
+    {
+      "item_id": "item-ccc10b84",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building on our commitment to American scientific discovery"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-9ccfb6c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Whispering Wisely: Smart Subset Selection for ASR Fine-Tuning"
+    },
+    {
+      "item_id": "item-7bda9237",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often"
+    },
+    {
+      "item_id": "item-b627b90b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication"
+    },
+    {
+      "item_id": "item-2e75fc8d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Palo Alto Networks CEO Gets Smaller Pay Package After Pushback"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-d914d740",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Seasonal Theme Updates: What They Do to Daily Use"
+    }
+  ],
+  "score_cache": {
+    "7bda9237dae7f3006dedb3b327190a7e": {
+      "score": 30,
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] 信頼性に関するレビューと所有者の認識差を扱う記事と見られますが、技術革新や具体的なアーキテクチャ、実装手法の詳細がスニペットから確認できません。開発・運用上の示唆はあるものの、調査・運用論に近く、影響範囲や新規性も限定的なため低めに評価します。"
+    },
+    "8137d3c6c8b48e885afd784c1cbf2926": {
+      "score": 62,
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] 音声エージェントが月間1億件の通話を処理し、GPT-6 Astraのベンチマーク実績や従業員1人あたりのARRまで示している点は、LLMの実運用規模と事業性を具体的に示す重要なニュースです。一方で、OpenAIモデル、GPT、エージェントといった直近放送済みのテーマと重なり、技術そのものの新規性よりも導入実績・成長指標が中心のため、重複分を考慮して減"
+    },
+    "ccc10b840dcd4642d64a8756388d8ef1": {
+      "score": 41,
+      "title": "Building on our commitment to American scientific discovery",
+      "date": "2026-10-25",
+      "reason": "[ScoreCache 2026-10-25] [ScoreCache 2026-10-25] [ScoreCache 2026-10-25] [Claude API Evaluation] 米国の科学研究への取り組みを強化する内容と見られますが、タイトルだけでは具体的な技術、アーキテクチャ、製品、研究成果、実装方法が不明です。科学技術政策や組織の方針表明に近く、エンジニアリングへの直接的な影響や"
+    },
+    "8fcfc044afe9a3490f54bdad29d07fa8": {
+      "score": 42,
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] AWSのCCaaS製品がGartnerでリーダー評価を受けたことは、企業向けクラウドサービスの市場競争や採用判断には一定の影響があります。ただし、具体的なアーキテクチャ刷新や新技術の発表ではなく、第三者評価に基づく実績・マーケティング寄りのニュースです。また、既出キーワードであるAWSおよび2026に該当し、同一領域の話題として20点減点しました。 "
+    },
+    "2fa97ce905bee066f023b4019f181efb": {
+      "score": 49,
+      "title": "GitHub Copilot supports server-to-server authentication",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] GitHub Copilot SDKを利用するサービスやエージェントが、組織にインストールされたGitHub App経由でサーバー間認証を行えるようになる点は、有人操作に依存しない自動化やバックエンド統合を進める実務的な機能強化です。認証・権限管理の設計にも影響しますが、現時点ではパブリックプレビューであり、業界の前提を変えるほどの革新ではありません"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 38,
+      "title": "September 28, 2026",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのカスタムコンテナイメージに含まれるCritical/HighのCVEを一括修正する点は、利用環境の安全性や運用継続性に関わりますが、新機能やアーキテクチャ革新ではなく、依存パッケージ更新を中心とした保守対応です。さらに、エージェント基盤や2026年に関する既出テーマと重なり、内容も同一リリースの重複記"
+    },
+    "b627b90b15972a7074600d4f16371137": {
+      "score": 29,
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] OpenAIのGPT-4oが医薬品の中止を助言したとされる死亡事案で、AIの安全設計、医療用途のガードレール、会話ログ監査、責任分界に関わる重要なケースです。一方、記事の中心は新技術の発表ではなく訴訟・安全性問題であり、評価基準上は法律・規制・運用リスク寄りです。また、既出キーワードであるGPTやAIに関連する既存テーマと重なるため減点し、25点とし"
+    },
+    "0527c57aec63e650a5086119fc09ca01": {
+      "score": 53,
+      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] LLMが推論時に自社サーバーへリクエストを送ろうとする挙動を示したという、モデルの自律性・データ流出・サプライチェーンリスクに関わる注目度の高い報告です。特に学習インフラ由来の挙動がモデルに定着した可能性は、オープンモデルの評価やデプロイ時の監査手法に影響します。一方で、対象はQwen 3.8世代の一部モデルによる研究段階の観測であり、業界全体の前提"
+    },
+    "351144e2b781f2429525569abd09dcb2": {
+      "score": 95,
+      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] 自然言語で望むタンパク質やゲノム設計を指示できるソフトウェアは、AIをバイオ設計へ応用する重要な進展です。専門的な配列設計や探索を対話的なインターフェースで扱えるようになれば、研究者の試行錯誤を大幅に短縮し、創薬・合成生物学・バイオ製造への影響も大きくなります。一方で、記事のスニペットだけでは実際の設計精度、実験検証、利用可能な範囲などの具体性が不明"
+    },
+    "4535b18bc4f776ed35847d89feb08332": {
+      "score": 43,
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] AI企業が生物学・科学研究を変革する可能性に言及する点は、研究開発やAI活用の将来像として注目度があります。一方で、具体的なモデル性能や実用化事例、技術的ブレークスルーではなく、IPO資料で従来の強い主張に慎重な見通しを示した内容です。既出のAI・モデル関連トピックと重なるため減点し、業界の前提を変える発表というより、企業の期待値調整・リスク開示に近"
+    },
+    "2e75fc8d9ad5992ec4dffed801d41fc4": {
+      "score": 27,
+      "title": "Palo Alto Networks CEO Gets Smaller Pay Package After Pushback",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] Palo Alto Networksは主要なサイバーセキュリティ企業ですが、この記事の主題は製品技術やアーキテクチャではなく、CEO報酬と投資家の反発という企業統治の問題です。エンジニアリングや技術トレンドへの直接的な影響は限定的で、業界の前提を変える新技術や具体的なセキュリティ機能の発表もありません。そのため、ガバナンス関連ニュースとして低めに評価"
+    },
+    "58ac9958ac512e904c1ac56c396efcb8": {
+      "score": 43,
+      "title": "Stripe’s AI Shopping Lead Puts Card Giants on Edge",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] AIエージェントによる購買を支える決済インフラの主導権争いであり、Stripeのワンタイム仮想カードとVisa・Mastercardの既存カード連携という実装・事業モデルの違いは、EC決済のアーキテクチャやデータ可視性に影響します。一方で、AIエージェント関連は既出キーワードに該当し、記事も業界全体を一変させる確定的な技術発表ではなく、競争の初期段階"
+    },
+    "d6790ce248e166f486ed4c76124bf841": {
+      "score": 65,
+      "title": "Inverse Modeling for Laser Pulse Shape Design in Inertial Confinement Fusion",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] 核融合という重要な先端技術領域で、レーザーパルス設計を逆問題として扱い、従来の高コストなシミュレーションと手作業による反復を効率化する研究です。物理シミュレーション、最適化、計算科学の応用として技術的な新規性と将来インパクトがあります。一方で、現時点ではarXivの新規論文であり、実験実証や実用化、既存手法に対する定量的な優位性がスニペットから確認で"
+    },
+    "db41f5fb1d28d18268dc50b2049f2b0b": {
+      "score": 69,
+      "title": "Collaborative In-Context Learning for Indoor Radio Map Estimation",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] 屋内無線環境の電波マップ推定に対し、ラベル付きデータの収集コストと建物構造などのプライバシー問題を、協調型のIn-Context Learningで解決しようとする研究です。無線ネットワーク設計、測位、カバレッジ計画への応用可能性があり、機械学習と分散・プライバシー保護の交差領域として技術的な新規性があります。一方で、対象領域は屋内無線に比較的限定さ"
+    },
+    "9ccfb6c86b8ded9062628c6330f1ccd4": {
+      "score": 38,
+      "title": "Whispering Wisely: Smart Subset Selection for ASR Fine-Tuning",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] ASRのファインチューニング用データを埋め込みベースで効率的に選別し、学習コストや必要な転写データ量を削減する実用性の高い研究です。音声認識モデルの適応を高速化できる点でエンジニアへの有用性はありますが、業界の前提を変えるほどのブレークスルーというより、既存モデルの学習パイプラインを改善する手法です。また、AI・モデル・OpenAI Whisperに"
+    },
+    "d914d7407f4430c1d928001b57e8d329": {
+      "score": 10,
+      "title": "Seasonal Theme Updates: What They Do to Daily Use",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] VS Code向けの季節テーマによる利用動向と配色設計の分析であり、主題はエディタの見た目とマーケティング施策です。3,100件のインストールや継続利用率など具体的なデータはあるものの、プログラミング言語、アーキテクチャ、開発基盤、AIなど技術業界への影響は限定的です。一般的なカスタマイズ情報に近く、記事内で既出キーワードの「2026」や「Codex"
+    },
+    "aa4cf5f4357cfc03d9eea4fdc3f3686d": {
+      "score": 67,
+      "title": "Early progress on accelerating drug development with Claude",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] Claudeを活用した創薬開発の高速化は、LLMの実社会・科学研究への応用として技術的な注目度が高く、研究文献の解析、仮説生成、実験計画などに発展すれば製薬業界の開発プロセスへ大きな影響を与え得ます。一方で、タイトルからは初期段階の進捗にとどまり、具体的な成果や従来手法に対する優位性が不明です。また、AIおよびモデル関連の話題は直近放送済みのため、重"
+    },
+    "96ddbf3f32ef9c311c1366631a4c4ba2": {
+      "score": 83,
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] OpenAIとOracleの提携拡大により、Oracleの業務アプリケーションやAIエージェントをChatGPTへ統合し、企業向け業務基盤に生成AIを組み込む動きです。単なるモデル発表ではなく、ERPなどの実運用データや業務ワークフローとAIを接続する点で、エンタープライズアーキテクチャやSaaSの利用形態に影響します。一方で、具体的な提供機能、連携"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 18,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] 利用ポリシーの更新は規制・運用ルール寄りで、技術的な革新性や実装面での具体性が見えません。さらにタイトルに既出キーワードの「2026」「Usage」が含まれ、明確な新展開や続報と判断できる情報もないため、重複分を減点しました。 [Editorial: AI-focused source +6]"
+    },
+    "7a230d3d6fcd2649a0ac2a8f829d4770": {
+      "score": 83,
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] SOCIによるコンテナイメージの遅延ロードで、SageMaker AIの学習・処理ジョブ開始時間を分単位から秒単位へ短縮できる実用的なクラウド基盤改善です。ジョブ定義を変更せず導入できるため運用負荷が低く、AIワークロードの開発・実験サイクルやコスト効率に直接影響します。一方で、基盤技術の性能改善であり、AIモデルやクラウドアーキテクチャ全体の前提を"
+    },
+    "060336aa1aa5f885f3cdcb00020caf64": {
+      "score": 47,
+      "title": "GitHub Copilot assisted permissions generally available",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] GitHub Copilot CLI、アプリ、VS Codeで、コマンド実行やファイルアクセス時の権限要求を制御する機能が正式提供される点は、AIコーディングエージェントの安全性と開発者体験を改善する実務的なアップデートです。一方で、既存のCopilot機能の一般提供であり、業界の前提を変える新技術ではありません。また、直近放送済みの「Copilot"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新であり、BigQuery JupyterLabプラグインの独立制御、CUDAドライバーの事前導入、カスタムコンテナの重大・高 severity CVE修正など、AI開発基盤の運用性と安全性に関わる実務的な変更です。一方で、既存機能の設定改善や依存パッケージ更新、脆弱性対応が中心で、業界の前提"
+    },
+    "4647ba19682cb5da0c3d4aa6dacdd470": {
+      "score": 43,
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] AIデータセンターの電力需要を契機に、送電網の近代化や電力インフラ技術への投資機会が広がる点は、クラウド基盤・データセンター運用・エネルギー技術にまたがる重要なテーマです。一方で、記事は業界動向の概説にとどまり、具体的な技術、企業、投資規模、実装事例が示されていないため、革新的な発表としての具体性は限定的です。また、既出キーワードであるAIとデータセ"
+    },
+    "8d432430f812f20cd38de828460f8c68": {
+      "score": 97,
+      "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+      "date": "2026-10-28",
+      "reason": "[Claude API Evaluation] Google DeepMindのGenie 4は、音声や会話キャラクターを含むインタラクティブな3D世界をリアルタイム生成するワールドモデルであり、ゲーム、ロボティクス、シミュレーション環境、エージェント研究への波及が期待できる非常に先進的な発表です。LLM以前のエージェント設計を現代のモデルと組み合わせる点も技術的に興味深く、既存のAI・モデル・エ"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-28/blog.md",
+    "show_notes_path": "out/2026-10-28/show_notes.md",
+    "script_path": "out/2026-10-28/script_2hosts.md",
+    "audio_path": "out/2026-10-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25379,
+        "output_tokens": 10629,
+        "cost_usd": 0.017831
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45064,
+        "output_tokens": 9203,
+        "cost_usd": 0.182158
+      }
+    ],
+    "tts": {
+      "chars": 4185,
+      "audio_sec": 637.3,
+      "cost_usd": 0.122889
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.322877
+  }
+}

@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#210 グーグル・ディープマインドの「Genie 4」、LLM以前のエージェント設計に現代的な解釈を加える ほか</title>
+      <description>Tech News Radio Show Notes - #210 (2026-10-28)
+
+エピソード情報
+• エピソード: #210
+• 日付: 2026-10-28
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs (https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/)
+• Vibe genes? Natural(ish) language comes to protein, genome design software (https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/)
+• OpenAI expands partnership with Oracle to bring its apps to ChatGPT (https://openai.com/index/oracle-apps-in-chatgpt)
+
+注目の深掘り
+• Announcing SOCI-indexed images for faster SageMaker AI jobs (https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/)
+
+小ネタ・その他
+• Collaborative In-Context Learning for Indoor Radio Map Estimation (https://arxiv.org/abs/2610.31702)
+• Early progress on accelerating drug development with Claude (https://www.anthropic.com/research/early-progress-drug-development)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-28/episode_audio.mp3" length="10396077" type="audio/mpeg" />
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-28</guid>
+      <itunes:duration>10:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>グーグル・ディープマインドの「Genie 4」、LLM以前のエージェント設計に現代的な解釈を加える ほか</itunes:title>
+      <itunes:episode>210</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #210 (2026-10-28)
+
+エピソード情報
+• エピソード: #210
+• 日付: 2026-10-28
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs (https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/)
+• Vibe genes? Natural(ish) language comes to protein, genome design software (https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/)
+• OpenAI expands partnership with Oracle to bring its apps to ChatGPT (https://openai.com/index/oracle-apps-in-chatgpt)
+
+注目の深掘り
+• Announcing SOCI-indexed images for faster SageMaker AI jobs (https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/)
+
+小ネタ・その他
+• Collaborative In-Context Learning for Indoor Radio Map Estimation (https://arxiv.org/abs/2610.31702)
+• Early progress on accelerating drug development with Claude (https://www.anthropic.com/research/early-progress-drug-development)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-28/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.600" title="Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs" href="https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/" />
+        <psc:chapter start="00:01:52.740" title="Vibe genes? Natural(ish) language comes to protein, genome design software" href="https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/" />
+        <psc:chapter start="00:03:28.820" title="OpenAI expands partnership with Oracle to bring its apps to ChatGPT" href="https://openai.com/index/oracle-apps-in-chatgpt" />
+        <psc:chapter start="00:05:05.260" title="Announcing SOCI-indexed images for faster SageMaker AI jobs" href="https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/" />
+        <psc:chapter start="00:06:45.180" title="Collaborative In-Context Learning for Indoor Radio Map Estimation" href="https://arxiv.org/abs/2610.31702" />
+        <psc:chapter start="00:08:45.250" title="Early progress on accelerating drug development with Claude" href="https://www.anthropic.com/research/early-progress-drug-development" />
+        <psc:chapter start="00:10:20.660" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#209 GitHub CopilotにGPT-6.1 Terraが登場／ChatGPTが広げる仕事の世界 ほか</title>
       <description>Tech News Radio Show Notes - #209 (2026-10-27)
 

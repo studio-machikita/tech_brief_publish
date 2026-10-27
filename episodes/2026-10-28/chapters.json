@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.6,
+    "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+    "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/"
+  },
+  {
+    "start_sec": 112.74,
+    "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+    "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/"
+  },
+  {
+    "start_sec": 208.82,
+    "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+    "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+  },
+  {
+    "start_sec": 305.26,
+    "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+    "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/"
+  },
+  {
+    "start_sec": 405.18,
+    "title": "Collaborative In-Context Learning for Indoor Radio Map Estimation",
+    "url": "https://arxiv.org/abs/2610.31702"
+  },
+  {
+    "start_sec": 525.25,
+    "title": "Early progress on accelerating drug development with Claude",
+    "url": "https://www.anthropic.com/research/early-progress-drug-development"
+  },
+  {
+    "start_sec": 620.66,
+    "title": "エンディング",
+    "url": null
+  }
+]
