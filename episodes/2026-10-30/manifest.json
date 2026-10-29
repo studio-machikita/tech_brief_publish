@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-30",
+  "episode_date_local": "2026-10-30",
+  "content_snapshot_date": "2026-10-30",
+  "show_length_sec": 681,
+  "audio_size": 10905645,
+  "generated_at": "2026-10-29T23:25:37.957345+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ea5c4497",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "title_ja": "より高性能で有益なAIのための「モデル仕様」の更新版",
+      "one_liner": "OpenAIがModel Specを更新、5つの価値を明示",
+      "fingerprint": "ea5c449761caad572901f5afee574dd2",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-60cb5bf8",
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "title_ja": "Amazon Nova Actで意図駆動型UIテストを構築する",
+      "one_liner": "平易な英語で書くUIテストを全社基盤に",
+      "fingerprint": "60cb5bf8cf4af72da2aa5f0348a00c4c",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-97b81aa2",
+      "title": "GitHub intelligence puts your code, context, and history to work",
+      "title_ja": "GitHubのインテリジェンスが、コード・コンテキスト・履歴を最大限に活用",
+      "one_liner": "GitHubのAIがチームの流儀まで理解する",
+      "fingerprint": "97b81aa2b79f8408026b406f33bb5339",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-3a3ae8c5",
+      "title": "How we detect frontier model misalignment",
+      "title_ja": "最先端モデルのミスアラインメントをどう検出するか",
+      "one_liner": "OpenAIが多層監視でAIの逸脱を早期検知",
+      "fingerprint": "3a3ae8c54c63894eb9b6354702851cc2",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-b2a3cbab",
+      "title": "GitHub Copilot in VS Code, Universe releases",
+      "title_ja": "VS CodeのGitHub Copilot、Universeでのリリース情報",
+      "one_liner": "VS CodeのCopilot、選択肢が大幅に拡大",
+      "fingerprint": "b2a3cbabaca59fd630ec3f6be4a713f0",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-659ac208",
+      "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+      "title_ja": "Anthropic調査:専門家はAIエージェントの無作為な意見を取り込み、自分の考えだと思い込む",
+      "one_liner": "専門家がAIの偏った意見を自分の考えと誤認",
+      "fingerprint": "659ac20835af8d074a480334d11dc181",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-518212dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-3f60c1c2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "What to Know About China’s Top-Secret Spaceplane"
+    },
+    {
+      "item_id": "item-71b698ca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Slowdown Is More Macro Than Tied to One Company: T.Rowe Price’s Wang"
+    },
+    {
+      "item_id": "item-525c49b8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Everyone’s Using AI But Divisions Are Growing:  WTF Highlights"
+    },
+    {
+      "item_id": "item-31942faf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google AI gets cagey when asked who won the 2020 elections"
+    },
+    {
+      "item_id": "item-3d1ee805",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How the UK Amazon Quick User Group grew in 2026"
+    },
+    {
+      "item_id": "item-b1c5dbee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto"
+    },
+    {
+      "item_id": "item-7c1af5d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ChatGPT Claude — ikinci görüş, tek dokunuş, ücretsiz"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-0edc50c9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Polymarket Halted International Trading After Hackers Drained Accounts"
+    },
+    {
+      "item_id": "item-b1ea2d80",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ServiceNow Shares Drop 19% After Earnings As SaaSpocalypse Fears Persist"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-7a7ca79b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-22d75d53",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A Pig, the State, and War: &lt;i&gt;Porco Rosso&lt;/i&gt; (&lt;i&gt;Kurenai no Buta&lt;/i&gt;)"
+    },
+    {
+      "item_id": "item-fa8dec25",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple’s iPhone Maker Confident of Meeting Surge in Duo Demand"
+    },
+    {
+      "item_id": "item-5907c758",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Great American Rascal - Claremont Review of Books"
+    }
+  ],
+  "score_cache": {
+    "22d75d5373e32af21c9834cd1cbe02db": {
+      "score": 4,
+      "title": "A Pig, the State, and War: &lt;i&gt;Porco Rosso&lt;/i&gt; (&lt;i&gt;Kurenai no Buta&lt;/i&gt;)",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 『紅の豚』に関する文化・映画評論であり、AI、クラウド、プログラミング言語、アーキテクチャなどソフトウェアエンジニアリング領域への直接的な関連性がありません。技術革新や開発者への影響も確認できないため、一般消費者向け話題よりさらに低い評価とします。"
+    },
+    "ea5c449761caad572901f5afee574dd2": {
+      "score": 58,
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] AIモデルの判断基準や人間の意図への忠実性を定義するModel Specの更新は、将来のモデル挙動・安全性・エージェント設計に影響し得る重要な発表です。一方で、具体的な新モデルや性能向上、実装技術の詳細ではなく、主にガバナンスと行動原則の整理であるため、技術革新としての即時インパクトは限定的です。既出キーワードとの重複はあるものの、更新版という明確な"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 22,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 利用ポリシーの更新は、技術革新そのものではなく運用ルールや規約変更に該当するため、エンジニア向けの新規性・技術的インパクトは限定的です。さらにタイトルに既出キーワードの「2026」「Usage」が含まれ、直近記事との話題重複が強く、減点しました。スニペットが空欄で具体的な変更内容や影響範囲も判断できないため、低めの評価です。 [Editorial: "
+    },
+    "3d1ee8059c382044e2c20c3012712a1e": {
+      "score": 35,
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] Amazon Quickやagentic AIの活用事例を扱っていますが、内容はユーザーグループの活動報告と導入事例が中心で、技術仕様の刷新や新しいアーキテクチャ、製品発表ではありません。さらに、既出キーワードであるAmazon、agentic、AI、using、2026と同じ活用文脈に該当するため減点しました。実務上の参考価値はあるものの、業界全体"
+    },
+    "97b81aa2b79f8408026b406f33bb5339": {
+      "score": 54,
+      "title": "GitHub intelligence puts your code, context, and history to work",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] コードだけでなく、リポジトリ規約・チームの作業履歴・個人設定・カスタム指示をエージェントに活用させる方向性は、AI開発支援の精度や適用範囲を広げる重要な進展です。一方で、記事スニペットからは具体的な機能仕様、提供範囲、性能改善、導入効果が十分に確認できず、発表の新規性や実装インパクトを限定的にしか評価できません。また、GitHubおよびエージェント関"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 34,
+      "title": "September 28, 2026",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のカスタムコンテナイメージに含まれるCriticalおよびHighのCVEを一括修正する更新であり、利用者の安全性や運用継続性には重要ですが、新機能やアーキテクチャ上の革新ではなく、主に保守・脆弱性対応です。また、Agent系プラットフォームという既出キーワードに近い話題で、内容も新たな展開ではな"
+    },
+    "b1c5dbeed33383b99e75d5d68ee41bc3": {
+      "score": 35,
+      "title": "Binance pauses withdrawals as hackers suspected of stealing billions in crypto",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 大手暗号資産取引所Binanceで出金停止に至った大規模サイバー攻撃の疑いは、暗号資産業界や取引所のセキュリティ運用、資産保全に広範な影響を与え得る重要ニュースです。一方で、内容は新技術の革新ではなくセキュリティインシデントであり、現時点では被害額も推定にとどまっています。エンジニア視点では、秘密鍵管理、異常取引検知、インシデント対応、サービス継続性"
+    },
+    "518212dd2e4f5e01070af1db89074149": {
+      "score": 47,
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] AI業界大手による有料プランの利用上限倍増は、ユーザー体験や推論キャパシティ、B2B向け競争に影響する具体的な動きです。一方で、新モデルや基盤技術の発表ではなく、料金プランと利用枠の変更が中心で、技術革新としての新規性は限定的です。さらに、既出キーワードのOpenAI・usage・enterpriseに直接該当し、同じ競争・利用拡大の文脈として20点"
+    },
+    "31942fafa70fd6aaca296f6f018f177d": {
+      "score": 39,
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] AIの回答が選挙という政治的に敏感な質問に対して地域ごとに異なる挙動を示す点は、モデルの安全設計・バイアス・評価方法の観点では注目に値します。ただし、具体的な技術革新や新しいモデル、アーキテクチャの発表ではなく、主にAIの応答方針と信頼性に関する話題です。さらに、既出キーワードの「AI」「Google」に直接該当し、明確な新展開や続報である根拠もない"
+    },
+    "3f60c1c2c2cf3d7f60b5c9bf5d37e251": {
+      "score": 43,
+      "title": "What to Know About China’s Top-Secret Spaceplane",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 中国の極秘宇宙機に関する高解像度画像の公開は、再使用型宇宙機や宇宙安全保障の動向を把握するうえで注目度が高い。一方で、記事時点では性能・設計・運用目的などの具体情報が乏しく、ソフトウェアやIT業界のアーキテクチャを直接変える発表ではないため、中高程度の評価にとどめた。既出キーワードとの重複もない。"
+    },
+    "fa8dec2528c8976fb4e1f27b2ee92de9": {
+      "score": 2,
+      "title": "Apple’s iPhone Maker Confident of Meeting Surge in Duo Demand",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] Appleの折りたたみ端末に対する需要増加と、主要組立パートナーであるFoxconnの生産対応力に関するニュースであり、一般消費者向けハードウェアの需給見通しが中心です。製造規模やサプライチェーンには一定の関心がありますが、ソフトウェア、AI、クラウド、アーキテクチャなどの技術革新ではなく、エンジニアリング上の新規性や業界構造を大きく変える具体性も乏"
+    },
+    "525c49b85673987591b617a99d1adac5": {
+      "score": 41,
+      "title": "Everyone’s Using AI But Divisions Are Growing:  WTF Highlights",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] AIの普及に伴う投資先の選別や、モデル・半導体・データセンターを垂直統合できる企業への集中を論じた記事で、技術業界全体の資本配分を理解する材料にはなります。一方で、新しいモデル、アーキテクチャ、製品、OSSなどの具体的な技術革新はなく、内容はイベントでの市場見解が中心です。また、既に取り上げ済みのAI関連トピックと同じ角度の続報ではないため、重複分と"
+    },
+    "7c1af5d2428a5116800ed41d66159049": {
+      "score": 35,
+      "title": "ChatGPT Claude — ikinci görüş, tek dokunuş, ücretsiz",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] ChatGPTとClaudeを独立実行し、回答の一致点・相違点・追加確認事項を提示するマルチモデル検証ワークフローは、LLMの信頼性向上という観点で実用的かつ興味深い。オープンソースで、既存アプリを組み合わせて導入できる点や、独立評価の研究データを伴う点も具体性がある。一方で、基盤モデルや推論技術そのものの革新ではなく、iOSショートカットを中心とし"
+    },
+    "5907c75874d17c87c73222d67bc7ec3f": {
+      "score": 0,
+      "title": "The Great American Rascal - Claremont Review of Books",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 政治・文化に関する論考とみられ、AI、ソフトウェア、クラウド、プログラミング言語などの技術的な新規性やエンジニアリングへの直接的な影響が確認できません。記事スニペットもなく具体的な技術情報を評価できないため、テックニュースとしての重要度は最低水準です。 [Editorial: gadget topic -8]"
+    },
+    "3a3ae8c54c63894eb9b6354702851cc2": {
+      "score": 54,
+      "title": "How we detect frontier model misalignment",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] フロンティアモデルのミスアラインメントや無許可エージェント動作を、複数層の監視で早期検知するという内容は、AI安全性・運用アーキテクチャの観点で重要です。特に、モデルの挙動監視からインシデント対応までを実運用に組み込む点には技術的価値があります。一方で、記事は具体的な検知手法や評価結果よりも概念的な説明が中心で、業界の前提を変える新規発表とまでは言い"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-10-29",
+      "reason": "[ScoreCache 2026-10-29] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性、攻撃手法、製品影響、修正内容などの具体情報がなく、技術的な新規性や影響範囲を評価できません。セキュリティ関連は重要ではあるものの、記事内容が不明なため最低限の評価にとどめます。 [Editorial: AI-focused source +6]"
+    },
+    "60cb5bf8cf4af72da2aa5f0348a00c4c": {
+      "score": 58,
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 自然言語で記述したテストをAIエージェントがブラウザ上で実行し、AWS管理の実行環境とマルチテナント基盤によってチームごとのインフラ運用を不要にする点は、UIテスト自動化と開発者体験の改善に直結する実用的な技術です。特に、画面変更に比較的強いintent-driven testingをマネージドサービスとして提供する点には新規性があります。一方で、A"
+    },
+    "b2a3cbabaca59fd630ec3f6be4a713f0": {
+      "score": 49,
+      "title": "GitHub Copilot in VS Code, Universe releases",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] VS Code上のGitHub Copilotについて、利用モデルやエージェントの実行場所など開発ワークフローに関わる選択肢の拡充は、開発者体験と実装アーキテクチャに影響します。ただし、スニペットだけでは具体的な機能差や技術的ブレークスルーが不明で、既出キーワードであるGitHub・Copilot・AI・agentsと同一テーマの続報にあたるため、重"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新で、BigQuery JupyterLabプラグインの独立制御、Pre-Turing GPU向けCUDAドライバの事前導入、依存パッケージ更新など、機械学習・データ分析環境の運用性を改善する具体的な変更が含まれています。一方で、業界の前提を変える新技術ではなく、主な内容は定期的なリリースとCrit"
+    },
+    "7a7ca79b59b4da7f0493d160aeec0401": {
+      "score": 23,
+      "title": "Elon Musk is ‘truly a genius,’ says Vladimir Putin",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] ロシアの衛星通信プロジェクト「Rassvet」とStarlink類似インフラに関する話題で、宇宙通信や地政学的には一定の注目度があります。一方、記事の中心はプーチン氏によるマスク氏への評価と接触発言であり、技術仕様、実装状況、サービス開始時期などの具体性が乏しく、エンジニアリング上の新規性や実用的な影響は限定的です。既存のAI関連キーワードにも直接該"
+    },
+    "659ac20835af8d074a480334d11dc181": {
+      "score": 49,
+      "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] AIエージェントが専門家の判断を最大86%誘導し、その影響を本人が自分の考えだと認識していたという実証結果は、Human-in-the-loop設計、意思決定支援、評価手法、AI安全性に関わる重要な示唆があります。一方で、基盤技術の新発明や製品発表ではなく、対象者50人の研究結果であり、影響範囲や再現性には慎重な評価が必要です。また、既出のAI・エー"
+    },
+    "0edc50c9ed4d2b05c79bf6572c31552e": {
+      "score": 32,
+      "title": "Polymarket Halted International Trading After Hackers Drained Accounts",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] 第三者プロバイダーの侵害によってアカウント資産が流出し、取引停止に至った点は、サプライチェーンリスクや認証・資産管理の設計を考えるうえで重要です。一方で、内容は新技術の発表ではなく、既存サービスのセキュリティインシデントと運用対応です。取引再開と補償方針が示されているため影響は限定されつつありますが、原因や再発防止策の詳細が不明なため、セキュリティ関"
+    },
+    "71b698caf870736bfa91dc75a48ec0c1": {
+      "score": 43,
+      "title": "AI Slowdown Is More Macro Than Tied to One Company: T.Rowe Price’s Wang",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] AIチップ需要やクラウド投資の収益化、サプライチェーンのボトルネックに触れており、AIインフラ市場の実行上の課題を把握するには有益です。一方で、新しい技術や製品、アーキテクチャの発表ではなく、投資家によるマクロ経済・企業業績の見通しが中心で、エンジニアリングへの直接的な影響は限定的です。AI関連の既存テーマとの重複も考慮し、中程度の評価としました。 "
+    },
+    "b1ea2d80ca3ad8a4120445ef9ab67d92": {
+      "score": 28,
+      "title": "ServiceNow Shares Drop 19% After Earnings As SaaSpocalypse Fears Persist",
+      "date": "2026-10-30",
+      "reason": "[Claude API Evaluation] ServiceNowの業績と株価急落はSaaS市場やITサービス企業の需要見通しを示す材料ですが、技術革新や新しいアーキテクチャ、製品機能の発表ではなく、主に投資家心理と成長率への懸念に関するニュースです。エンジニアにとってはSaaS投資環境や企業向けIT支出の変化を把握する参考にはなるものの、直接的な技術的影響や実装上の新規性は限定的です。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-30/blog.md",
+    "show_notes_path": "out/2026-10-30/show_notes.md",
+    "script_path": "out/2026-10-30/script_2hosts.md",
+    "audio_path": "out/2026-10-30/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-30/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-30/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 26823,
+        "output_tokens": 10108,
+        "cost_usd": 0.017494
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 44653,
+        "output_tokens": 9013,
+        "cost_usd": 0.179436
+      }
+    ],
+    "tts": {
+      "chars": 4447,
+      "audio_sec": 667.4,
+      "cost_usd": 0.128689
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.325619
+  }
+}

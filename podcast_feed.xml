@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#212 より高性能で有益なAIのための「モデル仕様」の更新版 ほか</title>
+      <description>Tech News Radio Show Notes - #212 (2026-10-30)
+
+エピソード情報
+• エピソード: #212
+• 日付: 2026-10-30
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• An updated Model Spec for more capable and beneficial AI (https://openai.com/index/updated-model-spec)
+• Building intent-driven UI testing with Amazon Nova Act (https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/)
+• GitHub intelligence puts your code, context, and history to work (https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work)
+
+注目の深掘り
+• How we detect frontier model misalignment (https://openai.com/index/how-we-detect-frontier-model-misalignment)
+• How we detect frontier model misalignment (https://openai.com/index/securing-our-frontier-model-training-environment)
+• How we detect frontier model misalignment (https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/)
+
+小ネタ・その他
+• GitHub Copilot in VS Code, Universe releases (https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases)
+• Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds (https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-30/episode_audio.mp3" length="10905645" type="audio/mpeg" />
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-30</guid>
+      <itunes:duration>11:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>より高性能で有益なAIのための「モデル仕様」の更新版 ほか</itunes:title>
+      <itunes:episode>212</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #212 (2026-10-30)
+
+エピソード情報
+• エピソード: #212
+• 日付: 2026-10-30
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• An updated Model Spec for more capable and beneficial AI (https://openai.com/index/updated-model-spec)
+• Building intent-driven UI testing with Amazon Nova Act (https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/)
+• GitHub intelligence puts your code, context, and history to work (https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work)
+
+注目の深掘り
+• How we detect frontier model misalignment (https://openai.com/index/how-we-detect-frontier-model-misalignment)
+• How we detect frontier model misalignment (https://openai.com/index/securing-our-frontier-model-training-environment)
+• How we detect frontier model misalignment (https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/)
+
+小ネタ・その他
+• GitHub Copilot in VS Code, Universe releases (https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases)
+• Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds (https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-30/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:23.780" title="An updated Model Spec for more capable and beneficial AI" href="https://openai.com/index/updated-model-spec" />
+        <psc:chapter start="00:02:07.170" title="Building intent-driven UI testing with Amazon Nova Act" href="https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/" />
+        <psc:chapter start="00:03:53.500" title="GitHub intelligence puts your code, context, and history to work" href="https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work" />
+        <psc:chapter start="00:05:29.850" title="How we detect frontier model misalignment" href="https://openai.com/index/how-we-detect-frontier-model-misalignment" />
+        <psc:chapter start="00:07:27.410" title="GitHub Copilot in VS Code, Universe releases" href="https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases" />
+        <psc:chapter start="00:09:19.240" title="Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds" href="https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/" />
+        <psc:chapter start="00:10:53.030" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#211 グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開…</title>
       <description>Tech News Radio Show Notes - #211 (2026-10-29)
 

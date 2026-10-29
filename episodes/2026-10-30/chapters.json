@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 23.78,
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "url": "https://openai.com/index/updated-model-spec"
+  },
+  {
+    "start_sec": 127.17,
+    "title": "Building intent-driven UI testing with Amazon Nova Act",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/"
+  },
+  {
+    "start_sec": 233.5,
+    "title": "GitHub intelligence puts your code, context, and history to work",
+    "url": "https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work"
+  },
+  {
+    "start_sec": 329.85,
+    "title": "How we detect frontier model misalignment",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+  },
+  {
+    "start_sec": 447.41,
+    "title": "GitHub Copilot in VS Code, Universe releases",
+    "url": "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases"
+  },
+  {
+    "start_sec": 559.24,
+    "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+    "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/"
+  },
+  {
+    "start_sec": 653.03,
+    "title": "エンディング",
+    "url": null
+  }
+]
