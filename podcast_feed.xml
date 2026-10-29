@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#211 グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開…</title>
+      <description>Tech News Radio Show Notes - #211 (2026-10-29)
+
+エピソード情報
+• エピソード: #211
+• 日付: 2026-10-29
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board (https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/)
+• Building an Agentic AI Platform on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/)
+• Building an Agentic AI Platform on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/)
+• Google is Having a TPU Moment (https://www.theinformation.com/articles/google-tpu-moment)
+
+注目の深掘り
+• OpenAI and ServiceNow expand partnership across enterprise workflows (https://openai.com/index/openai-servicenow-partnership-expansion)
+
+小ネタ・その他
+• GitHub Enterprise now includes access to GitHub Copilot (https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot)
+• Route and orchestrate models with GitHub Copilot Fusion (https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion)
+• Route and orchestrate models with GitHub Copilot Fusion (https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-29/episode_audio.mp3" length="10449837" type="audio/mpeg" />
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-29</guid>
+      <itunes:duration>10:53</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開…</itunes:title>
+      <itunes:episode>211</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #211 (2026-10-29)
+
+エピソード情報
+• エピソード: #211
+• 日付: 2026-10-29
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board (https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/)
+• Building an Agentic AI Platform on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/)
+• Building an Agentic AI Platform on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/)
+• Google is Having a TPU Moment (https://www.theinformation.com/articles/google-tpu-moment)
+
+注目の深掘り
+• OpenAI and ServiceNow expand partnership across enterprise workflows (https://openai.com/index/openai-servicenow-partnership-expansion)
+
+小ネタ・その他
+• GitHub Enterprise now includes access to GitHub Copilot (https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot)
+• Route and orchestrate models with GitHub Copilot Fusion (https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion)
+• Route and orchestrate models with GitHub Copilot Fusion (https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-29/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.500" title="Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board" href="https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/" />
+        <psc:chapter start="00:02:00.880" title="Building an Agentic AI Platform on Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:04:03.280" title="Google is Having a TPU Moment" href="https://www.theinformation.com/articles/google-tpu-moment" />
+        <psc:chapter start="00:05:51.630" title="OpenAI and ServiceNow expand partnership across enterprise workflows" href="https://openai.com/index/openai-servicenow-partnership-expansion" />
+        <psc:chapter start="00:07:43.320" title="GitHub Enterprise now includes access to GitHub Copilot" href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot" />
+        <psc:chapter start="00:09:08.990" title="Route and orchestrate models with GitHub Copilot Fusion" href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion" />
+        <psc:chapter start="00:10:22.700" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#210 グーグル・ディープマインドの「Genie 4」、LLM以前のエージェント設計に現代的な解釈を加える ほか</title>
       <description>Tech News Radio Show Notes - #210 (2026-10-28)
 

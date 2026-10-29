@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-29",
+  "episode_date_local": "2026-10-29",
+  "content_snapshot_date": "2026-10-29",
+  "show_length_sec": 653,
+  "audio_size": 10449837,
+  "generated_at": "2026-10-29T00:06:08.552783+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-274c84b9",
+      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+      "title_ja": "グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開、全面的に性能向上",
+      "one_liner": "Google、Gemini 4 Carbonを公開",
+      "fingerprint": "274c84b9c5e7460660dddcf076137147",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6c9e6acb",
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreで構築するエージェント型AIプラットフォーム",
+      "one_liner": "Bedrock AgentCoreで作るAIエージェント基盤",
+      "fingerprint": "6c9e6acbdc97c3c73a4e4cd4aeca6b99",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-4814e435",
+      "title": "Google is Having a TPU Moment",
+      "title_ja": "Google、TPUで脚光を浴びる",
+      "one_liner": "GoogleのTPUに、顧客の需要が集まっています",
+      "fingerprint": "4814e435a07c7bb049f930f164a4093a",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-d393c007",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "title_ja": "OpenAIとServiceNow、エンタープライズワークフロー全般に提携を拡大",
+      "one_liner": "OpenAIとServiceNowが提携を拡大",
+      "fingerprint": "d393c007b7949a86a4322b3545ae15b1",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-5ab0c870",
+      "title": "GitHub Enterprise now includes access to GitHub Copilot",
+      "title_ja": "GitHub Enterpriseに、GitHub Copilotが利用可能に",
+      "one_liner": "GitHub EnterpriseにCopilotが標準で付属",
+      "fingerprint": "5ab0c870e4702e188f77653b5a1538c8",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-59df69a3",
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "title_ja": "GitHub Copilot Fusionでモデルをルーティング・オーケストレーション",
+      "one_liner": "Copilot Fusionが一般提供開始",
+      "fingerprint": "59df69a3eb83ad8beb0dafbe35fdf0c9",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-b1029caf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform"
+    },
+    {
+      "item_id": "item-245e4d23",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Distributed training with Ray Train DLCs and EFA on EKS"
+    },
+    {
+      "item_id": "item-24e33325",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The future of the firm"
+    },
+    {
+      "item_id": "item-2abdd0d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-31942faf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google AI gets cagey when asked who won the 2020 elections"
+    },
+    {
+      "item_id": "item-39c881bf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Equinix Says Data-Project Barriers Could Boost Its Pricing Power"
+    },
+    {
+      "item_id": "item-18fe8fc8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Counting the Bandages: On measuring the time that AI saves"
+    },
+    {
+      "item_id": "item-6ac913c7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets"
+    },
+    {
+      "item_id": "item-660f94a2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is an 8GB ARC A750 GPU for $160 a Worthwhile Upgrade for Your Workloads?"
+    },
+    {
+      "item_id": "item-c62103d4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upwind raises $400M after walking away from Datadog acquisition offer"
+    },
+    {
+      "item_id": "item-636ab05c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Form Studio 1 | Professional Desktop 3D Printer for Anyone"
+    },
+    {
+      "item_id": "item-b09a184a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-7adb37ec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal"
+    },
+    {
+      "item_id": "item-392c025c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme"
+    }
+  ],
+  "score_cache": {
+    "b09a184af53a7b8e1ff2ccb36fc9610e": {
+      "score": 32,
+      "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] GitLabに対するCVE-2026-97229の悪用試行は、実運用環境の防御やパッチ適用を検討するうえで一定の重要性があります。ただし、主題は特定製品のセキュリティインシデントであり、AIやクラウド基盤、主要言語の進化のように技術業界全体の前提を変えるニュースではありません。脆弱性・セキュリティ運用に関する記事として、低評価帯の中では具体的な攻撃動"
+    },
+    "d393c007b7949a86a4322b3545ae15b1": {
+      "score": 58,
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] OpenAIのモデルとエージェントをServiceNowの業務ワークフローへ組み込み、逆にServiceNowの業務データや機能をChatGPT・Codexから利用可能にする点は、企業向けAIの実運用やシステム連携に影響する重要な発表です。一方で、既存パートナーシップの拡大であり、基盤モデルやアーキテクチャ自体の革新ではありません。また、AI、Ope"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 22,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] 利用ポリシーの更新は、技術革新よりも運用ルールや規約変更に関する話題であり、エンジニアリング上の新規性や具体的な実装情報が見えません。さらに、既出キーワードの「2026」「usage」と同じ角度のタイトルで、明確な新展開を示す情報もないため減点しました。 [Editorial: AI-focused source +6]"
+    },
+    "6c9e6acbdc97c3c73a4e4cd4aeca6b99": {
+      "score": 66,
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] エージェント型AIを本番運用するためのマルチアカウント構成、コントロールプレーン、Workstream単位のセル分割、推論・ツールゲートウェイ分離、CI/CDでの評価ゲートなど、実装に直結する具体的なアーキテクチャとオープンソースのリファレンス設計が示されており、技術的な実用性と影響範囲は高い。一方で、AI・Agent・AWSに関する既出テーマと重な"
+    },
+    "59df69a3eb83ad8beb0dafbe35fdf0c9": {
+      "score": 54,
+      "title": "Route and orchestrate models with GitHub Copilot Fusion",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] 複数のモデルをタスクごとに手動選択せず、GitHub Copilotが推論内容に応じてモデルをルーティング・オーケストレーションする機能の一般提供は、開発者体験とAI活用基盤に影響する実用的な進展です。一方で、既存のAI・モデル・GitHub Copilot関連の話題と直接重複しており、今回は一般提供という続報にとどまるため20点減点しました。革新的"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 29,
+      "title": "September 28, 2026",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新ですが、内容は上流依存パッケージの更新と、カスタムコンテナイメージに含まれるCritical／High深刻度CVEの一括修正であり、機能革新やアーキテクチャ上の新規性は限定的です。セキュリティ修正として運用上の重要性はあるものの、既存の「agents」関連トピックと同一領域で、明確な新機能や新展開"
+    },
+    "c62103d40f7633c6463076c1d1f7467a": {
+      "score": 36,
+      "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] クラウドセキュリティ企業UpwindがDatadogによる買収提案を断り、同水準の評価額で4億ドルを調達した点は、セキュリティ市場とスタートアップ投資の動向として注目に値します。一方で、技術仕様や新しいアーキテクチャの発表ではなく、資金調達とM&A判断が中心です。セキュリティ領域という評価基準上の減点要素もあり、業界の前提を変えるほどの技術革新ではな"
+    },
+    "274c84b9c5e7460660dddcf076137147": {
+      "score": 95,
+      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] Gemini 4 Carbonの新モデル投入は、AI基盤モデルの性能競争と長時間のエージェントワークフロー、サイバー防御への応用に直結するため、技術ニュースとして非常に重要です。特にArtificial Analysis Intelligence Index v5で首位を獲得し、サイバー防御ライフサイクル全体を想定している点は、実運用志向の進展として"
+    },
+    "31942fafa70fd6aaca296f6f018f177d": {
+      "score": 47,
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] AIの政治的質問に対する回答方針や地域差は、モデルの安全設計、バイアス、信頼性を考えるうえでエンジニアにとって一定の重要性があります。一方で、具体的な技術革新や新しいアーキテクチャの発表ではなく、既存AIの応答挙動に関する検証記事にとどまります。さらに、AIやGoogleなど直近に取り上げ済みのキーワードと同じ領域の話題であるため、重複分として減点し"
+    },
+    "7adb37ec182399e9a52941b6c5e76a7a": {
+      "score": 10,
+      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] 新型MacBookの2,000ニットOLEDディスプレイは、表示品質やHDR体験としては技術的に興味深いものの、主に一般消費者向けハードウェアの製品特性に関する話題です。ソフトウェア開発、クラウド、AI、アーキテクチャなどへの直接的な影響は限定的で、評価基準上は最低評価帯に該当します。"
+    },
+    "39c881bf4df1a2c2f684af6fd4f9e0ea": {
+      "score": 47,
+      "title": "Equinix Says Data-Project Barriers Could Boost Its Pricing Power",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] データセンター新設の規制・電力・用地などの障壁が、既存設備の希少性や価格決定力を高めるという、クラウドおよびインフラ市場に影響する話題です。データセンター供給、コロケーション価格、AI基盤の配置コストにも波及し得る一方、具体的な技術革新や新アーキテクチャの発表ではなく、主に事業環境と市場構造の分析に留まるため、中程度の評価としました。"
+    },
+    "4814e435a07c7bb049f930f164a4093a": {
+      "score": 60,
+      "title": "Google is Having a TPU Moment",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] Google TPUの外部データセンター展開、Oracleによる提供開始、OpenAIの導入計画、Anthropicの巨額コミットメントなど、AIインフラの勢力図とNvidia依存を変え得る具体的な動きが複数含まれており、技術・クラウド事業への影響は大きい。一方で、TPU自体は新技術の発表ではなく、主題がAI、Google、OpenAIなど直近に取り"
+    },
+    "18fe8fc83d365710488ca6b80864cf3a": {
+      "score": 42,
+      "title": "Counting the Bandages: On measuring the time that AI saves",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] AI支援による時間短縮を、単純な作業時間ではなく、見逃された欠陥（品質低下）とのトレードオフとして評価する研究であり、開発生産性やAI導入効果の測定に有用な視点です。特に「時間短縮」と「追加欠陥」を組み合わせた損益分岐点の考え方は、エンジニアリング組織のKPI設計に応用できます。一方で、基礎的な測定フレームワークの提案にとどまり、具体的な大規模実証や"
+    },
+    "2abdd0d33dd3e4b5e02382e9702915fe": {
+      "score": 48,
+      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] LLMエージェントのハーネスをモデル更新なしで自己進化させ、モデル能力に応じてスキルやガイダンスを適応させる研究であり、エージェント運用の実効性能や評価設計に関わる技術的価値は高いです。一方で、既に取り上げ済みのAI・モデル・エージェント領域と同じ大枠に属し、業界の前提を変える実用化や製品化の発表ではなく、現時点ではarXiv上の研究段階です。そのた"
+    },
+    "6ac913c79483a5337b426a40ff023ab1": {
+      "score": 37,
+      "title": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] 個人情報（PII）を含む文脈依存のマスキング用データセットを、実データへのアクセス制約を回避しつつ関係性ベースで構築する研究であり、プライバシー保護と機械学習データ品質の両面で技術的意義があります。一方、基盤モデルやシステムアーキテクチャそのものを刷新する発表ではなく、影響範囲は研究・データ生成領域に限定されます。また、既出キーワードの「traini"
+    },
+    "660f94a2c350431f8d5661551f6b9efb": {
+      "score": 37,
+      "title": "Is an 8GB ARC A750 GPU for $160 a Worthwhile Upgrade for Your Workloads?",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] サーバー用途におけるGPU選定やJellyfinのトランスコード、ゲームストリーミング、物体検出など、実務的なハードウェア活用の知見はあります。ただし、特定価格のARC A750と中古NVIDIA GPUを比較する個別の購入判断記事であり、業界全体への影響や技術革新性は限定的です。加えて、ARC A750の消費電力を75Wとしている点など技術的な記述"
+    },
+    "636ab05cd348277686131c7ccd6def1c": {
+      "score": 36,
+      "title": "Form Studio 1 | Professional Desktop 3D Printer for Anyone",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] プロフェッショナル向けデスクトップ3Dプリンターは、試作や少量生産の短縮に寄与する実用的なハードウェアですが、記事タイトルだけでは新規な印刷方式や材料、ソフトウェア連携、従来機からの技術的飛躍が確認できません。AIやクラウド基盤のようにソフトウェア業界全体へ波及する内容でもないため、中低評価としました。一般消費者向けガジェットよりは技術・開発用途の専"
+    },
+    "24e333258a9335f74e8f6428a935df12": {
+      "score": 49,
+      "title": "The future of the firm",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] AIが組織図や企業の役割分担にどう組み込まれるかを論じる記事で、ソフトウェア開発や業務設計への示唆はあります。一方で、タイトルとスニペットからは具体的な新技術、製品発表、アーキテクチャ変更、実装事例が確認できず、概念的な分析にとどまります。既出キーワードのAIに関連しますが、組織設計という別角度の話題であり、機械的な減点は適用しません。 [Edito"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] タイトルが「Security」のみで、脆弱性、攻撃手法、製品影響、修正内容などの具体情報がなく、技術的な新規性や影響範囲を評価できません。セキュリティ関連は重要ではあるものの、記事内容が不明なため最低限の評価にとどめます。 [Editorial: AI-focused source +6]"
+    },
+    "245e4d234977164e68a10675f7c298b1": {
+      "score": 51,
+      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] Ray Train、PyTorch FSDP、EFA、EKSを組み合わせ、CUDAからネットワーク通信まで含むDLCをそのまま使って分散学習環境を再現できる点は、AIインフラを実装するエンジニアにとって実用性が高いです。特に2台・8 GPU構成でQwen2.5-1.5Bのファインチューニングを具体化しており、導入障壁を下げる内容です。一方で、既存技術"
+    },
+    "5ab0c870e4702e188f77653b5a1538c8": {
+      "score": 58,
+      "title": "GitHub Enterprise now includes access to GitHub Copilot",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] GitHub Enterpriseの契約ユーザー全員にGitHub Copilotを含められるようになるため、企業の導入・ライセンス管理を簡素化し、Copilotの利用拡大を促す実務上の影響は大きいです。一方で、AI機能や開発アーキテクチャ自体の新技術ではなく、主に料金体系・契約運用の変更です。既出のGitHub／Copilot関連テーマに近いものの"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 48,
+      "title": "October 04, 2026",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] クラウド上のAI開発環境におけるJupyterLab連携、BigQueryプラグインの設定分離、旧世代GPU向けCUDAドライバの事前導入など、実運用の利便性と互換性を改善するリリースです。また、カスタムコンテナのCritical/High脆弱性修正は重要ですが、革新的なアーキテクチャ変更や新機能の発表ではなく、主に保守・運用改善に留まります。Age"
+    },
+    "392c025cbc0d8d8717e3f8543c4ae230": {
+      "score": 10,
+      "title": "Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] タッチスクリーン搭載MacBook Proという製品仕様の話題ですが、一般消費者向けハードウェアの価格・構成に関するニュースであり、ソフトウェア技術や開発者向け基盤への影響は限定的です。約14,549ドルという極端な価格設定は注目性があるものの、業界の技術的前提を変える発表ではないため、最低評価帯としました。"
+    },
+    "b1029cafa2cd19d530bff3cbb7b4dda9": {
+      "score": 54,
+      "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
+      "date": "2026-10-29",
+      "reason": "[Claude API Evaluation] OpenAIが開発者を自社インフラ上に囲い込むプラットフォーム戦略を示しており、開発者エコシステムやAIアプリの事業基盤という観点では重要です。欧州でのDots展開やドイツにおけるCodex利用者の急増も具体的な進展です。一方で、記事の大部分は既存発表の反復で、技術仕様や新アーキテクチャの詳細は乏しく、AI・OpenAI関連は直近の既出テーマでもある"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-29/blog.md",
+    "show_notes_path": "out/2026-10-29/show_notes.md",
+    "script_path": "out/2026-10-29/script_2hosts.md",
+    "audio_path": "out/2026-10-29/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-29/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-29/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 33788,
+        "output_tokens": 10655,
+        "cost_usd": 0.019544
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 47337,
+        "output_tokens": 9536,
+        "cost_usd": 0.190034
+      }
+    ],
+    "tts": {
+      "chars": 4329,
+      "audio_sec": 638.6,
+      "cost_usd": 0.123152
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.33273
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.5,
+    "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+    "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/"
+  },
+  {
+    "start_sec": 120.88,
+    "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 243.28,
+    "title": "Google is Having a TPU Moment",
+    "url": "https://www.theinformation.com/articles/google-tpu-moment"
+  },
+  {
+    "start_sec": 351.63,
+    "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+    "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+  },
+  {
+    "start_sec": 463.32,
+    "title": "GitHub Enterprise now includes access to GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot"
+  },
+  {
+    "start_sec": 548.99,
+    "title": "Route and orchestrate models with GitHub Copilot Fusion",
+    "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"
+  },
+  {
+    "start_sec": 622.7,
+    "title": "エンディング",
+    "url": null
+  }
+]

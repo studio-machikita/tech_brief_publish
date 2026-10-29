@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開… | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="Gemini 4 CarbonがArgonの2週間後に登場した">
+<meta property="og:title" content="Tech News Radio — グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開…">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-29/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-10-29/">
+<meta property="og:description" content="Gemini 4 CarbonがArgonの2週間後に登場した">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-10-29">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-10-29/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開…",
+    "description": "2026-10-29 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-29",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-29/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-10-29/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開…",
+    "description": "2026-10-29 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-29",
+    "url": "https://technewsradio.tokyo/episodes/2026-10-29/",
+    "duration": "PT10M53S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-29/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-29/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-29/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-10-29</h1>
+<p><em>📖 約16分で読めます ｜ 🏷️ AI, LLM, Security, Cloud, DevOps</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開、全面的に性能向上</strong> — Google、Gemini 4 Carbonを公開</li>
+<li>🤖 <strong>Amazon Bedrock AgentCoreで構築するエージェント型AIプラットフォーム</strong> — Bedrock AgentCoreで作るAIエージェント基盤</li>
+<li>🤖 <strong>Google、TPUで脚光を浴びる</strong> — GoogleのTPUに、顧客の需要が集まっています</li>
+<li>🤖 <strong>OpenAIとServiceNow、エンタープライズワークフロー全般に提携を拡大</strong> — OpenAIとServiceNowが提携を拡大</li>
+<li>🤖 <strong>GitHub Enterpriseに、GitHub Copilotが利用可能に</strong> — GitHub EnterpriseにCopilotが標準で付属</li>
+<li>🤖 <strong>GitHub Copilot Fusionでモデルをルーティング・オーケストレーション</strong> — Copilot Fusionが一般提供開始</li>
+</ul>
+<hr />
+<h2>🤖 グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開、全面的に性能向上</h2>
+<p><code>AI</code> <code>LLM</code> <code>Security</code></p>
+<details><summary>📄 原題: Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Google、Gemini 4 Carbonを公開</p>
+</blockquote>
+<ul>
+<li>Gemini 4 Argonのわずか2週間後に新モデルを発表</li>
+<li>Artificial Analysis Intelligence Index v5で59点の首位</li>
+<li>長時間のエージェント作業に向けた設計とされる</li>
+<li>サイバー防御の全工程を支援する用途も想定</li>
+<li>高度なセキュリティ能力のため、当初は一部の専門家に限定</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIモデルの更新サイクルが、数か月単位から数週間単位へと短くなっています。今回も前モデルから2週間での登場です。注目点は性能の高さだけではありません。サイバー防御の能力が高く、悪用の恐れもあるため、公開範囲を選ばれたセキュリティ専門家に絞っています。高性能なAIをどこまで、誰に公開するかという運用の判断が、開発競争と並んで重要になっていることがわかります。エージェント（自律的に作業を進めるAI）の長時間稼働への対応も、実用化が進んでいる流れを示しています。 モデルの世代交代が速くなると、ベンチマークの首位も短期間で入れ替わります。企業は特定のモデルに依存しすぎない設計が求められるでしょう。セキュリティ分野では、防御側にAIを先行して使わせる「限定公開」が広がる可能性があります。一方で、攻撃側が同等の力を持つ前に守りを固められるかが問われます。エージェントの長時間運用が当たり前になれば、権限管理や監査の仕組みも、開発現場の標準的な課題になると見られます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、使っているAIモデルを短期間で差し替えられる構成になっているか、点検してください。モデル名を設定に切り出し、評価用のテストを用意しておくと移行が楽になります。次に、セキュリティ担当者は限定公開の動向を追い、利用申請の条件を確認しておくとよいでしょう。エージェントを業務に入れる場合は、与える権限を最小限にし、操作の記録を残す運用を今から整えておくことをおすすめします。</p>
+<p>🔗 <a href="https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon Bedrock AgentCoreで構築するエージェント型AIプラットフォーム</h2>
+<p><code>AI</code> <code>Cloud</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Building an Agentic AI Platform on Amazon Bedrock AgentCore</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Bedrock AgentCoreで作るAIエージェント基盤</p>
+</blockquote>
+<ul>
+<li>複数アカウントで統制された Agentic AI Platform の構築手順</li>
+<li>運用モデルとコントロールプレーンを軸にした設計</li>
+<li>Workstreamごとに分けた「セル」で業務単位に隔離</li>
+<li>推論用とツール用でゲートウェイを分離</li>
+<li>CI/CDの評価パイプラインで本番前にエージェントを審査</li>
+<li>オープンソースのリファレンス設計も公開</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントは、試作段階を超えて社内の業務システムに組み込まれ始めています。そこで問題になるのが、誰がどのエージェントをどの権限で動かすのかという統制です。チームごとに個別にエージェントを作ると、権限管理、コスト管理、品質確認がばらばらになりがちです。この記事は、Amazon Bedrock AgentCore の上に、複数のAWSアカウントをまたぐ共通基盤を作る考え方を示しています。技術だけでなく、運用モデル（誰が何に責任を持つか）まで含めて設計している点が特徴です。 AIエージェントの開発は、個人の工夫から、プラットフォームエンジニアリング（共通基盤を作って各チームに提供する手法）の領域へ移っていくと見られています。アプリのCI/CDと同じように、エージェントも評価に通らなければ本番に出せない流れが標準になりそうです。また、推論とツールの出入口を分けて管理する設計は、監査やセキュリティ対応の定番になる可能性があります。クラウド各社が同様の統制の仕組みを競って整備することも考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず自社のエージェント開発で、権限、ログ、コストの管理が誰の責任になっているかを洗い出してください。次に、公開されているオープンソースのリファレンスを読み、自社のアカウント構成に当てはめて差分を確認すると効率的です。小さな業務単位で「セル」を試作し、評価パイプラインで品質を測る流れを先に作っておくと、本格展開時の手戻りを減らせます。リーダーは、エージェントを本番に出す合格基準を早めに決めておくことが大切です。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/">原文を読む</a></p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/">原文を読む</a></p>
+<hr />
+<h2>🤖 Google、TPUで脚光を浴びる</h2>
+<p><code>AI</code> <code>Hardware</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Google is Having a TPU Moment</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: GoogleのTPUに、顧客の需要が集まっています</p>
+</blockquote>
+<ul>
+<li>OracleがTPUを自社データセンターで提供する最初の大手に</li>
+<li>OpenAIもGoogleのTPUを購入する計画と報じられる</li>
+<li>Anthropicは目論見書でGoogle Cloudに1,145億ドルの支出を計画</li>
+<li>TD Cowenは2028年にTPU事業が1,380億ドル規模になると予測</li>
+<li>NvidiaはMetaとの提携拡大で主要顧客の引き留めを図る</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+TPU（Tensor Processing Unit）は、Googleが10年以上前に社内向けに使い始めたAI専用チップです。2018年にGoogle Cloud経由で社外にも提供され、最近はFluidstackやOracleのデータセンターでも動かす契約が増えています。Googleが外部データセンター向けのTPU販売で売上を計上し始めたのは前四半期からで、売上の大半は来年以降に立つと財務責任者が説明しています。AI向けチップはNvidiaがほぼ独占してきましたが、大口顧客がGoogleのTPUに動き始めたことで、その構図が変わるかどうかに注目が集まっています。 AIチップの調達先がNvidia一強から複数に分かれると、価格や供給の面で交渉の余地が広がります。一方で、TD Cowenの予測する2028年のTPU売上1,380億ドルは、Nvidiaが見込まれる6,920億ドルの2割ほどです。当面はNvidiaが優位を保つ可能性が高いと見られます。Nvidiaも黙ってはおらず、MetaにはNvidiaから30億ドルを出資して関係を固めました。AI企業の巨額の設備投資がチップ供給元の競争を激しくし、クラウド各社のサービス構成にも影響が及ぶでしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアやリーダーは、AIの学習や推論をNvidiaのGPUだけに頼る設計を見直す価値があります。TPUを使えるクラウドが増えるので、性能とコストを比べられるよう、ワークロードの移植しやすさを確認しておくと安心です。特定のベンダーに縛られないよう、フレームワークやコードの依存関係を点検しておくとよいでしょう。Googleは今週の決算発表でTPUについて語るとみられるため、その内容も確認しておくと判断材料になります。</p>
+<p>🔗 <a href="https://www.theinformation.com/articles/google-tpu-moment">原文を読む</a></p>
+<hr />
+<h2>🤖 OpenAIとServiceNow、エンタープライズワークフロー全般に提携を拡大</h2>
+<p><code>AI</code> <code>LLM</code> <code>Business</code></p>
+<details><summary>📄 原題: OpenAI and ServiceNow expand partnership across enterprise workflows</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIとServiceNowが提携を拡大</p>
+</blockquote>
+<ul>
+<li>OpenAIとServiceNowが提携を拡大</li>
+<li>OpenAIのモデルとエージェントをServiceNowに組み込む</li>
+<li>ServiceNowのワークフローをChatGPTとCodexへ展開</li>
+<li>両社の製品が双方向でつながる形</li>
+<li>企業の業務フロー全体でAI活用を広げる狙い</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+企業の業務システムでは、申請や承認、問い合わせ対応などの定型作業がワークフロー（業務の流れを自動化する仕組み）として動いています。ServiceNowはこうした企業向けワークフローの基盤として広く使われています。一方、OpenAIのモデルは文章理解や生成、コード作成が得意です。今回の提携拡大は、AIが自律的にタスクをこなす「エージェント」を、実際の業務基盤の中で動かす流れの一つと見られています。チャットで質問するだけのAIから、業務を実行するAIへ。そんな移行が進んでいることがうかがえます。 業務基盤の側にAIを組み込む動きと、AIの側から業務基盤を呼び出す動きが、同時に進みそうです。この両方向の連携が当たり前になれば、企業のIT部門が担う仕事の中身も変わっていくでしょう。定型的な運用作業はAIに任せ、人は例外対応や設計、ガバナンス（統制）に集中する形です。また、大手のAI事業者と業務ソフトの事業者が組む例は今後も増えると考えられます。競合する各社の囲い込みや連携の方針にも影響しそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社の業務で自動化の余地が大きいワークフローを洗い出しておくと役立ちます。申請処理やインシデント対応など、手順が決まっている業務が候補です。次に、AIエージェントに任せる範囲と、人が必ず確認する範囲を決めておきましょう。権限管理や監査ログの設計も、早めに検討しておきたい点です。ServiceNowをすでに使っている組織は、今後の機能提供の発表を追い、小さな業務で試験導入することをおすすめします。エンジニアは、エージェントを前提にした業務設計の経験を積んでおくと強みになります。</p>
+<p>🔗 <a href="https://openai.com/index/openai-servicenow-partnership-expansion">原文を読む</a></p>
+<hr />
+<h2>🤖 GitHub Enterpriseに、GitHub Copilotが利用可能に</h2>
+<p><code>AI</code> <code>DevOps</code> <code>Business</code></p>
+<details><summary>📄 原題: GitHub Enterprise now includes access to GitHub Copilot</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: GitHub EnterpriseにCopilotが標準で付属</p>
+</blockquote>
+<ul>
+<li>GitHub Enterpriseの全ライセンスユーザーにCopilotが含まれる</li>
+<li>対象はGitHubまたはMicrosoftの担当チームと契約する企業</li>
+<li>従来は2つのライセンス数を別々に管理していた</li>
+<li>管理の手間を減らし、導入のハードルを下げる狙い</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIコーディング支援は、多くの開発現場で使われ始めています。一方で、企業では開発基盤のライセンスとAI支援ツールのライセンスを別々に契約し、利用人数を合わせる作業が必要でした。今回の変更で、Copilotは特別な追加ツールから開発基盤の標準機能に近い位置づけへ移ります。GitHubとMicrosoftの担当チームを通じた契約が対象だそうです。 AI支援が全開発者に行き渡る前提で、開発プロセスを設計する企業が増えると見られています。ライセンス管理が簡単になれば、小規模な試験導入から全社展開への移行も進みやすくなります。競合のAIコーディングツールにとっては、企業向け市場で価格や付加価値の見直しを迫られる可能性があります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社のGitHub Enterprise契約とCopilot契約の現状を確認してください。担当チーム経由の契約かどうかで対象になるかが決まるため、営業窓口に条件を問い合わせるのが近道です。リーダーは、全員が使える状態になったときの利用ルールを先に決めておくと安心です。コードレビューの基準やセキュリティ方針、効果測定の指標を整えておくと、導入後の混乱を防げます。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot">原文を読む</a></p>
+<hr />
+<h2>🤖 GitHub Copilot Fusionでモデルをルーティング・オーケストレーション</h2>
+<p><code>AI</code> <code>LLM</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Route and orchestrate models with GitHub Copilot Fusion</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Copilot Fusionが一般提供開始</p>
+</blockquote>
+<ul>
+<li>GitHub Copilot Fusionが一般提供（GA）に</li>
+<li>タスクごとにモデルを選ぶ手間が不要に</li>
+<li>Copilotが使うモデルを自動で振り分ける</li>
+<li>複数モデルの組み合わせも自動で調整する</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIコーディング支援では、利用できるモデルが増え続けています。モデルごとに得意分野やコスト、応答速度が違うため、開発者が毎回選ぶ負担が大きくなっていました。Copilot Fusionは、その選択をCopilot側に任せる仕組みです。モデル選びを意識せずにAIを使える方向へ、ツールが進んでいることを示す動きと言えます。 モデルの自動選択は、AI開発ツールの標準的な機能になっていくと見られます。開発者の関心は「どのモデルを使うか」から「何を任せるか」へ移るでしょう。一方で、どのモデルが選ばれたかが見えにくくなると、品質やコストの管理が難しくなる懸念もあります。ツール提供側には、選択の透明性が求められそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず個人やチームの小さな作業でCopilot Fusionを試し、手動でモデルを選んだ場合と出力を比べてみてください。リーダーは、利用コストや品質の変化を一定期間記録しておくと、導入判断がしやすくなります。あわせて、社内のコーディング規約やレビュー体制がAIの自動選択に合っているかも見直しておくと安心です。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion">原文を読む</a></p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースは、生成AIの競争軸が「モデル単体の性能」から「それを支える計算基盤と運用環境」へと広がっていることを示しています。Gemini 4 ArgonからCarbonへのわずか2週間という更新サイクルは、モデルの進化が極端に高速化し、各社が絶え間ない改良で優位を保とうとしている現状を映しています。一方でAmazon Bedrock AgentCoreのような基盤は、単なる対話ではなく自律的にタスクをこなすエージェント型AIを本番環境で安全に動かすための土台づくりが産業の関心事になったことを物語っています。さらにTPUへの需要集中は、こうしたモデルの高速開発と大規模運用を支える計算資源、とりわけNVIDIA GPU以外の選択肢が重視され始めていることを示しており、モデル・エージェント基盤・半導体というスタック全体で垂直統合と競争が同時に進んでいると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開、全面的に性能向上</strong>: まず、使っているAIモデルを短期間で差し替えられる構成になっているか、点検してください。モデル名を設定に切り出し、評価用のテストを用意しておくと移行が楽になります。次に、セキュリティ担当者は限定公開の動向を追い、利用申請の条件を確認しておくとよいでしょう。エージェントを業務に入れる場合は、与える権限を最小限にし、操作の記録を残す運用を今から整えておくことをおすすめします。</li>
+<li><strong>Amazon Bedrock AgentCoreで構築するエージェント型AIプラットフォーム</strong>: まず自社のエージェント開発で、権限、ログ、コストの管理が誰の責任になっているかを洗い出してください。次に、公開されているオープンソースのリファレンスを読み、自社のアカウント構成に当てはめて差分を確認すると効率的です。小さな業務単位で「セル」を試作し、評価パイプラインで品質を測る流れを先に作っておくと、本格展開時の手戻りを減らせます。リーダーは、エージェントを本番に出す合格基準を早めに決めておくことが大切です。</li>
+<li><strong>Google、TPUで脚光を浴びる</strong>: エンジニアやリーダーは、AIの学習や推論をNvidiaのGPUだけに頼る設計を見直す価値があります。TPUを使えるクラウドが増えるので、性能とコストを比べられるよう、ワークロードの移植しやすさを確認しておくと安心です。特定のベンダーに縛られないよう、フレームワークやコードの依存関係を点検しておくとよいでしょう。Googleは今週の決算発表でTPUについて語るとみられるため、その内容も確認しておくと判断材料になります。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/">グーグル・ディープマインド、「Gemini 4 Argon」のわずか2週間後に「Gemini 4 Carbon」を公開、全面的に性能向上</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/">Amazon Bedrock AgentCoreで構築するエージェント型AIプラットフォーム</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/">Amazon Bedrock AgentCoreで構築するエージェント型AIプラットフォーム</a></li>
+<li><a href="https://www.theinformation.com/articles/google-tpu-moment">Google、TPUで脚光を浴びる</a></li>
+<li><a href="https://openai.com/index/openai-servicenow-partnership-expansion">OpenAIとServiceNow、エンタープライズワークフロー全般に提携を拡大</a></li>
+<li><a href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot">GitHub Enterpriseに、GitHub Copilotが利用可能に</a></li>
+<li><a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion">GitHub Copilot Fusionでモデルをルーティング・オーケストレーション</a></li>
+<li><a href="https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models">GitHub Copilot Fusionでモデルをルーティング・オーケストレーション</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #211 (2026-10-29)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #211</li>
+<li><strong>日付</strong>: 2026-10-29</li>
+<li><strong>尺</strong>: 約 10 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/">Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/">Building an Agentic AI Platform on Amazon Bedrock AgentCore</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/">Building an Agentic AI Platform on Amazon Bedrock AgentCore</a></li>
+<li><a href="https://www.theinformation.com/articles/google-tpu-moment">Google is Having a TPU Moment</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://openai.com/index/openai-servicenow-partnership-expansion">OpenAI and ServiceNow expand partnership across enterprise workflows</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot">GitHub Enterprise now includes access to GitHub Copilot</a></li>
+<li><a href="https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion">Route and orchestrate models with GitHub Copilot Fusion</a></li>
+<li><a href="https://github.blog/changelog/2026-10-28-github-copilot-fusion-now-supports-selection-of-local-models">Route and orchestrate models with GitHub Copilot Fusion</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%BB%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%80%81%E3%80%8CGemini%204%20Argon%E3%80%8D%E3%81%AE%E3%82%8F%E3%81%9A%E3%81%8B2%E9%80%B1%E9%96%93%E5%BE%8C%E3%81%AB%E3%80%8CGemini%204%20Carbon%E3%80%8D%E3%82%92%E5%85%AC%E9%96%8B%E2%80%A6%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-10-29/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-10-29/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
