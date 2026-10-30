@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#213 Copilotで画像の生成・編集がそのまま可能に ほか</title>
+      <description>Tech News Radio Show Notes - #213 (2026-10-31)
+
+エピソード情報
+• エピソード: #213
+• 日付: 2026-10-31
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Generate and edit images directly in Copilot (https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot)
+• Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime (https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/)
+• Introducing sanstun: sans-IO WireGuard | Firezone Blog (https://www.firezone.dev/blog/introducing-sanstun)
+
+注目の深掘り
+• NYSE Owner Plans Hyperliquid Perpetuals Market in US (https://www.bloomberg.com/news/videos/2026-10-30/nyse-owner-plans-hyperliquid-perpetuals-market-in-us-video)
+
+小ネタ・その他
+• Kalshi Raises $1 Billion at $40 Billion Valuation (https://www.theinformation.com/briefings/kalshi-raises-1-billion-40-billion-valuation)
+• Baseten to Raise Funding That Would Double Value to $30 Billion (https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-31/episode_audio.mp3" length="10249389" type="audio/mpeg" />
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-10-31</guid>
+      <itunes:duration>10:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Copilotで画像の生成・編集がそのまま可能に ほか</itunes:title>
+      <itunes:episode>213</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #213 (2026-10-31)
+
+エピソード情報
+• エピソード: #213
+• 日付: 2026-10-31
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Generate and edit images directly in Copilot (https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot)
+• Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime (https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/)
+• Introducing sanstun: sans-IO WireGuard | Firezone Blog (https://www.firezone.dev/blog/introducing-sanstun)
+
+注目の深掘り
+• NYSE Owner Plans Hyperliquid Perpetuals Market in US (https://www.bloomberg.com/news/videos/2026-10-30/nyse-owner-plans-hyperliquid-perpetuals-market-in-us-video)
+
+小ネタ・その他
+• Kalshi Raises $1 Billion at $40 Billion Valuation (https://www.theinformation.com/briefings/kalshi-raises-1-billion-40-billion-valuation)
+• Baseten to Raise Funding That Would Double Value to $30 Billion (https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-10-31/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.670" title="Generate and edit images directly in Copilot" href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot" />
+        <psc:chapter start="00:01:48.270" title="Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime" href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/" />
+        <psc:chapter start="00:03:14.640" title="Introducing sanstun: sans-IO WireGuard | Firezone Blog" href="https://www.firezone.dev/blog/introducing-sanstun" />
+        <psc:chapter start="00:04:40.750" title="NYSE Owner Plans Hyperliquid Perpetuals Market in US" href="https://www.bloomberg.com/news/videos/2026-10-30/nyse-owner-plans-hyperliquid-perpetuals-market-in-us-video" />
+        <psc:chapter start="00:06:46.140" title="Kalshi Raises $1 Billion at $40 Billion Valuation" href="https://www.theinformation.com/briefings/kalshi-raises-1-billion-40-billion-valuation" />
+        <psc:chapter start="00:08:34.300" title="Baseten to Raise Funding That Would Double Value to $30 Billion" href="https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding" />
+        <psc:chapter start="00:10:10.410" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#212 より高性能で有益なAIのための「モデル仕様」の更新版 ほか</title>
       <description>Tech News Radio Show Notes - #212 (2026-10-30)
 

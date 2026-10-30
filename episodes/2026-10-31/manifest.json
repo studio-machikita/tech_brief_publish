@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-31",
+  "episode_date_local": "2026-10-31",
+  "content_snapshot_date": "2026-10-31",
+  "show_length_sec": 640,
+  "audio_size": 10249389,
+  "generated_at": "2026-10-30T23:43:12.958103+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6c892165",
+      "title": "Generate and edit images directly in Copilot",
+      "title_ja": "Copilotで画像の生成・編集がそのまま可能に",
+      "one_liner": "GitHub Copilotで画像の生成と編集が可能に",
+      "fingerprint": "6c8921657d03718f2a0deadd79b61d22",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-286526e8",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "title_ja": "Amazon Bedrock AgentCoreランタイムで、コーディングエージェントがWebアプリを構築する様子をライブでプレビュー",
+      "one_liner": "AIエージェントの作業をブラウザで即確認",
+      "fingerprint": "286526e83297e1a797d50ec397cbc556",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-191d7ece",
+      "title": "Introducing sanstun: sans-IO WireGuard | Firezone Blog",
+      "title_ja": "sanstun のご紹介:sans-IO な WireGuard | Firezone ブログ",
+      "one_liner": "Firezoneが入出力非依存のWireGuard実装を公開",
+      "fingerprint": "191d7ecec86a8c1efeb52c87da6cc404",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-4b597737",
+      "title": "NYSE Owner Plans Hyperliquid Perpetuals Market in US",
+      "title_ja": "NYSE親会社、米国でハイパーリキッドの無期限先物市場を計画",
+      "one_liner": "NYSE親会社が米国で永久先物市場を計画",
+      "fingerprint": "4b5977370d00a62c361566bd8842b18c",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-f9769565",
+      "title": "Kalshi Raises $1 Billion at $40 Billion Valuation",
+      "title_ja": "カルシ、評価額400億ドルで10億ドルを調達",
+      "one_liner": "Kalshiが評価額400億ドルで10億ドル調達",
+      "fingerprint": "f976956543c7f4a945191ef667988a8b",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-1367fdd8",
+      "title": "Baseten to Raise Funding That Would Double Value to $30 Billion",
+      "title_ja": "ベイステン、企業価値を倍の300億ドルに引き上げる資金調達へ",
+      "one_liner": "Baseten、評価額300億ドルで資金調達へ",
+      "fingerprint": "1367fdd867475dd4842da21c49f6f44d",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8b28089f",
+      "reason": "LINK_ONLY: Source classified as satirical: AIが治療法・脳標的・注入座標を完全に独自決定し、生体マウスへの脳手術まで行ったという主張は極めて非現実的で、校正エラー後にAIが説得を拒否したという擬人的な描写も風刺的です。",
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making"
+    },
+    {
+      "item_id": "item-7e5a6165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available"
+    },
+    {
+      "item_id": "item-366a3324",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "August 30, 2026"
+    },
+    {
+      "item_id": "item-289727dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune"
+    },
+    {
+      "item_id": "item-055bc3e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How a Contractor’s Claude Agent Got Into the Pentagon"
+    },
+    {
+      "item_id": "item-8d38732f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Making it easier for websites to express AI training preferences"
+    },
+    {
+      "item_id": "item-360850d5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft"
+    },
+    {
+      "item_id": "item-31942faf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google AI gets cagey when asked who won the 2020 elections"
+    },
+    {
+      "item_id": "item-14c84bb0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to extract keyframes from a video for GPT and Claude vision"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-aadcfd41",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down"
+    },
+    {
+      "item_id": "item-7489206e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams"
+    },
+    {
+      "item_id": "item-ba1f04df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job"
+    },
+    {
+      "item_id": "item-98a33d81",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Community safety report and new protections for teens"
+    },
+    {
+      "item_id": "item-27dbe8b7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Customer Security Advisory: CVE-2026-98432"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-d029eb07",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google Pixel Watch 5 Sale: Its Lowest Price Yet (2026)"
+    }
+  ],
+  "score_cache": {
+    "27dbe8b755868f3cac5c48ec67b6dada": {
+      "score": 27,
+      "title": "Customer Security Advisory: CVE-2026-98432",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] CVEに関するセキュリティアドバイザリであり、対象製品・影響範囲・深刻度・悪用状況などの具体情報がないため、現時点で技術革新としての新規性や評価材料は限定的です。脆弱性対応は運用上重要ですが、評価基準では法律・規制やセキュリティ関連の堅実なニュースに該当するため、低めのスコアとしました。"
+    },
+    "8d38732ffd8b64aa8558efbee6f9e26c": {
+      "score": 47,
+      "title": "Making it easier for websites to express AI training preferences",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] robots.txtを拡張してAI学習への利用方針を機械可読に伝える取り組みは、ウェブサイト運営者とAI事業者間の運用を標準化する点で意義があります。一方、法的拘束力や参加プロバイダーの範囲、信号をどのように遵守・検証するかは明確でなく、技術革新そのものというよりAIデータ利用に関する運用・ガバナンス寄りの話題です。さらに、直近に取り上げ済みのAIお"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 18,
+      "title": "2026 Usage Policy update",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Usage Policyの更新は運用ルールや規約に関する話題であり、技術革新やアーキテクチャの進化に直接つながる情報ではありません。さらにタイトルに既出キーワードの「2026」「Usage」が含まれ、同一テーマの続報と判断できる具体性もないため減点しました。スニペットがなく、影響範囲や変更内容を評価できない点も低スコアの要因です。 [Editoria"
+    },
+    "7489206ea9222318eb383e451d2a63a9": {
+      "score": 40,
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Amazon Bedrockを対象に、コストの可視化、予算管理、リクエスト単位の計測、プラットフォーム設定の最適化、定期レビューまでを一貫して扱う実務的なFinOps・プラットフォーム運用記事です。生成AI基盤を安定運用するうえで有用ですが、新しいモデルやアーキテクチャを発表するものではなく、既存のクラウドガバナンス手法の適用が中心です。また、直近に"
+    },
+    "7e5a61656fa5d1f0ff81d9794d9bd125": {
+      "score": 49,
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] VS Code、Copilot CLI、GitHub Copilotアプリで、リポジトリ単位のプラグイン既定設定と企業管理者によるプラグイン制御が一般提供された点は、開発環境の標準化や安全な拡張機能運用に実務的な価値があります。特に信頼済みリポジトリからの自動有効化や企業ポリシー適用は、大規模組織での導入・ガバナンスを改善します。一方で、基盤技術を大"
+    },
+    "366a33242d1cb45899e066b3a88176ba": {
+      "score": 48,
+      "title": "August 30, 2026",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、AIエージェント開発環境に関わる実用的な改善が含まれています。Cloud Storageマウントの自動復旧、ファイル操作の応答性向上、ノートブック出力消失の修正、カスタムCA証明書対応は、開発者体験と運用安定性を高める具体的な変更です。一方で、新しいアーキテクチャやモデル、画期的な機"
+    },
+    "289727dcc4b11592ccce10048125947f": {
+      "score": 48,
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] AI物流スタートアップRuneを約3億7,500万ドルで買収し、防衛向けプラットフォームMissionforceを強化する動きであり、AIと防衛テック、企業向けソフトウェアの融合という点では注目度が高い。一方、既存事業の拡張を目的としたM&Aで、基盤技術や業界の前提を変えるほどの技術革新ではない。また、既出のAI関連トピックと重なるため、重複減点を適"
+    },
+    "8b28089f14a4bab9d1f8b050feb0862e": {
+      "score": 100,
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] AIエージェントが治療法の選択、脳内標的の決定、注入座標の算出、実際のマウスへの施術までを人間の意思決定なしで実行した点で、AIと生命科学・ロボティクスの統合における極めて新規性の高い事例です。単なる研究支援ではなく、意思決定から物理的実行までを自律化しており、将来的な自律実験室や医療エージェントの前提を変える可能性があります。一方で、対象がマウスで"
+    },
+    "ba1f04df1b4a81a1a0f0f201e7cf0080": {
+      "score": 38,
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] AI利用の透明性や教育機関における不正・倫理規範を考えるうえで示唆的ですが、技術革新や新しい実装の発表ではなく、個人の不適切な利用と組織上の処分に関する事例です。AIが主要テーマであり、直近の既出キーワードと同じ話題軸にも該当するため減点しました。エンジニア視点では、AI利用の開示ポリシー、監査可能性、生成物の責任所在といったガバナンス上の論点に価値"
+    },
+    "d029eb07afb60f1997901dc1185e3c2a": {
+      "score": 2,
+      "title": "Google Pixel Watch 5 Sale: Its Lowest Price Yet (2026)",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Google Pixel Watch 5のセール情報と健康・フィットネス機能に関する一般消費者向けスマートウォッチ記事であり、ソフトウェア技術、開発者エコシステム、アーキテクチャへの影響は限定的です。既出キーワードのGoogleにも該当しますが、主題が新しい技術革新ではなく販売価格の情報であるため、重要度は最低水準と評価します。 [Editorial"
+    },
+    "4b5977370d00a62c361566bd8842b18c": {
+      "score": 55,
+      "title": "NYSE Owner Plans Hyperliquid Perpetuals Market in US",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Hyperliquid系のパーペチュアル取引を米国の規制市場へ持ち込む計画であり、暗号資産取引インフラと従来型金融市場の接続という点で注目度は高いです。独自の清算、KYC、AMLシステムを構築するため、分散型取引の高性能な取引基盤を規制対応型アーキテクチャへ拡張する事例になり得ます。一方で、現時点では計画段階であり、技術仕様や実装の詳細、実際のローン"
+    },
+    "f976956543c7f4a945191ef667988a8b": {
+      "score": 55,
+      "title": "Kalshi Raises $1 Billion at $40 Billion Valuation",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Kalshiが10億ドルを調達し、評価額400億ドルに到達したことは、予測市場という新興プラットフォームの急速な事業拡大を示す重要なスタートアップニュースです。大手投資家の参加により、金融データ基盤やリアルタイム取引システムへの投資が加速する可能性もあります。一方で、記事自体は資金調達と評価額の発表が中心で、AIやソフトウェアアーキテクチャなどの技術"
+    },
+    "14c84bb024141f4f07df4226216d9cdb": {
+      "score": 43,
+      "title": "How to extract keyframes from a video for GPT and Claude vision",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] 動画をキーフレーム化し、タイムスタンプ付き画像として視覚言語モデルへ渡す実装パターンは、動画入力APIの制約を補う実用的なエンジニアリング知見です。シーン変化検出、一定間隔抽出、黒画面除外、画像トークン削減、バッチ処理や予算上限など、実運用に役立つ具体性もあります。一方で、新しい基盤技術やモデルの発表ではなく、既存APIを組み合わせたチュートリアル兼"
+    },
+    "191d7ecec86a8c1efeb52c87da6cc404": {
+      "score": 72,
+      "title": "Introducing sanstun: sans-IO WireGuard | Firezone Blog",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] WireGuardをsans-IO設計で実装する「sanstun」は、暗号化VPNプロトコルの処理とネットワークI/Oを分離し、組み込みや異なるランタイムへの統合、テスト容易性、実装の再利用性を高めるアーキテクチャ上の注目度が高い取り組みです。一般的な製品発表ではなく、ネットワークソフトウェアの設計・実装方式に関わるためエンジニアへの影響は大きい一方"
+    },
+    "98a33d8141276da0ff5cbe4b22ca7805": {
+      "score": 35,
+      "title": "Community safety report and new protections for teens",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] ChatGPTにおける暴力防止、未成年者向け保護、早期介入の強化は、AIサービスの安全設計や運用面では意義があります。一方で、具体的な技術仕様や新しいモデル・アーキテクチャの発表ではなく、主に安全対策とパブリックレポーティングに関する内容です。さらに、直近に取り上げ済みのOpenAIおよびAI関連の話題と近い角度であるため、重複分を減点しました。 ["
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-10-29",
+      "reason": "[ScoreCache 2026-10-29] [ScoreCache 2026-10-29] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性、攻撃手法、製品影響、修正内容などの具体情報がなく、技術的な新規性や影響範囲を評価できません。セキュリティ関連は重要ではあるものの、記事内容が不明なため最低限の評価にとどめます。 [Editorial: AI-f"
+    },
+    "286526e83297e1a797d50ec397cbc556": {
+      "score": 83,
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] コーディングエージェントが編集したViteアプリを、専用ランタイム上で動かしながらブラウザに即時プレビューできる具体的な開発体験を示しており、AIエージェントとクラウド実行基盤の接続という点で技術的な価値が高いです。HTTPやWebSocketを転送する認証済みセッションURLにより、開発環境の隔離と外部プレビューを両立している点も実装面で興味深い一"
+    },
+    "6c8921657d03718f2a0deadd79b61d22": {
+      "score": 92,
+      "title": "Generate and edit images directly in Copilot",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] GitHub Copilotに自然言語による画像生成・編集機能が追加され、コード生成に限定されないマルチモーダルな開発支援へ拡張する重要なアップデートです。専用の画像生成ツールを推論モデルから呼び出す構成は、開発ワークフローへのAI統合という点で技術的・実用的な影響があります。既出キーワードのAI・GitHub・Copilotに該当しますが、今回は画"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 41,
+      "title": "September 28, 2026",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchという開発基盤の更新ではあるものの、内容は上流依存パッケージの更新と、カスタムコンテナイメージに含まれるCritical/High重大度CVEの一括修正が中心です。利用者にとって重要な保守・安全性向上ですが、新機能やアーキテクチャ変更、技術的なブレークスルーは示されていないため、セキュリティ脆弱性対応と"
+    },
+    "aadcfd41e4c0966026f7384b2659edf5": {
+      "score": 41,
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] プライバシー重視のAIアシスタントがサービス終了に至る点は、AIプロダクトの事業継続性や競争環境を考えるうえで示唆があります。一方で、新技術の発表やアーキテクチャ上の革新ではなく、影響範囲も単一サービスに限定されています。また、既に取り上げ済みのAI関連トピックと重なるため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "360850d597f7348a833352acf6e7dd4e": {
+      "score": 46,
+      "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Cursorのマーケットプレイスに悪意ある拡張機能が約11時間公開され、最大5,000人に対してデータ窃取やリモートアクセスを試みた点は、開発者向けエコシステムのサプライチェーンリスクとして重要です。一方で、業界の前提を変える技術革新ではなく、Cursorがマーケットプレイスを停止して再開済みで、被害も限定的とみられるため、セキュリティインシデントと"
+    },
+    "31942fafa70fd6aaca296f6f018f177d": {
+      "score": 46,
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] AIが政治的にセンシティブな質問へどう応答するかを示す事例で、モデルの安全性、バイアス、地域別ポリシー設計を考える材料にはなります。ただし、新しい技術革新や具体的なアーキテクチャ変更ではなく、影響も主に応答品質・信頼性の検証に限定されます。既出キーワードであるGoogleとAIに直接関係し、同分野の記事として重複減点も適用しました。 [Editori"
+    },
+    "055bc3e5ba1e9d2bebdfeca2f9b532bb": {
+      "score": 48,
+      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] Claudeエージェントが国防総省関連の環境に入り込んだという内容は、AIエージェントの権限管理、委託先の統制、機密環境への導入リスクに関わるため、エンジニア視点では重要です。一方で、記事の詳細な技術的メカニズムや実際の影響範囲はスニペットから確認できず、主題もAIエージェントのセキュリティおよび政府調達に近い堅めのニュースです。Anthropic関"
+    },
+    "1367fdd867475dd4842da21c49f6f44d": {
+      "score": 55,
+      "title": "Baseten to Raise Funding That Would Double Value to $30 Billion",
+      "date": "2026-10-31",
+      "reason": "[Claude API Evaluation] AIインフラ系スタートアップのBasetenが評価額約300億ドルを目指して大型調達を進める内容で、AIモデルの推論基盤やデプロイ環境への市場期待を示す点はエンジニア視点でも重要です。一方、現時点では資金調達の観測報道にとどまり、具体的な技術革新や製品発表はありません。また、既にAI関連の話題が取り上げ済みのため、同一テーマへの重複として20点減点し"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-10-31/blog.md",
+    "show_notes_path": "out/2026-10-31/show_notes.md",
+    "script_path": "out/2026-10-31/script_2hosts.md",
+    "audio_path": "out/2026-10-31/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-10-31/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-10-31/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 32616,
+        "output_tokens": 10811,
+        "cost_usd": 0.019496
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45256,
+        "output_tokens": 8861,
+        "cost_usd": 0.179122
+      }
+    ],
+    "tts": {
+      "chars": 4116,
+      "audio_sec": 628.1,
+      "cost_usd": 0.121106
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.319724
+  }
+}

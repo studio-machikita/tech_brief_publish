@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copilotで画像の生成・編集がそのまま可能に ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="開発の現場にAIが入り、画像生成も確認も一体に">
+<meta property="og:title" content="Tech News Radio — Copilotで画像の生成・編集がそのまま可能に ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-31/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-10-31/">
+<meta property="og:description" content="開発の現場にAIが入り、画像生成も確認も一体に">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-10-31">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-10-31/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Copilotで画像の生成・編集がそのまま可能に ほか",
+    "description": "2026-10-31 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-31",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-31/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-10-31/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Copilotで画像の生成・編集がそのまま可能に ほか",
+    "description": "2026-10-31 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-10-31",
+    "url": "https://technewsradio.tokyo/episodes/2026-10-31/",
+    "duration": "PT10M40S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-31/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-31/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-10-31/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-10-31</h1>
+<p><em>📖 約14分で読めます ｜ 🏷️ AI, LLM, DevOps, Cloud, Web</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>Copilotで画像の生成・編集がそのまま可能に</strong> — GitHub Copilotで画像の生成と編集が可能に</li>
+<li>🤖 <strong>Amazon Bedrock AgentCoreランタイムで、コーディングエージェントがWebアプリを構築する様子をライブでプレビュー</strong> — AIエージェントの作業をブラウザで即確認</li>
+<li>🔒 <strong>sanstun のご紹介:sans-IO な WireGuard | Firezone ブログ</strong> — Firezoneが入出力非依存のWireGuard実装を公開</li>
+<li>💼 <strong>NYSE親会社、米国でハイパーリキッドの無期限先物市場を計画</strong> — NYSE親会社が米国で永久先物市場を計画</li>
+<li>🚀 <strong>カルシ、評価額400億ドルで10億ドルを調達</strong> — Kalshiが評価額400億ドルで10億ドル調達</li>
+<li>🤖 <strong>ベイステン、企業価値を倍の300億ドルに引き上げる資金調達へ</strong> — Baseten、評価額300億ドルで資金調達へ</li>
+</ul>
+<hr />
+<h2>🤖 Copilotで画像の生成・編集がそのまま可能に</h2>
+<p><code>AI</code> <code>LLM</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Generate and edit images directly in Copilot</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: GitHub Copilotで画像の生成と編集が可能に</p>
+</blockquote>
+<ul>
+<li>自然言語の指示だけで画像を生成・編集できる</li>
+<li>選択中の推論モデルが画像生成ツールを呼び出す仕組み</li>
+<li>画像生成には専用のツールが使われる</li>
+<li>コードを書く場のCopilotが、画像づくりにも対応</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Copilotはこれまで、コードの補完や質問への回答が中心でした。今回、画像の生成と編集という作業もCopilotの中で完結できるようになります。開発中にUIの素材や図版が必要になっても、別のツールに移らずに済みます。推論モデルが専用の画像生成ツールを呼び出す構造は、AIが目的に応じて道具を使い分ける流れを示しています。なお、画像生成を担うモデルの詳細は、公開されている範囲では分かりません。 開発環境の中で文章、コード、画像を一貫して扱える流れが、さらに強まると見られています。デザイナーとエンジニアの作業の境目が薄れ、試作品づくりの速度が上がる可能性があります。一方で、生成した画像の著作権や利用条件、社内ルールとの整合といった課題も、今後より重要になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自分のCopilot環境で画像生成を試し、仕上がりや編集の精度を確認しましょう。READMEの図版やUIの仮素材など、小さな用途から始めるのが無難です。チームのリーダーは、生成画像を業務で使う際の権利面や社内ポリシーを早めに確認し、利用方針を決めておくと安心です。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon Bedrock AgentCoreランタイムで、コーディングエージェントがWebアプリを構築する様子をライブでプレビュー</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Web</code></p>
+<details><summary>📄 原題: Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AIエージェントの作業をブラウザで即確認</p>
+</blockquote>
+<ul>
+<li>Amazon Bedrock AgentCoreのセッションに認証付きURLを発行</li>
+<li>HTTPの各メソッドとパス、WebSocket接続を許可したポートへ転送</li>
+<li>コーディングエージェントがViteのサイトを動かし続ける構成</li>
+<li>ファイル編集の結果をブラウザ上のライブ画面で確認できる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+コーディングエージェントは、コードを書くだけでなく、動くアプリとして確認できるかが重要になっています。これまでは、エージェントが作った成果物を手元で動かして見る手間がありました。今回の仕組みは、エージェントの実行環境（ランタイム）のセッションに専用の入り口を用意するものです。エージェントが作業している最中のWebアプリを、そのまま開発者のブラウザで見られるようになります。 AIエージェントが作る成果物を、完成後ではなく作業中に確認する流れが広がりそうです。人間が途中で画面を見て方向を直せれば、エージェントへの指示や手戻りの減らし方も変わっていくでしょう。認証付きURLで公開範囲を絞る設計は、エージェントの実行環境を安全に外へつなぐ方法の一例になると見られています。クラウド各社が同様のプレビュー機能を整える可能性もあります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、まずサンプルのコーディングエージェントを試し、ライブプレビューの使い勝手を確かめるとよいでしょう。リーダーは、エージェントの実行環境に外部からアクセスさせる際の認証や許可ポートの範囲を、社内のセキュリティ方針と照らして確認してください。小さなWebサイトの試作から始めれば、チームの開発フローにどう組み込めるか判断しやすくなります。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/">原文を読む</a></p>
+<hr />
+<h2>🔒 sanstun のご紹介:sans-IO な WireGuard | Firezone ブログ</h2>
+<p><code>Security</code> <code>OSS</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Introducing sanstun: sans-IO WireGuard | Firezone Blog</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Firezoneが入出力非依存のWireGuard実装を公開</p>
+</blockquote>
+<ul>
+<li>sanstunはRust製のWireGuardステートマシン実装</li>
+<li>sans-IO方式で、入出力処理を持たない設計</li>
+<li>並列処理と相性のよい、Rustらしい書き方のAPI</li>
+<li>使いやすさ・安全性・性能の向上が狙い</li>
+<li>Firezoneのブログで発表されたそうです</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+WireGuardは軽量で高速なVPNプロトコルとして広く使われています。多くの実装はソケットやスレッドなどの入出力と一体になっており、テストや別環境への組み込みが難しい場面があります。sans-IO（入出力を持たない）方式は、通信の状態管理だけを独立したライブラリとして切り出す考え方です。ネットワークの読み書きを呼び出し側に任せるため、検証しやすく、組み込み先の自由度も高まります。ユーザー空間（OSのカーネル外）で動く実装は、導入のしやすさでも注目されています。 プロトコルの中核と入出力を分ける設計が広がれば、ネットワークソフトの検証やテストがしやすくなりそうです。Rustでメモリ安全な暗号・VPN部品が増えることは、セキュリティ面でも追い風になります。並列処理を前提としたAPIが定着すれば、多数の接続を扱うVPN基盤の性能改善にもつながると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+自社でVPNやトンネル通信を扱うエンジニアは、sanstunのAPI設計とリポジトリを確認してみてください。sans-IOの考え方は、WireGuard以外のプロトコル実装にも応用できます。まず小さな検証環境で既存実装と比べ、テストのしやすさや性能を見極めるのがよいでしょう。</p>
+<p>🔗 <a href="https://www.firezone.dev/blog/introducing-sanstun">原文を読む</a></p>
+<hr />
+<h2>💼 NYSE親会社、米国でハイパーリキッドの無期限先物市場を計画</h2>
+<p><code>Business</code> <code>Startup</code></p>
+<details><summary>📄 原題: NYSE Owner Plans Hyperliquid Perpetuals Market in US</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: NYSE親会社が米国で永久先物市場を計画</p>
+</blockquote>
+<ul>
+<li>ICEがTrade.xyzと組み、永久先物の新市場を計画</li>
+<li>Trade.xyzはHyperliquidの市場運営元の一社</li>
+<li>独自の清算・KYC・AML体制を備える予定</li>
+<li>規制下の米国市場に永久先物を持ち込む狙い</li>
+<li>SprecherCEOがBloombergで合意内容を説明</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+永久先物（満期のない先物取引）は、海外の暗号資産取引所で人気を集めてきた商品です。Hyperliquidはその代表的なオフショア（海外拠点）の取引プラットフォームです。一方、米国の規制市場では、こうした商品を扱う道がこれまで限られていたと見られます。NYSEを傘下に持つICEが動くことで、海外で育った取引の形が、米国の規制の枠内に入るかどうかが焦点になります。清算、KYC（本人確認）、AML（資金洗浄対策）を自前で整える点も、規制対応を重視する姿勢の表れです。 実現すれば、既存の金融大手が暗号資産由来のデリバティブ（金融派生商品）を正式に扱う流れが強まりそうです。海外の分散型プラットフォームと、規制下の取引所との境目が薄れる可能性もあります。金融システムを開発する側には、24時間稼働の取引や高頻度の清算処理など、新しい技術要件が増えていくと見られます。ただし、市場の詳細や開始時期は今後の発表次第です。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+フィンテックや取引系システムに関わるエンジニアは、永久先物の仕組み（資金調達率や証拠金管理など）を押さえておくと役立ちます。リーダーは、規制下でのKYC・AML・清算の設計が製品要件にどう影響するかを早めに検討しておくべきです。ICEとTrade.xyzの続報や、米規制当局の動きも継続して追うことをおすすめします。</p>
+<p>🔗 <a href="https://www.bloomberg.com/news/videos/2026-10-30/nyse-owner-plans-hyperliquid-perpetuals-market-in-us-video">原文を読む</a></p>
+<hr />
+<h2>🚀 カルシ、評価額400億ドルで10億ドルを調達</h2>
+<p><code>Startup</code> <code>Business</code></p>
+<details><summary>📄 原題: Kalshi Raises $1 Billion at $40 Billion Valuation</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Kalshiが評価額400億ドルで10億ドル調達</p>
+</blockquote>
+<ul>
+<li>調達額は10億ドル、評価額は400億ドル</li>
+<li>主導はWellingtonとSequoia</li>
+<li>Baillie Gifford、Andreessen Horowitz、Coatueも参加</li>
+<li>Morgan Stanleyの投資部門も出資者に名を連ねる</li>
+<li>8月のThe Informationの報道を本人が認めた形</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Kalshiは、出来事の結果に対して売買できる予測市場を運営する企業です。今回の調達では、大手の長期投資家やベンチャーキャピタル、金融機関が顔をそろえました。予測市場が一部の愛好家向けのサービスにとどまらず、投資対象として主流の資金から評価され始めたことを示す動きと見られています。また、8月に報じられた内容を企業側が正式に認めた点も、話題性を高めています。 評価額400億ドルという水準は、予測市場が新しい金融・情報サービスの分野として認知されつつあることを意味します。今後は同分野への参入や投資が増え、競争が激しくなる可能性があります。一方で、金融商品としての扱いや規制のあり方が、事業の成長を左右する要因になると考えられます。開発者にとっても、リアルタイムの取引システムやデータ配信の需要が広がるかもしれません。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、予測市場のような高頻度の取引を支える設計について、基本を押さえておくとよいでしょう。リーダーは、自社のサービスが予測市場のデータや仕組みと接点を持てるか、早めに検討してみてください。あわせて、金融規制に関わる動向を継続的に確認し、新規事業の判断材料にすることをおすすめします。</p>
+<p>🔗 <a href="https://www.theinformation.com/briefings/kalshi-raises-1-billion-40-billion-valuation">原文を読む</a></p>
+<hr />
+<h2>🤖 ベイステン、企業価値を倍の300億ドルに引き上げる資金調達へ</h2>
+<p><code>AI</code> <code>Startup</code> <code>Business</code></p>
+<details><summary>📄 原題: Baseten to Raise Funding That Would Double Value to $30 Billion</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Baseten、評価額300億ドルで資金調達へ</p>
+</blockquote>
+<ul>
+<li>AIスタートアップBaseten、新たな資金調達を準備</li>
+<li>評価額は約300億ドル、従来の2倍超になる見込み</li>
+<li>事情に詳しい関係者の話として報じられた段階</li>
+<li>AI関連企業への投資熱が続いていることを示す動き</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AI分野では、モデルを作る企業だけでなく、それを動かす基盤を提供する企業にも大きな資金が集まっています。今回の報道では、Basetenの評価額が約300億ドルまで引き上げられる見込みだそうです。評価額が2倍超になるという規模からも、投資家の期待の高さがうかがえます。ただし、調達額や出資者などの詳細はまだ明らかになっていないと見られています。関係者の話に基づく情報のため、正式発表を待つ必要があります。 AI関連のスタートアップに巨額の資金が流れる状況は、今後も続く可能性があります。資金力のある企業が増えれば、AIを動かす基盤サービスの競争は激しくなりそうです。一方で、評価額が急に上がる状況は、市場の過熱を心配する声にもつながります。長い目で見ると、AIの開発と運用を支える事業が、IT業界の中で大きな存在になっていくと考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まずはBasetenの正式な発表と、サービス内容の最新情報を確認しましょう。自社でAIを使う場合は、特定の1社に頼り切らない構成を考えておくと安心です。また、AI関連サービスの価格や提供条件は、競争や資金調達の影響で変わることがあります。エンジニアもリーダーも、複数の選択肢を比較する習慣をつけておくとよいでしょう。</p>
+<p>🔗 <a href="https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>この3つのニュースは、一見すると画像生成、エージェント実行環境、ネットワーク実装と領域がばらばらですが、「開発者の手元で完結する体験の拡張」と「責務の分離による柔軟性の確保」という二つの流れで読み解けます。CopilotとAgentCoreはいずれも、AIが生成した成果物(画像やWebアプリ)を別ツールに移ることなく、その場で確認・修正できる環境を整えており、AIを使うことが単なるコード補完から、開発ワークフロー全体を担う存在へと広がっていることを示しています。一方、sans-IOなWireGuard実装は、プロトコルのロジックを入出力処理から切り離すことでテスト容易性や移植性を高める設計思想で、AIエージェントのランタイムが実行環境と推論を分離して安全に動かそうとする方向性とも通じるものがあります。総じて、開発の現場ではAIによる自動化の範囲が拡大する一方で、その土台となるインフラやソフトウェア設計にはより明確な境界と検証可能性が求められるようになっており、利便性と堅牢性の両立が共通の課題になっていると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>Copilotで画像の生成・編集がそのまま可能に</strong>: まず、自分のCopilot環境で画像生成を試し、仕上がりや編集の精度を確認しましょう。READMEの図版やUIの仮素材など、小さな用途から始めるのが無難です。チームのリーダーは、生成画像を業務で使う際の権利面や社内ポリシーを早めに確認し、利用方針を決めておくと安心です。</li>
+<li><strong>Amazon Bedrock AgentCoreランタイムで、コーディングエージェントがWebアプリを構築する様子をライブでプレビュー</strong>: エンジニアは、まずサンプルのコーディングエージェントを試し、ライブプレビューの使い勝手を確かめるとよいでしょう。リーダーは、エージェントの実行環境に外部からアクセスさせる際の認証や許可ポートの範囲を、社内のセキュリティ方針と照らして確認してください。小さなWebサイトの試作から始めれば、チームの開発フローにどう組み込めるか判断しやすくなります。</li>
+<li><strong>sanstun のご紹介:sans-IO な WireGuard | Firezone ブログ</strong>: 自社でVPNやトンネル通信を扱うエンジニアは、sanstunのAPI設計とリポジトリを確認してみてください。sans-IOの考え方は、WireGuard以外のプロトコル実装にも応用できます。まず小さな検証環境で既存実装と比べ、テストのしやすさや性能を見極めるのがよいでしょう。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot">Copilotで画像の生成・編集がそのまま可能に</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/">Amazon Bedrock AgentCoreランタイムで、コーディングエージェントがWebアプリを構築する様子をライブでプレビュー</a></li>
+<li><a href="https://www.firezone.dev/blog/introducing-sanstun">sanstun のご紹介:sans-IO な WireGuard | Firezone ブログ</a></li>
+<li><a href="https://www.bloomberg.com/news/videos/2026-10-30/nyse-owner-plans-hyperliquid-perpetuals-market-in-us-video">NYSE親会社、米国でハイパーリキッドの無期限先物市場を計画</a></li>
+<li><a href="https://www.theinformation.com/briefings/kalshi-raises-1-billion-40-billion-valuation">カルシ、評価額400億ドルで10億ドルを調達</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding">ベイステン、企業価値を倍の300億ドルに引き上げる資金調達へ</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #213 (2026-10-31)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #213</li>
+<li><strong>日付</strong>: 2026-10-31</li>
+<li><strong>尺</strong>: 約 10 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot">Generate and edit images directly in Copilot</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/">Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime</a></li>
+<li><a href="https://www.firezone.dev/blog/introducing-sanstun">Introducing sanstun: sans-IO WireGuard | Firezone Blog</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://www.bloomberg.com/news/videos/2026-10-30/nyse-owner-plans-hyperliquid-perpetuals-market-in-us-video">NYSE Owner Plans Hyperliquid Perpetuals Market in US</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://www.theinformation.com/briefings/kalshi-raises-1-billion-40-billion-valuation">Kalshi Raises $1 Billion at $40 Billion Valuation</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-10-30/baseten-set-for-30-billion-valuation-with-new-funding">Baseten to Raise Funding That Would Double Value to $30 Billion</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Copilot%E3%81%A7%E7%94%BB%E5%83%8F%E3%81%AE%E7%94%9F%E6%88%90%E3%83%BB%E7%B7%A8%E9%9B%86%E3%81%8C%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%E5%8F%AF%E8%83%BD%E3%81%AB%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-10-31/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-10-31/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
