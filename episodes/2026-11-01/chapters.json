@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.07,
+    "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+    "url": "https://arxiv.org/abs/2610.37720"
+  },
+  {
+    "start_sec": 119.22,
+    "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/"
+  },
+  {
+    "start_sec": 240.78,
+    "title": "September 09, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026"
+  },
+  {
+    "start_sec": 342.09,
+    "title": "Making it easier for websites to express AI training preferences",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+  },
+  {
+    "start_sec": 485.14,
+    "title": "August 30, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_30_2026"
+  },
+  {
+    "start_sec": 584.54,
+    "title": "Basically no one is using AI agents for their DoorDash orders",
+    "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
+  },
+  {
+    "start_sec": 678.47,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#214 LRMoE:メモリ制約のあるノードでの効率的なMoE学習に向けた需要側負荷再調整 ほか</title>
+      <description>Tech News Radio Show Notes - #214 (2026-11-01)
+
+エピソード情報
+• エピソード: #214
+• 日付: 2026-11-01
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes (https://arxiv.org/abs/2610.37720)
+• How Worldwide Express automated freight exceptions with Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_08_2026)
+
+注目の深掘り
+• Making it easier for websites to express AI training preferences (https://openai.com/index/helping-websites-express-ai-training-preferences)
+
+小ネタ・その他
+• August 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_30_2026)
+• August 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_23_2026)
+• Basically no one is using AI agents for their DoorDash orders (https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-01/episode_audio.mp3" length="11346860" type="audio/mpeg" />
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-01</guid>
+      <itunes:duration>11:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>LRMoE:メモリ制約のあるノードでの効率的なMoE学習に向けた需要側負荷再調整 ほか</itunes:title>
+      <itunes:episode>214</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #214 (2026-11-01)
+
+エピソード情報
+• エピソード: #214
+• 日付: 2026-11-01
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes (https://arxiv.org/abs/2610.37720)
+• How Worldwide Express automated freight exceptions with Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026)
+• September 09, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_08_2026)
+
+注目の深掘り
+• Making it easier for websites to express AI training preferences (https://openai.com/index/helping-websites-express-ai-training-preferences)
+
+小ネタ・その他
+• August 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_30_2026)
+• August 30, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_23_2026)
+• Basically no one is using AI agents for their DoorDash orders (https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-01/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.070" title="LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes" href="https://arxiv.org/abs/2610.37720" />
+        <psc:chapter start="00:01:59.220" title="How Worldwide Express automated freight exceptions with Amazon Bedrock" href="https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/" />
+        <psc:chapter start="00:04:00.780" title="September 09, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_09_2026" />
+        <psc:chapter start="00:05:42.090" title="Making it easier for websites to express AI training preferences" href="https://openai.com/index/helping-websites-express-ai-training-preferences" />
+        <psc:chapter start="00:08:05.140" title="August 30, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_30_2026" />
+        <psc:chapter start="00:09:44.540" title="Basically no one is using AI agents for their DoorDash orders" href="https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/" />
+        <psc:chapter start="00:11:18.470" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#213 Copilotで画像の生成・編集がそのまま可能に ほか</title>
       <description>Tech News Radio Show Notes - #213 (2026-10-31)
 

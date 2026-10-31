@@ -1,0 +1,372 @@
+{
+  "date": "2026-11-01",
+  "episode_date_local": "2026-11-01",
+  "content_snapshot_date": "2026-11-01",
+  "show_length_sec": 709,
+  "audio_size": 11346860,
+  "generated_at": "2026-10-31T23:23:58.309599+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-90d82823",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "title_ja": "LRMoE:メモリ制約のあるノードでの効率的なMoE学習に向けた需要側負荷再調整",
+      "one_liner": "メモリ制約下でMoE学習を効率化する新手法",
+      "fingerprint": "90d8282364f6f59f4d831118859b1a61",
+      "score": 80,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-d89f6d9b",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "title_ja": "Worldwide Express、Amazon Bedrockで貨物の例外処理を自動化した方法",
+      "one_liner": "物流の請求エラーをAIが自動処理し、現金回収が4週間早まった",
+      "fingerprint": "d89f6d9b7625a630199f73e17c14a4c1",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6d21453e",
+      "title": "September 09, 2026",
+      "title_ja": "Workbenchの定期実行に新しい設定が追加",
+      "one_liner": "Workbenchの定期実行に新しい設定が追加",
+      "fingerprint": "6d21453eea173885d10a7144452442c8",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-8d38732f",
+      "title": "Making it easier for websites to express AI training preferences",
+      "title_ja": "ウェブサイトがAI学習に関する意向をより簡単に示せるように",
+      "one_liner": "OpenAIがrobots.txtのAI学習拒否信号に対応",
+      "fingerprint": "8d38732ffd8b64aa8558efbee6f9e26c",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-366a3324",
+      "title": "August 30, 2026",
+      "title_ja": "Workbench v2の更新でマウントと動作が改善",
+      "one_liner": "Workbench v2の更新でマウントと動作が改善",
+      "fingerprint": "366a33242d1cb45899e066b3a88176ba",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-0d063c3e",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "title_ja": "ウーバーイーツの注文にAIエージェントを使っている人は、ほぼゼロ",
+      "one_liner": "DoorDashのAIエージェント注文は、ほぼ未利用",
+      "fingerprint": "0d063c3ee15287ebadf90a272a219d15",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7e5a6165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available"
+    },
+    {
+      "item_id": "item-5361bfef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits"
+    },
+    {
+      "item_id": "item-a5d89592",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’"
+    },
+    {
+      "item_id": "item-c016aff5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI Spending Fears Hammer Big Tech Stocks"
+    },
+    {
+      "item_id": "item-e129d3f1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims"
+    },
+    {
+      "item_id": "item-7489206e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams"
+    },
+    {
+      "item_id": "item-afae0536",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models"
+    },
+    {
+      "item_id": "item-ba1f04df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job"
+    },
+    {
+      "item_id": "item-1ab05ff1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Thrive Holdings to Buy ADT Security for $15.3 Billion in Cash"
+    },
+    {
+      "item_id": "item-98a33d81",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Community safety report and new protections for teens"
+    },
+    {
+      "item_id": "item-14ff5a74",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FBI Blames North Korea for $6 Billion Binance Crypto Hack"
+    },
+    {
+      "item_id": "item-d9ddf92d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-7813aca4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Distributed Proofreaders"
+    },
+    {
+      "item_id": "item-015e3ba1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale"
+    },
+    {
+      "item_id": "item-9f43b429",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Govee Christmas Lights 2 Deal: Save $25 on These Smart String Lights"
+    },
+    {
+      "item_id": "item-697aed8d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An Italian Farmer Found Some Unknown Seeds in His Attic and, With Nothing to Lose, Planted Them. The Result Was Almost Biblical"
+    }
+  ],
+  "score_cache": {
+    "697aed8d4d75886a268b652cf55836c8": {
+      "score": 2,
+      "title": "An Italian Farmer Found Some Unknown Seeds in His Attic and, With Nothing to Lose, Planted Them. The Result Was Almost B",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] 未知の種を栽培した農業上の逸話であり、AI・ソフトウェア・クラウド・セキュリティなど技術業界への関連性がありません。エンジニアリング上の新規性や影響範囲も確認できないため、最低評価に近いスコアです。"
+    },
+    "8d38732ffd8b64aa8558efbee6f9e26c": {
+      "score": 47,
+      "title": "Making it easier for websites to express AI training preferences",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AI事業者とウェブサイト運営者の間で、robots.txtを通じて学習利用の意向を共有する仕組みは、クローリング運用やデータ利用の透明性向上に寄与する技術的な進展です。一方で、業界のアーキテクチャを大きく変える新技術というより、参加事業者間の運用ルール・標準化に近い話題です。既に取り上げ済みのAIおよびOpenAI関連トピックと同じ軸であるため、重複"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 18,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] 「Usage Policy update」は利用規約・運用ルールの改定に関する話題と考えられ、技術革新やアーキテクチャの進展ではないため、エンジニア視点での重要度は低めです。さらに既出キーワードの「usage」と同じ角度の話題であり、具体的な新機能や大きな方針転換を示す情報もないため、重複分を減点しました。 [Editorial: AI-focuse"
+    },
+    "7489206ea9222318eb383e451d2a63a9": {
+      "score": 39,
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] Amazon Bedrockのコスト管理を、コスト帰属、リクエスト可観測性、予算管理、デフォルト設定の最適化、定期レビューという5段階の運用モデルで整理しており、FinOpsやプラットフォームチームには実務的な価値があります。一方で、新しいモデルやアーキテクチャの発表ではなく、既存サービスの運用・コスト最適化に関するガイドです。また、既に取り上げ済み"
+    },
+    "7e5a61656fa5d1f0ff81d9794d9bd125": {
+      "score": 43,
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] VS CodeやCopilot CLIなどで、信頼済みリポジトリのプラグイン既定値や企業による一元管理が可能になり、開発環境の標準化・ガバナンスに有用です。一方で、革新的な技術そのものではなく、主にプラグインの運用管理や企業向け制御に関する機能追加です。また、既出キーワードのGitHubおよびCopilotと同じ文脈の続報に近いため、重複分を減点しま"
+    },
+    "366a33242d1cb45899e066b3a88176ba": {
+      "score": 47,
+      "title": "August 30, 2026",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新で、Cloud Storageマウントの自動再接続、ファイル参照のキャッシュによる応答性改善、ノートブック上書き問題の修正、カスタムCA証明書対応など、開発環境の安定性と運用性を高める実務的な改善です。一方で、新しいAI機能やアーキテクチャの発表ではなく、主に不具合修正と依存パッケージ更新に留まり"
+    },
+    "a5d89592a109e313818d5542a1118131": {
+      "score": 41,
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AppleのAI戦略に関する経営方針であり、同社の製品開発やAI機能の投入時期に影響する可能性はありますが、具体的なモデル、アーキテクチャ、API、技術革新の発表ではありません。AI関連の話題である一方、既出キーワード「ai」と同じ大きなテーマに該当するため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "afae053627857241caa3ac30d88860f4": {
+      "score": 38,
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] EU AI Act対応のためのテキスト透かし拡大は、AI生成物の識別やコンプライアンス実装に関わる重要な動きです。一方で、内容の中心は規制対応と、旧Claudeモデルでサンプリングパラメータを変更すると透かしを回避できるという運用上の抜け道であり、アーキテクチャやモデル性能を大きく変える技術革新ではありません。既出キーワードのAI・modelに関連す"
+    },
+    "ba1f04df1b4a81a1a0f0f201e7cf0080": {
+      "score": 35,
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AI利用の透明性や教育機関における不正利用ポリシーを考える材料にはなるものの、技術革新や新しい実装、アーキテクチャ上の進展を扱う記事ではありません。AI利用を巡る倫理・ガバナンス寄りの話題であり、既出キーワードのAIと近いテーマでもあるため減点しました。 [Editorial: AI-focused source +6; AI/SaaS topic "
+    },
+    "e129d3f1928a6c3314a88485702be39f": {
+      "score": 40,
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AIを悪用して被害者の認証情報、決済情報、Discordセッションなどを横断的に収集・整理するマルウェアは、従来型の情報窃取より自動化・個人特定の能力が高く、セキュリティ実務上は注目に値します。一方で、革新的なAI基盤や開発者向け技術の発表ではなく、主題はマルウェアと脅威動向であるため、評価基準上は低めに設定しました。既出のAI関連記事と完全に同じ角"
+    },
+    "14ff5a744c61cd43433769abfc361028": {
+      "score": 32,
+      "title": "FBI Blames North Korea for $6 Billion Binance Crypto Hack",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] 6,000億円超規模とされる暗号資産の窃取で、Binanceや暗号資産エコシステムへの影響は非常に大きい一方、主題は国家支援型サイバー攻撃に関するセキュリティ・犯罪捜査ニュースであり、技術革新や開発者向けアーキテクチャの進展ではありません。ウォレット管理、秘密鍵保護、取引所の監視体制を再検討する材料にはなりますが、記事単体では具体的な新技術や攻撃手法"
+    },
+    "1ab05ff1f8d98b20bab6952d04f920b9": {
+      "score": 35,
+      "title": "Thrive Holdings to Buy ADT Security for $15.3 Billion in Cash",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AI投資家が関与する企業による大型買収で金額・市場インパクトは大きいものの、記事の中心は152年続くホームセキュリティ企業ADTのM&Aであり、AI、LLM、クラウド、ソフトウェアアーキテクチャなどの具体的な技術革新は示されていません。エンジニア視点では、今後のスマートホームやAI監視サービスへの展開可能性はあるものの、現時点では金融・事業戦略ニュー"
+    },
+    "90d8282364f6f59f4d831118859b1a61": {
+      "score": 80,
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] MoEモデルの学習における専門家（Expert）の偏ったルーティングとGPUメモリ制約を同時に扱う、実装・システムアーキテクチャ上の新規性が高い研究です。追加のExpert複製がトークンバッファとメモリ競合する問題に対し、後方伝播時の需要再調整と保持ワークロードの均衡化を行う点は、限られたGPUノードで大規模モデルを学習する際に実用的な影響があります"
+    },
+    "d9ddf92dc0456c8c4e80e04be3b9eca2": {
+      "score": 27,
+      "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] セッション期限切れ時の未保存データ、再認証、アクセシビリティ、権限境界を整理した実務的なUXレビュー記事です。SaaS開発では重要ですが、新しいアーキテクチャや技術革新、実測結果、具体的な実装手法を提示するものではなく、主に運用・設計ガイダンスに留まります。WCAGのLevel AAA基準への言及もありますが、規制・ガイドライン寄りの内容で、業界全体"
+    },
+    "7813aca4262493e11e5455b0be51b666": {
+      "score": 18,
+      "title": "Distributed Proofreaders",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] Distributed Proofreadersは、公開ドメイン書籍の校正を分散型のボランティア作業で支援する取り組みを指すと考えられますが、記事のスニペットがなく、技術的な新規性やソフトウェア業界への具体的な影響を確認できません。AI・クラウド・主要言語などの技術革新ではなく、現時点では一般的なデジタルアーカイブ活動に近いため、重要度は低めに評価し"
+    },
+    "98a33d8141276da0ff5cbe4b22ca7805": {
+      "score": 34,
+      "title": "Community safety report and new protections for teens",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] ChatGPTにおける暴力防止策の拡充や未成年者向け保護は、AIサービスの安全設計・運用には重要ですが、主にポリシー、リスク管理、報告体制の強化であり、アーキテクチャや基盤技術を大きく変える発表ではありません。既出のOpenAI・AI関連テーマと近く、明確な技術革新よりも続報的な位置付けと判断して減点しました。 [Editorial: AI-focu"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-10-29",
+      "reason": "[ScoreCache 2026-10-29] [ScoreCache 2026-10-29] [ScoreCache 2026-10-29] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性、攻撃手法、製品影響、修正内容などの具体情報がなく、技術的な新規性や影響範囲を評価できません。セキュリティ関連は重要ではあるものの、記事内容が不明なため最低限の評価"
+    },
+    "d89f6d9b7625a630199f73e17c14a4c1": {
+      "score": 49,
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] Amazon Bedrockを活用したマルチエージェント構成を実業務の請求例外処理に適用し、例外件数75%削減、キャッシュ化期間4週間短縮、1,000万ドルのフリーキャッシュフロー創出という具体的な成果を示している点は、生成AIのエンタープライズ活用事例として価値が高い。一方で、基盤技術そのものの革新や業界標準を変える発表ではなく、既出キーワードであ"
+    },
+    "6d21453eea173885d10a7144452442c8": {
+      "score": 48,
+      "title": "September 09, 2026",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] クラウド上のノートブック実行基盤に、実行アイデンティティ、Shielded VM、カスタムVMイメージ／コンテナ指定を追加する実務的な機能強化です。認証情報の権限分離、再現可能なランタイム、セキュアブート対応により、機械学習・エージェント開発の運用性とガバナンスは向上します。一方で、既存基盤の設定拡張であり、業界の前提を変える新アーキテクチャや革新的"
+    },
+    "015e3ba166dd1f49d1af0657adf52718": {
+      "score": 6,
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] TechCrunch主催のスタートアップ向け交流・イベント告知であり、技術革新、ソフトウェアアーキテクチャ、AI、クラウドなどの具体的な新情報は含まれていません。エンジニアリングへの直接的な影響や技術的インパクトがほぼないため、一般的なイベント告知として最低評価に近いスコアです。"
+    },
+    "5361bfefc365498bd5f01cef91f8eab6": {
+      "score": 43,
+      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AIモデルの学習データ方針を変更し、ユーザーが学習利用を無効化していてもサイバーセキュリティ関連セッションを学習に使うという内容は、プライバシー、同意、データガバナンスの観点で重要です。一方で、技術的なブレークスルーや新しいモデル・アーキテクチャの発表ではなく、主題は規約・運用とユーザー信頼に関する問題です。さらに、既出のOpenAI／AIおよびモデ"
+    },
+    "0d063c3ee15287ebadf90a272a219d15": {
+      "score": 47,
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AIエージェントによるEC注文という新しい利用例を扱っている点は注目できますが、技術的なブレークスルーや具体的な実装・製品発表ではなく、現時点で利用者がほとんどいないという市場動向が中心です。AIおよびエージェントは既出キーワードと同じ話題に該当するため減点し、エンジニアへの直接的な影響度も限定的と評価しました。 [Editorial: AI-foc"
+    },
+    "9f43b429fb2753f6e4cacda7110fa3c0": {
+      "score": 6,
+      "title": "Govee Christmas Lights 2 Deal: Save $25 on These Smart String Lights",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] 一般消費者向けのスマート照明セール情報であり、ソフトウェア技術、AI、クラウド、アーキテクチャなどへの影響はほぼありません。エンジニアリング上の新規性や業界への波及効果も限定的なため、最低評価帯としました。"
+    },
+    "c016aff527cf3e547eff8711d468cb33": {
+      "score": 41,
+      "title": "AI Spending Fears Hammer Big Tech Stocks",
+      "date": "2026-11-01",
+      "reason": "[Claude API Evaluation] AI投資の巨額化に対する収益性・ROIへの懸念は、クラウドや計算資源の需要、企業の設備投資、AI事業の持続性に影響する重要な論点です。ただし、技術そのものの新発表ではなく、市場反応と決算見通しが中心で、具体的なアーキテクチャや製品進化は含まれていません。また、既出のAI関連トピックと同じ大枠に属するため減点しました。Binanceのハッキング疑惑も重"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-01/blog.md",
+    "show_notes_path": "out/2026-11-01/show_notes.md",
+    "script_path": "out/2026-11-01/script_2hosts.md",
+    "audio_path": "out/2026-11-01/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-01/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-01/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 28092,
+        "output_tokens": 9976,
+        "cost_usd": 0.01759
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 19,
+        "input_tokens": 46467,
+        "output_tokens": 9444,
+        "cost_usd": 0.187374
+      }
+    ],
+    "tts": {
+      "chars": 4573,
+      "audio_sec": 695.9,
+      "cost_usd": 0.134181
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.339144
+  }
+}
