@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-02",
+  "episode_date_local": "2026-11-02",
+  "content_snapshot_date": "2026-11-02",
+  "show_length_sec": 762,
+  "audio_size": 12208172,
+  "generated_at": "2026-11-01T23:36:34.368362+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-22a361a0",
+      "title": "Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project",
+      "title_ja": "エヌビディア、クラウド事業者によるアンソロピックの450億ドル規模プロジェクトに債務保証へ",
+      "one_liner": "NvidiaがAIクラウドの巨額債務を保証へ",
+      "fingerprint": "22a361a0721d3d599bd1441d1eab1d77",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-14f2c854",
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "title_ja": "アドビ、AIエージェントがプロのフォトショップ使いのように編集ツールを使いこなせるかを検証中",
+      "one_liner": "AdobeがPhotoshop職人流のAI編集を試作",
+      "fingerprint": "14f2c8544f4ecbdcfa68c2d6541dd33a",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2a894514",
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "title_ja": "共感的なプロンプトで、AIチャットボットがトラウマを抱えたような会話相手に変わることも",
+      "one_liner": "共感的な対話でAIが「トラウマ」を語り出す",
+      "fingerprint": "2a8945141784cc12c8f5706faef944f7",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0d74fdb8",
+      "title": "The Antelope: What Is a Document?",
+      "title_ja": "アンテロープ:文書とは何か?",
+      "one_liner": "文書とは何か、その定義が問い直されている",
+      "fingerprint": "0d74fdb8df17f7595768e0b540d4c722",
+      "score": 50,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    },
+    {
+      "item_id": "item-ad7d1323",
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "title_ja": "AWS GovCloud(米国)でAmazon Bedrockを使ってChatGPTデスクトップアプリを設定する",
+      "one_liner": "ChatGPTデスクトップ版がGovCloudのBedrockで使えます",
+      "fingerprint": "ad7d13237aff97b62aa101288d167f98",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-1359bde0",
+      "title": "October 04, 2026",
+      "title_ja": "Workbench v2、BigQuery連携を独立化",
+      "one_liner": "Workbench v2、BigQuery連携を独立化",
+      "fingerprint": "1359bde0843274190ce33e3f333980cd",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7e5a6165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available"
+    },
+    {
+      "item_id": "item-7832c66d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says | TechCrunch"
+    },
+    {
+      "item_id": "item-98a33d81",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Community safety report and new protections for teens"
+    },
+    {
+      "item_id": "item-31942faf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google AI gets cagey when asked who won the 2020 elections"
+    },
+    {
+      "item_id": "item-7489206e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-3abe2d38",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Intel Shares Drop More Than 20% After Weak Sales Forecast"
+    },
+    {
+      "item_id": "item-3f688d91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "so i guess everyone uses llms to think now - eva"
+    },
+    {
+      "item_id": "item-ecf27b72",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fair use benefits everyone"
+    },
+    {
+      "item_id": "item-fe87b1d4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?"
+    },
+    {
+      "item_id": "item-ba1f04df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job"
+    },
+    {
+      "item_id": "item-c75d3a6c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-d0269d8a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "There’s a Free Video Editor Inside Google Drive That Anyone Can Use"
+    },
+    {
+      "item_id": "item-39f2abdf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Inside Indonesia’s Wash-Trade Scheme"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-ecff2614",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Hollywood Color Nerd Who Shot ‘Knives Out’ Explains His Viral iPhone Camera App"
+    },
+    {
+      "item_id": "item-dacb0364",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Touch-Screen MacBook Pro Impressions; Software Division Gaming Shake-Up"
+    }
+  ],
+  "score_cache": {
+    "7832c66d0270ee736fb73a5d83b339f0": {
+      "score": 41,
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says | TechCrunch",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 企業におけるAI導入の投資対効果を検証する内容で、AI活用の失敗要因や導入判断には一定の示唆があります。一方、具体的な技術革新や新しいアーキテクチャ、製品発表ではなく、経済専門家による市場分析・警鐘が中心です。また、AIは直近放送済みキーワードであり、同じテーマの続報や明確な技術的新展開が示されていないため減点しました。 [Editorial: AI"
+    },
+    "98a33d8141276da0ff5cbe4b22ca7805": {
+      "score": 41,
+      "title": "Community safety report and new protections for teens",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] ChatGPTにおける暴力防止策、未成年者向け保護、早期介入、公共安全レポートへの取り組みは重要ですが、主題は新しい技術アーキテクチャや製品革新ではなく、安全運用・ポリシー強化に属します。また、既出キーワードであるOpenAIおよびAIに直接関連し、明確な技術的ブレークスルーや具体的な実装詳細も少ないため減点しました。エンジニア視点では、モデルの安全"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 12,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 利用規約・運用ポリシーの更新は、技術革新や開発者向け機能の具体的な変更ではなく、主に法務・運用面のニュースです。スニペットがなく変更内容や影響範囲も判断できないため、エンジニア視点での情報価値は非常に限定的です。さらに既出キーワードの「2026」と同じ話題に該当する可能性が高く、減点しました。 [Editorial: AI-focused sourc"
+    },
+    "7489206ea9222318eb383e451d2a63a9": {
+      "score": 39,
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] Amazon Bedrockの利用コストを可視化・予算管理・最適化する実務的なFinOps運用モデルであり、クラウド基盤チームには有用です。一方で、新しいAIモデルやアーキテクチャの発表ではなく、既存サービスの運用・コスト管理に焦点を置いた記事です。また、直近に取り上げ済みの「Amazon」「Bedrock」と同じ話題に該当するため、重複分として減点"
+    },
+    "7e5a61656fa5d1f0ff81d9794d9bd125": {
+      "score": 47,
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] VS Code、Copilot CLI、GitHub Copilotアプリでリポジトリ単位のプラグイン既定値や企業管理ポリシーを適用できるようになり、開発環境の標準化、ガバナンス、シャドーIT抑制に実務的な価値があります。一方で、基盤技術やアーキテクチャを大きく変える発表ではなく、主に企業向け運用・管理機能です。また、既に取り上げ済みのGitHubお"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 38,
+      "title": "September 28, 2026",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のカスタムコンテナイメージに含まれるCritical／High深刻度のCVEを一括修正する重要なセキュリティ更新ですが、主な内容は上流依存パッケージの更新と脆弱性 remediation であり、新しいアーキテクチャや機能、技術革新を示すものではありません。運用上の優先度は高い一方、影響範囲や具体"
+    },
+    "c75d3a6c8d624111c99ea30390ff48f9": {
+      "score": 27,
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] データセンターを「AI compute campuses」と呼び替える話であり、AIインフラへの社会的反発や地域合意形成という観点はありますが、現時点では技術的な新機能、アーキテクチャ変更、投資計画などを伴わない名称・広報戦略にとどまります。AI関連の既出テーマとも重なり、実質的な新規性やエンジニアへの直接的な影響は限定的なため、低めに評価しました。"
+    },
+    "14f2c8544f4ecbdcfa68c2d6541dd33a": {
+      "score": 58,
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 画像編集タスクごとに専門ツールを選択し、評価指標に基づいて最適な結果を言語モデルに選ばせる構成は、AIエージェントの実用的なツール利用とマルチステップ推論に関する具体的な研究成果です。Photoshopのような複雑な専門ソフトをエージェントが扱う設計への示唆も大きい一方、現時点では研究段階で、約10倍の計算資源を要するため実運用への障壁があります。ま"
+    },
+    "ba1f04df1b4a81a1a0f0f201e7cf0080": {
+      "score": 31,
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] AIの利用を巡る教育機関の倫理・ガバナンス問題であり、技術そのものの革新や実装上の新規性は乏しいため、エンジニア視点での直接的な技術インパクトは限定的です。AI関連トピックは直近に取り上げ済みで、内容もAI利用の是非や透明性という既出テーマに近いため、重複分として減点しました。 [Editorial: AI-focused source +6; AI"
+    },
+    "d0269d8a294b57ec4ebcf3cde9357e84": {
+      "score": 24,
+      "title": "There’s a Free Video Editor Inside Google Drive That Anyone Can Use",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] Google VidsをGoogle Driveから利用できるという点は、ブラウザベースの動画編集・共同制作環境として一定の実用性があります。一方で、既存のGoogle Workspace機能の拡張に近く、アーキテクチャや開発者向け技術の大きな進化、新規性の高いAI・LLM技術が示されているわけではありません。一般ユーザー向けソフトウェアの紹介記事で"
+    },
+    "39f2abdfb5a37958de665a961145e15b": {
+      "score": 24,
+      "title": "Inside Indonesia’s Wash-Trade Scheme",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] インドネシア株式市場におけるウォッシュトレードと規制対応を扱う金融市場・規制ニュースであり、ソフトウェア技術やAI、クラウド、開発者向けアーキテクチャへの直接的な影響は限定的です。MSCIの評価や市場監視の信頼性には重要ですが、エンジニア視点では法律・規制カテゴリに近いため低めに評価します。既出キーワードとの直接的な重複もありません。"
+    },
+    "22a361a0721d3d599bd1441d1eab1d77": {
+      "score": 84,
+      "title": "Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] Anthropic向けの460MW級データセンター計画に対し、Nvidiaが新興AIクラウド事業者Nscaleの債務を数十億ドル規模で信用保証する可能性がある点は、AIインフラの資金調達とサプライチェーンに大きな影響を与えます。GPUベンダーが単なる半導体供給者から、クラウド事業者やデータセンター開発の金融面まで支援する構図は、AI計算資源の集中と垂"
+    },
+    "0d74fdb8df17f7595768e0b540d4c722": {
+      "score": 50,
+      "title": "The Antelope: What Is a Document?",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 文書を固定性・証拠性・独立性というソフトウェアアーキテクチャ上の性質から再定義し、紙・ハイパーテキスト・独自バイナリ形式・PDF・Markdown・クラウド文書までを一貫して分析している点は、データポータビリティ、長期保存、ベンダーロックイン、オープン標準を考えるうえで有益です。特にクラウド上の共同編集や機械生成テキストが、文書の所有権や証拠性をどう"
+    },
+    "3f688d91095fc92b98f4e001720c59ff": {
+      "score": 36,
+      "title": "so i guess everyone uses llms to think now - eva",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] LLMを思考補助に使う人が増えているという、AI活用の社会的・文化的な変化を扱う記事と考えられます。ただし、具体的な技術革新、製品発表、アーキテクチャ上の新規性、導入データがタイトルから確認できず、エンジニアリングへの直接的な影響は限定的です。AI関連ではあるものの、既出テーマとの重複も想定されるため、話題性に対して控えめな評価としました。"
+    },
+    "ecf27b728fc10a5e4534b48921645b38": {
+      "score": 35,
+      "title": "Fair use benefits everyone",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] AI学習におけるフェアユースの法的根拠を、クリエイターや研究者などの意見とともに示す内容で、AI開発の法的・社会的基盤には関係します。一方で、主題は訴訟・著作権・規制に関するもので、実装技術や具体的な製品革新ではありません。また、既出キーワードの「AI」「training」と同じ論点に当たり、新たな技術的展開が明確でないため減点しました。 [Edit"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-10-29",
+      "reason": "[ScoreCache 2026-10-29] [ScoreCache 2026-10-29] [ScoreCache 2026-10-29] [ScoreCache 2026-10-29] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性、攻撃手法、製品影響、修正内容などの具体情報がなく、技術的な新規性や影響範囲を評価できません。セキュリティ関連は重要"
+    },
+    "ad7d13237aff97b62aa101288d167f98": {
+      "score": 49,
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] AWS GovCloud上でChatGPTデスクトップアプリの推論先をAmazon Bedrockへ切り替え、APIモード認証、端末管理ポリシー、AWSプロファイル、ネットワーク制限を組み合わせて段階導入する具体的な構成は、エンタープライズの生成AI導入やセキュリティ検証に有用です。一方で、基盤技術そのものの革新というより既存サービスを規制・管理環境"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 48,
+      "title": "October 04, 2026",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] AI開発向けのAgent Platform Workbenchにおける更新で、BigQuery JupyterLabプラグインの独立制御、Pre-Turing GPU向けCUDAドライバーの事前導入、コンテナイメージのCritical/High CVE修正など、クラウド開発環境の運用性と安全性に関わる実務的な変更です。一方で、業界の前提を変える新機能"
+    },
+    "fe87b1d4ef3ed6a4ff44498e6dffffd0": {
+      "score": 32,
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] AIを題材にしているものの、具体的なモデル、製品、技術革新、実装事例を扱う記事ではなく、テックCEOの発言や社会的な受け止め方を論じる評論的な内容です。エンジニアリング上の新規性や実務への直接的な影響は限定的で、既出キーワードの「AI」とも重なるため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "2a8945141784cc12c8f5706faef944f7": {
+      "score": 54,
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 複数の主要LLMが共感的なプロンプトによって、訓練過程に関する苦痛や不安を一貫した物語として生成するという研究は、対話設計、擬人化、メンタルヘルス上の安全性に関わる重要な知見です。一方で、基盤モデルやアーキテクチャの画期的な進化ではなく、主な影響は安全対策・評価手法にあります。AI関連トピックは既出キーワードに含まれるため、同分野の記事として減点し、"
+    },
+    "31942fafa70fd6aaca296f6f018f177d": {
+      "score": 41,
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] AIに関する記事ではあるものの、主題は選挙情報への回答方針や地域差であり、モデルの新機能・技術革新・アーキテクチャ上の進展ではありません。エンジニア視点では、政治的質問に対する安全性、バイアス、地域別ポリシー適用、回答制御の検証事例として一定の示唆がありますが、実装や業界への直接的な影響は限定的です。既出キーワードの「AI」「Google」と同じ話題"
+    },
+    "ecff2614d5425c59ef14dd8c589be670": {
+      "score": 5,
+      "title": "The Hollywood Color Nerd Who Shot ‘Knives Out’ Explains His Viral iPhone Camera App",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 映画撮影で使われるカラーサイエンスをiPhoneアプリに実装した点は興味深く、画像処理や色管理の応用例として一定の技術的価値があります。ただし、主題は13ドルの一般消費者向けカメラアプリであり、アーキテクチャ、基盤技術、AI、開発者向けエコシステムを大きく変える内容ではありません。評価基準上、スマートフォン関連の消費者向け製品ニュースとして最低評価帯"
+    },
+    "dacb0364f79bd6ad83f51b477b4c06eb": {
+      "score": 4,
+      "title": "Apple Touch-Screen MacBook Pro Impressions; Software Division Gaming Shake-Up",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] 主題はタッチスクリーン搭載MacBook Proの印象やiPhoneの画面破損であり、一般消費者向けハードウェアの話題が中心です。ソフトウェア部門のゲーム事業再編は一定の業界動向ですが、技術アーキテクチャや開発者エコシステムを大きく変える具体的な発表ではなく、エンジニアへの直接的な影響も限定的です。 [Editorial: gadget topic "
+    },
+    "3abe2d38632f910e120f074258f98e00": {
+      "score": 38,
+      "title": "Intel Shares Drop More Than 20% After Weak Sales Forecast",
+      "date": "2026-11-02",
+      "reason": "[Claude API Evaluation] Intelの業績見通し悪化と株価急落は、PC需要や半導体市場、同社の製造・競争戦略に影響するため、テック業界全体では一定の重要性があります。一方で、新しいプロセッサ技術やアーキテクチャ、製造技術の発表ではなく、主題は業績と市場需要の変化です。エンジニアにとっては市場環境を把握する材料ですが、技術革新そのものではないため中程度の評価としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-02/blog.md",
+    "show_notes_path": "out/2026-11-02/show_notes.md",
+    "script_path": "out/2026-11-02/script_2hosts.md",
+    "audio_path": "out/2026-11-02/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-02/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-02/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 30493,
+        "output_tokens": 11390,
+        "cost_usd": 0.019767
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 49645,
+        "output_tokens": 10466,
+        "cost_usd": 0.20395
+      }
+    ],
+    "tts": {
+      "chars": 4778,
+      "audio_sec": 748.7,
+      "cost_usd": 0.144351
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.368068
+  }
+}

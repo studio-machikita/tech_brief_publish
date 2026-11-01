@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.52,
+    "title": "Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project",
+    "url": "https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal"
+  },
+  {
+    "start_sec": 130.52,
+    "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+    "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/"
+  },
+  {
+    "start_sec": 215.69,
+    "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+    "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/"
+  },
+  {
+    "start_sec": 316.41,
+    "title": "The Antelope: What Is a Document?",
+    "url": "https://dev.to/raphiki/the-antelope-what-is-a-document-21gi"
+  },
+  {
+    "start_sec": 471.16,
+    "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+    "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/"
+  },
+  {
+    "start_sec": 632.72,
+    "title": "October 04, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026"
+  },
+  {
+    "start_sec": 731.64,
+    "title": "エンディング",
+    "url": null
+  }
+]

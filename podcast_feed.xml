@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#215 エヌビディア、クラウド事業者によるアンソロピックの450億ドル規模プロジェクトに債務保証へ ほか</title>
+      <description>Tech News Radio Show Notes - #215 (2026-11-02)
+
+エピソード情報
+• エピソード: #215
+• 日付: 2026-11-02
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project (https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal)
+• Adobe is testing how well AI agents can use editing tools like a Photoshop professional would (https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/)
+• Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners (https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/)
+
+注目の深掘り
+• The Antelope: What Is a Document? (https://dev.to/raphiki/the-antelope-what-is-a-document-21gi)
+
+小ネタ・その他
+• Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US) (https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/)
+• October 04, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-02/episode_audio.mp3" length="12208172" type="audio/mpeg" />
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-02</guid>
+      <itunes:duration>12:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>エヌビディア、クラウド事業者によるアンソロピックの450億ドル規模プロジェクトに債務保証へ ほか</itunes:title>
+      <itunes:episode>215</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #215 (2026-11-02)
+
+エピソード情報
+• エピソード: #215
+• 日付: 2026-11-02
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project (https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal)
+• Adobe is testing how well AI agents can use editing tools like a Photoshop professional would (https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/)
+• Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners (https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/)
+
+注目の深掘り
+• The Antelope: What Is a Document? (https://dev.to/raphiki/the-antelope-what-is-a-document-21gi)
+
+小ネタ・その他
+• Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US) (https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/)
+• October 04, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-02/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.520" title="Nvidia Moves to Backstop a Cloud Provider’s $45 Billion Anthropic Project" href="https://www.theinformation.com/articles/nvidia-talks-provide-billions-credit-support-cloud-providers-45-billion-anthropic-deal" />
+        <psc:chapter start="00:02:10.520" title="Adobe is testing how well AI agents can use editing tools like a Photoshop professional would" href="https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/" />
+        <psc:chapter start="00:03:35.690" title="Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners" href="https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/" />
+        <psc:chapter start="00:05:16.410" title="The Antelope: What Is a Document?" href="https://dev.to/raphiki/the-antelope-what-is-a-document-21gi" />
+        <psc:chapter start="00:07:51.160" title="Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)" href="https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/" />
+        <psc:chapter start="00:10:32.720" title="October 04, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026" />
+        <psc:chapter start="00:12:11.640" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#214 LRMoE:メモリ制約のあるノードでの効率的なMoE学習に向けた需要側負荷再調整 ほか</title>
       <description>Tech News Radio Show Notes - #214 (2026-11-01)
 
