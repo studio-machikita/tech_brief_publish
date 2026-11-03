@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-03",
+  "episode_date_local": "2026-11-03",
+  "content_snapshot_date": "2026-11-03",
+  "show_length_sec": 704,
+  "audio_size": 11279276,
+  "generated_at": "2026-11-03T00:24:37.084264+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-39c830a1",
+      "title": "Scaling Git at OpenAI",
+      "title_ja": "OpenAIにおけるGitのスケーリング",
+      "one_liner": "OpenAIがGit互換基盤Pandoを開発",
+      "fingerprint": "39c830a1395bb71fc4447a19c4cf4af4",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-e9b34f61",
+      "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+      "title_ja": "Li²SAO:グループ相対アクター・クリティックのブートストラップによる軽量シングルロールアウト非同期強化学習最適化の高度化",
+      "one_liner": "非同期RLの学習を軽く安定させる新手法Li²SAO",
+      "fingerprint": "e9b34f61c12feaaf957a65c1c1e3aa7e",
+      "score": 81,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-bca2c7ea",
+      "title": "Introducing the Grid Protectors Program",
+      "title_ja": "「グリッド・プロテクターズ・プログラム」を発表",
+      "one_liner": "OpenAIが電力会社と組み、送電網を守る新計画",
+      "fingerprint": "bca2c7eab872737bbbdc0dfcb3570f7c",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-7d51cb50",
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "title_ja": "Amazon SageMaker AIで知識蒸留を活用し、効率的なエージェントを構築する",
+      "one_liner": "大型AIの動きを小型モデルに写し取る",
+      "fingerprint": "7d51cb50f56dd346ee5bc444878f095b",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-45aa152a",
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "title_ja": "Crawl4AIでAmazon Bedrock Knowledge Bases向けにWebコンテンツを準備する方法",
+      "one_liner": "Crawl4AIでBedrockの検索精度を高める",
+      "fingerprint": "45aa152aa9cd55e07bae322bc2025e8d",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-82a6a62c",
+      "title": "September 18, 2026",
+      "title_ja": "JupyterLabのブラウザ側ログを集約",
+      "one_liner": "JupyterLabのブラウザ側ログを集約",
+      "fingerprint": "82a6a62c69656852313cdc2b1dacd647",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-e0e23e66",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers"
+    },
+    {
+      "item_id": "item-7e5a6165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available"
+    },
+    {
+      "item_id": "item-e8f744b5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold"
+    },
+    {
+      "item_id": "item-31942faf",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google AI gets cagey when asked who won the 2020 elections"
+    },
+    {
+      "item_id": "item-a0e6b40e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Automatic Construction of Strong Simple Baselines"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-ba1f04df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job"
+    },
+    {
+      "item_id": "item-0ec0dea5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic’s growth just flattened (really)"
+    },
+    {
+      "item_id": "item-d24fb386",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I couldn't say in one sentence what to tell users when we used AI. So I built a drafter."
+    },
+    {
+      "item_id": "item-015a7b33",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Billionaire Tax Might Fail—For Now"
+    },
+    {
+      "item_id": "item-752570a9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The SEC Should Block Anthropic’s IPO to Protect the Public"
+    },
+    {
+      "item_id": "item-67bcb302",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "North Korea Denies Role in $6.3 Billion Binance Crypto Heist"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-2c17450d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps"
+    },
+    {
+      "item_id": "item-10237138",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Online Right’s Closing Campaign Argument: Fascist Anakin Skywalker Memes"
+    },
+    {
+      "item_id": "item-9127774b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to Save $25 on Burga’s Phone Accessories With This Sale"
+    },
+    {
+      "item_id": "item-857c355a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve"
+    }
+  ],
+  "score_cache": {
+    "0ec0dea59f3ed25fbd40f50c161880d1": {
+      "score": 37,
+      "title": "Anthropic’s growth just flattened (really)",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Anthropicという主要AI企業の成長鈍化は、LLM市場の競争環境や事業拡大の持続性を考えるうえで一定の関心があります。ただし、技術革新や新しいアーキテクチャの発表ではなく、企業成長に関するビジネスニュースに留まっています。さらに、Anthropicは直近の既出キーワードであり、同社の動向を扱う記事として重複減点しました。スニペットがないため、具"
+    },
+    "39c830a1395bb71fc4447a19c4cf4af4": {
+      "score": 92,
+      "title": "Scaling Git at OpenAI",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Codexによって急増する大規模開発を支えるため、Git互換性を維持しつつバックエンドを再設計したPandoの事例は、開発者向けインフラとして技術的な具体性と実務的インパクトが高い。大規模リポジトリ、並列開発、低レイテンシーなバージョン管理をどうスケールさせるかという、AI開発時代に重要なアーキテクチャ上の知見を含む。一方で、現時点ではOpenAI内"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 22,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Usage Policyの更新はサービス利用規約や運用ルールに関するニュースであり、技術革新やアーキテクチャの進展に直接つながる内容ではありません。スニペットがなく、変更点や影響範囲も不明なため具体性・新規性を評価しにくい点も減点要因です。また、既出キーワードの「2026」を含む同種の話題であるため、重複分を考慮して低く評価しました。 [Editor"
+    },
+    "45aa152aa9cd55e07bae322bc2025e8d": {
+      "score": 49,
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Crawl4AIをAmazon Bedrock Knowledge Basesの前処理レイヤーとして組み合わせ、JavaScript描画、選択的なコンテンツ抽出、メタデータ付与を実現する実装寄りの内容です。RAGのデータ品質や取り込みパイプライン改善に有用で、クラウドアーキテクチャ上の実践価値はあります。一方で、既に取り上げ済みのAmazonおよびB"
+    },
+    "7e5a61656fa5d1f0ff81d9794d9bd125": {
+      "score": 48,
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] VS Code、Copilot CLI、GitHub Copilotアプリにおいて、信頼済みリポジトリのプラグイン既定値や企業管理の制御機能が一般提供された点は、開発環境の拡張性と組織レベルのガバナンスを高める実務的なアップデートです。一方で、基盤技術や開発モデルを大きく変える革新ではなく、主な価値は導入管理・権限制御・運用標準化にあります。GitH"
+    },
+    "82a6a62c69656852313cdc2b1dacd647": {
+      "score": 49,
+      "title": "September 18, 2026",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新であり、JupyterLabのクライアント側ログをバックエンドへ転送してCloud Loggingで確認できる点は、AI開発環境のデバッグ性と運用性を高める実務的な改善です。一方で、業界の前提を変える新機能やアーキテクチャ変更ではなく、主な内容は依存パッケージ更新と開発者向け可観測性の強化に"
+    },
+    "2c17450d0eba29194ec6deff3314f4bc": {
+      "score": 10,
+      "title": "Hinge tests a cheaper plan as users become more fed up paying for dating apps",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] 出会い系アプリHingeの低価格サブスクリプション試験に関する一般消費者向けサービスの料金施策であり、AI・クラウド・プログラミング言語などの技術革新ではありません。プロダクト運営や収益化の観点では意味がありますが、エンジニアリングへの影響、技術的新規性、業界全体への波及範囲はいずれも限定的です。"
+    },
+    "e0e23e66aff8524851d95a8254960e4a": {
+      "score": 49,
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] 金融機関が非エンジニアへのAIコーディングツール利用を制限する事例であり、AI導入の実運用、権限管理、コード品質、コンプライアンスに関する示唆は大きい。一方、技術そのものの革新ではなく、導入方針の見直しとリスク管理のニュースで、影響もGoldman Sachs中心に限定される。また、既出キーワードのAIやCopilotと重なるため、既報テーマとの重複"
+    },
+    "ba1f04df1b4a81a1a0f0f201e7cf0080": {
+      "score": 38,
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] AI利用を巡る学術界の倫理・説明責任に関するニュースであり、技術そのものの革新や実装上の進展はありません。AIガバナンスや組織内の信頼形成という点では一定の示唆がありますが、エンジニアリングへの直接的な影響範囲は限定的です。既出キーワードのAIと同じく、AI利用を巡る問題として扱われるため減点しています。 [Editorial: AI-focused"
+    },
+    "10237138f4b9c6777b4935e6d7785c83": {
+      "score": 6,
+      "title": "The Online Right’s Closing Campaign Argument: Fascist Anakin Skywalker Memes",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] 政治的なミームや選挙キャンペーンに関する記事であり、AI・LLM・ソフトウェア・クラウド・セキュリティなどの技術的要素がありません。エンジニアリング上の新規性や技術への影響範囲もほぼないため、一般消費者向け話題よりもさらに低い評価です。"
+    },
+    "67bcb30225d400d9e8f5a312bb9e10c0": {
+      "score": 27,
+      "title": "North Korea Denies Role in $6.3 Billion Binance Crypto Heist",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Binanceで発生した史上最大級の暗号資産窃盗は、Web3の取引所セキュリティ、資産追跡、国家支援型サイバー攻撃という点で影響は大きいものの、新しい技術やアーキテクチャの発表ではなく、主題は事件と関係者の否認です。セキュリティ関連ニュースとして一定の重要性はありますが、既出キーワードの「us」と重なる米国当局による北朝鮮関与の指摘という角度であるた"
+    },
+    "015a7b338456e2e7150cb0ce410d791c": {
+      "score": 32,
+      "title": "The Billionaire Tax Might Fail—For Now",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] カリフォルニア州の富裕税案を巡る選挙情勢、テック富裕層の政治献金、成立時の法廷闘争を扱う政治・税制ニュースであり、ソフトウェア技術や開発者向け基盤への直接的な影響は限定的です。規制・法律系の話題として評価は低めです。本文にはAIへの雇用影響やGoogle関係者の関与も登場しますが、主題ではなく、既出キーワードによる減点も適用しません。 [Editor"
+    },
+    "a0e6b40e15caf11006f27aa83b98fd83": {
+      "score": 40,
+      "title": "Automatic Construction of Strong Simple Baselines",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] 大規模言語モデルを利用して、深層学習研究における比較ベースラインの構築を自動化する試みであり、研究開発の再現性や評価品質を改善し得る点は技術的に興味深いです。一方で、基盤モデル自体の新規開発や業界構造を変える発表ではなく、現時点では研究手法・実験運用への応用にとどまります。AI関連の既出テーマと重なるため減点し、実用化の具体性や影響範囲も考慮して中上"
+    },
+    "e9b34f61c12feaaf957a65c1c1e3aa7e": {
+      "score": 81,
+      "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] LLMのポストトレーニングにおける非同期強化学習を対象とした、技術的にかなり重要な研究です。ロールアウト長のロングテールやオフポリシー化による不安定性という、分散RLの実運用上の課題に対し、単一ロールアウト最適化とGroup-Relative Actor-Criticによるブートストラップを提案しており、学習効率・スケーラビリティ・安定性の改善につな"
+    },
+    "d24fb3865fea432ba62d671f42cc880f": {
+      "score": 35,
+      "title": "I couldn't say in one sentence what to tell users when we used AI. So I built a drafter.",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] EU AI Actの第49条・第50条に関するAI利用開示の実務を、文面作成ツール（DiscloseKit）として具体化した記事です。AIガバナンスやプロダクト実装上の示唆はあるものの、中心テーマは規制対応であり、評価基準では低評価帯に該当します。AI関連ではあるものの、新しいモデル技術やアーキテクチャの革新ではなく、既存規制に基づく意思決定支援と月"
+    },
+    "752570a9ed88f0e7dca611f950fb77cf": {
+      "score": 29,
+      "title": "The SEC Should Block Anthropic’s IPO to Protect the Public",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] AI企業AnthropicのIPOをSECが阻止すべきだとする規制・政策論であり、技術革新や実装上の新規性は乏しい。AI関連ではあるものの、記事の主題はIPO承認と公共保護を巡る法規制で、エンジニアに直接的な技術影響を与える具体的な情報もないため、低評価とした。既出キーワードのAnthropicやAIにも該当するが、今回は新技術の続報ではなく規制論で"
+    },
+    "bca2c7eab872737bbbdc0dfcb3570f7c": {
+      "score": 76,
+      "title": "Introducing the Grid Protectors Program",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] AI向け大規模計算基盤と電力網・公益事業者の連携を扱う新プログラムであり、データセンター設計、負荷制御、電力コスト、再生可能エネルギー活用に影響する点で技術・インフラ面の重要度は高いです。一方、現時点では具体的な実装仕様や導入実績が示されておらず、業界の前提を変える技術発表というより、AIインフラの持続可能性と系統安定化に向けた政策・運用寄りの取り組"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、修正情報などの具体性がなく、技術的な新規性や重要度を評価できません。セキュリティ関連ニュースは評価基準上も低評価帯に該当し、既出キーワードとの明確な関連も確認できないため、情報不足を考慮して低めに採点します。 [Editorial: AI-focused source +6]"
+    },
+    "7d51cb50f56dd346ee5bc444878f095b": {
+      "score": 54,
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] フロンティアモデルのエージェント挙動を小型モデルへ蒸留し、推論コストとレイテンシを削減する実装手法は、プロダクション運用に直結する技術的価値が高い。特にsequence-level knowledge distillationをマルチステップのツール利用に適用する点は具体性がある。一方で、既存モデルの効率化・最適化に関する内容であり、業界の前提を変え"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 39,
+      "title": "September 28, 2026",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新ではあるものの、内容の中心は上流依存パッケージの更新と、カスタムコンテナイメージに含まれるCritical/High深刻度のCVE修正です。運用上は重要ですが、新しいアーキテクチャや機能、技術革新を示す発表ではなく、セキュリティ脆弱性対応という評価基準上の低評価カテゴリに該当します。既出キーワード"
+    },
+    "857c355af93587b00c1c356ff5bab964": {
+      "score": 2,
+      "title": "Apple says it’s ‘hard to predict’ when iPhone Duo constraints will improve",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] iPhoneの生産増強と供給不足、配送遅延に関する一般消費者向け製品ニュースであり、ソフトウェア技術や開発者向けアーキテクチャへの影響は限定的です。新たな技術革新や業界構造を変える発表ではないため、最低評価帯としました。 [Editorial: gadget topic -8]"
+    },
+    "e8f744b56b1b77db49bf6afc64750f1a": {
+      "score": 47,
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] AIが知性を希少資源として独占する可能性や、雇用・人間の思考需要への影響を論じる記事で、AI業界に関係するテーマ性はあります。ただし、具体的なモデル、製品、アーキテクチャ、実装技術、企業動向を扱うものではなく、主に思想・社会分析に留まります。また、直近に取り上げ済みのAI関連テーマと同じ領域の議論であるため、重複分を減点しました。 [Editoria"
+    },
+    "31942fafa70fd6aaca296f6f018f177d": {
+      "score": 43,
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] AIの政治的質問への回答制御や、地域によって応答の率直さが変わる点は、モデルの安全設計・検閲・公平性を考えるうえで一定の技術的関心があります。ただし、具体的な新機能やアーキテクチャの発表ではなく、主題は政治情報への応答方針という運用・信頼性の問題です。また、既出キーワードである「AI」「Google」に直接該当し、明確な新展開や続報と判断できる情報も"
+    },
+    "9127774b52ced2275e1220291380a266": {
+      "score": 6,
+      "title": "How to Save $25 on Burga’s Phone Accessories With This Sale",
+      "date": "2026-11-03",
+      "reason": "[Claude API Evaluation] スマートフォンケース、リング、Apple Watchバンド、モバイルバッテリーなどの一般消費者向けアクセサリーのセール情報であり、ソフトウェア技術、AI、クラウド、アーキテクチャへの新規性や技術的影響はありません。評価基準上、最低評価帯に該当します。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-03/blog.md",
+    "show_notes_path": "out/2026-11-03/show_notes.md",
+    "script_path": "out/2026-11-03/script_2hosts.md",
+    "audio_path": "out/2026-11-03/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-03/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-03/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 28923,
+        "output_tokens": 10150,
+        "cost_usd": 0.017965
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 45444,
+        "output_tokens": 9821,
+        "cost_usd": 0.189098
+      }
+    ],
+    "tts": {
+      "chars": 4653,
+      "audio_sec": 690.1,
+      "cost_usd": 0.133077
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.34014
+  }
+}

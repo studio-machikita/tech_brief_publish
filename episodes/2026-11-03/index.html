@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAIにおけるGitのスケーリング ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="AI時代、開発基盤の再設計が始まった">
+<meta property="og:title" content="Tech News Radio — OpenAIにおけるGitのスケーリング ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-03/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-11-03/">
+<meta property="og:description" content="AI時代、開発基盤の再設計が始まった">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-11-03">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-11-03/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — OpenAIにおけるGitのスケーリング ほか",
+    "description": "2026-11-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-03",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-03/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-11-03/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — OpenAIにおけるGitのスケーリング ほか",
+    "description": "2026-11-03 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-03",
+    "url": "https://technewsradio.tokyo/episodes/2026-11-03/",
+    "duration": "PT11M44S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-03/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-03/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-03/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-11-03</h1>
+<p><em>📖 約15分で読めます ｜ 🏷️ AI, DevOps, OSS, LLM, Science</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>OpenAIにおけるGitのスケーリング</strong> — OpenAIがGit互換基盤Pandoを開発</li>
+<li>🤖 <strong>Li²SAO:グループ相対アクター・クリティックのブートストラップによる軽量シングルロールアウト非同期強化学習最適化の高度化</strong> — 非同期RLの学習を軽く安定させる新手法Li²SAO</li>
+<li>🤖 <strong>「グリッド・プロテクターズ・プログラム」を発表</strong> — OpenAIが電力会社と組み、送電網を守る新計画</li>
+<li>🤖 <strong>Amazon SageMaker AIで知識蒸留を活用し、効率的なエージェントを構築する</strong> — 大型AIの動きを小型モデルに写し取る</li>
+<li>🤖 <strong>Crawl4AIでAmazon Bedrock Knowledge Bases向けにWebコンテンツを準備する方法</strong> — Crawl4AIでBedrockの検索精度を高める</li>
+<li>☁️ <strong>JupyterLabのブラウザ側ログを集約</strong> — JupyterLabのブラウザ側ログを集約</li>
+</ul>
+<hr />
+<h2>🤖 OpenAIにおけるGitのスケーリング</h2>
+<p><code>AI</code> <code>DevOps</code> <code>OSS</code></p>
+<details><summary>📄 原題: Scaling Git at OpenAI</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIがGit互換基盤Pandoを開発</p>
+</blockquote>
+<ul>
+<li>OpenAIがGit互換のバックエンド「Pando」を構築</li>
+<li>狙いはCodexが生む大規模な開発量への対応</li>
+<li>従来のGit運用では足りない規模が前提</li>
+<li>Gitとの互換性を保つ設計だそうです</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIコーディングエージェントのCodexが広がると、コードの変更量や頻度が人間だけの開発とは桁違いになります。Gitは多くの開発現場の標準ですが、AIが大量に変更を生み出す状況は、当初の想定を超える負荷をかけると見られています。OpenAIがGit互換のバックエンドを自前で作った事実は、AI時代の開発基盤が従来のままでは足りなくなりつつあることを示しています。 AIが日常的にコードを書く時代では、バージョン管理の基盤そのものが見直しの対象になりそうです。Gitとの互換性を保ちながら裏側を作り替えるやり方は、既存のツールやワークフローを捨てずに規模を広げる現実的な道筋として、他社にも参考になるでしょう。長期的には、AIエージェントを前提としたリポジトリ基盤が一つの製品領域になる可能性もあります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まずは自社のリポジトリ運用を点検し、AIによる変更が増えたときに、どこで遅くなりそうかを把握しておきましょう。大規模リポジトリを扱うリーダーは、Gitの性能やスケールの限界を早めに見積もることが大切です。あわせて、OpenAIが今後公開する技術情報を追い、Git互換を保つ設計の考え方を学んでおくと役に立ちます。</p>
+<p>🔗 <a href="https://openai.com/index/scaling-git-at-openai">原文を読む</a></p>
+<hr />
+<h2>🤖 Li²SAO:グループ相対アクター・クリティックのブートストラップによる軽量シングルロールアウト非同期強化学習最適化の高度化</h2>
+<p><code>AI</code> <code>LLM</code> <code>Science</code></p>
+<details><summary>📄 原題: Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 非同期RLの学習を軽く安定させる新手法Li²SAO</p>
+</blockquote>
+<ul>
+<li>LLMの後工程学習で、非同期の強化学習が主流になりつつある</li>
+<li>GRPOのグループ単位サンプリングは、非同期学習と相性が悪いとされる</li>
+<li>原因はrollout（生成結果）の長さが、少数の長いものに偏る分布であること</li>
+<li>先行研究のSAOは、安定性とオフポリシー学習の改善を狙った手法</li>
+<li>Li²SAOは軽量なSAOとして、グループ相対のActor-Critic方式を取り入れる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+LLMの後工程学習（ポストトレーニング）では、強化学習で推論力や指示への従順さを高める流れが広がっています。非同期RLは、生成が終わったrolloutから順にモデルを更新するため、GPUの待ち時間を減らせます。一方、GRPOのようにグループ単位で結果を比べる手法は、グループ内の最も遅い生成を待つ必要があります。長い応答が混ざると、この待ちが効率を落とします。そこで1つのrolloutごとに学習する方式が提案され、Li²SAOはその発展形と見られます。 非同期RLの設計が洗練されれば、LLMの学習コストと所要時間を下げられる可能性があります。計算資源に限りがある企業や研究室でも、推論モデルの改良に挑みやすくなりそうです。また、学習の安定性と効率の両立が進めば、オープンなRL学習基盤の標準的な設計にも影響すると見られます。ただし、論文の詳しい実験結果はこれから検証される段階です。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+自社でLLMの強化学習を回しているチームは、同期方式の待ち時間とGPU稼働率をまず計測しましょう。rolloutの長さ分布を確認すると、非同期化の効果を見積もりやすくなります。論文の手法とベンチマーク結果を読み、既存のGRPO実装との差分を整理してください。小さなモデルで再現実験を行い、安定性と収束速度を比べるのがおすすめです。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2610.40726">原文を読む</a></p>
+<hr />
+<h2>🤖 「グリッド・プロテクターズ・プログラム」を発表</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Business</code></p>
+<details><summary>📄 原題: Introducing the Grid Protectors Program</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIが電力会社と組み、送電網を守る新計画</p>
+</blockquote>
+<ul>
+<li>OpenAIが「Grid Protectors Program」を発表</li>
+<li>電力会社と協力して取り組む計画</li>
+<li>対象は将来の大規模な計算拠点（コンピュート・キャンパス）</li>
+<li>目的は電力網の信頼性の維持</li>
+<li>消費者の電気料金を守ることも目標に掲げる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+生成AIの普及で、学習や推論に使うデータセンターの電力需要が急増しています。大規模な計算拠点が地域の電力網に負荷をかけ、停電のリスクや電気料金の上昇を招くのではないかという懸念も広がっています。こうした中でOpenAIが電力会社と組む姿勢を示したことは、AI事業者が電力インフラへの責任を問われ始めた流れを表していると見られます。具体的な取り組みの中身は、公式の発表であらためて確認する必要があります。 AIの競争力は、モデルの性能だけでなく、安定して電力を確保できるかにも左右されるようになりそうです。計算拠点の立地や設計では、電力会社との協調が前提になっていく可能性があります。電気料金への影響を地域に説明する姿勢が、AI事業者の社会的な信頼を決める要素になるかもしれません。同様の動きがほかのクラウド事業者やデータセンター事業者にも広がれば、業界全体の電力調達のルール作りにつながると考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、自社のAI基盤が消費する電力量を見える化し、効率の高いモデルや推論方法を選ぶ習慣をつけるとよいでしょう。リーダーは、クラウドやデータセンターを選ぶ際に、電力の調達方法や地域への配慮を評価項目に加えることをおすすめします。あわせて、OpenAIの公式発表を確認し、今後の具体的な取り組みや他社の動きを追っておくと、中長期のインフラ計画に役立ちます。</p>
+<p>🔗 <a href="https://openai.com/index/grid-protectors-program">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon SageMaker AIで知識蒸留を活用し、効率的なエージェントを構築する</h2>
+<p><code>AI</code> <code>LLM</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Build efficient agents with knowledge distillation on Amazon SageMaker AI</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 大型AIの動きを小型モデルに写し取る</p>
+</blockquote>
+<ul>
+<li>エージェントは複数ステップでツールを呼び出す</li>
+<li>毎回、最先端モデルを使うとコストが重い</li>
+<li>SeqKDで教師モデルの振る舞いを小型の生徒モデルへ移す</li>
+<li>実行環境はAmazon SageMaker AI</li>
+<li>本番規模でも続けやすいコストを目指す</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントは、ツールを呼び出して結果を確かめ、また次の手を考える、という作業を何度も繰り返します。最先端モデルを毎ステップで使うと、呼び出し回数がそのまま費用に跳ね返ります。試作では問題なくても、本番の利用量では費用が重くなりやすいと見られています。そこで注目されているのが知識蒸留（大きなモデルの出力を教材にして、小さなモデルを育てる手法）です。今回の記事は、系列単位の蒸留（SeqKD）を使い、教師モデルのエージェントとしての振る舞いを小型モデルに写す方法をAmazon SageMaker AIで示しているそうです。 エージェントの運用では、最先端モデルを使う場面と小型モデルで足りる場面を分ける設計が広がりそうです。費用が下がれば、これまで採算が合わなかった業務にもエージェントを使えるようになります。小型モデルは速く動かしやすく、レイテンシ（応答の遅延）の改善も期待できます。一方で、蒸留の質が成果を左右するため、教師モデルの出力データを作る工程や評価の仕組みが、新しい競争の場になるかもしれません。クラウド事業者が蒸留をマネージドサービスとして提供する流れも、強まると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず自社のエージェントで、ステップごとの呼び出し回数と費用を測ってみてください。高性能モデルが本当に必要な処理と、定型的な処理を切り分けると、蒸留の候補が見えてきます。次に、教師モデルの動作ログを集めて、学習データにできるか確認しましょう。小型モデルへ切り替える際は、タスクの成功率や誤ったツール呼び出しの頻度を、元のモデルと並べて比較する評価の仕組みを先に用意しておくと安心です。AWSを使っているチームは、SageMaker AIでまず小さく試すのがよいでしょう。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/">原文を読む</a></p>
+<hr />
+<h2>🤖 Crawl4AIでAmazon Bedrock Knowledge Bases向けにWebコンテンツを準備する方法</h2>
+<p><code>AI</code> <code>Cloud</code> <code>OSS</code></p>
+<details><summary>📄 原題: Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Crawl4AIでBedrockの検索精度を高める</p>
+</blockquote>
+<ul>
+<li>オープンソースのクローラーCrawl4AIを前処理層に採用</li>
+<li>JavaScriptで描画されるページの内容も取得</li>
+<li>必要な部分だけを選んで抽出</li>
+<li>独自のメタデータを付けてAmazon S3へ保存</li>
+<li>Amazon Bedrock Knowledge Basesに渡す内容を整える</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Amazon Bedrock Knowledge Basesは、社内外の情報をAIに参照させる仕組みです。ただ、Webページをそのまま取り込むと、JavaScriptで後から表示される内容が抜けたり、メニューや広告などの不要な部分が混ざったりします。こうしたノイズや欠落は、AIの回答の質を下げる原因になります。そこでS3に届く前の段階でコンテンツを整える考え方が注目されています。この記事は、その役割をオープンソースのCrawl4AIに任せる方法を紹介しています。 RAG（検索で見つけた情報を材料にAIが回答する手法）では、モデルの性能より入力データの質が結果を左右すると言われます。今後は、データを集める前処理の工程を設計することが、AI活用の品質を決める重要な要素になっていくと見られます。また、マネージドサービスにオープンソースのツールを組み合わせる構成も、実務で広がっていくでしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社のナレッジベースに取り込んでいるWebページが、JavaScript描画や不要要素のせいで欠けたり汚れたりしていないかを確認してください。次に、Crawl4AIを小さなサイトで試し、抽出結果を現状と比べるのがおすすめです。あわせて、更新日やカテゴリなどのメタデータをどう付けるかも早めに設計しておくと、検索の絞り込みに役立ちます。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/">原文を読む</a></p>
+<hr />
+<h2>☁️ JupyterLabのブラウザ側ログを集約</h2>
+<p><code>Cloud</code> <code>AI</code> <code>DevOps</code></p>
+<details><summary>📄 原題: September 18, 2026</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: JupyterLabのブラウザ側ログを集約</p>
+</blockquote>
+<ul>
+<li>Agent Platform Workbench v2に新リリースが登場</li>
+<li>JupyterLabのクライアント側ログをバックエンドへ転送</li>
+<li>対象はコンソールエラーや未処理の例外など</li>
+<li>Promiseの未処理拒否や失敗した通信も含む</li>
+<li>ログはCloud Loggingに表示され、デバッグが楽に</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+ノートブック環境では、エラーの多くがブラウザの中で起きます。これまでは利用者の画面を直接見ないと原因をつかみにくく、調査に時間がかかりがちでした。今回の更新で、ブラウザ側のエラーがインスタンスのバックエンドを経由してCloud Loggingに集まります。サーバー側のログと同じ場所で確認でき、運用担当者にとって扱いやすくなります。なお、同じ機能が複数のリリース番号に並んでおり、段階的にリリースが進んでいるように見えます。 開発環境でも、ブラウザ側を含めた可観測性（システムの状態を外から把握しやすくする仕組み）を求める流れが強まると見られています。クラウド上のデータ分析やAI開発の環境では、障害の切り分けを速くする機能が標準になっていくと思われます。利用者が不具合を報告する前に、運用側が異常に気づける環境が増えるでしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Workbenchを使っているチームは、最新のリリースに更新して、Cloud Loggingでクライアント側ログが見えるか確認してください。あわせて、ログを検索するためのフィルタや、エラーが増えたときのアラートを用意しておくと安心です。ログに機密情報が混ざらないかも、運用ルールとして点検しておきましょう。</p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら三つのニュースは、いずれもAIの進歩がモデルそのものの賢さだけでなく、それを支える「基盤の規模と信頼性」にかかっているという、業界の成熟段階を映し出しています。OpenAIがGit互換基盤Pandoを自前で開発した背景には、AIが生み出す膨大なコードやエージェントの並列作業に既存のバージョン管理が耐えられなくなったという事情があり、Li²SAOが目指す非同期強化学習の軽量化と安定化も、大規模な学習を現実的なコストと手間で回し続けるための工夫という点で同じ問題意識に立っています。さらに電力網を守るグリッド・プロテクターズ・プログラムは、計算需要の急拡大がソフトウェアの外側にある社会インフラにまで負荷を及ぼし、AI企業がその安定供給に責任を持たざるを得なくなっていることを示しています。ソースコード管理から学習アルゴリズム、そして電力という最も物理的な層まで、AI開発のボトルネックが各レイヤーでスケーリングの壁として表面化しており、業界の競争軸が「より大きなモデルを作る」ことから「それを持続的に動かし続ける仕組みを整える」ことへと移りつつあるのだと考えられます。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>OpenAIにおけるGitのスケーリング</strong>: まずは自社のリポジトリ運用を点検し、AIによる変更が増えたときに、どこで遅くなりそうかを把握しておきましょう。大規模リポジトリを扱うリーダーは、Gitの性能やスケールの限界を早めに見積もることが大切です。あわせて、OpenAIが今後公開する技術情報を追い、Git互換を保つ設計の考え方を学んでおくと役に立ちます。</li>
+<li><strong>Li²SAO:グループ相対アクター・クリティックのブートストラップによる軽量シングルロールアウト非同期強化学習最適化の高度化</strong>: 自社でLLMの強化学習を回しているチームは、同期方式の待ち時間とGPU稼働率をまず計測しましょう。rolloutの長さ分布を確認すると、非同期化の効果を見積もりやすくなります。論文の手法とベンチマーク結果を読み、既存のGRPO実装との差分を整理してください。小さなモデルで再現実験を行い、安定性と収束速度を比べるのがおすすめです。</li>
+<li><strong>「グリッド・プロテクターズ・プログラム」を発表</strong>: エンジニアは、自社のAI基盤が消費する電力量を見える化し、効率の高いモデルや推論方法を選ぶ習慣をつけるとよいでしょう。リーダーは、クラウドやデータセンターを選ぶ際に、電力の調達方法や地域への配慮を評価項目に加えることをおすすめします。あわせて、OpenAIの公式発表を確認し、今後の具体的な取り組みや他社の動きを追っておくと、中長期のインフラ計画に役立ちます。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://openai.com/index/scaling-git-at-openai">OpenAIにおけるGitのスケーリング</a></li>
+<li><a href="https://arxiv.org/abs/2610.40726">Li²SAO:グループ相対アクター・クリティックのブートストラップによる軽量シングルロールアウト非同期強化学習最適化の高度化</a></li>
+<li><a href="https://openai.com/index/grid-protectors-program">「グリッド・プロテクターズ・プログラム」を発表</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/">Amazon SageMaker AIで知識蒸留を活用し、効率的なエージェントを構築する</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/">Crawl4AIでAmazon Bedrock Knowledge Bases向けにWebコンテンツを準備する方法</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026">JupyterLabのブラウザ側ログを集約</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026">JupyterLabのブラウザ側ログを集約</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026">JupyterLabのブラウザ側ログを集約</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #216 (2026-11-03)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #216</li>
+<li><strong>日付</strong>: 2026-11-03</li>
+<li><strong>尺</strong>: 約 11 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://openai.com/index/scaling-git-at-openai">Scaling Git at OpenAI</a></li>
+<li><a href="https://arxiv.org/abs/2610.40726">Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping</a></li>
+<li><a href="https://openai.com/index/grid-protectors-program">Introducing the Grid Protectors Program</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/">Build efficient agents with knowledge distillation on Amazon SageMaker AI</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/">Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026">September 18, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026">September 18, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026">September 18, 2026</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8BGit%E3%81%AE%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-11-03/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-11-03/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
