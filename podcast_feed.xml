@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#217 OpenAI、GPT-6「Astra」がハードウェアデバイスを1週間足らずでゼロから設計と発表 ほか</title>
+      <description>Tech News Radio Show Notes - #217 (2026-11-04)
+
+エピソード情報
+• エピソード: #217
+• 日付: 2026-11-04
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week (https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/)
+• Rapid LLM development is outrunning the research meant to explain it, study finds (https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/)
+• GitHub Copilot is now available in JetBrains Air (https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air)
+• GitHub Copilot is now available in JetBrains Air (https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot)
+
+注目の深掘り
+• Quantum Computing on Commercial Scale (https://www.bloomberg.com/news/videos/2026-11-04/quantum-computing-on-commercial-scale-video)
+
+小ネタ・その他
+• SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage (https://www.theinformation.com/briefings/spacex-talks-boost-mobile-expand-wireless-coverage)
+• Anthropic is working on a system to prove AI models’ identity (https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-04/episode_audio.mp3" length="11344556" type="audio/mpeg" />
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-04</guid>
+      <itunes:duration>11:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAI、GPT-6「Astra」がハードウェアデバイスを1週間足らずでゼロから設計と発表 ほか</itunes:title>
+      <itunes:episode>217</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #217 (2026-11-04)
+
+エピソード情報
+• エピソード: #217
+• 日付: 2026-11-04
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week (https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/)
+• Rapid LLM development is outrunning the research meant to explain it, study finds (https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/)
+• GitHub Copilot is now available in JetBrains Air (https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air)
+• GitHub Copilot is now available in JetBrains Air (https://github.blog/changelog/2026-10-28-github-enterprise-now-includes-access-to-github-copilot)
+
+注目の深掘り
+• Quantum Computing on Commercial Scale (https://www.bloomberg.com/news/videos/2026-11-04/quantum-computing-on-commercial-scale-video)
+
+小ネタ・その他
+• SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage (https://www.theinformation.com/briefings/spacex-talks-boost-mobile-expand-wireless-coverage)
+• Anthropic is working on a system to prove AI models’ identity (https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-04/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.560" title="OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week" href="https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/" />
+        <psc:chapter start="00:02:22.740" title="Rapid LLM development is outrunning the research meant to explain it, study finds" href="https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/" />
+        <psc:chapter start="00:03:54.440" title="GitHub Copilot is now available in JetBrains Air" href="https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air" />
+        <psc:chapter start="00:05:55.030" title="Quantum Computing on Commercial Scale" href="https://www.bloomberg.com/news/videos/2026-11-04/quantum-computing-on-commercial-scale-video" />
+        <psc:chapter start="00:07:53.070" title="SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage" href="https://www.theinformation.com/briefings/spacex-talks-boost-mobile-expand-wireless-coverage" />
+        <psc:chapter start="00:09:30.530" title="Anthropic is working on a system to prove AI models’ identity" href="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/" />
+        <psc:chapter start="00:11:18.040" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#216 OpenAIにおけるGitのスケーリング ほか</title>
       <description>Tech News Radio Show Notes - #216 (2026-11-03)
 

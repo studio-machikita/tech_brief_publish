@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-04",
+  "episode_date_local": "2026-11-04",
+  "content_snapshot_date": "2026-11-04",
+  "show_length_sec": 708,
+  "audio_size": 11344556,
+  "generated_at": "2026-11-04T00:40:08.465147+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8eb4c79f",
+      "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+      "title_ja": "OpenAI、GPT-6「Astra」がハードウェアデバイスを1週間足らずでゼロから設計と発表",
+      "one_liner": "GPT-6 Astraが1週間未満で機器を一から設計",
+      "fingerprint": "8eb4c79f1094f664d04267e66308fe88",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-57ffb927",
+      "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
+      "title_ja": "LLMの急速な開発、その解明を目指す研究を追い越していると調査で判明",
+      "one_liner": "LLM研究の知見、平均15.7か月で賞味期限切れ",
+      "fingerprint": "57ffb927ad182535cdbd4cf83b0252e7",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-96ecc12d",
+      "title": "GitHub Copilot is now available in JetBrains Air",
+      "title_ja": "GitHub CopilotがJetBrains Airで利用可能に",
+      "one_liner": "JetBrains AirでGitHub Copilotが使える",
+      "fingerprint": "96ecc12dd563d7f7e3027647a0524055",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-c8de21d6",
+      "title": "Quantum Computing on Commercial Scale",
+      "title_ja": "量子コンピューティング、商用規模での展開へ",
+      "one_liner": "量子コンピューターが商用化の段階へ",
+      "fingerprint": "c8de21d605120174894489c1cbe603ff",
+      "score": 72,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-50c4458f",
+      "title": "SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage",
+      "title_ja": "スペースX、ブーストモバイルと通信エリア拡大で協議",
+      "one_liner": "SpaceXがBoost Mobileと通信網拡大を協議",
+      "fingerprint": "50c4458fa6558662d5142e420fb5f52a",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-cc2eea83",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "title_ja": "Anthropic、AIモデルの身元を証明する仕組みを開発中",
+      "one_liner": "AIの応答元を確かめる仕組みをAnthropicが開発中",
+      "fingerprint": "cc2eea8315e9d4eb8363430ba5bada0f",
+      "score": 56,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-449f2379",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Accelerating engineering for the physical world"
+    },
+    {
+      "item_id": "item-077f9f07",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Data centers are turning to old jet engines as the wait for power grows"
+    },
+    {
+      "item_id": "item-48507112",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway"
+    },
+    {
+      "item_id": "item-146b2d53",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bring structured and unstructured data together with Amazon Quick"
+    },
+    {
+      "item_id": "item-d26935c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Cisco defends at machine speed with OpenAI"
+    },
+    {
+      "item_id": "item-cde2b6a9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Internals of PostgreSQL"
+    },
+    {
+      "item_id": "item-7e5a6165",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Repository plugin defaults and enterprise plugin controls generally available"
+    },
+    {
+      "item_id": "item-59fb3a92",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum"
+    },
+    {
+      "item_id": "item-e4f4c4c1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
+    },
+    {
+      "item_id": "item-45f61655",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-ba1f04df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job"
+    },
+    {
+      "item_id": "item-76e34364",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Balancing Geofencing and Battery Life in Android Development"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-485b5a82",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Lenovo IdeaPad Slim 5x Is Only $900 Right Now"
+    },
+    {
+      "item_id": "item-69bcdc82",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "$1,200 Off the iPhone Duo? Here’s How Carrier Deals Actually Work"
+    }
+  ],
+  "score_cache": {
+    "cde2b6a9e628e561a83bbab077a78116": {
+      "score": 47,
+      "title": "The Internals of PostgreSQL",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] PostgreSQLの内部構造は、クエリ実行、MVCC、ストレージ、インデックス、WALなどを理解するうえで重要な技術テーマであり、データベース設計や性能改善に直結します。一方で、タイトルからは新機能の発表や大規模なアーキテクチャ刷新といった具体的なニュース性は読み取れず、既存技術の解説・学習記事に近いため、主要言語やクラウド基盤の大きな進展よりは低"
+    },
+    "449f23792afff817c14817992fba3be4": {
+      "score": 55,
+      "title": "Accelerating engineering for the physical world",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] ChatGPTとCodexをCAD、PCB設計、シミュレーションなど物理世界のエンジニアリングへ適用する内容で、ソフトウェア開発支援AIの対象領域をハードウェア設計・製造へ拡張する点は技術的に注目度が高い。一方、記事タイトルとスニペットだけでは具体的な機能、導入事例、性能改善、製品提供状況が不明で、業界の前提を変えるほどの新規性を判断するには情報が不"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 33,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] 利用規約・使用ポリシーの更新は、開発者やサービス利用者への影響はあるものの、通常は法律・運用ルール寄りのニュースであり、技術革新やアーキテクチャの進展とは距離があります。スニペットがなく、変更内容や対象サービス、具体的な影響範囲も判断できないため、重要度は低めに評価します。 [Editorial: AI-focused source +6]"
+    },
+    "146b2d532195183c4c87efa89b9861d0": {
+      "score": 49,
+      "title": "Bring structured and unstructured data together with Amazon Quick",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] 構造化データと非構造化データを単一の会話型インターフェースで横断検索できる点は、企業向けAI活用やデータ基盤の実装に関わる実用性の高い内容です。Amazon S3をナレッジベースとして利用し、データの拡充やカスタムエージェント構築まで具体的に示しているため、エンジニアにとって参考価値があります。一方で、基盤技術そのものを大きく変える発表ではなく、既出"
+    },
+    "96ecc12dd563d7f7e3027647a0524055": {
+      "score": 72,
+      "title": "GitHub Copilot is now available in JetBrains Air",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] GitHub CopilotがJetBrains Airに対応し、Agent Client Protocol（ACP）を介してコーディング作業の委任、実行制御、結果レビューまで行える点は、AIエージェントを開発環境へ統合する具体的な進展です。JetBrains系IDEユーザーへの影響範囲も広く、ACPによるエージェント連携の標準化にもつながる可能性が"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 33,
+      "title": "September 28, 2026",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchという基盤製品の更新ではあるものの、内容は上流依存パッケージの更新と、カスタムコンテナイメージに含まれるCritical／High深刻度CVEの一括修正に限定されています。セキュリティ運用上は重要ですが、新機能やアーキテクチャの進化、業界の前提を変える技術革新ではありません。また、既出キーワードの「ag"
+    },
+    "cc2eea8315e9d4eb8363430ba5bada0f": {
+      "score": 56,
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] AIモデルの出力が本当に主張されたモデルから生成されたものかを検証できるFlashProveは、暗号学的な証明やコンテンツ来歴の観点で重要な技術です。偽造応答、モデルなりすまし、エージェント間通信の信頼性向上につながる可能性があり、実装・標準化されれば影響範囲は広い一方、現時点では研究・開発段階であり、具体的な性能や普及性は不明です。AI関連の既出テ"
+    },
+    "8eb4c79f1094f664d04267e66308fe88": {
+      "score": 95,
+      "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] LLMがソフトウェア生成にとどまらず、筐体・回路基板・ファームウェアを含むハードウェア設計を短期間で一貫して実行した点は、AIエージェントの適用範囲を大きく広げる可能性があり、技術的インパクトが非常に高い。一方で、製造公差を考慮できず複数回の修正が必要だったことから、現時点では完全自律設計ではなく、人間の検証や製造知識を要する。また、性能ベンチマーク"
+    },
+    "45f616558373d522193487eb513a825e": {
+      "score": 38,
+      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] NYTによるBraveへの訴訟は、ペイウォール回避やニュースコンテンツの無断流通、AI企業との提携に関わるため、コンテンツ保護・ブラウザ設計・AIデータ利用の実務に影響し得ます。ただし中心は法的主張であり、技術そのものの革新性は限定的です。また、既出キーワードであるAIおよびWebと関連する話題のため、重複分として減点しました。 [Editorial"
+    },
+    "485b5a822a6351d3e453fba88f47f1be": {
+      "score": 10,
+      "title": "The Lenovo IdeaPad Slim 5x Is Only $900 Right Now",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] LenovoのノートPC値下げは一般消費者向けの製品セール情報であり、ソフトウェア開発、クラウド、AI、アーキテクチャなどの技術革新には直接つながりません。エンジニア視点での業界インパクトや新規性も限定的なため、最低評価帯としました。"
+    },
+    "c8de21d605120174894489c1cbe603ff": {
+      "score": 72,
+      "title": "Quantum Computing on Commercial Scale",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] 量子コンピューティングの商用化は、将来的に計算基盤、暗号、創薬、最適化など幅広い領域へ影響し得る先端技術テーマであり、技術・インフラ・投資・需要を総合的に扱っている点は重要です。一方で、具体的な量子ビット数、エラー訂正の進展、実用的な性能指標、商用導入事例などの新発表ではなく、業界リーダーによる将来展望の議論が中心です。そのため非常に注目度は高いもの"
+    },
+    "50c4458fa6558662d5142e420fb5f52a": {
+      "score": 62,
+      "title": "SpaceX Is in Talks With Boost Mobile to Expand Wireless Coverage",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] SpaceXが衛星通信だけでなく、Boost Mobileの地上モバイルネットワークを買収・連携して無線通信事業を拡大する可能性がある点は、通信インフラの構成を変え得る重要な動きです。衛星網と地上網を統合できれば、僻地を含むカバレッジ改善や通信事業者間の競争に大きな影響を与えます。一方で、現時点では協議段階であり、買収や具体的な技術統合が確定していな"
+    },
+    "59fb3a926673e0212d12cc5b65379479": {
+      "score": 45,
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] 自己進化型エージェントが、単なる例外リストの記憶ではなく未知の規則を抽象化して学習できるかを評価するベンチマークは、エージェントの実能力を測るうえで技術的に意義があります。特に、段階的に潜在ルールを追加する設計は、長期的な状態更新やルール汎化の弱点を明確にでき、研究・評価基盤として有用です。一方で、現時点では新しいベンチマークの提案にとどまり、業界の"
+    },
+    "76e34364711d58e3f7a818a392f5f6dc": {
+      "score": 28,
+      "title": "Balancing Geofencing and Battery Life in Android Development",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] AndroidのGeofencingClient、PendingIntent、WorkManagerを使って位置情報ベースの自動化を省電力で実装する実践的な技術記事です。バックグラウンド制約、メーカー独自のタスクキル、Do Not Disturb権限など、Android開発者に有用な知見はあります。一方で、既存APIを組み合わせた個人アプリの実装事例"
+    },
+    "e4f4c4c1a43777393ca2ee473161612e": {
+      "score": 43,
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] 生成AIをコンテンツ生成から、ユーザーが視覚的に体験・操作できるインタラクティブな世界の構築へ拡張する方向性は、ゲーム、シミュレーション、教育、ロボティクスなど広い領域に影響し得ます。一方で、具体的な製品発表や技術仕様、実装結果ではなく、カンファレンスでの概念的な議論が中心です。また、直近で既にAI関連の話題が扱われているため、同一キーワードに基づく"
+    },
+    "d26935c8b8e71db78be070f7a3e36766": {
+      "score": 49,
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] CiscoのネットワークインテリジェンスとOpenAIモデルを組み合わせ、脅威検知や対応を機械速度で適応化する取り組みは、企業向けセキュリティ運用とAI活用の接点として技術的な注目度があります。一方で、具体的な製品仕様、導入効果、モデルの自律性などが不明で、現時点では実装詳細に乏しい発表です。また、直近の放送でOpenAI関連の話題が既出のため、重複"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-03",
+      "reason": "[ScoreCache 2026-11-03] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、修正情報などの具体性がなく、技術的な新規性や重要度を評価できません。セキュリティ関連ニュースは評価基準上も低評価帯に該当し、既出キーワードとの明確な関連も確認できないため、情報不足を考慮して低めに採点します。 [Editorial:"
+    },
+    "4850711247f989d9547c90051dd41016": {
+      "score": 51,
+      "title": "ServiceNow on-behalf-of token exchange with Bedrock AgentCore Gateway",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] AIエージェントがServiceNow REST APIを呼び出す際に、Microsoft Entra IDのユーザーIDを維持したままOBOトークン交換できる実装は、企業向け認証・権限管理の簡素化に有用です。AgentCore GatewayがカスタムコードやInterceptor Lambdaなしで交換を処理する点も実務的な価値があります。一方で"
+    },
+    "7e5a61656fa5d1f0ff81d9794d9bd125": {
+      "score": 47,
+      "title": "Repository plugin defaults and enterprise plugin controls generally available",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] VS Code、Copilot CLI、GitHub Copilotアプリで、リポジトリ単位のプラグイン既定値や企業による管理機能が正式提供される点は、開発環境の標準化、ガバナンス、信頼済みリポジトリ運用に影響します。一方で、基盤技術や開発言語の革新ではなく、主にOSS・企業向け運用ルールと管理機能の拡充です。さらに、GitHubおよびCopilot"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 38,
+      "title": "October 11, 2026",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースノートですが、内容は依存パッケージの更新と、pyOpenSSLおよびcryptographyのバージョン不整合によるgcloud・gsutilの起動不具合修正が中心です。開発環境の安定性には寄与するものの、新機能やアーキテクチャ上の革新、広範な技術的インパクトは限定的です。さらに既出キー"
+    },
+    "077f9f07d7196222263e4fc8984996ae": {
+      "score": 55,
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] 電力網への接続待ちと発電設備不足がデータセンターの拡張を制約し、廃棄されたジェットエンジンを非常用・自家発電に転用する動きは、AIやクラウド基盤の電力設計に直結する重要なインフラ動向です。データセンターの立地、電源冗長性、設備コスト、排出量、運用効率に影響します。一方で、技術そのものは既存のガスタービン活用の延長であり、アーキテクチャやソフトウェアの"
+    },
+    "57ffb927ad182535cdbd4cf83b0252e7": {
+      "score": 83,
+      "title": "Rapid LLM development is outrunning the research meant to explain it, study finds",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] LLMの能力評価や研究成果の再現性に関わる重要な分析であり、モデル開発・ベンチマーク設計・技術ロードマップの前提を見直す契機になります。50件の主張を20モデルで検証し、44%が既に無効化、平均寿命が15.7か月という具体的なデータも強いインパクトがあります。一方で、新しいモデルやアルゴリズムの発表ではなく、既存研究の有効期限を示す調査報告であるため"
+    },
+    "ba1f04df1b4a81a1a0f0f201e7cf0080": {
+      "score": 33,
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] AI利用をめぐる透明性や大学組織のガバナンスに関するニュースであり、エンジニアリング上の新技術・アーキテクチャ・製品革新を扱った記事ではありません。AIという既出キーワードと同じ論点に該当し、明確な技術的続報でもないため減点しました。社会的な示唆はあるものの、技術業界への直接的な影響や具体性は限定的です。 [Editorial: AI-focused"
+    },
+    "69bcdc82b9b861b216aa61f64b58568c": {
+      "score": 2,
+      "title": "$1,200 Off the iPhone Duo? Here’s How Carrier Deals Actually Work",
+      "date": "2026-11-04",
+      "reason": "[Claude API Evaluation] iPhoneのキャリア割引と36カ月契約に関する一般消費者向け販売条件の解説であり、技術革新やソフトウェア開発への直接的な影響はほぼありません。評価基準上、スマートフォン関連の消費者向け記事として最低評価帯に該当します。 [Editorial: gadget topic -8]"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-04/blog.md",
+    "show_notes_path": "out/2026-11-04/show_notes.md",
+    "script_path": "out/2026-11-04/script_2hosts.md",
+    "audio_path": "out/2026-11-04/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-04/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-04/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25824,
+        "output_tokens": 10448,
+        "cost_usd": 0.017702
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45065,
+        "output_tokens": 9562,
+        "cost_usd": 0.18575
+      }
+    ],
+    "tts": {
+      "chars": 4624,
+      "audio_sec": 694.8,
+      "cost_usd": 0.133972
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.337424
+  }
+}
