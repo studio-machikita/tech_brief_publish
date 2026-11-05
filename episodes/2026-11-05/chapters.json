@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.63,
+    "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+    "url": "https://openai.com/index/openai-to-acquire-pierre"
+  },
+  {
+    "start_sec": 116.16,
+    "title": "A thousand fewer paths to root",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+  },
+  {
+    "start_sec": 224.42,
+    "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+    "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/"
+  },
+  {
+    "start_sec": 321.58,
+    "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+    "url": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant"
+  },
+  {
+    "start_sec": 414.69,
+    "title": "Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering",
+    "url": "https://arxiv.org/abs/2303.12212"
+  },
+  {
+    "start_sec": 534.95,
+    "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+    "url": "https://arxiv.org/abs/2611.00172"
+  },
+  {
+    "start_sec": 676.34,
+    "title": "エンディング",
+    "url": null
+  }
+]

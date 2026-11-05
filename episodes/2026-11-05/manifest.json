@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-05",
+  "episode_date_local": "2026-11-05",
+  "content_snapshot_date": "2026-11-05",
+  "show_length_sec": 707,
+  "audio_size": 11315372,
+  "generated_at": "2026-11-05T00:00:53.980686+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-216675ef",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "title_ja": "OpenAI、Pierre Computer Company社を買収へ",
+      "one_liner": "OpenAIがPierre Computer Companyを買収",
+      "fingerprint": "216675ef9d13f6d089d4fb420dcc1521",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9cce9a7a",
+      "title": "A thousand fewer paths to root",
+      "title_ja": "root権限奪取への経路が1000本減少",
+      "one_liner": "OpenAIがLinux脆弱性948件を自動で発見",
+      "fingerprint": "9cce9a7a80cab02ecb98381d30997730",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-44388a2c",
+      "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+      "title_ja": "ChatGPT、OpenAIの新画像モデル「Images 2.6」でテキストや写真からアニメGIFを生成可能に",
+      "one_liner": "ChatGPTでアニメGIFを作れるようになった",
+      "fingerprint": "44388a2cb361f4cf2946d43774fbfb71",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-fad2f8b5",
+      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "title_ja": "GitHub CopilotがXcodeのコーディングアシスタントで利用可能に",
+      "one_liner": "XcodeでGitHub Copilotが使えるように",
+      "fingerprint": "fad2f8b596f94ec49d827003b1fdd5b7",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog",
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-15e74717",
+      "title": "Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering",
+      "title_ja": "ノード類似度・グラフ表現学習・階層的クラスタリングによる複雑ネットワークのコミュニティ検出",
+      "one_liner": "コミュニティ検出の新しい階層型手法を提案",
+      "fingerprint": "15e74717d99c4963b8eee0d55742a340",
+      "score": 53,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-90b54a9c",
+      "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+      "title_ja": "断片化から融合へ:オムニモーダル埋め込みのサーベイとロードマップ",
+      "one_liner": "埋め込み研究、モダリティ別から統合へ",
+      "fingerprint": "90b54a9c6d9e9f7bf459b369326068de",
+      "score": 50,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-965d7fd7",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations"
+    },
+    {
+      "item_id": "item-d0c2cd6c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space"
+    },
+    {
+      "item_id": "item-93014240",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters"
+    },
+    {
+      "item_id": "item-f09f8a7b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "BYOK and enterprise custom models in the Copilot usage API"
+    },
+    {
+      "item_id": "item-7285cf7b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business"
+    },
+    {
+      "item_id": "item-1a7be7c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic's text watermark is easy to bypass on several older Claude models"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-45f61655",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms"
+    },
+    {
+      "item_id": "item-89c8ab8f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Canva Lays Off Workers After AI Rollout Problems"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-ef33a360",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared"
+    },
+    {
+      "item_id": "item-8b8d32d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nextdc Surges on Report of Goodman, Digital Realty Buying Stake"
+    },
+    {
+      "item_id": "item-5f73ef3c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-c70d63f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Less Popular Than Coal"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-1d291478",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "WARN Act and a Second Job — Can You Start a New Job During the 60-Day Notice Period?"
+    },
+    {
+      "item_id": "item-465d2908",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month"
+    }
+  ],
+  "score_cache": {
+    "c70d63f64e0668c07e19177041578cc9": {
+      "score": 18,
+      "title": "Less Popular Than Coal",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] 記事タイトルだけでは技術的な内容、対象製品、具体的な発表や影響範囲を判断できません。「石炭より不人気」という表現は市場評価や世論に関する論評の可能性が高く、アーキテクチャ、AI、クラウド、プログラミング言語などエンジニアリング上の新規性が確認できないため、重要度は低く評価します。"
+    },
+    "216675ef9d13f6d089d4fb420dcc1521": {
+      "score": 92,
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] OpenAIによるPierre Computer Companyの買収は、Codexのコード生成・理解・レビュー機能を強化する具体的なAI開発ツール戦略として重要です。開発者向けAIの競争や、IDE・コードレビュー・ソフトウェア開発ワークフローの統合を加速させる可能性があります。既出のOpenAIやAI関連テーマとは重なりますが、今回は買収という新た"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 18,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] 利用規約・Usage Policyの更新は、技術革新というより運用ルールやコンプライアンスに関するニュースで、エンジニアリング上の直接的な新規性は限定的です。スニペットがなく変更内容や影響範囲も判断できません。また、既出キーワードの「2026」に該当し、明確な新展開を示す情報もないため減点しています。 [Editorial: AI-focused s"
+    },
+    "965d7fd7d993f78875eedfee3be391b1": {
+      "score": 49,
+      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore Evaluationsに意思決定モデルを接続し、コードベースの評価器でエージェントの品質を検証・リリースゲートに組み込む実装例は、LLMエージェントの信頼性向上やCI/CD運用に有用です。特にJevやStrands Deciderを使った再現性のある狭い評価は、主観的なモデル評価を補完する実務的な内容"
+    },
+    "fad2f8b596f94ec49d827003b1fdd5b7": {
+      "score": 54,
+      "title": "GitHub Copilot is now available in Xcode’s coding assistant",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] GitHub CopilotをXcode内蔵のコーディングアシスタントから利用できるようにする統合であり、Apple向け開発者の既存ワークフローにAI支援を組み込む点は実用性と影響範囲があります。ただし、革新的なモデルや新しい開発基盤そのものではなく、既存のCopilot機能をXcodeへ展開する連携機能にとどまります。また、GitHubおよびCop"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 29,
+      "title": "September 28, 2026",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのカスタムコンテナイメージに含まれるCritical/HighのCVEを一括修正するセキュリティパッチであり、運用上は重要ですが、新機能やアーキテクチャの革新ではなく定期的な依存パッケージ更新に近い内容です。セキュリティ脆弱性・OSS運用ルールに該当するため基礎点は低めで、既出キーワードの「agents"
+    },
+    "ef33a36060da6f4cdd1afe16a1183d56": {
+      "score": 28,
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] AI業界に関する話題ではあるものの、内容の中心は政治献金や選挙への影響であり、技術的な革新、製品、アーキテクチャ、開発者向けの具体的変化は限定的です。AI関連キーワードは既出ですが、今回は技術そのものではなくAI PACの政治活動という別角度のため、重複減点は適用しません。エンジニア視点では直接的な実装・運用への影響が小さく、法律・規制に近い社会動向"
+    },
+    "44388a2cb361f4cf2946d43774fbfb71": {
+      "score": 83,
+      "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] テキストや写真からアニメーションGIFを生成し、速度やフレーム単位で編集できる点は、画像生成を動画・アニメーション制作へ拡張する具体的な進展です。複数フレーム間でキャラクターの一貫性を維持できることは、生成モデルの実用性やクリエイティブワークフローに大きく影響します。一方で、ChatGPT上の新機能としての提供が中心であり、基盤モデルや業界アーキテク"
+    },
+    "7285cf7bddb888aa34c21b7ac9088b57": {
+      "score": 41,
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] Nintendo向けROMチップの主要サプライヤー撤退は、物理メディアの供給網やSwitch向けゲームカードの製造コストに影響し得る重要な業界ニュースです。ただし、技術革新そのものではなく、主な論点は半導体サプライチェーンと製品価格への波及であり、AI・クラウド・プログラミング言語などの技術トレンドには直接関係しません。消費者向けゲーム市場への影響は"
+    },
+    "d0c2cd6cf1068123d2b41f55d101b78f": {
+      "score": 48,
+      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] 宇宙空間にデータセンターを設置する構想は、電力・冷却・地上用地の制約を解決し得る先端的なインフラアイデアで、AI計算基盤との接点も大きい。一方、記事の内容はテキサス州などの政治情勢を受けた関係者の反応や期待が中心で、具体的な技術仕様、実証結果、商用化計画が示されていないため、業界の前提を変える発表には届かない。AIインフラという既出キーワードとの関連"
+    },
+    "8b8d32d30a3795cd703e8713b2f1cd1d": {
+      "score": 28,
+      "title": "Nextdc Surges on Report of Goodman, Digital Realty Buying Stake",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] 豪州のデータセンター事業者Nextdcに対するGoodman GroupとDigital Realtyの出資報道であり、データセンター市場やクラウド基盤の競争環境には影響し得ます。ただし、現時点では買収・提携の正式発表ではなく、技術革新やアーキテクチャの進化を示す内容でもありません。インフラ投資・企業動向として一定の重要性はあるものの、エンジニアリン"
+    },
+    "89c8ab8fe2a87bed432ebbbbe9971160": {
+      "score": 37,
+      "title": "Canva Lays Off Workers After AI Rollout Problems",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] CanvaがAI導入後に従業員の22%に相当する大規模な人員削減・配置転換を行う点は、AI活用の組織設計や導入リスクを考えるうえで一定の重要性があります。ただし、技術仕様や新しいアーキテクチャの発表ではなく、主に経営・雇用面のニュースです。また、既出キーワードの「AI」と同じくAI導入の話題であり、明確な技術革新というより導入上の問題に関する続報・事"
+    },
+    "15e74717d99c4963b8eee0d55742a340": {
+      "score": 53,
+      "title": "Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] グラフ表現学習、ノード類似度、階層クラスタリングを統合したコミュニティ検出手法であり、ソーシャルネットワークや引用・生物ネットワークなど幅広い実グラフ分析に応用できる点は技術的に有益です。特に364通りのモジュール構成を比較しているため、手法選択の実証的な知見もあります。一方で、対象は主に研究・アルゴリズム領域で、既存技術の組み合わせと評価が中心です"
+    },
+    "90b54a9c6d9e9f7bf459b369326068de": {
+      "score": 50,
+      "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] テキスト・画像・音声などを統一的に扱うオムニモーダル埋め込みは、検索、推薦、RAG、マルチモーダルエージェントの基盤技術に関わり、研究コミュニティの分断を整理して今後の設計指針を示す点で技術的な重要度は高いです。一方で、今回は新製品や実証済みのブレークスルーではなく、主にサーベイとロードマップであり、直ちに業界の前提を変える発表ではありません。また、"
+    },
+    "1d29147883b08848d66631eaedbc38b0": {
+      "score": 14,
+      "title": "WARN Act and a Second Job — Can You Start a New Job During the 60-Day Notice Period?",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] WARN法、退職金、競業避止、失業給付などに関する雇用・法律解説であり、ソフトウェア技術やエンジニアリング実務への直接的な影響は限定的です。従業員が通知期間中に転職できる条件を整理している点や、レイオフ統計を補足している点には実用性がありますが、技術革新やアーキテクチャの進展ではありません。既出キーワードとの直接的な重複もなく、減点は適用していません"
+    },
+    "5f73ef3c611d0cca0d9374fc3d7367d4": {
+      "score": 28,
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] Xbox 360のハイパーバイザーを解析し、アップデートによる防御機構の改善点を技術的に検証する内容で、低レイヤー実装や仮想化、リバースエンジニアリングに関心のあるエンジニアには価値があります。一方で、対象が旧世代ゲーム機に限定されたニッチな研究であり、現行のクラウド基盤や主要開発言語、AIなどへの波及範囲は小さいです。また、セキュリティ解析・脆弱性"
+    },
+    "9cce9a7a80cab02ecb98381d30997730": {
+      "score": 92,
+      "title": "A thousand fewer paths to root",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] OpenAIが自律型パイプラインによってLinuxカーネルのローカル権限昇格脆弱性を948件発見・検証し、修正パッチまで生成した点は、AIエージェントの実運用能力を示す具体性の高い事例です。Linuxカーネルという広範な基盤ソフトウェアへの影響も大きく、脆弱性対応の自動化やソフトウェア開発の検証工程を変える可能性があります。一方で、記事の中心にはセキ"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-03",
+      "reason": "[ScoreCache 2026-11-03] [ScoreCache 2026-11-03] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、修正情報などの具体性がなく、技術的な新規性や重要度を評価できません。セキュリティ関連ニュースは評価基準上も低評価帯に該当し、既出キーワードとの明確な関連も確認できないため、情報不足を考"
+    },
+    "93014240badccc07502547e107e2af6b": {
+      "score": 47,
+      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] AIエージェントの実行アクションに対して、ポリシー、分類器、人間の承認、CloudTrail／CloudWatchによる監査を組み合わせる実務的なガバナンス機能であり、エージェント導入時の運用負荷とリスクを下げる点は評価できます。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、AWSサービス内の承認ワークフロー改善が中心です。また、既出キーワー"
+    },
+    "f09f8a7bf3e39dc16f89946dbeb6226d": {
+      "score": 47,
+      "title": "BYOK and enterprise custom models in the Copilot usage API",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況APIにBYOKとエンタープライズ独自モデルの利用量を区別して表示できるようになるアップデートです。企業のコスト管理、監査、モデル利用状況の可視化には実務的な価値がありますが、既存機能の計測・レポート拡張であり、技術的な革新性や影響範囲は限定的です。また、CopilotおよびGitHubに関する既出トピックと同じ"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 39,
+      "title": "October 11, 2026",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースですが、実質的な新機能やアーキテクチャ上の革新は示されておらず、主な内容は依存パッケージの更新と、pyOpenSSLとcryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正です。開発・運用環境の安定性には有用な変更である一方、影響範囲は限定的です。また、"
+    },
+    "465d2908e6f8881d755d9616531923c6": {
+      "score": 9,
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] AIを活用する新デバイスという点には一定の技術的関心がありますが、現時点では製品カテゴリ、アーキテクチャ、実装方式、開発者向けAPIなどが不明で、エンジニアへの具体的な影響を評価できません。Nothingはスマートフォン系の消費者向け企業であり、一般ガジェット寄りの発表として最低評価帯に近くなります。また、AI関連は既出キーワードと重複するため減点し"
+    },
+    "1a7be7c3f9a5862140a04aa9a00cf95e": {
+      "score": 41,
+      "title": "Anthropic's text watermark is easy to bypass on several older Claude models",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] AI生成テキストのウォーターマークをAPIのサンプリングパラメータ変更だけで無効化できるという、実装上の具体的な脆弱性とコンプライアンス上の課題を示す記事です。技術的にはウォーターマークの堅牢性やモデル世代間の挙動差を考える材料になりますが、主題は規制対応と回避策であり、業界の前提を変える新技術ではありません。さらに、既出キーワードであるAIおよびA"
+    },
+    "45f616558373d522193487eb513a825e": {
+      "score": 38,
+      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+      "date": "2026-11-05",
+      "reason": "[Claude API Evaluation] NYTによる訴訟は、ニュースサイトのペイウォール回避やコンテンツ流通をめぐる著作権・事業モデル上の重要な論点を含みますが、技術革新そのものではなく、法務・規制寄りのニュースです。Braveのブラウザ機能やAI企業との提携に影響する可能性はあるものの、現時点では具体的な技術変化や業界全体を変える展開ではありません。また、既出キーワードのAIと重なるため"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-05/blog.md",
+    "show_notes_path": "out/2026-11-05/show_notes.md",
+    "script_path": "out/2026-11-05/script_2hosts.md",
+    "audio_path": "out/2026-11-05/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-05/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-05/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25189,
+        "output_tokens": 10356,
+        "cost_usd": 0.017465
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45104,
+        "output_tokens": 9162,
+        "cost_usd": 0.181828
+      }
+    ],
+    "tts": {
+      "chars": 4413,
+      "audio_sec": 693.8,
+      "cost_usd": 0.133754
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.333047
+  }
+}
