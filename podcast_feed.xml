@@ -25,6 +25,82 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#219 OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか</title>
+      <description>Tech News Radio Show Notes - #219 (2026-11-06)
+
+エピソード情報
+• エピソード: #219
+• 日付: 2026-11-06
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them (https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/)
+• OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them (https://openai.com/index/introducing-gpt-6-cyber)
+• How Smaller Banks Are Giving Agents Access to Accounts (https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts)
+• Constraint-Preserving Flow Matching for Spectral Graph Generation (https://arxiv.org/abs/2611.05436)
+
+注目の深掘り
+• How Amazon Marketplace evaluates content quality with Amazon SageMaker AI (https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/)
+
+小ネタ・その他
+• Getting started with Web Answer on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/)
+• Getting started with Web Answer on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/)
+• Getting started with Web Answer on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/)
+• October 11, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026)
+• October 11, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_06_2026)
+• October 11, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-06/episode_audio.mp3" length="11162924" type="audio/mpeg" />
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-06</guid>
+      <itunes:duration>11:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか</itunes:title>
+      <itunes:episode>219</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #219 (2026-11-06)
+
+エピソード情報
+• エピソード: #219
+• 日付: 2026-11-06
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them (https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/)
+• OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them (https://openai.com/index/introducing-gpt-6-cyber)
+• How Smaller Banks Are Giving Agents Access to Accounts (https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts)
+• Constraint-Preserving Flow Matching for Spectral Graph Generation (https://arxiv.org/abs/2611.05436)
+
+注目の深掘り
+• How Amazon Marketplace evaluates content quality with Amazon SageMaker AI (https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/)
+
+小ネタ・その他
+• Getting started with Web Answer on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/)
+• Getting started with Web Answer on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/)
+• Getting started with Web Answer on Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/)
+• October 11, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026)
+• October 11, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_06_2026)
+• October 11, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-06/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.560" title="OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them" href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/" />
+        <psc:chapter start="00:02:26.250" title="How Smaller Banks Are Giving Agents Access to Accounts" href="https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts" />
+        <psc:chapter start="00:03:54.740" title="Constraint-Preserving Flow Matching for Spectral Graph Generation" href="https://arxiv.org/abs/2611.05436" />
+        <psc:chapter start="00:05:21.240" title="How Amazon Marketplace evaluates content quality with Amazon SageMaker AI" href="https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/" />
+        <psc:chapter start="00:07:34.320" title="Getting started with Web Answer on Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:09:27.110" title="October 11, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026" />
+        <psc:chapter start="00:11:06.470" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#218 OpenAI、Pierre Computer Company社を買収へ／root権限奪取への経路が1000本減少 ほか</title>
       <description>Tech News Radio Show Notes - #218 (2026-11-05)
 

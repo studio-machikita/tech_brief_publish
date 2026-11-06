@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-06",
+  "episode_date_local": "2026-11-06",
+  "content_snapshot_date": "2026-11-06",
+  "show_length_sec": 697,
+  "audio_size": 11162924,
+  "generated_at": "2026-11-06T01:03:40.873529+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-35ad00ea",
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "title_ja": "OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に",
+      "one_liner": "OpenAIが脆弱性発見特化のAIを発表",
+      "fingerprint": "35ad00eae16022f1c4c4ce5b5ccc5264",
+      "score": 97,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-f1d785ba",
+      "title": "How Smaller Banks Are Giving Agents Access to Accounts",
+      "title_ja": "中小銀行が進めるAIエージェントへの口座アクセス提供の最前線",
+      "one_liner": "中小銀行がAIエージェントに口座を開放",
+      "fingerprint": "f1d785ba323e70e499d45ba36dbbda50",
+      "score": 79,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-d9db0b12",
+      "title": "Constraint-Preserving Flow Matching for Spectral Graph Generation",
+      "title_ja": "制約保存型フローマッチングによるスペクトルグラフ生成",
+      "one_liner": "グラフ生成で固有系の制約を守る新手法",
+      "fingerprint": "d9db0b1257731f15dbe1c04ab576aaf0",
+      "score": 62,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-088e75f8",
+      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+      "title_ja": "Amazon MarketplaceがAmazon SageMaker AIでコンテンツ品質を評価する方法",
+      "one_liner": "AmazonがA+コンテンツの品質をAIで自動評価",
+      "fingerprint": "088e75f8a019aaabc9c0ba1a4cdfa689",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-4d704623",
+      "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+      "title_ja": "Amazon Bedrock AgentCoreのWeb Answerを始めよう",
+      "one_liner": "1回の呼び出しで出典付きの回答を取得",
+      "fingerprint": "4d7046233c26faecfdc5450689153d12",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "title": "October 11, 2026",
+      "title_ja": "Workbench v2に依存パッケージ更新と修正が入った",
+      "one_liner": "Workbench v2に依存パッケージ更新と修正が入った",
+      "fingerprint": "a7fe7915fd65b82ac63f88c5832a5ce0",
+      "score": 43,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-f56ced8a",
+      "reason": "LINK_ONLY: Source intent uncertain: The Decoder is a legitimate technology-news outlet and the wording is presented as ordinary product news, with no clear satirical or humorous cues. However、「Gemini Omni 1.2 Flash」や提示された仕様・価格は公式発表との裏付けが必要な不自然な固有名・主張であり、スニペットだけでは信頼できるニュースか架空情報かを確定できない。",
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent"
+    },
+    {
+      "item_id": "item-7285cf7b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business"
+    },
+    {
+      "item_id": "item-7cc42532",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds code review details and addressed rate"
+    },
+    {
+      "item_id": "item-1a923294",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Merge builds product and business tools with OpenAI technology"
+    },
+    {
+      "item_id": "item-1f5c27e5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Inkling 2 Small"
+    },
+    {
+      "item_id": "item-cdf4149b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Discourse Analysis of Legislative Bill Discussions"
+    },
+    {
+      "item_id": "item-48610543",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is SSH Password Auth Really Off on Your Server? Hardening sshd_config and Proving It From the Outside"
+    },
+    {
+      "item_id": "item-ec09ae50",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions"
+    },
+    {
+      "item_id": "item-b7efc10f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API flags telemetry and version gaps"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-b5453fcd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta, Google, and TikTok sue California AG over teen social media law"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-47986777",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "6 Best VPN Services (2026), Tested and Reviewed"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-182a22eb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Kospi Slides After US Rout, Triggering Circuit Breaker"
+    },
+    {
+      "item_id": "item-c89f966c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million"
+    },
+    {
+      "item_id": "item-d3ac1698",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Comunicado - FGC"
+    },
+    {
+      "item_id": "item-02d45a79",
+      "reason": "[Duplicate] 「OpenAIs GPT-6 Cyber can both break into systems and propose 」と同じ出来事のため除外",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents"
+    }
+  ],
+  "score_cache": {
+    "1f5c27e5ae6d6f3a18499bcaa45b9628": {
+      "score": 38,
+      "title": "Introducing Inkling 2 Small",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 「Inkling 2 Small」は新しい小型モデルまたは開発者向けソフトウェアのリリースを示唆しますが、記事本文や具体的な性能・用途・提供形態がなく、技術的インパクトを十分に確認できません。小型モデルの公開であれば、推論コストやオンデバイス利用性の向上に意義はある一方、既出のAI・モデル関連トピックと重なるため、独自のブレークスルーが明確でない現時"
+    },
+    "02d45a799701b8824a273a4691fb36e9": {
+      "score": 95,
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] サイバーセキュリティに特化したLLMエージェントが、脆弱性の発見から修正案の開発まで実行する点は、AIによるセキュリティ自動化として非常に重要です。特に認可された範囲内で動作するよう訓練されている点は、実運用における安全性・ガバナンス上の大きな進展です。一方で、AI・OpenAI・モデル・エージェントという既出キーワードと重なり、記事単体では業界全体"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 26,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 利用規約・利用ポリシーの更新は、開発者やサービス運用に影響する可能性はあるものの、技術革新そのものではなく、法律・規制や運用ルールに近い話題です。さらに「2026」は既出キーワードに該当します。記事本文や変更点が示されていないため、影響範囲や新規性も評価できず、低めのスコアとしました。 [Editorial: AI-focused source +6"
+    },
+    "4d7046233c26faecfdc5450689153d12": {
+      "score": 49,
+      "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 自然言語の質問に対して検索・取得・要約・出典付与までを単一ツール呼び出しで実行でき、エージェント実装の複雑さを大きく減らす点は、クラウドAIアーキテクチャ上の実用的な進展です。AgentCore Gatewayとの統合により、企業向けエージェントの開発効率や回答の検証可能性にも影響します。一方で、Amazon BedrockおよびAIエージェント関連"
+    },
+    "7cc425328c8bf2c317e67fff13e2cdb7": {
+      "score": 39,
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況をリポジトリ単位で分析でき、コードレビューのフィードバック数や対応率まで取得可能になるため、企業における導入効果の測定や開発プロセス改善には実用的です。一方で、既存のCopilot利用メトリクスAPIの機能拡張にとどまり、アーキテクチャや開発基盤を大きく変える技術革新ではありません。また、直近に取り上げ済みのCo"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 33,
+      "title": "September 28, 2026",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のカスタムコンテナイメージに含まれるCritical／High深刻度CVEをまとめて修正するセキュリティ更新であり、利用者の安全性や運用継続性には重要です。一方、脆弱性の内容や影響範囲、機能面の新規性は示されておらず、主に依存パッケージ更新と保守対応に留まります。エージェント関連の話題は既出キーワ"
+    },
+    "c89f966c6f84b27a6c4e677c571f8e67": {
+      "score": 10,
+      "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 映画レビュー・コミュニティサービスの買収報道であり、ソフトウェア技術、AI、クラウド、開発者向け基盤に関する新規性や技術的インパクトは限定的です。NYTによる330百万ドル規模のメディア・コンシューマーサービス買収として事業面の意味はありますが、一般消費者向けサービスの企業ニュースにとどまるため、エンジニア視点での重要度は低く評価します。"
+    },
+    "35ad00eae16022f1c4c4ce5b5ccc5264": {
+      "score": 97,
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] ソフトウェア脆弱性の発見、実 exploit の生成、修正パッチの提案までを一体化したサイバーセキュリティ特化モデルで、開発・防御双方のワークフローを大きく変える可能性があります。Firefoxで未知の脆弱性を81件、Linuxカーネルで948件の動作する exploit を発見したという具体的な実績もあり、技術的インパクトは非常に大きいです。一方で"
+    },
+    "7285cf7bddb888aa34c21b7ac9088b57": {
+      "score": 41,
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+      "date": "2026-11-05",
+      "reason": "[ScoreCache 2026-11-05] [Claude API Evaluation] Nintendo向けROMチップの主要サプライヤー撤退は、物理メディアの供給網やSwitch向けゲームカードの製造コストに影響し得る重要な業界ニュースです。ただし、技術革新そのものではなく、主な論点は半導体サプライチェーンと製品価格への波及であり、AI・クラウド・プログラミング言語などの技術トレンドには"
+    },
+    "479867771fbe56a32bd28432ff7058a2": {
+      "score": 26,
+      "title": "6 Best VPN Services (2026), Tested and Reviewed",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] VPNサービスの比較・レビュー記事であり、利用者のプライバシー保護や通信経路の選択には関係しますが、新しいプロトコル、暗号技術、クラウドアーキテクチャ、脆弱性の発見といった技術的な革新は示されていません。一般消費者向けサービスの評価記事という性質が強く、エンジニアリング上の影響範囲や新規性は限定的です。"
+    },
+    "182a22eb9e86a14f57f9485adc6d529c": {
+      "score": 20,
+      "title": "Kospi Slides After US Rout, Triggering Circuit Breaker",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] AI業界への規制強化懸念が半導体株や韓国株式市場に波及したという市場ニュースであり、技術そのものの進化や新しい実装、アーキテクチャに関する具体性はありません。規制・政治動向が中心のためエンジニアにとっての直接的な技術インパクトは限定的です。また、既出キーワードの「AI」と同じ規制懸念の文脈に該当するため、重複分を減点しています。"
+    },
+    "f1d785ba323e70e499d45ba36dbbda50": {
+      "score": 79,
+      "title": "How Smaller Banks Are Giving Agents Access to Accounts",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] AIエージェントに銀行口座、決済、送金、クレジットを限定的に委任するための実装が、Lead BankやIncrease Bank、Naturalなど複数の金融インフラ事業者で具体化している点は非常に重要です。エージェント専用口座、API権限、取引上限、サブレジャー、ワンタイム利用カードなど、単なる概念ではなく実運用を意識したアーキテクチャが示されてい"
+    },
+    "ec09ae505ca8b1a6de53a17e3982689b": {
+      "score": 35,
+      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] LLMのマルチエージェント構成において、レビュアーが上流エージェントの判断を覆す条件を「証拠ゲート」として設計する研究であり、AIシステムの信頼性・権限設計・誤修正防止に関わる技術的に興味深い内容です。一方、現時点ではarXivの新規研究で、実運用への影響や業界標準化が示された発表ではありません。また、既出キーワードであるAI・agents・mode"
+    },
+    "d9db0b1257731f15dbe1c04ab576aaf0": {
+      "score": 62,
+      "title": "Constraint-Preserving Flow Matching for Spectral Graph Generation",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] グラフ生成にフローマッチングとスペクトル表現を組み合わせ、ラプラシアン固有系に必要な直交性だけでなく零空間制約まで明示的に維持する手法です。生成グラフの構造的妥当性を高める基盤技術として、機械学習・ネットワーク設計・科学計算への応用可能性があります。一方で、arXivの初期論文であり、特定分野の研究手法にとどまるため、業界全体の前提を変えるほどの実用"
+    },
+    "cdf4149b8c8cda9a5bfc19ee4901c419": {
+      "score": 38,
+      "title": "Discourse Analysis of Legislative Bill Discussions",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 立法委員会の公聴会における発言の修辞構造を解析する、arXiv発の新しいエンドツーエンド解析パイプラインであり、自然言語処理・知識抽出・社会科学データ分析の応用としては興味深いです。一方で、対象は議会記録という限定的なドメインで、基盤技術やソフトウェア開発の前提を変える内容ではありません。法律・政治コミュニケーション分析に近いテーマのため評価は中程度"
+    },
+    "48610543a80d6c15f69099d91d1174d7": {
+      "score": 37,
+      "title": "Is SSH Password Auth Really Off on Your Server? Hardening sshd_config and Proving It From the Outside",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] OpenSSHの設定ミスやcloud-initのdrop-inによる認証方式の意図しない有効化を、sshd -T、Match条件付きの検証、外部からの認証方式probeで確認する実践的なセキュリティ記事です。運用上の有用性と具体性は高く、VPSやIaC環境にも適用できます。一方で、技術革新やアーキテクチャの進化ではなく、既知のSSHハードニングと設定"
+    },
+    "d3ac1698d5856c31f07090ae30f345df": {
+      "score": 6,
+      "title": "Comunicado - FGC",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] スニペットがなく、タイトルも「FGCからのお知らせ」という一般的な表現にとどまっているため、技術革新やソフトウェア開発への影響を評価できません。具体的な製品、アーキテクチャ、AI、クラウド、規制変更などの情報が確認できず、重要度は最低水準と判断します。"
+    },
+    "1a9232941bd96623477bca2a0bbe95c2": {
+      "score": 39,
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] GPT-6 Astra、ChatGPT、Codexを製品コードレビューやマーケティング、営業準備などに活用する企業事例で、実務へのAI導入パターンとしては参考になります。一方で、新しいモデル技術やアーキテクチャ、業界の前提を変える発表ではなく、既存AIツールの業務適用が中心です。また、AI・OpenAI・ChatGPT・モデル関連は直近の既出キーワー"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-03",
+      "reason": "[ScoreCache 2026-11-03] [ScoreCache 2026-11-03] [ScoreCache 2026-11-03] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、修正情報などの具体性がなく、技術的な新規性や重要度を評価できません。セキュリティ関連ニュースは評価基準上も低評価帯に該当し、既出キーワー"
+    },
+    "088e75f8a019aaabc9c0ba1a4cdfa689": {
+      "score": 54,
+      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] Amazon SageMaker AIを使い、商品ページを単一画像としてレンダリングし、視覚言語モデル・OCRの可読性指標・CatBoost・SHAPを組み合わせてコンテンツ品質評価と改善提案まで自動化する点は、実運用に即した具体性の高いAI活用事例です。大規模な評価パイプラインや説明可能性の設計はエンジニアにとって有益ですが、基盤技術そのものの革新"
+    },
+    "b7efc10f94be31e07644dd332f85ed47": {
+      "score": 35,
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] Copilotの利用状況APIに、テレメトリ欠落やIDE・拡張機能の最低バージョン未達をユーザー単位で確認できるフィールドが追加される運用改善です。管理者による導入状況の把握やトラブルシューティングには有用ですが、技術アーキテクチャや開発パラダイムを大きく変える内容ではありません。既出キーワードのGitHub、Copilot、usage metric"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 43,
+      "title": "October 11, 2026",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースであり、gcloud・gsutilの起動障害を引き起こしていたpyOpenSSLとcryptographyのバージョン不整合を修正している点は、開発環境やクラウド運用の安定性に寄与します。ただし、内容の中心は依存パッケージ更新と不具合修正で、アーキテクチャ上の新機能や業界を変える技術革新"
+    },
+    "b5453fcdd1cce757c2ef6a121466e817": {
+      "score": 27,
+      "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 16歳未満のSNS利用を制限するカリフォルニア州法をめぐる、Meta・Google・TikTokによる司法訴訟であり、主題は法律・規制です。大手プラットフォームの年齢確認、アクセス制御、保護者同意などの実装要件に影響する可能性はありますが、技術革新やアーキテクチャの進展そのものではありません。既出キーワードとの直接的な重複もなく、規制ニュースとして低"
+    },
+    "f56ced8a357f4e9deb91a978da79d8ed": {
+      "score": 92,
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+      "date": "2026-11-06",
+      "reason": "[Claude API Evaluation] 生成AIによる動画制作の実用性を高める具体的なアップデートです。生成可能な尺が15秒に延長され、会話形式で段階的に編集できるため、クリエイティブ制作の反復ワークフローに直接影響します。さらに720pで秒額30%の値下げは、API利用やプロトタイピングのコスト低下につながり、導入障壁を下げる点も重要です。一方で、基盤モデルそのものの大幅な性能転換や業界"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-06/blog.md",
+    "show_notes_path": "out/2026-11-06/show_notes.md",
+    "script_path": "out/2026-11-06/script_2hosts.md",
+    "audio_path": "out/2026-11-06/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-06/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-06/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 33659,
+        "output_tokens": 10816,
+        "cost_usd": 0.019711
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 47346,
+        "output_tokens": 10057,
+        "cost_usd": 0.195262
+      }
+    ],
+    "tts": {
+      "chars": 4475,
+      "audio_sec": 682.8,
+      "cost_usd": 0.131649
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.346622
+  }
+}

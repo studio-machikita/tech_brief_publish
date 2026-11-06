@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="AIが脆弱性を探して直す段階に入った">
+<meta property="og:title" content="Tech News Radio — OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-06/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-11-06/">
+<meta property="og:description" content="AIが脆弱性を探して直す段階に入った">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-11-06">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-11-06/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか",
+    "description": "2026-11-06 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-06",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-06/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-11-06/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか",
+    "description": "2026-11-06 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-06",
+    "url": "https://technewsradio.tokyo/episodes/2026-11-06/",
+    "duration": "PT11M37S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-06/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-06/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-06/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-11-06</h1>
+<p><em>📖 約17分で読めます ｜ 🏷️ AI, Security, OSS, Startup, Business</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に</strong> — OpenAIが脆弱性発見特化のAIを発表</li>
+<li>🤖 <strong>中小銀行が進めるAIエージェントへの口座アクセス提供の最前線</strong> — 中小銀行がAIエージェントに口座を開放</li>
+<li>🤖 <strong>制約保存型フローマッチングによるスペクトルグラフ生成</strong> — グラフ生成で固有系の制約を守る新手法</li>
+<li>🤖 <strong>Amazon MarketplaceがAmazon SageMaker AIでコンテンツ品質を評価する方法</strong> — AmazonがA+コンテンツの品質をAIで自動評価</li>
+<li>🤖 <strong>Amazon Bedrock AgentCoreのWeb Answerを始めよう</strong> — 1回の呼び出しで出典付きの回答を取得</li>
+<li>☁️ <strong>Workbench v2に依存パッケージ更新と修正が入った</strong> — Workbench v2に依存パッケージ更新と修正が入った</li>
+</ul>
+<hr />
+<h2>🤖 OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に</h2>
+<p><code>AI</code> <code>Security</code> <code>OSS</code></p>
+<details><summary>📄 原題: OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIが脆弱性発見特化のAIを発表</p>
+</blockquote>
+<ul>
+<li>OpenAIがGPT-6 Cyberを発表、セキュリティ分野に特化</li>
+<li>ソフトの脆弱性発見、攻撃コード作成、修正案の提示ができる</li>
+<li>Firefoxで未知の脆弱性を81件発見したと発表</li>
+<li>Linuxカーネルで948件の動作する攻撃コードを開発</li>
+<li>前モデルより大幅に成果が向上したとのこと</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+ソフトウェアの脆弱性（セキュリティ上の弱点）探しは、これまで熟練した専門家の手作業に頼る部分が大きい分野でした。そこにAIが入り、未知の脆弱性を数十件単位で見つけ、実際に動く攻撃コード（エクスプロイト）まで作れるようになりました。FirefoxやLinuxカーネルは世界中で使われる基盤的なソフトで、そこで成果が出たと発表された点は重みがあります。同じ能力は、守る側にも攻撃する側にも使えます。そのため、AIの安全な提供方法も大きな論点になりそうです。 脆弱性の発見と修正にかかる時間が短くなり、開発の現場にAIによる監査が組み込まれていく可能性があります。一方で、攻撃側が同じ技術を使えば、脆弱性が悪用されるまでの猶予は短くなります。守る側は、発見から修正までの速さがこれまで以上に問われます。OSS（オープンソースソフトウェア）の保守者にとっては、AIから大量の報告が届くようになり、その対応が負担になる恐れもあります。セキュリティ分野に特化したAIが、今後の競争領域の一つになると見られます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社で使うOSSやライブラリの更新体制を見直し、修正パッチを素早く適用できる流れを整えてください。次に、コードレビューやテストの工程で、AIによる脆弱性検査を試験的に取り入れることを検討してください。リーダーは、脆弱性の報告から修正までの目標時間を決め直すとよいでしょう。また、攻撃にも使える技術なので、利用規約や提供条件を確認し、社内の使い方のルールも先に決めておくと安心です。</p>
+<p>🔗 <a href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/">原文を読む</a></p>
+<p>🔗 <a href="https://openai.com/index/introducing-gpt-6-cyber">原文を読む</a></p>
+<hr />
+<h2>🤖 中小銀行が進めるAIエージェントへの口座アクセス提供の最前線</h2>
+<p><code>AI</code> <code>Startup</code> <code>Business</code></p>
+<details><summary>📄 原題: How Smaller Banks Are Giving Agents Access to Accounts</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 中小銀行がAIエージェントに口座を開放</p>
+</blockquote>
+<ul>
+<li>JPMorganなど大手は、リスクを理由にAIエージェントの口座アクセスを制限</li>
+<li>Lead BankやIncrease Bankは、エージェント専用の口座や分離口座を提供</li>
+<li>取引額の上限設定や即時ロックなど、利用者が制御できる仕組みを用意</li>
+<li>Cross River Bankのエージェント向けカード決済は3か月で約200,000件、4,000万ドル超</li>
+<li>誤った支払いの責任は未整理で、Wells Fargoは利用者責任と規約に明記</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントに買い物や家計管理を任せる動きが広がっています。ところが大手銀行は、口座に入れるのは危険だとして制限に動いています。一方、Stripeなどのフィンテック企業（金融とITを組み合わせた事業者）と組む中小銀行は、これを成長分野と見ています。エージェント専用の口座番号や、人間の資金から切り離した口座を用意し、API（プログラム同士の接続口）で権限を確認する方式です。Natural（Column Bankが資金を保管）のように、銀行ではない事業者がFDIC（米連邦預金保険公社）保険付きの口座をエージェント用ウォレットとして提供する例もあります。大手が閉じ、小規模な銀行が開くという構図は、金融と生成AIの接点で何が起きているかを示しています。 エージェントが金融取引を担う前提で、権限を細かく絞る設計が標準になっていく可能性があります。Natural創業者のKahlil Lalji氏は、メールの認証コードを読めるエージェントを銀行が締め出すのは難しいと見ています。そのため、操作を監査できる形で開放するほうが現実的だと主張しています。一方で、意図しない支払いの責任が誰にあるのかは、まだ決まっていません。規約や法制度の整備が遅れれば、普及の足かせになります。大手銀行が方針を変えるのか、中小銀行とフィンテックの連合が先に実績を積むのか。今後の主導権争いに注目が集まりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エージェントに決済や送金をさせる製品を作るなら、全権を渡す設計は避けるべきです。金額の上限、用途の限定、即時停止の仕組みを最初から組み込んでください。人間の資金と分けた専用口座や、使い捨ての仮想カードも有効です。利用者の許可と、エージェントの操作ログを監査できる状態も欠かせません。事業責任者は、誤決済が起きたときの責任分担を、規約や契約で先に整理しておくことをお勧めします。</p>
+<p>🔗 <a href="https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts">原文を読む</a></p>
+<hr />
+<h2>🤖 制約保存型フローマッチングによるスペクトルグラフ生成</h2>
+<p><code>AI</code> <code>Science</code> <code>Data</code></p>
+<details><summary>📄 原題: Constraint-Preserving Flow Matching for Spectral Graph Generation</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: グラフ生成で固有系の制約を守る新手法</p>
+</blockquote>
+<ul>
+<li>グラフをラプラシアンの固有値・固有ベクトルで生成する手法</li>
+<li>固有ベクトルの正規直交性は既存手法でも保てる</li>
+<li>ラプラシアンの零空間の制約は守られていなかった</li>
+<li>構造と合わない固有系が生まれるおそれがあった</li>
+<li>制約を保つFlow Matchingで課題の解消を狙う</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+グラフ生成には、ノードとエッジを直接組み立てる方法があります。一方で、ラプラシアン（グラフの構造を表す行列）の固有値と固有ベクトルを使い、連続的な値で表す方法もあります。こちらは扱いやすい反面、生成した固有系がラプラシアンの性質を満たす必要があります。既存手法は正規直交性を保てますが、零空間の制約までは課していないようです。そのため、グラフとして整合しない結果が出る可能性がありました。分子設計やネットワーク解析など、グラフを扱う分野では生成結果の妥当性が欠かせません。今回の研究はその土台を固める試みと見られています。 構造上の制約を生成の仕組みに組み込む流れが、広がる可能性があります。後から結果を補正するより、生成の段階で守るほうが、質も効率も上がりやすいからです。グラフ生成の信頼性が高まれば、創薬や材料探索、インフラのネットワーク設計などへの応用も進みそうです。Flow Matchingのような生成手法を、数学的な制約つきの対象に使う研究も増えると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+グラフ生成モデルを扱うエンジニアは、まず自分のモデルが出力する固有系がラプラシアンの性質を満たしているか確認しましょう。正規直交性だけでなく、零空間などの制約も検証項目に加えるのが有効です。論文はarXivで公開されているため、手法の詳細や実験結果を読み、自社の課題に使えるか評価してください。リーダーは、生成結果の妥当性を測る評価指標を整える準備を進めると良いでしょう。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2611.05436">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon MarketplaceがAmazon SageMaker AIでコンテンツ品質を評価する方法</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Data</code></p>
+<details><summary>📄 原題: How Amazon Marketplace evaluates content quality with Amazon SageMaker AI</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AmazonがA+コンテンツの品質をAIで自動評価</p>
+</blockquote>
+<ul>
+<li>商品ページ全体を1枚のスナップショット画像として描画</li>
+<li>視覚言語モデルとOCRの可読性指標をCatBoostで統合</li>
+<li>SHAPで判定理由を示し、改善策を優先度順に提示</li>
+<li>Amazon SageMaker AI上で大規模な評価を実現</li>
+<li>出品者向けに具体的で実行しやすい推奨事項を提供</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Amazonの商品ページにあるA+ Contentは、画像と文章を組み合わせた商品紹介です。出品者ごとに作りが大きく違い、品質を人手で見きわめるのは現実的ではありません。そこで、ページを画像として丸ごと見る方法が使われています。レイアウトや文字の読みやすさも含め、人が見た印象に近い形で判定できるそうです。大量のコンテンツを一定の基準で見る必要がある場面で、参考になる事例です。 マルチモーダルAI（画像と文章を同時に扱うAI）と、従来型の機械学習を組み合わせる設計が広がるかもしれません。大きなモデルの出力をそのまま使うのではなく、CatBoostのような軽量な分類器で最終判断を下す形です。さらにSHAPで根拠を示せば、判定結果が出品者への具体的な助言に変わります。EC以外でも、ブラックボックスなAI判定を現場で使える形にする流れが進むと見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+品質評価や審査の自動化を検討しているエンジニアは、次の3点を試してみてください。1つ目は、対象を画像として丸ごと扱う方法です。2つ目は、視覚言語モデルの出力とOCRなどの単純な指標を、勾配ブースティング（決定木を重ねる手法）の分類器で組み合わせる設計です。3つ目は、SHAPのような説明手法で判定理由を出し、利用者が次の一手を取れるようにすることです。判定の精度だけでなく、結果を改善行動につなげる設計まで考えておくと、現場で使われやすくなります。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon Bedrock AgentCoreのWeb Answerを始めよう</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Web</code></p>
+<details><summary>📄 原題: Getting started with Web Answer on Amazon Bedrock AgentCore</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 1回の呼び出しで出典付きの回答を取得</p>
+</blockquote>
+<ul>
+<li>Web Answerは自然言語の質問に、出典付きの回答を返す機能</li>
+<li>検索から回答生成までを1回のツール呼び出しで完結</li>
+<li>検索・取得・要約・引用の処理基盤を自前で作る必要なし</li>
+<li>AgentCore Gatewayに追加し、エージェントから呼び出せる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントに最新のWeb情報を扱わせるには、検索、ページ取得、要約、出典の整理といった処理を組み合わせる必要がありました。この仕組みは作るのも保守するのも手間がかかります。Web Answer on Amazon Bedrock AgentCoreは、この一連の流れを1回のツール呼び出しにまとめる機能です。エージェント開発の負担を減らす狙いがあると見られています。 Web情報を使うエージェントの基本部品が、マネージドサービス（クラウド事業者が運用を担うサービス）として提供される流れが強まりそうです。開発者は検索パイプラインの構築より、エージェントの設計や業務への組み込みに時間を使えるようになります。出典付きの回答が標準で得られるため、AIの回答を検証しやすくなり、業務で使う際の信頼性の確保にも役立つと見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社のエージェントが検索・取得・要約・引用の処理を自前で持っているか洗い出してください。その部分をWeb Answerに置き換えられるか、小さなプロトタイプで試すのがおすすめです。AgentCore Gatewayへの追加手順は記事で紹介されているので、あわせて確認してください。回答の品質、出典の正確さ、応答時間、コストは、導入前に自社の用途で確かめる必要があります。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/">原文を読む</a></p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/">原文を読む</a></p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/">原文を読む</a></p>
+<hr />
+<h2>☁️ Workbench v2に依存パッケージ更新と修正が入った</h2>
+<p><code>Cloud</code> <code>DevOps</code></p>
+<details><summary>📄 原題: October 11, 2026</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Workbench v2に依存パッケージ更新と修正が入った</p>
+</blockquote>
+<ul>
+<li>Agent Platform Workbench v2に新リリースが2件</li>
+<li>上流の依存パッケージを最新版に更新</li>
+<li>gcloudとgsutilが起動しない不具合を修正</li>
+<li>原因はpyOpenSSLとcryptographyのバージョン不整合</li>
+<li>OpenSSL.cryptoでAttributeErrorが出る状態だった</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Agent Platform Workbench v2のリリースノートに、2026年10月11日付の更新が載りました。変更の中心は、上流の依存パッケージを最新版にそろえる作業です。あわせて、gcloudとgsutilが読み込みに失敗する問題が直されました。原因は、pyOpenSSLとcryptographyのバージョンがかみ合わなかったことだそうです。この2つはPythonで暗号処理を扱うライブラリで、片方だけ更新すると互換性が崩れることがあります。パッケージを自動で最新化する環境では、起こりやすいトラブルです。 ノートブック型の開発環境は、多くのパッケージを束ねて提供されます。そのため、依存関係のずれが基本ツールの停止につながるリスクは、今後も続くと見られています。依存関係の管理や検証を丁寧に行う運用が、プラットフォーム側にもユーザー側にも求められます。今回のようにリリースノートで修正が明示されることは、問題の切り分けに役立ちます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Workbench v2を使っているエンジニアは、gcloudやgsutilが起動時にAttributeErrorで止まっていないか確認してください。該当する場合は、最新のリリースに更新して解消するか試すのが近道です。チームのリーダーは、自動更新される環境でも、重要なCLIツールの動作確認を定期的に行う体制を整えておくと安心です。独自にpyOpenSSLやcryptographyを固定している場合は、バージョンの組み合わせも見直してください。</p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_06_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースに共通しているのは、AIが「何かを生成・提案する補助役」から、「システムの内部に入り込んで実際に作用する主体」へと役割を広げつつあるという点です。GPT-6 Cyberは脆弱性の発見だけでなく侵入と修正案の提示まで担い、中小銀行はAIエージェントに口座アクセスという最も機微な権限を委ね始めており、いずれも自律性が高まるほど「どこまで任せ、どう縛るか」という統制の問いが先鋭化しています。その観点で、スペクトルグラフ生成の研究が示す「生成の自由度を保ちながら固有系の制約を厳密に守る」という発想は、一見すると畑違いに見えても、強力な生成能力に明示的な制約を組み込むという同じ方向性を技術の根幹レベルで体現していると言えるでしょう。つまり業界は、AIの能力を引き出す競争のフェーズから、その能力を安全かつ検証可能な枠内で運用するための仕組みづくりを競うフェーズへと移りつつあり、セキュリティ、金融、基礎研究という異なる階層で同時に「信頼できる自律性」の確立が課題になっていることがうかがえます。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に</strong>: まず、自社で使うOSSやライブラリの更新体制を見直し、修正パッチを素早く適用できる流れを整えてください。次に、コードレビューやテストの工程で、AIによる脆弱性検査を試験的に取り入れることを検討してください。リーダーは、脆弱性の報告から修正までの目標時間を決め直すとよいでしょう。また、攻撃にも使える技術なので、利用規約や提供条件を確認し、社内の使い方のルールも先に決めておくと安心です。</li>
+<li><strong>中小銀行が進めるAIエージェントへの口座アクセス提供の最前線</strong>: エージェントに決済や送金をさせる製品を作るなら、全権を渡す設計は避けるべきです。金額の上限、用途の限定、即時停止の仕組みを最初から組み込んでください。人間の資金と分けた専用口座や、使い捨ての仮想カードも有効です。利用者の許可と、エージェントの操作ログを監査できる状態も欠かせません。事業責任者は、誤決済が起きたときの責任分担を、規約や契約で先に整理しておくことをお勧めします。</li>
+<li><strong>制約保存型フローマッチングによるスペクトルグラフ生成</strong>: グラフ生成モデルを扱うエンジニアは、まず自分のモデルが出力する固有系がラプラシアンの性質を満たしているか確認しましょう。正規直交性だけでなく、零空間などの制約も検証項目に加えるのが有効です。論文はarXivで公開されているため、手法の詳細や実験結果を読み、自社の課題に使えるか評価してください。リーダーは、生成結果の妥当性を測る評価指標を整える準備を進めると良いでしょう。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/">OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に</a></li>
+<li><a href="https://openai.com/index/introducing-gpt-6-cyber">OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に</a></li>
+<li><a href="https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts">中小銀行が進めるAIエージェントへの口座アクセス提供の最前線</a></li>
+<li><a href="https://arxiv.org/abs/2611.05436">制約保存型フローマッチングによるスペクトルグラフ生成</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/">Amazon MarketplaceがAmazon SageMaker AIでコンテンツ品質を評価する方法</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/">Amazon Bedrock AgentCoreのWeb Answerを始めよう</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/">Amazon Bedrock AgentCoreのWeb Answerを始めよう</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/">Amazon Bedrock AgentCoreのWeb Answerを始めよう</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026">Workbench v2に依存パッケージ更新と修正が入った</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_06_2026">Workbench v2に依存パッケージ更新と修正が入った</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026">Workbench v2に依存パッケージ更新と修正が入った</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #219 (2026-11-06)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #219</li>
+<li><strong>日付</strong>: 2026-11-06</li>
+<li><strong>尺</strong>: 約 11 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/">OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them</a></li>
+<li><a href="https://openai.com/index/introducing-gpt-6-cyber">OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them</a></li>
+<li><a href="https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts">How Smaller Banks Are Giving Agents Access to Accounts</a></li>
+<li><a href="https://arxiv.org/abs/2611.05436">Constraint-Preserving Flow Matching for Spectral Graph Generation</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/">How Amazon Marketplace evaluates content quality with Amazon SageMaker AI</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/">Getting started with Web Answer on Amazon Bedrock AgentCore</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search/">Getting started with Web Answer on Amazon Bedrock AgentCore</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/">Getting started with Web Answer on Amazon Bedrock AgentCore</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026">October 11, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_06_2026">October 11, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026">October 11, 2026</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=OpenAI%E3%81%AE%E3%80%8CGPT-6%20Cyber%E3%80%8D%E3%80%81%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%BE%B5%E5%85%A5%E3%81%A8%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%AE%E6%8F%90%E7%A4%BA%E3%81%AE%E4%B8%A1%E6%96%B9%E3%81%8C%E5%8F%AF%E8%83%BD%E3%81%AB%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-11-06/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-11-06/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

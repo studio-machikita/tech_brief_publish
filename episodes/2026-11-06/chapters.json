@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.56,
+    "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+    "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/"
+  },
+  {
+    "start_sec": 146.25,
+    "title": "How Smaller Banks Are Giving Agents Access to Accounts",
+    "url": "https://www.theinformation.com/articles/smaller-banks-giving-agents-access-accounts"
+  },
+  {
+    "start_sec": 234.74,
+    "title": "Constraint-Preserving Flow Matching for Spectral Graph Generation",
+    "url": "https://arxiv.org/abs/2611.05436"
+  },
+  {
+    "start_sec": 321.24,
+    "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/"
+  },
+  {
+    "start_sec": 454.32,
+    "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 567.11,
+    "title": "October 11, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_11_2026"
+  },
+  {
+    "start_sec": 666.47,
+    "title": "エンディング",
+    "url": null
+  }
+]
