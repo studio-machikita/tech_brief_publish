@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-07",
+  "episode_date_local": "2026-11-07",
+  "content_snapshot_date": "2026-11-07",
+  "show_length_sec": 683,
+  "audio_size": 10944428,
+  "generated_at": "2026-11-06T22:22:07.060466+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-61b83fd0",
+      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "title_ja": "SageMaker推論がマルチインスタンスGPUに対応、モデルエンドポイントのGPU使用率を最大化",
+      "one_liner": "SageMakerがGPU分割のMIGに対応しました",
+      "fingerprint": "61b83fd02a90ee2f4c8151a5b37096bd",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6c4866ff",
+      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "title_ja": "AI時代における逆問題の定式化:可能性、落とし穴、そして招待",
+      "one_liner": "AIが逆問題の理論をLeanで形式化した",
+      "fingerprint": "6c4866ff91ff705bbe2f0021bdd01c87",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-67db7a50",
+      "title": "Perplexity now has its own always-on AI agent",
+      "title_ja": "Perplexity、常時稼働型の独自AIエージェントを発表",
+      "one_liner": "Perplexityが常時稼働AI「Teammates」を発表",
+      "fingerprint": "67db7a50c0f33cfefb5a933eea9e0a0b",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-c53e1121",
+      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+      "title_ja": "「Ripple-65B Preview」、Apache 2.0ライセンスの米国製オープンモデルとして高いエージェント型コーディング性能を実現",
+      "one_liner": "米国発の650億パラメータOSSモデルが登場",
+      "fingerprint": "c53e11215ea8f3b892546b910d3c1bdd",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-cd2a0f7f",
+      "title": "AI is dramatically accelerating AI research right now",
+      "title_ja": "AIが今、AI研究を劇的に加速させている",
+      "one_liner": "AIがAI研究自体を急速に加速している",
+      "fingerprint": "cd2a0f7f0ed42cfa40a17e79ef0ca595",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-6263cdb4",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "title_ja": "AIエージェントは日常的なウェットラボ実験をどこまでこなせるのか:その能力を測定",
+      "one_liner": "OpenAIが実験室作業向けAI評価基準を公開",
+      "fingerprint": "6263cdb4b9f02b04adb49edc1a6a4b6d",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-7b6c2b76",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SteelAgent: LLM-Orchestrated, Physics-Informed Steel Property Prediction with Audited Generalization and Calibrated Uncertainty"
+    },
+    {
+      "item_id": "item-fbea9a3f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LLM Judges for Identity Resolution at 4x Lower Cost | Hightouch"
+    },
+    {
+      "item_id": "item-63d52570",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Taxonomy of agentic primitives in Amazon Quick"
+    },
+    {
+      "item_id": "item-b7efc10f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API flags telemetry and version gaps"
+    },
+    {
+      "item_id": "item-4333c7d3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Interactive Backdoor Attacks in LLM-Based Proactive Dialogue Systems"
+    },
+    {
+      "item_id": "item-15de859a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
+    },
+    {
+      "item_id": "item-7cc42532",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Usage metrics API adds code review details and addressed rate"
+    },
+    {
+      "item_id": "item-a80db8fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?"
+    },
+    {
+      "item_id": "item-34454742",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web"
+    },
+    {
+      "item_id": "item-a83519dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 19, 2026"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-b684e191",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Big Take: The New AI Trade Is FOGO"
+    },
+    {
+      "item_id": "item-dfec2ca5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Duo apps are coming, says Apple"
+    },
+    {
+      "item_id": "item-c19549ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Still Feel Like a Fraud. Here's What Actually Helps."
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-61b7e45a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Stephen Miller Schemed His Way to the Top"
+    },
+    {
+      "item_id": "item-59756f7f",
+      "reason": "[Duplicate] 「AI is dramatically accelerating AI research right now」と同じ出来事のため除外",
+      "title": "Anthropic’s R&D Speed May Have Doubled Due to AI, Researchers Find"
+    }
+  ],
+  "score_cache": {
+    "cd2a0f7f0ed42cfa40a17e79ef0ca595": {
+      "score": 60,
+      "title": "AI is dramatically accelerating AI research right now",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AI自身がAI研究を加速させるというテーマは、研究開発サイクルの短縮やモデル設計・データ生成・評価の自動化につながる可能性があり、技術的な重要度は高いです。一方で、記事タイトルだけでは具体的な手法、実証結果、対象モデル、実用化時期が不明で、業界の前提を変える発表とまでは判断できません。また、既に取り上げ済みの「ai」と同じ中心テーマに該当するため、重"
+    },
+    "15de859a9c306abfc6c2a5fd0946f31d": {
+      "score": 39,
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] OpenAIが外部企業と連携し、第三者サービスとの接続を含む脆弱性検証を強化する点は、AIシステムの実運用上重要です。一方で、主題は新機能やアーキテクチャ革新ではなく、脆弱性診断・防御強化というセキュリティ運用寄りの内容です。また、既出キーワードであるAIおよびOpenAIに直接関係するため、同一テーマの重複分として減点しました。 [Editoria"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 22,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] 「Usage Policy update」というタイトルだけでは対象サービスや変更内容、技術的影響が不明で、具体的な新機能やアーキテクチャ上の進展を評価できません。主題が利用規約・運用ポリシーの改定であれば、エンジニアにとっては実装変更よりもコンプライアンス対応の性質が強く、評価基準上は低めです。さらにタイトルに既出キーワードの「2026」が含まれる"
+    },
+    "61b83fd02a90ee2f4c8151a5b37096bd": {
+      "score": 83,
+      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] SageMaker推論エンドポイントでNVIDIA MIGを活用し、1枚のGPUをハードウェア分離された複数パーティションに分割して異なるモデルを同時稼働できる点は、GPU資源の利用効率と推論コストを大きく改善し得ます。モデルごとに必要なGPUサイズを割り当てられるため、AI基盤の運用設計やスケーリングに実務的な影響があります。一方で、MIG自体は既"
+    },
+    "7cc425328c8bf2c317e67fff13e2cdb7": {
+      "score": 39,
+      "title": "Usage metrics API adds code review details and addressed rate",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況をリポジトリ単位で可視化し、コードレビューのフィードバック件数や実際に対応された割合を取得できるようにするAPI拡張です。企業の導入効果測定、レビュー品質の分析、運用改善には有用ですが、既存機能のメトリクス拡充であり、アーキテクチャや開発基盤を大きく変える技術革新ではありません。Copilot関連は直近の既出キー"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 29,
+      "title": "September 28, 2026",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのカスタムコンテナイメージに含まれるCriticalおよびHigh重大度のCVEを一括修正するセキュリティパッチであり、利用者の安全性や運用継続性には重要です。一方で、新機能やアーキテクチャの進化ではなく、依存パッケージ更新と既知脆弱性の是正が中心の保守リリースです。さらに、既出キーワードである「age"
+    },
+    "dfec2ca5909e3e36b1d24eb6a24b3b2c": {
+      "score": 27,
+      "title": "The Duo apps are coming, says Apple",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AppleのDuo向け最適化アプリが10万本に達した点は、開発者エコシステムの規模としては注目できます。一方で、記事は対応アプリ数の報告が中心で、API、OSアーキテクチャ、開発ツール、技術仕様などの具体的な革新性が示されていません。一般消費者向け製品・アプリ展開に近い話題であり、エンジニアリング上の波及範囲も限定的なため、低めに評価します。"
+    },
+    "c53e11215ea8f3b892546b910d3c1bdd": {
+      "score": 61,
+      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] Apache 2.0で公開される65B規模のオープンウェイトモデルが、エージェント型コーディングベンチマークで米国系オープンモデル最高スコアを主張しており、開発者が検証・導入しやすい点は重要です。R&Dコストが3,200万ドルという具体的な実績も、比較的効率的なモデル開発の可能性を示します。一方で、他のベンチマークでは競合モデルに劣後しており、まだプ"
+    },
+    "a80db8fe70c3ba1d31c13d07210bb236": {
+      "score": 38,
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AIによるゲームのクローンや移植圧力という観点は興味深いものの、現時点では元Rockstar技術責任者の見解に基づく推測で、具体的な技術発表や実装、業界構造を変える動きは示されていません。主題もGTA VIというエンターテインメント寄りの個別タイトルで、一般消費者向けゲームニュースとしての性格が強いため、技術ニュースとしての影響範囲は限定的です。既出"
+    },
+    "61b7e45a62fe00b629dce019c144e09e": {
+      "score": 6,
+      "title": "How Stephen Miller Schemed His Way to the Top",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] 米国政治家の経歴や政権人事に関する政治ニュースであり、AI・クラウド・プログラミング言語・先端スタートアップなどの技術的要素がありません。ソフトウェアエンジニアリングへの直接的な影響も限定的なため、一般消費者向けガジェットに近い最低評価帯として低く採点します。"
+    },
+    "b684e191e3fbbcf6292ae6539278171a": {
+      "score": 28,
+      "title": "Big Take: The New AI Trade Is FOGO",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AI市場全体の過熱感や投資持続性を問うマクロ経済ニュースであり、技術的な新機能、アーキテクチャ、製品発表などの具体性はありません。市場の資金調達や企業のAI投資、GPU・クラウド需要に影響する可能性はあるものの、エンジニアリング上の直接的なインパクトは限定的です。さらに、既出キーワードのAIに関する市場動向と同じ角度の話題とみなし、減点しました。 ["
+    },
+    "59756f7fba34329dc179dda2bb4276d2": {
+      "score": 60,
+      "title": "Anthropic’s R&D Speed May Have Doubled Due to AI, Researchers Find",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AIがAI研究開発そのものを加速し、Anthropicのモデル改善速度が過去期間の約2倍になったという分析は、ソフトウェア開発や研究プロセスの生産性に関わる重要な内容です。特に、AI企業が自社の研究にAIを組み込むことで改善サイクルを短縮する可能性を示しており、今後のモデル競争や開発体制に影響します。一方で、現時点では外部研究機関による推定であり、具"
+    },
+    "6c4866ff91ff705bbe2f0021bdd01c87": {
+      "score": 77,
+      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AIエージェントがLean上で逆問題や線形正則化理論を自動形式化し、機械検証可能な数学ライブラリを構築する内容で、AIと形式手法の融合という技術的新規性が高いです。数学的証明の信頼性向上や、科学計算・定理証明の自動化に発展する可能性があります。一方で、現時点では特定分野の研究成果であり、直ちに業界全体の前提を変える実用化・製品化の発表ではないため、最"
+    },
+    "7b6c2b76ec1d9a9604f73ae8b52c1294": {
+      "score": 52,
+      "title": "SteelAgent: LLM-Orchestrated, Physics-Informed Steel Property Prediction with Audited Generalization and Calibrated Unce",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] LLMをインターフェースとして、冶金学的記述子・機械学習・不確実性推定・逆設計を統合し、鋼材特性予測における未知合金への外挿性能を監査している点は、AIと材料科学の融合として技術的に興味深いです。特にランダム分割では見えにくい一般化性能や、評価単位の違いによる結論の変化を検証している点は、機械学習システムの実運用上重要です。一方で、arXivの研究段"
+    },
+    "4333c7d3953b7e53b2e00485634b5c7e": {
+      "score": 43,
+      "title": "Interactive Backdoor Attacks in LLM-Based Proactive Dialogue Systems",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] LLMベースの対話システムに対し、学習データ汚染によってトリガー後の複数ターンの会話を攻撃者の意図どおりに誘導する「インタラクティブ・バックドア」を扱う研究で、従来の単発応答型バックドアよりも実運用上の検知が難しく、エージェント型システムや長期対話サービスへの影響が大きい点は重要です。一方で、現時点ではarXivの新規研究であり、実環境での有効性や防"
+    },
+    "c19549ab248c236173296cd6cc1cbeec": {
+      "score": 27,
+      "title": "I Still Feel Like a Fraud. Here's What Actually Helps.",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] 開発者のインポスター症候群への対処法を扱った個人的なエッセイで、過去の成果を具体的な証拠として振り返ることや、未知の技術・課題に継続的に挑戦する姿勢は開発者の成長に一定の示唆があります。一方で、新しい技術、アーキテクチャ、ツール、業界動向に関する情報はなく、エンジニアリングへの直接的な影響範囲や技術的具体性は限定的です。"
+    },
+    "fbea9a3f88b2e244e956ce649058b397": {
+      "score": 48,
+      "title": "LLM Judges for Identity Resolution at 4x Lower Cost | Hightouch",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] LLMを活用したアイデンティティ解決の評価処理を、従来比4分の1のコストで実現する点は、データ基盤や顧客データ統合の実務に有用です。特にLLMを単なる生成用途ではなく、曖昧なレコード照合の判定器として利用する具体的な応用例である点は評価できます。一方で、対象は比較的限定されたデータエンジニアリングのユースケースであり、基盤モデルやアーキテクチャ自体の"
+    },
+    "6263cdb4b9f02b04adb49edc1a6a4b6d": {
+      "score": 60,
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] AIエージェントが実験データの解釈やウェットラボ作業に対応できるかを100タスクで測定するベンチマークは、AIの実運用能力を定量評価する具体性があり、研究自動化や科学向けエージェントの開発に有用です。一方で、既出のAI・OpenAI・エージェント関連テーマと重なるため、話題の新規性による加点を抑えました。業界の前提を変える製品発表ではなく、評価基盤の"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-03",
+      "reason": "[ScoreCache 2026-11-03] [ScoreCache 2026-11-03] [ScoreCache 2026-11-03] [ScoreCache 2026-11-03] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、修正情報などの具体性がなく、技術的な新規性や重要度を評価できません。セキュリティ関連ニュ"
+    },
+    "63d525704de2c00aba869a9326f59a71": {
+      "score": 48,
+      "title": "Taxonomy of agentic primitives in Amazon Quick",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] エージェントをトリガー、実行主体、能力、学習済みコンテキストに分解する設計知見は、AIシステムのアーキテクチャや再利用可能なプリミティブを考えるうえで有用です。ただし、具体的な新製品機能や業界を変える技術発表ではなく、Amazon Quickで得られた整理・設計パターンの共有に留まります。また、既に取り上げ済みのAmazon、AI、agentsなどと"
+    },
+    "b7efc10f94be31e07644dd332f85ed47": {
+      "score": 46,
+      "title": "Usage metrics API flags telemetry and version gaps",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況APIに、ユーザー単位でテレメトリ欠落やIDE・拡張機能の最低バージョン未満を確認できる項目が追加される点は、導入状況の可視化やトラブルシューティング、バージョン管理に有用です。ただし、既存機能の運用改善に近く、アーキテクチャや開発基盤を大きく変える技術革新ではありません。また、直近の既出キーワードである「cop"
+    },
+    "a83519dcb8e30a42884e0dbd090f884d": {
+      "score": 35,
+      "title": "October 19, 2026",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新ですが、内容は依存パッケージの更新と、Jupyter Serverのターミナル設定がDataprocプラグイン設定を上書きする不具合の修正に限られます。開発環境の安定性やコンテナ起動時の設定適用には有用なものの、アーキテクチャや技術業界全体を変える新機能ではなく、影響範囲も限定的です。また、"
+    },
+    "344547428e6881f189361dad601d49e3": {
+      "score": 37,
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] Artexのペネトレーションテスト用ツールを稼働させたサーバーが多数インターネットに露出し、第三者がハッキングツールへアクセスできる状態だった点は、実運用上のセキュリティリスクとして重要です。一方で、既存技術の設定不備・公開範囲の問題が中心で、AIやアーキテクチャの前提を変える技術革新ではありません。影響範囲や実際の悪用被害も記事スニペットからは限定"
+    },
+    "67db7a50c0f33cfefb5a933eea9e0a0b": {
+      "score": 66,
+      "title": "Perplexity now has its own always-on AI agent",
+      "date": "2026-11-07",
+      "reason": "[Claude API Evaluation] Perplexityが仮想マシン上で継続的にタスクを実行する「常時稼働型エージェント」を投入する点は、AIエージェントの自律性や実行基盤という観点で技術的な注目度が高い。特に月額200ドルのMaxプラン限定という価格設定や、OpenAI・Anthropicとの競争は、エージェント市場の商用化・差別化を考えるうえで重要である。一方で、AIおよびエージェ"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-07/blog.md",
+    "show_notes_path": "out/2026-11-07/show_notes.md",
+    "script_path": "out/2026-11-07/script_2hosts.md",
+    "audio_path": "out/2026-11-07/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-07/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-07/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 25028,
+        "output_tokens": 10864,
+        "cost_usd": 0.018042
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45895,
+        "output_tokens": 9924,
+        "cost_usd": 0.19103
+      }
+    ],
+    "tts": {
+      "chars": 4358,
+      "audio_sec": 669.2,
+      "cost_usd": 0.129031
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.338104
+  }
+}

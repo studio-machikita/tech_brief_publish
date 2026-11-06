@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#220 SageMaker推論がマルチインスタンスGPUに対応、モデルエンドポイントのGPU使用率を最大化 ほか</title>
+      <description>Tech News Radio Show Notes - #220 (2026-11-07)
+
+エピソード情報
+• エピソード: #220
+• 日付: 2026-11-07
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints (https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/)
+• Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation (https://arxiv.org/abs/2611.06962)
+• Perplexity now has its own always-on AI agent (https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/)
+
+注目の深掘り
+• Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model (https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/)
+
+小ネタ・その他
+• AI is dramatically accelerating AI research right now (https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai)
+• AI is dramatically accelerating AI research right now (https://www.theinformation.com/briefings/anthropics-r-d-speed-may-doubled-due-ai-researchers-find)
+• Measuring how AI agents handle everyday wet-lab science (https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-07/episode_audio.mp3" length="10944428" type="audio/mpeg" />
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-07</guid>
+      <itunes:duration>11:23</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>SageMaker推論がマルチインスタンスGPUに対応、モデルエンドポイントのGPU使用率を最大化 ほか</itunes:title>
+      <itunes:episode>220</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #220 (2026-11-07)
+
+エピソード情報
+• エピソード: #220
+• 日付: 2026-11-07
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints (https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/)
+• Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation (https://arxiv.org/abs/2611.06962)
+• Perplexity now has its own always-on AI agent (https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/)
+
+注目の深掘り
+• Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model (https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/)
+
+小ネタ・その他
+• AI is dramatically accelerating AI research right now (https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai)
+• AI is dramatically accelerating AI research right now (https://www.theinformation.com/briefings/anthropics-r-d-speed-may-doubled-due-ai-researchers-find)
+• Measuring how AI agents handle everyday wet-lab science (https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-07/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.980" title="SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints" href="https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/" />
+        <psc:chapter start="00:02:05.380" title="Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation" href="https://arxiv.org/abs/2611.06962" />
+        <psc:chapter start="00:03:38.120" title="Perplexity now has its own always-on AI agent" href="https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/" />
+        <psc:chapter start="00:04:52.860" title="Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model" href="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/" />
+        <psc:chapter start="00:07:05.860" title="AI is dramatically accelerating AI research right now" href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai" />
+        <psc:chapter start="00:08:58.220" title="Measuring how AI agents handle everyday wet-lab science" href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science" />
+        <psc:chapter start="00:10:53.940" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#219 OpenAIの「GPT-6 Cyber」、システムへの侵入と修正案の提示の両方が可能に ほか</title>
       <description>Tech News Radio Show Notes - #219 (2026-11-06)
 
