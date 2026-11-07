@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#221 Amazon ECS FargateでAIエージェントのデータレイクアクセスを実現するサーバーレスMCPサーバー ほか</title>
+      <description>Tech News Radio Show Notes - #221 (2026-11-08)
+
+エピソード情報
+• エピソード: #221
+• 日付: 2026-11-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Serverless MCP server for AI agent data lake access on Amazon ECS Fargate (https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/)
+• Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2 (https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/)
+• Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2 (https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/)
+• AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds (https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/)
+
+注目の深掘り
+• Cara mencari klip highlight dari transkrip dengan sliding window di Python (https://dev.to/bestaitools-id/cara-mencari-klip-highlight-dari-transkrip-dengan-sliding-window-di-python-5176)
+
+小ネタ・その他
+• Partnering with Hacktron to find vulnerabilities in OpenAI’s systems (https://openai.com/index/partnering-with-hacktron)
+• Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation (https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-08/episode_audio.mp3" length="11759660" type="audio/mpeg" />
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-08</guid>
+      <itunes:duration>12:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Amazon ECS FargateでAIエージェントのデータレイクアクセスを実現するサーバーレスMCPサーバー ほか</itunes:title>
+      <itunes:episode>221</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #221 (2026-11-08)
+
+エピソード情報
+• エピソード: #221
+• 日付: 2026-11-08
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Serverless MCP server for AI agent data lake access on Amazon ECS Fargate (https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/)
+• Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2 (https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/)
+• Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2 (https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/)
+• AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds (https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/)
+
+注目の深掘り
+• Cara mencari klip highlight dari transkrip dengan sliding window di Python (https://dev.to/bestaitools-id/cara-mencari-klip-highlight-dari-transkrip-dengan-sliding-window-di-python-5176)
+
+小ネタ・その他
+• Partnering with Hacktron to find vulnerabilities in OpenAI’s systems (https://openai.com/index/partnering-with-hacktron)
+• Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation (https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-08/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.230" title="Serverless MCP server for AI agent data lake access on Amazon ECS Fargate" href="https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/" />
+        <psc:chapter start="00:02:09.130" title="Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2" href="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/" />
+        <psc:chapter start="00:04:12.690" title="AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds" href="https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/" />
+        <psc:chapter start="00:06:02.430" title="Cara mencari klip highlight dari transkrip dengan sliding window di Python" href="https://dev.to/bestaitools-id/cara-mencari-klip-highlight-dari-transkrip-dengan-sliding-window-di-python-5176" />
+        <psc:chapter start="00:08:11.430" title="Partnering with Hacktron to find vulnerabilities in OpenAI’s systems" href="https://openai.com/index/partnering-with-hacktron" />
+        <psc:chapter start="00:09:38.530" title="Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation" href="https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/" />
+        <psc:chapter start="00:11:44.240" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#220 AI時代における逆問題の定式化:可能性、落とし穴、そして招待 ほか</title>
       <description>Tech News Radio Show Notes - #220 (2026-11-07)
 

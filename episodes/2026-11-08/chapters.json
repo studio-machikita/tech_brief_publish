@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.23,
+    "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+    "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/"
+  },
+  {
+    "start_sec": 129.13,
+    "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+    "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/"
+  },
+  {
+    "start_sec": 252.69,
+    "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+    "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/"
+  },
+  {
+    "start_sec": 362.43,
+    "title": "Cara mencari klip highlight dari transkrip dengan sliding window di Python",
+    "url": "https://dev.to/bestaitools-id/cara-mencari-klip-highlight-dari-transkrip-dengan-sliding-window-di-python-5176"
+  },
+  {
+    "start_sec": 491.43,
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "url": "https://openai.com/index/partnering-with-hacktron"
+  },
+  {
+    "start_sec": 578.53,
+    "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+    "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/"
+  },
+  {
+    "start_sec": 704.24,
+    "title": "エンディング",
+    "url": null
+  }
+]
