@@ -5,37 +5,37 @@
     "url": null
   },
   {
-    "start_sec": 21.98,
-    "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
-    "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/"
-  },
-  {
-    "start_sec": 125.38,
+    "start_sec": 21.75,
     "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
     "url": "https://arxiv.org/abs/2611.06962"
   },
   {
-    "start_sec": 218.12,
-    "title": "Perplexity now has its own always-on AI agent",
-    "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/"
+    "start_sec": 159.65,
+    "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
+    "url": "https://ievchina.com/energy-storage/catl-sodium-battery-cost-parity-lfp-2026-15000-cycles/"
   },
   {
-    "start_sec": 292.86,
+    "start_sec": 273.52,
     "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
     "url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/"
   },
   {
-    "start_sec": 425.86,
-    "title": "AI is dramatically accelerating AI research right now",
-    "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
-  },
-  {
-    "start_sec": 538.22,
+    "start_sec": 414.17,
     "title": "Measuring how AI agents handle everyday wet-lab science",
     "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
   },
   {
-    "start_sec": 653.94,
+    "start_sec": 541.27,
+    "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+    "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/"
+  },
+  {
+    "start_sec": 636.65,
+    "title": "Taxonomy of agentic primitives in Amazon Quick",
+    "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/"
+  },
+  {
+    "start_sec": 729.85,
     "title": "エンディング",
     "url": null
   }
