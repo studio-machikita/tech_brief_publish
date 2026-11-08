@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-09",
+  "episode_date_local": "2026-11-09",
+  "content_snapshot_date": "2026-11-09",
+  "show_length_sec": 633,
+  "audio_size": 10140332,
+  "generated_at": "2026-11-08T23:41:23.236383+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8d9d6e5e",
+      "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+      "title_ja": "Greenlight Financial、Amazon Bedrock AgentCoreで自律型SOCソリューションを構築した方法",
+      "one_liner": "AIが月4千件のセキュリティ案件を自動処理",
+      "fingerprint": "8d9d6e5e7704b15c764611cd08421a25",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-14c78760",
+      "title": "Copilot code review: API management and review overview updates",
+      "title_ja": "Copilotコードレビュー:API管理とレビュー概要の更新",
+      "one_liner": "Copilotコードレビューの設定をAPIで管理可能に",
+      "fingerprint": "14c78760da0b5b135cac1d11c8b31878",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-01603e1b",
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "title_ja": "アンドレイ・カルパシー氏、Claudeと20年分のHacker Newsを使い、週末でキュレーション型動画プラットフォームを構築",
+      "one_liner": "Karpathy氏が週末でAI動画選別サイトを構築",
+      "fingerprint": "01603e1ba5cebbf2881046591fbdfc47",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-7d36248c",
+      "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1",
+      "title_ja": "Okta Cross App AccessとAmazon Bedrock AgentCoreでAIエージェントのアクセスを管理する – 第1回",
+      "one_liner": "AIエージェントの権限を、ユーザー単位で管理する",
+      "fingerprint": "7d36248c7cbdaf027309d078eab219e5",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-c4f6fef7",
+      "title": "Australian universities are creating AI-native graduates",
+      "title_ja": "豪州の大学、AIネイティブ世代の卒業生を育成",
+      "one_liner": "豪の大学がChatGPTを学生に広く開放",
+      "fingerprint": "c4f6fef77702526149685c7a6b82e2b9",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-c2f1ed9e",
+      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+      "title_ja": "「脳はコンピューター」という比喩は現代AIを形作ったが、意識をめぐる議論を誤った方向に導いている可能性がある",
+      "one_liner": "意識は計算だけでは生まれないと研究者が主張",
+      "fingerprint": "c2f1ed9ee12ab2c0c5af77478362449d",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-6d21453e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 09, 2026"
+    },
+    {
+      "item_id": "item-7a9c66f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage"
+    },
+    {
+      "item_id": "item-a80db8fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?"
+    },
+    {
+      "item_id": "item-414e7afc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cult.fit builds operational muscle with Codex"
+    },
+    {
+      "item_id": "item-86a697cb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Digital Realty, Goodman Buy 9.9% of NEXTDC in Stock Market Raid"
+    },
+    {
+      "item_id": "item-63fe5ea5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering"
+    },
+    {
+      "item_id": "item-7285cf7b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business"
+    },
+    {
+      "item_id": "item-ce23c4c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Axolote Suite: An Open-Source Productivity Toolkit for Windows Built with Rust"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-6e785b58",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good"
+    },
+    {
+      "item_id": "item-fb484861",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be"
+    },
+    {
+      "item_id": "item-ee72890b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Lyft Growth Slows to 8% in Q3"
+    },
+    {
+      "item_id": "item-4e0ac984",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apps to distract you from the endless cycle of doomscrolling"
+    },
+    {
+      "item_id": "item-7c459e4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs"
+    },
+    {
+      "item_id": "item-327c6daa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "KetchUp — Free 3D Woodworking &amp; Furniture Design App"
+    },
+    {
+      "item_id": "item-f0542eda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "CHIMERA"
+    }
+  ],
+  "score_cache": {
+    "f0542eda41af8850ded8e48750cfdc4e": {
+      "score": 6,
+      "title": "CHIMERA",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] タイトルが「CHIMERA」のみで、技術内容・発表主体・影響範囲・新規性を判断できる情報がありません。AI、クラウド、アーキテクチャなどの重要テーマとの関連も確認できないため、現時点では評価を大きく付けられません。"
+    },
+    "414e7afc058aad97cad2e1e83782bff2": {
+      "score": 44,
+      "title": "Cult.fit builds operational muscle with Codex",
+      "date": "2026-11-08",
+      "reason": "[ScoreCache 2026-11-08] [Claude API Evaluation] Codexを活用して部門横断で社内ツールを開発し、業務プロセスを高速化する事例であり、AI支援開発の実運用という点ではエンジニアにとって有益です。ただし、基盤技術の新規発表や業界全体を変える革新ではなく、特定企業の導入事例にとどまります。また、既出キーワードであるAI・codingと同じ角度の話題に該当"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 30,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] 利用ポリシーの更新は開発者やサービス運用に影響する可能性がありますが、法律・規制や運用ルールに近い内容で、技術革新そのものではありません。スニペットがなく変更点や対象サービス、影響範囲も不明なため、現時点での重要度は低めです。タイトルに既出キーワードの「2026」が含まれるものの、明確な続報や新規技術の展開とは判断できないため、評価を抑えています。 "
+    },
+    "7d36248c7cbdaf027309d078eab219e5": {
+      "score": 54,
+      "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] AIエージェントがユーザー権限に基づいて複数アプリへアクセスするための認証・認可設計を、Okta Cross App AccessとAmazon Bedrock AgentCoreで具体化している点は、エンタープライズ向けAI基盤として技術的な価値があります。特に、従来のアプリ単位OAuthやサービスアカウントでは不十分だった「どのエージェントが、ど"
+    },
+    "63fe5ea5a56cc03a0695759c4d37b2b3": {
+      "score": 41,
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotをコード生成に限定せず、計画、実装、レビュー、プロダクション障害の調査まで含む開発ワークフローへ拡張する実践的な内容で、エンジニアの生産性や開発プロセスに与える影響は大きい。一方で、根本的な技術革新や新製品の発表ではなく、既存のAI・エージェント活用に関するガイド記事であるため、業界の前提を変えるほどではない。また、既報キ"
+    },
+    "14c78760da0b5b135cac1d11c8b31878": {
+      "score": 58,
+      "title": "Copilot code review: API management and review overview updates",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビュー設定をREST/GraphQL APIから企業・組織ポリシーやリポジトリ単位で管理できるようになるため、開発者ポータルやCI/CD、ガバナンス基盤との統合性が向上します。大規模開発組織にとって運用自動化と導入管理の実益は大きく、開発アーキテクチャ寄りのアップデートとして評価できます。一方、既存機能のAPI公"
+    },
+    "6d21453eea173885d10a7144452442c8": {
+      "score": 48,
+      "title": "September 09, 2026",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] ノートブックのスケジュール実行に対して、実行ユーザーの選択、Shielded VM、カスタムVMイメージやコンテナ指定を追加する実務的なクラウド基盤アップデートです。認証権限の最小化、再現性、セキュリティ要件への対応という点でエンジニアへの有用性はありますが、既存機能の設定拡張であり、業界の前提を変える新技術ではありません。また、既に取り上げ済みの「"
+    },
+    "4e0ac9847c3cfd009f25e24bfcc89169": {
+      "score": 10,
+      "title": "Apps to distract you from the endless cycle of doomscrolling",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] doomscrolling対策として役立つアプリを紹介する一般消費者向けの記事であり、AIやクラウド、主要技術の進化、技術革新に関する内容ではありません。エンジニアリング上の新規性や業界への影響も限定的で、スマートフォンアプリに近い一般向けテーマのため、最低評価帯としました。"
+    },
+    "01603e1ba5cebbf2881046591fbdfc47": {
+      "score": 58,
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] Claudeを活用して、20年分・4,300万件のHacker Newsコメントを処理し、6,454本の動画を短期間でキュレーションする実用的なプロダクトを構築した点は、LLMによる大規模データ整理と個人開発の可能性を示す興味深い事例です。一方で、基盤モデル自体の新発明や業界全体を変える発表ではなく、既出のAI・モデル・OpenAI関連トピックと近い"
+    },
+    "a80db8fe70c3ba1d31c13d07210bb236": {
+      "score": 46,
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] AIによるゲーム体験の再現や、非公式クローンが大作ゲームの開発・移植戦略に与える影響という点では興味深いものの、現時点では元Rockstar技術責任者の見解に基づく推測であり、具体的な技術発表や公式ポート計画ではありません。ゲーム業界への示唆はある一方、既出のAI関連トピックと重なるため減点し、影響範囲と確度を考慮して中低水準と評価します。 [Edi"
+    },
+    "7c459e4b23457d3bbfcabc74e7b7f4e9": {
+      "score": 10,
+      "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] 30種類を比較したPCスピーカーの購入ガイドであり、一般消費者向けハードウェア製品の紹介にとどまります。ソフトウェア技術、AI、クラウド、アーキテクチャなどへの直接的な影響や業界の前提を変える新規性はなく、評価基準上の最低評価帯に該当します。"
+    },
+    "86a697cbd2664450a54891ebef9bef8c": {
+      "score": 43,
+      "title": "Digital Realty, Goodman Buy 9.9% of NEXTDC in Stock Market Raid",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] Digital RealtyとGoodmanがNEXTDCの9.9%を共同取得する動きは、オーストラリアのデータセンター市場における大手インフラ事業者間の連携・再編を示す重要なニュースです。クラウドやAI基盤を支えるデータセンターの資本力、立地、電力・接続性に影響する可能性があります。一方で、現時点では具体的な技術革新や新アーキテクチャの発表ではなく"
+    },
+    "ee72890b5e816513e39b5662fe24702b": {
+      "score": 13,
+      "title": "Lyft Growth Slows to 8% in Q3",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] Lyftの売上成長率と総取扱高の鈍化に関する業績ニュースであり、AI・クラウド・プログラミング言語などの技術革新やアーキテクチャ上の新規性はありません。エンジニアへの直接的な影響も限定的で、一般消費者向けサービス企業の決算動向にとどまるため、最低評価帯としました。"
+    },
+    "ce23c4c880d67ded7e12c4aa93c52f9a": {
+      "score": 38,
+      "title": "Axolote Suite: An Open-Source Productivity Toolkit for Windows Built with Rust",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] RustとIcedで構築されたWindows向けオープンソース生産性ツールキットであり、Rust製GUIアプリの実用例としては興味深い。一方で、現時点では開発者やユーザーに試用とフィードバックを求める段階で、技術的なブレークスルー、広範な採用実績、業界への大きな影響は確認できないため、中程度の評価とした。"
+    },
+    "327c6daa8ad1d58b60a9e563873c29e6": {
+      "score": 10,
+      "title": "KetchUp — Free 3D Woodworking &amp; Furniture Design App",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] 無料の3D木工・家具設計アプリに関する一般消費者向けプロダクトであり、AIやLLM、クラウド基盤、主要言語、アーキテクチャなどの技術革新を示す情報は確認できません。エンジニアリング業界への影響範囲も限定的なため、最低評価帯としました。"
+    },
+    "c4f6fef77702526149685c7a6b82e2b9": {
+      "score": 49,
+      "title": "Australian universities are creating AI-native graduates",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] 大学教育へのAI組み込みと、AIを前提とした人材育成は、将来の開発者・業務利用者のスキル標準に影響し得るため一定の重要性があります。一方で、基盤モデルや開発ツール自体の技術革新ではなく、既存AIサービスの教育現場への展開が中心で、具体的な実装内容や成果も不明です。また、既に取り上げ済みのAI関連トピックと同じ軸に該当するため、重複分として減点していま"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 28,
+      "title": "Security",
+      "date": "2026-11-07",
+      "reason": "[ScoreCache 2026-11-07] [ScoreCache 2026-11-07] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、攻撃手法などの具体性がなく、技術的な重要度を判断できません。セキュリティ関連ニュースは一般に運用・リスク管理寄りで、AIやアーキテクチャの革新と比べると評価は低めです。 [Editor"
+    },
+    "8d9d6e5e7704b15c764611cd08421a25": {
+      "score": 66,
+      "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore上で、階層型マルチエージェントとエピソード記憶を組み合わせ、月4,000件規模のセキュリティ・リスク案件の90%以上を自律処理している点は、AIエージェントの実運用例として具体性と技術的価値が高いです。SOCから金融リスク判定へ拡張している点も影響範囲があります。一方で、AI・エージェント・Amazon"
+    },
+    "7a9c66f5313082e7af6100aae7ec1018": {
+      "score": 47,
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を、ChatやVS CodeのAgentsウィンドウを含む複数体験横断で可視化できるようになるため、導入効果の測定や社内展開の管理には実務的な価値があります。一方で、新しいAIモデルや開発基盤そのものではなく、既存機能の分析ダッシュボード拡張にとどまります。また、既に取り上げ済みのCopilot・Agent関連ト"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 35,
+      "title": "September 28, 2026",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のカスタムコンテナイメージに含まれるCriticalおよびHigh-severity CVEを一括修正する重要な保守リリースですが、新機能やアーキテクチャ上の進展ではなく、既存環境の脆弱性対応が中心です。影響を受けるCVEの内容や exploit の具体性も示されておらず、技術革新としての新規性は"
+    },
+    "fb484861e2f723c77fa850239761a391": {
+      "score": 16,
+      "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] SnapのスマートグラスはAR・ウェアラブル技術として一定の技術的関心はありますが、記事の主題は価格と装着感、今秋の発売見通しであり、アーキテクチャや基盤技術に関する革新ではありません。影響範囲も一般消費者向け製品に限定され、業界の前提を変えるほどの新規性や具体的な技術ブレークスルーは示されていないため、低いスコアとしました。"
+    },
+    "c2f1ed9ee12ab2c0c5af77478362449d": {
+      "score": 49,
+      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] AIの意識や権利をめぐる議論に対し、脳を計算機として捉える従来の比喩へ重要な再検討を促す内容で、将来的なAI倫理・設計思想・規制議論には影響し得ます。一方で、Natureの論考に基づく概念的・哲学的な主張が中心であり、新しいモデル、アルゴリズム、実装、実験結果を提示するニュースではありません。エンジニアリング上の短期的な影響範囲と具体性は限定的なため"
+    },
+    "7285cf7bddb888aa34c21b7ac9088b57": {
+      "score": 41,
+      "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+      "date": "2026-11-08",
+      "reason": "[ScoreCache 2026-11-08] [Claude API Evaluation] Nintendo向けROMチップの主要サプライヤー撤退は、半導体の供給網や製造コスト、物理ゲームの価格に影響し得る重要な業界ニュースです。一方で、新技術やソフトウェアアーキテクチャの進化ではなく、特定ゲーム機の部品調達と消費者向け製品価格が中心です。エンジニア視点ではハードウェア供給リスクの事例として意"
+    },
+    "6e785b581fc9faf5f2a78f82fba798e1": {
+      "score": 21,
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "date": "2026-11-09",
+      "reason": "[Claude API Evaluation] AIを活用したレシピの食材置換・調整機能という実用例ではあるものの、対象は料理アプリ内の限定的なベータ機能で、技術的な新規性やソフトウェア業界への影響範囲は小さいです。一般消費者向けアプリの機能追加に近く、既出キーワードの「AI」「app」「model」にも該当するため、同一テーマとして減点しました。 [Editorial: AI/SaaS topi"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-09/blog.md",
+    "show_notes_path": "out/2026-11-09/show_notes.md",
+    "script_path": "out/2026-11-09/script_2hosts.md",
+    "audio_path": "out/2026-11-09/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-09/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-09/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 33,
+        "input_tokens": 22954,
+        "output_tokens": 9029,
+        "cost_usd": 0.015426
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45416,
+        "output_tokens": 9289,
+        "cost_usd": 0.183722
+      }
+    ],
+    "tts": {
+      "chars": 4111,
+      "audio_sec": 618.1,
+      "cost_usd": 0.119193
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.318341
+  }
+}
