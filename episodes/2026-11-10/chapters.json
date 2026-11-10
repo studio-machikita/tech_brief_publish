@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.95,
+    "title": "Anthropic to Proceed With IPO Roadshow Next Week",
+    "url": "https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week"
+  },
+  {
+    "start_sec": 134.51,
+    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+    "url": "https://openai.com/index/control-room"
+  },
+  {
+    "start_sec": 268.46,
+    "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+    "url": "https://arxiv.org/abs/2611.08639"
+  },
+  {
+    "start_sec": 404.17,
+    "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+    "url": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/"
+  },
+  {
+    "start_sec": 516.06,
+    "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+    "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/"
+  },
+  {
+    "start_sec": 643.61,
+    "title": "How skills and agents work in AWS Quick",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/"
+  },
+  {
+    "start_sec": 730.18,
+    "title": "エンディング",
+    "url": null
+  }
+]

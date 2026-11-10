@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#223 アンソロピック、来週にIPOロードショーを開始へ ほか</title>
+      <description>Tech News Radio Show Notes - #223 (2026-11-10)
+
+エピソード情報
+• エピソード: #223
+• 日付: 2026-11-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic to Proceed With IPO Roadshow Next Week (https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week)
+• Anthropic to Proceed With IPO Roadshow Next Week (https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/)
+• Control Room: A central system to track and stop model workloads across our research infrastructure (https://openai.com/index/control-room)
+• Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP (https://arxiv.org/abs/2611.08639)
+
+注目の深掘り
+• SpaceX now fundamentally an "infrastructure company," senior official says (https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/)
+
+小ネタ・その他
+• Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/)
+• How skills and agents work in AWS Quick (https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/)
+• How skills and agents work in AWS Quick (https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-10/episode_audio.mp3" length="12154796" type="audio/mpeg" />
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-10</guid>
+      <itunes:duration>12:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>アンソロピック、来週にIPOロードショーを開始へ ほか</itunes:title>
+      <itunes:episode>223</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #223 (2026-11-10)
+
+エピソード情報
+• エピソード: #223
+• 日付: 2026-11-10
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic to Proceed With IPO Roadshow Next Week (https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week)
+• Anthropic to Proceed With IPO Roadshow Next Week (https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/)
+• Control Room: A central system to track and stop model workloads across our research infrastructure (https://openai.com/index/control-room)
+• Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP (https://arxiv.org/abs/2611.08639)
+
+注目の深掘り
+• SpaceX now fundamentally an "infrastructure company," senior official says (https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/)
+
+小ネタ・その他
+• Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/)
+• How skills and agents work in AWS Quick (https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/)
+• How skills and agents work in AWS Quick (https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-10/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.950" title="Anthropic to Proceed With IPO Roadshow Next Week" href="https://www.theinformation.com/briefings/anthropic-proceed-ipo-roadshow-next-week" />
+        <psc:chapter start="00:02:14.510" title="Control Room: A central system to track and stop model workloads across our research infrastructure" href="https://openai.com/index/control-room" />
+        <psc:chapter start="00:04:28.460" title="Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP" href="https://arxiv.org/abs/2611.08639" />
+        <psc:chapter start="00:06:44.170" title="SpaceX now fundamentally an &quot;infrastructure company,&quot; senior official says" href="https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/" />
+        <psc:chapter start="00:08:36.060" title="Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base" href="https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/" />
+        <psc:chapter start="00:10:43.610" title="How skills and agents work in AWS Quick" href="https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/" />
+        <psc:chapter start="00:12:10.180" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#222 Greenlight Financial、Amazon Bedrock AgentCoreで自律型SOCソリューション…</title>
       <description>Tech News Radio Show Notes - #222 (2026-11-09)
 

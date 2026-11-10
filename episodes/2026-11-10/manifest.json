@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-10",
+  "episode_date_local": "2026-11-10",
+  "content_snapshot_date": "2026-11-10",
+  "show_length_sec": 759,
+  "audio_size": 12154796,
+  "generated_at": "2026-11-10T02:45:50.712114+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-8229fa03",
+      "title": "Anthropic to Proceed With IPO Roadshow Next Week",
+      "title_ja": "アンソロピック、来週にIPOロードショーを開始へ",
+      "one_liner": "Anthropic、来週IPOの投資家向け説明会へ",
+      "fingerprint": "8229fa031fd1cf39794b9e2629107cc1",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information",
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-ca6fdde1",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "title_ja": "コントロールルーム:研究インフラ全体でモデルのワークロードを追跡・停止する中央システム",
+      "one_liner": "OpenAIが研究基盤の監視・停止システムを公開",
+      "fingerprint": "ca6fdde1cbc4f1661a63ded87b460007",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-c921f813",
+      "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+      "title_ja": "1文字を強制すると拒否が抑制される:WMDPからの機構的証拠",
+      "one_liner": "選択式の出題がLLMの拒否を弱める仕組みを解明",
+      "fingerprint": "c921f813ce9ce59834ba16864a045010",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-5f39b9f4",
+      "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+      "title_ja": "スペースX、今や本質的に「インフラ企業」と幹部が語る",
+      "one_liner": "SpaceXは「インフラ企業」だと幹部が語る",
+      "fingerprint": "5f39b9f4962bf25430acef4bf873244a",
+      "score": 61,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-5776ea1b",
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "title_ja": "Amazon Bedrock マネージドナレッジベースによるシングルショット型およびエージェント型検索",
+      "one_liner": "Bedrockの検索が、状況に応じて深さを選べるように",
+      "fingerprint": "5776ea1bb4cd9f11a1c100daf257ec84",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-1a24e759",
+      "title": "How skills and agents work in AWS Quick",
+      "title_ja": "AWS Quickにおけるスキルとエージェントの仕組み",
+      "one_liner": "AWS Quickで定型業務をスキル化し共有できる",
+      "fingerprint": "1a24e75933a117606bc73671ced806e7",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-24fc1afa",
+      "reason": "LINK_ONLY: Source classified as satirical: 「Claude Fable」「Mythos」という実在性の低い名称に加え、未解決の物理問題の解決やAnthropicのコード変更の90%以上をAIが作成したという極端な主張が並んでおり、通常の技術ニュースではなく風刺・パロディと判断できます。",
+      "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO"
+    },
+    {
+      "item_id": "item-5436e343",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift"
+    },
+    {
+      "item_id": "item-6d21453e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 09, 2026"
+    },
+    {
+      "item_id": "item-5318a8c8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot weekly releases — November 2"
+    },
+    {
+      "item_id": "item-935e0321",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A caller said \\\"I'm his wife.\\\" Your AI changed the email, resent four invoices, and refunded $2,140."
+    },
+    {
+      "item_id": "item-3d2bcc15",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace"
+    },
+    {
+      "item_id": "item-be054fba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Locating the source of a mysterious beep with Claude"
+    },
+    {
+      "item_id": "item-63fe5ea5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering"
+    },
+    {
+      "item_id": "item-7a9c66f5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-a80db8fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?"
+    },
+    {
+      "item_id": "item-25c750e3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-f5ada4ca",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Horible public key tricks:"
+    },
+    {
+      "item_id": "item-f76f8189",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Australia to Create AI Safety Regulator, Mandatory Safety Rules"
+    },
+    {
+      "item_id": "item-2013f5b4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026 Usage Policy update"
+    },
+    {
+      "item_id": "item-21a55c13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago"
+    },
+    {
+      "item_id": "item-984a9aae",
+      "reason": "[Duplicate] 「Anthropic to Proceed With IPO Roadshow Next Week」と同じ出来事のため除外",
+      "title": "Anthropic reportedly plans to move forward with IPO plans"
+    }
+  ],
+  "score_cache": {
+    "be054fba079a0867c01675b55f871b05": {
+      "score": 41,
+      "title": "Locating the source of a mysterious beep with Claude",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] Claudeを使って身近な問題の原因を特定する実用例であり、AIの推論・マルチモーダル活用を示す点はエンジニア視点で一定の興味深さがあります。一方で、タイトルだけでは新しい技術的ブレークスルーや具体的な実装、業界への影響範囲が不明です。また、既に取り上げ済みのAI・model関連トピックと重なるため、重複分を減点し、実証的な活用事例として中低程度の評"
+    },
+    "3d2bcc15d1dcf3c005394d2e859b2015": {
+      "score": 42,
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] ChatGPT EnterpriseをAWS Marketplace経由で調達・請求できるようになることで、企業の購買プロセスやAWS契約との統合が容易になる点は実務上有用です。一方で、モデル性能やアーキテクチャの革新ではなく、主に販売チャネルと調達運用の拡張にとどまります。また、既に取り上げ済みのAI・OpenAI・ChatGPT関連トピックと同じ"
+    },
+    "2013f5b43dbbe24331629163275226f8": {
+      "score": 22,
+      "title": "2026 Usage Policy update",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] 利用ポリシーの更新は技術革新というより規約・運用ルールに関するニュースであり、エンジニアリング上の直接的な新機能やアーキテクチャ変更も確認できません。スニペットが空欄で影響範囲や具体的な変更内容も不明です。また、タイトルに既報キーワードの「2026」が含まれるため、明確な新展開と判断できず減点しました。 [Editorial: AI-focused "
+    },
+    "1a24e75933a117606bc73671ced806e7": {
+      "score": 49,
+      "title": "How skills and agents work in AWS Quick",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] AWS Quickにおけるエージェントとスキルの構成、共有、カスタムエージェントの活用方法を具体的に扱っており、開発・運用チームの定型作業を自動化する実務的な価値があります。一方で、既存のAIエージェント機能の適用例や利用ガイドに近く、アーキテクチャ上の大きな革新や業界全体を変える発表ではありません。既出キーワードであるagentやAIと同じ角度の話"
+    },
+    "63fe5ea5a56cc03a0695759c4d37b2b3": {
+      "score": 39,
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] AIエージェントを活用した計画、実装、コードレビュー、障害調査までの開発プロセスを整理しており、開発者の実務には有用です。ただし、新技術や具体的な製品発表というよりはガイド記事であり、影響範囲と新規性は限定的です。また、既出キーワードのCopilot、agentic engineeringに近いエージェント関連の話題で、直近放送との重複が大きいため2"
+    },
+    "7a9c66f5313082e7af6100aae7ec1018": {
+      "score": 38,
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] GitHub Copilotの利用状況を可視化するダッシュボードに、Copilot ChatとVS CodeのAgentsウィンドウを追加する小規模な機能拡張です。開発組織における導入効果や利用率の分析には有用ですが、基盤技術や開発体験そのものを大きく変える発表ではありません。さらに、既出キーワードであるCopilotおよびAgentに直接該当し、同"
+    },
+    "6d21453eea173885d10a7144452442c8": {
+      "score": 48,
+      "title": "September 09, 2026",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] ノートブックのスケジュール実行に対して、実行ユーザーの選択、Shielded VM、カスタムVMイメージやコンテナ指定を追加する実務的なクラウド基盤アップデートです。認証権限の最小化、ブート整合性、開発環境と定期実行環境の依存関係統一に有効で、運用面の価値はあります。一方で、既存のAgent Platform Workbenchにおける設定拡張に留ま"
+    },
+    "984a9aae59f8c8ae00bcec823f2199f9": {
+      "score": 48,
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] AnthropicのIPO計画は、AIスタートアップの資金調達環境や企業評価、競合各社の研究開発投資に影響し得る重要なビジネスニュースです。一方で、具体的な技術革新や製品発表ではなく、現時点では評価額レンジの設定予定にとどまっているため、エンジニア視点での直接的な技術インパクトは限定的です。既出のAI関連話題とは異なり、今回はIPOという企業・市場面"
+    },
+    "24fc1afaf090803d59d38263e26c2127": {
+      "score": 92,
+      "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] Anthropicの最新モデル公開は、物理学の未解決問題、サイバーセキュリティ、OS設計、コード生成など、研究・開発ワークフロー全体に影響し得る非常に重要なAI進展です。特に中核コードの90%以上を生成したという主張が事実なら、ソフトウェア開発の生産性やAIによる自己改良の議論を大きく前進させます。一方で、性能やコード貢献率は現時点では企業発表に依存"
+    },
+    "5f39b9f4962bf25430acef4bf873244a": {
+      "score": 61,
+      "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] SpaceXが打ち上げ・衛星通信・データ処理などを統合したインフラ企業へ進化しているという位置付けは、宇宙産業や大規模コンピューティング基盤の観点で注目度が高い。一方、記事タイトルからは具体的な新技術、製品、アーキテクチャ変更、投資規模などが明確でなく、Grokの分析精度に関するスニペットも技術的な裏付けが不足しているため、業界の前提を変える重大発表"
+    },
+    "25c750e36a7cb33abfd3757290a0e0ab": {
+      "score": 28,
+      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] Nvidia CEOの私生活と中国スパイ疑惑を扱う記事であり、AI業界や半導体企業への評判・地政学的リスクには影響し得ますが、技術革新、製品発表、アーキテクチャ変更、具体的な事業・規制動向は示されていません。エンジニア視点での実装・開発への直接的な価値は低く、既出のAI関連トピックと同じ文脈として減点しました。 [Editorial: AI/SaaS"
+    },
+    "f76f81899b5661abb9456dc990172818": {
+      "score": 23,
+      "title": "Australia to Create AI Safety Regulator, Mandatory Safety Rules",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] AI安全規制当局の新設と企業への罰則導入は、オーストラリアのAIガバナンスや開発・運用プロセスに影響する重要な政策ですが、技術革新や具体的なアーキテクチャの進展ではなく、主に法律・規制に関するニュースです。さらに、直近に取り上げ済みのAI関連テーマと同一領域の続報とは言い切れないものの、AI規制という既出キーワードに該当するため減点しています。 [E"
+    },
+    "8229fa031fd1cf39794b9e2629107cc1": {
+      "score": 84,
+      "title": "Anthropic to Proceed With IPO Roadshow Next Week",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] Anthropicという主要AIスタートアップのIPOロードショー開始は、AI業界の資金調達環境や企業評価、今後のモデル開発・計算資源投資に影響し得る重要ニュースです。特に大規模AI企業の上場準備が具体化する点で新規性と市場インパクトがあります。一方、技術仕様や新製品の発表ではなく、企業・金融イベントが中心であり、ソフトウェアエンジニアへの直接的な影"
+    },
+    "c921f813ce9ce59834ba16864a045010": {
+      "score": 69,
+      "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] LLMの安全性評価において、選択肢を選ばせるMCQ形式が拒否率を下げる現象を、WMDPベンチマーク上でtuned lensを用いて機 mechanisticallyに説明する研究であり、評価設計や安全性ベンチマークの信頼性に直接影響します。Llama-3.1-8BとQwen3-8Bで検証している点も具体的ですが、対象モデルとデータセットが限定されてお"
+    },
+    "935e032177339fd85a6ecaebb237e34e": {
+      "score": 43,
+      "title": "A caller said \\\"I'm his wife.\\\" Your AI changed the email, resent four invoices, and refunded $2,140.",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] AIサポートシステムが本人確認・権限・実行操作を一体化した結果、メール変更や返金まで許可してしまう具体的な失敗事例であり、LLMエージェントの権限設計、監査ログ、ステップアップ認証、業務ワークフロー分離に有用な示唆があります。特に、関係性の申告やアカウント知識を認証とみなさず、開示権限と操作権限を分離する authority record とゲート設"
+    },
+    "f5ada4ca0f1ee6703cfe50ada9df9152": {
+      "score": 24,
+      "title": "Horible public key tricks:",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] 公開鍵暗号に関する内容と推測され、セキュリティや暗号実装の観点では一定の技術的価値があります。ただし、タイトルが曖昧でスニペットもなく、具体的な脆弱性・新規手法・影響範囲を判断できません。評価基準上、セキュリティ関連の話題は低評価帯に該当するため、現時点では控えめなスコアとします。"
+    },
+    "ca6fdde1cbc4f1661a63ded87b460007": {
+      "score": 83,
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] 研究インフラ全体のモデル実行状況を一元的に追跡し、安全・セキュリティ上の懸念が生じた際に迅速停止できるControl Roomは、分散したAIワークロードの可観測性、ガバナンス、緊急対応を統合する実運用アーキテクチャとして重要です。特に大規模なモデル開発環境では、実行単位の把握や停止制御が安全性と運用信頼性に直結します。一方で、AIやOpenAI、モ"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 28,
+      "title": "Security",
+      "date": "2026-11-07",
+      "reason": "[ScoreCache 2026-11-07] [ScoreCache 2026-11-07] [ScoreCache 2026-11-07] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、影響範囲、対象製品、攻撃手法などの具体性がなく、技術的な重要度を判断できません。セキュリティ関連ニュースは一般に運用・リスク管理寄りで、AIやアーキテクチャ"
+    },
+    "5776ea1bb4cd9f11a1c100daf257ec84": {
+      "score": 54,
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] Amazon Bedrock Managed Knowledge Baseに、単発RAGと検索専用リクエスト、さらにmaxAgentIterationによる検索試行回数の制御が加わる点は、RAGのレイテンシー・精度・コストをリクエスト単位で調整できる実務的なクラウド機能です。特にAgenticRetrieveStreamによって、単純検索とエージェン"
+    },
+    "5318a8c8183521b6ec6f4f17383b7ec8": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — November 2",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] JetBrains AirやXcodeへのCopilot対応拡大、プルリクエスト管理やエージェントセッション改善は開発者の利用範囲を広げる実用的なアップデートです。一方で、業界の前提を変える新技術や大規模なアーキテクチャ変更ではなく、週次リリースの機能追加が中心です。さらに、既出キーワードのCopilotおよびagentと同じ話題に該当するため、重複"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 35,
+      "title": "September 28, 2026",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのカスタムコンテナイメージに含まれるCritical/High重大度のCVEを一括修正するセキュリティパッチであり、運用上は重要ですが、新機能や技術的ブレークスルーではなく、定期的な依存パッケージ更新・脆弱性対応に該当します。Agent関連の既出テーマとも重なるため減点しました。 [Editorial:"
+    },
+    "21a55c1393f88a4b1440f9ce10bc8920": {
+      "score": 10,
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] NVIDIAや半導体技術、ソフトウェア開発に関する新情報ではなく、Jensen Huang氏が過去に著名な性的スキャンダル対応実績を持つPR会社を起用したという人物・広報上の話題です。企業の評判やガバナンスには関係しますが、技術革新、製品、アーキテクチャ、エンジニアリング実務への直接的な影響はほぼないため、重要度は非常に低いと判断します。"
+    },
+    "5436e343033f07f208de38aa6c0ac9e4": {
+      "score": 49,
+      "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] プロ向け画像生成・編集において、最大100回の反復編集でも画素や色の一貫性を保つ機能は、映像制作やデザインの実運用に有用で技術的な具体性も高い。一方、革新的なAI画像モデルの発表という既出キーワードに関連する話題であり、直近記事との重複分を減点した。また、性能比較はByteDance側の主張が中心で、業界の前提を変えるほどの独立検証や新アーキテクチャ"
+    },
+    "a80db8fe70c3ba1d31c13d07210bb236": {
+      "score": 35,
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "date": "2026-11-10",
+      "reason": "[Claude API Evaluation] AIによるGTA VIのクローンが公式移植の時期に影響するという、ゲーム業界の戦略・市場圧力に関する話題ですが、具体的な技術発表や実装、検証結果はなく、元Rockstar関係者の見解に基づく推測に留まっています。AI関連ではあるものの、既出テーマとの重複もあり、エンジニアリング上の新規性や業界全体への影響は限定的と判断しました。 [Editorial"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-10/blog.md",
+    "show_notes_path": "out/2026-11-10/show_notes.md",
+    "script_path": "out/2026-11-10/script_2hosts.md",
+    "audio_path": "out/2026-11-10/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-10/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-10/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 30601,
+        "output_tokens": 11438,
+        "cost_usd": 0.019846
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45315,
+        "output_tokens": 10002,
+        "cost_usd": 0.19065
+      }
+    ],
+    "tts": {
+      "chars": 4879,
+      "audio_sec": 747.2,
+      "cost_usd": 0.14408
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.354576
+  }
+}
