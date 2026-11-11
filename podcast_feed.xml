@@ -25,6 +25,80 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#224 Anthropic、ClaudeをプラグインやスプレッドシートやホワイトボードなどのフルワークスペースへMeeting…</title>
+      <description>Tech News Radio Show Notes - #224 (2026-11-11)
+
+エピソード情報
+• エピソード: #224
+• 日付: 2026-11-11
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes (https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/)
+• FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction (https://arxiv.org/abs/2611.08643)
+• OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions (https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/)
+
+注目の深掘り
+• Gemini 4 Carbon in GitHub Copilot (https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot)
+• Gemini 4 Carbon in GitHub Copilot (https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/)
+
+小ネタ・その他
+• The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations (https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/)
+• The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations (https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/)
+• CoreWeave Boosts Forecast, Easing Slowdown Concerns (https://www.bloomberg.com/news/videos/2026-11-11/coreweave-boosts-forecast-easing-slowdown-concerns-video)
+• CoreWeave Boosts Forecast, Easing Slowdown Concerns (https://www.bloomberg.com/news/articles/2026-11-10/coreweave-boosts-annual-forecast-easing-concerns-about-slowdown)
+• CoreWeave Boosts Forecast, Easing Slowdown Concerns (https://www.bloomberg.com/news/videos/2026-11-10/coreweave-earnings-top-estimates-boosts-annual-forecast-video)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-11/episode_audio.mp3" length="11188652" type="audio/mpeg" />
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-11</guid>
+      <itunes:duration>11:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Anthropic、ClaudeをプラグインやスプレッドシートやホワイトボードなどのフルワークスペースへMeeting…</itunes:title>
+      <itunes:episode>224</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #224 (2026-11-11)
+
+エピソード情報
+• エピソード: #224
+• 日付: 2026-11-11
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes (https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/)
+• FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction (https://arxiv.org/abs/2611.08643)
+• OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions (https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/)
+
+注目の深掘り
+• Gemini 4 Carbon in GitHub Copilot (https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot)
+• Gemini 4 Carbon in GitHub Copilot (https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/)
+
+小ネタ・その他
+• The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations (https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/)
+• The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations (https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/)
+• CoreWeave Boosts Forecast, Easing Slowdown Concerns (https://www.bloomberg.com/news/videos/2026-11-11/coreweave-boosts-forecast-easing-slowdown-concerns-video)
+• CoreWeave Boosts Forecast, Easing Slowdown Concerns (https://www.bloomberg.com/news/articles/2026-11-10/coreweave-boosts-annual-forecast-easing-concerns-about-slowdown)
+• CoreWeave Boosts Forecast, Easing Slowdown Concerns (https://www.bloomberg.com/news/videos/2026-11-10/coreweave-earnings-top-estimates-boosts-annual-forecast-video)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-11/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.610" title="Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes" href="https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/" />
+        <psc:chapter start="00:02:13.140" title="FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction" href="https://arxiv.org/abs/2611.08643" />
+        <psc:chapter start="00:04:20.750" title="OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions" href="https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/" />
+        <psc:chapter start="00:05:59.990" title="Gemini 4 Carbon in GitHub Copilot" href="https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot" />
+        <psc:chapter start="00:07:51.460" title="The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations" href="https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/" />
+        <psc:chapter start="00:09:36.550" title="CoreWeave Boosts Forecast, Easing Slowdown Concerns" href="https://www.bloomberg.com/news/videos/2026-11-11/coreweave-boosts-forecast-easing-slowdown-concerns-video" />
+        <psc:chapter start="00:11:08.310" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#223 アンソロピック、来週にIPOロードショーを開始へ ほか</title>
       <description>Tech News Radio Show Notes - #223 (2026-11-10)
 

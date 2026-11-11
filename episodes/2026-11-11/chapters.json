@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.61,
+    "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+    "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/"
+  },
+  {
+    "start_sec": 133.14,
+    "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+    "url": "https://arxiv.org/abs/2611.08643"
+  },
+  {
+    "start_sec": 260.75,
+    "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+    "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/"
+  },
+  {
+    "start_sec": 359.99,
+    "title": "Gemini 4 Carbon in GitHub Copilot",
+    "url": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot"
+  },
+  {
+    "start_sec": 471.46,
+    "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+    "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/"
+  },
+  {
+    "start_sec": 576.55,
+    "title": "CoreWeave Boosts Forecast, Easing Slowdown Concerns",
+    "url": "https://www.bloomberg.com/news/videos/2026-11-11/coreweave-boosts-forecast-easing-slowdown-concerns-video"
+  },
+  {
+    "start_sec": 668.31,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -1,0 +1,374 @@
+{
+  "date": "2026-11-11",
+  "episode_date_local": "2026-11-11",
+  "content_snapshot_date": "2026-11-11",
+  "show_length_sec": 699,
+  "audio_size": 11188652,
+  "generated_at": "2026-11-11T00:39:54.780333+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-55850024",
+      "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+      "title_ja": "Anthropic、ClaudeをプラグインやスプレッドシートやホワイトボードなどのフルワークスペースへMeeting notesも近日追加",
+      "one_liner": "Claudeが仕事用の統合ワークスペースへ進化",
+      "fingerprint": "558500247e90b7d372a938d1e18a2512",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-b04a96b5",
+      "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+      "title_ja": "FinEvolveKG:金融ナレッジグラフ構築のための、制御可能かつ帰属可能なプロンプト進化",
+      "one_liner": "金融向けKG構築のプロンプトを制御して進化させる",
+      "fingerprint": "b04a96b5d79ed10f8bb6aca5bb619336",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-9ab33b21",
+      "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+      "title_ja": "OpenAI、ChatGPTを企業ディレクトリ化 顧客対応するAIエージェントを搭載",
+      "one_liner": "ChatGPTが企業向けの案内所に変わります",
+      "fingerprint": "9ab33b21ef4e1e0fa8c98e1f783a7c1a",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-bb150877",
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "title_ja": "GitHub CopilotでGemini 4 Carbonが利用可能に",
+      "one_liner": "Gemini 4 CarbonがGitHub Copilotで一般提供へ",
+      "fingerprint": "bb1508779c3b622787950a45eb414a67",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-632bbd77",
+      "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+      "title_ja": "エージェント評価プレイブック:Amazon Bedrock AgentCore Evaluationsの組み込み評価、DeepEval、AutoEvalを活用する",
+      "one_liner": "AIエージェントの評価を3種類の評価器で整理",
+      "fingerprint": "632bbd77fb2518c2b733f0f6589b8f6b",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-9bea4aec",
+      "title": "CoreWeave Boosts Forecast, Easing Slowdown Concerns",
+      "title_ja": "コアウィーブ、業績見通しを上方修正 減速懸念が和らぐ",
+      "one_liner": "CoreWeaveが好決算で通期予想を上方修正",
+      "fingerprint": "9bea4aece8a7587705c6b95598dff2ee",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology",
+        "Bloomberg Technology",
+        "Bloomberg Technology"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-3a4afb5d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search"
+    },
+    {
+      "item_id": "item-69aae818",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Anthropic Cyber Mission"
+    },
+    {
+      "item_id": "item-538f6a62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub App support for Enterprise Copilot seat management"
+    },
+    {
+      "item_id": "item-82a6a62c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 18, 2026"
+    },
+    {
+      "item_id": "item-a80db8fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?"
+    },
+    {
+      "item_id": "item-b6617d65",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing Businesses in ChatGPT"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-63fe5ea5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering"
+    },
+    {
+      "item_id": "item-412108ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder"
+    },
+    {
+      "item_id": "item-f123a96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "item_id": "item-e3919ab2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The VAST Tracking Events Cheat Sheet Every Ad Ops Engineer Needs"
+    },
+    {
+      "item_id": "item-74ead2a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect"
+    },
+    {
+      "item_id": "item-cf9fc93f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Helping caregivers use AI in everyday life"
+    },
+    {
+      "item_id": "item-c0ff9246",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "litedram/doc/manual/03_dram_interface.md at master · enjoy-digital/litedram"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-68d8c29b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "After 7-months, Glasswing Overwelms Maintainers with Underwhelming Findings  | Blog | VulnCheck"
+    },
+    {
+      "item_id": "item-f2dfa9ea",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic’s Outside Counsel Sent Banks Wrong Documents Before Launching IPO"
+    },
+    {
+      "item_id": "item-154eea78",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Early Amazon Black Friday Deals (2026)"
+    }
+  ],
+  "score_cache": {
+    "c0ff924683b979f3d1dfb9ed404b66b1": {
+      "score": 38,
+      "title": "litedram/doc/manual/03_dram_interface.md at master · enjoy-digital/litedram",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] LiteDRAMのDRAMインターフェース仕様に関する技術ドキュメントで、FPGA向けメモリコントローラの信号構成や接続方法を理解するうえでは有用です。ハードウェアアーキテクチャや低レイヤ実装に関わるため一定の技術的価値はありますが、単なるドキュメント更新であり、新規アーキテクチャや大規模な業界インパクトを示す発表ではありません。既出キーワードとの直"
+    },
+    "cf9fc93ff795abc4b6549f700004dd85": {
+      "score": 39,
+      "title": "Helping caregivers use AI in everyday life",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] 介護者向けにChatGPTの実践的な活用方法を無料で提供する社会的意義はありますが、技術そのものの革新や新しいモデル・アーキテクチャの発表ではなく、教育・普及施策が中心です。AI関連ではあるものの、既に取り上げ済みのAIテーマと同じ角度に近いため20点減点しています。 [Editorial: AI-focused source +6; AI/SaaS"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 30,
+      "title": "Security",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] タイトルが「Security」のみで、脆弱性の詳細、影響範囲、対象製品、修正内容などの具体性がありません。セキュリティ関連ニュースは重要ではあるものの、提示情報だけでは技術的な新規性や業界への影響を評価できないため、低めのスコアとしました。 [Editorial: AI-focused source +6]"
+    },
+    "3a4afb5d02c5fc16168128dbdd3a7cae": {
+      "score": 49,
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] LangGraphとAmazon Bedrock AgentCore Web Search APIを組み合わせ、依存パッケージの調査・出典検証・定期実行を自動化する実装例であり、エージェント運用やサプライチェーン監視への実用性は高い。一方で、基盤技術そのものの画期的な進化というより、既存サービスを組み合わせた具体的なチュートリアルである。また、直近に"
+    },
+    "63fe5ea5a56cc03a0695759c4d37b2b3": {
+      "score": 41,
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] AIエージェントを活用した開発計画、実装、コードレビュー、障害調査までの開発ライフサイクルを整理した実践的な内容で、開発者の作業モデルに影響し得ます。一方で、GitHub Copilotを中心とした既存技術の活用ガイドであり、基盤技術や新製品の画期的な発表ではありません。さらに、agenticおよびCopilotは直近の取り上げ済みキーワードと重なる"
+    },
+    "538f6a62a5414330a9d1c6bbb5976950": {
+      "score": 47,
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] GitHub AppからEnterprise Copilotのシート割り当てを自動制御できるようになり、ユーザーやチーム単位のプロビジョニング、異動・退職時の回収、社内運用の自動化に有用です。一方で、既存APIの管理対象をGitHub Appsへ拡張した機能追加であり、AIモデルや開発基盤そのものを変える革新性は限定的です。また、Copilot関連は"
+    },
+    "82a6a62c69656852313cdc2b1dacd647": {
+      "score": 47,
+      "title": "September 18, 2026",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabのクライアント側エラーや失敗したネットワーク要求をバックエンド経由でCloud Loggingへ転送できるようになった点は、開発・運用時の可観測性を高める実用的な改善です。ただし、既存プラットフォームのインクリメンタルな機能追加であり、アーキテクチャや開発手法を大"
+    },
+    "412108abe9544445e1ba3a8d2fbffe86": {
+      "score": 41,
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] OpenAIによる旅行スタートアップ買収は、AI企業の事業領域拡大や旅行サービスへの応用可能性という点では注目されます。一方で、現時点では買収後の製品計画、技術統合、提供予定のAI機能が明らかになっておらず、エンジニアリング上の具体的な革新性や影響範囲を評価しにくい内容です。既出のAI・OpenAI関連トピックとの重複も考慮し、通常のスタートアップ買"
+    },
+    "9ab33b21ef4e1e0fa8c98e1f783a7c1a": {
+      "score": 66,
+      "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] ChatGPTを企業情報ディレクトリ兼コマース接点へ拡張し、企業プロフィール・商品データ・ユーザー行動分析に加えて、顧客対応を行うBusiness Agentsを提供する点は、検索、EC、カスタマーサポートのアーキテクチャを変える可能性があります。特に企業がChatGPT上で直接ユーザーと接点を持てるため、外部サイトへの検索流入や従来型のFAQシステ"
+    },
+    "f123a96a1cf652892cb6b33baecd3e4f": {
+      "score": 41,
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] Grok Buildのコーディングエージェント上で約35,000件のアプリが公開状態となり、SpaceX関連を含む機密情報が閲覧可能だったという重大なセキュリティ・設定不備の事例です。AIコーディング基盤のアクセス制御、デフォルト設定、シークレット管理に警鐘を鳴らす点でエンジニアへの影響は大きい一方、技術革新そのものではなく、主題が脆弱性・情報漏えい"
+    },
+    "154eea78087d9a6ddabde372189cf4da": {
+      "score": 4,
+      "title": "Best Early Amazon Black Friday Deals (2026)",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] Amazonのブラックフライデー先行セールに関する一般消費者向けの販促記事であり、ソフトウェア技術、AI、クラウド、アーキテクチャ、開発者エコシステムへの影響はありません。既出キーワードのAmazonやnowも含まれますが、技術分野の続報ではないため、重要度は最低水準と判断します。"
+    },
+    "9bea4aece8a7587705c6b95598dff2ee": {
+      "score": 52,
+      "title": "CoreWeave Boosts Forecast, Easing Slowdown Concerns",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] AI計算基盤を提供するCoreWeaveの業績上振れと通期見通し引き上げは、AIインフラ需要や大規模GPUクラウド市場の成長を示す点で重要です。一方で、技術仕様やアーキテクチャの革新ではなく、主に業績・財務状況に関するニュースであり、エンジニアへの直接的な技術影響は限定的です。AI関連ではあるものの、既出のAIモデルやエージェント技術の新展開そのもの"
+    },
+    "f2dfa9ea71418428f69df704cb3600d2": {
+      "score": 23,
+      "title": "Anthropic’s Outside Counsel Sent Banks Wrong Documents Before Launching IPO",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] AnthropicのIPO関連で注目度はあるものの、内容はカナダの外部法律顧問が誤った目論見書を銀行へ送付したという法務・上場手続き上のミスであり、技術革新やソフトウェア開発への直接的な影響は限定的です。既出キーワードであるAnthropicおよびIPOと同一テーマの続報にあたり、重複分も減点しました。 [Editorial: AI/SaaS top"
+    },
+    "b04a96b5d79ed10f8bb6aca5bb619336": {
+      "score": 77,
+      "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] 金融機関向けナレッジグラフ構築において、共有する根拠・型・時系列ルールを維持しながら用途別にプロンプトを進化させる手法であり、LLM活用の信頼性、追跡可能性、運用コストに関わる実用的な研究です。重み更新を伴わないプロンプト最適化と、制御・帰属可能性を組み合わせている点は技術的に興味深く、金融分析への応用範囲も明確です。一方、現時点ではarXivの新規"
+    },
+    "e3919ab2d176a4fa66b20299464b4264": {
+      "score": 40,
+      "title": "The VAST Tracking Events Cheat Sheet Every Ad Ops Engineer Needs",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] CTV広告におけるVASTトラッキングイベント、Wrapper/InLineの責務、NonLinear広告やOM SDK対応を実装・運用目線で整理した実務的な技術記事です。広告配信チェーンの計測不整合や課金漏れを防ぐ具体性は高く、広告プレイヤー、SSAI、DSP/SSP連携に関わるエンジニアには有用です。一方で、既存仕様の正しい適用方法が中心で、アー"
+    },
+    "68d8c29bff8ada3ffb6dc525a9d89651": {
+      "score": 27,
+      "title": "After 7-months, Glasswing Overwelms Maintainers with Underwhelming Findings  | Blog | VulnCheck",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] OSSのメンテナーに対する脆弱性報告や調査プロセスの負担を扱うセキュリティ運用寄りの話題であり、技術革新やアーキテクチャの進展ではありません。Glasswingによる7か月間の調査結果も『期待外れ』とされており、具体的な重大脆弱性や業界の前提を変える発見が示されていないため、影響範囲と新規性は限定的と判断しました。"
+    },
+    "b6617d65a7cdd1d230e53a8da42685ad": {
+      "score": 44,
+      "title": "Introducing Businesses in ChatGPT",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] ChatGPT上で企業情報の管理、表示状況の分析、ユーザーの行動促進を可能にする機能であり、AI検索・発見経路の変化や企業向けマーケティング基盤としての発展性はあります。一方で、基盤モデルやエージェントの技術革新ではなく、既存AIサービス上のビジネス向け機能追加に近いため、業界の前提を変えるほどの新規性や技術的インパクトは限定的です。また、AI関連の"
+    },
+    "69aae818318905cf0b93a1723fd6fd2c": {
+      "score": 49,
+      "title": "Introducing the Anthropic Cyber Mission",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] Anthropicがサイバーセキュリティ領域に特化した取り組みを打ち出す内容であれば、LLMの実運用範囲を防御・脅威分析・自動化へ拡大する点に技術的な意義があります。一方、記事の具体的な製品仕様や成果、業界を一変させる技術革新はスニペットから確認できず、既出のAnthropicおよびAI関連テーマとも重なるため減点しました。 [Editorial: "
+    },
+    "632bbd77fb2518c2b733f0f6589b8f6b": {
+      "score": 54,
+      "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] エージェントのタスク達成度、話題逸脱、データ漏えい、手順遵守を評価するための実践的な手法であり、組み込み評価器・DeepEval・AutoEvalの使い分けは、エージェント運用の品質保証や本番導入に有用です。一方で、既存技術の評価手順を整理した内容が中心で、基盤モデルやアーキテクチャそのものを大きく変える発表ではありません。また、既に取り上げ済みのA"
+    },
+    "bb1508779c3b622787950a45eb414a67": {
+      "score": 58,
+      "title": "Gemini 4 Carbon in GitHub Copilot",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] Googleの新モデルGemini 4 CarbonがGitHub Copilotで一般提供され、複雑なコーディングや推論、エージェント型タスクへの対応が強化される点は、開発者向けAIの実用面で重要です。一方で、既存のコーディング支援基盤へのモデル追加であり、業界の前提を変えるほどの革新性や具体的な性能比較は示されていません。また、AI・モデル・エー"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 43,
+      "title": "September 28, 2026",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] 主な内容はAgent Platform Workbenchのカスタムコンテナに対するCritical/High CVEの一括修正であり、重要な保守・セキュリティ対応ではあるものの、新しい技術的能力や業界構造を変える発表ではありません。Colab Enterpriseのデフォルトランタイムテンプレート設定も、プロジェクト運用の効率化には寄与しますが、既"
+    },
+    "74ead2a632868a2a54039dfd7448fa3c": {
+      "score": 40,
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] ニューヨーク州のAI安全法施行により、OpenAIやAnthropicなどの大規模モデル開発者に登録、安全対策の開示、重大インシデント報告が求められる点は、開発プロセスやリスク管理、運用監視に実務的な影響を与えます。一方で、内容の中心は規制・コンプライアンスであり、技術革新そのものではないため評価は抑えめです。AIおよびAnthropic関連の既出テ"
+    },
+    "558500247e90b7d372a938d1e18a2512": {
+      "score": 92,
+      "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] Claudeを単なる対話モデルから、スプレッドシート、ホワイトボード、プラグイン、外部SaaS連携、会議メモまで統合した業務プラットフォームへ拡張する動きで、企業向けAIの利用形態に大きな影響を与えます。AdobeやAtlassianなどがClaude内に機能を埋め込める点は、API連携より一段進んだアプリ実行基盤として注目できます。一方で、現時点で"
+    },
+    "a80db8fe70c3ba1d31c13d07210bb236": {
+      "score": 47,
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "date": "2026-11-11",
+      "reason": "[Claude API Evaluation] AIによるGTA VIクローンが公式移植を促す可能性という、ゲーム開発と生成AIの交差点を扱う点は興味深いものの、現時点では元Rockstar関係者の見解に基づく推測であり、具体的な技術発表や実装、事業上の決定は示されていません。AI関連の既出テーマとも重なるため減点し、業界への潜在的な影響はあるものの、ニュースとしての確度と技術的具体性は限定的と評"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-11/blog.md",
+    "show_notes_path": "out/2026-11-11/show_notes.md",
+    "script_path": "out/2026-11-11/script_2hosts.md",
+    "audio_path": "out/2026-11-11/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-11/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-11/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 27899,
+        "output_tokens": 10748,
+        "cost_usd": 0.018477
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 46118,
+        "output_tokens": 10054,
+        "cost_usd": 0.192776
+      }
+    ],
+    "tts": {
+      "chars": 4569,
+      "audio_sec": 685.7,
+      "cost_usd": 0.132229
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.343483
+  }
+}
