@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#225 自律型X線実験のための監査可能な人間・エージェント・チーム／Anthropicのサイバーミッションを発表 ほか</title>
+      <description>Tech News Radio Show Notes - #225 (2026-11-12)
+
+エピソード情報
+• エピソード: #225
+• 日付: 2026-11-12
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Auditable Human-Agent Teams for Autonomous X-ray Experimentation (https://arxiv.org/abs/2611.12933)
+• Introducing the Anthropic Cyber Mission (https://www.anthropic.com/news/anthropic-cyber-mission)
+• Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled (https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-microsoft-google-says-lambda-deal-may-cancelled)
+
+注目の深掘り
+• Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass (https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/)
+
+小ネタ・その他
+• C++ language server now auto-configures MSBuild builds (https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds)
+• GitHub - tylertms/Stela: A general purpose Apple Silicon layer for x86-64 PCs (https://github.com/tylertms/Stela)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-12/episode_audio.mp3" length="10979756" type="audio/mpeg" />
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-12</guid>
+      <itunes:duration>11:26</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>自律型X線実験のための監査可能な人間・エージェント・チーム／Anthropicのサイバーミッションを発表 ほか</itunes:title>
+      <itunes:episode>225</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #225 (2026-11-12)
+
+エピソード情報
+• エピソード: #225
+• 日付: 2026-11-12
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Auditable Human-Agent Teams for Autonomous X-ray Experimentation (https://arxiv.org/abs/2611.12933)
+• Introducing the Anthropic Cyber Mission (https://www.anthropic.com/news/anthropic-cyber-mission)
+• Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled (https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-microsoft-google-says-lambda-deal-may-cancelled)
+
+注目の深掘り
+• Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass (https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/)
+
+小ネタ・その他
+• C++ language server now auto-configures MSBuild builds (https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds)
+• GitHub - tylertms/Stela: A general purpose Apple Silicon layer for x86-64 PCs (https://github.com/tylertms/Stela)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-12/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.570" title="Auditable Human-Agent Teams for Autonomous X-ray Experimentation" href="https://arxiv.org/abs/2611.12933" />
+        <psc:chapter start="00:02:13.740" title="Introducing the Anthropic Cyber Mission" href="https://www.anthropic.com/news/anthropic-cyber-mission" />
+        <psc:chapter start="00:04:12.220" title="Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled" href="https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-microsoft-google-says-lambda-deal-may-cancelled" />
+        <psc:chapter start="00:05:51.680" title="Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass" href="https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/" />
+        <psc:chapter start="00:07:41.640" title="C++ language server now auto-configures MSBuild builds" href="https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds" />
+        <psc:chapter start="00:09:29.220" title="GitHub - tylertms/Stela: A general purpose Apple Silicon layer for x86-64 PCs" href="https://github.com/tylertms/Stela" />
+        <psc:chapter start="00:10:55.290" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#224 Anthropic、ClaudeをプラグインやスプレッドシートやホワイトボードなどのフルワークスペースへMeeting…</title>
       <description>Tech News Radio Show Notes - #224 (2026-11-11)
 

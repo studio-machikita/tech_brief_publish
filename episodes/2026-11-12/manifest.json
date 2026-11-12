@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-12",
+  "episode_date_local": "2026-11-12",
+  "content_snapshot_date": "2026-11-12",
+  "show_length_sec": 686,
+  "audio_size": 10979756,
+  "generated_at": "2026-11-12T02:00:38.089221+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-0434e4f9",
+      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+      "title_ja": "自律型X線実験のための監査可能な人間・エージェント・チーム",
+      "one_liner": "AIエージェントがX線実験を自律運用",
+      "fingerprint": "0434e4f95a3a54d548c30d106ae58abb",
+      "score": 89,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-69aae818",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "title_ja": "Anthropicのサイバーミッションを発表",
+      "one_liner": "Anthropicがサイバー防衛の新ミッションを発表",
+      "fingerprint": "69aae818318905cf0b93a1723fd6fd2c",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-35eaa88c",
+      "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled",
+      "title_ja": "アンソロピック、マイクロソフト・グーグルと100億ドル超の新規契約を公表 ラムダとの契約は解消の可能性も",
+      "one_liner": "AnthropicがMicrosoftとGoogleに約100億ドルを追加投入",
+      "fingerprint": "35eaa88c4b650d355efa28073a251149",
+      "score": 81,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-d1b4321d",
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "title_ja": "Google、意思決定モデルの波に参入 「Gemini Decision 1」が1,000問を一括処理",
+      "one_liner": "Googleが1,000問を一括判定するAPIを公開",
+      "fingerprint": "d1b4321dfa0314109dbe4534df39fa66",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-df21c507",
+      "title": "C++ language server now auto-configures MSBuild builds",
+      "title_ja": "C++言語サーバーがMSBuildビルドを自動構成するように",
+      "one_liner": "C++言語サーバーがMSBuild設定を自動化",
+      "fingerprint": "df21c5076985cb94f4b17368c469d9b2",
+      "score": 64,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-fe4f0c58",
+      "title": "GitHub - tylertms/Stela: A general purpose Apple Silicon layer for x86-64 PCs",
+      "title_ja": "GitHub - tylertms/Stela: x86-64搭載PC向けの汎用Apple Siliconレイヤー",
+      "one_liner": "x86-64 PCでApple Siliconを扱う層、Stela",
+      "fingerprint": "fe4f0c58dfb86087ad72cb95f7cc2a33",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-faec3e89",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Semantic diffing of formal policies with anti-unification"
+    },
+    {
+      "item_id": "item-9153bdc4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference"
+    },
+    {
+      "item_id": "item-0a1f20fa",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An ensemble of graph generative models for assisted history matching of the Brugge field case"
+    },
+    {
+      "item_id": "item-4e9a5635",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI"
+    },
+    {
+      "item_id": "item-538f6a62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub App support for Enterprise Copilot seat management"
+    },
+    {
+      "item_id": "item-82a6a62c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 18, 2026"
+    },
+    {
+      "item_id": "item-f123a96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "item_id": "item-227fa51b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Routing Cloudflare Workers KV & Edge Form Submissions to Slack: A Serverless Speed-to-Lead Playbook"
+    },
+    {
+      "item_id": "item-6370b0ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gilbert + Tobin rethinks the business of law with AI"
+    },
+    {
+      "item_id": "item-63fe5ea5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering"
+    },
+    {
+      "item_id": "item-b7bb7cb4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "93% of Paint Splatters are Valid Perl Programs | Colin McMillen"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-9c466ea8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang"
+    },
+    {
+      "item_id": "item-e9280727",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The unfolding Jensen Huang scandal: a timeline"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-66149b12",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alleged Chinese Spy at Center of Nvidia Firestorm Is in Beijing"
+    },
+    {
+      "item_id": "item-2773495a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ChatGPT Plus for veterans and servicemembers"
+    },
+    {
+      "item_id": "item-ac4948ae",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Pete Hegseth Is About to Get His Ass Kicked"
+    }
+  ],
+  "score_cache": {
+    "fe4f0c58dfb86087ad72cb95f7cc2a33": {
+      "score": 62,
+      "title": "GitHub - tylertms/Stela: A general purpose Apple Silicon layer for x86-64 PCs",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Apple Silicon向けに設計されたソフトウェア層をx86-64 PCへ展開するプロジェクトで、CPUアーキテクチャの抽象化やバイナリ互換性、エミュレーション・変換技術に関わる点はエンジニア視点で興味深い。既存ソフトウェア資産を異なる命令セット上で動かせる可能性があり、開発環境や移植戦略に影響し得る。一方で、現時点ではGitHubプロジェクト単"
+    },
+    "6370b0ab268e3d05b9ffe4f9e3f7bf0b": {
+      "score": 43,
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] 法律事務所におけるAI活用や業務モデルの変化を扱う記事ですが、スニペットからは具体的な技術、アーキテクチャ、製品発表、導入効果が確認できません。AI関連ではあるものの、既出のAIトピックと重なる可能性が高く、技術革新そのものより法務ビジネスの運営・活用方針に焦点があるため減点しました。 [Editorial: AI-focused source +6"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 30,
+      "title": "Security",
+      "date": "2026-11-11",
+      "reason": "[ScoreCache 2026-11-11] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の詳細、影響範囲、対象製品、修正内容などの具体性がありません。セキュリティ関連ニュースは重要ではあるものの、提示情報だけでは技術的な新規性や業界への影響を評価できないため、低めのスコアとしました。 [Editorial: AI-focused source +"
+    },
+    "4e9a5635cb7c7403052a30117b7d7d24": {
+      "score": 54,
+      "title": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Spring AIとAmazon Bedrockを組み合わせ、ツール呼び出し、会話メモリ、レジリエンス、マルチエージェント構成、AWSへのデプロイまでを扱う実装志向の記事です。Java開発者にとって本番運用の具体性は高く、単なるモデル紹介より有用ですが、AIエージェント、Amazon Bedrock、AgentCore、モデル活用という直近に取り上げ"
+    },
+    "63fe5ea5a56cc03a0695759c4d37b2b3": {
+      "score": 41,
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] GitHub Copilotを活用した計画、実装、レビュー、障害調査までの開発プロセスを整理しており、AI支援開発をコード生成以外へ拡張する実務的な内容です。一方で、新しい基盤技術や製品発表ではなく、既存のCopilot／agentic開発という既出キーワードと同じ角度の解説記事です。そのため、開発者への実用性は評価しつつ、新規性と重複を考慮して減点"
+    },
+    "538f6a62a5414330a9d1c6bbb5976950": {
+      "score": 54,
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] GitHub AppからEnterprise向けCopilotのシート割り当てをAPI経由で自動管理できるようになり、ユーザーやチーム単位のプロビジョニング、入社・異動・退職時の権限変更、社内ガバナンスの自動化に有用です。エンタープライズ運用への実務的な影響はありますが、既存のCopilot管理機能を拡張するAPI連携であり、アーキテクチャや開発基盤"
+    },
+    "82a6a62c69656852313cdc2b1dacd647": {
+      "score": 47,
+      "title": "September 18, 2026",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新で、JupyterLabのブラウザ側ログや未処理例外、失敗したネットワーク要求をバックエンド経由でCloud Loggingへ転送できるようになった点は、クラウド開発環境の可観測性とデバッグ効率を高める実務的な改善です。ただし、既存プラットフォームの運用機能追加であり、アーキテクチャや開発 "
+    },
+    "e928072744b13fb7e23959f31cfc6762": {
+      "score": 32,
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] AIインフラ競争や国家安全保障への波及可能性はあるものの、記事の中心はJensen Huang氏を巡るスキャンダルの時系列整理であり、技術的な革新、製品発表、アーキテクチャ変更などの具体性に乏しいです。AI関連の既出テーマとも接点がありますが、明確な技術進展の続報ではないため、エンジニア視点での業界インパクトは限定的と評価します。 [Editoria"
+    },
+    "d1b4321dfa0314109dbe4534df39fa66": {
+      "score": 66,
+      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] マルチモーダル入力に対して最大1,000件のクローズドエンド質問を単一処理でき、150〜250msの低レイテンシと大幅な低コストをうたう点は、評価・分類・コンテンツ審査・業務自動化の実装効率を高める具体的な技術進展です。一方で、AIおよびモデル関連の話題は直近の既出キーワードと重複しており、基盤モデルそのもののブレークスルーというより特化型APIの発"
+    },
+    "f123a96a1cf652892cb6b33baecd3e4f": {
+      "score": 47,
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Grok Buildのコーディングエージェントが生成・公開した約35,000件のアプリから、認証不備により機密情報が誰でも閲覧可能になっていたという重大なセキュリティ事例です。AIエージェントの実運用におけるデフォルト公開設定、シークレット管理、生成物のアクセス制御という重要な設計課題を示しており、エンジニアへの示唆は大きい一方、技術革新そのものでは"
+    },
+    "ac4948ae2fdfe420e8b7bb9945922648": {
+      "score": 6,
+      "title": "Pete Hegseth Is About to Get His Ass Kicked",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] 米国防長官に対する弾劾準備を扱う政治ニュースであり、ソフトウェア開発、AI、クラウド、プログラミング言語、先端技術への直接的な関連がありません。一般消費者向けガジェットより技術との距離がさらに遠いため、最低評価帯としました。"
+    },
+    "66149b123c732389984844b49ee13187": {
+      "score": 27,
+      "title": "Alleged Chinese Spy at Center of Nvidia Firestorm Is in Beijing",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Nvidiaの経営や米中間の技術・安全保障に影響し得る話題ではあるものの、現時点のスニペットは「中国人スパイ疑惑の人物が帰国した」という報道にとどまり、AI半導体の設計、クラウド、ソフトウェア、開発者向け技術に関する具体的な新展開はありません。技術業界への影響は風評・地政学・コンプライアンス面が中心で、エンジニア視点での直接的な実装価値は低いため、低"
+    },
+    "35eaa88c4b650d355efa28073a251149": {
+      "score": 81,
+      "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] AnthropicがMicrosoftとGoogle向けに追加で約100億ドル規模のクラウド利用契約を開示し、さらにAWS系Lambdaとの349億ドル契約が取り消される可能性にも言及した点は、AI基盤の調達規模やクラウド事業者間の勢力関係に大きな影響を与える重要ニュースです。特に2033年までの長期コミットメントは、LLM開発における計算資源コスト"
+    },
+    "0434e4f95a3a54d548c30d106ae58abb": {
+      "score": 89,
+      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] AIエージェントを実験室の物理機器と接続し、シンクロトロンX線実験を閉ループで自律運用する具体的な実証であり、ソフトウェアエージェントの適用範囲を現実の科学研究へ拡張する点が非常に重要です。検証済み手法、監査可能性、人間が定義した目的を組み合わせているため、単なるモデル性能の報告より実運用への示唆が大きく、AI・ロボティクス・科学自動化の交差領域とし"
+    },
+    "0a1f20faa7959632f5f4825fd87e9f62": {
+      "score": 55,
+      "title": "An ensemble of graph generative models for assisted history matching of the Brugge field case",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] グラフオートエンコーダを用いて、複数の地質堆積環境を含む油田のヒストリーマッチングにおける非一意性を扱う、専門性の高い機械学習研究です。従来の手法では難しい地質モデルの不確実性や坑井間の適合差を、アンサンブル型の生成モデルで改善しようとしており、科学計算・エネルギー分野への応用価値があります。一方で、対象はBruggeフィールドのベンチマーク事例に限"
+    },
+    "9153bdc41c2bc5649fbc9725d0dd35da": {
+      "score": 60,
+      "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] ソーシャルメディアからうつ病質問票の回答を推定する際に、単なる意味類似検索ではなく、症状との関連性・本人への帰属・質問項目を支持する具体性を備えた明示的な証拠スパンを扱う研究であり、医療NLPや説明可能なAIにとって技術的な意義があります。特に、長期履歴から抽出した投稿を個別の症状項目に結び付ける設計は、推論結果の検証可能性を高めます。一方で、arX"
+    },
+    "227fa51bc7d5f8a6b27929c5058db3da": {
+      "score": 47,
+      "title": "Routing Cloudflare Workers KV & Edge Form Submissions to Slack: A Serverless Speed-to-Lead Playbook",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Cloudflare Workers、Workers KV、ctx.waitUntil()、レート制限、Slack Webhookを組み合わせ、フォーム送信から通知までのクリティカルパスをエッジで短縮する実践的なサーバーレス設計です。構成例やTypeScriptコード、KVの eventual consistency、通知失敗時の限界、Queuesや"
+    },
+    "b7bb7cb45bacd2a210f5399a8b721685": {
+      "score": 38,
+      "title": "93% of Paint Splatters are Valid Perl Programs | Colin McMillen",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Perlの柔軟で曖昧な構文解析を利用し、ランダムなペイントの飛沫の大部分が有効なPerlプログラムとして解釈されるという、言語仕様の特性を示す興味深い技術記事です。プログラミング言語のパーサーや文法設計を考える題材としては面白い一方、実務のアーキテクチャ、開発基盤、業界動向への影響は限定的で、実用的な新機能や重大な技術革新ではありません。"
+    },
+    "2773495a7f0af1893eda9e8c8aafe5c5": {
+      "score": 24,
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] 退役軍人や軍人へのChatGPT Plus無償提供と利用事例に関するニュースで、社会的な意義はあるものの、モデル性能や開発基盤、アーキテクチャに関する技術革新ではありません。さらに、既報のAIおよびアクセス関連トピックと近い内容であるため減点しました。 [Editorial: AI-focused source +6]"
+    },
+    "69aae818318905cf0b93a1723fd6fd2c": {
+      "score": 83,
+      "title": "Introducing the Anthropic Cyber Mission",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] Anthropicによるサイバーセキュリティ分野への新たな取り組みであり、AIを脅威分析や防御、攻撃シミュレーションなどに活用する可能性があるため、技術的な注目度は高いです。AI関連ではあるものの、タイトルだけでは基盤モデルの革新や業界構造を変える具体的な発表内容までは確認できず、90点以上には届きません。既出のAnthropic関連話題と重なる可能"
+    },
+    "faec3e892724303cae15f21a3428c335": {
+      "score": 61,
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] 形式化された認可ポリシーを、単純な文字列差分ではなく意味論に基づいて比較する手法は、IAM・ポリシーレビュー・セキュリティ監査の精度向上に有用です。anti-unificationによる決定論的なセマンティック差分とオープンソース実装という具体性も評価できます。一方で、対象はポリシー検証という比較的限定された開発者向け領域であり、AIやクラウド基盤そ"
+    },
+    "df21c5076985cb94f4b17368c469d9b2": {
+      "score": 64,
+      "title": "C++ language server now auto-configures MSBuild builds",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] C++向けLanguage ServerがMSBuildのコンパイルコマンド抽出を自動実行することで、GitHub Copilot CLIなどの開発エージェントが既存のC++ビルド環境を自力で理解・設定しやすくなります。C++特有の複雑なビルド構成における初期設定や解析エラーを減らす実用性は高く、開発者体験とツール連携の改善として評価できます。一方で"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 37,
+      "title": "September 28, 2026",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] 主な内容はAgent Platform WorkbenchのカスタムコンテナにおけるCritical/High CVEの一括修正と、Colab Enterpriseのデフォルトランタイムテンプレート設定機能です。クラウド開発基盤の運用性・安全性には有用ですが、既存機能の保守アップデートが中心で、アーキテクチャや開発モデルを大きく変える新規性は限定的で"
+    },
+    "9c466ea81fe25eabcc4ac1c4bf64d98c": {
+      "score": 35,
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "date": "2026-11-12",
+      "reason": "[Claude API Evaluation] NVIDIAはAI半導体およびデータセンター基盤で極めて重要な企業ですが、この記事は技術革新や製品・アーキテクチャの発表ではなく、CEO交代に関する未確定の取締役会報道です。経営方針、開発投資、CUDAやAIハードウェアのロードマップに影響する可能性はあるものの、現時点でエンジニアリング上の具体的な変化は示されていないため、重要度は低〜中程度と評価し"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-12/blog.md",
+    "show_notes_path": "out/2026-11-12/show_notes.md",
+    "script_path": "out/2026-11-12/script_2hosts.md",
+    "audio_path": "out/2026-11-12/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-12/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-12/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 42357,
+        "output_tokens": 11168,
+        "cost_usd": 0.021873
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45605,
+        "output_tokens": 9192,
+        "cost_usd": 0.18313
+      }
+    ],
+    "tts": {
+      "chars": 4428,
+      "audio_sec": 672.4,
+      "cost_usd": 0.129647
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.33465
+  }
+}

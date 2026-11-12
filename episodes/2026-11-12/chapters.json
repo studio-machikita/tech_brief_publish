@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.57,
+    "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+    "url": "https://arxiv.org/abs/2611.12933"
+  },
+  {
+    "start_sec": 133.74,
+    "title": "Introducing the Anthropic Cyber Mission",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+  },
+  {
+    "start_sec": 252.22,
+    "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled",
+    "url": "https://www.theinformation.com/briefings/anthropic-discloses-10-billion-new-deals-microsoft-google-says-lambda-deal-may-cancelled"
+  },
+  {
+    "start_sec": 351.68,
+    "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+    "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
+  },
+  {
+    "start_sec": 461.64,
+    "title": "C++ language server now auto-configures MSBuild builds",
+    "url": "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds"
+  },
+  {
+    "start_sec": 569.22,
+    "title": "GitHub - tylertms/Stela: A general purpose Apple Silicon layer for x86-64 PCs",
+    "url": "https://github.com/tylertms/Stela"
+  },
+  {
+    "start_sec": 655.29,
+    "title": "エンディング",
+    "url": null
+  }
+]
