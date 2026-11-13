@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#226 SGLang-Neuronを使ってAWS Trainium上で最先端AIモデルをデプロイ ほか</title>
+      <description>Tech News Radio Show Notes - #226 (2026-11-13)
+
+エピソード情報
+• エピソード: #226
+• 日付: 2026-11-13
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Deploy frontier AI models on AWS Trainium with SGLang-Neuron (https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/)
+• How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/)
+• How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/)
+• OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute (https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/)
+
+注目の深掘り
+• Foundation Models framework - Apple Developer (https://developer.apple.com/foundation-models-framework/)
+
+小ネタ・その他
+• How Amplitude ships product improvements in 1–2 days with OpenAI (https://openai.com/business/customer-stories/amplitude)
+• Claude Meetings lets Anthropic's AI join your video calls (https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-13/episode_audio.mp3" length="10747436" type="audio/mpeg" />
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-13</guid>
+      <itunes:duration>11:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>SGLang-Neuronを使ってAWS Trainium上で最先端AIモデルをデプロイ ほか</itunes:title>
+      <itunes:episode>226</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #226 (2026-11-13)
+
+エピソード情報
+• エピソード: #226
+• 日付: 2026-11-13
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Deploy frontier AI models on AWS Trainium with SGLang-Neuron (https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/)
+• How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/)
+• How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/)
+• OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute (https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/)
+
+注目の深掘り
+• Foundation Models framework - Apple Developer (https://developer.apple.com/foundation-models-framework/)
+
+小ネタ・その他
+• How Amplitude ships product improvements in 1–2 days with OpenAI (https://openai.com/business/customer-stories/amplitude)
+• Claude Meetings lets Anthropic's AI join your video calls (https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-13/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.610" title="Deploy frontier AI models on AWS Trainium with SGLang-Neuron" href="https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/" />
+        <psc:chapter start="00:01:56.770" title="How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:03:39.610" title="OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute" href="https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/" />
+        <psc:chapter start="00:05:33.020" title="Foundation Models framework - Apple Developer" href="https://developer.apple.com/foundation-models-framework/" />
+        <psc:chapter start="00:07:13.100" title="How Amplitude ships product improvements in 1–2 days with OpenAI" href="https://openai.com/business/customer-stories/amplitude" />
+        <psc:chapter start="00:09:04.120" title="Claude Meetings lets Anthropic's AI join your video calls" href="https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/" />
+        <psc:chapter start="00:10:40.660" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#225 自律型X線実験のための監査可能な人間・エージェント・チーム／Anthropicのサイバーミッションを発表 ほか</title>
       <description>Tech News Radio Show Notes - #225 (2026-11-12)
 

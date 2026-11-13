@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-13",
+  "episode_date_local": "2026-11-13",
+  "content_snapshot_date": "2026-11-13",
+  "show_length_sec": 671,
+  "audio_size": 10747436,
+  "generated_at": "2026-11-13T00:12:48.030763+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-1b8c9384",
+      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+      "title_ja": "SGLang-Neuronを使ってAWS Trainium上で最先端AIモデルをデプロイ",
+      "one_liner": "AWS Trainiumで、SGLangが使えるようになった",
+      "fingerprint": "1b8c93847127d6ac30ed96ba0f2348bb",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-6928d482",
+      "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+      "title_ja": "Nateraが、Amazon Bedrock AgentCoreを活用してラボ運用向けのエージェント型AIシステムを設計した方法",
+      "one_liner": "Natera、ラボ運用をAIエージェントで自動化",
+      "fingerprint": "6928d4821314c6640b693c06fecb4c5f",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-e38dcede",
+      "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+      "title_ja": "OpenAIのデータ、最先端モデルが思考を隠す理由は開発者が性能と計算効率を優先して最適化しているためと示唆",
+      "one_liner": "思考の中身が見えにくくなる最新AI",
+      "fingerprint": "e38dcede1b7fe7a95a777e9ecfe9dafc",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-eda0bbc2",
+      "title": "Foundation Models framework - Apple Developer",
+      "title_ja": "Foundation Modelsフレームワーク - Apple Developer",
+      "one_liner": "Apple開発者向けにFoundation Modelsを公開",
+      "fingerprint": "eda0bbc2cf9c057e0f7b10e8ef97504c",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Hacker News Top"
+      ]
+    },
+    {
+      "item_id": "item-be6f7a6a",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "title_ja": "AmplitudeがOpenAIを活用し、プロダクト改善を1〜2日でリリースする方法",
+      "one_liner": "AmplitudeがOpenAIで改善を1〜2日で出荷",
+      "fingerprint": "be6f7a6ab8a5fbb24fbb904a1fff064e",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-9c74f49f",
+      "title": "Claude Meetings lets Anthropic's AI join your video calls",
+      "title_ja": "Claude Meetings、AnthropicのAIがビデオ通話に参加可能に",
+      "one_liner": "ClaudeがGoogle Meetの会議に参加します",
+      "fingerprint": "9c74f49fdf6b8dac0be09f786d6dbfcd",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-dc07c361",
+      "reason": "LINK_ONLY: Source classified as joke: Anthropicの実在するモデル名として「Claude Fable 5.2」は不自然で、GitHub Copilotの公式告知を装った架空の製品名によるネタ記事と考えられます。内容も短い製品告知風で、実在の技術ニュースというよりジョーク目的の可能性が高いです。",
+      "title": "Claude Fable 5.2 in GitHub Copilot"
+    },
+    {
+      "item_id": "item-82a6a62c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 18, 2026"
+    },
+    {
+      "item_id": "item-538f6a62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub App support for Enterprise Copilot seat management"
+    },
+    {
+      "item_id": "item-f123a96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "item_id": "item-b104aad2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Samsung Is in Talks to Acquire Data Center Cooling Firm Modine"
+    },
+    {
+      "item_id": "item-a80db8fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Could potential AI clones of GTA VI force a quicker official port?"
+    },
+    {
+      "item_id": "item-7fdb1a39",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs"
+    },
+    {
+      "item_id": "item-a66e662b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gondola doubles revenue as its team builds more with Codex"
+    },
+    {
+      "item_id": "item-1a6be0f2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta’s Infrastructure Chief Is Leaving Amid Massive AI Buildout"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-e2140727",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Muse can now place calls to US businesses — if you pay"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-8df21502",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build once, run on any agent: A practical guide to agent skills"
+    },
+    {
+      "item_id": "item-63fe5ea5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-caac06da",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump"
+    },
+    {
+      "item_id": "item-99454b0a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Standup Anxiety: Why Sprint Planning Makes Developers Panic — CBT Reframes That Help"
+    },
+    {
+      "item_id": "item-30663904",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Roborock Robot Vacuum Early Black Friday Deals (2026)"
+    }
+  ],
+  "score_cache": {
+    "7fdb1a39528e12a695952912dce6eea9": {
+      "score": 45,
+      "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] 中国の最先端AIモデルに輸出規制対象のNVIDIA Blackwell GPU由来とみられる特徴が確認されたという内容で、モデルの学習基盤、半導体輸出規制、制裁回避の実態に関わる点は技術・産業面で重要です。一方、具体的なモデル名や検証手法、因果関係がスニペットから不明で、技術革新そのものというより分析・規制関連のニュースです。また、AIおよびモデル関"
+    },
+    "be6f7a6ab8a5fbb24fbb904a1fff064e": {
+      "score": 54,
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] AmplitudeがOpenAIモデルとコーディングエージェントを組み合わせ、課題発見から実装・効果測定までを短期間で回す実運用事例であり、AI活用の具体性と開発プロセスへの影響は大きい。一方で、基盤技術そのものの画期的な発明ではなく、既存のAIエージェント活用トレンドの企業導入事例に近い。さらに、AI・エージェント関連は直近放送済みのテーマと重複す"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 30,
+      "title": "Security",
+      "date": "2026-11-11",
+      "reason": "[ScoreCache 2026-11-11] [ScoreCache 2026-11-11] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の詳細、影響範囲、対象製品、修正内容などの具体性がありません。セキュリティ関連ニュースは重要ではあるものの、提示情報だけでは技術的な新規性や業界への影響を評価できないため、低めのスコアとしました。 [Editor"
+    },
+    "1b8c93847127d6ac30ed96ba0f2348bb": {
+      "score": 58,
+      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] SGLang-Neuronの一般公開により、AWS Trainium上でフロンティアAIモデルの推論や強化学習ロールアウトを、既存のSGLangインターフェースとネイティブPyTorchで実行できる点は、AI推論基盤と開発者体験の改善として重要です。AWS Deep Learning Container経由で導入しやすくなるため、NVIDIA GPU"
+    },
+    "8df215026dccc17ec7b7749bf7b30e76": {
+      "score": 41,
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] エージェント向けの反復可能な開発作業をファイルとして定義し、レビューや再利用を可能にする実践的な設計指針であり、開発ワークフローの標準化やホスト環境をまたいだ移植性に価値があります。一方で、基盤技術や新モデルの発表ではなく、既存のAIエージェント活用を整理したガイド記事です。また、直近に取り上げ済みの「agent」「AI」「Copilot」と同じエー"
+    },
+    "538f6a62a5414330a9d1c6bbb5976950": {
+      "score": 47,
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Enterprise GitHub AppsからCopilotのシート割り当てをAPI経由で自動制御できるようになり、ユーザーやチーム単位のプロビジョニング、入社・異動・退職時の運用自動化に有用です。企業向け開発者体験と管理基盤の改善として一定の実務価値はありますが、Copilot自体の新モデルや革新的な開発機能ではなく、既存サービスの管理API拡張"
+    },
+    "82a6a62c69656852313cdc2b1dacd647": {
+      "score": 49,
+      "title": "September 18, 2026",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、JupyterLabのクライアント側ログをバックエンド経由でCloud Loggingへ転送できるようになり、エラー調査や運用性が向上します。クラウド開発基盤として実務上の価値はありますが、主な内容は依存パッケージ更新とデバッグ機能の追加であり、アーキテクチャを大きく変える革新ではあ"
+    },
+    "caac06dad44d1eb0dde771b077ca27f6": {
+      "score": 27,
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Nvidiaの中国向け販売とトランプ氏との関係を巡る米議会の調査であり、技術革新やソフトウェア開発への直接的な新規性は乏しい法規制・政治リスク寄りのニュースです。半導体輸出規制や地政学はNvidiaの事業、AIインフラ調達、サプライチェーンに影響し得るものの、提示された内容は既存の調査の続報で、エンジニアリング上の具体的な変更も不明です。AI関連では"
+    },
+    "9c74f49fdf6b8dac0be09f786d6dbfcd": {
+      "score": 54,
+      "title": "Claude Meetings lets Anthropic's AI join your video calls",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] ClaudeをGoogle Meetに直接参加させ、会議中の議事録・文書・ホワイトボードをリアルタイム生成する点は、LLMを業務ワークフローへ組み込む具体的なプロダクト展開として重要です。Team／Enterprise向けベータであり、企業利用への影響も見込めます。一方で、基盤モデルやエージェント技術そのものの革新ではなく、既出のAI・Anthrop"
+    },
+    "f123a96a1cf652892cb6b33baecd3e4f": {
+      "score": 47,
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Grok Buildが生成した約35,000件のアプリが認証なしで公開され、SpaceX関連を含む機密情報まで露出したという、AIコーディングエージェントの運用設計とアクセス制御に関わる重大なセキュリティ事例です。影響範囲と具体性は高い一方、業界の前提を変える新技術ではなく、主題は脆弱な公開設定・データ保護というセキュリティ問題です。また、直近にAI"
+    },
+    "30663904dcf750a810af75101d2262ce": {
+      "score": 6,
+      "title": "Roborock Robot Vacuum Early Black Friday Deals (2026)",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] 一般消費者向けのロボット掃除機のセール情報であり、ソフトウェアエンジニアリングや技術アーキテクチャに関する新規性・業界影響はほぼありません。ロボティクス製品ではあるものの、技術革新の発表ではなく単なる値引き案内のため、最低評価帯としました。"
+    },
+    "b104aad2222a03e516a0569acdf9e926": {
+      "score": 47,
+      "title": "Samsung Is in Talks to Acquire Data Center Cooling Firm Modine",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] データセンター向け冷却技術は、AIや高密度計算基盤の拡大に伴って電力効率・ラック密度・運用コストを左右する重要なインフラ領域です。SamsungによるModine買収が実現すれば、半導体やサーバー関連事業と冷却システムを組み合わせた垂直統合につながる可能性があります。一方で、現時点では買収協議にとどまり、具体的な契約内容や技術統合の効果は不明です。先"
+    },
+    "1a6be0f24430f936d2cab4c43049bbfd": {
+      "score": 43,
+      "title": "Meta’s Infrastructure Chief Is Leaving Amid Massive AI Buildout",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Metaの大規模データセンター運用を統括する責任者の交代は、AI向け計算基盤やクラウド規模のインフラ戦略に影響し得るため、エンジニアリング面では一定の重要性があります。一方で、具体的なアーキテクチャ変更や新技術の発表ではなく、主題は経営・人事上の交代です。また、AIインフラおよびAmazon系クラウド人材に関する既出キーワードと重なるため減点し、業界"
+    },
+    "99454b0addd233e957e8f691f70bfced": {
+      "score": 20,
+      "title": "Standup Anxiety: Why Sprint Planning Makes Developers Panic — CBT Reframes That Help",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] 開発者のメンタルヘルスやスタンドアップ時の不安に焦点を当てた実用的な内容ですが、技術革新、ソフトウェアアーキテクチャ、プログラミング言語、クラウドなどへの直接的な影響はありません。CBTの認知再構成を開発チームの会議に適用し、簡易ツールも紹介している点は具体的ですが、個人のセルフケアやチーム運営上の助言に留まり、業界全体への新規性・影響範囲は限定的で"
+    },
+    "eda0bbc2cf9c057e0f7b10e8ef97504c": {
+      "score": 55,
+      "title": "Foundation Models framework - Apple Developer",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Appleが開発者向けにFoundation Models frameworkを提供する内容であれば、オンデバイスAIモデルをアプリへ組み込むためのAPI・開発基盤として技術的な重要度は高く、Appleプラットフォームのアーキテクチャにも影響します。一方で、AIおよびmodel関連の話題は直近の放送済みキーワードに該当するため20点減点しました。スニ"
+    },
+    "a66e662b345b2cf57024108ad1883ee5": {
+      "score": 44,
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] クリエイター向けスタートアップGondolaの売上倍増と、Codex導入によるリードエンジニアの生産性50%向上は、AIコーディング支援の実運用例として一定の注目度があります。一方で、業界全体のアーキテクチャや開発手法を変える新技術の発表ではなく、単一企業における導入効果の事例にとどまります。また、AIやChatGPTを活用した生産性向上という点は直"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 42,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] モデルの蒸留攻撃への防御強化は、AIモデルの不正な抽出・模倣を防ぐ重要なセキュリティテーマであり、API監視、出力制御、異常検知など実運用に影響します。一方で、記事のスニペットがなく具体的な技術革新や影響範囲を確認できないため、評価は控えめです。また、既出のAI・モデル・サイバー関連トピックと近い角度の続報と考えられるため、重複分を減点しています。 "
+    },
+    "6928d4821314c6640b693c06fecb4c5f": {
+      "score": 58,
+      "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore上でラボ運用向けのエージェント型AIを構築し、知識ベース化からデプロイ、評価までのアーキテクチャと、初回応答約130倍高速化・自動対応率96.2%という具体的な成果を示している点は、実運用を検討するエンジニアにとって有用です。一方で、既出キーワードであるAI、agentic、Amazon、Bedrock"
+    },
+    "63fe5ea5a56cc03a0695759c4d37b2b3": {
+      "score": 41,
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] GitHub Copilotを活用して計画、実装、レビュー、障害調査までを支援する「agentic engineering」の実践的な開発手法を扱っており、開発者の生産性やソフトウェア開発プロセスへの影響は大きい。一方で、基盤技術の新発表や業界の前提を変える革新ではなく、既出のAI・エージェント関連トピックと同じ角度が強いため20点減点した。 [Ed"
+    },
+    "dc07c361cbea9b9d17c61fd5162f3034": {
+      "score": 90,
+      "title": "Claude Fable 5.2 in GitHub Copilot",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Anthropicの最新モデルがGitHub Copilotで一般提供され、大規模コードベースに対する複雑な多段階コーディング作業へ利用可能になった点は、開発者向けAIの実用化として重要です。GitHub Copilotという広い導入基盤を通じて、コード生成だけでなく調査・修正・実装を含む開発ワークフローへの影響が見込まれます。一方で、モデル自体の発"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 43,
+      "title": "September 28, 2026",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新は、カスタムコンテナイメージに含まれるCritical/High CVEをまとめて修正する運用・セキュリティ関連のリリースであり、重要ではあるものの新しい技術的ブレークスルーではありません。Colab Enterpriseのランタイムテンプレートをプロジェクト・リージョン単位のデフォルトに設定でき"
+    },
+    "e2140727086a0e98750e33f0e5ee4d93": {
+      "score": 43,
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] AIが米国企業へ実際に発信し、電話で用件を処理する機能は、単なるチャットボットから現実世界の業務実行へ進む具体的な事例として技術的には注目に値します。一方で、対象が企業への電話発信に限定され、利用には追加料金が必要で、現時点での影響範囲や技術的な新規性は限定的です。また、AIエージェント関連は直近の放送済みキーワードと重複するため減点しました。 [E"
+    },
+    "e38dcede1b7fe7a95a777e9ecfe9dafc": {
+      "score": 58,
+      "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and com",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] フロンティアモデルのChain-of-Thought（思考過程）が、アーキテクチャや強化学習、計算資源・能力最適化によって監視しにくくなる要因を体系的に分析しており、AI安全性、評価、可監査性に関わる技術的な重要性は高い。一方で、現時点では新モデルや実装の発表ではなく、既存のAI・モデル安全性テーマに関する調査結果であるため、業界の前提を直ちに変える"
+    },
+    "a80db8fe70c3ba1d31c13d07210bb236": {
+      "score": 46,
+      "title": "Could potential AI clones of GTA VI force a quicker official port?",
+      "date": "2026-11-13",
+      "reason": "[Claude API Evaluation] AIクローンがGTA VIの公式移植時期に影響する可能性を扱う記事で、ゲーム開発や生成AIの競争環境という点には一定の興味深さがあります。ただし、現時点では元技術責任者の見解に基づく推測であり、具体的な技術発表や実装、公式方針の変更は示されていません。また、AI関連は既出キーワードに該当するため減点しました。 [Editorial: AI-focus"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-13/blog.md",
+    "show_notes_path": "out/2026-11-13/show_notes.md",
+    "script_path": "out/2026-11-13/script_2hosts.md",
+    "audio_path": "out/2026-11-13/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-13/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-13/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 26560,
+        "output_tokens": 10596,
+        "cost_usd": 0.018027
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45633,
+        "output_tokens": 9299,
+        "cost_usd": 0.184256
+      }
+    ],
+    "tts": {
+      "chars": 4347,
+      "audio_sec": 656.0,
+      "cost_usd": 0.126495
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.328779
+  }
+}

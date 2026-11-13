@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.61,
+    "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+    "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/"
+  },
+  {
+    "start_sec": 116.77,
+    "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 219.61,
+    "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+    "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/"
+  },
+  {
+    "start_sec": 333.02,
+    "title": "Foundation Models framework - Apple Developer",
+    "url": "https://developer.apple.com/foundation-models-framework/"
+  },
+  {
+    "start_sec": 433.1,
+    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+    "url": "https://openai.com/business/customer-stories/amplitude"
+  },
+  {
+    "start_sec": 544.12,
+    "title": "Claude Meetings lets Anthropic's AI join your video calls",
+    "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/"
+  },
+  {
+    "start_sec": 640.66,
+    "title": "エンディング",
+    "url": null
+  }
+]
