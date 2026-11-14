@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="AIが業務の「実行役」へ踏み出す日だった">
+<meta property="og:title" content="Tech News Radio — Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-14/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-11-14/">
+<meta property="og:description" content="AIが業務の「実行役」へ踏み出す日だった">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-11-14">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-11-14/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか",
+    "description": "2026-11-14 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-14",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-14/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-11-14/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか",
+    "description": "2026-11-14 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-14",
+    "url": "https://technewsradio.tokyo/episodes/2026-11-14/",
+    "duration": "PT11M57S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-14/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-14/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-14/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-11-14</h1>
+<p><em>📖 約16分で読めます ｜ 🏷️ Cloud, AI, DevOps, Business, Security</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>☁️ <strong>Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回)</strong> — ノーコードAIを本番運用に直結させたGS Caltex</li>
+<li>🤖 <strong>ChatGPTウォレットを発表</strong> — ChatGPTのAIが承認つきで買い物を代行</li>
+<li>🤖 <strong>GitHub CopilotでGemini 4 Hydrogenが利用可能に</strong> — Gemini 4 HydrogenがCopilotで一般提供に</li>
+<li>🤖 <strong>NVIDIA NeMo Switchyardで、Amazon Bedrock上のコーディングエージェントのリクエストを最適なモデルにルーティング</strong> — コーディングAIの依頼を最適なモデルへ振り分ける</li>
+<li>🤖 <strong>Shield、技術者がレガシーポータル業務をOpenAIに引き継ぐのを支援</strong> — ShieldがOpenAIで旧システムの作業を自動化</li>
+<li>☁️ <strong>JupyterLabのブラウザ側ログがCloud Loggingに集約</strong> — JupyterLabのブラウザ側ログがCloud Loggingに集約</li>
+</ul>
+<hr />
+<h2>☁️ Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回)</h2>
+<p><code>Cloud</code> <code>AI</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ノーコードAIを本番運用に直結させたGS Caltex</p>
+</blockquote>
+<ul>
+<li>GS CaltexがSageMaker CanvasとSageMaker Pipelinesを接続</li>
+<li>プロセスエンジニアのノーコードモデルを本番で稼働</li>
+<li>検証済みの前処理フローとモデルをMLエンジニアが再利用</li>
+<li>デプロイ期間は約1週間から数時間に短縮</li>
+<li>バッチ推論を30分ごとに実行</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+現場のプロセスエンジニアは、コードを書かずにAIモデルを作れるノーコードツールを使えます。しかし、作ったモデルを本番で動かす段階で、MLエンジニアによる作り直しが必要になる例が少なくありません。この引き継ぎが、現場発のAI活用を遅らせる壁になっています。今回のGS Caltexの事例は、Amazon SageMaker Canvasで作ったモデルをAmazon SageMaker Pipelinesにつなぎ、この壁を下げる試みです。現場の知見と本番運用の仕組みを橋渡しする、MLOps（機械学習の開発から運用までを回す仕組み）の実例として注目できます。 ノーコードツールで作ったモデルを、そのまま本番の運用基盤に乗せる流れが広がると見られます。業務を熟知した現場担当者がモデルを作り、MLエンジニアが運用品質を担保する分業が定着していくでしょう。その結果、AIの導入速度は上がり、MLエンジニアは作り直しではなく、基盤の整備や改善に時間を使えるようになります。一方で、現場が作ったモデルの品質をどう検証し、誰が責任を持つかというガバナンス（統制）の設計が、今後の課題になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社で現場の担当者が作ったモデルが、本番に出るまでの手順と所要時間を洗い出してみてください。引き継ぎで作り直しが発生しているなら、前処理フローやモデルを再利用できる形にそろえる価値があります。次に、現場とMLエンジニアの役割分担を決め、検証済みの成果物だけを本番に流す仕組みを小さな案件で試すのがおすすめです。リーダーは、デプロイ期間の短縮を成果指標に置くと、改善の効果を測りやすくなります。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/">原文を読む</a></p>
+<hr />
+<h2>🤖 ChatGPTウォレットを発表</h2>
+<p><code>AI</code> <code>Business</code> <code>Security</code></p>
+<details><summary>📄 原題: Introducing ChatGPT Wallet</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ChatGPTのAIが承認つきで買い物を代行</p>
+</blockquote>
+<ul>
+<li>OpenAIがChatGPT Walletを発表</li>
+<li>ChatGPT Work、Codex、dotsのエージェントが購入を実行</li>
+<li>購入時はユーザーの承認が必要</li>
+<li>既存のカード保護の仕組みをそのまま利用</li>
+<li>安全にAIが決済まで進める仕組み</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントは、調べ物や作業の代行まで進んできました。次の課題は、お金が動く操作を任せることです。購入には誤操作や不正利用のリスクがあり、利用者の同意が欠かせません。ChatGPT Walletは、ユーザーの承認とカードの既存保護を組み合わせて、安全に決済まで任せられる形を目指すものと見られます。 AIが決済まで担うことで、調査から購入までが一続きの流れになりそうです。ECサイトや決済事業者は、人間の画面操作だけでなく、AIエージェントからの購入を前提に設計を見直す必要が出てくるでしょう。一方で、責任の所在や不正対策のルール作りも、業界全体の課題になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、自社サービスがAIエージェント経由の購入を受け入れられるか、早めに点検するとよいでしょう。承認画面の設計や、操作ログの残し方も確認したい点です。リーダーは、AIに決済を任せる範囲と上限額を、社内ルールとして先に決めておくことをおすすめします。</p>
+<p>🔗 <a href="https://openai.com/index/introducing-chatgpt-wallet">原文を読む</a></p>
+<p>🔗 <a href="https://openai.com/index/introducing-businesses-chatgpt">原文を読む</a></p>
+<p>🔗 <a href="https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/">原文を読む</a></p>
+<hr />
+<h2>🤖 GitHub CopilotでGemini 4 Hydrogenが利用可能に</h2>
+<p><code>AI</code> <code>LLM</code> <code>DevOps</code></p>
+<details><summary>📄 原題: Gemini 4 Hydrogen in GitHub Copilot</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Gemini 4 HydrogenがCopilotで一般提供に</p>
+</blockquote>
+<ul>
+<li>GoogleのFlash系最新モデル、Gemini 4 Hydrogenが登場</li>
+<li>GitHub Copilotで一般提供（GA）を開始</li>
+<li>高速で効率的なエージェント型コーディングが狙い</li>
+<li>ツール利用や複数ステップの作業にも対応</li>
+<li>指示への追従性が改善されたとのこと</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIによるコーディング支援は、コード補完から、自分で作業を進める「エージェント型」へ移りつつあります。この流れでは、応答の速さと実行コストの低さが重要になります。Flash系は、軽くて速いことを特徴とするGoogleのモデル群です。そのため、GitHub Copilotで選べるモデルが増えることは、開発者にとって使い分けの幅が広がることを意味します。GitHub CopilotがOpenAIやAnthropicなど複数社のモデルを選べる場になっている点も、背景にあります。 Copilotのように、複数社のモデルから選べる開発環境が広がると、モデル間の競争が強まります。開発者は用途に応じて、速さ重視か精度重視かを選べるようになります。その結果、高性能な大型モデルと、軽くて速いモデルを使い分ける運用が、開発現場で当たり前になる可能性があります。エージェント型の開発が広がれば、コードを書く作業は減り、AIに指示を出して結果を確認する作業が増えていくと見られます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自分のチームでGemini 4 Hydrogenを試し、既存のモデルと比べてみましょう。比べる項目は、応答の速さ、指示の守られ方、複数ステップの作業の安定性です。次に、定型的な修正やテスト作成など、速さが活きる作業から使ってみるのがおすすめです。リーダーは、モデルの使い分けルールやコストの目安を早めに決めておくと、導入後の混乱を減らせます。なお、利用できるプランや設定はGitHubの公式ドキュメントで確認してください。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot">原文を読む</a></p>
+<hr />
+<h2>🤖 NVIDIA NeMo Switchyardで、Amazon Bedrock上のコーディングエージェントのリクエストを最適なモデルにルーティング</h2>
+<p><code>AI</code> <code>LLM</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: コーディングAIの依頼を最適なモデルへ振り分ける</p>
+</blockquote>
+<ul>
+<li>指標は1トークンの単価ではなく、課題1件あたりのコスト</li>
+<li>AWS CDKで、LiteLLMとNVIDIA NeMo Switchyardをデプロイ</li>
+<li>実行基盤はAmazon Bedrock</li>
+<li>ルーティングしたモデル群と単一モデルのコストを比較</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+コーディングエージェントは、複数のタスクに分けて作業を進めます。そのため、トークン単価が安くても、失敗ややり直しが多ければ、課題を解決するまでの総コストは膨らみます。そこで、1件の課題を解決するまでにいくらかかったかを見る考え方が重要になります。簡単な依頼には軽いモデルを、難しい依頼には高性能なモデルを選べば、コストと品質の両立を狙えます。この記事は、その仕組みをAmazon Bedrock上で試す手順を示しているようです。 AIエージェントの利用が広がると、モデルを1つに固定する運用は、コストの面で見直されていくと見られます。依頼ごとにモデルを振り分けるルーティングは、AI基盤の標準的な構成要素になる可能性があります。また、モデルの比較や評価でも、トークン単価や性能スコアだけでなく、課題解決あたりのコストを見る流れが強まりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社のコーディングエージェントで、課題1件あたりのコストを測ってみましょう。次に、単一モデルの運用と、ルーティングを入れた運用を比べます。AWS CDKでLiteLLMとNVIDIA NeMo Switchyardを試せるそうなので、小さな検証環境から始めるのがおすすめです。結果を見て、どの種類の依頼をどのモデルに任せるか、方針を決めるとよいでしょう。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/">原文を読む</a></p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/">原文を読む</a></p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/">原文を読む</a></p>
+<hr />
+<h2>🤖 Shield、技術者がレガシーポータル業務をOpenAIに引き継ぐのを支援</h2>
+<p><code>AI</code> <code>Business</code> <code>Startup</code></p>
+<details><summary>📄 原題: Shield helps technicians hand off legacy portal work with OpenAI</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: ShieldがOpenAIで旧システムの作業を自動化</p>
+</blockquote>
+<ul>
+<li>ShieldがOpenAIを使い、ITの現場作業を支援</li>
+<li>対象は古いポータル（管理画面）での引き継ぎ作業</li>
+<li>Forgeというエージェントがシステム内を自動で操作</li>
+<li>技術者は判断が必要な問題に集中できる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+企業のIT現場には、古い管理ポータルがまだ多く残っています。画面を開いて情報を探し、手で操作する作業は、技術者の時間を大きく奪います。こうした古いシステムは、APIなどの連携手段が整っていないことも多く、自動化が難しいとされてきました。Shieldの取り組みは、AIエージェントが人のように画面を操作する形で、この壁を越えようとするものと見られています。単純な操作はAIに任せ、人は判断が必要な仕事に集中する。この役割分担が現場で動き始めたことが、記事の注目点です。 古いシステムを無理に作り替えなくても、AIエージェントを間に挟んで業務を自動化できる道が広がる可能性があります。レガシーシステム（古い基盤）の延命と効率化が進めば、移行コストを抑えられるでしょう。一方で、技術者の仕事は「手を動かす作業」から「AIの結果を確認し、判断する仕事」へ移っていくと考えられます。同様のエージェント活用は、IT運用の分野で広がっていきそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社の運用で繰り返し発生している画面操作を洗い出し、自動化の候補を絞りましょう。次に、AIに任せる範囲と、人が判断する範囲を分けて決めておくことが大切です。エージェントが操作する際の権限は最小限にし、操作の記録を残す仕組みも用意してください。最初は影響の小さい作業で試し、結果を確認しながら対象を広げていくのが安全です。</p>
+<p>🔗 <a href="https://openai.com/business/customer-stories/shield">原文を読む</a></p>
+<hr />
+<h2>☁️ JupyterLabのブラウザ側ログがCloud Loggingに集約</h2>
+<p><code>Cloud</code> <code>DevOps</code> <code>Data</code></p>
+<details><summary>📄 原題: September 18, 2026</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: JupyterLabのブラウザ側ログがCloud Loggingに集約</p>
+</blockquote>
+<ul>
+<li>Agent Platform Workbench v2の新リリース(20260918-2230-rc0)</li>
+<li>JupyterLabがクライアント側ログをインスタンスのバックエンドへ転送</li>
+<li>対象はコンソールエラーや未捕捉の例外など4種類</li>
+<li>未処理のPromise拒否と失敗したネットワークリクエストも含む</li>
+<li>ログはCloud Loggingに表示され、デバッグが楽になる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+ブラウザ上で動くJupyterLabは、画面の不具合やエラーがユーザーの手元のブラウザにしか残らないことが多く、原因調査に手間がかかっていました。今回の更新で、そうしたクライアント側のログがサーバー側のログ基盤（Cloud Logging）に集まるようになります。どの環境で何が起きたかを、運用側が後から追いやすくなります。なお、今回のリリースは上流の依存パッケージの更新も含んでいます。 ノートブック環境でも、ブラウザ側の問題をサーバー側と同じ場所で監視する流れが広がると見られます。フロントエンドとバックエンドのログを一元管理できれば、障害対応や問い合わせ調査の時間を短くできます。データサイエンス基盤の運用でも、オブザーバビリティ（可観測性）を重視する動きが続きそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Workbenchを使っているチームは、まず新しいリリースが自分の環境に適用されているか確認してください。そのうえで、Cloud Loggingでクライアント側のエラーを検索・集計する方法を試してみましょう。アラートやログベースの指標に組み込めば、ユーザーからの報告を待たずに不具合へ気づけます。ログに機密情報が含まれないかや、保存期間と閲覧権限の設定も見直しておくと安心です。</p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースに共通しているのは、AIが「試して眺める存在」から「実業務や日常の行動に深く組み込まれる実行主体」へと役割を変えつつある点です。GSカルテックスの事例では、ノーコードのAIツールが実験にとどまらず本番運用(MLOps)に直結する段階に入り、ChatGPTウォレットではAIが承認つきとはいえユーザーに代わって購買という実際の取引を担い、GitHub CopilotへのGemini 4 Hydrogenの提供は開発現場の日常的なワークフローに最先端モデルが直接組み込まれる流れを示しています。また、モデルの選択肢が増えるCopilotの動きや、専門家以外にもAI活用の門戸を開くノーコード化からは、AIの利用基盤が特定ベンダーや専門人材に閉じず、より民主化・多様化していることもうかがえます。一方で、決済の承認フローに見られるように、AIの自律性が高まるほど人間による確認やガバナンスを設計に組み込むことが重要になっており、業界は「どれだけ賢いか」から「どれだけ安全かつ確実に運用できるか」へと競争軸を移しつつあるといえるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回)</strong>: まず、自社で現場の担当者が作ったモデルが、本番に出るまでの手順と所要時間を洗い出してみてください。引き継ぎで作り直しが発生しているなら、前処理フローやモデルを再利用できる形にそろえる価値があります。次に、現場とMLエンジニアの役割分担を決め、検証済みの成果物だけを本番に流す仕組みを小さな案件で試すのがおすすめです。リーダーは、デプロイ期間の短縮を成果指標に置くと、改善の効果を測りやすくなります。</li>
+<li><strong>ChatGPTウォレットを発表</strong>: エンジニアは、自社サービスがAIエージェント経由の購入を受け入れられるか、早めに点検するとよいでしょう。承認画面の設計や、操作ログの残し方も確認したい点です。リーダーは、AIに決済を任せる範囲と上限額を、社内ルールとして先に決めておくことをおすすめします。</li>
+<li><strong>GitHub CopilotでGemini 4 Hydrogenが利用可能に</strong>: まず、自分のチームでGemini 4 Hydrogenを試し、既存のモデルと比べてみましょう。比べる項目は、応答の速さ、指示の守られ方、複数ステップの作業の安定性です。次に、定型的な修正やテスト作成など、速さが活きる作業から使ってみるのがおすすめです。リーダーは、モデルの使い分けルールやコストの目安を早めに決めておくと、導入後の混乱を減らせます。なお、利用できるプランや設定はGitHubの公式ドキュメントで確認してください。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/">Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回)</a></li>
+<li><a href="https://openai.com/index/introducing-chatgpt-wallet">ChatGPTウォレットを発表</a></li>
+<li><a href="https://openai.com/index/introducing-businesses-chatgpt">ChatGPTウォレットを発表</a></li>
+<li><a href="https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/">ChatGPTウォレットを発表</a></li>
+<li><a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot">GitHub CopilotでGemini 4 Hydrogenが利用可能に</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/">NVIDIA NeMo Switchyardで、Amazon Bedrock上のコーディングエージェントのリクエストを最適なモデルにルーティング</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/">NVIDIA NeMo Switchyardで、Amazon Bedrock上のコーディングエージェントのリクエストを最適なモデルにルーティング</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/">NVIDIA NeMo Switchyardで、Amazon Bedrock上のコーディングエージェントのリクエストを最適なモデルにルーティング</a></li>
+<li><a href="https://openai.com/business/customer-stories/shield">Shield、技術者がレガシーポータル業務をOpenAIに引き継ぐのを支援</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026">JupyterLabのブラウザ側ログがCloud Loggingに集約</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026">JupyterLabのブラウザ側ログがCloud Loggingに集約</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026">JupyterLabのブラウザ側ログがCloud Loggingに集約</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #227 (2026-11-14)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #227</li>
+<li><strong>日付</strong>: 2026-11-14</li>
+<li><strong>尺</strong>: 約 11 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/">Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1</a></li>
+<li><a href="https://openai.com/index/introducing-chatgpt-wallet">Introducing ChatGPT Wallet</a></li>
+<li><a href="https://openai.com/index/introducing-businesses-chatgpt">Introducing ChatGPT Wallet</a></li>
+<li><a href="https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/">Introducing ChatGPT Wallet</a></li>
+<li><a href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot">Gemini 4 Hydrogen in GitHub Copilot</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/">Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/">Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/">Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://openai.com/business/customer-stories/shield">Shield helps technicians hand off legacy portal work with OpenAI</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026">September 18, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026">September 18, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026">September 18, 2026</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Amazon%20SageMaker%20Canvas%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8BGS%E3%82%AB%E3%83%AB%E3%83%86%E3%83%83%E3%82%AF%E3%82%B9%E3%81%AE%E6%9C%AC%E7%95%AAMLOps%28%E7%AC%AC1%E5%9B%9E%29%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-11-14/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-11-14/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

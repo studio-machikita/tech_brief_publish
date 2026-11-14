@@ -25,6 +25,84 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#227 Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか</title>
+      <description>Tech News Radio Show Notes - #227 (2026-11-14)
+
+エピソード情報
+• エピソード: #227
+• 日付: 2026-11-14
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1 (https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/)
+• Introducing ChatGPT Wallet (https://openai.com/index/introducing-chatgpt-wallet)
+• Introducing ChatGPT Wallet (https://openai.com/index/introducing-businesses-chatgpt)
+• Introducing ChatGPT Wallet (https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)
+• Gemini 4 Hydrogen in GitHub Copilot (https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot)
+
+注目の深掘り
+• Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard (https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/)
+• Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard (https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/)
+• Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard (https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/)
+
+小ネタ・その他
+• Shield helps technicians hand off legacy portal work with OpenAI (https://openai.com/business/customer-stories/shield)
+• September 18, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026)
+• September 18, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026)
+• September 18, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-14/episode_audio.mp3" length="11473196" type="audio/mpeg" />
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-14</guid>
+      <itunes:duration>11:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか</itunes:title>
+      <itunes:episode>227</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #227 (2026-11-14)
+
+エピソード情報
+• エピソード: #227
+• 日付: 2026-11-14
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1 (https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/)
+• Introducing ChatGPT Wallet (https://openai.com/index/introducing-chatgpt-wallet)
+• Introducing ChatGPT Wallet (https://openai.com/index/introducing-businesses-chatgpt)
+• Introducing ChatGPT Wallet (https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)
+• Gemini 4 Hydrogen in GitHub Copilot (https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot)
+
+注目の深掘り
+• Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard (https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/)
+• Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard (https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/)
+• Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard (https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/)
+
+小ネタ・その他
+• Shield helps technicians hand off legacy portal work with OpenAI (https://openai.com/business/customer-stories/shield)
+• September 18, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026)
+• September 18, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_14_2026)
+• September 18, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_13_2026)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-14/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.470" title="Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1" href="https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/" />
+        <psc:chapter start="00:02:41.530" title="Introducing ChatGPT Wallet" href="https://openai.com/index/introducing-chatgpt-wallet" />
+        <psc:chapter start="00:04:20.860" title="Gemini 4 Hydrogen in GitHub Copilot" href="https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot" />
+        <psc:chapter start="00:06:08.290" title="Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard" href="https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/" />
+        <psc:chapter start="00:08:05.510" title="Shield helps technicians hand off legacy portal work with OpenAI" href="https://openai.com/business/customer-stories/shield" />
+        <psc:chapter start="00:10:01.200" title="September 18, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_18_2026" />
+        <psc:chapter start="00:11:27.070" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#226 SGLang-Neuronを使ってAWS Trainium上で最先端AIモデルをデプロイ ほか</title>
       <description>Tech News Radio Show Notes - #226 (2026-11-13)
 
