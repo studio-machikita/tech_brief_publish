@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#228 Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか</title>
+      <description>Tech News Radio Show Notes - #228 (2026-11-15)
+
+エピソード情報
+• エピソード: #228
+• 日付: 2026-11-15
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures (https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/)
+• Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 (https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/)
+• Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime (https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/)
+
+注目の深掘り
+• Anthropic CEO Amodei admits "there's a huge uncertainty in what's going to happen next year" days before a record IPO (https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/)
+
+小ネタ・その他
+• September 28, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026)
+• September 28, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026)
+• September 28, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_21_2026)
+• Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets (https://arxiv.org/abs/2611.14544)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-15/episode_audio.mp3" length="11484332" type="audio/mpeg" />
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-15</guid>
+      <itunes:duration>11:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか</itunes:title>
+      <itunes:episode>228</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #228 (2026-11-15)
+
+エピソード情報
+• エピソード: #228
+• 日付: 2026-11-15
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures (https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/)
+• Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 (https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/)
+• Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime (https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/)
+
+注目の深掘り
+• Anthropic CEO Amodei admits "there's a huge uncertainty in what's going to happen next year" days before a record IPO (https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/)
+
+小ネタ・その他
+• September 28, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026)
+• September 28, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026)
+• September 28, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_21_2026)
+• Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets (https://arxiv.org/abs/2611.14544)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-15/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:20.920" title="OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures" href="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/" />
+        <psc:chapter start="00:02:22.750" title="Anthropic says outdated prompting habits are slowing down Claude Opus 5.5" href="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/" />
+        <psc:chapter start="00:04:12.300" title="Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime" href="https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/" />
+        <psc:chapter start="00:05:40.970" title="Anthropic CEO Amodei admits &quot;there's a huge uncertainty in what's going to happen next year&quot; days before a record IPO" href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/" />
+        <psc:chapter start="00:07:44.710" title="September 28, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026" />
+        <psc:chapter start="00:09:57.870" title="Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets" href="https://arxiv.org/abs/2611.14544" />
+        <psc:chapter start="00:11:26.860" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#227 Amazon SageMaker Canvasで実現するGSカルテックスの本番MLOps(第1回) ほか</title>
       <description>Tech News Radio Show Notes - #227 (2026-11-14)
 

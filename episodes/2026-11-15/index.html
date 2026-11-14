@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="AnthropicのIPO直前、Opus 5.5も話題に">
+<meta property="og:title" content="Tech News Radio — Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-15/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-11-15/">
+<meta property="og:description" content="AnthropicのIPO直前、Opus 5.5も話題に">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-11-15">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-11-15/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか",
+    "description": "2026-11-15 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-15",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-15/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-11-15/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか",
+    "description": "2026-11-15 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-15",
+    "url": "https://technewsradio.tokyo/episodes/2026-11-15/",
+    "duration": "PT11M57S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-15/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-15/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-15/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-11-15</h1>
+<p><em>📖 約15分で読めます ｜ 🏷️ AI, Cloud, Science, LLM, Business</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測</strong> — OpenFold3がSageMaker JumpStartで利用可能に</li>
+<li>🤖 <strong>Anthropic、古いプロンプトの習慣がClaude Opus 5.5の性能を妨げていると指摘</strong> — Opus 5.5、旧来のプロンプト術は不要に</li>
+<li>🤖 <strong>Amazon Bedrock AgentCoreランタイムでセッションを高速起動するためのアーキテクチャパターン</strong> — AgentCore V2でセッション開始が高速化します</li>
+<li>🤖 <strong>アンソロピックのアモデイCEO、史上最大級のIPOを数日後に控え「来年何が起こるかは極めて不透明」と認める</strong> — Anthropic、巨額IPO直前に不確実性を認める</li>
+<li>☁️ <strong>Workbenchの脆弱性修正とColabの機能追加</strong> — Workbenchの脆弱性修正とColabの機能追加</li>
+<li>🤖 <strong>Zugwise:手書きチェス棋譜用紙のデジタル化に向けた、ドメイン知識を活用したゲーム再構築</strong> — 手書きチェス棋譜を「対局の復元」として読む</li>
+</ul>
+<hr />
+<h2>🤖 Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Science</code></p>
+<details><summary>📄 原題: OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenFold3がSageMaker JumpStartで利用可能に</p>
+</blockquote>
+<ul>
+<li>OpenFold3-previewをAWSアカウント内にデプロイできる</li>
+<li>タンパク質、DNA、RNA、リガンド複合体の3D構造を予測</li>
+<li>非同期推論とマルチGPU並列処理に対応</li>
+<li>独自のMSA（多重配列アライメント）を持ち込める</li>
+<li>使わない時はゼロにスケールダウンしてコストを抑える</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+タンパク質の立体構造予測は、創薬や生命科学の研究を支える重要な技術です。ただ、モデルを動かすには高性能なGPUと環境構築が必要で、導入のハードルが高い面がありました。SageMaker JumpStartなら、モデルを自社のAWSアカウント内に展開できます。研究データを外部に出さずに済むため、機密性の高い配列情報を扱う企業や研究機関にも使いやすくなります。MSAを自分で用意できる点も、精度とプライバシーの両面で役立つと見られています。 構造予測モデルがマネージドサービスで手軽に使えるようになれば、創薬やバイオ分野で計算基盤を持たない組織も参入しやすくなります。クラウド事業者が科学計算向けモデルを標準メニューに加える流れは、今後も強まりそうです。利用量に応じた課金とゼロへのスケールダウンにより、小規模な研究チームでも試しやすくなり、研究開発のスピードと裾野の広がりにつながると考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+バイオ・創薬分野に関わるエンジニアは、まずJumpStartでOpenFold3-previewを小規模に試し、推論時間とコストを把握するとよいでしょう。リーダーは、扱う配列データの機密性を整理したうえで、自社アカウント内で運用する体制を検討してください。非同期推論やマルチGPUの設定は負荷に合わせて調整し、独自MSAを使った精度の比較も早めに試すことをおすすめします。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/">原文を読む</a></p>
+<hr />
+<h2>🤖 Anthropic、古いプロンプトの習慣がClaude Opus 5.5の性能を妨げていると指摘</h2>
+<p><code>AI</code> <code>LLM</code></p>
+<details><summary>📄 原題: Anthropic says outdated prompting habits are slowing down Claude Opus 5.5</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Opus 5.5、旧来のプロンプト術は不要に</p>
+</blockquote>
+<ul>
+<li>Claude Opus 5.5が全有料プランの標準モデルに</li>
+<li>Anthropicが新しいプロンプトの書き方ガイドを公開</li>
+<li>「think hard」のような古い指示は不要になった</li>
+<li>推奨は、まずMedium effortから始めること</li>
+<li>旧来の癖がモデルの動作を遅くすると指摘</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+これまでAIには「じっくり考えて」「深く考えて」と指示して精度を上げる手法が広く使われてきました。しかし、モデルが進化すると、こうした工夫がかえって邪魔になることがあります。今回Anthropicは、公式のガイドで旧来の癖を見直すよう呼びかけました。プロンプトの技術は、モデルの世代ごとに作り直す必要があることを示す事例です。また、effort（推論にかける労力の度合い）を段階で選ぶ設計は、精度と速度、コストのバランスを利用者が調整できる方向を示しています。 モデルの更新のたびに、プロンプトの書き方を見直す運用が当たり前になりそうです。過去に作り込んだ長い指示文が、新モデルでは性能を落とす原因になる場面も増えると見られています。一方で、effortを使い分ける考え方が広まれば、AIの利用コストや応答速度を細かく設計する文化が育つでしょう。プロンプトを一度作って終わりにせず、評価と改善を繰り返す開発体制が、これまで以上に重要になります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社のプロンプトに「think hard」のような古い決まり文句が残っていないか洗い出してください。次に、Medium effortから試し、品質が足りない場面だけ段階的に上げて、効果を比較します。応答速度や費用も同時に記録しておくと、判断しやすくなります。リーダーは、モデル更新時にプロンプトを再評価する手順を、チームの運用ルールに加えておくとよいでしょう。</p>
+<p>🔗 <a href="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon Bedrock AgentCoreランタイムでセッションを高速起動するためのアーキテクチャパターン</h2>
+<p><code>AI</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AgentCore V2でセッション開始が高速化します</p>
+</blockquote>
+<ul>
+<li>V2は初期化済みの環境をスナップショットとして保存</li>
+<li>新しいセッションごとにその状態を復元して開始</li>
+<li>イメージが大きくなっても開始時間は延びない設計</li>
+<li>セッション開始時間の測り方を解説</li>
+<li>最初のリクエストに処理を残さない4つのパターンを紹介</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIエージェントは、ユーザーが最初に話しかけた瞬間の待ち時間が使い心地を大きく左右します。従来は依存ライブラリやモデルが増えるほど、コンテナイメージ（実行環境の丸ごとのパッケージ）が大きくなり、起動も遅くなりがちでした。V2は初期化を終えた状態を保存して復元する仕組みで、この悩みに対処するものだそうです。 起動時間がイメージの大きさに左右されなくなれば、設計の自由度が上がります。必要な部品を多めに入れても、開始の遅さを気にしにくくなるでしょう。エージェント基盤の競争では、起動の速さが機能と並ぶ比較ポイントになっていくと見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、今のエージェントでセッション開始にかかる時間を測ってください。そのうえで、初期化処理のどこまでをスナップショットに含め、どこからを最初のリクエストで行うかを見直しましょう。記事が紹介する4つのパターンを、自分たちの構成に当てはめて検討するのがおすすめです。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/">原文を読む</a></p>
+<hr />
+<h2>🤖 アンソロピックのアモデイCEO、史上最大級のIPOを数日後に控え「来年何が起こるかは極めて不透明」と認める</h2>
+<p><code>AI</code> <code>Business</code> <code>Startup</code></p>
+<details><summary>📄 原題: Anthropic CEO Amodei admits &quot;there&#x27;s a huge uncertainty in what&#x27;s going to happen next year&quot; days before a record IPO</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Anthropic、巨額IPO直前に不確実性を認める</p>
+</blockquote>
+<ul>
+<li>Anthropicが史上最大級のIPOを数日後に控える</li>
+<li>CEOのAmodei氏は計算資源の購入を「最も深い経営上のジレンマ」と表現</li>
+<li>契約など支出の約束は合計で約9010億ドル</li>
+<li>将来の収益が費用に見合うかは不透明</li>
+<li>IPOは不確実性に備える資金的な緩衝材の役割が大きいと見られています</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+生成AIの開発では、モデルの学習や運用に膨大な計算資源（コンピュート）が必要です。先に大規模な設備投資を約束し、収益は後から付いてくる構図になっています。需要が読めない中で巨額の契約を抱えれば、見通しが外れたときの負担は大きくなります。CEO自身が「来年何が起きるか非常に不確実だ」と認めたことは、AI業界全体が抱える投資リスクを象徴しています。 AI企業の資金調達と収益化のペースが、業界全体の注目点になります。IPOで資金が集まれば、計算資源の確保競争はさらに激しくなりそうです。一方で収益が追いつかなければ、価格改定やサービス方針の見直しが起きる可能性もあります。クラウドや半導体を含む関連業界にも、需要の振れ幅という形で影響が広がると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、特定のAI提供元だけに依存しない設計を考えておくと安心です。モデルを切り替えやすい構成にし、利用料金の変動にも備えられます。リーダーは、AI関連のコストを定期的に見直し、費用対効果を数字で追う習慣をつけてください。ベンダーの経営状況やIPO後の動向も、契約や選定の判断材料として確認しておくとよいでしょう。</p>
+<p>🔗 <a href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/">原文を読む</a></p>
+<hr />
+<h2>☁️ Workbenchの脆弱性修正とColabの機能追加</h2>
+<p><code>Cloud</code> <code>Security</code> <code>Data</code></p>
+<details><summary>📄 原題: September 28, 2026</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Workbenchの脆弱性修正とColabの機能追加</p>
+</blockquote>
+<ul>
+<li>Agent Platform Workbench v2の新リリース（20260927.00_p0）</li>
+<li>上流の依存パッケージを最新版に更新</li>
+<li>カスタムコンテナイメージのCriticalとHighのCVEを一括修正</li>
+<li>Colab Enterpriseで既存テンプレートを既定に設定可能</li>
+<li>既定設定はプロジェクトとリージョンごと、アクセラレータの有無も選べる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+Workbenchのカスタムコンテナイメージには多くの依存パッケージが含まれます。そのため、脆弱性（CVE）が見つかるたびに更新が必要になります。今回のリリースは、深刻度が高い脆弱性をまとめて修正する定期的なメンテナンスの一環と見られます。一方、Colab Enterpriseのランタイムテンプレート（実行環境の構成をひな形にしたもの）は、チームで環境をそろえる際に使われます。既定に設定できれば、新規ランタイムの作成時に毎回構成を選ぶ手間が減ります。 マネージドな機械学習・データ分析基盤では、セキュリティパッチの継続的な適用が基本機能として求められています。環境の標準化を管理者が簡単に行える機能も、今後さらに重視されると見られます。利用者がセキュリティ対応と環境管理にかける時間を減らし、本来の分析や開発に集中できる流れが進みそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+Workbenchでカスタムコンテナを使っている場合は、最新リリースの適用状況を確認してください。独自に追加したパッケージとの互換性にも注意が必要です。Colab Enterpriseの管理者は、プロジェクトとリージョンごとに既定のテンプレートを見直しましょう。アクセラレータ（GPUなど）の有無を含めて、チームの標準構成を決めておくとコストの無駄を防げます。</p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026">原文を読む</a></p>
+<p>🔗 <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_21_2026">原文を読む</a></p>
+<hr />
+<h2>🤖 Zugwise:手書きチェス棋譜用紙のデジタル化に向けた、ドメイン知識を活用したゲーム再構築</h2>
+<p><code>AI</code> <code>Data</code> <code>Science</code></p>
+<details><summary>📄 原題: Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 手書きチェス棋譜を「対局の復元」として読む</p>
+</blockquote>
+<ul>
+<li>手書き棋譜のデジタル化は、従来は手書き文字認識の課題として研究</li>
+<li>各マスの手を読み、合法かどうかを検査する方式が中心</li>
+<li>誤読で違法な手になれば発覚する。合法だが誤った手は見逃される</li>
+<li>見逃された誤読は、以降の手を誤った局面で読む原因になる</li>
+<li>Zugwiseは、この課題を対局の復元として扱うと提案</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+チェスの棋譜は一手ずつ前の局面を引き継ぎます。そのため、途中で一度でも誤読すると、後続の手がすべてずれた盤面で解釈されます。従来の手法は合法かどうかだけを確認していました。この方法では、合法に見える誤読が素通りします。文字を正しく読めたかどうかだけでなく、対局として筋が通るかを問う視点が、この研究の出発点だと見られています。 手書き文字認識など、前後の文脈が結果を左右する分野に広がる可能性があります。個々の文字や項目を読むだけでは、静かに混ざる誤りを防げません。業務の制約や手順の流れを知識として組み込み、全体の整合性で誤りを見つける設計が、今後の標準的な考え方になると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+手書き帳票や記録のデジタル化に関わるエンジニアは、認識精度だけでなく、誤りの種類を分けて評価してみてください。特に「エラーにならない誤り」がどこで起きるかを洗い出すことが大切です。そのうえで、前後の記録との整合性を確かめる仕組みを検討するとよいでしょう。リーダーは、検証ルールの合格率だけに頼らない品質指標を考えてみてください。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2611.14544">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースに共通するのは、AIの「モデルそのものの性能」だけでなく、それを実務で使いこなすための周辺環境が急速に成熟しつつあるという点です。OpenFold3のSageMaker JumpStart対応は、生体分子構造予測のような専門性の高い最先端モデルがマネージドサービス経由で手軽に試せるようになる流れを示し、AgentCoreのセッション高速化はエージェントを本番運用する際のレイテンシや運用負荷という現実的な課題への対処を表しています。一方、Claude Opus 5.5をめぐる指摘は、モデルが賢くなるほど従来の細かなプロンプト技法がむしろ足かせになりうることを示唆しており、利用者側の使い方も世代ごとに見直しが必要になっています。総じて業界の関心は、モデルの高度化とそれを支える基盤・運用の洗練、そして人間側の作法の更新という三層が同時に進む「実用化フェーズ」へと移っていると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測</strong>: バイオ・創薬分野に関わるエンジニアは、まずJumpStartでOpenFold3-previewを小規模に試し、推論時間とコストを把握するとよいでしょう。リーダーは、扱う配列データの機密性を整理したうえで、自社アカウント内で運用する体制を検討してください。非同期推論やマルチGPUの設定は負荷に合わせて調整し、独自MSAを使った精度の比較も早めに試すことをおすすめします。</li>
+<li><strong>Anthropic、古いプロンプトの習慣がClaude Opus 5.5の性能を妨げていると指摘</strong>: まず、自社のプロンプトに「think hard」のような古い決まり文句が残っていないか洗い出してください。次に、Medium effortから試し、品質が足りない場面だけ段階的に上げて、効果を比較します。応答速度や費用も同時に記録しておくと、判断しやすくなります。リーダーは、モデル更新時にプロンプトを再評価する手順を、チームの運用ルールに加えておくとよいでしょう。</li>
+<li><strong>Amazon Bedrock AgentCoreランタイムでセッションを高速起動するためのアーキテクチャパターン</strong>: まず、今のエージェントでセッション開始にかかる時間を測ってください。そのうえで、初期化処理のどこまでをスナップショットに含め、どこからを最初のリクエストで行うかを見直しましょう。記事が紹介する4つのパターンを、自分たちの構成に当てはめて検討するのがおすすめです。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/">Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測</a></li>
+<li><a href="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/">Anthropic、古いプロンプトの習慣がClaude Opus 5.5の性能を妨げていると指摘</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/">Amazon Bedrock AgentCoreランタイムでセッションを高速起動するためのアーキテクチャパターン</a></li>
+<li><a href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/">アンソロピックのアモデイCEO、史上最大級のIPOを数日後に控え「来年何が起こるかは極めて不透明」と認める</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026">Workbenchの脆弱性修正とColabの機能追加</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026">Workbenchの脆弱性修正とColabの機能追加</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_21_2026">Workbenchの脆弱性修正とColabの機能追加</a></li>
+<li><a href="https://arxiv.org/abs/2611.14544">Zugwise:手書きチェス棋譜用紙のデジタル化に向けた、ドメイン知識を活用したゲーム再構築</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #228 (2026-11-15)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #228</li>
+<li><strong>日付</strong>: 2026-11-15</li>
+<li><strong>尺</strong>: 約 11 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/">OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures</a></li>
+<li><a href="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/">Anthropic says outdated prompting habits are slowing down Claude Opus 5.5</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/">Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/">Anthropic CEO Amodei admits "there's a huge uncertainty in what's going to happen next year" days before a record IPO</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026">September 28, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_27_2026">September 28, 2026</a></li>
+<li><a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_21_2026">September 28, 2026</a></li>
+<li><a href="https://arxiv.org/abs/2611.14544">Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=Amazon%20SageMaker%20JumpStart%E3%81%A7OpenFold3%E3%81%8C%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E3%81%AB%3A%E7%94%9F%E4%BD%93%E5%88%86%E5%AD%90%E6%A7%8B%E9%80%A0%E3%82%92%E4%BA%88%E6%B8%AC%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-11-15/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-11-15/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

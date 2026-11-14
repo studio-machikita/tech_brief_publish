@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 20.92,
+    "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+    "url": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/"
+  },
+  {
+    "start_sec": 142.75,
+    "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+    "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/"
+  },
+  {
+    "start_sec": 252.3,
+    "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+    "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/"
+  },
+  {
+    "start_sec": 340.97,
+    "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+    "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/"
+  },
+  {
+    "start_sec": 464.71,
+    "title": "September 28, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#September_28_2026"
+  },
+  {
+    "start_sec": 597.87,
+    "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+    "url": "https://arxiv.org/abs/2611.14544"
+  },
+  {
+    "start_sec": 686.86,
+    "title": "エンディング",
+    "url": null
+  }
+]

@@ -1,0 +1,372 @@
+{
+  "date": "2026-11-15",
+  "episode_date_local": "2026-11-15",
+  "content_snapshot_date": "2026-11-15",
+  "show_length_sec": 717,
+  "audio_size": 11484332,
+  "generated_at": "2026-11-14T23:56:04.244951+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-811b4125",
+      "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "title_ja": "Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測",
+      "one_liner": "OpenFold3がSageMaker JumpStartで利用可能に",
+      "fingerprint": "811b41252d619b06e583f344ac372633",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-38523b5d",
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "title_ja": "Anthropic、古いプロンプトの習慣がClaude Opus 5.5の性能を妨げていると指摘",
+      "one_liner": "Opus 5.5、旧来のプロンプト術は不要に",
+      "fingerprint": "38523b5dc56091816ece88d00f6076d8",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-0fced803",
+      "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+      "title_ja": "Amazon Bedrock AgentCoreランタイムでセッションを高速起動するためのアーキテクチャパターン",
+      "one_liner": "AgentCore V2でセッション開始が高速化します",
+      "fingerprint": "0fced8034a29f2e10e651b85b510ed53",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-8d49488b",
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "title_ja": "アンソロピックのアモデイCEO、史上最大級のIPOを数日後に控え「来年何が起こるかは極めて不透明」と認める",
+      "one_liner": "Anthropic、巨額IPO直前に不確実性を認める",
+      "fingerprint": "8d49488bed8c6a1c348d0d2b9ac568fd",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "title": "September 28, 2026",
+      "title_ja": "Workbenchの脆弱性修正とColabの機能追加",
+      "one_liner": "Workbenchの脆弱性修正とColabの機能追加",
+      "fingerprint": "7dc08ade5f8a32458a8af08db87dccea",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    },
+    {
+      "item_id": "item-7ce19b94",
+      "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "title_ja": "Zugwise:手書きチェス棋譜用紙のデジタル化に向けた、ドメイン知識を活用したゲーム再構築",
+      "one_liner": "手書きチェス棋譜を「対局の復元」として読む",
+      "fingerprint": "7ce19b94bc632af247cdd4b952fadcd0",
+      "score": 47,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-538f6a62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub App support for Enterprise Copilot seat management"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-8df21502",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build once, run on any agent: A practical guide to agent skills"
+    },
+    {
+      "item_id": "item-9eb058df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Holiday Extras is rethinking what it can build with Codex"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-a66e662b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Gondola doubles revenue as its team builds more with Codex"
+    },
+    {
+      "item_id": "item-0fb26802",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December"
+    },
+    {
+      "item_id": "item-f123a96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "item_id": "item-0eaf924f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee"
+    },
+    {
+      "item_id": "item-bc538504",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nscale, Firmus Deals Hinge on Nvidia Extending Investment Sprint"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-7f13543d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Monitoring, Detection, and Response: The Watchers That Make Defence Possible"
+    },
+    {
+      "item_id": "item-9de8b696",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals"
+    },
+    {
+      "item_id": "item-783ed62d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang"
+    },
+    {
+      "item_id": "item-2afdc180",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Beware the New AI-Fueled Ransomware Boom"
+    },
+    {
+      "item_id": "item-9fc2715c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "By The Way: Headlines You May Have Missed"
+    },
+    {
+      "item_id": "item-4f913842",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "L3Harris Statement on the Nov. 13 Ground Stop"
+    },
+    {
+      "item_id": "item-deff871e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)"
+    }
+  ],
+  "score_cache": {
+    "4f913842dfb1504bed4b9a7246dc0846": {
+      "score": 18,
+      "title": "L3Harris Statement on the Nov. 13 Ground Stop",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] 航空機の運航停止に関する企業声明であり、現時点ではソフトウェア、AI、クラウド、開発者向け技術の革新や具体的な技術変更を示す内容ではありません。安全性や運用継続性の観点では重要ですが、技術者への直接的な影響範囲と新規性は限定的です。"
+    },
+    "a66e662b345b2cf57024108ad1883ee5": {
+      "score": 43,
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] AIコーディングツールの活用により、スタートアップの開発生産性が50%向上し、売上倍増にもつながったという具体的な事例は、エンジニアリング組織の実務面で参考になります。一方で、技術そのものの革新や新しいアーキテクチャの発表ではなく、単一企業の導入効果に留まります。また、直近放送済みのAI・OpenAI系トピックと同じく、AIによる開発効率化が主題であ"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 30,
+      "title": "Security",
+      "date": "2026-11-11",
+      "reason": "[ScoreCache 2026-11-11] [ScoreCache 2026-11-11] [ScoreCache 2026-11-11] [ScoreCache 2026-11-11] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の詳細、影響範囲、対象製品、修正内容などの具体性がありません。セキュリティ関連ニュースは重要ではあるものの、提示情報"
+    },
+    "0fced8034a29f2e10e651b85b510ed53": {
+      "score": 51,
+      "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore Runtime V2のスナップショット復元により、環境サイズに依存せずセッション起動時間を短縮する設計は、エージェント基盤の実装・運用に有用なアーキテクチャ上の進展です。初回リクエストに処理を寄せない4つの設計パターンや計測方法も実務的で、クラウド開発者への影響は比較的大きい一方、業界全体の前提を変え"
+    },
+    "8df215026dccc17ec7b7749bf7b30e76": {
+      "score": 46,
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] エージェント向けの反復可能な作業手順をファイルとして定義し、チームでレビュー・再利用する「agent skills」は、エージェント開発の標準化やホスト環境間の移植性に寄与する実務的な提案です。ツール、コンテキスト、権限を実行環境側に分離する設計も有用ですが、記事は実践ガイドであり、業界の前提を変える新規基盤や大規模な技術発表ではありません。また、既"
+    },
+    "0fb2680297658d09ffe3853684439a5f": {
+      "score": 43,
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] GitHub Copilotの複数モデルが全エクスペリエンスで廃止されるため、利用者や開発チームには設定確認・代替モデルへの移行・挙動差分の検証が必要になります。影響範囲と実務上の注意点は明確ですが、新しい技術革新ではなく、モデルのライフサイクル管理に関する運用通知です。さらに、既出キーワードであるGitHub、Copilot、modelに直接該当し"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 47,
+      "title": "September 28, 2026",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchのCritical/High severity CVE修正は、運用中のカスタムコンテナに対する実務上重要なセキュリティ対応ですが、新機能やアーキテクチャの革新ではなく、既存環境の保守・脆弱性 remediation が中心です。Colab Enterpriseのランタイムテンプレート既定化も、プロジェク"
+    },
+    "783ed62d3fd530aaaa4915b0c17331ab": {
+      "score": 25,
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] NVIDIAの経営トップ人事に関する署名運動であり、半導体業界や企業ガバナンスの観点では一定の注目度がありますが、現時点では技術革新、製品発表、アーキテクチャ変更などの具体的なエンジニアリング上の進展はありません。署名数も話題性を示すにとどまり、Jensen Huang氏の復帰やNVIDIAの事業方針に実際の影響が出るかは不透明なため、低めの評価とし"
+    },
+    "8d49488bed8c6a1c348d0d2b9ac568fd": {
+      "score": 49,
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Anthropicの巨額な計算資源投資と将来収益への不確実性は、LLM企業のスケール戦略やクラウド・GPU需要、IPO後の資本調達に影響する重要な論点です。一方で、技術的な新機能やアーキテクチャの発表ではなく、主題は経営・財務リスクです。またAnthropicやAI、モデル関連は直近放送済みのキーワードに該当するため、明確な技術革新というより続報・ビ"
+    },
+    "f123a96a1cf652892cb6b33baecd3e4f": {
+      "score": 43,
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Grok Buildのコーディングエージェントが生成した約35,000件のアプリを誰でも閲覧でき、SpaceX関連を含む機密情報が露出したという点で、開発者向けAIの実運用におけるアクセス制御・データ隔離・公開設定の重大な問題を示しています。影響規模は大きく具体性もありますが、主題は新技術の発表ではなくセキュリティ事故であり、評価基準上は低めです。ま"
+    },
+    "2afdc180a9021cda2bd51bcc3d7fbf01": {
+      "score": 23,
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] AIを悪用したランサムウェアの拡大は、攻撃の自動化や攻撃者の裾野拡大という点でセキュリティ上重要ですが、現時点では完全自動化には至っておらず、記事の内容も脅威動向の警告が中心です。AI関連は直近放送済みのキーワードに該当し、同じAI活用の話題として重複減点しました。エンジニア視点では、防御側の検知・権限管理・バックアップ運用への影響はあるものの、アー"
+    },
+    "9fc2715c03cea4257799205532144e94": {
+      "score": 23,
+      "title": "By The Way: Headlines You May Have Missed",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] 複数の話題を紹介するニュース roundup であり、具体的な技術発表、アーキテクチャ変更、製品仕様、実装上の知見が含まれていません。AI人材の高額報酬には関連性がありますが、既出キーワードであるAIに関する話題と重なり、かつ技術的な新展開も不明です。エンジニアにとっての実務的・技術的インパクトは限定的なため、低い評価としました。 [Editoria"
+    },
+    "bc538504d112d45fe20a991175bee847": {
+      "score": 42,
+      "title": "Nscale, Firmus Deals Hinge on Nvidia Extending Investment Sprint",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] NvidiaによるAIスタートアップ、クラウド事業者、基盤モデル企業への巨額投資が、経営トップの交代によって減速する可能性を扱っており、AIインフラの資金調達やGPU需要、クラウド事業者の成長戦略に影響し得る点は重要です。一方で、現時点では投資方針の変更が確定したニュースではなく、関係者の見通しが中心で、技術仕様や新製品の発表でもありません。AI投資"
+    },
+    "7ce19b94bc632af247cdd4b952fadcd0": {
+      "score": 47,
+      "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] 手書きチェス棋譜の認識を単純な文字認識ではなく、盤面状態・合法手・ゲーム全体の整合性を用いた「ゲーム再構成」として扱う点に新規性があります。合法だが誤った手を見逃すという、従来の合法性チェックの弱点に対して、ドメイン知識を組み込んだエラー検出・訂正を行うアプローチは、文書理解や構造化データ抽出にも応用可能です。一方で、対象がチェス棋譜という比較的限定"
+    },
+    "7f13543dee224ea4ff5399247f22b64e": {
+      "score": 30,
+      "title": "Monitoring, Detection, and Response: The Watchers That Make Defence Possible",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] 監視、検知、IPS、インシデント対応、SIEM、SOCといったセキュリティ運用の基本要素を体系的に整理しており、実務上の教育価値はあります。特にベースライン、誤検知、アラート疲れ、暗号化による可視性低下、dwell timeなど、現場で重要な論点にも触れています。一方で、新しい製品、研究成果、脆弱性、攻撃手法、アーキテクチャ上の革新を扱うニュースでは"
+    },
+    "9de8b6962f84375853447827a4b6b940": {
+      "score": 30,
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] NVIDIAのGPU価格や市場構造、クラウド事業者との資金循環に関わる重要なビジネスニュースですが、技術仕様やアーキテクチャの革新ではありません。事実であればGPU調達コスト、AIインフラのTCO、クラウド事業者の設備投資判断に影響し得る一方、主眼は企業慣行・市場競争・財務面にあり、エンジニアリング上の直接的な新規性は限定的です。"
+    },
+    "9eb058df1076a9c0255bf0a0c420d3e8": {
+      "score": 44,
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Codexを活用して顧客知識をアプリ改善や予約コンバージョン向上につなげる実務事例であり、AIによるソフトウェア開発の現場適用としては有用です。一方で、具体的なアーキテクチャ、開発生産性の定量効果、技術的な新規性はスニペットから確認できず、Holiday Extras固有の導入事例にとどまります。既にAIやエージェント関連の話題が取り上げ済みで、同じ"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 44,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] AIモデルの出力を利用して別モデルを訓練する蒸留攻撃への防御は、モデル流出や競争上の優位性に関わる重要なセキュリティテーマです。一方で、記事タイトルだけでは具体的な防御手法や実装、業界への影響範囲が不明で、既出のAI・モデル関連トピックとも重なります。技術的な重要性はあるものの、画期的な新規アーキテクチャや大規模な製品発表と判断できないため、中程度の"
+    },
+    "811b41252d619b06e583f344ac372633": {
+      "score": 92,
+      "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] タンパク質・DNA・RNA・リガンド複合体の3D構造を予測するOpenFold3-previewを、Amazon SageMaker JumpStart上で実運用しやすくする具体的な技術記事です。非同期推論、マルチGPU並列化、独自MSAの持ち込みによる精度・プライバシー向上、スケール・トゥ・ゼロによるコスト削減など、AI基盤と計算生物学の両面で実装"
+    },
+    "538f6a62a5414330a9d1c6bbb5976950": {
+      "score": 47,
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Enterprise GitHub AppsからCopilotのライセンス割り当てを自動制御できるようになり、ユーザーやチーム単位の運用自動化・ガバナンスには実務的な価値があります。一方で、既存のCopilot管理APIをGitHub Appsから利用可能にする機能拡張であり、アーキテクチャや開発基盤を大きく変える革新ではありません。Copilotお"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Google CloudのAgent Platform Workbenchにおける更新で、BigQuery JupyterLabプラグインの独立制御、Pre-Turing GPU向けCUDAドライバの事前導入、依存パッケージ更新、Critical/High CVEの一括修正が含まれます。データ分析環境やGPU利用時の運用性・安全性を改善する実務的なリ"
+    },
+    "0eaf924f95cc36a258a63839be58c340": {
+      "score": 43,
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] 自動運転ロボティクスの個人向け商用化と、地域制限付きサービスの料金モデルを示す点で、技術・事業の両面に一定の重要性があります。一方で、記事からは新しい自動運転アーキテクチャや画期的な技術仕様は確認できず、主題は予約受付と月額課金です。地理的な展開制約や高額な利用料は、スケーラビリティと普及性に課題があることも示しているため、先端ロボティクス関連として"
+    },
+    "38523b5dc56091816ece88d00f6076d8": {
+      "score": 58,
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] Claude Opus 5.5を有料プランの標準モデルに設定し、推論強度やプロンプト作成の推奨方法を更新した点は、開発者の実運用やレイテンシ・コストに影響する実務的なニュースです。一方で、新しいモデル技術やアーキテクチャの発表ではなく、既存モデルの利用ガイドライン変更が中心です。また、既に取り上げ済みのAnthropic、Claude、model関連"
+    },
+    "deff871ea43bf5e6b5ac0523782f61c8": {
+      "score": 6,
+      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
+      "date": "2026-11-15",
+      "reason": "[Claude API Evaluation] 手書き感覚とデジタル保存を組み合わせた一般消費者向けデジタルノート製品の比較記事であり、ソフトウェア開発、AI、クラウド、アーキテクチャなどの技術領域に与える影響は限定的です。業界の前提を変える新規性や技術革新も見られないため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-15/blog.md",
+    "show_notes_path": "out/2026-11-15/show_notes.md",
+    "script_path": "out/2026-11-15/script_2hosts.md",
+    "audio_path": "out/2026-11-15/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-15/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-15/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 29481,
+        "output_tokens": 10706,
+        "cost_usd": 0.018743
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 45348,
+        "output_tokens": 9492,
+        "cost_usd": 0.185616
+      }
+    ],
+    "tts": {
+      "chars": 4732,
+      "audio_sec": 704.1,
+      "cost_usd": 0.135783
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.340142
+  }
+}
