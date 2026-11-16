@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.2,
+    "title": "Taisei Launches $150 Million AI, Robotics Fund With Pegasus Tech Ventures",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-15/taisei-launches-150-million-ai-robotics-fund-with-pegasus-tech-ventures"
+  },
+  {
+    "start_sec": 133.09,
+    "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+  },
+  {
+    "start_sec": 243.4,
+    "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+    "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/"
+  },
+  {
+    "start_sec": 350.93,
+    "title": "A step toward defining the Standard Model on a lattice",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+  },
+  {
+    "start_sec": 486.98,
+    "title": "Our new blog for science",
+    "url": "https://openai.com/index/our-new-blog-for-science"
+  },
+  {
+    "start_sec": 593.57,
+    "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+    "url": "https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/"
+  },
+  {
+    "start_sec": 702.09,
+    "title": "エンディング",
+    "url": null
+  }
+]

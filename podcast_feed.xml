@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#229 大成建設、ペガサス・テック・ベンチャーズと1.5億ドル規模のAI・ロボティクスファンドを設立 ほか</title>
+      <description>Tech News Radio Show Notes - #229 (2026-11-16)
+
+エピソード情報
+• エピソード: #229
+• 日付: 2026-11-16
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Taisei Launches $150 Million AI, Robotics Fund With Pegasus Tech Ventures (https://www.bloomberg.com/news/articles/2026-11-15/taisei-launches-150-million-ai-robotics-fund-with-pegasus-tech-ventures)
+• Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)
+• Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot (https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/)
+
+注目の深掘り
+• A step toward defining the Standard Model on a lattice (https://openai.com/index/step-toward-defining-the-standard-model)
+
+小ネタ・その他
+• Our new blog for science (https://openai.com/index/our-new-blog-for-science)
+• Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-16/episode_audio.mp3" length="11736236" type="audio/mpeg" />
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-16</guid>
+      <itunes:duration>12:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>大成建設、ペガサス・テック・ベンチャーズと1.5億ドル規模のAI・ロボティクスファンドを設立 ほか</itunes:title>
+      <itunes:episode>229</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #229 (2026-11-16)
+
+エピソード情報
+• エピソード: #229
+• 日付: 2026-11-16
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Taisei Launches $150 Million AI, Robotics Fund With Pegasus Tech Ventures (https://www.bloomberg.com/news/articles/2026-11-15/taisei-launches-150-million-ai-robotics-fund-with-pegasus-tech-ventures)
+• Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market (https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/)
+• Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot (https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/)
+
+注目の深掘り
+• A step toward defining the Standard Model on a lattice (https://openai.com/index/step-toward-defining-the-standard-model)
+
+小ネタ・その他
+• Our new blog for science (https://openai.com/index/our-new-blog-for-science)
+• Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock (https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-16/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.200" title="Taisei Launches $150 Million AI, Robotics Fund With Pegasus Tech Ventures" href="https://www.bloomberg.com/news/articles/2026-11-15/taisei-launches-150-million-ai-robotics-fund-with-pegasus-tech-ventures" />
+        <psc:chapter start="00:02:13.090" title="Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market" href="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/" />
+        <psc:chapter start="00:04:03.400" title="Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot" href="https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/" />
+        <psc:chapter start="00:05:50.930" title="A step toward defining the Standard Model on a lattice" href="https://openai.com/index/step-toward-defining-the-standard-model" />
+        <psc:chapter start="00:08:06.980" title="Our new blog for science" href="https://openai.com/index/our-new-blog-for-science" />
+        <psc:chapter start="00:09:53.570" title="Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock" href="https://aws.amazon.com/blogs/machine-learning/cost-attribution-and-controls-for-ai-developer-and-productivity-tools-on-amazon-bedrock/" />
+        <psc:chapter start="00:11:42.090" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#228 Amazon SageMaker JumpStartでOpenFold3が利用可能に:生体分子構造を予測 ほか</title>
       <description>Tech News Radio Show Notes - #228 (2026-11-15)
 

@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-16",
+  "episode_date_local": "2026-11-16",
+  "content_snapshot_date": "2026-11-16",
+  "show_length_sec": 733,
+  "audio_size": 11736236,
+  "generated_at": "2026-11-16T00:01:52.721320+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-6f12d306",
+      "title": "Taisei Launches $150 Million AI, Robotics Fund With Pegasus Tech Ventures",
+      "title_ja": "大成建設、ペガサス・テック・ベンチャーズと1.5億ドル規模のAI・ロボティクスファンドを設立",
+      "one_liner": "大成建設がAI・ロボット向けに1.5億ドル規模のファンドを設立",
+      "fingerprint": "6f12d30659fd0bfc52463160d5de32ac",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-efab1c36",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "title_ja": "インドの半導体スタートアップBharat Semi、シード資金2,400万ドルを調達 世界のAIセンサー市場を視野に",
+      "one_liner": "インドの半導体新興が約24億円級の資金を調達",
+      "fingerprint": "efab1c367160dc24c804e297465083dc",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-ae78d298",
+      "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+      "title_ja": "AWS上のAssemblyAI音声認識推論をAmazon EC2スポットでコスト最適化",
+      "one_liner": "音声認識の推論コストをSpotで7割削減",
+      "fingerprint": "ae78d298c98f0e74b81bf7256944a738",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-fe558ce0",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "title_ja": "標準模型を格子上で定義するための一歩",
+      "one_liner": "素粒子の標準模型を格子上で定義する試み",
+      "fingerprint": "fe558ce0f70eeb7bcf9772498285cab5",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-9ee7e1a8",
+      "title": "Our new blog for science",
+      "title_ja": "科学の新ブログ",
+      "one_liner": "OpenAIが科学研究向けの新ブログを開設",
+      "fingerprint": "9ee7e1a8c733a79c191a3c08e1447499",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-de056909",
+      "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+      "title_ja": "Amazon BedrockにおけるAI開発者向け・生産性向上ツールのコスト配分と管理",
+      "one_liner": "Bedrockの利用コストをユーザー単位で把握・制御",
+      "fingerprint": "de056909e2605d2e5d80ffe2df2219e2",
+      "score": 48,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-538f6a62",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub App support for Enterprise Copilot seat management"
+    },
+    {
+      "item_id": "item-33dc4e67",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service"
+    },
+    {
+      "item_id": "item-8df21502",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build once, run on any agent: A practical guide to agent skills"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-f123a96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-9d29b72a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?"
+    },
+    {
+      "item_id": "item-9ba7c920",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI DJs Completely Kill My Groove"
+    },
+    {
+      "item_id": "item-f3470829",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A recaptcha test that proves something, and the ones that only go green"
+    },
+    {
+      "item_id": "item-dc6b87fe",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China"
+    },
+    {
+      "item_id": "item-bd15330c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ByteDance to Buy Back Shares at $400 Billion Valuation"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-0fb26802",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-52303323",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chemical spills into drainage ditch at SpaceXAI in Southaven"
+    },
+    {
+      "item_id": "item-681d0339",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Netflix Resets Its Experiential Strategy"
+    },
+    {
+      "item_id": "item-89e0d4ab",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Preserving 30 Years of Salon Journalism - Internet Archive Blogs"
+    },
+    {
+      "item_id": "item-4a8ebb31",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The 4 Best Planners of 2027: Roterunner, Hobonichi, Cloth & Paper"
+    }
+  ],
+  "score_cache": {
+    "523033239946bd495caf6e03bd583824": {
+      "score": 18,
+      "title": "Chemical spills into drainage ditch at SpaceXAI in Southaven",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] 化学物質の流出という施設運用・環境安全上のインシデントであり、AIやロボティクスなどの技術革新、アーキテクチャ、クラウド、主要言語の進化に関する内容ではありません。エンジニア視点でも、システム設計への直接的な影響や技術的な新規性が乏しく、業界全体への波及範囲も限定的です。タイトルにAIを含みますが、既出のAI関連トピックと同じ角度ではないため減点は適"
+    },
+    "fe558ce0f70eeb7bcf9772498285cab5": {
+      "score": 49,
+      "title": "A step toward defining the Standard Model on a lattice",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] 標準模型を格子上で非摂動論的に定義する試みは、理論物理と大規模計算の観点で新規性があり、将来的にはシミュレーション手法や検証可能性に影響し得ます。一方で、ソフトウェアエンジニアリングや産業技術への直接的な影響は限定的で、GPT-6 Astraの活用も主題ではなく、現時点では基礎研究段階の成果です。既出のAI関連記事とは異なる物理学への応用が中心のため"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、対象製品、影響範囲、技術的な新規性が不明です。セキュリティ関連は重要ではあるものの、具体的な情報がないため、アーキテクチャや開発技術の進化として評価できず、低めのスコアとしました。 [Editorial: AI-focused source +6]"
+    },
+    "ae78d298c98f0e74b81bf7256944a738": {
+      "score": 76,
+      "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] AWS上での音声認識推論を、ECS・EC2 Spot GPU・SQSベースのリトライ構成で大規模運用し、SLAを維持しながら70%のコスト削減を実現している点は、クラウドアーキテクチャとMLOpsの実践例として価値が高いです。特にSpot中断への耐性を持つ非同期処理設計や、欧州リージョンでの運用ノウハウは、同様のGPUワークロードを扱うエンジニアに実"
+    },
+    "8df215026dccc17ec7b7749bf7b30e76": {
+      "score": 46,
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] エージェント向けの反復可能な開発作業をファイルとして定義し、チームでレビュー・再利用できる「Agent Skills」の実践ガイドは、AIエージェントの運用性や移植性を高める点で技術的に有用です。一方で、基盤モデルや実行環境そのものを変える新規技術ではなく、既存のエージェント開発手法を整理・標準化する内容です。また、GitHub・Copilot・ag"
+    },
+    "0fb2680297658d09ffe3853684439a5f": {
+      "score": 27,
+      "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルの廃止予定は、利用者のモデル選択や開発ワークフロー、移行対応に影響する実務的な告知です。ただし、新技術の発表ではなく、既存サービスの運用変更・互換性対応にとどまります。さらに、直近に取り上げ済みのGitHub、Copilot、model関連の話題と同一領域であるため、重複ペナルティを適用して低く評価しまし"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 46,
+      "title": "October 04, 2026",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースで、BigQuery JupyterLabプラグインの独立制御、旧世代GPU向けCUDAドライバの事前導入、コンテナイメージのCritical/High脆弱性修正など、クラウド開発環境の運用性と安全性を改善する内容です。一方で、主な変更は依存パッケージ更新や設定変更、セキュリティパッチで"
+    },
+    "efab1c367160dc24c804e297465083dc": {
+      "score": 77,
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] AI対応センサー向け半導体を開発するインドのスタートアップが2,400万ドルのシード資金を調達し、General Atomicsなどで設計採用を獲得している点は、エッジAI・半導体・先端スタートアップの観点で注目度が高い。クラウドAIモデルそのものではなく、センサー処理を現場側で実行するハードウェア基盤の進展であり、既出のAI関連話題とは異なる。ただ"
+    },
+    "dc6b87fe507c5324d22a96009c847ba2": {
+      "score": 36,
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Nvidia製チップの中国向け販売規模や関係者を巡る報道であり、半導体サプライチェーン、輸出規制、企業統治には影響し得ます。一方で、新しい技術やアーキテクチャの発表ではなく、現時点では第三者の推計や報道に基づく疑惑が中心です。エンジニアにとっての直接的な実装・開発上の価値は限定的なため、規制・ガバナンス系の低評価帯としました。 [Editorial:"
+    },
+    "f123a96a1cf652892cb6b33baecd3e4f": {
+      "score": 43,
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Grok Buildで約35,000件のアプリが公開状態となり、SpaceX関連を含む機密情報が露出した点は、AIコーディングエージェントのアクセス制御・デフォルト設定・データ分離に関わる重大な運用問題です。一方で、業界の前提を変える技術革新ではなく、主分類はセキュリティ／運用上のインシデントです。また、既出キーワードのAI・agentに関連するため"
+    },
+    "4a8ebb31a5169b7d325d9399132b3167": {
+      "score": 4,
+      "title": "The 4 Best Planners of 2027: Roterunner, Hobonichi, Cloth & Paper",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] 紙製プランナーやノートの比較記事であり、ソフトウェア工学、AI、クラウド、プログラミング言語などの技術革新とは無関係です。一般消費者向け製品レビューに該当するため、技術ニュースとしての重要度は最低水準です。"
+    },
+    "681d0339dfc476e4235ec36563af9522": {
+      "score": 10,
+      "title": "Netflix Resets Its Experiential Strategy",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Netflixの対面型体験ビジネスの見直しと番組前のトレーラー追加に関するニュースであり、ソフトウェア技術、AI、クラウド、開発者向け基盤の進展とは直接関係しません。一般消費者向けのサービス戦略・広告体験に近い内容で、エンジニアリング上の新規性や業界構造への影響も限定的なため、最低評価帯としました。"
+    },
+    "bd15330ce9694731a1f19d927bd76e62": {
+      "score": 36,
+      "title": "ByteDance to Buy Back Shares at $400 Billion Valuation",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] ByteDanceの評価額が約4,000億ドルまで上昇し、TikTokの米国事業に関する所有・データセキュリティ構造が変化した点は、テック業界への影響が大きい。一方で、技術革新やアーキテクチャの進展ではなく、主題は株式買い戻しと米国規制への対応であり、エンジニアリング上の新規性は限定的。規制・事業再編ニュースとしては重要だが、AIやクラウド基盤の発表"
+    },
+    "f3470829eb4c7ce506a191e31b491883": {
+      "score": 37,
+      "title": "A recaptcha test that proves something, and the ones that only go green",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] reCAPTCHA v2/v3やTurnstileのテスト設計、トークンの有効期限、重複検証、CIでのモックとリリース時の実環境検証を具体的に整理しており、実装・運用上の実用性は高い。一方で、既存技術のテスト手法に関する解説であり、AIやクラウドアーキテクチャなどの技術革新ではない。また、外部のCAPTCHA解決サービス利用を推奨する内容はセキュリテ"
+    },
+    "89e0d4ab0ae677dc671f899bd40c5312": {
+      "score": 10,
+      "title": "Preserving 30 Years of Salon Journalism - Internet Archive Blogs",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] 30年分のサロン関連ジャーナリズムを保存するInternet Archiveの取り組みであり、文化的・アーカイブ的価値はありますが、AI、クラウド、プログラミング言語、ソフトウェアアーキテクチャなどの技術革新を扱う記事ではありません。エンジニアへの直接的な影響も限定的なため、一般消費者向け話題に近い最低評価帯としました。"
+    },
+    "9ee7e1a8c733a79c191a3c08e1447499": {
+      "score": 48,
+      "title": "Our new blog for science",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] AIを活用した科学研究の知見や実践手法を発信する公式ブログの新設であり、科学向けAI活用の事例共有という点では意義があります。ただし、具体的なモデル性能向上や画期的な研究成果、技術仕様は示されておらず、ニュースとしての新規性と即時的な技術インパクトは限定的です。また、既出キーワードであるOpenAIおよびAIに直接関連するため、重複分を減点しました。"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 42,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] モデルの出力を利用して競合モデルを模倣・蒸留する攻撃への防御強化は、AIサービスの知的資産保護や不正利用対策に関わる重要なテーマです。ただし、タイトルだけでは具体的な技術、脅威の規模、実装内容が不明で、革新的なアーキテクチャ発表とまでは判断できません。AI・モデル領域は直近の既出トピックとも重なるため減点しています。 [Editorial: AI-f"
+    },
+    "de056909e2605d2e5d80ffe2df2219e2": {
+      "score": 48,
+      "title": "Cost attribution and controls for AI developer and productivity tools on Amazon Bedrock",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] IAM Identity Center、セッションタグ、CUR 2.0を組み合わせて、Bedrockの推論コストをユーザー単位で可視化・配賦し、利用上限まで制御する実装パターンは、企業でのAI開発基盤運用に実用的な価値があります。一方で、新しいモデルやアーキテクチャの発表ではなく、既存のクラウド課金・ガバナンス機能を整理した運用ノウハウが中心です。ま"
+    },
+    "538f6a62a5414330a9d1c6bbb5976950": {
+      "score": 47,
+      "title": "GitHub App support for Enterprise Copilot seat management",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Enterprise GitHub AppsからCopilotのシート割り当てをAPI経由で管理できるようになり、ユーザー・チーム単位のプロビジョニング自動化やID管理基盤との連携に有用です。一方で、既存のCopilot管理機能を拡張する運用改善であり、アーキテクチャや開発モデルを大きく変える技術革新ではありません。さらに、Copilot関連は既報キ"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 29,
+      "title": "October 11, 2026",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースノートですが、内容は上流依存パッケージの更新と、pyOpenSSLおよびcryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正が中心です。開発環境の安定性には寄与するものの、新機能やアーキテクチャ上の進展、業界への影響は限定的です。既出の「agent」関"
+    },
+    "9d29b72a2d4d0a2b7b93ded0a2e31ad0": {
+      "score": 41,
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] Nvidiaの業績やJensen Huang氏への評価がAI産業全体に与える影響を論じる内容で、半導体供給・AIインフラ投資・企業の開発計画に波及する可能性はあります。ただし、スニペットだけでは具体的な製品発表、技術革新、業績数値、政策変更などが示されておらず、実質的には市場解説にとどまります。また、既に取り上げ済みの「AI」関連トピックと同じ軸のた"
+    },
+    "33dc4e67dbf2c7fa05f4689c46d7193a": {
+      "score": 47,
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] AIが若年層やエントリーレベルのソフトウェア職・カスタマーサービス職に与える雇用影響を、中央銀行のデータで示す点は重要です。ただし、新しい技術やアーキテクチャの発表ではなく、景気循環やリモートワークなど他要因も排除できていない初期分析に留まります。また、AI関連は直近の既出テーマに該当するため、同じ話題の続報として減点しました。エンジニアにとってはキ"
+    },
+    "9ba7c920149f8b6ca649e6e4fff85553": {
+      "score": 41,
+      "title": "AI DJs Completely Kill My Groove",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] 音楽ストリーミングにおける生成AIの実用化事例であり、推薦システムや合成音声、パーソナライズド体験の観点では一定の技術的関心があります。ただし、記事の主眼は新しい基盤技術やアーキテクチャではなく、YouTube MusicやSpotifyの消費者向け機能と品質課題です。また、既出キーワードの「AI」と同じ領域の続報・派生話題にあたり、重複分として減点"
+    },
+    "6f12d30659fd0bfc52463160d5de32ac": {
+      "score": 84,
+      "title": "Taisei Launches $150 Million AI, Robotics Fund With Pegasus Tech Ventures",
+      "date": "2026-11-16",
+      "reason": "[Claude API Evaluation] 大成建設がPegasus Tech Venturesと150百万ドル規模のファンドを設立し、AI・ロボティクス系スタートアップへ投資する点は、建設業界の人手不足に対する技術導入を加速させる具体的かつ注目度の高い動きです。特に、資本力のある大手建設会社が外部の先端技術を継続的に取り込む枠組みを作ることで、施工自動化、現場ロボット、業務最適化などへの波及"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-16/blog.md",
+    "show_notes_path": "out/2026-11-16/show_notes.md",
+    "script_path": "out/2026-11-16/script_2hosts.md",
+    "audio_path": "out/2026-11-16/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-16/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-16/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 27309,
+        "output_tokens": 10589,
+        "cost_usd": 0.018169
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45019,
+        "output_tokens": 9488,
+        "cost_usd": 0.184918
+      }
+    ],
+    "tts": {
+      "chars": 4570,
+      "audio_sec": 721.4,
+      "cost_usd": 0.139072
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.342159
+  }
+}
