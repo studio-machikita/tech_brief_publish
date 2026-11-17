@@ -1,0 +1,376 @@
+{
+  "date": "2026-11-17",
+  "episode_date_local": "2026-11-17",
+  "content_snapshot_date": "2026-11-17",
+  "show_length_sec": 667,
+  "audio_size": 10675244,
+  "generated_at": "2026-11-17T03:00:14.465400+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ab9ff76c",
+      "title": "Broadening access to AI for scientists",
+      "title_ja": "科学者のAI利用機会を拡大",
+      "one_liner": "OpenAIが研究者20万人に最新AIを無償提供",
+      "fingerprint": "ab9ff76ce07379ec76746f96a1ae1def",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-88a6cc7a",
+      "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+      "title_ja": "リフレクト推論によるアライメント:原則の守り方を学ぶ",
+      "one_liner": "LLMに原則の守り方そのものを学ばせる研究",
+      "fingerprint": "88a6cc7ae35be0cd46af2442395ad594",
+      "score": 84,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-0570894b",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "title_ja": "LLMエージェントはいつ忘れるべきか?クエリ決定的なリゾルバエラー下でのメモリフィルタリング",
+      "one_liner": "古い情報の自動削除が、AIの精度を下げることがある",
+      "fingerprint": "0570894b99d363ca3f9c0762494667b2",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-d86b7cd9",
+      "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+      "title_ja": "Amazon Bedrock マネージド ナレッジベースの Agentic Retrieve で、メモリを備えたAIエージェントを構築する",
+      "one_liner": "Bedrockで記憶を持つAIエージェントを構築",
+      "fingerprint": "d86b7cd9318e4140f4901e3d6f9eb0d7",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-8c7fa5ac",
+      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+      "title_ja": "DucoがAmazon Bedrock AgentCoreで金融データ自動化を変革する方法",
+      "one_liner": "Ducoが金融データ照合のAI基盤を刷新",
+      "fingerprint": "8c7fa5ac2089c385d3db782099d7f054",
+      "score": 51,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-d99a120e",
+      "title": "GitHub Copilot weekly releases — November 9",
+      "title_ja": "GitHub Copilot 週次リリース情報(11月9日)",
+      "one_liner": "Copilotが企業リポジトリ連携とセッション管理を強化",
+      "fingerprint": "d99a120e83f694bf73eb83f3ad044202",
+      "score": 47,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-f5132aa5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast"
+    },
+    {
+      "item_id": "item-65dce9c6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub Copilot models deprecated on November 16, 2026"
+    },
+    {
+      "item_id": "item-26b9f367",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months"
+    },
+    {
+      "item_id": "item-10401c50",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Tracing Knowledge and Reasoning in LLM"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-f123a96a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI"
+    },
+    {
+      "item_id": "item-eda16701",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Handling Gemini API Key Rotation and Rate Limits Across Cron Jobs in Next.js"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-8df21502",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build once, run on any agent: A practical guide to agent skills"
+    },
+    {
+      "item_id": "item-eb9a17af",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Bank Outage May Have Nothing to Do With Your Bank"
+    },
+    {
+      "item_id": "item-736784f1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Fallout from Jensen’s Downfall"
+    },
+    {
+      "item_id": "item-93a10d1a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Mem is shutting down | A note from Kevin"
+    },
+    {
+      "item_id": "item-6504f70e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support"
+    },
+    {
+      "item_id": "item-1e3a01ee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’"
+    },
+    {
+      "item_id": "item-596394e9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "More Volatility Forecast for AI as Nvidia Earnings Loom"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-0b0ba622",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Coldwater Tractors Inc. | High"
+    }
+  ],
+  "score_cache": {
+    "93a10d1a0d86c6e574404c9b3e5d688a": {
+      "score": 36,
+      "title": "Mem is shutting down | A note from Kevin",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] Memという知識管理サービスの終了は、プロダクト運営やスタートアップの事業継続性、ユーザーデータの移行・保存に関する示唆はありますが、新技術やアーキテクチャの革新を扱う記事ではありません。先端スタートアップ関連ではあるものの、既存サービスの終了報告であり、業界全体への影響範囲や技術的な新規性は限定的です。"
+    },
+    "ab9ff76ce07379ec76746f96a1ae1def": {
+      "score": 90,
+      "title": "Broadening access to AI for scientists",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] 最先端AIモデルへのアクセスを世界20万人の研究者に無償提供する拡張は、科学研究の生産性やAI活用の裾野を大きく広げる可能性があり、影響範囲と話題性は非常に高いです。一方で、新しいモデルアーキテクチャや基盤技術の発表ではなく、既存サービスの利用枠拡大が中心です。既出のAI・モデル関連キーワードには該当しますが、研究者向けプログラムの具体的な拡張という"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-16",
+      "reason": "[ScoreCache 2026-11-16] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、対象製品、影響範囲、技術的な新規性が不明です。セキュリティ関連は重要ではあるものの、具体的な情報がないため、アーキテクチャや開発技術の進化として評価できず、低めのスコアとしました。 [Editorial: AI-focused source +6]"
+    },
+    "d86b7cd9318e4140f4901e3d6f9eb0d7": {
+      "score": 66,
+      "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] Amazon BedrockのKnowledge BaseとAgentCore Memoryを統合し、会話履歴や抽出した事実を長期記憶としてAgenticRetrieveStreamから利用できる点は、実運用向けAIエージェントの構築に有用です。特にマルチユーザー環境で文書アクセス権と個人メモリの分離を扱っており、実装具体性とセキュリティ面で価値があ"
+    },
+    "8df215026dccc17ec7b7749bf7b30e76": {
+      "score": 39,
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] エージェント向けの反復可能な作業をファイルとして定義し、レビュー・再利用・ホスト環境間の移植を可能にする設計思想は、開発ワークフローやエージェント運用の標準化に寄与します。一方で、記事は実践ガイドであり、基盤技術や業界の前提を変える新発明ではありません。また、直近に取り上げ済みのGitHubおよびagent関連の話題と同じ領域・角度に該当するため、重"
+    },
+    "d99a120e83f694bf73eb83f3ad044202": {
+      "score": 47,
+      "title": "GitHub Copilot weekly releases — November 9",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] GitHub CopilotにEnterprise Serverリポジトリを統合し、VS Codeで優先対応すべきエージェントセッションを把握できる点は、企業開発の運用性や開発者体験を改善する実用的なアップデートです。ただし、業界の前提を変える新技術ではなく、週次リリースの段階的な機能追加にとどまります。また、GitHub、AI、エージェント、モデル"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] クラウド上の開発環境におけるBigQuery JupyterLabプラグインの独立制御、古いGPU向けCUDAドライバーの事前導入、依存パッケージ更新など、実務上の利便性と互換性を高めるアップデートです。一方で、業界の前提を変える新技術ではなく、内容の中心は既存プラットフォームの機能改善とCVE対応です。Agent Platformという既出の「ag"
+    },
+    "26b9f367340c166bb9105c4bda9011e6": {
+      "score": 43,
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] AIを活用したサイバーセキュリティ新興企業が、製品発表から約3か月で1,000億円規模の評価額と1億2,500万ドルのシリーズAを達成した点は、資金調達・市場需要の観点で注目度が高い。一方、具体的な技術アーキテクチャや検知性能、既存製品との差別化が不明で、現時点では技術革新そのものよりも企業評価のニュースに留まる。また、AI・スタートアップ関連は直近"
+    },
+    "f5132aa582355098112858fea0881bd9": {
+      "score": 47,
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] AIが脆弱性の発見からエクスプロイト生成・実行まで人間の介入なしに行う実例は、サイバー攻撃の自動化が実運用段階に入ったことを示す重要な技術動向です。攻撃防御双方の設計、脆弱性対応、SOC運用に大きな影響を与え得る一方、記事の中心はセキュリティ脅威の報告であり、評価基準上の法律・脆弱性・運用ルール系ニュースに近いため、AI関連としての新規性を考慮しつつ"
+    },
+    "f123a96a1cf652892cb6b33baecd3e4f": {
+      "score": 41,
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] Grokのコーディングエージェントが生成した約35,000件のアプリを誰でも閲覧でき、SpaceX関連を含む機密情報が漏えいした点は、AI開発基盤のアクセス制御やデフォルト設定に関わる重大なセキュリティ事案です。一方で、技術革新そのものではなく脆弱性・運用管理のニュースであるため基礎評価は抑えました。さらに、既出キーワードの「agent」と同じAIエ"
+    },
+    "eb9a17afce88c5e75b9125d4a16138b6": {
+      "score": 37,
+      "title": "The Bank Outage May Have Nothing to Do With Your Bank",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] 複数銀行に波及する大規模障害であり、単一金融機関のオンプレミス基盤が外部銀行の取引処理に影響し得る点は、可用性設計・依存関係・障害分離の観点でエンジニアにとって重要です。一方で、新技術やアーキテクチャの革新ではなく、原因も暫定的な技術障害に留まっているため、業界の前提を変えるほどの高評価には届きません。"
+    },
+    "596394e90dacab8d25cf4892056b6d00": {
+      "score": 29,
+      "title": "More Volatility Forecast for AI as Nvidia Earnings Loom",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] AI関連市場とNvidiaの決算前の投資環境を扱う記事ですが、技術革新や新製品、アーキテクチャ上の進展ではなく、輸出規制・供給網・投資減速による市場ボラティリティの解説が中心です。エンジニア視点での直接的な新規性や実装上のインパクトは限定的で、既出のAI関連トピックとも重なるため減点しました。 [Editorial: AI/SaaS topic +5"
+    },
+    "736784f1a5e538b27fd37329284cf620": {
+      "score": 37,
+      "title": "The Fallout from Jensen’s Downfall",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] NvidiaのCEO交代を巡る企業統治、疑惑、政治的圧力、議会調査を扱う記事であり、AIチップ業界の中核企業に関するため一定の事業・市場インパクトはあります。ただし、技術革新や製品、アーキテクチャの進展ではなく、主題は経営者個人の不祥事とガバナンスです。AIおよびNvidiaに関連する話題ではあるものの、既出キーワードのAIに近い文脈で、技術面の新展"
+    },
+    "0570894b99d363ca3f9c0762494667b2": {
+      "score": 77,
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] LLMエージェントの長期メモリ管理において、古い情報を削除するハードフィルタが、リゾルバの誤判定によってクエリに必要な事実まで消去し、精度を大きく悪化させることを定量的に示した研究です。3モデルでの感度分析や、false-dropの影響比較があり、エージェント設計・メモリ検索・評価手法に実務的な示唆があります。一方で、基盤モデルそのものや業界構造を変"
+    },
+    "88a6cc7ae35be0cd46af2442395ad594": {
+      "score": 84,
+      "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] LLMのアライメントを、学習時に固定した人間の嗜好や憲法原則だけでなく、推論時に文脈依存の規範へ適応させる「Reflect-Reasoning」として扱う研究であり、モデルの安全性・文化的適合性・デプロイ時のガードレール設計に影響し得ます。単なるプロンプト設計を超えて、原則の解釈と遵守を推論プロセスに組み込む点は技術的に興味深く、AI分野での重要度は"
+    },
+    "10401c50378a05b27bdd2896ff31d58b": {
+      "score": 43,
+      "title": "Tracing Knowledge and Reasoning in LLM",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] LLMがベンチマーク課題を解く際の内部処理を、アテンション・活性化・表現解析で追跡する研究であり、モデルの推論や知識利用を理解するうえで技術的な意義は高いです。評価をデータセット単位の性能比較から、タスクごとの内部メカニズム分析へ拡張でき、解釈可能性や評価手法の改善につながる可能性があります。一方で、現時点ではarXivの研究提案段階で、実用化や業界"
+    },
+    "eda167013c3b0406dba97fae2b5334e0": {
+      "score": 41,
+      "title": "Handling Gemini API Key Rotation and Rate Limits Across Cron Jobs in Next.js",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] Next.jsのVercel上で動くバッチ処理におけるAPIレート制限、429エラー、サーバーレス間の状態共有という実務的な課題を扱っており、RedisやTursoを使った分散 koordinatonの観点には技術的価値があります。一方で、実装内容はラウンドロビン方式のキー切り替えとリトライを中心とした個別ノウハウで、アーキテクチャや主要技術そのもの"
+    },
+    "0b0ba622e442ac1d0e0dba73e9513f56": {
+      "score": 6,
+      "title": "Coldwater Tractors Inc. | High",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] 農業用トラクター企業に関する見出しだけで、AI・クラウド・プログラミング言語・ロボティクスなどの技術的な新規性や具体的な製品・アーキテクチャ情報が確認できません。エンジニアリングおよびテクノロジー業界への影響を評価できる材料が乏しいため、非常に低いスコアとしました。"
+    },
+    "6504f70e542822f9008b032b41183bf7": {
+      "score": 33,
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] オンライン上の児童性的搾取・虐待への対策は社会的に極めて重要ですが、記事のスニペットからは具体的な技術仕様、アーキテクチャ、検知モデル、導入規模などが確認できません。主題は安全対策、運用支援、官民連携にあり、エンジニアリング上の新規性や業界構造を変える技術革新としてのインパクトは限定的です。そのため、重要なセーフティ分野ではあるものの、評価基準上は法"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 41,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] モデルの蒸留攻撃（高性能モデルの出力を利用した模倣・抽出）への防御強化は、AI基盤の知的財産保護やAPI運用に関わる技術的に重要なテーマです。一方で、記事タイトルだけでは具体的な新技術や影響範囲が不明で、主軸はセキュリティ対策に分類されます。また、既に取り上げ済みのAI・モデル関連トピックと重なるため、重複分を減点しました。 [Editorial: "
+    },
+    "8c7fa5ac2089c385d3db782099d7f054": {
+      "score": 51,
+      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] 金融機関向けのエージェント型AI基盤を、Amazon Bedrock AgentCore上でマルチモデル構成・テナント分離・MCPスキルアーキテクチャとして再設計した事例であり、コンテキスト overhead 90%削減、導入期間10分の1、オンボーディングコスト70%削減という具体的な成果はエンジニアリング上有用です。一方で、Amazon・AI・B"
+    },
+    "65dce9c6790661178cbdbd4d5b693295": {
+      "score": 46,
+      "title": "GitHub Copilot models deprecated on November 16, 2026",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] GitHub Copilotで利用可能なモデルが複数の体験（Chat、インライン編集、エージェントモード、コード補完）から一斉に非推奨化されるため、開発者の設定変更や互換性確認が必要になる実務上の影響はあります。ただし、これは新しい技術革新ではなく、既存AIコーディングサービスの提供モデル変更に関する運用・ライフサイクル告知です。また、既出キーワード"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 43,
+      "title": "October 11, 2026",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースノートですが、主な内容は依存パッケージの更新と、pyOpenSSLとcryptographyのバージョン不整合によるgcloud・gsutilの起動不具合修正です。開発・運用上は有用な保守改善である一方、アーキテクチャの進化や新機能、業界を変える技術革新ではありません。また、既出キーワー"
+    },
+    "1e3a01ee55c2d55d22705e190cb51f74": {
+      "score": 30,
+      "title": "Cyber giant Infoblox confirms security incident after hackers access ‘company information’",
+      "date": "2026-11-17",
+      "reason": "[Claude API Evaluation] 企業情報への不正アクセスとされるセキュリティインシデントで、Infobloxの顧客やサプライチェーンへの影響次第では重要性があります。一方で、侵入経路、流出情報、影響範囲、脆弱性の有無など具体的な技術情報がまだ明らかでなく、現時点では業界の前提を変えるほどの新規性はありません。外部調査の進展や追加の被害確認があれば評価は上がりますが、現段階ではセキュ"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-17/blog.md",
+    "show_notes_path": "out/2026-11-17/show_notes.md",
+    "script_path": "out/2026-11-17/script_2hosts.md",
+    "audio_path": "out/2026-11-17/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-17/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-17/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 32744,
+        "output_tokens": 10928,
+        "cost_usd": 0.019662
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45280,
+        "output_tokens": 9154,
+        "cost_usd": 0.1821
+      }
+    ],
+    "tts": {
+      "chars": 4324,
+      "audio_sec": 651.8,
+      "cost_usd": 0.125694
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.327456
+  }
+}

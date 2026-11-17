@@ -25,6 +25,76 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#230 科学者のAI利用機会を拡大／リフレクト推論によるアライメント:原則の守り方を学ぶ ほか</title>
+      <description>Tech News Radio Show Notes - #230 (2026-11-17)
+
+エピソード情報
+• エピソード: #230
+• 日付: 2026-11-17
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Broadening access to AI for scientists (https://openai.com/index/expanding-chatgpt-for-academic-researchers)
+• Alignment with Reflect-Reasoning: Learning How To Follow Principles (https://arxiv.org/abs/2611.17398)
+• When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors (https://arxiv.org/abs/2611.17338)
+
+注目の深掘り
+• Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/)
+• Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/)
+• Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/)
+
+小ネタ・その他
+• How Duco transforms financial data automation with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/)
+• GitHub Copilot weekly releases — November 9 (https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-17/episode_audio.mp3" length="10675244" type="audio/mpeg" />
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-17</guid>
+      <itunes:duration>11:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>科学者のAI利用機会を拡大／リフレクト推論によるアライメント:原則の守り方を学ぶ ほか</itunes:title>
+      <itunes:episode>230</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #230 (2026-11-17)
+
+エピソード情報
+• エピソード: #230
+• 日付: 2026-11-17
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Broadening access to AI for scientists (https://openai.com/index/expanding-chatgpt-for-academic-researchers)
+• Alignment with Reflect-Reasoning: Learning How To Follow Principles (https://arxiv.org/abs/2611.17398)
+• When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors (https://arxiv.org/abs/2611.17338)
+
+注目の深掘り
+• Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/)
+• Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/)
+• Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base (https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/)
+
+小ネタ・その他
+• How Duco transforms financial data automation with Amazon Bedrock AgentCore (https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/)
+• GitHub Copilot weekly releases — November 9 (https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-17/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.130" title="Broadening access to AI for scientists" href="https://openai.com/index/expanding-chatgpt-for-academic-researchers" />
+        <psc:chapter start="00:02:09.990" title="Alignment with Reflect-Reasoning: Learning How To Follow Principles" href="https://arxiv.org/abs/2611.17398" />
+        <psc:chapter start="00:03:53.910" title="When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors" href="https://arxiv.org/abs/2611.17338" />
+        <psc:chapter start="00:05:40.490" title="Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base" href="https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/" />
+        <psc:chapter start="00:07:27.970" title="How Duco transforms financial data automation with Amazon Bedrock AgentCore" href="https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/" />
+        <psc:chapter start="00:09:04.170" title="GitHub Copilot weekly releases — November 9" href="https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9" />
+        <psc:chapter start="00:10:36.060" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#229 大成建設、ペガサス・テック・ベンチャーズと1.5億ドル規模のAI・ロボティクスファンドを設立 ほか</title>
       <description>Tech News Radio Show Notes - #229 (2026-11-16)
 

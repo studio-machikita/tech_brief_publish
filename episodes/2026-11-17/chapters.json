@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.13,
+    "title": "Broadening access to AI for scientists",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+  },
+  {
+    "start_sec": 129.99,
+    "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+    "url": "https://arxiv.org/abs/2611.17398"
+  },
+  {
+    "start_sec": 233.91,
+    "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+    "url": "https://arxiv.org/abs/2611.17338"
+  },
+  {
+    "start_sec": 340.49,
+    "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/"
+  },
+  {
+    "start_sec": 447.97,
+    "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/"
+  },
+  {
+    "start_sec": 544.17,
+    "title": "GitHub Copilot weekly releases — November 9",
+    "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9"
+  },
+  {
+    "start_sec": 636.06,
+    "title": "エンディング",
+    "url": null
+  }
+]
