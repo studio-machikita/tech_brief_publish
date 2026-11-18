@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-18",
+  "episode_date_local": "2026-11-18",
+  "content_snapshot_date": "2026-11-18",
+  "show_length_sec": 715,
+  "audio_size": 11456684,
+  "generated_at": "2026-11-18T02:26:32.047435+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-83d0dba6",
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "title_ja": "OpenAI、GPT-6.2「Astra」と「Sol」を発表 API料金を引き下げ、一部ベンチマークで性能向上",
+      "one_liner": "OpenAIが新モデル2種を発表、価格も下げました",
+      "fingerprint": "83d0dba69f4b87f04ddd84f21b4c26bb",
+      "score": 95,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-134adf00",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "title_ja": "AIでNATOと同盟国のサイバー防衛を強化",
+      "one_liner": "OpenAIがNATOや同盟国のサイバー防衛を支援",
+      "fingerprint": "134adf00866fdce89c97efbbfb8dd143",
+      "score": 73,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-27679e11",
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "title_ja": "Amazon SageMaker HyperPod推論でマネージド型NVIDIA Dynamoが利用可能に",
+      "one_liner": "SageMaker HyperPodがNVIDIA Dynamoに対応",
+      "fingerprint": "27679e11b4cf2c7c71c253f38de93366",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-9ad61fd5",
+      "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+      "title_ja": "AIエージェントが人間のスタッフに代わり、医療書類の記入や保険請求の手続きを担い始めている",
+      "one_liner": "AIが医療の事務作業を人の代わりに処理",
+      "fingerprint": "9ad61fd586371d6c04bed7b332373cd7",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-2f15f42c",
+      "title": "Introducing ChatGPT for Sales",
+      "title_ja": "営業向けChatGPTのご紹介",
+      "one_liner": "ChatGPTに営業向けプラグインが登場",
+      "fingerprint": "2f15f42c3a4a504a6a93a444743f0ba9",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-453a6695",
+      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+      "title_ja": "GitHub Copilot Fusionのアップデート:提供範囲の拡大、ベンチマーク、新モデルを追加",
+      "one_liner": "Copilot Fusionが新モデルと提供範囲を拡大",
+      "fingerprint": "453a66956cbbe69447b0124f34a5a19e",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8ff06f13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it"
+    },
+    {
+      "item_id": "item-76683a81",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads"
+    },
+    {
+      "item_id": "item-e90d56ad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Google&#39;s AI Overviews cut clicks to websites by 40%"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-8df21502",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build once, run on any agent: A practical guide to agent skills"
+    },
+    {
+      "item_id": "item-99c00b48",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Bank of Nvidia Is Becoming More ‘Disciplined’ and Selective"
+    },
+    {
+      "item_id": "item-c2d4906c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: Adaptive effort, secret detection, and more"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-3d270f1b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-ba6c45cd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nvidia promises that revenue will keep soaring — for now"
+    },
+    {
+      "item_id": "item-8e36e4fb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why the Road to an IPO Is Getting Longer"
+    },
+    {
+      "item_id": "item-b374a33e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A CCNA study plan that puts labs first"
+    },
+    {
+      "item_id": "item-266b9d48",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "‘The Predators Are Real’: Senate Hearing Slams Roblox Over Child Sex Abuse"
+    },
+    {
+      "item_id": "item-62811e7d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Rubio Says Recent US Tech Outages Unrelated, Not Hostile Acts"
+    },
+    {
+      "item_id": "item-e91e6348",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Security"
+    },
+    {
+      "item_id": "item-2f6ca4d6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "ID.me terms required for IRS sign-in"
+    },
+    {
+      "item_id": "item-7559af8b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Review: Nubia Redmagic 12 Pro | Camera"
+    }
+  ],
+  "score_cache": {
+    "2f6ca4d6f36ebbc5b8471a9724ac554e": {
+      "score": 24,
+      "title": "ID.me terms required for IRS sign-in",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] IRSへのサインインにID.meの利用規約同意を必須化する内容で、認証・行政サービス運用に関する規制／運用ニュースです。エンジニアリング上は本人確認フローやプライバシー、利用者アクセスへの影響がありますが、技術革新やアーキテクチャの進展ではなく、記事の具体的な新展開も示されていないため重要度は低めです。"
+    },
+    "2f15f42c3a4a504a6a93a444743f0ba9": {
+      "score": 55,
+      "title": "Introducing ChatGPT for Sales",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] ChatGPTを営業業務に組み込み、見込み客調査、提案準備、CRM更新、商談推進を支援する実用的なエンタープライズ向け展開です。外部サービスとの連携やプラグイン拡張は業務自動化の観点で価値がありますが、基盤モデルやアーキテクチャ自体の革新ではなく、既出キーワードであるAI、ChatGPT、エージェント関連と同じ文脈の続報に近いため20点減点しました。"
+    },
+    "e91e6348157868de9dd8b25c81aebfb9": {
+      "score": 26,
+      "title": "Security",
+      "date": "2026-11-16",
+      "reason": "[ScoreCache 2026-11-16] [ScoreCache 2026-11-16] [Claude API Evaluation] タイトルが「Security」のみで、脆弱性の内容、対象製品、影響範囲、技術的な新規性が不明です。セキュリティ関連は重要ではあるものの、具体的な情報がないため、アーキテクチャや開発技術の進化として評価できず、低めのスコアとしました。 [Editorial:"
+    },
+    "27679e11b4cf2c7c71c253f38de93366": {
+      "score": 66,
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] 大規模モデル推論向けに、NVIDIA Dynamoのマルチノード分散処理、KV-aware routing、推論処理とKVキャッシュ処理の分離、障害時の自動復旧をAmazon SageMaker HyperPod上でマネージド提供する点は、推論基盤の運用負荷を大きく下げる実用的なクラウド・アーキテクチャの進化です。一方で、既出キーワードであるAmaz"
+    },
+    "8df215026dccc17ec7b7749bf7b30e76": {
+      "score": 41,
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] エージェント向けの反復可能な作業をファイルとして定義し、チームでレビュー・再利用できる「agent skills」の考え方は、開発ワークフローやエージェント間の移植性を高める実務的な提案です。一方で、記事は新しい基盤技術や製品発表というよりガイド・運用パターンが中心で、影響範囲も限定的です。また、既に取り上げ済みのGitHub、Copilot、age"
+    },
+    "453a66956cbbe69447b0124f34a5a19e": {
+      "score": 49,
+      "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] GitHub Copilot Fusionの提供範囲拡大、新モデル追加、Terminal-Benchでの公開ベンチマーク結果は、開発者向けAIエージェントの実用性や性能比較に関わる具体的な進展です。一方で、内容は既存のCopilot・AIエージェント・モデル関連の続報であり、業界の前提を変える新規アーキテクチャや革新的な発表ではありません。既出キーワ"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 39,
+      "title": "October 04, 2026",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新で、BigQuery JupyterLabプラグインの設定分離、CUDAドライバーの事前導入、依存パッケージ更新、重大・高深刻度CVEの修正が含まれます。開発環境の運用性・互換性・安全性には実務上の価値がありますが、既存プラットフォームの保守的なリリースであり、業界の前提を変える新技術や大規模なア"
+    },
+    "3d270f1bdd5368edfb1ce7dd3e4b1ffe": {
+      "score": 38,
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Nvidiaのスタートアップ投資拡大は、AI・半導体周辺の技術エコシステムや将来の提携・買収候補に影響するため、テック業界全体では一定の重要性があります。一方で、記事の中心は投資額の膨張とJensen Huang氏の退任による取引方針の不透明化であり、新しいアーキテクチャや製品、開発者向け技術の発表ではありません。エンジニアにとっては間接的な市場・資"
+    },
+    "83d0dba69f4b87f04ddd84f21b4c26bb": {
+      "score": 95,
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] GPT-6.2 AstraとSolという新世代モデルの投入に加え、API価格の低下、ベンチマーク向上、AI自己改善能力に関する新たなリスク水準への到達が含まれており、開発者向けAI基盤や推論コストに大きな影響を与え得る重要ニュースです。一方で、既存のLLM競争の延長線上にあるモデルアップデートであり、業界の前提を根本から変えるほどの新アーキテクチャや"
+    },
+    "8ff06f13d8cb54a4f722c0833f9aa37b": {
+      "score": 49,
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Word、Excel、PowerPointをCopilot内に統合し、Officeを単体アプリからエージェント中心の業務実行基盤へ再構成する点は、企業向けソフトウェアの利用モデルやUIアーキテクチャに影響する重要な動きです。一方で、Copilotやエージェントは直近の既出テーマと重なっており、今回の記事もその延長線上の発表であるため20点減点しました"
+    },
+    "266b9d486cd37a99b3ed6d7cf36eaef1": {
+      "score": 27,
+      "title": "‘The Predators Are Real’: Senate Hearing Slams Roblox Over Child Sex Abuse",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Roblox上の児童性的虐待を巡る上院公聴会と訴訟容易化法案は、プラットフォームの安全設計やコンテンツモデレーション、年齢確認、監査ログなどに影響し得ますが、現時点では技術革新ではなく法規制・運用責任に関するニュースです。エンジニアリング上の重要性はあるものの、具体的な新技術やアーキテクチャの発表ではないため、低評価帯としました。"
+    },
+    "62811e7db8e1e75e800655390da45388": {
+      "score": 27,
+      "title": "Rubio Says Recent US Tech Outages Unrelated, Not Hostile Acts",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] 米国で発生した複数の大規模テック障害について、敵対的行為や相互関連性を示す証拠がないという政府見解を伝える記事です。障害対応やインフラの信頼性、インシデント分析には関係しますが、技術的な原因、影響範囲、再発防止策などの具体性に乏しく、革新的な技術ニュースではありません。セキュリティ・政府見解寄りの話題であり、既出キーワードとの直接的な重複も限定的なた"
+    },
+    "8e36e4fbb023ada8c64b2f4d4d3eba72": {
+      "score": 32,
+      "title": "Why the Road to an IPO Is Getting Longer",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] IPO準備の長期化、非公開市場での資金調達、上場時の株式設計やインデックス採用の考え方を解説する記事で、スタートアップの経営・資本政策には有用です。一方、技術革新やソフトウェア開発、クラウド、AIに関する具体的な進展はなく、主題は金融市場とIPO実務です。エンジニアにとっての直接的な技術的影響は限定的なため、法律・規制や企業運営寄りの低評価帯としまし"
+    },
+    "b374a33e47c57f7e2ee8e7dc1ea15d6c": {
+      "score": 32,
+      "title": "A CCNA study plan that puts labs first",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] CCNA対策として、ルーティングやスイッチングを実機に近いラボ中心で学ぶ構成や、試験範囲に含まれる自動化・プログラマビリティにも触れている点は実務的です。一方で、新しい技術や製品、アーキテクチャの発表ではなく、既存資格の学習計画と教材サービスの紹介が中心で、業界への影響範囲や技術的新規性は限定的です。エンジニアの基礎力向上には有用ですが、ニュースとし"
+    },
+    "e90d56add86a2c7f9af912f21b02a01d": {
+      "score": 43,
+      "title": "Google&#39;s AI Overviews cut clicks to websites by 40%",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] GoogleのAI Overviewsが検索結果上で回答を完結させ、ウェブサイトへのクリックを約40%減少させるという内容は、検索流入、SEO、コンテンツ事業、ウェブ経済に広範な影響を与える重要な動向です。一方で、AI関連の既出テーマと重なり、具体的な調査手法や対象範囲がスニペットから確認できないため新規性と信頼性の評価は限定的です。既出キーワードと"
+    },
+    "134adf00866fdce89c97efbbfb8dd143": {
+      "score": 73,
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] AIをサイバー防御、脆弱性の発見、修正の検証、重要システムの保護に適用し、NATOや同盟国の機関と連携する点は、社会的・技術的な影響範囲が大きい。一方で、具体的なモデル性能、導入規模、運用アーキテクチャ、実際の脆弱性修正成果が示されておらず、業界の前提を変えるほどの新規性や技術詳細までは確認できない。既出のAI・OpenAI関連テーマと重なるが、軍事"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 42,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] AIモデルの出力を利用した蒸留攻撃への防御強化は、モデル窃取や競合サービスによる不正な能力再現を防ぐ観点で技術的に重要です。一方で、既存モデルのセキュリティ対策・運用強化に属し、業界の前提を変える新規アーキテクチャや画期的な製品発表ではありません。また、AI・モデル関連は直近の既出キーワードと重なり、同じ領域の続報として減点しました。 [Editor"
+    },
+    "76683a8188f942630eeac8e36625de6d": {
+      "score": 49,
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Amazon Bedrock AgentCore上で大規模JSONを扱う際のトークンコストとレイテンシを、S3へのアーティファクト外部化、結果のページング、辞書圧縮で具体的に削減する実践的なアーキテクチャ改善です。最大71%のトークン削減と80%のレイテンシ短縮は運用上のインパクトが大きく、再利用可能な設計パターンとして有用です。一方で、既に取り上げ"
+    },
+    "c2d4906c7d255de9183fc134517b8226": {
+      "score": 40,
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューに、変更内容に応じてレビュー深度を調整する機能やシークレット検出が加わるもので、開発者のレビュー効率と品質向上に直結する実用的なアップデートです。一方で、既存のAIコーディング支援の延長線上にある機能強化であり、業界の前提を変えるほどの革新性は限定的です。また、直近の取り上げ済みキーワードである「Copil"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 38,
+      "title": "October 11, 2026",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースですが、内容の中心は依存パッケージの更新と、pyOpenSSL／cryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正であり、機能面やアーキテクチャ面の大きな進展はありません。エンジニアにとっては開発環境の安定性向上という実務的な価値がある一方、影響範囲"
+    },
+    "ba6c45cd043b52a2c789fd2955398b81": {
+      "score": 36,
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Nvidiaの記録的な売上継続見通しは、AI向けGPUやデータセンター計算基盤の需要を考えるうえで業界への影響が大きい一方、記事自体は新しい技術、製品、アーキテクチャの発表ではなく、主に業績予測と経営動向に関する内容です。既出のAI関連テーマとも近く、明確な技術的続報とは言いにくいため減点しました。"
+    },
+    "9ad61fd586371d6c04bed7b332373cd7": {
+      "score": 66,
+      "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] GPT-6系のコンピュータ操作エージェントが、診療所の既存ソフトウェアや保険ポータルを人間のように操作し、診療記録の入力や事前承認申請を実運用で代替する点は、AIエージェントの具体的な業務適用として重要です。1件約8.5セントというコスト指標やCVS Health、Cigna Healthcareでの導入もあり、実装・事業化の進展が明確です。一方で、"
+    },
+    "7559af8b6bc9bf146ed8b8b4906b4f2b": {
+      "score": 0,
+      "title": "Review: Nubia Redmagic 12 Pro | Camera",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] Nubia Redmagic 12 Proのカメラレビューは一般消費者向けスマートフォン製品の評価であり、ソフトウェアアーキテクチャやAI、クラウド、主要言語などの技術革新には直接つながりません。エンジニアリング上の影響範囲と業界への技術的インパクトが限定的なため、最低評価帯としました。 [Editorial: gadget topic -8]"
+    },
+    "99c00b4836a255f67c713cb9b6c10913": {
+      "score": 41,
+      "title": "The Bank of Nvidia Is Becoming More ‘Disciplined’ and Selective",
+      "date": "2026-11-18",
+      "reason": "[Claude API Evaluation] NVIDIAがAIスタートアップ、計算基盤事業者、モデル開発企業への投資や資金支援を選別的にする動きは、GPU供給・クラウド利用・AIインフラ企業の資金調達に影響し得るため、技術エコシステム上は一定の重要性があります。一方で、具体的な製品、アーキテクチャ、モデル技術の発表ではなく、主題は投資・財務戦略です。また、既に取り上げ済みのAIやモデル関連の話"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-18/blog.md",
+    "show_notes_path": "out/2026-11-18/show_notes.md",
+    "script_path": "out/2026-11-18/script_2hosts.md",
+    "audio_path": "out/2026-11-18/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-18/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-18/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27475,
+        "output_tokens": 10759,
+        "cost_usd": 0.018406
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45212,
+        "output_tokens": 9615,
+        "cost_usd": 0.186574
+      }
+    ],
+    "tts": {
+      "chars": 4670,
+      "audio_sec": 702.2,
+      "cost_usd": 0.135414
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.340394
+  }
+}

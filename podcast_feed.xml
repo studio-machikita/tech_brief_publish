@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#231 OpenAI、GPT-6.2「Astra」と「Sol」を発表 API料金を引き下げ、一部ベンチマークで性能向上 ほか</title>
+      <description>Tech News Radio Show Notes - #231 (2026-11-18)
+
+エピソード情報
+• エピソード: #231
+• 日付: 2026-11-18
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains (https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/)
+• Strengthening NATO and allied cyber defenses with AI (https://openai.com/index/strengthening-nato-allied-cyber-defences-ai)
+• Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference (https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/)
+
+注目の深掘り
+• AI agents are starting to fill out medical forms and file insurance requests in place of human staff (https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/)
+
+小ネタ・その他
+• Introducing ChatGPT for Sales (https://openai.com/index/introducing-chatgpt-for-sales)
+• Introducing ChatGPT for Sales (https://openai.com/index/introducing-chatgpt-wallet)
+• GitHub Copilot Fusion updates: more availability, benchmarks, and models (https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-18/episode_audio.mp3" length="11456684" type="audio/mpeg" />
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-18</guid>
+      <itunes:duration>11:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAI、GPT-6.2「Astra」と「Sol」を発表 API料金を引き下げ、一部ベンチマークで性能向上 ほか</itunes:title>
+      <itunes:episode>231</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #231 (2026-11-18)
+
+エピソード情報
+• エピソード: #231
+• 日付: 2026-11-18
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains (https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/)
+• Strengthening NATO and allied cyber defenses with AI (https://openai.com/index/strengthening-nato-allied-cyber-defences-ai)
+• Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference (https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/)
+
+注目の深掘り
+• AI agents are starting to fill out medical forms and file insurance requests in place of human staff (https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/)
+
+小ネタ・その他
+• Introducing ChatGPT for Sales (https://openai.com/index/introducing-chatgpt-for-sales)
+• Introducing ChatGPT for Sales (https://openai.com/index/introducing-chatgpt-wallet)
+• GitHub Copilot Fusion updates: more availability, benchmarks, and models (https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-18/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.840" title="OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains" href="https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/" />
+        <psc:chapter start="00:02:12.780" title="Strengthening NATO and allied cyber defenses with AI" href="https://openai.com/index/strengthening-nato-allied-cyber-defences-ai" />
+        <psc:chapter start="00:04:01.630" title="Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference" href="https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/" />
+        <psc:chapter start="00:05:51.740" title="AI agents are starting to fill out medical forms and file insurance requests in place of human staff" href="https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/" />
+        <psc:chapter start="00:08:01.070" title="Introducing ChatGPT for Sales" href="https://openai.com/index/introducing-chatgpt-for-sales" />
+        <psc:chapter start="00:09:59.060" title="GitHub Copilot Fusion updates: more availability, benchmarks, and models" href="https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models" />
+        <psc:chapter start="00:11:24.960" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#230 科学者のAI利用機会を拡大／リフレクト推論によるアライメント:原則の守り方を学ぶ ほか</title>
       <description>Tech News Radio Show Notes - #230 (2026-11-17)
 

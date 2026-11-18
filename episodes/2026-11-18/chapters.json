@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.84,
+    "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+    "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+  },
+  {
+    "start_sec": 132.78,
+    "title": "Strengthening NATO and allied cyber defenses with AI",
+    "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+  },
+  {
+    "start_sec": 241.63,
+    "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+    "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/"
+  },
+  {
+    "start_sec": 351.74,
+    "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+    "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/"
+  },
+  {
+    "start_sec": 481.07,
+    "title": "Introducing ChatGPT for Sales",
+    "url": "https://openai.com/index/introducing-chatgpt-for-sales"
+  },
+  {
+    "start_sec": 599.06,
+    "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
+    "url": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models"
+  },
+  {
+    "start_sec": 684.96,
+    "title": "エンディング",
+    "url": null
+  }
+]
