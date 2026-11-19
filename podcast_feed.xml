@@ -25,6 +25,72 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#232 SageMaker AIのサーバーレスモデルカスタマイズで完全ファインチューニング(FFT)に対応 ほか</title>
+      <description>Tech News Radio Show Notes - #232 (2026-11-19)
+
+エピソード情報
+• エピソード: #232
+• 日付: 2026-11-19
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization (https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/)
+• Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips (https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/)
+• DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution (https://arxiv.org/abs/2611.21688)
+
+注目の深掘り
+• CrisisBench: an evaluation suite for crisis counseling AI (https://arxiv.org/abs/2611.21622)
+
+小ネタ・その他
+• NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models (https://arxiv.org/abs/2611.21682)
+• Google ships Gemini 4 Neon, its fourth new Gemini model in a month (https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-19/episode_audio.mp3" length="11603372" type="audio/mpeg" />
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-19</guid>
+      <itunes:duration>12:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>SageMaker AIのサーバーレスモデルカスタマイズで完全ファインチューニング(FFT)に対応 ほか</itunes:title>
+      <itunes:episode>232</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #232 (2026-11-19)
+
+エピソード情報
+• エピソード: #232
+• 日付: 2026-11-19
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization (https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/)
+• Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips (https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/)
+• DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution (https://arxiv.org/abs/2611.21688)
+
+注目の深掘り
+• CrisisBench: an evaluation suite for crisis counseling AI (https://arxiv.org/abs/2611.21622)
+
+小ネタ・その他
+• NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models (https://arxiv.org/abs/2611.21682)
+• Google ships Gemini 4 Neon, its fourth new Gemini model in a month (https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-19/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.970" title="Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization" href="https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/" />
+        <psc:chapter start="00:01:59.290" title="Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips" href="https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/" />
+        <psc:chapter start="00:03:57.020" title="DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution" href="https://arxiv.org/abs/2611.21688" />
+        <psc:chapter start="00:05:41.650" title="CrisisBench: an evaluation suite for crisis counseling AI" href="https://arxiv.org/abs/2611.21622" />
+        <psc:chapter start="00:07:28.390" title="NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models" href="https://arxiv.org/abs/2611.21682" />
+        <psc:chapter start="00:09:47.760" title="Google ships Gemini 4 Neon, its fourth new Gemini model in a month" href="https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/" />
+        <psc:chapter start="00:11:34.880" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#231 OpenAI、GPT-6.2「Astra」と「Sol」を発表 API料金を引き下げ、一部ベンチマークで性能向上 ほか</title>
       <description>Tech News Radio Show Notes - #231 (2026-11-18)
 

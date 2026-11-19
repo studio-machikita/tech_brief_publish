@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.97,
+    "title": "Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization",
+    "url": "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/"
+  },
+  {
+    "start_sec": 119.29,
+    "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+    "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/"
+  },
+  {
+    "start_sec": 237.02,
+    "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
+    "url": "https://arxiv.org/abs/2611.21688"
+  },
+  {
+    "start_sec": 341.65,
+    "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+    "url": "https://arxiv.org/abs/2611.21622"
+  },
+  {
+    "start_sec": 448.39,
+    "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+    "url": "https://arxiv.org/abs/2611.21682"
+  },
+  {
+    "start_sec": 587.76,
+    "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+    "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/"
+  },
+  {
+    "start_sec": 694.88,
+    "title": "エンディング",
+    "url": null
+  }
+]

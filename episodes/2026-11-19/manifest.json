@@ -1,0 +1,370 @@
+{
+  "date": "2026-11-19",
+  "episode_date_local": "2026-11-19",
+  "content_snapshot_date": "2026-11-19",
+  "show_length_sec": 725,
+  "audio_size": 11603372,
+  "generated_at": "2026-11-19T01:57:31.804432+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-2a7facf8",
+      "title": "Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization",
+      "title_ja": "SageMaker AIのサーバーレスモデルカスタマイズで完全ファインチューニング(FFT)に対応",
+      "one_liner": "SageMakerでFFTが使えるようになりました",
+      "fingerprint": "2a7facf8ce65646b63f1ecd8debb5714",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-c1f1d75e",
+      "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+      "title_ja": "Exa、AWSのAIチップで埋め込み処理のスループットを50%向上、数十億件のドキュメントをインデックス化",
+      "one_liner": "ExaがAWS独自チップで埋め込み処理を47%改善",
+      "fingerprint": "c1f1d75e731312d01e2d0fcfae06ce32",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-756eaf6c",
+      "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
+      "title_ja": "DeltaHarness:リソース適応型ツール実行のための自己進化型ハーネス",
+      "one_liner": "実行しながら自らハーネスを調整する新手法",
+      "fingerprint": "756eaf6c1dfe781e08dc3c523a375ea5",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-8f3be882",
+      "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+      "title_ja": "CrisisBench:危機カウンセリングAIの評価スイート",
+      "one_liner": "危機相談AIを測る評価基盤CrisisBench登場",
+      "fingerprint": "8f3be8822ec2ae85d9b9842ba27e8c51",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-f01abbe7",
+      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "title_ja": "NEBench R1:大規模言語モデルの原子力分野における能力を評価する推論ベンチマーク",
+      "one_liner": "原子力分野のLLMを推論力で測る新ベンチマーク",
+      "fingerprint": "f01abbe7a2faff6ab79f63b55272491b",
+      "score": 69,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-f2b406da",
+      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+      "title_ja": "グーグル、「Gemini 4 Neon」を公開 1カ月で4つ目の新モデル",
+      "one_liner": "GoogleがGemini 4 Neonを公開、1か月で4モデル目",
+      "fingerprint": "f2b406da52f11448d187caba5492f614",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-8e6f6feb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Research acceleration: The jagged frontier"
+    },
+    {
+      "item_id": "item-39faa817",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore"
+    },
+    {
+      "item_id": "item-a0fc45d5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot"
+    },
+    {
+      "item_id": "item-8ff06f13",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it"
+    },
+    {
+      "item_id": "item-325f917f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Customize GitHub Copilot for your team"
+    },
+    {
+      "item_id": "item-7bf8920f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US, Malaysia To Strengthen Sovereign AI Cloud Development"
+    },
+    {
+      "item_id": "item-50ae503e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Silent Consensus"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-02a4eb20",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Texas Clears SpaceX Supercomputer Power Plant as Abbott Lifts Freeze"
+    },
+    {
+      "item_id": "item-a70a72dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Building Smarter Automotive Factories: How AI and Industrial IoT Work Together"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-8df21502",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Build once, run on any agent: A practical guide to agent skills"
+    },
+    {
+      "item_id": "item-ff2a67f6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-001f773e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Early Black Friday Deals On Laptops I've Tested Myself (2026)"
+    },
+    {
+      "item_id": "item-a220a54e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "🧠 We Need Smart People Who Give a Shit &bull; VioletPixel"
+    },
+    {
+      "item_id": "item-a0ef6bbb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FABLE"
+    },
+    {
+      "item_id": "item-23da16c3",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk says: ‘I’m not MAGA’"
+    }
+  ],
+  "score_cache": {
+    "a0ef6bbb0eeac3fb387fb1c38ff23160": {
+      "score": 6,
+      "title": "FABLE",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] タイトルが「FABLE」のみで、技術内容・製品カテゴリ・発表の新規性や影響範囲を判断できる情報がありません。AI、クラウド、プログラミング言語などの重要テーマとの関連も確認できないため、現時点では低評価とします。"
+    },
+    "50ae503e4a35e2b1e59f28485eb9d98d": {
+      "score": 47,
+      "title": "The Silent Consensus",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] 高度なAIが社会制度や組織の統制に与える影響を論じる内容で、長期的な技術・社会設計の観点では意義があります。一方、具体的な製品、アーキテクチャ、研究成果、実装手法の発表ではなく、OpenAI関係者による戦略・思想寄りの論考です。また、既出キーワードであるAIおよびOpenAIに直接関係する話題で、明確な新技術や続報というより同一テーマの議論に当たるた"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 41,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] AIモデルの出力を利用して別モデルを訓練する蒸留攻撃への防御は、モデル提供者にとって重要なセキュリティ・知財保護のテーマです。一方で、記事タイトルだけでは具体的な新技術や実装、業界全体を変える規模の発表内容までは確認できず、セキュリティ対策寄りのニュースとして評価を抑えています。AI関連の既出テーマと重なるため、重複分として減点しています。 [Edi"
+    },
+    "2a7facf8ce65646b63f1ecd8debb5714": {
+      "score": 90,
+      "title": "Full Fine-Tuning (FFT) on SageMaker AI Serverless Model Customization",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] SageMaker AIのServerless Model CustomizationにFull Fine-Tuning（FFT）が追加されることで、従来のLoRA中心のモデル適応に対して、精度を優先した選択肢が実運用で利用しやすくなります。ベンチマーク比較、重み行列のスペクトル特性、ハイパーパラメータ調整指針まで含むため、単なる機能追加ではなく、モ"
+    },
+    "8df215026dccc17ec7b7749bf7b30e76": {
+      "score": 41,
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] エージェント向けの反復可能な開発作業をファイルとして定義し、チームでレビュー・再利用する「agent skills」は、AIエージェントの運用性や移植性を高める実務的な設計パターンです。ツール、プロジェクトコンテキスト、権限を実行ホストから分離する考え方も、エージェント基盤の標準化に寄与します。一方で、記事は新しい基盤やモデルの発表というより実践ガイ"
+    },
+    "a0fc45d50f1508223e02ec7f5c9a810d": {
+      "score": 54,
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] GitHub-verified MCPサーバーを介してSupabase、Box、CalendlyなどをCopilotへ接続できるようになり、開発環境と外部サービスを統合する実用的な拡張です。MCPを基盤にしたコネクタの増加は、Copilotの適用範囲やエージェント連携の柔軟性を高める点で技術的意義があります。一方で、既存機能の拡充を示すパブリックプレ"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] AI開発基盤向けWorkbenchのリリースであり、BigQuery JupyterLabプラグインの独立制御、GPUドライバーの事前導入、コンテナイメージの重大・高危険度CVE修正など、実運用上の改善は具体的です。一方で、業界の前提を変える新技術や大規模なアーキテクチャ変更ではなく、主に保守・互換性・セキュリティ対応のリリースです。また、既出キーワ"
+    },
+    "ff2a67f6a68dc9c4cd8835b1e9d5fe99": {
+      "score": 37,
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] Microsoftの大規模な人員削減をAI投資や組織再編と結び付けて説明する記事で、テック業界の雇用や開発体制には影響します。ただし、具体的な技術革新や新しいアーキテクチャ、製品発表ではなく、主題は経営判断・人員政策です。また、直近に取り上げ済みのAI関連テーマと重なるため減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "f2b406da52f11448d187caba5492f614": {
+      "score": 66,
+      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] マルチモーダル対応、100万トークンのコンテキスト、ソフトウェア開発や科学用途向けという点で、開発者・エンタープライズへの影響は大きい。一方で、既出のAI・モデル・ローンチ系トピックと同じ軸の続報であり、新しいアーキテクチャや画期的な能力向上の具体性も限定的なため、重複分を減点した。 [Editorial: AI-focused source +6;"
+    },
+    "8ff06f13d8cb54a4f722c0833f9aa37b": {
+      "score": 54,
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] Word、Excel、PowerPointをCopilot内に統合し、業務アプリケーションの操作面をAI中心へ再構成する点は、企業向けソフトウェアのUXやワークフローに大きな影響を与えます。単なる機能追加ではなく、Officeを個別アプリではなくAIエージェントの実行環境として扱う方向性は注目に値します。一方で、Copilotおよびエージェント関連は"
+    },
+    "001f773eea8cdd6d62710ad6d415bfb6": {
+      "score": 10,
+      "title": "The Best Early Black Friday Deals On Laptops I've Tested Myself (2026)",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] 一般消費者向けノートPCのセール情報であり、ソフトウェア開発、クラウド、AI、アーキテクチャなど技術業界への影響は限定的です。実機レビューに基づく点は有用ですが、ブラックフライデーの価格情報は一時的で、エンジニア視点での新規性や技術革新もほぼありません。"
+    },
+    "7bf8920f44dba7455f89a942266b9135": {
+      "score": 48,
+      "title": "US, Malaysia To Strengthen Sovereign AI Cloud Development",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] マレーシアの主権AIクラウド構築に米国が5000万ドルを支援する協力計画であり、AIインフラ、データ主権、クラウド基盤の地域展開という点では注目度があります。一方で、採用するクラウドアーキテクチャ、モデル、運用方式、実装企業などの具体性は乏しく、技術革新というより政策・投資面のニュースです。既出のAI関連話題とは異なる国際協力とインフラ整備の続報性が"
+    },
+    "02a4eb202afcd887ad14a699fd82e464": {
+      "score": 47,
+      "title": "Texas Clears SpaceX Supercomputer Power Plant as Abbott Lifts Freeze",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] SpaceXが計画するスーパーコンピューター向けに1.456GWのガス火力発電所を整備するという、AI・大規模計算基盤を支える電力インフラとしては規模が非常に大きく、データセンター設計や電力調達の観点で注目度が高い。一方で、記事の中心は環境許可の承認と規制上の進展であり、ソフトウェア技術そのものの革新や新しいアーキテクチャの発表ではないため、最高評価"
+    },
+    "f01abbe7a2faff6ab79f63b55272491b": {
+      "score": 69,
+      "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] 原子力という安全性・専門性の高い領域で、LLMの正答率だけでなく推論品質を評価する新しいベンチマークを提示しており、AI評価基盤としての技術的価値は高いです。7,546問の具体的なデータ規模もあり、モデル比較や専門領域への適用検証に活用できます。一方で、現時点ではarXiv上の研究発表であり、基盤モデルや業界の前提を直ちに変える実運用・製品化のニュー"
+    },
+    "756eaf6c1dfe781e08dc3c523a375ea5": {
+      "score": 77,
+      "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] ツール利用エージェントの実行ハーネスを、対象環境での初期実測に基づいて自己適応させる研究であり、エージェントのレイテンシーやリソース効率を改善する実装上の新規性があります。単なるモデル性能向上ではなく、実行計画の探索・スケジューリング層を進化させる点は、LLMエージェント基盤に実用的な影響を与え得ます。一方で、現時点ではarXivの新規論文であり、実"
+    },
+    "8f3be8822ec2ae85d9b9842ba27e8c51": {
+      "score": 77,
+      "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] 危機相談に特化したLLM評価基盤で、従来の一般的なベンチマークでは測りにくいリスク評価、会話のエスカレーション、デエスカレーションを対象にしている点が技術的に重要です。実データを使いにくい領域でプライバシー保護を前提とした単一ターン・マルチターン評価を提供するため、安全性評価や医療・メンタルヘルス向けAIの実運用に波及する可能性があります。一方、現時"
+    },
+    "a70a72dc85264872cdcb195d626d0293": {
+      "score": 42,
+      "title": "Building Smarter Automotive Factories: How AI and Industrial IoT Work Together",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] AI、Industrial IoT、エッジコンピューティング、予知保全、RFID/BLE/UWBを組み合わせたスマートファクトリーの構成を整理しており、製造業における実装上の論点としては有用です。一方で、特定企業の新製品、画期的な技術成果、導入実績、性能指標などを示すニュースではなく、既知の技術を概説した入門的な内容にとどまります。AI関連の既出テー"
+    },
+    "a220a54e20151006257b0681921ab374": {
+      "score": 10,
+      "title": "🧠 We Need Smart People Who Give a Shit &bull; VioletPixel",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] タイトルのみで、技術的な発表・製品・アーキテクチャ変更の具体性がなく、エンジニアリング上の影響範囲を評価できません。一般的な人材・組織論の主張に見えるため、AIやクラウドなどの主要技術トピックにも該当せず、重要度は最低水準と判断します。"
+    },
+    "8e6f6febb3abc731ede5ec9434a64456": {
+      "score": 66,
+      "title": "Research acceleration: The jagged frontier",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] コーディングエージェントがAI研究をどの程度加速できるかを実測し、性能のばらつきや再帰的自己改善の可能性を検証する点は、AI開発基盤や研究ワークフローに大きな示唆があります。一方で、既出のAI・OpenAI・エージェント関連トピックと直接重なるため20点減点しました。また、現時点では業界の前提を変える製品発表ではなく、実証結果と分析が中心であるため、"
+    },
+    "39faa8177c8a3aa4c6e6c85e8c9e452e": {
+      "score": 60,
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] Anthropicのシンガポール拠点開設と政府とのMOU締結は、東南アジアにおけるAI導入、人材・企業連携、公共部門でのLLM活用を加速させる可能性があります。一方で、モデルや開発基盤の技術革新そのものではなく、事業展開と政府連携が中心のニュースです。既出のAnthropicやAI関連テーマではあるものの、地域拠点の新設と政府との新たな協力という明確"
+    },
+    "c1f1d75e731312d01e2d0fcfae06ce32": {
+      "score": 90,
+      "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] AWSのInferentia2／Trainium2上でカスタムNKIカーネルを実装し、埋め込み推論の性能とコストを約47〜50%改善した具体的な技術事例です。数百億規模の文書インデックスを支える検索基盤に直結し、AIワークロード向けの専用チップ活用、推論最適化、ベクトル検索のユニットエコノミクスという点で、アーキテクチャおよびクラウドエンジニアリング"
+    },
+    "325f917f46f223843059788560261a6f": {
+      "score": 49,
+      "title": "Customize GitHub Copilot for your team",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] GitHub Copilotのプラグイン設定を組織チーム単位で共有できる一般提供開始であり、導入・運用時の初期設定を標準化し、チーム内の開発体験を改善する実務的なアップデートです。一方で、AIモデルや開発アーキテクチャ自体の進化ではなく、既存機能の管理性向上が中心です。さらに、直近に取り上げ済みのGitHubおよびCopilotと同じ話題に該当するた"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 29,
+      "title": "October 11, 2026",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースノートですが、内容の中心は依存パッケージの更新と、pyOpenSSLとcryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正です。実務上は重要な保守改善である一方、新しいアーキテクチャや機能、業界への大きな影響を示す発表ではありません。既出キーワードの「"
+    },
+    "23da16c3d60a55d28b3f06228a2f1d50": {
+      "score": 6,
+      "title": "Elon Musk says: ‘I’m not MAGA’",
+      "date": "2026-11-19",
+      "reason": "[Claude API Evaluation] 政治的な発言と選挙支出に関する話題であり、AI・ソフトウェア・クラウド・ロボティクスなどの技術革新やエンジニアリング上の具体的な影響がありません。技術業界への直接的な波及も示されていないため、重要度は最低水準です。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-19/blog.md",
+    "show_notes_path": "out/2026-11-19/show_notes.md",
+    "script_path": "out/2026-11-19/script_2hosts.md",
+    "audio_path": "out/2026-11-19/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-19/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-19/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 26398,
+        "output_tokens": 11638,
+        "cost_usd": 0.019245
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45862,
+        "output_tokens": 9804,
+        "cost_usd": 0.189764
+      }
+    ],
+    "tts": {
+      "chars": 4607,
+      "audio_sec": 711.5,
+      "cost_usd": 0.137188
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.346197
+  }
+}
