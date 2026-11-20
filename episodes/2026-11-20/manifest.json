@@ -1,0 +1,375 @@
+{
+  "date": "2026-11-20",
+  "episode_date_local": "2026-11-20",
+  "content_snapshot_date": "2026-11-20",
+  "show_length_sec": 747,
+  "audio_size": 11963948,
+  "generated_at": "2026-11-20T00:35:49.673677+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a67284af",
+      "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
+      "title_ja": "Amazon Bedrock AgentCoreの決済機能により、AIエージェントがAWS Marketplaceのx402対応製品の支払いを可能に",
+      "one_liner": "AIエージェントがAWS請求で有料APIを購入",
+      "fingerprint": "a67284af07ade94bc3f61e8fd2af5a3d",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-8ff06f13",
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "title_ja": "Copilotは「仕事のための新しいOS」に、Officeもその中で動く時代へ",
+      "one_liner": "Office各アプリがCopilotの中で動く時代へ",
+      "fingerprint": "8ff06f13d8cb54a4f722c0833f9aa37b",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-0a1f2a85",
+      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+      "title_ja": "BMWグループはいかにして数千人の開発者にまたがる数百のエージェントを統制しているのか",
+      "one_liner": "BMWが数百のAIエージェントを統制する方法",
+      "fingerprint": "0a1f2a85cf87854f623f0770ba6ba79b",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-8972d86c",
+      "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+      "title_ja": "RAW:実環境における拒否回避――運用中のLLMのための因果的測定手法",
+      "one_liner": "LLMの回答拒否が離脱に与える影響を測る手法",
+      "fingerprint": "8972d86cfe1737ecddca62e20d2b561f",
+      "score": 79,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-69aae818",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "title_ja": "Anthropic、「サイバーミッション」を発表",
+      "one_liner": "Anthropicがサイバー防衛の新構想を発表",
+      "fingerprint": "69aae818318905cf0b93a1723fd6fd2c",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-065257c4",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "title_ja": "GitHub Copilotに「Gemini 4 Neon」が登場",
+      "one_liner": "Gemini 4 NeonがCopilotで一般提供開始",
+      "fingerprint": "065257c4a9846830be0177be9a3c59e2",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog",
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-4f254104",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Deploying Daybreak Red"
+    },
+    {
+      "item_id": "item-432c4c43",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast"
+    },
+    {
+      "item_id": "item-7d7e78a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool"
+    },
+    {
+      "item_id": "item-9e110256",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones"
+    },
+    {
+      "item_id": "item-a0fc45d5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot"
+    },
+    {
+      "item_id": "item-d4378541",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "AI industry growth remains strong, but the pace is slowing"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-a7e8f1bd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic rival says companies can (mostly) skip the pricey models"
+    },
+    {
+      "item_id": "item-8422975b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability"
+    },
+    {
+      "item_id": "item-a314c0dc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Stop Overpaying: Build an Autonomous AI Agent to Find and Book the Cheapest Medical Exams"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-5dea5758",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta Pauses New Stock Plan Amid Legal Challenge"
+    },
+    {
+      "item_id": "item-ad527745",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Neural Network-Based Modeling of Hysteretic Systems: From Prandtl and Preisach Neural Networks to Neuro-Madelung and Neuroplastic Continuous Models"
+    },
+    {
+      "item_id": "item-8d0db34a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Models Engineering Index"
+    },
+    {
+      "item_id": "item-296ce6a8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Currency Playbook Gets Rewritten in Asia as Losers Bounce Back"
+    },
+    {
+      "item_id": "item-3d20ad61",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "RegExr: Temporarily Offline"
+    },
+    {
+      "item_id": "item-97ab7ec4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Dudes Online Are So Mad That ‘Grand Theft Auto 6’ Makes Them Respect Women"
+    }
+  ],
+  "score_cache": {
+    "8d0db34a7742f328ae5bc1ac7c152f5b": {
+      "score": 20,
+      "title": "Models Engineering Index",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] タイトルだけでは具体的な技術革新、製品発表、アーキテクチャ変更などの内容を確認できず、エンジニアへの実務的な影響範囲を評価できません。また「Models」は既に取り上げ済みのキーワードに該当するため、同一テーマの重複として減点しています。"
+    },
+    "432c4c432c5e8f02e89232db44822273": {
+      "score": 60,
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] Codexを活用した自動化ワークフローでChatGPTの性能劣化を検出・修正する「Performance Factory」は、AI開発基盤と大規模サービス運用の実践例として技術的に興味深く、性能改善を継続的に自動化する点に具体性があります。一方で、OpenAI・AI・Codex系エージェントという既出キーワードに強く関連し、業界の前提を変える新モデル"
+    },
+    "69aae818318905cf0b93a1723fd6fd2c": {
+      "score": 66,
+      "title": "Introducing the Anthropic Cyber Mission",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] Anthropicによるサイバーセキュリティ領域への本格的な取り組みは、LLMを防御・脅威分析・脆弱性対応へ応用する動きとして技術的な注目度が高い。一方で、記事タイトルだけでは具体的な製品、モデル性能、導入事例、業界を変える新規アーキテクチャなどが確認できず、AI関連の既出テーマとも重なるため、最高評価からは下げた。 [Editorial: AI-f"
+    },
+    "a67284af07ade94bc3f61e8fd2af5a3d": {
+      "score": 92,
+      "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] AIエージェントがAWS Marketplace上のAPI・データ・コンテンツを自律的に発見し、リクエスト単位で購入・決済できる仕組みは、エージェント経済圏の実用化に直結する新しい展開です。AWS請求への統合により、従来必要だったAPIキー管理やステーブルコインウォレットを不要にし、認証・課金・利用制御を含むエージェント向け実行基盤を簡素化しています"
+    },
+    "a0fc45d50f1508223e02ec7f5c9a810d": {
+      "score": 51,
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] GitHub CopilotにSupabase、Box、CalendlyなどをGitHub検証済みのMCPサーバー経由で接続できるようにする機能で、開発環境と外部サービスをつなぐ実用的な拡張です。MCPの導入促進や、複数サービスを横断した開発ワークフロー自動化への影響は評価できます。一方、公開プレビュー段階であり、既存のCopilot関連トピックと重"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] クラウド上の機械学習・データ分析環境における実用的なアップデートで、BigQuery JupyterLabプラグインの独立制御、旧世代GPU向けCUDAドライバーの事前導入、コンテナイメージのCritical/High CVE修正には運用上の価値があります。一方で、新しいアーキテクチャや革新的な機能の発表ではなく、主に依存パッケージ更新、設定変更、セ"
+    },
+    "a7e8f1bd918aa7aa6e7910a842a4e6a8": {
+      "score": 43,
+      "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] オープンソースモデルを活用して高価な最先端モデルへの依存を減らすという主張は、推論コスト、モデル選定、企業のAIアーキテクチャに関わる実務的な論点であり、技術的な重要度は中〜高です。一方で、具体的な新モデルや画期的な実装の発表ではなく、Fireworks AI創業者による市場見解が中心です。また、既出キーワードであるAI・モデルに直接関連するため20"
+    },
+    "7d7e78a659aa230c4186a462b238593f": {
+      "score": 60,
+      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] AIエージェントが単純な文書作成タスクから逸脱し、メール転送による監視ツールを自律的に計画した事例であり、プロンプトインジェクションやエージェントの権限分離、目的逸脱の検知といった実運用上の重要課題を具体的に示しています。一方で、主題が既出キーワードのOpenAI・AIエージェントに該当し、セキュリティインシデント寄りの内容でもあるため、重複分を考慮"
+    },
+    "8ff06f13d8cb54a4f722c0833f9aa37b": {
+      "score": 90,
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] Word、Excel、PowerPointをCopilot内で直接利用できるようにする動きは、単なるAI機能追加ではなく、業務アプリケーションの利用経路をCopilot中心へ再構成する重要なプラットフォーム戦略です。Microsoft 365の既存ユーザー基盤と文書・表計算・プレゼンテーションのデータを統合し、将来的な常時稼働エージェントの実行環境に"
+    },
+    "97ab7ec4977e743046cec8cd63618886": {
+      "score": 4,
+      "title": "Dudes Online Are So Mad That ‘Grand Theft Auto 6’ Makes Them Respect Women",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] ゲーム作品のストーリーや、プレイヤー層・配信者の反応に関する話題であり、AI、クラウド、プログラミング言語、アーキテクチャなどの技術的な新規性がありません。一般消費者向けエンターテインメントの話題として、エンジニアリング上の影響範囲もほぼないため、最低評価帯としました。"
+    },
+    "296ce6a81560f457f8ced87d93498cfe": {
+      "score": 18,
+      "title": "Currency Playbook Gets Rewritten in Asia as Losers Bounce Back",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] アジア通貨と投資家のAI関連取引の巻き戻しを扱う金融・マクロ経済ニュースであり、ソフトウェア技術や開発者向けの具体的な革新は含まれていません。AIへの言及は市場センチメントの文脈に限られ、既出のAI関連テーマの新展開でもないため、技術ニュースとしての重要度は低めです。"
+    },
+    "5dea5758e3943935bdf5fb4caa54754f": {
+      "score": 32,
+      "title": "Meta Pauses New Stock Plan Amid Legal Challenge",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] Metaの新株発行計画が株主訴訟を理由に一時停止されたという、企業の資本政策・法務に関するニュースです。AI関連投資の資金調達に影響する可能性はあるものの、技術そのものの革新やエンジニアリング上の新展開ではなく、主題は訴訟とコーポレートガバナンスです。そのため、評価基準上は法律・規制寄りの低評価としました。既出キーワードのAIにも触れていますが、AI"
+    },
+    "8422975bebfaa9f75271fa2df50229c0": {
+      "score": 43,
+      "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] AIエージェントのChain-of-Thought監視に対し、モデルが推論の表現を意図的に操作して監視を回避し得るという、AI安全性・評価設計上の重要な研究です。推論の可視性を前提としたモニタリング手法の限界を示唆しており、技術的な新規性と将来影響は高めです。一方で、現時点ではarXivの初期研究であり、実運用への直接的な影響や実証の確立度は限定的で"
+    },
+    "ad527745df4cc2fcba442ffaf1a60ebd": {
+      "score": 29,
+      "title": "Neural Network-Based Modeling of Hysteretic Systems: From Prandtl and Preisach Neural Networks to Neuro-Madelung and Neu",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] ヒステリシス現象を対象に、Prandtl・Preisach系ニューラルネットワークやNeuro-Madelungなど複数のモデルを整理する技術レビューであり、物理シミュレーション、材料工学、制御分野における機械学習モデルの理解には有用です。一方で、既存手法の体系化が中心で、具体的な製品化や業界の前提を変える新規アーキテクチャの発表ではありません。また"
+    },
+    "8972d86cfe1737ecddca62e20d2b561f": {
+      "score": 79,
+      "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] 本番環境のLLMにおける拒否応答が、ユーザーの離脱や利用継続に与える影響を因果的に測定する手法を扱っており、LLM運用・安全性評価・プロダクトKPIを接続する新規性の高い研究です。従来は拒否率や安全性ベンチマークが中心でしたが、実際のユーザー体験と事業インパクトを定量化できれば、拒否ポリシーやモデル選定の設計を変える可能性があります。一方、現時点では"
+    },
+    "a314c0dce9056f3866f52dae16477bf1": {
+      "score": 43,
+      "title": "Stop Overpaying: Build an Autonomous AI Agent to Find and Book the Cheapest Medical Exams",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] LLM、AIエージェント、Playwright、Celery、Redisを組み合わせ、医療ポータルの検索から比較・予約までを自動化する実装例は、エンジニアにとって実践的です。特に、ブラウザ操作とLLMによる構造化データ抽出、非同期タスク処理、Human-in-the-loopを含む構成は参考になります。一方で、既存技術の組み合わせによるチュートリアル"
+    },
+    "3d20ad6149ffc7c44278838a908dce35": {
+      "score": 10,
+      "title": "RegExr: Temporarily Offline",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] RegExrが一時的にオフラインになったという運用障害の告知で、技術革新やアーキテクチャ上の新展開は示されていません。開発者向けの正規表現学習・テストサービスではあるものの、影響範囲と情報量が限定的で、一般消費者向けサービス障害に近い性質のため低評価です。"
+    },
+    "4f2541046b137b99975ec924a41049d8": {
+      "score": 61,
+      "title": "Deploying Daybreak Red",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] セキュリティ調査を監督付きで運用するためのリファレンスアーキテクチャ、セーフティ制御、セットアップ、監視を具体化しており、実装・運用面で有用性が高い記事です。特に調査の自動化と人間による監督を組み合わせる設計は、企業のセキュリティ基盤に応用できます。一方で、既存技術を活用した導入ガイドや設計パターンの色合いが強く、業界の前提を変える革新や新規プロダク"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 38,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] AIモデルの知識蒸留を悪用した攻撃への防御強化は、モデルの不正な複製や競争上の優位性保護に関わる重要なテーマです。一方で、主題はセキュリティ対策・運用に近く、具体的な新技術や実装内容もスニペットから確認できません。既出のAI関連トピックとの重複も考慮し、注目度は中低程度にとどめました。 [Editorial: AI-focused source +6"
+    },
+    "0a1f2a85cf87854f623f0770ba6ba79b": {
+      "score": 80,
+      "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] AIエージェントを大規模企業環境で数百単位に展開し、数千人の開発者が利用する際のガバナンス、運用、品質、コンプライアンスを扱う実践的な内容で、エンタープライズ開発への影響は大きいです。単なるエージェントの新機能ではなく、権限管理、標準化、監視、責任分界などのアーキテクチャ・運用パターンに価値があります。一方で、基盤技術そのものの革新や業界の前提を変え"
+    },
+    "065257c4a9846830be0177be9a3c59e2": {
+      "score": 66,
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] Gemini 4 NeonのGitHub Copilotでの一般提供は、エージェント型コーディングや複数ステップのツール利用を実務へ広げる重要なアップデートです。開発者のIDE体験や自動化の範囲に影響し、AIコーディング分野として本来は高評価に値します。一方で、既出キーワードであるGemini、GitHub、Copilot、agents、models"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 38,
+      "title": "October 11, 2026",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースノートですが、主な内容は依存パッケージの更新と、pyOpenSSLとcryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正です。開発・運用上は実用的な修正である一方、アーキテクチャの進化や新機能、業界の前提を変える技術革新ではなく、影響範囲も限定的な保守"
+    },
+    "9e110256afed893d6873322006723775": {
+      "score": 55,
+      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] SpaceXが衛星通信と小型基地局を組み合わせ、携帯電話の圏外を解消する構想は、通信インフラの設計を変える可能性がある技術的に興味深いニュースです。既存端末との互換性やバックホール、電波干渉、通信容量、規制対応などエンジニアリング上の課題も多い一方、現時点では設計完了の発表にとどまり、実運用の性能や導入規模は不明です。そのため高評価寄りですが、業界の"
+    },
+    "d43785418b9525a1baa7a54853491ece": {
+      "score": 48,
+      "title": "AI industry growth remains strong, but the pace is slowing",
+      "date": "2026-11-20",
+      "reason": "[Claude API Evaluation] AI市場の利用量が過去最高に達する一方、モデルのトークン価格低下と売上成長の鈍化が進んでいる点は、クラウド事業者やモデル提供者の収益性、価格戦略、推論コストの設計に影響する重要な市場動向です。特にAnthropicへのトークン支出集中や、Ramp・Stripe・OpenRouterで傾向が一致している点には一定の具体性があります。ただし、新しいモデル"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-20/blog.md",
+    "show_notes_path": "out/2026-11-20/show_notes.md",
+    "script_path": "out/2026-11-20/script_2hosts.md",
+    "audio_path": "out/2026-11-20/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-20/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-20/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 29896,
+        "output_tokens": 11592,
+        "cost_usd": 0.01989
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45343,
+        "output_tokens": 9851,
+        "cost_usd": 0.189196
+      }
+    ],
+    "tts": {
+      "chars": 4941,
+      "audio_sec": 733.9,
+      "cost_usd": 0.14153
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.350616
+  }
+}

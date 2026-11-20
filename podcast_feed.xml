@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#233 Amazon Bedrock AgentCoreの決済機能により、AIエージェントがAWS Marketplaceのx…</title>
+      <description>Tech News Radio Show Notes - #233 (2026-11-20)
+
+エピソード情報
+• エピソード: #233
+• 日付: 2026-11-20
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments (https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/)
+• Copilot is "the new OS for work," and now Office runs inside of it (https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/)
+• How the BMW Group governs hundreds of agents across thousands of developers (https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/)
+
+注目の深掘り
+• RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs (https://arxiv.org/abs/2611.21641)
+
+小ネタ・その他
+• Introducing the Anthropic Cyber Mission (https://www.anthropic.com/news/anthropic-cyber-mission)
+• Gemini 4 Neon in GitHub Copilot (https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot)
+• Gemini 4 Neon in GitHub Copilot (https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-20/episode_audio.mp3" length="11963948" type="audio/mpeg" />
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-20</guid>
+      <itunes:duration>12:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Amazon Bedrock AgentCoreの決済機能により、AIエージェントがAWS Marketplaceのx…</itunes:title>
+      <itunes:episode>233</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #233 (2026-11-20)
+
+エピソード情報
+• エピソード: #233
+• 日付: 2026-11-20
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments (https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/)
+• Copilot is "the new OS for work," and now Office runs inside of it (https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/)
+• How the BMW Group governs hundreds of agents across thousands of developers (https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/)
+
+注目の深掘り
+• RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs (https://arxiv.org/abs/2611.21641)
+
+小ネタ・その他
+• Introducing the Anthropic Cyber Mission (https://www.anthropic.com/news/anthropic-cyber-mission)
+• Gemini 4 Neon in GitHub Copilot (https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot)
+• Gemini 4 Neon in GitHub Copilot (https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-20/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.730" title="Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments" href="https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/" />
+        <psc:chapter start="00:01:54.240" title="Copilot is &quot;the new OS for work,&quot; and now Office runs inside of it" href="https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/" />
+        <psc:chapter start="00:03:45.830" title="How the BMW Group governs hundreds of agents across thousands of developers" href="https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/" />
+        <psc:chapter start="00:05:41.760" title="RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs" href="https://arxiv.org/abs/2611.21641" />
+        <psc:chapter start="00:07:51.930" title="Introducing the Anthropic Cyber Mission" href="https://www.anthropic.com/news/anthropic-cyber-mission" />
+        <psc:chapter start="00:09:53.630" title="Gemini 4 Neon in GitHub Copilot" href="https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot" />
+        <psc:chapter start="00:11:56.670" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#232 SageMaker AIのサーバーレスモデルカスタマイズで完全ファインチューニング(FFT)に対応 ほか</title>
       <description>Tech News Radio Show Notes - #232 (2026-11-19)
 
