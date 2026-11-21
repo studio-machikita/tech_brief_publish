@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#234 OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか</title>
+      <description>Tech News Radio Show Notes - #234 (2026-11-21)
+
+エピソード情報
+• エピソード: #234
+• 日付: 2026-11-21
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI makes it much harder for attackers to extract how its latest AI models think (https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/)
+• OpenAI makes it much harder for attackers to extract how its latest AI models think (https://openai.com/index/combatting-adversarial-distillation)
+• Anthropic Researcher Claims to Solve Riemann Problem With Claude (https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude)
+• PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction (https://arxiv.org/abs/2611.24999)
+
+注目の深掘り
+• Anthropic opens Singapore office and signs MOU with the Government of Singapore (https://www.anthropic.com/news/singapore-office-opening)
+
+小ネタ・その他
+• Connect Supabase, Box, Calendly, and more to Copilot (https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot)
+• Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building. (https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-21/episode_audio.mp3" length="11245484" type="audio/mpeg" />
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-21</guid>
+      <itunes:duration>11:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか</itunes:title>
+      <itunes:episode>234</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #234 (2026-11-21)
+
+エピソード情報
+• エピソード: #234
+• 日付: 2026-11-21
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• OpenAI makes it much harder for attackers to extract how its latest AI models think (https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/)
+• OpenAI makes it much harder for attackers to extract how its latest AI models think (https://openai.com/index/combatting-adversarial-distillation)
+• Anthropic Researcher Claims to Solve Riemann Problem With Claude (https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude)
+• PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction (https://arxiv.org/abs/2611.24999)
+
+注目の深掘り
+• Anthropic opens Singapore office and signs MOU with the Government of Singapore (https://www.anthropic.com/news/singapore-office-opening)
+
+小ネタ・その他
+• Connect Supabase, Box, Calendly, and more to Copilot (https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot)
+• Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building. (https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-21/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.280" title="OpenAI makes it much harder for attackers to extract how its latest AI models think" href="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/" />
+        <psc:chapter start="00:02:08.930" title="Anthropic Researcher Claims to Solve Riemann Problem With Claude" href="https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude" />
+        <psc:chapter start="00:04:14.170" title="PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction" href="https://arxiv.org/abs/2611.24999" />
+        <psc:chapter start="00:05:57.060" title="Anthropic opens Singapore office and signs MOU with the Government of Singapore" href="https://www.anthropic.com/news/singapore-office-opening" />
+        <psc:chapter start="00:07:46.120" title="Connect Supabase, Box, Calendly, and more to Copilot" href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot" />
+        <psc:chapter start="00:09:30.010" title="Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building." href="https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/" />
+        <psc:chapter start="00:11:13.590" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#233 Amazon Bedrock AgentCoreの決済機能により、AIエージェントがAWS Marketplaceのx…</title>
       <description>Tech News Radio Show Notes - #233 (2026-11-20)
 

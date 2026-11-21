@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-21",
+  "episode_date_local": "2026-11-21",
+  "content_snapshot_date": "2026-11-21",
+  "show_length_sec": 702,
+  "audio_size": 11245484,
+  "generated_at": "2026-11-21T01:26:03.770227+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-b7c25b8e",
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "title_ja": "OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に",
+      "one_liner": "OpenAIが推論の抜き取り対策を大幅強化",
+      "fingerprint": "b7c25b8e3b28f3d6a6f5cb6d0cff44c5",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-a450b4d3",
+      "title": "Anthropic Researcher Claims to Solve Riemann Problem With Claude",
+      "title_ja": "アンスロピックの研究者、Claudeを使ってリーマン問題を解決したと主張",
+      "one_liner": "Claudeでリーマン予想を解いたと研究者が主張",
+      "fingerprint": "a450b4d34e20b04d1cf50a2cf969a71c",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-779ab29f",
+      "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+      "title_ja": "PsyWorld:人間の行動予測のためのプロファイル条件付きワールドモデリング",
+      "one_liner": "人の性格と状態から行動を予測する世界モデル",
+      "fingerprint": "779ab29fa0e3e02418a3047e25c8a3c7",
+      "score": 77,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.LG"
+      ]
+    },
+    {
+      "item_id": "item-39faa817",
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "title_ja": "Anthropic、シンガポールに拠点を開設 シンガポール政府と覚書を締結",
+      "one_liner": "AnthropicがシンガポールにAsia拠点を開設",
+      "fingerprint": "39faa8177c8a3aa4c6e6c85e8c9e452e",
+      "score": 62,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "item_id": "item-a0fc45d5",
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "title_ja": "Supabase、Box、CalendlyなどをCopilotに接続",
+      "one_liner": "CopilotにSupabaseなど8サービスを新たに接続",
+      "fingerprint": "a0fc45d50f1508223e02ec7f5c9a810d",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-baa9b2e2",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "title_ja": "ダニエル・エク氏、AI研究者の核融合発電スタートアップを支援 その開発内容とは",
+      "one_liner": "Spotify創業者がAI研究者の核融合企業を支援",
+      "fingerprint": "baa9b2e253bab3594e25cd98f373030a",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-17ad5981",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill"
+    },
+    {
+      "item_id": "item-7bd15b77",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together"
+    },
+    {
+      "item_id": "item-5bc696e6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference"
+    },
+    {
+      "item_id": "item-382dd61d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced."
+    },
+    {
+      "item_id": "item-325f917f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Customize GitHub Copilot for your team"
+    },
+    {
+      "item_id": "item-dcdba425",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-e1a1cc94",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry"
+    },
+    {
+      "item_id": "item-e6316035",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats"
+    },
+    {
+      "item_id": "item-fc941d06",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alibaba CEO Warns of Impact From New U.S. Chip Rule"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-90ce7dba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GBase Database: Why unload Delimiters Are Limited to 4 Characters"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-f3e4548a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Sir Brian May adds new dimension to Hera asteroid"
+    },
+    {
+      "item_id": "item-38191b52",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Re: Riemann"
+    },
+    {
+      "item_id": "item-44392dc9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now"
+    },
+    {
+      "item_id": "item-dde6d2ec",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop"
+    },
+    {
+      "item_id": "item-1f8e7d19",
+      "reason": "[Duplicate] 「OpenAI makes it much harder for attackers to extract how its」と同じ出来事のため除外",
+      "title": "Combatting adversarial distillation"
+    }
+  ],
+  "score_cache": {
+    "38191b5230ef53bd813d26b6e569495a": {
+      "score": 24,
+      "title": "Re: Riemann",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] タイトルだけでは対象技術や新規性、実装上の影響範囲を特定できません。「Riemann」が監視・ストリーム処理系のOSSを指す場合でも、具体的な機能追加やアーキテクチャ上の進展が示されていないため、現時点では重要度を低く評価します。"
+    },
+    "1f8e7d19445ae29d8429ca50b29ba776": {
+      "score": 47,
+      "title": "Combatting adversarial distillation",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] モデルの能力抽出を防ぐために、学習・安全策・検知・執行を組み合わせる多層防御は、LLMのセキュリティと運用設計の観点で重要です。一方で、基盤モデル自体の新発表や画期的なアーキテクチャではなく、既存モデルの不正蒸留対策に関する防御・運用方針が中心です。また、AIおよびサイバーセキュリティ関連の既出テーマと重なるため、重複分として減点しています。 [Ed"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 30,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] AIモデルの蒸留攻撃への防御強化は、モデル抽出や不正利用を防ぐ観点で技術的には重要ですが、主題はセキュリティ対策であり、評価基準上は低評価帯に該当します。また、既出の「AI」「model」「cyber」関連トピックと重なり、明確な新規技術や具体的な影響範囲もスニペットから確認できないため減点しました。 [Editorial: AI-focused s"
+    },
+    "7bd15b77168135e0cbff7d46ead3babf": {
+      "score": 49,
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] 業務フローをチャット上で構築・実行できる機能、複数エージェントによる回答統合、Meta AdsやAmplitudeなど新しいデータソース連携は、企業向けAIワークスペースの実用性を高める具体的なアップデートです。特に業務自動化とデータ統合の観点ではエンジニアへの影響があります。一方で、既存のAI・AWS・エージェント関連サービスの機能拡張であり、基盤"
+    },
+    "a0fc45d50f1508223e02ec7f5c9a810d": {
+      "score": 60,
+      "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] GitHub-verified MCPサーバーを介してSupabase、Box、CalendlyなどをCopilotへ接続できるようになる点は、開発者向けAIの実用的な拡張として一定の重要性があります。既存サービスとの連携を標準化し、Copilotの利用範囲や自動化可能な業務を広げる一方、現時点ではパブリックプレビューであり、基盤技術そのものを大きく"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 35,
+      "title": "October 04, 2026",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新で、BigQuery JupyterLabプラグインの独立制御、旧世代GPU向けCUDAドライバの事前導入、依存パッケージ更新、重大度の高いCVE修正が含まれます。実運用上は有用ですが、既存機能の改善と保守・セキュリティ対応が中心で、業界の前提を変える新技術ではありません。また、既出キーワードの「"
+    },
+    "44392dc9b1ddb58e61cf10a50e721d20": {
+      "score": 23,
+      "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] AI関係者を狙うハニートラップ型のソーシャルエンジニアリングへの警告であり、技術革新や実装の進展ではなく、セキュリティ運用・人的脆弱性に関する話題です。AIおよびcyber関連は直近の放送済みキーワードにも該当し、明確な新技術や具体的な被害事例が示されていないため、重複分を考慮して低めに評価します。 [Editorial: AI/SaaS topic"
+    },
+    "b7c25b8e3b28f3d6a6f5cb6d0cff44c5": {
+      "score": 90,
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] 最新AIモデルの内部推論を抽出する攻撃に対し、成功率を54％から0.2％まで低下させた点は、モデル防御・推論保護・蒸留対策の実装面で非常に具体的かつ重要です。大規模なアカウント停止も、モデル窃取や不正な蒸留が実運用上の脅威になっていることを示します。一方で、画期的なモデルアーキテクチャや業界全体の前提を変える発表ではなく、既存AI領域のセキュリティ強"
+    },
+    "382dd61dd6fb3f0ee5113eddd4a4dbad": {
+      "score": 47,
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] AIシステムに追跡可能な秘密情報を埋め込む実験で、プロンプトやデータが想定どおり秘匿されない可能性を実証した点は、AIサプライチェーンの設計・監査・プライバシー保護に関わる重要な技術的示唆があります。一方で、主題は新しいAIモデルやアーキテクチャの発表ではなく、セキュリティ／プライバシー上のリスク検証です。また、既出のAIおよびcyber関連トピック"
+    },
+    "dde6d2ece1d3a6ba7666f57a9dd0072d": {
+      "score": 10,
+      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] GTA 6を巡る警察機関の採用活動や広報的な利用に関する話題であり、ソフトウェア技術、AI、クラウド、開発基盤などの新規性はありません。ゲームやネット文化としての面白さはあるものの、エンジニアリングへの影響範囲・技術的具体性ともに限定的なため、最低評価帯としました。"
+    },
+    "a450b4d34e20b04d1cf50a2cf969a71c": {
+      "score": 84,
+      "title": "Anthropic Researcher Claims to Solve Riemann Problem With Claude",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] AIによる150年以上未解決とされるリーマン予想への挑戦は、数学・科学研究の自動化という観点で非常に注目度が高く、LLMの推論能力や研究支援用途に大きな示唆があります。一方で、現時点では研究者個人の主張にとどまり、厳密な証明の検証、再現性、専門家による査読が必要です。AnthropicやAIは既出キーワードですが、単なる製品紹介ではなく、数学上の具体"
+    },
+    "fc941d0625c8a1870ef858f179b75f5d": {
+      "score": 40,
+      "title": "Alibaba CEO Warns of Impact From New U.S. Chip Rule",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] 米国のAIチップ輸出規制がAlibabaの翌年の製品・サービスや計算資源の調達戦略に影響する点は、AIインフラと中国テック企業の競争環境に関わる重要な続報です。一方で、主題は新しい技術そのものではなく規制とサプライチェーン対応であり、技術革新性は限定的です。また、既出のAI関連トピックと近い領域であるため減点しました。 [Editorial: AI/"
+    },
+    "e1a1cc94e895a30bba8012fea1b4652f": {
+      "score": 43,
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] 高度なAIと人間の関係をゲーム理論で分析する研究であり、AIアラインメントや将来の社会設計に関わるため、技術的・戦略的な重要性はあります。一方で、実装可能なモデルや製品発表ではなく、単純化された理論モデルに基づくarXiv論文の初期報告で、直ちに業界のアーキテクチャや開発手法を変える具体性は限定的です。また、既にAI関連の話題が取り上げ済みで、明確な"
+    },
+    "779ab29fa0e3e02418a3047e25c8a3c7": {
+      "score": 77,
+      "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] 人間の心理特性と時間変化する状態を組み合わせ、環境・行動の状態遷移を明示的な教師信号として学習するプロファイル条件付きワールドモデルの提案であり、パーソナライズドエージェントや行動予測の研究に新しい設計軸をもたらします。AI・エージェント領域との関連性は高い一方、現時点ではarXiv上の新規研究で、実運用での再現性や大規模な性能差、社会的インパクトは"
+    },
+    "5bc696e635068dda5a1bc28012db68fc": {
+      "score": 48,
+      "title": "LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] LLM推論を生成トークン数や計算量の観点から形式化しようとする研究であり、推論コスト、スケーリング、モデル評価の議論に理論的な基盤を与える可能性があります。エンジニア視点でも、将来的な推論最適化やモデル設計の評価軸に影響し得る点は注目に値します。一方で、現時点ではarXivの新規論文で、実用化や業界への具体的な影響は未確立です。また、直近に扱われたA"
+    },
+    "90ce7dba09ecc67840f4eb184310a4b8": {
+      "score": 32,
+      "title": "GBase Database: Why unload Delimiters Are Limited to 4 Characters",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] GBase Databaseのunload/loadにおける4文字 delimit­er制限、区切り文字の衝突、エクスポートとインポート間の設定不一致を解説する実務的な記事です。データ移行時の誤分割や静かなデータ不整合を防ぐ点では有用ですが、既存技術の運用ノウハウであり、アーキテクチャや主要言語の進化、革新的な技術発表には該当しません。影響範囲もGB"
+    },
+    "f3e4548a216bba50e13f85d7646f0252": {
+      "score": 27,
+      "title": "Sir Brian May adds new dimension to Hera asteroid",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] ESAの小惑星探査機Heraに関する話題で、宇宙科学・探査の観点では興味深いものの、ソフトウェア開発、AI、クラウド、アーキテクチャなどへの直接的な影響は限定的です。Brian Mayの関与による画像・可視化面の新展開であれば一定の話題性はありますが、業界の技術前提を変える発表ではないため、低〜中程度の評価としました。"
+    },
+    "dcdba425088cd7767a90c87b00b85720": {
+      "score": 44,
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] GPT-6 Astraによる金融リサーチの改善は、情報源の網羅性や引用の関連性、出力品質といった実務上重要な評価指標に関わるため、AI活用の観点では注目度があります。一方で、記事は正式リリースや技術仕様、再現可能なベンチマークではなく、Hebbiaによるプレリリース評価にとどまっています。また、直近に取り上げ済みのAI・モデル関連トピックと同じ領域の"
+    },
+    "39faa8177c8a3aa4c6e6c85e8c9e452e": {
+      "score": 62,
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] Anthropicによるシンガポール拠点開設と政府との覚書締結は、東南アジアでのAI事業展開、行政・企業向け導入、規制や人材育成への影響という点で注目度が高い。一方で、モデル性能やアーキテクチャを直接変える技術革新ではなく、主に事業拡大と政策連携に関する発表であるため、最高評価には届かない。Anthropic関連の既出テーマではあるが、シンガポール進"
+    },
+    "17ad5981f66379adfb73958cd25bf3ec": {
+      "score": 58,
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] LLMの推論時に繰り返し計算されるKVキャッシュを分散化し、推論コスト最大40%、初回トークン待ち時間最大80%削減を狙う内容で、実運用上の性能・費用最適化に直結する具体性があります。一方で、AWS、AIエージェント、LLM関連は直近放送済みキーワードと重なり、完全な新規テーマとしての加点は抑えました。技術的には有用なアーキテクチャ改善ですが、業界の"
+    },
+    "325f917f46f223843059788560261a6f": {
+      "score": 47,
+      "title": "Customize GitHub Copilot for your team",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] GitHub Copilotのプラグイン設定を組織チーム単位で共有できる一般提供開始で、導入・運用時の個別設定を減らし、開発環境の標準化やオンボーディング効率化に寄与します。一方で、既存のCopilot機能をチーム管理向けに拡張した運用改善であり、技術的なブレークスルーやアーキテクチャ変更ではありません。さらに、直近放送済みの「copilot」「gi"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 29,
+      "title": "October 11, 2026",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースノートですが、内容の中心は依存パッケージの更新と、pyOpenSSLおよびcryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正です。開発・運用上は有用な保守改善である一方、アーキテクチャの進化や新機能、業界の前提を変える技術革新は含まれていません。また"
+    },
+    "baa9b2e253bab3594e25cd98f373030a": {
+      "score": 60,
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] 核融合という将来のエネルギー基盤を変え得るディープテック領域で、AI研究者による新規スタートアップと著名起業家の支援は注目度が高い。一方、記事スニペットだけでは炉の方式、技術的ブレークスルー、実証段階、資金規模などの具体性が不足しており、ソフトウェアやAI業界への直接的な影響も限定的。AI研究者が関与する点は既出のAIテーマと接点があるが、主題は核融"
+    },
+    "e6316035cc3f42f6c9ed7dc112f1b285": {
+      "score": 43,
+      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+      "date": "2026-11-21",
+      "reason": "[Claude API Evaluation] SignalがiOS 27とAndroidでスクリーンショットを制限し、OSレベルのAIエージェントによる私的チャットの読み取りを防ごうとする点は、アプリ権限・プライバシー保護・AI連携設計に関わる重要な動きです。一方で、主題はセキュリティおよびプライバシー対策であり、技術革新そのものよりも運用上の制約に近いため評価は抑えました。また、既出キーワード"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-21/blog.md",
+    "show_notes_path": "out/2026-11-21/show_notes.md",
+    "script_path": "out/2026-11-21/script_2hosts.md",
+    "audio_path": "out/2026-11-21/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-21/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-21/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 26699,
+        "output_tokens": 11452,
+        "cost_usd": 0.019082
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45593,
+        "output_tokens": 9675,
+        "cost_usd": 0.187936
+      }
+    ],
+    "tts": {
+      "chars": 4474,
+      "audio_sec": 688.3,
+      "cost_usd": 0.132709
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.339727
+  }
+}

@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="OpenAIが推論の抜き取り対策を強化した">
+<meta property="og:title" content="Tech News Radio — OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-21/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-11-21/">
+<meta property="og:description" content="OpenAIが推論の抜き取り対策を強化した">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-11-21">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-11-21/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか",
+    "description": "2026-11-21 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-21",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-21/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-11-21/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか",
+    "description": "2026-11-21 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-21",
+    "url": "https://technewsradio.tokyo/episodes/2026-11-21/",
+    "duration": "PT11M42S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-21/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-21/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-21/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-11-21</h1>
+<p><em>📖 約15分で読めます ｜ 🏷️ AI, LLM, Security, Science, Data</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に</strong> — OpenAIが推論の抜き取り対策を大幅強化</li>
+<li>🤖 <strong>アンスロピックの研究者、Claudeを使ってリーマン問題を解決したと主張</strong> — Claudeでリーマン予想を解いたと研究者が主張</li>
+<li>🤖 <strong>PsyWorld:人間の行動予測のためのプロファイル条件付きワールドモデリング</strong> — 人の性格と状態から行動を予測する世界モデル</li>
+<li>🤖 <strong>Anthropic、シンガポールに拠点を開設 シンガポール政府と覚書を締結</strong> — AnthropicがシンガポールにAsia拠点を開設</li>
+<li>🤖 <strong>Supabase、Box、CalendlyなどをCopilotに接続</strong> — CopilotにSupabaseなど8サービスを新たに接続</li>
+<li>🚀 <strong>ダニエル・エク氏、AI研究者の核融合発電スタートアップを支援 その開発内容とは</strong> — Spotify創業者がAI研究者の核融合企業を支援</li>
+</ul>
+<hr />
+<h2>🤖 OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に</h2>
+<p><code>AI</code> <code>LLM</code> <code>Security</code></p>
+<details><summary>📄 原題: OpenAI makes it much harder for attackers to extract how its latest AI models think</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: OpenAIが推論の抜き取り対策を大幅強化</p>
+</blockquote>
+<ul>
+<li>GPT-6.2 AstraとGPT-6.2 Solの内部推論を保護</li>
+<li>攻撃成功率は適応型レッドチーム試験で54%から0.2%に低下</li>
+<li>組織的な蒸留キャンペーンに関わる口座を毎週停止</li>
+<li>停止数は毎週数千から数万件規模と見られています</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+「蒸留」とは、高性能なモデルの出力を大量に集め、別のモデルの学習に使う手法です。AIの内部推論は競争力の源泉であり、抜き取られると、安い費用で似た性能のモデルが作られてしまいます。そのため、各社にとって推論の保護は大きな課題です。今回OpenAIは、攻撃者が手口を変えながら挑む適応型のレッドチーム試験（攻撃側の視点で行う模擬テスト）で、成功率を大きく下げたそうです。技術的な対策に加え、アカウントの大量停止という運用面の対策も組み合わせている点が特徴です。 最先端モデルの推論をどこまで見せるかは、今後の競争の焦点になりそうです。保護が強まるほど、モデルの出力を使った学習は難しくなり、後発企業は自前のデータや独自の手法に頼らざるを得なくなります。一方で、推論が見えにくくなると、利用者側のデバッグや検証、説明責任の確保がしづらくなる懸念もあります。AI各社が出力の扱いやアカウント監視を強める流れは、今後さらに広がると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、利用中のAPIの利用規約を確認し、モデル出力を別モデルの学習に使うことが禁止されていないかを点検してください。大量のリクエストを送る処理は、不正利用と誤認されてアカウント停止を招く恐れがあります。重要な業務では、特定のベンダーに依存しすぎないよう、代替手段や停止時の対応手順を準備しておくと安心です。自社でAIサービスを提供する側のリーダーは、不審なアクセスの検知やレート制限（利用回数の上限設定）など、抜き取り対策の見直しも検討してください。</p>
+<p>🔗 <a href="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/">原文を読む</a></p>
+<p>🔗 <a href="https://openai.com/index/combatting-adversarial-distillation">原文を読む</a></p>
+<hr />
+<h2>🤖 アンスロピックの研究者、Claudeを使ってリーマン問題を解決したと主張</h2>
+<p><code>AI</code> <code>LLM</code> <code>Science</code></p>
+<details><summary>📄 原題: Anthropic Researcher Claims to Solve Riemann Problem With Claude</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Claudeでリーマン予想を解いたと研究者が主張</p>
+</blockquote>
+<ul>
+<li>Anthropicの研究者がリーマン予想を解いたと主張</li>
+<li>使ったのは同社のAIソフトウェアClaudeと見られる</li>
+<li>リーマン予想は150年以上未解決の数論の難問</li>
+<li>Anthropicが過去最大規模のIPOを終えた直後の発表</li>
+<li>主張の段階で、数学界の検証はこれから</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+リーマン予想は、素数の並び方に関わる数論の有名な難問で、150年以上多くの数学者を悩ませてきました。もしAIが本当に解いたなら、研究の進め方そのものが変わる出来事になります。ただし、今回は一人の研究者の主張にとどまっています。数学の証明は、専門家が時間をかけて検証して初めて認められます。また、Anthropicが記録的なIPO（新規株式公開）を終えた直後の発表でもあります。そのため、技術的な成果と企業のアピールを分けて見る姿勢が求められそうです。 主張が正しいと確認されれば、AIは「作業を助ける道具」から「新しい発見を生む存在」へと見られ方が変わるでしょう。数学だけでなく、物理や創薬など他の科学分野でも、AIを研究の中心に据える動きが強まると考えられます。一方で、証明が本当に正しいかを誰がどう確かめるのか、という課題も大きくなります。AIの出力を検証する仕組みづくりが、業界全体のテーマになりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まずは結論を急がず、数学者コミュニティによる検証の行方を追いましょう。エンジニアは、AIの出力をそのまま信じず、人間が検証する工程を設計に組み込むことが大切です。リーダーは、AIを研究開発や難しい分析に使う際の確認ルールを今のうちに整えておくと安心です。「AIが出した答えを誰が、どう確かめるか」を意識しておくと、今後の活用で役立ちます。</p>
+<p>🔗 <a href="https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude">原文を読む</a></p>
+<hr />
+<h2>🤖 PsyWorld:人間の行動予測のためのプロファイル条件付きワールドモデリング</h2>
+<p><code>AI</code> <code>Science</code> <code>Data</code></p>
+<details><summary>📄 原題: PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 人の性格と状態から行動を予測する世界モデル</p>
+</blockquote>
+<ul>
+<li>PsyWorld：プロファイル条件付きの状態世界モデルを提案</li>
+<li>安定した心理特性と、時間で変わる状態の両方を扱う設計</li>
+<li>従来は静的プロファイルから行動を直接予測する手法が主流</li>
+<li>観測された環境と行動の状態遷移を、明示的な教師信号に活用</li>
+<li>計算行動科学における個人化エージェントの精度向上を狙う</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+人の行動は、性格のような安定した心理特性と、気分や状況のように時間で変わる状態の両方で決まります。既存の個人化エージェントは、静的なプロファイルに行動を直接結びつける設計が多いと見られています。この方式では、実際に起きた状態の移り変わりが学習に使われません。PsyWorldは、観測された環境と行動の状態遷移から遷移の規則を学ぶ点が特徴だそうです。ユーザーを理解するAIが増える中で、人の振る舞いをより忠実に再現する手法として注目されます。 個人の特性と状態の変化を分けて扱う考え方が広がると、対話エージェントやレコメンド、ユーザーシミュレーションの質が上がる可能性があります。ユーザー調査の代替としてシミュレーションを使う動きも進むかもしれません。一方で、心理特性という機微な情報を扱うため、プライバシーや倫理面のルール整備が重要になると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+個人化機能を開発するエンジニアは、静的な属性だけに頼っていないかを見直すと良いでしょう。ユーザーの状態遷移ログを、学習や評価に使える形で整理しておくことをおすすめします。心理特性などの機微な情報を扱う場合は、同意取得や匿名化の方針を早めに決める必要があります。論文の手法や実験結果は、公開後に自分で確認してください。</p>
+<p>🔗 <a href="https://arxiv.org/abs/2611.24999">原文を読む</a></p>
+<hr />
+<h2>🤖 Anthropic、シンガポールに拠点を開設 シンガポール政府と覚書を締結</h2>
+<p><code>AI</code> <code>Business</code></p>
+<details><summary>📄 原題: Anthropic opens Singapore office and signs MOU with the Government of Singapore</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: AnthropicがシンガポールにAsia拠点を開設</p>
+</blockquote>
+<ul>
+<li>シンガポールに新オフィスを開設（2026年10月14日発表）</li>
+<li>シンガポール政府と協力覚書（MOU）を締結</li>
+<li>分野は政府の対応力、安全性評価、金融サービスなど</li>
+<li>1月には英国政府ともGOV.UKでの連携を発表済み</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AI企業が各国の政府と直接手を組む動きが広がっています。Anthropicは1月に英国政府とGOV.UKの行政サービスで提携しました。今回のシンガポールでの拠点開設とMOU締結は、その流れの延長にあると見られます。シンガポールは金融や行政のデジタル化が進んでいる国で、AIの安全性評価（モデルの危険な挙動を事前に確かめる検証）にも関心が高い国です。現地に拠点を置くことで、政府や企業との対話が速く、深くなりそうです。 AI企業が大手の政府と組み、公共サービスや金融で実績を積む流れは、今後さらに強まると見られます。政府が採用したAIは、民間企業が導入を決めるときの安心材料にもなります。また、安全性評価を政府と一緒に進める動きが広がれば、評価の方法や基準が業界の標準に育つ可能性があります。東南アジアでAIの導入競争が熱を帯びることも考えられます。日本の企業や自治体にとっても、他国の事例は制度設計の参考になりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自社や自治体のAI導入計画で、安全性評価と説明責任の進め方を見直してください。次に、金融や行政のようにルールが厳しい分野で、他国がどのようにAIを使い始めたかを調べておくと役立ちます。アジア向けのサービスを持つ企業は、現地拠点を持つAI事業者との連携も選択肢に入れてみてください。詳しい協力内容は、発表元の一次情報で確認することをおすすめします。</p>
+<p>🔗 <a href="https://www.anthropic.com/news/singapore-office-opening">原文を読む</a></p>
+<hr />
+<h2>🤖 Supabase、Box、CalendlyなどをCopilotに接続</h2>
+<p><code>AI</code> <code>DevOps</code> <code>Cloud</code></p>
+<details><summary>📄 原題: Connect Supabase, Box, Calendly, and more to Copilot</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: CopilotにSupabaseなど8サービスを新たに接続</p>
+</blockquote>
+<ul>
+<li>GitHub認証済みのMCPサーバー（コネクタ）を新たに8つ追加</li>
+<li>Supabase、Box、Calendlyなどがパブリックプレビューで利用可能</li>
+<li>接続できるサービスは、既存の25以上と合わせてさらに拡大</li>
+<li>MCPはAIにツールやデータへのアクセスを与える仕組み</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+MCP（Model Context Protocol）は、AIモデルが外部のツールやデータにアクセスするためのプロトコルです。AIアシスタントが開発者の日常業務で役立つには、コードだけでなく、データベースやファイル管理、予定管理といった周辺サービスとの連携が欠かせません。GitHubが検証したサーバーを用意することで、利用者は接続先の信頼性を確かめやすくなります。連携の幅広さが、AIアシスタントを選ぶ際の重要な基準になりつつあります。 AIアシスタントを開発の入口として、さまざまなサービスを横断して操作する流れが強まると見られています。MCPを標準的な接続方式として採用するサービスが増えれば、個別の連携を作る手間は減ります。一方で、AIに渡す権限の管理や、接続先サービスの検証をどう担保するかは、業界全体の課題になりそうです。サービス提供側にとっても、MCPサーバーの対応が競争力の一つになっていくでしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まずは自社で使っているサービスが、対応するコネクタに含まれているかを確認してみてください。パブリックプレビューの段階なので、業務データを扱わない検証用の環境で試すのが安全です。導入を検討するリーダーは、AIに与えるアクセス権限の範囲や、操作ログの扱いをあらかじめ決めておくとよいでしょう。MCPの仕組み自体も、今のうちに理解しておくと役立ちます。</p>
+<p>🔗 <a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot">原文を読む</a></p>
+<hr />
+<h2>🚀 ダニエル・エク氏、AI研究者の核融合発電スタートアップを支援 その開発内容とは</h2>
+<p><code>Startup</code> <code>Science</code> <code>AI</code></p>
+<details><summary>📄 原題: Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: Spotify創業者がAI研究者の核融合企業を支援</p>
+</blockquote>
+<ul>
+<li>Spotify創業者のDaniel Ekが、Europa Fusionを支援</li>
+<li>創業者はAI研究者という異色の経歴</li>
+<li>事業は核融合発電の実現を目指すもの</li>
+<li>IT分野の資金と人材がエネルギー領域へ流入</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIの普及でデータセンターの電力需要が急増しており、安定して大量に供給できる電源への関心が高まっています。核融合は燃料が豊富で温室効果ガスを出さない次世代の電源として期待されています。ただし、実用化には高温のプラズマ（超高温で電離した気体）を安定して制御する難しさなど、技術的な壁が残っています。そこにAI研究者が参入し、IT業界で成功した起業家が資金を出す動きは、エネルギー分野とAI分野の距離が縮まっていることを示しています。Europa Fusionの具体的な技術の中身は、続報を待って確認する必要があります。 核融合が実用化に近づけば、電力の供給コストと安定性が大きく変わる可能性があります。AIや計算資源の拡大が電力の制約に縛られにくくなり、データセンターの立地や設計の考え方も変わるかもしれません。また、AIの知見を物理や工学の難題に応用する流れが強まり、AI人材の活躍の場が広がると見られます。一方で、核融合の商用化には長い時間がかかるため、短期的な影響は限定的でしょう。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、AIの電力消費という課題を意識し、計算効率の改善やエネルギーコストの見積もりを設計段階から取り入れるとよいでしょう。リーダーは、中長期の計算資源の調達計画に、電力事情の変化を織り込んでおくことをおすすめします。また、AIを使った物理シミュレーションや制御の研究動向を追っておくと、自社の技術の応用先を見つけやすくなります。Europa Fusionの発表内容も、継続して確認しておきましょう。</p>
+<p>🔗 <a href="https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>この3つのニュースは、AIが単なる応答生成の道具から、「推論し、世界をモデル化する主体」へと位置づけを変えつつあることを共通して示しています。OpenAIの推論過程の抜き取り対策は、モデルの思考プロセスそのものが競争上の知的資産となり、守るべき価値を持つようになったことの表れです。一方、ClaudeによるリーマンObject問題の解決という主張や、人の性格・状態から行動を予測するPsyWorldは、AIの推論能力が数学の最前線や人間理解といった高度な領域に踏み込んでいることを物語っています。ただし、リーマン予想のような主張は検証を要する段階にあり、人間の行動予測にはプライバシーや悪用のリスクも伴うため、能力の拡大と並行して「信頼性の検証」と「安全性・保護」が業界全体の重要課題として浮上していると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に</strong>: まず、利用中のAPIの利用規約を確認し、モデル出力を別モデルの学習に使うことが禁止されていないかを点検してください。大量のリクエストを送る処理は、不正利用と誤認されてアカウント停止を招く恐れがあります。重要な業務では、特定のベンダーに依存しすぎないよう、代替手段や停止時の対応手順を準備しておくと安心です。自社でAIサービスを提供する側のリーダーは、不審なアクセスの検知やレート制限（利用回数の上限設定）など、抜き取り対策の見直しも検討してください。</li>
+<li><strong>アンスロピックの研究者、Claudeを使ってリーマン問題を解決したと主張</strong>: まずは結論を急がず、数学者コミュニティによる検証の行方を追いましょう。エンジニアは、AIの出力をそのまま信じず、人間が検証する工程を設計に組み込むことが大切です。リーダーは、AIを研究開発や難しい分析に使う際の確認ルールを今のうちに整えておくと安心です。「AIが出した答えを誰が、どう確かめるか」を意識しておくと、今後の活用で役立ちます。</li>
+<li><strong>PsyWorld:人間の行動予測のためのプロファイル条件付きワールドモデリング</strong>: 個人化機能を開発するエンジニアは、静的な属性だけに頼っていないかを見直すと良いでしょう。ユーザーの状態遷移ログを、学習や評価に使える形で整理しておくことをおすすめします。心理特性などの機微な情報を扱う場合は、同意取得や匿名化の方針を早めに決める必要があります。論文の手法や実験結果は、公開後に自分で確認してください。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/">OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に</a></li>
+<li><a href="https://openai.com/index/combatting-adversarial-distillation">OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude">アンスロピックの研究者、Claudeを使ってリーマン問題を解決したと主張</a></li>
+<li><a href="https://arxiv.org/abs/2611.24999">PsyWorld:人間の行動予測のためのプロファイル条件付きワールドモデリング</a></li>
+<li><a href="https://www.anthropic.com/news/singapore-office-opening">Anthropic、シンガポールに拠点を開設 シンガポール政府と覚書を締結</a></li>
+<li><a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot">Supabase、Box、CalendlyなどをCopilotに接続</a></li>
+<li><a href="https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/">ダニエル・エク氏、AI研究者の核融合発電スタートアップを支援 その開発内容とは</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #234 (2026-11-21)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #234</li>
+<li><strong>日付</strong>: 2026-11-21</li>
+<li><strong>尺</strong>: 約 11 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/">OpenAI makes it much harder for attackers to extract how its latest AI models think</a></li>
+<li><a href="https://openai.com/index/combatting-adversarial-distillation">OpenAI makes it much harder for attackers to extract how its latest AI models think</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-11-21/anthropic-researcher-claims-to-solve-riemann-problem-with-claude">Anthropic Researcher Claims to Solve Riemann Problem With Claude</a></li>
+<li><a href="https://arxiv.org/abs/2611.24999">PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://www.anthropic.com/news/singapore-office-opening">Anthropic opens Singapore office and signs MOU with the Government of Singapore</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot">Connect Supabase, Box, Calendly, and more to Copilot</a></li>
+<li><a href="https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/">Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=OpenAI%E3%80%81%E6%9C%80%E6%96%B0AI%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E6%80%9D%E8%80%83%E9%81%8E%E7%A8%8B%E3%82%92%E6%94%BB%E6%92%83%E8%80%85%E3%81%8C%E6%8A%9C%E3%81%8D%E5%87%BA%E3%81%99%E3%81%93%E3%81%A8%E3%82%92%E5%A4%A7%E5%B9%85%E3%81%AB%E5%9B%B0%E9%9B%A3%E3%81%AB%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-11-21/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-11-21/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
