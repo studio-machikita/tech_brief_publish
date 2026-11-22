@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-22",
+  "episode_date_local": "2026-11-22",
+  "content_snapshot_date": "2026-11-22",
+  "show_length_sec": 657,
+  "audio_size": 10517420,
+  "generated_at": "2026-11-22T00:20:30.412169+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-d7b282a9",
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "title_ja": "エヌビディアの研究者ら、巨大なAIコンテキストウィンドウは行き止まりと主張",
+      "one_liner": "巨大コンテキスト窓は行き止まりか",
+      "fingerprint": "d7b282a9f1e81e627963408b2a0e7f38",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-17ad5981",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "title_ja": "分散KVキャッシュのエージェントスキルで、セルフホストLLMのコストとレイテンシを削減",
+      "one_liner": "KVキャッシュ共有でLLM運用費を最大4割削減",
+      "fingerprint": "17ad5981f66379adfb73958cd25bf3ec",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-e42cac91",
+      "title": "Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation",
+      "title_ja": "クラウドストライクとZスケーラーの協議、AI主導のサイバーセキュリティ再編を映す",
+      "one_liner": "AI時代にセキュリティ大手の買収が加速",
+      "fingerprint": "e42cac910e49aec8fb0cd2edae4c3215",
+      "score": 52,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology",
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-1f8e7d19",
+      "title": "Combatting adversarial distillation",
+      "title_ja": "敵対的蒸留への対策",
+      "one_liner": "OpenAIが蒸留攻撃への多層防御を公開",
+      "fingerprint": "1f8e7d19445ae29d8429ca50b29ba776",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-7bd15b77",
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "title_ja": "AWS Quickの新機能:より高機能になったフロー、刷新されたWeb体験、連携して動作するエージェント",
+      "one_liner": "AWS Quickが業務向けAI機能を大幅強化",
+      "fingerprint": "7bd15b77168135e0cbff7d46ead3babf",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-325f917f",
+      "title": "Customize GitHub Copilot for your team",
+      "title_ja": "チームに合わせてGitHub Copilotをカスタマイズ",
+      "one_liner": "Copilotの設定をチームで共有できるようになりました",
+      "fingerprint": "325f917f46f223843059788560261a6f",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-dcdba425",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-960276f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta Bets on $300 Muse Charm to Boost AI Hardware Business"
+    },
+    {
+      "item_id": "item-e7ccf74b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Fetching Workday job boards and US salary bands via JSON without headless browsers"
+    },
+    {
+      "item_id": "item-bcae7943",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "A tale of two Nvidias"
+    },
+    {
+      "item_id": "item-841e4b74",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GitHub - sebaandrada-cell/PcapAnalyzer: Free, self-hosted pcap analyzer with 27 problem detectors and AI investigation"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-c2d4906c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: Adaptive effort, secret detection, and more"
+    },
+    {
+      "item_id": "item-477367d2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion"
+    },
+    {
+      "item_id": "item-2e22c7df",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Why Bending Spoons Could Tap Convertible Bonds Next"
+    },
+    {
+      "item_id": "item-382dd61d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced."
+    },
+    {
+      "item_id": "item-a7fe7915",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 11, 2026"
+    },
+    {
+      "item_id": "item-2a8441ad",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance"
+    },
+    {
+      "item_id": "item-cc1fedde",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "California Nvidia Probe Covers Potential Criminal Law Violations"
+    },
+    {
+      "item_id": "item-82699bf6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Outages Are Just Getting Started"
+    },
+    {
+      "item_id": "item-cf98a89e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safeguards"
+    },
+    {
+      "item_id": "item-ae35acee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "View of Cooperation and Competition: Changes in Wealth, Power, and Patrilines in the Czech Corded Ware Culture"
+    },
+    {
+      "item_id": "item-b106fe8c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Power Banks (2026): My Picks After Testing Over 100"
+    }
+  ],
+  "score_cache": {
+    "841e4b74306200954ec675303906fa66": {
+      "score": 41,
+      "title": "GitHub - sebaandrada-cell/PcapAnalyzer: Free, self-hosted pcap analyzer with 27 problem detectors and AI investigation",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] 27種類の問題検出機能を備えた無料・セルフホスト型のPCAP解析ツールであり、ネットワーク障害調査やセキュリティ分析の効率化に実用性があります。AIによる調査支援も技術的には興味深い一方、単一のOSSプロジェクト紹介であり、業界全体の前提を変えるほどの影響範囲や成熟度は確認できません。既に取り上げ済みのAI関連トピックと重なるため、重複分として減点し"
+    },
+    "1f8e7d19445ae29d8429ca50b29ba776": {
+      "score": 49,
+      "title": "Combatting adversarial distillation",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] モデルの能力を模倣・抽出する敵対的蒸留への対策は、AIセキュリティとモデル保護の観点で重要です。学習、セーフガード、検知、執行を組み合わせる多層防御は実務的な示唆がありますが、スニペットだけでは新規アルゴリズムや具体的な評価結果、業界全体を変えるほどの技術的ブレークスルーは確認できません。AIおよびOpenAI関連の既出テーマと重なるため、重複分とし"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 41,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] モデルの出力を利用して別モデルを訓練するディスティレーション攻撃への対策は、AIサービスの知的財産保護や不正利用防止に関わる重要なセキュリティテーマです。ただし、具体的な技術的ブレークスルーや影響範囲がスニペットから確認できず、既出のAI・モデル関連トピックとも重なるため、既定どおり減点しました。 [Editorial: AI-focused sou"
+    },
+    "7bd15b77168135e0cbff7d46ead3babf": {
+      "score": 49,
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] 業務プロセスをチャット上で実行できるフロー、複数エージェントによる回答統合、Meta AdsやAmplitudeなどのデータ連携は、企業向けAIワークスペースの実用性を高める具体的なアップデートです。特に既存システムとの接続や複数エージェントの協調は、業務自動化の導入障壁を下げる点で技術的な意義があります。一方で、AWSの既存AI・エージェント領域に"
+    },
+    "325f917f46f223843059788560261a6f": {
+      "score": 49,
+      "title": "Customize GitHub Copilot for your team",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] GitHub Copilotのプラグイン設定を組織チーム単位で共有でき、開発環境の標準化やオンボーディング効率、設定差異の削減に寄与する実用的なアップデートです。一方で、既存のCopilot/GitHub関連トピックの延長にある機能改善であり、AI開発の前提を変えるほどの革新性や技術的インパクトは限定的です。既出キーワードに該当するため減点し、中程度"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 49,
+      "title": "October 04, 2026",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新で、BigQuery JupyterLabプラグインの制御分離やCUDAドライバーの事前導入など、データ分析・機械学習環境の運用性とGPU互換性を改善している点は実務上有用です。一方で、主な内容は依存パッケージ更新と既知のCritical／High脆弱性の修正であり、革新的なアーキテクチャや新機能"
+    },
+    "2a8441adb60898295d3b6aaddce05465": {
+      "score": 37,
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] SignalがAndroid・iOSでスクリーンショットを制限するのは、AIによる監視や端末上での情報取得への対策としてプライバシー保護上の意味があります。一方、技術的な新規アーキテクチャや脆弱性修正ではなく、既存アプリの利用制限・運用方針に近いニュースです。また、AI監視という観点は既出のAI関連トピックと重なるため減点しました。 [Editori"
+    },
+    "d7b282a9f1e81e627963408b2a0e7f38": {
+      "score": 83,
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] 大規模コンテキストウィンドウを前提とする現在のLLM設計に対し、要約やキーワード検索を組み合わせて計算量・レイテンシ・コストを削減するという、実装上の重要な代替案を提示している点が評価できます。短いメモを扱う新しいモデル設計にもつながり得るため、推論基盤やエージェントのアーキテクチャへ波及する可能性があります。一方で、現時点では研究者による提案と実験"
+    },
+    "382dd61dd6fb3f0ee5113eddd4a4dbad": {
+      "score": 38,
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] AIシステムに投入した追跡可能な秘密情報が意図せず外部へ伝播することを実証しており、プロンプトプライバシーやデータガバナンスの観点では重要です。一方で、主題は新しい基盤技術の発表ではなく、AIサプライチェーンにおけるセキュリティ・プライバシー上のリスク検証に当たるため、評価基準上は低めです。また、既出のAI関連トピックと重なるため20点減点しています"
+    },
+    "82699bf697bf5365c0a8324dcd584975": {
+      "score": 23,
+      "title": "The Outages Are Just Getting Started",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] AIによる開発・運用速度の向上が脆弱性悪用と障害リスクを高めるという問題提起ですが、具体的な製品、攻撃事例、技術的な新規性は示されておらず、一般論に留まっています。主題はセキュリティ運用とインターネット障害であり、評価基準上は低めです。また、既出キーワードであるAIと重なる論点のため減点しました。 [Editorial: AI/SaaS topic "
+    },
+    "e42cac910e49aec8fb0cd2edae4c3215": {
+      "score": 52,
+      "title": "Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] CrowdStrikeとZscalerの協議は、サイバーセキュリティ業界の企業統合や製品ポートフォリオ、クラウド型防御基盤の競争構造に影響し得るため、エンジニアにも一定の重要性があります。一方で、具体的な買収成立や新技術・新アーキテクチャの発表ではなく、AI自体も攻撃・防御双方の背景要因として扱われているにとどまります。既出のAI関連テーマとの重複も"
+    },
+    "960276f90bde08b6f4f426a7c82472ed": {
+      "score": 43,
+      "title": "Meta Bets on $300 Muse Charm to Boost AI Hardware Business",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] ポケット型AIデバイスと常時接続型のパーソナルAIアシスタントという点で、AIハードウェア市場やユーザーインターフェースの変化につながる可能性があります。Verizonの5Gデータプランを組み合わせた補助施策も、デバイス単体ではなく通信・AIサービスを一体化する事業モデルとして注目できます。一方で、現時点では価格や販売計画が中心で、技術仕様・実用性・"
+    },
+    "e7ccf74b96dc88da38254220a398cbcb": {
+      "score": 43,
+      "title": "Fetching Workday job boards and US salary bands via JSON without headless browsers",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] Workdayの公開JSONエンドポイントを直接利用し、ヘッドレスブラウザなしで求人情報や米国の給与レンジを高速・低コストに収集する実装知見は、採用データ分析や求人監視システムに実用的な価値があります。40社超に対応したエンドポイント map、地域URLや給与表記の差異への対処、OSSおよびAPI提供まで含む点も具体性が高いです。一方で、既存APIの"
+    },
+    "ae35aceee77b81f4ea25a051005c33ae": {
+      "score": 6,
+      "title": "View of Cooperation and Competition: Changes in Wealth, Power, and Patrilines in the Czech Corded Ware Culture",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] チェコの縄目文土器文化における協力・競争、富、権力、家系を扱う考古学研究であり、AI・クラウド・ソフトウェア開発・スタートアップなどの技術領域との直接的な関連がありません。エンジニアリング上の実装、アーキテクチャ、産業への影響も限定的なため、重要度は最低水準と評価します。"
+    },
+    "dcdba425088cd7767a90c87b00b85720": {
+      "score": 44,
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] GPT-6 Astraによる金融リサーチの評価結果は、情報源カバレッジ、引用の関連性、出力品質の改善という点で、LLMを業務システムに組み込む際の実用性を示す技術的に興味深い内容です。一方で、記事は正式リリースではなくプレリリース評価にとどまり、具体的なベンチマーク値や導入規模、再現可能な検証方法も不明です。また、AI・モデル関連は直近の放送で既出の"
+    },
+    "cf98a89ef4a5ac4949000a3baf75b5f8": {
+      "score": 22,
+      "title": "Safeguards",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] タイトルが「Safeguards」のみで、対象技術・発表主体・具体的な実装や影響範囲が不明です。安全対策やリスク管理に関する内容と推測されますが、技術革新やアーキテクチャ上の新規性を評価できる情報がなく、セキュリティ・運用ルール寄りの話題である可能性も高いため、現時点では重要度を低く評価します。 [Editorial: AI-focused sour"
+    },
+    "17ad5981f66379adfb73958cd25bf3ec": {
+      "score": 54,
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] 分散KVキャッシュにより、自己ホスト型LLMの推論コストを最大40%、Time to First Tokenを最大80%削減できるという、実装効果が具体的なインフラ最適化の話題です。長いコンテキストの再計算を避ける設計は、会話型アプリやエージェント基盤のレイテンシ・GPUコスト改善に有用で、技術的な実践価値は高い一方、Amazon ElastiCac"
+    },
+    "c2d4906c7d255de9183fc134517b8226": {
+      "score": 41,
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビューに、変更内容に応じてレビュー深度を調整する機能とシークレット検出が追加され、開発ワークフローの効率化や早期のセキュリティ問題発見に寄与する実用的なアップデートです。ただし、業界の前提を変えるほどの技術革新ではなく、既存のCopilot/GitHub関連トピックの続報に近いため、重要度を抑え、既出キーワード分"
+    },
+    "a7fe7915fd65b82ac63f88c5832a5ce0": {
+      "score": 38,
+      "title": "October 11, 2026",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2のリリースですが、主な内容は依存パッケージの更新と、pyOpenSSLおよびcryptographyのバージョン不整合によるgcloud・gsutilの起動障害修正です。開発・運用上の安定性には寄与するものの、新機能やアーキテクチャ上の革新性、影響範囲の大きい技術発表ではありません。既出キーワード"
+    },
+    "bcae79439193965a1a996d6066577d68": {
+      "score": 43,
+      "title": "A tale of two Nvidias",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] NVIDIAの業績と、技術幹部らによるJensen Huang氏への評価を対比する記事で、AIインフラやGPU市場の動向を把握するうえでは一定の重要性があります。一方、具体的な新製品、アーキテクチャ、技術革新、業界構造を変える発表ではなく、主に決算と経営者評価に関する論評です。既出のAI関連テーマと接点はありますが、同一内容の続報とまでは判断できない"
+    },
+    "477367d2f08e1d4b2b0c25e36f0ee787": {
+      "score": 41,
+      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] AIに関する話題ではあるものの、モデルやプロダクト、アーキテクチャの技術革新ではなく、終末論やカルト的コミュニティ形成といった社会・文化面の論考が中心です。エンジニアリングへの直接的な影響や具体的な技術成果も限定的で、既出のAI関連トピックとも重なるため減点しました。 [Editorial: AI-focused source +6; AI/SaaS"
+    },
+    "b106fe8ca2814bf35b5d0ef51a8084d4": {
+      "score": 6,
+      "title": "Best Power Banks (2026): My Picks After Testing Over 100",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] スマートフォンやノートPC、携帯ゲーム機向けの一般消費者用モバイルバッテリーのレビュー記事であり、ソフトウェア技術、クラウド、AI、アーキテクチャなどへの直接的な影響はほぼありません。技術的な比較価値はあるものの、評価基準上は最低評価帯に該当します。"
+    },
+    "cc1feddea6b6f0bbb7db3bd4ff4dc30e": {
+      "score": 30,
+      "title": "California Nvidia Probe Covers Potential Criminal Law Violations",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] Nvidiaの先端チップ輸出と投資家向け開示を巡る州法上の刑事違反の可能性であり、企業リスクや半導体輸出政策への影響はあります。一方で、技術革新やアーキテクチャの進展を扱う記事ではなく、捜査段階の法規制・コンプライアンスニュースです。エンジニアにとっては輸出管理や製品提供地域の制約を意識させる内容ですが、ソフトウェア開発や技術基盤を直接変える具体的な"
+    },
+    "2e22c7df3fce604798c2856bbb990ba7": {
+      "score": 41,
+      "title": "Why Bending Spoons Could Tap Convertible Bonds Next",
+      "date": "2026-11-22",
+      "reason": "[Claude API Evaluation] Bending Spoonsによる大型買収と、買収後の再編・価格改定を支える資金調達戦略は、テック業界のM&Aや企業運営を分析するうえでは興味深いものの、技術革新そのものではありません。転換社債の検討、約90億ドル規模ではなく数十億ドル規模の負債・高いレバレッジ、低い信用格付けは財務リスクや既存株主の希薄化に関わる話であり、エンジニアリングへの直接的"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-22/blog.md",
+    "show_notes_path": "out/2026-11-22/show_notes.md",
+    "script_path": "out/2026-11-22/script_2hosts.md",
+    "audio_path": "out/2026-11-22/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-22/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-22/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 28055,
+        "output_tokens": 10830,
+        "cost_usd": 0.018607
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45067,
+        "output_tokens": 9156,
+        "cost_usd": 0.181694
+      }
+    ],
+    "tts": {
+      "chars": 4249,
+      "audio_sec": 643.6,
+      "cost_usd": 0.124095
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.324396
+  }
+}

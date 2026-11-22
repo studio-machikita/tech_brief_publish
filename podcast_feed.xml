@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#235 エヌビディアの研究者ら、巨大なAIコンテキストウィンドウは行き止まりと主張 ほか</title>
+      <description>Tech News Radio Show Notes - #235 (2026-11-22)
+
+エピソード情報
+• エピソード: #235
+• 日付: 2026-11-22
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Nvidia researchers argue huge AI context windows are a dead end (https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/)
+• Cut self-hosted LLM cost and latency with the distributed KV caching agent skill (https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/)
+• Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation (https://www.bloomberg.com/news/articles/2026-11-21/crowdstrike-s-talks-with-zscaler-show-ai-led-cyber-consolidation)
+• Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation (https://www.theinformation.com/briefings/crowdstrike-talks-buy-zscaler)
+
+注目の深掘り
+• Combatting adversarial distillation (https://openai.com/index/combatting-adversarial-distillation)
+
+小ネタ・その他
+• New in AWS Quick: More capable flows, an updated web experience, and agents that work together (https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/)
+• Customize GitHub Copilot for your team (https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-22/episode_audio.mp3" length="10517420" type="audio/mpeg" />
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-22</guid>
+      <itunes:duration>10:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>エヌビディアの研究者ら、巨大なAIコンテキストウィンドウは行き止まりと主張 ほか</itunes:title>
+      <itunes:episode>235</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #235 (2026-11-22)
+
+エピソード情報
+• エピソード: #235
+• 日付: 2026-11-22
+• 尺: 約 10 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Nvidia researchers argue huge AI context windows are a dead end (https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/)
+• Cut self-hosted LLM cost and latency with the distributed KV caching agent skill (https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/)
+• Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation (https://www.bloomberg.com/news/articles/2026-11-21/crowdstrike-s-talks-with-zscaler-show-ai-led-cyber-consolidation)
+• Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation (https://www.theinformation.com/briefings/crowdstrike-talks-buy-zscaler)
+
+注目の深掘り
+• Combatting adversarial distillation (https://openai.com/index/combatting-adversarial-distillation)
+
+小ネタ・その他
+• New in AWS Quick: More capable flows, an updated web experience, and agents that work together (https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/)
+• Customize GitHub Copilot for your team (https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-22/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.320" title="Nvidia researchers argue huge AI context windows are a dead end" href="https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/" />
+        <psc:chapter start="00:01:40.750" title="Cut self-hosted LLM cost and latency with the distributed KV caching agent skill" href="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/" />
+        <psc:chapter start="00:03:14.250" title="Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation" href="https://www.bloomberg.com/news/articles/2026-11-21/crowdstrike-s-talks-with-zscaler-show-ai-led-cyber-consolidation" />
+        <psc:chapter start="00:04:52.460" title="Combatting adversarial distillation" href="https://openai.com/index/combatting-adversarial-distillation" />
+        <psc:chapter start="00:06:53.140" title="New in AWS Quick: More capable flows, an updated web experience, and agents that work together" href="https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/" />
+        <psc:chapter start="00:09:06.410" title="Customize GitHub Copilot for your team" href="https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team" />
+        <psc:chapter start="00:10:25.710" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#234 OpenAI、最新AIモデルの思考過程を攻撃者が抜き出すことを大幅に困難に ほか</title>
       <description>Tech News Radio Show Notes - #234 (2026-11-21)
 

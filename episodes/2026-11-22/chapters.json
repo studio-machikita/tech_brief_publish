@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.32,
+    "title": "Nvidia researchers argue huge AI context windows are a dead end",
+    "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/"
+  },
+  {
+    "start_sec": 100.75,
+    "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+    "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"
+  },
+  {
+    "start_sec": 194.25,
+    "title": "Crowdstrike’s Talks With Zscaler Show AI-Led Cyber Consolidation",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-21/crowdstrike-s-talks-with-zscaler-show-ai-led-cyber-consolidation"
+  },
+  {
+    "start_sec": 292.46,
+    "title": "Combatting adversarial distillation",
+    "url": "https://openai.com/index/combatting-adversarial-distillation"
+  },
+  {
+    "start_sec": 413.14,
+    "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+    "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/"
+  },
+  {
+    "start_sec": 546.41,
+    "title": "Customize GitHub Copilot for your team",
+    "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"
+  },
+  {
+    "start_sec": 625.71,
+    "title": "エンディング",
+    "url": null
+  }
+]
