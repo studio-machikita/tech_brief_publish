@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-23",
+  "episode_date_local": "2026-11-23",
+  "content_snapshot_date": "2026-11-23",
+  "show_length_sec": 681,
+  "audio_size": 10902188,
+  "generated_at": "2026-11-23T00:50:50.140117+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-ed3d52b3",
+      "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+      "title_ja": "Perplexity、新「Monitor API」を発表――ウェブ検索を単発の質問から常時監視へ",
+      "one_liner": "Perplexityが検索を常時監視に変えるAPIを公開",
+      "fingerprint": "ed3d52b32025b01436c7eabcc24971db",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-9feeda1d",
+      "title": "Ant Group Bets on Simplexity to Thrive in China’s Humanoid Race",
+      "title_ja": "アント・グループ、「シンプレクシティ」に賭け、中国の人型ロボット競争で勝ち残りへ",
+      "one_liner": "Ant GroupがロボットのSimplexityに1億ドル出資",
+      "fingerprint": "9feeda1d01df6c2b1f7d9be3025a6958",
+      "score": 84,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-271b42d2",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "title_ja": "AIは科学者の有望な新薬候補の特定に役立つのか?",
+      "one_liner": "AIは創薬の候補選びで役立つのか",
+      "fingerprint": "271b42d2a50e2e4120141c55390f6226",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-987440f8",
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "title_ja": "AIコーディングエージェント、単体テストでは高得点も、模擬職場環境では10件に1件も完遂できず",
+      "one_liner": "AI開発者、模擬職場で完遂率1割未満",
+      "fingerprint": "987440f82d6a3770d048a8e79ea3a389",
+      "score": 58,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-af8acfeb",
+      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+      "title_ja": "GitHub CopilotでMAI Code 2とMAI Code 2 Flashが利用可能に",
+      "one_liner": "GitHub CopilotにMicrosoft製の新コーディングモデルが登場",
+      "fingerprint": "af8acfeb9369043d26f385d910981e36",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub Copilot Changelog"
+      ]
+    },
+    {
+      "item_id": "item-9d3a28ae",
+      "title": "October 05, 2026",
+      "title_ja": "Workbench v2でBigQueryプラグインが独立",
+      "one_liner": "Workbench v2でBigQueryプラグインが独立",
+      "fingerprint": "9d3a28aead8b626cfd1270b3e265febd",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes",
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0b487b23",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Apple Developing AI Agent to Rival Meta and OpenAI"
+    },
+    {
+      "item_id": "item-dcdba425",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra"
+    },
+    {
+      "item_id": "item-80eb7ce4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta ads is now available in AWS Quick"
+    },
+    {
+      "item_id": "item-382dd61d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced."
+    },
+    {
+      "item_id": "item-b95478f9",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm"
+    },
+    {
+      "item_id": "item-1e8a7d77",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SSH Connection Multiplexing (ControlMaster): Cutting the Wait When You Connect to the Same Server Repeatedly"
+    },
+    {
+      "item_id": "item-19ba07ef",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development"
+    },
+    {
+      "item_id": "item-c2d4906c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review: Adaptive effort, secret detection, and more"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-33fbd1bc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "FBI is having a mass hire for IT specialists"
+    },
+    {
+      "item_id": "item-cf98a89e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safeguards"
+    },
+    {
+      "item_id": "item-06c2fb91",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Alphabet Energy Deals Delayed Amid Weak Muni Market"
+    },
+    {
+      "item_id": "item-945a54f0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Nespresso &#8211; Project Olympus"
+    },
+    {
+      "item_id": "item-c3cdea4b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Chinese Dramas Are Starting to Take Over the World"
+    },
+    {
+      "item_id": "item-61db81f1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "8 Best Travel Adapters (2026): 20+ Models Tested"
+    },
+    {
+      "item_id": "item-c07b0d4d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "‘You Can See Everything’ has made more than $100M worldwide"
+    },
+    {
+      "item_id": "item-0eb81df4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games"
+    }
+  ],
+  "score_cache": {
+    "33fbd1bc403a641a37da94fff5e5d000": {
+      "score": 27,
+      "title": "FBI is having a mass hire for IT specialists",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] FBIによるIT専門職の大量採用は、サイバーセキュリティや政府機関の技術人材強化という点では一定の意義がありますが、具体的な技術革新、アーキテクチャ、製品発表ではありません。記事の情報量も少なく、エンジニアリング業界全体への直接的な影響や新規性は限定的なため、採用・行政運営に関する低評価帯としました。"
+    },
+    "dcdba425088cd7767a90c87b00b85720": {
+      "score": 49,
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] GPT-6 Astraによる金融リサーチの改善は、情報源カバレッジ、引用の妥当性、出力品質という実務的な評価軸を示しており、LLMの業務適用に関する技術的意義があります。一方で、評価はプレリリース段階の限定的な検証に留まり、モデル自体の詳細や再現可能なベンチマーク、広範な導入実績も不明です。また、既報のAI・モデル関連トピックと同じ角度を含むため、重"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 36,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] モデルの蒸留攻撃に対する防御強化は、AIモデルの不正利用や知的財産保護に関わる重要なセキュリティテーマです。一方で、記事タイトルだけでは具体的な技術的ブレークスルーや実装内容、影響範囲が判断できず、基本的には防御・運用面の話題に留まります。AI／モデル関連で既出キーワードとも重なるため減点し、低〜中程度の評価としました。 [Editorial: AI"
+    },
+    "80eb7ce40a6c824eddbbed392c3b8ce2": {
+      "score": 48,
+      "title": "Meta ads is now available in AWS Quick",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Meta広告をAWS Quickから自然言語で管理・分析し、社内外データと統合してダッシュボードや資料、ワークフローを生成できる点は、マーケティング業務の自動化とデータ活用を促進する実用的なクラウド連携です。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、既存サービス間のコネクター提供に留まります。また、AIおよびAWS関連の話題は直近の既出キ"
+    },
+    "c2d4906c7d255de9183fc134517b8226": {
+      "score": 39,
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] プルリクエストごとにレビュー深度を調整するAdaptive effortやシークレット検出は、開発者のレビュー負荷と見落としを減らす実用的な改善です。一方で、既存のGitHub Copilotによるコードレビュー機能の拡張であり、業界の前提を変えるほどの新規性や技術的ブレークスルーではありません。さらに、既に取り上げ済みの「Copilot」「GitH"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 38,
+      "title": "September 28, 2026",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchというAI関連基盤を含むものの、内容の中心は依存パッケージ更新とコンテナイメージのCritical/High CVE修正であり、技術革新やアーキテクチャ上の新規性は限定的です。Colab Enterpriseのデフォルトランタイムテンプレート設定も運用性を高める機能ですが、影響範囲は比較的狭いです。既出"
+    },
+    "c07b0d4d433983b3102953e9a5665141": {
+      "score": 4,
+      "title": "‘You Can See Everything’ has made more than $100M worldwide",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] エリザベス・ホームズを扱うドキュメンタリー映画の国際展開と興行収入に関するニュースであり、ソフトウェア技術、AI、クラウド、アーキテクチャなどのエンジニアリング領域への直接的な影響がありません。一般消費者向けエンターテインメント情報として、技術ニュースの重要度は最低水準です。"
+    },
+    "987440f82d6a3770d048a8e79ea3a389": {
+      "score": 58,
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] AIコーディングエージェントを、単発のベンチマークではなく、曖昧な引き継ぎやプロジェクト管理、継続的なチケット処理を含む実務に近い環境で評価した点は重要です。単独タスクでは高性能でも、長期的な状態管理・要件理解・自律的な作業継続で成功率が1割未満という結果は、開発現場への導入可能性や評価手法に大きな示唆があります。一方で、AI・エージェント・モデル関"
+    },
+    "382dd61dd6fb3f0ee5113eddd4a4dbad": {
+      "score": 48,
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] AIシステムや外部モデルのサプライチェーンに投入した追跡可能な秘密情報が漏えいし得ることを実証した点は、実装・運用上のインパクトがある。一方で、主題はプライバシーとセキュリティのリスク検証であり、革新的なモデルやアーキテクチャの発表ではないため、評価基準上は中低位に留めた。AIに関する記事ではあるものの、既出トピックと同じ角度だと断定できる続報ではな"
+    },
+    "61db81f109bc1077629009827574d3c4": {
+      "score": 6,
+      "title": "8 Best Travel Adapters (2026): 20+ Models Tested",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] 海外旅行向けの電源アダプター・充電器を比較した一般消費者向けガジェット記事であり、ソフトウェア、AI、クラウド、プログラミング言語などの技術革新には直接関係しません。技術的な影響範囲や業界構造を変える新規性も限定的なため、最低評価帯としました。"
+    },
+    "c3cdea4b21699d66d84bb15a718d110c": {
+      "score": 10,
+      "title": "Chinese Dramas Are Starting to Take Over the World",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] 中国ドラマの国際的な人気拡大はメディア・文化産業上の話題ですが、AI、クラウド、プログラミング言語、ロボティクスなどの技術革新ではありません。エンジニア視点での技術的影響や具体的なプロダクト変化も示されておらず、一般消費者向けエンターテインメントに近いため、最低評価帯としました。"
+    },
+    "0b487b23dc3a1e0eb2e24cce0cbc5ca3": {
+      "score": 52,
+      "title": "Apple Developing AI Agent to Rival Meta and OpenAI",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Web閲覧、アプリ操作、コード記述を自律的に行うAIエージェントは、Appleの製品エコシステムや開発者向け機能に大きな影響を与え得るため、技術的な注目度は高い。一方で、現時点では求人情報に基づく開発計画にとどまり、具体的な製品仕様やリリース時期は不明である。また、AIエージェント関連は直近の放送で既出のテーマに該当するため、重複分として減点した。 "
+    },
+    "1e8a7d7780dacea3a003b8fadc432a60": {
+      "score": 43,
+      "title": "SSH Connection Multiplexing (ControlMaster): Cutting the Wait When You Connect to the Same Server Repeatedly",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] SSHのControlMasterによる接続多重化は、短時間に同一サーバーへ多数のSSHコマンドを実行する自動化やデプロイ処理で、TCP接続・鍵交換・認証のオーバーヘッドを削減できる実用的な改善です。実測で5回の実行時間を2.64秒から0.83秒へ短縮しており、設定例やControlPath、ControlPersist、ソケット権限、切断時の挙動ま"
+    },
+    "945a54f0c5b0e61561ce77605f00a9be": {
+      "score": 12,
+      "title": "Nespresso &#8211; Project Olympus",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] 記事タイトルのみでスニペットがなく、技術的な内容や新規性、影響範囲を判断できません。「Nespresso」は一般消費者向けブランドを想起させ、「Project Olympus」との関係も不明です。AI・クラウド・プログラミング言語などの明確な技術革新が確認できないため、現時点では最低評価に近いスコアとします。"
+    },
+    "271b42d2a50e2e4120141c55390f6226": {
+      "score": 83,
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] 創薬初期段階におけるAIの実用性を、分子構造の解釈・実験結果に基づく推論・候補化合物の選択という具体的なタスクで評価するベンチマークであり、AI研究とバイオテックの接点として重要度が高い。単なるモデル発表ではなく、実験データを扱う能力を測定できる点はエンジニア視点でも有意義。ただし、現時点では評価手法の紹介にとどまり、実際の創薬成功率や開発期間を大き"
+    },
+    "cf98a89ef4a5ac4949000a3baf75b5f8": {
+      "score": 22,
+      "title": "Safeguards",
+      "date": "2026-11-22",
+      "reason": "[ScoreCache 2026-11-22] [Claude API Evaluation] タイトルが「Safeguards」のみで、対象技術・発表主体・具体的な実装や影響範囲が不明です。安全対策やリスク管理に関する内容と推測されますが、技術革新やアーキテクチャ上の新規性を評価できる情報がなく、セキュリティ・運用ルール寄りの話題である可能性も高いため、現時点では重要度を低く評価します。 [Ed"
+    },
+    "b95478f9ad9d1bbefac0df0c2e898b81": {
+      "score": 44,
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Slurmクラスタ上の監視やユーザー管理をAPI・コンソールから宣言的に構成できるマネージド拡張は、ML基盤の運用負荷を下げる実務的なクラウド機能であり、アーキテクチャ面で一定の価値があります。一方、対象はSageMaker HyperPodという比較的限定された環境で、業界全体の前提を変えるほどの新規性や影響範囲ではありません。また、既出キーワード"
+    },
+    "af8acfeb9369043d26f385d910981e36": {
+      "score": 54,
+      "title": "MAI Code 2 and MAI Code 2 Flash in GitHub Copilot",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Microsoftの新しいコーディング特化モデル「MAI Code 2」と高速版「MAI Code 2 Flash」がGitHub Copilotに導入される点は、開発者向けAIの実用性やコード生成・補完の品質に影響する注目度の高いニュースです。一方で、記事スニペットだけでは性能指標、対応機能、既存モデルとの差分、提供範囲が不明で、業界の前提を変える"
+    },
+    "9d3a28aead8b626cfd1270b3e265febd": {
+      "score": 54,
+      "title": "October 05, 2026",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchのリリースノートで、BigQuery向けJupyterLabプラグインとDataprocプラグインの有効化制御が分離され、インスタンスメタデータで個別に無効化できるようになった点は、クラウド開発環境の構成柔軟性と運用性を高めます。一方で、既存機能の設定変更と依存パッケージ更新が中心であり、アーキテクチャ"
+    },
+    "19ba07ef2ac01033e588c20ddb056673": {
+      "score": 43,
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] AI開発の速度制限と、その速度を測定する指標の設計は、将来の研究開発ガバナンスや安全性評価に関わる重要な論点です。ただし、記事は具体的な技術革新や実装、正式な制度変更を示すものではなく、OpenAI幹部による見解・問題提起にとどまります。既出キーワードのAIに関連しますが、既存モデルや製品の続報ではなく、開発ペースの測定と制御という異なる角度のため、"
+    },
+    "ed3d52b32025b01436c7eabcc24971db": {
+      "score": 90,
+      "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Web検索を単発の問い合わせから、スケジュール実行・差分検知・Webhook通知による継続監視へ拡張するAPIであり、開発者がエージェントや業務自動化に組み込みやすい点が重要です。特に、検索結果を単純に大量配信せず、独自の判断モデルで重要な変化だけを通知する設計は、ノイズ削減と運用コスト抑制に有効です。Perplexityがチャットボット競争から開発"
+    },
+    "0eb81df469a002a9b96df8fabece667b": {
+      "score": 0,
+      "title": "Best Black Friday Nintendo Switch 2 Deals (2026): Switch 2 Bundles and Games",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Nintendo Switch 2のブラックフライデー向け本体バンドルやゲームの値引き情報であり、一般消費者向けガジェット・販売促進ニュースに該当します。ソフトウェア技術、アーキテクチャ、開発者エコシステムへの新規性や影響は限定的で、エンジニア視点での重要度は最低水準です。 [Editorial: gadget topic -8]"
+    },
+    "9feeda1d01df6c2b1f7d9be3025a6958": {
+      "score": 84,
+      "title": "Ant Group Bets on Simplexity to Thrive in China’s Humanoid Race",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] 中国のヒューマノイドロボット競争において、Jack Ma支援のAnt Groupが物理AIスタートアップSimplexity Roboticsへ1億ドルを投資する大型資金調達であり、ロボティクスとAIの実装競争を加速させる可能性が高い。資金規模と有力企業の参入は重要だが、現時点では製品性能や技術的ブレークスルー、業界構造を一変させる成果が示されたわけ"
+    },
+    "06c2fb916855b1290818b325478d718c": {
+      "score": 22,
+      "title": "Alphabet Energy Deals Delayed Amid Weak Muni Market",
+      "date": "2026-11-23",
+      "reason": "[Claude API Evaluation] Alphabetの資金調達案件が市場環境の悪化で延期されたという金融・企業財務のニュースであり、ソフトウェア技術、AI、クラウド、アーキテクチャなどへの直接的な影響は限定的です。Google親会社の事業投資余力に間接的な影響はあるものの、技術革新やエンジニアリング上の新規性は乏しいため、低評価としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-23/blog.md",
+    "show_notes_path": "out/2026-11-23/show_notes.md",
+    "script_path": "out/2026-11-23/script_2hosts.md",
+    "audio_path": "out/2026-11-23/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-23/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-23/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 26011,
+        "output_tokens": 10062,
+        "cost_usd": 0.017277
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 45021,
+        "output_tokens": 9195,
+        "cost_usd": 0.181992
+      }
+    ],
+    "tts": {
+      "chars": 4454,
+      "audio_sec": 667.6,
+      "cost_usd": 0.128728
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.327997
+  }
+}

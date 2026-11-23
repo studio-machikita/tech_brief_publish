@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#236 Perplexity、新「Monitor API」を発表――ウェブ検索を単発の質問から常時監視へ ほか</title>
+      <description>Tech News Radio Show Notes - #236 (2026-11-23)
+
+エピソード情報
+• エピソード: #236
+• 日付: 2026-11-23
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog (https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/)
+• Ant Group Bets on Simplexity to Thrive in China’s Humanoid Race (https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race)
+• Can AI help scientists identify promising drug candidates? (https://openai.com/index/introducing-medchembench)
+
+注目の深掘り
+• AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace (https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/)
+
+小ネタ・その他
+• MAI Code 2 and MAI Code 2 Flash in GitHub Copilot (https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot)
+• October 05, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026)
+• October 05, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-23/episode_audio.mp3" length="10902188" type="audio/mpeg" />
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-23</guid>
+      <itunes:duration>11:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Perplexity、新「Monitor API」を発表――ウェブ検索を単発の質問から常時監視へ ほか</itunes:title>
+      <itunes:episode>236</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #236 (2026-11-23)
+
+エピソード情報
+• エピソード: #236
+• 日付: 2026-11-23
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog (https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/)
+• Ant Group Bets on Simplexity to Thrive in China’s Humanoid Race (https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race)
+• Can AI help scientists identify promising drug candidates? (https://openai.com/index/introducing-medchembench)
+
+注目の深掘り
+• AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace (https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/)
+
+小ネタ・その他
+• MAI Code 2 and MAI Code 2 Flash in GitHub Copilot (https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot)
+• October 05, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026)
+• October 05, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-23/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.680" title="Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog" href="https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/" />
+        <psc:chapter start="00:02:18.590" title="Ant Group Bets on Simplexity to Thrive in China’s Humanoid Race" href="https://www.bloomberg.com/news/articles/2026-11-22/ant-group-bets-on-simplexity-to-thrive-in-china-s-humanoid-race" />
+        <psc:chapter start="00:04:08.900" title="Can AI help scientists identify promising drug candidates?" href="https://openai.com/index/introducing-medchembench" />
+        <psc:chapter start="00:05:59.230" title="AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace" href="https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/" />
+        <psc:chapter start="00:07:45.150" title="MAI Code 2 and MAI Code 2 Flash in GitHub Copilot" href="https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot" />
+        <psc:chapter start="00:09:14.300" title="October 05, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_05_2026" />
+        <psc:chapter start="00:10:50.500" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#235 エヌビディアの研究者ら、巨大なAIコンテキストウィンドウは行き止まりと主張 ほか</title>
       <description>Tech News Radio Show Notes - #235 (2026-11-22)
 
