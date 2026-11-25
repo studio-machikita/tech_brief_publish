@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-25",
+  "episode_date_local": "2026-11-25",
+  "content_snapshot_date": "2026-11-25",
+  "show_length_sec": 695,
+  "audio_size": 11126828,
+  "generated_at": "2026-11-25T03:36:20.252127+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-9814598b",
+      "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+      "title_ja": "Anthropic、MCP SDKの月間ダウンロード数が7億件を突破、より自律的なAIエージェント向けにプロトコルを拡張",
+      "one_liner": "MCPのSDK月間DL数が7億回を突破",
+      "fingerprint": "9814598ba55b51d3a098c5b2fd28cb8d",
+      "score": 96,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-8e1b9175",
+      "title": "Amazon Acquires Chip Software Business from AI Startup Decart",
+      "title_ja": "アマゾン、AIスタートアップDecartからチップ用ソフトウェア事業を買収",
+      "one_liner": "AmazonがDecartのチップ用ソフトを買収",
+      "fingerprint": "8e1b9175d1d4b4def29dcfb8411142d9",
+      "score": 86,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-18e3a6b3",
+      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+      "title_ja": "Anthropic、ClaudeのアーティファクトをmacOS・Windows向けのスタンドアロン型デスクトップアプリ化",
+      "one_liner": "Claude ArtifactsがPCアプリ化できるようになった",
+      "fingerprint": "18e3a6b366f4c214744f7d20e4465ed7",
+      "score": 83,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-47a522bf",
+      "title": "What's going on with the Riemann hypothesis?",
+      "title_ja": "リーマン予想をめぐる最新状況は?",
+      "one_liner": "AI支援のリーマン予想の証明が有力視されています",
+      "fingerprint": "47a522bf07826caa456251a74bb03bbf",
+      "score": 80,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-8ad62998",
+      "title": "llama.cpp v1 on an Integrated GPU: Long Prompts Read About 2x Faster, and the MoE Cache Lost to Full Offload",
+      "title_ja": "統合GPU上のllama.cpp v1:長いプロンプトの読み込みが約2倍高速化、MoEキャッシュは完全オフロードに及ばず",
+      "one_liner": "内蔵GPUで長文入力が約2倍速、MoEは逆効果",
+      "fingerprint": "8ad62998489cbd2fcee23aa5b566bd94",
+      "score": 74,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Dev.to"
+      ]
+    },
+    {
+      "item_id": "item-6b67036d",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "title_ja": "アマゾン「ハッカーのAIエージェントが、人間の関与をほとんど受けずにゼロデイ脆弱性を発見・悪用」",
+      "one_liner": "AIエージェントがゼロデイ脆弱性を自律的に悪用",
+      "fingerprint": "6b67036db115ec6d075e7e9ed37f31a7",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-93242200",
+      "reason": "LINK_ONLY: Source classified as satirical: Nvidia CEOの辞任・即時復帰や、Claudeを使ったリーマン予想の解決と翌日の検証という極端に非現実的な展開が含まれており、通常の技術ニュースではなく風刺・パロディと判断できます。",
+      "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-6cc22be2",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Searching for distant planets with Astra"
+    },
+    {
+      "item_id": "item-80eb7ce4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta ads is now available in AWS Quick"
+    },
+    {
+      "item_id": "item-dc60faba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models"
+    },
+    {
+      "item_id": "item-e4b6b57d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "math/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf at main · openai/math"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-0480d8e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Intentful uses dots to make more time for growth"
+    },
+    {
+      "item_id": "item-8df34f99",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed — LessWrong"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-f54a39a6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills"
+    },
+    {
+      "item_id": "item-1773d180",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion"
+    },
+    {
+      "item_id": "item-fbb811dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police"
+    },
+    {
+      "item_id": "item-26816868",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Huawei Found Guilty of US Charges in Landmark Case"
+    },
+    {
+      "item_id": "item-909acbda",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’"
+    },
+    {
+      "item_id": "item-abf5945f",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "US Criticizes Australia Social Media Law as Harming Free Speech"
+    },
+    {
+      "item_id": "item-cf98a89e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safeguards"
+    },
+    {
+      "item_id": "item-de4ff398",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off"
+    }
+  ],
+  "score_cache": {
+    "8df34f996801b3cbcf0ca0487ca95ee6": {
+      "score": 43,
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed — LessWrong",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] サンドボックスで分離されたモデル同士が、推論サーバーの共有状態や応答特性を介して通信できる可能性を示す、AIインフラとセキュリティの境界に関わる技術的に興味深い話題です。モデル分離、マルチテナント推論基盤、サイドチャネル対策への示唆はありますが、現時点では記事タイトル בלבדで実運用への影響や再現性の具体性が不明です。また、既出キーワードの「mod"
+    },
+    "6cc22be2ee1d5bff00cd8dbcf1d89c8b": {
+      "score": 55,
+      "title": "Searching for distant planets with Astra",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] CodexとAstraを活用し、NASAのKepler・TESS公開データからアマチュア天文学者が系外惑星候補を探索する事例で、AI支援による科学データ解析の実用性を示す点は興味深いです。一方、基盤技術そのもののブレークスルーや大規模なアーキテクチャ変更ではなく、既出のAI・エージェント系テーマと重なるため減点しました。公開データ、探索手順、再現性が"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 61,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] AIモデルの出力を利用して競合モデルを訓練するディスティレーション攻撃への対策は、モデル提供者の知的財産保護や推論APIの安全性に関わる重要な技術テーマです。単なる脆弱性報告ではなく、モデルの監視、出力制御、検知手法など防御アーキテクチャに発展する可能性があります。一方で、記事タイトルだけでは具体的な新技術や業界全体を変える発表内容までは確認できず、"
+    },
+    "dc60fabac7373c7bd0e32c1fa3c91004": {
+      "score": 47,
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for ",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] 企業向けにモデルプロバイダーのプログラム申請・利用登録を一元化するAPIであり、Bedrockのガバナンス、データ管理、Claude導入時の運用効率を改善する点は実務的に有用です。ただし、技術革新そのものよりもアクセス制御やデータ管理に重点があり、公開プレビュー段階で影響範囲も限定的です。また、既出キーワードのAmazon、Bedrock、API、A"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 43,
+      "title": "September 28, 2026",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchというAIエージェント関連基盤を含むものの、主な内容は依存パッケージ更新とコンテナイメージの重大・高危険度CVE修正であり、新機能やアーキテクチャ上の革新性は限定的です。Colab Enterpriseのランタイムテンプレートをプロジェクト・リージョン単位のデフォルトに設定できる機能は運用効率を高めます"
+    },
+    "1773d180576d3c2070045440a2fa7412": {
+      "score": 32,
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Nvidiaの先端チップ輸出と米国の産業競争力、取締役の法的責任に関する批判であり、半導体政策や企業統治への影響は大きい一方、技術革新や新製品の発表ではありません。エンジニア視点では、チップ供給網や輸出管理が将来の計算資源・開発環境に与える示唆はありますが、主題は規制・地政学・訴訟リスクに属するため、評価は低めです。"
+    },
+    "18e3a6b366f4c214744f7d20e4465ed7": {
+      "score": 83,
+      "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Claude Artifactsで作成したアプリを、コードを書かずにmacOSやWindowsのデスクトップアプリとして配布できるようになる点は、生成AIを試作支援から実用的なソフトウェア提供まで拡張する具体的な進展です。メニューバー、通知、透明ウィンドウなどOS統合も可能で、非エンジニアを含むアプリ開発の裾野を広げるインパクトがあります。一方で、基"
+    },
+    "47a522bf07826caa456251a74bb03bbf": {
+      "score": 80,
+      "title": "What's going on with the Riemann hypothesis?",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] リーマン予想という数学上の最重要未解決問題に対し、AI支援による新たな証明候補が登場した点は非常に注目度が高い。証明が正しいか検証中で、仮に成立すれば数学・定理証明・AI研究の前提を大きく変えうる。一方、現時点では確立した成果ではなく、AIが何を発見・説明したのかも不明確なため、業界の前提を変える確定的なブレークスルーとして90点以上にはしない。既出"
+    },
+    "fbb811dd057aa40806fa356cba040b9b": {
+      "score": 32,
+      "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Nvidiaの経営者と中国関連の国家安全保障上の懸念を扱う重要な企業統治・地政学ニュースですが、技術仕様やアーキテクチャ、開発者向け機能の進展ではありません。半導体供給やAIインフラ政策に波及する可能性はあるものの、現時点では疑惑と専門家の見解が中心で、エンジニアの実務を直接変える具体性も限定的です。そのため、規制・安全保障系の記事として低〜中程度の"
+    },
+    "26816868218102ebc55e831e8279d5f9": {
+      "score": 30,
+      "title": "Huawei Found Guilty of US Charges in Landmark Case",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Huaweiに対する米国の有罪判決は、通信・半導体業界や国際的なサプライチェーン、企業コンプライアンスに影響し得る重要な法的ニュースです。一方で、技術的な革新や新しいアーキテクチャ、製品発表ではなく、主題はマネーロンダリング、企業スパイ、制裁回避に関する刑事責任です。そのため、エンジニアにとっては輸出管理や取引先リスク評価の参考にはなるものの、技術ト"
+    },
+    "9324220089bfe5aa9304093e7916f193": {
+      "score": 77,
+      "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Claudeを用いたリーマン予想の解決という主張が事実で、かつ独立検証まで成立しているなら、数学研究とAIの役割に大きな転換をもたらす非常に重要な技術ニュースです。AI・Anthropic関連は既出キーワードですが、今回は単なるモデル発表ではなく、未解決問題への具体的な成果という新展開のため減点は不要と判断しました。一方で、スニペットだけでは証明の妥"
+    },
+    "f54a39a6405bae3d9bdc98a0cfb69267": {
+      "score": 43,
+      "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] AIアシスタント向けのインストール可能なスキルを、実行前に静的解析してプライバシー侵害リスクを検出する研究であり、エージェントの安全性・導入審査に実務的な価値があります。ファイルやアカウントへのアクセス、機微属性の推論、過剰な情報保持、意図しない開示を対象とする点も重要です。一方で、業界の前提を変える製品発表ではなく、arXiv上の初期研究であり、実"
+    },
+    "8ad62998489cbd2fcee23aa5b566bd94": {
+      "score": 74,
+      "title": "llama.cpp v1 on an Integrated GPU: Long Prompts Read About 2x Faster, and the MoE Cache Lost to Full Offload",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] llama.cpp v1におけるVulkan向けFlash Attention最適化やMoEキャッシュの実測を、内蔵GPU・CUDA環境で具体的な数値とともに検証しており、ローカルLLM推論の実用性能に直結する技術記事です。特に長文プロンプト処理が最大約2倍になる一方、共有メモリ環境ではMoEキャッシュより全量GPUオフロードが有利という知見は、ll"
+    },
+    "e4b6b57d190ac82b870f4a031a7604c8": {
+      "score": 47,
+      "title": "math/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf at main · openai/math",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] 提示されたスニペットの内容は、Agent Platform Workbench v2における依存パッケージ更新と、JupyterLab 4の設定をイメージビルド時に準備して再起動を高速化する改善です。開発環境の運用効率には寄与しますが、業界の前提を変える新技術や大規模なアーキテクチャ変更ではなく、影響範囲も限定的です。また、既出キーワードの「agen"
+    },
+    "0480d8e43aaa68b064bd405c98290c5e": {
+      "score": 44,
+      "title": "How Intentful uses dots to make more time for growth",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] ウェブ調査や提案書作成、メッセージの監視・問題解決を自律的に行うAIエージェントの実用例であり、業務自動化という点では技術的な注目度があります。一方で、記事からは基盤技術の革新性や大規模な影響範囲、導入効果の具体性が十分に確認できず、既出のAI・エージェント関連トピックとも重なるため20点減点しました。 [Editorial: AI-focused "
+    },
+    "cf98a89ef4a5ac4949000a3baf75b5f8": {
+      "score": 22,
+      "title": "Safeguards",
+      "date": "2026-11-22",
+      "reason": "[ScoreCache 2026-11-22] [ScoreCache 2026-11-22] [Claude API Evaluation] タイトルが「Safeguards」のみで、対象技術・発表主体・具体的な実装や影響範囲が不明です。安全対策やリスク管理に関する内容と推測されますが、技術革新やアーキテクチャ上の新規性を評価できる情報がなく、セキュリティ・運用ルール寄りの話題である可能性も高い"
+    },
+    "80eb7ce40a6c824eddbbed392c3b8ce2": {
+      "score": 48,
+      "title": "Meta ads is now available in AWS Quick",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] 自然言語でMeta広告の作成・管理・分析を行い、広告データを社内外のデータソースと統合してダッシュボードや資料、ワークフローまで生成できる点は、クラウド上の業務自動化とデータ活用の面で実用性があります。一方、基盤技術そのものの革新というより、AWS QuickとMeta Adsの既存サービス連携であり、適用範囲も広告運用に限定されます。また、既出キー"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新で、BigQuery JupyterLabプラグインの独立制御、旧世代GPU向けCUDAドライバーの事前導入、依存パッケージ更新など、AI開発環境の運用性と互換性を改善する実務的な内容です。一方で、業界の前提を変える新機能やアーキテクチャ革新ではなく、中心的な変更は既存環境の保守・セキュリテ"
+    },
+    "909acbda2766a939e8fd3121f21f72c6": {
+      "score": 27,
+      "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] NVIDIAや半導体輸出管理に関係するためテック業界との接点はあるものの、記事の中心はトランプ氏による恩赦の可能性と関係者への疑惑であり、技術革新やソフトウェア・アーキテクチャの進展ではありません。半導体規制や地政学、企業ガバナンスに影響する可能性はありますが、現時点では具体的な政策変更や製品・開発環境への直接的な影響が示されていないため、低評価とし"
+    },
+    "9814598ba55b51d3a098c5b2fd28cb8d": {
+      "score": 96,
+      "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] AIエージェント間のツール連携を標準化するMCPが月間7億ダウンロード規模に達したことは、開発者エコシステムとエージェント基盤の普及を示す重要な動向です。バックグラウンドタスク、ユーザーへの追加質問、ファイルアップロードの導入も、単発の応答型AIから長時間・自律実行型エージェントへ移行するうえで実装上の意義があります。既出キーワードのagentsやA"
+    },
+    "6b67036db115ec6d075e7e9ed37f31a7": {
+      "score": 66,
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] AIエージェントが人間の介入をほとんど必要とせず、未知の脆弱性（0-day）の発見・悪用まで実行したという内容は、攻撃自動化と防御技術の前提を変え得るため、技術的なインパクトは高いです。一方で、AIエージェントおよびサイバーセキュリティは直近の既出キーワードと重なり、同じ文脈の記事として20点減点しました。また、現時点ではCairn AIフレームワー"
+    },
+    "de4ff398587374817162d82363f3bcff": {
+      "score": 0,
+      "title": "16 Best Black Friday Headphone Deals (2026): Up to 57% Off",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] Apple、Sony、Nothingなどのヘッドホン・イヤホンの値引き情報であり、一般消費者向けガジェットのセール記事です。ソフトウェア技術、開発者向け基盤、AI、アーキテクチャへの新規性や業界インパクトがほとんどないため、最低評価帯としました。 [Editorial: gadget topic -8]"
+    },
+    "abf5945fff9b06fdd129ecf9f7ae40e9": {
+      "score": 27,
+      "title": "US Criticizes Australia Social Media Law as Harming Free Speech",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] 主要テクノロジー企業を対象とする豪州の規制案と、それを巡る米豪間の対立に関するニュースであり、技術革新や開発者向けの具体的な進展ではありません。表現の自由、米国企業への負担、国際的な規制摩擦には影響しますが、エンジニアのアーキテクチャや実装を直接変える情報ではないため、法律・規制ニュースとして低めに評価します。既出キーワードとの直接的な重複も限定的で"
+    },
+    "8e1b9175d1d4b4def29dcfb8411142d9": {
+      "score": 86,
+      "title": "Amazon Acquires Chip Software Business from AI Startup Decart",
+      "date": "2026-11-25",
+      "reason": "[Claude API Evaluation] AI向け半導体の性能を引き出すソフトウェア技術と、Amazon独自チップTrainiumの実用性に関わる重要な買収です。ハードウェア性能だけでなく、コンパイラやランタイム、カーネル最適化などのソフトウェアスタックがAI計算コストと処理効率を左右するため、クラウド基盤やAIインフラエンジニアへの影響は大きいです。AIおよびAmazon関連の既出キーワー"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-25/blog.md",
+    "show_notes_path": "out/2026-11-25/show_notes.md",
+    "script_path": "out/2026-11-25/script_2hosts.md",
+    "audio_path": "out/2026-11-25/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-25/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-25/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 36,
+        "input_tokens": 35955,
+        "output_tokens": 11606,
+        "cost_usd": 0.021118
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 49958,
+        "output_tokens": 9575,
+        "cost_usd": 0.195666
+      }
+    ],
+    "tts": {
+      "chars": 4498,
+      "audio_sec": 682.1,
+      "cost_usd": 0.131522
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.348306
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.08,
+    "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+    "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/"
+  },
+  {
+    "start_sec": 130.4,
+    "title": "Amazon Acquires Chip Software Business from AI Startup Decart",
+    "url": "https://www.theinformation.com/briefings/amazon-acquires-chip-software-business-ai-startup-decart"
+  },
+  {
+    "start_sec": 228.22,
+    "title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
+    "url": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/"
+  },
+  {
+    "start_sec": 327.31,
+    "title": "What's going on with the Riemann hypothesis?",
+    "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+  },
+  {
+    "start_sec": 445.55,
+    "title": "llama.cpp v1 on an Integrated GPU: Long Prompts Read About 2x Faster, and the MoE Cache Lost to Full Offload",
+    "url": "https://dev.to/maruhana/llamacpp-v1-on-an-integrated-gpu-long-prompts-read-about-2x-faster-and-the-moe-cache-lost-to-7af"
+  },
+  {
+    "start_sec": 573.52,
+    "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+    "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+  },
+  {
+    "start_sec": 665.1,
+    "title": "エンディング",
+    "url": null
+  }
+]
