@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-26",
+  "episode_date_local": "2026-11-26",
+  "content_snapshot_date": "2026-11-26",
+  "show_length_sec": 768,
+  "audio_size": 12296492,
+  "generated_at": "2026-11-26T00:29:31.933847+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-dc9a7dae",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title_ja": "GPT-6モデル、タンパク質設計の固有能力を実証",
+      "one_liner": "GPT-6が自力でタンパク質設計に成功",
+      "fingerprint": "dc9a7dae1629a56ab4ce2366071de065",
+      "score": 92,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-dc60faba",
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "title_ja": "Amazon Bedrock、Claudeモデル向けにエンタープライズ向けフロンティア・セーフガードとデータ制御を備えた「Trusted Access API」を提供開始",
+      "one_liner": "BedrockにAI提供元の特別プログラム用APIが登場",
+      "fingerprint": "dc60fabac7373c7bd0e32c1fa3c91004",
+      "score": 76,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-f236f153",
+      "title": "FCC approves SpaceX plan to put AI data centers in space",
+      "title_ja": "FCC、スペースXの宇宙AIデータセンター計画を承認",
+      "one_liner": "FCCがSpaceXの宇宙データセンター計画を承認",
+      "fingerprint": "f236f153bcc7495a33e491b0a074a4f5",
+      "score": 67,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch",
+        "Bloomberg Technology"
+      ]
+    },
+    {
+      "item_id": "item-bdb3df18",
+      "title": "AI may soon change what it means to be a theoretical physicist",
+      "title_ja": "AIが理論物理学者のあり方を近く一変させるかもしれない",
+      "one_liner": "最先端AIが物理学者の仕事を変え始めた",
+      "fingerprint": "bdb3df18266a8e6a1d96b7c36de74efc",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Ars Technica AI"
+      ]
+    },
+    {
+      "item_id": "item-6cc22be2",
+      "title": "Searching for distant planets with Astra",
+      "title_ja": "アストラで遠方の惑星を探す",
+      "one_liner": "アマチュア天文家がAIで系外惑星を探索",
+      "fingerprint": "6cc22be2ee1d5bff00cd8dbcf1d89c8b",
+      "score": 55,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-4a64e33b",
+      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+      "title_ja": "米国の半導体輸出規制と蒸留対策、中国のAI研究機関の開発に早くも影響か",
+      "one_liner": "米規制が中国AI企業の開発を減速させている",
+      "fingerprint": "4a64e33b32f6b6c09ed75922986182b3",
+      "score": 54,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-d7e89eff",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "GEO Is Not SEO: What Actually Changes When an LLM Decides Whether to Cite You"
+    },
+    {
+      "item_id": "item-80eb7ce4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta ads is now available in AWS Quick"
+    },
+    {
+      "item_id": "item-6a9eca42",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Latency doesn&#x27;t lie: Jev is (probably) Qwen3.5-35B-A3B! | Modaic"
+    },
+    {
+      "item_id": "item-599a9aeb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to choose the next safe step in application modernization"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-341252dd",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study"
+    },
+    {
+      "item_id": "item-f6cb9a4a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\""
+    },
+    {
+      "item_id": "item-b37ab678",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "llm.asm/02-baremetal-os at main · alesha-pro/llm.asm"
+    },
+    {
+      "item_id": "item-bd852571",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Etsy clarifies AI terms after seller backlash"
+    },
+    {
+      "item_id": "item-433bb9ee",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks"
+    },
+    {
+      "item_id": "item-9b7bcf5c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Trump Put Jensen Huang Back in Charge of Nvidia"
+    },
+    {
+      "item_id": "item-a4123782",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review billing will default to the organization"
+    },
+    {
+      "item_id": "item-cf98a89e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safeguards"
+    },
+    {
+      "item_id": "item-6d3426d8",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It"
+    },
+    {
+      "item_id": "item-ee65bba1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Markets Stage a Stunning Reversal Ahead of Thanksgiving"
+    },
+    {
+      "item_id": "item-51524cba",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The 30 Best Early Black Friday Deals: Our Ultimate Picks (2026)"
+    }
+  ],
+  "score_cache": {
+    "6a9eca4205ce29bcb058ad07f47aeb09": {
+      "score": 47,
+      "title": "Latency doesn&#x27;t lie: Jev is (probably) Qwen3.5-35B-A3B! | Modaic",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] 推論レイテンシからJevの実体をQwen3.5-35B-A3Bと推定する内容で、LLMのモデル同定や性能分析という点ではエンジニアにとって興味深い技術記事です。一方で、タイトル自体が「probably」としており確定情報ではなく、新モデルの正式発表やベンチマーク、実運用への具体的な影響も不明です。また、既報キーワードであるAI・modelsに直接該当"
+    },
+    "dc9a7dae1629a56ab4ce2366071de065": {
+      "score": 92,
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] LLMがコード生成や文章理解にとどまらず、タンパク質の構造・配列設計という高度な科学技術タスクで実験的な結合性能を示した点は非常に重要です。5つの標的で結合の証拠が得られたなら、創薬・バイオ設計のワークフローを大きく変える可能性があります。既出のAIやモデル関連テーマには該当しますが、タンパク質設計という明確に新しい応用領域の続報・新展開とみなせるた"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 44,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] LLMの出力を利用して別モデルを訓練するディスティレーション攻撃への対策は、モデル窃取や競争上の優位性、API悪用に関わる重要なAIセキュリティテーマです。防御手法が実運用に反映されれば、レート制限・出力監視・透かし・評価基盤などの設計に影響します。一方で、業界の前提を根本から変える新モデルやアーキテクチャの発表ではなく、AI関連の既出テーマと重なる"
+    },
+    "dc60fabac7373c7bd0e32c1fa3c91004": {
+      "score": 76,
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for ",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] Amazon Bedrockにモデルプロバイダーのプログラムを一元的に発見・申請・登録できるAPIが追加され、企業向けのデータ管理や安全性を実装面で強化する点は、クラウドアーキテクチャとLLM導入に関わる重要な進展です。特にClaude利用時のデータ制御をAPI経由で扱えるため、エンタープライズのガバナンスや導入障壁を下げる効果があります。一方で、公"
+    },
+    "599a9aebc8ff73ed0147e7b3794fddbf": {
+      "score": 47,
+      "title": "How to choose the next safe step in application modernization",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] レガシーアプリケーションの評価方法や、リスクを限定した段階的モダナイゼーションの進め方は、実務上の有用性が高く、アーキテクチャ改善の観点でも価値があります。ただし、業界の前提を変える新技術や具体的な製品発表ではなく、主に手法・ガイダンスの紹介です。さらに、GitHub Copilotのエージェント活用が中心で、既出キーワードおよび既出テーマとの重複が"
+    },
+    "a4123782c64aa97dc6b6a600cdf1176e": {
+      "score": 26,
+      "title": "Copilot code review billing will default to the organization",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] GitHub Copilotのコードレビュー料金の請求先が、設定未完了の場合に個人ではなく組織へ自動変更されるという運用・課金ポリシーの告知です。管理者や企業の予算管理には影響しますが、技術革新やアーキテクチャの進化ではなく、対象範囲も限定的です。既出キーワードの「Copilot」に直接該当し、同一テーマの続報として20点減点しました。 [Edito"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 43,
+      "title": "September 28, 2026",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の内容は、カスタムコンテナイメージに含まれるCritical／High severityのCVEをまとめて修正する保守・セキュリティ対応が中心で、新機能やアーキテクチャ上の革新性は限定的です。Colab Enterpriseのデフォルト実行テンプレート設定も、プロジェクトやリージョン単位でランタイ"
+    },
+    "433bb9ee9a9c6f12be119619685ac914": {
+      "score": 30,
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] Nvidiaの信用格付け引き下げ検討は、AIインフラ市場や半導体サプライチェーンの安定性を考えるうえでは一定の意味があります。しかし、記事の主題は技術革新ではなく、ガバナンスや特定人物への依存といった企業リスク・信用評価です。具体的な格下げ決定や事業・開発計画への直接的な影響も示されていないため、エンジニア視点での技術的インパクトは限定的です。"
+    },
+    "4a64e33b32f6b6c09ed75922986182b3": {
+      "score": 54,
+      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] 中国の主要AIラボがGPU輸出規制やモデル蒸留対策によって実際に開発遅延へ追い込まれているという報告は、AIモデル開発の計算資源・競争環境に大きな影響を与える点で重要です。DeepSeekなどが米国モデルに最大9カ月遅れているという具体的な情報もあります。一方で、技術革新そのものではなく、既存のAI・半導体規制の続報という性格が強く、規制関連ニュース"
+    },
+    "bd8525711a3aede4d8f9ae4244e0b39a": {
+      "score": 35,
+      "title": "Etsy clarifies AI terms after seller backlash",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] AIに関する話題ではあるものの、EtsyのAI利用規約・表現をめぐる説明修正であり、技術的な革新や実装の進展ではありません。販売者コミュニティへの影響はある一方、エンジニア視点でのアーキテクチャ、モデル性能、開発者向け機能への波及は限定的です。また、既にAI関連の話題が取り上げ済みで、今回は新技術ではなく反発への対応が中心とみられるため減点しました。"
+    },
+    "6d3426d8f37c5a1b1e44e20fb39de970": {
+      "score": 18,
+      "title": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] 環境中の鉛汚染を検証する重要な続報ではあるものの、ソフトウェア、AI、クラウド、プログラミング言語などの技術革新には直接つながらないため、エンジニア視点での関連性は低いです。現時点では初期結果にとどまり、測定データや分析手法の具体性も限定的なので、社会的関心はあるものの高い技術ニュース評価には該当しません。"
+    },
+    "ee65bba1d056f44ae7709d5fbbe2b34c": {
+      "score": 13,
+      "title": "Markets Stage a Stunning Reversal Ahead of Thanksgiving",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] ウォール街の相場反転と投資家・小売業界の見通しを扱う金融ニュースであり、AI、クラウド、ソフトウェア、ロボティクスなどの技術革新や開発者への具体的な影響がありません。エンジニア視点でのアーキテクチャ変更・技術導入・製品戦略への波及も限定的なため、低いスコアとしました。"
+    },
+    "9b7bcf5c00b84095f82e4f3e5e84a39d": {
+      "score": 30,
+      "title": "How Trump Put Jensen Huang Back in Charge of Nvidia",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] NvidiaのCEO人事と米政権による企業統治への介入は、同社のAI半導体戦略や市場の信頼に影響し得るため、一般的な政治ニュースよりは技術業界への関連性があります。一方で、記事の中心は新製品・半導体アーキテクチャ・ソフトウェア技術の進展ではなく、政治的圧力や司法判断を背景としたガバナンス問題です。エンジニア視点での技術的な新規性は限定的なため、低評価"
+    },
+    "341252dd00df2d3e31486c9ad6a37f84": {
+      "score": 43,
+      "title": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] LLMががん治療に関する誤った、または代替医療寄りの主張をどの程度追認してしまうかを、単一ターン／複数ターンや治療タイプを組み合わせた因子計画で検証しており、医療チャットボットの評価設計と安全性改善に有用な研究です。一方で、製品リリースやモデル性能のブレークスルーではなく、arXiv上の初期研究であり、実運用への影響は今後の再現性検証に依存します。ま"
+    },
+    "d7e89eff66603ddead0c66790ecec16a": {
+      "score": 52,
+      "title": "GEO Is Not SEO: What Actually Changes When an LLM Decides Whether to Cite You",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] LLM検索におけるクロール、チャンク化、ベクトル検索、再ランキング、引用生成までの実務的な評価軸を整理し、SSR・初期HTML・robots.txt・構造化データ・アクセスログ分析など、エンジニアがすぐ検証できる具体策まで落とし込んでいる点は有用です。単なるSEO論ではなく、検索結果ページの順位付けから回答生成パイプラインへの最適化へ視点を移している"
+    },
+    "b37ab6780d02e05c5fa41b91e36e2acf": {
+      "score": 40,
+      "title": "llm.asm/02-baremetal-os at main · alesha-pro/llm.asm",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] LLM関連のアセンブリ実装とベアメタルOSという題材は、低レイヤー技術やOSアーキテクチャの観点では興味深く、通常なら中程度以上に評価できます。一方で、スニペットがなく具体的な技術成果や新規性、実用性を確認できないため影響範囲は限定的です。また、既出キーワードのGitHubに該当するリポジトリ紹介であり、明確な続報と判断できないため減点しました。 ["
+    },
+    "6cc22be2ee1d5bff00cd8dbcf1d89c8b": {
+      "score": 55,
+      "title": "Searching for distant planets with Astra",
+      "date": "2026-11-25",
+      "reason": "[ScoreCache 2026-11-25] [Claude API Evaluation] CodexとAstraを活用し、NASAのKepler・TESS公開データからアマチュア天文学者が系外惑星候補を探索する事例で、AI支援による科学データ解析の実用性を示す点は興味深いです。一方、基盤技術そのもののブレークスルーや大規模なアーキテクチャ変更ではなく、既出のAI・エージェント系テーマと重なる"
+    },
+    "cf98a89ef4a5ac4949000a3baf75b5f8": {
+      "score": 26,
+      "title": "Safeguards",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] タイトルが「Safeguards」のみで、具体的な技術内容、対象製品、影響範囲、新規性を判断できません。一般に安全対策や規制・運用ルールに関する話題と推測され、先端技術の革新というより堅実なリスク管理寄りです。情報量が極めて少ないため、重要度は低めに評価します。 [Editorial: AI-focused source +6]"
+    },
+    "80eb7ce40a6c824eddbbed392c3b8ce2": {
+      "score": 49,
+      "title": "Meta ads is now available in AWS Quick",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] AWS QuickにMeta広告のAIコネクタを追加し、自然言語によるキャンペーン管理や広告データと外部データの統合、レポート・ワークフロー自動化を可能にする点は、マーケティング業務のデータ活用を効率化する実用的なクラウド機能です。一方で、Meta広告という限定的な業務領域向けの連携であり、基盤アーキテクチャやAI技術そのものを大きく変える発表ではあ"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] Agent Platform WorkbenchというAI開発基盤の更新であり、BigQuery JupyterLabプラグインの標準有効化や旧世代GPU向けCUDAドライバーの事前導入など、データ分析・機械学習環境の利便性に影響する具体的な変更が含まれています。一方で、内容の中心は依存パッケージ更新、プラグイン設定変更、CVE修正といった定常的なリ"
+    },
+    "f236f153bcc7495a33e491b0a074a4f5": {
+      "score": 67,
+      "title": "FCC approves SpaceX plan to put AI data centers in space",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] 宇宙空間にAIデータセンターを配置するという構想は、電力・冷却・通信・打ち上げコストなど、クラウド基盤の前提を大きく変え得る先端インフラであり、技術的な話題性は高いです。一方で、今回の内容はFCCによる計画承認が中心で、実装済みのサービスや性能検証ではなく、科学研究への影響など規制上の論点も含まれます。そのため、AI関連ではあるものの業界の前提を直ち"
+    },
+    "f6cb9a4ac7f90138f0608f2c9e36b6fa": {
+      "score": 43,
+      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] AIによる社会統治を否定するAnthropic CEOの見解で、AIガバナンスや安全性を考える上では一定の示唆がありますが、具体的な製品・技術革新や実装発表ではなく、報道内容への反論と意見表明が中心です。また、既出キーワードであるAIおよびAnthropicに直接関連し、同分野の話題が直近で扱われているため減点しました。 [Editorial: AI"
+    },
+    "bdb3df18266a8e6a1d96b7c36de74efc": {
+      "score": 66,
+      "title": "AI may soon change what it means to be a theoretical physicist",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] 最先端AIが、従来は理論物理学者が長時間かけていた問題を短時間で解くという内容で、研究開発の自動化や科学計算のワークフローを変える可能性があります。エンジニア視点では、AIによる仮説生成・数式推論・シミュレーション支援の進展として意義があります。一方で、具体的なモデル名、性能比較、再現性、実用導入の詳細がなく、現時点では将来予測に近い記事です。また、"
+    },
+    "51524cba1ea26462f8e726ef2c81952f": {
+      "score": 4,
+      "title": "The 30 Best Early Black Friday Deals: Our Ultimate Picks (2026)",
+      "date": "2026-11-26",
+      "reason": "[Claude API Evaluation] 一般消費者向けのブラックフライデーセール情報であり、ソフトウェア開発、AI、クラウド、アーキテクチャなど技術分野への影響や新規性がありません。製品の具体的な技術革新も示されていないため、最低評価帯としました。"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-26/blog.md",
+    "show_notes_path": "out/2026-11-26/show_notes.md",
+    "script_path": "out/2026-11-26/script_2hosts.md",
+    "audio_path": "out/2026-11-26/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-26/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-26/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 35,
+        "input_tokens": 27765,
+        "output_tokens": 11628,
+        "cost_usd": 0.019507
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45042,
+        "output_tokens": 9949,
+        "cost_usd": 0.189574
+      }
+    ],
+    "tts": {
+      "chars": 4876,
+      "audio_sec": 743.9,
+      "cost_usd": 0.14344
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.352521
+  }
+}

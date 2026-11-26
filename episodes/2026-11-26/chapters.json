@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 21.88,
+    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+  },
+  {
+    "start_sec": 117.45,
+    "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+    "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/"
+  },
+  {
+    "start_sec": 230.28,
+    "title": "FCC approves SpaceX plan to put AI data centers in space",
+    "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+  },
+  {
+    "start_sec": 348.48,
+    "title": "AI may soon change what it means to be a theoretical physicist",
+    "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+  },
+  {
+    "start_sec": 491.81,
+    "title": "Searching for distant planets with Astra",
+    "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+  },
+  {
+    "start_sec": 619.88,
+    "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+    "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/"
+  },
+  {
+    "start_sec": 738.29,
+    "title": "エンディング",
+    "url": null
+  }
+]

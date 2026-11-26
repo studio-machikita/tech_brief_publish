@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPT-6モデル、タンパク質設計の固有能力を実証 ほか | Tech News Radio</title>
+<style>:root {
+  --bg: #121212;
+  --surface: #1E1E1E;
+  --surface-strong: #252525;
+  --border: rgba(255, 255, 255, 0.05);
+  --text: #E0E0E0;
+  --text-muted: #A0A0A0;
+  --accent: #00D8FF;
+  --accent-light: #6C8AFF;
+  --accent-soft: rgba(0, 216, 255, 0.1);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --strong: #fff;
+  --border-radius: 12px;
+}
+[data-theme="light"] {
+  --bg: #f5f5f5;
+  --surface: #ffffff;
+  --surface-strong: #f0f0f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #1a1a1a;
+  --text-muted: #666666;
+  --accent: #0099b3;
+  --accent-light: #5060c0;
+  --accent-soft: rgba(0, 153, 179, 0.08);
+  --success: #059669;
+  --warning: #d97706;
+  --strong: #000;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, textarea, select { font: inherit; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+
+/* Header */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  margin-bottom: 0;
+}
+header .container { padding: 24px 20px; }
+header h1 { font-size: 1.5rem; font-weight: 700; }
+header h1 a { color: var(--strong); }
+header h1 a:hover { text-decoration: none; }
+header p { color: var(--text-muted); font-size: 0.95rem; margin-top: 0.25rem; }
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  transition: color 0.2s ease;
+}
+.nav-links a:hover { color: var(--strong); text-decoration: none; }
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.35rem 0.6rem;
+  line-height: 1;
+  transition: background 0.3s, border-color 0.3s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* Section titles */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--strong);
+  letter-spacing: 0.05em;
+}
+.section-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  color: var(--strong);
+}
+.section-desc {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.col-half { width: calc(50% - 12px); }
+.col-full { width: 100%; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 216, 255, 0.3);
+}
+[data-theme="light"] .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.card h2 {
+  font-size: 1.25rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card ul { list-style: none; padding-left: 0; margin: 0; }
+.card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.card li:last-child { margin-bottom: 0; }
+.list-check li::before { content: '\2713'; position: absolute; left: 0; color: var(--accent); font-weight: bold; font-size: 1.1em; }
+.list-arrow li::before { content: '\2794'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.9em; top: 0.1em; }
+.list-dot li::before { content: '\25A0'; position: absolute; left: 0; color: var(--text-muted); font-size: 0.6em; top: 0.5em; }
+
+/* Hero card */
+.hero-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 16px;
+}
+.hero-title {
+  font-size: 1.5rem;
+  color: var(--strong);
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.hero-description {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+.hero-description:last-of-type { margin-bottom: 24px; }
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero-pill {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid rgba(0, 216, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+[data-theme="light"] .hero-pill {
+  border-color: rgba(0, 153, 179, 0.3);
+}
+
+/* RSS link */
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  margin-bottom: 16px;
+}
+.rss-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Episode list & cards */
+.episodes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.episode-card {
+  display: block;
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  padding: 20px 24px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.episode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 216, 255, 0.3);
+  text-decoration: none;
+}
+[data-theme="light"] .episode-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 153, 179, 0.3);
+}
+.episode-card:hover .episode-title {
+  color: var(--accent);
+}
+.episode-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.episode-title {
+  font-size: 1.15rem;
+  color: var(--accent-light);
+  margin: 0 0 12px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+.episode-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* technewsradio lab */
+.lab-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--border-radius);
+  padding: 18px 24px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.lab-banner:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.lab-banner-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+.lab-banner-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--strong);
+}
+.lab-banner-more {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.lab-card-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Content card (markdown pages) */
+.content-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.content-card h1 { font-size: 1.8rem; font-weight: bold; color: var(--strong); margin-bottom: 8px; letter-spacing: 0.05em; }
+.content-card h2 { font-size: 1.25rem; color: var(--strong); margin-top: 28px; margin-bottom: 16px; }
+.content-card h3 { font-size: 1.05rem; color: var(--accent-light); margin-top: 20px; margin-bottom: 8px; }
+.content-card p { margin-bottom: 12px; color: var(--text); }
+.content-card ul, .content-card ol { margin-left: 1.5rem; margin-bottom: 12px; }
+.content-card li { margin-bottom: 6px; }
+
+/* Notice card */
+.notice-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 28px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+.notice-card h2 {
+  font-size: 1.25rem;
+  color: var(--accent-light);
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 138, 255, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.notice-card h3 {
+  font-size: 1rem;
+  color: var(--accent-light);
+  margin-bottom: 12px;
+}
+.notice-card ul { list-style: none; padding-left: 0; margin: 0; }
+.notice-card li {
+  position: relative;
+  padding-left: 1.8em;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+.notice-card li::before {
+  content: '\25A0';
+  position: absolute;
+  left: 0;
+  color: var(--text-muted);
+  font-size: 0.6em;
+  top: 0.5em;
+}
+.notice-card li:last-child { margin-bottom: 0; }
+
+/* Pagination */
+.page-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--strong);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+}
+.pagination a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.pagination .current {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.pagination .summary {
+  min-width: auto;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+}
+
+/* Episode page */
+.episode-page .cover {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  display: block;
+}
+.episode-page audio {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+/* プレイヤー直下の「〜で聴く」導線 */
+.listen-on {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.25rem 0 1.5rem;
+}
+.listen-on-label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-right: 0.25rem;
+}
+.listen-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--strong);
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.listen-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}
+.episode-page .content {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.episode-page .content h1 { font-size: 1.4rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.75rem; color: var(--strong); }
+.episode-page .content h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.75rem; color: var(--accent-light); }
+.episode-page .content h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.5rem; }
+.episode-page .content p { margin-bottom: 0.75rem; }
+.episode-page .content ul, .episode-page .content ol { margin-left: 1.5rem; margin-bottom: 0.75rem; }
+.episode-page .content li { margin-bottom: 0.3rem; }
+.episode-page .content strong { color: var(--strong); }
+.episode-page .content em { color: var(--text-muted); }
+.episode-page .content hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.episode-page .content a { word-break: break-all; }
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.tab-btn:hover { color: var(--strong); }
+.tab-btn.active { color: var(--accent); }
+.tab-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Disclosure list */
+.disclosure-list {
+  list-style: none;
+  margin-left: 0;
+}
+.disclosure-list li {
+  position: relative;
+  padding-left: 1rem;
+}
+.disclosure-list li::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: var(--accent-light);
+}
+
+/* Buttons */
+.button-link,
+.consent-action {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.button-link:hover,
+.consent-action:hover {
+  border-color: var(--accent);
+}
+.button-link.primary,
+.consent-action.primary {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #fff;
+}
+.button-link.primary:hover,
+.consent-action.primary:hover {
+  opacity: 0.85;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-grid {
+  display: flex;
+  gap: 20px;
+}
+.form-grid > div { flex: 1; }
+.contact-form label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--strong);
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+[data-theme="light"] .contact-form input,
+[data-theme="light"] .contact-form textarea,
+[data-theme="light"] .contact-form select {
+  border-color: var(--border);
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(0, 216, 255, 0.2);
+}
+.contact-form textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.checkbox-row input { width: auto; }
+.contact-form button {
+  background: var(--accent-light);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  padding: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  width: 100%;
+}
+.contact-form button:hover { opacity: 0.85; }
+.contact-form button:active { transform: scale(0.98); }
+.fine-print {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+/* Footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+}
+.footer-social a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.footer-spotify {
+  width: auto !important;
+  border-radius: 6px !important;
+  padding: 0 8px;
+}
+.footer-directory {
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+.spotify-badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.spotify-badge-light { display: none; }
+.spotify-badge-dark { display: block; }
+[data-theme="light"] .spotify-badge-light { display: block; }
+[data-theme="light"] .spotify-badge-dark { display: none; }
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+.footer-links a,
+.footer-links button {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.footer-links button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+footer .container { padding: 0 20px; }
+
+/* Consent banner */
+.consent-banner {
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+.consent-banner[hidden] { display: none; }
+.consent-banner h3 {
+  font-size: 1rem;
+  margin-bottom: 0.45rem;
+}
+.consent-banner p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.consent-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Feedback Form */
+.feedback-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--card-bg, var(--surface));
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.feedback-form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 0.25rem;
+}
+.star-rating input { display: none; }
+.star-rating label {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-muted);
+}
+.star-rating label::before { content: "★"; }
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #f5a623;
+}
+.feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  resize: vertical;
+}
+.feedback-form button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.feedback-form button:hover {
+  opacity: 0.9;
+}
+
+/* SNS Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+.share-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.share-x { color: var(--accent); }
+.share-x:hover { background: var(--accent-soft); }
+.share-fb { color: #1877f2; }
+.share-fb:hover { background: rgba(24, 119, 242, 0.1); border-color: #1877f2; }
+
+/* Responsive */
+@media (max-width: 650px) {
+  .col-half { width: 100%; }
+  .form-grid { flex-direction: column; }
+}
+@media (max-width: 600px) {
+  .container { padding: 20px 16px 60px; }
+  header .container { padding: 16px; }
+  .hero-card,
+  .content-card,
+  .notice-card,
+  .card { padding: 20px; }
+  .episode-page .content { padding: 1.25rem; }
+  .header-row { align-items: flex-start; }
+  /* 5 項目を 1 行に収める。さらに狭い端末では横スクロールでなく折り返す */
+  .nav-links { flex-wrap: wrap; gap: 0 4px; margin-top: 8px; }
+  .nav-links a { padding: 8px 6px; font-size: 0.9rem; }
+  .consent-banner { left: 0.75rem; right: 0.75rem; }
+}
+</style>
+<script>
+(function(){
+  var t = localStorage.getItem('theme');
+  if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+})();
+function toggleTheme(){
+  var el = document.documentElement;
+  if (el.getAttribute('data-theme') === 'light') {
+    el.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    el.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  }
+  updateIcon();
+}
+function updateIcon(){
+  var btn = document.getElementById('theme-btn');
+  if (!btn) return;
+  btn.textContent = document.documentElement.getAttribute('data-theme') === 'light' ? '\u263E' : '\u2600';
+}
+document.addEventListener('DOMContentLoaded', updateIcon);
+</script>
+
+<script>
+const PLAUSIBLE_DOMAIN = "";
+const PLAUSIBLE_SCRIPT_SRC = "https://plausible.io/js/script.js";
+const ANALYTICS_CONSENT_KEY = 'site.analyticsConsent';
+
+function loadPlausible() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  if (document.querySelector('script[data-plausible-loader="true"]')) return;
+  var script = document.createElement('script');
+  script.defer = true;
+  script.src = PLAUSIBLE_SCRIPT_SRC;
+  script.setAttribute('data-domain', PLAUSIBLE_DOMAIN);
+  script.setAttribute('data-plausible-loader', 'true');
+  document.head.appendChild(script);
+}
+
+function hideConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = true;
+}
+
+function showConsentBanner() {
+  var banner = document.getElementById('consent-banner');
+  if (banner) banner.hidden = false;
+}
+
+function updateConsentUi() {
+  if (!PLAUSIBLE_DOMAIN) {
+    hideConsentBanner();
+    return;
+  }
+  var consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  if (consent === 'accepted') {
+    loadPlausible();
+    hideConsentBanner();
+  } else if (consent === 'rejected') {
+    hideConsentBanner();
+  } else {
+    showConsentBanner();
+  }
+}
+
+function acceptAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'accepted');
+  updateConsentUi();
+}
+
+function rejectAnalyticsConsent() {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, 'rejected');
+  updateConsentUi();
+}
+
+function openCookieSettings() {
+  if (!PLAUSIBLE_DOMAIN) return;
+  showConsentBanner();
+}
+
+document.addEventListener('DOMContentLoaded', updateConsentUi);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ecf4b0fc59fe4b20b044cf256689fd99"}'></script>
+
+<meta name="description" content="GPT-6が自力でタンパク質設計に成功した">
+<meta property="og:title" content="Tech News Radio — GPT-6モデル、タンパク質設計の固有能力を実証 ほか">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-26/eyecatch.png">
+<meta property="og:url" content="https://technewsradio.tokyo/episodes/2026-11-26/">
+<meta property="og:description" content="GPT-6が自力でタンパク質設計に成功した">
+<meta property="og:site_name" content="Tech News Radio">
+<meta property="article:published_time" content="2026-11-26">
+<link rel="canonical" href="https://technewsradio.tokyo/episodes/2026-11-26/">
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tech News Radio — GPT-6モデル、タンパク質設計の固有能力を実証 ほか",
+    "description": "2026-11-26 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-26",
+    "image": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-26/eyecatch.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://technewsradio.tokyo/episodes/2026-11-26/"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech News Radio",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://technewsradio.tokyo/artwork.jpg"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastEpisode",
+    "name": "Tech News Radio — GPT-6モデル、タンパク質設計の固有能力を実証 ほか",
+    "description": "2026-11-26 配信 — 最新テックニュースを、音声と記事でまとめて配信する日本語メディアです。",
+    "datePublished": "2026-11-26",
+    "url": "https://technewsradio.tokyo/episodes/2026-11-26/",
+    "duration": "PT12M48S",
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": "https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-26/episode_audio.mp3"
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Tech News Radio",
+      "url": "https://technewsradio.tokyo"
+    }
+  }
+]
+</script>
+<noscript><style>.tab-content{display:block !important}</style></noscript>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-row">
+      <div>
+        <h1><a href="../../index.html">Tech News Radio</a></h1>
+        <p>毎朝、ビジネスパーソンや開発者向けの最新のテックニュースをまとめてお届けします。</p>
+      </div>
+      <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="表示テーマ切り替え"></button>
+    </div>
+    <nav class="nav-links">
+      <a href="../../index.html">Episodes</a>
+      <a href="../../lab/index.html">Lab</a>
+      <a href="../../about.html">About</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../podcast_feed.xml">RSS Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container episode-page">
+  <img class="cover" src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-26/eyecatch.png" alt="Cover Art">
+  <audio controls preload="metadata"><source src="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-26/episode_audio.mp3" type="audio/mpeg"></audio>
+  <div class="listen-on">
+    <span class="listen-on-label">🎧 毎朝の配信をフォロー:</span>
+    <a class="listen-btn" href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener">Spotify で聴く</a>
+    <a class="listen-btn" href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener">Amazon Music で聴く</a>
+  </div>
+
+  <section id="episode-notice" class="notice-card"><h3>このエピソードについて</h3>
+<ul>
+<li>本ページは公開情報をもとにした要約を含みます。</li>
+<li>テキストと音声にはAI生成を含み、正確性や最新性は保証しません。</li>
+<li>紹介している記事やサービス名等の権利は各権利者に帰属します。</li>
+<li>内容に問題がある場合は <a href="../../contact.html">お問い合わせページ</a> からご連絡ください。</li>
+</ul></section>
+
+  <div class="tabs">
+    <button class="tab-btn active" onclick="switchTab('blog')">Blog</button>
+    <button class="tab-btn" onclick="switchTab('notes')">Show Notes</button>
+  </div>
+
+  <div id="tab-blog" class="content tab-content active"><h1>🎧 Tech News Radio — 2026-11-26</h1>
+<p><em>📖 約15分で読めます ｜ 🏷️ AI, LLM, Science, Cloud, Security</em></p>
+<hr />
+<h2>📌 今日のハイライト</h2>
+<ul>
+<li>🤖 <strong>GPT-6モデル、タンパク質設計の固有能力を実証</strong> — GPT-6が自力でタンパク質設計に成功</li>
+<li>🤖 <strong>Amazon Bedrock、Claudeモデル向けにエンタープライズ向けフロンティア・セーフガードとデータ制御を備えた「Trusted Access API」を提供開始</strong> — BedrockにAI提供元の特別プログラム用APIが登場</li>
+<li>🤖 <strong>FCC、スペースXの宇宙AIデータセンター計画を承認</strong> — FCCがSpaceXの宇宙データセンター計画を承認</li>
+<li>🤖 <strong>AIが理論物理学者のあり方を近く一変させるかもしれない</strong> — 最先端AIが物理学者の仕事を変え始めた</li>
+<li>🤖 <strong>アストラで遠方の惑星を探す</strong> — アマチュア天文家がAIで系外惑星を探索</li>
+<li>🤖 <strong>米国の半導体輸出規制と蒸留対策、中国のAI研究機関の開発に早くも影響か</strong> — 米規制が中国AI企業の開発を減速させている</li>
+</ul>
+<hr />
+<h2>🤖 GPT-6モデル、タンパク質設計の固有能力を実証</h2>
+<p><code>AI</code> <code>LLM</code> <code>Science</code></p>
+<details><summary>📄 原題: GPT-6 models demonstrate intrinsic protein-design capabilities</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: GPT-6が自力でタンパク質設計に成功</p>
+</blockquote>
+<ul>
+<li>GPT-6系モデルがタンパク質の構造と配列を設計</li>
+<li>推論とコード生成を組み合わせて設計を実行</li>
+<li>実験室での検証で、5つの標的への結合の証拠を確認</li>
+<li>専用モデルでなく汎用LLMが持つ能力として報告</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+タンパク質設計は、創薬や酵素開発の土台となる分野です。これまでは専用に作られたAIモデルが中心でした。今回は汎用の言語モデルが、推論とコードを使って設計まで進めたと伝えられています。しかも設計結果が実験室で検証され、5つの標的で結合の証拠が見つかったそうです。机上の話にとどまらず、実際の実験で裏付けが取れた点が重要です。AIが科学研究の現場で実務に使える段階に近づいていることを示す事例と見られています。 汎用AIが生命科学の設計作業を担えるなら、創薬や素材開発のスピードが大きく変わる可能性があります。専門ツールを組み合わせてきた研究開発の流れが、汎用モデルを中心に組み替わるかもしれません。一方で、タンパク質設計は悪用された場合の危険も指摘される分野です。高い能力を持つモデルをどう公開し、どう管理するかという議論も、IT業界や規制の場で一段と重みを増すと見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、汎用LLMの推論とコード実行を組み合わせた科学計算のワークフローを、小さな範囲で試しておくとよいでしょう。リーダーは、生命科学や素材分野でAIを使う場合の検証体制を考えておく必要があります。AIの出力を実験で確かめる工程と、安全面のルール作りを、早めに計画へ組み込むことをおすすめします。今回の報告は、実験データの詳細を一次情報で確認してから評価すると安心です。</p>
+<p>🔗 <a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities">原文を読む</a></p>
+<hr />
+<h2>🤖 Amazon Bedrock、Claudeモデル向けにエンタープライズ向けフロンティア・セーフガードとデータ制御を備えた「Trusted Access API」を提供開始</h2>
+<p><code>AI</code> <code>Cloud</code> <code>Security</code></p>
+<details><summary>📄 原題: Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: BedrockにAI提供元の特別プログラム用APIが登場</p>
+</blockquote>
+<ul>
+<li>Amazon Bedrockに「Trusted Access API」が登場（パブリックプレビュー）</li>
+<li>モデル提供元のプログラムを探して申請、登録する窓口を一本化</li>
+<li>第1弾はAnthropicの「Enterprise Frontier Safeguards（EFS）」</li>
+<li>もう一つは「Enterprise Data Controls（EDC）」</li>
+<li>Claudeモデルの利用時に、自社データを管理しやすくなる</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+企業が生成AIを本番業務で使う際、データの扱いは最大の関門の一つです。入力した情報がどう保存され、どう使われるのかを説明できなければ、社内の承認は通りません。これまで提供元ごとの特別プログラムは、申し込みの手順や窓口がばらばらだったと見られます。BedrockがAPIで入口をまとめたことは、手続きの負担を減らす動きと言えます。今回の第1弾が、データ管理と安全対策に関わるプログラムである点も注目できます。 モデル提供元がAPI経由で特別なプログラムを配る形が広がれば、企業向けAIの調達の進め方が変わりそうです。高度な機能や厳格なデータ管理を、申請と登録で段階的に使う形が標準になる可能性があります。クラウド側から見ると、プラットフォームが信頼や審査の窓口を担う流れが強まるでしょう。一方で、どの提供元がどんなプログラムを出すかで、利用できるモデルや条件に差が出る展開も考えられます。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず自社のAI利用で、データ管理に関する要件を整理しましょう。Claudeモデルを使っている、または検討しているなら、EFSとEDCの内容を公式ドキュメントで確認してください。パブリックプレビューなので、本番導入の前に検証環境で試し、仕様変更に備えることが大切です。情報システム部門や法務、セキュリティ担当とも早めに共有すると、社内審査がスムーズに進みます。</p>
+<p>🔗 <a href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/">原文を読む</a></p>
+<hr />
+<h2>🤖 FCC、スペースXの宇宙AIデータセンター計画を承認</h2>
+<p><code>AI</code> <code>Hardware</code> <code>Business</code></p>
+<details><summary>📄 原題: FCC approves SpaceX plan to put AI data centers in space</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: FCCがSpaceXの宇宙データセンター計画を承認</p>
+</blockquote>
+<ul>
+<li>FCC（米連邦通信委員会）がSpaceXの宇宙AIデータセンター計画を承認</li>
+<li>反対派が挙げた懸念の一部をFCCは退けた</li>
+<li>科学研究への悪影響などは、FCCの規制権限の外と判断</li>
+<li>宇宙空間にAI計算基盤を置く構想が、規制面で一歩前進</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+生成AIの普及で、データセンターの電力消費や用地確保が世界的な課題になっています。そこで注目されているのが、宇宙にAI向けの計算設備を置く構想です。今回の承認は、その構想が実現に向けて動き出したことを示します。一方で、FCCは科学研究への影響などの懸念を「自らの規制権限の外」として扱ったそうです。つまり、承認されたことと、懸念が解消されたことは別の話です。天文観測など、宇宙環境を使う分野への影響をどこが審査するのかという、制度上の空白も見えてきます。 宇宙空間が、AIインフラの新しい置き場所の候補になるかもしれません。地上のデータセンターが抱える電力や用地の制約に対し、別の選択肢が生まれる可能性があります。ただし、実際の性能やコスト、運用のしやすさは今後の実証次第です。また、科学研究への影響をどこで審査するのかという論点は残ったままです。宇宙利用のルール作りは、今後の業界全体のテーマになると見られています。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まずは、宇宙データセンターを「すぐ使える選択肢」ではなく「中長期の動向」として追うのが現実的です。インフラ担当のエンジニアやリーダーは、次の3点を確認しておくとよいでしょう。<br />
+・SpaceXの今後の発表や技術情報<br />
+・規制や国際的なルールの動き<br />
+・自社のAIワークロード（処理の負荷）の電力・コスト構造<br />
+構想が現実になったときに比較できるよう、今の地上インフラの前提を整理しておくことをおすすめします。</p>
+<p>🔗 <a href="https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/">原文を読む</a></p>
+<p>🔗 <a href="https://www.bloomberg.com/news/articles/2026-11-25/spacex-receives-government-approval-to-launch-space-data-centers">原文を読む</a></p>
+<hr />
+<h2>🤖 AIが理論物理学者のあり方を近く一変させるかもしれない</h2>
+<p><code>AI</code> <code>Science</code></p>
+<details><summary>📄 原題: AI may soon change what it means to be a theoretical physicist</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 最先端AIが物理学者の仕事を変え始めた</p>
+</blockquote>
+<ul>
+<li>最先端のAIが、一流の物理学者でも丸一日かかる問題を解き始めた</li>
+<li>理論物理学者の役割そのものが変わる可能性がある</li>
+<li>解く作業から、問いを立てて検証する作業へ重心が移ると見られる</li>
+<li>AIの能力向上が科学研究の現場に及び始めている</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+理論物理学は、高度な数学と抽象的な推論が求められる分野です。長く人間の知性の砦と見なされてきました。その分野でAIが、一流の研究者が丸一日かける問題を解き始めたそうです。これは、AIが文章生成やコード補助にとどまらず、専門的な科学研究にも入り込み始めたことを示しています。研究の進め方や、研究者に求められる能力を考え直すきっかけになる動きです。 科学研究の生産性が大きく上がる可能性があります。計算や導出といった作業をAIに任せれば、研究者は問いの設定や結果の解釈に時間を使えるようになります。一方で、若手研究者の育て方や、AIの出した結果をどう検証するかという課題も出てくると見られます。この流れは物理学だけでなく、数学、化学、材料科学など他の分野にも広がるでしょう。ソフトウェア開発でも、専門職の仕事が「手を動かすこと」から「方向を決めて確かめること」へ移る流れが、さらに強まりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+まず、自分の分野でAIがどこまで解けるのかを、実際の業務に近い課題で試してみてください。次に、AIの出力を検証する力を磨くことが大切です。結果の正しさを自分で確かめられなければ、AIを安心して使えません。リーダーは、定型的な作業をAIに任せたうえで、人が担うべき判断や問いの設定を明確にし、チームの役割分担を見直しましょう。</p>
+<p>🔗 <a href="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/">原文を読む</a></p>
+<hr />
+<h2>🤖 アストラで遠方の惑星を探す</h2>
+<p><code>AI</code> <code>Science</code> <code>Data</code></p>
+<details><summary>📄 原題: Searching for distant planets with Astra</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: アマチュア天文家がAIで系外惑星を探索</p>
+</blockquote>
+<ul>
+<li>アマチュア天文家2人が、CodexとAstraを活用</li>
+<li>NASAのKepler、TESSの公開データが対象</li>
+<li>系外惑星（太陽系外の惑星）の候補を探索</li>
+<li>専門機関に属さない個人でも宇宙研究に参加できる事例</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+KeplerやTESSは、恒星の明るさの変化を長期間記録した宇宙望遠鏡です。そのデータはNASAによって公開されていますが、量が膨大で、読み解くには専門的な知識とプログラミングの技術が欠かせません。AIコーディング支援ツールが使えるようになったことで、この壁が下がり始めたと見られています。今回の事例は、AIが専門知識の差を埋める役割を担いうることを示しています。 公開データとAIを組み合わせれば、研究機関に所属しない個人でも、本格的な分析に挑戦できるようになります。科学分野では、市民科学（一般の人が参加する研究）の広がりが期待されます。IT業界から見ると、AIが開発者以外の人にも「実際に使える道具」として広まる流れを示す一例といえます。オープンデータの価値も、あらためて高まりそうです。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+エンジニアは、NASAなどの公開データを題材に、AIコーディングツールを使った分析を試してみるとよいでしょう。ドメイン知識（専門分野の知識）を持つ人と組めば、短い時間で成果を出しやすくなります。リーダーは、AIを使った探索的な分析をチームの学習テーマに取り入れ、社内データの活用にもつなげることをおすすめします。</p>
+<p>🔗 <a href="https://openai.com/index/searching-for-distant-planets-with-astra">原文を読む</a></p>
+<hr />
+<h2>🤖 米国の半導体輸出規制と蒸留対策、中国のAI研究機関の開発に早くも影響か</h2>
+<p><code>AI</code> <code>Hardware</code> <code>Business</code></p>
+<details><summary>📄 原題: US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs</summary></details>
+<blockquote>
+<p><strong>一言で</strong>: 米規制が中国AI企業の開発を減速させている</p>
+</blockquote>
+<ul>
+<li>チップ規制と蒸留対策で、中国のAI研究所に圧力</li>
+<li>圧力を受けるのはDeepseek、Moonshot AI、Alibaba</li>
+<li>海外でのNvidia製ハードウェアの入手も細っている</li>
+<li>Deepseekの研究者は米国勢に最大9か月遅れと内部で推定</li>
+<li>その差は今後さらに広がると見られている</li>
+</ul>
+<p>💡 <strong>なぜ重要か</strong><br />
+AIモデルの性能向上には、大量のGPUなど高性能な計算資源が欠かせません。米国は中国向けの先端チップ輸出を制限しており、その影響が出始めていると報じられています。蒸留（大きなモデルの出力を使って別のモデルを学習させる手法）への対策も加わり、米国モデルに頼った追い上げが難しくなっているようです。AI開発が国家間の技術競争の中心になっていることを示す動きです。 計算資源へのアクセス差が、AI開発力の差に直結する状況が強まりそうです。中国勢が少ない計算資源で成果を出す効率化の研究に力を入れる可能性があります。一方で、米国勢との性能差が広がれば、各国のAI市場やオープンなモデルの勢力図にも影響します。日本企業にとっても、どの国のモデルや半導体に依存するかが、調達や経営判断の重要な論点になります。</p>
+<p>🎯 <strong>今日のアクション</strong><br />
+利用中のAIモデルやGPUの調達先を洗い出し、特定の国や企業に依存しすぎていないか確認しましょう。輸出規制や供給の変化に備え、複数のモデルを切り替えられる設計にしておくと安心です。あわせて、少ない計算資源で動かせる小型モデルや推論の効率化にも注目しておくとよいでしょう。</p>
+<p>🔗 <a href="https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/">原文を読む</a></p>
+<hr />
+<h2>📝 まとめ</h2>
+<p>これら3つのニュースに通底しているのは、AIが「モデルの性能競争」の段階を越え、現実世界のインフラや規制、専門領域へと深く組み込まれ始めているという流れです。GPT-6によるタンパク質設計の成功は、汎用モデルが科学研究のような高度に専門的な領域で自律的に成果を出し得ることを示しており、AIの能力が特化型ツールの枠を超えて拡張していることを物語っています。一方で、Amazon BedrockのTrusted Access APIが示すように、能力が高まるほど企業側にはセーフガードやデータ管理への要求が強まり、強力なモデルを安全かつ統制された形で提供する仕組みづくりが事業上の競争軸になりつつあります。さらにFCCによる宇宙データセンター計画の承認は、AIの膨大な計算需要が電力や設置場所といった物理的制約に突き当たり、宇宙にまで計算基盤を求める段階に入ったことを意味します。総じて、能力の飛躍、信頼性とガバナンスの確立、そしてそれを支える物理基盤の拡張が同時並行で進んでおり、AI産業は技術・制度・インフラの三位一体で成熟へ向かっていると言えるでしょう。</p>
+<hr />
+<h2>🎯 今日の実務アクション 3 選</h2>
+<ol>
+<li><strong>GPT-6モデル、タンパク質設計の固有能力を実証</strong>: エンジニアは、汎用LLMの推論とコード実行を組み合わせた科学計算のワークフローを、小さな範囲で試しておくとよいでしょう。リーダーは、生命科学や素材分野でAIを使う場合の検証体制を考えておく必要があります。AIの出力を実験で確かめる工程と、安全面のルール作りを、早めに計画へ組み込むことをおすすめします。今回の報告は、実験データの詳細を一次情報で確認してから評価すると安心です。</li>
+<li><strong>Amazon Bedrock、Claudeモデル向けにエンタープライズ向けフロンティア・セーフガードとデータ制御を備えた「Trusted Access API」を提供開始</strong>: まず自社のAI利用で、データ管理に関する要件を整理しましょう。Claudeモデルを使っている、または検討しているなら、EFSとEDCの内容を公式ドキュメントで確認してください。パブリックプレビューなので、本番導入の前に検証環境で試し、仕様変更に備えることが大切です。情報システム部門や法務、セキュリティ担当とも早めに共有すると、社内審査がスムーズに進みます。</li>
+<li><strong>FCC、スペースXの宇宙AIデータセンター計画を承認</strong>: まずは、宇宙データセンターを「すぐ使える選択肢」ではなく「中長期の動向」として追うのが現実的です。インフラ担当のエンジニアやリーダーは、次の3点を確認しておくとよいでしょう。<br />
+・SpaceXの今後の発表や技術情報<br />
+・規制や国際的なルールの動き<br />
+・自社のAIワークロード（処理の負荷）の電力・コスト構造<br />
+構想が現実になったときに比較できるよう、今の地上インフラの前提を整理しておくことをおすすめします。</li>
+</ol>
+<hr />
+<h2>🔗 出典一覧</h2>
+<ul>
+<li><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities">GPT-6モデル、タンパク質設計の固有能力を実証</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/">Amazon Bedrock、Claudeモデル向けにエンタープライズ向けフロンティア・セーフガードとデータ制御を備えた「Trusted Access API」を提供開始</a></li>
+<li><a href="https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/">FCC、スペースXの宇宙AIデータセンター計画を承認</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-11-25/spacex-receives-government-approval-to-launch-space-data-centers">FCC、スペースXの宇宙AIデータセンター計画を承認</a></li>
+<li><a href="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/">AIが理論物理学者のあり方を近く一変させるかもしれない</a></li>
+<li><a href="https://openai.com/index/searching-for-distant-planets-with-astra">アストラで遠方の惑星を探す</a></li>
+<li><a href="https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/">米国の半導体輸出規制と蒸留対策、中国のAI研究機関の開発に早くも影響か</a></li>
+</ul></div>
+  <div id="tab-notes" class="content tab-content"><h1>Tech News Radio Show Notes - #238 (2026-11-26)</h1>
+<h2>エピソード情報</h2>
+<ul>
+<li><strong>エピソード</strong>: #238</li>
+<li><strong>日付</strong>: 2026-11-26</li>
+<li><strong>尺</strong>: 約 12 分</li>
+</ul>
+<h2>免責事項</h2>
+<p>当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。</p>
+<h2>出典リンク一覧</h2>
+<h3>本日のトップニュース</h3>
+<ul>
+<li><a href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities">GPT-6 models demonstrate intrinsic protein-design capabilities</a></li>
+<li><a href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/">Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models</a></li>
+<li><a href="https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/">FCC approves SpaceX plan to put AI data centers in space</a></li>
+<li><a href="https://www.bloomberg.com/news/articles/2026-11-25/spacex-receives-government-approval-to-launch-space-data-centers">FCC approves SpaceX plan to put AI data centers in space</a></li>
+</ul>
+<h3>注目の深掘り</h3>
+<ul>
+<li><a href="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/">AI may soon change what it means to be a theoretical physicist</a></li>
+</ul>
+<h3>小ネタ・その他</h3>
+<ul>
+<li><a href="https://openai.com/index/searching-for-distant-planets-with-astra">Searching for distant planets with Astra</a></li>
+<li><a href="https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/">US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs</a></li>
+</ul></div>
+
+  
+<div class="share-buttons">
+  <a href="https://twitter.com/intent/tweet?text=GPT-6%E3%83%A2%E3%83%87%E3%83%AB%E3%80%81%E3%82%BF%E3%83%B3%E3%83%91%E3%82%AF%E8%B3%AA%E8%A8%AD%E8%A8%88%E3%81%AE%E5%9B%BA%E6%9C%89%E8%83%BD%E5%8A%9B%E3%82%92%E5%AE%9F%E8%A8%BC%20%E3%81%BB%E3%81%8B%20%7C%20Tech%20News%20Radio%20%23%E3%83%86%E3%83%83%E3%82%AF%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%20%23TechNewsRadio&url=https%3A//technewsradio.tokyo/episodes/2026-11-26/index.html"
+     target="_blank" rel="noopener" class="share-btn share-x">Xでシェア</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//technewsradio.tokyo/episodes/2026-11-26/index.html"
+     target="_blank" rel="noopener" class="share-btn share-fb">Facebookでシェア</a>
+</div>
+
+  
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-social">
+      <a href="https://x.com/technewsradiojp" target="_blank" rel="noopener" title="X (Twitter)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      <a href="https://open.spotify.com/show/02PxTRoOTfhNUHlTBrfUwJ" target="_blank" rel="noopener" title="Spotify" class="footer-spotify">
+        <img src="../../badge/spotify-podcast-badge-blk-grn-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-dark">
+        <img src="../../badge/spotify-podcast-badge-wht-blk-660x160.png" alt="Listen on Spotify" class="spotify-badge spotify-badge-light">
+      </a>
+      <a href="https://music.amazon.co.jp/podcasts/12144a79-fe9b-4466-a7ee-1798f3c20eba" target="_blank" rel="noopener" title="Amazon Music" class="footer-spotify footer-directory">Amazon Music</a>
+      <a href="../../podcast_feed.xml" title="RSS Feed">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-8.18v4.819c12.951.115 23.357 10.71 23.497 23.625h4.503c-.145-15.758-12.998-28.494-28-28.444z"/></svg>
+      </a>
+    </div>
+    <div class="footer-links">
+      <a href="../../about.html">About</a>
+      <a href="../../policy.html">ポリシー</a>
+      <a href="../../privacy.html">プライバシーポリシー</a>
+      <a href="../../contact.html">お問い合わせ</a>
+      <button type="button" onclick="openCookieSettings()">Cookie設定</button>
+    </div>
+    <p>本サイトのテキストと音声にはAI生成コンテンツを含みます。最終確認は各話の出典リンクから原文をご確認ください。</p>
+    <p>&copy; 2026 Studio Machikita</p>
+  </div>
+</footer>
+
+
+
+<script>
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  if (tab === 'blog') {
+    document.querySelectorAll('.tab-btn')[0].classList.add('active');
+    document.getElementById('tab-blog').classList.add('active');
+  } else {
+    document.querySelectorAll('.tab-btn')[1].classList.add('active');
+    document.getElementById('tab-notes').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>

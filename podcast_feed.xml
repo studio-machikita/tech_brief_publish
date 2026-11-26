@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#238 GPT-6モデル、タンパク質設計の固有能力を実証 ほか</title>
+      <description>Tech News Radio Show Notes - #238 (2026-11-26)
+
+エピソード情報
+• エピソード: #238
+• 日付: 2026-11-26
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• GPT-6 models demonstrate intrinsic protein-design capabilities (https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)
+• Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models (https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/)
+• FCC approves SpaceX plan to put AI data centers in space (https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/)
+• FCC approves SpaceX plan to put AI data centers in space (https://www.bloomberg.com/news/articles/2026-11-25/spacex-receives-government-approval-to-launch-space-data-centers)
+
+注目の深掘り
+• AI may soon change what it means to be a theoretical physicist (https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/)
+
+小ネタ・その他
+• Searching for distant planets with Astra (https://openai.com/index/searching-for-distant-planets-with-astra)
+• US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs (https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-26/episode_audio.mp3" length="12296492" type="audio/mpeg" />
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-26</guid>
+      <itunes:duration>12:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>GPT-6モデル、タンパク質設計の固有能力を実証 ほか</itunes:title>
+      <itunes:episode>238</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #238 (2026-11-26)
+
+エピソード情報
+• エピソード: #238
+• 日付: 2026-11-26
+• 尺: 約 12 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• GPT-6 models demonstrate intrinsic protein-design capabilities (https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities)
+• Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models (https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/)
+• FCC approves SpaceX plan to put AI data centers in space (https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/)
+• FCC approves SpaceX plan to put AI data centers in space (https://www.bloomberg.com/news/articles/2026-11-25/spacex-receives-government-approval-to-launch-space-data-centers)
+
+注目の深掘り
+• AI may soon change what it means to be a theoretical physicist (https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/)
+
+小ネタ・その他
+• Searching for distant planets with Astra (https://openai.com/index/searching-for-distant-planets-with-astra)
+• US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs (https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-26/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:21.880" title="GPT-6 models demonstrate intrinsic protein-design capabilities" href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities" />
+        <psc:chapter start="00:01:57.450" title="Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models" href="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/" />
+        <psc:chapter start="00:03:50.280" title="FCC approves SpaceX plan to put AI data centers in space" href="https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/" />
+        <psc:chapter start="00:05:48.480" title="AI may soon change what it means to be a theoretical physicist" href="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/" />
+        <psc:chapter start="00:08:11.810" title="Searching for distant planets with Astra" href="https://openai.com/index/searching-for-distant-planets-with-astra" />
+        <psc:chapter start="00:10:19.880" title="US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs" href="https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/" />
+        <psc:chapter start="00:12:18.290" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#237 Anthropic、MCP SDKの月間ダウンロード数が7億件を突破、より自律的なAIエージェント向けにプロトコルを拡張 ほか</title>
       <description>Tech News Radio Show Notes - #237 (2026-11-25)
 
