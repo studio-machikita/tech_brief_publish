@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-27",
+  "episode_date_local": "2026-11-27",
+  "content_snapshot_date": "2026-11-27",
+  "show_length_sec": 731,
+  "audio_size": 11705516,
+  "generated_at": "2026-11-27T02:51:37.397613+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-3c3267ca",
+      "title": "AI’s Power Crunch Is Reviving a Long-Stalled Energy Source",
+      "title_ja": "AIの電力不足が、長く停滞していたエネルギー源を復活させている",
+      "one_liner": "AIの電力不足が地熱発電を後押し",
+      "fingerprint": "3c3267ca65541d6d985ac266fa01bebb",
+      "score": 77,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Information"
+      ]
+    },
+    {
+      "item_id": "item-b95478f9",
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+      "title_ja": "Amazon SageMaker HyperPod Slurmで、オブザーバビリティとユーザー管理のためのマネージドクラスター拡張機能が利用可能に",
+      "one_liner": "HyperPod Slurmで監視とユーザー管理を宣言的に設定",
+      "fingerprint": "b95478f9ad9d1bbefac0df0c2e898b81",
+      "score": 75,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning",
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-5155d246",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "title_ja": "自律エージェントシステムにおける既約ガバナンス構造:公平な配分、耐戦略性、多段階スケールの合成",
+      "one_liner": "AIの統治は「誰が動くか」の配分から始まる",
+      "fingerprint": "5155d246c1dc53828be9d365f97ae91b",
+      "score": 70,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-1f82e5de",
+      "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+      "title_ja": "元OpenAI研究者「リーマン予想の証明そのものより、AIがそれを生み出せた事実のほうが重要」",
+      "one_liner": "AIの数学的成果は学術を超えて波及する",
+      "fingerprint": "1f82e5de9f21a7e0defd0b21cdcc42f3",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder"
+      ]
+    },
+    {
+      "item_id": "item-6f83aba2",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "title_ja": "エヌビディア、東南アジア向け半導体の出荷を一時停止",
+      "one_liner": "NvidiaがAIサーバーの東南アジア出荷を一時停止",
+      "fingerprint": "6f83aba2135054e2e096c5782e8f14a1",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "item_id": "item-acc258c9",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "title_ja": "iFood、1万5,000のリポジトリにコーディングエージェントを展開する方法",
+      "one_liner": "iFood、1.5万リポジトリでAI開発を展開",
+      "fingerprint": "acc258c9f449aebfccbbda7c97becee1",
+      "score": 60,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-80eb7ce4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Meta ads is now available in AWS Quick"
+    },
+    {
+      "item_id": "item-599a9aeb",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How to choose the next safe step in application modernization"
+    },
+    {
+      "item_id": "item-1359bde0",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "October 04, 2026"
+    },
+    {
+      "item_id": "item-5acb7b2d",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead"
+    },
+    {
+      "item_id": "item-d7babad6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments"
+    },
+    {
+      "item_id": "item-0480d8e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Intentful uses dots to make more time for growth"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-bd852571",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Etsy clarifies AI terms after seller backlash"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-abde8824",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council"
+    },
+    {
+      "item_id": "item-a272e505",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How I Built a Fast Bilingual Portfolio Site (and What I Learned About Speed and SEO)"
+    },
+    {
+      "item_id": "item-241fe6e6",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Novita, StreamLake, etc are Ark wrappers"
+    },
+    {
+      "item_id": "item-97edd34c",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Hard Drive pricing has gotten bad."
+    },
+    {
+      "item_id": "item-cf98a89e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safeguards"
+    },
+    {
+      "item_id": "item-a4123782",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review billing will default to the organization"
+    },
+    {
+      "item_id": "item-0bfecdfc",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "China’s Industrial Profits Jump at Fastest Pace in Five Months"
+    },
+    {
+      "item_id": "item-75f9d104",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is Alice Huang a spy or not?"
+    },
+    {
+      "item_id": "item-77d9b077",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026"
+    }
+  ],
+  "score_cache": {
+    "97edd34cc87bd2ab42c5ebdd494ea2f2": {
+      "score": 32,
+      "title": "Hard Drive pricing has gotten bad.",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] ハードドライブ価格の上昇は、データセンターやクラウド事業者のストレージコスト、バックアップ設計、ログ保持期間などに影響し得ます。ただし、記事タイトルだけでは原因や規模、技術的な新展開が不明で、アーキテクチャやソフトウェア技術の革新とは直接結び付きません。業界コストへの影響はあるものの、具体性とニュース性が不足しているため低めの評価です。"
+    },
+    "0480d8e43aaa68b064bd405c98290c5e": {
+      "score": 44,
+      "title": "How Intentful uses dots to make more time for growth",
+      "date": "2026-11-25",
+      "reason": "[ScoreCache 2026-11-25] [Claude API Evaluation] ウェブ調査や提案書作成、メッセージの監視・問題解決を自律的に行うAIエージェントの実用例であり、業務自動化という点では技術的な注目度があります。一方で、記事からは基盤技術の革新性や大規模な影響範囲、導入効果の具体性が十分に確認できず、既出のAI・エージェント関連トピックとも重なるため20点減点しました。"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 42,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] AIモデルの知識を不正に抽出・模倣する蒸留攻撃への防御強化は、モデル提供者の運用やAPI設計、監視・レート制限などに影響する実務的なテーマです。一方で、業界の前提を変える新モデルや画期的な技術発表ではなく、セキュリティ対策寄りの内容です。また、既に扱われたAI・モデル関連トピックと近い可能性があるため、重複分を減点しています。 [Editorial:"
+    },
+    "80eb7ce40a6c824eddbbed392c3b8ce2": {
+      "score": 49,
+      "title": "Meta ads is now available in AWS Quick",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] AWS QuickからMeta広告を自然言語で操作・分析でき、広告データと社内外のデータを統合してダッシュボードや資料、ワークフローを生成できる点は、業務自動化とデータ活用の実装例として有用です。一方で、基盤モデルや新しいアーキテクチャ自体の発明ではなく、既存のクラウドBI・AIコネクタをMeta広告向けに拡張した統合機能に留まります。また、AWS、"
+    },
+    "599a9aebc8ff73ed0147e7b3794fddbf": {
+      "score": 48,
+      "title": "How to choose the next safe step in application modernization",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] レガシーアプリケーションの評価、影響範囲を限定したモダナイゼーション手順、再利用可能な実践方法を扱っており、開発現場には有用です。一方で、業界の前提を変える新技術や具体的なアーキテクチャ発表ではなく、主に手法・ガイダンスの記事です。また、GitHub Copilotエージェントの活用が中心に含まれており、既出キーワードと同じ角度の話題として減点しまし"
+    },
+    "a4123782c64aa97dc6b6a600cdf1176e": {
+      "score": 21,
+      "title": "Copilot code review billing will default to the organization",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] Copilot code reviewの料金請求先が、設定未選択の場合に個人ではなく組織へ自動的に切り替わるという、GitHub利用企業に関係する運用・課金ポリシーの変更です。技術革新や開発者体験の大幅な向上ではなく、影響範囲も請求設定と予算管理に限定されます。既に取り上げ済みのCopilot関連トピックと同一角度の続報ではないため、重複キーワードに"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 38,
+      "title": "September 28, 2026",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] Agent Platform Workbenchの更新を含むものの、中心内容はカスタムコンテナイメージのCritical/High脆弱性に対する一括パッチであり、新機能や技術革新ではありません。Colab Enterpriseのデフォルトランタイムテンプレート設定も運用効率を高める小規模なクラウド機能追加に留まります。既出キーワードの「agents」"
+    },
+    "6f83aba2135054e2e096c5782e8f14a1": {
+      "score": 60,
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] AIチップの輸出規制強化により、東南アジア向けのサーバー供給やデータセンター構築、GPU調達計画に影響し得る重要なサプライチェーンニュースです。AIインフラ運用やクラウド事業者にとって実務的な影響は大きい一方、技術革新そのものではなく、地政学・規制に起因する供給制約が中心です。既出キーワードのAIやAmazonなどと関連する可能性はありますが、今回は"
+    },
+    "1f82e5de9f21a7e0defd0b21cdcc42f3": {
+      "score": 66,
+      "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] AIシステムが高度な数学的成果を生成できることの意味を、研究・経済・暗号・安全保障まで広げて論じる記事で、技術的インパクトは大きいです。一方で、具体的なモデル、検証済みの証明手法、再現性などの詳細な新発表ではなく、専門家による将来予測と警告が中心です。また、既報のAI関連トピックと同じ大枠に属するため、重複分を考慮して減点しています。 [Editor"
+    },
+    "bd8525711a3aede4d8f9ae4244e0b39a": {
+      "score": 41,
+      "title": "Etsy clarifies AI terms after seller backlash",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] EtsyのAI利用規約をめぐる売り手の反発と、説明文の修正に関する続報であり、生成AIの運用方針やプラットフォームガバナンスの観点では一定の示唆があります。ただし、技術的な新発明や実装、アーキテクチャの進化ではなく、主題は規約・コミュニケーション・クリエイター対応です。AI関連ではあるものの、既報キーワードと近い話題で、業界全体の前提を変えるほどの具"
+    },
+    "77d9b077a7814c8eb193b4a8b677558a": {
+      "score": 6,
+      "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] 2026年のブラックフライデー向け一般消費者セール情報であり、ソフトウェア技術、AI、クラウド、アーキテクチャなどエンジニアリング領域への直接的な影響や新規性がありません。"
+    },
+    "0bfecdfc96aaca13934d17044630f497": {
+      "score": 10,
+      "title": "China’s Industrial Profits Jump at Fastest Pace in Five Months",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] 中国の産業企業利益が5カ月ぶりの高い伸びを示したというマクロ経済ニュースで、AI製品需要への言及はあるものの、技術そのものの革新や具体的な製品・アーキテクチャの発表ではありません。エンジニアへの直接的な影響は限定的で、一般消費者向けガジェットに近い重要度の低い話題として評価しました。"
+    },
+    "3c3267ca65541d6d985ac266fa01bebb": {
+      "score": 77,
+      "title": "AI’s Power Crunch Is Reviving a Long-Stalled Energy Source",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] AIデータセンターの電力需要が、核融合や地熱といった従来は実用化が遠いと見られていたエネルギー技術への大規模投資を促している点で、業界への波及効果が大きい記事です。Googleによる5億ドル規模の地熱電力契約や、深部掘削による50MW確保という具体性もあります。ソフトウェア技術そのものの革新ではなく、実証・商用化には技術的およびインフラ上の不確実性が"
+    },
+    "5155d246c1dc53828be9d365f97ae91b": {
+      "score": 70,
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Comp",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] 自律エージェント・マルチエージェントシステムにおいて、実行の正しさではなく「どのエージェントに行動権限を配分するか」をガバナンスの中核として扱い、資源制約下での公平性、戦略耐性、階層的な構成可能性を論じる研究です。将来のAIエージェント基盤やオーケストレーション設計に関わる理論的な重要性は高く、agents関連の既出テーマにも該当しますが、単なる製品"
+    },
+    "d7babad6381b39268ee906920edbae7d": {
+      "score": 45,
+      "title": "Attributing Agentic Failure in Reasoning Vision-Language Models with Interactive 2D Environments",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] エージェント型の視覚言語モデルが環境を誤認したのか、操作手順を理解できなかったのか、実行順序を誤ったのか、失敗から復帰できなかったのかを切り分ける評価基盤であり、モデル改善やデバッグに直結する点は技術的に重要です。一方で、既存のエージェント／モデル関連トピックと領域が重なり、現時点では初期プレビューの研究発表で、業界全体の前提を変える実用化や大規模導"
+    },
+    "abde8824c751e9f3c2583b584303c47d": {
+      "score": 36,
+      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] ドイツ連邦参議院（Bundesrat）の1949年以降1,067回分の本会議を収録し、発言者情報を付与した政治談話コーパスは、NLP研究や政治学の再現可能な分析基盤として一定の価値があります。特に長期時系列の議論分析、話者属性に基づくモデル評価、ドイツ語LLMの学習・ベンチマークに活用できる点は技術的に有用です。一方、主題は新しいモデルやアーキテクチ"
+    },
+    "a272e50558b7675d55bf003f15eb8c38": {
+      "score": 36,
+      "title": "How I Built a Fast Bilingual Portfolio Site (and What I Learned About Speed and SEO)",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] 静的HTML/CSS/JavaScript、Vercelの自動デプロイ、CDN、画像圧縮、RTL対応、構造化データなど、実務的なWebパフォーマンスとSEOの知見は含まれています。一方で、個人ポートフォリオの構築事例であり、新しい技術やアーキテクチャを提示するものではなく、業界への影響範囲も限定的です。エンジニアにとって参考になる実践記事ではあるもの"
+    },
+    "241fe6e6fa6458e887e1f4150f185024": {
+      "score": 36,
+      "title": "Novita, StreamLake, etc are Ark wrappers",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] NovitaやStreamLakeがArkのラッパーとして機能するという話題は、AIモデル提供基盤やAPI抽象化レイヤーに関係するため、開発者向けの技術的 relevance はあります。一方で、記事の具体的な新機能、性能差、アーキテクチャ上の革新、採用実績がスニペットから確認できず、既存のAI/API関連トピックとも重なります。業界の前提を変える発"
+    },
+    "acc258c9f449aebfccbbda7c97becee1": {
+      "score": 60,
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] 1万5,000リポジトリ規模でコーディングエージェントを展開する事例は、AI開発基盤の運用設計、権限管理、品質保証、スケーリング手法を知るうえでエンジニアにとって有益です。一方で、業界の前提を変える新技術の発表ではなく、既存のAIエージェント活用を大規模組織へ適用した実践例に近いため、最高評価には届きません。また、直近に取り上げ済みの「agents」"
+    },
+    "cf98a89ef4a5ac4949000a3baf75b5f8": {
+      "score": 26,
+      "title": "Safeguards",
+      "date": "2026-11-26",
+      "reason": "[ScoreCache 2026-11-26] [Claude API Evaluation] タイトルが「Safeguards」のみで、具体的な技術内容、対象製品、影響範囲、新規性を判断できません。一般に安全対策や規制・運用ルールに関する話題と推測され、先端技術の革新というより堅実なリスク管理寄りです。情報量が極めて少ないため、重要度は低めに評価します。 [Editorial: AI-focus"
+    },
+    "b95478f9ad9d1bbefac0df0c2e898b81": {
+      "score": 75,
+      "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] Amazon SageMaker HyperPodのSlurmクラスタに対し、可観測性やユーザー管理をマネージドな拡張機能として提供し、API・コンソールから宣言的に設定できる点は、AI基盤の運用効率と再現性を高める実務的なクラウドアーキテクチャの進展です。共有GPUクラスタの運用負荷、設定ドリフト、権限管理を軽減できるため影響は大きい一方、既存のS"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 47,
+      "title": "October 04, 2026",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新であり、BigQuery JupyterLabプラグインの独立制御、Pre-Turing GPU向けCUDAドライバの事前導入、コンテナイメージのCritical/High CVE修正など、ML開発基盤の運用性と安全性に関わる実務的な変更です。一方で、業界の前提を変える新技術ではなく、主内容"
+    },
+    "75f9d10449da84f3694dce7f897c7e07": {
+      "score": 10,
+      "title": "Is Alice Huang a spy or not?",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] Nvidia CEO周辺の未検証のスパイ疑惑を扱うゴシップ・政治的話題であり、ソフトウェア技術、AI基盤、アーキテクチャ、開発者エコシステムへの具体的な新規性や影響が示されていません。エンジニア視点での実務的価値がほぼなく、一般消費者向けニュースに近い低重要度として評価します。"
+    },
+    "5acb7b2d5564e58f914e15859315c896": {
+      "score": 47,
+      "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+      "date": "2026-11-27",
+      "reason": "[Claude API Evaluation] 中国AI企業がOpenAIやAnthropicからのデータ提供を断られ、GoogleやMetaなど別のデータ源を模索する動きは、学習データの確保、モデル開発スケジュール、米中間のAIエコシステム分断に関わる重要な業界動向です。一方で、具体的な新技術や製品発表ではなく、既存モデルの学習データ調達問題が中心です。また、AI・モデル・Anthropicなど"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-27/blog.md",
+    "show_notes_path": "out/2026-11-27/show_notes.md",
+    "script_path": "out/2026-11-27/script_2hosts.md",
+    "audio_path": "out/2026-11-27/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-27/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-27/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 25264,
+        "output_tokens": 10309,
+        "cost_usd": 0.017424
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 21,
+        "input_tokens": 45881,
+        "output_tokens": 9873,
+        "cost_usd": 0.190492
+      }
+    ],
+    "tts": {
+      "chars": 4663,
+      "audio_sec": 705.9,
+      "cost_usd": 0.136116
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.344031
+  }
+}
