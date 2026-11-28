@@ -25,6 +25,74 @@
     <itunes:type>episodic</itunes:type>
     <podcast:guid>c8740be2-51f9-4580-b870-b33d3c21aa21</podcast:guid>
     <item>
+      <title>#240 MetaとAMI Labsによる3件の研究が、ヤン・ルカン氏が大規模言語モデルよりもJEPA型世界モデルに賭ける方針を…</title>
+      <description>Tech News Radio Show Notes - #240 (2026-11-28)
+
+エピソード情報
+• エピソード: #240
+• 日付: 2026-11-28
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models (https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/)
+• Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models (https://arxiv.org/abs/2611.33197)
+• Meta ads is now available in AWS Quick (https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/)
+• Context Scaling: A New Frontier of AI Scaling (https://arxiv.org/abs/2611.33160)
+
+注目の深掘り
+• How to choose the next safe step in application modernization (https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/)
+
+小ネタ・その他
+• Clay helps sales teams win with Codex and ChatGPT (https://openai.com/business/customer-stories/clay-plugins-openai)
+• October 04, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026)</description>
+      <enclosure url="https://pub-c3e999ff4cb2493fad0cd117f713f9ed.r2.dev/episodes/2026-11-28/episode_audio.mp3" length="11390252" type="audio/mpeg" />
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">Studio Machikita-2026-11-28</guid>
+      <itunes:duration>11:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>MetaとAMI Labsによる3件の研究が、ヤン・ルカン氏が大規模言語モデルよりもJEPA型世界モデルに賭ける方針を…</itunes:title>
+      <itunes:episode>240</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:summary>Tech News Radio Show Notes - #240 (2026-11-28)
+
+エピソード情報
+• エピソード: #240
+• 日付: 2026-11-28
+• 尺: 約 11 分
+
+免責事項
+当番組の内容は各情報源の要約です。正確な情報は必ず下記の原文リンクよりご確認ください。誤りがある場合はお知らせください。
+
+出典リンク一覧
+本日のトップニュース
+• Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models (https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/)
+• Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models (https://arxiv.org/abs/2611.33197)
+• Meta ads is now available in AWS Quick (https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/)
+• Context Scaling: A New Frontier of AI Scaling (https://arxiv.org/abs/2611.33160)
+
+注目の深掘り
+• How to choose the next safe step in application modernization (https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/)
+
+小ネタ・その他
+• Clay helps sales teams win with Codex and ChatGPT (https://openai.com/business/customer-stories/clay-plugins-openai)
+• October 04, 2026 (https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026)</itunes:summary>
+      <link>https://technewsradio.tokyo/episodes/2026-11-28/index.html</link>
+      <psc:chapters version="1.2">
+        <psc:chapter start="00:00:00.000" title="オープニング" />
+        <psc:chapter start="00:00:22.250" title="Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models" href="https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/" />
+        <psc:chapter start="00:01:58.220" title="Meta ads is now available in AWS Quick" href="https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/" />
+        <psc:chapter start="00:03:43.340" title="Context Scaling: A New Frontier of AI Scaling" href="https://arxiv.org/abs/2611.33160" />
+        <psc:chapter start="00:05:34.450" title="How to choose the next safe step in application modernization" href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/" />
+        <psc:chapter start="00:07:41.010" title="Clay helps sales teams win with Codex and ChatGPT" href="https://openai.com/business/customer-stories/clay-plugins-openai" />
+        <psc:chapter start="00:09:43.450" title="October 04, 2026" href="https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026" />
+        <psc:chapter start="00:11:20.670" title="エンディング" />
+      </psc:chapters>
+    </item>
+    <item>
       <title>#239 AIの電力不足が、長く停滞していたエネルギー源を復活させている ほか</title>
       <description>Tech News Radio Show Notes - #239 (2026-11-27)
 

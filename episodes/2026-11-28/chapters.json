@@ -1,0 +1,42 @@
+[
+  {
+    "start_sec": 0.0,
+    "title": "オープニング",
+    "url": null
+  },
+  {
+    "start_sec": 22.25,
+    "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+    "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/"
+  },
+  {
+    "start_sec": 118.22,
+    "title": "Meta ads is now available in AWS Quick",
+    "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/"
+  },
+  {
+    "start_sec": 223.34,
+    "title": "Context Scaling: A New Frontier of AI Scaling",
+    "url": "https://arxiv.org/abs/2611.33160"
+  },
+  {
+    "start_sec": 334.45,
+    "title": "How to choose the next safe step in application modernization",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"
+  },
+  {
+    "start_sec": 461.01,
+    "title": "Clay helps sales teams win with Codex and ChatGPT",
+    "url": "https://openai.com/business/customer-stories/clay-plugins-openai"
+  },
+  {
+    "start_sec": 583.45,
+    "title": "October 04, 2026",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes#October_04_2026"
+  },
+  {
+    "start_sec": 680.67,
+    "title": "エンディング",
+    "url": null
+  }
+]

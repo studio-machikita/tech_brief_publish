@@ -1,0 +1,373 @@
+{
+  "date": "2026-11-28",
+  "episode_date_local": "2026-11-28",
+  "content_snapshot_date": "2026-11-28",
+  "show_length_sec": 711,
+  "audio_size": 11390252,
+  "generated_at": "2026-11-28T02:42:01.889130+00:00",
+  "is_mock": false,
+  "picks": [
+    {
+      "item_id": "item-a037ac88",
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+      "title_ja": "MetaとAMI Labsによる3件の研究が、ヤン・ルカン氏が大規模言語モデルよりもJEPA型世界モデルに賭ける方針を裏付け",
+      "one_liner": "LeCun氏のJEPA路線、3つの研究で前進",
+      "fingerprint": "a037ac883a2a6812f02c36dcdd6ff509",
+      "score": 90,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "The Decoder",
+        "arXiv CS.CL"
+      ]
+    },
+    {
+      "item_id": "item-80eb7ce4",
+      "title": "Meta ads is now available in AWS Quick",
+      "title_ja": "Meta広告がAWS Quickで利用可能に",
+      "one_liner": "AWS QuickでMeta広告をAIで運用可能に",
+      "fingerprint": "80eb7ce40a6c824eddbbed392c3b8ce2",
+      "score": 66,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "AWS Machine Learning"
+      ]
+    },
+    {
+      "item_id": "item-01933640",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "title_ja": "コンテキストスケーリング:AIスケーリングの新たなフロンティア",
+      "one_liner": "AIの失敗は推論力より文脈不足が原因",
+      "fingerprint": "0193364092aaaae6494694a55d9da2fe",
+      "score": 60,
+      "allowed_action": "FULLTEXT_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows FULLTEXT_SUMMARY.",
+      "source_names": [
+        "arXiv CS.AI"
+      ]
+    },
+    {
+      "item_id": "item-599a9aeb",
+      "title": "How to choose the next safe step in application modernization",
+      "title_ja": "アプリケーションモダナイゼーションで次の安全な一歩を選ぶ方法",
+      "one_liner": "刷新は小さく区切って、安全な一歩から",
+      "fingerprint": "599a9aebc8ff73ed0147e7b3794fddbf",
+      "score": 49,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "GitHub AI and ML"
+      ]
+    },
+    {
+      "item_id": "item-c69a4e98",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "title_ja": "Clay、CodexとChatGPTで営業チームの成約を支援",
+      "one_liner": "ClayがChatGPTとCodexで営業支援を強化",
+      "fingerprint": "c69a4e98d70e37a7e217adc1a0dadea8",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [
+        "source_intent_promotional"
+      ],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "OpenAI News"
+      ]
+    },
+    {
+      "item_id": "item-1359bde0",
+      "title": "October 04, 2026",
+      "title_ja": "Workbench v2、BigQueryプラグインが独立",
+      "one_liner": "Workbench v2、BigQueryプラグインが独立",
+      "fingerprint": "1359bde0843274190ce33e3f333980cd",
+      "score": 46,
+      "allowed_action": "METADATA_SUMMARY",
+      "risks": [],
+      "decision_reason": "Source allows METADATA_SUMMARY.",
+      "source_names": [
+        "Vertex AI Release Notes"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "item_id": "item-0480d8e4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "How Intentful uses dots to make more time for growth"
+    },
+    {
+      "item_id": "item-7192cc09",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Strengthening our defenses against distillation attacks"
+    },
+    {
+      "item_id": "item-98ef689b",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Bots de compras con IA amenazan el dominio de Amazon y Google"
+    },
+    {
+      "item_id": "item-64d48cd4",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Serialize BigInt Stock Quantities With an Explicit JSON Contract"
+    },
+    {
+      "item_id": "item-7dc08ade",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "September 28, 2026"
+    },
+    {
+      "item_id": "item-9b2cb676",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Jensen Huang’s Job May Be Even More Difficult Now"
+    },
+    {
+      "item_id": "item-abde8824",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council"
+    },
+    {
+      "item_id": "item-21d07fc5",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers"
+    },
+    {
+      "item_id": "item-bd852571",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Etsy clarifies AI terms after seller backlash"
+    },
+    {
+      "item_id": "item-5d7d5c1a",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent"
+    },
+    {
+      "item_id": "item-8a5024a1",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices"
+    },
+    {
+      "item_id": "item-cf98a89e",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Safeguards"
+    },
+    {
+      "item_id": "item-c3677261",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "X finally gets parental controls after 20 years"
+    },
+    {
+      "item_id": "item-a4123782",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Copilot code review billing will default to the organization"
+    },
+    {
+      "item_id": "item-75f9d104",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Is Alice Huang a spy or not?"
+    },
+    {
+      "item_id": "item-7b5ea797",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Atari Homebrew Awards Cancelled"
+    },
+    {
+      "item_id": "item-2ad0c471",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM"
+    },
+    {
+      "item_id": "item-3d7c3229",
+      "reason": "Ranked too low (skip bucket).",
+      "title": "Yeti Coolers Are up to 30% Off for Black Friday (2026)"
+    }
+  ],
+  "score_cache": {
+    "7b5ea797c18d065f5a7a6722a7671a75": {
+      "score": 10,
+      "title": "Atari Homebrew Awards Cancelled",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] AtariのHomebrew Awards中止は、レトロゲームのコミュニティやイベント運営に関する話題であり、ソフトウェア技術、AI、クラウド、プログラミング言語などへの影響はほぼありません。技術的な新規性や業界全体への波及効果も限定的で、一般消費者向けゲーム関連のニュースとして重要度は低いため、最低評価帯としました。"
+    },
+    "0480d8e43aaa68b064bd405c98290c5e": {
+      "score": 44,
+      "title": "How Intentful uses dots to make more time for growth",
+      "date": "2026-11-25",
+      "reason": "[ScoreCache 2026-11-25] [ScoreCache 2026-11-25] [Claude API Evaluation] ウェブ調査や提案書作成、メッセージの監視・問題解決を自律的に行うAIエージェントの実用例であり、業務自動化という点では技術的な注目度があります。一方で、記事からは基盤技術の革新性や大規模な影響範囲、導入効果の具体性が十分に確認できず、既出のAI・エージェン"
+    },
+    "7192cc09384ef79a10308eedc2179715": {
+      "score": 44,
+      "title": "Strengthening our defenses against distillation attacks",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] AIモデルの蒸留攻撃への防御強化は、モデル窃取や不正利用に関わる重要な技術テーマであり、推論APIの監視、出力制御、レート制限など実装面での影響があります。一方で、記事タイトルだけでは具体的な新手法や業界を変える発表内容までは確認できず、セキュリティ対策寄りのニュースです。また、AI・モデル関連は直近放送済みのキーワードと重なるため、重複分を減点して"
+    },
+    "80eb7ce40a6c824eddbbed392c3b8ce2": {
+      "score": 66,
+      "title": "Meta ads is now available in AWS Quick",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] AWS QuickとMeta広告を自然言語で連携し、キャンペーン管理・分析からダッシュボードや自動ワークフロー生成まで行える点は、企業向けデータ活用と業務自動化に有用な具体的進展です。一方で、既存サービス間のコネクター提供が中心で、AIやクラウド基盤そのものの前提を変える革新ではありません。AI・Amazon関連の既出テーマと一部重なるものの、Met"
+    },
+    "599a9aebc8ff73ed0147e7b3794fddbf": {
+      "score": 49,
+      "title": "How to choose the next safe step in application modernization",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] レガシーアプリケーションの評価から、影響範囲を限定した安全なモダナイゼーション手順を示す実務的な技術記事であり、アーキテクチャ改善や開発プロセスには有用です。一方で、業界の前提を変える新技術や大規模な製品発表ではなく、内容の中心にあるGitHub Copilotのエージェント活用は既放送キーワードと重複するため20点減点しました。 [Editoria"
+    },
+    "a4123782c64aa97dc6b6a600cdf1176e": {
+      "score": 21,
+      "title": "Copilot code review billing will default to the organization",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] GitHub Copilot code reviewの請求先が、設定未完了の場合に個人ではなく組織へ自動移行する運用変更です。企業の予算管理や管理者設定には影響しますが、新技術やアーキテクチャの進化ではなく、主に料金・運用ポリシーの告知に留まります。加えて、既出キーワードであるCopilotに直接該当し、同一テーマとして減点しました。 [Editor"
+    },
+    "7dc08ade5f8a32458a8af08db87dccea": {
+      "score": 38,
+      "title": "September 28, 2026",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] Agent Platform Workbench v2の更新は、カスタムコンテナイメージに含まれるCritical/High脆弱性の修正が中心で、機能革新やアーキテクチャ上の大きな変化はありません。Colab Enterpriseのデフォルトランタイムテンプレート設定も運用効率を高める実務的な改善にとどまります。さらに、既出キーワードの「agent」"
+    },
+    "75f9d10449da84f3694dce7f897c7e07": {
+      "score": 16,
+      "title": "Is Alice Huang a spy or not?",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] Nvidia CEOをめぐる未検証のスパイ疑惑というゴシップ性の高い内容で、技術的な革新、ソフトウェア開発、AI基盤、アーキテクチャへの具体的な影響が示されていません。企業ガバナンスや地政学的リスクに発展する可能性はあるものの、現時点では根拠が未確立で、エンジニア視点でのニュース価値は限定的です。 [Editorial: AI-focused sou"
+    },
+    "21d07fc58607cf5aa97cba928ad7105f": {
+      "score": 35,
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] OpenAIとAppleという主要テック企業間の対立であり、共有サプライヤーや将来のデバイス事業、両社の提携関係に影響する点は注目に値します。一方、記事の中心は営業秘密の盗用や取引先への圧力をめぐる訴訟で、技術そのものの革新や実装上の進展ではありません。法的紛争としての重要性はあるものの、エンジニアリングへの直接的な影響は限定的なため、低めの評価とし"
+    },
+    "bd8525711a3aede4d8f9ae4244e0b39a": {
+      "score": 35,
+      "title": "Etsy clarifies AI terms after seller backlash",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] EtsyがAI関連用語を明確化する内容で、生成AIそのものの技術革新や実装ではなく、販売プラットフォームのポリシー・コミュニケーション上の対応です。出品者への影響はあるものの、エンジニアリング面でのアーキテクチャ変更や新技術の具体性に乏しく、既出のAI関連トピックとも近いため減点しています。 [Editorial: AI-focused source"
+    },
+    "2ad0c471eef6efbb2fc645ab8db113fc": {
+      "score": 6,
+      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] ブラックフライデーの一般消費者向けテック製品セール情報であり、ソフトウェア技術、アーキテクチャ、AI、クラウドなどへの新規性や技術的影響はほぼありません。評価基準上、スマートフォンやイヤホン等の消費者向けガジェット記事に該当するため、最低評価帯としました。"
+    },
+    "98ef689b1cb7ab2fb7c25c3151c196ce": {
+      "score": 43,
+      "title": "Bots de compras con IA amenazan el dominio de Amazon y Google",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] AIを活用したショッピングエージェントが、Google・Amazon・Meta・OpenAIといった主要プラットフォームの検索や購買導線を変える可能性があり、業界影響は大きい。一方で、記事はクリスマス商戦を巡る競争の紹介にとどまり、具体的な製品仕様・技術革新・導入実績が不明で、エンジニアリング上の新規性は限定的。AI、エージェント、Amazonなど既"
+    },
+    "9b2cb67623395c8229b71747c666bf5f": {
+      "score": 37,
+      "title": "Jensen Huang’s Job May Be Even More Difficult Now",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] NVIDIAのCEO復帰と、AIチップ事業を巡る顧客・サプライヤーとの信頼問題、政府機関やSECの調査は業界への影響が大きい一方、技術革新やアーキテクチャの新展開ではなく、経営・コンプライアンス寄りのニュースです。既出キーワードのAIおよびチップに関連する話題でもあり、重複分を減点しました。 [Editorial: AI/SaaS topic +5]"
+    },
+    "0193364092aaaae6494694a55d9da2fe": {
+      "score": 60,
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] AIシステムの性能向上をモデル規模だけでなく、利用可能なコンテキストの量・質・選択・鮮度という観点で捉え直す研究であり、実運用における失敗原因に直結する点は重要です。ユーザー状態、リポジトリ変更、ツール履歴、センサーデータなどを統合する設計は、将来のエージェントや長期タスクのアーキテクチャに影響し得ます。一方で、現時点ではarXiv上の概念整理・研究"
+    },
+    "abde8824c751e9f3c2583b584303c47d": {
+      "score": 36,
+      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] ドイツ連邦参議院の1949年以降の本会議記録を収録した、話者情報付きの大規模な政治談話コーパスであり、自然言語処理や歴史的な政治分析の再現性を高める点には技術的価値があります。一方で、基盤技術やアーキテクチャの革新ではなく、適用範囲も政治学・言語学向けの専門的なデータセットに限定されます。AI関連の直接的なモデル発表でもないため、業界全体への影響は中"
+    },
+    "64d48cd433c44696d4ae787edfabac16": {
+      "score": 41,
+      "title": "Serialize BigInt Stock Quantities With an Explicit JSON Contract",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] JavaScriptのBigIntをJSONへ安全にシリアライズする際、Number変換による精度損失を避け、10進文字列として明示的な契約を設ける実装例です。境界値テストや入力検証も含まれており、実務上のAPI連携には有用ですが、既存仕様や標準の進化ではなく、外部サービスとの実際のスキーマ合意も未検証の学習用サンプルに留まります。AIや既出キーワー"
+    },
+    "5d7d5c1ad7c3369d72aca330b9f41e45": {
+      "score": 32,
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] 家主のAIアシスタントが誤った家賃猶予を案内し、入居者の立ち退きにつながった事例で、AI導入時の回答精度、権限管理、責任分界、有人エスカレーションの重要性を示します。ただし、技術そのものの革新ではなく、個別の運用・法的トラブルが中心です。また、既出のAI関連トピックに該当するため減点しました。 [Editorial: AI/SaaS topic +5"
+    },
+    "c69a4e98d70e37a7e217adc1a0dadea8": {
+      "score": 46,
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] ClayがChatGPTとCodexを営業リサーチや市場開拓施策に統合し、モデルに複雑な推論を担わせる点は、AIを業務ワークフローへ組み込む実装例として一定の技術的価値があります。一方で、基盤モデルやアーキテクチャ自体の革新ではなく、特定業務向けの応用・統合が中心です。また、ChatGPT、Codex、モデル活用は直近の既出キーワードと重なるため、同"
+    },
+    "cf98a89ef4a5ac4949000a3baf75b5f8": {
+      "score": 26,
+      "title": "Safeguards",
+      "date": "2026-11-26",
+      "reason": "[ScoreCache 2026-11-26] [ScoreCache 2026-11-26] [Claude API Evaluation] タイトルが「Safeguards」のみで、具体的な技術内容、対象製品、影響範囲、新規性を判断できません。一般に安全対策や規制・運用ルールに関する話題と推測され、先端技術の革新というより堅実なリスク管理寄りです。情報量が極めて少ないため、重要度は低めに評価し"
+    },
+    "1359bde0843274190ce33e3f333980cd": {
+      "score": 46,
+      "title": "October 04, 2026",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] GoogleのAgent Platform Workbenchにおける依存パッケージ更新、BigQuery JupyterLabプラグインの独立設定、旧世代GPU向けCUDAドライバーの事前導入は、AI開発基盤の運用性・互換性を改善する実務的な変更です。一方で、主要機能の革新や業界の前提を変える発表ではなく、内容の中心は定期的なリリース更新とCrit"
+    },
+    "c3677261aea1976059e57bd5b6dfcef1": {
+      "score": 24,
+      "title": "X finally gets parental controls after 20 years",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] Xにおける未成年者向けペアレンタルコントロールの追加は、利用者保護やプラットフォーム運用上は一定の意味がありますが、技術的な革新性やエンジニアリング上の波及効果は限定的です。主題はソーシャルメディアの安全対策・運用ルールに近く、評価基準では法律・規制やOSS運用ルールに準じる低評価帯に該当します。"
+    },
+    "a037ac883a2a6812f02c36dcdd6ff509": {
+      "score": 90,
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] JEPAによる世界モデルが、LLM中心とは異なるAIアーキテクチャとしてロボット計画、学習効率、誤差訂正へ具体的に進展している点は非常に重要です。MetaとAMI Labsによる複数研究で、因果関係や環境理解を重視する方向性の実用可能性が示されており、将来のロボティクスや自律システムの設計に影響し得ます。一方で、各要素を統合した大規模かつ汎用的なシス"
+    },
+    "3d7c32296792b61df95b19548ee5ccd5": {
+      "score": 6,
+      "title": "Yeti Coolers Are up to 30% Off for Black Friday (2026)",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] Yetiのクーラーやタンブラーのブラックフライデー割引に関する一般消費者向け製品セールであり、ソフトウェア、AI、クラウド、プログラミング言語などの技術的な新規性や業界への影響はありません。"
+    },
+    "8a5024a15de3a9c03e28d150daac6a16": {
+      "score": 27,
+      "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices",
+      "date": "2026-11-28",
+      "reason": "[Claude API Evaluation] OpenAIとAppleの対立がサプライヤー関係や人材移動にまで拡大した点は、AI企業と大手プラットフォーム企業の競争構造を示すニュースとして一定の重要性があります。一方で、主題は技術革新ではなく、企業間の秘密情報・雇用契約・取引関係を巡る法的およびビジネス上の争いです。エンジニアリング面でも直接的なアーキテクチャや製品仕様の進展は確認できないため、"
+    }
+  },
+  "outputs": {
+    "blog_path": "out/2026-11-28/blog.md",
+    "show_notes_path": "out/2026-11-28/show_notes.md",
+    "script_path": "out/2026-11-28/script_2hosts.md",
+    "audio_path": "out/2026-11-28/episode_audio.wav",
+    "video_full_path": null,
+    "note_draft_path": "out/2026-11-28/note_draft.md",
+    "eyecatch_path": null,
+    "chapters_path": "out/2026-11-28/chapters.json"
+  },
+  "cost": {
+    "llm": [
+      {
+        "model": "gpt-5.6-luna",
+        "calls": 34,
+        "input_tokens": 28858,
+        "output_tokens": 9958,
+        "cost_usd": 0.017721
+      },
+      {
+        "model": "claude-sonnet-5-5",
+        "calls": 20,
+        "input_tokens": 45202,
+        "output_tokens": 9408,
+        "cost_usd": 0.184484
+      }
+    ],
+    "tts": {
+      "chars": 4667,
+      "audio_sec": 685.8,
+      "cost_usd": 0.132265
+    },
+    "openai_tts_details": [],
+    "total_cost_usd": 0.33447
+  }
+}
